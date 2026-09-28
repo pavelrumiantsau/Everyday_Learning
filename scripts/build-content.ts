@@ -78,8 +78,13 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
   const dup = seen.get(text.id);
   if (dup) errors.push(`${rel}: duplicate id ${text.id} (also in ${dup})`);
   seen.set(text.id, rel);
-  const itemIds = new Set(items.map((i) => i.id));
-  for (const g of text.glossary) if (g.item && !itemIds.has(g.item)) errors.push(`${rel}: glossary "${g.word}" points to unknown item ${g.item}`);
+  const byId = new Map(items.map((i) => [i.id, i]));
+  for (const g of text.glossary) {
+    if (!g.item) continue;
+    const it = byId.get(g.item);
+    if (!it) errors.push(`${rel}: glossary "${g.word}" points to unknown item ${g.item}`);
+    else if (it.text !== g.lemma) errors.push(`${rel}: glossary "${g.word}" (lemma ${g.lemma}) points to ${g.item}, which is "${it.text}"`);
+  }
   texts.push(text);
 }
 
