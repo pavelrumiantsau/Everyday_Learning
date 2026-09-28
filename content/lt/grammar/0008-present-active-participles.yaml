@@ -1,0 +1,84 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0008
+cefr: B1
+order: 8
+title: "Действительные причастия настоящего времени: dirbantis, skaitanti"
+explanation:
+  ru: |
+    Причастие *dirbantis* — это «работающий», то есть «который работает». Оно заменяет придаточное с *kuris*: *žmogus, kuris dirba bibliotekoje* = *žmogus, **dirbantis** bibliotekoje* = *bibliotekoje **dirbantis** žmogus*.
+
+    **Образование** — от 3-го лица настоящего времени:
+    - на **-a / -o** → **-antis** (м. р.), **-anti** (ж. р.): dirba → **dirbantis, dirbanti**; skaito → **skaitantis, skaitanti**; važiuoja → **važiuojantis**
+    - на **-i** → **-intis, -inti**: myli → **mylintis, mylinti**; turi → **turintis**; nori → **norintis**
+    - возвратные получают **be-** + **-si-**: juokiasi → **besijuokiantis**, mokosi → **besimokantis**
+
+    **Склонение** — как у прилагательных; почти во всех падежах основа на **-anč- / -inč-**:
+    - им.: dirbantis, dirbanti — мн. **dirbantys**, dirbančios
+    - род.: dirbančio, dirbančios — мн. dirbančių
+    - дат.: dirbančiam, dirbančiai — мн. **dirbantiems**, dirbančioms
+    - вин.: **dirbantį**, dirbančią — мн. dirbančius, dirbančias
+    - тв.: dirbančiu, dirbančia — мн. dirbančiais, dirbančiomis
+    - мест.: dirbančiame, dirbančioje — мн. dirbančiuose, dirbančiose
+
+    **Употребление**:
+    - вместо «который делает»: *upė, **tekanti** per miestą* — река, протекающая через город;
+    - как обычное прилагательное: ***sergantis** vaikas* (больной ребёнок), ***ateinanti** savaitė* (следующая неделя);
+    - как существительное: *visi **norintys*** (все желающие), *pradedantieji* (начинающие);
+    - после глаголов восприятия: *Mačiau **žaidžiančius** vaikus* — видел играющих детей.
+
+    Есть и короткая форма м. р. на **-ąs / -įs** (*dirbąs, mylįs*) — в основном в пересказе чужих слов: *Jis sako **nežinąs*** — «Он говорит, что не знает».
+comparison:
+  ru: |
+    По смыслу это русские причастия на *-ущий/-ющий, -ащий/-ящий*: *работающий, читающая, желающие*. Разница в стиле: в русском они книжные, а в украинском их вообще стараются избегать (*людина, яка працює*, а не *працюючий*). В литовском такие причастия — обычный разговорный язык: *Ieškau buto, turinčio balkoną* звучит совершенно нормально.
+
+    Ловушка: русское «следующий» — это не *sekantis*, а **kitas** или **ateinantis**: *kitą savaitę, ateinančiais metais*. *Sekantis* в этом значении — калька с русского, литовская норма считает её ошибкой.
+examples:
+  - { text: "Aš mačiau parke žaidžiančius vaikus.", translation: "Я видел играющих в парке детей.", source: "tatoeba:10901162" }
+  - { text: "Koala yra gyvūnas, gyvenantis Australijoje.", translation: "Коала — животное, обитающее в Австралии.", source: "tatoeba:11566347" }
+  - { text: "Aš prižiūrėjau sergančią seserį.", translation: "Я ухаживал за больной сестрой.", source: "tatoeba:11509110" }
+  - { text: "Temzė yra per Londoną tekanti upė.", translation: "Темза — это река, протекающая через Лондон.", source: "tatoeba:11192264" }
+  - { text: "Į festivalį gali pakviesti visus norinčius.", translation: "Можешь пригласить на фестиваль всех желающих.", source: "tatoeba:10267822" }
+exercises:
+  - type: cloze
+    text: "Pažįstu žmogų, ___ bibliotekoje."
+    answer: "dirbantį"
+    hint: "dirbti (dirba), вин. п. м. р."
+    translation: "Я знаю человека, работающего в библиотеке."
+  - type: cloze
+    text: "Prie lango sėdi ___ moteris."
+    answer: "skaitanti"
+    hint: "skaityti (skaito), им. п. ж. р."
+    translation: "У окна сидит читающая женщина."
+  - type: cloze
+    text: "Ieškome darbuotojo, ___ anglų kalbą."
+    answer: "mokančio"
+    hint: "mokėti (moka), род. п. м. р."
+    translation: "Мы ищем сотрудника, знающего английский язык."
+  - type: cloze
+    text: "Visi ___ gali ateiti."
+    answer: "norintys"
+    also: ["norintieji"]
+    hint: "norėti (nori), им. п. мн. ч."
+    translation: "Все желающие могут прийти."
+  - type: cloze
+    text: "Mano sesuo, ___ Londone, atvažiuos per Kalėdas."
+    answer: "gyvenanti"
+    hint: "gyventi (gyvena), им. п. ж. р."
+    translation: "Моя сестра, живущая в Лондоне, приедет на Рождество."
+  - type: cloze
+    text: "Nepažadink ___ vaiko."
+    answer: "miegančio"
+    hint: "miegoti (miega), род. п. м. р."
+    translation: "Не разбуди спящего ребёнка."
+  - type: cloze
+    text: "Ieškau buto, ___ balkoną."
+    answer: "turinčio"
+    hint: "turėti (turi), род. п. м. р."
+    translation: "Я ищу квартиру с балконом."
+  - type: cloze
+    text: "Padėjome ___ žmonėms."
+    answer: "sergantiems"
+    hint: "sirgti (serga), дат. п. мн. ч."
+    translation: "Мы помогли больным людям."

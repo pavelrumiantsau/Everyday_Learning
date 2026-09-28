@@ -1,0 +1,79 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0011
+cefr: B1
+order: 11
+title: "Деепричастие (padalyvis): grįžus, lyjant"
+explanation:
+  ru: |
+    *Padalyvis* — неизменяемая форма для «когда…», если у этого действия **другой деятель**, чем у главного глагола, или деятеля нет вообще. Сам деятель стоит в **дательном падеже**: ***Man grįžus** namo, visi jau miegojo* — когда я вернулся домой, все уже спали («я» ≠ «все»).
+
+    **Образование**:
+    - **настоящее** (одновременно) — от 3-го лица наст. вр. + **-nt**: dirba → **dirbant**, eina → **einant**, lyja → **lyjant**, baigia → **baigiant**, myli → **mylint**; возвратные + **-is**: mokosi → **mokantis**
+    - **прошедшее** (раньше) — от 3-го лица прош. вр.: -o → **-us**, -ė → **-us / -ius**: grįžo → **grįžus**, ėjo → **ėjus**, baigė → **baigus**, matė → **mačius**, pasakė → **pasakius**; с приставкой -si- внутри: pasibaigė → **pasibaigus**
+
+    **Когда нужен padalyvis**:
+    - другое лицо — в дательном: ***Mamai gaminant** vakarienę, vaikai žiūrėjo televizorių*; ***Atėjus pavasariui** žolė atgyja*;
+    - безличные явления: ***lyjant*** (когда идёт дождь), ***sningant***, *prieš **temstant*** (до темноты);
+    - обобщённое лицо («когда человек…»): *Prieš **išeinant** reikia pavalgyti*;
+    - после глаголов восприятия (кого — вин. п.): *Girdėjau **ją dainuojant*** — я слышал, как она поёт;
+    - устойчивые выражения: *atvirai **kalbant*** (откровенно говоря), *trumpai **tariant*** (короче говоря), ***sprendžiant** iš…* (судя по…).
+
+    **Pusdalyvis или padalyvis?** Спросите: кто делает оба действия?
+    - одно лицо, одновременно → *pusdalyvis*: ***Eidama** į parduotuvę, ji sutiko draugę.*
+    - одно лицо, раньше → причастие *-ęs/-usi*: ***Grįžęs** radau keletą laiškų.*
+    - разные лица → *padalyvis*: ***Jai einant** į parduotuvę, pradėjo lyti.* ***Sugrįžus** namo manęs laukė visa krūva laiškų* (подлежащее — «куча писем», а не «я»).
+comparison:
+  ru: |
+    В русском деепричастие обязано относиться к подлежащему, поэтому «Возвращаясь домой, пошёл дождь» — ошибка, и приходится говорить «Когда я возвращался домой, пошёл дождь». Литовский решает это одной формой: ***Man grįžtant** namo, pradėjo lyti.* Дательный деятеля напоминает древнерусский «дательный самостоятельный» (*вечеру же бывшу…*), который в литовском жив до сих пор.
+
+    Похожи на литовские и русские застывшие обороты: *откровенно говоря = atvirai kalbant*, *судя по = sprendžiant iš*, *по сравнению с = lyginant su*. Но *padalyvis* никогда не меняет форму: *grįžus* — и для него, и для неё, и для них.
+examples:
+  - { text: "Atėjus pavasariui žolė atgyja.", translation: "С приходом весны трава оживает.", source: "tatoeba:10514113" }
+  - { text: "Vos man įėjus į kambarį, iškart visi nutyla.", translation: "Стоит мне войти в комнату, как все сразу замолкают.", source: "tatoeba:13569891" }
+  - { text: "Prieš tau išeinant, ar aš galiu kai ko paklausti?", translation: "Прежде чем ты уйдёшь, могу я спросить кое-что?", source: "tatoeba:11644340" }
+  - { text: "Tomas lyjant ėjo namo.", translation: "Том шёл домой под дождём.", source: "tatoeba:11057810" }
+  - { text: "Atvirai kalbant, ji man nepatinka.", translation: "Откровенно говоря, она мне не нравится.", source: "tatoeba:10460555" }
+exercises:
+  - type: cloze
+    text: "Man ___ namo, visi jau miegojo."
+    answer: "grįžus"
+    also: ["sugrįžus"]
+    hint: "grįžti (grįžo) — раньше, деятель другой"
+    translation: "Когда я вернулся домой, все уже спали."
+  - type: cloze
+    text: "___, geriau sėdėti namie."
+    answer: "Lyjant"
+    hint: "lyti (lyja) — безличное, одновременно"
+    translation: "Когда идёт дождь, лучше сидеть дома."
+  - type: cloze
+    text: "Mamai ___ vakarienę, vaikai žiūrėjo televizorių."
+    answer: "gaminant"
+    hint: "gaminti (gamina) — одновременно, деятель другой"
+    translation: "Пока мама готовила ужин, дети смотрели телевизор."
+  - type: cloze
+    text: "Girdėjau ją ___."
+    answer: "dainuojant"
+    hint: "dainuoti (dainuoja) — после глагола восприятия"
+    translation: "Я слышал, как она поёт."
+  - type: cloze
+    text: "___ filmui, visi išėjo."
+    answer: "Pasibaigus"
+    hint: "pasibaigti (pasibaigė) — раньше, деятель другой"
+    translation: "Когда фильм закончился, все ушли."
+  - type: cloze
+    text: "Ji sutiko draugę, ___ į parduotuvę."
+    answer: "eidama"
+    hint: "eiti — то же подлежащее (она): pusdalyvis"
+    translation: "Она встретила подругу, идя в магазин."
+  - type: cloze
+    text: "Jai ___ į parduotuvę, pradėjo lyti."
+    answer: "einant"
+    hint: "eiti (eina) — подлежащее другое: padalyvis"
+    translation: "Когда она шла в магазин, начался дождь."
+  - type: cloze
+    text: "Atvirai ___, man tas filmas nepatiko."
+    answer: "kalbant"
+    hint: "kalbėti (kalba), устойчивое выражение"
+    translation: "Откровенно говоря, мне этот фильм не понравился."
