@@ -88,6 +88,15 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
   texts.push(text);
 }
 
+// The same word must not be taught twice (e.g. two batches picking different forms of one lemma).
+const byText = new Map<string, string>();
+for (const item of items) {
+  const key = `${item.id.slice(0, 2)}:${item.text.normalize("NFC").toLowerCase()}`;
+  const other = byText.get(key);
+  if (other) errors.push(`duplicate word "${item.text}": ${other} and ${item.id}`);
+  else byText.set(key, item.id);
+}
+
 const schedule = Schedule.safeParse(parse(readFileSync(join(root, "config/schedule.yaml"), "utf8")));
 if (!schedule.success) {
   for (const issue of schedule.error.issues) errors.push(`config/schedule.yaml: [${issue.path.join(".")}] ${issue.message}`);
