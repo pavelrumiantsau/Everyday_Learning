@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0012
+cefr: B1
+order: 12
+title: "Придаточные с kuris, kuri: «который»"
+explanation:
+  ru: |
+    *Kuris* (м. р.) и *kuri* (ж. р.) — это «который, которая». Придаточное с ними отделяется запятыми: *Vyras, **kuris** atėjo, yra gydytojas.*
+
+    Правило, как в русском, из двух частей:
+    - **род и число** — от слова, к которому относится: *vyras* → *kuris*, *katė* → *kuri*, *raktai* → *kurie*;
+    - **падеж** — по роли в придаточном: *Katė, **kurią** radai* (rasti ką? → вин.), *miestas, **kuriame** gimė* (где? → мест.).
+
+    Склонение *kuris* — окончания те же, что у *jis, ji* (jo, jam, jį, juo, jame → kurio, kuriam, kurį, kuriuo, kuriame):
+    - м. р. ед.: **kuris**, kurio, kuriam, **kurį**, kuriuo, **kuriame**
+    - ж. р. ед.: **kuri**, kurios, kuriai, **kurią**, kuria, **kurioje**
+    - м. р. мн.: **kurie**, kurių, kuriems, **kuriuos**, kuriais, kuriuose
+    - ж. р. мн.: **kurios**, kurių, kurioms, **kurias**, kuriomis, kuriose
+
+    (порядок: им., род., дат., вин., тв., мест.)
+
+    Падеж подсказывает **глагол придаточного**, а у литовских глаголов своё управление: *ieškoti, laukti, reikėti* требуют **родительного** — *žmogus, **kurio** ieškai*; *padėti* — дательного: *draugas, **kuriam** padėjau*.
+
+    «Чей» тоже передаётся через *kuris* — родительным **перед** существительным: *moteris, **kurios** sūnus serga* — «женщина, у которой болен сын».
+comparison:
+  ru: |
+    Логика полностью как у русского «который»: род и число — от главного слова, падеж — из придаточного. Ловушки только в управлении глаголов: «человек, которого ты **ищешь**» — и в литовском родительный (*kurio ieškai*), но «книга, которую я **жду**» → *knyga, **kurios** laukiu* (laukti + род.). И порядок слов с «чей»: по-русски «сын которой», по-литовски ***kurios** sūnus* — родительный всегда впереди.
+
+    После *tas, ta* литовцы часто говорят *kuris* там, где по-русски «кто»: *Tas, **kuris** abejoja, pralaimi* — «Тот, кто колеблется, проигрывает».
+examples:
+  - { text: "Vyras, kuris atėjo, yra gydytojas.", translation: "Мужчина, который пришёл, - врач.", source: "tatoeba:13550370" }
+  - { text: "Katė, kurią tu radai, yra mano.", translation: "Кошка, которую ты нашёл, моя.", source: "tatoeba:10864475" }
+  - { text: "Žmogaus, kurio ieškai, čia nėra.", translation: "Человека, которого ты ищешь, здесь нет.", source: "tatoeba:3954471" }
+  - { text: "Štai miestas, kuriame jis gimė.", translation: "Вот город, в котором он родился.", source: "tatoeba:13262421" }
+  - { text: "Aš radau raktus, kuriuos pamečiau.", translation: "Я нашёл ключи, которые потерял.", source: "tatoeba:11361801" }
+exercises:
+  - type: cloze
+    text: "Tai knyga, ___ aš skaičiau vakar."
+    answer: "kurią"
+    hint: "kuris — ж. р., вин. п. (skaityti ką?)"
+    translation: "Это книга, которую я читал вчера."
+  - type: cloze
+    text: "Pažįstu vyrą, ___ dirba ligoninėje."
+    answer: "kuris"
+    hint: "kuris — м. р., им. п."
+    translation: "Я знаю мужчину, который работает в больнице."
+  - type: cloze
+    text: "Namas, ___ gyvename, labai senas."
+    answer: "kuriame"
+    hint: "kuris — м. р., мест. п. (где?)"
+    translation: "Дом, в котором мы живём, очень старый."
+  - type: cloze
+    text: "Tai draugas, ___ aš padėjau."
+    answer: "kuriam"
+    hint: "kuris — м. р., дат. п. (padėti kam?)"
+    translation: "Это друг, которому я помог."
+  - type: cloze
+    text: "Tai draugai, ___ aš laukiau."
+    answer: "kurių"
+    hint: "kuris — мн. ч., род. п. (laukti ko?)"
+    translation: "Это друзья, которых я ждал."
+  - type: cloze
+    text: "Mergaitė, ___ tėvas yra gydytojas, gyvena šalia."
+    answer: "kurios"
+    hint: "kuris — ж. р., род. п. («чей»)"
+    translation: "Девочка, у которой отец врач, живёт рядом."
+  - type: cloze
+    text: "Tai peilis, ___ pjaunu duoną."
+    answer: "kuriuo"
+    hint: "kuris — м. р., тв. п. (чем?)"
+    translation: "Это нож, которым я режу хлеб."
+  - type: cloze
+    text: "Gatvė, ___ gyvenu, labai triukšminga."
+    answer: "kurioje"
+    hint: "kuris — ж. р., мест. п. (где?)"
+    translation: "Улица, на которой я живу, очень шумная."
