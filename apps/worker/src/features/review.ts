@@ -5,6 +5,7 @@ import { ITEM_BY_ID, SCHEDULE } from "../content";
 import { ensureCards } from "../daily";
 import { Db } from "../db";
 import type { Feature } from "../feature";
+import { grammarQueueCard } from "./grammar";
 
 const api = new Hono<{ Bindings: Env }>();
 
@@ -23,10 +24,12 @@ api.get("/queue", async (c) => {
   const limit = Math.min(Number(c.req.query("limit") ?? 100) || 100, QUEUE_MAX);
   await ensureCards(db);
   const rows = await db.dueCards(Date.now(), limit);
-  const cards = rows.flatMap((r) => {
+  const cards = rows.flatMap((r): object[] => {
     const item = ITEM_BY_ID.get(r.item_id);
     const kind = r.card_id.slice(r.card_id.lastIndexOf(":") + 1);
-    return item ? [{ cardId: r.card_id, kind, lang: langOf(item), item }] : []; // skip items removed from content
+    if (item) return [{ cardId: r.card_id, kind, lang: langOf(item), item }];
+    const cloze = grammarQueueCard(r.card_id); // grammar exercise card (lt-g-0001:cloze1)
+    return cloze ? [cloze] : []; // skip items removed from content
   });
   return c.json({ cards });
 });
