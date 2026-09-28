@@ -152,7 +152,8 @@ Everything below runs from the project folder (`cd ~/Downloads/"Everyday learnin
    ```bash
    pnpm setup:telegram
    ```
-   It sets the webhook (with the secret) and the command menu (`/today`, `/lesson`, `/help`), then prints the webhook
+   It sets the webhook (with the secret), the command menu (`/today`, `/lesson`, `/help`) and the **▶ Learn** button
+   that opens the Mini App, then prints the webhook
    status: your URL, `pending_update_count: 0`, `last_error_message: none`.
 7. 👤 Open your bot in Telegram → **Start** → `/today`. The reply should arrive in 1–2 seconds. Then try `/lesson`
    to get today's lesson and quiz polls right away. From tomorrow, it arrives by itself at your morning time.

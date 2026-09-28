@@ -9,25 +9,27 @@ const EVENING_WINDOW_MIN = 120;
 export const cardIdFor = (itemId: string) => `${itemId}:recog`;
 
 /** Called by the 15-minute cron. */
-export async function tick(db: Db, tg: Telegram, chatId: string, now = new Date()): Promise<string> {
+export async function tick(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now = new Date()): Promise<string> {
   const { day, hhmm } = localClock(now, SCHEDULE.timezone);
 
   if (inWindow(hhmm, SCHEDULE.morning, MORNING_WINDOW_MIN) && (await db.claimDayFlag(day, "morning_sent"))) {
-    await sendMorning(db, tg, chatId, now);
+    await sendMorning(db, tg, chatId, webAppUrl, now);
     return "morning";
   }
 
   if (inWindow(hhmm, SCHEDULE.evening, EVENING_WINDOW_MIN)) {
     const today = await db.getDay(day);
     if (today.reviews === 0 && !today.evening_sent && (await db.claimDayFlag(day, "evening_sent"))) {
-      await tg.sendMessage(chatId, "🔥 Ещё не занимался сегодня. 2 минуты — ответь на квизы выше или напиши /today.");
+      await tg.sendMessage(chatId, "🔥 Ещё не занимался сегодня. 2 минуты — ответь на квизы выше или открой карточки.", learnButton(webAppUrl));
       return "evening";
     }
   }
   return "idle";
 }
 
-export async function sendMorning(db: Db, tg: Telegram, chatId: string, now = new Date()): Promise<void> {
+export const learnButton = (url: string) => ({ text: "▶ Карточки", url });
+
+export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now = new Date()): Promise<void> {
   const { day } = localClock(now, SCHEDULE.timezone);
   const introduced = await db.introducedItemIds();
   const fresh = pickNewItems(ITEMS, introduced, SCHEDULE.new_per_day);
@@ -36,7 +38,7 @@ export async function sendMorning(db: Db, tg: Telegram, chatId: string, now = ne
   const lines = [`☀️ <b>Labas rytas!</b> Сегодня: ${fresh.length} новых, ${due.length} на повторение.`];
   if (fresh.length) lines.push("", ...fresh.map(formatNewItem));
   else lines.push("", "Новых слов пока нет — нужна следующая партия контента.");
-  await tg.sendMessage(chatId, lines.join("\n"));
+  await tg.sendMessage(chatId, lines.join("\n"), learnButton(webAppUrl));
 
   // Introduce the new items as cards (due now, so their quiz below counts as the first review).
   const at = now.getTime();

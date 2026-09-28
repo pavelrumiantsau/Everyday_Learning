@@ -6,6 +6,7 @@ import { createServer } from "node:http";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { signInitData } from "../packages/core/src/index.ts";
 
 const workerDir = fileURLToPath(new URL("../apps/worker", import.meta.url));
 const persist = mkdtempSync(join(tmpdir(), "el-smoke-"));
@@ -60,7 +61,7 @@ const msg = (text: string, from = Number(OWNER)) => ({ update_id: Date.now(), me
 
 try {
   for (let i = 0; ; i++) {
-    try { if ((await fetch(base)).ok) break; } catch {}
+    try { if ((await fetch(`${base}/health`)).ok) break; } catch {}
     if (i > 60) throw new Error("wrangler dev did not start:\n" + devLog);
     await new Promise((r) => setTimeout(r, 500));
   }
@@ -104,6 +105,33 @@ try {
   await post(msg("/today"));
   const today2 = calls.find((c) => c.method === "sendMessage")?.body.text ?? "";
   check(!today2.includes("Утренний урок придёт"), "/lesson counts as today's morning lesson (no second one from cron)");
+
+  // --- Mini App ---
+  const html = await (await fetch(`${base}/`)).text();
+  check(html.includes("telegram-web-app.js"), "the Mini App page is served at /");
+  check(!!lesson?.body.reply_markup?.inline_keyboard?.[0]?.[0]?.web_app?.url, "the lesson message has a button that opens the Mini App");
+
+  const initData = async (userId: number, token = "test") =>
+    signInitData({ user: JSON.stringify({ id: userId, first_name: "T" }), auth_date: String(Math.floor(Date.now() / 1000)) }, token);
+  const api = async (path: string, auth: string | null, init: RequestInit = {}) =>
+    fetch(`${base}/api${path}`, { ...init, headers: { "content-type": "application/json", ...(auth !== null && { authorization: `tma ${auth}` }) } });
+
+  check((await api("/session", null)).status === 401, "API without Telegram data → 401");
+  check((await api("/session", await initData(Number(OWNER), "wrong-token"))).status === 401, "API with a forged signature → 401");
+  check((await api("/session", await initData(999))).status === 403, "API for another Telegram user → 403");
+
+  const me = await initData(Number(OWNER));
+  const session = (await (await api("/session", me)).json()) as { due: number; reviewsToday: number };
+  check(session.due > 0 && session.reviewsToday === 2, `session: ${session.due} due, ${session.reviewsToday} answers today`);
+  const { cards } = (await (await api("/queue", me)).json()) as { cards: { cardId: string; item: { text: string } }[] };
+  check(cards.length === session.due && !!cards[0]?.item.text, `queue returns the ${cards.length} due cards with their content`);
+
+  const review = { id: crypto.randomUUID(), cardId: cards[0]!.cardId, rating: 3, reviewedAt: Date.now() };
+  const postReviews = (reviews: object[]) => api("/reviews", me, { method: "POST", body: JSON.stringify({ reviews }) }).then((r) => r.json()) as Promise<{ applied: number }>;
+  check((await postReviews([review])).applied === 1, "a flashcard answer is saved");
+  check((await postReviews([review])).applied === 0, "the same answer sent twice is saved once");
+  const after = (await (await api("/session", me)).json()) as { due: number; reviewsToday: number };
+  check(after.reviewsToday === 3 && after.due === session.due - 1, "answer counted, card no longer due");
 
   const cron = await fetch(`${base}/__scheduled?cron=*/15+*+*+*+*`);
   check(cron.ok, "cron handler runs");

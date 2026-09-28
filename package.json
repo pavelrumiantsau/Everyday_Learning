@@ -11,15 +11,16 @@
     "content:validate": "tsx scripts/build-content.ts --check",
     "test": "vitest run",
     "typecheck": "pnpm build:content && pnpm -r typecheck",
-    "dev": "pnpm build:content && pnpm --filter @el/worker dev",
+    "dev": "pnpm build && pnpm --filter @el/worker dev",
     "db:migrate": "pnpm --filter @el/worker db:migrate",
     "secrets:push": "tsx scripts/secrets-push.ts",
     "setup:telegram": "tsx scripts/setup-telegram.ts",
-    "smoke": "pnpm build:content && tsx scripts/smoke.ts",
-    "deploy:worker": "pnpm build:content && pnpm --filter @el/worker run deploy",
+    "smoke": "pnpm build && tsx scripts/smoke.ts",
+    "deploy:worker": "pnpm build && pnpm --filter @el/worker run deploy",
     "wrangler": "pnpm --filter @el/worker exec wrangler",
     "content:sources": "tsx scripts/fetch-sources.ts",
-    "content:candidates": "tsx scripts/candidates.ts"
+    "content:candidates": "tsx scripts/candidates.ts",
+    "build": "pnpm build:content && pnpm --filter @el/miniapp build"
   },
   "devDependencies": {
     "@types/node": "^26.6.3",

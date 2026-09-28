@@ -4,3 +4,4 @@ export * from "./srs";
 export * from "./quiz";
 export * from "./planner";
 export * from "./format";
+export * from "./telegram-auth";

@@ -6,4 +6,5 @@ interface Env {
   GEMINI_API_KEY?: string;
   GROQ_API_KEY?: string;
   TELEGRAM_API_BASE?: string; // local smoke test only
+  WEBAPP_URL: string; // [vars] in wrangler.toml
 }

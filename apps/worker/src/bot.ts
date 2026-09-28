@@ -1,7 +1,7 @@
 import { localClock, reviewQuiz, Rating } from "@el/core";
 import { SCHEDULE } from "./content";
 import type { Db } from "./db";
-import { sendMorning } from "./daily";
+import { learnButton, sendMorning } from "./daily";
 import type { Telegram, TgUpdate } from "./telegram";
 
 const HELP = [
@@ -11,7 +11,7 @@ const HELP = [
   "/help — эта справка",
 ].join("\n");
 
-export async function handleUpdate(update: TgUpdate, db: Db, tg: Telegram, ownerId: string, now = new Date()) {
+export async function handleUpdate(update: TgUpdate, db: Db, tg: Telegram, ownerId: string, webAppUrl: string, now = new Date()) {
   // Ignore everyone except the owner.
   const fromId = update.message?.from?.id ?? update.poll_answer?.user?.id;
   if (String(fromId) !== ownerId) return;
@@ -26,11 +26,11 @@ export async function handleUpdate(update: TgUpdate, db: Db, tg: Telegram, owner
     case "/help":
       return tg.sendMessage(ownerId, HELP);
     case "/today":
-      return tg.sendMessage(ownerId, await todayText(db, now));
+      return tg.sendMessage(ownerId, await todayText(db, now), learnButton(webAppUrl));
     case "/lesson": {
       // Counts as today's morning lesson, so the scheduled one doesn't arrive as well.
       await db.claimDayFlag(localClock(now, SCHEDULE.timezone).day, "morning_sent");
-      return sendMorning(db, tg, ownerId, now);
+      return sendMorning(db, tg, ownerId, webAppUrl, now);
     }
     default:
       return tg.sendMessage(ownerId, "Пока я понимаю только команды. " + HELP);

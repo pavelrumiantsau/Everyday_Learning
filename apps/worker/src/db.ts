@@ -45,10 +45,14 @@ export class Db {
       .bind(card.due.getTime(), JSON.stringify(card), cardId);
   }
 
-  logReview(cardId: string, rating: number, at: number, source: string) {
+  logReview(cardId: string, rating: number, at: number, source: string, id: string = crypto.randomUUID()) {
     return this.d1
       .prepare("INSERT INTO review_event (id, card_id, rating, reviewed_at, source) VALUES (?, ?, ?, ?, ?)")
-      .bind(crypto.randomUUID(), cardId, rating, at, source);
+      .bind(id, cardId, rating, at, source);
+  }
+
+  async reviewExists(id: string): Promise<boolean> {
+    return (await this.d1.prepare("SELECT 1 AS x FROM review_event WHERE id = ?").bind(id).first()) !== null;
   }
 
   mapPoll(pollId: string, cardId: string, correct: number, at: number) {

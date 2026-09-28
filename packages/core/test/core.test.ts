@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildQuiz, inWindow, Item, localClock, pickNewItems, reviewQuiz, newCard, formatNewItem } from "../src";
+import { buildQuiz, inWindow, Item, localClock, pickNewItems, reviewQuiz, reviewCard, newCard, formatNewItem } from "../src";
 
 const lt = (n: number, ru: string) =>
   Item.parse({ id: `lt-w-${String(n).padStart(4, "0")}`, type: "word", cefr: "A2", text: `žodis${n}`, meaning: { ru } });
@@ -61,6 +61,17 @@ describe("srs", () => {
     const again = reviewQuiz(card, now, false);
     expect(good.due.getTime()).toBeGreaterThan(again.due.getTime());
     expect(good.reps).toBe(1);
+  });
+});
+
+describe("reviewCard", () => {
+  it("orders intervals Again < Hard < Good < Easy", () => {
+    const now = new Date("2026-10-01T08:00:00Z");
+    const card = reviewQuiz(newCard(now), now, true); // one earlier correct answer
+    const later = new Date("2026-10-05T08:00:00Z");
+    const due = ([1, 2, 3, 4] as const).map((r) => reviewCard(card, later, r).due.getTime());
+    expect(due).toEqual([...due].sort((a, b) => a - b));
+    expect(new Set(due).size).toBe(4);
   });
 });
 

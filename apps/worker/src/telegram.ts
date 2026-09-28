@@ -22,12 +22,14 @@ export class Telegram {
     return data.result;
   }
 
-  sendMessage(chatId: number | string, html: string) {
+  /** `webApp` adds a button under the message that opens the Mini App. */
+  sendMessage(chatId: number | string, html: string, webApp?: { text: string; url: string }) {
     return this.call("sendMessage", {
       chat_id: chatId,
       text: html,
       parse_mode: "HTML",
       link_preview_options: { is_disabled: true },
+      ...(webApp && { reply_markup: { inline_keyboard: [[{ text: webApp.text, web_app: { url: webApp.url } }]] } }),
     });
   }
 
