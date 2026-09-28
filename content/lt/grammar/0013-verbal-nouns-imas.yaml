@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0013
+cefr: B1
+order: 13
+title: "Отглагольные существительные: skaitymas, mokymasis"
+explanation:
+  ru: |
+    Из почти любого глагола можно сделать существительное «процесс действия» — как русские *чтение, курение, плавание*. Суффикс **-imas** (после -yti — **-ymas**), род всегда **мужской**, склоняется как *namas*:
+    - skaityti → **skaitymas** (чтение), rūkyti → **rūkymas**, rašyti → **rašymas**
+    - bėgti → **bėgimas**, plaukti → **plaukimas**, gaminti → **gaminimas**
+    - kalbėti → **kalbėjimas**, žinoti → **žinojimas**
+    - -uoti, -auti → **-avimas**: dainuoti → **dainavimas**, važiuoti → **važiavimas**, keliauti → **keliavimas**
+    - -sti, -zti → основа с *d, g*: vesti → **vedimas**, žaisti → **žaidimas**, megzti → **mezgimas**
+
+    **Возвратные** глаголы дают возвратное существительное: mokytis → **mokymasis**, skustis → **skutimasis**. Частица *-si* стоит в конце и склоняется вместе со словом: им. **mokymasis**, род. **mokymosi**, дат. **mokymuisi**, вин. **mokymąsi**, тв. **mokymusi**, мест. **mokymesi**.
+
+    **Управление:** дополнение и «деятель» стоят в **родительном** и идут **перед** существительным: *skaityti knygas* → ***knygų** skaitymas*, *gaminti maistą* → ***maisto** gaminimas*, *Marija dainuoja* → ***Marijos** dainavimas*.
+
+    Где встречается чаще всего: запреты и объявления (***Rūkymas** draudžiamas*), хобби (*mano hobis — **skaitymas***), после предлогов и глаголов с управлением (*po **bėgimo**, užsiėmęs **rašymu***).
+
+    У многих глаголов есть и более «старое» существительное с конкретным значением: *dirbti* → **darbas** (работа), а *dirbimas* — только «обработка» (*žemės dirbimas*). Многие слова на -imas тоже стали конкретными: *klausimas* (вопрос), *atsakymas* (ответ), *gyvenimas* (жизнь).
+comparison:
+  ru: |
+    Прямой аналог русских слов на *-ние, -ение*: *skaitymas* — чтение, *rūkymas* — курение, *plaukimas* — плавание. Даже управление то же: «чтение **книг**» — ***knygų** skaitymas*. Отличия: родительный стоит **впереди** (*kalbų mokymasis* — «изучение языков»), род всегда мужской (а не средний, как у «чтение»), а у возвратных глаголов *-si* сохраняется: *mokymasis* — буквально «учение-ся». В разговоре литовцы часто предпочитают инфинитив: *Man patinka skaityti* звучит естественнее, чем *Man patinka skaitymas*.
+examples:
+  - { text: "Skaitymas yra tikras malonumas.", translation: "Чтение — настоящее удовольствие.", source: "tatoeba:13652456" }
+  - { text: "Rūkymas mano kambaryje yra uždraustas.", translation: "Курение в моей комнате запрещено.", source: "tatoeba:12180128" }
+  - { text: "Jai patinka plaukimas.", translation: "Ей нравится плавание.", source: "tatoeba:12979239" }
+  - { text: "Mano tėvas užsiėmęs laiškų rašymu.", translation: "Мой отец занят написанием писем.", source: "tatoeba:10669612" }
+  - { text: "Kalbų mokymasis reiškia žodžių mokymąsi.", translation: "Учить языки — значит учить слова.", source: "tatoeba:13747090" }
+exercises:
+  - type: cloze
+    text: "Mano mėgstamiausias užsiėmimas — knygų ___."
+    answer: "skaitymas"
+    hint: "skaityti → сущ., им. п."
+    translation: "Моё любимое занятие — чтение книг."
+  - type: cloze
+    text: "Man labai patinka ___ jūroje."
+    answer: "plaukimas"
+    hint: "plaukti → сущ., им. п."
+    translation: "Мне очень нравится плавание в море."
+  - type: cloze
+    text: "Kalbų ___ reikalauja kantrybės."
+    answer: "mokymasis"
+    hint: "mokytis → сущ., им. п."
+    translation: "Изучение языков требует терпения."
+  - type: cloze
+    text: "Jis daug laiko skiria kalbų ___."
+    answer: "mokymuisi"
+    hint: "mokytis → сущ., дат. п. (skirti kam?)"
+    translation: "Он уделяет много времени изучению языков."
+  - type: cloze
+    text: "Mama užsiėmusi maisto ___."
+    answer: "gaminimu"
+    hint: "gaminti → сущ., тв. п. (užsiėmęs kuo?)"
+    translation: "Мама занята приготовлением еды."
+  - type: cloze
+    text: "Visi girdėjo jos ___."
+    answer: "dainavimą"
+    hint: "dainuoti → сущ., вин. п."
+    translation: "Все слышали её пение."
+  - type: cloze
+    text: "Po ___ visada jaučiuosi geriau."
+    answer: "bėgimo"
+    hint: "bėgti → сущ., род. п. (po ko?)"
+    translation: "После бега я всегда чувствую себя лучше."
+  - type: cloze
+    text: "___ vairavimas mieste nėra lengvas."
+    answer: "Automobilio"
+    hint: "automobilis — вождение чего? род. п."
+    translation: "Вождение машины в городе — дело нелёгкое."
