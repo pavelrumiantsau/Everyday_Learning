@@ -61,5 +61,64 @@ w|laimėjimas|noun|m|B2|достижение; выигрыш|12748896||laimėjim
 w|visiškai|adv||B1|совершенно, полностью|12859470|
 w|kvietimas|noun|m|B1|приглашение|3580195||kvietimo
 w|pavyzdys|noun|m|A2|пример|14059338|pavyzdžiui — например|pavyzdžio
+w|paskaita|noun|f|B1|лекция|12285934||paskaitos
+w|atsilyginti|verb||B2|отплатить; расплатиться|10781668|atsilyginti kam už ką — отплатить кому за что|atsilygina, atsilygino
+w|oficialus|adj||B1|официальный|13497093|
+w|posakis|noun|m|B2|выражение, поговорка|12961272||posakio
+w|užpildyti|verb||B1|заполнить|13401027|užpildyti anketą — заполнить анкету|užpildo, užpildė
+w|siuntinys|noun|m|B1|посылка|13915203||siuntinio
+w|liautis|verb||B2|перестать, прекратить|13357610|Неправильное прош. вр.: liovėsi; liautis + инф. — перестать что-то делать|liaujasi, liovėsi
+w|tvirtas|adj||B1|крепкий, прочный; твёрдый|10753600|
+w|terminas|noun|m|B2|срок; термин|10325525|paskutinis terminas — крайний срок|termino
+w|pažinoti|verb||B1|знать (кого-то), быть знакомым|13408958|Наст. вр. как у pažinti: pažįsta; прош. вр.: pažinojo|pažįsta, pažinojo
+w|teisininkas|noun|m|B2|юрист|13762160||teisininko
+w|pridėti|verb||B1|добавить|11473016|pridėti ko (+ род. п.) — добавить (немного) чего|prideda, pridėjo
+w|bevertis|adj||B2|ничего не стоящий, бесполезный|13725570|
+w|literatūra|noun|f|B1|литература|11921784||literatūros
+w|nervintis|verb||B1|нервничать|10341589||nervinasi, nervinosi
+w|užsakymas|noun|m|B1|заказ|10517900||užsakymo
+w|numatyti|verb||B2|предусмотреть; предвидеть|13797217||numato, numatė
+w|kupinas|adj||B2|полный (чего), исполненный|13344001|kupinas ko (+ род. п.): kupinas jėgų — полон сил
+w|pelnas|noun|m|B2|прибыль|12105594||pelno
+w|nuraminti|verb||B1|успокоить|12888385||nuramina, nuramino
+w|protėvis|noun|m|B2|предок|10857501|Обычно во мн. ч.: protėviai — предки|protėvio
+w|pridurti|verb||B2|добавить (к сказанному)|2970363|Прош. вр.: pridūrė|priduria, pridūrė
+w|gabus|adj||B1|способный, одарённый|11843017|
+w|lemtis|noun|f|B2|судьба, участь|13053714|Ж. р., хотя на -is|lemties
+w|atrasti|verb||B2|открыть (сделать открытие); обрести|10706084||atranda, atrado
+w|kilmė|noun|f|B2|происхождение|10473657||kilmės
+w|aptikti|verb||B2|обнаружить|10187903||aptinka, aptiko
+w|kantrus|adj||B1|терпеливый|8953570|
+w|priešininkas|noun|m|B2|противник, соперник|11782207||priešininko
+w|pasitikti|verb||B1|встретить (прибывающего)|12352362|Не путать с pasitikėti — доверять|pasitinka, pasitiko
+w|įrankis|noun|m|B1|инструмент (орудие)|10166654||įrankio
+w|kentėti|verb||B1|страдать|12427171||kenčia, kentėjo
+w|sklandžiai|adv||B2|гладко, без помех|11909810|
+w|gamykla|noun|f|B1|завод, фабрика|2621787||gamyklos
+w|iškęsti|verb||B2|вытерпеть, вынести|12401805||iškenčia, iškentė
+w|sumuštinis|noun|m|A2|бутерброд|10275754||sumuštinio
+w|drąsus|adj||B1|смелый, храбрый|8735972|
+w|nesąmonė|noun|f|B1|чепуха, ерунда|7776539|Nekalbėk nesąmonių — не говори ерунды|nesąmonės
+w|išreikšti|verb||B2|выразить|12370340||išreiškia, išreiškė
+w|smulkmena|noun|f|B1|мелочь, пустяк; подробность|12530539||smulkmenos
+w|juokauti|verb||B1|шутить|11609086||juokauja, juokavo
+w|nuoširdus|adj||B1|искренний; сердечный|13757789|nuoširdžiai dėkoju — сердечно благодарю
+w|užuolaida|noun|f|B1|штора, занавеска|11647731||užuolaidos
+w|pavežti|verb||B1|подвезти|3596300||paveža, pavežė
+w|baldai|noun|m|B1|мебель|12137953|Мн. ч., в отличие от русского|baldų
+w|apibūdinti|verb||B2|описать, охарактеризовать|12288189||apibūdina, apibūdino
+w|laikinas|adj||B1|временный|13839618|
+w|grąža|noun|f|B1|сдача (деньги)|12852924||grąžos
+w|lankytis|verb||B1|бывать, посещать|13262441|lankytis kur (+ мест. п.) — бывать где|lankosi, lankėsi
+w|dydis|noun|m|B1|размер|13794981||dydžio
+w|paveikti|verb||B2|повлиять, воздействовать|13014752|paveikti ką (+ вин. п.) — повлиять на что|paveikia, paveikė
+w|aštrus|adj||B1|острый|4782853|Также о еде: aštrus padažas — острый соус
+w|paroda|noun|f|B1|выставка|4645625||parodos
+w|jaunimas|noun|m|B1|молодёжь|11648067||jaunimo
+p|tarkime|phrase||B2|допустим, предположим|12968486|
+w|nuostolis|noun|m|B2|убыток, ущерб|8361056||nuostolio
+w|paskola|noun|f|B1|кредит, заём|12482674|imti paskolą — брать кредит|paskolos
+w|sandoris|noun|m|B2|сделка|13676334||sandorio
+w|prekyba|noun|f|B2|торговля|12377795|prekybos centras — торговый центр|prekybos
 """
-PLURAL_ONLY = ["pajamos", "išlaidos"]
+PLURAL_ONLY = ["pajamos", "išlaidos", "baldai"]
