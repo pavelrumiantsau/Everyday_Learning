@@ -1,6 +1,7 @@
 import { grammarLabel } from "@el/core/labels";
 import { useState } from "react";
 import { flushReviews, getQueue, recordReview, type QueueCard, type Rating } from "../api";
+import { Play } from "../Audio";
 import { FLAG } from "../flags";
 import { haptic } from "../telegram";
 
@@ -66,11 +67,12 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
       <p className="hint small">
         {FLAG[card.lang]} {index + 1} / {cards.length}
       </p>
-      <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>
+      <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} aria-disabled={revealed}>
         {isForms && <span className="badge">3 формы</span>}
         <span className="word">{head}</span>
         {!isForms && item.gen && <span className="gen">{item.gen}</span>}
         {!isForms && grammar && <span className="hint small">{grammar}</span>}
+        {(revealed || !item.forms) && <Play id={item.id} kind="word" />}
         {revealed ? (
           <span className="answer">
             {isForms ? <span className="forms big">{forms}</span> : <span className="meaning">{meaning}</span>}
@@ -78,7 +80,7 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
             {note && <span className="note">💡 {note}</span>}
             {example && (
               <span className="example">
-                <i>{example.text}</i>
+                <i>{example.text} <Play id={item.id} kind="ex" /></i>
                 <span className="hint">{example.translation}</span>
               </span>
             )}
