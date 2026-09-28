@@ -21,4 +21,12 @@ export interface Smoke {
   state: Record<string, unknown>;
   /** Set by the fake Telegram server: the next response for a method (e.g. getFile). */
   fakeResults: Record<string, unknown>;
+  /** Fake AI providers (scripts/smoke/fake-llm.ts): requests seen, and forced 503s per provider. */
+  llm: FakeLlmState;
+}
+
+export interface FakeLlmState {
+  requests: { provider: "groq" | "google"; path: string; body: string }[];
+  /** Number of upcoming requests to a provider that get HTTP 503. */
+  fail: Partial<Record<"groq" | "google", number>>;
 }

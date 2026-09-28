@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 import { signInitData } from "../packages/core/src/index.ts";
 import type { Smoke } from "./smoke/context.ts";
 import { CHECKS } from "./smoke/index.ts";
+import { createFakeLlm, fakeLlmVars } from "./smoke/fake-llm.ts";
 
 const workerDir = fileURLToPath(new URL("../apps/worker", import.meta.url));
 const persist = mkdtempSync(join(tmpdir(), "el-smoke-"));
@@ -18,10 +19,12 @@ const OWNER = "42", SECRET = "smoke-secret", PORT = 8788, TG_PORT = 8799;
 const calls: { method: string; body: any }[] = [];
 let pollSeq = 0;
 const fakeResults: Record<string, unknown> = {}; // checks can set custom Telegram responses (e.g. getFile)
+const { handle: fakeLlm, state: llm } = createFakeLlm(calls);
 const tg = createServer((req, res) => {
   let raw = "";
   req.on("data", (c) => (raw += c));
   req.on("end", () => {
+    if (fakeLlm(req.url!, raw, res)) return; // fake AI providers + Telegram file downloads (scripts/smoke/fake-llm.ts)
     const method = req.url!.split("/").pop()!;
     calls.push({ method, body: JSON.parse(raw || "{}") });
     const result =
@@ -43,7 +46,7 @@ execFileSync("pnpm", ["exec", "wrangler", "d1", "migrations", "apply", "everyday
   env: { ...process.env, CI: "1" },
 });
 
-const vars = { TELEGRAM_BOT_TOKEN: "test", TELEGRAM_USER_ID: OWNER, TELEGRAM_WEBHOOK_SECRET: SECRET, TELEGRAM_API_BASE: `http://127.0.0.1:${TG_PORT}` };
+const vars = { TELEGRAM_BOT_TOKEN: "test", TELEGRAM_USER_ID: OWNER, TELEGRAM_WEBHOOK_SECRET: SECRET, TELEGRAM_API_BASE: `http://127.0.0.1:${TG_PORT}`, ...fakeLlmVars(TG_PORT) };
 const dev = spawn(
   "pnpm",
   ["exec", "wrangler", "dev", "--port", String(PORT), "--persist-to", persist, "--test-scheduled",
@@ -74,7 +77,7 @@ try {
     signInitData({ user: JSON.stringify({ id: userId, first_name: "T" }), auth_date: String(Math.floor(Date.now() / 1000)) }, token);
   const api = async (path: string, auth: string | null, init: RequestInit = {}) =>
     fetch(`${base}/api${path}`, { ...init, headers: { "content-type": "application/json", ...(auth !== null && { authorization: `tma ${auth}` }) } });
-  const t: Smoke = { OWNER, base, calls, check, post, msg, initData, api, me: await initData(Number(OWNER)), state: {}, fakeResults };
+  const t: Smoke = { OWNER, base, calls, check, post, msg, initData, api, me: await initData(Number(OWNER)), state: {}, fakeResults, llm };
 
   for (const c of CHECKS) {
     console.log(`— ${c.name}`);
