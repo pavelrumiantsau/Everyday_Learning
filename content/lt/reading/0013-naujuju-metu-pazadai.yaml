@@ -1,0 +1,48 @@
+id: lt-r-0013
+cefr: B1
+title: Naujųjų metų pažadai
+topic: новогодние обещания
+source: generated
+text: |
+  Kiekvienų metų pabaigoje sau pažadu, kad naujaisiais metais būsiu geresnis. Deja, dažniausiai jau vasarį savo pažadus pamirštu. Šį kartą nusprendžiau elgtis kitaip: pažadų bus tik trys, ir aš juos užsirašysiu į sąsiuvinį.
+
+  Pirmas pažadas – mokytis lietuvių kalbos kiekvieną dieną. Mokysiuosi bent dvidešimt minučių per dieną: kartosiu žodžius, skaitysiu tekstus ir su kolegomis kalbėsiu tik lietuviškai. Jei man pavyktų, metų pabaigoje galėčiau laisvai kalbėti ir suprasti beveik viską.
+
+  Antras pažadas – daugiau sportuoti. Dar gruodį užsirašiau į sporto klubą netoli namų. Du kartus per savaitę eisiu į treniruotes, o savaitgaliais bėgiosiu parke. Trečias pažadas – rečiau žiūrėti į telefoną. Vakare padėsiu jį į kitą kambarį, o prieš miegą skaitysiu knygą.
+
+  Žinau, kad nebus lengva. Todėl apie savo pažadus papasakojau draugui – jis kas mėnesį manęs paklaus, kaip man sekasi. Jei kada nors nepavyks, nepasiduosiu ir tiesiog pradėsiu iš naujo. Svarbiausia – ne tobulas rezultatas, o maži žingsniai kiekvieną dieną.
+glossary:
+  - { word: pažadu, lemma: pažadėti, meaning: пообещать, item: lt-w-0298, note: "наст. вр., я: sau pažadu — обещаю себе" }
+  - { word: naujaisiais, lemma: naujasis, pos: adj, meaning: новый, note: "местоим. форма, твор. п. мн. ч.: naujaisiais metais — в новом году" }
+  - { word: deja, lemma: deja, pos: adv, meaning: к сожалению }
+  - { word: pažadus, lemma: pažadas, meaning: обещание, item: lt-w-0466, note: "вин. п. мн. ч." }
+  - { word: pamirštu, lemma: pamiršti, pos: verb, forms: { pres: pamiršta, past: pamiršo }, meaning: забыть, note: "наст. вр., я" }
+  - { word: elgtis, lemma: elgtis, meaning: "вести себя, поступать", item: lt-w-0318 }
+  - { word: užsirašysiu, lemma: užsirašyti, pos: verb, forms: { pres: užsirašo, past: užsirašė }, meaning: "записать (себе); записаться", note: "буд. вр., я; ниже užsirašiau į klubą — записался в клуб" }
+  - { word: sąsiuvinį, lemma: sąsiuvinis, pos: noun, gender: m, gen: sąsiuvinio, meaning: тетрадь, note: "вин. п. после į" }
+  - { word: mokysiuosi, lemma: mokytis, pos: verb, forms: { pres: mokosi, past: mokėsi }, meaning: учиться, note: "буд. вр., я" }
+  - { word: kartosiu, lemma: kartoti, pos: verb, forms: { pres: kartoja, past: kartojo }, meaning: повторять, note: "буд. вр., я" }
+  - { word: pavyktų, lemma: pavykti, meaning: "удаться, получиться", item: lt-w-0340, note: "условное накл.: jei man pavyktų — если бы мне удалось" }
+  - { word: galėčiau, lemma: galėti, pos: verb, forms: { pres: gali, past: galėjo }, meaning: мочь, note: "условное накл., я: мог бы" }
+  - { word: laisvai, lemma: laisvai, meaning: свободно, item: lt-w-0034 }
+  - { word: treniruotes, lemma: treniruotė, pos: noun, gender: f, gen: treniruotės, meaning: тренировка, note: "вин. п. мн. ч.: eiti į treniruotes — ходить на тренировки" }
+  - { word: bėgiosiu, lemma: bėgioti, pos: verb, forms: { pres: bėgioja, past: bėgiojo }, meaning: бегать, note: "буд. вр., я" }
+  - { word: rečiau, lemma: retai, meaning: редко, item: lt-w-0022, note: "сравн. ст.: rečiau — реже" }
+  - { word: padėsiu, lemma: padėti, pos: verb, forms: { pres: padeda, past: padėjo }, meaning: "положить; помочь", note: "буд. вр., я: здесь — положу" }
+  - { word: papasakojau, lemma: papasakoti, pos: verb, forms: { pres: papasakoja, past: papasakojo }, meaning: рассказать, note: "прош. вр., я" }
+  - { word: paklaus, lemma: paklausti, pos: verb, forms: { pres: paklausia, past: paklausė }, meaning: спросить, note: "буд. вр., 3 л.; paklausti ko (+ род. п.): manęs paklaus — спросит меня" }
+  - { word: sekasi, lemma: sektis, pos: verb, forms: { pres: sekasi, past: sekėsi }, meaning: "удаваться, идти (о делах)", note: "kaip man sekasi — как у меня дела (получается)" }
+  - { word: nepasiduosiu, lemma: pasiduoti, meaning: сдаться, item: lt-w-0137, note: "буд. вр., я, с отрицанием: не сдамся" }
+  - { word: naujo, lemma: iš naujo, pos: phrase, meaning: заново }
+  - { word: tobulas, lemma: tobulas, pos: adj, meaning: "идеальный, совершенный" }
+  - { word: žingsniai, lemma: žingsnis, meaning: шаг, item: lt-w-0124, note: "им. п. мн. ч." }
+questions:
+  - q: Kiek pažadų jis šį kartą sau davė?
+    options: ["Tris", "Penkis", "Dešimt"]
+    answer: 0
+  - q: Ką jis darys vakare su telefonu?
+    options: ["Išjungs jį visai savaitei", "Padės jį į kitą kambarį", "Atiduos jį draugui"]
+    answer: 1
+  - q: Kam jis papasakojo apie savo pažadus?
+    options: ["Mokytojui", "Kolegai", "Draugui"]
+    answer: 2
