@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0001
+cefr: A1
+order: 1
+title: "Present tense of regular verbs: -ar, -er, -ir"
+explanation:
+  en: |
+    Spanish verbs fall into three groups by their infinitive ending: **-ar** (hablar), **-er** (comer), **-ir** (vivir). To make the present tense, drop the ending and add:
+    - **-ar** hablar: habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**
+    - **-er** comer: com**o**, com**es**, com**e**, com**emos**, com**éis**, com**en**
+    - **-ir** vivir: viv**o**, viv**es**, viv**e**, viv**imos**, viv**ís**, viv**en**
+
+    The order is yo, tú, él/ella/**usted**, nosotros, vosotros, ellos/ellas/**ustedes**. The polite *usted* (you, formal) takes the 3rd-person form: *¿Usted vive aquí?*
+
+    The ending already shows the person, so the pronoun is usually **dropped**: *Hablo español* — "I speak Spanish". Add *yo, tú…* only for emphasis or contrast.
+
+    -er and -ir differ only in *nosotros* and *vosotros*: com**emos** / viv**imos**.
+comparison:
+  en: |
+    Like Russian, Spanish changes the verb for every person (*говорю, говоришь, говорит…*), which is why the pronoun can be left out — unlike English "I speak / you speak".
+
+    One Spanish present covers English "I work", "I'm working" and often "I'll work (soon)": *Trabajo mañana* — "I'm working tomorrow".
+examples:
+  - { text: "Hablo árabe pero estudio inglés.", translation: "I speak Arabic but I study English.", source: "tatoeba:436962" }
+  - { text: "Hablas español muy bien.", translation: "You speak Spanish very well.", source: "tatoeba:856125" }
+  - { text: "Bebo café por la mañana.", translation: "I drink coffee in the morning.", source: "tatoeba:436572" }
+  - { text: "Vivimos cerca de la escuela.", translation: "We live close to the school.", source: "tatoeba:1002623" }
+  - { text: "Viven cerca de la playa.", translation: "They live near the beach.", source: "tatoeba:783089" }
+exercises:
+  - type: cloze
+    text: "Yo ___ en una oficina."
+    answer: "trabajo"
+    hint: "trabajar"
+    translation: "I work in an office."
+  - type: cloze
+    text: "¿Tú ___ café por la mañana?"
+    answer: "bebes"
+    hint: "beber"
+    translation: "Do you drink coffee in the morning?"
+  - type: cloze
+    text: "Nosotros ___ en un piso pequeño."
+    answer: "vivimos"
+    hint: "vivir"
+    translation: "We live in a small flat."
+  - type: cloze
+    text: "Mi hermana ___ tres idiomas."
+    answer: "habla"
+    hint: "hablar"
+    translation: "My sister speaks three languages."
+  - type: cloze
+    text: "Ellos ___ mucho los fines de semana."
+    answer: "leen"
+    hint: "leer"
+    translation: "They read a lot at the weekend."
+  - type: cloze
+    text: "¿Usted ___ aquí?"
+    answer: "vive"
+    hint: "vivir"
+    translation: "Do you live here? (formal)"
+  - type: cloze
+    text: "Vosotros ___ español en la escuela."
+    answer: "aprendéis"
+    hint: "aprender"
+    translation: "You (all) learn Spanish at school."
+  - type: cloze
+    text: "Los niños ___ una carta a sus abuelos."
+    answer: "escriben"
+    hint: "escribir"
+    translation: "The children are writing a letter to their grandparents."

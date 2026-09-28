@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0004
+cefr: B1
+order: 4
+title: "Возвратные глаголы с приставкой: -si- внутри (apsirengti, susitikti)"
+explanation:
+  ru: |
+    Без приставки возвратная частица стоит **в конце**: rengtis (одеваться) → aš **rengiuosi**, tu rengiesi, jis rengiasi, mes rengiamės, jūs rengiatės.
+
+    Если у глагола есть **приставка**, частица **-si-** встаёт **сразу после неё**, а в конце слова ничего не остаётся — окончания обычные:
+    - apsi**rengti** (одеться) → aš **apsirengiu**, tu apsirengi, jis apsirengia; прош. **apsirengiau**, apsirengė; буд. apsirengsiu
+    - atsi**kelti** (встать) → **atsikeliu**, atsikėliau, atsikelsiu
+    - susi**tikti** (встретиться) → **susitinku**, susitikome, susitiksime
+    - nusi**pirkti** (купить себе) → nusiperku, **nusipirkau**, nusipirksiu
+
+    Отрицание **ne-** работает как приставка: jaustis → **nesijaučiu** (я не чувствую себя…). Если приставка уже есть, **ne** просто ставится впереди, а -si- остаётся на месте: ne**atsi**sveikino, ne**susi**tikome.
+
+    Главное правило: **-si** бывает либо в конце, либо после приставки — **никогда в обоих местах**.
+comparison:
+  ru: |
+    В русском и украинском -ся/-сь всегда в конце слова, с приставкой или без: *одеваюсь → оденусь*, укр. *одягаюся → одягнуся*. В литовском приставка (и *ne-*) «притягивает» -si- к себе: *rengiuosi → apsirengiu*, *jaučiuosi → nesijaučiu*.
+
+    Не все литовские возвратные совпадают с русскими: *nusipirkti* — просто «купить (себе)», *atsisakyti* — «отказаться».
+examples:
+  - { text: "Jis apsirengė ir išėjo į lauką.", translation: "Он оделся и вышел на улицу.", source: "tatoeba:3105725" }
+  - { text: "Kelintą ji atsikelia?", translation: "Во сколько она встаёт?", source: "tatoeba:1625780" }
+  - { text: "Kaip tu su ja susipažinai?", translation: "Как ты с ней познакомился?", source: "tatoeba:1673207" }
+  - { text: "Jis nusipirko naujus batus.", translation: "Он купил новые ботинки.", source: "tatoeba:7786688" }
+  - { text: "Aš nesijaučiu kaltas.", translation: "Я не чувствую себя виноватым.", source: "tatoeba:3944939" }
+exercises:
+  - type: cloze
+    text: "Kasdien aš ___ septintą valandą."
+    answer: "atsikeliu"
+    hint: "atsikelti, наст. вр."
+    translation: "Каждый день я встаю в семь часов."
+  - type: cloze
+    text: "Vakar mes ___ kavinėje."
+    answer: "susitikome"
+    also: ["susitikom"]
+    hint: "susitikti, прош. вр."
+    translation: "Вчера мы встретились в кафе."
+  - type: cloze
+    text: "Ji greitai ___ ir išėjo."
+    answer: "apsirengė"
+    hint: "apsirengti, прош. вр."
+    translation: "Она быстро оделась и вышла."
+  - type: cloze
+    text: "Rytoj aš ___ naują telefoną."
+    answer: "nusipirksiu"
+    hint: "nusipirkti, буд. вр."
+    translation: "Завтра я куплю себе новый телефон."
+  - type: cloze
+    text: "Ar jūs jau ___?"
+    answer: "susipažinote"
+    hint: "susipažinti, прош. вр."
+    translation: "Вы уже познакомились?"
+  - type: cloze
+    text: "Mes ___ butą Vilniuje."
+    answer: "išsinuomojome"
+    also: ["išsinuomojom"]
+    hint: "išsinuomoti, прош. вр."
+    translation: "Мы сняли квартиру в Вильнюсе."
+  - type: cloze
+    text: "Šiandien aš ___ gerai."
+    answer: "nesijaučiu"
+    hint: "jaustis, наст. вр., с отрицанием"
+    translation: "Сегодня я плохо себя чувствую."
+  - type: cloze
+    text: "Kodėl tu ___ su manimi?"
+    answer: "neatsisveikinai"
+    hint: "atsisveikinti, прош. вр., с отрицанием"
+    translation: "Почему ты со мной не попрощался?"

@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0003
+cefr: A1
+order: 3
+title: "Gustar: me gusta, me gustan"
+explanation:
+  en: |
+    *Gustar* means "to be pleasing". The thing you like is the **subject**, and the person who likes it is an **indirect object** pronoun:
+    - **me** gusta (I like), **te** gusta (you like), **le** gusta (he/she/*usted* likes)
+    - **nos** gusta (we like), **os** gusta (you all like), **les** gusta (they/*ustedes* like)
+
+    The verb agrees with the **thing**, not with the person:
+    - one thing or an infinitive → **gusta**: *Me gusta el café. Me gusta viajar.*
+    - several things → **gustan**: *Me gustan los gatos.*
+    - even several infinitives → **gusta**: *Nos gusta leer y viajar.*
+
+    To name the person or add emphasis, put **a + person** in front — and keep the pronoun: *A mi hermano **le** gusta el fútbol. A mí me gusta, a ti no.*
+
+    Negative: **No** me gusta. Verbs like *encantar* (to love) work the same way: *Me encantan las flores.*
+comparison:
+  en: |
+    This is exactly Russian «**мне нравится**»: *мне нравится кофе* / *мне нравятся кошки* → *me gusta el café* / *me gust**an** los gatos*. The person is in the dative (мне = me, ему = le, нам = nos) and the verb agrees with what is liked. Only English turns it around ("I like").
+examples:
+  - { text: "Me gusta viajar.", translation: "I like to travel.", source: "tatoeba:180701" }
+  - { text: "Me gustan las rosas rojas.", translation: "I like red roses.", source: "tatoeba:622386" }
+  - { text: "¿Te gusta el vino blanco?", translation: "Do you like white wine?", source: "tatoeba:434611" }
+  - { text: "No le gusta el pescado.", translation: "He doesn't like fish.", source: "tatoeba:337139" }
+  - { text: "Les gustan las manzanas.", translation: "They like apples.", source: "tatoeba:850781" }
+exercises:
+  - type: cloze
+    text: "Me ___ el chocolate."
+    answer: "gusta"
+    hint: "gusta / gustan"
+    translation: "I like chocolate."
+  - type: cloze
+    text: "Me ___ los gatos."
+    answer: "gustan"
+    hint: "gusta / gustan"
+    translation: "I like cats."
+  - type: cloze
+    text: "¿Te ___ bailar?"
+    answer: "gusta"
+    hint: "gusta / gustan"
+    translation: "Do you like dancing?"
+  - type: cloze
+    text: "A mi hermano ___ gusta el fútbol."
+    answer: "le"
+    hint: "pronoun"
+    translation: "My brother likes football."
+  - type: cloze
+    text: "A nosotros ___ gustan las películas españolas."
+    answer: "nos"
+    hint: "pronoun"
+    translation: "We like Spanish films."
+  - type: cloze
+    text: "A mis padres no les ___ la música alta."
+    answer: "gusta"
+    hint: "gusta / gustan"
+    translation: "My parents don't like loud music."
+  - type: cloze
+    text: "¿A usted ___ gusta el café?"
+    answer: "le"
+    hint: "pronoun"
+    translation: "Do you like coffee? (formal)"
+  - type: cloze
+    text: "A ellos les ___ viajar y leer."
+    answer: "gusta"
+    hint: "gusta / gustan"
+    translation: "They like travelling and reading."

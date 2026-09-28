@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0003
+cefr: B1
+order: 3
+title: "Условное наклонение: dirbčiau, dirbtum, dirbtų"
+explanation:
+  ru: |
+    Условное наклонение (*tariamoji nuosaka*) — это русское «**бы**», но в литовском оно спрятано в окончании глагола. Берём инфинитив, убираем **-ti** и добавляем:
+    - aš **dirbčiau**, tu **dirbtum**, jis/ji/jie **dirbtų**
+    - mes **dirbtume**, jūs **dirbtumėte**
+    - skaityti → skaityčiau, norėti → **norėčiau**, galėti → galėtum, būti → būtų
+
+    Более полные формы тоже правильные: tu dirbtumei, mes dirbtumėme; короткая jūs dirbtute.
+
+    Где нужно:
+    - **jei(gu)** + условное = «если бы»: *Jei turėčiau laiko, skaityčiau.*
+    - **kad** + условное = «чтобы»: *Noriu, kad tu ateitum.*
+    - вежливость: *Norėčiau kavos.* — «Я бы хотел кофе». *Ar galėtumėte padėti?* — «Не могли бы вы помочь?»
+
+    Возвратные: jausčiausi, jaustumeisi, jaustųsi, jaustumės, jaustumėtės.
+comparison:
+  ru: |
+    В русском (и украинском) — прошедшее время + «бы» («я бы работал»), и оно меняется по родам. В литовском одна форма на всех: *aš dirbčiau* говорит и мужчина, и женщина, и «бы» отдельно не нужно.
+
+    «Чтобы» тоже устроено похоже: русское *хочу, чтобы ты пришёл* (укр. *щоб ти прийшов*) → *noriu, kad tu **ateitum*** — после *kad* в таком значении всегда условное наклонение.
+examples:
+  - { text: "Jei žinočiau, pasakyčiau.", translation: "Если бы я знал, я бы сказал.", source: "tatoeba:7786424" }
+  - { text: "Aš norėčiau nuvažiuoti į Prancūziją.", translation: "Я бы хотел поехать во Францию.", source: "tatoeba:1673571" }
+  - { text: "Ar galėtum ateiti rytoj pas mane?", translation: "Мог бы ты завтра прийти ко мне?", source: "tatoeba:6018275" }
+  - { text: "Aš norėčiau, kad tu pasiliktum.", translation: "Я хотел бы, чтобы ты остался.", source: "tatoeba:9516061" }
+  - { text: "Jei ne oras ir vanduo, mes negalėtume gyventi.", translation: "Если бы не воздух и вода, мы не могли бы жить.", source: "tatoeba:568891" }
+exercises:
+  - type: cloze
+    text: "Aš ___ kavos."
+    answer: "norėčiau"
+    hint: "norėti"
+    translation: "Я бы хотел кофе."
+  - type: cloze
+    text: "Jei turėčiau laiko, aš ___ daugiau."
+    answer: "skaityčiau"
+    hint: "skaityti"
+    translation: "Если бы у меня было время, я бы больше читал."
+  - type: cloze
+    text: "Ar tu ___ man padėti?"
+    answer: "galėtum"
+    also: ["galėtumei"]
+    hint: "galėti"
+    translation: "Ты мог бы мне помочь?"
+  - type: cloze
+    text: "Būtų gerai, jei jis ___ laiku."
+    answer: "ateitų"
+    hint: "ateiti"
+    translation: "Было бы хорошо, если бы он пришёл вовремя."
+  - type: cloze
+    text: "Mes ___ prie jūros, bet neturime automobilio."
+    answer: "važiuotume"
+    also: ["važiuotumėme"]
+    hint: "važiuoti"
+    translation: "Мы бы поехали на море, но у нас нет машины."
+  - type: cloze
+    text: "Noriu, kad jūs ___ mums apie savo kelionę."
+    answer: "papasakotumėte"
+    also: ["papasakotute"]
+    hint: "papasakoti"
+    translation: "Хочу, чтобы вы рассказали нам о своём путешествии."
+  - type: cloze
+    text: "Jei jie ___ lietuviškai, jiems būtų lengviau."
+    answer: "mokėtų"
+    hint: "mokėti"
+    translation: "Если бы они знали литовский, им было бы легче."
+  - type: cloze
+    text: "Kur tu ___, jei galėtum rinktis?"
+    answer: "gyventum"
+    also: ["gyventumei"]
+    hint: "gyventi"
+    translation: "Где бы ты жил, если бы мог выбирать?"

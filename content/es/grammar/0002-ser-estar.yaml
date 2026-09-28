@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0002
+cefr: A1
+order: 2
+title: "Ser vs estar: two verbs for \"to be\""
+explanation:
+  en: |
+    Spanish has two verbs for "to be":
+    - **ser**: soy, eres, es, somos, sois, son
+    - **estar**: estoy, estás, está, estamos, estáis, están
+
+    Use **ser** for what something **is** — identity and lasting features:
+    - who/what: *Soy Ana. Es un libro.*
+    - job, origin, nationality: *Soy médico. Somos de Lituania.*
+    - character and looks: *Es alto y simpático.*
+    - time and dates: *Son las tres. Hoy es lunes.*
+
+    Use **estar** for **where** something is and **how** it is right now:
+    - location: *Madrid está en el centro de España. ¿Dónde estás?*
+    - states and feelings: *Estoy cansado. La sopa está fría.*
+    - with -ando/-iendo (the "-ing" form): *Estoy comiendo.*
+
+    Some adjectives change meaning: *es aburrido* (he's boring) — *está aburrido* (he's bored); *es listo* (he's clever) — *está listo* (he's ready).
+comparison:
+  en: |
+    English and Russian have one verb here (and Russian usually drops it in the present: «Я из Литвы», «Я устал»). A quick test: if in Russian you'd say **находится** or describe a temporary **состояние**, it's *estar*; if it answers **кто / что / какой по натуре / откуда**, it's *ser*.
+examples:
+  - { text: "Soy de Rusia.", translation: "I am from Russia.", source: "tatoeba:436346" }
+  - { text: "Soy doctor.", translation: "I'm a doctor.", source: "tatoeba:1006321" }
+  - { text: "Estoy en casa.", translation: "I'm at home.", source: "tatoeba:1013884" }
+  - { text: "Estoy muy cansado.", translation: "I'm very tired.", source: "tatoeba:377265" }
+  - { text: "Estoy casi listo.", translation: "I'm almost ready.", source: "tatoeba:2957" }
+exercises:
+  - type: cloze
+    text: "Mi madre ___ profesora."
+    answer: "es"
+    hint: "ser / estar"
+    translation: "My mother is a teacher."
+  - type: cloze
+    text: "Madrid ___ en el centro de España."
+    answer: "está"
+    hint: "ser / estar"
+    translation: "Madrid is in the centre of Spain."
+  - type: cloze
+    text: "Hoy ___ muy cansado."
+    answer: "estoy"
+    hint: "ser / estar (yo)"
+    translation: "Today I'm very tired."
+  - type: cloze
+    text: "Nosotros ___ de Lituania."
+    answer: "somos"
+    hint: "ser / estar"
+    translation: "We are from Lithuania."
+  - type: cloze
+    text: "¿Dónde ___ los niños?"
+    answer: "están"
+    hint: "ser / estar"
+    translation: "Where are the children?"
+  - type: cloze
+    text: "La sopa ___ fría. ¿La calentamos?"
+    answer: "está"
+    hint: "ser / estar"
+    translation: "The soup is cold. Shall we heat it up?"
+  - type: cloze
+    text: "___ las tres de la tarde."
+    answer: "Son"
+    hint: "ser / estar"
+    translation: "It's three in the afternoon."
+  - type: cloze
+    text: "¿___ listo? Nos vamos."
+    answer: "Estás"
+    hint: "ser / estar (tú)"
+    translation: "Are you ready? We're leaving."
