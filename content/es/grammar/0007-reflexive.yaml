@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0007
+cefr: A1
+order: 7
+title: "Reflexive verbs: me levanto, te llamas"
+explanation:
+  en: |
+    A reflexive verb has **-se** at the end of the infinitive: *levantarse* (to get up), *llamarse* (to be called), *ducharse* (to shower), *acostarse* (to go to bed). The action goes back to the subject, so the verb comes with a pronoun that matches the person:
+    - **me** levanto, **te** levantas, **se** levanta
+    - **nos** levantamos, **os** levantáis, **se** levantan
+
+    The pronoun goes **before** the conjugated verb: *Me ducho por la mañana.* Negative: *No **me** levanto temprano.*
+
+    With an infinitive, you can attach it to the end — or put it before the first verb: *Voy a acostar**me*** = ***Me** voy a acostar.* Both are correct.
+
+    Stem changes still apply: acostarse → me **acue**sto, te acuestas… nos acostamos; despertarse → me desp**ie**rto.
+
+    With body parts and clothes, Spanish uses *el / la / los*, not *my*: *Me lavo **las** manos* — I wash **my** hands.
+
+    A typical day: *Me despierto a las siete, me levanto, me ducho… y me acuesto a las once.*
+comparison:
+  en: |
+    Very close to Russian **-ся**: *мыться* → *lavarse*, *одеваться* → *vestirse*, *называться* → *llamarse*. English usually has no pronoun at all ("I get up", "I shower"), so don't forget *me / te / se*. *¿Cómo te llamas?* is literally «Как ты себя называешь?» — i.e. «Как тебя зовут?»
+examples:
+  - { text: "¿Cómo te llamas?", translation: "What's your name?", source: "tatoeba:449153" }
+  - { text: "Me levanto todos los días a las seis.", translation: "I get up at six every day.", source: "tatoeba:562132" }
+  - { text: "Mi hermana mayor se ducha todas las mañanas.", translation: "My older sister takes a shower every morning.", source: "tatoeba:347015" }
+  - { text: "Me lavo las manos antes de almorzar.", translation: "I wash my hands before lunch.", source: "tatoeba:437147" }
+  - { text: "Siempre nos acostamos tarde cuando visitamos un país extranjero.", translation: "We always go to bed late when we visit a foreign country.", source: "tatoeba:464339" }
+exercises:
+  - type: cloze
+    text: "Yo ___ levanto a las siete."
+    answer: "me"
+    hint: "pronoun"
+    translation: "I get up at seven."
+  - type: cloze
+    text: "¿A qué hora ___ acuestas?"
+    answer: "te"
+    hint: "pronoun"
+    translation: "What time do you go to bed?"
+  - type: cloze
+    text: "Mi hermano ___ ducha por la noche."
+    answer: "se"
+    hint: "pronoun"
+    translation: "My brother showers in the evening."
+  - type: cloze
+    text: "Nosotros ___ levantamos temprano."
+    answer: "nos"
+    hint: "pronoun"
+    translation: "We get up early."
+  - type: cloze
+    text: "Los niños se ___ a las nueve."
+    answer: "acuestan"
+    hint: "acostarse (o → ue)"
+    translation: "The children go to bed at nine."
+  - type: cloze
+    text: "Mi perro se ___ Max."
+    answer: "llama"
+    hint: "llamarse"
+    translation: "My dog is called Max."
+  - type: cloze
+    text: "Mañana voy a ___ temprano."
+    answer: "levantarme"
+    hint: "levantarse (yo), one word"
+    translation: "Tomorrow I'm going to get up early."
+  - type: cloze
+    text: "¿Vosotros ___ ducháis por la mañana?"
+    answer: "os"
+    hint: "pronoun"
+    translation: "Do you (all) shower in the morning?"
