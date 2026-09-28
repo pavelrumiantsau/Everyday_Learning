@@ -6,36 +6,69 @@
 > **Budget:** free tiers + your existing Claude subscription. The Claude API is an optional extra.
 > **Devices:** iPhone (main), MacBook (work), Windows laptop (occasional). All of them run **Telegram**.
 
-## Status (updated as work lands)
+## Status (updated as work lands) — last update 2026-09-29
 
-**App**
-| # | Feature | Status | Branch / notes |
+**App: features 1–13 are built and live.** Features 14–16 are what is left of the plan (small).
+| # | Feature | Status | Notes |
 |---|---|---|---|
 | 1 | Infrastructure: Cloudflare Worker + D1, auto-deploy on push, nightly backup, CI with unit + smoke tests | ✅ Done | |
 | 2 | Bot: morning lesson + quiz polls, evening reminder, `/today`, `/lesson` | ✅ Done | |
-| 3 | Mini App: Telegram login, flashcards (4 ratings), LT verb forms cards, LT noun genitives, placement test | ✅ Done | |
-| 4 | Settings (new cards/day per language, poll cap), `/pause`, `/stats`, streaks + freezes | ✅ Done | Mini App ⚙️ + `/stats`, `/pause`, `/new`; defaults raised to LT 10 + ES 5 |
+| 3 | Mini App: Telegram login, flashcards (4 ratings), LT verb forms cards, LT noun genitives, placement test (words) | ✅ Done | |
+| 4 | Settings (new cards/day per language, poll cap), `/pause`, `/stats`, streaks + freezes | ✅ Done | Mini App ⚙️ + `/stats`, `/pause`, `/new`; defaults LT 10 + ES 5 |
 | 5 | Reverse cards (RU/EN → target, recall), part of settings per language | ✅ Done | added once the meaning card is known (2 correct answers) |
-| 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ✅ Done | `feat/grammar`: `/rule`, morning «📘 Правило дня» (Mon/Wed/Thu/Sat LT, Tue/Fri ES), Mini App lesson + cloze cards in reviews |
+| 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ✅ Done | `/rule`; rotation Mon/Wed/Sat LT, Tue/Fri ES, Thu = LT reading, Sun = writing + report |
 | 7 | Audio: TTS for words + examples, play button | ✅ Done | edge-tts mp3 committed to git (`pnpm content:audio`); 🔊 on flashcards + placement; no voice clips in the bot (too noisy) |
-| 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ✅ Done | `packages/llm` + `config/llm.yaml`; `/tutor [lt\|es] [topic]`, `/stop`, `/ai`; feedback on any LT/ES text; voice → Whisper (`whisper-large-v3`); mistakes saved in D1 `mistakes` (cards from them: not yet); `pnpm llm:eval` |
-| 9 | Reading mode (graded texts, tap word → card) | ✅ Done | 📖 in the Mini App: tap any word → glossary or AI lookup (cached), + В карточки; 3 questions per text; Thursday «Текст дня», `/read` |
-| 10 | Weekly report, `/input` log, auto-adjust of new cards | ✅ Done | Sunday 18:00 report + `/week`; `/input` and 🎧 in the Mini App; ±1–2 new words/day by backlog and accuracy |
+| 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` + writing & voice feedback | ✅ Done | `packages/llm` + `config/llm.yaml`; `/tutor [lt\|es] [topic]`, `/stop`, `/ai`; voice → Whisper (`whisper-large-v3`); `pnpm llm:eval` |
+| 9 | Reading mode (graded texts, tap word → card) | ✅ Done | 📖 in the Mini App; glossary or AI lookup (cached); 3 questions; Thursday «Текст дня», `/read` |
+| 10 | Weekly report, `/input` log, auto-adjust of new cards | ✅ Done | Sunday 18:00 report + `/week`; 🎧 in the Mini App |
 | 11 | "Report a mistake" (bot + Mini App) | ✅ Done | ⚠️ on cards, `/report`; `pnpm content:reports` lists them |
-| 12 | Automation: content batches, weekly writing review, quarterly self-assessment | ✅ Done | weekly writing review in the Worker (`/review`), quarterly `/check`; Claude Code content batches built but **switched off** by choice — batches are prepared in Claude Code sessions (recipes in `prompts/content/`) |
-| 13 | Mistakes → review cards ("✏️ Как правильно?", changed words highlighted) | ✅ Done | from tutor/feedback/voice corrections, up to 10 new per day |
+| 12 | Automation: content batches, weekly writing review, quarterly self-assessment | ✅ Done | `/review` (in the Worker), quarterly `/check`; Claude Code content batches built but **switched off by choice** — content is prepared in Claude Code sessions |
+| 13 | Mistakes → review cards ("✏️ Как правильно?") | ✅ Done | from tutor/feedback/voice corrections, up to 10 new per day |
+| 14 | **French sounds track** (PLAN §3.3/§3.5: 1 micro-lesson/week until French starts in April 2027) | ⬜ Next — has a deadline | spec below |
+| 15 | **Grammar diagnostic in the placement test** (PLAN §9 weeks 2–3) | ⬜ Next | spec below |
+| 16 | **Suggested input sources** in the 🎧 screen (PLAN §11) | ⬜ Next | spec below |
 
-**Content**
-| Area | Status |
-|---|---|
-| Lithuanian vocabulary | 774 words (A2–B2, frequency ranks up to 14,000; Tatoeba examples, verb forms, noun genitives, audio); year target ≈ 3,000 |
-| Spanish vocabulary | 138 items (phrasebook + core words, audio) |
-| Reading texts | LT 13 (B1; one per Thursday through December), ES 2 (A1) |
-| Grammar lessons | LT 23 (Q1–Q3: tenses and moods, participles, pusdalyvis/padalyvis, passive, reported speech, imperative/optative, diminutives, motion prefixes…), ES 12 (A1–A2: present incl. stem changes, reflexives, estar + gerund, preterite, pronouns, possessives) |
-| French | starts April 2027 |
+**Remaining work — specs**
 
-**Resuming after an interruption:** check this table, `git branch -a` for `feat/*` branches not yet merged into `main`,
-and the latest CI run (`gh run list -L 3`). Every merged feature is deployed automatically.
+*14. French sounds track.* Content + a small scheduling change.
+- Content: `content/fr/grammar/0001-*.yaml` … ~10 short lessons (`fr-g-0001`…, explanation and notes in **English**, schema `Lesson`,
+  examples from Tatoeba `fra` sentences with English translations — add `fra_sentences` and `fra-eng_links` to `scripts/fetch-sources.ts`).
+  Topics in order: nasal vowels (an/en, on, in/un), silent final letters, *e muet*, liaison and *élision*, *ou/u*, *eu/œu*, *ai/è/é/er/ez*,
+  *oi*, *gn/ill/ch/qu*, stress on the last syllable; exercises = choose/write the spelling that matches a sound (cloze) + 🔊 audio.
+- Audio: French voice already configured (`fr-FR-DeniseNeural` in `scripts/tts.py`); lesson examples need audio → extend the audio
+  script to lesson examples if not covered.
+- Scheduling: one French lesson per week — Saturday is currently LT (see `GRAMMAR_ROTATION` in `packages/core/src/grammar.ts`);
+  plan was "Sat: FR sounds (Q1–Q2)". Proposal: every Saturday until 2027-03-31 → FR if an unread FR lesson exists, else LT.
+  From April 2027 French gets `new_per_day.fr` > 0 (config/schedule.yaml) and Fri alternates ES/FR (PLAN §3.6).
+- Tests: rotation unit test for the date switch; smoke: `/rule` on a French day.
+
+*15. Grammar diagnostic in the placement test.* Mini App: in 🇱🇹 placement, a second tab "Грамматика": for each upcoming LT lesson show 2
+of its exercises; both correct → offer "Отметить урок как пройденный" (uses the existing `POST /api/grammar/lessons/:id/done`, which also
+creates the cloze cards; consider a flag to *not* create cards for skipped lessons). No new tables needed.
+
+*16. Suggested input sources.* A small static list per language and level in `config/sources.yaml` (title, URL, type, level, one-line note;
+from PLAN §11: LRT radio/podcasts/Mediateka, *Dreaming Spanish*, *Coffee Break Spanish/French*, *InnerFrench*, RFI *Français facile*),
+validated at build, shown in the 🎧 screen under "Что послушать" (open links with `Telegram.WebApp.openLink`), and one suggestion in the
+Sunday report when Lithuanian input is under 3 h.
+
+**Content — supply and next ids**
+| Area | Now | Runs out (at default pace) | Next ids / where to continue |
+|---|---|---|---|
+| Lithuanian vocabulary | 774 words (A2–B2, frequency ranks ≤ 14,000) | ~mid-December (10/day, less after placement) | `lt-*-0831`, `pnpm content:candidates lt 14000 4000`, recipe `prompts/content/lt-vocab.md` |
+| Spanish vocabulary | 138 items (A1) | **~late October (5/day) — first gap** | `es-*-0139`, `pnpm content:candidates es 1050 700`, recipe `prompts/content/es-vocab.md` |
+| Lithuanian grammar | 23 lessons (Q1–Q3) | ~early December (Mon/Wed/Sat) | `lt-g-0024`: Q4 topics (PLAN §3.4) — complex sentences/connectors (nors, kadangi, jeigu, užuot), word order, idioms, register, B2 exam-style tasks |
+| Spanish grammar | 12 lessons (A1–A2) | ~mid-November (Tue/Fri) | `es-g-0013`: imperfect, imperfect vs preterite, future, comparisons, indirect object pronouns, *por/para* (PLAN §3.5) |
+| Lithuanian reading | 13 texts (B1) | end of December (Thursdays) | `lt-r-0014` (2027 texts: winter, Vasario 16-oji, Užgavėnės, Kaziuko mugė…) |
+| Spanish reading | 2 texts (A1) | — (read on demand) | `es-r-0003` |
+| French | none | starts April 2027 (sounds track: feature 14) | `fr-g-0001`, then `fr-*-0001` vocabulary |
+| Stress marks for LT words | 0 of 774 (`stress` field supported) | — | check each word on lkz.lt / Vikižodynas; add `stress: laĩkas` in the batch files |
+
+**Resuming in a new session:** read `CLAUDE.md` (repo root) first — commands, structure, content rules, and lessons learned.
+Then this table, `git branch -a` (unmerged `feat/*`, `content/*`, `grammar/*`, `reading/*` branches), and `gh run list -L 3`.
+Every push to `main` that passes CI is deployed automatically.
+
+**Waiting on the learner:** SETUP.md step 6 (paste `prompts/tutor/claude-project.md` into a Claude app Project); real-use testing on
+iPhone and Mac; reporting wrong content with ⚠️ / `/report`.
 
 ---
 
