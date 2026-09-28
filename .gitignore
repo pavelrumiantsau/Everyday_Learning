@@ -11,3 +11,4 @@ coverage/
 apps/worker/src/generated/
 .cache/
 apps/miniapp/dist/
+.claude/
