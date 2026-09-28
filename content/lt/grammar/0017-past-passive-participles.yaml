@@ -1,0 +1,87 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0017
+cefr: B2
+order: 17
+title: "Страдательные причастия прошедшего времени: padarytas, parašyta"
+explanation:
+  ru: |
+    Причастие *pastatytas* — «построенный», то есть «который построили». Оно говорит о **результате**: действие закончено, и предмет теперь в новом состоянии. *Namas **pastatytas*** — «Дом построен».
+
+    **Образование** — от **инфинитива**: отбрасываем *-ti* и добавляем **-tas** (м. р.), **-ta** (ж. р.):
+    - padaryti → **padarytas, padaryta**; parašyti → **parašytas**; pastatyti → **pastatytas**
+    - uždaryti → **uždarytas**; atidaryti → **atidarytas**; pagaminti → **pagamintas**
+    - parduoti → **parduotas**; sumokėti → **sumokėtas**; nupirkti → **nupirktas**
+    - pamesti → **pamestas**; išversti → **išverstas**; išleisti → **išleistas**
+
+    **Склонение** — как у прилагательных на *-as / -a*:
+    - м. р.: padarytas, padaryto, padarytam, **padarytą**, padarytu, padarytame — мн. **padaryti**, padarytų, padarytiems, padarytus…
+    - ж. р.: padaryta, padarytos, padarytai, **padarytą**, padaryta, padarytoje — мн. **padarytos**, padarytų…
+
+    Обратите внимание: мн. ч. м. р. *padaryti* совпадает с инфинитивом. *Darbai **padaryti*** — «работы сделаны», а не «сделать».
+
+    **Время** показывает *būti*:
+    - *Laiškas **(yra) parašytas*** — письмо написано (сейчас оно готово); *yra* часто опускают: *Parduotuvė **uždaryta***;
+    - *Laiškas **buvo parašytas** vakar* — письмо было написано вчера;
+    - *Laiškas **bus parašytas** rytoj* — письмо будет написано завтра.
+
+    **-mas или -tas?** Обычно *-mas* образуют от несовершенного глагола (процесс), а *-tas* — от совершенного (результат):
+    - *Namas **buvo statomas** dvejus metus* — дом строился два года;
+    - *Namas **buvo pastatytas** per dvejus metus* — дом был построен за два года.
+
+    Причастие на *-tas* работает и как определение: ***pamesta** piniginė* — потерянный кошелёк, *Vilniuje **pastatytas** tiltas* — мост, построенный в Вильнюсе.
+comparison:
+  ru: |
+    Это русские краткие причастия на **-н / -т**: *построен, написана, закрыт, сделаны*. Конструкция совпадает: *Магазин закрыт* = *Parduotuvė uždaryta*, *Работа сделана* = *Darbas padarytas*. Как и в русском, причастие согласуется с подлежащим: *laiškas parašytas, knyga parašyta, laiškai parašyti, knygos parašytos*.
+
+    Ловушка: «я **родился** / рождён» по-литовски — не страдательное причастие, а действительное: *Aš **gimęs** Vilniuje* или *Aš **gimiau** Vilniuje* (см. урок о *pavargęs*). Глагол *gimti* непереходный, *-tas* от него не образуется.
+
+    И ещё: *Parduotuvė **uždaryta*** — «магазин закрыт» (состояние), а *Parduotuvė **užsidarė*** — «магазин закрылся» (событие).
+examples:
+  - { text: "Darbas jau padarytas.", translation: "Работа уже сделана.", source: "tatoeba:12313573" }
+  - { text: "Ar parduotuvė atidaryta?", translation: "Магазин открыт?", source: "tatoeba:11815254" }
+  - { text: "Visi žaislai pagaminti iš medžio.", translation: "Все игрушки сделаны из дерева.", source: "tatoeba:2715884" }
+  - { text: "Bažnyčia buvo pastatyta prieš šimtmečius.", translation: "Церковь была построена сотни лет назад.", source: "tatoeba:2613360" }
+  - { text: "Jo naujas romanas bus išleistas po mėnesio.", translation: "Его новый роман будет опубликован через месяц.", source: "tatoeba:12684513" }
+exercises:
+  - type: cloze
+    text: "Laiškas jau ___."
+    answer: "parašytas"
+    hint: "parašyti, м. р."
+    translation: "Письмо уже написано."
+  - type: cloze
+    text: "Sekmadienį parduotuvė ___."
+    answer: "uždaryta"
+    hint: "uždaryti, ж. р."
+    translation: "В воскресенье магазин закрыт."
+  - type: cloze
+    text: "Šis tiltas buvo ___ prieš šimtą metų."
+    answer: "pastatytas"
+    hint: "pastatyti, м. р."
+    translation: "Этот мост был построен сто лет назад."
+  - type: cloze
+    text: "Visi namų darbai ___."
+    answer: "padaryti"
+    hint: "padaryti, мн. ч. м. р."
+    translation: "Все домашние задания сделаны."
+  - type: cloze
+    text: "Rytoj bus ___ nauja mokykla."
+    answer: "atidaryta"
+    hint: "atidaryti, ж. р."
+    translation: "Завтра будет открыта новая школа."
+  - type: cloze
+    text: "Gatvėje radau ___ piniginę."
+    answer: "pamestą"
+    hint: "pamesti, вин. п. ж. р."
+    translation: "На улице я нашёл потерянный кошелёк."
+  - type: cloze
+    text: "Jo knygos ___ į dvidešimt kalbų."
+    answer: "išverstos"
+    hint: "išversti, мн. ч. ж. р."
+    translation: "Его книги переведены на двадцать языков."
+  - type: cloze
+    text: "Mokykla jau pastatyta, o baseinas dar ___."
+    answer: "statomas"
+    hint: "statyti (stato) — процесс ещё идёт"
+    translation: "Школа уже построена, а бассейн ещё строится."
