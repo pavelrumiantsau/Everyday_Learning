@@ -14,7 +14,7 @@
     "dev": "pnpm build && pnpm --filter @el/worker dev",
     "db:migrate": "pnpm --filter @el/worker db:migrate",
     "secrets:push": "tsx scripts/secrets-push.ts",
-    "setup:telegram": "tsx scripts/setup-telegram.ts",
+    "setup:telegram": "pnpm build:content && tsx scripts/setup-telegram.ts",
     "smoke": "pnpm build && tsx scripts/smoke.ts",
     "deploy:worker": "pnpm build && pnpm --filter @el/worker run deploy",
     "wrangler": "pnpm --filter @el/worker exec wrangler",
