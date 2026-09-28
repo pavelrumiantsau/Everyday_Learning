@@ -1,0 +1,79 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0031
+cefr: B2
+order: 31
+title: "Управление глаголов: laukti ko, dėkoti kam, domėtis kuo"
+explanation:
+  ru: |
+    Многие глаголы требуют **другого падежа, чем в русском** — их лучше учить сразу с падежом.
+
+    **Родительный падеж (ko?):**
+    - **laukti** — ждать: *laukiu **tavęs**, laukiu **autobuso***
+    - **ieškoti** — искать: *ieškau **darbo***
+    - **bijoti** — бояться: *bijau **tamsos***
+    - **klausytis** — слушать: *klausausi **muzikos***
+    - **norėti** — хотеть (чего-то): *noriu **kavos***
+    - **prašyti** — просить (кого): *prašau **jūsų***
+    - **mokytis** — учить (что): *mokausi **lietuvių kalbos***
+
+    **Дательный падеж (kam?):**
+    - **dėkoti** — благодарить: *dėkoju **tau*** (не «tave»!)
+    - **padėti** — помогать, **skambinti** — звонить, **linkėti** — желать: *linkiu **tau** sėkmės*
+
+    **Творительный падеж (kuo?):**
+    - **domėtis** — интересоваться: *domiuosi **muzika***
+    - **naudotis** — пользоваться, **rūpintis** — заботиться, **džiaugtis** — радоваться (чему): *džiaugiuosi **tuo***
+    - **sirgti** — болеть (чем): *sergu **gripu***
+    - **važiuoti** — ехать (на чём): *važiuoju **autobusu***
+comparison:
+  ru: |
+    Главные ловушки для русскоговорящих: *dėkoti **kam*** (благодарить **кого**), *laukti / ieškoti **ko*** (всегда родительный, даже когда по-русски винительный: «жду тебя» — *laukiu tavęs*), *klausytis **ko*** («слушать музыку» — *klausytis muzikos*), *važiuoti **kuo*** («на автобусе» — *autobusu*, без предлога).
+examples:
+  - { text: "Aš laukiu autobuso.", translation: "Я жду автобуса.", source: "tatoeba:11501958" }
+  - { text: "Aš ieškau savo brolio.", translation: "Я ищу своего брата.", source: "tatoeba:3953868" }
+  - { text: "Prieš miegą aš klausausi muzikos.", translation: "Перед сном я слушаю музыку.", source: "tatoeba:9750127" }
+  - { text: "Aš dėkoju tau už pagalbą.", translation: "Я благодарю тебя за помощь.", source: "tatoeba:6020149" }
+  - { text: "Aš domiuosi astronomija.", translation: "Я интересуюсь астрономией.", source: "tatoeba:13714755" }
+exercises:
+  - type: cloze
+    text: "Aš jau valandą laukiu ___."
+    answer: "tavęs"
+    hint: "tu → ?"
+    translation: "Я уже час жду тебя."
+  - type: cloze
+    text: "Ji ieško ___."
+    answer: "darbo"
+    hint: "darbas → ?"
+    translation: "Она ищет работу."
+  - type: cloze
+    text: "Vakare klausausi ___."
+    answer: "radijo"
+    hint: "radijas → ?"
+    translation: "Вечером я слушаю радио."
+  - type: cloze
+    text: "Dėkoju ___ už pagalbą."
+    answer: "jums"
+    hint: "jūs → ?"
+    translation: "Благодарю вас за помощь."
+  - type: cloze
+    text: "Mano sesuo domisi ___."
+    answer: "muzika"
+    hint: "muzika → твор. п."
+    translation: "Моя сестра интересуется музыкой."
+  - type: cloze
+    text: "Paskambink ___ vakare."
+    answer: "man"
+    hint: "aš → ?"
+    translation: "Позвони мне вечером."
+  - type: cloze
+    text: "Į darbą važiuoju ___."
+    answer: "autobusu"
+    hint: "autobusas → ?"
+    translation: "На работу я езжу на автобусе."
+  - type: cloze
+    text: "Vaikai bijo ___."
+    answer: "tamsos"
+    hint: "tamsa → ?"
+    translation: "Дети боятся темноты."

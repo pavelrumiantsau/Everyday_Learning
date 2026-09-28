@@ -33,7 +33,7 @@
 |---|---|---|---|
 | Lithuanian vocabulary | 906 words (A2–B2, frequency ranks ≤ 18,000) | ~late December (10/day, less after placement) | `lt-*-0963`, candidates `lt 14000 4000` partly used (skip what `content:validate` reports as duplicates), then `lt 18000 4000`; recipe `prompts/content/lt-vocab.md` |
 | Spanish vocabulary | 249 items (A1–A2) | ~mid-December (5/day) | `es-*-0250`, `pnpm content:candidates es 1750 700` (ranks 1050–1750 partly used: pick remaining lemmas), recipe `prompts/content/es-vocab.md` |
-| Lithuanian grammar | 23 lessons (Q1–Q3) | ~late December (Mon/Wed; Saturdays go to French until the 10 FR lessons are done, ~early December) | `lt-g-0024`: Q4 topics (PLAN §3.4) — complex sentences/connectors (nors, kadangi, jeigu, užuot), word order, idioms, register, B2 exam-style tasks |
+| Lithuanian grammar | 31 lessons (Q1–Q4) | ~February 2027 (Mon/Wed; Sat once the FR sounds lessons are done) | `lt-g-0032`: more Q4 — word order and emphasis, set phrases/idioms, register (formal letters), B2 exam-style mixed tasks; also consider review lessons per quarter |
 | Spanish grammar | 20 lessons (A1–A2) | ~mid-December (Tue/Fri) | `es-g-0021`: negative commands + present subjunctive basics, *usted* commands, relative *que/donde*, *se* impersonal, *soler*, time expressions (*hace… que*, *desde*) (PLAN §3.5) |
 | Lithuanian reading | 13 texts (B1) | end of December (Thursdays) | `lt-r-0014` (2027 texts: winter, Vasario 16-oji, Užgavėnės, Kaziuko mugė…) |
 | Spanish reading | 2 texts (A1) | — (read on demand) | `es-r-0003` |

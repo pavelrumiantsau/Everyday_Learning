@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0030
+cefr: B2
+order: 30
+title: "Частицы: juk, gi, net, dar, jau, bent, gal"
+explanation:
+  ru: |
+    Маленькие слова, без которых речь звучит как учебник:
+    - **juk** — ведь: ***Juk** tau geriau?* — Тебе ведь лучше?
+    - **gi** — же (после слова, которое выделяет): *Kas **gi** tu?* — Кто же ты?
+    - **net** — даже: ***Net** jis verkia.*
+    - **tik** — только: *Aš **tik** klausiu.*
+    - **dar** — ещё: *Aš **dar** nevalgiau.* — Я ещё не ел.
+    - **jau** — уже: *Ar **jau** baigei?*
+    - **vis** — всё (ещё), всё время: *Lietus **vis** nesiliauja.* **vis dėlto** — всё-таки.
+    - **bent** — хотя бы: *Duok **bent** vieną.*
+    - **gal** — может (быть): ***Gal** jis serga?*
+    - **lyg ir** — вроде бы: *Tomas **lyg ir** simpatingas vaikinas.*
+comparison:
+  ru: |
+    Почти все совпадают с русскими по смыслу, но стоят свободнее. *juk* обычно в начале или после первого слова, *gi* — сразу после выделяемого слова: *Kur **gi** tu buvai?* — Где же ты был?
+examples:
+  - { text: "Juk tau geriau?", translation: "Тебе ведь лучше?", source: "tatoeba:8751688" }
+  - { text: "Kas gi tu?", translation: "Кто же ты?", source: "tatoeba:13590932" }
+  - { text: "Net jis verkia.", translation: "Даже он плачет.", source: "tatoeba:11651340" }
+  - { text: "Tu vis dėlto eini?", translation: "Ты всё-таки идёшь?", source: "tatoeba:13566732" }
+  - { text: "Tomas lyg ir simpatingas vaikinas.", translation: "Том вроде приятный парень.", source: "tatoeba:12918558" }
+exercises:
+  - type: cloze
+    text: "Nesijaudink, ___ viskas gerai."
+    answer: "juk"
+    hint: "ведь"
+    translation: "Не волнуйся, ведь всё хорошо."
+  - type: cloze
+    text: "Kur ___ tu buvai?"
+    answer: "gi"
+    hint: "же"
+    translation: "Где же ты был?"
+  - type: cloze
+    text: "Tai žino ___ vaikai."
+    answer: "net"
+    hint: "даже"
+    translation: "Это знают даже дети."
+  - type: cloze
+    text: "Aš ___ nevalgiau."
+    answer: "dar"
+    hint: "ещё (не)"
+    translation: "Я ещё не ел."
+  - type: cloze
+    text: "Ar tu ___ baigei?"
+    answer: "jau"
+    hint: "уже"
+    translation: "Ты уже закончил?"
+  - type: cloze
+    text: "Duok ___ vieną obuolį."
+    answer: "bent"
+    hint: "хотя бы"
+    translation: "Дай хотя бы одно яблоко."
+  - type: cloze
+    text: "___ jis serga?"
+    answer: "Gal"
+    hint: "может (быть)"
+    translation: "Может, он болеет?"
+  - type: cloze
+    text: "Lietus ___ nesiliauja."
+    answer: "vis"
+    hint: "всё (ещё)"
+    translation: "Дождь всё не прекращается."

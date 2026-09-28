@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0029
+cefr: B2
+order: 29
+title: "Kuo… tuo; lyg, tarsi: сравнения"
+explanation:
+  ru: |
+    **kuo… tuo…** — «чем…, тем…», обе части со **сравнительной степенью**:
+    - ***Kuo daugiau**, **tuo linksmiau**.* — Чем больше, тем веселее.
+    - ***Kuo mažiau** dirbi, **tuo mažiau** gauni.*
+
+    Сравнительная степень: наречия на **-iau** (*greitai → greičiau*, *daug → daugiau*), прилагательные на **-esnis, -esnė** (*geras → geresnis*).
+
+    **«Чем» при сравнении:** **negu / nei** + им. п. или **už** + вин. п.: *Šiandien šalčiau **negu** vakar. Brolis vyresnis **už mane**.*
+
+    **Как, будто:**
+    - **kaip** — как: *bėga **kaip** vėjas*
+    - **lyg, tarsi, tartum** — как, словно, будто:
+      - + существительное: *Ji buvo **lyg** angelas.*
+      - + **условное наклонение** («как будто бы»): *Jis skaitė toliau, **tarsi** nieko **nebūtų** atsitikę.*
+      - + причастие: *Miestas **tarsi** išmiręs.*
+comparison:
+  ru: |
+    *už* при сравнении — ловушка: *vyresnis už mane* значит «старше меня», а не «старше за меня». После «как будто» литовский ставит условную форму: *tarsi būtų* — «как будто был бы» (по-русски «будто был»).
+examples:
+  - { text: "Kuo daugiau, tuo linksmiau.", translation: "Чем больше, тем веселее.", source: "tatoeba:12202344" }
+  - { text: "Kuo mažiau dirbi, tuo mažiau gauni.", translation: "Чем меньше работаешь, тем меньше получаешь.", source: "tatoeba:13850077" }
+  - { text: "Ji buvo lyg angelas.", translation: "Она была словно ангел.", source: "tatoeba:10693116" }
+  - { text: "Jis toliau skaitė knygą, tarsi nieko nebūtų atsitikę.", translation: "Он продолжал читать книгу, как будто ничего не случилось.", source: "tatoeba:13380994" }
+  - { text: "Miestas tarsi išmiręs.", translation: "Город будто вымер.", source: "tatoeba:4139102" }
+exercises:
+  - type: cloze
+    text: "___ anksčiau pradėsime, tuo anksčiau baigsime."
+    answer: "Kuo"
+    hint: "чем…"
+    translation: "Чем раньше начнём, тем раньше закончим."
+  - type: cloze
+    text: "Kuo daugiau skaitai, ___ geriau rašai."
+    answer: "tuo"
+    hint: "…тем"
+    translation: "Чем больше читаешь, тем лучше пишешь."
+  - type: cloze
+    text: "Kuo ___, tuo geriau."
+    answer: "greičiau"
+    hint: "greitai → сравн. степень"
+    translation: "Чем быстрее, тем лучше."
+  - type: cloze
+    text: "Jis elgiasi, ___ nieko nebūtų įvykę."
+    answer: "tarsi"
+    also: ["lyg", "tartum"]
+    hint: "как будто"
+    translation: "Он ведёт себя так, будто ничего не произошло."
+  - type: cloze
+    text: "Ji kalba lietuviškai, tarsi ___ čia gimusi."
+    answer: "būtų"
+    hint: "būti, усл. накл."
+    translation: "Она говорит по-литовски, будто здесь родилась."
+  - type: cloze
+    text: "Brolis yra vyresnis ___ mane."
+    answer: "už"
+    hint: "чем (+ вин. п.)"
+    translation: "Брат старше меня."
+  - type: cloze
+    text: "Šiandien šalčiau ___ vakar."
+    answer: "negu"
+    also: ["nei"]
+    hint: "чем"
+    translation: "Сегодня холоднее, чем вчера."
+  - type: cloze
+    text: "Jis bėga ___ vėjas."
+    answer: "kaip"
+    also: ["lyg", "tarsi"]
+    hint: "как"
+    translation: "Он бежит как ветер."

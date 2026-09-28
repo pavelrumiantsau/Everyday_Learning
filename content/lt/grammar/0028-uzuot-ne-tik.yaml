@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0028
+cefr: B2
+order: 28
+title: "Užuot, ne tik… bet ir, nei… nei, arba… arba"
+explanation:
+  ru: |
+    **užuot** — «вместо того чтобы». После него — **причастие прошедшего времени** (согласуется с подлежащим) или инфинитив:
+    - ***Užuot ėjęs** dirbti, aš visą dieną gulėjau lovoje.* — Вместо того чтобы идти работать…
+    - *Užuot **atsakiusi**, ji tylėjo.* — о женщине: *-usi*.
+    - без подлежащего (общее утверждение) — деепричастие на **-us**: *Užuot tuščiai **kalbėjus**, geriau vertėtų patylėti.*
+
+    **Парные союзы:**
+    - **ne tik…, bet ir…** — не только…, но и…: *Valgyk **ne tik** žuvį, **bet ir** mėsą.*
+    - **nei… nei…** — ни… ни…; глагол **с отрицанием**, как в русском: *Aš **ne**geriu **nei** kavos, **nei** arbatos.*
+    - **arba… arba…** — или… или…: ***Arba** taip, **arba** ne.*
+    - **tai… tai…** — то… то…: ***Tai** lyja, **tai** sninga.*
+
+    После *nei… nei* и отрицания дополнение стоит в **родительном падеже**: *nei kavos, nei arbatos*.
+comparison:
+  ru: |
+    «Вместо того чтобы + инфинитив» в литовском чаще передаётся причастием: *užuot dirbęs* — буквально «вместо (того, чтобы) работав». Не путай *nei* «ни» с *nei* «чем» при сравнении: *geriau nei vakar* — лучше, чем вчера.
+examples:
+  - { text: "Užuot tuščiai kalbėjus, geriau vertėtų patylėti.", translation: "Чем болтать без толку, лучше помалкивать.", source: "tatoeba:2730415" }
+  - { text: "Valgyk ne tik žuvį, bet ir mėsą.", translation: "Ешь не только рыбу, но и мясо.", source: "tatoeba:10366591" }
+  - { text: "Arba taip, arba ne.", translation: "Либо да, либо нет.", source: "tatoeba:12682860" }
+  - { text: "Nei žuvis, nei mėsa.", translation: "Ни рыба ни мясо.", source: "tatoeba:11937892" }
+  - { text: "Liaudis yra ne tik jūs, bet ir mes.", translation: "Народ — это не только вы, но и мы.", source: "tatoeba:13859815" }
+exercises:
+  - type: cloze
+    text: "___ dirbęs, jis visą dieną žiūrėjo televizorių."
+    answer: "Užuot"
+    hint: "вместо того чтобы"
+    translation: "Вместо того чтобы работать, он весь день смотрел телевизор."
+  - type: cloze
+    text: "Užuot ___, ji tylėjo."
+    answer: "atsakiusi"
+    hint: "atsakyti, прич. прош. вр., ж. р."
+    translation: "Вместо того чтобы ответить, она молчала."
+  - type: cloze
+    text: "Jis kalba ne tik lietuviškai, ___ ir latviškai."
+    answer: "bet"
+    hint: "не только…, но и"
+    translation: "Он говорит не только по-литовски, но и по-латышски."
+  - type: cloze
+    text: "Aš negeriu nei kavos, ___ arbatos."
+    answer: "nei"
+    hint: "ни… ни"
+    translation: "Я не пью ни кофе, ни чая."
+  - type: cloze
+    text: "___ tu ateini, arba aš išeinu."
+    answer: "Arba"
+    hint: "или… или"
+    translation: "Или ты приходишь, или я ухожу."
+  - type: cloze
+    text: "Ji ne tik graži, bet ___ protinga."
+    answer: "ir"
+    hint: "но и"
+    translation: "Она не только красивая, но и умная."
+  - type: cloze
+    text: "Aš ___ nei jo, nei jos."
+    answer: "nemačiau"
+    hint: "matyti, прош. вр., я — с отрицанием"
+    translation: "Я не видел ни его, ни её."
+  - type: cloze
+    text: "Tai lyja, ___ sninga."
+    answer: "tai"
+    hint: "то… то"
+    translation: "То идёт дождь, то снег."

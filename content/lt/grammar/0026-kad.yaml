@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0026
+cefr: B2
+order: 26
+title: "Kad: «что» и «чтобы»"
+explanation:
+  ru: |
+    Союз **kad** значит и «что», и «чтобы» — различает их **форма глагола**.
+
+    **kad = «что»** — обычное время: *Jis sakė, **kad ateis**.* — Он сказал, что придёт.
+
+    **kad = «чтобы»** — **условное наклонение** (-čiau, -tum, -tų…):
+    - после «хотеть, просить, говорить (чтобы)»: *Noriu, kad tu **ateitum**.* — Хочу, чтобы ты пришёл. *Pasakyk jam, kad **lauktų**.*
+    - цель: *Jis skuba, kad **nepavėluotų**.* — чтобы не опоздать.
+
+    Важно: в русском цель с тем же подлежащим — инфинитив («спешу, чтобы успеть»), а в литовском после *kad* **всегда личная форма**: *Skubu, kad **suspėčiau**.* (Инфинитив цели возможен без *kad* после глаголов движения: *Atėjau **padėti**.* — пришёл помочь.)
+
+    **Kad tik…!** — «лишь бы…!»: *Kad tik nelytų!*
+comparison:
+  ru: |
+    Сравни: *Jis sakė, kad **ateis*** — он сказал, что придёт; *Jis sakė, kad **ateičiau*** — он сказал, чтобы я пришёл. Одно окончание меняет смысл, как «что» / «чтобы» в русском.
+examples:
+  - { text: "Aš noriu, kad Tomas būtų čia.", translation: "Я хочу, чтобы Том был здесь.", source: "tatoeba:11795294" }
+  - { text: "Nenoriu, kad pyktum.", translation: "Я не хочу, чтобы ты злился.", source: "tatoeba:3946381" }
+  - { text: "Pasakyk jam, kad lauktų.", translation: "Скажи ему, чтобы ждал.", source: "tatoeba:12138057" }
+  - { text: "Jis skuba, kad nepavėluotų į traukinį.", translation: "Он торопится, чтобы успеть на поезд.", source: "tatoeba:8184963" }
+  - { text: "Ji vilkėjo megztinį, kad nepersišaldytų.", translation: "Она носила пуловер, чтобы не простудиться.", source: "tatoeba:10526416" }
+exercises:
+  - type: cloze
+    text: "Noriu, kad tu ___ anksčiau."
+    answer: "ateitum"
+    hint: "ateiti, усл. накл., ты"
+    translation: "Хочу, чтобы ты пришёл пораньше."
+  - type: cloze
+    text: "Mama prašo, kad vaikai ___ namo."
+    answer: "grįžtų"
+    hint: "grįžti, усл. накл., они"
+    translation: "Мама просит, чтобы дети вернулись домой."
+  - type: cloze
+    text: "Skubu, kad ___ į traukinį."
+    answer: "suspėčiau"
+    hint: "suspėti, усл. накл., я"
+    translation: "Спешу, чтобы успеть на поезд."
+  - type: cloze
+    text: "Jis sakė, kad ___ rytoj."
+    answer: "ateis"
+    hint: "ateiti, буд. вр. — «что», а не «чтобы»"
+    translation: "Он сказал, что придёт завтра."
+  - type: cloze
+    text: "Užsidėk kepurę, kad ___."
+    answer: "nesušaltum"
+    hint: "nesušalti, усл. накл., ты"
+    translation: "Надень шапку, чтобы не замёрзнуть."
+  - type: cloze
+    text: "Kalbėk garsiau, kad visi ___."
+    answer: "girdėtų"
+    hint: "girdėti, усл. накл., они"
+    translation: "Говори громче, чтобы все слышали."
+  - type: cloze
+    text: "Svarbu, kad visi ___ sveiki."
+    answer: "būtų"
+    hint: "būti, усл. накл."
+    translation: "Важно, чтобы все были здоровы."
+  - type: cloze
+    text: "___ tik nelytų!"
+    answer: "Kad"
+    hint: "лишь бы"
+    translation: "Лишь бы не было дождя!"

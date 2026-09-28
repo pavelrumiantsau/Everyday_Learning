@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0027
+cefr: B2
+order: 27
+title: "Время: kai, kai tik, kol, po to, kai"
+explanation:
+  ru: |
+    - **kai** — когда: *Kai aš nubudau, snigo.* О будущем — **будущее время**, как в русском: *Aš pradėsiu, kai jis **ateis**.*
+    - **kai tik** — как только: *Aš ateisiu, **kai tik** galėsiu.*
+    - **vos (tik)** — едва, как только: ***Vos tik** atėjau, pradėjo lyti.*
+    - **kol** — пока: *Palauk, **kol** aš baigsiu.* **kol ne-** — пока не: *Mes neišeisime, **kol nesutems**.* (После *kol* отрицание можно ставить или нет — смысл «пока не / до тех пор как» остаётся.)
+    - **po to, kai** — после того как: *Po to, kai baigėme, nuėjome į kavinę.*
+    - **prieš tai, kai** — перед тем как: *Prieš tai, kai išeisi, išjunk šviesą.*
+    - **iki** + род. п. — до: *iki pirmadienio* — до понедельника.
+
+    Не путай: *kai kada* — иногда, *kai kas* — кое-что, кое-кто, *kol kas* — пока что.
+comparison:
+  ru: |
+    Почти всё совпадает с русским: «когда», «как только», «пока (не)». Главное — не ставить настоящее время вместо будущего: *kai grįši* — «когда вернёшься», а не «kai grįžti».
+examples:
+  - { text: "Aš pradėsiu, kai jis ateis.", translation: "Я начну, когда он придёт.", source: "tatoeba:10097023" }
+  - { text: "Kai aš nubudau, snigo.", translation: "Когда я проснулся, шел снег.", source: "tatoeba:11865977" }
+  - { text: "Aš ateisiu, kai tik galėsiu.", translation: "Я приду, как только смогу.", source: "tatoeba:11817220" }
+  - { text: "Mes neišeisime, kol nesutems.", translation: "Мы не уйдём, пока не стемнеет.", source: "tatoeba:12748008" }
+  - { text: "Valgykime, kol neatšalo!", translation: "Давайте есть, пока не остыло!", source: "tatoeba:12940607" }
+exercises:
+  - type: cloze
+    text: "___ grįši namo, paskambink man."
+    answer: "Kai"
+    hint: "когда"
+    translation: "Когда вернёшься домой, позвони мне."
+  - type: cloze
+    text: "Kai tik ___ laisvas, ateisiu."
+    answer: "būsiu"
+    hint: "būti, буд. вр., я"
+    translation: "Как только буду свободен, приду."
+  - type: cloze
+    text: "Palauk, ___ aš baigsiu."
+    answer: "kol"
+    hint: "пока"
+    translation: "Подожди, пока я закончу."
+  - type: cloze
+    text: "Nesėsk prie stalo, ___ nenusiplausi rankų."
+    answer: "kol"
+    hint: "пока (не)"
+    translation: "Не садись за стол, пока не вымоешь руки."
+  - type: cloze
+    text: "Po to, ___ baigėme darbą, nuėjome į kavinę."
+    answer: "kai"
+    hint: "после того как"
+    translation: "После того как мы закончили работу, мы пошли в кафе."
+  - type: cloze
+    text: "Prieš tai, kai ___, išjunk šviesą."
+    answer: "išeisi"
+    hint: "išeiti, буд. вр., ты"
+    translation: "Перед тем как уйдёшь, выключи свет."
+  - type: cloze
+    text: "Kai buvau vaikas, ___ kaime."
+    answer: "gyvenau"
+    hint: "gyventi, прош. вр., я"
+    translation: "Когда я был ребёнком, я жил в деревне."
+  - type: cloze
+    text: "___ tik atėjau, pradėjo lyti."
+    answer: "Vos"
+    hint: "едва (только)"
+    translation: "Едва я пришёл, начался дождь."

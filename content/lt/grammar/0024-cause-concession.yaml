@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0024
+cefr: B2
+order: 24
+title: "Причина и уступка: nes, kadangi, todėl, nors"
+explanation:
+  ru: |
+    **Причина:**
+    - **nes** — потому что; стоит **после** главного предложения: *Tomo nėra, **nes** jis serga.*
+    - **kadangi** — поскольку, так как; часто стоит **в начале**: ***Kadangi** lyja, aš į lauką neisiu.* В разговоре главное предложение нередко начинается с *tai*: *Kadangi aš užsiėmęs, **tai** negaliu eiti.*
+    - **todėl, kad / dėl to, kad** — потому что, с упором на причину: *Jis neatėjo **todėl, kad** sirgo.*
+
+    **Следствие:**
+    - **todėl** — поэтому: *Lijo, **todėl** likome namie.*
+
+    **Уступка:**
+    - **nors** — хотя: *Jis išėjo, **nors** buvo šalta.* С усилением — **nors ir**: *nors ir žinojo* — хотя и знал.
+    - Если *nors* стоит в начале, главное предложение часто начинается с **bet**: ***Nors** sninga, **bet** aš turiu eiti.*
+    - **vis dėlto** — всё-таки: *Tu **vis dėlto** eini?*
+
+    Не путай: *ką **nors**, kas **nors*** — что-нибудь, кто-нибудь; ***nors** kartą* — хоть раз.
+comparison:
+  ru: |
+    «Хотя…, но…» в русском считается ошибкой, а литовское *Nors…, bet…* — нормальная конструкция.
+
+    *nes* и *kadangi* оба значат «потому что / так как», но *nes* почти не ставят в начало предложения — там нужен *kadangi*.
+examples:
+  - { text: "Tomo nėra, nes jis serga.", translation: "Тома нет, потому что он болен.", source: "tatoeba:13403961" }
+  - { text: "Kadangi lyja, aš į lauką neisiu.", translation: "Поскольку идёт дождь, я на улицу не выйду.", source: "tatoeba:13499635" }
+  - { text: "Jis neatėjo todėl, kad sirgo.", translation: "Он не пришёл, потому что был болен.", source: "tatoeba:13851929" }
+  - { text: "Jis išėjo, nors buvo šalta.", translation: "Хотя было холодно, он вышел.", source: "tatoeba:13739544" }
+  - { text: "Nors sninga, bet aš turiu eiti.", translation: "Хотя идёт снег, мне всё же нужно идти.", source: "tatoeba:9933685" }
+exercises:
+  - type: cloze
+    text: "Aš neisiu į darbą, ___ sergu."
+    answer: "nes"
+    also: ["kadangi"]
+    hint: "потому что"
+    translation: "Я не пойду на работу, потому что болею."
+  - type: cloze
+    text: "___ buvo vėlu, mes grįžome namo taksi."
+    answer: "Kadangi"
+    hint: "поскольку — в начале предложения"
+    translation: "Так как было поздно, мы вернулись домой на такси."
+  - type: cloze
+    text: "Lijo, ___ likome namie."
+    answer: "todėl"
+    hint: "поэтому"
+    translation: "Шёл дождь, поэтому мы остались дома."
+  - type: cloze
+    text: "Jis atėjo į darbą, ___ jautėsi blogai."
+    answer: "nors"
+    hint: "хотя"
+    translation: "Он пришёл на работу, хотя плохо себя чувствовал."
+  - type: cloze
+    text: "Buvo sunku, bet mes ___ baigėme darbą."
+    answer: "vis dėlto"
+    hint: "всё-таки"
+    translation: "Было трудно, но мы всё-таки закончили работу."
+  - type: cloze
+    text: "Nors ir pavargau, ___ dar padirbėsiu."
+    answer: "bet"
+    hint: "но — после nors"
+    translation: "Хотя я и устал, ещё поработаю."
+  - type: cloze
+    text: "Ji verkia ___, kad pametė raktus."
+    answer: "todėl"
+    also: ["dėl to"]
+    hint: "потому (что)"
+    translation: "Она плачет, потому что потеряла ключи."
+  - type: cloze
+    text: "Ar ___ kartą gali ateiti laiku?"
+    answer: "nors"
+    hint: "хоть (раз)"
+    translation: "Можешь хоть раз прийти вовремя?"

@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0025
+cefr: B2
+order: 25
+title: "Условие: jeigu (jei) — реальное и нереальное"
+explanation:
+  ru: |
+    **jeigu** и короче **jei** — «если». В главном предложении в разговоре часто стоит **tai**: *Jeigu lis, **tai** neisime.*
+
+    **Реальное условие о будущем** — в обеих частях **будущее время**, как в русском: ***Jeigu lis**, neisime.* — Если будет дождь, не пойдём. *Jeigu **reikės** pagalbos, paskambink man.*
+
+    **Нереальное условие** («если бы…») — в обеих частях **условное наклонение** (-čiau, -tum, -tų…), без отдельного «бы»: ***Jei žinočiau, pasakyčiau.*** — Если бы я знал, я бы сказал.
+
+    **О прошлом** («если бы тогда…») — условное наклонение от *būti* + причастие прошедшего времени: *Jei **būčiau žinojęs**, **būčiau atėjęs**.* — Если бы я знал, я бы пришёл. Причастие согласуется в роде: *būčiau žinojusi* (о женщине).
+
+    **Jeigu ne…** — «если бы не…»: *Jeigu ne tu, būčiau pasiklydęs.*
+comparison:
+  ru: |
+    Главное отличие от русского: в нереальном условии литовский ставит **условную форму в обе части**, а «бы» — это само окончание: *jei turėčiau* = «если бы у меня было», *nusipirkčiau* = «я бы купил».
+examples:
+  - { text: "Jeigu lis, tai neisime.", translation: "Если будет дождь, не пойдём.", source: "tatoeba:12286181" }
+  - { text: "Jeigu gali, ateik!", translation: "Приди, если можешь!", source: "tatoeba:11848009" }
+  - { text: "Jei žinočiau, pasakyčiau.", translation: "Если бы я знал, я бы сказал.", source: "tatoeba:7786424" }
+  - { text: "Jeigu tu žinotum, kaip aš pavargau!", translation: "Если бы ты знал, как я устал!", source: "tatoeba:12507578" }
+  - { text: "Jeigu reikės pagalbos, paskambink man.", translation: "Позвони мне, если нужна будет помощь.", source: "tatoeba:10575578" }
+exercises:
+  - type: cloze
+    text: "Jeigu rytoj ___, mes neisime į mišką."
+    answer: "lis"
+    hint: "lyti, буд. вр."
+    translation: "Если завтра будет дождь, мы не пойдём в лес."
+  - type: cloze
+    text: "Jeigu ___ laiko, paskambink man."
+    answer: "turėsi"
+    hint: "turėti, буд. вр., ты"
+    translation: "Если будет время, позвони мне."
+  - type: cloze
+    text: "Jei ___ pinigų, nusipirkčiau namą."
+    answer: "turėčiau"
+    hint: "turėti, усл. накл., я"
+    translation: "Если бы у меня были деньги, я бы купил дом."
+  - type: cloze
+    text: "Jei tu ___ čia, būtų linksmiau."
+    answer: "būtum"
+    hint: "būti, усл. накл., ты"
+    translation: "Если бы ты был здесь, было бы веселее."
+  - type: cloze
+    text: "Jeigu aš ___, būčiau atėjęs."
+    answer: "būčiau žinojęs"
+    also: ["būčiau žinojusi"]
+    hint: "знать: «если бы я тогда знал» (м. р.)"
+    translation: "Если бы я знал, я бы пришёл."
+  - type: cloze
+    text: "Ką ___, jeigu laimėtum milijoną?"
+    answer: "darytum"
+    hint: "daryti, усл. накл., ты"
+    translation: "Что бы ты делал, если бы выиграл миллион?"
+  - type: cloze
+    text: "___ ne tu, aš būčiau pasiklydęs."
+    answer: "Jeigu"
+    also: ["Jei"]
+    hint: "если (бы) не"
+    translation: "Если бы не ты, я бы заблудился."
+  - type: cloze
+    text: "Jeigu autobusas ___, pavėluosime."
+    answer: "vėluos"
+    hint: "vėluoti, буд. вр."
+    translation: "Если автобус опоздает, мы опоздаем."
