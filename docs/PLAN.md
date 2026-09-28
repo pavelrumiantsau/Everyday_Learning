@@ -28,7 +28,7 @@
 **Content**
 | Area | Status |
 |---|---|
-| Lithuanian vocabulary | 599 words (A2–B2, frequency ranks up to 10,000; Tatoeba examples, verb forms, noun genitives, audio); year target ≈ 3,000 |
+| Lithuanian vocabulary | 774 words (A2–B2, frequency ranks up to 14,000; Tatoeba examples, verb forms, noun genitives, audio); year target ≈ 3,000 |
 | Spanish vocabulary | 138 items (phrasebook + core words, audio) |
 | Reading texts | LT 13 (B1; one per Thursday through December), ES 2 (A1) |
 | Grammar lessons | LT 23 (Q1–Q3: tenses and moods, participles, pusdalyvis/padalyvis, passive, reported speech, imperative/optative, diminutives, motion prefixes…), ES 12 (A1–A2: present incl. stem changes, reflexives, estar + gerund, preterite, pronouns, possessives) |
