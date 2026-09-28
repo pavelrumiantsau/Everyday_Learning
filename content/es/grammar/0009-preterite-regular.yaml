@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0009
+cefr: A2
+order: 9
+title: "Preterite of regular verbs: hablé, comí, viví"
+explanation:
+  en: |
+    The **preterite** (*pretérito indefinido*) tells what happened and **finished** at a specific time in the past. Drop *-ar / -er / -ir* and add:
+    - **-ar** hablar: habl**é**, habl**aste**, habl**ó**, habl**amos**, habl**asteis**, habl**aron**
+    - **-er** comer: com**í**, com**iste**, com**ió**, com**imos**, com**isteis**, com**ieron**
+    - **-ir** vivir: viv**í**, viv**iste**, viv**ió**, viv**imos**, viv**isteis**, viv**ieron**
+
+    -er and -ir verbs share the same endings. Watch the **accents**: *hablo* (I speak) — *habló* (he spoke).
+
+    *Nosotros* of -ar and -ir verbs looks like the present (*hablamos, vivimos*); the context tells you which: *Ayer hablamos* — We talked yesterday.
+
+    Spelling changes in the **yo** form only, to keep the sound:
+    - -car → **-qué**: buscar → bus**qué** · -gar → **-gué**: llegar → lle**gué**, pagar → pa**gué**
+    - -zar → **-cé**: empezar → empe**cé**
+
+    -ar and -er verbs lose their stem change in the preterite: *pensé, volví, volvió*.
+
+    Typical time words: **ayer** (yesterday), **anoche** (last night), **la semana pasada**, **el año pasado**, **hace dos días** (two days ago).
+comparison:
+  en: |
+    It's the English Past Simple for completed events: *Ayer compré un libro* — "Yesterday I bought a book". In Russian it usually matches the **perfective** past: *compré* ≈ «купил», *terminé* ≈ «закончил». (Descriptions and habits in the past use another tense, the imperfect — a later lesson.)
+examples:
+  - { text: "Ayer compré un libro.", translation: "I bought a book yesterday.", source: "tatoeba:9921" }
+  - { text: "Anoche trabajamos hasta las diez.", translation: "Last night we worked until 10 p.m.", source: "tatoeba:686882" }
+  - { text: "La semana pasada empecé a aprender chino.", translation: "I started learning Chinese last week.", source: "tatoeba:449321" }
+  - { text: "Ayer escribí mucho en mi diario.", translation: "I wrote a lot in my diary yesterday.", source: "tatoeba:793478" }
+  - { text: "Ayer Tom volvió pronto a casa.", translation: "Tom came home early yesterday.", source: "tatoeba:771865" }
+exercises:
+  - type: cloze
+    text: "Ayer ___ con mi madre por teléfono."
+    answer: "hablé"
+    hint: "hablar (yo)"
+    translation: "Yesterday I talked to my mother on the phone."
+  - type: cloze
+    text: "Anoche nosotros ___ en un restaurante."
+    answer: "cenamos"
+    hint: "cenar"
+    translation: "Last night we had dinner at a restaurant."
+  - type: cloze
+    text: "¿Tú ___ el café?"
+    answer: "pagaste"
+    hint: "pagar"
+    translation: "Did you pay for the coffee?"
+  - type: cloze
+    text: "Mi hermana ___ en Madrid dos años."
+    answer: "vivió"
+    hint: "vivir"
+    translation: "My sister lived in Madrid for two years."
+  - type: cloze
+    text: "La semana pasada ellos ___ un coche nuevo."
+    answer: "compraron"
+    hint: "comprar"
+    translation: "Last week they bought a new car."
+  - type: cloze
+    text: "Anoche ___ a casa muy tarde."
+    answer: "llegué"
+    hint: "llegar (yo)"
+    translation: "Last night I got home very late."
+  - type: cloze
+    text: "El tren ___ a las ocho."
+    answer: "salió"
+    hint: "salir"
+    translation: "The train left at eight."
+  - type: cloze
+    text: "Ayer ___ demasiado."
+    answer: "comí"
+    hint: "comer (yo)"
+    translation: "I ate too much yesterday."

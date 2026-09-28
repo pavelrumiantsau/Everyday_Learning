@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0011
+cefr: A1
+order: 11
+title: "Direct object pronouns: lo, la, los, las"
+explanation:
+  en: |
+    Direct object pronouns replace the thing or person that receives the action ("it", "him", "her", "them"):
+    - **me** (me), **te** (you), **nos** (us), **os** (you all)
+    - **lo** — him, it (masculine), you (*usted*, man)
+    - **la** — her, it (feminine), you (*usted*, woman)
+    - **los** — them (masculine or mixed) · **las** — them (feminine)
+
+    *Lo / la / los / las* match the **gender and number** of the noun they replace: *¿El libro? **Lo** tengo. ¿La carta? **La** tengo. ¿Los billetes? **Los** tengo.*
+
+    **Position:**
+    - **before** the conjugated verb: ***Lo** compro. No **lo** compro. **Te** quiero.*
+    - with an **infinitive** or **gerund**: attach it to the end — or put it before the first verb. Both are correct:
+      *Quiero comprar**lo** = **Lo** quiero comprar. Estoy leyéndo**lo** = **Lo** estoy leyendo.*
+
+    In Spain you'll also hear *le* for a man (*Le conozco*); *lo* is always correct.
+comparison:
+  en: |
+    The word order is Russian, not English: *Lo compré* — «Я **его** купил», not "I bought it". Like Russian *его / её / их*, Spanish chooses the pronoun by the noun's gender: *la mesa* → *la* (её), *el coche* → *lo* (его) — even though in English both are just "it".
+examples:
+  - { text: "Lo compré ayer.", translation: "I bought it yesterday.", source: "tatoeba:359387" }
+  - { text: "La conozco muy bien.", translation: "I know her very well.", source: "tatoeba:816965" }
+  - { text: "Te veo mañana en la escuela.", translation: "See you tomorrow at school.", source: "tatoeba:710508" }
+  - { text: "Los conozco a todos.", translation: "I know them all.", source: "tatoeba:495325" }
+  - { text: "Sé hablar chino, pero no leerlo.", translation: "I can speak Chinese, but I can't read it.", source: "tatoeba:496087" }
+exercises:
+  - type: cloze
+    text: "¿El libro? Sí, ___ tengo."
+    answer: "lo"
+    hint: "el libro →"
+    translation: "The book? Yes, I have it."
+  - type: cloze
+    text: "¿Conoces a Ana? — Sí, ___ conozco."
+    answer: "la"
+    hint: "Ana →"
+    translation: "Do you know Ana? — Yes, I know her."
+  - type: cloze
+    text: "Compré unas flores y ___ puse en la mesa."
+    answer: "las"
+    hint: "unas flores →"
+    translation: "I bought some flowers and put them on the table."
+  - type: cloze
+    text: "¿Dónde están mis zapatos? No ___ encuentro."
+    answer: "los"
+    hint: "mis zapatos →"
+    translation: "Where are my shoes? I can't find them."
+  - type: cloze
+    text: "Mi madre ___ llama todos los días."
+    answer: "me"
+    hint: "(to) me"
+    translation: "My mother calls me every day."
+  - type: cloze
+    text: "¿___ ayudo? — Sí, gracias."
+    answer: "Te"
+    hint: "you (tú)"
+    translation: "Shall I help you? — Yes, thanks."
+  - type: cloze
+    text: "Quiero ver la película. Voy a ___ esta noche."
+    answer: "verla"
+    hint: "ver + la película, one word"
+    translation: "I want to see the film. I'm going to see it tonight."
+  - type: cloze
+    text: "Nuestros amigos ___ visitan mañana."
+    answer: "nos"
+    hint: "us"
+    translation: "Our friends are visiting us tomorrow."

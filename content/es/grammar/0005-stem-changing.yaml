@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0005
+cefr: A1
+order: 5
+title: "Stem-changing verbs: quiero, puedo, pido"
+explanation:
+  en: |
+    Many common verbs have regular **endings** but change the vowel in their **stem** when it is stressed. There are three patterns:
+    - **e → ie** querer: qu**ie**ro, qu**ie**res, qu**ie**re, queremos, queréis, qu**ie**ren
+    - **o → ue** poder: p**ue**do, p**ue**des, p**ue**de, podemos, podéis, p**ue**den
+    - **e → i** pedir: p**i**do, p**i**des, p**i**de, pedimos, pedís, p**i**den
+
+    **Nosotros** and **vosotros** keep the stem of the infinitive, because there the stress falls on the ending (que**re**mos, po**dé**is). If you write the six forms in a table (singular on the left, plural on the right), the changed forms make the shape of a **boot** — that's why these are called "boot verbs".
+
+    Other verbs you know:
+    - e → ie: **pensar** (pienso), **empezar** (empiezo), **entender** (entiendo)
+    - o → ue: **dormir** (duermo), **volver** (vuelvo), **encontrar** (encuentro)
+    - e → i (only -ir verbs): **repetir** (repito)
+    - and one u → ue: **jugar** (juego, juegas… jugamos)
+
+    Dictionaries and textbooks often mark these as *querer (ie)*, *poder (ue)*, *pedir (i)*. You just have to learn which verbs change: *comer* and *beber* don't.
+comparison:
+  en: |
+    Russian also changes the stem inside one verb (*могу — можешь*, *хочу — хотим*), but in Spanish the rule is predictable: the vowel changes exactly where the stress falls on the stem — everywhere except *nosotros* and *vosotros*.
+examples:
+  - { text: "¿Qué quieres comer?", translation: "What do you want to eat?", source: "tatoeba:454186" }
+  - { text: "La escuela empieza a las nueve.", translation: "School starts at nine.", source: "tatoeba:445683" }
+  - { text: "No duermo bien.", translation: "I don't sleep well.", source: "tatoeba:436518" }
+  - { text: "Su padre siempre vuelve tarde a casa.", translation: "His father always comes home late.", source: "tatoeba:863001" }
+  - { text: "¿Por qué no pedimos pizza?", translation: "Why don't we order pizza?", source: "tatoeba:750506" }
+exercises:
+  - type: cloze
+    text: "¿Qué ___ hacer tú esta noche?"
+    answer: "quieres"
+    hint: "querer"
+    translation: "What do you want to do tonight?"
+  - type: cloze
+    text: "Hoy no ___ ir a la fiesta."
+    answer: "puedo"
+    hint: "poder (yo)"
+    translation: "I can't go to the party today."
+  - type: cloze
+    text: "La clase ___ a las nueve."
+    answer: "empieza"
+    hint: "empezar"
+    translation: "The class starts at nine."
+  - type: cloze
+    text: "Nosotros ___ a casa a las seis."
+    answer: "volvemos"
+    hint: "volver"
+    translation: "We come back home at six."
+  - type: cloze
+    text: "Mis hijos ___ ocho horas."
+    answer: "duermen"
+    hint: "dormir"
+    translation: "My children sleep eight hours."
+  - type: cloze
+    text: "En el restaurante, mi hermana siempre ___ pescado."
+    answer: "pide"
+    hint: "pedir"
+    translation: "At the restaurant my sister always orders fish."
+  - type: cloze
+    text: "¿Vosotros ___ que es difícil?"
+    answer: "pensáis"
+    hint: "pensar"
+    translation: "Do you (all) think it's difficult?"
+  - type: cloze
+    text: "Perdón, no ___. ¿Puede repetir, por favor?"
+    answer: "entiendo"
+    hint: "entender (yo)"
+    translation: "Sorry, I don't understand. Could you repeat, please?"
