@@ -57,6 +57,7 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
   const head = item.stress ?? item.text;
   const forms = item.forms && `${head} — ${item.forms.pres} — ${item.forms.past}`;
   const isForms = card.kind === "forms" && forms;
+  const isProd = card.kind === "prod";
 
   return (
     <main className="screen">
@@ -66,6 +67,27 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
       <p className="hint small">
         {FLAG[card.lang]} {index + 1} / {cards.length}
       </p>
+      {isProd ? (
+        <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>
+          <span className="badge">Обратная · {FLAG[card.lang]}</span>
+          <span className="word">{meaning}</span>
+          {grammar && <span className="hint small">{grammar}</span>}
+          {revealed ? (
+            <span className="answer">
+              <span className="meaning">{forms ?? (item.gen ? `${head}, ${item.gen}` : head)}</span>
+              {note && <span className="note">💡 {note}</span>}
+              {example && (
+                <span className="example">
+                  <i>{example.text}</i>
+                  <span className="hint">{example.translation}</span>
+                </span>
+              )}
+            </span>
+          ) : (
+            <span className="hint tap">Вспомни слово (с формами) и нажми</span>
+          )}
+        </button>
+      ) : (
       <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>
         {isForms && <span className="badge">3 формы</span>}
         <span className="word">{head}</span>
@@ -89,6 +111,7 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
           </span>
         )}
       </button>
+      )}
       <div className="spacer" />
       {revealed ? (
         <div className="ratings">

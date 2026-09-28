@@ -63,9 +63,24 @@ export const Schedule = z.object({
   morning: z.string().regex(/^\d{2}:\d{2}$/),
   evening: z.string().regex(/^\d{2}:\d{2}$/),
   new_per_day: z.record(z.enum(LANGS), z.number().int().min(0).max(30)),
+  max_new_polls: z.number().int().min(0).max(20),
   max_review_polls: z.number().int().min(0).max(20),
+  /** Answers needed for a day to count towards the streak. */
+  min_day_answers: z.number().int().min(1).max(200),
+  /** Reverse cards (meaning → word) per language, added once the meaning card is known. */
+  reverse: z.record(z.enum(LANGS), z.boolean()),
 });
 export type Schedule = z.infer<typeof Schedule>;
+
+/** What the learner can change at runtime (stored in D1); anything missing falls back to config/schedule.yaml. */
+export const Prefs = Schedule.omit({ timezone: true })
+  .partial()
+  .extend({
+    // Any subset of languages (z.record with enum keys would require all of them).
+    new_per_day: z.partialRecord(z.enum(LANGS), z.number().int().min(0).max(30)).optional(),
+    reverse: z.partialRecord(z.enum(LANGS), z.boolean()).optional(),
+  });
+export type Prefs = z.infer<typeof Prefs>;
 
 export function langOf(item: Pick<Item, "id">): Lang {
   return item.id.slice(0, 2) as Lang;

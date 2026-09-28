@@ -14,8 +14,8 @@
 | 1 | Infrastructure: Cloudflare Worker + D1, auto-deploy on push, nightly backup, CI with unit + smoke tests | ✅ Done | |
 | 2 | Bot: morning lesson + quiz polls, evening reminder, `/today`, `/lesson` | ✅ Done | |
 | 3 | Mini App: Telegram login, flashcards (4 ratings), LT verb forms cards, LT noun genitives, placement test | ✅ Done | |
-| 4 | Settings (new cards/day per language, poll cap), `/pause`, `/stats`, streaks + freezes | ⏳ In progress | main |
-| 5 | Reverse cards (RU/EN → target, recall), part of settings per language | ⏳ In progress | main |
+| 4 | Settings (new cards/day per language, poll cap), `/pause`, `/stats`, streaks + freezes | ✅ Done | Mini App ⚙️ + `/stats`, `/pause`, `/new`; defaults raised to LT 10 + ES 5 |
+| 5 | Reverse cards (RU/EN → target, recall), part of settings per language | ✅ Done | added once the meaning card is known (2 correct answers) |
 | 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ⏳ In progress | `feat/grammar` (sub-agent) |
 | 7 | Audio: TTS for words + examples, play button, voice clip in the bot | ⏳ In progress | `feat/audio` (sub-agent) |
 | 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ⏳ In progress | `feat/ai` (sub-agent) |
@@ -94,7 +94,7 @@ Claude subscription ── Claude Code: writes the lessons · Claude app: Lithua
 | Twice a week | 10–15 min | **Voice conversation** with a Lithuanian tutor you set up as a Project in the Claude app (§5.2) | LT |
 | Weekly | 20 min | Writing homework (LT) + weekly report | LT |
 
-**Minimum day** = 5 minutes or 20 reviews. It keeps the streak. You earn a streak freeze for every 7 full days.
+**Minimum day** = 15 answers (changeable in ⚙️). It keeps the streak. You earn a streak freeze for every 7 full days (max 2).
 
 ### 3.2 Hours and targets (approximate)
 | Language | Year-1 total | Target |

@@ -82,7 +82,8 @@ export class Db {
         new_cards: number;
         morning_sent: number;
         evening_sent: number;
-      }>()) ?? { reviews: 0, new_cards: 0, morning_sent: 0, evening_sent: 0 }
+        paused: number;
+      }>()) ?? { reviews: 0, new_cards: 0, morning_sent: 0, evening_sent: 0, paused: 0 }
     );
   }
 
@@ -115,6 +116,52 @@ export class Db {
       .prepare("SELECT COALESCE(SUM(known), 0) AS known, COUNT(*) - COALESCE(SUM(known), 0) AS unknown FROM placement")
       .first<{ known: number; unknown: number }>();
     return r ?? { known: 0, unknown: 0 };
+  }
+
+  async getSetting<T>(key: string): Promise<T | null> {
+    const v = await this.d1.prepare("SELECT value FROM settings WHERE key = ?").bind(key).first<string>("value");
+    return v === null ? null : (JSON.parse(v) as T);
+  }
+
+  setSetting(key: string, value: unknown) {
+    return this.d1
+      .prepare("INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value")
+      .bind(key, JSON.stringify(value));
+  }
+
+  async activityHistory(fromDay: string): Promise<{ day: string; reviews: number; new_cards: number; paused: number }[]> {
+    const { results } = await this.d1
+      .prepare("SELECT day, reviews, new_cards, paused FROM activity_day WHERE day >= ? ORDER BY day")
+      .bind(fromDay)
+      .all<{ day: string; reviews: number; new_cards: number; paused: number }>();
+    return results;
+  }
+
+  setPaused(day: string, paused: boolean) {
+    return this.d1
+      .prepare("INSERT INTO activity_day (day, paused) VALUES (?, ?) ON CONFLICT(day) DO UPDATE SET paused = excluded.paused")
+      .bind(day, paused ? 1 : 0);
+  }
+
+  clearPausedFrom(day: string) {
+    return this.d1.prepare("UPDATE activity_day SET paused = 0 WHERE day >= ?").bind(day);
+  }
+
+  /** Meaning-card states, to decide when reverse cards are added. */
+  async recogStates(): Promise<{ item_id: string; fsrs: string }[]> {
+    const { results } = await this.d1
+      .prepare("SELECT item_id, fsrs FROM card_state WHERE card_id LIKE '%:recog'")
+      .all<{ item_id: string; fsrs: string }>();
+    return results;
+  }
+
+  /** Share of correct answers (Good/Easy) in the period, excluding placement answers. */
+  async retention(sinceMs: number): Promise<{ total: number; correct: number }> {
+    const r = await this.d1
+      .prepare("SELECT COUNT(*) AS total, COALESCE(SUM(rating >= 3), 0) AS correct FROM review_event WHERE reviewed_at >= ? AND source != 'placement'")
+      .bind(sinceMs)
+      .first<{ total: number; correct: number }>();
+    return r ?? { total: 0, correct: 0 };
   }
 
   batch(stmts: D1PreparedStatement[]) {

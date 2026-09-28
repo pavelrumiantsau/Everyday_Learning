@@ -1,11 +1,18 @@
-# Your daily rhythm. Times are local to `timezone` (an IANA name, e.g. Europe/Vilnius, Europe/Warsaw).
+# Defaults for your daily rhythm. You can change most of these at runtime in the Mini App (⚙️) or with bot
+# commands; saved preferences override this file. Times are local to `timezone` (an IANA name, e.g. Europe/Vilnius).
 timezone: Europe/Vilnius
 morning: "07:50"   # morning lesson + quiz polls
-evening: "20:30"   # reminder, only if you haven't studied today
+evening: "20:30"   # reminder, only if today isn't done yet
 
-# Bot-only phase (week 1). The Mini App (weeks 2–3) raises these to the PLAN §3.3 numbers.
+# New words per day (PLAN §3.3, Q1 Oct–Dec 2026). French starts in April 2027.
 new_per_day:
-  lt: 5
-  es: 3
+  lt: 10
+  es: 5
   fr: 0
-max_review_polls: 7   # due reviews added to the morning quiz
+max_new_polls: 8      # quiz polls for new words in the morning message (the rest are practised in the Mini App)
+max_review_polls: 4   # quiz polls for due reviews in the morning message
+min_day_answers: 15   # answers needed for the day to count towards the streak
+reverse:              # "meaning → word" cards, added once the meaning card has been answered correctly twice
+  lt: true
+  es: true
+  fr: true

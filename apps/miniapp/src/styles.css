@@ -119,3 +119,22 @@ button { font: inherit; color: inherit; border: 0; cursor: pointer; }
 }
 .center-text { align-items: center; text-align: center; }
 .ratings.two { grid-template-columns: 1fr 1fr; }
+
+h2 { margin: 8px 0 0; font-size: 20px; }
+.secondary.row { align-items: stretch; }
+.calendar { display: grid; grid-template-columns: repeat(15, 1fr); gap: 4px; }
+.cal { aspect-ratio: 1; border-radius: 4px; background: var(--bg2); }
+.cal.done { background: var(--good); }
+.cal.partial { background: var(--hard); opacity: 0.6; }
+.cal.paused { background: var(--hint); opacity: 0.35; }
+.settings { display: flex; flex-direction: column; gap: 2px; background: var(--bg2); border-radius: 14px; padding: 4px 12px; }
+.setting { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; min-height: 44px; }
+.setting + .setting { border-top: 1px solid color-mix(in srgb, var(--hint) 25%, transparent); }
+.setting input[type="checkbox"] { width: 22px; height: 22px; accent-color: var(--accent); }
+.setting input[type="time"] { font: inherit; color: var(--text); background: var(--bg); border: 0; border-radius: 8px; padding: 6px 8px; }
+.stepper { display: inline-flex; align-items: center; gap: 10px; }
+.stepper button { width: 34px; height: 34px; border-radius: 10px; background: var(--bg); font-size: 20px; line-height: 1; }
+.stepper button:disabled { opacity: 0.35; }
+.num-sm { min-width: 24px; text-align: center; font-weight: 700; font-variant-numeric: tabular-nums; }
+.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+  background: var(--text); color: var(--bg); padding: 8px 14px; border-radius: 10px; font-size: 14px; }

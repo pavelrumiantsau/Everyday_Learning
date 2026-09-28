@@ -98,6 +98,15 @@ describe("nouns", () => {
   });
 });
 
+describe("Prefs", () => {
+  it("accepts a partial per-language update and rejects out-of-range values", async () => {
+    const { Prefs } = await import("../src");
+    expect(Prefs.safeParse({ new_per_day: { lt: 3 } }).success).toBe(true);
+    expect(Prefs.safeParse({ new_per_day: { lt: 99 } }).success).toBe(false);
+    expect(Prefs.safeParse({ morning: "7:5" }).success).toBe(false);
+  });
+});
+
 describe("format", () => {
   it("escapes HTML", () => {
     const item = Item.parse({ id: "lt-w-0009", type: "word", cefr: "A2", text: "a<b", meaning: { ru: "x&y" } });

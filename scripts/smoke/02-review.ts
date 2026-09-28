@@ -18,7 +18,7 @@ export default async function (t: Smoke) {
   check(session.due > 0 && session.reviewsToday === 2, `session: ${session.due} due, ${session.reviewsToday} answers today`);
   const { cards } = (await (await api("/queue", me)).json()) as { cards: { cardId: string; item: { text: string } }[] };
   check(cards.length === session.due && !!cards[0]?.item.text, `queue returns the ${cards.length} due cards with their content`);
-  const formsCard = cards.find((c) => c.cardId.endsWith(":forms")) as { item: { text: string; forms?: { pres: string; past: string } } } | undefined;
+  const formsCard = cards.find((c) => c.cardId === "lt-w-0005:forms") as { item: { text: string; forms?: { pres: string; past: string } } } | undefined;
   check(formsCard?.item.text === "vėluoti" && formsCard.item.forms?.past === "vėlavo", "a verb gets a separate 3-forms card (vėluoti → vėluoja, vėlavo)");
   check(!!lesson?.body.text.includes("vėluoti, vėluoja, vėlavo"), "the morning lesson shows the verb's 3 forms");
   check(!!lesson?.body.text.includes("laikas, laiko") && lesson.body.text.includes("сущ., м. р."), "nouns show nominative + genitive and a readable label");

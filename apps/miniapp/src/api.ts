@@ -3,7 +3,7 @@ import { tg } from "./telegram";
 
 export type Lang = "lt" | "es" | "fr";
 export interface Session { day: string; reviewsToday: number; newToday: number; due: number; known: Partial<Record<Lang, number>> }
-export interface QueueCard { cardId: string; kind: "recog" | "forms"; lang: Lang; item: Item }
+export interface QueueCard { cardId: string; kind: "recog" | "forms" | "prod"; lang: Lang; item: Item }
 export type Rating = 1 | 2 | 3 | 4;
 interface PendingReview { id: string; cardId: string; rating: Rating; reviewedAt: number }
 
@@ -69,3 +69,28 @@ export interface PlacementBatch { items: Item[]; remaining: number; stats: { kno
 export const getPlacement = (lang: Lang = "lt") => call<PlacementBatch>(`/placement?lang=${lang}`);
 export const savePlacement = (results: { itemId: string; known: boolean }[]) =>
   call<{ stats: { known: number; unknown: number } }>("/placement", { method: "POST", body: JSON.stringify({ results }) });
+
+export interface Prefs {
+  morning: string;
+  evening: string;
+  new_per_day: Partial<Record<Lang, number>>;
+  max_new_polls: number;
+  max_review_polls: number;
+  min_day_answers: number;
+  reverse: Partial<Record<Lang, boolean>>;
+}
+export interface Stats {
+  day: string;
+  streak: number;
+  freezes: number;
+  best: number;
+  todayDone: boolean;
+  minAnswers: number;
+  known: Partial<Record<Lang, number>>;
+  retention30: number | null;
+  answers30: number;
+  last30: { day: string; reviews: number; done: boolean; paused: boolean }[];
+}
+export const getStats = () => call<Stats>("/stats");
+export const getSettings = () => call<{ prefs: Prefs; timezone: string }>("/settings");
+export const saveSettings = (patch: Partial<Prefs>) => call<{ prefs: Prefs }>("/settings", { method: "PUT", body: JSON.stringify(patch) });
