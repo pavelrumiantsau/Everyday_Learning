@@ -32,7 +32,7 @@
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
 | Lithuanian vocabulary | 774 words (A2–B2, frequency ranks ≤ 14,000) | ~mid-December (10/day, less after placement) | `lt-*-0831`, `pnpm content:candidates lt 14000 4000`, recipe `prompts/content/lt-vocab.md` |
-| Spanish vocabulary | 138 items (A1) | **~late October (5/day) — first gap** | `es-*-0139`, `pnpm content:candidates es 1050 700`, recipe `prompts/content/es-vocab.md` |
+| Spanish vocabulary | 249 items (A1–A2) | ~mid-December (5/day) | `es-*-0250`, `pnpm content:candidates es 1750 700` (ranks 1050–1750 partly used: pick remaining lemmas), recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 23 lessons (Q1–Q3) | ~late December (Mon/Wed; Saturdays go to French until the 10 FR lessons are done, ~early December) | `lt-g-0024`: Q4 topics (PLAN §3.4) — complex sentences/connectors (nors, kadangi, jeigu, užuot), word order, idioms, register, B2 exam-style tasks |
 | Spanish grammar | 12 lessons (A1–A2) | ~mid-November (Tue/Fri) | `es-g-0013`: imperfect, imperfect vs preterite, future, comparisons, indirect object pronouns, *por/para* (PLAN §3.5) |
 | Lithuanian reading | 13 texts (B1) | end of December (Thursdays) | `lt-r-0014` (2027 texts: winter, Vasario 16-oji, Užgavėnės, Kaziuko mugė…) |
