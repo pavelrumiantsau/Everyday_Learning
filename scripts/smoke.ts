@@ -23,9 +23,9 @@ const tg = createServer((req, res) => {
   req.on("data", (c) => (raw += c));
   req.on("end", () => {
     const method = req.url!.split("/").pop()!;
-    calls.push({ method, body: JSON.parse(raw || "{}") });
     const result =
       method in fakeResults ? fakeResults[method] : method === "sendPoll" ? { message_id: 1, poll: { id: `poll-${++pollSeq}` } } : { message_id: 1 };
+    calls.push({ method, body: JSON.parse(raw || "{}"), result });
     res.setHeader("content-type", "application/json");
     res.end(JSON.stringify({ ok: true, result }));
   });

@@ -27,6 +27,8 @@ export interface Feature {
   commands?: Command[];
   /** Non-command messages (text, voice…). Return true if handled; features are asked in list order. */
   onMessage?(ctx: BotContext, message: TgMessage): Promise<boolean>;
+  /** Answers to polls the feature sent (non-quiz polls). Return true if the poll was yours. */
+  onPollAnswer?(ctx: BotContext, pollId: string, optionIds: number[]): Promise<boolean>;
   /** Mini App API, mounted under /api after Telegram login is verified. */
   api?: Hono<{ Bindings: Env }>;
   /** Runs every 15 minutes after the morning/evening logic; return a short label when it did something. */

@@ -33,6 +33,17 @@ export class Telegram {
     });
   }
 
+  /** Regular (non-quiz) poll, e.g. a multiple-choice checklist; non-anonymous so answers reach the bot. */
+  sendPoll(chatId: number | string, question: string, options: string[], multiple = false) {
+    return this.call<{ poll: { id: string } }>("sendPoll", {
+      chat_id: chatId,
+      question: question.slice(0, 300),
+      options: options.map((text) => ({ text: text.slice(0, 100) })),
+      is_anonymous: false,
+      allows_multiple_answers: multiple,
+    });
+  }
+
   /** Quiz poll; must be non-anonymous so the answer reaches us as a poll_answer update. */
   sendQuiz(chatId: number | string, q: { question: string; options: string[]; correctIndex: number; explanation?: string }) {
     return this.call<{ poll: { id: string } }>("sendPoll", {

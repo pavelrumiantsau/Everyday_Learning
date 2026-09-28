@@ -203,8 +203,14 @@ every night to the **private** repo `Everyday_Learning-data`. You need two token
 
 ✅ **Done when** the **Actions** tab shows `ci` (check + deploy) green, and `d1/everyday-learning.sql` appears in `Everyday_Learning-data`.
 
-**Later (weeks 7–8), not needed now:** a `CLAUDE_CODE_OAUTH_TOKEN` secret (from `claude setup-token`) for the automated
-content batches and weekly writing review. It's left out for now so it doesn't sit unused and expire.
+**Claude Code automation (content batches):** the workflow `content-batch` runs on the 1st (Lithuanian) and 15th (Spanish)
+of each month, or by hand from the Actions tab, and opens a pull request with the next batch. It runs on your Claude
+subscription through Claude Code, which the terms allow. One-time setup:
+```bash
+claude setup-token        # 👤 approve in the browser; copy the printed token (shown once)
+! gh secret set CLAUDE_CODE_OAUTH_TOKEN -R pavelrumiantsau/Everyday_Learning
+```
+Check each PR (the summary lists anything uncertain), then merge it — merging deploys the new content.
 
 ### Restoring from a backup (if ever needed) 🤖
 ```bash

@@ -5,7 +5,7 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { ItemFile, Schedule, type Item } from "../packages/core/src/index.ts";
+import { ItemFile, Milestones, Schedule, type Item } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
@@ -47,6 +47,11 @@ if (!schedule.success) {
   }
 }
 
+const milestones = Milestones.safeParse(parse(readFileSync(join(root, "config/milestones.yaml"), "utf8")));
+if (!milestones.success) {
+  for (const issue of milestones.error.issues) errors.push(`config/milestones.yaml: [${issue.path.join(".")}] ${issue.message}`);
+}
+
 if (errors.length) {
   console.error(`✗ ${errors.length} problem(s):\n  ${errors.join("\n  ")}`);
   process.exit(1);
@@ -64,5 +69,6 @@ if (!checkOnly) {
   mkdirSync(out, { recursive: true });
   writeFileSync(join(out, "content.json"), JSON.stringify(items));
   writeFileSync(join(out, "schedule.json"), JSON.stringify(schedule.data));
-  console.log(`→ ${relative(root, out)}/{content,schedule}.json`);
+  writeFileSync(join(out, "milestones.json"), JSON.stringify(milestones.data));
+  console.log(`→ ${relative(root, out)}/{content,schedule,milestones}.json`);
 }

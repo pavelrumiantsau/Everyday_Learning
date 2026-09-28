@@ -11,7 +11,11 @@ export async function handleUpdate(update: TgUpdate, ctx: BotContext) {
   const fromId = update.message?.from?.id ?? update.poll_answer?.user?.id;
   if (String(fromId) !== ctx.ownerId) return;
 
-  if (update.poll_answer) return handlePollAnswer(update.poll_answer.poll_id, update.poll_answer.option_ids, ctx.db, ctx.now);
+  if (update.poll_answer) {
+    const { poll_id, option_ids } = update.poll_answer;
+    for (const f of FEATURES) if (f.onPollAnswer && (await f.onPollAnswer(ctx, poll_id, option_ids))) return;
+    return handlePollAnswer(poll_id, option_ids, ctx.db, ctx.now);
+  }
 
   const message = update.message;
   if (!message) return;

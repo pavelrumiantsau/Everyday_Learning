@@ -1,5 +1,5 @@
 // Shared helpers for smoke checks. Each feature adds scripts/smoke/NN-<feature>.ts and lists it in index.ts.
-export interface TgCall { method: string; body: any }
+export interface TgCall { method: string; body: any; result?: any }
 
 export interface Smoke {
   OWNER: string;

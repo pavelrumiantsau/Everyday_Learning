@@ -1,0 +1,73 @@
+name: content-batch
+
+# Claude Code drafts the next content batch (on your Claude subscription) and opens a pull request for you to check.
+# Nothing goes live until you merge the PR; merging deploys it like any other change.
+on:
+  schedule:
+    - cron: "0 5 1 * *"  # 1st of the month: Lithuanian vocabulary
+    - cron: "0 5 15 * *" # 15th: Spanish vocabulary
+  workflow_dispatch:
+    inputs:
+      recipe:
+        description: "Recipe from prompts/content/ (without .md)"
+        required: true
+        default: lt-vocab
+        type: choice
+        options: [lt-vocab, es-vocab]
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+concurrency: content-batch
+
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      RECIPE: ${{ inputs.recipe || (github.event.schedule == '0 5 15 * *' && 'es-vocab' || 'lt-vocab') }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Cache source data (frequency lists, Tatoeba)
+        uses: actions/cache@v6
+        with:
+          path: .cache/sources
+          key: content-sources-v1
+      - name: Audio tools (edge-tts)
+        run: python3 -m venv .cache/venv && .cache/venv/bin/pip install -q edge-tts
+      - run: pnpm content:sources
+      - name: Claude Code drafts the batch
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Read prompts/content/_common.md and prompts/content/${{ env.RECIPE }}.md and follow them exactly.
+            Work only inside this repository. Do not commit or push; the workflow opens the pull request.
+          claude_args: "--max-turns 120 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+      - name: Open a pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$(git status --porcelain -- content scripts/batches apps/miniapp/public/audio docs)" ]; then
+            echo "No content changes."; exit 0
+          fi
+          pnpm content:validate
+          branch="content/${RECIPE}-$(date -u +%Y-%m-%d)"
+          git switch -c "$branch"
+          git add content scripts/batches apps/miniapp/public/audio docs/PLAN.md
+          git -c user.name="content-bot" -c user.email="content-bot@users.noreply.github.com" \
+            commit -q -m "Content batch: ${RECIPE} ($(date -u +%Y-%m-%d))"
+          git push -q -u origin "$branch"
+          body=".cache/batch-summary.md"; [ -f "$body" ] || echo "Batch ${RECIPE}. No summary was written." > "$body"
+          gh pr create --title "Content batch: ${RECIPE} ($(date -u +%Y-%m-%d))" --body-file "$body" --base main

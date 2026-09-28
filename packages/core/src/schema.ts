@@ -94,3 +94,19 @@ export function principalForms(item: Pick<Item, "text" | "stress" | "forms" | "g
 export function meaningOf(item: Item): string {
   return item.meaning[EXPLANATION_LANG[langOf(item)]]!;
 }
+
+const CanDo = z.array(z.string().min(3).max(100)).max(10);
+export const Milestones = z.object({
+  quarters: z.array(
+    z.object({
+      id: z.string().min(1),
+      label: z.string().min(1),
+      start: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+      end: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+      lt: CanDo.optional(),
+      es: CanDo.optional(),
+      fr: CanDo.optional(),
+    }),
+  ),
+});
+export type Milestones = z.infer<typeof Milestones>;

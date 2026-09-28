@@ -5,6 +5,7 @@ import placement from "./03-placement.ts";
 import settings from "./04-settings.ts";
 import audio from "./06-audio.ts";
 import progress from "./08-progress.ts";
+import assessment from "./09-assessment.ts";
 import type { Smoke } from "./context.ts";
 
 export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
@@ -14,4 +15,5 @@ export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "settings", run: settings },
   { name: "progress", run: progress },
   { name: "audio", run: audio },
+  { name: "assessment", run: assessment },
 ];
