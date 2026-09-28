@@ -28,9 +28,10 @@
 **Content**
 | Area | Status |
 |---|---|
-| Lithuanian vocabulary | 175 words (B1–B2, Tatoeba examples, verb forms, noun genitives); year target ≈ 3,000 |
-| Spanish vocabulary | 62 items (phrasebook + core words) |
-| Grammar lessons | LT 5 (Q1: *-davo*, future, conditional, *-si-* with prefixes, definite adjectives) · ES 4 (present, ser/estar, gustar, *ir a*) |
+| Lithuanian vocabulary | 599 words (A2–B2, frequency ranks up to 10,000; Tatoeba examples, verb forms, noun genitives, audio); year target ≈ 3,000 |
+| Spanish vocabulary | 138 items (phrasebook + core words, audio) |
+| Reading texts | LT 6 (B1), ES 2 (A1) |
+| Grammar lessons | LT 7 (Q1: -davo, future, conditional, reflexive prefixes, definite adjectives, aspect, genitive), ES 4 |
 | French | starts April 2027 |
 
 **Resuming after an interruption:** check this table, `git branch -a` for `feat/*` branches not yet merged into `main`,
