@@ -1,6 +1,7 @@
 // Connects the bot to the deployed Worker: webhook (with secret), command menu, ▶ Learn button (Mini App).
 // Usage: pnpm setup:telegram          (configure)
 //        pnpm setup:telegram --info   (just show the webhook status)
+import { COMMANDS } from "../apps/worker/src/features/index.ts";
 import { readDevVars } from "./secrets-push.ts";
 
 const vars = readDevVars();
@@ -32,11 +33,7 @@ if (!process.argv.includes("--info")) {
   });
   console.log(`✓ Webhook → ${url}/tg/webhook`);
   await call("setMyCommands", {
-    commands: [
-      { command: "today", description: "План на сегодня" },
-      { command: "lesson", description: "Урок прямо сейчас" },
-      { command: "help", description: "Справка" },
-    ],
+    commands: COMMANDS.filter((c) => c.menu !== false).map((c) => ({ command: c.name, description: c.description })),
   });
   console.log("✓ Command menu set");
   await call("setChatMenuButton", {

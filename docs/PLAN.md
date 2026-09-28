@@ -6,6 +6,37 @@
 > **Budget:** free tiers + your existing Claude subscription. The Claude API is an optional extra.
 > **Devices:** iPhone (main), MacBook (work), Windows laptop (occasional). All of them run **Telegram**.
 
+## Status (updated as work lands)
+
+**App**
+| # | Feature | Status | Branch / notes |
+|---|---|---|---|
+| 1 | Infrastructure: Cloudflare Worker + D1, auto-deploy on push, nightly backup, CI with unit + smoke tests | ✅ Done | |
+| 2 | Bot: morning lesson + quiz polls, evening reminder, `/today`, `/lesson` | ✅ Done | |
+| 3 | Mini App: Telegram login, flashcards (4 ratings), LT verb forms cards, LT noun genitives, placement test | ✅ Done | |
+| 4 | Settings (new cards/day per language, poll cap), `/pause`, `/stats`, streaks + freezes | ⏳ In progress | main |
+| 5 | Reverse cards (RU/EN → target, recall), part of settings per language | ⏳ In progress | main |
+| 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ⏳ In progress | `feat/grammar` (sub-agent) |
+| 7 | Audio: TTS for words + examples, play button, voice clip in the bot | ⏳ In progress | `feat/audio` (sub-agent) |
+| 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ⏳ In progress | `feat/ai` (sub-agent) |
+| 9 | Reading mode (graded texts, tap word → card) | ⬜ Next | |
+| 10 | Weekly report, `/input` log, auto-adjust of new cards | ⬜ Next | |
+| 11 | "Report a mistake" (bot + Mini App) | ⬜ Next | |
+| 12 | Automation: Claude Code content batches (PR), weekly writing review, quarterly self-assessment | ⬜ Next | needs `CLAUDE_CODE_OAUTH_TOKEN` |
+
+**Content**
+| Area | Status |
+|---|---|
+| Lithuanian vocabulary | 175 words (B1–B2, Tatoeba examples, verb forms, noun genitives); year target ≈ 3,000 |
+| Spanish vocabulary | 62 items (phrasebook + core words) |
+| Grammar lessons | none yet (need feature 6) |
+| French | starts April 2027 |
+
+**Resuming after an interruption:** check this table, `git branch -a` for `feat/*` branches not yet merged into `main`,
+and the latest CI run (`gh run list -L 3`). Every merged feature is deployed automatically.
+
+---
+
 ### Change log
 | Version | Change |
 |---|---|

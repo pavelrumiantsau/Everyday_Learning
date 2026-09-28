@@ -1,6 +1,7 @@
 import { buildQuiz, formatNewItem, inWindow, langOf, localClock, newCard, pickNewItems, type CardJson, type Item } from "@el/core";
 import { ITEM_BY_ID, ITEMS, SCHEDULE } from "./content";
 import type { Db } from "./db";
+import type { BotContext } from "./feature";
 import type { Telegram } from "./telegram";
 
 const MORNING_WINDOW_MIN = 180; // if the morning cron is missed, still send until 3 h later
@@ -27,8 +28,22 @@ export async function ensureCards(db: Db, now = new Date()): Promise<number> {
   return missing.length;
 }
 
-/** Called by the 15-minute cron. */
-export async function tick(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now = new Date()): Promise<string> {
+/** Called by the 15-minute cron: morning lesson, evening reminder, then each feature's onTick. */
+export async function tick(ctx: BotContext): Promise<string> {
+  const done = [await coreTick(ctx.db, ctx.tg, ctx.ownerId, ctx.webAppUrl, ctx.now)];
+  const { FEATURES } = await import("./features");
+  for (const f of FEATURES) {
+    try {
+      const r = await f.onTick?.(ctx);
+      if (r) done.push(`${f.id}:${r}`);
+    } catch (err) {
+      console.error(`tick ${f.id} failed`, err); // one feature's failure must not stop the others
+    }
+  }
+  return done.join(" ");
+}
+
+async function coreTick(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now: Date): Promise<string> {
   const { day, hhmm } = localClock(now, SCHEDULE.timezone);
 
   if (inWindow(hhmm, SCHEDULE.morning, MORNING_WINDOW_MIN) && (await db.claimDayFlag(day, "morning_sent"))) {

@@ -3,9 +3,20 @@ import { api } from "./api";
 import { handleUpdate } from "./bot";
 import { tick } from "./daily";
 import { Db } from "./db";
+import type { BotContext } from "./feature";
 import { Telegram, type TgUpdate } from "./telegram";
 
-const telegram = (env: Env) => new Telegram(env.TELEGRAM_BOT_TOKEN, env.TELEGRAM_API_BASE);
+function botContext(env: Env, waitUntil: (p: Promise<unknown>) => void): BotContext {
+  return {
+    env,
+    db: new Db(env.DB),
+    tg: new Telegram(env.TELEGRAM_BOT_TOKEN, env.TELEGRAM_API_BASE),
+    ownerId: env.TELEGRAM_USER_ID,
+    webAppUrl: env.WEBAPP_URL,
+    now: new Date(),
+    waitUntil,
+  };
+}
 
 const app = new Hono<{ Bindings: Env }>();
 
@@ -18,7 +29,7 @@ app.post("/tg/webhook", async (c) => {
   }
   const update = await c.req.json<TgUpdate>();
   try {
-    await handleUpdate(update, new Db(c.env.DB), telegram(c.env), c.env.TELEGRAM_USER_ID, c.env.WEBAPP_URL);
+    await handleUpdate(update, botContext(c.env, (p) => c.executionCtx.waitUntil(p)));
   } catch (err) {
     // Log and still return 200, otherwise Telegram retries the same update over and over.
     console.error("update failed", update.update_id, err);
@@ -29,8 +40,6 @@ app.post("/tg/webhook", async (c) => {
 export default {
   fetch: app.fetch,
   async scheduled(_event, env, ctx) {
-    ctx.waitUntil(
-      tick(new Db(env.DB), telegram(env), env.TELEGRAM_USER_ID, env.WEBAPP_URL).then((r) => console.log("tick:", r)),
-    );
+    ctx.waitUntil(tick(botContext(env, (p) => ctx.waitUntil(p))).then((r) => console.log("tick:", r)));
   },
 } satisfies ExportedHandler<Env>;
