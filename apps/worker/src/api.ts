@@ -3,6 +3,7 @@
 import { langOf, localClock, reviewCard, verifyInitData } from "@el/core";
 import { Hono } from "hono";
 import { ITEM_BY_ID, SCHEDULE } from "./content";
+import { ensureCards } from "./daily";
 import { Db } from "./db";
 
 export const api = new Hono<{ Bindings: Env }>();
@@ -29,10 +30,12 @@ const QUEUE_MAX = 200;
 api.get("/queue", async (c) => {
   const db = new Db(c.env.DB);
   const limit = Math.min(Number(c.req.query("limit") ?? 100) || 100, QUEUE_MAX);
+  await ensureCards(db);
   const rows = await db.dueCards(Date.now(), limit);
   const cards = rows.flatMap((r) => {
     const item = ITEM_BY_ID.get(r.item_id);
-    return item ? [{ cardId: r.card_id, lang: langOf(item), item }] : []; // skip items removed from content
+    const kind = r.card_id.slice(r.card_id.lastIndexOf(":") + 1);
+    return item ? [{ cardId: r.card_id, kind, lang: langOf(item), item }] : []; // skip items removed from content
   });
   return c.json({ cards });
 });

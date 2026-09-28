@@ -75,6 +75,15 @@ describe("reviewCard", () => {
   });
 });
 
+describe("principal forms", () => {
+  it("are required for Lithuanian verbs and shown as a triple", () => {
+    const base = { id: "lt-w-0100", type: "word", cefr: "B1", text: "priimti", pos: "verb", meaning: { ru: "принять" } };
+    expect(() => Item.parse(base)).toThrow(/forms/);
+    const item = Item.parse({ ...base, forms: { pres: "priima", past: "priėmė" } });
+    expect(formatNewItem(item)).toContain("priimti, priima, priėmė");
+  });
+});
+
 describe("format", () => {
   it("escapes HTML", () => {
     const item = Item.parse({ id: "lt-w-0009", type: "word", cefr: "A2", text: "a<b", meaning: { ru: "x&y" } });

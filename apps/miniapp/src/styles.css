@@ -101,3 +101,7 @@ button { font: inherit; color: inherit; border: 0; cursor: pointer; }
 .rate.good { background: var(--good); }
 .rate.easy { background: var(--easy); }
 .rate:active, .button:active { transform: scale(0.97); }
+
+.badge { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
+.forms { font-size: 16px; font-weight: 600; }
+.forms.big { font-size: 22px; }

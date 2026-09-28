@@ -23,6 +23,8 @@ export const Item = z
     stress: z.string().min(1).optional(),
     pos: z.enum(["noun", "verb", "adj", "adv", "pron", "prep", "conj", "num", "part", "phrase"]).optional(),
     gender: z.enum(["m", "f", "n", "mf"]).optional(),
+    /** Lithuanian verbs: the other two principal forms — present and past, 3rd person (priimti → priima, priėmė). */
+    forms: z.object({ pres: z.string().min(1), past: z.string().min(1) }).optional(),
     meaning: Localized,
     note: Localized.optional(),
     examples: z.array(Example).default([]),
@@ -36,6 +38,9 @@ export const Item = z
     }
     if (item.note && !item.note[expl]) {
       ctx.addIssue({ code: "custom", path: ["note", expl], message: `${lang} notes must be in ${expl}` });
+    }
+    if (lang === "lt" && item.pos === "verb" && !item.forms) {
+      ctx.addIssue({ code: "custom", path: ["forms"], message: "Lithuanian verbs need forms: { pres, past } (3rd person)" });
     }
     if ((item.id[3] === "w") !== (item.type === "word")) {
       ctx.addIssue({ code: "custom", path: ["id"], message: "id letter must match type (w = word, p = phrase)" });
@@ -56,6 +61,12 @@ export type Schedule = z.infer<typeof Schedule>;
 
 export function langOf(item: Pick<Item, "id">): Lang {
   return item.id.slice(0, 2) as Lang;
+}
+
+/** "priimti, priima, priėmė" for verbs with principal forms, otherwise the plain text. */
+export function principalForms(item: Item): string {
+  const head = item.stress ?? item.text;
+  return item.forms ? `${head}, ${item.forms.pres}, ${item.forms.past}` : head;
 }
 
 export function meaningOf(item: Item): string {

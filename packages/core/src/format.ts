@@ -1,4 +1,4 @@
-import { langOf, meaningOf, type Item, type Lang } from "./schema";
+import { langOf, meaningOf, principalForms, type Item, type Lang } from "./schema";
 
 const FLAG: Record<Lang, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
 
@@ -9,7 +9,7 @@ export function escapeHtml(s: string): string {
 /** Telegram HTML card for a newly introduced item. */
 export function formatNewItem(item: Item): string {
   const lang = langOf(item);
-  const head = `${FLAG[lang]} <b>${escapeHtml(item.stress ?? item.text)}</b>`;
+  const head = `${FLAG[lang]} <b>${escapeHtml(principalForms(item))}</b>`;
   const grammar = [item.pos, item.gender].filter(Boolean).join(", ");
   const lines = [`${head}${grammar ? ` <i>(${grammar})</i>` : ""} — ${escapeHtml(meaningOf(item))}`];
   for (const ex of item.examples.slice(0, 1)) {

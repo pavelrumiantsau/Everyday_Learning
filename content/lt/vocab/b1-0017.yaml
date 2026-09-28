@@ -16,6 +16,7 @@
   cefr: B1
   text: "priimti"
   pos: verb
+  forms: { pres: "priima", past: "priėmė" }
   meaning: { ru: "принять" }
   note: { ru: "priimti sprendimą — принять решение" }
   examples:
@@ -42,6 +43,7 @@
   cefr: B1
   text: "išsiaiškinti"
   pos: verb
+  forms: { pres: "išsiaiškina", past: "išsiaiškino" }
   meaning: { ru: "выяснить, разобраться" }
   examples:
     - { text: "Mes turime išsiaiškinti.", translation: "Мы должны выяснить.", source: "tatoeba:4587377" }
@@ -67,6 +69,7 @@
   cefr: B1
   text: "pranešti"
   pos: verb
+  forms: { pres: "praneša", past: "pranešė" }
   meaning: { ru: "сообщить" }
   note: { ru: "pranešti apie ką — сообщить о чём" }
   examples:
@@ -94,6 +97,7 @@
   cefr: B1
   text: "praleisti"
   pos: verb
+  forms: { pres: "praleidžia", past: "praleido" }
   meaning: { ru: "провести (время); пропустить" }
   examples:
     - { text: "Kaip mums praleisti vakarą?", translation: "Как нам провести вечер?", source: "tatoeba:13596949" }
@@ -120,6 +124,7 @@
   cefr: B1
   text: "prisiminti"
   pos: verb
+  forms: { pres: "prisimena", past: "prisiminė" }
   meaning: { ru: "вспомнить" }
   note: { ru: "После отрицания — род. п.: negaliu to prisiminti" }
   examples:
@@ -147,6 +152,7 @@
   cefr: B1
   text: "nuspręsti"
   pos: verb
+  forms: { pres: "nusprendžia", past: "nusprendė" }
   meaning: { ru: "решить (принять решение)" }
   note: { ru: "Прош. вр.: nusprendė — решил(а)" }
   examples:
@@ -175,6 +181,7 @@
   cefr: A2
   text: "parduoti"
   pos: verb
+  forms: { pres: "parduoda", past: "pardavė" }
   meaning: { ru: "продать" }
   examples:
     - { text: "Aš ketinu jį parduoti.", translation: "Я собираюсь его продавать.", source: "tatoeba:11741096" }
@@ -200,6 +207,7 @@
   cefr: B1
   text: "apsaugoti"
   pos: verb
+  forms: { pres: "apsaugo", past: "apsaugojo" }
   meaning: { ru: "защитить" }
   examples:
     - { text: "Tu turi apsaugoti savo šeimą.", translation: "Ты должен защитить свою семью.", source: "tatoeba:11528535" }
@@ -225,6 +233,7 @@
   cefr: A2
   text: "patikrinti"
   pos: verb
+  forms: { pres: "patikrina", past: "patikrino" }
   meaning: { ru: "проверить" }
   examples:
     - { text: "Mes privalome patikrinti.", translation: "Мы должны обязательно проверить.", source: "tatoeba:9739711" }
@@ -250,6 +259,7 @@
   cefr: A2
   text: "sumokėti"
   pos: verb
+  forms: { pres: "sumoka", past: "sumokėjo" }
   meaning: { ru: "заплатить" }
   examples:
     - { text: "Aš noriu sumokėti.", translation: "Я хочу заплатить.", source: "tatoeba:13100629" }
@@ -275,6 +285,7 @@
   cefr: B1
   text: "sutvarkyti"
   pos: verb
+  forms: { pres: "sutvarko", past: "sutvarkė" }
   meaning: { ru: "уладить; привести в порядок" }
   examples:
     - { text: "Aš rasiu būdą tai sutvarkyti.", translation: "Я найду способ это уладить.", source: "tatoeba:13400997" }
@@ -301,6 +312,7 @@
   cefr: B1
   text: "sukurti"
   pos: verb
+  forms: { pres: "sukuria", past: "sukūrė" }
   meaning: { ru: "создать; придумать" }
   examples:
     - { text: "Mes turime sukurti planą.", translation: "Мы должны придумать план.", source: "tatoeba:13774630" }
@@ -326,6 +338,7 @@
   cefr: B1
   text: "pasirūpinti"
   pos: verb
+  forms: { pres: "pasirūpina", past: "pasirūpino" }
   meaning: { ru: "позаботиться" }
   note: { ru: "pasirūpinti kuo (+ твор. п.) — позаботиться о ком" }
   examples:
@@ -352,6 +365,7 @@
   cefr: B2
   text: "valdyti"
   pos: verb
+  forms: { pres: "valdo", past: "valdė" }
   meaning: { ru: "управлять" }
   examples:
     - { text: "Kuo tamsesnė liaudis, tuo lengviau ją valdyti.", translation: "Чем невежественнее народ, тем легче им управлять.", source: "tatoeba:13535677" }
@@ -378,6 +392,7 @@
   cefr: B1
   text: "išgyventi"
   pos: verb
+  forms: { pres: "išgyvena", past: "išgyveno" }
   meaning: { ru: "выжить; пережить" }
   examples:
     - { text: "Be pinigų negalima išgyventi.", translation: "Без денег нельзя выжить.", source: "tatoeba:13567698" }
@@ -404,6 +419,7 @@
   cefr: B1
   text: "atsikratyti"
   pos: verb
+  forms: { pres: "atsikrato", past: "atsikratė" }
   meaning: { ru: "избавиться" }
   note: { ru: "atsikratyti ko (+ род. п.) — избавиться от чего" }
   examples:
@@ -432,6 +448,7 @@
   cefr: B1
   text: "padėkoti"
   pos: verb
+  forms: { pres: "padėkoja", past: "padėkojo" }
   meaning: { ru: "поблагодарить" }
   note: { ru: "padėkoti kam (+ дат. п.), а не «кого», как в русском" }
   examples:
@@ -459,6 +476,7 @@
   cefr: B1
   text: "jaustis"
   pos: verb
+  forms: { pres: "jaučiasi", past: "jautėsi" }
   meaning: { ru: "чувствовать себя" }
   note: { ru: "jaustis kuo (+ твор. п.): jaustis reikalingu — чувствовать себя нужным" }
   examples:
@@ -486,6 +504,7 @@
   cefr: A2
   text: "paaiškinti"
   pos: verb
+  forms: { pres: "paaiškina", past: "paaiškino" }
   meaning: { ru: "объяснить" }
   note: { ru: "Буд. вр.: paaiškinsiu — объясню" }
   examples:
@@ -513,6 +532,7 @@
   cefr: B1
   text: "pasiūlyti"
   pos: verb
+  forms: { pres: "pasiūlo", past: "pasiūlė" }
   meaning: { ru: "предложить" }
   examples:
     - { text: "Ką aš galiu jums pasiūlyti?", translation: "Что я могу вам предложить?", source: "tatoeba:12197323" }
@@ -538,6 +558,7 @@
   cefr: A2
   text: "atiduoti"
   pos: verb
+  forms: { pres: "atiduoda", past: "atidavė" }
   meaning: { ru: "отдать; вернуть" }
   examples:
     - { text: "Aš turiu Tomui atiduoti pinigus.", translation: "Мне надо вернуть Тому деньги.", source: "tatoeba:11446032" }
@@ -564,6 +585,7 @@
   cefr: B2
   text: "suteikti"
   pos: verb
+  forms: { pres: "suteikia", past: "suteikė" }
   meaning: { ru: "предоставить, оказать" }
   note: { ru: "suteikti pagalbą — оказать помощь" }
   examples:
@@ -590,6 +612,7 @@
   cefr: B1
   text: "susisiekti"
   pos: verb
+  forms: { pres: "susisiekia", past: "susisiekė" }
   meaning: { ru: "связаться" }
   note: { ru: "susisiekti su kuo (+ твор. п.)" }
   examples:
@@ -616,6 +639,7 @@
   cefr: B1
   text: "naudotis"
   pos: verb
+  forms: { pres: "naudojasi", past: "naudojosi" }
   meaning: { ru: "пользоваться" }
   note: { ru: "naudotis kuo (+ твор. п.), как в русском" }
   examples:
@@ -643,6 +667,7 @@
   cefr: B1
   text: "rinktis"
   pos: verb
+  forms: { pres: "renkasi", past: "rinkosi" }
   meaning: { ru: "выбирать" }
   note: { ru: "Tai tau rinktis — тебе выбирать" }
   examples:
@@ -669,6 +694,7 @@
   cefr: B1
   text: "pasinaudoti"
   pos: verb
+  forms: { pres: "pasinaudoja", past: "pasinaudojo" }
   meaning: { ru: "воспользоваться" }
   note: { ru: "pasinaudoti kuo (+ твор. п.)" }
   examples:
@@ -695,6 +721,7 @@
   cefr: A2
   text: "aplankyti"
   pos: verb
+  forms: { pres: "aplanko", past: "aplankė" }
   meaning: { ru: "навестить, посетить" }
   examples:
     - { text: "Aš noriu aplankyti Tomą.", translation: "Я хочу навестить Тома.", source: "tatoeba:10824097" }
@@ -721,6 +748,7 @@
   cefr: B1
   text: "prarasti"
   pos: verb
+  forms: { pres: "praranda", past: "prarado" }
   meaning: { ru: "потерять" }
   examples:
     - { text: "Ar bijai prarasti darbą?", translation: "Ты боишься потерять работу?", source: "tatoeba:3149616" }
@@ -738,6 +766,7 @@
   cefr: B1
   text: "stebėti"
   pos: verb
+  forms: { pres: "stebi", past: "stebėjo" }
   meaning: { ru: "наблюдать" }
   examples:
     - { text: "Įdomu stebėti bangas.", translation: "За волнами интересно наблюдать.", source: "tatoeba:10253878" }
@@ -755,6 +784,7 @@
   cefr: B1
   text: "prisijungti"
   pos: verb
+  forms: { pres: "prisijungia", past: "prisijungė" }
   meaning: { ru: "присоединиться" }
   note: { ru: "prisijungti prie ko (+ род. п.)" }
   examples:
@@ -773,6 +803,7 @@
   cefr: B1
   text: "pristatyti"
   pos: verb
+  forms: { pres: "pristato", past: "pristatė" }
   meaning: { ru: "представить; доставить" }
   examples:
     - { text: "Mes buvome pristatyti.", translation: "Нас представили.", source: "tatoeba:2589274" }
@@ -791,6 +822,7 @@
   cefr: A2
   text: "atsiprašyti"
   pos: verb
+  forms: { pres: "atsiprašo", past: "atsiprašė" }
   meaning: { ru: "извиниться" }
   examples:
     - { text: "Tu turi atsiprašyti.", translation: "Ты должен извиниться.", source: "tatoeba:10718287" }
@@ -808,6 +840,7 @@
   cefr: B2
   text: "pripažinti"
   pos: verb
+  forms: { pres: "pripažįsta", past: "pripažino" }
   meaning: { ru: "признать" }
   examples:
     - { text: "Tu turi savo klaidas pripažinti.", translation: "Ты должен признавать свои ошибки.", source: "tatoeba:13787531" }
@@ -825,6 +858,7 @@
   cefr: B1
   text: "dalyvauti"
   pos: verb
+  forms: { pres: "dalyvauja", past: "dalyvavo" }
   meaning: { ru: "участвовать" }
   examples:
     - { text: "Visi gali dalyvauti.", translation: "Все могут участвовать.", source: "tatoeba:11813769" }
@@ -842,6 +876,7 @@
   cefr: B1
   text: "įrodyti"
   pos: verb
+  forms: { pres: "įrodo", past: "įrodė" }
   meaning: { ru: "доказать" }
   examples:
     - { text: "Ką tu bandai įrodyti?", translation: "Что ты пытаешься доказать?", source: "tatoeba:13104780" }
@@ -859,6 +894,7 @@
   cefr: A2
   text: "išmokti"
   pos: verb
+  forms: { pres: "išmoksta", past: "išmoko" }
   meaning: { ru: "выучить, научиться" }
   examples:
     - { text: "Noriu išmokti šokti.", translation: "Я хочу научиться танцевать.", source: "tatoeba:3041346" }
@@ -876,6 +912,7 @@
   cefr: A2
   text: "pailsėti"
   pos: verb
+  forms: { pres: "pailsi", past: "pailsėjo" }
   meaning: { ru: "отдохнуть" }
   examples:
     - { text: "Ar nori pailsėti?", translation: "Хочешь отдохнуть?", source: "tatoeba:13712285" }
@@ -893,6 +930,7 @@
   cefr: B1
   text: "palaikyti"
   pos: verb
+  forms: { pres: "palaiko", past: "palaikė" }
   meaning: { ru: "поддержать" }
   examples:
     - { text: "Mes atėjome tavęs palaikyti.", translation: "Мы пришли тебя поддержать.", source: "tatoeba:9537515" }
@@ -910,6 +948,7 @@
   cefr: B1
   text: "grąžinti"
   pos: verb
+  forms: { pres: "grąžina", past: "grąžino" }
   meaning: { ru: "вернуть (отдать обратно)" }
   examples:
     - { text: "Aš turiu Tomui grąžinti pinigus.", translation: "Мне надо вернуть Тому деньги.", source: "tatoeba:11446028" }
@@ -927,6 +966,7 @@
   cefr: B1
   text: "spręsti"
   pos: verb
+  forms: { pres: "sprendžia", past: "sprendė" }
   meaning: { ru: "решать" }
   examples:
     - { text: "Tai jiems spręsti.", translation: "Это им решать.", source: "tatoeba:12206537" }
@@ -944,6 +984,7 @@
   cefr: B2
   text: "įveikti"
   pos: verb
+  forms: { pres: "įveikia", past: "įveikė" }
   meaning: { ru: "преодолеть, справиться" }
   examples:
     - { text: "Aš pats turiu įveikti.", translation: "Я должен справиться сам.", source: "tatoeba:13731696" }
@@ -961,6 +1002,7 @@
   cefr: B1
   text: "išvengti"
   pos: verb
+  forms: { pres: "išvengia", past: "išvengė" }
   meaning: { ru: "избежать" }
   note: { ru: "išvengti ko (+ род. п.)" }
   examples:
@@ -979,6 +1021,7 @@
   cefr: B1
   text: "išspręsti"
   pos: verb
+  forms: { pres: "išsprendžia", past: "išsprendė" }
   meaning: { ru: "решить (проблему)" }
   examples:
     - { text: "Tai lengva išspręsti.", translation: "Это легко решить.", source: "tatoeba:11418273" }
@@ -996,6 +1039,7 @@
   cefr: B1
   text: "aptarti"
   pos: verb
+  forms: { pres: "aptaria", past: "aptarė" }
   meaning: { ru: "обсудить" }
   examples:
     - { text: "Viską galima aptarti.", translation: "Всё можно обсудить.", source: "tatoeba:13764116" }
@@ -1013,6 +1057,7 @@
   cefr: B1
   text: "rizikuoti"
   pos: verb
+  forms: { pres: "rizikuoja", past: "rizikavo" }
   meaning: { ru: "рисковать" }
   examples:
     - { text: "Man nepatinka rizikuoti.", translation: "Я не люблю рисковать.", source: "tatoeba:563465" }
@@ -1031,6 +1076,7 @@
   cefr: B2
   text: "įtikinti"
   pos: verb
+  forms: { pres: "įtikina", past: "įtikino" }
   meaning: { ru: "убедить" }
   examples:
     - { text: "Džeką sunku įtikinti.", translation: "Джека трудно убедить.", source: "tatoeba:2695553" }
@@ -1048,6 +1094,7 @@
   cefr: B1
   text: "pasiduoti"
   pos: verb
+  forms: { pres: "pasiduoda", past: "pasidavė" }
   meaning: { ru: "сдаться" }
   examples:
     - { text: "Tu turi pasiduoti.", translation: "Ты должен сдаться.", source: "tatoeba:11462262" }
@@ -1065,6 +1112,7 @@
   cefr: B1
   text: "atsisakyti"
   pos: verb
+  forms: { pres: "atsisako", past: "atsisakė" }
   meaning: { ru: "отказаться" }
   note: { ru: "atsisakyti ko (+ род. п.)" }
   examples:
@@ -1083,6 +1131,7 @@
   cefr: B1
   text: "susitvarkyti"
   pos: verb
+  forms: { pres: "susitvarko", past: "susitvarkė" }
   meaning: { ru: "прибраться; справиться" }
   examples:
     - { text: "Aš mėginu truputį susitvarkyti.", translation: "Я пытаюсь немного прибраться.", source: "tatoeba:12783870" }
@@ -1100,6 +1149,7 @@
   cefr: A2
   text: "nusipirkti"
   pos: verb
+  forms: { pres: "nusiperka", past: "nusipirko" }
   meaning: { ru: "купить (себе)" }
   examples:
     - { text: "Ką tu nori nusipirkti?", translation: "Что ты хочешь купить?", source: "tatoeba:13384361" }
@@ -1117,6 +1167,7 @@
   cefr: B1
   text: "pasitikėti"
   pos: verb
+  forms: { pres: "pasitiki", past: "pasitikėjo" }
   meaning: { ru: "доверять; полагаться" }
   note: { ru: "pasitikėti kuo (+ твор. п.), а в русском — доверять кому (+ дат. п.)" }
   examples:
@@ -1135,6 +1186,7 @@
   cefr: B1
   text: "atsisveikinti"
   pos: verb
+  forms: { pres: "atsisveikina", past: "atsisveikino" }
   meaning: { ru: "попрощаться" }
   examples:
     - { text: "Aš atėjau atsisveikinti.", translation: "Я пришёл попрощаться.", source: "tatoeba:3596301" }
@@ -1153,6 +1205,7 @@
   cefr: B1
   text: "pasirašyti"
   pos: verb
+  forms: { pres: "pasirašo", past: "pasirašė" }
   meaning: { ru: "подписать; расписаться" }
   examples:
     - { text: "Ar man čia pasirašyti?", translation: "Мне здесь расписаться?", source: "tatoeba:10841693" }
@@ -1170,6 +1223,7 @@
   cefr: A2
   text: "vairuoti"
   pos: verb
+  forms: { pres: "vairuoja", past: "vairavo" }
   meaning: { ru: "водить (машину)" }
   examples:
     - { text: "Aš nemoku vairuoti.", translation: "Я не умею водить.", source: "tatoeba:10466329" }
@@ -1187,6 +1241,7 @@
   cefr: B1
   text: "laimėti"
   pos: verb
+  forms: { pres: "laimi", past: "laimėjo" }
   meaning: { ru: "выиграть, победить" }
   examples:
     - { text: "Jis nori laimėti.", translation: "Он хочет победить.", source: "tatoeba:8830778" }
@@ -1205,6 +1260,7 @@
   cefr: B1
   text: "išvykti"
   pos: verb
+  forms: { pres: "išvyksta", past: "išvyko" }
   meaning: { ru: "уехать" }
   examples:
     - { text: "Tu nori išvykti?", translation: "Ты хочешь уехать?", source: "tatoeba:12354980" }
@@ -1222,6 +1278,7 @@
   cefr: A2
   text: "keliauti"
   pos: verb
+  forms: { pres: "keliauja", past: "keliavo" }
   meaning: { ru: "путешествовать" }
   examples:
     - { text: "Aš mėgstu keliauti.", translation: "Я люблю путешествовать.", source: "tatoeba:12353510" }

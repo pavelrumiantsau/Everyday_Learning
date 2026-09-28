@@ -1,4 +1,4 @@
-import { buildQuiz, formatNewItem, inWindow, langOf, localClock, newCard, pickNewItems, type CardJson } from "@el/core";
+import { buildQuiz, formatNewItem, inWindow, langOf, localClock, newCard, pickNewItems, type CardJson, type Item } from "@el/core";
 import { ITEM_BY_ID, ITEMS, SCHEDULE } from "./content";
 import type { Db } from "./db";
 import type { Telegram } from "./telegram";
@@ -6,7 +6,26 @@ import type { Telegram } from "./telegram";
 const MORNING_WINDOW_MIN = 180; // if the morning cron is missed, still send until 3 h later
 const EVENING_WINDOW_MIN = 120;
 
-export const cardIdFor = (itemId: string) => `${itemId}:recog`;
+export type CardKind = "recog" | "forms";
+export const cardIdFor = (itemId: string, kind: CardKind = "recog") => `${itemId}:${kind}`;
+
+/** Cards to create when an item is introduced: meaning, plus principal forms for verbs that have them. */
+function cardsForItem(item: Item): CardKind[] {
+  return item.forms ? ["recog", "forms"] : ["recog"];
+}
+
+/** Adds cards that should exist but don't (e.g. forms cards for verbs learned before forms were added). */
+export async function ensureCards(db: Db, now = new Date()): Promise<number> {
+  const [introduced, existing] = await Promise.all([db.introducedItemIds(), db.cardIds()]);
+  const missing = [...introduced].flatMap((id) => {
+    const item = ITEM_BY_ID.get(id);
+    return item ? cardsForItem(item).filter((k) => !existing.has(cardIdFor(id, k))).map((k) => ({ item, k })) : [];
+  });
+  if (missing.length) {
+    await db.batch(missing.map(({ item, k }) => db.insertCard(cardIdFor(item.id, k), item.id, langOf(item), newCard(now), now.getTime())));
+  }
+  return missing.length;
+}
 
 /** Called by the 15-minute cron. */
 export async function tick(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now = new Date()): Promise<string> {
@@ -33,7 +52,8 @@ export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUr
   const { day } = localClock(now, SCHEDULE.timezone);
   const introduced = await db.introducedItemIds();
   const fresh = pickNewItems(ITEMS, introduced, SCHEDULE.new_per_day);
-  const due = await db.dueCards(now.getTime(), SCHEDULE.max_review_polls);
+  await ensureCards(db, now);
+  const due = await db.dueCards(now.getTime(), SCHEDULE.max_review_polls, "recog"); // polls test meanings only
 
   const lines = [`☀️ <b>Labas rytas!</b> Сегодня: ${fresh.length} новых, ${due.length} на повторение.`];
   if (fresh.length) lines.push("", ...fresh.map(formatNewItem));
@@ -44,7 +64,7 @@ export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUr
   const at = now.getTime();
   if (fresh.length) {
     await db.batch([
-      ...fresh.map((item) => db.insertCard(cardIdFor(item.id), item.id, langOf(item), newCard(now), at)),
+      ...fresh.flatMap((item) => cardsForItem(item).map((k) => db.insertCard(cardIdFor(item.id, k), item.id, langOf(item), newCard(now), at))),
       db.bumpDay(day, "new_cards", fresh.length),
     ]);
   }

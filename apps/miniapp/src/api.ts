@@ -3,7 +3,7 @@ import { tg } from "./telegram";
 
 export type Lang = "lt" | "es" | "fr";
 export interface Session { day: string; reviewsToday: number; newToday: number; due: number; known: Partial<Record<Lang, number>> }
-export interface QueueCard { cardId: string; lang: Lang; item: Item }
+export interface QueueCard { cardId: string; kind: "recog" | "forms"; lang: Lang; item: Item }
 export type Rating = 1 | 2 | 3 | 4;
 interface PendingReview { id: string; cardId: string; rating: Rating; reviewedAt: number }
 

@@ -10,12 +10,18 @@ export class Db {
     return new Set(results.map((r) => r.item_id));
   }
 
-  async dueCards(now: number, limit: number): Promise<CardRow[]> {
+  /** Due cards, oldest first; `kind` limits to one card type (e.g. "recog" for quiz polls). */
+  async dueCards(now: number, limit: number, kind?: string): Promise<CardRow[]> {
     const { results } = await this.d1
-      .prepare("SELECT card_id, item_id, fsrs FROM card_state WHERE due <= ? ORDER BY due LIMIT ?")
-      .bind(now, limit)
+      .prepare("SELECT card_id, item_id, fsrs FROM card_state WHERE due <= ? AND card_id LIKE ? ORDER BY due LIMIT ?")
+      .bind(now, kind ? `%:${kind}` : "%", limit)
       .all<CardRow>();
     return results;
+  }
+
+  async cardIds(): Promise<Set<string>> {
+    const { results } = await this.d1.prepare("SELECT card_id FROM card_state").all<{ card_id: string }>();
+    return new Set(results.map((r) => r.card_id));
   }
 
   async countDue(now: number): Promise<number> {

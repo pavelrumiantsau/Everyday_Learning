@@ -43,6 +43,7 @@
   cefr: A2
   text: vėluoti
   pos: verb
+  forms: { pres: vėluoja, past: vėlavo }
   meaning: { ru: опаздывать }
   examples:
     - { text: "Atsiprašau, vėluoju.", translation: "Извините, я опаздываю.", source: generated }
@@ -51,6 +52,7 @@
   cefr: A2
   text: tikėtis
   pos: verb
+  forms: { pres: tikisi, past: tikėjosi }
   meaning: { ru: надеяться }
   note: { ru: "Возвратный глагол: tikiuosi — надеюсь" }
   examples:
@@ -60,6 +62,7 @@
   cefr: B1
   text: pastebėti
   pos: verb
+  forms: { pres: pastebi, past: pastebėjo }
   meaning: { ru: заметить }
   examples:
     - { text: "Aš to nepastebėjau.", translation: "Я этого не заметил.", source: generated }
@@ -87,6 +90,7 @@
   cefr: B1
   text: priprasti
   pos: verb
+  forms: { pres: pripranta, past: priprato }
   meaning: { ru: привыкнуть }
   note: { ru: "priprasti prie + род. п. (привыкнуть к чему-то)" }
   examples:
@@ -96,6 +100,7 @@
   cefr: A2
   text: skubėti
   pos: verb
+  forms: { pres: skuba, past: skubėjo }
   meaning: { ru: спешить }
   examples:
     - { text: "Neskubėk!", translation: "Не спеши!", source: generated }
@@ -104,6 +109,7 @@
   cefr: B1
   text: išsinuomoti
   pos: verb
+  forms: { pres: išsinuomoja, past: išsinuomojo }
   meaning: { ru: снять (в аренду) }
   examples:
     - { text: "Norime išsinuomoti butą.", translation: "Мы хотим снять квартиру.", source: generated }

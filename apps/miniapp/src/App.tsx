@@ -167,6 +167,9 @@ function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () => void 
   const note = item.note?.ru ?? item.note?.en;
   const example = item.examples[0];
   const grammar = [item.pos, item.gender].filter(Boolean).join(", ");
+  const head = item.stress ?? item.text;
+  const forms = item.forms && `${head} — ${item.forms.pres} — ${item.forms.past}`;
+  const isForms = card.kind === "forms" && forms;
 
   return (
     <main className="screen">
@@ -177,11 +180,13 @@ function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () => void 
         {FLAG[card.lang]} {index + 1} / {cards.length}
       </p>
       <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>
-        <span className="word">{item.stress ?? item.text}</span>
-        {grammar && <span className="hint small">{grammar}</span>}
+        {isForms && <span className="badge">3 формы</span>}
+        <span className="word">{head}</span>
+        {!isForms && grammar && <span className="hint small">{grammar}</span>}
         {revealed ? (
           <span className="answer">
-            <span className="meaning">{meaning}</span>
+            {isForms ? <span className="forms big">{forms}</span> : <span className="meaning">{meaning}</span>}
+            {isForms ? <span className="hint">{meaning}</span> : forms && <span className="forms">{forms}</span>}
             {note && <span className="note">💡 {note}</span>}
             {example && (
               <span className="example">
@@ -191,7 +196,9 @@ function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () => void 
             )}
           </span>
         ) : (
-          <span className="hint tap">Вспомни значение и нажми</span>
+          <span className="hint tap">
+            {isForms ? "Назови наст. и прош. время (3 л.): jis/ji …" : "Вспомни значение и нажми"}
+          </span>
         )}
       </button>
       <div className="spacer" />
