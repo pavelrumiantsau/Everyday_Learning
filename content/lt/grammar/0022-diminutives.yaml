@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0022
+cefr: B2
+order: 22
+title: "Уменьшительные суффиксы: namelis, mamytė, šuniukas"
+explanation:
+  ru: |
+    Литовский — один из самых «ласковых» языков Европы: уменьшительные формы слышны постоянно, и не только в разговоре с детьми. Они выражают **малый размер**, **нежность, симпатию** или просто делают речь мягче и вежливее: *Gal išgersite kavutės?* — Может, выпьете кофейку?
+
+    **Основные суффиксы** (м. р. / ж. р.):
+    - **-elis / -elė** — у двусложных слов: namas → **namelis**, stalas → **stalelis**, paukštis → **paukštelis**, knyga → **knygelė**, ranka → **rankelė**, vaikas → **vaikelis**
+    - **-ėlis / -ėlė** — обычно у слов из трёх и более слогов: paveikslas → **paveikslėlis**, arbata → **arbatėlė**, letena → **letenėlė**
+    - **-ukas / -ukė** — очень частый, разговорный; у животных часто значит **детёныша**: šuo → **šuniukas** (щенок), katinas → **kačiukas** (котёнок), brolis → **broliukas**, obuolys → **obuoliukas**
+    - **-utis / -utė** — нежно: sesuo, sesė → **sesutė**, brolis → **brolutis**, kava → **kavutė**, vaikas → **vaikutis**
+    - **-ytis / -ytė** — нежно: mama → **mamytė**, katė → **katytė**, ranka → **rankytė**, lėlė → **lėlytė**
+    - **-aitis / -aitė** — mergaitė, obelaitė; та же модель в фамилиях: *Kazlauskaitė* — «дочь Казлаускаса»
+
+    Суффиксы можно наращивать: namas → namelis → **nameliukas** («домишечко»). Прилагательные тоже бывают уменьшительными: **mažytis, mažutis** — «малюсенький».
+
+    **Склонение** — как у обычных слов с таким окончанием: *namelis* — как *brolis* (namelio, nameliui, **namelį**, nameliu, **namelyje**); *šuniukas* — как *vyras* (šuniuko, **šuniuką**, šuniuku); *sesutė, mamytė* — как *gėlė*. **Звательный** падеж: *mamyte!, tėveli!, broliuk!, vaikuti!*
+
+    **Лексикализованные** слова уже не ощущаются уменьшительными — это просто названия: **berniukas** (мальчик), **mergaitė** (девочка), **močiutė** (бабушка), **puodelis** (чашка), **paveikslėlis** (картинка), **suknelė** (платье), **lapelis** (листок бумаги).
+comparison:
+  ru: |
+    Русские аналоги — *-ик, -ок, -очка, -ечка, -онок*: *домик, братик, мамочка, кошечка, котёнок*. Литовские суффиксы соответствуют им не один к одному, но легко ложатся на интуицию: *-ukas* часто = *-ёнок/-ик* (*šuniukas* — щенок, *kačiukas* — котёнок), *-utė, -ytė* = *-очка, -енька* (*sesutė* — сестрёнка, *mamytė* — мамочка).
+
+    Главное отличие — **частота и стиль**. Там, где по-русски уменьшительное звучит слащаво или по-детски, по-литовски оно нормально и среди взрослых: официантка может предложить *kavutės* или *arbatėlės*, а продавец — *maišelį* (пакетик). Украинский в этом смысле ближе к литовскому, чем русский.
+examples:
+  - { text: "Gera turėti namelį kaime.", translation: "Хорошо иметь домик в деревне.", source: "tatoeba:3137875" }
+  - { text: "Aš turiu broliuką ir sesutę.", translation: "У меня есть братик и сестрёнка.", source: "tatoeba:8601232" }
+  - { text: "Kačiukas turi keturias letenėles.", translation: "У котёнка четыре лапки.", source: "tatoeba:3931793" }
+  - { text: "Šuniukas įkando katytei, o katytė įdrėskė šuniukui.", translation: "Собачка укусила кошечку, а кошечка царапнула собачку.", source: "tatoeba:3226007" }
+  - { text: "Mamyte, Merė mane muša!", translation: "Мама, Мэри меня бьёт!", source: "tatoeba:3948814" }
+exercises:
+  - type: cloze
+    text: "Jie turi mažą ___ prie ežero."
+    answer: "namelį"
+    also: ["nameliuką"]
+    hint: "namas → -elis, вин. п."
+    translation: "У них маленький домик у озера."
+  - type: cloze
+    text: "Vaikai žaidžia su ___."
+    answer: "šuniuku"
+    hint: "šuo → -ukas, тв. п."
+    translation: "Дети играют со щенком."
+  - type: cloze
+    text: "Mano ___ dar tik treji metai."
+    answer: "sesutei"
+    hint: "sesuo → -utė, дат. п."
+    translation: "Моей сестрёнке всего три года."
+  - type: cloze
+    text: "___, ar galiu paimti saldainį?"
+    answer: "Mamyte"
+    also: ["Mamute"]
+    hint: "mama → -ytė, зват. п."
+    translation: "Мамочка, можно мне взять конфету?"
+  - type: cloze
+    text: "Ant palangės miega ___."
+    answer: "katytė"
+    hint: "katė → -ytė"
+    translation: "На подоконнике спит кошечка."
+  - type: cloze
+    text: "Ar išgersi ___ arbatos?"
+    answer: "puodelį"
+    hint: "puodas → -elis, вин. п."
+    translation: "Выпьешь чашку чая?"
+  - type: cloze
+    text: "Vaikas nupiešė saulę ir mažą ___."
+    answer: "paukštelį"
+    hint: "paukštis → -elis, вин. п."
+    translation: "Ребёнок нарисовал солнце и маленькую птичку."
+  - type: cloze
+    text: "Šioje knygoje daug gražių ___."
+    answer: "paveikslėlių"
+    hint: "paveikslas → -ėlis, род. п. мн. ч."
+    translation: "В этой книге много красивых картинок."

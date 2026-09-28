@@ -1,0 +1,85 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0020
+cefr: B2
+order: 20
+title: "Косвенная речь: jis esąs, ji dirbanti, jie buvę"
+explanation:
+  ru: |
+    Чтобы передать **чужие слова** или мнение, литовский может вместо личной формы глагола поставить **действительное причастие** (уроки о *dirbantis* и *pavargęs*). Говорящий этим показывает: «это не я утверждаю, так говорят».
+
+    **1. После глаголов речи и мысли — если подлежащее то же самое.** *sakyti, sakytis, teigti, manyti, prisipažinti, pažadėti, apsimesti, jaustis* + причастие в **именительном** падеже:
+    - *Jis sako **esąs** gydytojas.* = *Jis sako, kad (jis) yra gydytojas.*
+    - *Ji sakė **dirbanti** ligoninėje.* — она сказала, что работает в больнице.
+    - *Jie sakė **buvę** Paryžiuje.* — они сказали, что были в Париже.
+    - *Tomas apsimetė **sergąs**.* — Том притворился больным.
+    - *Jis sakosi **esąs** gydytojas* — он выдаёт себя за врача (*sakytis* — «говорить о себе»).
+
+    Если подлежащие **разные** (*он сказал, что она…*), проще всего использовать *kad*: *Jis sakė, kad ji serga.*
+
+    **Формы** — короткие (именительный падеж) действительные причастия:
+    - настоящее: **esąs**, **esanti**, мн. **esą**, esančios; dirba → **dirbąs**, dirbanti, dirbą; myli → **mylįs**, mylinti, mylį
+    - прошедшее: **buvęs**, **buvusi**, мн. **buvę**, buvusios; padarė → **padaręs**, padariusi
+    - будущее: **būsiąs**, **būsianti**, мн. **būsią**; ateis → **ateisiąs**, ateisianti
+
+    Время причастия — «с точки зрения говорившего»: *Jis sakė **sergąs*** — «сказал, что (тогда) болеет»; *sakė **sirgęs*** — «что болел»; *sakė **ateisiąs*** — «что придёт».
+
+    **2. Пересказ без глагола речи (*netiesioginė nuosaka*).** В новостях, легендах, пересказе слухов причастие стоит **вместо сказуемого**: *Pasak kaimynų, jis **esąs** labai turtingas* — по словам соседей, он (якобы) очень богат. Часто здесь берут форму среднего рода, одинаковую для всех лиц (**esą, buvę, būsią**): *Seniau čia **gyvenę** milžinai* — говорят, в старину здесь жили великаны.
+
+    **3. Частица *esą*** — «мол, якобы, дескать»: *Jis, **esą**, serga* — он, мол, болен. Её легко добавить и к обычной фразе с *kad*: *Kalba, kad **esą** …*
+
+    **На практике** в разговоре чаще всего говорят просто **sako, kad + личная форма**: *Jis sako, kad yra gydytojas.* Причастная конструкция звучит компактнее и чуть книжнее, но в новостях и в письменной речи она очень частая — её надо уметь узнавать, а *sako esąs, sakė nežinąs* — уверенно использовать.
+comparison:
+  ru: |
+    В русском нет особой формы для чужих слов — мы пользуемся словами *якобы, мол, дескать, будто бы*: «Он, мол, болен». Литовский может выразить то же самой **формой глагола**: *Jis sergąs* — уже само по себе значит «он, говорят, болен».
+
+    Конструкция *Jis sako esąs gydytojas* по строю похожа на английское *He claims to be a doctor* или на русское книжное «Он называет себя врачом»: подлежащее одно, второй глагол не спрягается. Главная ошибка русскоязычных — ставить после *sako* творительный падеж, как в «считает себя **богатым**»: по-литовски — именительный, *mano esąs **turtingas***, *sakė esanti **pavargusi***.
+examples:
+  - { text: "Tomas sakė nežinąs, ką galvoti.", translation: "Том сказал, что не знает, что и думать.", source: "tatoeba:9702015" }
+  - { text: "Jauna aktorė manė esanti žvaigždė.", translation: "Молодая актриса мнила себя звездой.", source: "tatoeba:9868131" }
+  - { text: "Nusikaltėlis prisipažino įvykdęs vagystę.", translation: "Преступник признался в краже.", source: "tatoeba:3220151" }
+  - { text: "Kalba, kad esą Homeras buvo aklas.", translation: "Говорят, якобы Гомер был слепой.", source: "tatoeba:11388622" }
+  - { text: "Jie sakė, kad nori su tavimi susipažinti.", translation: "Они сказали, что хотят с тобой познакомиться.", source: "tatoeba:10667741" }
+exercises:
+  - type: cloze
+    text: "Jis sako ___ gydytojas."
+    answer: "esąs"
+    hint: "būti, наст. вр., м. р."
+    translation: "Он говорит, что он врач."
+  - type: cloze
+    text: "Ji sakė ___ ligoninėje."
+    answer: "dirbanti"
+    hint: "dirbti (dirba), ж. р."
+    translation: "Она сказала, что работает в больнице."
+  - type: cloze
+    text: "Jie sakė ___ Paryžiuje."
+    answer: "buvę"
+    hint: "būti (buvo), прош. вр., мн. ч."
+    translation: "Они сказали, что были в Париже."
+  - type: cloze
+    text: "Tomas prisipažino ___ klaidą."
+    answer: "padaręs"
+    hint: "padaryti (padarė), м. р."
+    translation: "Том признался, что совершил ошибку."
+  - type: cloze
+    text: "Ji apsimetė ___."
+    answer: "serganti"
+    hint: "sirgti (serga), ж. р."
+    translation: "Она притворилась больной."
+  - type: cloze
+    text: "Jis pažadėjo rytoj ___."
+    answer: "ateisiąs"
+    hint: "ateiti (ateis), буд. вр., м. р."
+    translation: "Он пообещал, что завтра придёт."
+  - type: cloze
+    text: "Pasak kaimynų, jis ___ labai turtingas."
+    answer: "esąs"
+    also: ["esą"]
+    hint: "būti — пересказ чужих слов"
+    translation: "По словам соседей, он якобы очень богат."
+  - type: cloze
+    text: "Jis sako, kad ___ gydytojas."
+    answer: "yra"
+    hint: "būti — после kad обычная личная форма"
+    translation: "Он говорит, что он врач."

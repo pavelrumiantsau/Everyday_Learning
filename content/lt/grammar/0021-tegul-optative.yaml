@@ -1,0 +1,90 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0021
+cefr: B2
+order: 21
+title: "«Пусть»: tegul jis ateina, tegyvuoja, tebūnie"
+explanation:
+  ru: |
+    Повелительное наклонение (*eik, eikime, eikite*) обращается к собеседнику. Когда нужно «пусть **он / она / они** сделает», в литовском есть два способа.
+
+    **1. *tegul* (или *tegu*) + настоящее время** — главный, живой разговорный способ:
+    - *Tegul jis ateina.* — Пусть он придёт.
+    - *Tegul vaikai žaidžia.* — Пусть дети играют.
+    - *Tegul Tomas pailsi.* — Пусть Том отдохнёт.
+    - отрицание — обычным *ne-*: *Tegul niekam **ne**sako.* — Пусть никому не говорит.
+
+    Глагол стоит в **настоящем** времени, даже если смысл — будущий, законченный: *tegul **ateina*** (а не «ateis»). Будущее после *tegul* тоже встречается, но настоящее — основной вариант.
+
+    **2. Приставка *te-* + 3-е лицо настоящего времени** — одно слово, звучит торжественно, как лозунг, тост или молитва:
+    - gyvuoja → **te**gyvuoja: *Tegyvuoja laisva Lietuva!* — Да здравствует свободная Литва!
+    - laimina → **te**laimina: *Telaimina jus Dievas!* — Да благословит вас Бог!
+    - būna → **te**būna, а также особая старая форма **tebūnie**: *Tebūnie taip* — да будет так, ладно, пусть так.
+
+    Не путайте с приставкой **tebe-** — «всё ещё»: *tebegyvena* — всё ещё живёт, *tebevyksta* — всё ещё идёт.
+
+    **Пожелания** чаще всего — это просто **родительный падеж**, за которым скрыто *linkiu* «желаю» (*linkėti kam ko*):
+    - ***Sėkmės!*** — Удачи! ***Geros kelionės!*** — Счастливого пути!
+    - ***Skanaus!*** — Приятного аппетита! ***Labos nakties!*** — Спокойной ночи!
+    - ***Linksmų Kalėdų!*** — Весёлого Рождества! ***Linkiu tau sveikatos.*** — Желаю тебе здоровья.
+    - *Su gimtadieniu!* — С днём рождения! (здесь *su* + творительный, как в русском)
+comparison:
+  ru: |
+    *Tegul* — почти точное русское **пусть** (укр. *хай*, бел. *няхай*): *Пусть он подождёт* — *Tegul jis palaukia*. Разница в глаголе: по-русски после «пусть» идёт будущее совершенного вида (*подождёт, придёт*), а по-литовски — **настоящее время**: *tegul palaukia, tegul ateina*.
+
+    Форма на *te-* соответствует русскому высокому **да**: *Tegyvuoja!* — «Да здравствует!», *Tebūnie!* — «Да будет!».
+
+    Русское «давай(те) сделаем» — это не *tegul*, а повелительное 1-го лица мн. ч.: *Eime! Eikime namo!* — Пойдём(те) домой! А «дай(те), я помогу» — *Leisk (man) padėti*.
+
+    Пожелания в родительном падеже — та же логика, что в русском «Удачи! Счастливого пути! Приятного аппетита!» (скрытое «желаю»). Литовских формул просто больше: *Geros dienos! Gero savaitgalio! Sveikatos!*
+examples:
+  - { text: "Tegul jis atsako.", translation: "Пусть он ответит.", source: "tatoeba:11584205" }
+  - { text: "Tegul naujieji metai jums atneša laimės!", translation: "Пусть новый год принесет вам счастье!", source: "tatoeba:11501658" }
+  - { text: "Tegyvuoja draugystė tarp tautų!", translation: "Да здравствует дружба между народами!", source: "tatoeba:10657079" }
+  - { text: "Tebūnie Dievas su mumis.", translation: "Да пребудет с нами Бог.", source: "tatoeba:11520632" }
+  - { text: "Sėkmės jums darbe!", translation: "Успехов вам в работе!", source: "tatoeba:8903225" }
+exercises:
+  - type: cloze
+    text: "___ jis ateina rytoj."
+    answer: "Tegul"
+    also: ["Tegu"]
+    hint: "«пусть»"
+    translation: "Пусть он придёт завтра."
+  - type: cloze
+    text: "Tegul vaikai ___ lauke."
+    answer: "žaidžia"
+    hint: "žaisti, наст. вр."
+    translation: "Пусть дети играют на улице."
+  - type: cloze
+    text: "Tegul jis ___, jis labai pavargęs."
+    answer: "pailsi"
+    also: ["pasilsi", "ilsisi"]
+    hint: "pailsėti, наст. вр."
+    translation: "Пусть он отдохнёт, он очень устал."
+  - type: cloze
+    text: "Pasakyk jam, tegul ___."
+    answer: "palaukia"
+    hint: "palaukti, наст. вр."
+    translation: "Скажи ему, пусть подождёт."
+  - type: cloze
+    text: "___ laisva Lietuva!"
+    answer: "Tegyvuoja"
+    hint: "gyvuoti (gyvuoja) + te-"
+    translation: "Да здравствует свободная Литва!"
+  - type: cloze
+    text: "___ taip, kaip tu nori."
+    answer: "Tebūnie"
+    also: ["Tebūna", "Tegul būna", "Tegu būna"]
+    hint: "būti, торжественная форма"
+    translation: "Пусть будет так, как ты хочешь."
+  - type: cloze
+    text: "Linkiu tau ___!"
+    answer: "sėkmės"
+    hint: "sėkmė, род. п."
+    translation: "Желаю тебе удачи!"
+  - type: cloze
+    text: "Geros ___!"
+    answer: "kelionės"
+    hint: "kelionė, род. п."
+    translation: "Счастливого пути!"
