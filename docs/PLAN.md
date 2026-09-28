@@ -31,8 +31,8 @@
 **Content — supply and next ids**
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
-| Lithuanian vocabulary | 1082 words (A2–B2, frequency ranks ≤ 18,000) | ~mid-February 2027 (10/day, less after placement) | `lt-*-1139`, `pnpm content:candidates lt 18000 4000`; recipe `prompts/content/lt-vocab.md` |
-| Spanish vocabulary | 387 items (A1–A2) | ~early February 2027 (5/day) | `es-*-0388`, `pnpm content:candidates es 2650 900`; recipe `prompts/content/es-vocab.md` |
+| Lithuanian vocabulary | 1082 words (A2–B2, frequency ranks ≤ 18,000) | ~mid-January 2027 (10/day; later if placement skips known words) | `lt-*-1139`, `pnpm content:candidates lt 18000 4000`; recipe `prompts/content/lt-vocab.md` |
+| Spanish vocabulary | 387 items (A1–A2) | ~mid-December 2026 (5/day) | `es-*-0388`, `pnpm content:candidates es 2650 900`; recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 31 lessons (Q1–Q4) | ~early January 2027 (Mon/Wed; also Sat once the FR sounds lessons are done) | `lt-g-0032`: more Q4 — word order and emphasis, set phrases/idioms, register (formal letters), B2 exam-style mixed tasks; also consider review lessons per quarter |
 | Spanish grammar | 20 lessons (A1–A2) | ~mid-December (Tue/Fri) | `es-g-0021`: negative commands + present subjunctive basics, *usted* commands, relative *que/donde*, *se* impersonal, *soler*, time expressions (*hace… que*, *desde*) (PLAN §3.5) |
 | Lithuanian reading | 18 texts (B1) | early February 2027 (Thursdays) | `lt-r-0019` (March–April 2027: Kovo 11-oji, Velykos, pavasaris sode, kelionė į pajūrį, Joninės later); topical texts 0014–0018 cover winter, Sausio 13-oji, Vasario 16-oji, Užgavėnės, Kaziuko mugė |
