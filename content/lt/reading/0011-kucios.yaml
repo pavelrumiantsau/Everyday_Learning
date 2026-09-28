@@ -6,9 +6,9 @@ source: generated
 text: |
   Kūčios – vakaras prieš Kalėdas – yra viena svarbiausių metų švenčių Lietuvoje. Tą vakarą visa šeima susirenka prie bendro stalo. Mano močiutė kasmet pradeda ruoštis iš anksto: ji tvarko namus, perka produktus ir kepa kūčiukus.
 
-  Ant Kūčių stalo turi būti dvylika patiekalų. Mėsos tą vakarą nevalgome, todėl patiekalai gaminami iš žuvies, grybų ir daržovių. Dažniausiai ant stalo būna silkė, grybai, spanguolių kisielius ir, žinoma, kūčiukai su aguonų pienu. Kūčiukai – tai maži sausainėliai, o aguonų pienas gaminamas iš sumaltų aguonų, vandens ir medaus.
+  Ant Kūčių stalo turi būti dvylika patiekalų. Mėsos tą vakarą nevalgome, todėl patiekalai gaminami iš žuvies, grybų ir daržovių. Dažniausiai ant stalo būna silkė, grybai, spanguolių kisielius ir, žinoma, kūčiukai su aguonų pienu. Kūčiukai – tai maži saldūs kepinukai iš mielinės tešlos, o aguonų pienas gaminamas iš sumaltų aguonų, vandens ir cukraus arba medaus.
 
-  Po staltiese močiutė visada pakloja šiek tiek šieno. Jis primena, kad Jėzus gimė tvarte. Prie stalo paliekame vieną tuščią vietą su lėkšte – ji skirta artimiesiems, kurių jau nėra tarp mūsų. Vakarienę pradedame, kai danguje pasirodo pirmoji žvaigždė. Prieš valgį visi dalijasi kalėdaičiais ir linki vieni kitiems sveikatos.
+  Po staltiese močiutė visada pakloja šiek tiek šieno. Jis primena, kad mažasis Jėzus gulėjo ėdžiose ant šieno. Prie stalo paliekame vieną tuščią vietą su lėkšte – ji skirta artimiesiems, kurių jau nėra tarp mūsų. Vakarienę pradedame, kai danguje pasirodo pirmoji žvaigždė. Prieš valgį visi dalijasi kalėdaičiais ir linki vieni kitiems sveikatos.
 
   Man Kūčios – ramiausias metų vakaras. Niekas neskuba, niekas nežiūri televizoriaus, visi kalbasi ir prisimena senus laikus. Vaikystėje laukdavau ne tiek dovanų, kiek močiutės kūčiukų. Dabar pagal jos receptą kūčiukus kepu ir aš.
 glossary:
@@ -24,12 +24,13 @@ glossary:
   - { word: silkė, lemma: silkė, pos: noun, gender: f, gen: silkės, meaning: сельдь }
   - { word: spanguolių, lemma: spanguolė, pos: noun, gender: f, gen: spanguolės, meaning: клюква, note: "род. п. мн. ч.: spanguolių kisielius — клюквенный кисель" }
   - { word: aguonų, lemma: aguona, pos: noun, gender: f, gen: aguonos, meaning: мак, note: "род. п. мн. ч.: aguonų pienas — маковое молоко" }
-  - { word: sausainėliai, lemma: sausainėlis, pos: noun, gender: m, gen: sausainėlio, meaning: печеньице, note: "уменьш. от sausainis — печенье" }
+  - { word: kepinukai, lemma: kepinukas, pos: noun, gender: m, gen: kepinuko, meaning: "маленькое изделие из теста", note: "уменьш. от kepinys — выпечка" }
+  - { word: mielinės, lemma: mielinis, pos: adj, meaning: дрожжевой, note: "mielinė tešla — дрожжевое тесто" }
   - { word: sumaltų, lemma: sumalti, pos: verb, forms: { pres: sumala, past: sumalė }, meaning: смолоть, note: "причастие, род. п. мн. ч.: iš sumaltų aguonų — из смолотого мака" }
   - { word: staltiese, lemma: staltiesė, pos: noun, gender: f, gen: staltiesės, meaning: скатерть, note: "po + твор. п.: po staltiese — под скатертью (где?)" }
   - { word: pakloja, lemma: pakloti, pos: verb, forms: { pres: pakloja, past: paklojo }, meaning: "подстелить, постелить" }
   - { word: šieno, lemma: šienas, pos: noun, gender: m, gen: šieno, meaning: сено, note: "род. п.: šiek tiek šieno — немного сена" }
-  - { word: tvarte, lemma: tvartas, pos: noun, gender: m, gen: tvarto, meaning: хлев, note: "мест. п." }
+  - { word: ėdžiose, lemma: ėdžios, pos: noun, gender: f, gen: ėdžių, meaning: "ясли, кормушка", note: "только мн. ч.; мест. п.: в яслях" }
   - { word: lėkšte, lemma: lėkštė, pos: noun, gender: f, gen: lėkštės, meaning: тарелка, note: "твор. п.: su lėkšte — с тарелкой" }
   - { word: artimiesiems, lemma: artimieji, pos: noun, gen: artimųjų, meaning: "близкие, родные", note: "дат. п. мн. ч.; от artimas — близкий" }
   - { word: dalijasi, lemma: dalytis, pos: verb, forms: { pres: dalijasi, past: dalijosi }, meaning: делиться, note: "dalytis kuo (+ твор. п.)" }
