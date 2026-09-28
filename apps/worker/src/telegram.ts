@@ -1,7 +1,9 @@
 // Minimal Telegram Bot API client — only the calls we use.
 
 export interface TgUser { id: number }
-export interface TgMessage { message_id: number; from?: TgUser; chat: { id: number }; text?: string }
+export interface TgMessage { message_id: number; from?: TgUser; chat: { id: number }; text?: string; voice?: TgVoice }
+export interface TgVoice { file_id: string; file_unique_id?: string; duration: number; mime_type?: string; file_size?: number }
+export interface TgFile { file_id: string; file_path?: string; file_size?: number }
 export interface TgPollAnswer { poll_id: string; user?: TgUser; option_ids: number[] }
 export interface TgUpdate { update_id: number; message?: TgMessage; poll_answer?: TgPollAnswer }
 
@@ -45,5 +47,21 @@ export class Telegram {
       explanation: q.explanation?.slice(0, 200),
       disable_notification: true,
     });
+  }
+
+  /** "typing…" / "record_voice"… indicator; lasts ~5 s or until the next message. */
+  sendChatAction(chatId: number | string, action: "typing" | "record_voice" = "typing") {
+    return this.call("sendChatAction", { chat_id: chatId, action });
+  }
+
+  getFile(fileId: string) {
+    return this.call<TgFile>("getFile", { file_id: fileId });
+  }
+
+  /** Downloads a file from getFile's file_path into memory (bots can fetch files up to 20 MB). */
+  async downloadFile(filePath: string): Promise<ArrayBuffer> {
+    const res = await fetch(`${this.apiBase}/file/bot${this.token}/${filePath}`);
+    if (!res.ok) throw new Error(`Telegram file download failed: ${res.status}`);
+    return res.arrayBuffer();
   }
 }

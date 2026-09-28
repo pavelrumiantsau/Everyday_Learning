@@ -7,7 +7,7 @@ import { join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const workerDir = fileURLToPath(new URL("../apps/worker", import.meta.url));
-const SECRET_KEYS = ["TELEGRAM_BOT_TOKEN", "TELEGRAM_USER_ID", "TELEGRAM_WEBHOOK_SECRET", "GEMINI_API_KEY", "GROQ_API_KEY"];
+const SECRET_KEYS = ["TELEGRAM_BOT_TOKEN", "TELEGRAM_USER_ID", "TELEGRAM_WEBHOOK_SECRET", "GEMINI_API_KEY", "GROQ_API_KEY", "ANTHROPIC_API_KEY", "OPENROUTER_API_KEY"];
 const REQUIRED = ["TELEGRAM_BOT_TOKEN", "TELEGRAM_USER_ID", "TELEGRAM_WEBHOOK_SECRET"];
 
 export function readDevVars(): Record<string, string> {

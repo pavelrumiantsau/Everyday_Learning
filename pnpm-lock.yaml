@@ -212,6 +212,9 @@ importers:
       '@el/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@el/llm':
+        specifier: workspace:*
+        version: link:../../packages/llm
       hono:
         specifier: ^4.13.9
         version: 4.13.9

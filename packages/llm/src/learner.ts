@@ -85,12 +85,14 @@ export function render(template: string, vars: Record<string, string>): string {
 
 const profileVars = (p: LearnerProfile) => ({ lang_name: p.name, explain_lang: p.explainIn, level: p.level, style: p.style });
 
+const OPENING = "(Start the conversation: greet me briefly and ask one question about the topic. Nothing to correct yet.)";
+
 export function tutorMessages(prompts: Prompts, p: LearnerProfile, topic: string | undefined, history: ChatMessage[], userText?: string): ChatMessage[] {
   const system = render(need(prompts, "tutor/chat"), { ...profileVars(p), topic: topic || p.defaultTopic });
   const turns: ChatMessage[] = [...history];
   if (userText !== undefined) turns.push({ role: "user", content: userText });
-  // Opening turn: the tutor starts the conversation.
-  if (turns.length === 0) turns.push({ role: "user", content: `(Start the conversation: greet me briefly and ask one question about the topic. Nothing to correct yet.)` });
+  // The tutor opens the conversation; providers want the first turn to be the user's, so the opening request stands in for it.
+  if (turns[0]?.role !== "user") turns.unshift({ role: "user", content: OPENING });
   return [{ role: "system", content: system }, ...turns];
 }
 
