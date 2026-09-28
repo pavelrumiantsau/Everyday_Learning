@@ -16,7 +16,7 @@
 | 3 | Mini App: Telegram login, flashcards (4 ratings), LT verb forms cards, LT noun genitives, placement test | ✅ Done | |
 | 4 | Settings (new cards/day per language, poll cap), `/pause`, `/stats`, streaks + freezes | ⏳ In progress | main |
 | 5 | Reverse cards (RU/EN → target, recall), part of settings per language | ⏳ In progress | main |
-| 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ⏳ In progress | `feat/grammar` (sub-agent) |
+| 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ✅ Done | `feat/grammar`: `/rule`, morning «📘 Правило дня» (Mon/Wed/Thu/Sat LT, Tue/Fri ES), Mini App lesson + cloze cards in reviews |
 | 7 | Audio: TTS for words + examples, play button, voice clip in the bot | ⏳ In progress | `feat/audio` (sub-agent) |
 | 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ⏳ In progress | `feat/ai` (sub-agent) |
 | 9 | Reading mode (graded texts, tap word → card) | ⬜ Next | |
@@ -29,7 +29,7 @@
 |---|---|
 | Lithuanian vocabulary | 175 words (B1–B2, Tatoeba examples, verb forms, noun genitives); year target ≈ 3,000 |
 | Spanish vocabulary | 62 items (phrasebook + core words) |
-| Grammar lessons | none yet (need feature 6) |
+| Grammar lessons | LT 5 (Q1: *-davo*, future, conditional, *-si-* with prefixes, definite adjectives) · ES 4 (present, ser/estar, gustar, *ir a*) |
 | French | starts April 2027 |
 
 **Resuming after an interruption:** check this table, `git branch -a` for `feat/*` branches not yet merged into `main`,
@@ -286,6 +286,22 @@ The schema lives in [packages/core/src/schema.ts](../packages/core/src/schema.ts
   tags: [freq-top-500]
 ```
 
+### 6.5 Grammar lesson format
+One lesson per file: `content/<lang>/grammar/<nnnn>-<slug>.yaml` (schema `Lesson` in `packages/core/src/schema.ts`).
+```yaml
+id: lt-g-0002            # <lang>-g-<number>
+cefr: A2
+order: 2                 # lessons of a language come in this order (unique per language)
+title: "Будущее время: dirbsiu, dirbsi, dirbs"   # RU for LT, EN for ES/FR
+explanation: { ru: "…" } # short paragraphs; **bold**, *italic*, "- " lists
+comparison: { ru: "…" }  # optional: vs Russian/Ukrainian (LT) or English (ES/FR)
+examples:                # 3–5, Tatoeba first (copied verbatim by id)
+  - { text: "Rytoj eisiu į mokyklą.", translation: "Завтра я пойду в школу.", source: "tatoeba:1501577" }
+exercises:               # 4–8; append-only: the Nth exercise becomes review card lt-g-0002:clozeN
+  - { type: cloze, text: "Rytoj aš ___ iki vėlumos.", answer: dirbsiu, also: [], hint: dirbti, translation: "Завтра я буду работать допоздна." }
+```
+The rule of the day is the next not-done lesson of the weekday's language (§3.6); "Готово" in the Mini App turns its exercises into cloze cards.
+
 ---
 
 ## 7. Telegram bot
@@ -293,6 +309,7 @@ The schema lives in [packages/core/src/schema.ts](../packages/core/src/schema.ts
 |---|---|
 | Menu **▶ Learn** | Opens the Mini App |
 | `/today`, `/stats` | Plan and what's left; progress per language |
+| `/rule` | Rule of the day now (grammar lesson in the Mini App) |
 | **`/tutor [topic]`** | Lithuanian conversation (default topic = this week's grammar). Corrections in Russian at the end of each reply; mistakes become cloze cards. `/tutor es` for Spanish |
 | Voice message | Speaking feedback (transcript + corrections) |
 | Text in a target language | Writing feedback |
