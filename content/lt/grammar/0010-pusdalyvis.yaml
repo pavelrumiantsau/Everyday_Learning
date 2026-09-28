@@ -1,0 +1,84 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0010
+cefr: B1
+order: 10
+title: "Полупричастие (pusdalyvis): skaitydamas, skaitydama"
+explanation:
+  ru: |
+    *Pusdalyvis* (полупричастие) — это «делая»: второе действие, которое **тот же человек** выполняет **одновременно** с главным. *Skaitydama laišką, ji verkė* — она читала и плакала; читает и плачет одна и та же «она».
+
+    **Образование** — от инфинитива: убираем **-ti** и добавляем окончание по роду и числу **подлежащего**:
+    - м. р.: **-damas** — skaityti → **skaitydamas**, eiti → **eidamas**, būti → **būdamas**
+    - ж. р.: **-dama** — skaitydama, eidama, būdama
+    - мн. ч. м. р.: **-dami** — skaitydami, žiūrėdami
+    - мн. ч. ж. р.: **-damos** — skaitydamos, žiūrėdamos
+
+    Возвратные: *mokytis* → **mokydamasis, mokydamasi, mokydamiesi, mokydamosi**. С приставкой -si- стоит после неё: *atsikelti* → **atsikeldamas**.
+
+    **Употребление**:
+    - одновременное действие подлежащего: *Aš užmigau **žiūrėdamas** televizorių* (заснул, смотря телевизор);
+    - **prieš** + pusdalyvis = «перед тем как»: *Pagalvok prieš **sakydamas*** — подумай, прежде чем говорить;
+    - **būdamas** + сущ./возраст = «когда был…»: ***būdamas** vaikas* — будучи ребёнком, ***būdama** aštuonerių* — в восемь лет;
+    - с отрицанием: ***Nežinodamas**, ką daryti, nieko nedariau* — не зная, что делать, ничего не делал.
+
+    Главное правило: у pusdalyvis и у главного глагола **одно и то же подлежащее**. Если действуют разные лица, нужен *padalyvis* (следующий урок).
+comparison:
+  ru: |
+    Это прямой аналог русского деепричастия несовершенного вида: *читая, смотря, будучи*. Правило то же — деепричастие относится к подлежащему («Читая книгу, я уснул», а не «Читая книгу, мне стало скучно»).
+
+    Главное отличие: русское деепричастие не меняется, а литовское **согласуется с подлежащим**: он — *skaitydamas*, она — *skaitydama*, они — *skaitydami / skaitydamos*. Поэтому, говоря о себе, выбирайте форму по своему роду: мужчина скажет *Eidamas namo…*, женщина — *Eidama namo…*
+
+    Для «сделав» (совершенный вид) литовский использует причастие прошедшего времени: *perskaitęs, perskaičiusi* — «прочитав».
+examples:
+  - { text: "Skaitydama laišką, ji verkė.", translation: "Она плакала, читая письмо.", source: "tatoeba:2462372" }
+  - { text: "Aš užmigau žiūrėdamas televizorių.", translation: "Я заснул, смотря телевизор.", source: "tatoeba:2173324" }
+  - { text: "Visi verkėme, žiūrėdami šį filmą.", translation: "Мы все плакали, когда смотрели этот фильм.", source: "tatoeba:3948779" }
+  - { text: "Dar būdamas vaikas aš jau gerai mokėjau plaukti.", translation: "Ещё будучи ребёнком, я уже хорошо умел плавать.", source: "tatoeba:4149466" }
+  - { text: "Uždaryk langą prieš išeidamas.", translation: "Закрой окно перед уходом.", source: "tatoeba:2746968" }
+exercises:
+  - type: cloze
+    text: "___ į darbą, aš klausausi muzikos."
+    answer: "Važiuodamas"
+    also: ["Važiuodama"]
+    hint: "važiuoti, говорит мужчина"
+    translation: "Когда еду на работу, я слушаю музыку."
+  - type: cloze
+    text: "Ji dainuoja ___ indus."
+    answer: "plaudama"
+    hint: "plauti, ж. р."
+    translation: "Она поёт, моя посуду."
+  - type: cloze
+    text: "Vaikai grįžo namo ___."
+    answer: "dainuodami"
+    hint: "dainuoti, мн. ч. м. р."
+    translation: "Дети возвращались домой с песнями."
+  - type: cloze
+    text: "___ Vilniuje, aš dažnai eidavau į teatrą."
+    answer: "Gyvendamas"
+    also: ["Gyvendama"]
+    hint: "gyventi, говорит мужчина"
+    translation: "Живя в Вильнюсе, я часто ходил в театр."
+  - type: cloze
+    text: "Mergaitės kalbėjosi, ___ kavą."
+    answer: "gerdamos"
+    hint: "gerti, мн. ч. ж. р."
+    translation: "Девушки разговаривали, попивая кофе."
+  - type: cloze
+    text: "Jis susižeidė ___ futbolą."
+    answer: "žaisdamas"
+    hint: "žaisti, м. р."
+    translation: "Он получил травму, играя в футбол."
+  - type: cloze
+    text: "___ lietuvių kalbos, aš daug skaitau."
+    answer: "Mokydamasis"
+    also: ["Mokydamasi"]
+    hint: "mokytis (возвратный), говорит мужчина"
+    translation: "Изучая литовский язык, я много читаю."
+  - type: cloze
+    text: "Nusiplauk rankas prieš ___."
+    answer: "valgydamas"
+    also: ["valgydama"]
+    hint: "valgyti, обращаемся к мужчине"
+    translation: "Помой руки перед едой."
