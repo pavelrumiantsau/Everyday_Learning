@@ -21,7 +21,7 @@ function play(src: string) {
   current.play().catch(() => {});
 }
 
-export function Play({ id, kind }: { id: string; kind: AudioKind }) {
+export function Play({ id, kind, small }: { id: string; kind: AudioKind; small?: boolean }) {
   const [ready, setReady] = useState(() => !!manifest?.[id]?.[kind]);
   useEffect(() => {
     let live = true;
@@ -39,7 +39,7 @@ export function Play({ id, kind }: { id: string; kind: AudioKind }) {
     play(audioPath(id, kind));
   };
   return (
-    <span className={`play ${kind}`} role="button" tabIndex={0} aria-label="Произношение" onClick={onTap} onKeyDown={onTap}>
+    <span className={`play ${kind}${small ? " small" : ""}`} role="button" tabIndex={0} aria-label="Произношение" onClick={onTap} onKeyDown={onTap}>
       🔊
     </span>
   );

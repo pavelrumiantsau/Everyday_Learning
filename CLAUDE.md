@@ -26,9 +26,9 @@ Spanish beginner, French starts April 2027.
   `migrations/` (next: **0010**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
 - `apps/miniapp` — React 19 + Vite. Features in `src/features/*.tsx` (`HomeEntry` + `Screen`), listed in `src/features.tsx`;
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
-- `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones), `prompts/**`.
+- `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.
 - `scripts/` — content build/validate, sources, candidates, batches (`scripts/batches/*.py`), audio (`tts.py`), smoke test
-  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **12**), setup scripts.
+  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **13**), setup scripts.
 
 ## Commands
 ```bash

@@ -1,0 +1,64 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0003
+cefr: A1
+order: 3
+title: "The unstable e (e muet)"
+explanation:
+  en: |
+    The letter **e without an accent** is often a weak sound [ə] or no sound at all — the *e muet* ("mute e").
+    - **At the end of a word** it is silent: **table** [tabl], **petite** [pətit], **elle aime** [ɛl ɛm]. It still matters: it makes the consonant before it heard (lesson 2).
+    - **Inside words and phrases** it is usually dropped in normal speech: **samedi** [samdi] Saturday, **maintenant** [mɛ̃tnɑ̃] now, **je ne sais pas** [ʒən sɛ pa].
+    - It is **kept** when dropping it would put three consonants together: **vendredi** [vɑ̃dʁədi] Friday. In short words (*le, je, de, ne, que, me*) you may hear it or not, depending on speed.
+
+    **e before two consonants** (or before a consonant that is heard at the end) is not mute — it is [ɛ]: **belle** [bɛl], **merci** [mɛʁsi], **appelle** [apɛl]. **é, è, ê** are never mute (lesson 7).
+comparison:
+  en: |
+    Russian reduces unstressed vowels (*молоко* sounds like "малако"). French doesn't reduce: a vowel is either said fully or, for [ə], dropped completely.
+
+    [ə] is close to the vowel of English *the*, but with the lips slightly rounded.
+examples:
+  - { text: "Je ne sais pas.", translation: "I don't know.", source: "tatoeba:3100" }
+  - { text: "Samedi prochain je vais à Paris.", translation: "Next Saturday, I will go to Paris.", source: "tatoeba:3602119" }
+  - { text: "Appelle-moi !", translation: "Call me!", source: "tatoeba:1803391" }
+  - { text: "Elle est grande.", translation: "She is tall.", source: "tatoeba:8781258" }
+  - { text: "Je le sais.", translation: "I know this.", source: "tatoeba:2468062" }
+exercises:
+  - type: cloze
+    text: "La ___ est blanche."
+    answer: "table"
+    hint: "[tabl] table"
+    translation: "The table is white."
+  - type: cloze
+    text: "À ___ !"
+    answer: "samedi"
+    hint: "[samdi] Saturday"
+    translation: "See you on Saturday!"
+  - type: cloze
+    text: "On part ___."
+    answer: "maintenant"
+    hint: "[mɛ̃tnɑ̃] now"
+    translation: "We're leaving now."
+  - type: cloze
+    text: "Il arrive ___."
+    answer: "vendredi"
+    hint: "[vɑ̃dʁədi] Friday — this e is kept"
+    translation: "He arrives on Friday."
+  - type: cloze
+    text: "Elle est très ___."
+    answer: "belle"
+    hint: "[bɛl] beautiful"
+    translation: "She is very beautiful."
+  - type: cloze
+    text: "___ beaucoup !"
+    answer: "Merci"
+    hint: "[mɛʁsi] thank you"
+    translation: "Thank you very much!"
+  - type: cloze
+    text: "Je ___ sais pas."
+    answer: "ne"
+    hint: "only [n] is heard: not"
+    translation: "I don't know."

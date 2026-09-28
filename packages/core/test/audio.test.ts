@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { audioPath, audioTexts, Item, spokenExample, spokenWord } from "../src";
+import { audioPath, audioTexts, Item, lessonAudioId, lessonAudioTexts, spokenExample, spokenWord } from "../src";
 
 const verb = Item.parse({
   id: "lt-w-0017", type: "word", cefr: "B1", text: "priimti", stress: "priim̃ti", pos: "verb",
@@ -27,5 +27,16 @@ describe("audio", () => {
   it("builds file paths per language", () => {
     expect(audioPath("lt-w-0017", "word")).toBe("/audio/lt/lt-w-0017.mp3");
     expect(audioPath("es-p-0001", "ex")).toBe("/audio/es/es-p-0001-ex.mp3");
+  });
+});
+
+describe("lesson audio", () => {
+  it("speaks examples and exercise sentences with the blank filled in", () => {
+    const lesson = { id: "fr-g-0004", examples: [{ text: "J'aime l'eau." }], exercises: [{ text: "___ai faim.", answer: "J'" }] };
+    expect(lessonAudioTexts(lesson)).toEqual([
+      { id: "fr-g-0004-e1", word: "J'aime l'eau." },
+      { id: "fr-g-0004-x1", word: "J'ai faim." },
+    ]);
+    expect(audioPath(lessonAudioId("fr-g-0004", "x", 0), "word")).toBe("/audio/fr/fr-g-0004-x1.mp3");
   });
 });

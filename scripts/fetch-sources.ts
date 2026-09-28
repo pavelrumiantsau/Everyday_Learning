@@ -22,6 +22,8 @@ const files: Record<string, string> = {
   "eng_sentences.tsv.bz2": `${TATOEBA}/eng/eng_sentences.tsv.bz2`,
   "lit-rus_links.tsv.bz2": `${TATOEBA}/lit/lit-rus_links.tsv.bz2`,
   "spa-eng_links.tsv.bz2": `${TATOEBA}/spa/spa-eng_links.tsv.bz2`,
+  "fra_sentences.tsv.bz2": `${TATOEBA}/fra/fra_sentences.tsv.bz2`,
+  "fra-eng_links.tsv.bz2": `${TATOEBA}/fra/fra-eng_links.tsv.bz2`,
 };
 
 for (const [name, url] of Object.entries(files)) {

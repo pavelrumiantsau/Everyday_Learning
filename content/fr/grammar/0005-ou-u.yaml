@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0005
+cefr: A1
+order: 5
+title: "ou [u] and u [y]"
+explanation:
+  en: |
+    These two sounds change the meaning of a word, so they are worth practising early.
+    - **ou** = **[u]**, like Russian **у**: **vous** [vu] you, **tout** [tu] all, **pour** [puʁ] for, **rouge** [ʁuʒ] red, **bonjour** [bɔ̃ʒuʁ]
+    - **u** = **[y]**: **tu** [ty] you, **vu** [vy] seen, **rue** [ʁy] street, **du** [dy], **sucre** [sykʁ] sugar
+
+    To say [y]: say [i] (Russian **и**), keep the tongue where it is, and round your lips as for [u]. It is **not** Russian **ю** — there is no [j] before it.
+
+    Pairs to hear the difference:
+    - **tu** [ty] you / **tout** [tu] all
+    - **rue** [ʁy] street / **roue** [ʁu] wheel
+    - **dessus** [dəsy] on top / **dessous** [dəsu] underneath
+comparison:
+  en: |
+    English has no [y]; English speakers often say "oo" for both, which turns *tu* into *tout*. The closest familiar sound is German **ü** (*über*); Russian, Ukrainian and Lithuanian don't have it.
+examples:
+  - { text: "Où es-tu ?", translation: "Where are you?", source: "tatoeba:3989" }
+  - { text: "Tu as vu ça ?", translation: "Did you see that?", source: "tatoeba:4271053" }
+  - { text: "Y a-t-il du sucre ?", translation: "Is there any sugar?", source: "tatoeba:504958" }
+  - { text: "Tout le monde ment.", translation: "Everybody lies.", source: "tatoeba:1013116" }
+  - { text: "Vous avez tout.", translation: "You have everything.", source: "tatoeba:432161" }
+exercises:
+  - type: cloze
+    text: "Où es-___ ?"
+    answer: "tu"
+    hint: "[ty] you"
+    translation: "Where are you?"
+  - type: cloze
+    text: "___ avez faim ?"
+    answer: "Vous"
+    hint: "[vu] you, polite"
+    translation: "Are you hungry?"
+  - type: cloze
+    text: "J'habite dans cette ___."
+    answer: "rue"
+    hint: "[ʁy] street"
+    translation: "I live on this street."
+  - type: cloze
+    text: "Je prends du ___."
+    answer: "sucre"
+    hint: "[sykʁ] sugar"
+    translation: "I take sugar."
+  - type: cloze
+    text: "C'est ___ toi."
+    answer: "pour"
+    hint: "[puʁ] for"
+    translation: "It's for you."
+  - type: cloze
+    text: "Tu as ___ le film ?"
+    answer: "vu"
+    hint: "[vy] seen"
+    translation: "Have you seen the film?"
+  - type: cloze
+    text: "Le ___ est rouge."
+    answer: "bus"
+    hint: "[bys] bus — here the s is heard"
+    translation: "The bus is red."
+  - type: cloze
+    text: "___ le monde est là."
+    answer: "Tout"
+    hint: "[tu] all — tout le monde: everyone"
+    translation: "Everyone is here."

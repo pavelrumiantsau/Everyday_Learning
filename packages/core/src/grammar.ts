@@ -6,10 +6,29 @@ type Lang = "lt" | "es" | "fr";
 /** PLAN §3.6: which language's rule comes on each weekday (0 = Sunday). Thursday is LT reading, Sunday LT writing: no rule. */
 export const GRAMMAR_ROTATION: readonly (Lang | null)[] = [null, "lt", "es", "lt", null, "es", "lt"];
 
-/** The language of the rule of the day for a local calendar day ("2026-09-28"), or null (Thursday, Sunday). */
+/** French proper starts here (PLAN §3.5); before it, Saturdays carry the French sounds track. */
+export const FR_START = "2027-04-01";
+
+/**
+ * Candidate languages for the rule of a local calendar day ("2026-09-28"), in order of preference: the first one
+ * that still has a lesson left wins. Empty on Thursday and Sunday.
+ * - Saturday before FR_START: French sounds micro-lesson, else Lithuanian.
+ * - Friday from FR_START: French every other week, else Spanish (PLAN §3.6).
+ */
+export function grammarLangsForDay(day: string): Lang[] {
+  const t = Date.parse(`${day}T12:00:00Z`);
+  const weekday = new Date(t).getUTCDay();
+  const base = GRAMMAR_ROTATION[weekday];
+  if (!base) return [];
+  if (weekday === 6 && day < FR_START) return ["fr", base];
+  const week = Math.floor(t / (7 * 86_400_000));
+  if (weekday === 5 && day >= FR_START && week % 2 === 1) return ["fr", base];
+  return [base];
+}
+
+/** The preferred language of the rule of the day, or null (Thursday, Sunday). */
 export function grammarLangForDay(day: string): Lang | null {
-  const weekday = new Date(`${day}T12:00:00Z`).getUTCDay();
-  return GRAMMAR_ROTATION[weekday] ?? null;
+  return grammarLangsForDay(day)[0] ?? null;
 }
 
 /** The first lesson of `lang` (by `order`) that isn't done yet. */
@@ -43,6 +62,7 @@ const normalize = (s: string) =>
   s
     .normalize("NFC")
     .toLowerCase()
+    .replace(/[’ʼ‘]/g, "'") // iOS types curly apostrophes: l’ami = l'ami
     .replace(/[.,!?;:¿¡"«»„“”]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();

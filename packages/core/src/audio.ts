@@ -31,3 +31,16 @@ export function audioTexts(item: Speakable): { id: string; word: string; ex?: st
   const ex = spokenExample(item);
   return ex ? { id: item.id, word: spokenWord(item), ex } : { id: item.id, word: spokenWord(item) };
 }
+
+/** Grammar lessons reuse the same files (kind "word"): "fr-g-0001-e1" = example 1, "fr-g-0001-x1" = exercise 1. */
+export const lessonAudioId = (lessonId: string, part: "e" | "x", index: number) => `${lessonId}-${part}${index + 1}`;
+
+type SpeakableLesson = { id: string; examples: { text: string }[]; exercises: { text: string; answer: string }[] };
+
+/** What to say for a lesson: each example, and each exercise sentence with the blank filled in. */
+export function lessonAudioTexts(lesson: SpeakableLesson): { id: string; word: string }[] {
+  return [
+    ...lesson.examples.map((e, i) => ({ id: lessonAudioId(lesson.id, "e", i), word: e.text.trim() })),
+    ...lesson.exercises.map((x, i) => ({ id: lessonAudioId(lesson.id, "x", i), word: x.text.replace("___", x.answer).trim() })),
+  ];
+}

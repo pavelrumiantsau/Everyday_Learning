@@ -165,7 +165,7 @@ h2 { margin: 8px 0 0; font-size: 20px; }
   -webkit-user-select: none;
 }
 .play:active { transform: scale(0.92); }
-.play.ex { width: 30px; height: 30px; font-size: 14px; vertical-align: middle; margin-left: 4px; }
+.play.ex, .play.small { width: 30px; height: 30px; font-size: 14px; vertical-align: middle; margin-left: 4px; }
 /* Grammar lessons (features/Grammar.tsx) */
 h2 { margin: 8px 0 0; font-size: 18px; }
 .lesson-text p, .compare p { margin: 0 0 10px; }

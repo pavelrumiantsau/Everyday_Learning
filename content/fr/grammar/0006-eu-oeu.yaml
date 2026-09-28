@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0006
+cefr: A1
+order: 6
+title: "eu and œu: [ø] and [œ]"
+explanation:
+  en: |
+    The spellings **eu** and **œu** stand for two close sounds. Both are made like [e] with the lips rounded.
+    - **[ø]** (closed) — at the end of a word or before [z]: **deux** [dø] two, **bleu** [blø] blue, **peu** [pø] little, **il pleut** [plø] it's raining, **sérieuse** [seʁjøz]
+    - **[œ]** (open) — before a consonant that is heard: **jeune** [ʒœn] young, **sœur** [sœʁ] sister, **heure** [œʁ] hour, **peur** [pœʁ] fear, **neuf** [nœf] nine
+
+    So the same letters change with position: **un œuf** [œf] an egg, but **des œufs** [ø] eggs — the f is silent in the plural, and the vowel closes.
+
+    The *e muet* of *le, je* (lesson 3) is close to these sounds too, so don't worry about tiny differences: the important thing is to round the lips.
+comparison:
+  en: |
+    Russian and English don't have these sounds. To find [ø]: say Russian **э** and round your lips as for **о**. The *eu* in French is never "ю" or English "you".
+examples:
+  - { text: "Le ciel est bleu.", translation: "The sky is blue.", source: "tatoeba:342114" }
+  - { text: "Il pleut.", translation: "It is raining.", source: "tatoeba:3686" }
+  - { text: "J'ai deux sœurs et un frère.", translation: "I have two sisters and one brother.", source: "tatoeba:1138307" }
+  - { text: "Il est déjà neuf heures.", translation: "It's already nine o'clock.", source: "tatoeba:13559" }
+  - { text: "Tu es jeune.", translation: "You're young.", source: "tatoeba:1311825" }
+exercises:
+  - type: cloze
+    text: "Le ciel est ___."
+    answer: "bleu"
+    hint: "[blø] blue"
+    translation: "The sky is blue."
+  - type: cloze
+    text: "J'ai ___ frères."
+    answer: "deux"
+    hint: "[dø] two"
+    translation: "I have two brothers."
+  - type: cloze
+    text: "Elle est très ___."
+    answer: "jeune"
+    hint: "[ʒœn] young"
+    translation: "She is very young."
+  - type: cloze
+    text: "Ma ___ habite à Lyon."
+    answer: "sœur"
+    hint: "[sœʁ] sister"
+    translation: "My sister lives in Lyon."
+  - type: cloze
+    text: "Il est huit ___."
+    answer: "heures"
+    hint: "[œʁ] hours, o'clock"
+    translation: "It's eight o'clock."
+  - type: cloze
+    text: "Il ___ beaucoup."
+    answer: "pleut"
+    hint: "[plø] it rains"
+    translation: "It's raining a lot."
+  - type: cloze
+    text: "J'ai ___."
+    answer: "peur"
+    hint: "[pœʁ] fear"
+    translation: "I'm scared."
+  - type: cloze
+    text: "Un ___ de café ?"
+    answer: "peu"
+    hint: "[pø] a little"
+    translation: "A little coffee?"

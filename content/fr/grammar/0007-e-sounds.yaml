@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0007
+cefr: A1
+order: 7
+title: "é, è, ai, -er, -ez: [e] and [ɛ]"
+explanation:
+  en: |
+    French has two "e" sounds, and many spellings for them.
+    - **[e]** (closed, like a short *é*): **é** (*café*), **-er** (*parler*), **-ez** (*parlez*), **et** (and)
+    - **[ɛ]** (open): **è** (*père* [pɛʁ] father), **ê** (*fête* [fɛt] party), **ai** (*lait* [lɛ] milk, *j'aime* [ʒɛm]), **ei** (*neige* [nɛʒ] snow), and **e before two consonants** (*belle* [bɛl], *merci*)
+
+    The same sound [e] at the end of a verb is spelled by grammar, not by ear:
+    - **parler** [paʁle] — to speak (after another verb or a preposition: *je veux parler*)
+    - **parlé** [paʁle] — spoken (after *j'ai*, *tu as*…: *j'ai parlé*)
+    - **parlez** [paʁle] — you speak (after *vous*)
+
+    The past tense endings **-ais, -ait, -aient** all sound [ɛ]: *il était* [etɛ] he was.
+comparison:
+  en: |
+    Russian **э** in *это* is close to [ɛ]; [e] is tighter: the mouth less open and the lips spread, as in a smile. English *say* ends with a glide [eɪ] — French [e] is pure and short: *café* is not "ca-fay".
+examples:
+  - { text: "Vous parlez français, n'est-ce pas ?", translation: "You do speak French, don't you?", source: "tatoeba:8662273" }
+  - { text: "J'ai parlé avec Tom.", translation: "I talked to Tom.", source: "tatoeba:7738270" }
+  - { text: "Je veux parler français.", translation: "I want to speak French.", source: "tatoeba:3308741" }
+  - { text: "J'aime le lait.", translation: "I like milk.", source: "tatoeba:5311665" }
+  - { text: "Elle est belle.", translation: "She is beautiful.", source: "tatoeba:410245" }
+exercises:
+  - type: cloze
+    text: "Vous ___ français ?"
+    answer: "parlez"
+    hint: "[paʁle] you speak — after vous: -ez"
+    translation: "Do you speak French?"
+  - type: cloze
+    text: "J'ai ___ avec Marie."
+    answer: "parlé"
+    hint: "[paʁle] spoken — after j'ai: -é"
+    translation: "I spoke with Marie."
+  - type: cloze
+    text: "Je veux ___ français."
+    answer: "parler"
+    hint: "[paʁle] to speak — after veux: -er"
+    translation: "I want to speak French."
+  - type: cloze
+    text: "Mon ___ est médecin."
+    answer: "père"
+    hint: "[pɛʁ] father"
+    translation: "My father is a doctor."
+  - type: cloze
+    text: "Je bois du ___."
+    answer: "lait"
+    hint: "[lɛ] milk"
+    translation: "I drink milk."
+  - type: cloze
+    text: "C'est la ___ de Marie."
+    answer: "fête"
+    hint: "[fɛt] party"
+    translation: "It's Marie's party."
+  - type: cloze
+    text: "Il ___ ici hier."
+    answer: "était"
+    hint: "[etɛ] was"
+    translation: "He was here yesterday."
+  - type: cloze
+    text: "Tu ___ le café ?"
+    answer: "aimes"
+    hint: "[ɛm] you like"
+    translation: "Do you like coffee?"

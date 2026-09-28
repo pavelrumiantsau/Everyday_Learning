@@ -19,8 +19,8 @@ export default async function (t: Smoke) {
   check((await api("/grammar/today", null)).status === 401, "grammar API needs Telegram login");
   const today = (await (await api("/grammar/today", me)).json()) as { lesson: Lesson | null; done: boolean };
   const lesson = today.lesson;
-  // /rule works on any day (Sunday falls back to Lithuanian), so today has a lesson: the first one of LT or ES.
-  check(!!lesson && /^(lt|es)-g-0001$/.test(lesson.id) && !today.done, `today's lesson is the first not-done one (${lesson?.id})`);
+  // /rule works on any day (Sunday falls back to Lithuanian), so today has a lesson: the first one of LT, ES or FR (Saturday).
+  check(!!lesson && /^(lt|es|fr)-g-0001$/.test(lesson.id) && !today.done, `today's lesson is the first not-done one (${lesson?.id})`);
   check(!!lesson && rule?.text.includes(lesson.title.replace(/&/g, "&amp;").replace(/</g, "&lt;")), "the message names today's lesson");
   if (!lesson) return;
 

@@ -1,9 +1,11 @@
 // Grammar: rule of the day (explanation → examples → exercises → "Готово"), and cloze cards in reviews.
-import { checkAnswer, clozeParts, type AnswerResult } from "@el/core/grammar";
+import { lessonAudioId } from "@el/core/audio";
+import { checkAnswer, clozeParts, parseExerciseCardId, type AnswerResult } from "@el/core/grammar";
 import type { Exercise, Lesson } from "@el/core";
 import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
 import { getGrammarToday, markLessonDone, type ClozeCard, type GrammarToday, type Rating } from "../api";
 import type { MiniFeature } from "../features";
+import { Play } from "../Audio";
 import { FLAG } from "../flags";
 import { haptic } from "../telegram";
 
@@ -68,11 +70,17 @@ export function useClozeInput(ex: Exercise) {
   return { value, setValue, result, check };
 }
 
-export function ClozeBody({ ex, value, setValue, result, check }: { ex: Exercise } & ReturnType<typeof useClozeInput>) {
+/** 🔊 of an exercise sentence (blank filled in). French lessons are dictation, so there it plays before answering. */
+function exerciseAudio(lessonId: string, index: number) {
+  return { audioId: lessonAudioId(lessonId, "x", index), audioFirst: lessonId.startsWith("fr-") };
+}
+
+export function ClozeBody({ ex, value, setValue, result, check, audioId, audioFirst }: { ex: Exercise; audioId?: string; audioFirst?: boolean } & ReturnType<typeof useClozeInput>) {
   const input = useRef<HTMLInputElement>(null);
   useEffect(() => input.current?.focus(), []);
   return (
     <div className="card cloze">
+      {audioId && (audioFirst || result) && <Play id={audioId} kind="word" />}
       <Sentence ex={ex} filled={result ? ex.answer : undefined} result={result ?? undefined} />
       {ex.hint && <span className="hint small">({ex.hint})</span>}
       {!result ? (
@@ -118,6 +126,7 @@ const SUGGESTED: Record<AnswerResult, Rating> = { correct: 3, almost: 2, wrong: 
 
 export function ClozeReview({ card, position, progress, onAnswer }: { card: ClozeCard; position: string; progress: number; onAnswer: (r: Rating) => void }) {
   const state = useClozeInput(card.exercise);
+  const ref = parseExerciseCardId(card.cardId);
   return (
     <main className="screen">
       <div className="progress">
@@ -126,7 +135,7 @@ export function ClozeReview({ card, position, progress, onAnswer }: { card: Cloz
       <p className="hint small">
         {FLAG[card.lang]} {position} · 📘 {card.lessonTitle}
       </p>
-      <ClozeBody ex={card.exercise} {...state} />
+      <ClozeBody ex={card.exercise} {...state} {...(ref && exerciseAudio(ref.lessonId, ref.index))} />
       <div className="spacer" />
       {state.result ? (
         <div className="ratings">
@@ -179,7 +188,7 @@ function ExerciseStep({ lesson, index, onNext }: { lesson: Lesson; index: number
       <p className="hint small">
         📘 {lesson.title} · упражнение {index + 1} / {lesson.exercises.length}
       </p>
-      <ClozeBody ex={ex} {...state} />
+      <ClozeBody ex={ex} {...state} {...exerciseAudio(lesson.id, index)} />
       <div className="spacer" />
       {state.result ? (
         <button className="button big" onClick={() => onNext(state.result === "correct")}>
@@ -286,7 +295,9 @@ function Screen({ close }: { close: () => void }) {
       <ul className="examples">
         {lesson.examples.map((e, i) => (
           <li key={i}>
-            <i>{e.text}</i>
+            <span>
+              <i>{e.text}</i> <Play id={lessonAudioId(lesson.id, "e", i)} kind="word" small />
+            </span>
             <span className="hint">{e.translation}</span>
           </li>
         ))}

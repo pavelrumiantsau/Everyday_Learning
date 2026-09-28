@@ -1,5 +1,5 @@
 // Grammar lessons: rule of the day (weekday rotation), /rule, Mini App lesson API, exercises → cloze review cards.
-import { exerciseCardId, grammarLangForDay, inWindow, localClock, newCard, parseExerciseCardId, pickLesson, type Exercise, type Lang, type Lesson } from "@el/core";
+import { exerciseCardId, grammarLangsForDay, inWindow, localClock, newCard, parseExerciseCardId, pickLesson, type Exercise, type Lang, type Lesson } from "@el/core";
 import { Hono } from "hono";
 import { LESSON_BY_ID, LESSONS, SCHEDULE } from "../content";
 import { Db } from "../db";
@@ -41,9 +41,11 @@ export async function todayLesson(d1: D1Database, now: Date, anyDay = false): Pr
   const { day } = localClock(now, SCHEDULE.timezone);
   const stored = await dayLessonId(d1, day);
   if (stored) return { day, lesson: LESSON_BY_ID.get(stored) ?? null };
-  const lang = grammarLangForDay(day) ?? (anyDay ? "lt" : null);
-  if (!lang) return { day, lesson: null };
-  const lesson = pickLesson(LESSONS, lang, await doneLessonIds(d1));
+  const langs = grammarLangsForDay(day);
+  if (!langs.length && anyDay) langs.push("lt");
+  if (!langs.length) return { day, lesson: null };
+  const done = await doneLessonIds(d1);
+  const lesson = langs.map((lang) => pickLesson(LESSONS, lang, done)).find((l) => l) ?? null;
   if (!lesson) return { day, lesson: null };
   await d1.prepare("INSERT OR IGNORE INTO grammar_day (day, lesson_id) VALUES (?, ?)").bind(day, lesson.id).run();
   const id = await dayLessonId(d1, day); // another request may have picked first

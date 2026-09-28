@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0008
+cefr: A1
+order: 8
+title: "oi [wa] and oin [wɛ̃]"
+explanation:
+  en: |
+    **oi** is always **[wa]** — never "oy" as in English *boy*:
+    - **moi** [mwa] me, **toi** [twa] you, **trois** [tʁwa] three, **froid** [fʁwa] cold, **fois** [fwa] time (once)
+    - **soir** [swaʁ] evening, **voir** [vwaʁ] to see, **boire** [bwaʁ] to drink, **au revoir** [o ʁəvwaʁ]
+
+    **oin** is **[wɛ̃]** — [w] + the nasal [ɛ̃] from lesson 1: **loin** [lwɛ̃] far, **moins** [mwɛ̃] less, **point** [pwɛ̃] point.
+
+    **oy** before a vowel is [waj]: **voyage** [vwajaʒ] trip.
+comparison:
+  en: |
+    Russian speakers can think of *уа* said quickly as one syllable: *moi* ≈ "муа". English speakers: *oi* is the *wa* of *wasabi*, not the *oi* of *coin*.
+examples:
+  - { text: "C'est à moi.", translation: "That is mine.", source: "tatoeba:1551223" }
+  - { text: "J'ai trois chats.", translation: "I have three cats.", source: "tatoeba:6813334" }
+  - { text: "Bonsoir.", translation: "Good evening.", source: "tatoeba:7579945" }
+  - { text: "Au revoir.", translation: "Good-bye.", source: "tatoeba:5512681" }
+  - { text: "C'est loin d'ici ?", translation: "Is it far from here?", source: "tatoeba:3470" }
+exercises:
+  - type: cloze
+    text: "C'est à ___."
+    answer: "moi"
+    hint: "[mwa] me"
+    translation: "It's mine."
+  - type: cloze
+    text: "J'ai ___ chats."
+    answer: "trois"
+    hint: "[tʁwa] three"
+    translation: "I have three cats."
+  - type: cloze
+    text: "À ce ___ !"
+    answer: "soir"
+    hint: "[swaʁ] evening"
+    translation: "See you this evening!"
+  - type: cloze
+    text: "C'est ___ d'ici ?"
+    answer: "loin"
+    hint: "[lwɛ̃] far"
+    translation: "Is it far from here?"
+  - type: cloze
+    text: "Je voudrais ___ de l'eau."
+    answer: "boire"
+    hint: "[bwaʁ] to drink"
+    translation: "I would like to drink some water."
+  - type: cloze
+    text: "Au ___ !"
+    answer: "revoir"
+    hint: "[ʁəvwaʁ] goodbye: au revoir"
+    translation: "Goodbye!"
+  - type: cloze
+    text: "Une ___ par semaine."
+    answer: "fois"
+    hint: "[fwa] time — une fois: once"
+    translation: "Once a week."
+  - type: cloze
+    text: "Et ___ ?"
+    answer: "toi"
+    hint: "[twa] you"
+    translation: "And you?"

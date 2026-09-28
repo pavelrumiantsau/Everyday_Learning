@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0010
+cefr: A1
+order: 10
+title: "Rhythm: even syllables, stress at the end"
+explanation:
+  en: |
+    French has **no word stress** like English or Russian. All syllables are said **evenly**, and only the **last syllable of a group of words** is a little longer and louder.
+    - **restaurant** [ʁɛs-tɔ-ʁɑ̃] — the last syllable is the longest
+    - **C'est important.** [sɛ-tɛ̃-pɔʁ-tɑ̃] — one group, stress at the very end
+    - **Je ne comprends pas.** — the stress moves to *pas*, the end of the group, not to *comprends*
+
+    Two habits to keep:
+    - **Don't reduce vowels.** Every *o* in *chocolat* [ʃɔkɔla] is a clear [ɔ].
+    - **Don't stress the "English" syllable** in international words: *musique* [myzik], *téléphone* [telefɔn], *université* [ynivɛʁsite] — the end is stronger.
+comparison:
+  en: |
+    English *important* and *restaurant* are stressed on the first or second syllable; French puts the weight on the last one. Russian moves stress around inside the word (*города́ / го́род*) and weakens the other vowels; French keeps every vowel full, and the stress belongs to the phrase, not to the word.
+examples:
+  - { text: "C'est important pour moi.", translation: "To me, it is important.", source: "tatoeba:718391" }
+  - { text: "J'aime la musique.", translation: "I like music.", source: "tatoeba:2318391" }
+  - { text: "Allons au restaurant !", translation: "Let's go to the restaurant.", source: "tatoeba:1084281" }
+  - { text: "Je ne comprends pas.", translation: "I don't get it.", source: "tatoeba:3528" }
+  - { text: "Je vis à Paris.", translation: "I live in Paris.", source: "tatoeba:12607866" }
+exercises:
+  - type: cloze
+    text: "On va au ___ ?"
+    answer: "restaurant"
+    hint: "[ʁɛstɔʁɑ̃] restaurant"
+    translation: "Shall we go to the restaurant?"
+  - type: cloze
+    text: "J'aime la ___."
+    answer: "musique"
+    hint: "[myzik] music"
+    translation: "I like music."
+  - type: cloze
+    text: "C'est très ___."
+    answer: "important"
+    hint: "[ɛ̃pɔʁtɑ̃] important"
+    translation: "It's very important."
+  - type: cloze
+    text: "Je ne ___ pas."
+    answer: "comprends"
+    hint: "[kɔ̃pʁɑ̃] understand"
+    translation: "I don't understand."
+  - type: cloze
+    text: "J'habite à ___."
+    answer: "Paris"
+    hint: "[paʁi] — no s at the end"
+    translation: "I live in Paris."
+  - type: cloze
+    text: "Tu veux du ___ ?"
+    answer: "chocolat"
+    hint: "[ʃɔkɔla] chocolate"
+    translation: "Do you want some chocolate?"
+  - type: cloze
+    text: "Où est le ___ ?"
+    answer: "téléphone"
+    hint: "[telefɔn] phone"
+    translation: "Where is the phone?"
+  - type: cloze
+    text: "Elle étudie à l'___."
+    answer: "université"
+    hint: "[ynivɛʁsite] university"
+    translation: "She studies at the university."

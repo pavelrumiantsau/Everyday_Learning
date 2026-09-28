@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0002
+cefr: A1
+order: 2
+title: "Silent final letters"
+explanation:
+  en: |
+    Most **final consonants are silent**: -s, -t, -d, -x, -z, -p.
+    - **froid** [fʁwa] cold, **petit** [pəti] small, **grand** [ɡʁɑ̃] tall, **deux** [dø] two, **nez** [ne] nose, **trop** [tʁo] too much
+
+    Final **c, r, f, l** are usually pronounced — remember the English word **CaReFuL**: **sac** [sak] bag, **mer** [mɛʁ] sea, **neuf** [nœf] nine, **sel** [sɛl] salt (with exceptions such as **blanc** [blɑ̃] white). Big exception: **-er** at the end of verbs is [e] and the r is silent: **parler** [paʁle] to speak.
+
+    When an **-e** follows, the consonant **is** heard. This is how feminine adjectives sound different:
+    - **petit** [pəti] → **petite** [pətit]
+    - **grand** [ɡʁɑ̃] → **grande** [ɡʁɑ̃d]
+
+    The plural **-s** is silent: *le chat* / *les chats* differ only in the article. The verb ending **-ent** (they) is silent too: *il parle* and *ils parlent* sound the same, [paʁl].
+comparison:
+  en: |
+    English speakers pronounce what they see at the end of *Paris* or *restaurant*; in French the -s and -t stay silent: [paʁi], [ʁɛstɔʁɑ̃].
+
+    A few common words do pronounce the final consonant: **bus** [bys], **fils** [fis] son, **ours** [uʁs] bear. Learn them as exceptions when you meet them.
+examples:
+  - { text: "Il fait froid.", translation: "It's cold.", source: "tatoeba:3635" }
+  - { text: "Tout est blanc.", translation: "Everything is white.", source: "tatoeba:8758264" }
+  - { text: "Ils parlent.", translation: "They're talking.", source: "tatoeba:3495618" }
+  - { text: "Il est petit.", translation: "He's small.", source: "tatoeba:8660251" }
+  - { text: "Elle est petite.", translation: "She's small.", source: "tatoeba:8660252" }
+exercises:
+  - type: cloze
+    text: "Il fait ___."
+    answer: "froid"
+    hint: "[fʁwa] cold"
+    translation: "It's cold."
+  - type: cloze
+    text: "Il est ___."
+    answer: "petit"
+    hint: "[pəti] small, masculine"
+    translation: "He's small."
+  - type: cloze
+    text: "Elle est ___."
+    answer: "petite"
+    hint: "[pətit] small, feminine"
+    translation: "She's small."
+  - type: cloze
+    text: "Ils ___ français."
+    answer: "parlent"
+    hint: "[paʁl] they speak"
+    translation: "They speak French."
+  - type: cloze
+    text: "J'ai ___ enfants."
+    answer: "deux"
+    hint: "[dø] two"
+    translation: "I have two children."
+  - type: cloze
+    text: "Le ___ est rouge."
+    answer: "sac"
+    hint: "[sak] bag — the final c is heard"
+    translation: "The bag is red."
+  - type: cloze
+    text: "Il fait ___ aujourd'hui."
+    answer: "chaud"
+    hint: "[ʃo] hot"
+    translation: "It's hot today."
+  - type: cloze
+    text: "Elle est ___."
+    answer: "grande"
+    hint: "[ɡʁɑ̃d] tall, feminine"
+    translation: "She is tall."

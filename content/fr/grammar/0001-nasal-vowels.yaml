@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0001
+cefr: A1
+order: 1
+title: "Nasal vowels: an/en, on, in/un"
+explanation:
+  en: |
+    French has vowels that are said **through the nose**. The **n** or **m** after them is **not pronounced** — it only marks the nasal vowel. (Sounds are written in square brackets, like [ɑ̃]; press 🔊 to hear them.)
+    - **[ɑ̃]** — *an, am, en, em*: **enfant** [ɑ̃fɑ̃] child, **temps** [tɑ̃] time, **chambre** [ʃɑ̃bʁ] room
+    - **[ɔ̃]** — *on, om*: **bon** [bɔ̃] good, **nom** [nɔ̃] name, **maison** [mɛzɔ̃] house
+    - **[ɛ̃]** — *in, im, ain, aim, ein*, and *-ien* [jɛ̃]: **vin** [vɛ̃] wine, **pain** [pɛ̃] bread, **faim** [fɛ̃] hunger, **plein** [plɛ̃] full, **chien** [ʃjɛ̃] dog
+    - *un, um*: **un** [œ̃] one, a — in most of France today it sounds the same as [ɛ̃].
+
+    The vowel is nasal only when the n/m is **at the end of the word or before another consonant**. Before a vowel or when doubled (nn, mm), you hear a normal vowel **plus** n/m:
+    - **bon** [bɔ̃] → **bonne** [bɔn]
+    - **un** [œ̃] → **une** [yn]
+    - **américain** [amerikɛ̃] → **américaine** [amerikɛn]
+
+    That is how you hear the feminine of many words.
+comparison:
+  en: |
+    Neither English nor Russian has these vowels. Don't close your mouth for an n at the end: *vin* is not "вин" and *bon* is not English "bone". Say the vowel and let air go through the nose at the same time.
+
+    [ɑ̃] and [ɔ̃] are easy to mix up: for [ɔ̃] the lips are rounded and pushed forward (*bon*), for [ɑ̃] the mouth is open (*banc* "bench").
+examples:
+  - { text: "Ce vin est bon.", translation: "This wine tastes good.", source: "tatoeba:406108" }
+  - { text: "Venez demain matin.", translation: "Come tomorrow morning.", source: "tatoeba:135360" }
+  - { text: "J'ai un enfant.", translation: "I have one child.", source: "tatoeba:5367325" }
+  - { text: "J'ai une sœur et un frère.", translation: "I have a sister and a brother.", source: "tatoeba:5822138" }
+  - { text: "C'est une bonne idée.", translation: "That is a good idea.", source: "tatoeba:12407" }
+exercises:
+  - type: cloze
+    text: "J'ai du ___."
+    answer: "pain"
+    hint: "[pɛ̃] bread"
+    translation: "I have some bread."
+  - type: cloze
+    text: "C'est un ___ film."
+    answer: "bon"
+    hint: "[bɔ̃] good"
+    translation: "It's a good film."
+  - type: cloze
+    text: "Mon ___ est Paul."
+    answer: "nom"
+    hint: "[nɔ̃] name"
+    translation: "My name is Paul."
+  - type: cloze
+    text: "Il a un ___."
+    answer: "enfant"
+    hint: "[ɑ̃fɑ̃] child"
+    translation: "He has a child."
+  - type: cloze
+    text: "Je n'ai pas le ___."
+    answer: "temps"
+    hint: "[tɑ̃] time"
+    translation: "I don't have time."
+  - type: cloze
+    text: "J'habite dans une ___."
+    answer: "maison"
+    hint: "[mɛzɔ̃] house"
+    translation: "I live in a house."
+  - type: cloze
+    text: "C'est une ___ réponse."
+    answer: "bonne"
+    hint: "[bɔn] good, feminine — not nasal"
+    translation: "It's a good answer."
+  - type: cloze
+    text: "Mon ___ s'appelle Rex."
+    answer: "chien"
+    hint: "[ʃjɛ̃] dog"
+    translation: "My dog is called Rex."

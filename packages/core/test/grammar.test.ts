@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { checkAnswer, clozeParts, exerciseCardId, grammarLangForDay, Lesson, parseExerciseCardId, pickLesson } from "../src";
+import { checkAnswer, clozeParts, exerciseCardId, grammarLangForDay, grammarLangsForDay, Lesson, parseExerciseCardId, pickLesson } from "../src";
 
 const ex = (over: object = {}) => ({ type: "cloze", text: "Aš ___ namie.", answer: "būsiu", hint: "būti", translation: "Я буду дома.", ...over });
 const example = { text: "Rytoj eisiu į mokyklą.", translation: "Завтра я пойду в школу.", source: "tatoeba:1501577" };
@@ -46,7 +46,23 @@ describe("weekday rotation", () => {
   it("follows PLAN §3.6: Mon LT, Tue ES, Wed LT, Thu none (reading), Fri ES, Sat LT, Sun none", () => {
     // 2026-09-28 is a Monday
     const week = ["2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02", "2026-10-03", "2026-10-04"];
-    expect(week.map(grammarLangForDay)).toEqual(["lt", "es", "lt", null, "es", "lt", null]);
+    expect(week.map(grammarLangForDay)).toEqual(["lt", "es", "lt", null, "es", "fr", null]);
+  });
+  it("Saturday is French sounds (else LT) until 2027-04-01, then LT again", () => {
+    expect(grammarLangsForDay("2026-10-03")).toEqual(["fr", "lt"]);
+    expect(grammarLangsForDay("2027-03-27")).toEqual(["fr", "lt"]);
+    expect(grammarLangsForDay("2027-04-03")).toEqual(["lt"]);
+  });
+  it("from April 2027 Friday alternates French and Spanish", () => {
+    expect(grammarLangsForDay("2027-03-26")).toEqual(["es"]);
+    const fridays = ["2027-04-02", "2027-04-09", "2027-04-16", "2027-04-23"].map(grammarLangsForDay);
+    expect(fridays.filter((l) => l[0] === "fr")).toHaveLength(2);
+    expect(fridays.filter((l) => l[0] === "es")).toHaveLength(2);
+    expect(fridays.every((l) => l.at(-1) === "es")).toBe(true);
+  });
+  it("Thursday and Sunday have no rule", () => {
+    expect(grammarLangsForDay("2026-10-01")).toEqual([]);
+    expect(grammarLangsForDay("2026-10-04")).toEqual([]);
   });
 });
 
@@ -80,6 +96,7 @@ describe("answer check", () => {
     expect(checkAnswer("  Dirbsiu ", ["dirbsiu"])).toBe("correct");
     expect(checkAnswer("Estás", ["estás"])).toBe("correct");
     expect(checkAnswer("naujaisiais.", ["Naujaisiais"])).toBe("correct");
+    expect(checkAnswer("l’ami", ["l'ami"])).toBe("correct"); // iOS curly apostrophe
   });
   it("says 'almost' when only diacritics differ (Lithuanian and Spanish)", () => {
     expect(checkAnswer("dirbciau", ["dirbčiau"])).toBe("almost");

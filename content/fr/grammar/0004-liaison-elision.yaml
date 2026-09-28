@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0004
+cefr: A1
+order: 4
+title: "Linking words: liaison and élision"
+explanation:
+  en: |
+    French links words inside a phrase, so a sentence sounds like one long word.
+
+    **Élision** — short words lose their vowel before a word starting with a vowel or a silent h, and an apostrophe is written:
+    - **le, la → l'**: *l'eau* water, *l'homme* the man
+    - **je → j'**, **me → m'**, **te → t'**, **se → s'**, **de → d'**, **ne → n'**, **que → qu'**: *j'aime*, *je n'ai pas*
+    - **si → s'** only before *il, ils*: *s'il vous plaît*
+
+    **Liaison** — a final consonant that is normally silent (lesson 2) **is pronounced** when the next word starts with a vowel, and it joins that word:
+    - **s, x → [z]**: *les‿enfants* [lezɑ̃fɑ̃], *vous‿avez* [vuzave], *deux‿ans* [døzɑ̃]
+    - **t, d → [t]**: *petit‿ami* [pətitami], *comment‿allez-vous* [kɔmɑ̃tale vu]
+    - **n → [n]**: *un‿enfant* [œ̃nɑ̃fɑ̃]
+
+    Always link after *les, des, un, nous, vous, ils, elles* and short adjectives before a noun. Never link after **et** (*et | un*) or before an *h aspiré* (*les | héros*).
+comparison:
+  en: |
+    English does something similar with *an apple* vs *a pear*, but French does it much more often. Russian speakers: it's like *в Англии* said as one word — no pause between the words.
+examples:
+  - { text: "Les enfants dorment.", translation: "The kids are asleep.", source: "tatoeba:2310538" }
+  - { text: "Vous avez faim.", translation: "You're hungry.", source: "tatoeba:2070917" }
+  - { text: "Comment allez-vous ?", translation: "How are you?", source: "tatoeba:11578" }
+  - { text: "J'aime l'eau.", translation: "I like water.", source: "tatoeba:5545314" }
+  - { text: "S'il vous plaît.", translation: "Please.", source: "tatoeba:487759" }
+exercises:
+  - type: cloze
+    text: "J'aime ___eau."
+    answer: "l'"
+    hint: "the — before a vowel"
+    translation: "I like water."
+  - type: cloze
+    text: "___ai faim."
+    answer: "J'"
+    hint: "I — before a vowel"
+    translation: "I'm hungry."
+  - type: cloze
+    text: "___il vous plaît."
+    answer: "S'"
+    hint: "if — before il"
+    translation: "Please."
+  - type: cloze
+    text: "Il ___aime pas ça."
+    answer: "n'"
+    hint: "not — before a vowel"
+    translation: "He doesn't like that."
+  - type: cloze
+    text: "Les ___ dorment."
+    answer: "enfants"
+    hint: "[lezɑ̃fɑ̃] children — les sounds [lez]"
+    translation: "The children are sleeping."
+  - type: cloze
+    text: "Vous ___ faim ?"
+    answer: "avez"
+    hint: "[vuzave] you have"
+    translation: "Are you hungry?"
+  - type: cloze
+    text: "Nous ___ deux chats."
+    answer: "avons"
+    hint: "[nuzavɔ̃] we have"
+    translation: "We have two cats."
+  - type: cloze
+    text: "Il est ___ heures."
+    answer: "trois"
+    hint: "[tʁwazœʁ] three"
+    translation: "It's three o'clock."

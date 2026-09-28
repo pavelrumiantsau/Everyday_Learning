@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French sounds track (PLAN §3.5): one micro-lesson on Saturdays until French starts in April 2027.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exercises are dictation: 🔊 plays the whole sentence, the learner writes the word they hear.
+id: fr-g-0009
+cefr: A1
+order: 9
+title: "gn, ill, ch, qu"
+explanation:
+  en: |
+    Four spellings that don't sound the way English or Russian readers expect:
+    - **gn** = **[ɲ]**, like Russian **нь**: **montagne** [mɔ̃taɲ] mountain, **Espagne** [ɛspaɲ] Spain, **gagner** [ɡaɲe] to win
+    - **ill** after a vowel, and final **-il** after a vowel = **[j]** (like **й**): **travail** [tʁavaj] work, **je travaille** [tʁavaj], **soleil** [sɔlɛj] sun; after a consonant **-ille** is [ij]: **fille** [fij] girl, daughter, **famille** [famij] family. Exceptions with a real [l]: **ville** [vil] town, **mille** [mil] thousand, **tranquille** [tʁɑ̃kil] calm.
+    - **ch** = **[ʃ]**, like Russian **ш** but softer: **chat** [ʃa] cat, **chercher** [ʃɛʁʃe] to look for. In some Greek words it is [k]: *orchestre*.
+    - **qu** = **[k]** — the u is silent: **qui** [ki] who, **quand** [kɑ̃] when, **quatre** [katʁ] four, **question** [kɛstjɔ̃]
+comparison:
+  en: |
+    English *ch* in *church* is [tʃ]; French *ch* has no [t]: *chat* is "sha". English *qu* in *queen* is [kw]; French *qu* is just [k]: *qui* is "kee".
+examples:
+  - { text: "J'aime la montagne.", translation: "I love the mountains.", source: "tatoeba:9370250" }
+  - { text: "J'ai une fille.", translation: "I have a daughter.", source: "tatoeba:14716" }
+  - { text: "Je travaille ici.", translation: "I work here.", source: "tatoeba:3081621" }
+  - { text: "Je cherche ma clé.", translation: "I'm looking for my key.", source: "tatoeba:8747" }
+  - { text: "Qui est là ?", translation: "Who's there?", source: "tatoeba:1158571" }
+exercises:
+  - type: cloze
+    text: "J'aime la ___."
+    answer: "montagne"
+    hint: "[mɔ̃taɲ] mountains"
+    translation: "I love the mountains."
+  - type: cloze
+    text: "Il habite en ___."
+    answer: "Espagne"
+    hint: "[ɛspaɲ] Spain"
+    translation: "He lives in Spain."
+  - type: cloze
+    text: "C'est ma ___."
+    answer: "fille"
+    hint: "[fij] daughter"
+    translation: "This is my daughter."
+  - type: cloze
+    text: "Je ___ ici."
+    answer: "travaille"
+    hint: "[tʁavaj] I work"
+    translation: "I work here."
+  - type: cloze
+    text: "Je ___ mes clés."
+    answer: "cherche"
+    hint: "[ʃɛʁʃ] I'm looking for"
+    translation: "I'm looking for my keys."
+  - type: cloze
+    text: "___ est là ?"
+    answer: "Qui"
+    hint: "[ki] who"
+    translation: "Who's there?"
+  - type: cloze
+    text: "Il a ___ ans."
+    answer: "quatre"
+    hint: "[katʁ] four"
+    translation: "He is four years old."
+  - type: cloze
+    text: "J'habite dans une petite ___."
+    answer: "ville"
+    hint: "[vil] town — here ll is [l]"
+    translation: "I live in a small town."
