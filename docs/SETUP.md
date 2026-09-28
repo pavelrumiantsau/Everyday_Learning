@@ -240,6 +240,7 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 | AI answers fail with `503` | Temporary overload at the provider. The bot retries, then uses the fallback provider if configured |
 | AI answers stop, with `404 model_not_found / decommissioned` | The provider retired the model. List the models (step 2.4), update the name in `config/llm.yaml`, and push |
 | No morning message | Dashboard → Worker → *Trigger events* shows the cron? `config/schedule.yaml` time zone correct? Look for `scheduled` entries in the logs |
+| Worker URL shows `error code: 1042` right after the first deploy | The new workers.dev subdomain is still activating. Wait 1–5 minutes and reload |
 | `wrangler login` browser doesn't open | Copy the URL it prints into your browser manually |
 | GitHub deploy fails with `Authentication error` | The Cloudflare API token is missing the D1 permission, or the account ID is wrong (step 5.2) |
 | Backup job fails | The fine-grained token expired or isn't limited to the data repo. Create a new one (step 5.3) and `gh secret set DATA_REPO_TOKEN` |

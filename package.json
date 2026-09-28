@@ -16,7 +16,7 @@
     "secrets:push": "tsx scripts/secrets-push.ts",
     "setup:telegram": "tsx scripts/setup-telegram.ts",
     "smoke": "pnpm build:content && tsx scripts/smoke.ts",
-    "deploy:worker": "pnpm build:content && pnpm --filter @el/worker deploy",
+    "deploy:worker": "pnpm build:content && pnpm --filter @el/worker run deploy",
     "wrangler": "pnpm --filter @el/worker exec wrangler"
   },
   "devDependencies": {

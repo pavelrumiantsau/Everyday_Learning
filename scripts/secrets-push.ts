@@ -4,7 +4,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const workerDir = fileURLToPath(new URL("../apps/worker", import.meta.url));
 const SECRET_KEYS = ["TELEGRAM_BOT_TOKEN", "TELEGRAM_USER_ID", "TELEGRAM_WEBHOOK_SECRET", "GEMINI_API_KEY", "GROQ_API_KEY"];
@@ -25,7 +25,7 @@ export function readDevVars(): Record<string, string> {
   );
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const vars = readDevVars();
   const missing = REQUIRED.filter((k) => !vars[k]);
   if (missing.length) {

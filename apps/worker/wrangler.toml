@@ -9,7 +9,7 @@ crons = ["*/15 * * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "everyday-learning"
-database_id = "REPLACE_WITH_ID_FROM_d1_create"   # SETUP.md step 4.1 — not a secret
+database_id = "27e3f4a2-b9ff-43c0-9ccc-03a2d8d44a44"   # not a secret
 migrations_dir = "migrations"
 
 [observability]
