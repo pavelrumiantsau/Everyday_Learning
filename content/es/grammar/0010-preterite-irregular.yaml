@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0010
+cefr: A2
+order: 10
+title: "Irregular preterites: fui, tuve, hice"
+explanation:
+  en: |
+    The most common verbs are irregular in the preterite — but they follow a pattern.
+
+    **Ser** and **ir** share one set of forms:
+    - **fui, fuiste, fue, fuimos, fuisteis, fueron**
+    - *Fui a Madrid* — I went to Madrid. *Fue fácil* — It was easy. Context tells them apart.
+
+    Most others have a **new stem** and special endings **-e, -iste, -o, -imos, -isteis, -ieron** (no accents!):
+    - tener → **tuv**-: tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron
+    - estar → **estuv**-: estuve, estuviste, estuvo…
+    - poder → **pud**-: pude, pudiste, pudo… · poner → **pus**-: puse, pusiste, puso…
+    - venir → **vin**-: vine, viniste, vino, vinimos, vinisteis, vinieron
+    - hacer → **hic**-: hice, hiciste, **hizo**, hicimos, hicisteis, hicieron
+
+    **Decir** → **dij**-: dije, dijiste, dijo, dijimos, dijisteis, **dijeron** (after *j* it's *-eron*, not *-ieron*).
+
+    Compare the stress: regular *habló* (stress at the end, with an accent) — irregular *tuvo, hizo* (stress on the stem, no accent).
+
+    Weather uses *hacer*: *Ayer hizo frío* — It was cold yesterday.
+comparison:
+  en: |
+    Like English "went, had, did, said", these are the verbs you use most, so they're worth learning by heart. Note: *fui* is both «я был» (ser) and «я ходил / съездил» (ir); *estuve* is «я был» about a place or state: *Estuve en casa* — «Я был дома».
+examples:
+  - { text: "Ayer fui al parque.", translation: "I went to the park yesterday.", source: "tatoeba:795925" }
+  - { text: "Ayer fue mi cumpleaños.", translation: "Yesterday was my birthday.", source: "tatoeba:676559" }
+  - { text: "Anoche tuve un sueño extraño.", translation: "I had a strange dream last night.", source: "tatoeba:1243060" }
+  - { text: "Ayer estuve muy ocupado.", translation: "I was very busy yesterday.", source: "tatoeba:506989" }
+  - { text: "Anoche hizo tanto calor que no pude dormir bien.", translation: "Last night it was so hot that I couldn't sleep well.", source: "tatoeba:745701" }
+exercises:
+  - type: cloze
+    text: "El sábado ___ al cine con mis amigos."
+    answer: "fui"
+    hint: "ir (yo)"
+    translation: "On Saturday I went to the cinema with my friends."
+  - type: cloze
+    text: "La fiesta ___ muy divertida."
+    answer: "fue"
+    hint: "ser"
+    translation: "The party was a lot of fun."
+  - type: cloze
+    text: "Ayer ___ que trabajar hasta las nueve."
+    answer: "tuve"
+    hint: "tener (yo)"
+    translation: "Yesterday I had to work until nine."
+  - type: cloze
+    text: "¿Dónde ___ tú anoche?"
+    answer: "estuviste"
+    hint: "estar"
+    translation: "Where were you last night?"
+  - type: cloze
+    text: "¿Qué ___ vosotros el fin de semana?"
+    answer: "hicisteis"
+    hint: "hacer"
+    translation: "What did you (all) do at the weekend?"
+  - type: cloze
+    text: "Mi jefe no ___ venir a la reunión."
+    answer: "pudo"
+    hint: "poder"
+    translation: "My boss couldn't come to the meeting."
+  - type: cloze
+    text: "Mis padres ___ a verme el domingo."
+    answer: "vinieron"
+    hint: "venir"
+    translation: "My parents came to see me on Sunday."
+  - type: cloze
+    text: "Ella me ___ la verdad."
+    answer: "dijo"
+    hint: "decir"
+    translation: "She told me the truth."
