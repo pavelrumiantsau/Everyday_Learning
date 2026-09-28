@@ -1,0 +1,49 @@
+id: lt-r-0007
+cefr: B1
+title: Turguje
+topic: рынок
+source: generated
+text: |
+  Šeštadienio rytą aš dažnai einu į Halės turgų. Ten visada daug žmonių, bet man patinka jo triukšmas ir kvapai. Daržovės ir vaisiai turguje šviežesni nei parduotuvėje, o kainos dažnai panašios.
+
+  Pirmiausia visada einu prie vienos ūkininkės, iš kurios jau seniai perku bulves ir morkas. Ji mane pažįsta ir kaskart paklausia, kaip man sekasi. Šį šeštadienį paprašiau dviejų kilogramų bulvių ir kilogramo svogūnų. „Iš viso keturi eurai“, – pasakė ji ir dar padovanojo man krapų.
+
+  Paskui sustojau prie prekystalio su obuoliais. Pardavėjas pasiūlė paragauti. Obuoliai buvo saldūs ir traškūs, bet kaina man pasirodė per didelė. „Gal galėtumėte truputį nuleisti kainą?“ – paklausiau. Jis nusišypsojo ir sutiko parduoti tris kilogramus už penkis eurus.
+
+  Grįždamas namo užsukau į nedidelę kepyklą ir nusipirkau šviežios juodos duonos. Turguje praleidau beveik dvi valandas, bet visai nepavargau. Man tai – geriausia savaitgalio pradžia. Jei turėčiau daugiau laiko, į turgų eičiau ir darbo dienomis.
+glossary:
+  - { word: turgų, lemma: turgus, pos: noun, gender: m, gen: turgaus, meaning: рынок, note: "вин. п.: eiti į turgų — идти на рынок; turguje — на рынке (мест. п.)" }
+  - { word: triukšmas, lemma: triukšmas, pos: noun, gender: m, gen: triukšmo, meaning: шум }
+  - { word: kvapai, lemma: kvapas, pos: noun, gender: m, gen: kvapo, meaning: запах, item: lt-w-0116, note: "им. п. мн. ч." }
+  - { word: šviežesni, lemma: šviežias, pos: adj, meaning: свежий, note: "сравн. ст., мн. ч.: šviežesni nei — свежее, чем" }
+  - { word: ūkininkės, lemma: ūkininkė, pos: noun, gender: f, gen: ūkininkės, meaning: фермерша, note: "род. п.: prie ūkininkės — к фермерше" }
+  - { word: seniai, lemma: seniai, pos: adv, meaning: давно, note: "jau seniai perku — уже давно покупаю" }
+  - { word: pažįsta, lemma: pažinti, pos: verb, forms: { pres: pažįsta, past: pažino }, meaning: "знать (кого-то); узнать", item: lt-w-0343 }
+  - { word: kaskart, lemma: kaskart, pos: adv, meaning: каждый раз }
+  - { word: paprašiau, lemma: paprašyti, pos: verb, forms: { pres: paprašo, past: paprašė }, meaning: попросить, note: "прош. вр., я; paprašyti ko (+ род. п.): dviejų kilogramų bulvių" }
+  - { word: svogūnų, lemma: svogūnas, pos: noun, gender: m, gen: svogūno, meaning: лук, note: "род. п. мн. ч.: kilogramas svogūnų" }
+  - { word: padovanojo, lemma: padovanoti, pos: verb, forms: { pres: padovanoja, past: padovanojo }, meaning: подарить }
+  - { word: krapų, lemma: krapai, pos: noun, gender: m, gen: krapų, meaning: укроп, note: "только мн. ч.; род. п. (немного укропа)" }
+  - { word: prekystalio, lemma: prekystalis, pos: noun, gender: m, gen: prekystalio, meaning: "прилавок, торговое место", note: "род. п.: sustoti prie prekystalio — остановиться у прилавка" }
+  - { word: paragauti, lemma: paragauti, pos: verb, forms: { pres: paragauja, past: paragavo }, meaning: "попробовать (на вкус)" }
+  - { word: traškūs, lemma: traškus, pos: adj, meaning: хрустящий, note: "мн. ч., м. р." }
+  - { word: galėtumėte, lemma: galėti, pos: verb, forms: { pres: gali, past: galėjo }, meaning: мочь, note: "условн. накл., вы (вежливая просьба): не могли бы вы" }
+  - { word: nuleisti, lemma: nuleisti, pos: verb, forms: { pres: nuleidžia, past: nuleido }, meaning: "опустить; снизить", note: "nuleisti kainą — снизить цену, уступить" }
+  - { word: nusišypsojo, lemma: nusišypsoti, pos: verb, forms: { pres: nusišypso, past: nusišypsojo }, meaning: улыбнуться }
+  - { word: grįždamas, lemma: grįžti, pos: verb, forms: { pres: grįžta, past: grįžo }, meaning: возвращаться, note: "полупричастие (pusdalyvis): возвращаясь" }
+  - { word: užsukau, lemma: užsukti, pos: verb, forms: { pres: užsuka, past: užsuko }, meaning: "заглянуть, зайти (по пути)", note: "прош. вр., я" }
+  - { word: kepyklą, lemma: kepykla, pos: noun, gender: f, gen: kepyklos, meaning: пекарня, note: "вин. п.: užsukti į kepyklą" }
+  - { word: nusipirkau, lemma: nusipirkti, pos: verb, forms: { pres: nusiperka, past: nusipirko }, meaning: "купить (себе)", item: lt-w-0143, note: "прош. вр., я; + род. п.: nusipirkau duonos — купил хлеба" }
+  - { word: praleidau, lemma: praleisti, pos: verb, forms: { pres: praleidžia, past: praleido }, meaning: "провести (время); пропустить", item: lt-w-0027, note: "прош. вр., я" }
+  - { word: nepavargau, lemma: pavargti, pos: verb, forms: { pres: pavargsta, past: pavargo }, meaning: устать, note: "прош. вр., я, с отрицанием" }
+  - { word: eičiau, lemma: eiti, pos: verb, forms: { pres: eina, past: ėjo }, meaning: "идти, ходить", note: "условн. накл., я: jei turėčiau…, eičiau — если бы у меня было…, я бы ходил" }
+questions:
+  - q: Ką pasakotojas pirko iš ūkininkės?
+    options: ["Obuolius ir kriaušes", "Bulves ir svogūnus", "Krapus ir obuolius"]
+    answer: 1
+  - q: Kodėl pardavėjas pardavė obuolius pigiau?
+    options: ["Obuoliai buvo nešvieži.", "Pasakotojas paprašė nuleisti kainą.", "Turgus jau užsidarė."]
+    answer: 1
+  - q: Ką pasakotojas nusipirko grįždamas namo?
+    options: ["Juodos duonos", "Pieno ir sūrio", "Gėlių"]
+    answer: 0
