@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0004
+cefr: A1
+order: 4
+title: "Ir a + infinitive: the near future"
+explanation:
+  en: |
+    The easiest way to talk about the future: a form of **ir** (to go) + **a** + the **infinitive**:
+    - **voy a** comer, **vas a** comer, **va a** comer
+    - **vamos a** comer, **vais a** comer, **van a** comer
+
+    Only *ir* changes; the second verb always stays in the infinitive: *Voy a **leer** un libro.* Don't forget the little **a**.
+
+    Use it for plans and for things that are clearly about to happen:
+    - *¿Qué vas a hacer el sábado?* — What are you going to do on Saturday?
+    - *Va a llover.* — It's going to rain.
+
+    **Vamos a** + infinitive can also mean "let's…": *¡Vamos a comer!* — Let's eat!
+comparison:
+  en: |
+    It's word for word English "**going to**": *voy a estudiar* = "I'm going to study". In Russian it's closest to «я собираюсь…» or simply the future: «Завтра я буду заниматься».
+examples:
+  - { text: "Voy a escribir una carta mañana.", translation: "I am going to write a letter tomorrow.", source: "tatoeba:727882" }
+  - { text: "¿Qué vas a hacer el año que viene?", translation: "What are you going to do next year?", source: "tatoeba:464509" }
+  - { text: "Mañana va a llover.", translation: "It'll rain tomorrow.", source: "tatoeba:709227" }
+  - { text: "Voy a quedarme en casa esta noche.", translation: "I'm going to stay at home tonight.", source: "tatoeba:455898" }
+  - { text: "Vamos a comer.", translation: "Let's go eat.", source: "tatoeba:347510" }
+exercises:
+  - type: cloze
+    text: "Mañana yo ___ a estudiar."
+    answer: "voy"
+    hint: "ir"
+    translation: "Tomorrow I'm going to study."
+  - type: cloze
+    text: "¿Qué ___ a hacer tú el sábado?"
+    answer: "vas"
+    hint: "ir"
+    translation: "What are you going to do on Saturday?"
+  - type: cloze
+    text: "Mi hermana ___ a visitar Madrid en mayo."
+    answer: "va"
+    hint: "ir"
+    translation: "My sister is going to visit Madrid in May."
+  - type: cloze
+    text: "Esta noche nosotros ___ a cenar en casa."
+    answer: "vamos"
+    hint: "ir"
+    translation: "Tonight we're going to have dinner at home."
+  - type: cloze
+    text: "Ellos ___ a llegar tarde."
+    answer: "van"
+    hint: "ir"
+    translation: "They're going to arrive late."
+  - type: cloze
+    text: "Voy ___ llamar a mi madre."
+    answer: "a"
+    hint: "the missing little word"
+    translation: "I'm going to call my mother."
+  - type: cloze
+    text: "¿Vosotros ___ a venir a la fiesta?"
+    answer: "vais"
+    hint: "ir"
+    translation: "Are you (all) going to come to the party?"
+  - type: cloze
+    text: "Esta noche voy a ___ un libro."
+    answer: "leer"
+    hint: "leer — which form?"
+    translation: "Tonight I'm going to read a book."

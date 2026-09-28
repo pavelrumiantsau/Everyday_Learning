@@ -30,7 +30,7 @@ export class Db {
 
   async countCards(): Promise<Record<string, number>> {
     const { results } = await this.d1
-      .prepare("SELECT lang, COUNT(DISTINCT item_id) AS n FROM card_state GROUP BY lang")
+      .prepare("SELECT lang, COUNT(DISTINCT item_id) AS n FROM card_state WHERE item_id NOT LIKE '__-g-%' GROUP BY lang") // words, not grammar lessons
       .all<{ lang: string; n: number }>();
     return Object.fromEntries(results.map((r) => [r.lang, r.n]));
   }

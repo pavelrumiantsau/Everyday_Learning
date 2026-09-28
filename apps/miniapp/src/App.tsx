@@ -23,7 +23,7 @@ export function App() {
 function Learn() {
   const [session, setSession] = useState<Session | null>(null);
   const [queue, setQueue] = useState<QueueCard[] | null>(null);
-  const [openFeature, setOpenFeature] = useState<string | null>(null);
+  const [openFeature, setOpenFeature] = useState<string | null>(() => new URLSearchParams(location.search).get("screen")); // deep link: ?screen=grammar
   const [homeKey, setHomeKey] = useState(0); // remounts home entries so they reload their numbers
   const [error, setError] = useState<string | null>(null);
 

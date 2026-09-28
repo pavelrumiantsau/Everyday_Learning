@@ -166,3 +166,36 @@ h2 { margin: 8px 0 0; font-size: 20px; }
 }
 .play:active { transform: scale(0.92); }
 .play.ex { width: 30px; height: 30px; font-size: 14px; vertical-align: middle; margin-left: 4px; }
+/* Grammar lessons (features/Grammar.tsx) */
+h2 { margin: 8px 0 0; font-size: 18px; }
+.lesson-text p, .compare p { margin: 0 0 10px; }
+.lesson-text ul, .compare ul { margin: 0 0 10px; padding-left: 20px; }
+.lesson-text li, .compare li { margin: 2px 0; }
+.compare { font-size: 15px; }
+.examples { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.examples li { display: flex; flex-direction: column; gap: 2px; background: var(--bg2); border-radius: 12px; padding: 10px 12px; }
+.card.cloze { min-height: 0; padding: 24px 18px; }
+.cloze-sentence { font-size: 22px; font-weight: 600; line-height: 1.5; }
+.blank { display: inline-block; min-width: 3em; border-bottom: 2px solid var(--accent); padding: 0 4px; }
+.blank.correct { color: var(--good); border-color: var(--good); }
+.blank.almost { color: var(--hard); border-color: var(--hard); }
+.blank.wrong { color: var(--again); border-color: var(--again); }
+.answer-input {
+  width: 100%;
+  font: inherit;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid var(--hint);
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+}
+.answer-input:focus { border-color: var(--accent); }
+.feedback { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.feedback.correct b:first-child { color: var(--good); }
+.feedback.almost b:first-child { color: var(--hard); }
+.feedback.wrong b:first-child { color: var(--again); }
+.button:disabled { opacity: 0.5; }
+.rate.suggested { outline: 3px solid var(--text); outline-offset: 2px; }

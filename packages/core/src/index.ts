@@ -9,3 +9,4 @@ export * from "./labels";
 export * from "./streak";
 export * from "./weekly";
 export * from "./audio";
+export * from "./grammar";

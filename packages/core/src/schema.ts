@@ -58,6 +58,55 @@ export type Item = z.infer<typeof Item>;
 
 export const ItemFile = z.array(Item);
 
+// Grammar lessons: content/<lang>/grammar/<nnnn>-<slug>.yaml, one lesson per file (PLAN §6.5).
+const ClozeExercise = z
+  .object({
+    type: z.literal("cloze"),
+    /** Sentence with exactly one blank: "Vaikystėje aš dažnai ___ kaime." */
+    text: z.string().min(1),
+    /** Expected answer for the blank. */
+    answer: z.string().trim().min(1, "exercise answer must not be empty"),
+    /** Other answers that are also right (word order variants, synonyms). */
+    also: z.array(z.string().trim().min(1)).optional(),
+    /** Shown next to the blank, usually the base form: "būti". */
+    hint: z.string().min(1).optional(),
+    /** Translation of the whole sentence into the explanation language. */
+    translation: z.string().min(1),
+  })
+  .superRefine((ex, ctx) => {
+    if (ex.text.split("___").length !== 2) ctx.addIssue({ code: "custom", path: ["text"], message: "cloze text needs exactly one ___" });
+  });
+
+export const Exercise = z.discriminatedUnion("type", [ClozeExercise]);
+export type Exercise = z.infer<typeof Exercise>;
+
+export const Lesson = z
+  .object({
+    id: z.string().regex(/^(lt|es|fr)-g-\d{4}$/, "id must look like lt-g-0001"),
+    cefr: z.enum(["A1", "A2", "B1", "B2", "C1"]),
+    /** Position in the language's sequence; lessons come in this order. */
+    order: z.number().int().positive(),
+    /** In the explanation language (RU for Lithuanian, EN for Spanish/French). */
+    title: z.string().min(1),
+    /** A few short paragraphs; markdown-light: **bold**, *italic*, "- " lists, blank line = new paragraph. */
+    explanation: Localized,
+    /** Comparison with Russian/Ukrainian (LT) or English (ES/FR), only where it helps. */
+    comparison: Localized.optional(),
+    examples: z.array(Example).min(3).max(5),
+    exercises: z.array(Exercise).min(4).max(8),
+  })
+  .superRefine((lesson, ctx) => {
+    const lang = lesson.id.slice(0, 2) as Lang;
+    const expl = EXPLANATION_LANG[lang];
+    if (!lesson.explanation[expl]) {
+      ctx.addIssue({ code: "custom", path: ["explanation", expl], message: `${lang} lessons need explanation.${expl}` });
+    }
+    if (lesson.comparison && !lesson.comparison[expl]) {
+      ctx.addIssue({ code: "custom", path: ["comparison", expl], message: `${lang} comparisons must be in ${expl}` });
+    }
+  });
+export type Lesson = z.infer<typeof Lesson>;
+
 export const Schedule = z.object({
   timezone: z.string().min(1),
   morning: z.string().regex(/^\d{2}:\d{2}$/),

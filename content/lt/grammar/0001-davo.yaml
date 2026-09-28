@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0001
+cefr: B1
+order: 1
+title: "Многократное прошедшее: -davo (dirbdavau)"
+explanation:
+  ru: |
+    Когда действие в прошлом **повторялось регулярно** («бывало», «обычно», «раньше часто»), литовцы говорят не простым прошедшим, а **многократным прошедшим временем** (*būtasis dažninis laikas*).
+
+    Как образуется: берём инфинитив, убираем **-ti** и добавляем **-davau, -davai, -davo, -davome, -davote, -davo**:
+    - dirbti → aš **dirbdavau**, tu **dirbdavai**, jis/ji/jie **dirbdavo**
+    - mes **dirbdavome**, jūs **dirbdavote**
+    - skaityti → skaitydavau, eiti → eidavau, būti → **būdavau**, važiuoti → važiuodavau
+
+    Исключений нет — форма всегда строится от инфинитива. Отрицание: **ne**dirbdavau. Возвратные: prausdavausi, prausdavaisi, prausdavosi, prausdavomės, prausdavotės.
+
+    Сравни: **dirbau** Vilniuje — «я работал в Вильнюсе» (факт, один период); **dirbdavau** iki vėlumos — «я (обычно, бывало) работал допоздна».
+
+    Часто рядом стоят слова *dažnai* (часто), *kasdien* (каждый день), *visada* (всегда), *paprastai* (обычно), *anksčiau* (раньше), *vaikystėje* (в детстве), *kiekvieną vasarą* (каждое лето). Очень частое слово: **būdavo** — «бывало».
+comparison:
+  ru: |
+    В русском похожий смысл дают «бывало» и старые многократные глаголы: *хаживал, сиживал, говаривал* (в украинском — *бувало*). Но в русском они звучат книжно, а в литовском форма на **-davo** — самая обычная разговорная: *Vaikystėje dažnai eidavau žvejoti* = «В детстве я часто ходил на рыбалку».
+examples:
+  - { text: "Žiemą aš dažnai išvažiuodavau slidinėti.", translation: "Зимой я часто уезжал кататься на лыжах.", source: "tatoeba:11331517" }
+  - { text: "Brolis grįždavo vėlai.", translation: "Брат возвращался поздно.", source: "tatoeba:6003245" }
+  - { text: "Anksčiau aš į studijas eidavau pėsčias.", translation: "Раньше я ходил на учёбу пешком.", source: "tatoeba:12568554" }
+  - { text: "Ji man visą laiką skambindavo.", translation: "Она всё время мне названивала.", source: "tatoeba:10278813" }
+  - { text: "Ar tave vaikystėje bausdavo?", translation: "Тебя в детстве наказывали?", source: "tatoeba:12448269" }
+exercises:
+  - type: cloze
+    text: "Vaikystėje aš dažnai ___ pas senelius kaime."
+    answer: "būdavau"
+    hint: "būti"
+    translation: "В детстве я часто бывал у бабушки с дедушкой в деревне."
+  - type: cloze
+    text: "Kiekvieną vasarą mes ___ prie jūros."
+    answer: "važiuodavome"
+    also: ["važiuodavom"]
+    hint: "važiuoti"
+    translation: "Каждое лето мы ездили на море."
+  - type: cloze
+    text: "Tėvas vakarais ___ laikraštį."
+    answer: "skaitydavo"
+    hint: "skaityti"
+    translation: "Отец по вечерам (обычно) читал газету."
+  - type: cloze
+    text: "Kai gyvenai Vilniuje, ar tu dažnai ___ į teatrą?"
+    answer: "eidavai"
+    hint: "eiti"
+    translation: "Когда ты жил в Вильнюсе, ты часто ходил в театр?"
+  - type: cloze
+    text: "Anksčiau jūs šeštadieniais ___ sode."
+    answer: "dirbdavote"
+    hint: "dirbti"
+    translation: "Раньше вы по субботам работали в саду."
+  - type: cloze
+    text: "Močiutė visada ___ mums pyragų."
+    answer: "kepdavo"
+    hint: "kepti"
+    translation: "Бабушка всегда пекла нам пироги."
+  - type: cloze
+    text: "Anksčiau aš rytais ___ kavą, o dabar geriu arbatą."
+    answer: "gerdavau"
+    hint: "gerti"
+    translation: "Раньше я по утрам пил кофе, а теперь пью чай."

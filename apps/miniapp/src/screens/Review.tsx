@@ -2,6 +2,7 @@ import { grammarLabel } from "@el/core/labels";
 import { useState } from "react";
 import { flushReviews, getQueue, recordReview, type QueueCard, type Rating } from "../api";
 import { Play } from "../Audio";
+import { ClozeReview } from "../features/Grammar";
 import { FLAG } from "../flags";
 import { ReportButton } from "../ReportButton";
 import { haptic } from "../telegram";
@@ -49,6 +50,11 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
         <button className="button" onClick={onDone}>На главную</button>
       </main>
     );
+  }
+
+  if (card.kind === "cloze") {
+    const position = `${index + 1} / ${cards.length}`;
+    return <ClozeReview key={`${card.cardId}-${answered}`} card={card} position={position} progress={index / cards.length} onAnswer={(r) => void answer(r)} />;
   }
 
   const { item } = card;

@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0002
+cefr: A2
+order: 2
+title: "Будущее время: dirbsiu, dirbsi, dirbs"
+explanation:
+  ru: |
+    Будущее время в литовском — **одно слово**. Берём инфинитив, убираем **-ti**, добавляем **-s-** и окончание:
+    - aš **dirbsiu**, tu **dirbsi**, jis/ji/jie **dirbs**
+    - mes **dirbsime**, jūs **dirbsite**
+    - skaityti → skaitysiu, važiuoti → važiuosiu, eiti → eisiu, būti → būsiu
+
+    Форма 3-го лица одна для единственного и множественного числа: *jis dirbs* и *jie dirbs*.
+
+    Две мелочи:
+    - основа на **s, z, š, ž** сливается с -s-: nešti → **nešiu**, neš; vežti → **vešiu**, veš.
+    - в коротких глаголах на **-yti, -ūti** в 3-м лице гласная короткая: būti → **bus**, lyti → **lis** (пойдёт дождь). Сравни: skaityti → skaitys (здесь *y* остаётся).
+
+    Возвратные: jausiuosi, jausiesi, jausis, jausimės, jausitės. В разговоре часто сокращают *-sime* → *-sim*: *pasimatysim*.
+comparison:
+  ru: |
+    Никакого «буду + инфинитив»: *dirbsiu* = «буду работать», а **«būsiu dirbti» — ошибка**. Вид по-прежнему даёт приставка: *darysiu* — «буду делать», **pa**darysiu — «сделаю».
+
+    После *jei* (если) будущее — как в русском: *Jei rytoj bus geras oras…* — «Если завтра будет хорошая погода…».
+examples:
+  - { text: "Rytoj eisiu į mokyklą.", translation: "Завтра я пойду в школу.", source: "tatoeba:1501577" }
+  - { text: "Aš rytoj jiems paskambinsiu.", translation: "Я завтра им позвоню.", source: "tatoeba:4584502" }
+  - { text: "Mes rytoj susitiksime su Tomu.", translation: "Мы завтра встретимся с Томом.", source: "tatoeba:10320191" }
+  - { text: "Jūs mus rytoj aplankysite?", translation: "Вы нас завтра навестите?", source: "tatoeba:10631086" }
+  - { text: "Jei rytoj bus geras oras, aš važiuosiu prie jūros.", translation: "Если завтра будет хорошая погода, я поеду на море.", source: "tatoeba:4615180" }
+exercises:
+  - type: cloze
+    text: "Rytoj aš ___ iki vėlumos."
+    answer: "dirbsiu"
+    hint: "dirbti"
+    translation: "Завтра я буду работать допоздна."
+  - type: cloze
+    text: "Ar tu vakare ___ namie?"
+    answer: "būsi"
+    hint: "būti"
+    translation: "Ты вечером будешь дома?"
+  - type: cloze
+    text: "Rytoj ___ šilta."
+    answer: "bus"
+    hint: "būti"
+    translation: "Завтра будет тепло."
+  - type: cloze
+    text: "Kitą vasarą mes ___ po Italiją."
+    answer: "keliausime"
+    also: ["keliausim"]
+    hint: "keliauti"
+    translation: "Следующим летом мы будем путешествовать по Италии."
+  - type: cloze
+    text: "Jie ___ vėliau, apie aštuntą."
+    answer: "ateis"
+    hint: "ateiti"
+    translation: "Они придут позже, около восьми."
+  - type: cloze
+    text: "Kas ___ automobilį — tu ar aš?"
+    answer: "vairuos"
+    hint: "vairuoti"
+    translation: "Кто поведёт машину — ты или я?"
+  - type: cloze
+    text: "Aš tau viską ___ vėliau."
+    answer: "paaiškinsiu"
+    hint: "paaiškinti"
+    translation: "Я тебе всё объясню позже."
+  - type: cloze
+    text: "Jūs ___ traukiniu ar autobusu?"
+    answer: "važiuosite"
+    hint: "važiuoti"
+    translation: "Вы поедете поездом или автобусом?"

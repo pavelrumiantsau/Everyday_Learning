@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0005
+cefr: B1
+order: 5
+title: "Местоименные прилагательные: gerasis, geroji"
+explanation:
+  ru: |
+    У литовских прилагательных есть вторая, «местоименная» форма (*įvardžiuotinės formos*): к прилагательному как бы приросло местоимение *jis/ji*: geras + jis → **gerasis**, gera + ji → **geroji**.
+
+    Когда она нужна:
+    - **тот самый, известный** — там, где в английском было бы *the*: *Paduok man **raudonąjį** puodelį* — «подай мне красную чашку» (ту, о которой речь, а не синюю).
+    - **устойчивые названия и термины**: *Naujieji metai* (Новый год), *Juodoji jūra*, *Ramusis vandenynas*, *Didžioji Britanija*, *greitoji pagalba* (скорая), *gimtoji kalba* (родной язык), *aukštasis mokslas*.
+    - **как существительное**: *turtingieji* — богатые, *mieloji* — дорогая (обращение).
+
+    Главные формы (*geras*):
+    - м. р.: **gerasis**, род. gerojo, дат. gerajam, вин. **gerąjį**, тв. geruoju, мест. gerajame
+    - ж. р.: **geroji**, род. gerosios, дат. gerajai, вин. **gerąją**, тв. gerąja, мест. gerojoje
+    - мн. ч.: **gerieji** / **gerosios**, род. gerųjų, тв. geraisiais / gerosiomis
+
+    Другие типы: gražus → **gražusis, gražioji**; vyresnis → **vyresnysis, vyresnioji**; didelis → **didysis, didžioji** (неправильное).
+comparison:
+  ru: |
+    Русские полные прилагательные исторически возникли так же: *добръ + и → добрый*, и в древнерусском полная форма тоже значила «определённый, тот самый». В современном русском это различие ушло, а в литовском живо: *naujas namas* — «(какой-то) новый дом», *naujasis namas* — «новый дом (тот, наш, о котором говорим)».
+examples:
+  - { text: "Naujoji mašina užima daug vietos.", translation: "Новая машина займёт много места.", source: "tatoeba:1624162" }
+  - { text: "Jis mano jaunesnysis brolis.", translation: "Он мой младший брат.", source: "tatoeba:3954033" }
+  - { text: "Mano mažasis sūnus moka vairuoti.", translation: "Мой маленький сын умеет водить машину.", source: "tatoeba:3212023" }
+  - { text: "Ramusis vandenynas labai platus.", translation: "Тихий океан очень широк.", source: "tatoeba:4683842" }
+  - { text: "Aš iškviečiau greitąją pagalbą.", translation: "Я вызвал скорую.", source: "tatoeba:10229487" }
+exercises:
+  - type: cloze
+    text: "Man labiau patinka ___ suknelė, o ne mėlynoji."
+    answer: "raudonoji"
+    hint: "raudonas, им. п."
+    translation: "Мне больше нравится красное платье, а не синее."
+  - type: cloze
+    text: "Mano ___ brolis gyvena Kaune."
+    answer: "vyresnysis"
+    hint: "vyresnis, им. п."
+    translation: "Мой старший брат живёт в Каунасе."
+  - type: cloze
+    text: "Paduok man ___ puodelį, ne baltąjį."
+    answer: "žaliąjį"
+    hint: "žalias, вин. п."
+    translation: "Подай мне зелёную чашку, не белую."
+  - type: cloze
+    text: "Ar jau matei ___ filmą apie Vilnių?"
+    answer: "naująjį"
+    hint: "naujas, вин. п."
+    translation: "Ты уже видел новый фильм о Вильнюсе?"
+  - type: cloze
+    text: "Vasarą važiuosime prie ___ jūros."
+    answer: "Juodosios"
+    hint: "juodas, род. п."
+    translation: "Летом поедем на Чёрное море."
+  - type: cloze
+    text: "Londonas yra ___ Britanijos sostinė."
+    answer: "Didžiosios"
+    hint: "didelis, род. п."
+    translation: "Лондон — столица Великобритании."
+  - type: cloze
+    text: "Sveikinu su ___ metais!"
+    answer: "Naujaisiais"
+    hint: "naujas, тв. п. мн. ч."
+    translation: "Поздравляю с Новым годом!"

@@ -2,7 +2,7 @@
   "name": "@el/core",
   "private": true,
   "type": "module",
-  "exports": { ".": "./src/index.ts", "./labels": "./src/labels.ts", "./audio": "./src/audio.ts" },
+  "exports": { ".": "./src/index.ts", "./labels": "./src/labels.ts", "./audio": "./src/audio.ts", "./grammar": "./src/grammar.ts" },
   "scripts": { "typecheck": "tsc -p ." },
   "dependencies": { "ts-fsrs": "^5.4.2", "zod": "^4.6.5" }
 }
