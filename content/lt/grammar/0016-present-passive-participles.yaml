@@ -1,0 +1,87 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0016
+cefr: B2
+order: 16
+title: "Страдательные причастия настоящего времени: daromas, skaitoma"
+explanation:
+  ru: |
+    Причастие *statomas* — «строящийся», то есть «который (сейчас) строят». Это **страдательное** причастие: подлежащее не делает действие, а испытывает его. Настоящее время значит, что действие **идёт, не закончено**: *Namas **statomas*** — «Дом строится (его строят)».
+
+    **Образование** — от 3-го лица настоящего времени + **-mas** (м. р.), **-ma** (ж. р.):
+    - daro → **daromas, daroma**; skaito → **skaitomas**; stato → **statomas**
+    - gamina → **gaminamas**; vadina → **vadinamas**; perka → **perkamas**
+    - kviečia → **kviečiamas**; remontuoja → **remontuojamas**
+    - myli → **mylimas**; turi → **turimas**
+
+    **Склонение** — как у прилагательных на *-as / -a* (*geras, gera*):
+    - м. р.: daromas, daromo, daromam, **daromą**, daromu, daromame — мн. **daromi**, daromų, daromiems, daromus…
+    - ж. р.: daroma, daromos, daromai, **daromą**, daroma, daromoje — мн. **daromos**, daromų…
+
+    **Время** показывает глагол *būti*:
+    - *Namas **statomas*** (= *yra statomas*) — дом строится;
+    - *Namas **buvo statomas*** — дом строился;
+    - *Namas **bus statomas*** — дом будет строиться.
+
+    **Употребление**:
+    - **процесс** — как русское «-ся» или «их делают»: *Čia **gaminami** žaislai* — здесь делают игрушки;
+    - **определение**: *per radiją **transliuojamas** koncertas* — концерт, транслируемый по радио;
+    - **«можно / годится»**: ***valgomas** grybas* — съедобный гриб, ***matomas*** — видимый;
+    - **обычные прилагательные и существительные**: *mylimas* — любимый, *žinomas* — известный; определённые формы: *geriamasis vanduo* — питьевая вода, *nešiojamasis kompiuteris* — ноутбук, *valgomasis* — столовая, *mano mylimoji* — моя любимая.
+
+    *Jis laikomas…* / *Jis vadinamas…* — «его считают / называют» — требует **творительного**: *Jis vadinamas vaikštančia enciklopedija.* Кто делает действие (*visų mylimas* — «всеми любим»), выражается родительным падежом — это тема урока о страдательном залоге.
+comparison:
+  ru: |
+    По смыслу это русские причастия на **-емый / -имый** (*читаемый, любимый, строимый*). Но в русском они книжные, а в украинском и белорусском их почти нет. Там, где литовец говорит ***Namas statomas***, по-русски скажут «дом **строится**» или «дом **строят**», по-украински — «будинок **будується**».
+
+    Поэтому не пытайтесь переводить дословно в обратную сторону: *Čia parduodama mėsa* — «Здесь продают мясо», а не «здесь продаваемо мясо». Литовское причастие на *-mas* — самый обычный способ сказать «делается / делают».
+
+    Не путайте с прошедшим *-tas* (следующий урок): *statomas* — «строится» (процесс), *pastatytas* — «построен» (результат).
+examples:
+  - { text: "Priešais mano namą statomas naujas pastatas.", translation: "Напротив моего дома строится новое здание.", source: "tatoeba:2753988" }
+  - { text: "Šiame fabrike gaminami žaislai.", translation: "На этой фабрике делают игрушки.", source: "tatoeba:2715885" }
+  - { text: "Parduotuvėje parduodama mėsa.", translation: "В магазине продают мясо.", source: "tatoeba:4796103" }
+  - { text: "Šienas laikomas daržinėje.", translation: "Сено хранится в сарае.", source: "tatoeba:13256153" }
+  - { text: "Jis vadinamas vaikštančia enciklopedija.", translation: "Его называют ходячей энциклопедией.", source: "tatoeba:3182326" }
+exercises:
+  - type: cloze
+    text: "Šis namas ___ jau dvejus metus."
+    answer: "statomas"
+    hint: "statyti (stato), м. р."
+    translation: "Этот дом строится уже два года."
+  - type: cloze
+    text: "Šis laikraštis ___ visoje Lietuvoje."
+    answer: "skaitomas"
+    hint: "skaityti (skaito), м. р."
+    translation: "Эту газету читают по всей Литве."
+  - type: cloze
+    text: "Mūsų mieste ___ autobusai."
+    answer: "gaminami"
+    hint: "gaminti (gamina), мн. ч. м. р."
+    translation: "В нашем городе производят автобусы."
+  - type: cloze
+    text: "Kelias buvo ___ visą vasarą."
+    answer: "remontuojamas"
+    hint: "remontuoti (remontuoja), м. р."
+    translation: "Дорогу ремонтировали всё лето."
+  - type: cloze
+    text: "Koncertas bus ___ per radiją."
+    answer: "transliuojamas"
+    hint: "transliuoti (transliuoja), м. р."
+    translation: "Концерт будет транслироваться по радио."
+  - type: cloze
+    text: "Visi mėgsta čia ___ duoną."
+    answer: "kepamą"
+    hint: "kepti (kepa), вин. п. ж. р."
+    translation: "Все любят хлеб, который здесь пекут."
+  - type: cloze
+    text: "Ar šis grybas ___?"
+    answer: "valgomas"
+    hint: "valgyti (valgo) — «съедобный»"
+    translation: "Этот гриб съедобный?"
+  - type: cloze
+    text: "Tai mano ___ daina."
+    answer: "mylima"
+    hint: "mylėti (myli), ж. р."
+    translation: "Это моя любимая песня."
