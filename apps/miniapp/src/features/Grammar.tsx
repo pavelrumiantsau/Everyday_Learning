@@ -56,7 +56,7 @@ function Sentence({ ex, filled, result }: { ex: Exercise; filled?: string; resul
   );
 }
 
-function useClozeInput(ex: Exercise) {
+export function useClozeInput(ex: Exercise) {
   const [value, setValue] = useState("");
   const [result, setResult] = useState<AnswerResult | null>(null);
   const check = () => {
@@ -68,7 +68,7 @@ function useClozeInput(ex: Exercise) {
   return { value, setValue, result, check };
 }
 
-function ClozeBody({ ex, value, setValue, result, check }: { ex: Exercise } & ReturnType<typeof useClozeInput>) {
+export function ClozeBody({ ex, value, setValue, result, check }: { ex: Exercise } & ReturnType<typeof useClozeInput>) {
   const input = useRef<HTMLInputElement>(null);
   useEffect(() => input.current?.focus(), []);
   return (

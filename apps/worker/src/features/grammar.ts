@@ -124,15 +124,30 @@ api.get("/grammar/lessons/:id", async (c) => {
   return c.json({ lesson, done: await isDone(c.env.DB, lesson.id) });
 });
 
+/**
+ * Placement «Грамматика»: the language's not-yet-done lessons in order, each with 2 exercises (first and last).
+ * Both right → the Mini App offers to mark the lesson done without cards (`{ cards: false }` below).
+ */
+api.get("/grammar/diagnostic", async (c) => {
+  const lang = c.req.query("lang") ?? "lt";
+  const done = await doneLessonIds(c.env.DB);
+  const lessons = LESSONS.filter((l) => langOfLesson(l) === lang && !done.has(l.id))
+    .sort((a, b) => a.order - b.order)
+    .map((l) => ({ id: l.id, title: l.title, cefr: l.cefr, exercises: [l.exercises[0]!, l.exercises.at(-1)!] }));
+  return c.json({ lessons });
+});
+
 api.post("/grammar/lessons/:id/done", async (c) => {
   const lesson = LESSON_BY_ID.get(c.req.param("id"));
   if (!lesson) return c.json({ error: "unknown lesson" }, 404);
+  // Already known (placement diagnostic): { cards: false } marks it done without adding its exercises to reviews.
+  const body = await c.req.json<{ cards?: boolean }>().catch(() => ({}) as { cards?: boolean });
   const db = new Db(c.env.DB);
   const now = new Date();
   const at = now.getTime();
   const existing = await db.cardIds();
   const cardIds = lesson.exercises.map((_, i) => exerciseCardId(lesson.id, i));
-  const fresh = cardIds.filter((id) => !existing.has(id));
+  const fresh = body.cards === false ? [] : cardIds.filter((id) => !existing.has(id));
   await db.batch([
     c.env.DB.prepare("INSERT OR IGNORE INTO grammar_done (lesson_id, done_at) VALUES (?, ?)").bind(lesson.id, at),
     // Exercises come back in normal reviews, starting now.

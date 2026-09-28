@@ -41,6 +41,16 @@ export default async function (t: Smoke) {
   const first = cloze.find((c) => c.cardId === `${lesson.id}:cloze1`);
   check(first?.exercise?.answer === lesson.exercises[0]!.answer && first.exercise.text.includes("___"), "a cloze card carries its sentence and answer");
 
+  // Placement «Грамматика»: upcoming lessons with 2 exercises; a known lesson is marked done without cards.
+  type Diag = { lessons: { id: string; exercises: unknown[] }[] };
+  const diag = async () => ((await (await api("/grammar/diagnostic?lang=lt", me)).json()) as Diag).lessons;
+  const d1 = await diag();
+  check(d1.length > 5 && d1.every((l) => l.id.startsWith("lt-g-") && l.exercises.length === 2) && !d1.some((l) => l.id === lesson.id),
+    "grammar diagnostic lists not-done LT lessons with 2 exercises each");
+  const known = (await (await api("/grammar/lessons/lt-g-0010/done", me, { method: "POST", body: JSON.stringify({ cards: false }) })).json()) as { created: number };
+  check(known.created === 0, "a lesson known from the diagnostic is marked done without cards");
+  check(!(await diag()).some((l) => l.id === "lt-g-0010"), "the diagnostic then skips that lesson");
+
   const after = (await (await api("/grammar/today", me)).json()) as { lesson: Lesson | null; done: boolean };
   check(after.lesson?.id === lesson.id && after.done, "today's lesson stays the same after it's done, marked done");
 

@@ -111,8 +111,10 @@ export const reportItem = (b: { itemId?: string; cardId?: string; text?: string 
 export interface GrammarToday { day: string; lesson: Lesson | null; done: boolean }
 export const getGrammarToday = () => call<GrammarToday>("/grammar/today");
 export const getLesson = (id: string) => call<{ lesson: Lesson; done: boolean }>(`/grammar/lessons/${encodeURIComponent(id)}`);
-export const markLessonDone = (id: string) =>
-  call<{ done: boolean; created: number }>(`/grammar/lessons/${encodeURIComponent(id)}/done`, { method: "POST", body: "{}" });
+export const markLessonDone = (id: string, opts: { cards?: boolean } = {}) =>
+  call<{ done: boolean; created: number }>(`/grammar/lessons/${encodeURIComponent(id)}/done`, { method: "POST", body: JSON.stringify(opts) });
+export interface DiagnosticLesson { id: string; title: string; cefr: string; exercises: Exercise[] }
+export const getGrammarDiagnostic = (lang: Lang) => call<{ lessons: DiagnosticLesson[] }>(`/grammar/diagnostic?lang=${lang}`);
 
 // --- Reading mode
 export interface TextSummary { id: string; lang: Lang; cefr: string; title: string; topic: string; words: number; read: boolean }
