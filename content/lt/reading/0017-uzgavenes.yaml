@@ -1,0 +1,44 @@
+id: lt-r-0017
+cefr: B1
+title: Užgavėnės
+topic: Масленица по-литовски
+source: generated
+text: |
+  Užgavėnės – linksma žiemos pabaigos šventė. Ji švenčiama antradienį prieš Pelenų dieną, kai prasideda gavėnia – keturiasdešimties dienų pasninkas prieš Velykas. 2027 metais Užgavėnės bus vasario 9 dieną.
+
+  Užgavėnių dieną vaikai ir suaugusieji persirengia: užsideda kaukes ir virsta velniais, raganomis, ožiais ar kitais keistais padarais. Persirengėliai vaikšto nuo namo prie namo, dainuoja, šoka ir prašo vaišių – blynų, saldainių ar pinigų.
+
+  Svarbiausia šventės dalis – Lašininio ir Kanapinio kova. Lašininis yra storas ir mėgsta riebų maistą, o Kanapinis – liesas ir valgo pasninko valgius. Kova visada baigiasi tuo, kad laimi Kanapinis: prasideda pasninkas. Šventės pabaigoje sudeginama Morė – didelė šiaudinė lėlė. Tikima, kad kartu su ja išeina ir žiema.
+
+  Per Užgavėnes būtina valgyti blynus. Sakoma, kad tą dieną reikia valgyti devynis ar net dvylika kartų, kad visus metus būtų sotu. Daugiausia žmonių susirenka Rumšiškėse, Lietuvos liaudies buities muziejuje, bet švenčiama ir kiekviename mieste.
+glossary:
+  - { word: "švenčiama", lemma: "švęsti", meaning: "праздновать", item: lt-w-0597, note: "страд. прич.: švenčiama — празднуется" }
+  - { word: "Pelenų", lemma: "Pelenų diena", pos: phrase, meaning: "Пепельная среда", note: "pelenai — пепел; первый день Великого поста" }
+  - { word: "gavėnia", lemma: "gavėnia", pos: noun, gender: f, gen: "gavėnios", meaning: "Великий пост" }
+  - { word: "pasninkas", lemma: "pasninkas", pos: noun, gender: m, gen: "pasninko", meaning: "пост (воздержание от еды)" }
+  - { word: "persirengia", lemma: "persirengti", pos: verb, forms: { pres: "persirengia", past: "persirengė" }, meaning: "переодеться, нарядиться" }
+  - { word: "kaukes", lemma: "kaukė", pos: noun, gender: f, gen: "kaukės", meaning: "маска", note: "вин. п. мн. ч." }
+  - { word: "virsta", lemma: "virsti", pos: verb, forms: { pres: "virsta", past: "virto" }, meaning: "превращаться; падать", note: "virsta velniais — превращаются в чертей (твор. п.)" }
+  - { word: "raganomis", lemma: "ragana", pos: noun, gender: f, gen: "raganos", meaning: "ведьма", note: "твор. п. мн. ч." }
+  - { word: "ožiais", lemma: "ožys", pos: noun, gender: m, gen: "ožio", meaning: "козёл", note: "твор. п. мн. ч." }
+  - { word: "padarais", lemma: "padaras", pos: noun, gender: m, gen: "padaro", meaning: "существо, создание", note: "твор. п. мн. ч." }
+  - { word: "Persirengėliai", lemma: "persirengėlis", pos: noun, gender: m, gen: "persirengėlio", meaning: "ряженый", note: "им. п. мн. ч." }
+  - { word: "vaišių", lemma: "vaišės", pos: noun, gender: f, gen: "vaišių", meaning: "угощение", note: "только мн. ч.; род. п.: prašo vaišių — просят угощения" }
+  - { word: "riebų", lemma: "riebus", pos: adj, meaning: "жирный", note: "вин. п." }
+  - { word: "liesas", lemma: "liesas", pos: adj, meaning: "худой, тощий; нежирный" }
+  - { word: "sudeginama", lemma: "sudeginti", pos: verb, forms: { pres: "sudegina", past: "sudegino" }, meaning: "сжечь", note: "страд. прич.: sudeginama — сжигается" }
+  - { word: "šiaudinė", lemma: "šiaudinis", pos: adj, meaning: "соломенный" }
+  - { word: "lėlė", lemma: "lėlė", pos: noun, gender: f, gen: "lėlės", meaning: "кукла" }
+  - { word: "Tikima", lemma: "tikėti", pos: verb, forms: { pres: "tiki", past: "tikėjo" }, meaning: "верить", note: "безличная форма: tikima, kad… — считается (верят), что…" }
+  - { word: "sotu", lemma: "sotu", pos: adv, meaning: "сытно, сыто", note: "kad būtų sotu — чтобы было сытно" }
+  - { word: "buities", lemma: "buitis", pos: noun, gender: f, gen: "buities", meaning: "быт", note: "род. п.: liaudies buities muziejus — музей народного быта" }
+questions:
+  - q: "Kada švenčiamos Užgavėnės?"
+    options: ["Antradienį prieš Pelenų dieną", "Pirmąją pavasario dieną", "Per Velykas"]
+    answer: 0
+  - q: "Kas visada laimi kovą?"
+    options: ["Lašininis", "Kanapinis", "Morė"]
+    answer: 1
+  - q: "Ką Užgavėnėse būtina valgyti?"
+    options: ["Riešutus", "Dešrą", "Blynus"]
+    answer: 2

@@ -1,0 +1,42 @@
+id: lt-r-0014
+cefr: B1
+title: Žiema Vilniuje
+topic: зима в городе
+source: generated
+text: |
+  Šiemet žiema tikra: jau kelias savaites sninga, o termometras rytais rodo dvidešimt laipsnių šalčio. Kiemuose kiemsargiai kasa sniegą, o vaikai eina į mokyklą su šiltomis kepurėmis ir pirštinėmis.
+
+  Aš žiemą mėgstu, nors šaltis kartais ir erzina. Savaitgaliais su draugais važiuojame slidinėti į Liepkalnį. Tai slidinėjimo trasa pačiame Vilniuje, todėl nereikia važiuoti į kalnus. Po slidinėjimo einame į kavinę ir geriame karštą šokoladą arba arbatą su medumi.
+
+  Sausį vakarai ilgi: jau apie ketvirtą valandą pradeda temti. Todėl daugiau laiko praleidžiu namie. Skaitau knygas, žiūriu filmus lietuviškai ir verdu karštas sriubas. Vasarą mano mėgstamiausia sriuba yra šaltibarščiai, o žiemą dažniausiai verdu raugintų kopūstų sriubą.
+
+  Kai kurie mano kolegos žiemą išvyksta į šiltus kraštus. Aš to nedarau. Man patinka, kai sniegas girgžda po kojomis, o miestas atrodo lyg iš pasakos. Be to, žinau, kad po ilgos žiemos pavasaris visada atrodo dar gražesnis.
+glossary:
+  - { word: "šiemet", lemma: "šiemet", meaning: "в этом году", item: lt-w-0452 }
+  - { word: "sninga", lemma: "snigti", pos: verb, forms: { pres: "sninga", past: "snigo" }, meaning: "идти (о снеге)", note: "наст. вр.: sninga — идёт снег" }
+  - { word: "laipsnių", lemma: "laipsnis", pos: noun, gender: m, gen: "laipsnio", meaning: "градус", note: "род. п. мн. ч.: dvidešimt laipsnių šalčio — двадцать градусов мороза" }
+  - { word: "kiemsargiai", lemma: "kiemsargis", pos: noun, gender: m, gen: "kiemsargio", meaning: "дворник", note: "им. п. мн. ч." }
+  - { word: "kasa", lemma: "kasti", pos: verb, forms: { pres: "kasa", past: "kasė" }, meaning: "копать; чистить (снег)" }
+  - { word: "pirštinėmis", lemma: "pirštinė", pos: noun, gender: f, gen: "pirštinės", meaning: "перчатка, варежка", note: "твор. п. мн. ч." }
+  - { word: "erzina", lemma: "erzinti", meaning: "раздражать", item: lt-w-0400 }
+  - { word: "slidinėti", lemma: "slidinėti", pos: verb, forms: { pres: "slidinėja", past: "slidinėjo" }, meaning: "кататься на лыжах", note: "slidinėjimo trasa — лыжная трасса" }
+  - { word: "pačiame", lemma: "pats", pos: pron, meaning: "сам", note: "местн. п.: pačiame Vilniuje — в самом Вильнюсе" }
+  - { word: "medumi", lemma: "medus", pos: noun, gender: m, gen: "medaus", meaning: "мёд", note: "твор. п.: arbata su medumi — чай с мёдом" }
+  - { word: "temti", lemma: "temti", pos: verb, forms: { pres: "temsta", past: "temo" }, meaning: "темнеть" }
+  - { word: "praleidžiu", lemma: "praleisti", meaning: "проводить (время); пропускать", item: lt-w-0027, note: "наст. вр., я" }
+  - { word: "verdu", lemma: "virti", pos: verb, forms: { pres: "verda", past: "virė" }, meaning: "варить", note: "наст. вр., я" }
+  - { word: "šaltibarščiai", lemma: "šaltibarščiai", pos: noun, gender: m, gen: "šaltibarščių", meaning: "холодный свекольник", note: "только мн. ч." }
+  - { word: "raugintų", lemma: "raugintas", pos: adj, meaning: "квашеный", note: "raugintų kopūstų sriuba — щи из квашеной капусты" }
+  - { word: "kraštus", lemma: "kraštas", meaning: "край, страна", item: lt-w-0374, note: "вин. п. мн. ч.: į šiltus kraštus — в тёплые края" }
+  - { word: "girgžda", lemma: "girgždėti", pos: verb, forms: { pres: "girgžda", past: "girgždėjo" }, meaning: "скрипеть" }
+  - { word: "pasakos", lemma: "pasaka", meaning: "сказка", item: lt-w-0933, note: "род. п.: lyg iš pasakos — как из сказки" }
+questions:
+  - q: "Kur autorius slidinėja?"
+    options: ["Kalnuose užsienyje", "Liepkalnyje, Vilniuje", "Miesto parke"]
+    answer: 1
+  - q: "Kada sausį pradeda temti?"
+    options: ["Apie šeštą valandą", "Apie aštuntą valandą", "Apie ketvirtą valandą"]
+    answer: 2
+  - q: "Kodėl autorius žiemą neišvyksta į šiltus kraštus?"
+    options: ["Jam patinka žiema", "Jis neturi atostogų", "Jis bijo skristi"]
+    answer: 0

@@ -1,0 +1,46 @@
+id: lt-r-0015
+cefr: B1
+title: Sausio 13-oji
+topic: День защитников свободы
+source: generated
+text: |
+  Sausio 13-ąją Lietuvoje minima Laisvės gynėjų diena. 1991 metų sausio 13-osios naktį sovietų kariuomenė Vilniuje puolė Televizijos bokštą ir Radijo ir televizijos komiteto pastatą. Prie jų budėjo tūkstančiai beginklių žmonių, kurie norėjo apginti ką tik atkurtą Lietuvos nepriklausomybę. Tą naktį žuvo keturiolika žmonių, šimtai buvo sužeisti.
+
+  Tačiau žmonės neišsigando. Jie ir toliau budėjo prie bokšto ir prie Aukščiausiosios Tarybos rūmų, kūreno laužus, dainavo ir laikėsi už rankų. Sovietų valdžia tikėjosi, kad lietuviai pasiduos, bet įvyko priešingai: visas pasaulis pamatė, kas vyksta Vilniuje.
+
+  Šiandien sausio 13-osios rytą daug žmonių languose uždega žvakes. Vilniuje dega atminimo laužai, o prie Televizijos bokšto ir Antakalnio kapinėse, kur palaidoti žuvusieji, žmonės neša gėles. Daug kas prisisega neužmirštuolę – mažą mėlyną gėlę. Jos vardas reiškia „nepamiršk“.
+
+  Mano kaimynė tą naktį buvo prie bokšto. Kasmet ji apie tai pasakoja savo anūkams, kad jie žinotų, kokia brangi yra laisvė.
+glossary:
+  - { word: "minima", lemma: "minėti", pos: verb, forms: { pres: "mini", past: "minėjo" }, meaning: "отмечать (памятную дату); упоминать", note: "страд. прич.: minima — отмечается" }
+  - { word: "gynėjų", lemma: "gynėjas", pos: noun, gender: m, gen: "gynėjo", meaning: "защитник", note: "род. п. мн. ч.: Laisvės gynėjų diena — День защитников свободы" }
+  - { word: "kariuomenė", lemma: "kariuomenė", pos: noun, gender: f, gen: "kariuomenės", meaning: "армия, войска" }
+  - { word: "puolė", lemma: "pulti", pos: verb, forms: { pres: "puola", past: "puolė" }, meaning: "напасть, атаковать", note: "прош. вр." }
+  - { word: "bokštą", lemma: "bokštas", pos: noun, gender: m, gen: "bokšto", meaning: "башня", note: "вин. п." }
+  - { word: "budėjo", lemma: "budėti", pos: verb, forms: { pres: "budi", past: "budėjo" }, meaning: "дежурить, стоять на страже", note: "прош. вр." }
+  - { word: "beginklių", lemma: "beginklis", pos: adj, meaning: "безоружный", note: "род. п. мн. ч." }
+  - { word: "apginti", lemma: "apginti", meaning: "защитить", item: lt-w-0478 }
+  - { word: "atkurtą", lemma: "atkurti", pos: verb, forms: { pres: "atkuria", past: "atkūrė" }, meaning: "восстановить", note: "страд. прич. прош. вр., вин. п.: atkurtą — восстановленную" }
+  - { word: "žuvo", lemma: "žūti", pos: verb, forms: { pres: "žūva", past: "žuvo" }, meaning: "погибнуть", note: "прош. вр." }
+  - { word: "sužeisti", lemma: "sužeisti", pos: verb, forms: { pres: "sužeidžia", past: "sužeidė" }, meaning: "ранить", note: "здесь страд. прич. мн. ч.: buvo sužeisti — были ранены" }
+  - { word: "neišsigando", lemma: "išsigąsti", pos: verb, forms: { pres: "išsigąsta", past: "išsigando" }, meaning: "испугаться", note: "прош. вр. с отрицанием" }
+  - { word: "kūreno", lemma: "kūrenti", pos: verb, forms: { pres: "kūrena", past: "kūreno" }, meaning: "жечь, топить (огонь, печь)", note: "прош. вр." }
+  - { word: "laužus", lemma: "laužas", pos: noun, gender: m, gen: "laužo", meaning: "костёр", note: "вин. п. мн. ч." }
+  - { word: "valdžia", lemma: "valdžia", meaning: "власть", item: lt-w-0229 }
+  - { word: "priešingai", lemma: "priešingai", meaning: "наоборот", item: lt-w-0198 }
+  - { word: "atminimo", lemma: "atminimas", pos: noun, gender: m, gen: "atminimo", meaning: "память (о ком-то)", note: "род. п.: atminimo laužai — костры памяти" }
+  - { word: "kapinėse", lemma: "kapinės", pos: noun, gender: f, gen: "kapinių", meaning: "кладбище", note: "только мн. ч.; местн. п." }
+  - { word: "palaidoti", lemma: "palaidoti", pos: verb, forms: { pres: "palaidoja", past: "palaidojo" }, meaning: "похоронить", note: "здесь страд. прич. мн. ч.: palaidoti — похоронены" }
+  - { word: "žuvusieji", lemma: "žuvęs", pos: adj, meaning: "погибший", note: "местоим. форма, им. п. мн. ч.: žuvusieji — погибшие" }
+  - { word: "prisisega", lemma: "prisisegti", pos: verb, forms: { pres: "prisisega", past: "prisisegė" }, meaning: "приколоть (к одежде)" }
+  - { word: "neužmirštuolę", lemma: "neužmirštuolė", pos: noun, gender: f, gen: "neužmirštuolės", meaning: "незабудка", note: "вин. п." }
+questions:
+  - q: "Kas buvo užpulta 1991 metų sausio 13-osios naktį?"
+    options: ["Seimas ir Prezidentūra", "Televizijos bokštas ir Radijo ir televizijos komiteto pastatas", "Katedra ir rotušė"]
+    answer: 1
+  - q: "Kiek žmonių žuvo tą naktį?"
+    options: ["Keturi", "Keturiasdešimt", "Keturiolika"]
+    answer: 2
+  - q: "Ką reiškia neužmirštuolės vardas?"
+    options: ["„Nepamiršk“", "„Laisvė“", "„Pavasaris“"]
+    answer: 0

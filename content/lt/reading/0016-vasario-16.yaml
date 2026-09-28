@@ -1,0 +1,41 @@
+id: lt-r-0016
+cefr: B1
+title: Vasario 16-oji
+topic: День восстановления государства
+source: generated
+text: |
+  Vasario 16-oji – Lietuvos valstybės atkūrimo diena. 1918 metų vasario 16 dieną Vilniuje dvidešimt Lietuvos Tarybos narių pasirašė Nepriklausomybės aktą. Jame buvo paskelbta, kad atkuriama nepriklausoma Lietuvos valstybė su sostine Vilniuje. Tarp signatarų buvo Jonas Basanavičius ir Antanas Smetona, vėliau tapęs pirmuoju Lietuvos prezidentu.
+
+  Aktas buvo pasirašytas name Pilies gatvėje. Dabar ten veikia Signatarų namai – muziejus, kurį galima aplankyti. Ilgą laiką originalus aktas buvo laikomas dingusiu. Tik 2017 metais jį Berlyne, Vokietijos užsienio reikalų ministerijos archyve, surado profesorius Liudas Mažylis.
+
+  Vasario 16-oji yra nedarbo diena. Gatvėse plevėsuoja trispalvės vėliavos – geltona, žalia ir raudona. Vyksta koncertai ir iškilmingi renginiai, o daug šeimų tiesiog eina pasivaikščioti po senamiestį. Sovietmečiu šios šventės viešai švęsti nebuvo galima, todėl vyresniems žmonėms ji ypač brangi.
+
+  Nereikia jos painioti su kovo 11-ąja. Tą dieną 1990 metais Lietuva atkūrė nepriklausomybę po penkiasdešimties sovietų okupacijos metų.
+glossary:
+  - { word: "atkūrimo", lemma: "atkūrimas", pos: noun, gender: m, gen: "atkūrimo", meaning: "восстановление", note: "род. п." }
+  - { word: "narių", lemma: "narys", pos: noun, gender: m, gen: "nario", meaning: "член (организации)", note: "род. п. мн. ч." }
+  - { word: "pasirašė", lemma: "pasirašyti", meaning: "подписать", item: lt-w-0149, note: "прош. вр." }
+  - { word: "paskelbta", lemma: "paskelbti", meaning: "объявить", item: lt-w-0448, note: "страд. прич., ср. р.: buvo paskelbta — было объявлено" }
+  - { word: "sostine", lemma: "sostinė", pos: noun, gender: f, gen: "sostinės", meaning: "столица", note: "твор. п.: su sostine Vilniuje — со столицей в Вильнюсе" }
+  - { word: "signatarų", lemma: "signataras", pos: noun, gender: m, gen: "signataro", meaning: "подписант (акта)", note: "род. п. мн. ч." }
+  - { word: "tapęs", lemma: "tapti", pos: verb, forms: { pres: "tampa", past: "tapo" }, meaning: "стать", note: "прич. прош. вр.: vėliau tapęs — позже ставший" }
+  - { word: "veikia", lemma: "veikti", pos: verb, forms: { pres: "veikia", past: "veikė" }, meaning: "действовать, работать", note: "ten veikia muziejus — там работает музей" }
+  - { word: "dingusiu", lemma: "dingti", pos: verb, forms: { pres: "dingsta", past: "dingo" }, meaning: "пропасть, исчезнуть", note: "прич., твор. п.: buvo laikomas dingusiu — считался пропавшим" }
+  - { word: "surado", lemma: "surasti", pos: verb, forms: { pres: "suranda", past: "surado" }, meaning: "найти", note: "прош. вр." }
+  - { word: "plevėsuoja", lemma: "plevėsuoti", pos: verb, forms: { pres: "plevėsuoja", past: "plevėsavo" }, meaning: "развеваться" }
+  - { word: "trispalvės", lemma: "trispalvis", pos: adj, meaning: "трёхцветный", note: "trispalvė (vėliava) — триколор" }
+  - { word: "iškilmingi", lemma: "iškilmingas", pos: adj, meaning: "торжественный" }
+  - { word: "senamiestį", lemma: "senamiestis", pos: noun, gender: m, gen: "senamiesčio", meaning: "старый город", note: "вин. п.: po senamiestį — по старому городу" }
+  - { word: "sovietmečiu", lemma: "sovietmetis", pos: noun, gender: m, gen: "sovietmečio", meaning: "советское время", note: "твор. п.: sovietmečiu — в советское время" }
+  - { word: "viešai", lemma: "viešai", meaning: "публично, открыто", item: lt-w-0357 }
+  - { word: "painioti", lemma: "painioti", pos: verb, forms: { pres: "painioja", past: "painiojo" }, meaning: "путать" }
+questions:
+  - q: "Kiek žmonių pasirašė Nepriklausomybės aktą?"
+    options: ["Dešimt", "Dvidešimt", "Penkiasdešimt"]
+    answer: 1
+  - q: "Kur buvo rastas originalus aktas?"
+    options: ["Vilniuje", "Varšuvoje", "Berlyne"]
+    answer: 2
+  - q: "Kas įvyko 1990 metų kovo 11 dieną?"
+    options: ["Lietuva atkūrė nepriklausomybę", "Buvo pasirašytas Nepriklausomybės aktas", "Lietuva įstojo į Europos Sąjungą"]
+    answer: 0

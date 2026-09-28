@@ -1,0 +1,45 @@
+id: lt-r-0018
+cefr: B1
+title: Kaziuko mugė
+topic: ярмарка святого Казимира
+source: generated
+text: |
+  Kovo pradžioje Vilniuje vyksta Kaziuko mugė – viena seniausių ir didžiausių mugių Lietuvoje. Ji vyksta per šventojo Kazimiero dieną, kovo 4-ąją, arba artimiausią savaitgalį. Šventasis Kazimieras yra Lietuvos globėjas, o mugė rengiama jau kelis šimtus metų.
+
+  Per mugę senamiesčio gatvės pilnos žmonių. Amatininkai iš visos Lietuvos atveža savo darbų: medinių šaukštų, keramikos, pintų krepšių, lininių rankšluosčių. Galima nusipirkti medaus, sūrio, duonos ir, žinoma, riestainių. Vaikai perka mažus švilpukus, o suaugusieji ieško gražių dovanų namams.
+
+  Svarbiausias mugės simbolis – Vilniaus verba. Tai iš džiovintų gėlių ir žolių surišta spalvinga puokštė. Verbų sekmadienį su verbomis einama į bažnyčią, o paskui jos puošia namus visus metus.
+
+  Aš kasmet einu į mugę su draugais. Mums patinka ne tik apsipirkti, bet ir pasiklausyti muzikos, paragauti karšto vyno ir tiesiog pabūti tarp žmonių. Kaziuko mugė man reiškia, kad žiema jau baigiasi ir netrukus ateis pavasaris.
+glossary:
+  - { word: "mugė", lemma: "mugė", pos: noun, gender: f, gen: "mugės", meaning: "ярмарка" }
+  - { word: "seniausių", lemma: "senas", pos: adj, meaning: "старый", note: "превосх. ст., род. п. мн. ч.: viena seniausių — одна из старейших" }
+  - { word: "artimiausią", lemma: "artimas", meaning: "близкий", item: lt-w-0313, note: "превосх. ст., вин. п.: artimiausią savaitgalį — в ближайшие выходные" }
+  - { word: "globėjas", lemma: "globėjas", pos: noun, gender: m, gen: "globėjo", meaning: "покровитель" }
+  - { word: "rengiama", lemma: "rengti", pos: verb, forms: { pres: "rengia", past: "rengė" }, meaning: "устраивать, организовывать", note: "страд. прич.: rengiama — проводится" }
+  - { word: "Amatininkai", lemma: "amatininkas", pos: noun, gender: m, gen: "amatininko", meaning: "ремесленник", note: "им. п. мн. ч." }
+  - { word: "atveža", lemma: "atvežti", pos: verb, forms: { pres: "atveža", past: "atvežė" }, meaning: "привезти", note: "atveža savo darbų — привозят (часть) своих работ: род. п." }
+  - { word: "medinių", lemma: "medinis", pos: adj, meaning: "деревянный", note: "род. п. мн. ч." }
+  - { word: "šaukštų", lemma: "šaukštas", pos: noun, gender: m, gen: "šaukšto", meaning: "ложка", note: "род. п. мн. ч." }
+  - { word: "pintų", lemma: "pinti", pos: verb, forms: { pres: "pina", past: "pynė" }, meaning: "плести", note: "страд. прич., род. п. мн. ч.: pinti krepšiai — плетёные корзины" }
+  - { word: "krepšių", lemma: "krepšys", pos: noun, gender: m, gen: "krepšio", meaning: "корзина", note: "род. п. мн. ч." }
+  - { word: "lininių", lemma: "lininis", pos: adj, meaning: "льняной", note: "род. п. мн. ч." }
+  - { word: "rankšluosčių", lemma: "rankšluostis", pos: noun, gender: m, gen: "rankšluosčio", meaning: "полотенце", note: "род. п. мн. ч." }
+  - { word: "riestainių", lemma: "riestainis", pos: noun, gender: m, gen: "riestainio", meaning: "бублик, баранка", note: "род. п. мн. ч." }
+  - { word: "švilpukus", lemma: "švilpukas", pos: noun, gender: m, gen: "švilpuko", meaning: "свисток, свистулька", note: "вин. п. мн. ч." }
+  - { word: "džiovintų", lemma: "džiovinti", pos: verb, forms: { pres: "džiovina", past: "džiovino" }, meaning: "сушить", note: "страд. прич., род. п. мн. ч.: džiovintos gėlės — сушёные цветы" }
+  - { word: "surišta", lemma: "surišti", pos: verb, forms: { pres: "suriša", past: "surišo" }, meaning: "связать", note: "страд. прич., ж. р." }
+  - { word: "puokštė", lemma: "puokštė", pos: noun, gender: f, gen: "puokštės", meaning: "букет" }
+  - { word: "einama", lemma: "eiti", meaning: "идти", note: "безличная форма: einama į bažnyčią — идут в церковь" }
+  - { word: "paragauti", lemma: "paragauti", pos: verb, forms: { pres: "paragauja", past: "paragavo" }, meaning: "попробовать (на вкус)" }
+  - { word: "netrukus", lemma: "netrukus", pos: adv, meaning: "вскоре" }
+questions:
+  - q: "Kada vyksta Kaziuko mugė?"
+    options: ["Kovo pradžioje", "Vasario viduryje", "Balandžio pabaigoje"]
+    answer: 0
+  - q: "Kas yra Vilniaus verba?"
+    options: ["Medinis šaukštas", "Puokštė iš džiovintų gėlių ir žolių", "Saldus riestainis"]
+    answer: 1
+  - q: "Ką autoriui reiškia Kaziuko mugė?"
+    options: ["Kad prasideda gavėnia", "Kad reikia pirkti dovanas", "Kad žiema baigiasi"]
+    answer: 2
