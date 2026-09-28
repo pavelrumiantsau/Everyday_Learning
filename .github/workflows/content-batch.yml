@@ -2,10 +2,10 @@ name: content-batch
 
 # Claude Code drafts the next content batch (on your Claude subscription) and opens a pull request for you to check.
 # Nothing goes live until you merge the PR; merging deploys it like any other change.
+# The schedule is OFF (decided 2026-09-28: content batches are prepared in Claude Code sessions instead).
+# To switch it on: add CLAUDE_CODE_OAUTH_TOKEN (docs/SETUP.md step 5) and restore
+#   schedule: [{cron: "0 5 1 * *"}, {cron: "0 5 15 * *"}]
 on:
-  schedule:
-    - cron: "0 5 1 * *"  # 1st of the month: Lithuanian vocabulary
-    - cron: "0 5 15 * *" # 15th: Spanish vocabulary
   workflow_dispatch:
     inputs:
       recipe:
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      RECIPE: ${{ inputs.recipe || (github.event.schedule == '0 5 15 * *' && 'es-vocab' || 'lt-vocab') }}
+      RECIPE: ${{ inputs.recipe }}
     steps:
       - uses: actions/checkout@v7
         with:

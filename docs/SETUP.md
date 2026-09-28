@@ -206,8 +206,8 @@ every night to the **private** repo `Everyday_Learning-data`. You need two token
 
 ✅ **Done when** the **Actions** tab shows `ci` (check + deploy) green, and `d1/everyday-learning.sql` appears in `Everyday_Learning-data`.
 
-**Claude Code automation (content batches):** the workflow `content-batch` runs on the 1st (Lithuanian) and 15th (Spanish)
-of each month, or by hand from the Actions tab, and opens a pull request with the next batch. It runs on your Claude
+**Claude Code automation (content batches) — optional, currently switched off.** The workflow `content-batch` can be run
+by hand from the Actions tab (or put back on a schedule, see the comment in the workflow) and opens a pull request with the next batch. It runs on your Claude
 subscription through Claude Code, which the terms allow. One-time setup:
 ```bash
 claude setup-token        # 👤 approve in the browser; copy the printed token (shown once)

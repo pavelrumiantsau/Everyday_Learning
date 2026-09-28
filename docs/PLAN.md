@@ -22,7 +22,7 @@
 | 9 | Reading mode (graded texts, tap word → card) | ✅ Done | 📖 in the Mini App: tap any word → glossary or AI lookup (cached), + В карточки; 3 questions per text; Thursday «Текст дня», `/read` |
 | 10 | Weekly report, `/input` log, auto-adjust of new cards | ✅ Done | Sunday 18:00 report + `/week`; `/input` and 🎧 in the Mini App; ±1–2 new words/day by backlog and accuracy |
 | 11 | "Report a mistake" (bot + Mini App) | ✅ Done | ⚠️ on cards, `/report`; `pnpm content:reports` lists them |
-| 12 | Automation: Claude Code content batches (PR), weekly writing review, quarterly self-assessment | ✅ Done | content batches 1st/15th → PR (needs `CLAUDE_CODE_OAUTH_TOKEN`); weekly writing review runs in the Worker via the AI router (`/review`, Sunday) so personal texts never reach public CI logs; quarterly `/check` |
+| 12 | Automation: content batches, weekly writing review, quarterly self-assessment | ✅ Done | weekly writing review in the Worker (`/review`), quarterly `/check`; Claude Code content batches built but **switched off** by choice — batches are prepared in Claude Code sessions (recipes in `prompts/content/`) |
 | 13 | Mistakes → review cards ("✏️ Как правильно?", changed words highlighted) | ✅ Done | from tutor/feedback/voice corrections, up to 10 new per day |
 
 **Content**
