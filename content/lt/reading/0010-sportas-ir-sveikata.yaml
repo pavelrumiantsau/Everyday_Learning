@@ -1,0 +1,49 @@
+id: lt-r-0010
+cefr: B1
+title: Sportas ir sveikata
+topic: спорт и здоровье
+source: generated
+text: |
+  Ilgą laiką sportas manęs visai nedomino. Po darbo būdavau pavargęs, todėl vakarus leisdavau ant sofos prie televizoriaus. Tačiau pernai pastebėjau, kad lipdamas laiptais greitai pavargstu. Be to, man vis dažniau skaudėjo nugarą.
+
+  Vieną dieną mano draugas Mantas pasiūlė kartu pradėti bėgioti. Iš pradžių nenorėjau, bet jis mane įtikino: kartu bus smagiau. Pirmą kartą nubėgome tik du kilometrus. Kitą dieną man skaudėjo visus raumenis! Mantas pasakė, kad tai normalu ir kad svarbiausia – nesustoti.
+
+  Dabar bėgiojame tris kartus per savaitę parke prie upės, dažniausiai anksti ryte. Kartais tingiu, bet žinau, kad draugas manęs laukia, ir negaliu jo nuvilti. Per tris mėnesius numečiau keturis kilogramus. Žiemą, kai lauke bus šalta ir slidu, eisime į sporto salę.
+
+  Pasikeitė ir kiti mano įpročiai. Stengiuosi anksčiau eiti miegoti, geriu daugiau vandens ir rečiau valgau saldumynus. Jaučiuosi daug geriau, o nugaros beveik nebeskauda. Niekada negalvojau, kad bėgiojimas man taip patiks.
+glossary:
+  - { word: nedomino, lemma: dominti, pos: verb, forms: { pres: domina, past: domino }, meaning: интересовать, note: "прош. вр. с отрицанием: manęs nedomino — меня не интересовал (род. п. после отрицания)" }
+  - { word: būdavau, lemma: būti, pos: verb, forms: { pres: yra, past: buvo }, meaning: быть, note: "многократное прош. вр. (-davo), я: (обычно) бывал" }
+  - { word: pavargęs, lemma: pavargti, pos: verb, forms: { pres: pavargsta, past: pavargo }, meaning: устать, note: "действ. причастие прош. вр., м. р.: усталый" }
+  - { word: leisdavau, lemma: leisti, pos: verb, forms: { pres: leidžia, past: leido }, meaning: "проводить (время); разрешать", note: "многократное прош. вр. (-davo), я: leisti vakarus — проводить вечера" }
+  - { word: sofos, lemma: sofa, pos: noun, gender: f, gen: sofos, meaning: диван, note: "род. п.: ant sofos — на диване" }
+  - { word: pernai, lemma: pernai, pos: adv, meaning: в прошлом году, item: lt-w-0302 }
+  - { word: pastebėjau, lemma: pastebėti, pos: verb, forms: { pres: pastebi, past: pastebėjo }, meaning: заметить, item: lt-w-0007, note: "прош. вр., я" }
+  - { word: lipdamas, lemma: lipti, pos: verb, forms: { pres: lipa, past: lipo }, meaning: "подниматься, лезть", note: "полупричастие (pusdalyvis): поднимаясь; lipti laiptais — подниматься по лестнице" }
+  - { word: laiptais, lemma: laiptai, pos: noun, gender: m, gen: laiptų, meaning: лестница, note: "только мн. ч.; твор. п." }
+  - { word: skaudėjo, lemma: skaudėti, pos: verb, forms: { pres: skauda, past: skaudėjo }, meaning: болеть, note: "man skauda nugarą — у меня болит спина (вин. п.)" }
+  - { word: nugarą, lemma: nugara, pos: noun, gender: f, gen: nugaros, meaning: спина, note: "вин. п.; nugaros nebeskauda — спина больше не болит (род. п. после отрицания)" }
+  - { word: bėgioti, lemma: bėgioti, pos: verb, forms: { pres: bėgioja, past: bėgiojo }, meaning: "бегать (регулярно)" }
+  - { word: įtikino, lemma: įtikinti, pos: verb, forms: { pres: įtikina, past: įtikino }, meaning: убедить, item: lt-w-0135, note: "прош. вр." }
+  - { word: nubėgome, lemma: nubėgti, pos: verb, forms: { pres: nubėga, past: nubėgo }, meaning: "пробежать; убежать", note: "прош. вр., мы" }
+  - { word: raumenis, lemma: raumuo, pos: noun, gender: m, gen: raumens, meaning: мышца, note: "вин. п. мн. ч." }
+  - { word: nesustoti, lemma: sustoti, pos: verb, forms: { pres: sustoja, past: sustojo }, meaning: остановиться, note: "svarbiausia – nesustoti — главное не останавливаться" }
+  - { word: tingiu, lemma: tingėti, pos: verb, forms: { pres: tingi, past: tingėjo }, meaning: лениться, note: "наст. вр., я" }
+  - { word: nuvilti, lemma: nuvilti, pos: verb, forms: { pres: nuvilia, past: nuvylė }, meaning: "подвести, разочаровать", note: "negaliu jo nuvilti — не могу его подвести (род. п. после отрицания)" }
+  - { word: numečiau, lemma: numesti, pos: verb, forms: { pres: numeta, past: numetė }, meaning: "сбросить (вес)", note: "прош. вр., я" }
+  - { word: slidu, lemma: slidu, pos: adv, meaning: скользко }
+  - { word: įpročiai, lemma: įprotis, pos: noun, gender: m, gen: įpročio, meaning: привычка }
+  - { word: stengiuosi, lemma: stengtis, pos: verb, forms: { pres: stengiasi, past: stengėsi }, meaning: стараться, item: lt-w-0543, note: "наст. вр., я" }
+  - { word: saldumynus, lemma: saldumynai, pos: noun, gender: m, gen: saldumynų, meaning: сладости, note: "обычно мн. ч.; вин. п." }
+  - { word: jaučiuosi, lemma: jaustis, pos: verb, forms: { pres: jaučiasi, past: jautėsi }, meaning: чувствовать себя, item: lt-w-0069, note: "наст. вр., я" }
+  - { word: patiks, lemma: patikti, pos: verb, forms: { pres: patinka, past: patiko }, meaning: нравиться, note: "буд. вр.: man patiks — мне понравится" }
+questions:
+  - q: Kodėl pasakotojas anksčiau vakarus leisdavo ant sofos?
+    options: ["Po darbo būdavo pavargęs.", "Jam skaudėjo koją.", "Lauke visada lijo."]
+    answer: 0
+  - q: Kas įtikino pasakotoją pradėti bėgioti?
+    options: ["Gydytojas", "Draugas Mantas", "Kolega iš darbo"]
+    answer: 1
+  - q: Ką jie darys žiemą?
+    options: ["Nustos sportuoti.", "Bėgios parke kaip ir anksčiau.", "Eis į sporto salę."]
+    answer: 2
