@@ -31,14 +31,14 @@
 **Content — supply and next ids**
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
-| Lithuanian vocabulary | 906 words (A2–B2, frequency ranks ≤ 18,000) | ~late December (10/day, less after placement) | `lt-*-0963`, candidates `lt 14000 4000` partly used (skip what `content:validate` reports as duplicates), then `lt 18000 4000`; recipe `prompts/content/lt-vocab.md` |
+| Lithuanian vocabulary | 1082 words (A2–B2, frequency ranks ≤ 18,000) | ~mid-February 2027 (10/day, less after placement) | `lt-*-1139`, `pnpm content:candidates lt 18000 4000`; recipe `prompts/content/lt-vocab.md` |
 | Spanish vocabulary | 387 items (A1–A2) | ~early February 2027 (5/day) | `es-*-0388`, `pnpm content:candidates es 2650 900`; recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 31 lessons (Q1–Q4) | ~early January 2027 (Mon/Wed; also Sat once the FR sounds lessons are done) | `lt-g-0032`: more Q4 — word order and emphasis, set phrases/idioms, register (formal letters), B2 exam-style mixed tasks; also consider review lessons per quarter |
 | Spanish grammar | 20 lessons (A1–A2) | ~mid-December (Tue/Fri) | `es-g-0021`: negative commands + present subjunctive basics, *usted* commands, relative *que/donde*, *se* impersonal, *soler*, time expressions (*hace… que*, *desde*) (PLAN §3.5) |
 | Lithuanian reading | 18 texts (B1) | early February 2027 (Thursdays) | `lt-r-0019` (March–April 2027: Kovo 11-oji, Velykos, pavasaris sode, kelionė į pajūrį, Joninės later); topical texts 0014–0018 cover winter, Sausio 13-oji, Vasario 16-oji, Užgavėnės, Kaziuko mugė |
 | Spanish reading | 2 texts (A1) | — (read on demand) | `es-r-0003` |
 | French | 10 sounds lessons (Saturdays, ~Oct–early Dec 2026) | starts April 2027: set `/new fr 5` then (not automatic) | `fr-g-0011` (optional more sounds lessons, then A1 grammar), `fr-*-0001` vocabulary; exercises are dictation cloze, examples from Tatoeba `fra` (`pnpm content:sources`) |
-| Stress marks for LT words | 0 of 906 (`stress` field supported) | — | check each word on lkz.lt / Vikižodynas; add `stress: laĩkas` in the batch files |
+| Stress marks for LT words | 0 of 1082 (`stress` field supported) | — | check each word on lkz.lt / Vikižodynas; add `stress: laĩkas` in the batch files |
 
 **Resuming in a new session:** read `CLAUDE.md` (repo root) first — commands, structure, content rules, and lessons learned.
 Then this table, `git branch -a` (unmerged `feat/*`, `content/*`, `grammar/*`, `reading/*` branches), and `gh run list -L 3`.
