@@ -11,7 +11,7 @@
 |---|---|
 | v2 | Telegram as the main interface; switchable AI providers; LT explained in RU, ES/FR in EN; 12-month plan; progress data kept out of the public repo |
 | v3 | Cloudflare Worker (free) runs the bot so replies are instant; GitHub still holds code, content, CI and backups. Lithuanian is the priority, B2 by autumn 2027; French moves to April 2027. Your Claude subscription is used where the terms allow. |
-| **v4** | Decisions made: **Gemini** for live replies, **light French from April 2027**, **no official exams** (self-assessment instead, §3.4), **Cloudflare**. New **step-by-step [SETUP.md](SETUP.md)** for Telegram, Gemini, Cloudflare and GitHub, linked from each roadmap step (§9). |
+| **v4** | Decisions made: **Groq** for live replies (switched from Gemini after constant `503 high demand` errors on new keys), **light French from April 2027**, **no official exams** (self-assessment instead, §3.4), **Cloudflare**. New **step-by-step [SETUP.md](SETUP.md)** for Telegram, Gemini, Cloudflare and GitHub, linked from each roadmap step (§9). |
 
 ---
 
@@ -185,10 +185,10 @@ models on the same ~30 learner mistakes. This matters most for Lithuanian.
 ```yaml
 # config/llm.yaml (v3 defaults: $0 at runtime). Google retires model names often, so the names live only here.
 tasks:
-  tutor_chat:        [google:gemini-3.8-flash, groq:<model>]        # add anthropic:claude-haiku-4-5 if you enable the API
-  answer_check:      [google:<flash-lite model>, groq:<model>]
-  writing_feedback:  [google:gemini-3.8-flash]                      # weekly review by Claude Code, see §5.2
-  speaking_feedback: [google:gemini-3.8-flash]                      # accepts audio input
+  tutor_chat:        [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]   # add anthropic:claude-haiku-4-5 if you enable the API
+  answer_check:      [groq:openai/gpt-oss-20b,  groq:openai/gpt-oss-120b]
+  writing_feedback:  [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]   # weekly review by Claude Code, see §5.2
+  speaking_feedback: [groq:<whisper model> → groq:openai/gpt-oss-120b]      # speech-to-text first, then feedback on the text
 providers:
   anthropic: { key_env: ANTHROPIC_API_KEY, monthly_budget_usd: 5, enabled: false }
 ```
@@ -205,7 +205,7 @@ So the subscription covers everything *around* the app, but not the bot's live r
 | **Scheduled content drafts in GitHub Actions** with `anthropics/claude-code-action` + `CLAUDE_CODE_OAUTH_TOKEN` (from `claude setup-token`) | ✅ (that's Claude Code running; it uses up your plan's usage) | A weekly Action proposes the next content batch as a PR for you to review |
 | **Weekly review of your Lithuanian writing** by a Claude Code job reading the week's homework from the backup repo and posting a detailed report | ✅ (Claude Code) | A deeper Sunday review on top of the instant Gemini feedback |
 | **Speaking and conversation in the Claude app** (iPhone/Mac), using a **Project "Lietuvių korepetitorius"** with instructions (your level, the current quarter's topics, correct me in Russian, keep a list of my typical mistakes) | ✅ | The twice-weekly 🎙 sessions in §3.6. The bot sends a link and the topic of the day. *Test how well voice mode handles Lithuanian; text chat certainly works.* |
-| **Live bot replies** (`/tutor`, instant feedback) with the subscription token | ❌ not allowed | Uses **Gemini free tier** by default, or the **Claude API** if you add ~$1–3/month (§12) |
+| **Live bot replies** (`/tutor`, instant feedback) with the subscription token | ❌ not allowed | Uses **Groq free tier** by default (Gemini as optional fallback), or the **Claude API** if you add ~$1–3/month (§12) |
 
 ---
 
@@ -294,10 +294,10 @@ Only steps 1, 2, 3.1–3.2, 5.2–5.3 and 6 need you in a browser; Claude Code c
 
 | When | Setup (SETUP.md) | Build deliverable | Done when |
 |---|---|---|---|
-| **Week 1** (Oct 2026) | Steps **0–4**: Mac tools, Telegram bot, Gemini key, Cloudflare account, D1 + secrets + first deploy | Worker + webhook + D1 + cron. First content: **LT 150 items (RU)**, ES 60 phrases. Morning lesson + quiz polls; `/today` | Every morning a Lithuanian lesson arrives, and `/today` answers instantly |
+| **Week 1** (Oct 2026) | Steps **0–4**: Mac tools, Telegram bot, Groq key, Cloudflare account, D1 + secrets + first deploy | Worker + webhook + D1 + cron. First content: **LT 150 items (RU)**, ES 60 phrases. Morning lesson + quiz polls; `/today` | Every morning a Lithuanian lesson arrives, and `/today` answers instantly |
 | **Weeks 2–3** | Step **5**: private backup repo, deploy from GitHub | Mini App v1: FSRS review, new cards, **LT placement (top 3,000 words) + grammar diagnostic**, `initData` auth | Full session on the iPhone and Mac, with progress in sync; a push to `main` deploys by itself |
 | **Week 4** | Step **7**: open the Mini App from ▶ Learn | Grammar lesson player + cloze; audio; evening reminder; `/stats`, `/pause`; nightly backup | A normal day works end to end, with audio; a backup appears each night |
-| **Weeks 5–6** | Step **6**: Claude app tutor Project | `packages/llm` (Gemini + Groq, Claude adapter ready but off); **`/tutor` for Lithuanian**; writing feedback; `llm:eval` | A daily 5-min tutor chat with instant corrections |
+| **Weeks 5–6** | Step **6**: Claude app tutor Project | `packages/llm` (Groq + optional Gemini, Claude adapter ready but off); **`/tutor` for Lithuanian**; writing feedback; `llm:eval` | A daily 5-min tutor chat with instant corrections |
 | **Weeks 7–8** | — | Voice-message feedback; LT reading mode; `/input`; weekly report + auto-adjust; `content-batch.yml`, `weekly-review.yml` (Claude Code) | The weekly report and the deeper Claude writing review arrive on Sunday |
 | **Dec 2026** | — | First quarterly self-assessment set (`prompts/assessment/`) | Q1 self-assessment week runs at the end of December |
 | **Mar 2027** | — | French launch pack (phrasebook + A1 core + contrast notes) | French live on 1 April 2027 |
@@ -310,7 +310,7 @@ Only steps 1, 2, 3.1–3.2, 5.2–5.3 and 6 need you in a browser; Claude Code c
 ## 10. Risks & mitigations
 | Risk | Mitigation |
 |---|---|
-| Gemini free-tier limits change | Provider chain: Groq/OpenRouter free models as the next fallback; Claude API is one config line away |
+| Free-tier limits change or a provider is overloaded | Provider chain: Groq → Gemini/OpenRouter free models as fallbacks; Claude API is one config line away; model names only in `config/llm.yaml` |
 | Anthropic changes the subscription rules | Only Claude Code and the Claude app use the subscription, both official uses; the app runs without it |
 | Weak Lithuanian quality from some models | `llm:eval` picks the best model for LT; Tatoeba sentences first; `/report` |
 | Cloudflare changes the free tier | Data backed up nightly to GitHub; the Worker code is standard Hono + SQLite and moves to another host in a day |
@@ -332,7 +332,7 @@ Optional from Q2: a free language-exchange app (Tandem / HelloTalk) for real Lit
 ---
 
 ## 12. Decisions
-**Made:** Gemini for live bot replies (the Claude API stays off and can be enabled later with one config line) · light French from April 2027 ·
+**Made:** Groq for live bot replies, with Gemini as an optional fallback (the Claude API stays off and can be enabled later with one config line) · light French from April 2027 ·
 no official exams (quarterly self-assessment instead) · Cloudflare Worker + D1 for the bot.
 
 **Set during setup ([SETUP.md](SETUP.md)):** bot name (step 1) · time zone and reminder times (step 4.4, default 07:50 / 20:30).

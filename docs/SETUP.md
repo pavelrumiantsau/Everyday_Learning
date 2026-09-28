@@ -1,6 +1,6 @@
 # Setup Guide — step by step
 
-This guide takes you from zero to a working bot. It assumes you've **never used Cloudflare or Gemini**.
+This guide takes you from zero to a working bot. It assumes you've **never used Cloudflare or an AI API** before.
 Each step says who does it:
 
 - 👤 **You**: account sign-ups, anything in a browser or in Telegram, copying secrets.
@@ -50,37 +50,44 @@ Python (`python3 --version`) is already on macOS. It's needed later for audio (w
 
 ---
 
-## Step 2 — Gemini API key (10 min) 👤
+## Step 2 — AI API key: Groq (10 min) 👤
 
-Gemini is Google's AI model. The **free tier** needs no credit card.
+**Groq** (with a **q**, not xAI's *Grok*) runs open AI models, such as OpenAI's GPT-OSS, very fast. Its **free tier** needs
+no credit card. The bot uses it for tutor chat and feedback (from weeks 5–6).
 
-1. Go to **https://aistudio.google.com** and sign in with a Google account.
-2. Accept the terms. Click **Get API key** → **Create API key**. If asked, let it create a new Google Cloud project.
-3. Copy the key (starts with `AIza…`) into your password manager as *Gemini API key*.
-4. **Don't enable billing.** Without billing you stay on the free tier and can never be charged.
-   The trade-off: Google may use free-tier requests to improve its models, so the bot never sends anything personal.
-5. Test it 🤖 (paste your key when asked, and don't save it in a file):
+1. Go to **https://console.groq.com** and sign in (Google or GitHub account is fine).
+2. Left menu → **API Keys** → **Create API Key** → name it `everyday-learning` → copy it.
+   Groq keys start with **`gsk_`**. Save it in your password manager as *Groq API key*.
+3. Test it 🤖 (paste your key when asked, and don't save it in a file):
    ```bash
-   read -s GEMINI_API_KEY && export GEMINI_API_KEY
-   curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent" \
-     -H "x-goog-api-key: $GEMINI_API_KEY" -H "Content-Type: application/json" \
-     -d '{"contents":[{"parts":[{"text":"Исправь ошибку и объясни по-русски: Aš eina į parduotuvę."}]}]}' \
-     | head -c 800
+   read -s GROQ_API_KEY && export GROQ_API_KEY
+   curl -s https://api.groq.com/openai/v1/chat/completions \
+     -H "Authorization: Bearer $GROQ_API_KEY" -H "Content-Type: application/json" \
+     -d '{"model":"openai/gpt-oss-120b","messages":[{"role":"user","content":"Исправь ошибку и объясни по-русски: Aš eina į parduotuvę."}]}' \
+     | head -c 1200
    ```
    You should see a JSON answer that corrects *eina → einu*.
-   If you get `503 … high demand`, the key and model are fine, but Google is overloaded: try again in a few minutes.
-   If you get `404 … no longer available`, the key is fine: Google has retired that model name. Use the model the error
-   message suggests, or pick one from the list in 2.7.
-6. Your current limits are in AI Studio under **Rate limits / Usage** (Google changes them without notice).
-   The bot uses about 20–60 requests/day, far below them.
-7. If the model name stops working, get the current list with
-   `curl -s -H "x-goog-api-key: $GEMINI_API_KEY" "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200" | grep '"name"' | grep -i flash`
-   and update [config/llm.yaml](../config/llm.yaml).
+4. See which models your key can use (Groq retires old ones every few months, e.g. its Llama models in 2026):
+   ```bash
+   curl -s https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_KEY" | grep '"id"'
+   ```
+   The bot keeps model names in one config file, so switching is a one-line change.
+   The current list, with limits, is at **https://console.groq.com/docs/models**.
+5. Your free-tier limits are in the console under **Settings → Limits**. The bot needs a few dozen requests a day, far below them.
 
-**Optional backup provider (5 min):** **https://console.groq.com** → sign in → **API Keys** → Create. It's free and needs no card.
-Save it as *Groq API key*. The bot switches to it automatically if Gemini is down or over its limit.
+| Error | Meaning |
+|---|---|
+| `401 invalid_api_key` | Key copied wrong, or it's an xAI key (`xai-…`). Create a new one on console.groq.com |
+| `404 model_not_found` / `model_decommissioned` | Model retired. Pick another from the list in 2.4 |
+| `429 rate_limit_exceeded` | Too many requests in a short time. Wait a minute |
+| `503` | Temporary overload. Try again in a few minutes |
 
-✅ **Done when** the `curl` test returns a Lithuanian correction.
+**Optional second provider: Gemini** (Google AI Studio, **https://aistudio.google.com** → **Get API key**, key starts
+with `AIza…`, don't enable billing). The bot can use it as an automatic fallback when Groq is busy. In September 2026
+new keys often got `503 high demand` errors, so it's not required. If you add it later, check the model names with:
+`curl -s -H "x-goog-api-key: $GEMINI_API_KEY" "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200" | grep '"name"' | grep -i flash`
+
+✅ **Done when** the Groq `curl` test returns a Lithuanian correction.
 
 ---
 
@@ -136,7 +143,7 @@ Everything below runs from the project folder (`cd ~/Downloads/"Everyday learnin
    code apps/worker/.dev.vars    # opens it in VS Code
    ```
    👤 Fill in `TELEGRAM_BOT_TOKEN` and `TELEGRAM_USER_ID` (step 1), `TELEGRAM_WEBHOOK_SECRET` (the random value above),
-   `GEMINI_API_KEY` and optionally `GROQ_API_KEY` (step 2), and `WORKER_URL` (step 4.4). Save.
+   `GROQ_API_KEY` and optionally `GEMINI_API_KEY` (step 2), and `WORKER_URL` (step 4.4). Save.
    `.dev.vars` is git-ignored, so it never reaches GitHub. Then upload the secrets to Cloudflare, where they're stored encrypted:
    ```bash
    pnpm secrets:push
@@ -229,9 +236,9 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 | Bot doesn't reply | `pnpm setup:telegram --info` → look at `last_error_message`. `403` → the webhook secret doesn't match: check `.dev.vars`, then `pnpm secrets:push` and `pnpm setup:telegram` again. Then run `pnpm wrangler tail` and send a message |
 | Bot replies to nobody | Wrong `TELEGRAM_USER_ID`. Check @userinfobot again, fix `.dev.vars`, `pnpm secrets:push` |
 | Mini App says "unauthorized" | It was opened outside Telegram (e.g. in Safari), or the bot token changed. Open it via **▶ Learn** |
-| AI answers stop, with `429` in the logs | Gemini rate limit. Groq takes over automatically if configured; otherwise wait a minute. Check AI Studio → Rate limits |
-| AI answers fail with `503 UNAVAILABLE` / "high demand" | Temporary overload at Google, and the key is fine. Retry in a few minutes. The bot retries by itself and switches to Groq if configured (step 2, optional key) |
-| AI answers stop, with `400/404 model not found` | Google renamed or retired the model. Update the model name in `config/llm.yaml` (step 2.7) and push |
+| AI answers stop, with `429` in the logs | Groq rate limit. Wait a minute; if Gemini is configured, the bot switches to it automatically. Limits: console.groq.com → Settings → Limits |
+| AI answers fail with `503` | Temporary overload at the provider. The bot retries, then uses the fallback provider if configured |
+| AI answers stop, with `404 model_not_found / decommissioned` | The provider retired the model. List the models (step 2.4), update the name in `config/llm.yaml`, and push |
 | No morning message | Dashboard → Worker → *Trigger events* shows the cron? `config/schedule.yaml` time zone correct? Look for `scheduled` entries in the logs |
 | `wrangler login` browser doesn't open | Copy the URL it prints into your browser manually |
 | GitHub deploy fails with `Authentication error` | The Cloudflare API token is missing the D1 permission, or the account ID is wrong (step 5.2) |
@@ -243,8 +250,8 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 | Telegram bot token | ✅ | ✅ | — | ✅ |
 | Telegram user ID | ✅ | ✅ | — | ✅ |
 | Webhook secret | — (random; set it again if lost) | ✅ | — | ✅ |
-| Gemini API key | ✅ | ✅ | — | ✅ |
-| Groq API key (optional) | ✅ | ✅ | — | ✅ |
+| Groq API key | ✅ | ✅ | — | ✅ |
+| Gemini API key (optional) | ✅ | ✅ | — | ✅ |
 | Cloudflare API token | ✅ | — | ✅ | — |
 | Cloudflare account ID | ✅ | — | ✅ | — |
 | Data repo token | ✅ | — | ✅ | — |

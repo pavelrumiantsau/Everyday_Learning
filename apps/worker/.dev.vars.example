@@ -3,8 +3,9 @@
 TELEGRAM_BOT_TOKEN=
 TELEGRAM_USER_ID=
 TELEGRAM_WEBHOOK_SECRET=
-GEMINI_API_KEY=
+# AI: Groq is the main provider (gsk_…); Gemini is an optional fallback (AIza…).
 GROQ_API_KEY=
+GEMINI_API_KEY=
 
 # Not a secret — your Worker URL from `pnpm deploy:worker`, used by `pnpm setup:telegram`.
 WORKER_URL=
