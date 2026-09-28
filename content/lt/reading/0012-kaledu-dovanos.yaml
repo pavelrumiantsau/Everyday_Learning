@@ -1,0 +1,49 @@
+id: lt-r-0012
+cefr: B1
+title: Kalėdų dovanos
+topic: рождественские подарки и ярмарка
+source: generated
+text: |
+  Kasmet gruodį sudarau dovanų sąrašą. Šiemet jame buvo dešimt žmonių: tėvai, sesuo, keli draugai ir kolegos. Seniau dovanas pirkdavau paskutinę dieną ir dažnai išleisdavau per daug pinigų. Todėl šį kartą nusprendžiau pradėti anksčiau.
+
+  Pirmiausia paklausiau savęs, ko kiekvienam iš jų iš tikrųjų reikia. Mamai nupirkau šiltą šaliką, tėčiui – knygą apie Lietuvos istoriją. Seseriai, kuri labai mėgsta kavą, išsirinkau gražų puodelį ir pakelį kavos iš mažos kavinės senamiestyje. Kolegoms dovanų nepirkau: iškepiau imbierinių sausainių ir sudėjau juos į mažas dėžutes.
+
+  Savaitgalį su draugais nuėjome į Kalėdų mugę Katedros aikštėje. Ten stovi didelė papuošta eglė, o aplink ją – mediniai nameliai, kuriuose parduodami rankų darbo žaislai, vilnonės kojinės, medus ir kiti skanėstai. Gėrėme karštą vyną, valgėme blynus ir fotografavomės prie eglės. Nors buvo šalta, nuotaika buvo puiki.
+
+  Grįžęs namo supratau, kad per šventes svarbiausia ne brangios dovanos, o laikas, praleistas su artimais žmonėmis. Kitais metais norėčiau dovanų pirkti mažiau, o su draugais susitikti dažniau.
+glossary:
+  - { word: sudarau, lemma: sudaryti, pos: verb, forms: { pres: sudaro, past: sudarė }, meaning: "составить", note: "наст. вр., я: sudaryti sąrašą — составить список" }
+  - { word: sąrašą, lemma: sąrašas, meaning: список, item: lt-w-0080, note: "вин. п." }
+  - { word: šiemet, lemma: šiemet, meaning: в этом году, item: lt-w-0452 }
+  - { word: seniau, lemma: seniau, meaning: "раньше, прежде", item: lt-w-0630 }
+  - { word: pirkdavau, lemma: pirkti, pos: verb, forms: { pres: perka, past: pirko }, meaning: покупать, note: "многократное прош. вр., я: обычно покупал" }
+  - { word: išleisdavau, lemma: išleisti, meaning: "потратить (деньги)", item: lt-w-0177, note: "многократное прош. вр., я; išleisti pinigų — потратить денег" }
+  - { word: nusprendžiau, lemma: nuspręsti, meaning: решить, item: lt-w-0033, note: "прош. вр., я" }
+  - { word: tikrųjų, lemma: iš tikrųjų, pos: phrase, meaning: "на самом деле, действительно" }
+  - { word: šaliką, lemma: šalikas, pos: noun, gender: m, gen: šaliko, meaning: шарф }
+  - { word: išsirinkau, lemma: išsirinkti, pos: verb, forms: { pres: išsirenka, past: išsirinko }, meaning: выбрать, note: "прош. вр., я" }
+  - { word: puodelį, lemma: puodelis, pos: noun, gender: m, gen: puodelio, meaning: чашка }
+  - { word: pakelį, lemma: pakelis, pos: noun, gender: m, gen: pakelio, meaning: пачка, note: "pakelis kavos — пачка кофе" }
+  - { word: imbierinių, lemma: imbierinis, pos: adj, meaning: имбирный, note: "род. п. мн. ч.: iškepiau imbierinių sausainių — испёк имбирного печенья" }
+  - { word: dėžutes, lemma: dėžutė, pos: noun, gender: f, gen: dėžutės, meaning: коробочка, note: "вин. п. мн. ч.: į mažas dėžutes" }
+  - { word: mugę, lemma: mugė, pos: noun, gender: f, gen: mugės, meaning: ярмарка, note: "вин. п.: eiti į mugę — идти на ярмарку" }
+  - { word: papuošta, lemma: papuošti, pos: verb, forms: { pres: papuošia, past: papuošė }, meaning: украсить, note: "страд. причастие ж. р.: papuošta eglė — украшенная ёлка" }
+  - { word: parduodami, lemma: parduoti, meaning: продать, item: lt-w-0036, note: "страд. причастие мн. ч.: parduodami — продаются" }
+  - { word: rankų, lemma: rankų darbo, pos: phrase, meaning: ручной работы }
+  - { word: vilnonės, lemma: vilnonis, pos: adj, meaning: шерстяной, note: "ж. р. мн. ч.: vilnonės kojinės — шерстяные носки" }
+  - { word: skanėstai, lemma: skanėstas, pos: noun, gender: m, gen: skanėsto, meaning: лакомство }
+  - { word: fotografavomės, lemma: fotografuotis, pos: verb, forms: { pres: fotografuojasi, past: fotografavosi }, meaning: фотографироваться, note: "прош. вр., мы" }
+  - { word: nuotaika, lemma: nuotaika, meaning: настроение, item: lt-w-0339 }
+  - { word: grįžęs, lemma: grįžti, pos: verb, forms: { pres: grįžta, past: grįžo }, meaning: вернуться, note: "причастие м. р.: grįžęs namo — вернувшись домой" }
+  - { word: praleistas, lemma: praleisti, meaning: "провести (время)", item: lt-w-0027, note: "страд. причастие: laikas, praleistas su… — время, проведённое с…" }
+  - { word: norėčiau, lemma: norėti, pos: verb, forms: { pres: nori, past: norėjo }, meaning: хотеть, note: "условное накл., я: хотел бы" }
+questions:
+  - q: Kodėl šiemet jis nusprendė dovanas pirkti anksčiau?
+    options: ["Seniau pirkdavo paskutinę dieną ir išleisdavo per daug.", "Draugai jo to paprašė.", "Parduotuvės prieš Kalėdas užsidaro."]
+    answer: 0
+  - q: Ką jis padovanojo kolegoms?
+    options: ["Knygas apie istoriją", "Kavos puodelius", "Savo iškeptus sausainius"]
+    answer: 2
+  - q: Kur jis su draugais nuėjo savaitgalį?
+    options: ["Į kiną", "Į Kalėdų mugę Katedros aikštėje", "Į didelį prekybos centrą"]
+    answer: 1
