@@ -1,0 +1,43 @@
+id: lt-r-0005
+cefr: B1
+title: Kaip aš mokausi lietuvių kalbos
+topic: изучение литовского языка
+source: generated
+text: |
+  Į Lietuvą atvykau prieš trejus metus. Iš pradžių lietuviškai mokėjau tik kelis žodžius: labas, ačiū ir atsiprašau. Darbe visi kalbėjo angliškai, todėl lietuvių kalbos man beveik nereikėjo.
+
+  Vis dėlto netrukus supratau, kad be kalbos sunku jaustis kaip namie. Parduotuvėje, pas gydytoją ar kalbėdamasis su kaimynais norėjau suprasti, ką žmonės sako. Todėl užsirašiau į kursus. Du kartus per savaitę po darbo eidavau į pamokas.
+
+  Lietuvių kalba nėra lengva. Joje daug linksnių, o veiksmažodžiai turi daug formų. Man, kaip rusakalbiui, padeda tai, kad gramatika daug kuo panaši į rusų kalbą. Tačiau kirčiai ir ilgieji balsiai man vis dar sunkūs.
+
+  Dabar kasdien skiriu kalbai bent penkiolika minučių: kartoju žodžius, skaitau trumpus tekstus ir klausausi LRT radijo. Kartais žiūriu serialus su lietuviškais subtitrais. Mano tikslas – kitais metais laisvai kalbėti lietuviškai ir darbe, ir su draugais.
+glossary:
+  - { word: atvykau, lemma: atvykti, pos: verb, forms: { pres: atvyksta, past: atvyko }, meaning: "приехать, прибыть", note: "прош. вр., я" }
+  - { word: trejus, lemma: treji, pos: num, meaning: "три (с мн. словами)", note: "собир. числ., вин. п.: prieš trejus metus — три года назад" }
+  - { word: mokėjau, lemma: mokėti, pos: verb, forms: { pres: moka, past: mokėjo }, meaning: "уметь; знать (язык)", note: "mokėti lietuviškai — знать литовский" }
+  - { word: nereikėjo, lemma: reikėti, pos: verb, forms: { pres: reikia, past: reikėjo }, meaning: "быть нужным", note: "man reikia ko (+ род. п.): мне нужно что-то" }
+  - { word: netrukus, lemma: netrukus, pos: adv, meaning: вскоре }
+  - { word: kalbėdamasis, lemma: kalbėtis, pos: verb, forms: { pres: kalbasi, past: kalbėjosi }, meaning: разговаривать, note: "полупричастие (pusdalyvis): разговаривая" }
+  - { word: užsirašiau, lemma: užsirašyti, pos: verb, forms: { pres: užsirašo, past: užsirašė }, meaning: записаться, note: "užsirašyti į kursus — записаться на курсы" }
+  - { word: eidavau, lemma: eiti, pos: verb, forms: { pres: eina, past: ėjo }, meaning: "идти, ходить", note: "многократное прош. вр.: ходил (обычно)" }
+  - { word: linksnių, lemma: linksnis, pos: noun, gender: m, gen: linksnio, meaning: падеж, note: "род. п. мн. ч. после daug" }
+  - { word: veiksmažodžiai, lemma: veiksmažodis, pos: noun, gender: m, gen: veiksmažodžio, meaning: глагол }
+  - { word: rusakalbiui, lemma: rusakalbis, pos: noun, gender: m, gen: rusakalbio, meaning: русскоязычный (человек), note: "дат. п.: man, kaip rusakalbiui — мне как русскоязычному" }
+  - { word: panaši, lemma: panašus, pos: adj, meaning: похожий, note: "panašus į ką (+ вин. п.); daug kuo panaši — во многом похожа" }
+  - { word: kirčiai, lemma: kirtis, pos: noun, gender: m, gen: kirčio, meaning: ударение }
+  - { word: balsiai, lemma: balsis, pos: noun, gender: m, gen: balsio, meaning: "гласный (звук)", note: "ilgieji balsiai — долгие гласные" }
+  - { word: skiriu, lemma: skirti, pos: verb, forms: { pres: skiria, past: skyrė }, meaning: "уделять, выделять", note: "skirti kam laiko/laiką — уделять чему-то время" }
+  - { word: kartoju, lemma: kartoti, pos: verb, forms: { pres: kartoja, past: kartojo }, meaning: повторять }
+  - { word: klausausi, lemma: klausytis, pos: verb, forms: { pres: klausosi, past: klausėsi }, meaning: слушать, note: "+ род. п.: klausytis radijo — слушать радио" }
+  - { word: subtitrais, lemma: subtitrai, pos: noun, gender: m, gen: subtitrų, meaning: субтитры, note: "только мн. ч.; твор. п." }
+  - { word: tikslas, lemma: tikslas, meaning: цель, item: lt-w-0020 }
+questions:
+  - q: Kodėl iš pradžių jam beveik nereikėjo lietuvių kalbos?
+    options: ["Darbe visi kalbėjo angliškai.", "Jis gyveno su rusakalbiais draugais.", "Jis dirbo iš namų."]
+    answer: 0
+  - q: Kas jam lietuvių kalboje vis dar sunku?
+    options: ["Linksniai", "Kirčiai ir ilgieji balsiai", "Žodžių tvarka"]
+    answer: 1
+  - q: Kiek laiko jis kasdien skiria kalbai?
+    options: ["Valandą", "Bent penkiolika minučių", "Dvi valandas"]
+    answer: 1

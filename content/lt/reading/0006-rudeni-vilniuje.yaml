@@ -1,0 +1,46 @@
+id: lt-r-0006
+cefr: B1
+title: Rudenį Vilniuje
+topic: осень в городе
+source: generated
+text: |
+  Ruduo Vilniuje prasideda gražiai. Rugsėjį dar būna šilta, medžiai parkuose pamažu gelsta, o savaitgaliais žmonės mėgsta vaikščioti po senamiestį. Kavinių terasos dar dirba, todėl galima išgerti kavos saulėje.
+
+  Tačiau spalio pabaigoje oras pasikeičia. Dienos tampa trumpos, dažnai lyja, pučia šaltas vėjas. Ryte, kai einu į darbą, dar būna tamsu, o vakare grįžtu namo jau sutemus. Tokiu metu svarbu turėti šiltą striukę, gerą skėtį ir batus, kurie nepraleidžia vandens.
+
+  Daugelis žmonių rudenį jaučiasi pavargę ir liūdni. Gydytojai pataria daugiau judėti, kasdien bent pusvalandį pabūti lauke ir valgyti daug daržovių bei vaisių. Aš rudenį stengiuosi nesėdėti namie: einu į baseiną, susitinku su draugais ir skaitau knygas.
+
+  Lapkričio pabaigoje miestas vėl pagyvėja. Katedros aikštėje įžiebiama didelė Kalėdų eglė, gatvėse šviečia lemputės, ir visi pradeda laukti švenčių.
+glossary:
+  - { word: gelsta, lemma: gelsti, pos: verb, forms: { pres: gelsta, past: gelto }, meaning: желтеть }
+  - { word: senamiestį, lemma: senamiestis, pos: noun, gender: m, gen: senamiesčio, meaning: старый город, note: "вин. п.: vaikščioti po senamiestį — гулять по старому городу" }
+  - { word: terasos, lemma: terasa, pos: noun, gender: f, gen: terasos, meaning: терраса }
+  - { word: pasikeičia, lemma: pasikeisti, pos: verb, forms: { pres: pasikeičia, past: pasikeitė }, meaning: измениться }
+  - { word: tampa, lemma: tapti, pos: verb, forms: { pres: tampa, past: tapo }, meaning: "становиться, стать" }
+  - { word: lyja, lemma: lyti, pos: verb, forms: { pres: lyja, past: lijo }, meaning: "идти (о дожде)", note: "lyja — идёт дождь" }
+  - { word: pučia, lemma: pūsti, pos: verb, forms: { pres: pučia, past: pūtė }, meaning: дуть }
+  - { word: sutemus, lemma: sutemti, pos: verb, forms: { pres: sutemsta, past: sutemo }, meaning: стемнеть, note: "деепричастие (padalyvis): когда уже стемнело" }
+  - { word: striukę, lemma: striukė, pos: noun, gender: f, gen: striukės, meaning: куртка }
+  - { word: skėtį, lemma: skėtis, pos: noun, gender: m, gen: skėčio, meaning: зонт }
+  - { word: nepraleidžia, lemma: praleisti, pos: verb, forms: { pres: praleidžia, past: praleido }, meaning: пропускать, note: "nepraleidžia vandens — не пропускают воду (род. п. после отрицания)" }
+  - { word: daugelis, lemma: daugelis, pos: noun, gender: m, gen: daugelio, meaning: "многие, большинство", note: "+ род. п. мн. ч.: daugelis žmonių" }
+  - { word: judėti, lemma: judėti, pos: verb, forms: { pres: juda, past: judėjo }, meaning: двигаться }
+  - { word: pabūti, lemma: pabūti, pos: verb, forms: { pres: pabūna, past: pabuvo }, meaning: побыть }
+  - { word: daržovių, lemma: daržovė, pos: noun, gender: f, gen: daržovės, meaning: овощ, note: "род. п. мн. ч. после daug" }
+  - { word: stengiuosi, lemma: stengtis, pos: verb, forms: { pres: stengiasi, past: stengėsi }, meaning: стараться }
+  - { word: baseiną, lemma: baseinas, pos: noun, gender: m, gen: baseino, meaning: бассейн }
+  - { word: pagyvėja, lemma: pagyvėti, pos: verb, forms: { pres: pagyvėja, past: pagyvėjo }, meaning: оживиться }
+  - { word: įžiebiama, lemma: įžiebti, pos: verb, forms: { pres: įžiebia, past: įžiebė }, meaning: "зажечь (огни, ёлку)", note: "страд. залог: įžiebiama — зажигается" }
+  - { word: eglė, lemma: eglė, pos: noun, gender: f, gen: eglės, meaning: "ель; ёлка" }
+  - { word: lemputės, lemma: lemputė, pos: noun, gender: f, gen: lemputės, meaning: "лампочка; огоньки гирлянд" }
+  - { word: švenčių, lemma: šventė, pos: noun, gender: f, gen: šventės, meaning: праздник, note: "laukti švenčių — ждать праздников (род. п.)" }
+questions:
+  - q: Kaip pasikeičia oras spalio pabaigoje?
+    options: ["Tampa šilčiau ir saulėčiau.", "Dažnai lyja ir pučia šaltas vėjas.", "Pradeda snigti."]
+    answer: 1
+  - q: Ką pataria gydytojai rudenį?
+    options: ["Daugiau miegoti", "Daugiau judėti ir pabūti lauke", "Gerti daugiau kavos"]
+    answer: 1
+  - q: Kas vyksta lapkričio pabaigoje?
+    options: ["Įžiebiama Kalėdų eglė.", "Užsidaro kavinės.", "Prasideda atostogos."]
+    answer: 0
