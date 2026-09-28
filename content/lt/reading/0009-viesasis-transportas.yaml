@@ -1,0 +1,49 @@
+id: lt-r-0009
+cefr: B1
+title: Viešasis transportas
+topic: общественный транспорт
+source: generated
+text: |
+  Vilniuje neturiu automobilio, todėl į darbą važiuoju autobusu arba troleibusu. Viešasis transportas mieste veikia gana gerai: autobusai važiuoja dažnai, o stotelėse galima pamatyti, po kiek minučių atvažiuos reikiamas autobusas.
+
+  Bilietą perku telefono programėlėje. Tai labai patogu: nereikia ieškoti kasos ar grynųjų pinigų. Įlipęs į autobusą iš karto aktyvuoju bilietą, nes kontrolieriai tikrina gana dažnai. Važiuoti be bilieto neverta – bauda didelė.
+
+  Praėjusią savaitę man nutiko nemaloni istorija. Stovėjau stotelėje ir laukiau troleibuso, bet jis vis neatvažiavo. Po dvidešimties minučių supratau, kad kažkas ne taip. Viena vyresnio amžiaus keleivė paaiškino, kad centre įvyko avarija ir troleibusai važiuoja kitu maršrutu. Ji patarė man važiuoti autobusu iki Katedros aikštės, o toliau eiti pėsčiomis.
+
+  Padėkojau jai ir padariau taip, kaip ji patarė. Į darbą atvykau pavėlavęs pusvalandį, bet vadovas nepyko. Buvau tai moteriai labai dėkingas. Nuo tada kiekvieną rytą programėlėje patikrinu, ar transportas važiuoja be vėlavimų.
+glossary:
+  - { word: troleibusu, lemma: troleibusas, pos: noun, gender: m, gen: troleibuso, meaning: троллейбус, note: "твор. п.: važiuoti troleibusu — ехать на троллейбусе" }
+  - { word: viešasis, lemma: viešas, pos: adj, meaning: "общественный, публичный", note: "определ. форма: viešasis transportas — общественный транспорт" }
+  - { word: stotelėse, lemma: stotelė, pos: noun, gender: f, gen: stotelės, meaning: остановка, note: "мест. п. мн. ч.: на остановках" }
+  - { word: atvažiuos, lemma: atvažiuoti, pos: verb, forms: { pres: atvažiuoja, past: atvažiavo }, meaning: приехать, note: "буд. вр., он/она" }
+  - { word: reikiamas, lemma: reikiamas, pos: adj, meaning: нужный }
+  - { word: programėlėje, lemma: programėlė, pos: noun, gender: f, gen: programėlės, meaning: "приложение (для телефона)", note: "мест. п.: в приложении" }
+  - { word: kasos, lemma: kasa, pos: noun, gender: f, gen: kasos, meaning: касса, note: "род. п. после ieškoti" }
+  - { word: grynųjų, lemma: grynas, pos: adj, meaning: "чистый; наличный", note: "определ. форма: grynieji pinigai — наличные; здесь род. п. мн. ч." }
+  - { word: įlipęs, lemma: įlipti, pos: verb, forms: { pres: įlipa, past: įlipo }, meaning: "войти, сесть (в транспорт)", note: "действ. причастие прош. вр., м. р.: войдя (в автобус)" }
+  - { word: aktyvuoju, lemma: aktyvuoti, pos: verb, forms: { pres: aktyvuoja, past: aktyvavo }, meaning: активировать, note: "наст. вр., я" }
+  - { word: kontrolieriai, lemma: kontrolierius, pos: noun, gender: m, gen: kontrolieriaus, meaning: контролёр }
+  - { word: neverta, lemma: neverta, pos: adv, meaning: не стоит, item: lt-w-0088 }
+  - { word: bauda, lemma: bauda, pos: noun, gender: f, gen: baudos, meaning: штраф }
+  - { word: nutiko, lemma: nutikti, pos: verb, forms: { pres: nutinka, past: nutiko }, meaning: "случиться, произойти", note: "man nutiko — со мной случилось" }
+  - { word: amžiaus, lemma: amžius, pos: noun, gender: m, gen: amžiaus, meaning: "возраст; век", item: lt-w-0071, note: "vyresnio amžiaus — пожилой, в возрасте" }
+  - { word: keleivė, lemma: keleivė, pos: noun, gender: f, gen: keleivės, meaning: пассажирка }
+  - { word: įvyko, lemma: įvykti, pos: verb, forms: { pres: įvyksta, past: įvyko }, meaning: "произойти, состояться" }
+  - { word: avarija, lemma: avarija, pos: noun, gender: f, gen: avarijos, meaning: авария, item: lt-w-0249 }
+  - { word: maršrutu, lemma: maršrutas, pos: noun, gender: m, gen: maršruto, meaning: маршрут, note: "твор. п.: kitu maršrutu — по другому маршруту" }
+  - { word: patarė, lemma: patarti, pos: verb, forms: { pres: pataria, past: patarė }, meaning: посоветовать, note: "patarti kam (+ дат. п.): patarė man" }
+  - { word: pėsčiomis, lemma: pėsčiomis, pos: adv, meaning: пешком, item: lt-w-0426 }
+  - { word: pavėlavęs, lemma: pavėluoti, pos: verb, forms: { pres: pavėluoja, past: pavėlavo }, meaning: опоздать, note: "действ. причастие прош. вр., м. р.: atvykau pavėlavęs pusvalandį — приехал с опозданием на полчаса" }
+  - { word: nepyko, lemma: pykti, pos: verb, forms: { pres: pyksta, past: pyko }, meaning: "сердиться, злиться", item: lt-w-0306, note: "прош. вр. с отрицанием: не сердился" }
+  - { word: dėkingas, lemma: dėkingas, pos: adj, meaning: благодарный, item: lt-w-0477, note: "dėkingas kam (+ дат. п.): tai moteriai — этой женщине" }
+  - { word: vėlavimų, lemma: vėlavimas, pos: noun, gender: m, gen: vėlavimo, meaning: опоздание, note: "род. п. мн. ч.: be vėlavimų — без опозданий" }
+questions:
+  - q: Kur pasakotojas perka bilietą?
+    options: ["Kasoje", "Pas vairuotoją", "Telefono programėlėje"]
+    answer: 2
+  - q: Kodėl troleibusas neatvažiavo?
+    options: ["Centre įvyko avarija.", "Vairuotojas susirgo.", "Buvo šventinė diena."]
+    answer: 0
+  - q: Ką patarė vyresnio amžiaus keleivė?
+    options: ["Išsikviesti taksi", "Važiuoti autobusu iki Katedros aikštės ir toliau eiti pėsčiomis", "Grįžti namo ir dirbti iš namų"]
+    answer: 1
