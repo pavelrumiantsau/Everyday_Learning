@@ -17,7 +17,9 @@
     "setup:telegram": "tsx scripts/setup-telegram.ts",
     "smoke": "pnpm build:content && tsx scripts/smoke.ts",
     "deploy:worker": "pnpm build:content && pnpm --filter @el/worker run deploy",
-    "wrangler": "pnpm --filter @el/worker exec wrangler"
+    "wrangler": "pnpm --filter @el/worker exec wrangler",
+    "content:sources": "tsx scripts/fetch-sources.ts",
+    "content:candidates": "tsx scripts/candidates.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.3",

@@ -224,10 +224,17 @@ Hermit Dave *FrequencyWords* (CC-BY-SA) decides word order. **Tatoeba** (CC-BY 2
 
 ### 6.3 Pipeline
 ```
-frequency list + Tatoeba ─► Claude Code (subscription) using prompts/content/*.md ─► content/<lang>/**/*.yaml
-  ─► pnpm content:validate (zod) ─► pnpm content:crosscheck (Tatoeba / Wiktionary / LT stress marks)
-  ─► you skim the PR ─► merge ─► Action: edge-tts audio ─► deploy
+pnpm content:sources                 # download frequency lists + Tatoeba exports into .cache/ (git-ignored)
+pnpm content:candidates lt 1500 2500 # frequent words (by rank) + their shortest real Tatoeba sentence pairs
+   → in a Claude Code session: pick useful words, write scripts/batches/<batch>.py
+     (dictionary form, meaning, notes, and the Tatoeba id of the chosen example)
+python3 scripts/batch-to-yaml.py <batch> <lang> <first-id> content/<lang>/…yaml
+   → example text + translation are copied verbatim from Tatoeba by id, never retyped
+pnpm content:validate → you skim the diff → commit → pnpm deploy:worker
 ```
+First batch (Sep 2026): 159 LT words at B1–B2 (frequency ranks 1500–4000) and 52 ES core words, all with Tatoeba examples.
+Known issue to fix: the frequency list comes from film subtitles, so it leans towards film vocabulary. The Mini App's placement test
+(weeks 2–3) will tune the level.
 LLM-written sentences are labelled `source: generated`. `/report` on any card logs a problem for the next batch.
 Audio: `edge-tts` (`lt-LT-OnaNeural`/`LeonasNeural`, `es-ES-*`, `fr-FR-*`); fallback is the Google Cloud TTS free tier.
 

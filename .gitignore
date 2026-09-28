@@ -9,3 +9,4 @@ dist/
 coverage/
 *.log
 apps/worker/src/generated/
+.cache/

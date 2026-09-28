@@ -1,0 +1,465 @@
+# Generated from scripts/batches/es-a1-0011.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-0011
+  type: word
+  cefr: A1
+  text: "querer"
+  pos: verb
+  meaning: { en: "to want; to love" }
+  note: { en: "quiero = I want (e → ie). With people: te quiero = I love you" }
+  examples:
+    - { text: "Me quiero ir.", translation: "I want to leave.", source: "tatoeba:1478249" }
+- id: es-w-0012
+  type: word
+  cefr: A1
+  text: "casa"
+  pos: noun
+  gender: f
+  meaning: { en: "house, home" }
+  note: { en: "a casa = (to) home; en casa = at home" }
+  examples:
+    - { text: "Fui a casa.", translation: "I went home.", source: "tatoeba:566609" }
+- id: es-w-0013
+  type: word
+  cefr: A1
+  text: "hoy"
+  pos: adv
+  meaning: { en: "today" }
+  examples:
+    - { text: "Lo veré hoy.", translation: "I'll see him today.", source: "tatoeba:5093495" }
+- id: es-w-0014
+  type: word
+  cefr: A1
+  text: "tener"
+  pos: verb
+  meaning: { en: "to have" }
+  note: { en: "tengo = I have (irregular); tener que + infinitive = to have to" }
+  examples:
+    - { text: "Tengo una familia.", translation: "I have a family.", source: "tatoeba:645078" }
+- id: es-w-0015
+  type: word
+  cefr: A1
+  text: "tiempo"
+  pos: noun
+  gender: m
+  meaning: { en: "time; weather" }
+  note: { en: "Also weather: ¿Qué tiempo hace? = What's the weather like?" }
+  examples:
+    - { text: "No hay tiempo.", translation: "There's no time.", source: "tatoeba:2372672" }
+- id: es-w-0016
+  type: word
+  cefr: A1
+  text: "mañana"
+  pos: adv
+  meaning: { en: "tomorrow" }
+  note: { en: "la mañana (noun) = the morning" }
+  examples:
+    - { text: "Te veo mañana.", translation: "See you tomorrow.", source: "tatoeba:1143627" }
+- id: es-w-0017
+  type: word
+  cefr: A1
+  text: "poder"
+  pos: verb
+  meaning: { en: "can, to be able to" }
+  note: { en: "puedo = I can (o → ue)" }
+  examples:
+    - { text: "No, no puedo.", translation: "No, I can't.", source: "tatoeba:5127976" }
+- id: es-w-0018
+  type: word
+  cefr: A1
+  text: "trabajo"
+  pos: noun
+  gender: m
+  meaning: { en: "work, job" }
+  examples:
+    - { text: "Es su trabajo.", translation: "It's their job.", source: "tatoeba:2532418" }
+- id: es-w-0019
+  type: word
+  cefr: A1
+  text: "ahora"
+  pos: adv
+  meaning: { en: "now" }
+  examples:
+    - { text: "¿Y ahora qué?", translation: "What now?", source: "tatoeba:1357545" }
+- id: es-w-0020
+  type: word
+  cefr: A1
+  text: "necesitar"
+  pos: verb
+  meaning: { en: "to need" }
+  examples:
+    - { text: "No lo necesito.", translation: "I don't need it.", source: "tatoeba:1328402" }
+- id: es-w-0021
+  type: word
+  cefr: A1
+  text: "dinero"
+  pos: noun
+  gender: m
+  meaning: { en: "money" }
+  examples:
+    - { text: "Dame tu dinero.", translation: "Give me your money.", source: "tatoeba:522274" }
+- id: es-w-0022
+  type: word
+  cefr: A1
+  text: "siempre"
+  pos: adv
+  meaning: { en: "always" }
+  examples:
+    - { text: "Siempre te creo.", translation: "I always believe you.", source: "tatoeba:2266438" }
+- id: es-w-0023
+  type: word
+  cefr: A1
+  text: "saber"
+  pos: verb
+  meaning: { en: "to know (a fact)" }
+  note: { en: "sé = I know. saber = facts/how to; conocer = people and places" }
+  examples:
+    - { text: "No lo sé.", translation: "I don't know.", source: "tatoeba:1023537" }
+- id: es-w-0024
+  type: word
+  cefr: A1
+  text: "día"
+  pos: noun
+  gender: m
+  meaning: { en: "day" }
+  note: { en: "Masculine despite the -a: el día" }
+  examples:
+    - { text: "Dame un día.", translation: "Give me a day.", source: "tatoeba:4587247" }
+- id: es-w-0025
+  type: word
+  cefr: A1
+  text: "nunca"
+  pos: adv
+  meaning: { en: "never" }
+  note: { en: "Can also follow the verb with no: No bebo nunca." }
+  examples:
+    - { text: "Él nunca ríe.", translation: "He never laughs.", source: "tatoeba:2522408" }
+- id: es-w-0026
+  type: word
+  cefr: A1
+  text: "creer"
+  pos: verb
+  meaning: { en: "to believe; to think" }
+  note: { en: "No lo creo = I don't think so" }
+  examples:
+    - { text: "No lo creo.", translation: "I don't think so.", source: "tatoeba:930976" }
+- id: es-w-0027
+  type: word
+  cefr: A1
+  text: "noche"
+  pos: noun
+  gender: f
+  meaning: { en: "night" }
+  note: { en: "esta noche = tonight" }
+  examples:
+    - { text: "Esta noche no.", translation: "Not tonight.", source: "tatoeba:2104044" }
+- id: es-w-0028
+  type: word
+  cefr: A1
+  text: "pronto"
+  pos: adv
+  meaning: { en: "soon" }
+  examples:
+    - { text: "Él vendrá pronto.", translation: "He will come soon.", source: "tatoeba:1455274" }
+- id: es-w-0029
+  type: word
+  cefr: A1
+  text: "entender"
+  pos: verb
+  meaning: { en: "to understand" }
+  note: { en: "entiendo = I understand (e → ie)" }
+  examples:
+    - { text: "No le entiendo.", translation: "I don't understand you.", source: "tatoeba:436556" }
+- id: es-w-0030
+  type: word
+  cefr: A1
+  text: "semana"
+  pos: noun
+  gender: f
+  meaning: { en: "week" }
+  note: { en: "fin de semana = weekend" }
+  examples:
+    - { text: "Es fin de semana.", translation: "It's the weekend.", source: "tatoeba:7778521" }
+- id: es-w-0031
+  type: word
+  cefr: A1
+  text: "tarde"
+  pos: adv
+  meaning: { en: "late" }
+  note: { en: "la tarde (noun) = the afternoon / early evening" }
+  examples:
+    - { text: "Es muy tarde.", translation: "It's too late.", source: "tatoeba:2414092" }
+- id: es-w-0032
+  type: word
+  cefr: A1
+  text: "esperar"
+  pos: verb
+  meaning: { en: "to hope; to wait" }
+  note: { en: "Two meanings: to hope and to wait (for)" }
+  examples:
+    - { text: "Espero que sí.", translation: "I hope so.", source: "tatoeba:762110" }
+- id: es-w-0033
+  type: word
+  cefr: A1
+  text: "año"
+  pos: noun
+  gender: m
+  meaning: { en: "year" }
+  note: { en: "cada año = every year" }
+  examples:
+    - { text: "Voy cada año.", translation: "I go every year.", source: "tatoeba:607851" }
+- id: es-w-0034
+  type: word
+  cefr: A1
+  text: "cerca"
+  pos: adv
+  meaning: { en: "near, close by" }
+  note: { en: "cerca de = near (something)" }
+  examples:
+    - { text: "Él vive cerca.", translation: "He lives close by.", source: "tatoeba:838579" }
+- id: es-w-0035
+  type: word
+  cefr: A1
+  text: "gustar"
+  pos: verb
+  meaning: { en: "to like (lit. to please)" }
+  note: { en: "Works like Russian «мне нравится»: me gusta = it pleases me" }
+  examples:
+    - { text: "No le gusta.", translation: "He doesn't like it.", source: "tatoeba:6813319" }
+- id: es-w-0036
+  type: word
+  cefr: A1
+  text: "hora"
+  pos: noun
+  gender: f
+  meaning: { en: "hour; time (of day)" }
+  note: { en: "¿A qué hora? = At what time?" }
+  examples:
+    - { text: "¿A qué hora?", translation: "What time?", source: "tatoeba:1291630" }
+- id: es-w-0037
+  type: word
+  cefr: A1
+  text: "juntos"
+  pos: adj
+  meaning: { en: "together" }
+  examples:
+    - { text: "Lo haremos juntos.", translation: "We'll do it together.", source: "tatoeba:1683821" }
+- id: es-w-0038
+  type: word
+  cefr: A1
+  text: "hablar"
+  pos: verb
+  meaning: { en: "to speak, to talk" }
+  examples:
+    - { text: "No puedo hablar.", translation: "I can't talk.", source: "tatoeba:609761" }
+- id: es-w-0039
+  type: word
+  cefr: A1
+  text: "agua"
+  pos: noun
+  gender: f
+  meaning: { en: "water" }
+  note: { en: "Feminine, but el agua (el before a stressed a-)" }
+  examples:
+    - { text: "No hay agua.", translation: "There's no water.", source: "tatoeba:1672070" }
+- id: es-w-0040
+  type: word
+  cefr: A1
+  text: "mejor"
+  pos: adj
+  meaning: { en: "better; best" }
+  note: { en: "el mejor = the best" }
+  examples:
+    - { text: "Es mejor así.", translation: "It's better as it is.", source: "tatoeba:1240423" }
+- id: es-w-0041
+  type: word
+  cefr: A1
+  text: "ir"
+  pos: verb
+  meaning: { en: "to go" }
+  note: { en: "ir a + infinitive = going to (future): Voy a ir." }
+  examples:
+    - { text: "Voy a ir.", translation: "I'll be going.", source: "tatoeba:378542" }
+- id: es-w-0042
+  type: word
+  cefr: A1
+  text: "ciudad"
+  pos: noun
+  gender: f
+  meaning: { en: "city, town" }
+  examples:
+    - { text: "Soy de la ciudad.", translation: "I'm from the city.", source: "tatoeba:3182203" }
+- id: es-w-0043
+  type: word
+  cefr: A1
+  text: "nuevo"
+  pos: adj
+  meaning: { en: "new" }
+  note: { en: "de nuevo = again" }
+  examples:
+    - { text: "No es nuevo.", translation: "It isn't new.", source: "tatoeba:1402292" }
+- id: es-w-0044
+  type: word
+  cefr: A1
+  text: "hacer"
+  pos: verb
+  meaning: { en: "to do; to make" }
+  examples:
+    - { text: "No sé qué hacer.", translation: "I don't know what to do.", source: "tatoeba:356829" }
+- id: es-w-0045
+  type: word
+  cefr: A1
+  text: "familia"
+  pos: noun
+  gender: f
+  meaning: { en: "family" }
+  examples:
+    - { text: "No tengo familia.", translation: "I have no family.", source: "tatoeba:1507306" }
+- id: es-w-0046
+  type: word
+  cefr: A1
+  text: "importante"
+  pos: adj
+  meaning: { en: "important" }
+  examples:
+    - { text: "Es muy importante.", translation: "It's very important.", source: "tatoeba:838837" }
+- id: es-w-0047
+  type: word
+  cefr: A1
+  text: "ver"
+  pos: verb
+  meaning: { en: "to see; to watch" }
+  examples:
+    - { text: "Iré a ver.", translation: "I'll go take a look.", source: "tatoeba:2711408" }
+- id: es-w-0048
+  type: word
+  cefr: A1
+  text: "amigo"
+  pos: noun
+  gender: m
+  meaning: { en: "friend" }
+  note: { en: "amiga = female friend" }
+  examples:
+    - { text: "Es mi amigo.", translation: "He's my friend.", source: "tatoeba:456124" }
+- id: es-w-0049
+  type: word
+  cefr: A1
+  text: "rápido"
+  pos: adj
+  meaning: { en: "fast, quick" }
+  examples:
+    - { text: "Eso fue rápido.", translation: "That was fast.", source: "tatoeba:1283974" }
+- id: es-w-0050
+  type: word
+  cefr: A1
+  text: "decir"
+  pos: verb
+  meaning: { en: "to say, to tell" }
+  note: { en: "No sé qué decir = I don't know what to say" }
+  examples:
+    - { text: "No sé qué decir.", translation: "I'm at a loss for words.", source: "tatoeba:436542" }
+- id: es-w-0051
+  type: word
+  cefr: A1
+  text: "problema"
+  pos: noun
+  gender: m
+  meaning: { en: "problem" }
+  note: { en: "Masculine despite the -a: el problema" }
+  examples:
+    - { text: "No es problema.", translation: "It's no trouble.", source: "tatoeba:3697786" }
+- id: es-w-0052
+  type: word
+  cefr: A2
+  text: "demasiado"
+  pos: adv
+  meaning: { en: "too much; too" }
+  examples:
+    - { text: "Eso es demasiado.", translation: "That's too much.", source: "tatoeba:553753" }
+- id: es-w-0053
+  type: word
+  cefr: A1
+  text: "salir"
+  pos: verb
+  meaning: { en: "to go out, to leave" }
+  examples:
+    - { text: "Voy a salir.", translation: "I'm going out.", source: "tatoeba:699004" }
+- id: es-w-0054
+  type: word
+  cefr: A1
+  text: "ayuda"
+  pos: noun
+  gender: f
+  meaning: { en: "help" }
+  examples:
+    - { text: "Ve por ayuda.", translation: "Go for help.", source: "tatoeba:2774188" }
+- id: es-w-0055
+  type: word
+  cefr: A2
+  text: "todavía"
+  pos: adv
+  meaning: { en: "still; yet" }
+  note: { en: "todavía no = not yet" }
+  examples:
+    - { text: "Todavía lo creo.", translation: "I still think so.", source: "tatoeba:5012242" }
+- id: es-w-0056
+  type: word
+  cefr: A1
+  text: "volver"
+  pos: verb
+  meaning: { en: "to come back, to return" }
+  examples:
+    - { text: "¿Vas a volver?", translation: "Will you come back?", source: "tatoeba:5578629" }
+- id: es-w-0057
+  type: word
+  cefr: A1
+  text: "verdad"
+  pos: noun
+  gender: f
+  meaning: { en: "truth" }
+  note: { en: "At the end of a question, ¿verdad? = right?" }
+  examples:
+    - { text: "Di la verdad.", translation: "Tell the truth.", source: "tatoeba:1748349" }
+- id: es-w-0058
+  type: word
+  cefr: A2
+  text: "bastante"
+  pos: adv
+  meaning: { en: "quite, rather; enough" }
+  examples:
+    - { text: "Es bastante bueno.", translation: "It's pretty good.", source: "tatoeba:1402281" }
+- id: es-w-0059
+  type: word
+  cefr: A1
+  text: "venir"
+  pos: verb
+  meaning: { en: "to come" }
+  examples:
+    - { text: "¿Vas a venir?", translation: "Will you come?", source: "tatoeba:13855782" }
+- id: es-w-0060
+  type: word
+  cefr: A2
+  text: "encontrar"
+  pos: verb
+  meaning: { en: "to find" }
+  examples:
+    - { text: "Ve a encontrar a Tom.", translation: "Go find Tom.", source: "tatoeba:1705561" }
+- id: es-w-0061
+  type: word
+  cefr: A1
+  text: "tomar"
+  pos: verb
+  meaning: { en: "to take; to have (food, drink)" }
+  note: { en: "In a café: ¿Qué va a tomar? = What will you have?" }
+  examples:
+    - { text: "¿Qué va a tomar?", translation: "What are you going to drink?", source: "tatoeba:2270693" }
+- id: es-w-0062
+  type: word
+  cefr: A1
+  text: "llegar"
+  pos: verb
+  meaning: { en: "to arrive" }
+  note: { en: "acabar de + infinitive = to have just done: Acabo de llegar" }
+  examples:
+    - { text: "Acabo de llegar.", translation: "I just arrived now.", source: "tatoeba:449692" }
