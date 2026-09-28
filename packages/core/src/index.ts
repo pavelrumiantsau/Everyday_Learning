@@ -7,3 +7,4 @@ export * from "./format";
 export * from "./telegram-auth";
 export * from "./labels";
 export * from "./streak";
+export * from "./weekly";

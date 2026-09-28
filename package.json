@@ -20,7 +20,8 @@
     "wrangler": "pnpm --filter @el/worker exec wrangler",
     "content:sources": "tsx scripts/fetch-sources.ts",
     "content:candidates": "tsx scripts/candidates.ts",
-    "build": "pnpm build:content && pnpm --filter @el/miniapp build"
+    "build": "pnpm build:content && pnpm --filter @el/miniapp build",
+    "content:reports": "pnpm build:content && tsx scripts/content-reports.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.3",

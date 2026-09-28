@@ -2,6 +2,7 @@ import { grammarLabel } from "@el/core/labels";
 import { useState } from "react";
 import { flushReviews, getQueue, recordReview, type QueueCard, type Rating } from "../api";
 import { FLAG } from "../flags";
+import { ReportButton } from "../ReportButton";
 import { haptic } from "../telegram";
 
 const RATINGS: { rating: Rating; label: string; cls: string }[] = [
@@ -64,8 +65,11 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
       <div className="progress">
         <div className="bar" style={{ width: `${(index / cards.length) * 100}%` }} />
       </div>
-      <p className="hint small">
-        {FLAG[card.lang]} {index + 1} / {cards.length}
+      <p className="hint small top-line">
+        <span>
+          {FLAG[card.lang]} {index + 1} / {cards.length}
+        </span>
+        {revealed && <ReportButton key={card.cardId} itemId={item.id} cardId={card.cardId} />}
       </p>
       {isProd ? (
         <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>

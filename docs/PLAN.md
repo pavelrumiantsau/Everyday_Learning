@@ -19,9 +19,9 @@
 | 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ⏳ In progress | `feat/grammar` (sub-agent) |
 | 7 | Audio: TTS for words + examples, play button, voice clip in the bot | ⏳ In progress | `feat/audio` (sub-agent) |
 | 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ⏳ In progress | `feat/ai` (sub-agent) |
-| 9 | Reading mode (graded texts, tap word → card) | ⬜ Next | |
-| 10 | Weekly report, `/input` log, auto-adjust of new cards | ⬜ Next | |
-| 11 | "Report a mistake" (bot + Mini App) | ⬜ Next | |
+| 9 | Reading mode (graded texts, tap word → card) | ⬜ Next | after the AI branch (word lookup) |
+| 10 | Weekly report, `/input` log, auto-adjust of new cards | ✅ Done | Sunday 18:00 report + `/week`; `/input` and 🎧 in the Mini App; ±1–2 new words/day by backlog and accuracy |
+| 11 | "Report a mistake" (bot + Mini App) | ✅ Done | ⚠️ on cards, `/report`; `pnpm content:reports` lists them |
 | 12 | Automation: Claude Code content batches (PR), weekly writing review, quarterly self-assessment | ⬜ Next | needs `CLAUDE_CODE_OAUTH_TOKEN` |
 
 **Content**

@@ -3,6 +3,7 @@ import bot from "./01-bot.ts";
 import review from "./02-review.ts";
 import placement from "./03-placement.ts";
 import settings from "./04-settings.ts";
+import progress from "./08-progress.ts";
 import type { Smoke } from "./context.ts";
 
 export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
@@ -10,4 +11,5 @@ export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "review", run: review },
   { name: "placement", run: placement },
   { name: "settings", run: settings },
+  { name: "progress", run: progress },
 ];

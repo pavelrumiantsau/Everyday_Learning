@@ -2,10 +2,12 @@
 import type { Command, Feature } from "../feature";
 import { core } from "./core";
 import { placement } from "./placement";
+import { progress } from "./progress";
+import { report } from "./report";
 import { review } from "./review";
 import { settings } from "./settings";
 
-export const FEATURES: Feature[] = [core, review, placement, settings];
+export const FEATURES: Feature[] = [core, review, placement, settings, progress, report];
 
 export const COMMANDS: Command[] = FEATURES.flatMap((f) => f.commands ?? []);
 

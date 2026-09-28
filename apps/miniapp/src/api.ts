@@ -94,3 +94,9 @@ export interface Stats {
 export const getStats = () => call<Stats>("/stats");
 export const getSettings = () => call<{ prefs: Prefs; timezone: string }>("/settings");
 export const saveSettings = (patch: Partial<Prefs>) => call<{ prefs: Prefs }>("/settings", { method: "PUT", body: JSON.stringify(patch) });
+
+export const getInputWeek = () => call<{ week: Partial<Record<Lang, number>>; targetLt: number }>("/input/week");
+export const logInput = (b: { lang: Lang; minutes: number; kind: string; title?: string }) =>
+  call<{ week: Partial<Record<Lang, number>> }>("/input", { method: "POST", body: JSON.stringify(b) });
+export const reportItem = (b: { itemId?: string; cardId?: string; text?: string }) =>
+  call<{ ok: true }>("/report", { method: "POST", body: JSON.stringify(b) });
