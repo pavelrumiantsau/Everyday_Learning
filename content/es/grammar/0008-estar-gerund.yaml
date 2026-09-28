@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0008
+cefr: A1
+order: 8
+title: "Estar + gerund: estoy hablando"
+explanation:
+  en: |
+    To say what is happening **right now**, use **estar** + the **gerund** (the "-ing" form):
+    - estoy, estás, está, estamos, estáis, están + habl**ando** / com**iendo**
+
+    How to make the gerund:
+    - **-ar** → **-ando**: hablar → hablando, trabajar → trabajando
+    - **-er / -ir** → **-iendo**: comer → comiendo, vivir → viviendo
+    - vowel before the ending → **-yendo**: leer → **leyendo**, oír → **oyendo**, ir → **yendo**
+    - -ir verbs with a stem change: e → i, o → u: decir → **diciendo**, pedir → **pidiendo**, dormir → **durmiendo**
+
+    The gerund never changes: *Ella está comiendo. Ellos están comiendo.* Only *estar* changes.
+
+    **When?** Spanish uses it only for an action in progress at this moment: *¿Qué estás haciendo?* — *Estoy leyendo.* For habits, general facts and plans, use the simple present:
+    - *Trabajo en una oficina.* — I work in an office (in general).
+    - *Mañana trabajo.* — I'm working tomorrow (not *estoy trabajando*).
+    - *¿Adónde vas?* — Where are you going? (Spanish rarely says *estás yendo*.)
+
+    Pronouns go before *estar* or are attached to the gerund (with an accent): *Me estoy duchando* = *Estoy duchándome*.
+comparison:
+  en: |
+    English "-ing" is a close match, but English uses it more: for future plans and with "going" Spanish prefers the simple present. Russian has no separate form — «я читаю» is both *leo* and *estoy leyendo*; choose *estoy leyendo* when you mean «прямо сейчас».
+examples:
+  - { text: "¿Qué estás haciendo?", translation: "What are you doing?", source: "tatoeba:2483" }
+  - { text: "Estoy buscando un regalo para mi madre.", translation: "I'm looking for a present for my mother.", source: "tatoeba:357311" }
+  - { text: "Estoy leyendo un libro de idiomas.", translation: "I'm reading a book about languages.", source: "tatoeba:409525" }
+  - { text: "¡Está lloviendo otra vez!", translation: "It's raining again!", source: "tatoeba:453852" }
+  - { text: "El bebé está durmiendo.", translation: "The baby is sleeping.", source: "tatoeba:746906" }
+exercises:
+  - type: cloze
+    text: "Ahora mismo estoy ___ con mi jefe."
+    answer: "hablando"
+    hint: "hablar"
+    translation: "Right now I'm talking to my boss."
+  - type: cloze
+    text: "¿Qué ___ haciendo tú?"
+    answer: "estás"
+    hint: "estar"
+    translation: "What are you doing?"
+  - type: cloze
+    text: "Los niños están ___ en el parque."
+    answer: "jugando"
+    hint: "jugar"
+    translation: "The children are playing in the park."
+  - type: cloze
+    text: "Mi padre está ___ el periódico."
+    answer: "leyendo"
+    hint: "leer"
+    translation: "My father is reading the newspaper."
+  - type: cloze
+    text: "No hagas ruido, el bebé está ___."
+    answer: "durmiendo"
+    hint: "dormir"
+    translation: "Don't make noise, the baby is sleeping."
+  - type: cloze
+    text: "¿Qué estás ___? No te entiendo."
+    answer: "diciendo"
+    hint: "decir"
+    translation: "What are you saying? I don't understand you."
+  - type: cloze
+    text: "Nosotros ___ comiendo ahora; te llamo luego."
+    answer: "estamos"
+    hint: "estar"
+    translation: "We're eating now; I'll call you later."
+  - type: cloze
+    text: "Normalmente ___ en casa, pero hoy estoy trabajando en la oficina."
+    answer: "trabajo"
+    hint: "trabajar (a habit)"
+    translation: "I usually work from home, but today I'm working at the office."
