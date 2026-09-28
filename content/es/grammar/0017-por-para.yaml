@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0017
+cefr: A2
+order: 17
+title: "Por or para?"
+explanation:
+  en: |
+    Both can mean "for", but they are not interchangeable.
+
+    **para** — looks **forward**, to a goal:
+    - purpose, "in order to": *Leo **para** aprender.*
+    - recipient: *Esto es **para** ti.*
+    - deadline: *Lo necesito **para** mañana.* — by tomorrow
+    - destination: *Salgo **para** Madrid.*
+    - opinion: ***Para** mí, es la mejor.* — in my opinion
+
+    **por** — the **cause** or the **way through**:
+    - reason, thanks: *Gracias **por** todo.*
+    - through, along, around: *Caminamos **por** el parque.*
+    - means: ***por** teléfono, **por** correo*
+    - part of the day: ***por** la mañana, **por** la tarde*
+    - exchange, price: *Lo compré **por** diez euros.*
+comparison:
+  en: |
+    A quick test: if you can say "in order to" or "intended for", it's *para*. If it's "because of", "through", "by (means of)" or "in exchange for", it's *por*. Russian: «для / чтобы» ≈ *para*; «из-за / за / по / через» ≈ *por* (*gracias por* = «спасибо за»).
+examples:
+  - { text: "Esto es para ti.", translation: "This is for you.", source: "tatoeba:963000" }
+  - { text: "Leo para aprender.", translation: "I read in order to learn.", source: "tatoeba:951259" }
+  - { text: "Lo necesito para mañana.", translation: "I need it by tomorrow.", source: "tatoeba:436856" }
+  - { text: "Gracias por todo.", translation: "Thanks for everything.", source: "tatoeba:878507" }
+  - { text: "Caminamos por el parque.", translation: "We walked in the park.", source: "tatoeba:5043079" }
+exercises:
+  - type: cloze
+    text: "Este regalo es ___ mi madre."
+    answer: "para"
+    hint: "recipient"
+    translation: "This present is for my mother."
+  - type: cloze
+    text: "Estudio español ___ viajar a México."
+    answer: "para"
+    hint: "in order to"
+    translation: "I study Spanish to travel to Mexico."
+  - type: cloze
+    text: "Muchas gracias ___ tu ayuda."
+    answer: "por"
+    hint: "thanks for"
+    translation: "Thank you very much for your help."
+  - type: cloze
+    text: "Siempre corro ___ la mañana."
+    answer: "por"
+    hint: "part of the day"
+    translation: "I always run in the morning."
+  - type: cloze
+    text: "Hablamos ___ teléfono ayer."
+    answer: "por"
+    hint: "means"
+    translation: "We talked on the phone yesterday."
+  - type: cloze
+    text: "Necesito el informe ___ el lunes."
+    answer: "para"
+    hint: "deadline"
+    translation: "I need the report by Monday."
+  - type: cloze
+    text: "Compré este libro ___ diez euros."
+    answer: "por"
+    hint: "price"
+    translation: "I bought this book for ten euros."
+  - type: cloze
+    text: "___ mí, es la mejor película del año."
+    answer: "Para"
+    hint: "opinion"
+    translation: "For me, it's the best film of the year."

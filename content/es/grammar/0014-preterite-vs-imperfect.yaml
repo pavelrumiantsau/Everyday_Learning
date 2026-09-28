@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0014
+cefr: A2
+order: 14
+title: "Preterite or imperfect?"
+explanation:
+  en: |
+    Spanish has two simple past tenses, and a story needs both.
+
+    **Preterite** (*hablé, comí, fui*) — what **happened**: a finished event, one after another, often with a point in time (*ayer, el lunes, en 2015*).
+    - *Ayer **vi** a Juan.* — I saw Juan yesterday.
+
+    **Imperfect** (*hablaba, comía, era*) — the **background**: what was going on, what things were like, what used to happen.
+    - *La casa **era** grande y **tenía** un jardín.*
+
+    Together: the imperfect sets the scene, the preterite interrupts it:
+    - ***Estaba** comiendo cuando **sonó** el teléfono.* — I was eating when the phone rang.
+
+    A **finished period**, even a long one, takes the preterite: ***Viví** en Madrid tres años.* — I lived in Madrid for three years (and that's over). Compare: *Cuando **vivía** en Madrid, **iba** mucho al teatro.* — back then, as a habit.
+comparison:
+  en: |
+    The Russian aspects help but don't match exactly. «Я жил в Мадриде три года» is imperfective in Russian, yet Spanish uses the preterite *viví*, because the three years are a closed block. Ask: is it the **scene** (imperfect) or an **event / closed period** (preterite)?
+examples:
+  - { text: "Estaba comiendo cuando sonó el teléfono.", translation: "I was having my lunch when the phone rang.", source: "tatoeba:625817" }
+  - { text: "Estaba lloviendo cuando llegué.", translation: "When I arrived, it was raining.", source: "tatoeba:1418947" }
+  - { text: "Iba a salir cuando sonó el teléfono.", translation: "I was going out, when the telephone rang.", source: "tatoeba:2061394" }
+  - { text: "De niño, viví en esta casa.", translation: "I lived in this house as a kid.", source: "tatoeba:10005007" }
+  - { text: "Él estaba agotado cuando llegó a casa.", translation: "He was exhausted when he got home.", source: "tatoeba:1318162" }
+exercises:
+  - type: cloze
+    text: "Ayer ___ a Juan en el mercado."
+    answer: "vi"
+    hint: "ver, yo"
+    translation: "Yesterday I saw Juan at the market."
+  - type: cloze
+    text: "Cuando llegué, mi madre ___ la cena."
+    answer: "preparaba"
+    also: ["estaba preparando"]
+    hint: "preparar — what was going on"
+    translation: "When I arrived, my mother was making dinner."
+  - type: cloze
+    text: "Leía un libro cuando ___ el teléfono."
+    answer: "sonó"
+    hint: "sonar — what happened"
+    translation: "I was reading a book when the phone rang."
+  - type: cloze
+    text: "De niño, ___ al fútbol todos los días."
+    answer: "jugaba"
+    hint: "jugar, yo — a habit"
+    translation: "As a child I played football every day."
+  - type: cloze
+    text: "En 2015 ___ a México."
+    answer: "fuimos"
+    hint: "ir, nosotros"
+    translation: "In 2015 we went to Mexico."
+  - type: cloze
+    text: "La casa ___ grande y tenía un jardín."
+    answer: "era"
+    hint: "ser — a description"
+    translation: "The house was big and had a garden."
+  - type: cloze
+    text: "___ en Madrid tres años y después volví."
+    answer: "Viví"
+    hint: "vivir, yo — a closed period"
+    translation: "I lived in Madrid for three years and then came back."
+  - type: cloze
+    text: "Anoche no ___ bien porque hacía calor."
+    answer: "dormí"
+    hint: "dormir, yo"
+    translation: "Last night I didn't sleep well because it was hot."

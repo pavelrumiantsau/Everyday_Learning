@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0013
+cefr: A2
+order: 13
+title: "Imperfect: hablaba, comía, era"
+explanation:
+  en: |
+    The **imperfect** (*pretérito imperfecto*) is the past of **habits, descriptions and background** — "used to", "was doing".
+
+    Regular forms:
+    - **-ar** hablar: habl**aba**, habl**abas**, habl**aba**, habl**ábamos**, habl**abais**, habl**aban**
+    - **-er / -ir** comer, vivir: com**ía**, com**ías**, com**ía**, com**íamos**, com**íais**, com**ían** — *vivía, vivías…*
+
+    Only **three** verbs are irregular:
+    - **ser**: era, eras, era, éramos, erais, eran
+    - **ir**: iba, ibas, iba, íbamos, ibais, iban
+    - **ver**: veía, veías, veía, veíamos, veíais, veían
+
+    Use it for:
+    - **habits** in the past: *De niño **jugaba** al fútbol.* — As a child I used to play football.
+    - **descriptions**: age, time, weather, feelings, how things were: ***Eran** las seis. **Hacía** frío. La casa **era** grande.*
+    - an action **in progress** in the past: *Mi abuela **vivía** con nosotros.*
+
+    *yo* and *él/ella/usted* have the same form: *(yo) hablaba, (ella) hablaba* — add the pronoun if it's unclear.
+comparison:
+  en: |
+    For a Russian speaker the imperfect is close to the **imperfective past**: *vivía* ≈ «жил», *leía* ≈ «читал», *iba* ≈ «ходил/шёл». English often needs "used to" or "was …ing" for the same idea.
+examples:
+  - { text: "Cuando era niño podía nadar bien.", translation: "I could swim well when I was a child.", source: "tatoeba:1171541" }
+  - { text: "Mi abuela vivía con nosotros.", translation: "My grandmother lived with us.", source: "tatoeba:1275953" }
+  - { text: "De niño siempre tomaba leche.", translation: "When I was a child, I was always drinking milk.", source: "tatoeba:1070769" }
+  - { text: "Eran las seis.", translation: "It was six o'clock.", source: "tatoeba:2978676" }
+  - { text: "Cuando era niño tenía miedo de las ranas.", translation: "When I was a kid, I was afraid of frogs.", source: "tatoeba:13446514" }
+exercises:
+  - type: cloze
+    text: "De pequeño, ___ en un pueblo."
+    answer: "vivía"
+    hint: "vivir, yo"
+    translation: "As a child I lived in a village."
+  - type: cloze
+    text: "Mis abuelos nos ___ todos los domingos."
+    answer: "visitaban"
+    hint: "visitar"
+    translation: "My grandparents visited us every Sunday."
+  - type: cloze
+    text: "Cuando ___ niña, mi hermana tenía un perro."
+    answer: "era"
+    hint: "ser"
+    translation: "When my sister was a girl, she had a dog."
+  - type: cloze
+    text: "Antes nosotros ___ al cine cada semana."
+    answer: "íbamos"
+    hint: "ir"
+    translation: "We used to go to the cinema every week."
+  - type: cloze
+    text: "___ las diez de la noche."
+    answer: "Eran"
+    hint: "ser"
+    translation: "It was ten at night."
+  - type: cloze
+    text: "¿Qué programas ___ de niño?"
+    answer: "veías"
+    hint: "ver, tú"
+    translation: "What programmes did you watch as a child?"
+  - type: cloze
+    text: "Hacía frío y ___ mucho."
+    answer: "llovía"
+    hint: "llover"
+    translation: "It was cold and it was raining a lot."
+  - type: cloze
+    text: "Mi padre siempre ___ café por la mañana."
+    answer: "tomaba"
+    hint: "tomar"
+    translation: "My father always had coffee in the morning."

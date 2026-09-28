@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0015
+cefr: A2
+order: 15
+title: "Indirect object pronouns: me, te, le, nos, les"
+explanation:
+  en: |
+    Indirect object pronouns answer "**to whom?** / **for whom?**":
+    - **me** — to me, **te** — to you, **le** — to him / her / you (*usted*)
+    - **nos** — to us, **os** — to you (plural, Spain), **les** — to them / you (*ustedes*)
+
+    **Where they go:**
+    - before a conjugated verb: ***Le** di un libro.* — I gave him a book.
+    - attached to an infinitive or gerund: *Quiero decir**le** la verdad.* (or *Le quiero decir…*)
+    - attached to an affirmative command: *Da**me** tu número.*
+
+    Spanish often uses the pronoun **and** the person together: ***Le** escribo **a mi madre**.* — this is normal, not a mistake.
+
+    **Two pronouns together:** the indirect one comes first, and **le / les become se** before *lo, la, los, las*:
+    - *le + lo* → ***se lo***: *¿El libro? **Se lo** di a Pedro.* — I gave it to Pedro.
+comparison:
+  en: |
+    Like Russian dative «мне, тебе, ему»: *¿Me pasas la sal?* ≈ «Передашь мне соль?». *gustar* (lesson 3) uses the same pronouns: *me gusta* = «мне нравится».
+examples:
+  - { text: "Le di un libro.", translation: "I gave him a book.", source: "tatoeba:1292481" }
+  - { text: "¿Me pasas la sal?", translation: "Could you pass me the salt?", source: "tatoeba:357542" }
+  - { text: "Te traje algo.", translation: "I've brought you something.", source: "tatoeba:2152489" }
+  - { text: "Se lo di a él.", translation: "I gave it to him.", source: "tatoeba:13871883" }
+  - { text: "Dáselo a ella.", translation: "Give it to her.", source: "tatoeba:631050" }
+exercises:
+  - type: cloze
+    text: "___ escribo a mi madre cada semana."
+    answer: "Le"
+    hint: "to her"
+    translation: "I write to my mother every week."
+  - type: cloze
+    text: "¿___ das tu número?"
+    answer: "Me"
+    hint: "to me"
+    translation: "Will you give me your number?"
+  - type: cloze
+    text: "Mañana ___ mando un mensaje."
+    answer: "te"
+    hint: "to you (tú)"
+    translation: "I'll send you a message tomorrow."
+  - type: cloze
+    text: "El profesor ___ explica la gramática a los alumnos."
+    answer: "les"
+    hint: "to them"
+    translation: "The teacher explains the grammar to the students."
+  - type: cloze
+    text: "¿El libro? ___ lo di a Pedro."
+    answer: "Se"
+    hint: "le + lo → ?"
+    translation: "The book? I gave it to Pedro."
+  - type: cloze
+    text: "Nuestros padres ___ regalaron un coche."
+    answer: "nos"
+    hint: "to us"
+    translation: "Our parents gave us a car."
+  - type: cloze
+    text: "Quiero decir___ la verdad."
+    answer: "le"
+    hint: "to him — attached to the infinitive"
+    translation: "I want to tell him the truth."

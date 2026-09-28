@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0018
+cefr: A2
+order: 18
+title: "Simple future: hablaré, tendré"
+explanation:
+  en: |
+    The **simple future** adds the endings to the **whole infinitive** — the same for -ar, -er and -ir:
+    - **-é, -ás, -á, -emos, -éis, -án**: hablar**é**, hablar**ás**, hablar**á**, hablar**emos**, hablar**éis**, hablar**án**
+
+    Some common verbs change the stem (the endings stay the same):
+    - **tener → tendr-**, **poner → pondr-**, **salir → saldr-**, **venir → vendr-**, **poder → podr-**, **saber → sabr-**, **querer → querr-**
+    - **hacer → har-**, **decir → dir-**
+
+    *ir a* + infinitive (lesson 4) is more common for plans in speech. The simple future sounds more formal or more certain — promises, predictions: *Lo **haré** mañana.* — I'll do it tomorrow. *No **será** fácil.*
+
+    It is also used to **guess about the present**: *¿Qué hora es? — **Serán** las tres.* — It's probably about three.
+comparison:
+  en: |
+    English "will" is a separate word; Spanish puts it into the ending: *iré* = I'll go. Russian «буду делать / сделаю» has two forms; Spanish has one: *haré*.
+examples:
+  - { text: "Lo haré mañana.", translation: "I'll do it tomorrow.", source: "tatoeba:619612" }
+  - { text: "Mañana estaré aquí.", translation: "I will be here tomorrow.", source: "tatoeba:2038420" }
+  - { text: "No será fácil.", translation: "It won't be easy.", source: "tatoeba:2140053" }
+  - { text: "Iré a Londres.", translation: "I'll go to London.", source: "tatoeba:2108941" }
+  - { text: "Nunca más volveré.", translation: "I'll never come back.", source: "tatoeba:1262310" }
+exercises:
+  - type: cloze
+    text: "Mañana ___ a mis padres."
+    answer: "visitaré"
+    hint: "visitar, yo"
+    translation: "Tomorrow I'll visit my parents."
+  - type: cloze
+    text: "El año que viene ___ en Barcelona."
+    answer: "viviremos"
+    hint: "vivir, nosotros"
+    translation: "Next year we'll live in Barcelona."
+  - type: cloze
+    text: "No te preocupes, lo ___ esta tarde."
+    answer: "haré"
+    hint: "hacer, yo"
+    translation: "Don't worry, I'll do it this afternoon."
+  - type: cloze
+    text: "¿___ tiempo mañana?"
+    answer: "Tendrás"
+    hint: "tener, tú"
+    translation: "Will you have time tomorrow?"
+  - type: cloze
+    text: "Creo que mañana ___."
+    answer: "lloverá"
+    hint: "llover"
+    translation: "I think it will rain tomorrow."
+  - type: cloze
+    text: "Ellos ___ a las ocho."
+    answer: "vendrán"
+    hint: "venir"
+    translation: "They'll come at eight."
+  - type: cloze
+    text: "No ___ ir a la fiesta."
+    answer: "podré"
+    hint: "poder, yo"
+    translation: "I won't be able to go to the party."
+  - type: cloze
+    text: "¿Qué hora es? — No sé, ___ las tres."
+    answer: "serán"
+    hint: "ser — a guess about now"
+    translation: "What time is it? — I don't know, it must be about three."

@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0020
+cefr: A1
+order: 20
+title: "Commands with tú: habla, ven, dime"
+explanation:
+  en: |
+    The **affirmative tú command** is the same as the *él/ella* present form:
+    - **hablar → habla**, **comer → come**, **escribir → escribe**, **cerrar → cierra**
+
+    Eight common verbs are irregular:
+    - **venir → ven**, **tener → ten**, **poner → pon**, **salir → sal**
+    - **hacer → haz**, **decir → di**, **ir → ve**, **ser → sé**
+
+    Pronouns are **attached** to the end, and a written accent often appears to keep the stress: *di + me → **dime***, *sienta + te → **siéntate***, *da + me + lo → **dámelo***.
+
+    This is only for **positive** commands to one person you call *tú*. "Don't…" uses another form (*no hables*) — it comes with the subjunctive later.
+comparison:
+  en: |
+    Like Russian «говори, иди, скажи мне», Spanish attaches the pronoun: *dime* ≈ «скажи мне», *siéntate* ≈ «садись». Be polite with *por favor*; with *usted* the form is different (*hable*, *venga*).
+examples:
+  - { text: "Ven a mi casa.", translation: "Come to my house.", source: "tatoeba:580941" }
+  - { text: "Dime qué pasó.", translation: "Tell me what happened.", source: "tatoeba:1309145" }
+  - { text: "Siéntate aquí.", translation: "Sit here.", source: "tatoeba:3761301" }
+  - { text: "Haz una lista.", translation: "Make a list.", source: "tatoeba:4344845" }
+  - { text: "Mira esa casa.", translation: "Look at that house.", source: "tatoeba:727840" }
+exercises:
+  - type: cloze
+    text: "___ más despacio, por favor."
+    answer: "Habla"
+    hint: "hablar"
+    translation: "Speak more slowly, please."
+  - type: cloze
+    text: "___ aquí, quiero enseñarte algo."
+    answer: "Ven"
+    hint: "venir"
+    translation: "Come here, I want to show you something."
+  - type: cloze
+    text: "___ la ventana, hace calor."
+    answer: "Abre"
+    hint: "abrir"
+    translation: "Open the window, it's hot."
+  - type: cloze
+    text: "___ los deberes antes de cenar."
+    answer: "Haz"
+    hint: "hacer"
+    translation: "Do your homework before dinner."
+  - type: cloze
+    text: "___ la verdad."
+    answer: "Di"
+    hint: "decir"
+    translation: "Tell the truth."
+  - type: cloze
+    text: "___ la mesa, por favor."
+    answer: "Pon"
+    hint: "poner"
+    translation: "Set the table, please."
+  - type: cloze
+    text: "¿Tienes frío? ___ el abrigo."
+    answer: "Ponte"
+    hint: "ponerse"
+    translation: "Are you cold? Put your coat on."
+  - type: cloze
+    text: "___ tu número, por favor."
+    answer: "Dame"
+    hint: "dar + me"
+    translation: "Give me your number, please."

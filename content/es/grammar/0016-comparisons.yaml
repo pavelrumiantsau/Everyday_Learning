@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0016
+cefr: A2
+order: 16
+title: "Comparisons: más… que, tan… como, mejor"
+explanation:
+  en: |
+    **More / less … than:** **más** / **menos** + adjective (or noun, adverb) + **que**
+    - *Soy **más** alto **que** él.* — I'm taller than him.
+    - *Tengo **menos** dinero **que** tú.* — I have less money than you.
+
+    **As … as:** **tan** + adjective + **como**; with a noun **tanto / tanta / tantos / tantas** + noun + **como**
+    - *Soy **tan** alto **como** Tom.*
+    - *No tengo **tantos** libros **como** tú.*
+
+    **Irregular:** **mejor** (better), **peor** (worse), **mayor** (older), **menor** (younger) — no *más*: *Eres **mejor** que yo.*
+
+    **The most:** **el / la / los / las más** + adjective + **de**: *Es el más alto **de** su clase.* — the tallest **in** his class (Spanish uses *de*, not *en*).
+
+    **Very, very:** adjective + **-ísimo**: *caro → carísimo, fácil → facilísimo*.
+comparison:
+  en: |
+    English adds -er or "more"; Spanish always uses *más* (except the four irregular words). Russian «чем» = *que*, «такой же… как» = *tan… como*. Note *mayor / menor* for age: *mi hermano mayor* = «мой старший брат».
+examples:
+  - { text: "Soy más alto que él.", translation: "I am taller than he.", source: "tatoeba:635803" }
+  - { text: "Tengo menos dinero que tú.", translation: "I have less money than you.", source: "tatoeba:1767545" }
+  - { text: "Soy tan alto como Tom.", translation: "I'm as tall as Tom.", source: "tatoeba:580242" }
+  - { text: "Eres mejor que yo.", translation: "You're better than me.", source: "tatoeba:722462" }
+  - { text: "Es el más alto de su clase.", translation: "He is the tallest of his class.", source: "tatoeba:1415392" }
+exercises:
+  - type: cloze
+    text: "Madrid es ___ grande que Sevilla."
+    answer: "más"
+    hint: "more"
+    translation: "Madrid is bigger than Seville."
+  - type: cloze
+    text: "Mi hermano es ___ que yo: tiene 30 años y yo 25."
+    answer: "mayor"
+    hint: "older"
+    translation: "My brother is older than me: he's 30 and I'm 25."
+  - type: cloze
+    text: "Este café es ___ caro como aquel."
+    answer: "tan"
+    hint: "as"
+    translation: "This coffee is as expensive as that one."
+  - type: cloze
+    text: "Hoy hace ___ frío que ayer: ¡qué bien!"
+    answer: "menos"
+    hint: "less"
+    translation: "It's less cold today than yesterday: great!"
+  - type: cloze
+    text: "Esta película es ___ que la otra."
+    answer: "mejor"
+    hint: "better (bueno →)"
+    translation: "This film is better than the other one."
+  - type: cloze
+    text: "Es la ciudad más bonita ___ país."
+    answer: "del"
+    hint: "in (de + el)"
+    translation: "It's the most beautiful city in the country."
+  - type: cloze
+    text: "No tengo ___ libros como tú."
+    answer: "tantos"
+    hint: "as many (libros: masculine plural)"
+    translation: "I don't have as many books as you."
+  - type: cloze
+    text: "El examen fue ___."
+    answer: "facilísimo"
+    hint: "very easy (fácil + -ísimo)"
+    translation: "The exam was very easy."

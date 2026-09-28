@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0019
+cefr: A2
+order: 19
+title: "Present perfect: he hablado"
+explanation:
+  en: |
+    **haber** in the present + **past participle**:
+    - **he, has, ha, hemos, habéis, han** + habl**ado** / com**ido** / viv**ido**
+
+    Common irregular participles: **hecho** (hacer), **dicho** (decir), **visto** (ver), **escrito** (escribir), **puesto** (poner), **vuelto** (volver), **abierto** (abrir), **roto** (romper).
+
+    The participle never changes, and nothing goes between *haber* and it: *Lo **he visto**.*
+
+    In **Spain** it is used for:
+    - a time that **isn't over yet**: *hoy, esta semana, este año*: *Hoy **he trabajado** mucho.*
+    - **experience** and results: *ya* (already), *todavía no* (not yet), *nunca* (never): *Nunca **he estado** allí.*
+
+    For a **finished** time use the preterite: *Ayer **trabajé** mucho.* (In Latin America the preterite is used much more, even with *hoy*.)
+comparison:
+  en: |
+    Very close to the English present perfect: *He perdido la llave* = I've lost my key. Unlike English, Spain uses it with *hoy*: *Hoy he visto a Tom* — "I saw Tom today".
+examples:
+  - { text: "Ya he estado en Roma.", translation: "I have been to Rome.", source: "tatoeba:1392071" }
+  - { text: "Nunca he estado allí.", translation: "I have never been there myself.", source: "tatoeba:859735" }
+  - { text: "Hoy he visto a Tom.", translation: "I saw Tom today.", source: "tatoeba:2011137" }
+  - { text: "¿Has comido algo?", translation: "Have you eaten anything?", source: "tatoeba:13166219" }
+  - { text: "He perdido la llave.", translation: "I lost my key.", source: "tatoeba:330654" }
+exercises:
+  - type: cloze
+    text: "Hoy he ___ mucho."
+    answer: "trabajado"
+    hint: "trabajar"
+    translation: "I've worked a lot today."
+  - type: cloze
+    text: "¿___ visto mis llaves?"
+    answer: "Has"
+    hint: "haber, tú"
+    translation: "Have you seen my keys?"
+  - type: cloze
+    text: "Esta semana hemos ___ tres películas."
+    answer: "visto"
+    hint: "ver"
+    translation: "We've watched three films this week."
+  - type: cloze
+    text: "Todavía no he ___ la carta."
+    answer: "escrito"
+    hint: "escribir"
+    translation: "I haven't written the letter yet."
+  - type: cloze
+    text: "¿Qué has ___ hoy?"
+    answer: "hecho"
+    hint: "hacer"
+    translation: "What have you done today?"
+  - type: cloze
+    text: "Mis padres nunca ___ estado en Asia."
+    answer: "han"
+    hint: "haber, ellos"
+    translation: "My parents have never been to Asia."
+  - type: cloze
+    text: "Ya he ___ de mis vacaciones."
+    answer: "vuelto"
+    hint: "volver"
+    translation: "I've already come back from my holidays."
+  - type: cloze
+    text: "Alguien ha ___ la ventana."
+    answer: "abierto"
+    hint: "abrir"
+    translation: "Someone has opened the window."
