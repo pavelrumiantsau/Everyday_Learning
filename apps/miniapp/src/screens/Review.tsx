@@ -3,6 +3,7 @@ import { useState } from "react";
 import { flushReviews, getQueue, recordReview, type QueueCard, type Rating } from "../api";
 import { Play } from "../Audio";
 import { ClozeReview } from "../features/Grammar";
+import { FixReview } from "./FixReview";
 import { FLAG } from "../flags";
 import { ReportButton } from "../ReportButton";
 import { haptic } from "../telegram";
@@ -50,6 +51,10 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
         <button className="button" onClick={onDone}>На главную</button>
       </main>
     );
+  }
+
+  if (card.kind === "fix") {
+    return <FixReview key={`${card.cardId}-${answered}`} card={card} position={`${index + 1} / ${cards.length}`} progress={index / cards.length} onAnswer={(r) => void answer(r)} />;
   }
 
   if (card.kind === "cloze") {

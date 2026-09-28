@@ -6,6 +6,7 @@ import { ensureCards } from "../daily";
 import { Db } from "../db";
 import type { Feature } from "../feature";
 import { grammarQueueCard } from "./grammar";
+import { ensureMistakeCards, mistakeQueueCards } from "./mistakes";
 
 const api = new Hono<{ Bindings: Env }>();
 
@@ -23,8 +24,12 @@ api.get("/queue", async (c) => {
   const db = new Db(c.env.DB);
   const limit = Math.min(Number(c.req.query("limit") ?? 100) || 100, QUEUE_MAX);
   await ensureCards(db);
+  await ensureMistakeCards(db, c.env.DB);
   const rows = await db.dueCards(Date.now(), limit);
+  const fixes = await mistakeQueueCards(c.env.DB, rows.map((r) => r.item_id)); // "✏️ Как правильно?" cards from the learner's mistakes
   const cards = rows.flatMap((r): object[] => {
+    const fix = fixes.get(r.item_id);
+    if (fix) return [fix];
     const item = ITEM_BY_ID.get(r.item_id);
     const kind = r.card_id.slice(r.card_id.lastIndexOf(":") + 1);
     if (item) return [{ cardId: r.card_id, kind, lang: langOf(item), item }];

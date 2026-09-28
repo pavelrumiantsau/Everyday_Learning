@@ -199,3 +199,7 @@ h2 { margin: 8px 0 0; font-size: 18px; }
 .feedback.wrong b:first-child { color: var(--again); }
 .button:disabled { opacity: 0.5; }
 .rate.suggested { outline: 3px solid var(--text); outline-offset: 2px; }
+
+.fix-line { font-size: 22px; font-weight: 600; line-height: 1.5; }
+.fix-line .del { text-decoration: line-through; color: var(--again); }
+.fix-line .ins { color: var(--good); text-decoration: underline; text-underline-offset: 4px; }

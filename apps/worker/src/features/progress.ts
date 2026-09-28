@@ -5,6 +5,7 @@ import { SCHEDULE } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs, updatePrefs } from "../prefs";
+import { sendWritingReview } from "./mistakes";
 
 const FLAG: Record<Lang, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
 const KINDS = ["podcast", "video", "radio", "reading", "conversation", "other"] as const;
@@ -144,6 +145,7 @@ export const progress: Feature = {
     const claimed = await c.env.DB.prepare("INSERT OR IGNORE INTO settings (key, value) VALUES (?, '1')").bind(`weekly_sent:${day}`).run();
     if (claimed.meta.changes !== 1) return;
     await sendWeekly(c, true);
+    await sendWritingReview(c).catch((err) => console.error("weekly writing review failed", err)); // AI may be down; the report still went out
     return "weekly";
   },
 };

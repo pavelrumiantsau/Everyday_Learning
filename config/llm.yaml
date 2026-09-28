@@ -42,5 +42,7 @@ tasks:
   tutor_chat:       [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
   writing_feedback: [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
   answer_check:     [groq:openai/gpt-oss-20b, groq:openai/gpt-oss-120b]
+  # Sunday review of the week's mistakes (runs in the Worker so the learner's texts never reach public CI logs).
+  weekly_review:    [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
   # Speech-to-text for voice messages. large-v3 is the more accurate one for Lithuanian; turbo is the fallback.
   transcribe:       [groq:whisper-large-v3, groq:whisper-large-v3-turbo]

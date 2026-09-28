@@ -6,7 +6,9 @@ export interface Session { day: string; reviewsToday: number; newToday: number; 
 export interface WordCard { cardId: string; kind: "recog" | "forms" | "prod"; lang: Lang; item: Item }
 /** Grammar exercise card (lt-g-0001:cloze1), created when a lesson is marked done. */
 export interface ClozeCard { cardId: string; kind: "cloze"; lang: Lang; lessonId: string; lessonTitle: string; exercise: Exercise }
-export type QueueCard = WordCard | ClozeCard;
+/** A learner's own mistake (saved by the AI tutor/feedback), reviewed as "how is it right?". */
+export interface FixCard { cardId: string; kind: "fix"; lang: Lang; mistake: { original: string; corrected: string; explanation: string } }
+export type QueueCard = WordCard | ClozeCard | FixCard;
 export type Rating = 1 | 2 | 3 | 4;
 interface PendingReview { id: string; cardId: string; rating: Rating; reviewedAt: number }
 
