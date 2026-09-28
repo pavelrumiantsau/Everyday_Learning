@@ -30,8 +30,8 @@
 |---|---|
 | Lithuanian vocabulary | 599 words (A2–B2, frequency ranks up to 10,000; Tatoeba examples, verb forms, noun genitives, audio); year target ≈ 3,000 |
 | Spanish vocabulary | 138 items (phrasebook + core words, audio) |
-| Reading texts | LT 6 (B1), ES 2 (A1) |
-| Grammar lessons | LT 7 (Q1: -davo, future, conditional, reflexive prefixes, definite adjectives, aspect, genitive), ES 4 |
+| Reading texts | LT 13 (B1; one per Thursday through December), ES 2 (A1) |
+| Grammar lessons | LT 15 (Q1 complete; Q2: participles, pusdalyvis, padalyvis, kuris, -imas nouns, numerals, -siąs/būdinys), ES 4 |
 | French | starts April 2027 |
 
 **Resuming after an interruption:** check this table, `git branch -a` for `feat/*` branches not yet merged into `main`,
