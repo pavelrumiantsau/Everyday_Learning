@@ -7,6 +7,7 @@ import { Db } from "../db";
 import type { Feature } from "../feature";
 import { grammarQueueCard } from "./grammar";
 import { ensureMistakeCards, mistakeQueueCards } from "./mistakes";
+import { learnerItems } from "./reading";
 
 const api = new Hono<{ Bindings: Env }>();
 
@@ -27,9 +28,12 @@ api.get("/queue", async (c) => {
   await ensureMistakeCards(db, c.env.DB);
   const rows = await db.dueCards(Date.now(), limit);
   const fixes = await mistakeQueueCards(c.env.DB, rows.map((r) => r.item_id)); // "✏️ Как правильно?" cards from the learner's mistakes
+  const mine = await learnerItems(c.env.DB, rows.map((r) => r.item_id)); // words added from reading
   const cards = rows.flatMap((r): object[] => {
     const fix = fixes.get(r.item_id);
     if (fix) return [fix];
+    const own = mine.get(r.item_id);
+    if (own) return [{ cardId: r.card_id, kind: r.card_id.slice(r.card_id.lastIndexOf(":") + 1), lang: r.item_id.slice(2, 4), item: own }];
     const item = ITEM_BY_ID.get(r.item_id);
     const kind = r.card_id.slice(r.card_id.lastIndexOf(":") + 1);
     if (item) return [{ cardId: r.card_id, kind, lang: langOf(item), item }];

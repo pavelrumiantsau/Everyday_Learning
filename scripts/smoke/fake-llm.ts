@@ -15,6 +15,12 @@ const answer = (tag: string) =>
     corrected: `${tag} Aš einu namo.`,
     mistakes: [{ original: "Aš eina", corrected: "Aš einu", explanation: "1-е лицо ед. ч.: einu" }],
     comment: "Хорошо!",
+    // word_lookup (reading mode)
+    lemma: "butas",
+    pos: "noun",
+    gender: "m",
+    gen: "buto",
+    meaning: "квартира",
   });
 
 export const FAKE_TRANSCRIPT = "Aš eina namo";
