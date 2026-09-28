@@ -1,3 +1,4 @@
+import { grammarLabel } from "@el/core/labels";
 import { useCallback, useEffect, useState } from "react";
 import { flushReviews, getQueue, getSession, recordReview, type QueueCard, type Rating, type Session } from "./api";
 import { haptic, tg } from "./telegram";
@@ -166,7 +167,7 @@ function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () => void 
   const meaning = item.meaning.ru ?? item.meaning.en;
   const note = item.note?.ru ?? item.note?.en;
   const example = item.examples[0];
-  const grammar = [item.pos, item.gender].filter(Boolean).join(", ");
+  const grammar = grammarLabel(item);
   const head = item.stress ?? item.text;
   const forms = item.forms && `${head} — ${item.forms.pres} — ${item.forms.past}`;
   const isForms = card.kind === "forms" && forms;
@@ -182,6 +183,7 @@ function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () => void 
       <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>
         {isForms && <span className="badge">3 формы</span>}
         <span className="word">{head}</span>
+        {!isForms && item.gen && <span className="gen">{item.gen}</span>}
         {!isForms && grammar && <span className="hint small">{grammar}</span>}
         {revealed ? (
           <span className="answer">

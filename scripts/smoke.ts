@@ -128,6 +128,7 @@ try {
   const formsCard = cards.find((c) => c.cardId.endsWith(":forms")) as { item: { text: string; forms?: { pres: string; past: string } } } | undefined;
   check(formsCard?.item.text === "vėluoti" && formsCard.item.forms?.past === "vėlavo", "a verb gets a separate 3-forms card (vėluoti → vėluoja, vėlavo)");
   check(!!lesson?.body.text.includes("vėluoti, vėluoja, vėlavo"), "the morning lesson shows the verb's 3 forms");
+  check(!!lesson?.body.text.includes("laikas, laiko") && lesson.body.text.includes("сущ., м. р."), "nouns show nominative + genitive and a readable label");
   check(polls.every((p) => !String(p.body.question).includes(",")), "quiz polls stay on meanings (no forms polls)");
 
   const review = { id: crypto.randomUUID(), cardId: cards[0]!.cardId, rating: 3, reviewedAt: Date.now() };

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { principalFormsLine } from "./labels";
 
 export const LANGS = ["lt", "es", "fr"] as const;
 export type Lang = (typeof LANGS)[number];
@@ -25,6 +26,10 @@ export const Item = z
     gender: z.enum(["m", "f", "n", "mf"]).optional(),
     /** Lithuanian verbs: the other two principal forms — present and past, 3rd person (priimti → priima, priėmė). */
     forms: z.object({ pres: z.string().min(1), past: z.string().min(1) }).optional(),
+    /** Lithuanian nouns: genitive singular, as in dictionaries (priežastis → priežasties); genitive plural for plural-only nouns. */
+    gen: z.string().min(1).optional(),
+    /** Plural-only noun (santykiai, duomenys): `gen` is then the genitive plural. */
+    plural_only: z.boolean().optional(),
     meaning: Localized,
     note: Localized.optional(),
     examples: z.array(Example).default([]),
@@ -41,6 +46,9 @@ export const Item = z
     }
     if (lang === "lt" && item.pos === "verb" && !item.forms) {
       ctx.addIssue({ code: "custom", path: ["forms"], message: "Lithuanian verbs need forms: { pres, past } (3rd person)" });
+    }
+    if (lang === "lt" && item.pos === "noun" && !item.gen) {
+      ctx.addIssue({ code: "custom", path: ["gen"], message: "Lithuanian nouns need gen (genitive, as in dictionaries)" });
     }
     if ((item.id[3] === "w") !== (item.type === "word")) {
       ctx.addIssue({ code: "custom", path: ["id"], message: "id letter must match type (w = word, p = phrase)" });
@@ -63,10 +71,9 @@ export function langOf(item: Pick<Item, "id">): Lang {
   return item.id.slice(0, 2) as Lang;
 }
 
-/** "priimti, priima, priėmė" for verbs with principal forms, otherwise the plain text. */
-export function principalForms(item: Item): string {
-  const head = item.stress ?? item.text;
-  return item.forms ? `${head}, ${item.forms.pres}, ${item.forms.past}` : head;
+/** Dictionary form: "priimti, priima, priėmė" for verbs, "priežastis, priežasties" for nouns, otherwise the plain text. */
+export function principalForms(item: Pick<Item, "text" | "stress" | "forms" | "gen">): string {
+  return principalFormsLine(item);
 }
 
 export function meaningOf(item: Item): string {

@@ -7,6 +7,7 @@
   text: "pavojus"
   pos: noun
   gender: m
+  gen: "pavojaus"
   meaning: { ru: "опасность" }
   note: { ru: "gresia pavojus — грозит опасность" }
   examples:
@@ -35,6 +36,7 @@
   text: "tikslas"
   pos: noun
   gender: m
+  gen: "tikslo"
   meaning: { ru: "цель" }
   examples:
     - { text: "Tai mano tikslas.", translation: "Это моя цель.", source: "tatoeba:2991351" }
@@ -61,6 +63,7 @@
   text: "taisyklė"
   pos: noun
   gender: f
+  gen: "taisyklės"
   meaning: { ru: "правило" }
   examples:
     - { text: "Taisyklės labai aiškios.", translation: "Правила очень чёткие.", source: "tatoeba:8114422" }
@@ -89,6 +92,7 @@
   text: "užduotis"
   pos: noun
   gender: f
+  gen: "užduoties"
   meaning: { ru: "задание, задача" }
   examples:
     - { text: "Tai labai lengva užduotis.", translation: "Это очень простое задание.", source: "tatoeba:13072316" }
@@ -115,6 +119,7 @@
   text: "priežastis"
   pos: noun
   gender: f
+  gen: "priežasties"
   meaning: { ru: "причина" }
   note: { ru: "Nėra priežasties — род. п. после «nėra», как «нет причины»" }
   examples:
@@ -143,6 +148,7 @@
   text: "naujiena"
   pos: noun
   gender: f
+  gen: "naujienos"
   meaning: { ru: "новость" }
   note: { ru: "Чаще во мн. ч.: naujienos — новости" }
   examples:
@@ -172,6 +178,7 @@
   text: "kelionė"
   pos: noun
   gender: f
+  gen: "kelionės"
   meaning: { ru: "поездка, путешествие" }
   note: { ru: "Kaip sekėsi…? — Как прошло…?" }
   examples:
@@ -199,6 +206,7 @@
   text: "likimas"
   pos: noun
   gender: m
+  gen: "likimo"
   meaning: { ru: "судьба" }
   examples:
     - { text: "Tai tavo likimas.", translation: "Это твоя судьба.", source: "tatoeba:3624882" }
@@ -225,6 +233,7 @@
   text: "kaina"
   pos: noun
   gender: f
+  gen: "kainos"
   meaning: { ru: "цена" }
   examples:
     - { text: "Jų kaina krito.", translation: "Цена на них упала.", source: "tatoeba:13374749" }
@@ -251,6 +260,7 @@
   text: "verslas"
   pos: noun
   gender: m
+  gen: "verslo"
   meaning: { ru: "бизнес" }
   examples:
     - { text: "Jo verslas sparčiai auga.", translation: "Его бизнес быстро растёт.", source: "tatoeba:13379759" }
@@ -277,6 +287,7 @@
   text: "pasiūlymas"
   pos: noun
   gender: m
+  gen: "pasiūlymo"
   meaning: { ru: "предложение (идея, оферта)" }
   examples:
     - { text: "Ar tu už šitą pasiūlymą?", translation: "Ты за это предложение?", source: "tatoeba:11810727" }
@@ -304,6 +315,7 @@
   text: "skaičius"
   pos: noun
   gender: m
+  gen: "skaičiaus"
   meaning: { ru: "число, количество" }
   examples:
     - { text: "Turistų skaičius išaugo.", translation: "Число туристов возросло.", source: "tatoeba:11636167" }
@@ -330,6 +342,7 @@
   text: "padėtis"
   pos: noun
   gender: f
+  gen: "padėties"
   meaning: { ru: "положение, ситуация" }
   examples:
     - { text: "Padėtis pradeda blogėti.", translation: "Положение начинает ухудшаться.", source: "tatoeba:12974661" }
@@ -357,6 +370,7 @@
   text: "laisvė"
   pos: noun
   gender: f
+  gen: "laisvės"
   meaning: { ru: "свобода" }
   examples:
     - { text: "Jie už laisvę kovojo.", translation: "Они боролись за свободу.", source: "tatoeba:11613237" }
@@ -383,8 +397,9 @@
   text: "santykiai"
   pos: noun
   gender: m
+  gen: "santykių"
+  plural_only: true
   meaning: { ru: "отношения" }
-  note: { ru: "Только мн. ч." }
   examples:
     - { text: "Mūsų santykiai neturėjo ateities.", translation: "У наших отношений не было будущего.", source: "tatoeba:12647048" }
 - id: lt-w-0060
@@ -410,6 +425,7 @@
   text: "įrodymas"
   pos: noun
   gender: m
+  gen: "įrodymo"
   meaning: { ru: "доказательство" }
   note: { ru: "Nėra/neturi jokių įrodymų — род. п. мн. ч." }
   examples:
@@ -439,6 +455,7 @@
   text: "klaida"
   pos: noun
   gender: f
+  gen: "klaidos"
   meaning: { ru: "ошибка" }
   note: { ru: "daryti klaidą — совершать ошибку" }
   examples:
@@ -468,6 +485,7 @@
   text: "pasirinkimas"
   pos: noun
   gender: m
+  gen: "pasirinkimo"
   meaning: { ru: "выбор" }
   examples:
     - { text: "Tai buvo tavo pasirinkimas.", translation: "Это был твой выбор.", source: "tatoeba:12773836" }
@@ -495,6 +513,7 @@
   text: "amžius"
   pos: noun
   gender: m
+  gen: "amžiaus"
   meaning: { ru: "возраст; век" }
   note: { ru: "Два значения: возраст и век (100 лет)" }
   examples:
@@ -523,6 +542,7 @@
   text: "ryšys"
   pos: noun
   gender: m
+  gen: "ryšio"
   meaning: { ru: "связь" }
   note: { ru: "palaikyti ryšį — поддерживать связь" }
   examples:
@@ -550,6 +570,7 @@
   text: "eilė"
   pos: noun
   gender: f
+  gen: "eilės"
   meaning: { ru: "очередь; ряд" }
   examples:
     - { text: "Palaukite savo eilės.", translation: "Подождите своей очереди.", source: "tatoeba:2164822" }
@@ -576,6 +597,7 @@
   text: "sąrašas"
   pos: noun
   gender: m
+  gen: "sąrašo"
   meaning: { ru: "список" }
   note: { ru: "sudaryti sąrašą — составить список" }
   examples:
@@ -604,6 +626,7 @@
   text: "gydytojas"
   pos: noun
   gender: m
+  gen: "gydytojo"
   meaning: { ru: "врач" }
   examples:
     - { text: "Jūs gi gydytojas?", translation: "Вы же врач?", source: "tatoeba:13257019" }
@@ -631,6 +654,7 @@
   text: "tvarka"
   pos: noun
   gender: f
+  gen: "tvarkos"
   meaning: { ru: "порядок" }
   examples:
     - { text: "Kambaryje ideali tvarka.", translation: "В комнате идеальный порядок.", source: "tatoeba:4904430" }
@@ -659,6 +683,7 @@
   text: "ateitis"
   pos: noun
   gender: f
+  gen: "ateities"
   meaning: { ru: "будущее" }
   examples:
     - { text: "Jo ateitis neaiški.", translation: "Его будущее неопределённо.", source: "tatoeba:13093373" }
@@ -686,6 +711,7 @@
   text: "priešas"
   pos: noun
   gender: m
+  gen: "priešo"
   meaning: { ru: "враг" }
   examples:
     - { text: "Kas tavo priešas?", translation: "Кто твой враг?", source: "tatoeba:12322482" }
@@ -713,6 +739,7 @@
   text: "raktas"
   pos: noun
   gender: m
+  gen: "rakto"
   meaning: { ru: "ключ" }
   examples:
     - { text: "Raktas ant stalo.", translation: "Ключ на столе.", source: "tatoeba:13840261" }
@@ -739,6 +766,7 @@
   text: "skausmas"
   pos: noun
   gender: m
+  gen: "skausmo"
   meaning: { ru: "боль" }
   note: { ru: "iš skausmo — от боли" }
   examples:
@@ -758,6 +786,7 @@
   text: "paslaptis"
   pos: noun
   gender: f
+  gen: "paslapties"
   meaning: { ru: "тайна, секрет" }
   examples:
     - { text: "Aš tau papasakosiu paslaptį.", translation: "Я расскажу тебе секрет.", source: "tatoeba:10662310" }
@@ -776,6 +805,7 @@
   text: "akimirka"
   pos: noun
   gender: f
+  gen: "akimirkos"
   meaning: { ru: "мгновение, момент" }
   examples:
     - { text: "Atėjo tiesos akimirka.", translation: "Настал момент истины.", source: "tatoeba:13415047" }
@@ -795,6 +825,7 @@
   text: "sutartis"
   pos: noun
   gender: f
+  gen: "sutarties"
   meaning: { ru: "договор, контракт" }
   examples:
     - { text: "Tai neįeina į sutartį.", translation: "Это не входит в договор.", source: "tatoeba:13398264" }
@@ -813,6 +844,7 @@
   text: "esmė"
   pos: noun
   gender: f
+  gen: "esmės"
   meaning: { ru: "суть" }
   note: { ru: "iš esmės — по сути" }
   examples:
@@ -832,6 +864,7 @@
   text: "proga"
   pos: noun
   gender: f
+  gen: "progos"
   meaning: { ru: "(удобный) случай, повод" }
   examples:
     - { text: "Ji praleido gerą progą.", translation: "Она упустила удобный случай.", source: "tatoeba:12170320" }
@@ -850,6 +883,7 @@
   text: "svečias"
   pos: noun
   gender: m
+  gen: "svečio"
   meaning: { ru: "гость" }
   examples:
     - { text: "Dauguma svečių buvo užsieniečiai.", translation: "Большинство гостей были иностранцами.", source: "tatoeba:11583715" }
@@ -868,6 +902,7 @@
   text: "pokalbis"
   pos: noun
   gender: m
+  gen: "pokalbio"
   meaning: { ru: "разговор; собеседование" }
   examples:
     - { text: "Tai buvo tuščias pokalbis.", translation: "Это был пустой разговор.", source: "tatoeba:11464403" }
@@ -886,6 +921,7 @@
   text: "viltis"
   pos: noun
   gender: f
+  gen: "vilties"
   meaning: { ru: "надежда" }
   examples:
     - { text: "Yra tik viltis.", translation: "Есть только надежда.", source: "tatoeba:11595518" }
@@ -904,6 +940,7 @@
   text: "kvapas"
   pos: noun
   gender: m
+  gen: "kvapo"
   meaning: { ru: "запах" }
   examples:
     - { text: "Koks bjaurus kvapas!", translation: "Какой противный запах!", source: "tatoeba:13217600" }
@@ -922,6 +959,7 @@
   text: "vėjas"
   pos: noun
   gender: m
+  gen: "vėjo"
   meaning: { ru: "ветер" }
   examples:
     - { text: "Vėjas guldo medžius.", translation: "Ветер валит деревья.", source: "tatoeba:8313249" }
@@ -940,6 +978,7 @@
   text: "sąskaita"
   pos: noun
   gender: f
+  gen: "sąskaitos"
   meaning: { ru: "счёт" }
   examples:
     - { text: "Atsiųsk man sąskaitą.", translation: "Пришли мне счёт.", source: "tatoeba:12095398" }
@@ -958,6 +997,7 @@
   text: "pranešimas"
   pos: noun
   gender: m
+  gen: "pranešimo"
   meaning: { ru: "сообщение" }
   examples:
     - { text: "Aš palikau pranešimą.", translation: "Я оставил сообщение.", source: "tatoeba:4724022" }
@@ -976,6 +1016,7 @@
   text: "žingsnis"
   pos: noun
   gender: m
+  gen: "žingsnio"
   meaning: { ru: "шаг" }
   examples:
     - { text: "Tai pirmas žingsnis.", translation: "Это первый шаг.", source: "tatoeba:4733045" }
@@ -994,6 +1035,7 @@
   text: "mokestis"
   pos: noun
   gender: m
+  gen: "mokesčio"
   meaning: { ru: "налог; плата" }
   examples:
     - { text: "Mokesčių tarifas priklauso nuo pajamų.", translation: "Ставка налога зависит от дохода.", source: "tatoeba:11067022" }
@@ -1013,6 +1055,7 @@
   text: "vadovas"
   pos: noun
   gender: m
+  gen: "vadovo"
   meaning: { ru: "руководитель" }
   examples:
     - { text: "Mano vadovas džiūgavo.", translation: "Мой руководитель был в восторге.", source: "tatoeba:12801129" }
@@ -1031,6 +1074,7 @@
   text: "viršininkas"
   pos: noun
   gender: m
+  gen: "viršininko"
   meaning: { ru: "начальник" }
   examples:
     - { text: "Aš tavo viršininkas.", translation: "Я твой начальник.", source: "tatoeba:13364318" }
@@ -1049,6 +1093,7 @@
   text: "vyriausybė"
   pos: noun
   gender: f
+  gen: "vyriausybės"
   meaning: { ru: "правительство" }
   examples:
     - { text: "Visa vyriausybė atsistatydino.", translation: "Правительство в полном составе ушло в отставку.", source: "tatoeba:14052685" }
@@ -1067,8 +1112,9 @@
   text: "duomenys"
   pos: noun
   gender: m
+  gen: "duomenų"
+  plural_only: true
   meaning: { ru: "данные" }
-  note: { ru: "Только мн. ч.; род. п.: duomenų" }
   examples:
     - { text: "Aš tokių duomenų neturiu.", translation: "У меня таких данных нет.", source: "tatoeba:12793190" }
 - id: lt-w-0135
@@ -1086,6 +1132,7 @@
   text: "nauda"
   pos: noun
   gender: f
+  gen: "naudos"
   meaning: { ru: "польза" }
   examples:
     - { text: "Iš to jokios naudos.", translation: "От этого никакой пользы.", source: "tatoeba:12471122" }
@@ -1104,6 +1151,7 @@
   text: "vaizdas"
   pos: noun
   gender: m
+  gen: "vaizdo"
   meaning: { ru: "вид; изображение" }
   examples:
     - { text: "Toks gražus vaizdas!", translation: "Вид такой красивый!", source: "tatoeba:8080612" }
@@ -1123,6 +1171,7 @@
   text: "teisėjas"
   pos: noun
   gender: m
+  gen: "teisėjo"
   meaning: { ru: "судья" }
   examples:
     - { text: "Teisėjas anuliavo aiškų įvartį.", translation: "Судья отменил чистый гол.", source: "tatoeba:11833453" }
@@ -1141,6 +1190,7 @@
   text: "pavadinimas"
   pos: noun
   gender: m
+  gen: "pavadinimo"
   meaning: { ru: "название" }
   examples:
     - { text: "Koks keistas pavadinimas!", translation: "Какое необычное название!", source: "tatoeba:13849022" }
@@ -1159,6 +1209,7 @@
   text: "baimė"
   pos: noun
   gender: f
+  gen: "baimės"
   meaning: { ru: "страх" }
   examples:
     - { text: "Jam baimė nežinoma.", translation: "Ему неведом страх.", source: "tatoeba:12080006" }
@@ -1178,6 +1229,7 @@
   text: "bažnyčia"
   pos: noun
   gender: f
+  gen: "bažnyčios"
   meaning: { ru: "церковь" }
   examples:
     - { text: "Bažnyčia yra šventa vieta.", translation: "Церковь - священное место.", source: "tatoeba:13613221" }
@@ -1196,6 +1248,7 @@
   text: "draudimas"
   pos: noun
   gender: m
+  gen: "draudimo"
   meaning: { ru: "страховка; запрет" }
   note: { ru: "draudimo polisas — страховой полис" }
   examples:
@@ -1215,6 +1268,7 @@
   text: "skonis"
   pos: noun
   gender: m
+  gen: "skonio"
   meaning: { ru: "вкус" }
   examples:
     - { text: "Koks jo skonis?", translation: "Какой он на вкус?", source: "tatoeba:11931492" }
@@ -1233,6 +1287,7 @@
   text: "liga"
   pos: noun
   gender: f
+  gen: "ligos"
   meaning: { ru: "болезнь" }
   examples:
     - { text: "Jos liga paūmėjo.", translation: "Её болезнь обострилась.", source: "tatoeba:13859849" }
@@ -1251,6 +1306,7 @@
   text: "taika"
   pos: noun
   gender: f
+  gen: "taikos"
   meaning: { ru: "мир (не война)" }
   note: { ru: "taika — мир без войны; pasaulis — мир как свет" }
   examples:
@@ -1270,6 +1326,7 @@
   text: "sveikata"
   pos: noun
   gender: f
+  gen: "sveikatos"
   meaning: { ru: "здоровье" }
   examples:
     - { text: "Jo sveikatos būklė gerėja.", translation: "Его состояние здоровья улучшается.", source: "tatoeba:11547731" }
@@ -1288,6 +1345,7 @@
   text: "laikrodis"
   pos: noun
   gender: m
+  gen: "laikrodžio"
   meaning: { ru: "часы" }
   examples:
     - { text: "Kur mano laikrodis?", translation: "Где мои часы?", source: "tatoeba:8929364" }
@@ -1297,6 +1355,7 @@
   text: "pareiga"
   pos: noun
   gender: f
+  gen: "pareigos"
   meaning: { ru: "долг, обязанность" }
   examples:
     - { text: "Visų pirma pareiga.", translation: "Долг превыше всего.", source: "tatoeba:8879984" }
@@ -1306,6 +1365,7 @@
   text: "gėlė"
   pos: noun
   gender: f
+  gen: "gėlės"
   meaning: { ru: "цветок" }
   examples:
     - { text: "Visur buvo gėlės.", translation: "Везде были цветы.", source: "tatoeba:12214181" }
@@ -1315,6 +1375,7 @@
   text: "šventė"
   pos: noun
   gender: f
+  gen: "šventės"
   meaning: { ru: "праздник" }
   examples:
     - { text: "Mieste didelė šventė.", translation: "В городе большой праздник.", source: "tatoeba:11595603" }
@@ -1324,6 +1385,7 @@
   text: "atsakymas"
   pos: noun
   gender: m
+  gen: "atsakymo"
   meaning: { ru: "ответ" }
   examples:
     - { text: "Jūs žinote atsakymą?", translation: "Вы знаете ответ?", source: "tatoeba:1666904" }
@@ -1333,6 +1395,7 @@
   text: "svajonė"
   pos: noun
   gender: f
+  gen: "svajonės"
   meaning: { ru: "мечта" }
   examples:
     - { text: "Tai buvo svajonė.", translation: "Это была мечта.", source: "tatoeba:10876930" }
@@ -1342,6 +1405,7 @@
   text: "stotis"
   pos: noun
   gender: f
+  gen: "stoties"
   meaning: { ru: "станция, вокзал" }
   examples:
     - { text: "Kokia čia metro stotis?", translation: "Это какая станция метро?", source: "tatoeba:10786271" }
@@ -1351,6 +1415,7 @@
   text: "noras"
   pos: noun
   gender: m
+  gen: "noro"
   meaning: { ru: "желание" }
   examples:
     - { text: "Ar jūsų noras išsipildė?", translation: "Ваше желание исполнилось?", source: "tatoeba:12131670" }
@@ -1360,6 +1425,7 @@
   text: "dovana"
   pos: noun
   gender: f
+  gen: "dovanos"
   meaning: { ru: "подарок" }
   note: { ru: "Nepriimu dovanų — род. п. после отрицания" }
   examples:
@@ -1370,6 +1436,7 @@
   text: "tyrimas"
   pos: noun
   gender: m
+  gen: "tyrimo"
   meaning: { ru: "исследование; расследование" }
   examples:
     - { text: "Vyko ilgas tyrimas.", translation: "Было долгое расследование.", source: "tatoeba:13876806" }
@@ -1379,6 +1446,7 @@
   text: "įstatymas"
   pos: noun
   gender: m
+  gen: "įstatymo"
   meaning: { ru: "закон" }
   examples:
     - { text: "Koks kvailas įstatymas!", translation: "Какой дурацкий закон!", source: "tatoeba:9080053" }
@@ -1388,6 +1456,7 @@
   text: "valstybė"
   pos: noun
   gender: f
+  gen: "valstybės"
   meaning: { ru: "государство" }
   examples:
     - { text: "Mes giedojome valstybės himną.", translation: "Мы пели государственный гимн.", source: "tatoeba:13568663" }
@@ -1397,6 +1466,7 @@
   text: "šaltinis"
   pos: noun
   gender: m
+  gen: "šaltinio"
   meaning: { ru: "источник" }
   examples:
     - { text: "Lęšiai yra geras baltymų šaltinis.", translation: "Чечевица - хороший источник белка.", source: "tatoeba:13329028" }
@@ -1406,6 +1476,7 @@
   text: "kaimynas"
   pos: noun
   gender: m
+  gen: "kaimyno"
   meaning: { ru: "сосед" }
   examples:
     - { text: "Jie geri kaimynai.", translation: "Они хорошие соседи.", source: "tatoeba:12741853" }
@@ -1415,6 +1486,7 @@
   text: "lygis"
   pos: noun
   gender: m
+  gen: "lygio"
   meaning: { ru: "уровень" }
   examples:
     - { text: "Tai jau kitas lygis.", translation: "Это уже другой уровень.", source: "tatoeba:12984904" }
@@ -1424,6 +1496,7 @@
   text: "medžiaga"
   pos: noun
   gender: f
+  gen: "medžiagos"
   meaning: { ru: "материал; вещество" }
   note: { ru: "statybinės medžiagos — стройматериалы" }
   examples:
@@ -1434,8 +1507,10 @@
   text: "pusryčiai"
   pos: noun
   gender: m
+  gen: "pusryčių"
+  plural_only: true
   meaning: { ru: "завтрак" }
-  note: { ru: "Только мн. ч., как и pietūs (обед); а vakarienė (ужин) — ед. ч." }
+  note: { ru: "Как и pietūs (обед) — только мн. ч.; а vakarienė (ужин) — ед. ч." }
   examples:
     - { text: "Kas ruoš pusryčius?", translation: "Кто будет готовить завтрак?", source: "tatoeba:9015290" }
 - id: lt-w-0175
@@ -1444,6 +1519,7 @@
   text: "išeitis"
   pos: noun
   gender: f
+  gen: "išeities"
   meaning: { ru: "выход (из положения)" }
   examples:
     - { text: "Pagaliau išeitis buvo rasta.", translation: "Наконец выход был найден.", source: "tatoeba:10721735" }

@@ -84,6 +84,20 @@ describe("principal forms", () => {
   });
 });
 
+describe("nouns", () => {
+  it("need a genitive in Lithuanian and show dictionary form + readable labels", () => {
+    const base = { id: "lt-w-0101", type: "word", cefr: "B1", text: "priežastis", pos: "noun", gender: "f", meaning: { ru: "причина" } };
+    expect(() => Item.parse(base)).toThrow(/gen/);
+    const item = Item.parse({ ...base, gen: "priežasties" });
+    expect(formatNewItem(item)).toContain("priežastis, priežasties");
+    expect(formatNewItem(item)).toContain("сущ., ж. р.");
+  });
+  it("Spanish nouns need no genitive and get English labels", () => {
+    const item = Item.parse({ id: "es-w-0101", type: "word", cefr: "A1", text: "casa", pos: "noun", gender: "f", meaning: { en: "house" } });
+    expect(formatNewItem(item)).toContain("noun, fem.");
+  });
+});
+
 describe("format", () => {
   it("escapes HTML", () => {
     const item = Item.parse({ id: "lt-w-0009", type: "word", cefr: "A2", text: "a<b", meaning: { ru: "x&y" } });

@@ -6,6 +6,7 @@
   cefr: A2
   text: laikas
   pos: noun
+  gen: laiko
   gender: m
   meaning: { ru: время }
   note: { ru: "После отрицания — родительный падеж, как в русском: neturiu laiko" }
@@ -16,6 +17,7 @@
   cefr: A2
   text: susitikimas
   pos: noun
+  gen: susitikimo
   gender: m
   meaning: { ru: встреча }
   examples:
@@ -25,6 +27,7 @@
   cefr: A2
   text: nuomonė
   pos: noun
+  gen: nuomonės
   gender: f
   meaning: { ru: мнение }
   examples:
@@ -34,6 +37,7 @@
   cefr: B1
   text: sprendimas
   pos: noun
+  gen: sprendimo
   gender: m
   meaning: { ru: решение }
   examples:
@@ -71,6 +75,7 @@
   cefr: B1
   text: galimybė
   pos: noun
+  gen: galimybės
   gender: f
   meaning: { ru: возможность }
   examples:
@@ -80,6 +85,7 @@
   cefr: B1
   text: patirtis
   pos: noun
+  gen: patirties
   gender: f
   meaning: { ru: опыт }
   note: { ru: "daug + род. п.: daug patirties — большой опыт" }
@@ -134,6 +140,7 @@
   cefr: B1
   text: aplinka
   pos: noun
+  gen: aplinkos
   gender: f
   meaning: { ru: окружение, среда }
   examples:

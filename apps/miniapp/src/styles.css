@@ -105,3 +105,4 @@ button { font: inherit; color: inherit; border: 0; cursor: pointer; }
 .badge { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
 .forms { font-size: 16px; font-weight: 600; }
 .forms.big { font-size: 22px; }
+.gen { font-size: 18px; margin-top: -4px; }
