@@ -1,0 +1,84 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0009
+cefr: B1
+order: 9
+title: "Действительные причастия прошедшего времени: pavargęs, pavargusi"
+explanation:
+  ru: |
+    Причастие *grįžęs* — это «вернувшийся», то есть «который вернулся». Оно описывает действие, которое **уже произошло**, и часто — состояние, которое из него получилось: *pavargęs* — «уставший» (устал и теперь устал).
+
+    **Образование** — от 3-го лица прошедшего времени: отбрасываем **-o / -ė** и добавляем **-ęs** (м. р.), **-usi** (ж. р.):
+    - grįžo → **grįžęs, grįžusi**; мн. **grįžę, grįžusios**
+    - pavargo → **pavargęs, pavargusi**; atėjo → **atėjęs, atėjusi**; buvo → **buvęs, buvusi**
+    - у глаголов на *-yti* с прошедшим на *-ė* в ж. р. и в косвенных падежах основа смягчается: matė → matęs, **mačiusi**; sakė → sakęs, **sakiusi**
+
+    **Склонение** (основа **-us-**):
+    - им.: pavargęs, pavargusi — мн. **pavargę**, pavargusios
+    - род.: pavargusio, pavargusios — мн. pavargusių
+    - дат.: pavargusiam, pavargusiai — мн. pavargusiems, pavargusioms
+    - вин.: **pavargusį**, pavargusią — мн. pavargusius, pavargusias
+    - тв.: pavargusiu, pavargusia — мн. pavargusiais, pavargusiomis
+    - мест.: pavargusiame, pavargusioje — мн. pavargusiuose, pavargusiose
+
+    **Употребление**:
+    - **состояние** после глаголов *būti, atrodyti, jaustis*: *Jis atrodo **pavargęs**. Jaučiuosi **pavargusi**.* Причастие согласуется с подлежащим в роде и числе.
+    - **«который сделал»**: *likusi duona* — оставшийся хлеб; ***praėjusią** savaitę* — на прошлой неделе.
+    - **составные времена**: *būti* + причастие = «имел опыт, уже сделал»: *Esu **buvęs** Paryžiuje* — я бывал в Париже; *Niekada nesu **mačiusi** jūros* — я (ж.) никогда не видела моря.
+    - **«сделав»** — предшествующее действие того же лица (см. урок о *pusdalyvis*): ***Grįžęs** radau laiškų* — вернувшись, я нашёл письма.
+comparison:
+  ru: |
+    По форме это русские причастия на *-вший/-ший* (*вернувшийся, уставший*), но литовское причастие гораздо живее. В русском «Он выглядит уставшим» — творительный, в литовском — **именительный**: *Jis atrodo pavargęs*, *Ji atrodo pavargusi*.
+
+    Третья функция — как русское деепричастие совершенного вида: *Grįžęs* = «вернувшись». Но, в отличие от русского, оно **изменяется по роду и числу**: *grįžęs* (он), *grįžusi* (она), *grįžę* (они).
+
+    Конструкция *esu matęs* похожа на английский Present Perfect (*I have seen*): говорит об опыте, а не о конкретном моменте.
+examples:
+  - { text: "Tu atrodai labai pavargusi.", translation: "Ты выглядишь очень уставшей.", source: "tatoeba:8080594" }
+  - { text: "Vaikai suvalgė likusią duoną.", translation: "Дети съели оставшийся хлеб.", source: "tatoeba:9085385" }
+  - { text: "Aš jį mačiau praėjusią savaitę.", translation: "Я видел его на прошлой неделе.", source: "tatoeba:6904116" }
+  - { text: "Esu jį sutikęs anksčiau.", translation: "Я встречал его раньше.", source: "tatoeba:2219648" }
+  - { text: "Grįžęs radau keletą laiškų.", translation: "Вернувшись, я нашёл несколько писем.", source: "tatoeba:6003252" }
+exercises:
+  - type: cloze
+    text: "Ji atrodo labai ___."
+    answer: "pavargusi"
+    hint: "pavargti (pavargo), ж. р."
+    translation: "Она выглядит очень уставшей."
+  - type: cloze
+    text: "Mes grįžome namo ___."
+    answer: "pavargę"
+    hint: "pavargti (pavargo), мн. ч. м. р."
+    translation: "Мы вернулись домой уставшими."
+  - type: cloze
+    text: "Tai laiškas, ___ iš Kauno."
+    answer: "atėjęs"
+    hint: "ateiti (atėjo), им. п. м. р."
+    translation: "Это письмо, пришедшее из Каунаса."
+  - type: cloze
+    text: "Mano sesuo niekada nėra ___ jūros."
+    answer: "mačiusi"
+    hint: "matyti (matė), ж. р."
+    translation: "Моя сестра никогда не видела моря."
+  - type: cloze
+    text: "Ar jūs esate ___ Paryžiuje?"
+    answer: "buvę"
+    also: ["buvęs", "buvusi", "buvusios"]
+    hint: "būti (buvo), мн. ч. м. р."
+    translation: "Вы бывали в Париже?"
+  - type: cloze
+    text: "Surinkome visus ___ obuolius."
+    answer: "nukritusius"
+    hint: "nukristi (nukrito), вин. п. мн. ч. м. р."
+    translation: "Мы собрали все упавшие яблоки."
+  - type: cloze
+    text: "___ savaitę buvau Rygoje."
+    answer: "Praėjusią"
+    hint: "praeiti (praėjo), вин. п. ж. р."
+    translation: "На прошлой неделе я был в Риге."
+  - type: cloze
+    text: "___ namo, ji iškart atsigulė."
+    answer: "Grįžusi"
+    hint: "grįžti (grįžo), ж. р."
+    translation: "Вернувшись домой, она сразу легла."
