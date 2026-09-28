@@ -1,0 +1,87 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0018
+cefr: B2
+order: 18
+title: "Страдательный залог и безличные обороты: parašyta rašytojo, sakoma, kad…"
+explanation:
+  ru: |
+    В двух предыдущих уроках были причастия *statomas* (процесс) и *pastatytas* (результат). Теперь — как с ними строить предложения.
+
+    **1. Кто сделал — в родительном падеже.** Деятель при страдательном причастии стоит в **родительном**, а не в творительном:
+    - *Knyga parašyta **rašytojo*** — книга написана писателем;
+    - *Jis yra **visų** mylimas* — он всеми любим;
+    - *Namas pastatytas **mano senelio*** — дом построен моим дедом.
+
+    Родительный часто ставят **перед** причастием: *mano tėvo parašyta knyga* — «написанная моим отцом книга».
+
+    **2. Средний род: -ma, -ta.** Если подлежащего нет, причастие стоит в форме **среднего рода**. На письме она совпадает с ж. р. (*daroma, padaryta*), но ни с чем не согласуется. Так строятся безличные предложения:
+    - запреты и разрешения: *Čia rūkyti **draudžiama*** — здесь курить запрещено; *Įeiti **leidžiama*** — входить разрешено;
+    - «говорят, считают»: ***Sakoma**, kad…* — говорят, что…; ***Kalbama**, kad…* — ходят слухи, что…; ***Manoma**, kad…* — полагают, что…;
+    - решения и итоги: ***Buvo nuspręsta** / **nutarta**…* — было решено…; *Gerai **padaryta**!* — хорошо сделано!;
+    - поговорки: ***Pasakyta — padaryta*** — сказано — сделано; *Kas **padaryta**, tai **padaryta*** — что сделано, то сделано.
+
+    Время — опять через *būti*: *sakoma* (говорят), *buvo sakoma* (говорили), *bus sakoma* (будут говорить).
+
+    **3. Для узнавания.** Средний род с родительным иногда передаёт вывод по следам: *Čia **būta** žmonių* — видно, здесь были люди. В разговоре так говорят редко, но в книгах встречается.
+comparison:
+  ru: |
+    Главная ловушка: в русском деятель в **творительном** — «написана **писателем**», в литовском — в **родительном**: *parašyta **rašytojo***. Форма *parašyta rašytoju* — ошибка: творительный в литовском значит «с помощью чего»: *parašyta pieštuku* — написано карандашом.
+
+    Безличные обороты почти совпадают с русскими:
+    - «говорят, что…» — *sakoma, kad…* / *kalbama, kad…*;
+    - «запрещено курить» — *rūkyti draudžiama* (в литовском — настоящее время: «запрещается»);
+    - «сказано — сделано» — *pasakyta — padaryta*;
+    - «было решено» — *buvo nuspręsta*.
+
+    Но в литовском такие формы гораздо частотнее: вместо неопределённо-личного «здесь продают, говорят, строят» литовец часто выберет *čia parduodama, sakoma, statoma*.
+examples:
+  - { text: "Šiomis dienomis aš aptikau knygą, parašytą mano tėvo.", translation: "На днях я обнаружил книгу, написанную моим отцом.", source: "tatoeba:13360796" }
+  - { text: "Jis yra visų mylimas.", translation: "Он всеми любим.", source: "tatoeba:13530216" }
+  - { text: "Mokyklos teritorijoje rūkyti draudžiama.", translation: "Курение на территории школы запрещено.", source: "tatoeba:1216655" }
+  - { text: "Sakoma, kad jis buvo labai turtingas.", translation: "Говорят, он был очень богат.", source: "tatoeba:3212054" }
+  - { text: "Gerai, kas padaryta, tai padaryta.", translation: "Ладно, что сделано, то сделано.", source: "tatoeba:11981932" }
+exercises:
+  - type: cloze
+    text: "Ši knyga parašyta žinomo ___."
+    answer: "rašytojo"
+    hint: "rašytojas — деятель"
+    translation: "Эта книга написана известным писателем."
+  - type: cloze
+    text: "Jis yra ___ mylimas."
+    answer: "visų"
+    hint: "visi — деятель"
+    translation: "Он всеми любим."
+  - type: cloze
+    text: "Šis namas ___ mano senelio."
+    answer: "pastatytas"
+    hint: "pastatyti, м. р."
+    translation: "Этот дом построен моим дедом."
+  - type: cloze
+    text: "Vaikas buvo įkąstas ___."
+    answer: "šuns"
+    hint: "šuo — деятель"
+    translation: "Ребёнка укусила собака."
+  - type: cloze
+    text: "Čia rūkyti ___."
+    answer: "draudžiama"
+    hint: "drausti (draudžia), ср. р."
+    translation: "Здесь курить запрещено."
+  - type: cloze
+    text: "___, kad jis labai turtingas."
+    answer: "Sakoma"
+    also: ["Kalbama"]
+    hint: "sakyti (sako), ср. р."
+    translation: "Говорят, что он очень богат."
+  - type: cloze
+    text: "Pasakyta — ___."
+    answer: "padaryta"
+    hint: "padaryti, ср. р."
+    translation: "Сказано — сделано."
+  - type: cloze
+    text: "Susirinkime buvo ___ statyti naują mokyklą."
+    answer: "nuspręsta"
+    also: ["nutarta"]
+    hint: "nuspręsti, ср. р."
+    translation: "На собрании было решено строить новую школу."
