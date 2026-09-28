@@ -4,6 +4,7 @@ import { Hono } from "hono";
 import { LESSON_BY_ID, LESSONS, SCHEDULE } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
+import { getPrefs } from "../prefs";
 
 const MORNING_WINDOW_MIN = 180; // same window as the morning lesson (daily.ts)
 const FLAG: Record<string, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
@@ -81,7 +82,7 @@ async function ruleCommand(ctx: BotContext) {
 
 async function onTick(ctx: BotContext): Promise<string | void> {
   const { hhmm } = localClock(ctx.now, SCHEDULE.timezone);
-  if (!inWindow(hhmm, SCHEDULE.morning, MORNING_WINDOW_MIN)) return;
+  if (!inWindow(hhmm, (await getPrefs(ctx.db)).morning, MORNING_WINDOW_MIN)) return; // the learner's morning time (⚙️)
   const { day, lesson } = await todayLesson(ctx.env.DB, ctx.now);
   if (!lesson || !(await claimSent(ctx.env.DB, day, ctx.now.getTime()))) return;
   await sendRule(ctx, lesson);

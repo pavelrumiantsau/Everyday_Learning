@@ -48,7 +48,9 @@ export async function ensureCards(db: Db, now = new Date()): Promise<number> {
 
 /** Called by the 15-minute cron: morning lesson, evening reminder, then each feature's onTick. */
 export async function tick(ctx: BotContext): Promise<string> {
-  const done = [await coreTick(ctx.db, ctx.tg, ctx.ownerId, ctx.webAppUrl, ctx.now)];
+  const core = await coreTick(ctx.db, ctx.tg, ctx.ownerId, ctx.webAppUrl, ctx.now);
+  if (core === "paused") return core; // holiday: no feature sends anything either
+  const done = [core];
   const { FEATURES } = await import("./features");
   for (const f of FEATURES) {
     try {
