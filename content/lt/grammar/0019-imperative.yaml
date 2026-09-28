@@ -1,0 +1,89 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0019
+cefr: B1
+order: 19
+title: "Повелительное наклонение: dirbk, dirbkime, dirbkite"
+explanation:
+  ru: |
+    Повелительное наклонение образуется очень регулярно: берём **инфинитив**, отбрасываем *-ti* и добавляем **-k** (ты), **-kime** (мы, «давайте»), **-kite** (вы):
+    - dirbti → **dirbk, dirbkime, dirbkite**
+    - skaityti → **skaityk, skaitykime, skaitykite**
+    - kalbėti → **kalbėk**; padėti → **padėk**; važiuoti → **važiuok, važiuokime**
+    - eiti → **eik, eikime, eikite**; būti → **būk, būkime, būkite**; duoti → **duok, duokime, duokite**
+
+    Если основа кончается на **-g-** или **-k-**, они сливаются с *-k*: bėgti → **bėk, bėkite**; palaukti → **palauk, palaukite**.
+
+    **Возвратные глаголы**: после *-k* идёт *-is / -imės / -itės*:
+    - praustis → **prauskis, prauskimės, prauskitės**
+    - mokytis → **mokykis, mokykimės, mokykitės**; keltis → **kelkis**
+    - с приставкой *-si-* остаётся внутри (урок 4): atsisėsti → **atsisėsk, atsisėskite**; nusiraminti → **nusiramink**
+
+    **Отрицание** — приставка **ne-**: ***neišeik*** — не уходи; ***nepamiršk*** — не забудь. У возвратных *-si-* переходит к *ne-*: jaudintis → ***nesijaudink*** — не волнуйся.
+
+    **3-е лицо** — *tegu(l)* + настоящее время: ***Tegul** jis **palaukia*** — пусть он подождёт.
+
+    **Вежливость**. Форма на **-kite** — и множественное число, и вежливое «вы» одному человеку. Смягчить просьбу можно так:
+    - ***Prašau**, palaukite* — подождите, пожалуйста;
+    - ***Prašom / Prašome*** + инфинитив: *Prašome palaukti* — просим подождать (объявления, официальный тон);
+    - ***Gal galėtumėte*** + инфинитив (условное наклонение, урок 3): *Gal galėtumėte padėti?* — не могли бы вы помочь?
+
+    В разговоре вместо *eikime, važiuokime* часто говорят ***Einam! Važiuojam!*** — как русское «Пошли! Поехали!».
+comparison:
+  ru: |
+    Формы соответствуют русским «работай — давайте работать / работаем! — работайте», но литовские образуются намного проще: всегда от инфинитива, без чередований вроде *писать → пиши*. Литовское *-kime* — это одно слово вместо русского «давай(те) + глагол»: *Važiuokime!* — «Давай поедем!».
+
+    Возвратная частица стоит в конце, как в русском: *prauskis* — «умойся», *prauskitės* — «умойтесь». Но при отрицании или приставке она «прыгает» внутрь: *nesijaudink* — «не волнуйся», *atsisėskite* — «садитесь».
+
+    *Prašom* многозначно, как русское «пожалуйста»: ответ на «спасибо» (*Ačiū! — Prašom!*), приглашение (*Prašom į vidų* — проходите) и вежливая просьба с инфинитивом.
+examples:
+  - { text: "Būk atsargus kelyje namo.", translation: "Будь осторожен по дороге домой.", source: "tatoeba:1635488" }
+  - { text: "Važiuokime prie ežero.", translation: "Давай съездим на озеро.", source: "tatoeba:11525993" }
+  - { text: "Jauskitės kaip namuose.", translation: "Чувствуйте себя как дома.", source: "tatoeba:10523072" }
+  - { text: "Nepamiršk palaistyti gėlių.", translation: "Не забудь полить цветы.", source: "tatoeba:13330684" }
+  - { text: "Prašome palaukti penkias minutes.", translation: "Пожалуйста, подождите пять минут.", source: "tatoeba:1635336" }
+exercises:
+  - type: cloze
+    text: "___ čia, aš tuoj grįšiu."
+    answer: "Palauk"
+    hint: "palaukti, ты"
+    translation: "Подожди здесь, я сейчас вернусь."
+  - type: cloze
+    text: "Vaikai, ___ rankas prieš valgį."
+    answer: "plaukite"
+    also: ["nusiplaukite"]
+    hint: "plauti, вы"
+    translation: "Дети, мойте руки перед едой."
+  - type: cloze
+    text: "___ namo, jau vėlu!"
+    answer: "Eikime"
+    also: ["Einam", "Einame"]
+    hint: "eiti, мы"
+    translation: "Пойдём домой, уже поздно!"
+  - type: cloze
+    text: "Rytoj ___ anksti!"
+    answer: "kelkis"
+    hint: "keltis, ты"
+    translation: "Завтра вставай рано!"
+  - type: cloze
+    text: "___, prašau, ir jauskitės kaip namuose."
+    answer: "Atsisėskite"
+    also: ["Sėskitės"]
+    hint: "atsisėsti, вы"
+    translation: "Садитесь, пожалуйста, и чувствуйте себя как дома."
+  - type: cloze
+    text: "___, viskas bus gerai."
+    answer: "Nesijaudink"
+    hint: "jaudintis, ты, с отрицанием"
+    translation: "Не волнуйся, всё будет хорошо."
+  - type: cloze
+    text: "Prašome ___ bilietus."
+    answer: "parodyti"
+    hint: "parodyti — после Prašome"
+    translation: "Пожалуйста, предъявите билеты."
+  - type: cloze
+    text: "Gal ___ man padėti?"
+    answer: "galėtumėte"
+    hint: "galėti, вежливое «вы»"
+    translation: "Не могли бы вы мне помочь?"

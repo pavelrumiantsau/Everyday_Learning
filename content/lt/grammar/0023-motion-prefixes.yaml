@@ -1,0 +1,85 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0023
+cefr: B2
+order: 23
+title: "Приставки движения: įeiti, išeiti, ateiti, nueiti…"
+explanation:
+  ru: |
+    С глаголами движения (*eiti* — идти, *nešti* — нести, *važiuoti* — ехать, *bėgti* — бежать, *lėkti* — лететь) приставка показывает **направление**. Система очень похожа на русскую, но несколько приставок «сдвинуты» — их надо выучить отдельно.
+
+    **Приставки и их значение** (в скобках — предлог, который обычно идёт после):
+    - **į-** — внутрь: *įeiti **į** kambarį* — войти в комнату; įnešti, įvažiuoti
+    - **iš-** — наружу, прочь: *išeiti **iš** namų* — выйти из дома; *Jis jau išėjo* — он уже ушёл; išnešti, išvažiuoti (уехать)
+    - **at-** — прибытие сюда: *ateiti **pas** draugą* — прийти к другу; atnešti (принести), atvažiuoti (приехать)
+    - **nu-** — туда, до места; вниз: *nueiti **į** parduotuvę* — сходить в магазин; nunešti (отнести), nuvažiuoti (съездить, доехать); nulipti (слезть)
+    - **per-** — через: *pereiti gatvę* — перейти улицу; pernešti, pervažiuoti
+    - **pri-** — вплотную к: *prieiti **prie** durų* — подойти к двери; privažiuoti (подъехать)
+    - **pra-** — мимо, сквозь: *praeiti **pro** namą* — пройти мимо дома; pravažiuoti; о времени: *praėjo savaitė* — прошла неделя
+    - **su-** — вместе, в одну точку: *sueiti* — сойтись, собраться; sunešti (снести в одно место)
+    - **už-** — зайти по пути; за; наверх: *užeiti **pas** draugą* — зайти к другу; užlipti (влезть наверх), užvažiuoti (заехать)
+    - **pa-** — немного; под: *paeiti* — пройти немного, *pavažiuoti* — проехать немного
+    - **ap-** — вокруг: *apeiti* — обойти, *apvažiuoti* — объехать
+
+    **Спряжение не меняется** — приставка просто прибавляется: eina → **at**eina, ėjo → **iš**ėjo, eis → **nu**eis; veža → **at**veža; nešė → **at**nešė.
+
+    **Переносные значения** есть и здесь: *išeiti iš darbo* — уволиться, *pereiti prie anglų kalbos* — перейти на английский, *pranešti* — сообщить (не «пронести»!).
+comparison:
+  ru: |
+    Большинство приставок совпадает с русскими: **į-** = в-, **iš-** = вы-, **per-** = пере-, **pra-** = про-, **su-** = с-, **už-** = за-, **ap-** = об-.
+
+    Три главные ловушки:
+    - русское **при-** — это литовское **at-**: *прийти* — *ateiti*, *принести* — *atnešti*, *приехать* — *atvažiuoti*.
+    - литовское **pri-** — это русское **под-**: *prieiti prie durų* — *подойти* к двери, *privažiuoti* — подъехать.
+    - русское **у-** («ушёл, уехал») обычно передаётся через **iš-**: *išėjo, išvažiavo*; а *nu-* — это скорее «сходил, съездил, отнёс»: *nuėjo į parduotuvę* — пошёл (сходил) в магазин.
+
+    И ещё: **pa-** с глаголами движения — не «по-» в смысле начала движения (*пошёл* = *nuėjo* или *išėjo*), а «немного»: *paeik truputį* — пройди немножко.
+examples:
+  - { text: "Tomas įėjo į savo butą.", translation: "Том вошёл в свою квартиру.", source: "tatoeba:3934180" }
+  - { text: "Jis apsirengė ir išėjo į lauką.", translation: "Он оделся и вышел на улицу.", source: "tatoeba:3105725" }
+  - { text: "Tomas atnešė man kavos.", translation: "Том принёс мне кофе.", source: "tatoeba:4672748" }
+  - { text: "Tomas priėjo arčiau.", translation: "Том подошёл ближе.", source: "tatoeba:9769574" }
+  - { text: "Užeik, lauke šalta!", translation: "Заходи, на улице холодно!", source: "tatoeba:2153780" }
+exercises:
+  - type: cloze
+    text: "Tomas ___ į kambarį ir atsisėdo."
+    answer: "įėjo"
+    hint: "eiti + «в», прош. вр."
+    translation: "Том вошёл в комнату и сел."
+  - type: cloze
+    text: "Rytoj aš ___ iš namų anksti."
+    answer: "išeisiu"
+    hint: "eiti + «вы», буд. вр."
+    translation: "Завтра я рано выйду из дома."
+  - type: cloze
+    text: "Ar gali ___ man vandens?"
+    answer: "atnešti"
+    hint: "nešti + «при»"
+    translation: "Можешь принести мне воды?"
+  - type: cloze
+    text: "Jis ___ prie durų ir pabeldė."
+    answer: "priėjo"
+    hint: "eiti + «под», прош. вр."
+    translation: "Он подошёл к двери и постучал."
+  - type: cloze
+    text: "Senelė lėtai ___ gatvę."
+    answer: "perėjo"
+    hint: "eiti + «пере», прош. вр."
+    translation: "Бабушка медленно перешла улицу."
+  - type: cloze
+    text: "Autobusas ___ pro mūsų namą."
+    answer: "pravažiavo"
+    hint: "važiuoti + «мимо», прош. вр."
+    translation: "Автобус проехал мимо нашего дома."
+  - type: cloze
+    text: "Grįždamas namo, ___ pas draugą."
+    answer: "užėjau"
+    hint: "eiti + «за», прош. вр., я"
+    translation: "Возвращаясь домой, я зашёл к другу."
+  - type: cloze
+    text: "Savaitgalį mes ___ į Trakus."
+    answer: "nuvažiuosime"
+    also: ["nuvažiuosim"]
+    hint: "važiuoti + «съездить», буд. вр."
+    translation: "На выходных мы съездим в Тракай."

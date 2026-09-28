@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0012
+cefr: A1
+order: 12
+title: "Possessives and demonstratives: mi, nuestro, mío; este, ese, aquel"
+explanation:
+  en: |
+    **Possessives before a noun** ("my", "your"…) agree with the **thing owned**, not with the owner:
+    - **mi / mis** — my: *mi libro, mis libros*
+    - **tu / tus** — your: *tu casa, tus padres*
+    - **su / sus** — his, her, its, their, your (*usted/ustedes*): *su coche, sus hijos*
+    - **nuestro, nuestra, nuestros, nuestras** — our: *nuestra casa, nuestros amigos*
+    - **vuestro, vuestra, vuestros, vuestras** — your (plural, Spain)
+
+    **Stressed possessives** ("mine", "yours") come after *ser* or after the noun, and also agree: **mío, mía, míos, mías**; **tuyo, tuya…**; **suyo, suya…**; *nuestro…*: *Este libro es **mío**.* — This book is mine. *La culpa es **tuya**.* — It's your fault.
+
+    **Demonstratives** have three distances:
+    - **este, esta, estos, estas** — this (near me)
+    - **ese, esa, esos, esas** — that (near you / not far)
+    - **aquel, aquella, aquellos, aquellas** — that over there (far from both)
+
+    They agree with the noun: *este coche, esta mesa, esos zapatos, aquella casa*.
+
+    **Neuter forms** **esto, eso, aquello** point to an idea or an unknown thing — never to a named noun: *¿Qué es **esto**?* — What is this? ***Eso** es verdad.* — That's true.
+comparison:
+  en: |
+    Unlike English "his/her", *su* doesn't show whose it is: *su coche* can be his, her, their or your (formal) car — context decides; for clarity say *el coche de ella*.
+    Like Russian «мой/моя/моё», Spanish possessives change for the gender and number of the thing: *nuestro coche, nuestra casa* (≈ «наш дом, наша квартира»). *mi, tu, su* only change for number.
+examples:
+  - { text: "Este libro es mío.", translation: "This is my book.", source: "tatoeba:360263" }
+  - { text: "Nos gusta nuestra casa.", translation: "We like our house.", source: "tatoeba:10032310" }
+  - { text: "Esa mesa está rota.", translation: "That table is broken.", source: "tatoeba:6814537" }
+  - { text: "¿Es aquel tu gato?", translation: "Is that your cat?", source: "tatoeba:10172648" }
+  - { text: "Esto es mío.", translation: "This is mine.", source: "tatoeba:2626532" }
+exercises:
+  - type: cloze
+    text: "___ padres viven en Madrid."
+    answer: "Mis"
+    hint: "my (plural noun)"
+    translation: "My parents live in Madrid."
+  - type: cloze
+    text: "¿Dónde está ___ coche, Ana?"
+    answer: "tu"
+    hint: "your (tú)"
+    translation: "Where is your car, Ana?"
+  - type: cloze
+    text: "___ casa es pequeña, pero bonita."
+    answer: "Nuestra"
+    hint: "our (casa is feminine)"
+    translation: "Our house is small but pretty."
+  - type: cloze
+    text: "Este teléfono no es mío, es ___."
+    answer: "tuyo"
+    hint: "yours (tú), teléfono is masculine"
+    translation: "This phone isn't mine, it's yours."
+  - type: cloze
+    text: "Me gusta ___ camisa que llevas."
+    answer: "esa"
+    hint: "that (near you), camisa is feminine"
+    translation: "I like that shirt you're wearing."
+  - type: cloze
+    text: "___ libros de aquí son muy interesantes."
+    answer: "Estos"
+    hint: "these (near me), plural masculine"
+    translation: "These books here are very interesting."
+  - type: cloze
+    text: "¿Ves ___ montaña allí, muy lejos?"
+    answer: "aquella"
+    hint: "that one over there, montaña is feminine"
+    translation: "Do you see that mountain there, very far away?"
+  - type: cloze
+    text: "¿Qué es ___? — Es un regalo para ti."
+    answer: "esto"
+    also: ["eso"]
+    hint: "neuter: an unknown thing"
+    translation: "What is this? — It's a present for you."
