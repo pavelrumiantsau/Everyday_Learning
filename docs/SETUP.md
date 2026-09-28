@@ -62,16 +62,19 @@ Gemini is Google's AI model. The **free tier** needs no credit card.
 5. Test it 🤖 (paste your key when asked, and don't save it in a file):
    ```bash
    read -s GEMINI_API_KEY && export GEMINI_API_KEY
-   curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent" \
+   curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent" \
      -H "x-goog-api-key: $GEMINI_API_KEY" -H "Content-Type: application/json" \
      -d '{"contents":[{"parts":[{"text":"Исправь ошибку и объясни по-русски: Aš eina į parduotuvę."}]}]}' \
      | head -c 800
    ```
    You should see a JSON answer that corrects *eina → einu*.
+   If you get `503 … high demand`, the key and model are fine, but Google is overloaded: try again in a few minutes.
+   If you get `404 … no longer available`, the key is fine: Google has retired that model name. Use the model the error
+   message suggests, or pick one from the list in 2.7.
 6. Your current limits are in AI Studio under **Rate limits / Usage** (Google changes them without notice).
    The bot uses about 20–60 requests/day, far below them.
 7. If the model name stops working, get the current list with
-   `curl -s -H "x-goog-api-key: $GEMINI_API_KEY" https://generativelanguage.googleapis.com/v1beta/models | grep '"name"'`
+   `curl -s -H "x-goog-api-key: $GEMINI_API_KEY" "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200" | grep '"name"' | grep -i flash`
    and update [config/llm.yaml](../config/llm.yaml).
 
 **Optional backup provider (5 min):** **https://console.groq.com** → sign in → **API Keys** → Create. It's free and needs no card.
@@ -227,6 +230,7 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 | Bot replies to nobody | Wrong `TELEGRAM_USER_ID`. Check @userinfobot again, fix `.dev.vars`, `pnpm secrets:push` |
 | Mini App says "unauthorized" | It was opened outside Telegram (e.g. in Safari), or the bot token changed. Open it via **▶ Learn** |
 | AI answers stop, with `429` in the logs | Gemini rate limit. Groq takes over automatically if configured; otherwise wait a minute. Check AI Studio → Rate limits |
+| AI answers fail with `503 UNAVAILABLE` / "high demand" | Temporary overload at Google, and the key is fine. Retry in a few minutes. The bot retries by itself and switches to Groq if configured (step 2, optional key) |
 | AI answers stop, with `400/404 model not found` | Google renamed or retired the model. Update the model name in `config/llm.yaml` (step 2.7) and push |
 | No morning message | Dashboard → Worker → *Trigger events* shows the cron? `config/schedule.yaml` time zone correct? Look for `scheduled` entries in the logs |
 | `wrangler login` browser doesn't open | Copy the URL it prints into your browser manually |

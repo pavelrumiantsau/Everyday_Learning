@@ -183,12 +183,12 @@ The app asks for a **task**, and `config/llm.yaml` maps each task to a chain of 
 models on the same ~30 learner mistakes. This matters most for Lithuanian.
 
 ```yaml
-# config/llm.yaml (v3 defaults: $0 at runtime)
+# config/llm.yaml (v3 defaults: $0 at runtime). Google retires model names often, so the names live only here.
 tasks:
-  tutor_chat:        [google:gemini-2.5-flash, groq:<model>]        # add anthropic:claude-haiku-4-5 if you enable the API
-  answer_check:      [google:gemini-2.5-flash-lite, groq:<model>]
-  writing_feedback:  [google:gemini-2.5-flash]                      # weekly review by Claude Code, see §5.2
-  speaking_feedback: [google:gemini-2.5-flash]                      # accepts audio input
+  tutor_chat:        [google:gemini-3.8-flash, groq:<model>]        # add anthropic:claude-haiku-4-5 if you enable the API
+  answer_check:      [google:<flash-lite model>, groq:<model>]
+  writing_feedback:  [google:gemini-3.8-flash]                      # weekly review by Claude Code, see §5.2
+  speaking_feedback: [google:gemini-3.8-flash]                      # accepts audio input
 providers:
   anthropic: { key_env: ANTHROPIC_API_KEY, monthly_budget_usd: 5, enabled: false }
 ```
