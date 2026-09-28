@@ -10,7 +10,7 @@ export type CardKind = "recog" | "forms";
 export const cardIdFor = (itemId: string, kind: CardKind = "recog") => `${itemId}:${kind}`;
 
 /** Cards to create when an item is introduced: meaning, plus principal forms for verbs that have them. */
-function cardsForItem(item: Item): CardKind[] {
+export function cardsForItem(item: Item): CardKind[] {
   return item.forms ? ["recog", "forms"] : ["recog"];
 }
 

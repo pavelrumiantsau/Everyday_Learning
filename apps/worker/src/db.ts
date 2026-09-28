@@ -99,6 +99,24 @@ export class Db {
       .bind(day, by, by);
   }
 
+  async placedItemIds(): Promise<Set<string>> {
+    const { results } = await this.d1.prepare("SELECT item_id FROM placement").all<{ item_id: string }>();
+    return new Set(results.map((r) => r.item_id));
+  }
+
+  savePlacement(itemId: string, known: boolean, at: number) {
+    return this.d1
+      .prepare("INSERT OR IGNORE INTO placement (item_id, known, placed_at) VALUES (?, ?, ?)")
+      .bind(itemId, known ? 1 : 0, at);
+  }
+
+  async placementStats(): Promise<{ known: number; unknown: number }> {
+    const r = await this.d1
+      .prepare("SELECT COALESCE(SUM(known), 0) AS known, COUNT(*) - COALESCE(SUM(known), 0) AS unknown FROM placement")
+      .first<{ known: number; unknown: number }>();
+    return r ?? { known: 0, unknown: 0 };
+  }
+
   batch(stmts: D1PreparedStatement[]) {
     return this.d1.batch(stmts);
   }

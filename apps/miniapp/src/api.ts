@@ -64,3 +64,8 @@ export function flushReviews(): Promise<void> {
 }
 
 export const pendingCount = () => memoryPending.length;
+
+export interface PlacementBatch { items: Item[]; remaining: number; stats: { known: number; unknown: number } }
+export const getPlacement = (lang: Lang = "lt") => call<PlacementBatch>(`/placement?lang=${lang}`);
+export const savePlacement = (results: { itemId: string; known: boolean }[]) =>
+  call<{ stats: { known: number; unknown: number } }>("/placement", { method: "POST", body: JSON.stringify({ results }) });
