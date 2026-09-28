@@ -1,0 +1,49 @@
+id: lt-r-0008
+cefr: B1
+title: Mano darbo diena
+topic: рабочий день
+source: generated
+text: |
+  Dirbu programuotoju vienoje nedidelėje įmonėje. Anksčiau kasdien važiuodavau į biurą, bet dabar du kartus per savaitę dirbu iš namų. Tokiomis dienomis keliuosi vėliau, nes nereikia gaišti laiko kelionei į darbą.
+
+  Mano darbo diena prasideda devintą valandą. Pirmiausia išgeriu kavos, perskaitau laiškus ir peržiūriu savo užduotis. Dešimtą valandą vyksta trumpas komandos susitikimas internetu. Kiekvienas papasakoja, ką padarė vakar ir ką darys šiandien. Jei kas nors susiduria su problema, kolegos stengiasi padėti. Mūsų komandoje dirba šeši žmonės. Mes visi gerai sutariame.
+
+  Pietų pertrauka būna pirmą valandą. Kai dirbu biure, pietaujame su kolegomis netoliese esančioje kavinėje, o namie dažniausiai pasigaminu ką nors paprasto. Po pietų man sunkiausia susikaupti, todėl svarbius darbus stengiuosi atlikti ryte.
+
+  Dirbu iki šeštos. Baigęs darbą išjungiu kompiuterį ir einu pasivaikščioti, kad galva pailsėtų. Vakare gaminu vakarienę, skambinu tėvams arba susitinku su draugais. Rytoj vėl važiuosiu į biurą, nes vadovas nori aptarti naują projektą.
+glossary:
+  - { word: programuotoju, lemma: programuotojas, pos: noun, gender: m, gen: programuotojo, meaning: программист, note: "твор. п.: dirbti programuotoju — работать программистом" }
+  - { word: įmonėje, lemma: įmonė, pos: noun, gender: f, gen: įmonės, meaning: "предприятие, компания", item: lt-w-0616, note: "мест. п.: в компании" }
+  - { word: važiuodavau, lemma: važiuoti, pos: verb, forms: { pres: važiuoja, past: važiavo }, meaning: "ехать, ездить", note: "многократное прош. вр. (-davo), я: (обычно) ездил" }
+  - { word: keliuosi, lemma: keltis, pos: verb, forms: { pres: keliasi, past: kėlėsi }, meaning: вставать, note: "наст. вр., я" }
+  - { word: gaišti, lemma: gaišti, pos: verb, forms: { pres: gaišta, past: gaišo }, meaning: "тратить (время), терять время", note: "nereikia gaišti laiko — не нужно терять время (род. п. после отрицания)" }
+  - { word: peržiūriu, lemma: peržiūrėti, pos: verb, forms: { pres: peržiūri, past: peržiūrėjo }, meaning: просмотреть, note: "наст. вр., я" }
+  - { word: užduotis, lemma: užduotis, pos: noun, gender: f, gen: užduoties, meaning: "задание, задача", item: lt-w-0026, note: "здесь вин. п. мн. ч." }
+  - { word: vyksta, lemma: vykti, pos: verb, forms: { pres: vyksta, past: vyko }, meaning: "проходить, происходить (о событии)" }
+  - { word: papasakoja, lemma: papasakoti, pos: verb, forms: { pres: papasakoja, past: papasakojo }, meaning: рассказать }
+  - { word: darys, lemma: daryti, pos: verb, forms: { pres: daro, past: darė }, meaning: делать, note: "буд. вр., он/она" }
+  - { word: susiduria, lemma: susidurti, pos: verb, forms: { pres: susiduria, past: susidūrė }, meaning: столкнуться, note: "susidurti su problema — столкнуться с проблемой" }
+  - { word: stengiasi, lemma: stengtis, pos: verb, forms: { pres: stengiasi, past: stengėsi }, meaning: стараться, item: lt-w-0543 }
+  - { word: sutariame, lemma: sutarti, pos: verb, forms: { pres: sutaria, past: sutarė }, meaning: "ладить; договориться", note: "gerai sutarti — хорошо ладить" }
+  - { word: pertrauka, lemma: pertrauka, pos: noun, gender: f, gen: pertraukos, meaning: перерыв, item: lt-w-0378, note: "pietų pertrauka — обеденный перерыв" }
+  - { word: pietaujame, lemma: pietauti, pos: verb, forms: { pres: pietauja, past: pietavo }, meaning: обедать, note: "наст. вр., мы" }
+  - { word: netoliese, lemma: netoliese, pos: adv, meaning: поблизости, item: lt-w-0061 }
+  - { word: esančioje, lemma: būti, pos: verb, forms: { pres: yra, past: buvo }, meaning: "быть, находиться", note: "действ. причастие наст. вр., ж. р., мест. п.: netoliese esančioje kavinėje — в кафе, которое находится рядом" }
+  - { word: pasigaminu, lemma: pasigaminti, pos: verb, forms: { pres: pasigamina, past: pasigamino }, meaning: "приготовить (себе)", note: "ką nors paprasto — что-нибудь простое (род. п.)" }
+  - { word: susikaupti, lemma: susikaupti, pos: verb, forms: { pres: susikaupia, past: susikaupė }, meaning: "сосредоточиться; скопиться", item: lt-w-0471 }
+  - { word: atlikti, lemma: atlikti, pos: verb, forms: { pres: atlieka, past: atliko }, meaning: "выполнить, провести", item: lt-w-0247 }
+  - { word: baigęs, lemma: baigti, pos: verb, forms: { pres: baigia, past: baigė }, meaning: закончить, note: "действ. причастие прош. вр., м. р.: закончив" }
+  - { word: išjungiu, lemma: išjungti, pos: verb, forms: { pres: išjungia, past: išjungė }, meaning: выключить, note: "наст. вр., я" }
+  - { word: pailsėtų, lemma: pailsėti, pos: verb, forms: { pres: pailsi, past: pailsėjo }, meaning: отдохнуть, item: lt-w-0117, note: "условн. накл. после kad: чтобы отдохнула" }
+  - { word: važiuosiu, lemma: važiuoti, pos: verb, forms: { pres: važiuoja, past: važiavo }, meaning: "ехать, ездить", note: "буд. вр., я" }
+  - { word: aptarti, lemma: aptarti, pos: verb, forms: { pres: aptaria, past: aptarė }, meaning: обсудить, item: lt-w-0131 }
+questions:
+  - q: Kiek kartų per savaitę pasakotojas dirba iš namų?
+    options: ["Kasdien", "Du kartus", "Vieną kartą"]
+    answer: 1
+  - q: Ką kiekvienas papasakoja per rytinį susitikimą?
+    options: ["Ką padarė vakar ir ką darys šiandien", "Kaip praleido savaitgalį", "Kur pietaus"]
+    answer: 0
+  - q: Kodėl pasakotojas rytoj važiuos į biurą?
+    options: ["Biure vyks šventė.", "Namie neveikia internetas.", "Vadovas nori aptarti naują projektą."]
+    answer: 2
