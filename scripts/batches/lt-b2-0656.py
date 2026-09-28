@@ -120,5 +120,62 @@ w|nuostolis|noun|m|B2|убыток, ущерб|8361056||nuostolio
 w|paskola|noun|f|B1|кредит, заём|12482674|imti paskolą — брать кредит|paskolos
 w|sandoris|noun|m|B2|сделка|13676334||sandorio
 w|prekyba|noun|f|B2|торговля|12377795|prekybos centras — торговый центр|prekybos
+w|skyrybos|noun|f|B2|развод|10940877|Только мн. ч.; не путать с skyryba — пунктуация|skyrybų
+w|vengti|verb||B1|избегать|13932696|vengti ko (+ род. п.) — избегать кого/чего|vengia, vengė
+w|sumanus|adj||B2|сообразительный, находчивый; предприимчивый|12145109|
+w|arbatpinigiai|noun|m|B1|чаевые|10244026|Только мн. ч.; palikti arbatpinigių — оставить чаевые|arbatpinigių
+w|atmesti|verb||B2|отвергнуть, отклонить|13384426||atmeta, atmetė
+w|lėšos|noun|f|B2|средства (денежные)|10178398|Только мн. ч.; savo lėšomis — за свой счёт|lėšų
+w|pažeisti|verb||B2|нарушить; повредить|10684960|pažeisti taisykles — нарушить правила|pažeidžia, pažeidė
+w|galingas|adj||B2|могущественный, мощный|13163878|
+w|paauglys|noun|m|B1|подросток|3299265|Ж. р.: paauglė|paauglio
+w|tirti|verb||B2|исследовать; расследовать|13862062|Прош. вр.: tyrė|tiria, tyrė
+w|emocija|noun|f|B1|эмоция|11607323||emocijos
+w|skatinti|verb||B2|поощрять, побуждать, стимулировать|11622668||skatina, skatino
+w|žavingas|adj||B1|очаровательный|13289965|
+w|bendravimas|noun|m|B1|общение|3958076||bendravimo
+w|plisti|verb||B2|распространяться|3987750|Наст. вр.: plinta; прош. вр.: plito|plinta, plito
+w|pusiausvyra|noun|f|B2|равновесие, баланс|13576427|netekti pusiausvyros — потерять равновесие|pusiausvyros
+w|išmesti|verb||B1|выбросить|10641193||išmeta, išmetė
+w|tiesioginis|adj||B2|прямой, непосредственный|12916698|tiesioginis skrydis — прямой рейс
+w|realybė|noun|f|B2|реальность|13643712||realybės
+w|įtarti|verb||B2|подозревать|9841517||įtaria, įtarė
+w|reakcija|noun|f|B1|реакция|13743596||reakcijos
+w|supykti|verb||B1|рассердиться|11194352|ant ko supykti — рассердиться на кого|supyksta, supyko
+w|sąmoningai|adv||B2|намеренно, сознательно|13637124|
+w|užuojauta|noun|f|B2|сочувствие; соболезнование|13771909|reikšti užuojautą — выражать соболезнования|užuojautos
+w|nurimti|verb||B1|успокоиться|2164653||nurimsta, nurimo
+w|pasididžiavimas|noun|m|B2|гордость|3576880||pasididžiavimo
+w|pamesti|verb||B1|потерять (вещь)|9609848|pamesti — потерять вещь; prarasti — утратить (время, доверие)|pameta, pametė
+w|dirbtinis|adj||B2|искусственный|12181621|dirbtinis intelektas — искусственный интеллект
+w|vertimas|noun|m|B1|перевод (текста)|9014526||vertimo
+w|įstoti|verb||B1|поступить (в вуз); вступить (в организацию)|12174004|įstoti į universitetą — поступить в университет|įstoja, įstojo
+w|pristatymas|noun|m|B2|презентация; доставка|13078335||pristatymo
+w|vaišinti|verb||B1|угощать|10466291|vaišintis kuo (+ твор. п.) — угощаться чем|vaišina, vaišino
+w|jaukus|adj||B1|уютный|13527092|jauku — уютно
+w|remontas|noun|m|B1|ремонт|10728997||remonto
+w|žygis|noun|m|B1|поход|12729703|eiti į žygį — идти в поход|žygio
+w|paminėti|verb||B2|упомянуть; отметить (годовщину)|12573802||pamini, paminėjo
+w|faktiškai|adv||B2|фактически, по сути|13372655|
+w|būsena|noun|f|B2|состояние|13012428||būsenos
+w|įkvėpti|verb||B2|вдохновить; вдохнуть|13194705||įkvepia, įkvėpė
+w|investicija|noun|f|B2|инвестиция, вложение|3940422||investicijos
+w|susilaukti|verb||B2|дождаться; родить (ребёнка)|11653883|susilaukti vaiko (+ род. п.) — родить ребёнка|susilaukia, susilaukė
+p|atkreipti dėmesį|phrase||B1|обратить внимание|14055309|atkreipti dėmesį į ką (+ вин. п.)|
+w|egzaminas|noun|m|A2|экзамен|5988810|išlaikyti egzaminą — сдать экзамен|egzamino
+w|sugriauti|verb||B2|разрушить|10969297|Прош. вр.: sugriovė|sugriauna, sugriovė
+w|konkursas|noun|m|B1|конкурс|12927151||konkurso
+w|skleisti|verb||B2|распространять|13873363||skleidžia, skleidė
+w|palengva|adv||B2|медленно, потихоньку|13737818|
+w|vagystė|noun|f|B1|кража|11615646||vagystės
+w|gydyti|verb||B1|лечить|12781704||gydo, gydė
+w|kaimynystė|noun|f|B2|соседство|13059838|gyventi kaimynystėje — жить по соседству|kaimynystės
+w|priešintis|verb||B2|сопротивляться, противиться|10065984|priešintis kam (+ дат. п.)|priešinasi, priešinosi
+w|ūgis|noun|m|B1|рост (человека)|12866148|Kokio tu ūgio? — Какого ты роста?|ūgio
+w|užrašyti|verb||B1|записать|13401074||užrašo, užrašė
+w|apytiksliai|adv||B2|приблизительно|11562756|
+w|gerbėjas|noun|m|B1|поклонник, фанат|11687727||gerbėjo
+w|variantas|noun|m|B1|вариант|13451551||varianto
+w|patalpa|noun|f|B2|помещение|11037772||patalpos
 """
-PLURAL_ONLY = ["pajamos", "išlaidos", "baldai"]
+PLURAL_ONLY = ["pajamos", "išlaidos", "baldai", "skyrybos", "arbatpinigiai", "lėšos"]
