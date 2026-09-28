@@ -1,0 +1,57 @@
+id: lt-r-0004
+cefr: B1
+title: Susitikimas darbe
+topic: совещание на работе
+source: generated
+text: |
+  Pirmadienio rytą mūsų skyriuje vyko svarbus susitikimas. Jis prasidėjo lygiai devintą valandą. Vadovas norėjo aptarti naują projektą, kurį turime baigti iki vasaros. Visi susirinko didžiojoje posėdžių salėje, o du kolegos prisijungė internetu, nes dirba iš namų.
+
+  Pirmiausia vadovas paaiškino projekto tikslą: per pusę metų turime sukurti naują programėlę mūsų klientams. Paskui kiekvienas pristatė savo idėjas. Kolegė Rūta pasiūlė iš pradžių apklausti klientus ir išsiaiškinti, ko jiems iš tikrųjų reikia. Man šis pasiūlymas pasirodė labai naudingas.
+
+  Diskusija buvo ilga, ir ne visi sutiko vienas su kitu. Vis dėlto po dviejų valandų priėmėme sprendimą: pradėsime nuo apklausos, o programėlės dizainą aptarsime kitą mėnesį. Vadovas paskyrė užduotis kiekvienam komandos nariui. Aš atsakingas už duomenų analizę, todėl šią savaitę turėsiu daug darbo. Susitikimo pabaigoje vadovas padėkojo visiems už gerą darbą. Kitas susitikimas vyks po dviejų savaičių.
+glossary:
+  - { word: skyriuje, lemma: skyrius, pos: noun, gen: skyriaus, meaning: отдел, note: "мест. п.: в отделе" }
+  - { word: vyks, lemma: vykti, pos: verb, forms: { pres: vyksta, past: vyko }, meaning: "проходить, происходить (о событии)", note: "буд. вр." }
+  - { word: vyko, lemma: vykti, pos: verb, forms: { pres: vyksta, past: vyko }, meaning: "проходить, происходить (о событии)" }
+  - { word: prasidėjo, lemma: prasidėti, pos: verb, forms: { pres: prasideda, past: prasidėjo }, meaning: начаться }
+  - { word: lygiai, lemma: lygiai, pos: adv, meaning: ровно, note: "lygiai devintą valandą — ровно в девять" }
+  - { word: susitikimas, lemma: susitikimas, meaning: встреча, item: lt-w-0002 }
+  - { word: vadovas, lemma: vadovas, meaning: руководитель, item: lt-w-0128 }
+  - { word: aptarti, lemma: aptarti, meaning: обсудить, item: lt-w-0131 }
+  - { word: aptarsime, lemma: aptarti, meaning: обсудить, item: lt-w-0131, note: "буд. вр., мы" }
+  - { word: susirinko, lemma: susirinkti, pos: verb, forms: { pres: susirenka, past: susirinko }, meaning: собраться }
+  - { word: didžiojoje, lemma: didelis, pos: adj, meaning: большой, note: "определ. форма didžioji, мест. п.: в большом (зале)" }
+  - { word: posėdžių, lemma: posėdis, pos: noun, gen: posėdžio, meaning: "заседание, совещание", note: "posėdžių salė — зал заседаний, переговорная" }
+  - { word: prisijungė, lemma: prisijungti, meaning: присоединиться, item: lt-w-0103, note: "прош. вр.; prisijungti internetu — подключиться онлайн" }
+  - { word: paaiškino, lemma: paaiškinti, meaning: объяснить, item: lt-w-0072, note: "прош. вр." }
+  - { word: tikslą, lemma: tikslas, meaning: цель, item: lt-w-0020, note: "вин. п." }
+  - { word: sukurti, lemma: sukurti, meaning: "создать; придумать", item: lt-w-0051 }
+  - { word: programėlę, lemma: programėlė, pos: noun, gen: programėlės, meaning: "приложение (для телефона)" }
+  - { word: pristatė, lemma: pristatyti, meaning: "представить; доставить", item: lt-w-0105, note: "прош. вр." }
+  - { word: pasiūlė, lemma: pasiūlyti, meaning: предложить, item: lt-w-0075, note: "прош. вр." }
+  - { word: apklausti, lemma: apklausti, pos: verb, forms: { pres: apklausia, past: apklausė }, meaning: опросить }
+  - { word: išsiaiškinti, lemma: išsiaiškinti, meaning: "выяснить, разобраться", item: lt-w-0021 }
+  - { word: pasiūlymas, lemma: pasiūlymas, meaning: "предложение (идея, оферта)", item: lt-w-0047 }
+  - { word: pasirodė, lemma: pasirodyti, pos: verb, forms: { pres: pasirodo, past: pasirodė }, meaning: "показаться; появиться", note: "man pasirodė — мне показалось" }
+  - { word: naudingas, lemma: naudingas, meaning: полезный, item: lt-w-0091 }
+  - { word: sutiko, lemma: sutikti, pos: verb, forms: { pres: sutinka, past: sutiko }, meaning: "согласиться; встретить", note: "sutikti su kuo — соглашаться с кем" }
+  - { word: dėlto, lemma: vis dėlto, pos: phrase, meaning: всё-таки, item: lt-p-0016 }
+  - { word: priėmėme, lemma: priimti, meaning: принять, item: lt-w-0018, note: "прош. вр., мы: priimti sprendimą — принять решение" }
+  - { word: sprendimą, lemma: sprendimas, meaning: решение, item: lt-w-0004, note: "вин. п." }
+  - { word: apklausos, lemma: apklausa, pos: noun, gen: apklausos, meaning: опрос, note: "род. п.: pradėti nuo apklausos — начать с опроса" }
+  - { word: paskyrė, lemma: paskirti, pos: verb, forms: { pres: paskiria, past: paskyrė }, meaning: "назначить, распределить" }
+  - { word: užduotis, lemma: užduotis, meaning: "задание, задача", item: lt-w-0026, note: "здесь вин. п. мн. ч." }
+  - { word: nariui, lemma: narys, pos: noun, gen: nario, meaning: "член (команды, клуба)", note: "дат. п." }
+  - { word: atsakingas, lemma: atsakingas, meaning: ответственный, item: lt-w-0025, note: "atsakingas už ką (+ вин. п.)" }
+  - { word: duomenų, lemma: duomenys, meaning: данные, item: lt-w-0134, note: "род. п." }
+  - { word: padėkojo, lemma: padėkoti, meaning: поблагодарить, item: lt-w-0066, note: "padėkoti kam (+ дат. п.): padėkojo visiems" }
+questions:
+  - q: Kodėl du kolegos prisijungė internetu?
+    options: ["Jie sirgo", "Jie dirba iš namų", "Jie vėlavo"]
+    answer: 1
+  - q: Ką pasiūlė Rūta?
+    options: ["Iš pradžių apklausti klientus", "Pradėti nuo dizaino", "Atidėti projektą iki rudens"]
+    answer: 0
+  - q: Kada komanda aptars programėlės dizainą?
+    options: ["Rytoj", "Kitą mėnesį", "Po vasaros"]
+    answer: 1

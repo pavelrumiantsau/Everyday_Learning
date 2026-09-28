@@ -5,7 +5,7 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { ItemFile, Lesson, Milestones, Schedule, type Item } from "../packages/core/src/index.ts";
+import { ItemFile, Lesson, Milestones, ReadingText, Schedule, type Item } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
@@ -21,10 +21,11 @@ const items: Item[] = [];
 const seen = new Map<string, string>();
 
 const isGrammar = (rel: string) => /^content\/[a-z]{2}\/grammar\//.test(rel);
+const isReading = (rel: string) => /^content\/[a-z]{2}\/reading\//.test(rel);
 
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (isGrammar(rel)) continue; // grammar lessons: see below
+  if (isGrammar(rel) || isReading(rel)) continue; // grammar lessons and reading texts: see below
   const result = ItemFile.safeParse(parse(readFileSync(file, "utf8")));
   if (!result.success) {
     for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
@@ -62,6 +63,26 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
   lessons.push(lesson);
 }
 
+// Reading texts: one text per file in content/<lang>/reading/ (PLAN §6.6).
+const texts: ReadingText[] = [];
+for (const file of yamlFiles(join(root, "content")).sort()) {
+  const rel = relative(root, file);
+  if (!isReading(rel)) continue;
+  const result = ReadingText.safeParse(parse(readFileSync(file, "utf8")));
+  if (!result.success) {
+    for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
+    continue;
+  }
+  const text = result.data;
+  if (!rel.startsWith(`content/${text.id.slice(0, 2)}/`)) errors.push(`${rel}: ${text.id} is in the wrong language folder`);
+  const dup = seen.get(text.id);
+  if (dup) errors.push(`${rel}: duplicate id ${text.id} (also in ${dup})`);
+  seen.set(text.id, rel);
+  const itemIds = new Set(items.map((i) => i.id));
+  for (const g of text.glossary) if (g.item && !itemIds.has(g.item)) errors.push(`${rel}: glossary "${g.word}" points to unknown item ${g.item}`);
+  texts.push(text);
+}
+
 const schedule = Schedule.safeParse(parse(readFileSync(join(root, "config/schedule.yaml"), "utf8")));
 if (!schedule.success) {
   for (const issue of schedule.error.issues) errors.push(`config/schedule.yaml: [${issue.path.join(".")}] ${issue.message}`);
@@ -88,7 +109,7 @@ const counts = Object.entries(
 )
   .map(([l, n]) => `${l}: ${n}`)
   .join(", ");
-console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, schedule OK`);
+console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, ${texts.length} reading texts, schedule OK`);
 
 if (!checkOnly) {
   const out = join(root, "apps/worker/src/generated");
@@ -97,5 +118,6 @@ if (!checkOnly) {
   writeFileSync(join(out, "schedule.json"), JSON.stringify(schedule.data));
   writeFileSync(join(out, "milestones.json"), JSON.stringify(milestones.data));
   writeFileSync(join(out, "grammar.json"), JSON.stringify(lessons));
-  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar}.json`);
+  writeFileSync(join(out, "reading.json"), JSON.stringify(texts));
+  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading}.json`);
 }

@@ -43,10 +43,10 @@ describe("grammar lesson schema", () => {
 });
 
 describe("weekday rotation", () => {
-  it("follows PLAN §3.6: Mon LT, Tue ES, Wed LT, Thu LT, Fri ES, Sat LT, Sun none", () => {
+  it("follows PLAN §3.6: Mon LT, Tue ES, Wed LT, Thu none (reading), Fri ES, Sat LT, Sun none", () => {
     // 2026-09-28 is a Monday
     const week = ["2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02", "2026-10-03", "2026-10-04"];
-    expect(week.map(grammarLangForDay)).toEqual(["lt", "es", "lt", "lt", "es", "lt", null]);
+    expect(week.map(grammarLangForDay)).toEqual(["lt", "es", "lt", null, "es", "lt", null]);
   });
 });
 

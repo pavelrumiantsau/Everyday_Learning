@@ -1,0 +1,49 @@
+id: lt-r-0001
+cefr: B1
+title: Naujas butas
+topic: переезд в новую квартиру
+source: generated
+text: |
+  Praėjusį mėnesį su žmona išsinuomojome naują butą. Senasis butas buvo per mažas, o iki darbo reikėjo važiuoti beveik valandą. Naujasis yra netoli centro, šalia didelio parko. Jame yra du kambariai, erdvi virtuvė ir balkonas.
+
+  Persikraustyti nebuvo lengva. Daiktų turėjome daug daugiau, negu tikėjomės. Viską sudėjome į dėžes, o draugai padėjo jas nunešti į mašiną. Mūsų naujas butas yra ketvirtame aukšte, o name nėra lifto, todėl visą dieną nešiojome dėžes laiptais. Vakare buvome labai pavargę, bet laimingi.
+
+  Dabar pamažu priprantame prie naujos aplinkos. Kaimynai labai malonūs: kitą dieną kaimynė iš penkto aukšto atnešė mums obuolių pyragą. Netoliese yra parduotuvė, vaistinė ir sporto klubas, todėl viską galima pasiekti pėsčiomis. Tiesa, nuoma nemaža – kas mėnesį mokame šešis šimtus eurų, o sąskaitas už elektrą ir šildymą mokame atskirai. Vis dėlto esame patenkinti savo sprendimu. Kitą savaitgalį pakviesime draugus į svečius ir pagaliau atšvęsime įkurtuves.
+glossary:
+  - { word: išsinuomojome, lemma: išsinuomoti, meaning: "снять (в аренду)", item: lt-w-0012, note: "прош. вр., мы: сняли" }
+  - { word: erdvi, lemma: erdvus, pos: adj, meaning: просторный, note: "ж. р.: erdvi virtuvė" }
+  - { word: persikraustyti, lemma: persikraustyti, pos: verb, forms: { pres: persikrausto, past: persikraustė }, meaning: "переехать (на новое место)" }
+  - { word: tikėjomės, lemma: tikėtis, pos: verb, forms: { pres: tikisi, past: tikėjosi }, meaning: "ожидать; надеяться", note: "прош. вр., мы: negu tikėjomės — чем ожидали" }
+  - { word: dėžes, lemma: dėžė, pos: noun, gen: dėžės, meaning: "коробка, ящик", note: "вин. п. мн. ч." }
+  - { word: nunešti, lemma: nunešti, pos: verb, forms: { pres: nuneša, past: nunešė }, meaning: отнести }
+  - { word: aukšte, lemma: aukštas, pos: noun, gen: aukšto, meaning: этаж, note: "мест. п.: ketvirtame aukšte — на четвёртом этаже" }
+  - { word: nešiojome, lemma: nešioti, pos: verb, forms: { pres: nešioja, past: nešiojo }, meaning: "носить (много раз, туда-сюда)", note: "прош. вр., мы" }
+  - { word: laiptais, lemma: laiptai, pos: noun, gen: laiptų, meaning: лестница, note: "только мн. ч.; твор. п.: laiptais — по лестнице" }
+  - { word: pavargę, lemma: pavargti, pos: verb, forms: { pres: pavargsta, past: pavargo }, meaning: устать, note: "причастие мн. ч.: buvome pavargę — были уставшие" }
+  - { word: priprantame, lemma: priprasti, meaning: привыкнуть, item: lt-w-0010, note: "наст. вр., мы; priprasti prie + род. п." }
+  - { word: aplinkos, lemma: aplinka, meaning: "окружение, среда", item: lt-w-0015, note: "род. п. после prie" }
+  - { word: kaimynė, lemma: kaimynė, pos: noun, gen: kaimynės, meaning: соседка }
+  - { word: netoliese, lemma: netoliese, meaning: поблизости, item: lt-w-0061 }
+  - { word: pasiekti, lemma: pasiekti, pos: verb, forms: { pres: pasiekia, past: pasiekė }, meaning: "достичь, добраться" }
+  - { word: pėsčiomis, lemma: pėsčiomis, pos: adv, meaning: пешком }
+  - { word: nuoma, lemma: nuoma, pos: noun, gen: nuomos, meaning: "аренда; плата за аренду" }
+  - { word: nemaža, lemma: nemažas, pos: adj, meaning: "немалый, немаленький" }
+  - { word: sąskaitas, lemma: sąskaita, meaning: счёт, item: lt-w-0120, note: "вин. п. мн. ч.: счета (за коммунальные услуги)" }
+  - { word: šildymą, lemma: šildymas, pos: noun, gen: šildymo, meaning: отопление }
+  - { word: atskirai, lemma: atskirai, pos: adv, meaning: отдельно }
+  - { word: dėlto, lemma: vis dėlto, pos: phrase, meaning: всё-таки, item: lt-p-0016 }
+  - { word: patenkinti, lemma: patenkintas, meaning: довольный, item: lt-w-0052, note: "patenkintas kuo (+ твор. п.) — доволен чем" }
+  - { word: sprendimu, lemma: sprendimas, meaning: решение, item: lt-w-0004, note: "твор. п." }
+  - { word: pakviesime, lemma: pakviesti, pos: verb, forms: { pres: pakviečia, past: pakvietė }, meaning: пригласить, note: "буд. вр., мы; kviesti į svečius — звать в гости" }
+  - { word: atšvęsime, lemma: atšvęsti, pos: verb, forms: { pres: atšvenčia, past: atšventė }, meaning: отпраздновать, note: "буд. вр., мы" }
+  - { word: įkurtuves, lemma: įkurtuvės, pos: noun, gen: įkurtuvių, meaning: новоселье, note: "только мн. ч." }
+questions:
+  - q: Kodėl jie paliko senąjį butą?
+    options: ["Jis buvo per mažas ir toli nuo darbo.", "Kaimynai buvo nemalonūs.", "Nuoma buvo per didelė."]
+    answer: 0
+  - q: Kas padėjo nunešti dėžes į mašiną?
+    options: ["Kaimynai", "Draugai", "Žmonos tėvai"]
+    answer: 1
+  - q: Ką kaimynė atnešė kitą dieną?
+    options: ["Gėlių puokštę", "Obuolių pyragą", "Butelį vyno"]
+    answer: 1

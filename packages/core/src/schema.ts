@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { principalFormsLine } from "./labels";
+import { normalizeWord, wordsOf } from "./reading";
 
 export const LANGS = ["lt", "es", "fr"] as const;
 export type Lang = (typeof LANGS)[number];
@@ -13,6 +14,9 @@ const Example = z.object({
   source: z.string().regex(/^(tatoeba:\d+|generated)$/, "use tatoeba:<id> or generated"),
 });
 
+/** Parts of speech used by items (and by word lookups in reading mode). */
+export const POS = ["noun", "verb", "adj", "adv", "pron", "prep", "conj", "num", "part", "phrase"] as const;
+
 const Localized = z.object({ ru: z.string().min(1).optional(), en: z.string().min(1).optional() });
 
 export const Item = z
@@ -22,7 +26,7 @@ export const Item = z
     cefr: z.enum(["A1", "A2", "B1", "B2", "C1"]),
     text: z.string().min(1),
     stress: z.string().min(1).optional(),
-    pos: z.enum(["noun", "verb", "adj", "adv", "pron", "prep", "conj", "num", "part", "phrase"]).optional(),
+    pos: z.enum(POS).optional(),
     gender: z.enum(["m", "f", "n", "mf"]).optional(),
     /** Lithuanian verbs: the other two principal forms — present and past, 3rd person (priimti → priima, priėmė). */
     forms: z.object({ pres: z.string().min(1), past: z.string().min(1) }).optional(),
@@ -106,6 +110,93 @@ export const Lesson = z
     }
   });
 export type Lesson = z.infer<typeof Lesson>;
+
+// Reading texts: content/<lang>/reading/<nnnn>-<slug>.yaml, one text per file (PLAN §6.6).
+const GlossaryEntry = z.object({
+  /** The word as written in the text (any case); tapping it shows this entry instead of asking the AI. */
+  word: z.string().trim().min(1),
+  /** Dictionary form. */
+  lemma: z.string().trim().min(1),
+  /** In the explanation language: Russian for Lithuanian, English for Spanish/French. */
+  meaning: z.string().trim().min(1),
+  pos: z.enum(POS).optional(),
+  gender: z.enum(["m", "f", "n", "mf"]).optional(),
+  /** Lithuanian verbs: present and past, 3rd person. */
+  forms: z.object({ pres: z.string().min(1), past: z.string().min(1) }).optional(),
+  /** Lithuanian nouns: genitive singular. */
+  gen: z.string().min(1).optional(),
+  /** Short note on the form in the text, e.g. "прош. вр., мы". */
+  note: z.string().min(1).optional(),
+  /** The vocabulary item for this lemma (content/<lang>/vocab), if there is one. */
+  item: z.string().regex(/^(lt|es|fr)-(w|p)-\d{4}$/).optional(),
+});
+export type GlossaryEntry = z.infer<typeof GlossaryEntry>;
+
+const Question = z
+  .object({
+    q: z.string().trim().min(1),
+    options: z.array(z.string().trim().min(1)).min(2).max(4),
+    /** 0-based index of the right option. */
+    answer: z.number().int().min(0),
+  })
+  .superRefine((q, ctx) => {
+    if (q.answer >= q.options.length) ctx.addIssue({ code: "custom", path: ["answer"], message: "answer must be an index into options" });
+    if (new Set(q.options).size !== q.options.length) ctx.addIssue({ code: "custom", path: ["options"], message: "options must differ" });
+  });
+
+/** Words per text by level (PLAN §6.6). */
+export const READING_WORDS: Record<"A1" | "A2" | "B1" | "B2" | "C1", [number, number]> = {
+  A1: [60, 150],
+  A2: [60, 150],
+  B1: [120, 250],
+  B2: [120, 350],
+  C1: [120, 400],
+};
+
+const CYRILLIC = /[а-яё]/i;
+
+export const ReadingText = z
+  .object({
+    id: z.string().regex(/^(lt|es|fr)-r-\d{4}$/, "id must look like lt-r-0001"),
+    cefr: z.enum(["A1", "A2", "B1", "B2", "C1"]),
+    /** In the target language. */
+    title: z.string().trim().min(1),
+    /** Short topic in the explanation language ("переезд", "a day in the city"). */
+    topic: z.string().trim().min(1),
+    /** Paragraphs separated by a blank line. */
+    text: z.string().trim().min(1),
+    glossary: z.array(GlossaryEntry).default([]),
+    /** Exactly 3 multiple-choice comprehension questions, in the target language. */
+    questions: z.array(Question).length(3),
+    /** "generated" when written with an LLM, otherwise a URL of the (adapted) original. */
+    source: z.string().regex(/^(generated|https?:\/\/\S+)$/, "use generated or a URL"),
+  })
+  .superRefine((t, ctx) => {
+    const lang = t.id.slice(0, 2) as Lang;
+    const words = wordsOf(t.text);
+    const [min, max] = READING_WORDS[t.cefr];
+    if (words.length < min || words.length > max) {
+      ctx.addIssue({ code: "custom", path: ["text"], message: `${t.cefr} texts need ${min}–${max} words (has ${words.length})` });
+    }
+    const inText = new Set(words.map(normalizeWord));
+    const seen = new Set<string>();
+    t.glossary.forEach((g, i) => {
+      const key = normalizeWord(g.word);
+      if (!inText.has(key)) ctx.addIssue({ code: "custom", path: ["glossary", i, "word"], message: `"${g.word}" is not a word of the text` });
+      if (seen.has(key)) ctx.addIssue({ code: "custom", path: ["glossary", i, "word"], message: `"${g.word}" is in the glossary twice` });
+      seen.add(key);
+      if (EXPLANATION_LANG[lang] === "ru" && !CYRILLIC.test(g.meaning)) {
+        ctx.addIssue({ code: "custom", path: ["glossary", i, "meaning"], message: `${lang} glossary meanings must be in Russian` });
+      }
+      if (EXPLANATION_LANG[lang] === "en" && CYRILLIC.test(g.meaning)) {
+        ctx.addIssue({ code: "custom", path: ["glossary", i, "meaning"], message: `${lang} glossary meanings must be in English` });
+      }
+      if (g.item && !g.item.startsWith(`${lang}-`)) {
+        ctx.addIssue({ code: "custom", path: ["glossary", i, "item"], message: `item ${g.item} is not a ${lang} item` });
+      }
+    });
+  });
+export type ReadingText = z.infer<typeof ReadingText>;
 
 export const Schedule = z.object({
   timezone: z.string().min(1),

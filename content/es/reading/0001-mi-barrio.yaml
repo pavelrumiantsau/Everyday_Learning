@@ -1,0 +1,44 @@
+id: es-r-0001
+cefr: A1
+title: Mi barrio
+topic: my neighbourhood
+source: generated
+text: |
+  Me llamo Ana y vivo en Madrid. Mi piso es pequeño, pero tiene mucha luz. Está en un barrio tranquilo, cerca del centro.
+
+  En mi calle hay una panadería, un supermercado y una farmacia. Todas las mañanas compro pan en la panadería. La panadera se llama Carmen y es muy simpática.
+
+  Por la tarde, después del trabajo, me gusta pasear por el parque. Allí hay muchos árboles y niños que juegan. Los fines de semana voy al mercado con mi amiga Lucía. Compramos fruta y verdura, y después tomamos un café en una terraza. ¡Me encanta mi barrio!
+glossary:
+  - { word: llamo, lemma: llamarse, pos: verb, meaning: to be called, note: "me llamo — my name is" }
+  - { word: piso, lemma: piso, pos: noun, gender: m, meaning: "flat, apartment (Spain)" }
+  - { word: luz, lemma: luz, pos: noun, gender: f, meaning: light, note: "la luz (feminine)" }
+  - { word: barrio, lemma: barrio, pos: noun, meaning: neighbourhood }
+  - { word: tranquilo, lemma: tranquilo, pos: adj, meaning: "quiet, calm" }
+  - { word: cerca, lemma: cerca, meaning: near, item: es-w-0034, note: "cerca de + noun; de + el = del" }
+  - { word: hay, lemma: haber, pos: verb, meaning: "there is / there are" }
+  - { word: panadería, lemma: panadería, pos: noun, meaning: bakery }
+  - { word: compro, lemma: comprar, pos: verb, meaning: to buy, note: "present, yo" }
+  - { word: pan, lemma: pan, pos: noun, meaning: bread }
+  - { word: panadera, lemma: panadero, pos: noun, meaning: baker, note: "feminine: panadera" }
+  - { word: simpática, lemma: simpático, pos: adj, meaning: "nice, friendly", note: "false friend: not «sympathetic»" }
+  - { word: trabajo, lemma: trabajo, meaning: work, item: es-w-0018 }
+  - { word: gusta, lemma: gustar, meaning: "to like (lit. to please)", item: es-w-0035, note: "me gusta + infinitive — I like doing" }
+  - { word: pasear, lemma: pasear, pos: verb, meaning: "to go for a walk, to stroll" }
+  - { word: árboles, lemma: árbol, pos: noun, meaning: tree }
+  - { word: juegan, lemma: jugar, pos: verb, meaning: to play, note: "present, they: u → ue (juego, juegas, juega…)" }
+  - { word: mercado, lemma: mercado, pos: noun, meaning: market }
+  - { word: verdura, lemma: verdura, pos: noun, meaning: vegetables }
+  - { word: tomamos, lemma: tomar, meaning: "to take; to have (a drink)", item: es-w-0061, note: "present, we" }
+  - { word: terraza, lemma: terraza, pos: noun, meaning: "terrace (outdoor café tables)" }
+  - { word: encanta, lemma: encantar, pos: verb, meaning: to love, note: "works like gustar: me encanta — I love it" }
+questions:
+  - q: ¿Dónde vive Ana?
+    options: ["En Barcelona", "En Madrid", "En Sevilla"]
+    answer: 1
+  - q: ¿Qué compra Ana todas las mañanas?
+    options: ["Fruta", "Pan", "Café"]
+    answer: 1
+  - q: ¿Con quién va Ana al mercado?
+    options: ["Con Carmen", "Con su madre", "Con su amiga Lucía"]
+    answer: 2

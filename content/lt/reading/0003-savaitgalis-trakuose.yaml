@@ -1,0 +1,60 @@
+id: lt-r-0003
+cefr: B1
+title: Savaitgalis Trakuose
+topic: поездка на выходные
+source: generated
+text: |
+  Praėjusį šeštadienį su draugais nuvažiavome į Trakus. Trakai – nedidelis miestas netoli Vilniaus, garsus savo ežerais ir pilimi. Iš Vilniaus ten galima nuvažiuoti traukiniu arba autobusu maždaug per pusvalandį. Mes pasirinkome traukinį, nes bilietas kainavo vos kelis eurus.
+
+  Trakuose pirmiausia nuėjome prie ežero. Oras buvo puikus: švietė saulė, pūtė lengvas vėjas. Per tiltą perėjome į salą, kurioje stovi garsioji Trakų pilis. Prie pilies fotografavomės ir žiūrėjome į baltas jachtas ežere. Pilies viduje yra muziejus, todėl ten praleidome beveik dvi valandas. Sužinojome daug įdomių dalykų apie Lietuvos istoriją.
+
+  Po ekskursijos buvome labai alkani. Užsukome į nedidelę kavinę ir paragavome kibinų – tai tradiciniai karaimų pyragėliai. Man labiausiai patiko kibinai su vištiena, o draugė išsirinko kibinus su daržovėmis. Kavinėje buvo daug turistų, bet laukti ilgai nereikėjo.
+
+  Vakare traukiniu grįžome į Vilnių. Kelionė buvo trumpa, bet labai smagi. Kitą kartą norėtume išsinuomoti valtį ir paplaukioti ežere.
+glossary:
+  - { word: nuvažiavome, lemma: nuvažiuoti, pos: verb, forms: { pres: nuvažiuoja, past: nuvažiavo }, meaning: "поехать, съездить (куда-то)", note: "прош. вр., мы" }
+  - { word: Trakus, lemma: Trakai, pos: noun, gen: Trakų, meaning: "Тракай (город)", note: "только мн. ч.: į Trakus — в Тракай, Trakuose — в Тракае" }
+  - { word: Trakuose, lemma: Trakai, pos: noun, gen: Trakų, meaning: "Тракай (город)", note: "мест. п. мн. ч.: в Тракае" }
+  - { word: garsus, lemma: garsus, pos: adj, meaning: "знаменитый, известный", note: "garsus kuo (+ твор. п.) — знаменит чем" }
+  - { word: pilimi, lemma: pilis, pos: noun, gen: pilies, meaning: замок, note: "твор. п." }
+  - { word: traukiniu, lemma: traukinys, pos: noun, gen: traukinio, meaning: поезд, note: "твор. п.: поездом" }
+  - { word: pusvalandį, lemma: pusvalandis, pos: noun, gen: pusvalandžio, meaning: полчаса, note: "per pusvalandį — за полчаса" }
+  - { word: pasirinkome, lemma: pasirinkti, pos: verb, forms: { pres: pasirenka, past: pasirinko }, meaning: выбрать, note: "прош. вр., мы" }
+  - { word: kainavo, lemma: kainuoti, pos: verb, forms: { pres: kainuoja, past: kainavo }, meaning: стоить, note: "прош. вр.; + вин. п.: kainavo kelis eurus" }
+  - { word: ežero, lemma: ežeras, pos: noun, gen: ežero, meaning: озеро, note: "род. п.: prie ežero — к озеру" }
+  - { word: švietė, lemma: šviesti, pos: verb, forms: { pres: šviečia, past: švietė }, meaning: светить }
+  - { word: pūtė, lemma: pūsti, pos: verb, forms: { pres: pučia, past: pūtė }, meaning: дуть }
+  - { word: vėjas, lemma: vėjas, meaning: ветер, item: lt-w-0118 }
+  - { word: tiltą, lemma: tiltas, pos: noun, gen: tilto, meaning: мост, note: "per tiltą — через мост" }
+  - { word: salą, lemma: sala, pos: noun, gen: salos, meaning: остров }
+  - { word: garsioji, lemma: garsus, pos: adj, meaning: "знаменитый, известный", note: "определ. форма, ж. р.: та самая знаменитая" }
+  - { word: pilis, lemma: pilis, pos: noun, gen: pilies, meaning: замок }
+  - { word: fotografavomės, lemma: fotografuotis, pos: verb, forms: { pres: fotografuojasi, past: fotografavosi }, meaning: фотографироваться, note: "прош. вр., мы" }
+  - { word: jachtas, lemma: jachta, pos: noun, gen: jachtos, meaning: яхта, note: "вин. п. мн. ч." }
+  - { word: praleidome, lemma: praleisti, meaning: "провести (время); пропустить", item: lt-w-0027, note: "прош. вр., мы" }
+  - { word: alkani, lemma: alkanas, pos: adj, meaning: голодный, note: "мн. ч." }
+  - { word: užsukome, lemma: užsukti, pos: verb, forms: { pres: užsuka, past: užsuko }, meaning: "заглянуть, зайти (ненадолго)", note: "прош. вр., мы" }
+  - { word: paragavome, lemma: paragauti, pos: verb, forms: { pres: paragauja, past: paragavo }, meaning: "попробовать (на вкус)", note: "+ род. п.: paragauti kibinų" }
+  - { word: kibinų, lemma: kibinai, pos: noun, gen: kibinų, meaning: "кибины (караимские пирожки)", note: "род. п. мн. ч." }
+  - { word: karaimų, lemma: karaimai, pos: noun, gen: karaimų, meaning: "караимы (народ)" }
+  - { word: pyragėliai, lemma: pyragėlis, pos: noun, gen: pyragėlio, meaning: пирожок }
+  - { word: vištiena, lemma: vištiena, pos: noun, gen: vištienos, meaning: курятина, note: "твор. п.: su vištiena" }
+  - { word: išsirinko, lemma: išsirinkti, pos: verb, forms: { pres: išsirenka, past: išsirinko }, meaning: выбрать }
+  - { word: daržovėmis, lemma: daržovė, pos: noun, gen: daržovės, meaning: овощ, note: "твор. п. мн. ч.: su daržovėmis — с овощами" }
+  - { word: turistų, lemma: turistas, pos: noun, gen: turisto, meaning: турист, note: "род. п. мн. ч.: daug turistų" }
+  - { word: kelionė, lemma: kelionė, meaning: "поездка, путешествие", item: lt-w-0035 }
+  - { word: smagi, lemma: smagus, pos: adj, meaning: "весёлый, приятный", note: "ж. р." }
+  - { word: norėtume, lemma: norėti, pos: verb, forms: { pres: nori, past: norėjo }, meaning: хотеть, note: "усл. накл., мы: хотели бы" }
+  - { word: išsinuomoti, lemma: išsinuomoti, meaning: "снять (в аренду)", item: lt-w-0012, note: "здесь: взять напрокат" }
+  - { word: valtį, lemma: valtis, pos: noun, gen: valties, meaning: лодка }
+  - { word: paplaukioti, lemma: paplaukioti, pos: verb, forms: { pres: paplaukioja, past: paplaukiojo }, meaning: "поплавать (немного)" }
+questions:
+  - q: Kaip jie nuvažiavo į Trakus?
+    options: ["Automobiliu", "Traukiniu", "Autobusu"]
+    answer: 1
+  - q: Kur stovi Trakų pilis?
+    options: ["Saloje", "Miesto centre", "Ant kalno"]
+    answer: 0
+  - q: Ką jie norėtų padaryti kitą kartą?
+    options: ["Aplankyti muziejų", "Paragauti kibinų", "Paplaukioti valtimi"]
+    answer: 2

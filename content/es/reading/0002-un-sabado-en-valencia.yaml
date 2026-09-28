@@ -1,0 +1,45 @@
+id: es-r-0002
+cefr: A2
+title: Un sábado en Valencia
+topic: plans for Saturday
+source: generated
+text: |
+  Pablo vive en Valencia. Mañana es sábado y no tiene que trabajar, así que tiene muchos planes.
+
+  Primero, va a levantarse tarde, a las diez. Después va a desayunar tranquilamente: café con leche y tostadas con tomate. A las doce va a quedar con su hermano Javier en la plaza. Quieren ir juntos a una exposición de fotografía en el museo.
+
+  Por la tarde va a hacer sol y calor, así que van a ir a la playa. Pablo quiere nadar un poco y leer su libro nuevo. Por la noche, va a cenar con sus amigos en un restaurante italiano. Va a estar cansado, pero muy contento. ¡Va a ser un día perfecto!
+glossary:
+  - { word: mañana, lemma: mañana, meaning: tomorrow, item: es-w-0016, note: "la mañana = the morning" }
+  - { word: tiene, lemma: tener, meaning: to have, item: es-w-0014, note: "tener que + infinitive — to have to" }
+  - { word: planes, lemma: plan, pos: noun, gender: m, meaning: plan }
+  - { word: levantarse, lemma: levantarse, pos: verb, meaning: to get up, note: "reflexive: me levanto, te levantas, se levanta…" }
+  - { word: tarde, lemma: tarde, meaning: late, item: es-w-0031, note: "la tarde = the afternoon (see «por la tarde» below)" }
+  - { word: desayunar, lemma: desayunar, pos: verb, meaning: to have breakfast }
+  - { word: tranquilamente, lemma: tranquilamente, pos: adv, meaning: "calmly, without hurry" }
+  - { word: leche, lemma: leche, pos: noun, gender: f, meaning: milk }
+  - { word: tostadas, lemma: tostada, pos: noun, gender: f, meaning: "(a slice of) toast" }
+  - { word: quedar, lemma: quedar, pos: verb, meaning: "to meet up (Spain)", note: "quedar con alguien — to meet someone" }
+  - { word: hermano, lemma: hermano, pos: noun, gender: m, meaning: brother }
+  - { word: quieren, lemma: querer, meaning: to want, item: es-w-0011, note: "present, they: e → ie" }
+  - { word: juntos, lemma: juntos, meaning: together, item: es-w-0037 }
+  - { word: exposición, lemma: exposición, pos: noun, gender: f, meaning: exhibition }
+  - { word: hacer, lemma: hacer, meaning: "to do; to make", item: es-w-0044, note: "weather: hace sol — it's sunny, hace calor — it's hot" }
+  - { word: calor, lemma: calor, pos: noun, gender: m, meaning: heat }
+  - { word: playa, lemma: playa, pos: noun, gender: f, meaning: beach }
+  - { word: nadar, lemma: nadar, pos: verb, meaning: to swim }
+  - { word: nuevo, lemma: nuevo, meaning: new, item: es-w-0043 }
+  - { word: noche, lemma: noche, meaning: night, item: es-w-0027, note: "por la noche — in the evening / at night" }
+  - { word: cenar, lemma: cenar, pos: verb, meaning: to have dinner }
+  - { word: cansado, lemma: cansado, pos: adj, meaning: tired, note: "estar cansado (a state → estar)" }
+  - { word: contento, lemma: contento, pos: adj, meaning: "happy, pleased" }
+questions:
+  - q: ¿A qué hora va a levantarse Pablo?
+    options: ["A las ocho", "A las diez", "A las doce"]
+    answer: 1
+  - q: ¿Adónde van a ir por la tarde?
+    options: ["A la playa", "Al cine", "Al museo"]
+    answer: 0
+  - q: ¿Dónde va a cenar Pablo?
+    options: ["En casa", "En un restaurante italiano", "En la playa"]
+    answer: 1

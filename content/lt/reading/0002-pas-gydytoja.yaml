@@ -1,0 +1,61 @@
+id: lt-r-0002
+cefr: B1
+title: Pas gydytoją
+topic: визит к врачу
+source: generated
+text: |
+  Jau kelias dienas man skauda gerklę ir galvą. Pas gydytojus einu retai, bet šį kartą jaučiausi tikrai blogai, todėl nusprendžiau užsiregistruoti pas šeimos gydytoją. Paskambinau į polikliniką, bet šią savaitę laisvų laikų nebuvo. Tada užsiregistravau internetu – ketvirtadieniui, devintai valandai ryto.
+
+  Gydytoja buvo jauna ir labai maloni. Ji paklausė, kiek laiko sergu ir ar turiu temperatūros. Paskui apžiūrėjo mano gerklę ir pasiklausė plaučių. Pasakė, kad tai paprastas peršalimas ir nieko pavojingo nėra. Vis dėlto ji paprašė kasdien matuoti temperatūrą.
+
+  Gydytoja patarė daugiau ilsėtis, gerti šiltą arbatą su medumi ir kelias dienas neiti į darbą. Ji išrašė man nedarbingumo pažymėjimą penkioms dienoms. Be to, patarė vaistinėje nusipirkti vaistų nuo gerklės skausmo. Jeigu po savaitės nepagerės, turėsiu vėl ateiti.
+
+  Grįžęs namo, iš karto atsiguliau į lovą ir parašiau vadovui, kad kelias dienas nedirbsiu. Vakare žmona išvirė vištienos sriubos, ir man jau buvo šiek tiek geriau. Juk sveikata svarbesnė už darbą.
+glossary:
+  - { word: skauda, lemma: skaudėti, pos: verb, forms: { pres: skauda, past: skaudėjo }, meaning: "болеть (о части тела)", note: "man skauda galvą — у меня болит голова (вин. п.!)" }
+  - { word: gerklę, lemma: gerklė, pos: noun, gen: gerklės, meaning: горло, note: "вин. п." }
+  - { word: retai, lemma: retai, meaning: редко, item: lt-w-0022 }
+  - { word: jaučiausi, lemma: jaustis, meaning: чувствовать себя, item: lt-w-0069, note: "прош. вр., я" }
+  - { word: nusprendžiau, lemma: nuspręsti, meaning: "решить (принять решение)", item: lt-w-0033, note: "прош. вр., я" }
+  - { word: užsiregistruoti, lemma: užsiregistruoti, pos: verb, forms: { pres: užsiregistruoja, past: užsiregistravo }, meaning: "записаться (к врачу), зарегистрироваться" }
+  - { word: užsiregistravau, lemma: užsiregistruoti, pos: verb, forms: { pres: užsiregistruoja, past: užsiregistravo }, meaning: "записаться (к врачу), зарегистрироваться", note: "прош. вр., я" }
+  - { word: gydytoją, lemma: gydytojas, meaning: врач, item: lt-w-0083, note: "вин. п.: pas gydytoją — к врачу" }
+  - { word: gydytoja, lemma: gydytoja, pos: noun, gen: gydytojos, meaning: "врач (женщина)" }
+  - { word: polikliniką, lemma: poliklinika, pos: noun, gen: poliklinikos, meaning: поликлиника, note: "вин. п.: paskambinti į polikliniką — позвонить в поликлинику" }
+  - { word: laikų, lemma: laikas, meaning: "время; (свободное) время приёма", item: lt-w-0001, note: "род. п. мн. ч.: laisvų laikų nebuvo — свободных мест (на приём) не было" }
+  - { word: sergu, lemma: sirgti, pos: verb, forms: { pres: serga, past: sirgo }, meaning: "болеть (быть больным)", note: "наст. вр., я" }
+  - { word: temperatūros, lemma: temperatūra, pos: noun, gen: temperatūros, meaning: температура, note: "turėti temperatūros — иметь температуру (род. п.)" }
+  - { word: paprašė, lemma: paprašyti, pos: verb, forms: { pres: paprašo, past: paprašė }, meaning: попросить }
+  - { word: matuoti, lemma: matuoti, pos: verb, forms: { pres: matuoja, past: matavo }, meaning: измерять }
+  - { word: apžiūrėjo, lemma: apžiūrėti, pos: verb, forms: { pres: apžiūri, past: apžiūrėjo }, meaning: осмотреть }
+  - { word: pasiklausė, lemma: pasiklausyti, pos: verb, forms: { pres: pasiklauso, past: pasiklausė }, meaning: послушать, note: "+ род. п.: pasiklausė plaučių" }
+  - { word: plaučių, lemma: plaučiai, pos: noun, gen: plaučių, meaning: лёгкие, note: "обычно мн. ч.; род. п." }
+  - { word: peršalimas, lemma: peršalimas, pos: noun, gen: peršalimo, meaning: простуда }
+  - { word: pavojingo, lemma: pavojingas, pos: adj, meaning: опасный, note: "nieko pavojingo — ничего опасного (род. п.)" }
+  - { word: ilsėtis, lemma: ilsėtis, pos: verb, forms: { pres: ilsisi, past: ilsėjosi }, meaning: отдыхать }
+  - { word: medumi, lemma: medus, pos: noun, gen: medaus, meaning: мёд, note: "твор. п.: su medumi — с мёдом" }
+  - { word: išrašė, lemma: išrašyti, pos: verb, forms: { pres: išrašo, past: išrašė }, meaning: "выписать (справку, рецепт)" }
+  - { word: nedarbingumo, lemma: nedarbingumas, pos: noun, gen: nedarbingumo, meaning: нетрудоспособность, note: "nedarbingumo pažymėjimas — больничный лист" }
+  - { word: pažymėjimą, lemma: pažymėjimas, pos: noun, gen: pažymėjimo, meaning: "справка, удостоверение" }
+  - { word: penkioms, lemma: penki, pos: num, meaning: пять, note: "дат. п. ж. р.: penkioms dienoms — на пять дней" }
+  - { word: vaistinėje, lemma: vaistinė, pos: noun, gen: vaistinės, meaning: аптека, note: "мест. п." }
+  - { word: vaistų, lemma: vaistai, pos: noun, gen: vaistų, meaning: лекарства, note: "род. п.: nusipirkti vaistų — купить лекарств" }
+  - { word: skausmo, lemma: skausmas, meaning: боль, item: lt-w-0098, note: "род. п.: nuo gerklės skausmo — от боли в горле" }
+  - { word: nepagerės, lemma: pagerėti, pos: verb, forms: { pres: pagerėja, past: pagerėjo }, meaning: "улучшиться, стать лучше", note: "буд. вр. с отрицанием: если не станет лучше" }
+  - { word: grįžęs, lemma: grįžti, pos: verb, forms: { pres: grįžta, past: grįžo }, meaning: вернуться, note: "причастие (о мужчине): вернувшись" }
+  - { word: atsiguliau, lemma: atsigulti, pos: verb, forms: { pres: atsigula, past: atsigulė }, meaning: лечь, note: "прош. вр., я" }
+  - { word: išvirė, lemma: išvirti, pos: verb, forms: { pres: išverda, past: išvirė }, meaning: сварить }
+  - { word: sriubos, lemma: sriuba, pos: noun, gen: sriubos, meaning: суп, note: "род. п.: išvirė sriubos — сварила супа (немного, «чего»)" }
+  - { word: vadovui, lemma: vadovas, meaning: руководитель, item: lt-w-0128, note: "дат. п." }
+  - { word: sveikata, lemma: sveikata, meaning: здоровье, item: lt-w-0156 }
+  - { word: svarbesnė, lemma: svarbus, pos: adj, meaning: важный, note: "сравн. ст., ж. р.: svarbesnė už … — важнее, чем …" }
+questions:
+  - q: Ką jam skauda?
+    options: ["Gerklę ir galvą", "Nugarą", "Dantį"]
+    answer: 0
+  - q: Kaip jis užsiregistravo pas gydytoją?
+    options: ["Paskambino į polikliniką", "Internetu", "Atėjo be registracijos"]
+    answer: 1
+  - q: Ką patarė gydytoja?
+    options: ["Ilsėtis ir gerti šiltą arbatą", "Rytoj eiti į darbą", "Važiuoti į ligoninę"]
+    answer: 0

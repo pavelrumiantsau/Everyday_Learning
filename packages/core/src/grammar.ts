@@ -3,10 +3,10 @@
 
 type Lang = "lt" | "es" | "fr";
 
-/** PLAN §3.6: which language's rule comes on each weekday (0 = Sunday). Sunday has no rule. */
-export const GRAMMAR_ROTATION: readonly (Lang | null)[] = [null, "lt", "es", "lt", "lt", "es", "lt"];
+/** PLAN §3.6: which language's rule comes on each weekday (0 = Sunday). Thursday is LT reading, Sunday LT writing: no rule. */
+export const GRAMMAR_ROTATION: readonly (Lang | null)[] = [null, "lt", "es", "lt", null, "es", "lt"];
 
-/** The language of the rule of the day for a local calendar day ("2026-09-28"), or null (Sunday). */
+/** The language of the rule of the day for a local calendar day ("2026-09-28"), or null (Thursday, Sunday). */
 export function grammarLangForDay(day: string): Lang | null {
   const weekday = new Date(`${day}T12:00:00Z`).getUTCDay();
   return GRAMMAR_ROTATION[weekday] ?? null;
