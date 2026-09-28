@@ -1,0 +1,48 @@
+id: lt-r-0022
+cefr: B2
+title: Senėjanti visuomenė
+topic: стареющее общество
+source: generated
+text: |
+  Lietuva, kaip ir dauguma Europos šalių, sparčiai sensta. Maždaug kas penktas šalies gyventojas jau yra vyresnis nei 65 metų, o gimstamumas per pastarąjį dešimtmetį sumažėjo. Demografai perspėja, kad po kelių dešimtmečių dirbančiųjų gali nebeužtekti, kad būtų išlaikyta pensijų sistema.
+
+  Senėjimas keičia ne tik ekonomiką, bet ir kasdienį gyvenimą. Vis daugiau senjorų gyvena vieni, ypač kaimuose, iš kurių jaunimas seniai išvažiavęs. Jiems sunku nuvykti pas gydytoją, nusipirkti vaistų ar tiesiog su kuo nors pasikalbėti. Savivaldybės ir savanoriai stengiasi padėti: organizuojamas maisto pristatymas, veikia pagalbos telefonu linijos, kuriose savanoriai kalbasi su vienišais žmonėmis.
+
+  Didelė našta tenka ir šeimoms. Neretai vidutinio amžiaus žmonės vienu metu rūpinasi ir savo vaikais, ir sergančiais tėvais, todėl jiems pritrūksta ne tik laiko, bet ir jėgų. Globos namuose vietų nepakanka, o slaugytojų, galinčių ateiti į namus, trūksta ypač mažesniuose miestuose. Todėl vis garsiau kalbama, kad valstybė turėtų daugiau investuoti į pagalbą namuose.
+
+  Kita vertus, šiuolaikiniai senjorai nebėra tokie, kokius juos įsivaizdavome anksčiau. Daugelis jų aktyviai keliauja, lanko trečiojo amžiaus universitetus, mokosi naudotis išmaniaisiais telefonais ir net dirba ilgiau, nei reikalauja įstatymas. Darbdaviai pamažu supranta, kad vyresnio amžiaus darbuotojai – ne našta, o patirties šaltinis.
+
+  Ekspertų teigimu, visuomenė turėtų kuo greičiau prisitaikyti prie šių pokyčių. Reikia daugiau prieinamų viešųjų erdvių, patogesnio transporto ir lankstesnių darbo sąlygų. Galbūt svarbiausia – keisti požiūrį: senatvė neturėtų būti laikoma vien problema. Juk kiekvienas iš mūsų kada nors taps senjoru, todėl kurdami draugiškesnę aplinką jiems, kuriame ją ir sau.
+glossary:
+  - { word: "sparčiai", lemma: "sparčiai", meaning: "быстро, стремительно", item: lt-w-0703 }
+  - { word: "sensta", lemma: "senti", pos: verb, forms: { pres: "sensta", past: "seno" }, meaning: "стареть" }
+  - { word: "gimstamumas", lemma: "gimstamumas", pos: noun, gender: m, gen: "gimstamumo", meaning: "рождаемость" }
+  - { word: "dešimtmetį", lemma: "dešimtmetis", pos: noun, gender: m, gen: "dešimtmečio", meaning: "десятилетие", note: "вин. п.: per pastarąjį dešimtmetį — за последнее десятилетие" }
+  - { word: "dirbančiųjų", lemma: "dirbantysis", pos: adj, meaning: "работающий", note: "местоим. прич., род. п. мн. ч.: dirbančiųjų gali nebeužtekti — работающих может не хватить" }
+  - { word: "nebeužtekti", lemma: "užtekti", meaning: "хватить", item: lt-w-0338, note: "ne-be-: больше не хватать" }
+  - { word: "pensijų", lemma: "pensija", meaning: "пенсия", item: lt-w-0311, note: "род. п. мн. ч." }
+  - { word: "senjorų", lemma: "senjoras", pos: noun, gender: m, gen: "senjoro", meaning: "пожилой человек, пенсионер", note: "род. п. мн. ч." }
+  - { word: "Savivaldybės", lemma: "savivaldybė", pos: noun, gender: f, gen: "savivaldybės", meaning: "самоуправление, муниципалитет", note: "им. п. мн. ч." }
+  - { word: "savanoriai", lemma: "savanoris", pos: noun, gender: m, gen: "savanorio", meaning: "волонтёр", note: "им. п. мн. ч." }
+  - { word: "pristatymas", lemma: "pristatymas", meaning: "доставка; презентация", item: lt-w-0804 }
+  - { word: "Globos", lemma: "globa", pos: noun, gender: f, gen: "globos", meaning: "опека, попечение", note: "globos namai — дом престарелых, интернат" }
+  - { word: "slaugytojų", lemma: "slaugytojas", pos: noun, gender: m, gen: "slaugytojo", meaning: "сиделка, медбрат", note: "род. п. мн. ч." }
+  - { word: "investuoti", lemma: "investuoti", pos: verb, forms: { pres: "investuoja", past: "investavo" }, meaning: "инвестировать, вкладывать" }
+  - { word: "šiuolaikiniai", lemma: "šiuolaikinis", pos: adj, meaning: "современный" }
+  - { word: "išmaniaisiais", lemma: "išmanusis", pos: adj, meaning: "умный", note: "местоим. форма, твор. п. мн. ч.: išmanusis telefonas — смартфон" }
+  - { word: "įstatymas", lemma: "įstatymas", meaning: "закон", item: lt-w-0168 }
+  - { word: "našta", lemma: "našta", pos: noun, gender: f, gen: "naštos", meaning: "бремя, обуза" }
+  - { word: "prisitaikyti", lemma: "prisitaikyti", meaning: "приспособиться", item: lt-w-0707, note: "prisitaikyti prie ko — приспособиться к чему" }
+  - { word: "prieinamų", lemma: "prieinamas", pos: adj, meaning: "доступный", note: "род. п. мн. ч." }
+  - { word: "erdvių", lemma: "erdvė", pos: noun, gender: f, gen: "erdvės", meaning: "пространство", note: "род. п. мн. ч.: viešosios erdvės — общественные пространства" }
+  - { word: "senatvė", lemma: "senatvė", pos: noun, gender: f, gen: "senatvės", meaning: "старость" }
+questions:
+  - q: "Kokią dalį Lietuvos gyventojų sudaro vyresni nei 65 metų žmonės?"
+    options: ["Maždaug kas dešimtas", "Maždaug kas penktas", "Maždaug pusė"]
+    answer: 1
+  - q: "Su kokiomis problemomis susiduria kaimuose gyvenantys senjorai?"
+    options: ["Jiems sunku nuvykti pas gydytoją ir su kuo nors pabendrauti", "Jie negauna pensijos", "Jiems draudžiama dirbti"]
+    answer: 0
+  - q: "Kaip, pasak teksto, keičiasi darbdavių požiūris?"
+    options: ["Jie nenori samdyti vyresnių žmonių", "Jie reikalauja, kad visi anksčiau išeitų į pensiją", "Jie supranta, kad vyresni darbuotojai yra patirties šaltinis"]
+    answer: 2

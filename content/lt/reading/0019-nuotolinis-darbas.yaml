@@ -1,0 +1,51 @@
+id: lt-r-0019
+cefr: B2
+title: Nuotolinis darbas – laisvė ar spąstai?
+topic: удалённая работа
+source: generated
+text: |
+  Pandemijos metu tūkstančiai Lietuvos darbuotojų pirmą kartą pradėjo dirbti iš namų. Tuomet daugelis manė, kad tai laikina priemonė, tačiau praėjus keleriems metams nuotolinis darbas tapo įprastu reiškiniu. Kai kurios įmonės leidžia darbuotojams patiems nuspręsti, kur dirbti, o kitos reikalauja bent kelias dienas per savaitę praleisti biure.
+
+  Nuotolinio darbo šalininkai pabrėžia, kad sutaupoma daug laiko, kuris anksčiau būdavo praleidžiamas kamščiuose. Dirbdamas namie žmogus gali lanksčiau planuoti savo dieną: nuvesti vaikus į mokyklą, pasportuoti per pietų pertrauką ar pasirūpinti sergančiu tėvu. Be to, įmonės, išsinuomojusios mažesnes patalpas, išleidžia mažiau pinigų.
+
+  Vis dėlto kritikų netrūksta. Jų teigimu, dirbant nuotoliu silpnėja ryšiai tarp kolegų, o naujiems darbuotojams sunkiau įsilieti į kolektyvą. Psichologai perspėja, kad namuose išlaikyti ribą tarp darbo ir poilsio ne taip paprasta: nešiojamasis kompiuteris visada po ranka, todėl darbo diena neretai užsitęsia iki vėlyvo vakaro. Kai kurie darbuotojai prisipažįsta jaučiantys vienatvę ir pasiilgstantys paprasčiausių pokalbių prie kavos aparato.
+
+  Įdomu, kad nuotolinis darbas keičia ir šalies žemėlapį. Kai kurie vilniečiai, supratę, kad į biurą važiuoti kasdien nebereikia, persikėlė į mažesnius miestus ar net į kaimus, kur būstas pigesnis, o gamta arčiau. Regionų merai tuo džiaugiasi, nes į jų savivaldybes sugrįžta jaunos šeimos. Tačiau be spartaus interneto ir patogaus susisiekimo su sostine toks gyvenimo būdas neįmanomas.
+
+  Atrodo, kad daugelis darbdavių renkasi vidurio kelią – vadinamąjį hibridinį modelį. Darbuotojas kelias dienas dirba biure, o likusias – ten, kur jam patogiau. Tyrimai rodo, kad toks modelis patinka daugumai, nors jo sėkmė labai priklauso nuo vadovo gebėjimo pasitikėti komanda. Kuo labiau darbuotojai jaučiasi vertinami, tuo mažiau jiems reikia kontrolės.
+
+  O jūs? Ar norėtumėte visada dirbti iš namų, ar vis dėlto pasiilgtumėte biuro?
+glossary:
+  - { word: "laikina", lemma: "laikinas", meaning: "временный", item: lt-w-0761 }
+  - { word: "praėjus", lemma: "praeiti", pos: verb, forms: { pres: "praeina", past: "praėjo" }, meaning: "пройти", note: "деепричастие: praėjus keleriems metams — спустя несколько лет (дат. п.)" }
+  - { word: "nuotolinis", lemma: "nuotolinis", pos: adj, meaning: "дистанционный, удалённый", note: "dirbti nuotoliu — работать удалённо" }
+  - { word: "šalininkai", lemma: "šalininkas", pos: noun, gender: m, gen: "šalininko", meaning: "сторонник", note: "им. п. мн. ч." }
+  - { word: "pabrėžia", lemma: "pabrėžti", pos: verb, forms: { pres: "pabrėžia", past: "pabrėžė" }, meaning: "подчёркивать" }
+  - { word: "sutaupoma", lemma: "sutaupyti", pos: verb, forms: { pres: "sutaupo", past: "sutaupė" }, meaning: "сэкономить", note: "страд. прич., безл.: sutaupoma laiko — экономится время" }
+  - { word: "kamščiuose", lemma: "kamštis", pos: noun, gender: m, gen: "kamščio", meaning: "пробка (на дороге; в бутылке)", note: "местн. п. мн. ч." }
+  - { word: "lanksčiau", lemma: "lanksčiai", pos: adv, meaning: "гибко", note: "сравн. ст." }
+  - { word: "išsinuomojusios", lemma: "išsinuomoti", meaning: "снять, арендовать", item: lt-w-0012, note: "прич. прош. вр., ж. р. мн. ч.: įmonės, išsinuomojusios… — компании, арендовавшие…" }
+  - { word: "teigimu", lemma: "teigimas", pos: noun, gender: m, gen: "teigimo", meaning: "утверждение", note: "jų teigimu — по их словам" }
+  - { word: "įsilieti", lemma: "įsilieti", pos: verb, forms: { pres: "įsilieja", past: "įsiliejo" }, meaning: "влиться" }
+  - { word: "ribą", lemma: "riba", meaning: "граница, предел", item: lt-w-0316, note: "вин. п." }
+  - { word: "nešiojamasis", lemma: "nešiojamasis", pos: adj, meaning: "переносной", note: "nešiojamasis kompiuteris — ноутбук" }
+  - { word: "užsitęsia", lemma: "užsitęsti", pos: verb, forms: { pres: "užsitęsia", past: "užsitęsė" }, meaning: "затянуться" }
+  - { word: "vienatvę", lemma: "vienatvė", pos: noun, gender: f, gen: "vienatvės", meaning: "одиночество", note: "вин. п." }
+  - { word: "pasiilgstantys", lemma: "pasiilgti", pos: verb, forms: { pres: "pasiilgsta", past: "pasiilgo" }, meaning: "соскучиться, скучать (по кому/чему)", note: "прич., им. п. мн. ч.; pasiilgti ko (+ род. п.)" }
+  - { word: "darbdavių", lemma: "darbdavys", pos: noun, gender: m, gen: "darbdavio", meaning: "работодатель", note: "род. п. мн. ч." }
+  - { word: "būstas", lemma: "būstas", meaning: "жильё", item: lt-w-0387 }
+  - { word: "merai", lemma: "meras", pos: noun, gender: m, gen: "mero", meaning: "мэр", note: "им. п. мн. ч." }
+  - { word: "susisiekimo", lemma: "susisiekimas", pos: noun, gender: m, gen: "susisiekimo", meaning: "сообщение, транспортная связь" }
+  - { word: "vadinamąjį", lemma: "vadinamasis", pos: adj, meaning: "так называемый", note: "вин. п." }
+  - { word: "gebėjimo", lemma: "gebėjimas", pos: noun, gender: m, gen: "gebėjimo", meaning: "способность, умение" }
+  - { word: "vertinami", lemma: "vertinti", meaning: "ценить; оценивать", item: lt-w-0211, note: "страд. прич. мн. ч.: jaučiasi vertinami — чувствуют, что их ценят" }
+questions:
+  - q: "Kodėl nuotolinio darbo šalininkai jį giria?"
+    options: ["Nes namuose uždirbama daugiau", "Nes sutaupoma laiko ir dieną galima planuoti lanksčiau", "Nes biuruose trūksta vietos"]
+    answer: 1
+  - q: "Kokią problemą mini psichologai?"
+    options: ["Namuose sunku atskirti darbą nuo poilsio", "Namuose per daug triukšmo", "Namuose dažnai neveikia internetas"]
+    answer: 0
+  - q: "Nuo ko, pasak teksto, labiausiai priklauso hibridinio modelio sėkmė?"
+    options: ["Nuo biuro dydžio", "Nuo darbuotojų amžiaus", "Nuo to, ar vadovas pasitiki komanda"]
+    answer: 2

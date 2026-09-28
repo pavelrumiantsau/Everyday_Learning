@@ -1,0 +1,48 @@
+id: lt-r-0020
+cefr: B2
+title: Emigracija ir sugrįžimas
+topic: эмиграция и возвращение
+source: generated
+text: |
+  Nuo nepriklausomybės atkūrimo iš Lietuvos emigravo šimtai tūkstančių žmonių. Daugiausia jų išvyko į Didžiąją Britaniją, Airiją ir Norvegiją, ieškodami geriau apmokamo darbo. Ilgą laiką emigracija buvo laikoma viena didžiausių šalies problemų: tuštėjo kaimai ir mažesni miestai, trūko gydytojų ir mokytojų, o daugelio šeimų nariai gyveno skirtingose šalyse.
+
+  Pastaraisiais metais padėtis pasikeitė. Statistikos duomenimis, į Lietuvą kasmet sugrįžta daugiau žmonių, nei iš jos išvyksta. Grįžtančiųjų motyvai įvairūs. Vieni sako pavargę nuo gyvenimo svetimoje šalyje ir norintys, kad vaikai augtų arčiau senelių. Kitus paskatino didėjantys atlyginimai ir naujos darbo galimybės, ypač informacinių technologijų srityje. Be to, į Lietuvą vis dažniau atvyksta ir užsieniečiai – ne tik iš kaimyninių šalių, bet ir iš Azijos ar Lotynų Amerikos.
+
+  Valstybė taip pat bando grįžimą paskatinti. Sukurtos interneto svetainės, kuriose galima rasti informacijos apie darbo pasiūlymus, mokesčius ir mokyklas, o kai kurios savivaldybės siūlo konsultacijas ką tik grįžusioms šeimoms. Vis dėlto dauguma grįžusiųjų prisipažįsta, kad svarbiausią sprendimą lėmė ne valstybės programos, o šeima, draugai ir jausmas, kad gyvenimas tėvynėje tapo patogesnis nei prieš dešimtmetį.
+
+  Sugrįžti ne visada lengva. Grįžusieji pasakoja, kad teko iš naujo priprasti prie biurokratijos, ieškoti darželio vaikams ir įrodinėti savo patirtį darbdaviams, kurie ne visada vertina užsienyje įgytus įgūdžius. Vaikai, užaugę Airijoje ar Norvegijoje, kartais geriau kalba angliškai negu lietuviškai, todėl mokykloje jiems prireikia papildomos pagalbos.
+
+  Sociologai pabrėžia, kad emigracija nebūtinai yra vien nuostolis. Žmonės, keletą metų pagyvenę kitose šalyse, parsiveža naujų idėjų, kalbų žinių ir drąsos kurti savo verslą. Todėl šiandien ekspertai vis dažniau kalba ne tik apie „protų nutekėjimą“, bet ir apie „protų apytaką“ – kai žinios ir patirtis keliauja abiem kryptimis.
+glossary:
+  - { word: "emigravo", lemma: "emigruoti", pos: verb, forms: { pres: "emigruoja", past: "emigravo" }, meaning: "эмигрировать", note: "прош. вр." }
+  - { word: "apmokamo", lemma: "apmokamas", pos: adj, meaning: "оплачиваемый", note: "geriau apmokamas darbas — лучше оплачиваемая работа" }
+  - { word: "tuštėjo", lemma: "tuštėti", pos: verb, forms: { pres: "tuštėja", past: "tuštėjo" }, meaning: "пустеть", note: "прош. вр." }
+  - { word: "Pastaraisiais", lemma: "pastarasis", pos: adj, meaning: "последний (недавний)", note: "pastaraisiais metais — в последние годы" }
+  - { word: "duomenimis", lemma: "duomenys", meaning: "данные", item: lt-w-0134, note: "только мн. ч.; statistikos duomenimis — по данным статистики" }
+  - { word: "Grįžtančiųjų", lemma: "grįžtantysis", pos: adj, meaning: "возвращающийся", note: "местоим. прич., род. п. мн. ч.: grįžtančiųjų motyvai — мотивы возвращающихся" }
+  - { word: "pavargę", lemma: "pavargti", pos: verb, forms: { pres: "pavargsta", past: "pavargo" }, meaning: "устать", note: "прич.: sako pavargę — говорят, что устали" }
+  - { word: "srityje", lemma: "sritis", meaning: "область, сфера", item: lt-w-0473, note: "местн. п." }
+  - { word: "užsieniečiai", lemma: "užsienietis", pos: noun, gender: m, gen: "užsieniečio", meaning: "иностранец", note: "им. п. мн. ч." }
+  - { word: "biurokratijos", lemma: "biurokratija", pos: noun, gender: f, gen: "biurokratijos", meaning: "бюрократия" }
+  - { word: "darželio", lemma: "darželis", pos: noun, gender: m, gen: "darželio", meaning: "детский сад", note: "род. п." }
+  - { word: "įrodinėti", lemma: "įrodinėti", pos: verb, forms: { pres: "įrodinėja", past: "įrodinėjo" }, meaning: "доказывать" }
+  - { word: "įgytus", lemma: "įgyti", meaning: "приобрести", item: lt-w-1128, note: "страд. прич., вин. п. мн. ч.: įgyti įgūdžiai — приобретённые навыки" }
+  - { word: "prireikia", lemma: "prireikti", meaning: "понадобиться", item: lt-w-0227, note: "prireikia pagalbos (род. п.) — нужна помощь" }
+  - { word: "parsiveža", lemma: "parsivežti", pos: verb, forms: { pres: "parsiveža", past: "parsivežė" }, meaning: "привезти (с собой) домой" }
+  - { word: "drąsos", lemma: "drąsa", meaning: "смелость", item: lt-w-0334, note: "род. п." }
+  - { word: "pasiūlymus", lemma: "pasiūlymas", meaning: "предложение", item: lt-w-0047, note: "вин. п. мн. ч.: darbo pasiūlymai — вакансии" }
+  - { word: "lėmė", lemma: "lemti", pos: verb, forms: { pres: "lemia", past: "lėmė" }, meaning: "определить, обусловить", note: "прош. вр." }
+  - { word: "tėvynėje", lemma: "tėvynė", pos: noun, gender: f, gen: "tėvynės", meaning: "родина", note: "местн. п." }
+  - { word: "nutekėjimą", lemma: "nutekėjimas", pos: noun, gender: m, gen: "nutekėjimo", meaning: "утечка", note: "protų nutekėjimas — утечка мозгов" }
+  - { word: "apytaką", lemma: "apytaka", pos: noun, gender: f, gen: "apytakos", meaning: "круговорот, обмен", note: "protų apytaka — циркуляция мозгов" }
+  - { word: "kryptimis", lemma: "kryptis", meaning: "направление", item: lt-w-0336, note: "твор. п. мн. ч.: abiem kryptimis — в обоих направлениях" }
+questions:
+  - q: "Į kokias šalis daugiausia emigravo lietuviai?"
+    options: ["Į Vokietiją ir Lenkiją", "Į Didžiąją Britaniją, Airiją ir Norvegiją", "Į Ameriką ir Kanadą"]
+    answer: 1
+  - q: "Su kokiais sunkumais susiduria grįžusieji?"
+    options: ["Jiems neleidžiama dirbti", "Jie pamiršta lietuvių kalbą", "Biurokratija ir darbdaviai, kurie ne visada vertina patirtį užsienyje"]
+    answer: 2
+  - q: "Ką reiškia „protų apytaka“?"
+    options: ["Kai žinios ir patirtis keliauja abiem kryptimis", "Kai visi specialistai išvyksta", "Kai studentai mokosi tik Lietuvoje"]
+    answer: 0

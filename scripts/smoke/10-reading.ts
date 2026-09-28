@@ -53,6 +53,6 @@ export default async function (t: Smoke) {
   calls.length = 0;
   await post(msg("/read"));
   const m = calls.find((c) => c.method === "sendMessage");
-  check(!!m && String(m.body.text).includes("Текст дня") && m.body.text.includes("Pas gydytoją") && String(m.body.reply_markup?.inline_keyboard?.[0]?.[0]?.web_app?.url).includes("screen=reading"),
-    "/read sends the next unread text with a button that opens it");
+  check(!!m && String(m.body.text).includes("Текст дня") && m.body.text.includes("Nuotolinis darbas") && m.body.text.includes("B2") && String(m.body.reply_markup?.inline_keyboard?.[0]?.[0]?.web_app?.url).includes("screen=reading"),
+    "/read sends the next unread text at the learner's level (B2 after «легко») with a button that opens it");
 }

@@ -1,0 +1,48 @@
+id: lt-r-0021
+cefr: B2
+title: Mokykla be telefonų?
+topic: телефоны в школе
+source: generated
+text: |
+  Vis daugiau mokyklų Europoje riboja mobiliųjų telefonų naudojimą. Kai kur mokiniai ryte telefonus palieka specialiose spintelėse ir atsiima juos tik po pamokų, kitur telefonus leidžiama laikyti kuprinėje, bet draudžiama išsiimti per pamokas ir pertraukas. Tokie sprendimai sukelia karštų diskusijų tarp tėvų, mokytojų ir pačių mokinių.
+
+  Draudimo šalininkai tvirtina, kad telefonai trukdo susikaupti. Mokinys, kas kelias minutes gaunantis pranešimų, sunkiai įsigilina į sudėtingą užduotį. Mokytojai pastebi, kad per pertraukas vaikai, užuot bendravę tarpusavyje, sėdi įnikę į ekranus. Be to, anot psichologų, socialiniuose tinkluose dažnai prasideda patyčios, kurios vėliau persikelia ir į klasę.
+
+  Priešininkai atsako, kad draudimai problemos neišsprendžia. Jų nuomone, jaunimą reikia mokyti atsakingai naudotis technologijomis, o ne apsimesti, kad telefonų nėra. Telefone yra žodynas, skaičiuotuvas, kalendorius ir galimybė greitai susisiekti su tėvais. Kai kurie tėvai nerimauja, kad, nutikus nelaimei, negalės pasiekti savo vaiko.
+
+  Diskusijose dalyvauja ir patys mokiniai. Kai kurie jų pripažįsta, kad be telefono per pertrauką iš pradžių buvo nuobodu, tačiau netrukus jie vėl pradėjo žaisti stalo tenisą, kalbėtis ar tiesiog eiti į lauką. Kiti skundžiasi, kad suaugusieji jiems nepasitiki ir priima sprendimus jų neatsiklausę. Anot jų, taisyklės būtų veiksmingesnės, jeigu jas kurtų kartu su mokiniais.
+
+  Mokyklose, kuriose telefonai buvo apriboti, rezultatai kol kas skiriasi. Vienur mokytojai džiaugiasi ramesnėmis pamokomis ir gyvesnėmis pertraukomis, kitur mokiniai tiesiog išmoko telefonus slėpti. Panašu, kad vien taisyklių nepakanka: svarbiausia, ar suaugusieji patys rodo gerą pavyzdį. Juk sunku reikalauti iš vaiko nežiūrėti į ekraną, jei tėvai vakarienės metu skaito naujienas telefone.
+
+  Kaip manote jūs – ar telefonai mokykloje turėtų būti uždrausti?
+glossary:
+  - { word: "riboja", lemma: "riboti", pos: verb, forms: { pres: "riboja", past: "ribojo" }, meaning: "ограничивать" }
+  - { word: "spintelėse", lemma: "spintelė", pos: noun, gender: f, gen: "spintelės", meaning: "шкафчик", note: "местн. п. мн. ч." }
+  - { word: "atsiima", lemma: "atsiimti", pos: verb, forms: { pres: "atsiima", past: "atsiėmė" }, meaning: "забрать (своё)" }
+  - { word: "kuprinėje", lemma: "kuprinė", pos: noun, gender: f, gen: "kuprinės", meaning: "рюкзак", note: "местн. п." }
+  - { word: "sukelia", lemma: "sukelti", meaning: "вызвать", item: lt-w-0194, note: "sukelia diskusijų — вызывает споры (род. п.)" }
+  - { word: "tvirtina", lemma: "tvirtinti", pos: verb, forms: { pres: "tvirtina", past: "tvirtino" }, meaning: "утверждать" }
+  - { word: "susikaupti", lemma: "susikaupti", meaning: "сосредоточиться", item: lt-w-0471 }
+  - { word: "įsigilina", lemma: "įsigilinti", pos: verb, forms: { pres: "įsigilina", past: "įsigilino" }, meaning: "вникнуть, углубиться" }
+  - { word: "tarpusavyje", lemma: "tarpusavyje", meaning: "между собой", item: lt-w-0601 }
+  - { word: "įnikę", lemma: "įnikti", pos: verb, forms: { pres: "įninka", past: "įniko" }, meaning: "углубиться, уткнуться (во что)", note: "прич. мн. ч.: sėdi įnikę į ekranus — сидят, уткнувшись в экраны" }
+  - { word: "anot", lemma: "anot", meaning: "по словам (кого)", item: lt-w-0710, note: "anot psichologų — по словам психологов (+ род. п.)" }
+  - { word: "patyčios", lemma: "patyčios", pos: noun, gender: f, gen: "patyčių", meaning: "травля, издевательства", note: "только мн. ч." }
+  - { word: "skaičiuotuvas", lemma: "skaičiuotuvas", pos: noun, gender: m, gen: "skaičiuotuvo", meaning: "калькулятор" }
+  - { word: "nerimauja", lemma: "nerimauti", meaning: "беспокоиться", item: lt-w-0241 }
+  - { word: "neatsiklausę", lemma: "atsiklausti", pos: verb, forms: { pres: "atsiklausia", past: "atsiklausė" }, meaning: "спросить разрешения, посоветоваться", note: "прич. мн. ч. с отрицанием: jų neatsiklausę — не спросив их" }
+  - { word: "veiksmingesnės", lemma: "veiksmingas", pos: adj, meaning: "действенный, эффективный", note: "сравн. ст., ж. р. мн. ч." }
+  - { word: "nutikus", lemma: "nutikti", pos: verb, forms: { pres: "nutinka", past: "nutiko" }, meaning: "случиться", note: "деепричастие: nutikus nelaimei — если случится беда" }
+  - { word: "apriboti", lemma: "apriboti", pos: verb, forms: { pres: "apriboja", past: "apribojo" }, meaning: "ограничить", note: "здесь страд. прич. мн. ч.: buvo apriboti — были ограничены" }
+  - { word: "Vienur", lemma: "vienur", pos: adv, meaning: "в одном месте, кое-где", note: "vienur… kitur… — где-то…, а где-то…" }
+  - { word: "nepakanka", lemma: "pakakti", pos: verb, forms: { pres: "pakanka", past: "pakako" }, meaning: "хватать, быть достаточным", note: "vien taisyklių nepakanka — одних правил недостаточно (род. п.)" }
+questions:
+  - q: "Kodėl, pasak draudimo šalininkų, telefonai kenkia mokymuisi?"
+    options: ["Jie trukdo susikaupti", "Jie per brangūs", "Jie greitai sugenda"]
+    answer: 0
+  - q: "Ką siūlo draudimo priešininkai?"
+    options: ["Uždrausti telefonus ir namuose", "Mokyti jaunimą atsakingai naudotis technologijomis", "Nupirkti visiems mokiniams planšetes"]
+    answer: 1
+  - q: "Kas, autoriaus nuomone, yra svarbiausia?"
+    options: ["Griežtos bausmės", "Spintelės telefonams", "Suaugusiųjų pavyzdys"]
+    answer: 2

@@ -1,0 +1,51 @@
+id: lt-r-0023
+cefr: B2
+title: Dirbtinis intelektas – pagalbininkas ar grėsmė?
+topic: искусственный интеллект
+source: generated
+text: |
+  Dar prieš kelerius metus pokalbių robotai atrodė kaip mokslinės fantastikos dalis, o šiandien jais naudojasi moksleiviai, žurnalistai ir programuotojai. Dirbtinis intelektas padeda išversti tekstą, parašyti laišką ar paaiškinti sudėtingą temą. Vis dėlto kartu su galimybėmis kyla ir nemažai klausimų.
+
+  Mokytojai pastebi, kad kai kurie mokiniai namų darbus atlieka pasitelkę dirbtinį intelektą, patys beveik nieko neparašę. Todėl vienose mokyklose tokios programos draudžiamos, o kitose, priešingai, mokoma jomis naudotis protingai: tikrinti atsakymus, klausti papildomų klausimų ir niekada aklai nepasitikėti tuo, ką parašė mašina. Juk dirbtinis intelektas kartais klysta – ir daro tai labai įtikinamai.
+
+  Darbo rinkoje taip pat vyksta pokyčiai. Kai kurios profesijos, pavyzdžiui, vertėjo ar klientų aptarnavimo specialisto, keičiasi ypač greitai. Optimistai tvirtina, kad technologijos perims nuobodžias užduotis ir žmonėms liks daugiau laiko kūrybai. Pesimistai baiminasi, kad dalis darbuotojų neteks darbo, o nauji darbai atsiras ne ten ir ne tiems, kam jų labiausiai reikia.
+
+  Ne mažiau svarbus ir privatumo klausimas. Kalbėdamiesi su pokalbių robotu, žmonės neretai atskleidžia asmeninę informaciją: savo sveikatos problemas, darbo paslaptis ar net slaptažodžius. Specialistai pataria prieš rašant pagalvoti, ar tą patį papasakotumėte nepažįstamam žmogui gatvėje. Be to, verta žinoti, kad dirbtinis intelektas mokosi iš žmonių sukurtų tekstų, todėl gali perimti ir jų išankstines nuostatas.
+
+  Europos Sąjunga jau priėmė dirbtinio intelekto aktą, kuriuo siekiama sumažinti rizikas ir apsaugoti žmonių teises. Tačiau įstatymai ne visada spėja paskui technologijas. Galbūt svarbiausias įgūdis ateityje bus ne programavimas, o kritinis mąstymas – gebėjimas atskirti tiesą nuo įtikinamai skambančios netiesos.
+
+  O kaip jūs naudojatės dirbtiniu intelektu – ar jis jums padeda, ar kelia nerimą?
+glossary:
+  - { word: "Dirbtinis", lemma: "dirbtinis", meaning: "искусственный", item: lt-w-0801, note: "dirbtinis intelektas — искусственный интеллект" }
+  - { word: "fantastikos", lemma: "fantastika", pos: noun, gender: f, gen: "fantastikos", meaning: "фантастика", note: "mokslinė fantastika — научная фантастика" }
+  - { word: "moksleiviai", lemma: "moksleivis", pos: noun, gender: m, gen: "moksleivio", meaning: "школьник", note: "им. п. мн. ч." }
+  - { word: "atlieka", lemma: "atlikti", meaning: "выполнить", item: lt-w-0247, note: "atlikti namų darbus — сделать домашнее задание" }
+  - { word: "pasitelkę", lemma: "pasitelkti", pos: verb, forms: { pres: "pasitelkia", past: "pasitelkė" }, meaning: "привлечь (на помощь), воспользоваться", note: "прич. мн. ч.: pasitelkę DI — с помощью ИИ" }
+  - { word: "neparašę", lemma: "parašyti", meaning: "написать", note: "прич. мн. ч. с отрицанием: patys nieko neparašę — сами ничего не написав" }
+  - { word: "mokoma", lemma: "mokyti", meaning: "учить", note: "безличная форма: mokoma naudotis — учат пользоваться" }
+  - { word: "aklai", lemma: "aklai", pos: adv, meaning: "слепо" }
+  - { word: "įtikinamai", lemma: "įtikinamai", pos: adv, meaning: "убедительно" }
+  - { word: "rinkoje", lemma: "rinka", meaning: "рынок", item: lt-w-0449, note: "местн. п.: darbo rinka — рынок труда" }
+  - { word: "aptarnavimo", lemma: "aptarnavimas", pos: noun, gender: m, gen: "aptarnavimo", meaning: "обслуживание", note: "klientų aptarnavimas — обслуживание клиентов" }
+  - { word: "perims", lemma: "perimti", pos: verb, forms: { pres: "perima", past: "perėmė" }, meaning: "перенять, взять на себя", note: "буд. вр." }
+  - { word: "kūrybai", lemma: "kūryba", pos: noun, gender: f, gen: "kūrybos", meaning: "творчество", note: "дат. п." }
+  - { word: "baiminasi", lemma: "baimintis", pos: verb, forms: { pres: "baiminasi", past: "baiminosi" }, meaning: "опасаться" }
+  - { word: "neteks", lemma: "netekti", meaning: "лишиться, потерять", item: lt-w-0428, note: "netekti darbo — потерять работу (род. п.)" }
+  - { word: "privatumo", lemma: "privatumas", pos: noun, gender: m, gen: "privatumo", meaning: "частная жизнь, конфиденциальность" }
+  - { word: "atskleidžia", lemma: "atskleisti", meaning: "раскрыть", item: lt-w-0315 }
+  - { word: "slaptažodžius", lemma: "slaptažodis", meaning: "пароль", item: lt-w-0628, note: "вин. п. мн. ч." }
+  - { word: "išankstines", lemma: "išankstinis", pos: adj, meaning: "предварительный", note: "išankstinės nuostatos — предубеждения" }
+  - { word: "siekiama", lemma: "siekti", meaning: "стремиться", item: lt-w-0245, note: "безл.: kuriuo siekiama — которым стремятся" }
+  - { word: "spėja", lemma: "spėti", meaning: "успевать", item: lt-w-0435, note: "spėti paskui — поспевать за" }
+  - { word: "mąstymas", lemma: "mąstymas", pos: noun, gender: m, gen: "mąstymo", meaning: "мышление", note: "kritinis mąstymas — критическое мышление" }
+  - { word: "netiesos", lemma: "netiesa", pos: noun, gender: f, gen: "netiesos", meaning: "неправда", note: "род. п." }
+questions:
+  - q: "Kaip mokyklos reaguoja į dirbtinį intelektą?"
+    options: ["Visos jį draudžia", "Vienos draudžia, kitos moko juo protingai naudotis", "Visos jį perka mokiniams"]
+    answer: 1
+  - q: "Ko baiminasi pesimistai?"
+    options: ["Kad dalis darbuotojų neteks darbo", "Kad kompiuteriai labai pabrangs", "Kad niekas nebesimokys kalbų"]
+    answer: 0
+  - q: "Kokį įgūdį autorius laiko svarbiausiu ateityje?"
+    options: ["Programavimą", "Greitą rašymą", "Kritinį mąstymą"]
+    answer: 2
