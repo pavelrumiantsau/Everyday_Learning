@@ -5,6 +5,7 @@ import { inputFeature } from "./features/Input";
 import { grammarFeature } from "./features/Grammar";
 import { placementFeature } from "./features/Placement";
 import { profileFeature } from "./features/Profile";
+import { readingFeature } from "./features/Reading";
 
 export interface MiniFeature {
   id: string;
@@ -12,4 +13,4 @@ export interface MiniFeature {
   Screen?: FC<{ close: () => void }>;
 }
 
-export const FEATURES: MiniFeature[] = [profileFeature, grammarFeature, placementFeature, inputFeature];
+export const FEATURES: MiniFeature[] = [profileFeature, grammarFeature, readingFeature, placementFeature, inputFeature];

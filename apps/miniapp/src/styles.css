@@ -203,3 +203,18 @@ h2 { margin: 8px 0 0; font-size: 18px; }
 .fix-line { font-size: 22px; font-weight: 600; line-height: 1.5; }
 .fix-line .del { text-decoration: line-through; color: var(--again); }
 .fix-line .ins { color: var(--good); text-decoration: underline; text-underline-offset: 4px; }
+
+/* Reading mode */
+.reader { font-size: 18px; line-height: 1.65; }
+.reader p { margin: 0 0 14px; }
+.reader .w { cursor: pointer; border-radius: 4px; }
+.reader .w:active, .reader .w.sel { background: color-mix(in srgb, var(--accent) 25%, transparent); }
+.sheet { position: fixed; left: 0; right: 0; bottom: 0; background: var(--bg2); border-radius: 18px 18px 0 0;
+  padding: 16px 16px calc(16px + env(safe-area-inset-bottom)); box-shadow: 0 -6px 24px rgb(0 0 0 / 0.18);
+  display: flex; flex-direction: column; gap: 8px; max-width: 560px; margin: 0 auto; }
+.sheet-head { display: flex; justify-content: space-between; align-items: center; font-size: 18px; }
+.sheet-dict { font-size: 20px; font-weight: 700; }
+.question { display: flex; flex-direction: column; gap: 8px; }
+.chip.right { background: var(--good); color: #fff; }
+.chip.wrong { background: var(--again); color: #fff; }
+.chip:disabled { opacity: 1; }

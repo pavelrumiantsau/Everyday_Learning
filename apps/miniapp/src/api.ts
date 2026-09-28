@@ -111,3 +111,27 @@ export const getGrammarToday = () => call<GrammarToday>("/grammar/today");
 export const getLesson = (id: string) => call<{ lesson: Lesson; done: boolean }>(`/grammar/lessons/${encodeURIComponent(id)}`);
 export const markLessonDone = (id: string) =>
   call<{ done: boolean; created: number }>(`/grammar/lessons/${encodeURIComponent(id)}/done`, { method: "POST", body: "{}" });
+
+// --- Reading mode
+export interface TextSummary { id: string; lang: Lang; cefr: string; title: string; topic: string; words: number; read: boolean }
+export interface ReadingQuestion { q: string; options: string[]; answer: number }
+export interface ReadingTextFull { id: string; cefr: string; title: string; topic: string; text: string; questions: ReadingQuestion[] }
+export interface WordInfo {
+  source: "glossary" | "cache" | "ai";
+  lemma: string;
+  pos?: string;
+  meaning: string;
+  gender?: string;
+  gen?: string;
+  forms?: { pres: string; past: string };
+  note?: string;
+  added: boolean;
+}
+export const getTexts = () => call<{ texts: TextSummary[] }>("/reading").then((r) => r.texts);
+export const getText = (id: string) => call<{ text: ReadingTextFull; read: boolean }>(`/reading/texts/${encodeURIComponent(id)}`);
+export const markTextRead = (id: string, correct: number, total: number) =>
+  call<{ ok: true }>(`/reading/texts/${encodeURIComponent(id)}/done`, { method: "POST", body: JSON.stringify({ correct, total }) });
+export const lookupWord = (b: { lang: Lang; word: string; sentence: string; textId: string }) =>
+  call<WordInfo>("/reading/lookup", { method: "POST", body: JSON.stringify(b) });
+export const addWordToCards = (b: Omit<WordInfo, "source" | "added"> & { lang: Lang; example: string }) =>
+  call<{ added: true; itemId: string }>("/reading/cards", { method: "POST", body: JSON.stringify(b) });

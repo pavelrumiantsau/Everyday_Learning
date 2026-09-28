@@ -19,7 +19,7 @@
 | 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ✅ Done | `feat/grammar`: `/rule`, morning «📘 Правило дня» (Mon/Wed/Thu/Sat LT, Tue/Fri ES), Mini App lesson + cloze cards in reviews |
 | 7 | Audio: TTS for words + examples, play button | ✅ Done | edge-tts mp3 committed to git (`pnpm content:audio`); 🔊 on flashcards + placement; no voice clips in the bot (too noisy) |
 | 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ✅ Done | `packages/llm` + `config/llm.yaml`; `/tutor [lt\|es] [topic]`, `/stop`, `/ai`; feedback on any LT/ES text; voice → Whisper (`whisper-large-v3`); mistakes saved in D1 `mistakes` (cards from them: not yet); `pnpm llm:eval` |
-| 9 | Reading mode (graded texts, tap word → card) | ⬜ Next | after the AI branch (word lookup) |
+| 9 | Reading mode (graded texts, tap word → card) | ✅ Done | 📖 in the Mini App: tap any word → glossary or AI lookup (cached), + В карточки; 3 questions per text; Thursday «Текст дня», `/read` |
 | 10 | Weekly report, `/input` log, auto-adjust of new cards | ✅ Done | Sunday 18:00 report + `/week`; `/input` and 🎧 in the Mini App; ±1–2 new words/day by backlog and accuracy |
 | 11 | "Report a mistake" (bot + Mini App) | ✅ Done | ⚠️ on cards, `/report`; `pnpm content:reports` lists them |
 | 12 | Automation: Claude Code content batches (PR), weekly writing review, quarterly self-assessment | ✅ Done | content batches 1st/15th → PR (needs `CLAUDE_CODE_OAUTH_TOKEN`); weekly writing review runs in the Worker via the AI router (`/review`, Sunday) so personal texts never reach public CI logs; quarterly `/check` |
@@ -322,6 +322,25 @@ exercises:               # 4–8; append-only: the Nth exercise becomes review c
 ```
 The rule of the day is the next not-done lesson of the weekday's language (§3.6); "Готово" in the Mini App turns its exercises into cloze cards.
 
+### 6.6 Reading texts
+One text per file: `content/<lang>/reading/<nnnn>-<slug>.yaml`, validated by `pnpm content:validate`.
+```yaml
+id: lt-r-0001            # <lang>-r-<number>
+cefr: B1                 # length is checked: A1–A2 60–150 words, B1 120–250, B2 120–350
+title: Naujas butas      # in the target language
+topic: переезд           # in the explanation language
+source: generated        # or the URL of an adapted original
+text: |                  # paragraphs separated by a blank line
+  Praėjusį mėnesį ...
+glossary:                # optional; tapping these words needs no AI call
+  - { word: išsinuomojome, lemma: išsinuomoti, meaning: "снять (в аренду)", item: lt-w-0012, note: "прош. вр., мы" }
+questions:               # exactly 3, in the target language
+  - { q: "Kodėl ...?", options: ["...", "...", "..."], answer: 0 }
+```
+Glossary `word`s must occur in the text, meanings are in the explanation language, and an `item` link must point to the course word
+with the same dictionary form. Other words are looked up by the AI (`word_lookup` in `config/llm.yaml`) and cached per word.
+First texts (Sep 2026): 4 Lithuanian B1 (flat, doctor, Trakai, work meeting) and 2 Spanish A1, written with an LLM and checked line by line.
+
 ---
 
 ## 7. Telegram bot
@@ -329,6 +348,7 @@ The rule of the day is the next not-done lesson of the weekday's language (§3.6
 |---|---|
 | Menu **▶ Learn** | Opens the Mini App |
 | `/today`, `/stats` | Plan and what's left; progress per language |
+| `/read` | Next unread text (Thursday morning it comes by itself as «📖 Текст дня») |
 | `/rule` | Rule of the day now (grammar lesson in the Mini App) |
 | **`/tutor [lt\|es] [topic]`** | Conversation with an AI tutor (default Lithuanian at B1; `es` = very simple Spanish). Each reply: the answer in the language, then **✏️ Исправления** (Russian for LT, English for ES). Text and voice go to the tutor while the session is open; the last ~10 exchanges are the context. Mistakes are saved (for cloze cards later) |
 | `/stop` | Ends the tutor session (also ends by itself after 3 h of silence) |
