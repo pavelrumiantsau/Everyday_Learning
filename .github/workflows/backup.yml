@@ -1,0 +1,40 @@
+name: backup
+
+# Nightly copy of the D1 database into the private repo Everyday_Learning-data (SETUP.md step 5).
+# One file, overwritten each night: git history keeps every daily version.
+on:
+  schedule:
+    - cron: "37 0 * * *" # ≈ 03:37 in Vilnius
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    concurrency: backup
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CI: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Export the database (never printed to the log)
+        run: pnpm wrangler d1 export everyday-learning --remote --output "$RUNNER_TEMP/everyday-learning.sql" > /dev/null
+      - name: Commit to the private data repo
+        env:
+          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
+        run: |
+          git clone --depth 1 "https://x-access-token:${DATA_REPO_TOKEN}@github.com/pavelrumiantsau/Everyday_Learning-data.git" "$RUNNER_TEMP/data"
+          cd "$RUNNER_TEMP/data"
+          mkdir -p d1
+          cp "$RUNNER_TEMP/everyday-learning.sql" d1/everyday-learning.sql
+          git add d1
+          if git diff --cached --quiet; then echo "No changes since the last backup."; exit 0; fi
+          git -c user.name="backup-bot" -c user.email="backup-bot@users.noreply.github.com" \
+            commit -q -m "D1 backup $(date -u +%Y-%m-%d)"
+          git push -q
+          echo "Backup saved ($(wc -c < d1/everyday-learning.sql) bytes)."

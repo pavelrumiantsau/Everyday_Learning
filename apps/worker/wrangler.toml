@@ -1,6 +1,7 @@
 name = "everyday-learning"
 main = "src/index.ts"
 compatibility_date = "2026-09-01"
+account_id = "1fa40d21ace501fab9ce46dc6e27165f"   # not a secret; lets GitHub Actions deploy without guessing the account
 
 # Every 15 minutes; the code decides whether a morning lesson or evening reminder is due (config/schedule.yaml).
 [triggers]

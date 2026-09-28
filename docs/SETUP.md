@@ -173,36 +173,46 @@ local database, and prints a ✓/✗ checklist. It's useful after any code chang
 
 ---
 
-## Step 5 — GitHub: private backup repo, deploy from GitHub (20 min) 👤 + 🤖
+## Step 5 — GitHub: automatic deploys and nightly backups (15 min) 👤 + 🤖
 
-From here on, every push to `main` runs tests and deploys automatically, and your data is backed up every night.
+From here on, every push to `main` that passes the checks goes live by itself, and your progress is copied
+every night to the **private** repo `Everyday_Learning-data`. You need two tokens, both created in the browser.
 
-1. 🤖 Create the private data repo:
+1. 🤖 Private data repo, already created: https://github.com/pavelrumiantsau/Everyday_Learning-data
+2. 👤 **Cloudflare API token** (lets GitHub Actions deploy and read the database):
+   Cloudflare dashboard → profile icon (top right) → **My Profile → API Tokens → Create Token** →
+   template **"Edit Cloudflare Workers"** → **Use template**.
+   - Under **Permissions**, click **+ Add more** and add **Account → D1 → Edit** (the template doesn't include it).
+   - **Account Resources:** Include → your account. **Zone Resources:** leave as is (you have no domains).
+   - **Continue to summary → Create Token** → copy the token (shown once) into your password manager as *Cloudflare API token (GitHub)*.
+3. 👤 **GitHub token for backups** (lets the backup job write to the private repo, and nothing else):
+   github.com → your avatar → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
+   - Name: `everyday-learning-backup`. Expiration: **1 year** (add a calendar reminder).
+   - **Repository access:** *Only select repositories* → `Everyday_Learning-data`.
+   - **Permissions → Repository permissions → Contents: Read and write.** (Metadata: Read-only is added automatically.)
+   - **Generate token** → copy it into your password manager as *GitHub backup token*.
+4. 👤 **Store both as GitHub Secrets** of the public repo. Type these into the Claude Code prompt one at a time
+   (the `!` runs them in your terminal). Each one asks you to paste the value, which isn't shown:
    ```bash
-   gh repo create pavelrumiantsau/Everyday_Learning-data --private --description "Backups & reviews (private)"
+   ! gh secret set CLOUDFLARE_API_TOKEN -R pavelrumiantsau/Everyday_Learning
+   ! gh secret set DATA_REPO_TOKEN -R pavelrumiantsau/Everyday_Learning
    ```
-2. 👤 **Cloudflare API token** (lets GitHub Actions deploy): Cloudflare dashboard → profile icon (top right) → **My Profile →
-   API Tokens → Create Token** → template **"Edit Cloudflare Workers"** → **Use template**. Under *Permissions* check
-   that **Account → D1 → Edit** is there, and add it if missing. *Account Resources*: your account. **Create** → copy the token.
-3. 👤 **GitHub token for backups**: github.com → profile → **Settings → Developer settings → Personal access tokens →
-   Fine-grained tokens → Generate new token**. Name: `everyday-learning-backup`. Expiration: 1 year (add a calendar reminder).
-   *Repository access*: **Only select repositories → `Everyday_Learning-data`**. *Permissions → Repository → Contents: Read and write*. Generate → copy.
-4. 🤖 **Claude subscription token** (lets GitHub Actions run Claude Code on your plan for content batches and the weekly review):
-   ```bash
-   claude setup-token        # 👤 approve in the browser; copy the printed token (shown only once)
-   ```
-5. 🤖 Store all of them as GitHub Secrets of the **public** repo (each command asks you to paste the value):
-   ```bash
-   gh secret set CLOUDFLARE_API_TOKEN
-   gh secret set CLOUDFLARE_ACCOUNT_ID
-   gh secret set DATA_REPO_TOKEN
-   gh secret set CLAUDE_CODE_OAUTH_TOKEN
-   gh secret list            # names only, values are never shown
-   ```
-6. 🤖 Push to `main` → **Actions** tab: `ci` and `deploy` go green. Run `backup` once by hand
-   (`gh workflow run backup.yml`) → a file `d1/YYYY-MM-DD.sql` appears in the data repo.
+   `gh secret list -R pavelrumiantsau/Everyday_Learning` shows the names (never the values).
+5. 🤖 Claude Code pushes the workflows and runs a test deploy and a first backup.
 
-✅ **Done when** a push deploys by itself and the first backup shows up in `Everyday_Learning-data`.
+✅ **Done when** the **Actions** tab shows `ci` (check + deploy) green, and `d1/everyday-learning.sql` appears in `Everyday_Learning-data`.
+
+**Later (weeks 7–8), not needed now:** a `CLAUDE_CODE_OAUTH_TOKEN` secret (from `claude setup-token`) for the automated
+content batches and weekly writing review. It's left out for now so it doesn't sit unused and expire.
+
+### Restoring from a backup (if ever needed) 🤖
+```bash
+git clone https://github.com/pavelrumiantsau/Everyday_Learning-data /tmp/el-data
+pnpm wrangler d1 execute everyday-learning --remote --file /tmp/el-data/d1/everyday-learning.sql
+```
+Restore into an **empty** database (create a new one with `pnpm wrangler d1 create …` first), because the file recreates the tables.
+Older versions: `git log d1/everyday-learning.sql` in the data repo, then `git show <commit>:d1/everyday-learning.sql > old.sql`.
+Cloudflare also keeps its own point-in-time history of D1 (*Time Travel*, see `pnpm wrangler d1 time-travel --help`).
 
 ---
 
@@ -242,8 +252,8 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 | No morning message | Dashboard → Worker → *Trigger events* shows the cron? `config/schedule.yaml` time zone correct? Look for `scheduled` entries in the logs |
 | Worker URL shows `error code: 1042` right after the first deploy | The new workers.dev subdomain is still activating. Wait 1–5 minutes and reload |
 | `wrangler login` browser doesn't open | Copy the URL it prints into your browser manually |
-| GitHub deploy fails with `Authentication error` | The Cloudflare API token is missing the D1 permission, or the account ID is wrong (step 5.2) |
-| Backup job fails | The fine-grained token expired or isn't limited to the data repo. Create a new one (step 5.3) and `gh secret set DATA_REPO_TOKEN` |
+| GitHub deploy or backup fails with `Authentication error` / `code: 10000` | The Cloudflare API token is missing **D1 → Edit** (step 5.2). Create a new token and set `CLOUDFLARE_API_TOKEN` again |
+| Backup job fails | The fine-grained token expired or isn't limited to the data repo. Create a new one (step 5.3) and run `gh secret set DATA_REPO_TOKEN` again |
 
 ## Where every secret lives
 | Secret | Password manager | Cloudflare (`wrangler secret`) | GitHub Secrets | `.dev.vars` (local only) |
@@ -254,8 +264,7 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 | Groq API key | ✅ | ✅ | — | ✅ |
 | Gemini API key (optional) | ✅ | ✅ | — | ✅ |
 | Cloudflare API token | ✅ | — | ✅ | — |
-| Cloudflare account ID | ✅ | — | ✅ | — |
 | Data repo token | ✅ | — | ✅ | — |
-| Claude Code OAuth token | ✅ | — | ✅ | — |
+| Claude Code OAuth token (weeks 7–8) | ✅ | — | ✅ | — |
 
 **Yearly:** renew the data repo token (step 5.3) and, if it expires, `claude setup-token` (step 5.4).
