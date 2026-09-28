@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isReadingDay, learnerItemId, paragraphs, parseLearnerItemId, pickText, ReadingText, sentenceAt, tokenize, wordsOf } from "../src";
+import { isReadingDay, learnerItemId, nextReadingLevel, ownTextId, paragraphs, parseLearnerItemId, parseOwnTextId, pickText, ReadingText, sentenceAt, tokenize, wordsOf } from "../src";
 
 describe("tokenize", () => {
   it("keeps Lithuanian/Spanish letters in words and round-trips the text", () => {
@@ -32,6 +32,33 @@ describe("text choice", () => {
     expect(isReadingDay("2026-10-02")).toBe(false);
     expect(parseLearnerItemId(learnerItemId("lt", 42))).toEqual({ lang: "lt", n: 42 });
     expect(parseLearnerItemId("lt-w-0001")).toBeNull();
+  });
+});
+
+describe("reading level", () => {
+  it("starts Lithuanian one level above B1 and follows the learner's rating", () => {
+    expect(nextReadingLevel(null, "lt")).toBe("B2");
+    expect(nextReadingLevel({ cefr: "B1", rating: "easy" }, "lt")).toBe("B2");
+    expect(nextReadingLevel({ cefr: "B2", rating: "ok" }, "lt")).toBe("B2");
+    expect(nextReadingLevel({ cefr: "B2", rating: "hard" }, "lt")).toBe("B1");
+    expect(nextReadingLevel({ cefr: "C1", rating: "easy" }, "lt")).toBe("C1");
+  });
+  it("prefers texts of the target level, then the nearest (harder first)", () => {
+    const texts = [
+      { id: "lt-r-0001", cefr: "B1" },
+      { id: "lt-r-0002", cefr: "B1" },
+      { id: "lt-r-0019", cefr: "B2" },
+      { id: "lt-r-0020", cefr: "C1" },
+    ];
+    expect(pickText(texts, new Set(), "lt", "B2")!.id).toBe("lt-r-0019");
+    expect(pickText(texts, new Set(["lt-r-0019"]), "lt", "B2")!.id).toBe("lt-r-0020");
+    expect(pickText(texts, new Set(), "lt", "B1")!.id).toBe("lt-r-0001");
+    expect(pickText(texts, new Set(), "lt")!.id).toBe("lt-r-0001");
+  });
+  it("own text ids round-trip", () => {
+    expect(ownTextId(7)).toBe("u-r-000007");
+    expect(parseOwnTextId("u-r-000007")).toBe(7);
+    expect(parseOwnTextId("lt-r-0007")).toBeNull();
   });
 });
 

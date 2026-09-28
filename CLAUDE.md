@@ -23,7 +23,7 @@ Spanish beginner, French starts April 2027.
 - `packages/llm` — provider router (Groq main, Gemini fallback, Anthropic off), adapters, prompts rendering; tests in `packages/llm/test`.
 - `apps/worker` — Cloudflare Worker (Hono + D1). **Features plug in** via `src/features/<name>.ts` (`Feature`: commands, onMessage,
   onPollAnswer, api, onTick) and one line in `src/features/index.ts` (**`tutor` must stay last**: it takes plain text). Migrations in
-  `migrations/` (next: **0010**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
+  `migrations/` (next: **0011**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
 - `apps/miniapp` — React 19 + Vite. Features in `src/features/*.tsx` (`HomeEntry` + `Screen`), listed in `src/features.tsx`;
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
 - `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.

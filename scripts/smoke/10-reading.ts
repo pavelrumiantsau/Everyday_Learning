@@ -29,7 +29,27 @@ export default async function (t: Smoke) {
   const course = await json<{ itemId: string }>(postJson("/reading/cards", { lang: "lt", lemma: "pavojus", meaning: "опасность", example: "…" }));
   check(course.itemId === "lt-w-0017", "a word the course already has uses the course's own card (with its example and audio)");
 
-  check((await postJson("/reading/texts/lt-r-0001/done", { correct: 3, total: 3 })).ok, "a text can be marked as read");
+  const done = await json<{ ok: boolean; nextLevel: string }>(postJson("/reading/texts/lt-r-0001/done", { correct: 3, total: 3, rating: "easy" }));
+  check(done.ok && done.nextLevel === "B2", "a text can be marked as read; «легко» on a B1 text asks for B2 next");
+
+  // Own texts: pasted in the Mini App, stored only in D1, questions by the AI on first open.
+  const article = "Vilniuje šiandien vyko didelis koncertas. ".repeat(8) + "Žmonės dainavo ir šoko iki vėlyvo vakaro, o miestas buvo pilnas svečių.";
+  check((await postJson("/reading/own", { lang: "lt", text: "Per trumpas tekstas." })).status === 400, "a too short own text is rejected");
+  const own = await json<{ id: string; words: number }>(postJson("/reading/own", { lang: "lt", text: article, url: "https://www.lrt.lt/naujienos/test" }));
+  check(/^u-r-\d{6}$/.test(own.id) && own.words > 30, "an own text is saved");
+  const list = await json<{ own: { id: string; title: string; topic: string }[]; level: string }>(api("/reading", me));
+  check(list.own.some((t) => t.id === own.id && t.title.startsWith("Vilniuje") && t.topic.includes("lrt.lt")) && list.level === "B2",
+    "the reading list shows own texts (title from the first words, source site) and the next level");
+  llm.requests.length = 0;
+  const opened = await json<{ text: { questions: { options: string[] }[]; own?: boolean } }>(api(`/reading/texts/${own.id}`, me));
+  const firstCalls = llm.requests.length;
+  await api(`/reading/texts/${own.id}`, me);
+  check(opened.text.own === true && opened.text.questions.length === 3 && firstCalls >= 1 && llm.requests.length === firstCalls,
+    "an own text gets 3 AI questions on first open, stored for later");
+  const w = await json<{ source: string }>(postJson("/reading/lookup", { lang: "lt", word: "koncertas", sentence: "Vilniuje vyko koncertas.", textId: own.id }));
+  check(w.source === "ai" || w.source === "cache", "words in an own text are looked up like any other");
+  check((await postJson(`/reading/texts/${own.id}/done`, { correct: 2, total: 3, rating: "hard" })).ok, "an own text can be marked as read with a rating");
+  check((await api(`/reading/own/${own.id}`, me, { method: "DELETE" })).ok && (await api(`/reading/texts/${own.id}`, me)).status === 404, "an own text can be deleted");
   calls.length = 0;
   await post(msg("/read"));
   const m = calls.find((c) => c.method === "sendMessage");

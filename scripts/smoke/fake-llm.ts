@@ -21,6 +21,8 @@ const answer = (tag: string) =>
     gender: "m",
     gen: "buto",
     meaning: "квартира",
+    // reading_questions (own texts)
+    questions: [0, 1, 2].map((i) => ({ q: `Klausimas ${i + 1}?`, options: ["Taip", "Ne", "Nežinau"], answer: i })),
   });
 
 export const FAKE_TRANSCRIPT = "Aš eina namo";

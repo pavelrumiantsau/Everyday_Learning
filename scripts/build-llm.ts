@@ -12,7 +12,7 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
 /** Only for pasting into the Claude app, not used by the bot. */
 const NOT_BUNDLED = new Set(["tutor/claude-project"]);
-const REQUIRED_PROMPTS = ["tutor/chat", "feedback/writing"];
+const REQUIRED_PROMPTS = ["tutor/chat", "feedback/writing", "feedback/lookup", "feedback/reading-questions"];
 
 export function loadLlmConfig(): LlmConfig {
   const result = LlmConfig.safeParse(parse(readFileSync(join(root, "config/llm.yaml"), "utf8")));

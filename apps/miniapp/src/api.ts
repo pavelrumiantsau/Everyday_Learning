@@ -117,9 +117,11 @@ export interface DiagnosticLesson { id: string; title: string; cefr: string; exe
 export const getGrammarDiagnostic = (lang: Lang) => call<{ lessons: DiagnosticLesson[] }>(`/grammar/diagnostic?lang=${lang}`);
 
 // --- Reading mode
-export interface TextSummary { id: string; lang: Lang; cefr: string; title: string; topic: string; words: number; read: boolean }
+export interface TextSummary { id: string; lang: Lang; cefr: string | null; title: string; topic: string; words: number; read: boolean; own?: true }
 export interface ReadingQuestion { q: string; options: string[]; answer: number }
-export interface ReadingTextFull { id: string; cefr: string; title: string; topic: string; text: string; questions: ReadingQuestion[] }
+export interface ReadingTextFull { id: string; cefr: string | null; title: string; topic: string; text: string; source?: string; questions: ReadingQuestion[]; own?: true }
+export interface ReadingList { texts: TextSummary[]; own: TextSummary[]; level: string; nextId: string | null }
+export type ReadingRating = "easy" | "ok" | "hard";
 export interface WordInfo {
   source: "glossary" | "cache" | "ai";
   lemma: string;
@@ -131,10 +133,13 @@ export interface WordInfo {
   note?: string;
   added: boolean;
 }
-export const getTexts = () => call<{ texts: TextSummary[] }>("/reading").then((r) => r.texts);
+export const getReading = () => call<ReadingList>("/reading");
 export const getText = (id: string) => call<{ text: ReadingTextFull; read: boolean }>(`/reading/texts/${encodeURIComponent(id)}`);
-export const markTextRead = (id: string, correct: number, total: number) =>
-  call<{ ok: true }>(`/reading/texts/${encodeURIComponent(id)}/done`, { method: "POST", body: JSON.stringify({ correct, total }) });
+export const markTextRead = (id: string, correct: number, total: number, rating?: ReadingRating) =>
+  call<{ ok: true; nextLevel: string }>(`/reading/texts/${encodeURIComponent(id)}/done`, { method: "POST", body: JSON.stringify({ correct, total, rating }) });
+export const addOwnText = (b: { lang: Lang; title?: string; url?: string; text: string }) =>
+  call<{ id: string; words: number }>("/reading/own", { method: "POST", body: JSON.stringify(b) });
+export const deleteOwnText = (id: string) => call<{ ok: true }>(`/reading/own/${encodeURIComponent(id)}`, { method: "DELETE" });
 export const lookupWord = (b: { lang: Lang; word: string; sentence: string; textId: string }) =>
   call<WordInfo>("/reading/lookup", { method: "POST", body: JSON.stringify(b) });
 export const addWordToCards = (b: Omit<WordInfo, "source" | "added"> & { lang: Lang; example: string }) =>

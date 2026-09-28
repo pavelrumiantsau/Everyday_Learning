@@ -222,3 +222,6 @@ h2 { margin: 8px 0 0; font-size: 18px; }
 /* 🎧 "Что послушать" */
 .sources { display: flex; flex-direction: column; gap: 8px; }
 .source-note { font-weight: 400; }
+
+/* 📖 own text (features/Reading.tsx) */
+textarea.own-text { min-height: 40vh; resize: vertical; line-height: 1.4; }

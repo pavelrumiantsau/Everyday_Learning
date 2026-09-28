@@ -7,10 +7,15 @@ import {
   learnerItemId,
   localClock,
   newCard,
+  nextReadingLevel,
   normalizeWord,
+  ownTextId,
   parseLearnerItemId,
+  parseOwnTextId,
   pickText,
+  READING_RATINGS,
   wordsOf,
+  type ReadingRating,
   type Item,
   type Lang,
   type ReadingText,
@@ -75,7 +80,82 @@ export async function learnerItems(d1: D1Database, itemIds: string[]): Promise<M
   );
 }
 
-const summary = (t: ReadingText, read: Set<string>) => ({
+// --- texts the learner pasted (migration 0010): private, D1 only ---
+
+const OWN_MAX_CHARS = 20_000;
+const OWN_MIN_WORDS = 30;
+const Questions = z.object({
+  questions: z
+    .array(z.object({ q: z.string().min(1), options: z.array(z.string().min(1)).min(2).max(4), answer: z.number().int().min(0) }))
+    .length(3)
+    .refine((qs) => qs.every((q) => q.answer < q.options.length), "answer out of range"),
+});
+type OwnRow = { n: number; lang: Lang; title: string; text: string; source_url: string | null; questions: string | null; created_at: number };
+
+async function ownRow(d1: D1Database, id: string): Promise<OwnRow | null> {
+  const n = parseOwnTextId(id);
+  return n === null ? null : d1.prepare("SELECT * FROM own_text WHERE n = ?").bind(n).first<OwnRow>();
+}
+
+/** An own text in the shape of a content text (no level, no glossary; topic = where it came from). */
+type OwnText = Omit<ReadingText, "cefr"> & { cefr: null; own: true; lang: Lang };
+function ownText(r: OwnRow): OwnText {
+  let host = "";
+  try {
+    host = r.source_url ? new URL(r.source_url).hostname.replace(/^www\./, "") : "";
+  } catch {
+    host = "";
+  }
+  return {
+    id: ownTextId(r.n),
+    lang: r.lang,
+    own: true,
+    cefr: null,
+    title: r.title,
+    topic: host ? `свой текст · ${host}` : "свой текст",
+    source: r.source_url ?? "generated",
+    text: r.text,
+    glossary: [],
+    questions: r.questions ? (JSON.parse(r.questions) as ReadingText["questions"]) : [],
+  };
+}
+
+/** 3 questions for an own text: generated once by the AI and stored; [] if the AI is unavailable (the quiz is skipped). */
+async function ensureQuestions(env: Env, r: OwnRow): Promise<OwnRow> {
+  if (r.questions) return r;
+  const p = PROFILES[r.lang as TargetLang];
+  const system = (PROMPTS["feedback/reading-questions"] ?? "").replaceAll("{{lang_name}}", p.name).replaceAll("{{level}}", p.level);
+  try {
+    const res = await llmRouter(env, new AiStore(env.DB)).json(
+      "reading_questions",
+      { messages: [{ role: "system", content: system }, { role: "user", content: r.text.slice(0, 12_000) }], temperature: 0.2, maxTokens: 900 },
+      Questions,
+    );
+    const questions = JSON.stringify(res.output.questions);
+    await env.DB.prepare("UPDATE own_text SET questions = ? WHERE n = ?").bind(questions, r.n).run();
+    return { ...r, questions };
+  } catch (err) {
+    console.error("reading questions failed", String(err).slice(0, 200));
+    return r;
+  }
+}
+
+/** Level of the next text of `lang` from the learner's last rated course text (own texts have no level). */
+async function targetLevel(d1: D1Database, lang: Lang) {
+  const { results } = await d1
+    .prepare("SELECT text_id, rating FROM reading_done WHERE rating IS NOT NULL AND text_id LIKE ? ORDER BY done_at DESC LIMIT 1")
+    .bind(`${lang}-r-%`)
+    .all<{ text_id: string; rating: ReadingRating }>();
+  const last = results[0];
+  const t = last && TEXT_BY_ID.get(last.text_id);
+  return nextReadingLevel(t ? { cefr: t.cefr, rating: last.rating } : null, lang);
+}
+
+async function nextText(d1: D1Database, lang: Lang) {
+  return pickText(TEXTS, await readIds(d1), lang, await targetLevel(d1, lang));
+}
+
+const summary = (t: Pick<ReadingText, "id" | "title" | "topic" | "text"> & { cefr: string | null }, read: Set<string>) => ({
   id: t.id,
   lang: t.id.slice(0, 2) as Lang,
   cefr: t.cefr,
@@ -100,22 +180,63 @@ const api = new Hono<{ Bindings: Env }>();
 api.get("/reading", async (c) => {
   const read = await readIds(c.env.DB);
   const list = [...TEXTS].sort((a, b) => LANGS.indexOf(a.id.slice(0, 2) as Lang) - LANGS.indexOf(b.id.slice(0, 2) as Lang) || a.id.localeCompare(b.id));
-  return c.json({ texts: list.map((t) => summary(t, read)) });
+  const { results } = await c.env.DB.prepare("SELECT n, lang, title, text, source_url, NULL AS questions, created_at FROM own_text ORDER BY n DESC").all<OwnRow>();
+  const own = results.map((r) => ({ ...summary(ownText(r), read), lang: r.lang, own: true }));
+  // The level the next Lithuanian "Текст дня" will have, and that text (so the list can start with it).
+  const level = await targetLevel(c.env.DB, "lt");
+  const next = pickText(TEXTS, read, "lt", level);
+  return c.json({ texts: list.map((t) => summary(t, read)), own, level, nextId: next?.id ?? null });
 });
 
 api.get("/reading/texts/:id", async (c) => {
-  const t = TEXT_BY_ID.get(c.req.param("id"));
+  const id = c.req.param("id");
+  const row = await ownRow(c.env.DB, id);
+  const t = row ? ownText(await ensureQuestions(c.env, row)) : TEXT_BY_ID.get(id);
   if (!t) return c.json({ error: "unknown text" }, 404);
   return c.json({ text: t, read: (await readIds(c.env.DB)).has(t.id) });
 });
 
 api.post("/reading/texts/:id/done", async (c) => {
-  const t = TEXT_BY_ID.get(c.req.param("id"));
-  if (!t) return c.json({ error: "unknown text" }, 404);
-  const b = await c.req.json<{ correct?: number; total?: number }>().catch(() => ({}) as { correct?: number; total?: number });
-  await c.env.DB.prepare("INSERT OR REPLACE INTO reading_done (text_id, done_at, correct, total) VALUES (?, ?, ?, ?)")
-    .bind(t.id, Date.now(), Number.isInteger(b.correct) ? b.correct : null, Number.isInteger(b.total) ? b.total : null)
+  const id = c.req.param("id");
+  const known = TEXT_BY_ID.has(id) || (await ownRow(c.env.DB, id)) !== null;
+  if (!known) return c.json({ error: "unknown text" }, 404);
+  const b = await c.req.json<{ correct?: number; total?: number; rating?: string }>().catch(() => ({}) as { correct?: number; total?: number; rating?: string });
+  const rating = READING_RATINGS.includes(b.rating as ReadingRating) ? b.rating : null;
+  await c.env.DB.prepare("INSERT OR REPLACE INTO reading_done (text_id, done_at, correct, total, rating) VALUES (?, ?, ?, ?, ?)")
+    .bind(id, Date.now(), Number.isInteger(b.correct) ? b.correct : null, Number.isInteger(b.total) ? b.total : null, rating)
     .run();
+  return c.json({ ok: true, nextLevel: await targetLevel(c.env.DB, (TEXT_BY_ID.get(id)?.id.slice(0, 2) as Lang) ?? "lt") });
+});
+
+// Paste a text (an LRT article, a blog post…) to read it with word lookups; questions come on first open.
+api.post("/reading/own", async (c) => {
+  const b = await c.req.json<{ lang?: string; title?: string; text?: string; url?: string }>().catch(() => ({}) as Record<string, never>);
+  const lang = b.lang as Lang;
+  const text = (b.text ?? "").replace(/\r\n?/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+  if (!LANGS.includes(lang)) return c.json({ error: "lang lt|es|fr" }, 400);
+  if (text.length > OWN_MAX_CHARS) return c.json({ error: `Слишком длинный текст (до ${OWN_MAX_CHARS} символов).` }, 400);
+  const words = wordsOf(text);
+  if (words.length < OWN_MIN_WORDS) return c.json({ error: `Слишком короткий текст (нужно от ${OWN_MIN_WORDS} слов).` }, 400);
+  let url: string | null = null;
+  try {
+    url = b.url?.trim() ? new URL(b.url.trim()).toString() : null;
+  } catch {
+    url = null;
+  }
+  const title = (b.title ?? "").trim().slice(0, 120) || `${words.slice(0, 6).join(" ")}…`;
+  const r = await c.env.DB.prepare("INSERT INTO own_text (lang, title, text, source_url, created_at) VALUES (?, ?, ?, ?, ?)")
+    .bind(lang, title, text, url, Date.now())
+    .run();
+  return c.json({ id: ownTextId(Number(r.meta.last_row_id)), words: words.length });
+});
+
+api.delete("/reading/own/:id", async (c) => {
+  const n = parseOwnTextId(c.req.param("id"));
+  if (n === null) return c.json({ error: "unknown text" }, 404);
+  await c.env.DB.batch([
+    c.env.DB.prepare("DELETE FROM own_text WHERE n = ?").bind(n),
+    c.env.DB.prepare("DELETE FROM reading_done WHERE text_id = ?").bind(ownTextId(n)),
+  ]);
   return c.json({ ok: true });
 });
 
@@ -216,7 +337,7 @@ export const reading: Feature = {
       name: "read",
       description: "Текст для чтения",
       run: async (c) => {
-        const t = pickText(TEXTS, await readIds(c.env.DB));
+        const t = (await nextText(c.env.DB, "lt")) ?? pickText(TEXTS, await readIds(c.env.DB));
         return t ? sendText(c, t) : c.tg.sendMessage(c.ownerId, "📖 Все тексты прочитаны — новые придут со следующей партией.");
       },
     },
@@ -225,7 +346,7 @@ export const reading: Feature = {
   async onTick(c) {
     const { day, hhmm } = localClock(c.now, SCHEDULE.timezone);
     if (!isReadingDay(day) || !inWindow(hhmm, (await getPrefs(c.db)).morning, MORNING_WINDOW_MIN)) return;
-    const t = pickText(TEXTS, await readIds(c.env.DB), "lt");
+    const t = await nextText(c.env.DB, "lt");
     if (!t) return;
     const claimed = await c.env.DB.prepare("INSERT OR IGNORE INTO reading_day (day, text_id, sent_at) VALUES (?, ?, ?)").bind(day, t.id, Date.now()).run();
     if (claimed.meta.changes !== 1) return;

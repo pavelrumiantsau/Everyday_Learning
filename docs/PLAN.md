@@ -8,7 +8,7 @@
 
 ## Status (updated as work lands) — last update 2026-09-29
 
-**App: all planned features (1–16) are built and live.** What is left is content (table below) and real-use feedback.
+**App: all planned features (1–17) are built and live.** What is left is content (table below) and real-use feedback.
 | # | Feature | Status | Notes |
 |---|---|---|---|
 | 1 | Infrastructure: Cloudflare Worker + D1, auto-deploy on push, nightly backup, CI with unit + smoke tests | ✅ Done | |
@@ -27,6 +27,7 @@
 | 14 | French sounds track (PLAN §3.3/§3.5) | ✅ Done | 10 micro-lessons `fr-g-0001…0010` (English, Tatoeba examples, dictation exercises with 🔊); Saturday = FR until 2027-03-31 while FR lessons are left, else LT; from 2027-04-01 Friday alternates ES/FR (`grammarLangsForDay` in `packages/core/src/grammar.ts`) |
 | 15 | Grammar diagnostic in the placement test | ✅ Done | Mini App «Проверить, что я уже знаю» → «Грамматика»: 2 exercises per upcoming LT lesson; both right → «Отметить урок как пройденный» (no cards: `POST /api/grammar/lessons/:id/done {cards:false}`) |
 | 16 | Suggested input sources | ✅ Done | `config/sources.yaml` (validated at build) → «Что послушать» in 🎧; one LT tip in the Sunday report when LT input < 3 h |
+| 17 | Reading: own texts + adaptive level | ✅ Done | 📖 «＋ Вставить свой текст» (paste any article; stored only in D1, AI word lookups + 3 AI questions, task `reading_questions`); after reading «легко / нормально / сложно» → next «Текст дня» level (`nextReadingLevel`, default LT = B2); migration 0010 |
 
 **Content — supply and next ids**
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
@@ -351,6 +352,12 @@ questions:               # exactly 3, in the target language
 Glossary `word`s must occur in the text, meanings are in the explanation language, and an `item` link must point to the course word
 with the same dictionary form. Other words are looked up by the AI (`word_lookup` in `config/llm.yaml`) and cached per word.
 First texts (Sep 2026): 4 Lithuanian B1 (flat, doctor, Trakai, work meeting) and 2 Spanish A1, written with an LLM and checked line by line.
+
+**Levels (since Sep 2026):** the learner found B1 texts too easy. New Lithuanian texts are **B2** (250–350 words: participles,
+passive, reported speech, Q4 connectors; news/society/opinion topics; questions on main idea and inference). The Thursday text
+follows the learner's rating after each text (easy → a level up, hard → a level down; with no rating yet Lithuanian starts at B2).
+**Own texts:** in 📖 the learner pastes any article (e.g. LRT) — it is stored only in D1 (never the public repo), gets AI word
+lookups and 3 AI questions. This is the authentic-input track (PLAN §11), available from Q1 instead of Q3–Q4.
 
 ---
 

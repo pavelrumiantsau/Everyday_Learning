@@ -56,14 +56,47 @@ export function isReadingDay(day: string): boolean {
   return new Date(`${day}T12:00:00Z`).getUTCDay() === READING_WEEKDAY;
 }
 
-/** The next unread text: of `lang` if given, else Lithuanian first; texts come in id order. */
-export function pickText<T extends { id: string }>(texts: readonly T[], read: ReadonlySet<string>, lang?: Lang): T | null {
+export type ReadingLevel = "A1" | "A2" | "B1" | "B2" | "C1";
+const LEVELS: ReadingLevel[] = ["A1", "A2", "B1", "B2", "C1"];
+export type ReadingRating = "easy" | "ok" | "hard";
+export const READING_RATINGS: ReadingRating[] = ["easy", "ok", "hard"];
+
+/** Level of the next text when nothing has been rated yet: a step above the learner's level (i+1). */
+export const DEFAULT_READING_LEVEL: Record<Lang, ReadingLevel> = { lt: "B2", es: "A1", fr: "A1" };
+
+/** Level for the next text after the learner rated one: "easy" → a level up, "hard" → a level down. */
+export function nextReadingLevel(last: { cefr: string; rating: ReadingRating } | null, lang: Lang): ReadingLevel {
+  if (!last) return DEFAULT_READING_LEVEL[lang];
+  const i = Math.max(0, LEVELS.indexOf(last.cefr as ReadingLevel));
+  const step = last.rating === "easy" ? 1 : last.rating === "hard" ? -1 : 0;
+  return LEVELS[Math.min(LEVELS.length - 1, Math.max(0, i + step))]!;
+}
+
+/**
+ * The next unread text: of `lang` if given, else Lithuanian first; texts come in id order.
+ * With `level`, texts of that level come first, then the nearest levels (harder before easier at equal distance).
+ */
+export function pickText<T extends { id: string; cefr?: string }>(texts: readonly T[], read: ReadonlySet<string>, lang?: Lang, level?: ReadingLevel): T | null {
   const langs: Lang[] = lang ? [lang] : ["lt", "es", "fr"];
+  const distance = (t: T) => {
+    if (!level || !t.cefr) return 0;
+    const d = LEVELS.indexOf(t.cefr as ReadingLevel) - LEVELS.indexOf(level);
+    return d >= 0 ? 2 * d : -2 * d + 1;
+  };
   for (const l of langs) {
-    const next = texts.filter((t) => t.id.startsWith(`${l}-`) && !read.has(t.id)).sort((a, b) => a.id.localeCompare(b.id))[0];
+    const next = texts
+      .filter((t) => t.id.startsWith(`${l}-`) && !read.has(t.id))
+      .sort((a, b) => distance(a) - distance(b) || a.id.localeCompare(b.id))[0];
     if (next) return next;
   }
   return null;
+}
+
+/** Texts the learner pasted in the Mini App (stored in D1, never in the repo): u-r-000001. */
+export const ownTextId = (n: number) => `u-r-${String(n).padStart(6, "0")}`;
+export function parseOwnTextId(id: string): number | null {
+  const m = /^u-r-(\d{6})$/.exec(id);
+  return m ? Number(m[1]) : null;
 }
 
 /** Words the learner added from reading are stored in D1 as "learner items": u-lt-000123. */

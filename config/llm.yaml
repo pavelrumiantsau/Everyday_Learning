@@ -44,6 +44,8 @@ tasks:
   answer_check:     [groq:openai/gpt-oss-20b, groq:openai/gpt-oss-120b]
   # Reading mode: tapping a word that isn't in the text's glossary (cached per word in D1).
   word_lookup:      [groq:openai/gpt-oss-120b, groq:openai/gpt-oss-20b, google:gemini-3.8-flash]
+  # Reading mode: 3 comprehension questions for a text the learner pasted (once per text, stored in D1).
+  reading_questions: [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
   # Sunday review of the week's mistakes (runs in the Worker so the learner's texts never reach public CI logs).
   weekly_review:    [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
   # Speech-to-text for voice messages. large-v3 is the more accurate one for Lithuanian; turbo is the fallback.
