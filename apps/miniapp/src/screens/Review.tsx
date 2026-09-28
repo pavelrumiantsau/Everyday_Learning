@@ -1,6 +1,7 @@
 import { grammarLabel } from "@el/core/labels";
 import { useState } from "react";
 import { flushReviews, getQueue, recordReview, type QueueCard, type Rating } from "../api";
+import { Play } from "../Audio";
 import { FLAG } from "../flags";
 import { ReportButton } from "../ReportButton";
 import { haptic } from "../telegram";
@@ -72,17 +73,18 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
         {revealed && <ReportButton key={card.cardId} itemId={item.id} cardId={card.cardId} />}
       </p>
       {isProd ? (
-        <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>
+        <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} aria-disabled={revealed}>
           <span className="badge">Обратная · {FLAG[card.lang]}</span>
           <span className="word">{meaning}</span>
           {grammar && <span className="hint small">{grammar}</span>}
           {revealed ? (
             <span className="answer">
               <span className="meaning">{forms ?? (item.gen ? `${head}, ${item.gen}` : head)}</span>
+              <Play id={item.id} kind="word" />
               {note && <span className="note">💡 {note}</span>}
               {example && (
                 <span className="example">
-                  <i>{example.text}</i>
+                  <i>{example.text} <Play id={item.id} kind="ex" /></i>
                   <span className="hint">{example.translation}</span>
                 </span>
               )}
@@ -92,11 +94,12 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
           )}
         </button>
       ) : (
-      <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} disabled={revealed}>
+      <button className={`card ${revealed ? "revealed" : ""}`} onClick={() => setRevealed(true)} aria-disabled={revealed}>
         {isForms && <span className="badge">3 формы</span>}
         <span className="word">{head}</span>
         {!isForms && item.gen && <span className="gen">{item.gen}</span>}
         {!isForms && grammar && <span className="hint small">{grammar}</span>}
+        {(revealed || !item.forms) && <Play id={item.id} kind="word" />}
         {revealed ? (
           <span className="answer">
             {isForms ? <span className="forms big">{forms}</span> : <span className="meaning">{meaning}</span>}
@@ -104,7 +107,7 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
             {note && <span className="note">💡 {note}</span>}
             {example && (
               <span className="example">
-                <i>{example.text}</i>
+                <i>{example.text} <Play id={item.id} kind="ex" /></i>
                 <span className="hint">{example.translation}</span>
               </span>
             )}

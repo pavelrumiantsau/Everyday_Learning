@@ -2,6 +2,7 @@
 import { grammarLabel, principalFormsLine } from "@el/core/labels";
 import { useCallback, useEffect, useState } from "react";
 import { getPlacement, savePlacement, type PlacementBatch } from "../api";
+import { Play } from "../Audio";
 import type { MiniFeature } from "../features";
 import { haptic } from "../telegram";
 
@@ -96,10 +97,11 @@ function Screen({ close: onDone }: { close: () => void }) {
       <p className="hint small">
         🇱🇹 Знаешь это слово? {index + 1} / {batch.items.length}
       </p>
-      <button className="card" onClick={() => setRevealed(true)} disabled={revealed}>
+      <button className="card" onClick={() => setRevealed(true)} aria-disabled={revealed}>
         <span className="word">{item.stress ?? item.text}</span>
         {forms !== (item.stress ?? item.text) && <span className="gen">{forms.split(", ").slice(1).join(", ")}</span>}
         <span className="hint small">{grammarLabel(item)}</span>
+        <Play id={item.id} kind="word" />
         {revealed ? (
           <span className="answer">
             <span className="meaning">{item.meaning.ru ?? item.meaning.en}</span>

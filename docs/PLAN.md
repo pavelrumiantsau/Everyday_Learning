@@ -17,7 +17,7 @@
 | 4 | Settings (new cards/day per language, poll cap), `/pause`, `/stats`, streaks + freezes | ✅ Done | Mini App ⚙️ + `/stats`, `/pause`, `/new`; defaults raised to LT 10 + ES 5 |
 | 5 | Reverse cards (RU/EN → target, recall), part of settings per language | ✅ Done | added once the meaning card is known (2 correct answers) |
 | 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ⏳ In progress | `feat/grammar` (sub-agent) |
-| 7 | Audio: TTS for words + examples, play button, voice clip in the bot | ⏳ In progress | `feat/audio` (sub-agent) |
+| 7 | Audio: TTS for words + examples, play button | ✅ Done | edge-tts mp3 committed to git (`pnpm content:audio`); 🔊 on flashcards + placement; no voice clips in the bot (too noisy) |
 | 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ⏳ In progress | `feat/ai` (sub-agent) |
 | 9 | Reading mode (graded texts, tap word → card) | ⬜ Next | after the AI branch (word lookup) |
 | 10 | Weekly report, `/input` log, auto-adjust of new cards | ✅ Done | Sunday 18:00 report + `/week`; `/input` and 🎧 in the Mini App; ±1–2 new words/day by backlog and accuracy |
@@ -267,7 +267,13 @@ First batch (Sep 2026): 159 LT words at B1–B2 (frequency ranks 1500–4000) an
 Known issue to fix: the frequency list comes from film subtitles, so it leans towards film vocabulary. The Mini App's placement test
 (weeks 2–3) will tune the level.
 LLM-written sentences are labelled `source: generated`. `/report` on any card logs a problem for the next batch.
-Audio: `edge-tts` (`lt-LT-OnaNeural`/`LeonasNeural`, `es-ES-*`, `fr-FR-*`); fallback is the Google Cloud TTS free tier.
+Audio: `edge-tts` (`lt-LT-OnaNeural`, alt `LeonasNeural`; `es-ES-ElviraNeural`; `fr-FR-DeniseNeural`), speed −10%; fallback is
+the Google Cloud TTS free tier. Per item: the word (LT verbs: all three forms, LT nouns: with the genitive; stress marks are not
+spoken) → `<id>.mp3`, and the first example → `<id>-ex.mp3`, in `apps/miniapp/public/audio/<lang>/`. `pnpm content:audio`
+(scripts/tts.py) is incremental via `audio/manifest.json` (id → text hashes) and deletes files of removed items; setup in
+[SETUP.md](SETUP.md) (Step 7 → Audio). Files are committed to git, so deploys need no Python. Size: edge-tts outputs
+48 kbps mono mp3, ≈16 KB per file (Sep 2026: 464 files, 7.6 MiB for 237 items); ≈3,000 words/year → ≈6,000 files, ≈100 MB,
+well under the Workers static-asset limits (20,000 files, 25 MiB per file). If the repo grows too big, move audio to R2 later.
 
 ### 6.4 Item format (example)
 The schema lives in [packages/core/src/schema.ts](../packages/core/src/schema.ts) and is checked by `pnpm content:validate`.

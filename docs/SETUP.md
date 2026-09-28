@@ -29,7 +29,7 @@ node --version   # v22 or newer
 pnpm --version
 gh auth status
 ```
-Python (`python3 --version`) is already on macOS. It's needed later for audio (week 4).
+Python (`python3 --version`) is already on macOS. It's needed for audio (see "Audio" under Step 7).
 
 ✅ **Done when** all three version commands print a version and `gh auth status` says you're logged in.
 
@@ -238,6 +238,18 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 1. In Telegram, open the bot → tap **▶ Learn** (bottom left). The Mini App opens.
 2. Test it on the **iPhone** and on **Telegram for Mac**. Your progress should match on both.
 3. Optional: BotFather → `/newapp` gives the Mini App a direct link, e.g. `t.me/<bot>/learn`, which you can pin in a chat.
+
+### Audio (pronunciation) 🤖
+The 🔊 buttons play mp3 files made with the free `edge-tts` voices (Lithuanian `lt-LT-OnaNeural`, Spanish
+`es-ES-ElviraNeural`, French `fr-FR-DeniseNeural`). The files are **committed to git** (`apps/miniapp/public/audio/`),
+so deploys and CI don't need Python. One-time setup on the Mac:
+```bash
+python3 -m venv .cache/venv && .cache/venv/bin/pip install edge-tts
+```
+After adding or changing content, run `pnpm content:audio`, then commit `apps/miniapp/public/audio`. It only generates
+files whose text changed (tracked in `audio/manifest.json`) and deletes files of removed items; a word takes ~1 s.
+New content without audio still works — the 🔊 button just doesn't appear for it (`pnpm smoke` prints a reminder).
+To see what would change without generating anything: `pnpm build:content && pnpm exec tsx scripts/audio-texts.ts .cache/audio-texts.json && .cache/venv/bin/python scripts/tts.py .cache/audio-texts.json --dry-run`.
 
 ---
 

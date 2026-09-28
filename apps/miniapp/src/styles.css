@@ -148,3 +148,21 @@ h2 { margin: 8px 0 0; font-size: 20px; }
 .report-form { display: flex; gap: 8px; width: 100%; margin-top: 4px; }
 .report-form .text-input { padding: 8px 10px; font-size: 14px; }
 .report-form .button { padding: 8px 12px; font-size: 14px; }
+/* Pronunciation button (Audio.tsx). The card stays tappable (aria-disabled, not disabled) so this works on the back too. */
+.card[aria-disabled="true"] { cursor: default; }
+.play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg);
+  font-size: 18px;
+  font-style: normal;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.play:active { transform: scale(0.92); }
+.play.ex { width: 30px; height: 30px; font-size: 14px; vertical-align: middle; margin-left: 4px; }
