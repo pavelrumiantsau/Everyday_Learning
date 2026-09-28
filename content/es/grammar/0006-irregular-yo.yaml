@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0006
+cefr: A1
+order: 6
+title: "Irregular \"yo\" forms: tengo, hago, sé + tener que / hay que"
+explanation:
+  en: |
+    Some very common verbs are irregular **only in the yo form**; the other five forms are regular:
+    - hacer → **hago** (haces, hace…) · poner → **pongo** · salir → **salgo**
+    - conocer → **conozco** · saber → **sé** · dar → **doy** (das, da…)
+
+    A few add a stem change or are irregular throughout:
+    - tener: **tengo**, tienes, tiene, tenemos, tenéis, tienen
+    - venir: **vengo**, vienes, viene, venimos, venís, vienen
+    - decir: **digo**, dices, dice, decimos, decís, dicen
+    - ir: **voy**, vas, va, vamos, vais, van
+
+    **Saber** or **conocer**? *Saber* is to know a fact or how to do something: *No sé dónde vive.* *Conocer* is to know (be familiar with) a person or place: *Conozco a tu hermano.* With people, add **a**.
+
+    **Tener que** + infinitive = "to have to" (someone specific): *Tengo que trabajar.*
+    **Hay que** + infinitive = "one has to / it's necessary" (in general, no subject). *Hay* never changes: *Hay que pagar.*
+comparison:
+  en: |
+    *Tener que* is word for word English "have to". *Hay que* is like Russian «**надо** / **нужно**» with no person: *Hay que esperar* — «Надо подождать».
+
+    English also has one verb "to know"; Russian splits it like Spanish: *знать* (≈ saber) and *быть знакомым* (≈ conocer).
+examples:
+  - { text: "Salgo a las diez.", translation: "I am leaving at ten o'clock.", source: "tatoeba:436384" }
+  - { text: "Conozco un buen sitio para cenar.", translation: "I know a good place for dinner.", source: "tatoeba:347511" }
+  - { text: "No sé qué decir.", translation: "I don't know what to say.", source: "tatoeba:436542" }
+  - { text: "Tengo que volver a casa.", translation: "I have to go home.", source: "tatoeba:502379" }
+  - { text: "Hay que respetar las reglas.", translation: "You have to respect the rules.", source: "tatoeba:505764" }
+exercises:
+  - type: cloze
+    text: "Yo ___ la cena todos los días."
+    answer: "hago"
+    hint: "hacer"
+    translation: "I make dinner every day."
+  - type: cloze
+    text: "¿Dónde ___ las llaves?"
+    answer: "pongo"
+    hint: "poner (yo)"
+    translation: "Where do I put the keys?"
+  - type: cloze
+    text: "Los sábados ___ con mis amigos."
+    answer: "salgo"
+    hint: "salir (yo)"
+    translation: "On Saturdays I go out with my friends."
+  - type: cloze
+    text: "No ___ a tu hermana."
+    answer: "conozco"
+    hint: "conocer (yo)"
+    translation: "I don't know your sister."
+  - type: cloze
+    text: "No ___ dónde está la estación."
+    answer: "sé"
+    hint: "saber (yo)"
+    translation: "I don't know where the station is."
+  - type: cloze
+    text: "Mañana ___ que trabajar."
+    answer: "tengo"
+    hint: "tener (yo)"
+    translation: "Tomorrow I have to work."
+  - type: cloze
+    text: "Para entrar, ___ que pagar."
+    answer: "hay"
+    hint: "\"one has to\" (no subject)"
+    translation: "To get in, you have to pay."
+  - type: cloze
+    text: "Yo siempre ___ la verdad."
+    answer: "digo"
+    hint: "decir"
+    translation: "I always tell the truth."
