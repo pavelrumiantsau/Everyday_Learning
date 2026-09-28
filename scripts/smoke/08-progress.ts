@@ -21,6 +21,10 @@ export default async function (t: Smoke) {
   const week = lastText();
   check(week.includes("Неделя") && week.includes("1 ч 15 мин") && week.includes("цель — 3 ч"), "/week report shows days, answers and input vs the 3 h target");
   check(!week.includes("Новых слов в день теперь"), "/week on demand never changes settings");
+  check(week.includes("💡 Попробуй") && week.includes('<a href="https://'), "/week under the 3 h target suggests a Lithuanian source");
+
+  const src = (await (await api("/input/sources", me)).json()) as { sources: { lang: string; url: string }[] };
+  check(src.sources.some((s) => s.lang === "lt") && src.sources.every((s) => s.url.startsWith("https://")), "Mini App gets suggested input sources");
 
   check((await api("/report", me, { method: "POST", body: JSON.stringify({ itemId: "lt-w-0001", cardId: "lt-w-0001:recog", text: "test" }) })).ok, "a card can be reported from the Mini App");
   check((await api("/report", me, { method: "POST", body: JSON.stringify({}) })).status === 400, "an empty report is rejected");

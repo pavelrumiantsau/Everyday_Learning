@@ -1,9 +1,9 @@
 // Passive input (podcasts, radio, series, reading): this week's minutes and quick logging.
 import { useEffect, useState } from "react";
-import { getInputWeek, logInput, type Lang } from "../api";
+import { getInputSources, getInputWeek, logInput, type InputSource, type Lang } from "../api";
 import type { MiniFeature } from "../features";
 import { FLAG } from "../flags";
-import { haptic } from "../telegram";
+import { haptic, openLink } from "../telegram";
 
 const KINDS: { id: string; label: string }[] = [
   { id: "podcast", label: "🎧 Подкаст" },
@@ -12,6 +12,7 @@ const KINDS: { id: string; label: string }[] = [
   { id: "reading", label: "📖 Чтение" },
   { id: "conversation", label: "🗣 Разговор" },
 ];
+const TYPE_ICON: Record<string, string> = { podcast: "🎧", radio: "📻", video: "📺", reading: "📖" };
 const MINUTES = [10, 15, 30, 45, 60, 90];
 const LANGS: Lang[] = ["lt", "es", "fr"];
 const fmt = (m: number) => (m >= 60 ? `${Math.floor(m / 60)} ч ${m % 60 ? `${m % 60} мин` : ""}`.trim() : `${m} мин`);
@@ -40,6 +41,11 @@ function Screen({ close }: { close: () => void }) {
   const [minutes, setMinutes] = useState(30);
   const [title, setTitle] = useState("");
   const [done, setDone] = useState<string | null>(null);
+  const [sources, setSources] = useState<InputSource[]>([]);
+  useEffect(() => {
+    getInputSources().then((r) => setSources(r.sources), () => setSources([]));
+  }, []);
+  const suggested = sources.filter((s) => s.lang === lang);
 
   const save = async () => {
     haptic("tap");
@@ -74,8 +80,19 @@ function Screen({ close }: { close: () => void }) {
       </div>
       <input className="text-input" placeholder="Название (необязательно)" value={title} maxLength={200} onChange={(e) => setTitle(e.target.value)} />
       {done && <p className="done-note">{done}</p>}
-      <div className="spacer" />
       <button className="button big" onClick={() => void save()}>Отметить {fmt(minutes)}</button>
+      {suggested.length > 0 && (
+        <section className="sources">
+          <h2>Что послушать {FLAG[lang]}</h2>
+          {suggested.map((s) => (
+            <button key={s.url} className="secondary source" onClick={() => { haptic("tap"); setTitle(s.title); openLink(s.url); }}>
+              <span>{TYPE_ICON[s.type] ?? "🔗"} {s.title} <span className="hint small">· {s.level}</span></span>
+              <span className="hint small source-note">{s.note}</span>
+            </button>
+          ))}
+        </section>
+      )}
+      <div className="spacer" />
       <button className="secondary center-text" onClick={close}>На главную</button>
     </main>
   );

@@ -1,4 +1,4 @@
-import type { Item, Lesson, Milestones, ReadingText, Schedule } from "@el/core";
+import type { Item, Lesson, Milestones, ReadingText, Schedule, Sources } from "@el/core";
 import contentJson from "./generated/content.json";
 import grammarJson from "./generated/grammar.json";
 import scheduleJson from "./generated/schedule.json";
@@ -14,3 +14,5 @@ export const LESSON_BY_ID = new Map(LESSONS.map((l) => [l.id, l]));
 import readingJson from "./generated/reading.json";
 export const TEXTS = readingJson as unknown as ReadingText[];
 export const TEXT_BY_ID = new Map(TEXTS.map((t) => [t.id, t]));
+import sourcesJson from "./generated/sources.json";
+export const SOURCES = (sourcesJson as unknown as Sources).sources;

@@ -218,3 +218,7 @@ h2 { margin: 8px 0 0; font-size: 18px; }
 .chip.right { background: var(--good); color: #fff; }
 .chip.wrong { background: var(--again); color: #fff; }
 .chip:disabled { opacity: 1; }
+
+/* 🎧 "Что послушать" */
+.sources { display: flex; flex-direction: column; gap: 8px; }
+.source-note { font-weight: 400; }

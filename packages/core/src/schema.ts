@@ -250,3 +250,21 @@ export const Milestones = z.object({
   ),
 });
 export type Milestones = z.infer<typeof Milestones>;
+
+/** Suggested listening/reading outside the app (config/sources.yaml, PLAN §11): shown in the 🎧 screen and the Sunday report. */
+export const Sources = z.object({
+  sources: z
+    .array(
+      z.object({
+        lang: z.enum(["lt", "es", "fr"]),
+        title: z.string().min(2).max(80),
+        url: z.string().url().startsWith("https://"),
+        type: z.enum(["podcast", "radio", "video", "reading"]),
+        level: z.string().regex(/^(A1|A2|B1|B2|C1)(–(A2|B1|B2|C1|C2))?$/),
+        note: z.string().min(3).max(160),
+      }),
+    )
+    .min(1),
+});
+export type Sources = z.infer<typeof Sources>;
+export type Source = Sources["sources"][number];

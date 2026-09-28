@@ -1,7 +1,7 @@
 // Passive input log (/input, Mini App) and the Sunday weekly report with automatic adjustment of new words/day.
-import { adjustNewPerDay, inWindow, LANGS, localClock, LT_INPUT_TARGET_MIN, verdict, type Lang, type WeekSummary } from "@el/core";
+import { adjustNewPerDay, escapeHtml, inWindow, LANGS, localClock, LT_INPUT_TARGET_MIN, verdict, type Lang, type WeekSummary } from "@el/core";
 import { Hono } from "hono";
-import { SCHEDULE } from "../content";
+import { SCHEDULE, SOURCES } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs, updatePrefs } from "../prefs";
@@ -69,6 +69,14 @@ export async function weekSummary(db: Db, d1: D1Database, now: Date): Promise<We
   };
 }
 
+/** One source per week, rotating through the language's list so the tip changes every Sunday. */
+export function suggestion(lang: Lang, day: string) {
+  const list = SOURCES.filter((s) => s.lang === lang);
+  if (!list.length) return null;
+  const week = Math.floor(Date.parse(`${day}T12:00:00Z`) / (7 * DAY_MS));
+  return list[week % list.length]!;
+}
+
 const VERDICT_RU = { ahead: "🚀 Впереди графика", on_track: "✅ В графике", behind: "⚠️ Отстаёшь от графика" };
 const hours = (m: number) => (m >= 60 ? `${Math.floor(m / 60)} ч ${m % 60} мин` : `${m} мин`);
 
@@ -87,6 +95,8 @@ export async function sendWeekly(c: BotContext, adjust: boolean) {
   const lt = w.inputMinutes.lt ?? 0;
   if (lt < LT_INPUT_TARGET_MIN) {
     lines.push(`   🇱🇹 цель — 3 ч в неделю (LRT, подкасты, сериалы). Отмечай: /input 30 lt podcast`);
+    const tip = suggestion("lt", w.to);
+    if (tip) lines.push(`   💡 Попробуй: <a href="${tip.url}">${escapeHtml(tip.title)}</a> — ${escapeHtml(tip.note)}`);
   }
   if (adjust) {
     const prefs = await getPrefs(c.db);
@@ -110,6 +120,8 @@ api.post("/input", async (c) => {
   await logInput(c.env.DB, day, parsed.lang, parsed.minutes, parsed.kind, parsed.title);
   return c.json({ week: await inputSince(c.env.DB, shiftDay(day, -6)) });
 });
+
+api.get("/input/sources", (c) => c.json({ sources: SOURCES }));
 
 api.get("/input/week", async (c) => {
   const { day } = localClock(new Date(), SCHEDULE.timezone);

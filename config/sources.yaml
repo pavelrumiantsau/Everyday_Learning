@@ -1,0 +1,76 @@
+# Suggested input outside the app (PLAN §11): shown in the Mini App 🎧 screen ("Что послушать") and, for Lithuanian,
+# one suggestion in the Sunday report when the week's input is under 3 h. Notes are UI text → Russian.
+# level: CEFR range the source suits (A1, B1–B2, …). Check links still work when editing.
+sources:
+  - lang: lt
+    title: Easy Lithuanian
+    url: https://www.youtube.com/@EasyLithuanian
+    type: video
+    level: A2–B1
+    note: Уличные интервью с субтитрами на литовском и английском — живая речь на бытовые темы
+  - lang: lt
+    title: LRT vaikams
+    url: https://www.lrt.lt/mediateka/vaikams
+    type: video
+    level: A2–B1
+    note: Детские передачи LRT — медленная и чёткая речь, хорошо для начала
+  - lang: lt
+    title: LRT RADIJAS (прямой эфир)
+    url: https://www.lrt.lt/mediateka/tiesiogiai/lrt-radijas
+    type: radio
+    level: B1–C1
+    note: Новости и разговорные передачи; начни с выпусков новостей — темы знакомы из русскоязычных новостей
+  - lang: lt
+    title: LRT Mediateka
+    url: https://www.lrt.lt/mediateka
+    type: video
+    level: B1–C1
+    note: Архив передач и сериалов LRT; ток-шоу и документальные — для Q3–Q4
+  - lang: lt
+    title: LRT — новости Литвы
+    url: https://www.lrt.lt/naujienos/lietuvoje
+    type: reading
+    level: B1–B2
+    note: Короткие новостные статьи о жизни в Литве; для перехода к аутентичным текстам
+  - lang: es
+    title: Dreaming Spanish
+    url: https://www.youtube.com/@DreamingSpanish
+    type: video
+    level: A1–B2
+    note: Понятный ввод по уровням (Superbeginner → Advanced); начинай с Superbeginner
+  - lang: es
+    title: Coffee Break Spanish
+    url: https://coffeebreaklanguages.com/coffeebreakspanish/
+    type: podcast
+    level: A1–A2
+    note: Подкаст-уроки для начинающих с объяснениями на английском
+  - lang: es
+    title: Easy Spanish
+    url: https://www.youtube.com/@EasySpanish
+    type: video
+    level: A2–B1
+    note: Уличные интервью с субтитрами на испанском и английском
+  - lang: fr
+    title: Coffee Break French
+    url: https://coffeebreaklanguages.com/coffeebreakfrench/
+    type: podcast
+    level: A1–A2
+    note: Подкаст-уроки для начинающих с объяснениями на английском — с апреля 2027
+  - lang: fr
+    title: RFI Français facile
+    url: https://francaisfacile.rfi.fr/
+    type: reading
+    level: A2–B1
+    note: Новости на простом французском с текстом и аудио
+  - lang: fr
+    title: innerFrench
+    url: https://www.youtube.com/@innerfrench
+    type: video
+    level: B1–B2
+    note: Видео и подкаст на медленном разговорном французском — когда базовая грамматика уже знакома
+  - lang: fr
+    title: Easy French
+    url: https://www.youtube.com/@EasyFrench
+    type: video
+    level: A2–B1
+    note: Уличные интервью с субтитрами на французском и английском

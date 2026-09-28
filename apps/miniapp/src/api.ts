@@ -101,6 +101,8 @@ export const getSettings = () => call<{ prefs: Prefs; timezone: string }>("/sett
 export const saveSettings = (patch: Partial<Prefs>) => call<{ prefs: Prefs }>("/settings", { method: "PUT", body: JSON.stringify(patch) });
 
 export const getInputWeek = () => call<{ week: Partial<Record<Lang, number>>; targetLt: number }>("/input/week");
+export interface InputSource { lang: Lang; title: string; url: string; type: string; level: string; note: string }
+export const getInputSources = () => call<{ sources: InputSource[] }>("/input/sources");
 export const logInput = (b: { lang: Lang; minutes: number; kind: string; title?: string }) =>
   call<{ week: Partial<Record<Lang, number>> }>("/input", { method: "POST", body: JSON.stringify(b) });
 export const reportItem = (b: { itemId?: string; cardId?: string; text?: string }) =>

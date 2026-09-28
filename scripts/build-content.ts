@@ -1,11 +1,11 @@
-// Validates content/**/*.yaml and config/schedule.yaml, then writes the JSON the Worker bundles.
+// Validates content/**/*.yaml and config/{schedule,milestones,sources}.yaml, then writes the JSON the Worker bundles.
 // Usage: pnpm build:content        (validate + write)
 //        pnpm content:validate     (validate only; used in CI)
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { ItemFile, Lesson, Milestones, ReadingText, Schedule, type Item } from "../packages/core/src/index.ts";
+import { ItemFile, Lesson, Milestones, ReadingText, Schedule, Sources, type Item } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
@@ -113,6 +113,11 @@ if (!milestones.success) {
   for (const issue of milestones.error.issues) errors.push(`config/milestones.yaml: [${issue.path.join(".")}] ${issue.message}`);
 }
 
+const sources = Sources.safeParse(parse(readFileSync(join(root, "config/sources.yaml"), "utf8")));
+if (!sources.success) {
+  for (const issue of sources.error.issues) errors.push(`config/sources.yaml: [${issue.path.join(".")}] ${issue.message}`);
+}
+
 if (errors.length) {
   console.error(`✗ ${errors.length} problem(s):\n  ${errors.join("\n  ")}`);
   process.exit(1);
@@ -133,5 +138,6 @@ if (!checkOnly) {
   writeFileSync(join(out, "milestones.json"), JSON.stringify(milestones.data));
   writeFileSync(join(out, "grammar.json"), JSON.stringify(lessons));
   writeFileSync(join(out, "reading.json"), JSON.stringify(texts));
-  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading}.json`);
+  writeFileSync(join(out, "sources.json"), JSON.stringify(sources.data));
+  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources}.json`);
 }
