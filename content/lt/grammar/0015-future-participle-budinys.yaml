@@ -1,0 +1,81 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0015
+cefr: B2
+order: 15
+title: "Причастие -siąs / -sianti и būdinys: bėgte bėgo"
+explanation:
+  ru: |
+    **1. Действительное причастие будущего времени** — «тот, кто будет делать». Образуется от основы инфинитива + **-siąs** (м. р.) / **-sianti** (ж. р.), то есть от той же основы, что и будущее время:
+    - ateiti (ateis) → **ateisiąs, ateisianti**
+    - padėti (padės) → **padėsiąs, padėsianti**
+    - paskambinti (paskambins) → **paskambinsiąs, paskambinsianti**
+    - vykti (vyks) → **vyksiąs / vyksiantis, vyksianti**
+
+    Мн. ч.: м. р. **-sią** или **-siantys**, ж. р. **-siančios**. Косвенные падежи — как у *-antis*: *-siančio, -siančiam, -siantį…*
+
+    Где встречается:
+    - **Косвенная речь о будущем**, когда подлежащее то же: *Jis pasakė, kad ateis* = *Jis pasakė **ateisiąs***; *Ji pažadėjo, kad padės* = *Ji pažadėjo **padėsianti***. Причастие согласуется с подлежащим в роде и числе.
+    - **Определение** в новостях и официальных текстах: *rytoj **vyksiantis** koncertas* — «концерт, который состоится завтра».
+
+    Не путайте с ***būsimas, būsima*** — «будущий» (*būsima žmona*, *būsimasis gydytojas*): это другое, страдательное причастие, ставшее обычным прилагательным. *Būsiąs, būsianti* — «(сказал, что) будет».
+
+    **2. Būdinys на -te** — неизменяемая форма: инфинитив, у которого *-ti* заменено на **-te**: bėgti → **bėgte**, tylėti → **tylėte**, prašyti → **prašyte**, laukti → **laukte**. Ставится **перед глаголом с тем же корнем** и усиливает его: *bėgte bėgo* — «бегом бежал», *tylėte tylėjo* — «упорно молчал», *prašyte prašė* — «умолял», *laukte laukė* — «очень ждал».
+
+    Обе формы в разговоре редки: вместо *-siąs* обычно говорят *kad + будущее время*. Но в книгах, новостях и народной речи они встречаются, и узнавать их надо.
+comparison:
+  ru: |
+    Причастие на **-siąs** в русском не существует: «придущий, помогущий» нельзя сказать, приходится «который придёт», «сказал, что поможет». Литовский здесь компактнее: *Jis sakė **ateisiąs***. Первые два примера ниже — обычный разговорный вариант с *kad*; письменный с причастием: *Jis pasakė **ateisiąs***, *Ji sakė mums **padėsianti***.
+
+    Būdinys — прямой родственник русских оборотов **«бегом бежать», «криком кричать», «поедом есть»**: однокоренная форма перед глаголом усиливает действие. В русском так можно лишь с несколькими глаголами, в литовском — почти с любым.
+examples:
+  - { text: "Jis pasakė, kad ateis.", translation: "Он сказал, что придёт.", source: "tatoeba:10598719" }
+  - { text: "Ji sakė, kad mums padės.", translation: "Она сказала, что поможет нам.", source: "tatoeba:11591012" }
+  - { text: "Prašyte prašau jus!", translation: "Умоляю вас!", source: "tatoeba:11985017" }
+  - { text: "Ji prašyte prašė jį pasilikti.", translation: "Она умоляла его остаться.", source: "tatoeba:11331247" }
+  - { text: "Aš ją prašyte prašiau ten neiti.", translation: "Я умолял её не ходить туда.", source: "tatoeba:10080304" }
+exercises:
+  - type: cloze
+    text: "Jis pasakė rytoj ___."
+    answer: "ateisiąs"
+    also: ["ateisiantis"]
+    hint: "ateiti — прич. буд. вр., м. р."
+    translation: "Он сказал, что завтра придёт."
+  - type: cloze
+    text: "Ji pažadėjo mums ___."
+    answer: "padėsianti"
+    hint: "padėti — прич. буд. вр., ж. р."
+    translation: "Она обещала, что поможет нам."
+  - type: cloze
+    text: "Jie sakė vėliau ___."
+    answer: "paskambinsią"
+    also: ["paskambinsiantys"]
+    hint: "paskambinti — прич. буд. вр., м. р., мн. ч."
+    translation: "Они сказали, что позвонят позже."
+  - type: cloze
+    text: "Rytoj ___ koncertas bus nemokamas."
+    answer: "vyksiantis"
+    also: ["vyksiąs"]
+    hint: "vykti — прич. буд. вр., м. р."
+    translation: "Концерт, который состоится завтра, будет бесплатным."
+  - type: cloze
+    text: "Susipažink, tai mano ___ žmona."
+    answer: "būsima"
+    hint: "«будущая» — не -sianti!"
+    translation: "Познакомься, это моя будущая жена."
+  - type: cloze
+    text: "Vaikas ___ bėgo namo."
+    answer: "bėgte"
+    hint: "bėgti — būdinys"
+    translation: "Ребёнок бегом бежал домой."
+  - type: cloze
+    text: "Per visą pamoką jis ___ tylėjo."
+    answer: "tylėte"
+    hint: "tylėti — būdinys"
+    translation: "Весь урок он упорно молчал."
+  - type: cloze
+    text: "Mes ___ laukėme vasaros."
+    answer: "laukte"
+    hint: "laukti — būdinys"
+    translation: "Мы так ждали лета."

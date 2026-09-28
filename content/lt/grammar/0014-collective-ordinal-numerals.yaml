@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0014
+cefr: B1
+order: 14
+title: "Числительные: dveji metai, trečias aukštas, даты и время"
+explanation:
+  ru: |
+    **Собирательные числительные** нужны с существительными, у которых **нет единственного числа**: *metai* (год/годы), *marškiniai*, *kelnės*, *durys*, *akiniai*, *žirklės*, *vartai*. С ними нельзя сказать *du metai* — только **dveji metai**.
+    - м. р.: vieneri, **dveji, treji, ketveri, penkeri**, šešeri, septyneri, aštuoneri, devyneri
+    - ж. р.: vienerios, **dvejos, trejos, ketverios, penkerios**…
+
+    Они склоняются и согласуются: им. *dveji metai*, род. *dvejų metų*, вин. **dvejus metus**, тв. *dvejais metais*; ж. р.: *dvejos durys*, вин. **dvejas duris**. С 10 и дальше — как обычно, родительный: *dešimt metų*. В составных — последнее слово: *dvidešimt **vieneri** metai*.
+
+    Возраст говорят так же: *Man **penkeri** (metai)*, *trejų metų vaikas* — «трёхлетний ребёнок».
+
+    **Порядковые числительные** — обычные прилагательные: *pirmas, antras, **trečias**, ketvirtas, penktas, šeštas, septintas, aštuntas, devintas, dešimtas*; ж. р. *pirma, antra, trečia*… Склоняются как *naujas* (а *trečias* — как *žalias*): *trečiame aukšte* (на третьем этаже), *trečioje eilėje*.
+
+    **Время:**
+    - *Kelinta valanda?* — ***Trečia*** (valanda). — «Три часа».
+    - *Kelintą / kurią valandą?* — ***Trečią*** (valandą). — «В три» (винительный).
+    - *pusė **trečios*** — «половина третьего» (родительный ж. р.).
+
+    **Даты:** месяц в родительном + порядковое. «Какое сегодня число» — местоименная форма: *Šiandien spalio **penktoji***. «Когда?» — винительный: *spalio **penktą** (dieną)*. Пишется *spalio 5 d.*
+comparison:
+  ru: |
+    Собирательные похожи на русские *двое, трое* (*двое суток, трое ножниц*), но в литовском они **обязательны** с любым словом без единственного числа и полностью склоняются: «два года» — ***dveji** metai*, «прожил два года» — *gyveno **dvejus** metus*.
+
+    Главное отличие во времени: по-русски «в три часа» — количественное, а по-литовски **порядковое**: *trečią valandą* — буквально «в третий час» (как русское «в котором часу?»). «Половина третьего» — дословно ***pusė trečios***. Дата — «пятого октября» → *spalio penktą*: месяц стоит в родительном **впереди**, а число — в винительном.
+examples:
+  - { text: "Karas truko dvejus metus.", translation: "Война длилась два года.", source: "tatoeba:1517074" }
+  - { text: "Valgykloje yra dvejos durys.", translation: "В столовой две двери.", source: "tatoeba:10836910" }
+  - { text: "Aš gyvenau trečiame aukšte.", translation: "Я жил на третьем этаже.", source: "tatoeba:13417862" }
+  - { text: "Ateik antrą valandą.", translation: "Приходи в два часа.", source: "tatoeba:12286362" }
+  - { text: "Šiandien kovo penktoji.", translation: "Сегодня пятое марта.", source: "tatoeba:4627907" }
+exercises:
+  - type: cloze
+    text: "Spintoje kabo ___ marškiniai."
+    answer: "treji"
+    hint: "3 — собирательное, им. п."
+    translation: "В шкафу висят три рубашки."
+  - type: cloze
+    text: "Mano sūnui ___ metai."
+    answer: "ketveri"
+    hint: "4 — собирательное, им. п."
+    translation: "Моему сыну четыре года."
+  - type: cloze
+    text: "Vakar nusipirkau ___ kelnes."
+    answer: "dvejas"
+    hint: "2 — собирательное, ж. р., вин. п."
+    translation: "Вчера я купил двое брюк."
+  - type: cloze
+    text: "Mūsų butas yra ___ aukšte."
+    answer: "trečiame"
+    hint: "3 — порядковое, мест. п."
+    translation: "Наша квартира на третьем этаже."
+  - type: cloze
+    text: "Susitikime rytoj ___ valandą."
+    answer: "antrą"
+    hint: "2 — порядковое, вин. п."
+    translation: "Встретимся завтра в два часа."
+  - type: cloze
+    text: "Aš gimiau gegužės ___ dieną."
+    answer: "penktą"
+    hint: "5 — порядковое, вин. п."
+    translation: "Я родился пятого мая."
+  - type: cloze
+    text: "Šiandien spalio ___."
+    answer: "pirmoji"
+    hint: "1 — порядковое, местоим. форма, им. п."
+    translation: "Сегодня первое октября."
+  - type: cloze
+    text: "Dabar jau pusė ___."
+    answer: "aštuntos"
+    hint: "8 — порядковое, ж. р., род. п."
+    translation: "Сейчас уже половина восьмого."
