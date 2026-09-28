@@ -1,9 +1,12 @@
-import type { Item } from "@el/core";
+import type { Exercise, Item, Lesson } from "@el/core";
 import { tg } from "./telegram";
 
 export type Lang = "lt" | "es" | "fr";
 export interface Session { day: string; reviewsToday: number; newToday: number; due: number; known: Partial<Record<Lang, number>> }
-export interface QueueCard { cardId: string; kind: "recog" | "forms"; lang: Lang; item: Item }
+export interface WordCard { cardId: string; kind: "recog" | "forms"; lang: Lang; item: Item }
+/** Grammar exercise card (lt-g-0001:cloze1), created when a lesson is marked done. */
+export interface ClozeCard { cardId: string; kind: "cloze"; lang: Lang; lessonId: string; lessonTitle: string; exercise: Exercise }
+export type QueueCard = WordCard | ClozeCard;
 export type Rating = 1 | 2 | 3 | 4;
 interface PendingReview { id: string; cardId: string; rating: Rating; reviewedAt: number }
 
@@ -69,3 +72,9 @@ export interface PlacementBatch { items: Item[]; remaining: number; stats: { kno
 export const getPlacement = (lang: Lang = "lt") => call<PlacementBatch>(`/placement?lang=${lang}`);
 export const savePlacement = (results: { itemId: string; known: boolean }[]) =>
   call<{ stats: { known: number; unknown: number } }>("/placement", { method: "POST", body: JSON.stringify({ results }) });
+
+export interface GrammarToday { day: string; lesson: Lesson | null; done: boolean }
+export const getGrammarToday = () => call<GrammarToday>("/grammar/today");
+export const getLesson = (id: string) => call<{ lesson: Lesson; done: boolean }>(`/grammar/lessons/${encodeURIComponent(id)}`);
+export const markLessonDone = (id: string) =>
+  call<{ done: boolean; created: number }>(`/grammar/lessons/${encodeURIComponent(id)}/done`, { method: "POST", body: "{}" });

@@ -1,6 +1,7 @@
 // Mini App features. To add one: create features/<Name>.tsx exporting a `MiniFeature`, then add it to the list.
 // HomeEntry is shown on the home screen (return null to hide); Screen opens full-screen with Telegram's back button.
 import type { FC } from "react";
+import { grammarFeature } from "./features/Grammar";
 import { placementFeature } from "./features/Placement";
 
 export interface MiniFeature {
@@ -9,4 +10,4 @@ export interface MiniFeature {
   Screen?: FC<{ close: () => void }>;
 }
 
-export const FEATURES: MiniFeature[] = [placementFeature];
+export const FEATURES: MiniFeature[] = [placementFeature, grammarFeature];
