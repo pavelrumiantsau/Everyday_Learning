@@ -7,8 +7,8 @@
     "node": ">=22"
   },
   "scripts": {
-    "build:content": "tsx scripts/build-content.ts",
-    "content:validate": "tsx scripts/build-content.ts --check",
+    "build:content": "tsx scripts/build-content.ts && tsx scripts/build-llm.ts",
+    "content:validate": "tsx scripts/build-content.ts --check && tsx scripts/build-llm.ts --check",
     "test": "vitest run",
     "typecheck": "pnpm build:content && pnpm -r typecheck",
     "dev": "pnpm build && pnpm --filter @el/worker dev",
@@ -20,6 +20,7 @@
     "wrangler": "pnpm --filter @el/worker exec wrangler",
     "content:sources": "tsx scripts/fetch-sources.ts",
     "content:candidates": "tsx scripts/candidates.ts",
+    "llm:eval": "tsx scripts/llm-eval.ts",
     "build": "pnpm build:content && pnpm --filter @el/miniapp build"
   },
   "devDependencies": {
