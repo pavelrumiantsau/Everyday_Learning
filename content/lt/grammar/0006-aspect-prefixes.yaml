@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0006
+cefr: B1
+order: 6
+title: "Вид глагола: приставки (skaityti → perskaityti)"
+explanation:
+  ru: |
+    Как и в русском, в литовском есть **несовершенный** вид (процесс, повторение) и **совершенный** (результат, действие закончено). Совершенный вид почти всегда делается **приставкой**:
+    - skaityti → **per**skaityti (читать → прочитать)
+    - rašyti → **pa**rašyti (писать → написать)
+    - daryti → **pa**daryti (делать → сделать)
+    - valgyti → **su**valgyti (есть → съесть)
+    - gerti → **iš**gerti (пить → выпить)
+    - pirkti → **nu**pirkti (покупать → купить)
+    - statyti → **pa**statyti (строить → построить)
+
+    Какая приставка — надо запоминать вместе со словом (как и в русском: *прочитать, но написать*).
+
+    **Прошедшее время:** *skaičiau* — «читал» (процесс), *perskaičiau* — «прочитал» (дочитал до конца).
+
+    **Будущее время — главная ловушка.** В русском «прочитаю» — это будущее, образованное от настоящего. В литовском будущее **всегда** на *-siu*, и для совершенного вида тоже: *skaitysiu* — «буду читать», **perskaitysiu** — «прочитаю». Форма *perskaitau* не значит «прочитаю» — это настоящее время (встречается редко, например в рассказе о повторяющихся действиях).
+comparison:
+  ru: |
+    Логика та же, что в русском и украинском (*читати — прочитати*), поэтому интуиция носителя помогает. Разница в двух местах: приставки не всегда совпадают (*suvalgyti* — «съесть», *nupirkti* — «купить»), и будущее совершенного вида строится через **-siu** (*parašysiu* — «напишу»), а не через настоящее время, как в русском.
+examples:
+  - { text: "Vakar aš skaičiau knygą.", translation: "Вчера я читал книгу.", source: "tatoeba:10751834" }
+  - { text: "Aš perskaičiau knygą.", translation: "Я прочёл книгу.", source: "tatoeba:1624429" }
+  - { text: "Aš rašiau ilgą laišką.", translation: "Я писал длинное письмо.", source: "tatoeba:10745049" }
+  - { text: "Aš suvalgiau obuolį.", translation: "Я съел яблоко.", source: "tatoeba:11534054" }
+  - { text: "Aš padariau klaidą.", translation: "Я сделал ошибку.", source: "tatoeba:1474501" }
+exercises:
+  - type: cloze
+    text: "Vakar aš ___ visą knygą, todėl galiu ją tau duoti."
+    answer: "perskaičiau"
+    hint: "perskaityti, прош. вр."
+    translation: "Вчера я прочитал всю книгу, поэтому могу дать её тебе."
+  - type: cloze
+    text: "Kai aš ___ laišką, paskambino draugas."
+    answer: "rašiau"
+    hint: "rašyti — процесс"
+    translation: "Когда я писал письмо, позвонил друг."
+  - type: cloze
+    text: "Rytoj aš ___ tau žinutę."
+    answer: "parašysiu"
+    hint: "parašyti, буд. вр."
+    translation: "Завтра я напишу тебе сообщение."
+  - type: cloze
+    text: "Vaikas ___ visą pyragą!"
+    answer: "suvalgė"
+    hint: "suvalgyti, прош. вр."
+    translation: "Ребёнок съел весь пирог!"
+  - type: cloze
+    text: "Ar tu jau ___ vaistus?"
+    answer: "išgėrei"
+    hint: "išgerti, прош. вр."
+    translation: "Ты уже выпил лекарство?"
+  - type: cloze
+    text: "Visą vakarą mes ___ televizorių."
+    answer: "žiūrėjome"
+    also: ["žiūrėjom"]
+    hint: "žiūrėti — процесс"
+    translation: "Весь вечер мы смотрели телевизор."
+  - type: cloze
+    text: "Jie ___ naują namą per vienerius metus."
+    answer: "pastatė"
+    hint: "pastatyti, прош. вр."
+    translation: "Они построили новый дом за один год."

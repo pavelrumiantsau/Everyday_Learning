@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0007
+cefr: B1
+order: 7
+title: "Родительный падеж: отрицание, nėra, количество, числа"
+explanation:
+  ru: |
+    Родительный падеж (*kilmininkas*) в литовском нужен в пяти частых ситуациях:
+
+    1. **После отрицания** прямое дополнение **всегда** стоит в родительном: *matau tėvą* → *nematau **tėvo***; *mėgstu kiną* → *nemėgstu **kino***.
+    2. **nėra** («нет») + родительный: *Nėra **laiko**. Čia nėra **vandens**.*
+    3. **Слова количества**: *daug, mažai, kiek, truputį, daugiau, pusė, keletas* + родительный: *daug **žmonių**, kiek **metų**, truputį **vandens***.
+    4. **Числа 10–20, десятки, сотни** + родительный множественного: *dešimt **metų**, dvidešimt **eurų**, šimtas **žmonių***. А вот **1–9 согласуются** с существительным: *du broliai, penkios dienos, septyni vaikai*.
+    5. **«Немного чего-то»** (часть): *išgėriau **pieno**, nusipirkau **duonos*** — как русское «выпил молока, купил хлеба».
+comparison:
+  ru: |
+    Многое совпадает с русским («нет времени», «много людей», «выпил воды»). Но есть две ловушки:
+    - в русском после «не» часто можно винительный (*не люблю кино*), в литовском — **только родительный**: *nemėgstu kino*;
+    - в русском «пять дней, семь лет» — родительный, а в литовском 5–9 согласуются: **penkios dienos, septyni vaikai**. Родительный — только с 10 и дальше: *dešimt dienų*.
+examples:
+  - { text: "Aš nemėgstu kino.", translation: "Я не люблю кино.", source: "tatoeba:10658867" }
+  - { text: "Tam nėra laiko.", translation: "На это нет времени.", source: "tatoeba:12344475" }
+  - { text: "Parke daug žmonių.", translation: "В парке много людей.", source: "tatoeba:3263602" }
+  - { text: "Man dvidešimt metų.", translation: "Мне двадцать лет.", source: "tatoeba:12118602" }
+  - { text: "Aš išgėriau pieno.", translation: "Я выпил молока.", source: "tatoeba:14048592" }
+exercises:
+  - type: cloze
+    text: "Aš nevalgau ___."
+    answer: "mėsos"
+    hint: "mėsa"
+    translation: "Я не ем мяса."
+  - type: cloze
+    text: "Šiandien neturiu ___."
+    answer: "laiko"
+    hint: "laikas"
+    translation: "Сегодня у меня нет времени."
+  - type: cloze
+    text: "Parduotuvėje nėra ___."
+    answer: "duonos"
+    hint: "duona"
+    translation: "В магазине нет хлеба."
+  - type: cloze
+    text: "Salėje buvo daug ___."
+    answer: "žmonių"
+    hint: "žmonės"
+    translation: "В зале было много людей."
+  - type: cloze
+    text: "Bilietas kainuoja dvidešimt ___."
+    answer: "eurų"
+    hint: "eurai"
+    translation: "Билет стоит двадцать евро."
+  - type: cloze
+    text: "Kiek ___ tu turi?"
+    answer: "vaikų"
+    hint: "vaikai"
+    translation: "Сколько у тебя детей?"
+  - type: cloze
+    text: "Įpilk man truputį ___."
+    answer: "vandens"
+    hint: "vanduo"
+    translation: "Налей мне немного воды."
+  - type: cloze
+    text: "Atostogos truko penkias ___."
+    answer: "dienas"
+    hint: "dienos — 5 согласуется, вин. п."
+    translation: "Отпуск длился пять дней."
