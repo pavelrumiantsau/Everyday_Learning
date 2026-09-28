@@ -1,0 +1,11 @@
+# Your daily rhythm. Times are local to `timezone` (an IANA name, e.g. Europe/Vilnius, Europe/Warsaw).
+timezone: Europe/Vilnius
+morning: "07:50"   # morning lesson + quiz polls
+evening: "20:30"   # reminder, only if you haven't studied today
+
+# Bot-only phase (week 1). The Mini App (weeks 2–3) raises these to the PLAN §3.3 numbers.
+new_per_day:
+  lt: 5
+  es: 3
+  fr: 0
+max_review_polls: 7   # due reviews added to the morning quiz

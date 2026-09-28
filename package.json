@@ -1,0 +1,29 @@
+{
+  "name": "everyday-learning",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.6.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:content": "tsx scripts/build-content.ts",
+    "content:validate": "tsx scripts/build-content.ts --check",
+    "test": "vitest run",
+    "typecheck": "pnpm build:content && pnpm -r typecheck",
+    "dev": "pnpm build:content && pnpm --filter @el/worker dev",
+    "db:migrate": "pnpm --filter @el/worker db:migrate",
+    "secrets:push": "tsx scripts/secrets-push.ts",
+    "setup:telegram": "tsx scripts/setup-telegram.ts",
+    "smoke": "pnpm build:content && tsx scripts/smoke.ts",
+    "deploy:worker": "pnpm build:content && pnpm --filter @el/worker deploy",
+    "wrangler": "pnpm --filter @el/worker exec wrangler"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2",
+    "yaml": "^2.9.1"
+  }
+}

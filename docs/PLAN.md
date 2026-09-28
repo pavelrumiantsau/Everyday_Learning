@@ -232,19 +232,19 @@ LLM-written sentences are labelled `source: generated`. `/report` on any card lo
 Audio: `edge-tts` (`lt-LT-OnaNeural`/`LeonasNeural`, `es-ES-*`, `fr-FR-*`); fallback is the Google Cloud TTS free tier.
 
 ### 6.4 Item format (example)
+The schema lives in [packages/core/src/schema.ts](../packages/core/src/schema.ts) and is checked by `pnpm content:validate`.
 ```yaml
-- id: lt-w-0007
+- id: lt-w-0001            # <lang>-<w|p>-<number>; w = word, p = phrase
   type: word
   cefr: A2
-  lemma: laikas
-  stress: laĩkas
+  text: laikas
+  stress: laĩkas           # optional; added after checking lkz.lt
   pos: noun
   gender: m
-  decl: "1 (-as)"
-  meaning: { ru: время }
-  note: { ru: "Род. п. laiko — после отрицания, как в русском: Neturiu laiko — «нет времени»" }
+  meaning: { ru: время }   # LT → ru; ES/FR → en (enforced by the schema)
+  note: { ru: "После отрицания — родительный падеж, как в русском: neturiu laiko" }
   examples:
-    - { lt: "Neturiu laiko.", ru: "У меня нет времени.", source: "tatoeba:<id>" }
+    - { text: "Neturiu laiko.", translation: "У меня нет времени.", source: generated }   # or tatoeba:<id>
   tags: [freq-top-500]
 ```
 

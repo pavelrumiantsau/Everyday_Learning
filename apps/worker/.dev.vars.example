@@ -1,0 +1,10 @@
+# Copy to .dev.vars (git-ignored) and fill in. `pnpm secrets:push` uploads these to Cloudflare.
+# NEVER commit .dev.vars — this repo is public.
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_USER_ID=
+TELEGRAM_WEBHOOK_SECRET=
+GEMINI_API_KEY=
+GROQ_API_KEY=
+
+# Not a secret — your Worker URL from `pnpm deploy:worker`, used by `pnpm setup:telegram`.
+WORKER_URL=

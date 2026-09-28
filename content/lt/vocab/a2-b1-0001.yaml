@@ -1,0 +1,142 @@
+# Seed batch for testing the pipeline. Meanings/notes in Russian (PLAN §6.1).
+# source: generated = written by an LLM, needs a check; replace with tatoeba:<id> when a real sentence is found.
+# Stress marks are added in the first full batch after checking lkz.lt.
+- id: lt-w-0001
+  type: word
+  cefr: A2
+  text: laikas
+  pos: noun
+  gender: m
+  meaning: { ru: время }
+  note: { ru: "После отрицания — родительный падеж, как в русском: neturiu laiko" }
+  examples:
+    - { text: "Neturiu laiko.", translation: "У меня нет времени.", source: generated }
+- id: lt-w-0002
+  type: word
+  cefr: A2
+  text: susitikimas
+  pos: noun
+  gender: m
+  meaning: { ru: встреча }
+  examples:
+    - { text: "Susitikimas prasidės dešimtą valandą.", translation: "Встреча начнётся в десять часов.", source: generated }
+- id: lt-w-0003
+  type: word
+  cefr: A2
+  text: nuomonė
+  pos: noun
+  gender: f
+  meaning: { ru: мнение }
+  examples:
+    - { text: "Kokia tavo nuomonė?", translation: "Какое твоё мнение?", source: generated }
+- id: lt-w-0004
+  type: word
+  cefr: B1
+  text: sprendimas
+  pos: noun
+  gender: m
+  meaning: { ru: решение }
+  examples:
+    - { text: "Tai geras sprendimas.", translation: "Это хорошее решение.", source: generated }
+- id: lt-w-0005
+  type: word
+  cefr: A2
+  text: vėluoti
+  pos: verb
+  meaning: { ru: опаздывать }
+  examples:
+    - { text: "Atsiprašau, vėluoju.", translation: "Извините, я опаздываю.", source: generated }
+- id: lt-w-0006
+  type: word
+  cefr: A2
+  text: tikėtis
+  pos: verb
+  meaning: { ru: надеяться }
+  note: { ru: "Возвратный глагол: tikiuosi — надеюсь" }
+  examples:
+    - { text: "Tikiuosi, kad viskas bus gerai.", translation: "Надеюсь, что всё будет хорошо.", source: generated }
+- id: lt-w-0007
+  type: word
+  cefr: B1
+  text: pastebėti
+  pos: verb
+  meaning: { ru: заметить }
+  examples:
+    - { text: "Aš to nepastebėjau.", translation: "Я этого не заметил.", source: generated }
+- id: lt-w-0008
+  type: word
+  cefr: B1
+  text: galimybė
+  pos: noun
+  gender: f
+  meaning: { ru: возможность }
+  examples:
+    - { text: "Tai puiki galimybė.", translation: "Это отличная возможность.", source: generated }
+- id: lt-w-0009
+  type: word
+  cefr: B1
+  text: patirtis
+  pos: noun
+  gender: f
+  meaning: { ru: опыт }
+  note: { ru: "daug + род. п.: daug patirties — большой опыт" }
+  examples:
+    - { text: "Jis turi daug patirties.", translation: "У него большой опыт.", source: generated }
+- id: lt-w-0010
+  type: word
+  cefr: B1
+  text: priprasti
+  pos: verb
+  meaning: { ru: привыкнуть }
+  note: { ru: "priprasti prie + род. п. (привыкнуть к чему-то)" }
+  examples:
+    - { text: "Jau pripratau prie šalčio.", translation: "Я уже привык к холоду.", source: generated }
+- id: lt-w-0011
+  type: word
+  cefr: A2
+  text: skubėti
+  pos: verb
+  meaning: { ru: спешить }
+  examples:
+    - { text: "Neskubėk!", translation: "Не спеши!", source: generated }
+- id: lt-w-0012
+  type: word
+  cefr: B1
+  text: išsinuomoti
+  pos: verb
+  meaning: { ru: снять (в аренду) }
+  examples:
+    - { text: "Norime išsinuomoti butą.", translation: "Мы хотим снять квартиру.", source: generated }
+- id: lt-w-0013
+  type: word
+  cefr: A2
+  text: dažnai
+  pos: adv
+  meaning: { ru: часто }
+  examples:
+    - { text: "Aš dažnai skaitau knygas.", translation: "Я часто читаю книги.", source: generated }
+- id: lt-w-0014
+  type: word
+  cefr: A2
+  text: kartais
+  pos: adv
+  meaning: { ru: иногда }
+  examples:
+    - { text: "Kartais lyja visą dieną.", translation: "Иногда дождь идёт весь день.", source: generated }
+- id: lt-w-0015
+  type: word
+  cefr: B1
+  text: aplinka
+  pos: noun
+  gender: f
+  meaning: { ru: окружение, среда }
+  examples:
+    - { text: "Man patinka ši aplinka.", translation: "Мне нравится эта обстановка.", source: generated }
+- id: lt-p-0016
+  type: phrase
+  cefr: B1
+  text: vis dėlto
+  pos: phrase
+  meaning: { ru: всё-таки }
+  examples:
+    - { text: "Vis dėlto nusprendžiau važiuoti.", translation: "Всё-таки я решил поехать.", source: generated }

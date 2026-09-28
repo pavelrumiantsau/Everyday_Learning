@@ -21,12 +21,11 @@ Website menus change from time to time. If a button has a slightly different nam
 # Homebrew (skip if `brew --version` works)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install node@22 gh git     # Node.js LTS, GitHub CLI
-corepack enable                 # turns on pnpm
+brew install node gh pnpm       # Node.js (22 or newer), GitHub CLI, pnpm
 gh auth login                   # 👤 choose GitHub.com → HTTPS → log in with browser
 
 # check
-node --version   # v22.x
+node --version   # v22 or newer
 pnpm --version
 gh auth status
 ```
@@ -94,8 +93,8 @@ Cloudflare Workers run your bot's code on Cloudflare's servers. **The free plan 
    `https://everyday-learning.pavel-learn.workers.dev`. The plan stays **Free**.
 3. 🤖 Log the command-line tool into your account (a browser window opens and you click **Allow**):
    ```bash
-   cd "~/Downloads/Everyday learning"
-   pnpm install                 # installs wrangler (Cloudflare's CLI) as a project tool
+   cd ~/Downloads/"Everyday learning"
+   pnpm install                 # installs wrangler (Cloudflare's CLI) as a project tool (already done if Claude Code set up the project)
    pnpm wrangler login
    pnpm wrangler whoami         # shows your account name and Account ID
    ```
@@ -105,47 +104,53 @@ Cloudflare Workers run your bot's code on Cloudflare's servers. **The free plan 
 
 ---
 
-## Step 4 — Database + secrets + first deploy (20 min) 🤖 (+ 👤 pasting secrets)
+## Step 4 — Database, first deploy, secrets, connect Telegram (20 min) 🤖 (+ 👤 filling in one file)
+
+Everything below runs from the project folder (`cd ~/Downloads/"Everyday learning"`).
 
 1. **Create the database** (D1 = a small SQL database on Cloudflare):
    ```bash
    pnpm wrangler d1 create everyday-learning
    ```
-   It prints a `database_id`. Claude Code puts it into [apps/worker/wrangler.toml](../apps/worker/wrangler.toml).
-   The ID isn't secret, so committing it is fine.
+   It prints a `database_id`. Put it into [apps/worker/wrangler.toml](../apps/worker/wrangler.toml) in place of
+   `REPLACE_WITH_ID_FROM_d1_create` (Claude Code can do this). The ID isn't secret, so committing it is fine.
 2. **Create the tables:**
    ```bash
-   pnpm wrangler d1 migrations apply everyday-learning --remote
+   pnpm db:migrate
    ```
-3. **Add secrets.** Each command asks you to paste a value. The value is stored encrypted at Cloudflare and never shown again.
+3. **Your time zone and reminder times** (not secret): edit [config/schedule.yaml](../config/schedule.yaml).
+   `timezone` is an IANA name such as `Europe/Vilnius`; defaults are 07:50 / 20:30.
+4. **First deploy:**
    ```bash
-   cd apps/worker
-   pnpm wrangler secret put TELEGRAM_BOT_TOKEN         # from step 1
-   pnpm wrangler secret put TELEGRAM_USER_ID           # from step 1
-   pnpm wrangler secret put GEMINI_API_KEY             # from step 2
-   pnpm wrangler secret put GROQ_API_KEY               # optional, from step 2
-   openssl rand -hex 32 | pbcopy                        # makes a random webhook secret and copies it
-   pnpm wrangler secret put TELEGRAM_WEBHOOK_SECRET    # paste it (⌘V)
+   pnpm deploy:worker
    ```
-   For running on your Mac (`pnpm dev`), the same values go into `apps/worker/.dev.vars`. That file is in
-   `.gitignore`, so it's never committed.
-4. **Settings (not secret)** in [config/schedule.yaml](../config/schedule.yaml): your **time zone** (e.g. `Europe/Vilnius`)
-   and reminder times (default 07:50 / 20:30).
-5. **Deploy:**
+   It prints your URL, e.g. `https://everyday-learning.pavel-learn.workers.dev`. Open it in a browser and you should see
+   *"Everyday Learning is running."* (The bot can't work yet because it has no secrets. That's the next step.)
+5. **Secrets: fill in one file, upload once.**
    ```bash
-   pnpm wrangler deploy
+   cp apps/worker/.dev.vars.example apps/worker/.dev.vars
+   openssl rand -hex 32          # prints a random webhook secret to paste below
+   code apps/worker/.dev.vars    # opens it in VS Code
    ```
-   It prints your URL, e.g. `https://everyday-learning.pavel-learn.workers.dev`.
-6. **Connect Telegram to the Worker** (tells Telegram where to deliver your messages instantly):
+   👤 Fill in `TELEGRAM_BOT_TOKEN` and `TELEGRAM_USER_ID` (step 1), `TELEGRAM_WEBHOOK_SECRET` (the random value above),
+   `GEMINI_API_KEY` and optionally `GROQ_API_KEY` (step 2), and `WORKER_URL` (step 4.4). Save.
+   `.dev.vars` is git-ignored, so it never reaches GitHub. Then upload the secrets to Cloudflare, where they're stored encrypted:
+   ```bash
+   pnpm secrets:push
+   ```
+6. **Connect Telegram to the Worker** (tells Telegram to deliver your messages to it instantly):
    ```bash
    pnpm setup:telegram
    ```
-   This project script calls Telegram's `setWebhook` (with the webhook secret), `setMyCommands` (the `/today`,
-   `/tutor` … menu) and `setChatMenuButton` (the **▶ Learn** button that opens the Mini App). It then prints
-   `getWebhookInfo`, which should show your URL and `pending_update_count: 0`.
-7. 👤 Open your bot in Telegram → **Start** → `/today`. The reply should arrive in 1–2 seconds.
+   It sets the webhook (with the secret) and the command menu (`/today`, `/lesson`, `/help`), then prints the webhook
+   status: your URL, `pending_update_count: 0`, `last_error_message: none`.
+7. 👤 Open your bot in Telegram → **Start** → `/today`. The reply should arrive in 1–2 seconds. Then try `/lesson`
+   to get today's lesson and quiz polls right away. From tomorrow, it arrives by itself at your morning time.
 
-✅ **Done when** `/today` answers instantly, and a message from any *other* Telegram account gets no reply.
+✅ **Done when** `/today` answers instantly, `/lesson` sends words + quizzes, and a message from any *other* Telegram account gets no reply.
+
+**Tip, testing without Telegram:** `pnpm smoke` runs the whole bot on your Mac against a fake Telegram and a
+local database, and prints a ✓/✗ checklist. It's useful after any code change.
 
 ### Where to look in the Cloudflare dashboard
 | You want to… | Go to |
@@ -218,8 +223,8 @@ Nothing to create: the Worker serves the Mini App itself. After the deploy that 
 ## Troubleshooting
 | Symptom | Check / fix |
 |---|---|
-| Bot doesn't reply | `pnpm setup:telegram --info` → look at `last_error_message`. `401/403` → the webhook secret doesn't match, so run `secret put TELEGRAM_WEBHOOK_SECRET` again and then `setup:telegram` again. Then run `pnpm wrangler tail` and send a message |
-| Bot replies to nobody | Wrong `TELEGRAM_USER_ID`. Check @userinfobot again and `secret put` it again |
+| Bot doesn't reply | `pnpm setup:telegram --info` → look at `last_error_message`. `403` → the webhook secret doesn't match: check `.dev.vars`, then `pnpm secrets:push` and `pnpm setup:telegram` again. Then run `pnpm wrangler tail` and send a message |
+| Bot replies to nobody | Wrong `TELEGRAM_USER_ID`. Check @userinfobot again, fix `.dev.vars`, `pnpm secrets:push` |
 | Mini App says "unauthorized" | It was opened outside Telegram (e.g. in Safari), or the bot token changed. Open it via **▶ Learn** |
 | AI answers stop, with `429` in the logs | Gemini rate limit. Groq takes over automatically if configured; otherwise wait a minute. Check AI Studio → Rate limits |
 | AI answers stop, with `400/404 model not found` | Google renamed or retired the model. Update the model name in `config/llm.yaml` (step 2.7) and push |

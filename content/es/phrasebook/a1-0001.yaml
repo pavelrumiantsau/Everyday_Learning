@@ -1,0 +1,11 @@
+# Seed batch: survival phrases. Meanings/notes in English (PLAN §6.1).
+- { id: es-p-0001, type: phrase, cefr: A1, text: "¡Hola! ¿Qué tal?", meaning: { en: "Hi! How are you?" } }
+- { id: es-p-0002, type: phrase, cefr: A1, text: "Me llamo…", meaning: { en: "My name is…" } }
+- { id: es-p-0003, type: phrase, cefr: A1, text: "Mucho gusto.", meaning: { en: "Nice to meet you." } }
+- { id: es-p-0004, type: phrase, cefr: A1, text: "¿Cuánto cuesta?", meaning: { en: "How much does it cost?" } }
+- { id: es-p-0005, type: phrase, cefr: A1, text: "La cuenta, por favor.", meaning: { en: "The bill, please." } }
+- { id: es-p-0006, type: phrase, cefr: A1, text: "¿Dónde está el baño?", meaning: { en: "Where is the bathroom?" } }
+- { id: es-p-0007, type: phrase, cefr: A1, text: "No entiendo.", meaning: { en: "I don't understand." } }
+- { id: es-p-0008, type: phrase, cefr: A1, text: "¿Puede repetir, por favor?", meaning: { en: "Can you repeat that, please?" } }
+- { id: es-p-0009, type: phrase, cefr: A1, text: "Quisiera un café con leche.", meaning: { en: "I'd like a coffee with milk." }, note: { en: "Quisiera = a polite 'I would like' (from querer)." } }
+- { id: es-p-0010, type: phrase, cefr: A1, text: "Hasta luego.", meaning: { en: "See you later." } }

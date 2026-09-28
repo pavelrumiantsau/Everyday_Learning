@@ -8,3 +8,4 @@ dist/
 .vscode/
 coverage/
 *.log
+apps/worker/src/generated/
