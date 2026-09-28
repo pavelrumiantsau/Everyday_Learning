@@ -74,6 +74,9 @@ no credit card. The bot uses it for tutor chat and feedback (from weeks 5–6).
    The bot keeps model names in one config file, so switching is a one-line change.
    The current list, with limits, is at **https://console.groq.com/docs/models**.
 5. Your free-tier limits are in the console under **Settings → Limits**. The bot needs a few dozen requests a day, far below them.
+6. Later (after step 4, once `apps/worker/.dev.vars` has the key) 🤖: `pnpm llm:eval` compares the configured models on 21
+   Lithuanian/Spanish learner mistakes and prints a table, so you can see which one to put first in `config/llm.yaml`.
+   It calls the real APIs (a few dozen free-tier requests) and never prints your keys. Nothing else is needed for the AI features.
 
 | Error | Meaning |
 |---|---|

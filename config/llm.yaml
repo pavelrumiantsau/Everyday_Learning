@@ -1,0 +1,46 @@
+# AI providers and which one answers each task (PLAN §5.1). Validated and bundled by `pnpm build` (scripts/build-llm.ts).
+# Model names live only here: when a provider retires a model, change it here and push.
+# Keys are never in this file — `key_env` names the Worker secret (apps/worker/.dev.vars → `pnpm secrets:push`).
+# A provider without its key set is skipped, so optional fallbacks cost nothing until you add a key.
+
+retries: 1            # extra tries on the same provider after 429/5xx/invalid JSON, then the next provider in the chain
+retry_delay_ms: 500
+
+providers:
+  groq:               # main provider, free tier (https://console.groq.com/docs/models)
+    type: openai
+    base_url: https://api.groq.com/openai/v1
+    key_env: GROQ_API_KEY
+    extra_body: { reasoning_effort: low }   # applies to chat only; gpt-oss thinks less → faster replies
+    prices:           # paid-tier list prices, for the cost estimate in the usage log (free tier = $0 actually billed)
+      openai/gpt-oss-120b: { input_per_mtok: 0.15, output_per_mtok: 0.60 }
+      openai/gpt-oss-20b: { input_per_mtok: 0.075, output_per_mtok: 0.30 }
+      whisper-large-v3: { per_audio_hour: 0.111 }
+      whisper-large-v3-turbo: { per_audio_hour: 0.04 }
+
+  google:             # optional fallback, free tier; new keys often got 503 "high demand" in Sep 2026
+    type: gemini
+    base_url: https://generativelanguage.googleapis.com/v1beta
+    key_env: GEMINI_API_KEY
+
+  anthropic:          # off by default. To enable: set enabled: true, add ANTHROPIC_API_KEY (a paid API key —
+    type: anthropic   # never the Claude subscription), and put anthropic:claude-haiku-4-5 into a task chain below.
+    base_url: https://api.anthropic.com/v1
+    key_env: ANTHROPIC_API_KEY
+    enabled: false
+    monthly_budget_usd: 3
+    prices:
+      claude-haiku-4-5: { input_per_mtok: 1, output_per_mtok: 5 }
+
+  openrouter:         # optional, OpenAI-compatible; free models end in ":free"
+    type: openai
+    base_url: https://openrouter.ai/api/v1
+    key_env: OPENROUTER_API_KEY
+    enabled: false
+
+tasks:
+  tutor_chat:       [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
+  writing_feedback: [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
+  answer_check:     [groq:openai/gpt-oss-20b, groq:openai/gpt-oss-120b]
+  # Speech-to-text for voice messages. large-v3 is the more accurate one for Lithuanian; turbo is the fallback.
+  transcribe:       [groq:whisper-large-v3, groq:whisper-large-v3-turbo]

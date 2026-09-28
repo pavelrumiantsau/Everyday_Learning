@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@el/core": "workspace:*",
+    "@el/llm": "workspace:*",
     "hono": "^4.13.9"
   },
   "devDependencies": {

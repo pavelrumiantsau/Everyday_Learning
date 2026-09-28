@@ -8,8 +8,10 @@ import { progress } from "./progress";
 import { report } from "./report";
 import { review } from "./review";
 import { settings } from "./settings";
+import { tutor } from "./tutor";
 
-export const FEATURES: Feature[] = [core, review, placement, grammar, settings, progress, report, assessment];
+// tutor stays last: it takes plain text/voice messages, so features before it get the first chance.
+export const FEATURES: Feature[] = [core, review, placement, grammar, settings, progress, report, assessment, tutor];
 
 export const COMMANDS: Command[] = FEATURES.flatMap((f) => f.commands ?? []);
 

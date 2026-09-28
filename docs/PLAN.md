@@ -18,7 +18,7 @@
 | 5 | Reverse cards (RU/EN → target, recall), part of settings per language | ✅ Done | added once the meaning card is known (2 correct answers) |
 | 6 | Grammar lessons: rule of the day, exercises → cloze cards, weekday rotation | ✅ Done | `feat/grammar`: `/rule`, morning «📘 Правило дня» (Mon/Wed/Thu/Sat LT, Tue/Fri ES), Mini App lesson + cloze cards in reviews |
 | 7 | Audio: TTS for words + examples, play button | ✅ Done | edge-tts mp3 committed to git (`pnpm content:audio`); 🔊 on flashcards + placement; no voice clips in the bot (too noisy) |
-| 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ⏳ In progress | `feat/ai` (sub-agent) |
+| 8 | AI layer (Groq + Gemini fallback, budget, usage log) + `/tutor` LT chat + writing & voice feedback | ✅ Done | `packages/llm` + `config/llm.yaml`; `/tutor [lt\|es] [topic]`, `/stop`, `/ai`; feedback on any LT/ES text; voice → Whisper (`whisper-large-v3`); mistakes saved in D1 `mistakes` (cards from them: not yet); `pnpm llm:eval` |
 | 9 | Reading mode (graded texts, tap word → card) | ⬜ Next | after the AI branch (word lookup) |
 | 10 | Weekly report, `/input` log, auto-adjust of new cards | ✅ Done | Sunday 18:00 report + `/week`; `/input` and 🎧 in the Mini App; ±1–2 new words/day by backlog and accuracy |
 | 11 | "Report a mistake" (bot + Mini App) | ✅ Done | ⚠️ on cards, `/report`; `pnpm content:reports` lists them |
@@ -207,23 +207,36 @@ Cloudflare Queue (free tier) can handle it.*
 
 ## 5. AI — switchable providers + your Claude subscription
 
-### 5.1 Provider layer (unchanged design)
-`packages/llm`, built on the Vercel AI SDK (adapters for Anthropic, Google, and any OpenAI-compatible API such as Groq, OpenRouter or Ollama).
-The app asks for a **task**, and `config/llm.yaml` maps each task to a chain of provider:model pairs, with capability flags
-(audio input, structured output), a monthly budget cap, fallback on errors, and a usage log. `pnpm llm:eval` compares
-models on the same ~30 learner mistakes. This matters most for Lithuanian.
+### 5.1 Provider layer (as built)
+`packages/llm`: small adapters on plain `fetch` (no SDKs, so the Worker stays small) for any **OpenAI-compatible** API
+(Groq, OpenRouter, Ollama), **Gemini** `generateContent` and the **Anthropic** Messages API. The app asks for a **task**;
+`config/llm.yaml` maps each task to a chain of `provider:model` pairs. The router:
+- tries the chain in order, skipping providers that are disabled or have no key set;
+- retries a provider once on 429/5xx/timeouts (short pause), then falls back to the next one;
+- for JSON tasks asks for JSON mode, validates the answer with zod and treats invalid JSON like a 5xx (retry, then fallback);
+- logs every call to D1 `llm_usage` (task, provider, model, tokens / audio seconds, estimated cost, latency, short error — never the text);
+- **budget guard:** a provider with `monthly_budget_usd` is skipped once this month's estimated cost reaches it.
+
+`scripts/build-llm.ts` (part of `pnpm build`) validates the config and bundles it with the prompts (`prompts/tutor/chat.md`,
+`prompts/feedback/writing.md`) into the Worker. `pnpm llm:eval` runs 21 learner mistakes (14 LT, 7 ES) through every enabled
+chat model with the real feedback prompt and prints a comparison table (keys from `apps/worker/.dev.vars`; not run in CI).
+`/ai` in the bot shows this month's calls and estimated cost per model.
 
 ```yaml
-# config/llm.yaml (v3 defaults: $0 at runtime). Google retires model names often, so the names live only here.
+# config/llm.yaml (defaults: $0 at runtime). Model names live only here.
 tasks:
-  tutor_chat:        [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]   # add anthropic:claude-haiku-4-5 if you enable the API
-  answer_check:      [groq:openai/gpt-oss-20b,  groq:openai/gpt-oss-120b]
-  writing_feedback:  [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]   # weekly review by Claude Code, see §5.2
-  speaking_feedback: [groq:<whisper model> → groq:openai/gpt-oss-120b]      # speech-to-text first, then feedback on the text
+  tutor_chat:       [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]   # add anthropic:claude-haiku-4-5 if you enable the API
+  writing_feedback: [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
+  answer_check:     [groq:openai/gpt-oss-20b,  groq:openai/gpt-oss-120b]
+  transcribe:       [groq:whisper-large-v3, groq:whisper-large-v3-turbo]  # voice messages; then tutor_chat / writing_feedback
 providers:
-  anthropic: { key_env: ANTHROPIC_API_KEY, monthly_budget_usd: 5, enabled: false }
+  groq:      { type: openai,    key_env: GROQ_API_KEY, … }
+  google:    { type: gemini,    key_env: GEMINI_API_KEY, … }                # optional; skipped while the key is absent
+  anthropic: { type: anthropic, key_env: ANTHROPIC_API_KEY, monthly_budget_usd: 3, enabled: false }
 ```
-Switching to Claude later is **one line per task** plus an API key.
+Switching to Claude later is `enabled: true`, an `ANTHROPIC_API_KEY`, and one line per task.
+Privacy: only the learner's practice text (or voice clip, kept in memory only) goes to the provider; free tiers may use it for training.
+Production logs contain lengths, language and provider — never the text or keys.
 
 ### 5.2 What your Claude subscription can and can't do here
 Anthropic's rules (updated Feb 2026) allow subscription credentials **only in Claude Code and the Claude apps**.
@@ -316,9 +329,11 @@ The rule of the day is the next not-done lesson of the weekday's language (§3.6
 | Menu **▶ Learn** | Opens the Mini App |
 | `/today`, `/stats` | Plan and what's left; progress per language |
 | `/rule` | Rule of the day now (grammar lesson in the Mini App) |
-| **`/tutor [topic]`** | Lithuanian conversation (default topic = this week's grammar). Corrections in Russian at the end of each reply; mistakes become cloze cards. `/tutor es` for Spanish |
-| Voice message | Speaking feedback (transcript + corrections) |
-| Text in a target language | Writing feedback |
+| **`/tutor [lt\|es] [topic]`** | Conversation with an AI tutor (default Lithuanian at B1; `es` = very simple Spanish). Each reply: the answer in the language, then **✏️ Исправления** (Russian for LT, English for ES). Text and voice go to the tutor while the session is open; the last ~10 exchanges are the context. Mistakes are saved (for cloze cards later) |
+| `/stop` | Ends the tutor session (also ends by itself after 3 h of silence) |
+| `/ai` | AI calls and estimated cost this month, per provider/model |
+| Voice message | Transcribed by Whisper ("🎙 Я услышал: …"), then a tutor reply (in a session) or feedback like a text |
+| Text in a target language | Writing feedback: corrected text + one-line explanations (LT/ES/FR detected from letters and common words) |
 | `/input 30 lt radio` | Logs passive input |
 | `/pause 3`, `/new lt 8`, `/report …` | Holiday mode, new cards/day, report a wrong card |
 
