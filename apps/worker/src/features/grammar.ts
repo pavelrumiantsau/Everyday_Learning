@@ -52,30 +52,50 @@ export async function todayLesson(d1: D1Database, now: Date, anyDay = false): Pr
   return { day, lesson: (id && LESSON_BY_ID.get(id)) || lesson };
 }
 
+/**
+ * An extra rule ahead of the rotation (days with more time): the next not-done lesson, not today's rule. `lang` picks
+ * the language; without it: today's language(s) first, then LT, ES, FR. French grammar still waits for FR_START.
+ */
+export async function nextLesson(d1: D1Database, now: Date, lang?: Lang): Promise<Lesson | null> {
+  const { day } = localClock(now, SCHEDULE.timezone);
+  const [done, today] = await Promise.all([doneLessonIds(d1), dayLessonId(d1, day)]);
+  if (today) done.add(today); // today's rule has its own entry
+  const langs = lang ? [lang] : [...new Set<Lang>([...grammarLangsForDay(day), "lt", "es", "fr"])];
+  return langs.map((l) => pickLesson(LESSONS, l, done, day)).find((l) => l) ?? null;
+}
+
 // --- bot ---
 
 const escapeHtml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-/** Mini App link that opens the grammar screen directly. */
-function grammarUrl(webAppUrl: string): string {
+/** Mini App link that opens the grammar screen directly (with `lessonId`: that lesson instead of the rule of the day). */
+function grammarUrl(webAppUrl: string, lessonId?: string): string {
   try {
     const url = new URL(webAppUrl);
     url.searchParams.set("screen", "grammar");
+    if (lessonId) url.searchParams.set("lesson", lessonId);
     return url.toString();
   } catch {
     return webAppUrl;
   }
 }
 
-function sendRule(ctx: BotContext, lesson: Lesson) {
+function sendRule(ctx: BotContext, lesson: Lesson, extra = false) {
   const text = [
-    `📘 <b>Правило дня: ${escapeHtml(lesson.title)}</b>`,
+    `📘 <b>${extra ? "Ещё одно правило" : "Правило дня"}: ${escapeHtml(lesson.title)}</b>`,
     `${FLAG[langOfLesson(lesson)]} ${lesson.cefr} · ${lesson.exercises.length} упражнений · ~5 мин`,
   ].join("\n");
-  return ctx.tg.sendMessage(ctx.ownerId, text, { text: "📘 Открыть правило", url: grammarUrl(ctx.webAppUrl) });
+  return ctx.tg.sendMessage(ctx.ownerId, text, { text: "📘 Открыть правило", url: grammarUrl(ctx.webAppUrl, extra ? lesson.id : undefined) });
 }
 
-async function ruleCommand(ctx: BotContext) {
+async function ruleCommand(ctx: BotContext, args: string) {
+  const words = args.toLowerCase().split(/\s+/).filter(Boolean);
+  if (words[0] === "next" || words[0] === "ещё" || words[0] === "еще") {
+    const lang = (["lt", "es", "fr"] as const).find((l) => words.includes(l));
+    const lesson = await nextLesson(ctx.env.DB, ctx.now, lang);
+    if (!lesson) return ctx.tg.sendMessage(ctx.ownerId, "📘 Больше правил нет — новые придут со следующей партией контента.");
+    return sendRule(ctx, lesson, true);
+  }
   const { day, lesson } = await todayLesson(ctx.env.DB, ctx.now, true);
   if (!lesson) return ctx.tg.sendMessage(ctx.ownerId, "📘 Все правила пройдены — новые придут со следующей партией контента.");
   await claimSent(ctx.env.DB, day, ctx.now.getTime()); // counts as today's rule message: the morning one won't come again
@@ -120,6 +140,12 @@ api.get("/grammar/today", async (c) => {
   return c.json({ day, lesson, done: lesson ? await isDone(c.env.DB, lesson.id) : false });
 });
 
+api.get("/grammar/next", async (c) => {
+  const q = c.req.query("lang");
+  const lang = q === "lt" || q === "es" || q === "fr" ? q : undefined;
+  return c.json({ lesson: await nextLesson(c.env.DB, new Date(), lang) });
+});
+
 api.get("/grammar/lessons/:id", async (c) => {
   const lesson = LESSON_BY_ID.get(c.req.param("id"));
   if (!lesson) return c.json({ error: "unknown lesson" }, 404);
@@ -160,7 +186,7 @@ api.post("/grammar/lessons/:id/done", async (c) => {
 
 export const grammar: Feature = {
   id: "grammar",
-  commands: [{ name: "rule", description: "Правило дня", run: (c) => ruleCommand(c) }],
+  commands: [{ name: "rule", description: "Правило дня (/rule next — следующее, если есть время)", run: (c, args) => ruleCommand(c, args) }],
   api,
   onTick,
 };

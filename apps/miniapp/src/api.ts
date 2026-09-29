@@ -111,6 +111,11 @@ export const reportItem = (b: { itemId?: string; cardId?: string; text?: string 
 export interface GrammarToday { day: string; lesson: Lesson | null; done: boolean }
 export const getGrammarToday = () => call<GrammarToday>("/grammar/today");
 export const getLesson = (id: string) => call<{ lesson: Lesson; done: boolean }>(`/grammar/lessons/${encodeURIComponent(id)}`);
+/** An extra rule ahead of the rotation (the next not-done lesson; `lang` optional). */
+export const getNextLesson = (lang?: Lang) => call<{ lesson: Lesson | null }>(`/grammar/next${lang ? `?lang=${lang}` : ""}`);
+/** Next new words now instead of tomorrow morning: one daily portion per active language, or `n` of `lang`. */
+export const addMoreWords = (b: { lang?: Lang; n?: number } = {}) =>
+  call<{ added: number; items: { id: string; text: string }[] }>("/more", { method: "POST", body: JSON.stringify(b) });
 export const markLessonDone = (id: string, opts: { cards?: boolean } = {}) =>
   call<{ done: boolean; created: number }>(`/grammar/lessons/${encodeURIComponent(id)}/done`, { method: "POST", body: JSON.stringify(opts) });
 export interface DiagnosticLesson { id: string; title: string; cefr: string; exercises: Exercise[] }

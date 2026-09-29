@@ -145,6 +145,7 @@ h2 { margin: 8px 0 0; font-size: 20px; }
 .text-input { font: inherit; color: var(--text); background: var(--bg2); border: 0; border-radius: 12px; padding: 12px 14px; width: 100%; }
 .top-line { display: flex; justify-content: space-between; align-items: center; min-height: 22px; }
 .link { background: none; padding: 0; color: var(--hint); font-size: 13px; }
+.hint .link { font-size: 20px; margin: 0 6px; vertical-align: middle; } /* flag choices under «Следующее правило» */
 .report-form { display: flex; gap: 8px; width: 100%; margin-top: 4px; }
 .report-form .text-input { padding: 8px 10px; font-size: 14px; }
 .report-form .button { padding: 8px 12px; font-size: 14px; }

@@ -28,7 +28,7 @@ Spanish beginner, French starts April 2027.
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
 - `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.
 - `scripts/` — content build/validate, sources, candidates, batches (`scripts/batches/*.py`), audio (`tts.py`), smoke test
-  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **13**), setup scripts.
+  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **14**), setup scripts.
 
 ## Commands
 ```bash

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { flushReviews, getQueue, getSession, type QueueCard, type Session } from "./api";
+import { addMoreWords, flushReviews, getQueue, getSession, type QueueCard, type Session } from "./api";
 import { FEATURES } from "./features";
 import { FLAG } from "./flags";
 import { Review } from "./screens/Review";
@@ -111,8 +111,32 @@ function Learn() {
           Повторить ({session.due})
         </button>
       ) : (
-        <p className="done-note">Всё повторено 🎉 Новые слова придут утром — или напиши боту /lesson.</p>
+        <p className="done-note">Всё повторено 🎉 Новые слова придут утром — или возьми их сейчас.</p>
       )}
+      <MoreWords onAdded={() => void start()} />
     </main>
+  );
+}
+
+/** «Есть время ещё»: tomorrow's new words now (one daily portion per language); the morning continues after them. */
+function MoreWords({ onAdded }: { onAdded: () => void }) {
+  const [state, setState] = useState<"idle" | "busy" | "none">("idle");
+  const add = async () => {
+    haptic("tap");
+    setState("busy");
+    try {
+      const { added } = await addMoreWords();
+      if (added > 0) onAdded();
+      else setState("none");
+    } catch {
+      setState("idle");
+    }
+  };
+  if (state === "none") return <p className="hint small center-text">Новых слов больше нет — нужна следующая партия.</p>;
+  return (
+    <button className="secondary center-text" onClick={() => void add()} disabled={state === "busy"}>
+      {state === "busy" ? "Добавляю…" : "➕ Ещё новые слова сейчас"}
+      <span className="hint small">завтрашняя порция — утром придут следующие</span>
+    </button>
   );
 }

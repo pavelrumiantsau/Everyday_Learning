@@ -28,6 +28,7 @@
 | 15 | Grammar diagnostic in the placement test | ✅ Done | Mini App «Проверить, что я уже знаю» → «Грамматика»: 2 exercises per upcoming LT lesson; both right → «Отметить урок как пройденный» (no cards: `POST /api/grammar/lessons/:id/done {cards:false}`) |
 | 16 | Suggested input sources | ✅ Done | `config/sources.yaml` (validated at build) → «Что послушать» in 🎧; one LT tip in the Sunday report when LT input < 3 h |
 | 17 | Reading: own texts + adaptive level | ✅ Done | 📖 «＋ Вставить свой текст» (paste any article; stored only in D1, AI word lookups + 3 AI questions, task `reading_questions`); after reading «легко / нормально / сложно» → next «Текст дня» level (`nextReadingLevel`, default LT = B2); migration 0010 |
+| 18 | "More today" on days with extra time | ✅ Done | New words: Mini App «➕ Ещё новые слова сейчас» / `/more` (one daily portion per active language), `/more es`, `/more lt 20` (max 30) — introduced as cards now, the next morning continues after them (`features/more.ts`, `POST /api/more`). Grammar: «➕ Следующее правило» after today's rule / on days without one, `/rule next [lt\|es\|fr]` (`GET /api/grammar/next`; today's rule stays; French grammar still waits for April). Reading was already on demand (📖 lists all texts). No migration; smoke `13-more.ts` |
 
 **Content — supply and next ids**
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |

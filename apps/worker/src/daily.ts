@@ -16,6 +16,17 @@ export function cardsForItem(item: Item): CardKind[] {
   return item.forms ? ["recog", "forms"] : ["recog"];
 }
 
+/** Creates the cards of new items (due now) and counts them as today's new cards. Used by the morning lesson and /more. */
+export async function introduceItems(db: Db, items: readonly Item[], now: Date): Promise<void> {
+  if (!items.length) return;
+  const { day } = localClock(now, SCHEDULE.timezone);
+  const at = now.getTime();
+  await db.batch([
+    ...items.flatMap((item) => cardsForItem(item).map((k) => db.insertCard(cardIdFor(item.id, k), item.id, langOf(item), newCard(now), at))),
+    db.bumpDay(day, "new_cards", items.length),
+  ]);
+}
+
 /** A meaning card is "known" once it has been answered correctly at least twice and is in review (FSRS state 2). */
 const REVERSE_AFTER_REPS = 2;
 
@@ -90,7 +101,6 @@ async function coreTick(db: Db, tg: Telegram, chatId: string, webAppUrl: string,
 export const learnButton = (url: string) => ({ text: "▶ Карточки", url });
 
 export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now = new Date()): Promise<void> {
-  const { day } = localClock(now, SCHEDULE.timezone);
   const [introduced, prefs] = await Promise.all([db.introducedItemIds(), getPrefs(db)]);
   const fresh = pickNewItems(ITEMS, introduced, prefs.new_per_day);
   await ensureCards(db, now);
@@ -104,13 +114,7 @@ export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUr
   await tg.sendMessage(chatId, lines.join("\n"), learnButton(webAppUrl));
 
   // Introduce the new items as cards (due now, so their quiz below counts as the first review).
-  const at = now.getTime();
-  if (fresh.length) {
-    await db.batch([
-      ...fresh.flatMap((item) => cardsForItem(item).map((k) => db.insertCard(cardIdFor(item.id, k), item.id, langOf(item), newCard(now), at))),
-      db.bumpDay(day, "new_cards", fresh.length),
-    ]);
-  }
+  await introduceItems(db, fresh, now);
 
   const quizCards = [...fresh.slice(0, prefs.max_new_polls).map((i) => cardIdFor(i.id)), ...due.map((c) => c.card_id)];
   for (const cardId of new Set(quizCards)) {

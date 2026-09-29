@@ -3,7 +3,7 @@ import { lessonAudioId } from "@el/core/audio";
 import { checkAnswer, clozeParts, parseExerciseCardId, type AnswerResult } from "@el/core/grammar";
 import type { Exercise, Lesson } from "@el/core";
 import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
-import { getGrammarToday, markLessonDone, type ClozeCard, type GrammarToday, type Rating } from "../api";
+import { getGrammarToday, getLesson, getNextLesson, markLessonDone, type ClozeCard, type GrammarToday, type Lang, type Rating } from "../api";
 import type { MiniFeature } from "../features";
 import { Play } from "../Audio";
 import { FLAG } from "../flags";
@@ -171,7 +171,16 @@ function HomeEntry({ open }: { open: () => void }) {
     getGrammarToday().then(setToday, () => setToday(null));
   }, []);
   const lesson = today?.lesson;
-  if (!lesson) return null;
+  if (!today) return null;
+  if (!lesson) {
+    // Thursday / Sunday: no rule in the rotation, but an extra one can still be taken.
+    return (
+      <button className="secondary" onClick={open}>
+        📘 Правило вне расписания
+        <span className="hint small">сегодня правила нет — можно взять следующее</span>
+      </button>
+    );
+  }
   return (
     <button className="secondary" onClick={open}>
       📘 Правило дня: {lesson.title}
@@ -224,16 +233,69 @@ function Exercises({ lesson, onFinish }: { lesson: Lesson; onFinish: (correct: n
   return <ExerciseStep key={index} lesson={lesson} index={index} onNext={next} />; // key: fresh input per exercise
 }
 
+/** «Ещё одно правило»: the next lesson ahead of the rotation, for days with more time. */
+function NextRule({ onPick }: { onPick: (lesson: Lesson) => void }) {
+  const [busy, setBusy] = useState(false);
+  const [none, setNone] = useState<string | null>(null);
+  const pick = async (lang?: Lang) => {
+    setBusy(true);
+    try {
+      const { lesson } = await getNextLesson(lang);
+      if (lesson) onPick(lesson);
+      else setNone(lang ? `${FLAG[lang]} — больше правил нет.` : "Больше правил нет.");
+    } finally {
+      setBusy(false);
+    }
+  };
+  return (
+    <>
+      <button className="secondary center-text" onClick={() => void pick()} disabled={busy}>
+        ➕ Следующее правило
+      </button>
+      <p className="hint small center-text">
+        или язык:{" "}
+        {(["lt", "es", "fr"] as const).map((l) => (
+          <button key={l} className="link" onClick={() => void pick(l)} disabled={busy}>
+            {FLAG[l]}
+          </button>
+        ))}
+      </p>
+      {none && <p className="hint small center-text">{none}</p>}
+    </>
+  );
+}
+
+interface Current extends GrammarToday {
+  extra: boolean; // opened ahead of the rotation, not the rule of the day
+}
+
 function Screen({ close }: { close: () => void }) {
-  const [today, setToday] = useState<GrammarToday | null>(null);
+  const [today, setCurrent] = useState<Current | null>(null);
   const [step, setStep] = useState<"read" | "practice" | "finish">("read");
   const [score, setScore] = useState(0);
   const [saving, setSaving] = useState(false);
+  const [saved, setSaved] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    getGrammarToday().then(setToday, (e) => setError(String(e)));
+    // Deep link from /rule next: ?screen=grammar&lesson=lt-g-0050 (removed from the URL so it opens only once).
+    const params = new URLSearchParams(location.search);
+    const id = params.get("lesson");
+    if (id) {
+      params.delete("lesson");
+      history.replaceState(null, "", `${location.pathname}?${params}`);
+      getLesson(id).then((r) => setCurrent({ day: "", lesson: r.lesson, done: r.done, extra: true }), (e) => setError(String(e)));
+      return;
+    }
+    getGrammarToday().then((t) => setCurrent({ ...t, extra: false }), (e) => setError(String(e)));
   }, []);
+
+  const openExtra = (lesson: Lesson) => {
+    setCurrent({ day: today?.day ?? "", lesson, done: false, extra: true });
+    setStep("read");
+    setSaved(false);
+    window.scrollTo(0, 0);
+  };
 
   if (error) {
     return (
@@ -250,7 +312,8 @@ function Screen({ close }: { close: () => void }) {
     return (
       <main className="screen center">
         <h1>📘</h1>
-        <p className="hint">Сегодня правила нет — воскресенье для чтения и письма. Или напиши боту /rule.</p>
+        <p className="hint">Сегодня правила нет — день для чтения и письма. Если есть время, можно взять следующее:</p>
+        <NextRule onPick={openExtra} />
         <button className="button" onClick={close}>На главную</button>
       </main>
     );
@@ -266,11 +329,23 @@ function Screen({ close }: { close: () => void }) {
       try {
         await markLessonDone(lesson.id);
         haptic("done");
-        close();
+        setSaved(true);
       } catch (e) {
         setError(String(e));
+      } finally {
+        setSaving(false);
       }
     };
+    if (saved) {
+      return (
+        <main className="screen center">
+          <h1>✓</h1>
+          <p className="hint">Сохранено. Упражнения этого правила будут приходить в обычных повторениях.</p>
+          <button className="button big" onClick={close}>На главную</button>
+          <NextRule onPick={openExtra} />
+        </main>
+      );
+    }
     return (
       <main className="screen center">
         <h1>{score} из {lesson.exercises.length}</h1>
@@ -289,7 +364,7 @@ function Screen({ close }: { close: () => void }) {
   return (
     <main className="screen lesson">
       <p className="hint small">
-        {FLAG[lang]} {lesson.cefr} · правило дня{today.done ? " · ✓ пройдено" : ""}
+        {FLAG[lang]} {lesson.cefr} · {today.extra ? "дополнительное правило" : "правило дня"}{today.done ? " · ✓ пройдено" : ""}
       </p>
       <h1>{lesson.title}</h1>
       <section className="lesson-text">
@@ -315,6 +390,7 @@ function Screen({ close }: { close: () => void }) {
       <button className="button big" onClick={() => setStep("practice")}>
         К упражнениям ({lesson.exercises.length})
       </button>
+      {today.done && <NextRule onPick={openExtra} />}
     </main>
   );
 }

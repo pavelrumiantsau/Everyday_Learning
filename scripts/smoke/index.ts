@@ -11,6 +11,7 @@ import ai from "./07-ai.ts";
 import mistakes from "./11-mistakes.ts";
 import reading from "./10-reading.ts";
 import french from "./12-french.ts";
+import more from "./13-more.ts";
 import type { Smoke } from "./context.ts";
 
 export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
@@ -26,4 +27,5 @@ export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "mistakes", run: mistakes },
   { name: "reading", run: reading },
   { name: "french", run: french },
+  { name: "more", run: more },
 ];
