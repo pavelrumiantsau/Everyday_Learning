@@ -6,7 +6,7 @@
 > **Budget:** free tiers + your existing Claude subscription. The Claude API is an optional extra.
 > **Devices:** iPhone (main), MacBook (work), Windows laptop (occasional). All of them run **Telegram**.
 
-## Status (updated as work lands) — last update 2026-09-29
+## Status (updated as work lands) — last update 2026-09-29 (evening)
 
 **App: all planned features (1–17) are built and live.** What is left is content (table below) and real-use feedback.
 | # | Feature | Status | Notes |
@@ -45,6 +45,30 @@
 Feb–Mar 2027) → more LT B2 reading `lt-r-0046+` → LT vocabulary `lt-*-1856` → ES vocabulary `es-*-1129` → stress marks for the ~800 LT
 words Wiktionary doesn't cover (lkz.lt) → French A1 from `fr-g-0011` / `fr-*-0001` before April 2027. The learner asked for harder
 Lithuanian reading (B2) — keep new LT texts at B2.
+
+**Inputs for the next planning round (as of 2026-09-29, after the content sessions):** demand = the §3.3/§3.6 pace from
+2026-10-01 to 2027-12-31, before placement skips known words.
+| Area | Needed to Dec 2027 | Have | Gap | Note |
+|---|---|---|---|---|
+| LT words | ~3,650 (10/day to Mar, 8, 7, 5) | 1,799 | ~1,850 | Tatoeba LT–RU (~99k pairs) is thinning out beyond rank ~35,000: most unused candidates are inflected forms or have no example |
+| ES words | ~2,100 (5, 4, 5/day) | 1,128 | ~1,000 | the Dec 2027 target is A2 (~1,500 words) — the §3.3 pace goes beyond it |
+| FR words | ~1,200 (4–5/day from Apr 2027) | 0 | ~1,200 | + ~300 phrases (§3.5); Tatoeba `fra`–`eng` is large |
+| LT grammar | ~185 (Mon/Wed, + Sat from Dec 2026) | 49 | ~135 | the §3.4 topic list is nearly covered; the rest would be review / mixed B2 tasks |
+| ES grammar | ~110 (Tue/Fri, Fri alternates with FR from Apr) | 44 | ~65 | already at B1 topics while the target is A2 |
+| FR grammar | ~20 (alternate Fridays from Apr 2027) | 10 sounds | ~20 A1 | |
+| LT reading | ~65 Thursdays | 27 B2 (+18 B1) | ~38 B2 | fewer if pasted own texts replace some Thursdays |
+| LT stress marks | all words | 850 / 1,799 | ~950 + every new word | not in Wiktionary → lkz.lt by hand |
+
+Decisions that change the size of the gap:
+1. **Grammar after the topic list:** new lessons forever, or a **review rotation** (re-run earlier lessons with fresh exercises,
+   quarterly mixed-review lessons) and fewer new-rule days (e.g. LT Mon/Wed only, ES once a week)?
+2. **Spanish pace vs the A2 target:** keep 4–5 new words/day (≈ B1 by the end of 2027) or lower it and move the time to LT/FR?
+3. **LT words without a good Tatoeba example:** allow items with no example (the card shows only the word + meaning + audio),
+   or keep the rule and accept fewer, slower LT batches?
+4. **Placement:** actual skip rate after the learner's placement test — it may cut the LT gap a lot; re-plan once known.
+5. **Audio size:** 7,174 files / ~119 MiB now; the gaps above add roughly +11,000 files → ~18,000 — close to the Workers
+   static-assets per-version file limit on the free plan (check the current number). Options: move audio to R2 (free tier),
+   or drop example-sentence audio for older items.
 
 **How content is made (workflow that worked in Sep 2026):**
 - *Examples:* `python3 scripts/tatoeba.py <lt|es|fr> '<regex>'` or `--words w1 w2 …` (auto-pick 2 per stem) → read every pair, drop
