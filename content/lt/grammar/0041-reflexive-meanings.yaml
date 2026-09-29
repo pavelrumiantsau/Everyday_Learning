@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0041
+cefr: B1
+order: 41
+title: "Возвратные глаголы: что значит -si"
+explanation:
+  ru: |
+    Частица **-si** (в конце или внутри глагола: *praustis, nusiprausti*) даёт несколько значений:
+
+    - **действие на себя:** *praustis* (мыться), *rengtis* (одеваться), *šukuotis* (причёсываться)
+    - **взаимное действие:** *susitikti* (встретиться), *bučiuotis* (целоваться), *sveikintis* (здороваться), *ginčytis* (спорить)
+    - **действие само по себе:** *Durys **atsidarė**.* — Дверь открылась. *Kompiuteris **išsijungė**.*
+    - **для себя:** *nusipirkti* (купить себе), *užsisakyti* (заказать себе)
+    - **чувства и состояния:** *džiaugtis, jaudintis, juoktis*
+
+    **Несовпадения с русским:**
+    - в литовском **без -si**, в русском с «-ся»: ***bijoti*** — бояться, ***patikti*** — нравиться, ***rūpėti*** — беспокоить, волновать (*man rūpi* — меня волнует)
+    - в литовском **с -si**, в русском без: ***klausytis*** — слушать (музыку, радио), ***mokytis*** — учить (что-то сам)
+comparison:
+  ru: |
+    Большинство глаголов с -si совпадают с русскими на «-ся», но запомни ловушки: *bijau* (боюсь), *man patinka* (мне нравится) — без -si; *klausausi muzikos* (слушаю музыку) — с -si.
+examples:
+  - { text: "Tomas išsivalė dantis ir nusiprausė veidą.", translation: "Том почистил зубы и помыл лицо.", source: "tatoeba:3192490" }
+  - { text: "Aš mačiau, kaip jie bučiuojasi.", translation: "Я видел, как они целуются.", source: "tatoeba:13171374" }
+  - { text: "Lifto durys atsidarė.", translation: "Двери лифта открылись.", source: "tatoeba:13493753" }
+  - { text: "Jie abu juokiasi.", translation: "Они оба смеются.", source: "tatoeba:10300492" }
+  - { text: "Jie jaudinasi.", translation: "Они волнуются.", source: "tatoeba:12168552" }
+exercises:
+  - type: cloze
+    text: "Ryte aš ___ ir einu į darbą."
+    answer: "prausiuosi"
+    hint: "praustis, я, наст. вр."
+    translation: "Утром я умываюсь и иду на работу."
+  - type: cloze
+    text: "Jie ___ prie kavinės."
+    answer: "susitiko"
+    hint: "встретились (друг с другом)"
+    translation: "Они встретились у кафе."
+  - type: cloze
+    text: "Durys staiga ___."
+    answer: "atsidarė"
+    hint: "открылись (сами)"
+    translation: "Дверь вдруг открылась."
+  - type: cloze
+    text: "Aš ___ šunų."
+    answer: "bijau"
+    hint: "боюсь — без -si!"
+    translation: "Я боюсь собак."
+  - type: cloze
+    text: "Vakare ___ muzikos."
+    answer: "klausausi"
+    hint: "слушаю — с -si"
+    translation: "Вечером я слушаю музыку."
+  - type: cloze
+    text: "Nustok ___!"
+    answer: "juoktis"
+    hint: "смеяться"
+    translation: "Перестань смеяться!"
+  - type: cloze
+    text: "Ji ___ naują suknelę."
+    answer: "nusipirko"
+    hint: "купила (себе)"
+    translation: "Она купила себе новое платье."
+  - type: cloze
+    text: "Mums labai ___ šitas filmas."
+    answer: "patiko"
+    hint: "понравился — без -si"
+    translation: "Нам очень понравился этот фильм."

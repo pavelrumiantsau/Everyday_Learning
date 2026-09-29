@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0042
+cefr: B2
+order: 42
+title: "Как построить рассуждение: visų pirma, be to, kita vertus"
+explanation:
+  ru: |
+    Для эссе, письма или устного ответа на B2 пригодятся связующие слова:
+
+    - **начать:** *Visų pirma*, *Pirmiausia* (прежде всего); *Mano nuomone*, *Manau, kad…*
+    - **добавить:** *Be to* (кроме того), *Taip pat* (также), *Negana to* (более того), *Antra, … Trečia, …*
+    - **противопоставить:** *Tačiau* (однако), *Vis dėlto* (всё-таки), *Kita vertus* (с другой стороны), *Nors…* (хотя)
+    - **привести пример:** *Pavyzdžiui* (например), *Tarkime* (допустим)
+    - **причина и следствие:** *Todėl*, *Dėl to* (поэтому), *Taigi* (итак, значит)
+    - **подвести итог:** *Apibendrinant* (подводя итог), *Galiausiai* (в конце концов), *Taigi*
+
+    После вводных слов в начале предложения обычно ставится **запятая**: *Be to, … Kita vertus, … Apibendrinant, …* (но *Todėl* и *Tačiau* часто пишутся без неё).
+comparison:
+  ru: |
+    Почти все — прямые соответствия русским: *be to* = «кроме того», *kita vertus* = «с другой стороны», *apibendrinant* = «подводя итог». Используй 3–4 таких слова в каждом письменном тексте — это один из критериев уровня B2.
+examples:
+  - { text: "Visų pirma, išmok formulę mintinai.", translation: "Первым делом, выучи формулу наизусть.", source: "tatoeba:13719852" }
+  - { text: "Be to, aš nemoku šokti.", translation: "Кроме того, я не умею танцевать.", source: "tatoeba:13555862" }
+  - { text: "Tačiau būna išimtys.", translation: "Однако бывают исключения.", source: "tatoeba:12097495" }
+  - { text: "Pavyzdžiui, dabar jūra rami.", translation: "Например, сейчас море спокойно.", source: "tatoeba:11077921" }
+  - { text: "Taigi, pradėkime!", translation: "Итак, начнём!", source: "tatoeba:11851197" }
+exercises:
+  - type: cloze
+    text: "___ nuomone, šis sprendimas neteisingas."
+    answer: "Mano"
+    hint: "по-моему"
+    translation: "По-моему, это решение неправильное."
+  - type: cloze
+    text: "___ pirma, reikia apskaičiuoti išlaidas."
+    answer: "Visų"
+    hint: "прежде всего"
+    translation: "Прежде всего нужно подсчитать расходы."
+  - type: cloze
+    text: "Butas brangus. ___ to, jis toli nuo centro."
+    answer: "Be"
+    hint: "кроме того"
+    translation: "Квартира дорогая. Кроме того, она далеко от центра."
+  - type: cloze
+    text: "Nuotolinis darbas patogus. Kita ___, trūksta bendravimo."
+    answer: "vertus"
+    hint: "с другой стороны"
+    translation: "Удалённая работа удобна. С другой стороны, не хватает общения."
+  - type: cloze
+    text: "Daug miestų, ___, Vilnius ir Kaunas, plečia dviračių takus."
+    answer: "pavyzdžiui"
+    hint: "например"
+    translation: "Многие города, например Вильнюс и Каунас, расширяют велодорожки."
+  - type: cloze
+    text: "Viešasis transportas pigus. ___ jį renkasi vis daugiau žmonių."
+    answer: "Todėl"
+    hint: "поэтому"
+    translation: "Общественный транспорт дешёвый. Поэтому его выбирает всё больше людей."
+  - type: cloze
+    text: "___, galima teigti, kad privalumų daugiau nei trūkumų."
+    answer: "Apibendrinant"
+    hint: "подводя итог"
+    translation: "Подводя итог, можно утверждать, что преимуществ больше, чем недостатков."
+  - type: cloze
+    text: "Tai brangu. ___, verta pabandyti."
+    answer: "Vis dėlto"
+    hint: "всё-таки"
+    translation: "Это дорого. И всё-таки стоит попробовать."

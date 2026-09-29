@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0039
+cefr: B1
+order: 39
+title: "Пары глаголов: sėsti – sodinti, kilti – kelti, augti – auginti"
+explanation:
+  ru: |
+    Многие глаголы образуют пары: «что-то происходит само» — «кто-то делает это с кем-то/чем-то».
+
+    - **sėsti(s)** — сесть / **sodinti** — посадить (человека; растение); **sėdėti** — сидеть
+    - **gulti(s)** — лечь / **guldyti** — укладывать; **gulėti** — лежать
+    - **kilti** — подниматься, расти (о ценах) / **kelti** — поднимать; **keltis** — вставать
+    - **augti** — расти / **auginti** — растить, выращивать
+    - **grįžti** — вернуться / **grąžinti** — вернуть (что-то)
+    - **lūžti** — сломаться / **laužti** — ломать
+    - **degti** — гореть / **deginti** — жечь
+    - **pabusti** — проснуться / **žadinti** — будить
+    - **mokytis** — учиться / **mokyti** — учить (кого + чему в род. п.): *mokyti vaikus **matematikos***
+
+    Второй глагол обычно длиннее (*-inti, -dyti*) и требует дополнения: *Jis **sodina** gėles.* — Он сажает цветы.
+comparison:
+  ru: |
+    Как в русском «сесть – посадить», «расти – растить», «вернуться – вернуть». Ловушка: *kilti* — «подниматься» само (*kainos kyla* — цены растут), а *kelti* — поднимать что-то (*kelti kainas* — повышать цены).
+examples:
+  - { text: "Jis sodina gėles.", translation: "Он сажает цветы.", source: "tatoeba:12160190" }
+  - { text: "Jie atsisėdo.", translation: "Они сели.", source: "tatoeba:11354858" }
+  - { text: "Ji guldo vaikus.", translation: "Она укладывает детей.", source: "tatoeba:10111437" }
+  - { text: "Saulė jau kyla.", translation: "Солнце уже встаёт.", source: "tatoeba:10752364" }
+  - { text: "Jis pakėlė galvą.", translation: "Он поднял голову.", source: "tatoeba:13773111" }
+exercises:
+  - type: cloze
+    text: "Močiutė ___ vaikus miegoti."
+    answer: "guldo"
+    hint: "укладывает (gulti → ?)"
+    translation: "Бабушка укладывает детей спать."
+  - type: cloze
+    text: "Kainos kasmet ___."
+    answer: "kyla"
+    hint: "растут, поднимаются (сами)"
+    translation: "Цены растут каждый год."
+  - type: cloze
+    text: "Jis ___ sunkią dėžę."
+    answer: "pakėlė"
+    hint: "поднял (прош. вр.)"
+    translation: "Он поднял тяжёлую коробку."
+  - type: cloze
+    text: "Prašom ___."
+    answer: "sėstis"
+    hint: "садиться (инфинитив)"
+    translation: "Садитесь, пожалуйста."
+  - type: cloze
+    text: "Aš ___ tau knygą rytoj."
+    answer: "grąžinsiu"
+    hint: "верну (буд. вр.)"
+    translation: "Я верну тебе книгу завтра."
+  - type: cloze
+    text: "Mūsų sode ___ obelys."
+    answer: "auga"
+    hint: "растут (сами)"
+    translation: "В нашем саду растут яблони."
+  - type: cloze
+    text: "Močiutė ___ pomidorus."
+    answer: "augina"
+    hint: "выращивает"
+    translation: "Бабушка выращивает помидоры."
+  - type: cloze
+    text: "Mama ___ mane septintą valandą."
+    answer: "žadina"
+    hint: "будит"
+    translation: "Мама будит меня в семь часов."

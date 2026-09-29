@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0040
+cefr: B2
+order: 40
+title: "Порядок слов и логическое ударение"
+explanation:
+  ru: |
+    Порядок слов в литовском свободный, как в русском, но у него есть правила.
+
+    - **Нейтральный порядок:** подлежащее – сказуемое – дополнение: *Tomas skaito knygą.*
+    - **Новое и важное — в конце:** *Kas tau padovanojo knygą? – Knygą man padovanojo **tėvas**.* (важно, кто подарил)
+    - **Родительный падеж стоит перед существительным:** ***brolio** namas* — дом брата, ***Lietuvos** sostinė* — столица Литвы.
+    - **Короткие местоимения** обычно ближе к началу, перед глаголом: *Aš **tave** myliu*, *Knygą aš **tau** išsiųsiu.*
+    - **Вопрос «да/нет»** — с частицей ***ar*** в начале: ***Ar** tu kalbi lietuviškai?*
+    - **Выделение:** ***būtent*** (именно), ***tik*** (только), ***ir*** (и, даже): ***Būtent** taip ir yra.* ***Tik tu** gali man padėti.*
+    - **Противопоставление:** *Tai ne aš, tai **jis**.*
+comparison:
+  ru: |
+    Самое заметное отличие — родительный перед словом: русское «дом брата» — литовское *brolio namas*, «улица Гедимина» — *Gedimino gatvė*. В остальном принцип «новое — в конце» такой же, как в русском.
+examples:
+  - { text: "Knygą aš tau išsiųsiu paštu.", translation: "Я отправлю тебе книгу почтой.", source: "tatoeba:11261098" }
+  - { text: "Būtent taip ir yra.", translation: "Именно так и есть.", source: "tatoeba:13731201" }
+  - { text: "Tai ne juokai.", translation: "Это не шутка.", source: "tatoeba:10526485" }
+  - { text: "Rytoj bus vėlu.", translation: "Завтра будет поздно.", source: "tatoeba:11777703" }
+  - { text: "Kur mes susitiksime?", translation: "Где мы встретимся?", source: "tatoeba:12173995" }
+exercises:
+  - type: cloze
+    text: "Tai mano ___ automobilis."
+    answer: "brolio"
+    hint: "брата (род. п. перед существительным)"
+    translation: "Это машина моего брата."
+  - type: cloze
+    text: "___ tu kalbi lietuviškai?"
+    answer: "Ar"
+    hint: "вопросительная частица"
+    translation: "Ты говоришь по-литовски?"
+  - type: cloze
+    text: "Aš ___ myliu."
+    answer: "tave"
+    hint: "тебя (местоимение — перед глаголом)"
+    translation: "Я тебя люблю."
+  - type: cloze
+    text: "___ taip ir yra!"
+    answer: "Būtent"
+    hint: "именно"
+    translation: "Именно так и есть!"
+  - type: cloze
+    text: "Kas tau padovanojo šitą knygą? – Knygą man padovanojo ___."
+    answer: "tėvas"
+    hint: "новая информация — в конце"
+    translation: "Кто подарил тебе эту книгу? — Книгу мне подарил отец."
+  - type: cloze
+    text: "Tai ne aš, tai ___."
+    answer: "jis"
+    hint: "противопоставление: он"
+    translation: "Это не я, это он."
+  - type: cloze
+    text: "___ tu gali man padėti."
+    answer: "Tik"
+    hint: "только"
+    translation: "Только ты можешь мне помочь."
+  - type: cloze
+    text: "Mes gyvename ___ gatvėje."
+    answer: "Gedimino"
+    hint: "Gediminas → род. п. перед словом"
+    translation: "Мы живём на улице Гедимина."

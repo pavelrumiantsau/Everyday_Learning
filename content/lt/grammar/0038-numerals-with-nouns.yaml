@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0038
+cefr: B1
+order: 38
+title: "Числительные с существительными: du broliai, dešimt metų"
+explanation:
+  ru: |
+    Какой падеж ставить после числа, зависит от **последнего слова** числительного:
+    - **1, 21, 31…** — **единственное число**, как прилагательное: *vienas studentas, viena knyga*; ***dvidešimt vienas** studentas*
+    - **2** — ***du*** (м. р.) / ***dvi*** (ж. р.) + **им. п. мн. ч.**: *du broliai, dvi seserys*
+    - **3** — ***trys*** + им. п. мн. ч. (для обоих родов): *trys namai, trys knygos*
+    - **4–9** — согласуются в роде: *keturi / keturios, penki / penkios…* + им. п. мн. ч.: *penki metai, penkios valandos*
+    - **10–20, десятки, šimtas, tūkstantis, milijonas** — **родительный мн. ч.**: *dešimt metų, dvidešimt studentų, šimtas eurų*
+
+    Составные числа смотрят на последнее слово: *dvidešimt **penki** studentai*, но *dvidešimt studentų*.
+
+    Возраст: *Man **penki** metai*, но *Man **dvidešimt** metų*. Время: *Dabar **keturios** valandos* (*valanda* — ж. р.).
+comparison:
+  ru: |
+    Похоже на русское «пять книг / двадцать книг», но граница другая: в литовском 2–9 требуют **именительного** множественного (*penki broliai* — букв. «пять братья»), а родительный — только после 10–20, десятков и больших чисел.
+examples:
+  - { text: "Praėjo dvi dienos.", translation: "Прошло два дня.", source: "tatoeba:12416082" }
+  - { text: "Susidūrė du sunkvežimiai.", translation: "Столкнулись два грузовика.", source: "tatoeba:11906051" }
+  - { text: "Dabar penkios valandos.", translation: "Сейчас пять часов.", source: "tatoeba:12289283" }
+  - { text: "Man dvidešimt metų.", translation: "Мне двадцать лет.", source: "tatoeba:12118602" }
+  - { text: "Man šimtas metų.", translation: "Мне сто лет.", source: "tatoeba:12118588" }
+exercises:
+  - type: cloze
+    text: "Mano ___ seserys gyvena Kaune."
+    answer: "dvi"
+    hint: "две (ж. р.)"
+    translation: "Мои две сестры живут в Каунасе."
+  - type: cloze
+    text: "Kambaryje sėdi ___ vyrai."
+    answer: "du"
+    hint: "два (м. р.)"
+    translation: "В комнате сидят двое мужчин."
+  - type: cloze
+    text: "Klasėje yra dvidešimt ___."
+    answer: "mokinių"
+    hint: "mokinys → род. п. мн. ч."
+    translation: "В классе двадцать учеников."
+  - type: cloze
+    text: "Mano dukrai ___ metai."
+    answer: "penki"
+    hint: "пять (metai — м. р. мн. ч.)"
+    translation: "Моей дочери пять лет."
+  - type: cloze
+    text: "Bilietas kainuoja dešimt ___."
+    answer: "eurų"
+    hint: "euras → род. п. мн. ч."
+    translation: "Билет стоит десять евро."
+  - type: cloze
+    text: "Dabar ___ valandos."
+    answer: "keturios"
+    hint: "четыре (valanda — ж. р.)"
+    translation: "Сейчас четыре часа."
+  - type: cloze
+    text: "Mūsų grupėje dvidešimt vienas ___."
+    answer: "studentas"
+    hint: "21 + ед. ч."
+    translation: "В нашей группе двадцать один студент."
+  - type: cloze
+    text: "Knygoje šimtas ___."
+    answer: "puslapių"
+    hint: "puslapis → род. п. мн. ч."
+    translation: "В книге сто страниц."

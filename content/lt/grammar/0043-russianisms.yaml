@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0043
+cefr: B2
+order: 43
+title: "Частые русизмы и как сказать правильно"
+explanation:
+  ru: |
+    Некоторые выражения — дословный перевод с русского. Их часто слышно в разговоре, но в правильной литовской речи (и на экзамене) их лучше избегать.
+
+    - ✗ *pagal mane* («по мне») → ✓ ***mano nuomone***, *man atrodo*
+    - ✗ *kas liečia…* («что касается») → ✓ ***kalbant apie…***, *dėl…*
+    - ✗ *tame tarpe* («в том числе») → ✓ ***tarp jų***, *iš jų*, *taip pat*
+    - ✗ *eilinį kartą* («очередной раз») → ✓ ***dar kartą***, *vėl*
+    - ✗ *tuo pačiu* («тем самым, одновременно») → ✓ ***kartu***, *drauge*, *sykiu*
+    - ✗ *pilnai* («полностью») → ✓ ***visiškai***
+    - ✗ *nežiūrint į…* («несмотря на») → ✓ ***nepaisant*** + род. п.
+    - ✗ *skaitytis su…* («считаться с») → ✓ ***atsižvelgti į*** + вин. п., *paisyti* + род. п.
+    - ✗ *davai!* → ✓ *gerai*, *eime*, *nagi*
+comparison:
+  ru: |
+    Эти ошибки делают почти все, кто говорит по-русски, — и многие литовцы старшего поколения. Если сомневаешься, спроси себя: не переводишь ли ты русское выражение слово в слово?
+examples:
+  - { text: "Mano nuomone, tai svarbu.", translation: "По-моему, это важно.", source: "tatoeba:13365670" }
+  - { text: "Ji visiškai nauja.", translation: "Она совсем новая.", source: "tatoeba:12288879" }
+  - { text: "Jūs dar kartu?", translation: "Вы ещё вместе?", source: "tatoeba:12237982" }
+  - { text: "Kuris iš jų tu?", translation: "Какой из них ты?", source: "tatoeba:12319260" }
+  - { text: "Aš bet kokiu atveju nenoriu.", translation: "В любом случае я не хочу.", source: "tatoeba:13068249" }
+exercises:
+  - type: cloze
+    text: "___ nuomone, reikia palaukti."
+    answer: "Mano"
+    hint: "по-моему (не «pagal mane»)"
+    translation: "По-моему, нужно подождать."
+  - type: cloze
+    text: "Tai ___ kitas reikalas."
+    answer: "visiškai"
+    hint: "совершенно (не «pilnai»)"
+    translation: "Это совершенно другое дело."
+  - type: cloze
+    text: "Jis ___ kartą pavėlavo."
+    answer: "dar"
+    hint: "опять (не «eilinį kartą»)"
+    translation: "Он опять опоздал."
+  - type: cloze
+    text: "Atvyko dešimt svečių, ___ jų – trys vaikai."
+    answer: "tarp"
+    hint: "в том числе (не «tame tarpe»)"
+    translation: "Пришли десять гостей, в том числе трое детей."
+  - type: cloze
+    text: "___ apie atostogas, dar nieko nenusprendėme."
+    answer: "Kalbant"
+    hint: "что касается (не «kas liečia»)"
+    translation: "Что касается отпуска, мы ещё ничего не решили."
+  - type: cloze
+    text: "___ lietaus, mes išėjome pasivaikščioti."
+    answer: "Nepaisant"
+    hint: "несмотря на (не «nežiūrint į»)"
+    translation: "Несмотря на дождь, мы пошли гулять."
+  - type: cloze
+    text: "Jis dirba ir ___ studijuoja."
+    answer: "kartu"
+    hint: "одновременно (не «tuo pačiu»)"
+    translation: "Он работает и одновременно учится."
+  - type: cloze
+    text: "Reikia ___ į jo nuomonę."
+    answer: "atsižvelgti"
+    hint: "считаться с (не «skaitytis su»)"
+    translation: "Нужно считаться с его мнением."
