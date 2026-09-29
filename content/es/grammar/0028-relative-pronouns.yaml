@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0028
+cefr: A2
+order: 28
+title: "Relative words: que, donde, lo que, quien"
+explanation:
+  en: |
+    Relative words join two sentences: *el hombre **que** ves* — the man (that) you see.
+
+    - **que** — the most common one, for **people and things**, and it **can't be left out** (English often drops "that"):
+      *El libro **que** trajiste no es mío.* — The book (that) you brought isn't mine.
+    - **donde** — where: *Es la casa **donde** nací.*
+    - **lo que** — what, the thing that (an idea, not a noun): ***Lo que** pasó, pasó.* *No entiendo **lo que** dices.*
+    - **quien / quienes** — who, mostly after a preposition: *la chica **con quien** hablé* (also *con la que*).
+    - **el que, la que, los que, las que** — after a preposition, or "the one who": *el piso **en el que** vivo*; ***El que** llega primero, gana.*
+
+    Don't confuse **que** (relative, no accent) with **qué** (question word): *¿**Qué** dices?* but *No sé lo **que** dices.*
+comparison:
+  en: |
+    Russian «который» changes for gender and case; Spanish *que* never changes: *el hombre que…*, *la mujer que…*, *los libros que…*. And unlike English, *que* is never dropped: "the film I saw" = *la película **que** vi*.
+examples:
+  - { text: "El libro que trajiste no es mío.", translation: "The book you brought is not mine.", source: "tatoeba:1687699" }
+  - { text: "El hombre que ves allí es mi tío.", translation: "The man you see over there is my uncle.", source: "tatoeba:590825" }
+  - { text: "Es la casa donde nací.", translation: "It's the house where I was born.", source: "tatoeba:5650879" }
+  - { text: "Lo que pasó, pasó.", translation: "What happened, happened.", source: "tatoeba:1293870" }
+  - { text: "Aquí es donde vivo.", translation: "This is where I live.", source: "tatoeba:7273308" }
+exercises:
+  - type: cloze
+    text: "La película ___ vimos ayer fue muy buena."
+    answer: "que"
+    hint: "that / which"
+    translation: "The film we saw yesterday was very good."
+  - type: cloze
+    text: "Esta es la ciudad ___ nació mi madre."
+    answer: "donde"
+    hint: "where"
+    translation: "This is the city where my mother was born."
+  - type: cloze
+    text: "No entiendo ___ quieres decir."
+    answer: "lo que"
+    hint: "what (an idea)"
+    translation: "I don't understand what you mean."
+  - type: cloze
+    text: "El chico con ___ hablé es mi vecino."
+    answer: "quien"
+    also: ["el que"]
+    hint: "who — after a preposition"
+    translation: "The boy I spoke with is my neighbour."
+  - type: cloze
+    text: "Tengo un amigo ___ habla cinco idiomas."
+    answer: "que"
+    hint: "who (person, subject)"
+    translation: "I have a friend who speaks five languages."
+  - type: cloze
+    text: "___ más me gusta de Madrid son los parques."
+    answer: "Lo que"
+    hint: "what (the thing that)"
+    translation: "What I like most about Madrid is the parks."
+  - type: cloze
+    text: "El piso en ___ vivo es pequeño."
+    answer: "el que"
+    also: ["que"]
+    hint: "which — after a preposition"
+    translation: "The flat I live in is small."
+  - type: cloze
+    text: "¿Sabes ___ hora es?"
+    answer: "qué"
+    hint: "question word (with accent)"
+    translation: "Do you know what time it is?"

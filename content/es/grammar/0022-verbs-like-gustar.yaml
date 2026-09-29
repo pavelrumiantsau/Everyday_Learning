@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0022
+cefr: A2
+order: 22
+title: "Verbs like gustar: encantar, interesar, doler, parecer"
+explanation:
+  en: |
+    Several common verbs work like *gustar* (lesson 3): the **thing** is the subject, and the **person** is the indirect object (*me, te, le, nos, os, les*).
+    - **encantar** — to love (things, activities): *Me **encanta** leer.* *Me **encantan** los gatos.*
+    - **interesar** — to interest: *Me **interesa** la historia.*
+    - **doler** — to hurt (o → ue): *Me **duele** la cabeza. Me **duelen** los pies.*
+    - **parecer** — to seem: *¿Qué te **parece**?* — What do you think? *Me **parece** bien.*
+    - **molestar** — to bother: *¿Te **molesta** la música?*
+    - **faltar** — to be missing, to lack: *Me **falta** tiempo.*
+
+    The verb agrees with the **thing**: singular or an infinitive → *-a / -e*; plural → *-an / -en*.
+
+    For emphasis or contrast add **a mí, a ti, a él…**: ***A mí** me encanta, pero **a él** no.*
+
+    With body parts Spanish uses **the article**, not "my": *Me duele **la** cabeza* (not *mi cabeza*).
+comparison:
+  en: |
+    The same structure as Russian: *Me duele la cabeza* = «У меня болит голова», *Me interesa la música* = «Мне интересна музыка», *Me falta tiempo* = «Мне не хватает времени». English turns it round ("I love", "my head hurts").
+examples:
+  - { text: "Me encanta leer.", translation: "I love reading.", source: "tatoeba:2486360" }
+  - { text: "Me interesa la música.", translation: "I'm interested in music.", source: "tatoeba:838638" }
+  - { text: "Me duele el pie.", translation: "My foot hurts.", source: "tatoeba:750387" }
+  - { text: "¿Te parece interesante?", translation: "Do you think this is interesting?", source: "tatoeba:5058541" }
+  - { text: "Me duele todo.", translation: "I ache all over.", source: "tatoeba:568016" }
+exercises:
+  - type: cloze
+    text: "Me ___ los perros."
+    answer: "encantan"
+    hint: "encantar — plural thing"
+    translation: "I love dogs."
+  - type: cloze
+    text: "¿Te ___ el arte moderno?"
+    answer: "interesa"
+    hint: "interesar"
+    translation: "Are you interested in modern art?"
+  - type: cloze
+    text: "Me ___ la cabeza."
+    answer: "duele"
+    hint: "doler (o → ue)"
+    translation: "I have a headache."
+  - type: cloze
+    text: "A mi padre le ___ las rodillas."
+    answer: "duelen"
+    hint: "doler — plural"
+    translation: "My father's knees hurt."
+  - type: cloze
+    text: "¿Qué te ___ mi idea?"
+    answer: "parece"
+    hint: "parecer"
+    translation: "What do you think of my idea?"
+  - type: cloze
+    text: "Nos ___ viajar en tren."
+    answer: "encanta"
+    hint: "encantar — infinitive"
+    translation: "We love travelling by train."
+  - type: cloze
+    text: "¿Te ___ si abro la ventana?"
+    answer: "molesta"
+    hint: "molestar"
+    translation: "Do you mind if I open the window?"
+  - type: cloze
+    text: "Me ___ dinero para el viaje."
+    answer: "falta"
+    hint: "faltar"
+    translation: "I don't have enough money for the trip."

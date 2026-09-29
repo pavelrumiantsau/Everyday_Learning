@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0027
+cefr: A2
+order: 27
+title: "Commands: no hables; hable usted"
+explanation:
+  en: |
+    In lesson 20 you learned positive *tú* commands (*habla, ven, dime*). All other commands use **subjunctive forms** (lesson 25).
+
+    **Negative tú commands:** **no + subjunctive (tú)**
+    - hablar → ***no hables***, comer → ***no comas***, venir → ***no vengas***, decir → ***no digas***, ir → ***no vayas***
+    - *No hables así.* — Don't talk like that. *No toques nada.* — Don't touch anything.
+
+    **usted / ustedes commands** (polite), positive and negative: the subjunctive *usted/ustedes* form
+    - ***Hable*** más despacio, por favor. ***Venga*** conmigo. ***Pasen***, por favor. ***No se preocupe.***
+
+    **Pronouns:** attached to **positive** commands, **before** the verb in **negative** ones:
+    - *Dímelo.* → *No me lo digas.*
+    - *Siéntese.* → *No se siente.*
+    - *Cómelo.* → *No lo comas.*
+comparison:
+  en: |
+    Russian changes aspect for "don't": «скажи» → «не говори»; Spanish changes to another form: *di* → *no digas*. Pay attention in shops and offices in Spain: staff often use the *usted* forms: *Pase, siéntese, espere un momento*.
+examples:
+  - { text: "No hables así.", translation: "Don't talk like that.", source: "tatoeba:736716" }
+  - { text: "No digas nada.", translation: "Say nothing.", source: "tatoeba:4566594" }
+  - { text: "No toques nada.", translation: "Don't touch anything.", source: "tatoeba:1778439" }
+  - { text: "Venga conmigo.", translation: "Come with me.", source: "tatoeba:944025" }
+  - { text: "Espere y mire.", translation: "Wait and see.", source: "tatoeba:6690638" }
+exercises:
+  - type: cloze
+    text: "No ___ tan rápido, no te entiendo."
+    answer: "hables"
+    hint: "hablar, tú — negative"
+    translation: "Don't speak so fast, I don't understand you."
+  - type: cloze
+    text: "No ___ tarde, por favor."
+    answer: "vengas"
+    hint: "venir, tú — negative"
+    translation: "Don't come late, please."
+  - type: cloze
+    text: "No ___ nada a nadie."
+    answer: "digas"
+    hint: "decir, tú — negative"
+    translation: "Don't say anything to anyone."
+  - type: cloze
+    text: "___, por favor, y siéntese."
+    answer: "Pase"
+    hint: "pasar, usted"
+    translation: "Come in, please, and sit down."
+  - type: cloze
+    text: "No se ___, todo está bien."
+    answer: "preocupe"
+    hint: "preocuparse, usted"
+    translation: "Don't worry, everything's fine."
+  - type: cloze
+    text: "___ un momento, por favor."
+    answer: "Espere"
+    hint: "esperar, usted"
+    translation: "Wait a moment, please."
+  - type: cloze
+    text: "¿El pastel? No ___ comas todo."
+    answer: "lo"
+    hint: "pronoun before a negative command"
+    translation: "The cake? Don't eat all of it."
+  - type: cloze
+    text: "No ___ a esa fiesta."
+    answer: "vayas"
+    hint: "ir, tú — negative"
+    translation: "Don't go to that party."

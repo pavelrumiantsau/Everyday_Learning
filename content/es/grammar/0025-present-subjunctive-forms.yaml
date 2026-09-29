@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0025
+cefr: A2
+order: 25
+title: "Present subjunctive: hable, coma, tenga"
+explanation:
+  en: |
+    The **subjunctive** is a set of verb forms for wishes, requests, doubts and feelings about other people's actions. First the forms.
+
+    Take the **yo form of the present**, drop the **-o**, and add the "opposite" vowel:
+    - **-ar → e**: habl-o → **hable, hables, hable, hablemos, habléis, hablen**
+    - **-er / -ir → a**: com-o → **coma, comas, coma, comamos, comáis, coman**; viv-o → **viva…**
+
+    Because it starts from the *yo* form, irregular *yo* forms carry over:
+    - tengo → **tenga**, hago → **haga**, digo → **diga**, salgo → **salga**, vengo → **venga**, conozco → **conozca**
+
+    Six verbs are fully irregular:
+    - **ser → sea**, **ir → vaya**, **estar → esté**, **dar → dé**, **saber → sepa**, **haber → haya**
+
+    The first use you already know: **usted commands** are subjunctive forms: ***Venga** conmigo. **Hable** más despacio.* (Lesson 27 has more.)
+comparison:
+  en: |
+    English barely has a subjunctive ("I insist that he **be** there"); Russian uses «чтобы» + past tense: «Хочу, **чтобы** ты **пришёл**» = *Quiero que **vengas***. Where Russian needs «чтобы», Spanish usually needs the subjunctive (lesson 26).
+examples:
+  - { text: "Quiero que vengas.", translation: "I want you to come.", source: "tatoeba:2160348" }
+  - { text: "Espero que venga.", translation: "I hope he will come.", source: "tatoeba:667203" }
+  - { text: "Venga conmigo.", translation: "Come with me.", source: "tatoeba:944025" }
+  - { text: "Es posible que venga.", translation: "She might come.", source: "tatoeba:1031137" }
+  - { text: "¡Ojalá sea así!", translation: "I hope it is so!", source: "tatoeba:1207508" }
+exercises:
+  - type: cloze
+    text: "Quiero que tú ___ conmigo."
+    answer: "hables"
+    hint: "hablar, tú"
+    translation: "I want you to talk to me."
+  - type: cloze
+    text: "Espero que ___ bien."
+    answer: "comáis"
+    hint: "comer, vosotros"
+    translation: "I hope you (all) eat well."
+  - type: cloze
+    text: "Es posible que ___ tarde."
+    answer: "llueva"
+    hint: "llover"
+    translation: "It may rain this afternoon."
+  - type: cloze
+    text: "Quiero que ___ la verdad."
+    answer: "digas"
+    hint: "decir, tú (digo →)"
+    translation: "I want you to tell the truth."
+  - type: cloze
+    text: "Espero que ___ un buen viaje."
+    answer: "tengas"
+    hint: "tener, tú (tengo →)"
+    translation: "I hope you have a good trip."
+  - type: cloze
+    text: "Ojalá ___ verdad."
+    answer: "sea"
+    hint: "ser"
+    translation: "I hope it's true."
+  - type: cloze
+    text: "Es importante que ___ al médico."
+    answer: "vayas"
+    hint: "ir, tú"
+    translation: "It's important that you go to the doctor."
+  - type: cloze
+    text: "No creo que ___ en casa."
+    answer: "esté"
+    hint: "estar, él"
+    translation: "I don't think he's at home."

@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0023
+cefr: A2
+order: 23
+title: "Soler and hace… que / desde hace: habits and duration"
+explanation:
+  en: |
+    **soler + infinitive** — "usually", "tend to" (o → ue): **suelo, sueles, suele, solemos, soléis, suelen**.
+    - ***Suelo** ir a pie.* — I usually walk.
+    - *Tom **suele** comer solo.* — Tom usually eats alone.
+    - Past habit: **solía** — "used to": *De niño **solía** leer mucho.*
+
+    **How long?** Spanish uses the **present** for something that started in the past and is still going on:
+    - **hace + time + que + present**: ***Hace** tres años **que** vivo aquí.* — I've been living here for three years.
+    - **present + desde hace + time**: *Vivo aquí **desde hace** tres años.* — same meaning.
+    - **desde + a point in time**: *Vivo aquí **desde** 2020.* — since 2020.
+    - Question: *¿Cuánto tiempo **hace que** estudias español?*
+
+    **hace + time** with the preterite means "ago": *Llegué **hace** dos semanas.* — I arrived two weeks ago.
+comparison:
+  en: |
+    Like Russian and unlike English, Spanish keeps the present: *Te conozco desde hace años* = «Я знаю тебя уже много лет» (English: "I've known you for years").
+examples:
+  - { text: "Suelo ir a pie.", translation: "I usually go on foot.", source: "tatoeba:1067511" }
+  - { text: "Tom suele comer solo.", translation: "Tom usually eats alone.", source: "tatoeba:1832018" }
+  - { text: "Te conozco desde hace años.", translation: "I've known you for years.", source: "tatoeba:2486142" }
+  - { text: "Hace tres días que no como.", translation: "I haven't eaten for three days.", source: "tatoeba:3222563" }
+  - { text: "Hace dos semanas que llegué.", translation: "I arrived two weeks ago.", source: "tatoeba:2850327" }
+exercises:
+  - type: cloze
+    text: "Los domingos ___ levantarme tarde."
+    answer: "suelo"
+    hint: "soler, yo"
+    translation: "On Sundays I usually get up late."
+  - type: cloze
+    text: "Mis padres ___ cenar a las nueve."
+    answer: "suelen"
+    hint: "soler, ellos"
+    translation: "My parents usually have dinner at nine."
+  - type: cloze
+    text: "De niño ___ pasar los veranos en el pueblo."
+    answer: "solía"
+    hint: "soler, past habit, yo"
+    translation: "As a child I used to spend the summers in the village."
+  - type: cloze
+    text: "___ dos años que estudio español."
+    answer: "Hace"
+    hint: "for (a period) …que"
+    translation: "I've been studying Spanish for two years."
+  - type: cloze
+    text: "Trabajo en esta empresa ___ hace cinco años."
+    answer: "desde"
+    hint: "for (…hace)"
+    translation: "I've been working at this company for five years."
+  - type: cloze
+    text: "Vivo en Vilna ___ 2019."
+    answer: "desde"
+    hint: "since (a date)"
+    translation: "I've lived in Vilnius since 2019."
+  - type: cloze
+    text: "Llegué a Madrid ___ una semana."
+    answer: "hace"
+    hint: "ago"
+    translation: "I arrived in Madrid a week ago."
+  - type: cloze
+    text: "¿Cuánto tiempo hace que ___ aquí?"
+    answer: "vives"
+    hint: "vivir, tú — present"
+    translation: "How long have you been living here?"

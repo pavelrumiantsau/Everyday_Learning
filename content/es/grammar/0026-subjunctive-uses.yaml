@@ -1,0 +1,79 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0026
+cefr: A2
+order: 26
+title: "Using the subjunctive: quiero que, espero que, para que"
+explanation:
+  en: |
+    The subjunctive appears after **que** when the main verb expresses a **wish, request, feeling, doubt or purpose** about **someone else's** action.
+
+    **Wishes and requests:** *querer que, pedir que, preferir que, decir que* (= tell someone to)
+    - ***Quiero que vengas.*** — I want you to come.
+    - *Te **pido que** me **ayudes**.*
+
+    **Hopes and feelings:** *esperar que, ojalá, me alegra que, siento que*
+    - ***Espero que ganes.*** — I hope you win.
+    - ***Ojalá** no **llueva**.* — I hope it doesn't rain.
+
+    **Doubt and possibility:** *no creo que, es posible que, dudo que*
+    - ***Es posible que** nieve.*
+
+    **Purpose:** **para que** — so that
+    - *Te lo explico **para que** lo **entiendas**.*
+
+    Compare: **same person → infinitive**, **different person → que + subjunctive**:
+    - ***Quiero ir.*** — I want to go. / ***Quiero que vayas.*** — I want you to go.
+
+    And **facts** stay in the indicative: *Creo que **viene**.* (I believe it) but *No creo que **venga**.* (I doubt it).
+comparison:
+  en: |
+    The rule of thumb for a Russian speaker: where Russian says **«чтобы»**, Spanish almost always wants the subjunctive: *para que entiendas* = «чтобы ты понял», *Dile que espere* = «Скажи ему, чтобы подождал». *Decir que* + indicative is "say that", + subjunctive is "tell to".
+examples:
+  - { text: "Quiero que pares.", translation: "I want you to stop.", source: "tatoeba:2033093" }
+  - { text: "Espero que ganes.", translation: "I hope you win.", source: "tatoeba:2865004" }
+  - { text: "Rezamos para que llueva.", translation: "We prayed for rain.", source: "tatoeba:875053" }
+  - { text: "Es posible que no venga.", translation: "It's possible that she won't come.", source: "tatoeba:11056209" }
+  - { text: "Rezo para que Dios me perdone.", translation: "I pray that God will forgive me.", source: "tatoeba:3429823" }
+exercises:
+  - type: cloze
+    text: "Quiero que ___ a mi fiesta."
+    answer: "vengas"
+    hint: "venir, tú"
+    translation: "I want you to come to my party."
+  - type: cloze
+    text: "Quiero ___ a tu fiesta."
+    answer: "ir"
+    hint: "same person → infinitive"
+    translation: "I want to go to your party."
+  - type: cloze
+    text: "Espero que te ___ el regalo."
+    answer: "guste"
+    hint: "gustar"
+    translation: "I hope you like the present."
+  - type: cloze
+    text: "Te lo repito para que no lo ___."
+    answer: "olvides"
+    hint: "olvidar, tú"
+    translation: "I'm repeating it so that you don't forget it."
+  - type: cloze
+    text: "Mi madre me pide que ___ la mesa."
+    answer: "ponga"
+    hint: "poner, yo (pongo →)"
+    translation: "My mother asks me to set the table."
+  - type: cloze
+    text: "Creo que Ana ___ razón."
+    answer: "tiene"
+    hint: "a fact you believe → indicative"
+    translation: "I think Ana is right."
+  - type: cloze
+    text: "No creo que Ana ___ razón."
+    answer: "tenga"
+    hint: "doubt → subjunctive"
+    translation: "I don't think Ana is right."
+  - type: cloze
+    text: "Dile a Pedro que me ___."
+    answer: "llame"
+    hint: "llamar — tell someone to"
+    translation: "Tell Pedro to call me."

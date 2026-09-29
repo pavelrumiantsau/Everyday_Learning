@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0024
+cefr: A2
+order: 24
+title: "Conditional: hablaría, podría, me gustaría"
+explanation:
+  en: |
+    The **conditional** ("would") adds these endings to the **whole infinitive** — the same for all verbs:
+    - **-ía, -ías, -ía, -íamos, -íais, -ían**: hablar**ía**, comer**ía**, vivir**íamos**
+
+    Irregular verbs use **the same stems as the future** (lesson 18): **tendr-ía, podr-ía, saldr-ía, vendr-ía, pondr-ía, sabr-ía, querr-ía, har-ía, dir-ía**.
+
+    Main uses:
+    - **polite requests and wishes**: ***¿Podrías** ayudarme?* — Could you help me? ***Me gustaría** ir.* — I'd like to go.
+    - **advice**: *Yo que tú, no lo **haría**.* — If I were you, I wouldn't do it. ***Deberías** descansar.* — You should rest.
+    - **imagined situations**: *¿Qué **harías** con un millón?*
+comparison:
+  en: |
+    Russian «бы» and English "would" are separate words; in Spanish it's the ending: *haría* = «я бы сделал» / "I would do". Note the stress mark on every form: *podría*, *gustaría*.
+examples:
+  - { text: "¿Podrías ayudarme?", translation: "Could you help me?", source: "tatoeba:346057" }
+  - { text: "Me gustaría ir.", translation: "I'd like to go.", source: "tatoeba:758100" }
+  - { text: "¿Tú qué harías?", translation: "What would you do?", source: "tatoeba:1642677" }
+  - { text: "Yo no lo haría.", translation: "I wouldn't do it.", source: "tatoeba:3384773" }
+  - { text: "¿Podrías dárselo?", translation: "Could you please give this to him?", source: "tatoeba:5035169" }
+exercises:
+  - type: cloze
+    text: "¿___ abrir la ventana, por favor?"
+    answer: "Podrías"
+    hint: "poder, tú"
+    translation: "Could you open the window, please?"
+  - type: cloze
+    text: "Me ___ visitar Lituania."
+    answer: "gustaría"
+    hint: "gustar"
+    translation: "I'd like to visit Lithuania."
+  - type: cloze
+    text: "Yo que tú, no ___ eso."
+    answer: "haría"
+    hint: "hacer, yo"
+    translation: "If I were you, I wouldn't do that."
+  - type: cloze
+    text: "___ descansar más, estás muy cansado."
+    answer: "Deberías"
+    hint: "deber, tú"
+    translation: "You should rest more, you're very tired."
+  - type: cloze
+    text: "Con más tiempo, ___ más libros."
+    answer: "leería"
+    hint: "leer, yo"
+    translation: "With more time, I would read more books."
+  - type: cloze
+    text: "¿Qué ___ vosotros en mi lugar?"
+    answer: "haríais"
+    hint: "hacer, vosotros"
+    translation: "What would you do in my place?"
+  - type: cloze
+    text: "Dijo que ___ a las ocho."
+    answer: "vendría"
+    hint: "venir, él"
+    translation: "He said he would come at eight."
+  - type: cloze
+    text: "¿Le ___ un café, señora?"
+    answer: "apetecería"
+    hint: "apetecer (like gustar)"
+    translation: "Would you like a coffee, madam?"
