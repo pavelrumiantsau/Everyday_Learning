@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0037
+cefr: B2
+order: 37
+title: "Фразеологизмы и пословицы"
+explanation:
+  ru: |
+    Устойчивые выражения делают речь живой. Многие похожи на русские, но слова в них другие — учи их целиком.
+
+    **Пословицы:**
+    - ***Ką pasėsi, tą ir pjausi.*** — Что посеешь, то и пожнёшь.
+    - ***Obuolys nuo obels netoli rieda.*** — Яблоко от яблони недалеко падает (букв. «катится»).
+    - ***Kas ieško, tas randa.*** — Кто ищет, тот находит.
+    - ***Kiekviena pradžia sunki.*** — Лиха беда начало.
+    - ***Vilką mini – vilkas čia.*** — Лёгок на помине (букв. «волка вспомнишь — волк здесь»).
+    - ***Ne mano kiaulės, ne mano pupos.*** — Моя хата с краю, не моё дело.
+    - ***Ranka ranką plauna.*** — Рука руку моет.
+
+    **Выражения:**
+    - ***kaip du vandens lašai*** — как две капли воды
+    - ***laikyti liežuvį už dantų*** — держать язык за зубами
+    - ***imti į širdį*** — принимать близко к сердцу: *Neimk į širdį!*
+    - ***iki ausų*** — по уши: *iki ausų įsimylėjęs, darbų iki ausų*
+    - ***nei žuvis, nei mėsa*** — ни рыба ни мясо
+    - ***turėti galvoje*** — иметь в виду: *Ką turi galvoje?*
+    - ***riesti nosį*** — задирать нос
+comparison:
+  ru: |
+    Часть выражений совпадает с русскими дословно (*kaip du vandens lašai*, *laikyti liežuvį už dantų*), часть — только по смыслу. Не переводи русские идиомы дословно: «лёгок на помине» по-литовски — *Vilką mini – vilkas čia*.
+examples:
+  - { text: "Ką pasėsi, tą ir pjausi.", translation: "Что посеешь, то и пожнешь.", source: "tatoeba:6816592" }
+  - { text: "Obuolys nuo obels netoli rieda.", translation: "Яблоко от яблони недалеко падает.", source: "tatoeba:2724984" }
+  - { text: "Kas ieško, tas ras.", translation: "Кто ищет, тот найдёт.", source: "tatoeba:10265239" }
+  - { text: "Kiekviena pradžia sunki.", translation: "Лиха беда начало.", source: "tatoeba:13709220" }
+  - { text: "Ji iki ausų įsimylėjusi.", translation: "Она по уши влюблена.", source: "tatoeba:4041923" }
+exercises:
+  - type: cloze
+    text: "Ką pasėsi, tą ir ___."
+    answer: "pjausi"
+    hint: "«пожнёшь»"
+    translation: "Что посеешь, то и пожнёшь."
+  - type: cloze
+    text: "Obuolys nuo obels netoli ___."
+    answer: "rieda"
+    hint: "«катится»"
+    translation: "Яблоко от яблони недалеко падает."
+  - type: cloze
+    text: "Jie panašūs kaip du vandens ___."
+    answer: "lašai"
+    hint: "как две капли воды"
+    translation: "Они похожи как две капли воды."
+  - type: cloze
+    text: "Laikyk liežuvį už ___!"
+    answer: "dantų"
+    hint: "держи язык за зубами"
+    translation: "Держи язык за зубами!"
+  - type: cloze
+    text: "Neimk to į ___."
+    answer: "širdį"
+    hint: "не принимай близко к сердцу"
+    translation: "Не принимай это близко к сердцу."
+  - type: cloze
+    text: "Vilką ___ – vilkas čia."
+    answer: "mini"
+    hint: "лёгок на помине"
+    translation: "Лёгок на помине."
+  - type: cloze
+    text: "Ką tu turi ___?"
+    answer: "galvoje"
+    hint: "что ты имеешь в виду?"
+    translation: "Что ты имеешь в виду?"
+  - type: cloze
+    text: "Ji iki ___ įsimylėjusi."
+    answer: "ausų"
+    hint: "по уши"
+    translation: "Она по уши влюблена."

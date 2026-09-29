@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0032
+cefr: B1
+order: 32
+title: "Степени сравнения: geresnis, geriausias, greičiau"
+explanation:
+  ru: |
+    **Сравнительная степень:**
+    - прилагательные: **-esnis, -esnė**: *geras → **geresnis***, *gražus → **gražesnis***, *didelis → **didesnis***, *šiltas → **šiltesnis***
+    - наречия: **-iau**: *greitai → **greičiau***, *gerai → **geriau***, *lėtai → **lėčiau***, *daug → **daugiau***, *mažai → **mažiau***, *pigiai → **pigiau***
+    - о возрасте людей: **vyresnis** (старше), **jaunesnis** (моложе)
+
+    **«Чем»:** **už + вин. п.** или **negu / nei + им. п.**:
+    - *Aš jaunesnis **už jus**.* = *Aš jaunesnis **negu jūs**.*
+
+    **Превосходная степень:** **-iausias, -iausia** (наречия **-iausiai**): *geriausias, didžiausia, gražiausiai*. Часто с **pats / pati**: ***pats geriausias*** — самый лучший.
+
+    **«Один из лучших»** — *vienas **geriausių*** (род. п. мн. ч., без *iš*).
+
+    **Усиление:** *daug / kur kas geresnis* — гораздо лучше, *dar geresnis* — ещё лучше, ***vis** šilčiau* — всё теплее.
+comparison:
+  ru: |
+    Как в русском, но сравнение чаще строится через *už* с винительным: *už mane* — «меня» («старше меня» = *vyresnis už mane*). Суффикс *-iau* у наречий похож на русское «-ее»: *greičiau* — «быстрее».
+examples:
+  - { text: "Aš jaunesnis už jus.", translation: "Я моложе вас.", source: "tatoeba:10539642" }
+  - { text: "Ji aukštesnė už tave.", translation: "Она выше тебя.", source: "tatoeba:10188704" }
+  - { text: "Tu geriau už mane dainuoji.", translation: "Ты лучше меня поёшь.", source: "tatoeba:12348864" }
+  - { text: "Tu pats geriausias tėtis!", translation: "Ты самый лучший папа!", source: "tatoeba:10723160" }
+  - { text: "Auksas brangesnis už šviną.", translation: "Золото дороже свинца.", source: "tatoeba:11583673" }
+exercises:
+  - type: cloze
+    text: "Šiandien oras ___ nei vakar."
+    answer: "šiltesnis"
+    hint: "šiltas → сравн. ст."
+    translation: "Сегодня погода теплее, чем вчера."
+  - type: cloze
+    text: "Mano brolis ___ už mane."
+    answer: "vyresnis"
+    hint: "старше (о людях)"
+    translation: "Мой брат старше меня."
+  - type: cloze
+    text: "Kalbėk ___, prašau."
+    answer: "lėčiau"
+    hint: "lėtai → сравн. ст."
+    translation: "Говори медленнее, пожалуйста."
+  - type: cloze
+    text: "Tai ___ filmas, kokį esu matęs."
+    answer: "geriausias"
+    hint: "geras → превосх. ст."
+    translation: "Это лучший фильм, который я видел."
+  - type: cloze
+    text: "Vilnius yra ___ Lietuvos miestas."
+    answer: "didžiausias"
+    hint: "didelis → превосх. ст."
+    translation: "Вильнюс — самый большой город Литвы."
+  - type: cloze
+    text: "Jis – vienas ___ krepšininkų pasaulyje."
+    answer: "geriausių"
+    hint: "один из лучших: род. п. мн. ч."
+    translation: "Он один из лучших баскетболистов мира."
+  - type: cloze
+    text: "Traukiniu keliauti ___ nei lėktuvu."
+    answer: "pigiau"
+    hint: "pigiai → сравн. ст."
+    translation: "Путешествовать поездом дешевле, чем самолётом."
+  - type: cloze
+    text: "Kasmet čia vis ___ turistų."
+    answer: "daugiau"
+    hint: "daug → сравн. ст."
+    translation: "С каждым годом здесь всё больше туристов."

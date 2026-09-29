@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0035
+cefr: B1
+order: 35
+title: "Время: pirmadienį, prieš metus, po valandos, per savaitę"
+explanation:
+  ru: |
+    **Когда?**
+    - дни недели и части суток — **винительный**: ***pirmadienį***, *savaitgalį*, *rytą, vakarą, naktį*; или местный: *ryte, vakare*
+    - год — **творительный**: *2027 **metais***; месяц: ***sausį*** или *sausio mėnesį*
+    - дата: *gegužės penktą (dieną)*, *gegužės 5-ąją*
+
+    **Сколько времени?** — винительный без предлога: *laukiau dvi **valandas***, *visą **dieną***
+
+    **Предлоги:**
+    - **prieš + вин. п.** — назад: ***prieš metus*** — год назад
+    - **po + род. п.** — через (в будущем): ***po valandos*** — через час (так же говорят *už valandos*)
+    - **per + вин. п.** — за / в течение: ***per savaitę*** — за неделю; *du kartus per savaitę* — два раза в неделю
+    - **nuo … iki** + род. п. — с … до: *nuo ryto iki vakaro*
+    - **nuo + род. п.** — с (какого времени): *nuo 2020 metų*
+
+    **Как часто?** — *kasdien* (каждый день), *kas savaitę*, *kas mėnesį*, *kasmet*.
+comparison:
+  ru: |
+    Главное отличие: «в понедельник» — просто винительный *pirmadienį* (без предлога), «в 2027 году» — творительный *2027 metais*. «Через час» — *po valandos* (род. п.), а «час назад» — *prieš valandą* (вин. п.).
+examples:
+  - { text: "Sekmadienį aš ilsiuosi.", translation: "В воскресенье я отдыхаю.", source: "tatoeba:13501754" }
+  - { text: "Grįšiu po valandos.", translation: "Я вернусь через час.", source: "tatoeba:1796073" }
+  - { text: "Tai buvo tik prieš metus.", translation: "Это было всего год назад.", source: "tatoeba:12798196" }
+  - { text: "Jis dirba nuo ryto iki vakaro.", translation: "Он работает с утра до вечера.", source: "tatoeba:12145013" }
+  - { text: "Kiek tu uždirbi per savaitę?", translation: "Сколько ты зарабатываешь в неделю?", source: "tatoeba:13581562" }
+exercises:
+  - type: cloze
+    text: "Mes susitiksime ___."
+    answer: "penktadienį"
+    hint: "penktadienis → вин. п."
+    translation: "Мы встретимся в пятницу."
+  - type: cloze
+    text: "Jis atvyko ___ dvi savaites."
+    answer: "prieš"
+    hint: "назад"
+    translation: "Он приехал две недели назад."
+  - type: cloze
+    text: "Grįšiu po ___."
+    answer: "valandos"
+    hint: "valanda → po + род. п."
+    translation: "Вернусь через час."
+  - type: cloze
+    text: "Aš čia gyvenu ___ 2020 metų."
+    answer: "nuo"
+    hint: "с (какого времени)"
+    translation: "Я живу здесь с 2020 года."
+  - type: cloze
+    text: "Laukiau tavęs dvi ___."
+    answer: "valandas"
+    hint: "valanda → вин. п. мн. ч. (сколько времени)"
+    translation: "Я ждал тебя два часа."
+  - type: cloze
+    text: "Sportuoju tris kartus ___ savaitę."
+    answer: "per"
+    hint: "в (неделю)"
+    translation: "Я занимаюсь спортом три раза в неделю."
+  - type: cloze
+    text: "Gimiau 1990 ___."
+    answer: "metais"
+    hint: "metai → твор. п."
+    translation: "Я родился в 1990 году."
+  - type: cloze
+    text: "___ dirbu, o vakare ilsiuosi."
+    answer: "Dieną"
+    hint: "diena → вин. п. (днём)"
+    translation: "Днём я работаю, а вечером отдыхаю."

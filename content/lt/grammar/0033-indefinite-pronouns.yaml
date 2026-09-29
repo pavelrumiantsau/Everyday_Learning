@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0033
+cefr: B1
+order: 33
+title: "Неопределённые местоимения: kažkas, kas nors, bet kas, niekas"
+explanation:
+  ru: |
+    - **kažkas** — кто-то, что-то (кто-то конкретный, но неизвестно кто): ***Kažkas** šaukė.*
+    - **kas nors** — кто-нибудь, что-нибудь (в вопросах, просьбах, предположениях): *Ar **kas nors** ateis?*
+    - **bet kas** — кто угодно, что угодно: *Tai gali **bet kas**.*
+    - **niekas** — никто, ничто; глагол **с отрицанием**, как в русском: ***Niekas** nežiūri.*
+
+    Так же строятся и другие слова:
+    - **kažkur / kur nors / bet kur / niekur** — где-то / где-нибудь / где угодно / нигде
+    - **kažkada / kada nors / bet kada / niekada** — когда-то / когда-нибудь / когда угодно / никогда
+    - **kažkoks / koks nors / bet koks / joks** — какой-то / какой-нибудь / любой / никакой
+
+    После **joks** и **niekas** с отрицанием — родительный падеж: *Neturiu **jokių** problemų.*
+
+    **kiekvienas** — каждый, **visi** — все, **abu / abi** — оба / обе.
+comparison:
+  ru: |
+    Система почти один в один русская: *kažkas* = «кто-то», *kas nors* = «кто-нибудь», *bet kas* = «кто угодно», *niekas* = «никто». Двойное отрицание тоже как в русском: *Niekas nieko nežino* — «Никто ничего не знает».
+examples:
+  - { text: "Kažkas šaukė.", translation: "Кто-то кричал.", source: "tatoeba:12200227" }
+  - { text: "Ar kas nors ateis?", translation: "Кто-нибудь придёт?", source: "tatoeba:12162936" }
+  - { text: "Man skambink bet kada.", translation: "Звони мне в любое время.", source: "tatoeba:10687955" }
+  - { text: "Niekas nežiūri.", translation: "Никто не смотрит.", source: "tatoeba:3589870" }
+  - { text: "Jis kažkur išėjo.", translation: "Он куда-то ушёл.", source: "tatoeba:12327847" }
+exercises:
+  - type: cloze
+    text: "___ skambino, kol tavęs nebuvo."
+    answer: "Kažkas"
+    hint: "кто-то (точно звонили)"
+    translation: "Кто-то звонил, пока тебя не было."
+  - type: cloze
+    text: "Ar ___ žino, kur mano raktai?"
+    answer: "kas nors"
+    hint: "кто-нибудь (вопрос)"
+    translation: "Кто-нибудь знает, где мои ключи?"
+  - type: cloze
+    text: "Tai gali padaryti ___."
+    answer: "bet kas"
+    hint: "кто угодно"
+    translation: "Это может сделать кто угодно."
+  - type: cloze
+    text: "___ neatėjo į susitikimą."
+    answer: "Niekas"
+    hint: "никто"
+    translation: "Никто не пришёл на встречу."
+  - type: cloze
+    text: "Aš ___ nemačiau tokio gražaus miesto."
+    answer: "niekada"
+    hint: "никогда"
+    translation: "Я никогда не видел такого красивого города."
+  - type: cloze
+    text: "Ar tu ___ buvai Paryžiuje?"
+    answer: "kada nors"
+    hint: "когда-нибудь (вопрос)"
+    translation: "Ты когда-нибудь был в Париже?"
+  - type: cloze
+    text: "Jis neturi ___ problemų."
+    answer: "jokių"
+    hint: "никаких (род. п. мн. ч.)"
+    translation: "У него нет никаких проблем."
+  - type: cloze
+    text: "Paskambink man ___, man tinka visada."
+    answer: "bet kada"
+    hint: "в любое время"
+    translation: "Позвони мне в любое время, мне всегда удобно."

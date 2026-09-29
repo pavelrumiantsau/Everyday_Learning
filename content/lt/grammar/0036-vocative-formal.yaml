@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0036
+cefr: B2
+order: 36
+title: "Обращение: Jonai!, sese!; вежливое Jūs и официальное письмо"
+explanation:
+  ru: |
+    **Звательный падеж** (*šauksmininkas*) — форма для обращения:
+    - **-as → -ai** в именах: *Jonas → **Jonai**, Tomas → **Tomai**, Petras → **Petrai***
+    - **-as → -e** в нарицательных: *draugas → **drauge**, ponas → **pone***
+    - **-is → -i**: *brolis → **broli**, tėtis → **tėti***
+    - **-us → -au**: *sūnus → **sūnau***
+    - **-a → -a**: *mama → **mama**, Rasa → **Rasa***
+    - **-ė → -e**: *sesė → **sese**, Birutė → **Birute***
+
+    **Вежливость:**
+    - **Jūs** — «вы» одному человеку; в письме пишется **с большой буквы**: *Jūs, Jūsų, Jums*.
+    - **ponas, ponia, panelė** + имя в звательном: ***Pone Jonai**, **ponia Rasa***.
+    - просьба: *Ar **galėtumėte**…?* (не могли бы вы), *Būkite malonūs, …* (будьте добры).
+
+    **Официальное письмо:**
+    - начало: ***Gerbiamasis pone** Petrai, / **Gerbiamoji ponia** Rasa,* или нейтрально *Laba diena,*
+    - конец: ***Pagarbiai**,* или ***Su pagarba**,* + имя и фамилия.
+comparison:
+  ru: |
+    В русском звательный почти исчез («мам!», «Боже!»), а в литовском он обязателен: сказать «Jonas, ateik!» — ошибка, нужно ***Jonai**, ateik!* Женские фамилии на *-ienė, -aitė, -ytė* в звательном меняют *-ė* на *-e*: *ponia Kazlauskiene*.
+examples:
+  - { text: "Tomai, grįžk!", translation: "Том, вернись!", source: "tatoeba:12570129" }
+  - { text: "Mama, kur mes?", translation: "Мама, где мы?", source: "tatoeba:13716402" }
+  - { text: "Tėti, kur mama?", translation: "Папа, где мама?", source: "tatoeba:13423245" }
+  - { text: "Tai yra paskutinis traukinys, pone.", translation: "Это последний поезд, господин.", source: "tatoeba:1660109" }
+exercises:
+  - type: cloze
+    text: "___, ateik čia!"
+    answer: "Jonai"
+    hint: "Jonas → зват. п."
+    translation: "Йонас, иди сюда!"
+  - type: cloze
+    text: "Ačiū, ___!"
+    answer: "drauge"
+    hint: "draugas → зват. п."
+    translation: "Спасибо, друг!"
+  - type: cloze
+    text: "___, kur mano knyga?"
+    answer: "Tėti"
+    hint: "tėtis → зват. п."
+    translation: "Папа, где моя книга?"
+  - type: cloze
+    text: "Eime namo, ___!"
+    answer: "sūnau"
+    hint: "sūnus → зват. п."
+    translation: "Пойдём домой, сынок!"
+  - type: cloze
+    text: "___ pone Petrai, rašau Jums dėl susitikimo."
+    answer: "Gerbiamasis"
+    hint: "начало официального письма (м. р.)"
+    translation: "Уважаемый господин Пятрас, пишу Вам по поводу встречи."
+  - type: cloze
+    text: "___ pagarba, Rasa Kazlauskienė"
+    answer: "Su"
+    hint: "подпись: «с уважением»"
+    translation: "С уважением, Раса Казлаускене."
+  - type: cloze
+    text: "Ar ___ galėtumėte man padėti?"
+    answer: "Jūs"
+    hint: "вежливое «вы» (в письме — с большой буквы)"
+    translation: "Не могли бы Вы мне помочь?"
+  - type: cloze
+    text: "Brangioji ___, sveikinu su gimtadieniu!"
+    answer: "sese"
+    hint: "sesė → зват. п."
+    translation: "Дорогая сестра, поздравляю с днём рождения!"
