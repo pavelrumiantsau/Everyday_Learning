@@ -9,6 +9,7 @@ const [lang = "lt", fromArg = "1", countArg = "300"] = process.argv.slice(2);
 const cfg = {
   lt: { freq: "lt_50k.txt", src: "lit_sentences.tsv", tr: "rus_sentences.tsv", links: "lit-rus_links.tsv" },
   es: { freq: "es_50k.txt", src: "spa_sentences.tsv", tr: "eng_sentences.tsv", links: "spa-eng_links.tsv" },
+  fr: { freq: "fr_50k.txt", src: "fra_sentences.tsv", tr: "eng_sentences.tsv", links: "fra-eng_links.tsv" },
 }[lang];
 if (!cfg) throw new Error(`Unsupported language: ${lang}`);
 

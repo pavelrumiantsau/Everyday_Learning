@@ -1,12 +1,13 @@
 # Turns a scripts/batches/*.py table into content YAML, pulling example text + translation from Tatoeba by id.
-# Usage: python3 scripts/batch-to-yaml.py scripts/batches/lt-b1-0017.py lt 17 content/lt/vocab/b1-0017.yaml
+# Usage: python3 scripts/batch-to-yaml.py scripts/batches/lt-b1-0017.py lt 17 content/lt/vocab/b1-0017.yaml  (lang: lt, es, fr)
 import runpy, sys, json
 batch, lang, start, out = sys.argv[1], sys.argv[2], int(sys.argv[3]), sys.argv[4]
 cfg = {"lt": ("lit_sentences.tsv", "rus_sentences.tsv", "lit-rus_links.tsv", "ru"),
-       "es": ("spa_sentences.tsv", "eng_sentences.tsv", "spa-eng_links.tsv", "en")}[lang]
+       "es": ("spa_sentences.tsv", "eng_sentences.tsv", "spa-eng_links.tsv", "en"),
+       "fr": ("fra_sentences.tsv", "eng_sentences.tsv", "fra-eng_links.tsv", "en")}[lang]
 PLURAL_ONLY = set(runpy.run_path(batch).get("PLURAL_ONLY", []))
 rows = [(r.split("|") + [""])[:9] for r in runpy.run_path(batch)["ROWS"].strip().splitlines()]
-want = {r[6] for r in rows}
+want = {r[6] for r in rows if r[6]}  # an empty id = no example (allowed, e.g. rare LT words)
 def load(f, ids=None):
     m = {}
     for line in open(f".cache/sources/{f}", encoding="utf-8"):
@@ -26,8 +27,7 @@ out_lines = [f"# Generated from {batch} by scripts/batch-to-yaml.py.",
 seen = set()
 for n, (kind, text, pos, gender, cefr, meaning, tid, note, forms) in enumerate(rows):
     assert text not in seen, f"duplicate {text}"; seen.add(text)
-    assert tid in src, f"{text}: tatoeba {tid} not found"
-    trans = min((tr[b] for b in links.get(tid, []) if b in tr), key=len)
+    assert not tid or tid in src, f"{text}: tatoeba {tid} not found"
     iid = f"{lang}-{kind}-{start + n:04d}"
     out_lines += [f"- id: {iid}", f"  type: {'word' if kind == 'w' else 'phrase'}", f"  cefr: {cefr}", f"  text: {q(text)}"]
     if pos: out_lines.append(f"  pos: {pos}")
@@ -40,6 +40,8 @@ for n, (kind, text, pos, gender, cefr, meaning, tid, note, forms) in enumerate(r
         out_lines.append(f"  forms: {{ pres: {q(pres)}, past: {q(past)} }}")
     out_lines.append(f"  meaning: {{ {cfg[3]}: {q(meaning)} }}")
     if note: out_lines.append(f"  note: {{ {cfg[3]}: {q(note)} }}")
-    out_lines += ["  examples:", f"    - {{ text: {q(src[tid])}, translation: {q(trans)}, source: \"tatoeba:{tid}\" }}"]
+    if tid:
+        trans = min((tr[b] for b in links.get(tid, []) if b in tr), key=len)
+        out_lines += ["  examples:", f"    - {{ text: {q(src[tid])}, translation: {q(trans)}, source: \"tatoeba:{tid}\" }}"]
 open(out, "w", encoding="utf-8").write("\n".join(out_lines) + "\n")
 print(f"✓ {len(rows)} items → {out} ({lang}-*-{start:04d} … {start + len(rows) - 1:04d})")

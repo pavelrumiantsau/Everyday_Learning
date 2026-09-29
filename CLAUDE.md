@@ -10,7 +10,7 @@ Spanish beginner, French starts April 2027.
 ## Conventions that matter
 - **Explanation language:** Lithuanian → **Russian**; Spanish/French → **English**. **Bot and Mini App UI strings: Russian.**
 - **Accuracy over volume** for all learning content. Every form, translation and rule is learned as correct by a real person.
-- Examples in vocabulary and grammar come **only from Tatoeba**, copied verbatim by sentence id (`scripts/batch-to-yaml.py` does this
+- Examples in vocabulary and grammar come **only from Tatoeba**, copied verbatim by sentence id (LT words may have none — empty id) (`scripts/batch-to-yaml.py` does this
   for vocabulary). Reading texts are written (`source: generated`) and checked line by line.
 - Lithuanian verbs need `forms: {pres, past}` (3rd person), Lithuanian nouns need `gen` (plural-only nouns: genitive plural +
   `plural_only`). `pnpm content:validate` enforces this, plus duplicate words, glossary↔item links and lesson limits
@@ -39,9 +39,9 @@ pnpm test             # unit tests (vitest)
 pnpm smoke            # real Worker + local D1 + fake Telegram + fake LLM, ~1 min — run before every push
 pnpm content:validate
 pnpm content:sources  # download frequency lists + Tatoeba into .cache/ (once)
-pnpm content:candidates lt <fromRank> <count>
+pnpm content:candidates lt <fromRank> <count>   # also es, fr
 python3 scripts/batch-to-yaml.py scripts/batches/<file>.py <lang> <firstId> content/<lang>/vocab/<file>.yaml
-pnpm content:audio    # needs .cache/venv with edge-tts (docs/SETUP.md "Audio"); run AFTER merging content
+pnpm content:audio    # PAUSED for new content (asset file limit, see PLAN "Inputs…" 5); needs .cache/venv with edge-tts
 python3 scripts/tatoeba.py lt 'regex'   # find Tatoeba examples (also es/fr; --words w1 w2 to auto-pick per word)
 pnpm content:stress   # LT stress marks from Wiktionary → content/lt/stress.yaml (cached, ~1 req/s); run after new LT words
 pnpm content:reports  # open "report a mistake" entries from the live DB

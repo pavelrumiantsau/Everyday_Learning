@@ -33,12 +33,12 @@
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
 | Lithuanian vocabulary | 1799 words (A2–B2, frequency ranks ≤ ~35,000) | ~late March 2027 (10/day; later if placement skips known words) | `lt-*-1856`, candidates `lt 29000 6000` partly used (lemmas with good Tatoeba examples up to ~rank 35,000 are taken; the rest need `--words` searches) — or `lt 35000 6000`; recipe `prompts/content/lt-vocab.md` |
-| Spanish vocabulary | 1128 items (A1–B1) | ~late May 2027 (5/day) | `es-*-1129`, `pnpm content:candidates es 6850 1500` (ranks 5350–6850 mostly used; the frequency list is from subtitles, so also check basic words it ranks low — months, food, household); recipe `prompts/content/es-vocab.md` |
+| Spanish vocabulary | 1331 items (A1–B1); the A1 core the first batches skipped (ranks 1–350: pronouns, ser/estar, question words, numbers, family, body, places, directions, key verbs) added as `vocab/a1-0000-core-1129.yaml` — its file name sorts first, so these are the next new cards | ~mid-July 2027 (5/day) | `es-*-1332`, `pnpm content:candidates es 6850 1500`; before a batch, check basics the subtitle list ranks low (months, food, household); recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 49 lessons (Q1–Q4 + B1/B2 gap-fillers incl. numerals with nouns, causative pairs, word order, reflexive -si, argument connectors, Russianisms, participle phrases, formal e-mail phrases, idioms 2, tense/mood review, word formation, instrumental) | ~late February 2027 (Mon/Wed; also Sat once the FR sounds lessons are done) | `lt-g-0050`: more review lessons (genitive and dative uses, participles), register (spoken vs written), B2 exam-style mixed tasks, prefixes with abstract meanings (per-, pri-, su-) |
 | Spanish grammar | 44 lessons (A1–B1 incl. future/conditional perfect, subjunctive in relative clauses, connectors, pronoun placement, ser/estar meaning pairs, false friends, opinion + subjunctive, lo + adjective) | ~mid-March 2027 (Tue/Fri; Fri alternates with FR from April) | `es-g-0045`: por vs para review (B1), passive with ser, gerund uses (seguir/llevar + gerund), ojalá, relative el que / lo cual, imperfect subjunctive after past verbs (quería que…) |
 | Lithuanian reading | 45 texts: 18 B1 + 27 B2 (0019–0045: society, history, culture, nature, Klaipėda, students, weather, shopping habits — see files) + own texts | B2 texts: 27 Thursdays → ~early April 2027 (then B1 as fallback) | `lt-r-0046` — **B2**, ~250–350 words (next: cinema/literature, sport beyond basketball, Kaunas (interwar capital, modernism), forests & mushroom picking, Lithuanian abroad today (diaspora communities), public health / e-health habits, Lithuanian music scene) |
 | Spanish reading | 2 texts (A1) | — (read on demand) | `es-r-0003` |
-| French | 10 sounds lessons (Saturdays, ~Oct–early Dec 2026) | starts April 2027: set `/new fr 5` then (not automatic) | `fr-g-0011` (optional more sounds lessons, then A1 grammar), `fr-*-0001` vocabulary; exercises are dictation cloze, examples from Tatoeba `fra` (`pnpm content:sources`) |
+| French | 10 sounds lessons (Saturdays, ~Oct–early Dec 2026) + **316 A1 words** (`fr-*-0001…0316`: pronouns, être/avoir and core verbs, question words, numbers, days, family, home, city, body, common adjectives; English meanings, gender on every noun, ES comparisons in notes) | starts April 2027: set `/new fr 5` then (not automatic); 316 words ≈ 2 months at 5/day | `fr-*-0317` (next: months, food and drink, clothes, colours, transport, shopping, more -er/-ir verbs), ~300 phrases (§3.5), `fr-g-0011` A1 grammar (être/avoir, articles and gender, present -er, negation ne…pas, aller + inf.); `pnpm content:candidates fr 1200 1500` |
 | Stress marks for LT words | 850 of 1799 (`content/lt/stress.yaml`, from English Wiktionary via `pnpm content:stress`; merged at build) | — | ~950 words have no Wiktionary entry (`.cache/stress-skipped.txt` after a run): add by hand from lkz.lt / Vikižodynas; re-run `pnpm content:stress` after each new LT batch |
 
 **Next steps (in order, as of 2026-09-29):** Lithuanian grammar `lt-g-0050+` and Spanish grammar `es-g-0045+` (first to run out,
@@ -59,16 +59,22 @@ Lithuanian reading (B2) — keep new LT texts at B2.
 | LT reading | ~65 Thursdays | 27 B2 (+18 B1) | ~38 B2 | fewer if pasted own texts replace some Thursdays |
 | LT stress marks | all words | 850 / 1,799 | ~950 + every new word | not in Wiktionary → lkz.lt by hand |
 
-Decisions that change the size of the gap:
+Decisions that change the size of the gap (3 and 5 decided by the learner on 2026-09-29):
 1. **Grammar after the topic list:** new lessons forever, or a **review rotation** (re-run earlier lessons with fresh exercises,
    quarterly mixed-review lessons) and fewer new-rule days (e.g. LT Mon/Wed only, ES once a week)?
 2. **Spanish pace vs the A2 target:** keep 4–5 new words/day (≈ B1 by the end of 2027) or lower it and move the time to LT/FR?
-3. **LT words without a good Tatoeba example:** allow items with no example (the card shows only the word + meaning + audio),
-   or keep the rule and accept fewer, slower LT batches?
+3. ✅ **LT words without a good Tatoeba example are OK** (the learner looks examples up separately): leave the tatoeba id empty in
+   the batch row — `batch-to-yaml.py` then writes the item without examples. Never write examples yourself.
 4. **Placement:** actual skip rate after the learner's placement test — it may cut the LT gap a lot; re-plan once known.
-5. **Audio size:** 7,174 files / ~119 MiB now; the gaps above add roughly +11,000 files → ~18,000 — close to the Workers
-   static-assets per-version file limit on the free plan (check the current number). Options: move audio to R2 (free tier),
-   or drop example-sentence audio for older items.
+5. ✅ **No new audio for now:** don't run `pnpm content:audio` for new content (7,174 files / ~119 MiB, close to the free-plan
+   static-assets file limit). Items without audio simply show no 🔊. Later: remove audio of old, already-learned items and
+   generate audio for newer ones instead.
+
+**Coverage review (2026-09-29):** Spanish was missing most of the A1 core (the first batches started at frequency rank 350) —
+fixed with the core batch above; checked against a topic list (pronouns, ser/estar, question words, numbers, days, months,
+colours, family, body, food, house, clothes, places, transport, weather, directions, shopping, health, jobs, feelings, core
+verbs, function words). French had no vocabulary — first A1 batch added. When starting a new language or level, run such a
+topic checklist before relying on frequency ranks.
 
 **How content is made (workflow that worked in Sep 2026):**
 - *Examples:* `python3 scripts/tatoeba.py <lt|es|fr> '<regex>'` or `--words w1 w2 …` (auto-pick 2 per stem) → read every pair, drop
