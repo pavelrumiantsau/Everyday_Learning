@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0046
+cefr: B2
+order: 46
+title: "Фразеологизмы 2: sveikas kaip ridikas, per plauką"
+explanation:
+  ru: |
+    **Устойчивые сравнения с *kaip*:**
+    - *sveikas kaip **ridikas*** — здоров как бык (букв. «как редиска»)
+    - *alkanas kaip **vilkas*** — голоден как волк
+    - *tylėti kaip **žuvis*** — молчать как рыба; *jaustis kaip žuvis **vandenyje*** — как рыба в воде
+    - *baltas (išbalęs) kaip **drobė*** — белый как полотно
+    - *sėdėti kaip ant **adatų*** — как на иголках
+    - *kaip šuo ant **šieno*** — собака на сене
+    - *pataikyti kaip pirštu į **dangų*** — пальцем в небо
+
+    **Выражения с частями тела:**
+    - *per **plauką*** — на волоске, чуть-чуть: *per plauką nuo mirties*
+    - *akies **mirksniu*** — в мгновение ока
+    - *kvaršinti kam **galvą*** — морочить голову
+    - *badyti kam **akis*** — мозолить глаза
+    - *jo **rankų** darbas* — его рук дело
+    - *nuleisti **rankas*** — опустить руки
+
+    С **отрицанием** винительный переходит в **родительный** и здесь: *Nekvaršink man **galvos**!*, *Nenuleisk **rankų**!*
+comparison:
+  ru: |
+    Большинство совпадает с русскими дословно (*alkanas kaip vilkas, tylėti kaip žuvis, rankų darbas, nuleisti rankas*), поэтому их легко запомнить. Отличаются картинки: русский «здоров как **бык**» — литовский *sveikas kaip **ridikas*** (редиска).
+examples:
+  - { text: "Tomas sveikas kaip ridikas.", translation: "Том здоров как огурчик.", source: "tatoeba:11845562" }
+  - { text: "Esu alkanas kaip vilkas.", translation: "Я голоден как волк.", source: "tatoeba:962016" }
+  - { text: "Aš ten jaučiuosi kaip žuvis vandenyje.", translation: "Я себя там чувствую как рыба в воде.", source: "tatoeba:12416359" }
+  - { text: "Vadinasi, tai irgi jo rankų darbas.", translation: "Значит, это тоже его рук дело.", source: "tatoeba:12533068" }
+  - { text: "Tomas buvo per plauką nuo mirties.", translation: "Том был на волоске от смерти.", source: "tatoeba:10474512" }
+exercises:
+  - type: cloze
+    text: "Po žygio buvau alkanas kaip ___."
+    answer: "vilkas"
+    hint: "голоден как волк"
+    translation: "После похода я был голоден как волк."
+  - type: cloze
+    text: "Seneliui jau devyniasdešimt, bet jis sveikas kaip ___."
+    answer: "ridikas"
+    hint: "здоров как бык (букв. «как редиска»)"
+    translation: "Дедушке уже девяносто, но он здоров как бык."
+  - type: cloze
+    text: "Naujame darbe ji jaučiasi kaip žuvis ___."
+    answer: "vandenyje"
+    hint: "как рыба в воде"
+    translation: "На новой работе она чувствует себя как рыба в воде."
+  - type: cloze
+    text: "Paklaustas jis tylėjo kaip ___."
+    answer: "žuvis"
+    hint: "молчать как рыба"
+    translation: "Когда его спросили, он молчал как рыба."
+  - type: cloze
+    text: "Laukdamas rezultatų sėdėjau kaip ant ___."
+    answer: "adatų"
+    hint: "как на иголках"
+    translation: "В ожидании результатов я сидел как на иголках."
+  - type: cloze
+    text: "Jis buvo per ___ nuo pergalės."
+    answer: "plauką"
+    hint: "на волосок"
+    translation: "Он был на волосок от победы."
+  - type: cloze
+    text: "Nekvaršink man ___!"
+    answer: "galvos"
+    hint: "морочить голову; с отрицанием → род. п."
+    translation: "Не морочь мне голову!"
+  - type: cloze
+    text: "Nesisekė, bet ji nenuleido ___."
+    answer: "rankų"
+    hint: "опустить руки; с отрицанием → род. п."
+    translation: "Не везло, но она не опустила руки."

@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0047
+cefr: B1
+order: 47
+title: "Повторение: времена и наклонения (dirbdavau, dirbsiu, dirbčiau, dirbk)"
+explanation:
+  ru: |
+    Все формы глагола на примере *dirbti* (dirba, dirbo):
+
+    - **настоящее:** dirbu, dirbi, dirba
+    - **прошедшее** (один раз, конкретно): dirbau, dirbai, dirbo
+    - **многократное прошедшее** («бывало, обычно»): dirb**davau**, dirb**davai**, dirb**davo**
+    - **будущее:** dirb**siu**, dirb**si**, dirb**s**
+    - **условное:** dirb**čiau**, dirb**tum**, dirb**tų**; мы — dirb**tume**, вы — dirb**tumėte**
+    - **прошлое условное** («сделал бы тогда»): *būčiau (būtum, būtų) **dirbęs / dirbusi***
+    - **повелительное:** dirb**k**, dirb**kime**, dirb**kite**; 3-е лицо — *tegul dirba*
+
+    **Где ошибаются чаще всего:**
+    - *-davo* vs прошедшее: *Vasarą **važiuodavome** prie jūros* (каждое лето) — *Pernai **važiavome** prie jūros* (один раз).
+    - «если бы» — условное **в обеих частях**: *Jei **žinočiau**, **pasakyčiau**.* Про прошлое: *Jei **būčiau žinojęs**, **būčiau pasakęs**.*
+    - *kad* + условное = «чтобы»: *Prašau, kad **ateitum**.*
+    - о будущем после *kai, jei* — будущее время, как в русском: *Kai **grįši**, paskambink.*
+comparison:
+  ru: |
+    Русскому «бывало, ходил» соответствует *eidavau* — отдельная форма, которую нельзя заменить обычным прошедшим, если действие повторялось. А «бы» в литовском не отдельное слово: оно спрятано в окончании (*-čiau, -tum, -tų*), поэтому *kad* + условное сразу означает «чтобы».
+examples:
+  - { text: "Brolis grįždavo vėlai.", translation: "Брат возвращался поздно.", source: "tatoeba:6003245" }
+  - { text: "Kai grįši, manęs jau nebebus.", translation: "Когда ты вернешься, меня уже не будет.", source: "tatoeba:3610692" }
+  - { text: "Jeigu tu žinotum, kaip aš pavargau!", translation: "Если бы ты знал, как я устал!", source: "tatoeba:12507578" }
+  - { text: "Jeigu Tomas būtų manęs paklausęs!", translation: "Если бы Том послушался меня!", source: "tatoeba:12115103" }
+  - { text: "Žiūrėk, kad neperšaltum.", translation: "Смотри не простудись.", source: "tatoeba:3937467" }
+exercises:
+  - type: cloze
+    text: "Vaikystėje kiekvieną vasarą ___ pas senelius."
+    answer: "važiuodavome"
+    hint: "važiuoti, мы, многократное прошедшее"
+    translation: "В детстве мы каждое лето ездили к бабушке с дедушкой."
+  - type: cloze
+    text: "Kai baigsiu darbą, tau ___."
+    answer: "paskambinsiu"
+    hint: "paskambinti, я, будущее"
+    translation: "Когда закончу работу, я тебе позвоню."
+  - type: cloze
+    text: "Jei turėčiau daugiau laiko, ___ ispanų kalbos."
+    answer: "mokyčiausi"
+    hint: "mokytis, я, условное"
+    translation: "Если бы у меня было больше времени, я бы учил испанский."
+  - type: cloze
+    text: "Jei būtum paskambinęs, būčiau tave ___."
+    answer: "pasitikęs"
+    hint: "pasitikti, м. р., прошлое условное"
+    translation: "Если бы ты позвонил, я бы тебя встретил."
+  - type: cloze
+    text: "Mama prašo, kad ___ namo anksčiau."
+    answer: "grįžtum"
+    hint: "grįžti, ты, kad + условное"
+    translation: "Мама просит, чтобы ты вернулся домой пораньше."
+  - type: cloze
+    text: "___ lėčiau, aš nesuprantu."
+    answer: "Kalbėkite"
+    hint: "kalbėti, вы, повелительное"
+    translation: "Говорите медленнее, я не понимаю."
+  - type: cloze
+    text: "Vakar mes ___ filmą apie Vilnių."
+    answer: "žiūrėjome"
+    hint: "žiūrėti, мы, прошедшее (один раз)"
+    translation: "Вчера мы смотрели фильм о Вильнюсе."
+  - type: cloze
+    text: "Tegul jis ___ pats."
+    answer: "nusprendžia"
+    hint: "nuspręsti, он, tegul + наст. время"
+    translation: "Пусть он решит сам."

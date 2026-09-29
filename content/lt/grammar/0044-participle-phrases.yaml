@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0044
+cefr: B2
+order: 44
+title: "Причастные обороты вместо kuris: čia gyvenantys žmonės"
+explanation:
+  ru: |
+    В письменной речи (статьи, эссе, официальные письма) придаточное с *kuris* часто заменяют **причастием** — фраза становится короче:
+
+    - *žmonės, **kurie gyvena** čia* → ***čia gyvenantys** žmonės* — действ. наст. (*-antis, -inti*)
+    - *vyras, **kuris grįžo** iš darbo* → ***iš darbo grįžęs** vyras* — действ. прош. (*-ęs, -usi*)
+    - *knyga, **kurią parašė** Tomas* → ***Tomo parašyta** knyga* — страд. прош. (*-tas, -ta*)
+    - *problema, **kurią sprendžia** vyriausybė* → ***vyriausybės sprendžiama** problema* — страд. наст. (*-mas, -ma*)
+
+    **Кто сделал** — при страдательном причастии деятель стоит в **родительном** падеже: *Tomo parašyta, advokato parengta, vyriausybės siūloma*.
+
+    **Место и запятые:**
+    - оборот **перед** существительным — без запятых: *Čia gyvenantys žmonės moka lietuviškai.*
+    - оборот **после** существительного — выделяется запятыми: *Žmonės, gyvenantys čia, moka lietuviškai.*
+
+    **Согласование:** причастие стоит в том же роде, числе и падеже, что и существительное: *Kalbėjau su **čia gyvenančiu** žmogumi* (тв. п.), *Nusipirkau **Tomo parašytą** knygą* (вин. п.).
+
+    **Причастие вместо существительного** — «те, кто…», часто в местоименной форме: *dirbantieji* (работающие), *susirinkusieji* (собравшиеся), *nukentėjusieji* (пострадавшие), *mirusieji* (умершие).
+comparison:
+  ru: |
+    Порядок слов как в русском: «живущие здесь люди» = *čia gyvenantys žmonės*. Главное отличие — деятель: русское «книга, написанная **Томом**» (творительный) → литовское ***Tomo** parašyta knyga* (родительный). *Kuris* тоже правильно — причастный оборот просто звучит более книжно; на B2 полезно уметь и то, и другое.
+examples:
+  - { text: "Čia gyvenantys žmonės moka tai daryti.", translation: "Живущие здесь люди умеют это делать.", source: "tatoeba:13490782" }
+  - { text: "Jis daug matęs žmogus.", translation: "Он человек бывалый.", source: "tatoeba:13546869" }
+  - { text: "Ar tai tikrai egzistavusi kalba?", translation: "Это реально существовавший язык?", source: "tatoeba:13352727" }
+  - { text: "Buvo daug nukentėjusių.", translation: "Было много пострадавших.", source: "tatoeba:13797503" }
+  - { text: "Tau nereikia bijoti mirusiųjų.", translation: "Ты не должен бояться мёртвых.", source: "tatoeba:13696522" }
+exercises:
+  - type: cloze
+    text: "Visi čia ___ darbuotojai gauna premiją."
+    answer: "dirbantys"
+    hint: "dirbti → действ. наст., мн. ч."
+    translation: "Все работающие здесь сотрудники получают премию."
+  - type: cloze
+    text: "Tai mano senelio ___ namas."
+    answer: "pastatytas"
+    hint: "pastatyti → страд. прош., м. р."
+    translation: "Это дом, построенный моим дедом."
+  - type: cloze
+    text: "Iš kelionės ___ sesuo papasakojo daug įdomių dalykų."
+    answer: "grįžusi"
+    hint: "grįžti → действ. прош., ж. р."
+    translation: "Сестра, вернувшаяся из поездки, рассказала много интересного."
+  - type: cloze
+    text: "Pasirašiau ___ parengtą sutartį."
+    answer: "advokato"
+    hint: "кем подготовлен? → род. п. (advokatas)"
+    translation: "Я подписал договор, подготовленный адвокатом."
+  - type: cloze
+    text: "Kalbėjau su avarijoje ___ vairuotoju."
+    answer: "nukentėjusiu"
+    hint: "nukentėti → действ. прош., тв. п., м. р."
+    translation: "Я поговорил с водителем, пострадавшим в аварии."
+  - type: cloze
+    text: "Vyriausybės ___ reforma sukėlė daug diskusijų."
+    answer: "siūloma"
+    hint: "siūlyti → страд. наст., ж. р."
+    translation: "Предлагаемая правительством реформа вызвала много споров."
+  - type: cloze
+    text: "Visi ___ gavo po dovaną."
+    answer: "susirinkusieji"
+    hint: "susirinkti → «собравшиеся» (местоим. форма)"
+    translation: "Все собравшиеся получили по подарку."

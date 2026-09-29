@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0045
+cefr: B2
+order: 45
+title: "Деловое письмо: Rašau Jums dėl…, Būčiau dėkingas…"
+explanation:
+  ru: |
+    Обращение (*Gerbiamasis pone…*) и подпись (*Pagarbiai*) были в уроке о звательном падеже. Здесь — фразы для **середины** письма или e-mail.
+
+    - **повод:** *Rašau Jums **dėl**…* (пишу Вам по поводу + род. п.), *Kreipiuosi į Jus dėl…* (обращаюсь к Вам по поводу)
+    - **просьба** — мягче через условное наклонение: ***Norėčiau** pasiteirauti, ar…* (хотел бы узнать, …ли), ***Prašyčiau** atsiųsti…* (прошу прислать), *Ar **galėtumėte**…?*, ***Būčiau dėkingas** (dėkinga), jei galėtumėte…* (был(а) бы благодарен(-на), если бы Вы могли…)
+    - **вложение:** ***Pridedu**…* (прилагаю)
+    - **извинение:** *Atsiprašau **už** vėlavimą / nepatogumus* (+ вин. п.)
+    - **благодарность:** ***Dėkoju** Jums už…* (вежливее, чем *ačiū*), *Iš anksto dėkoju*
+    - **конец:** *Laukiu Jūsų **atsakymo*** (laukti + род. п.), *Jei kiltų klausimų, prašome **kreiptis*** (если возникнут вопросы, обращайтесь)
+
+    **Регистр:** *Labas / Sveikas* → *Laba diena / Sveiki*; *noriu* → *norėčiau*; *atsiųsk* → *gal galėtumėte atsiųsti*; *Iki!* → *Pagarbiai* или *Geros dienos*.
+comparison:
+  ru: |
+    Как и в русском, вежливость — это условное наклонение («хотел бы», «не могли бы Вы»). Следи за управлением: *dėl* + род. п. («по поводу»), *laukti* + род. п. («ждать ответа»), *dėkoti* + дат. п. (*Dėkoju **Jums***), *atsiprašyti už* + вин. п.
+examples:
+  - { text: "Dėkoju už greitą atsakymą.", translation: "Спасибо за быстрый ответ.", source: "tatoeba:12538279" }
+  - { text: "Dėkoju už bendradarbiavimą.", translation: "Благодарю вас за сотрудничество.", source: "tatoeba:10966664" }
+  - { text: "Iš anksto ačiū už pagalbą!", translation: "Заранее спасибо за помощь!", source: "tatoeba:11985100" }
+  - { text: "Ar negalėtumėte kalbėti lėčiau?", translation: "Вы не могли бы говорить помедленнее?", source: "tatoeba:1501606" }
+  - { text: "Iš anksto atsiprašau.", translation: "Заранее прошу прощения.", source: "tatoeba:13434298" }
+exercises:
+  - type: cloze
+    text: "Rašau Jums ___ rytojaus susitikimo."
+    answer: "dėl"
+    hint: "по поводу (+ род. п.)"
+    translation: "Пишу Вам по поводу завтрашней встречи."
+  - type: cloze
+    text: "___ pasiteirauti, ar dar yra laisvų vietų."
+    answer: "Norėčiau"
+    hint: "хотел(а) бы (вежливо)"
+    translation: "Хотел бы узнать, есть ли ещё свободные места."
+  - type: cloze
+    text: "Būčiau dėkinga, jei ___ atsiųsti sąskaitą."
+    answer: "galėtumėte"
+    hint: "могли бы (Jūs)"
+    translation: "Была бы благодарна, если бы Вы могли прислать счёт."
+  - type: cloze
+    text: "Laukiu Jūsų ___."
+    answer: "atsakymo"
+    hint: "laukti + род. п. (atsakymas)"
+    translation: "Жду Вашего ответа."
+  - type: cloze
+    text: "___ Jums už suteiktą informaciją."
+    answer: "Dėkoju"
+    hint: "благодарю (вежливее, чем ačiū)"
+    translation: "Благодарю Вас за предоставленную информацию."
+  - type: cloze
+    text: "___ savo gyvenimo aprašymą."
+    answer: "Pridedu"
+    hint: "прилагаю"
+    translation: "Прилагаю своё резюме."
+  - type: cloze
+    text: "Atsiprašome ___ nepatogumus."
+    answer: "už"
+    hint: "извиняться за (+ вин. п.)"
+    translation: "Приносим извинения за неудобства."
+  - type: cloze
+    text: "Jei kiltų klausimų, prašome ___."
+    answer: "kreiptis"
+    hint: "обращаться"
+    translation: "Если возникнут вопросы, пожалуйста, обращайтесь."
