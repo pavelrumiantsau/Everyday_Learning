@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0042
+cefr: A2
+order: 42
+title: "False friends: embarazada, éxito, librería, actualmente"
+explanation:
+  en: |
+    Words that look like English (or Russian) but mean something else:
+
+    - ***embarazada*** = pregnant — embarrassed = ***avergonzado***
+    - ***éxito*** = success — exit = ***salida***
+    - ***librería*** = bookshop — library = ***biblioteca***
+    - ***actualmente*** = currently, nowadays — actually = ***en realidad***
+    - ***realizar*** = carry out, do — realize = ***darse cuenta*** (*de*)
+    - ***sensible*** = sensitive — sensible = ***sensato***
+    - ***constipado*** = having a cold — constipated = *estreñido*
+    - ***asistir*** (*a*) = attend — assist = ***ayudar***
+    - ***carpeta*** = folder — carpet = *alfombra*
+    - ***molestar*** = bother, disturb (*¿Te molesta?* — Does it bother you?)
+
+    For Russian speakers: ***familia*** = family (not «фамилия») — surname = ***apellido***.
+comparison:
+  en: |
+    Most Latin-looking words *do* mean the same (*importante, problema, música*), which is why these few catch everyone. The classic mistake: *Estoy muy embarazado* — "I'm very pregnant" instead of *Me da mucha vergüenza*.
+examples:
+  - { text: "Estoy embarazada.", translation: "I'm pregnant.", source: "tatoeba:515926" }
+  - { text: "Te deseo éxito.", translation: "I wish you success.", source: "tatoeba:3769387" }
+  - { text: "Fui a la librería.", translation: "I went to the bookstore.", source: "tatoeba:10570556" }
+  - { text: "Actualmente vivo en Boston.", translation: "I currently live in Boston.", source: "tatoeba:4732328" }
+  - { text: "Soy sensible.", translation: "I'm sensitive.", source: "tatoeba:3188863" }
+exercises:
+  - type: cloze
+    text: "Compré tres novelas en la ___ de la esquina."
+    answer: "librería"
+    hint: "bookshop"
+    translation: "I bought three novels at the bookshop on the corner."
+  - type: cloze
+    text: "Para estudiar en silencio voy a la ___."
+    answer: "biblioteca"
+    hint: "library"
+    translation: "To study in silence I go to the library."
+  - type: cloze
+    text: "Estaba muy ___: me caí delante de todos."
+    answer: "avergonzado"
+    hint: "embarrassed (not embarazado!)"
+    translation: "I was very embarrassed: I fell in front of everyone."
+  - type: cloze
+    text: "¿Dónde está la ___? — Al fondo, a la derecha."
+    answer: "salida"
+    hint: "exit (not éxito)"
+    translation: "Where is the exit? — At the back, on the right."
+  - type: cloze
+    text: "Parece fácil, pero en ___ es muy difícil."
+    answer: "realidad"
+    hint: "actually = en ___ (not actualmente)"
+    translation: "It looks easy, but actually it's very difficult."
+  - type: cloze
+    text: "De repente me di ___ de que había perdido las llaves."
+    answer: "cuenta"
+    hint: "realize = darse ___ (not realizar)"
+    translation: "Suddenly I realized I had lost my keys."
+  - type: cloze
+    text: "Me llamo Ana y mi ___ es García."
+    answer: "apellido"
+    hint: "surname (familia = family)"
+    translation: "My name is Ana and my surname is García."
+  - type: cloze
+    text: "Es una persona muy ___: nunca decide nada sin pensar."
+    answer: "sensata"
+    hint: "sensible (English) — not sensible!"
+    translation: "She is a very sensible person: she never decides anything without thinking."

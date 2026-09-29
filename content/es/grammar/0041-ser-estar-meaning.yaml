@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0041
+cefr: B1
+order: 41
+title: "Es rico, está rico: adjectives that change meaning with ser/estar"
+explanation:
+  en: |
+    With some adjectives, *ser* and *estar* give **different meanings**:
+
+    - ***rico*** — ser: rich · estar: tasty
+    - ***listo*** — ser: clever · estar: ready
+    - ***aburrido*** — ser: boring · estar: bored
+    - ***malo*** — ser: bad · estar: ill; (food) gone off
+    - ***verde*** — ser: green · estar: unripe; inexperienced
+    - ***seguro*** — ser: safe · estar: sure
+    - ***vivo*** — ser: lively, sharp · estar: alive
+    - ***atento*** — ser: thoughtful, kind · estar: paying attention
+    - ***orgulloso*** — ser: arrogant · estar: proud (*de* sb/sth)
+
+    *Esta sopa **está** rica* (tastes good) — *Su familia **es** rica* (has money). *¿**Estás** seguro?* (sure) — *El barrio **es** seguro* (safe).
+comparison:
+  en: |
+    English uses different words (rich/tasty, safe/sure, clever/ready); Russian too («богатый / вкусный», «безопасный / уверен»). Learn these pairs as fixed expressions: ***estar** rico* = «вкусно», ***estar** seguro* = «быть уверенным», ***estar** listo* = «готов».
+examples:
+  - { text: "El arroz está rico.", translation: "The rice is delicious.", source: "tatoeba:462903" }
+  - { text: "Él es rico.", translation: "He's rich.", source: "tatoeba:1343055" }
+  - { text: "Esta pera está verde.", translation: "This pear is green.", source: "tatoeba:2188272" }
+  - { text: "Estoy seguro.", translation: "I'm sure.", source: "tatoeba:436434" }
+  - { text: "Eso no es seguro.", translation: "That's not safe.", source: "tatoeba:1928050" }
+exercises:
+  - type: cloze
+    text: "Esta sopa ___ muy rica, ¿quién la hizo?"
+    answer: "está"
+    hint: "tasty"
+    translation: "This soup is really tasty, who made it?"
+  - type: cloze
+    text: "Su familia ___ muy rica: tiene tres casas."
+    answer: "es"
+    hint: "rich"
+    translation: "His family is very rich: they have three houses."
+  - type: cloze
+    text: "No voy a trabajar hoy, ___ malo."
+    answer: "estoy"
+    hint: "ill"
+    translation: "I'm not going to work today, I'm ill."
+  - type: cloze
+    text: "¿___ seguro de que la tienda cierra a las ocho?"
+    answer: "Estás"
+    hint: "sure (tú)"
+    translation: "Are you sure the shop closes at eight?"
+  - type: cloze
+    text: "Este barrio ___ muy seguro, puedes volver a pie."
+    answer: "es"
+    hint: "safe"
+    translation: "This neighbourhood is very safe, you can walk back."
+  - type: cloze
+    text: "No comas ese plátano, todavía ___ verde."
+    answer: "está"
+    hint: "unripe"
+    translation: "Don't eat that banana, it's still unripe."
+  - type: cloze
+    text: "¡Qué niño tan ___! Aprende todo muy rápido."
+    answer: "listo"
+    hint: "clever"
+    translation: "What a clever child! He learns everything very fast."
+  - type: cloze
+    text: "Estamos muy ___ de nuestra hija."
+    answer: "orgullosos"
+    hint: "proud (estar ___ de)"
+    translation: "We are very proud of our daughter."

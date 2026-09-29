@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0038
+cefr: B1
+order: 38
+title: "Busco a alguien que hable…: subjunctive after que, donde"
+explanation:
+  en: |
+    After *que* (or *donde*) describing a noun, the verb depends on **whether that thing is known to exist**:
+
+    - **known, real** → **indicative**: *Tengo un piso que **está** cerca del centro.* *Conozco a alguien que **habla** ruso.*
+    - **wanted, unknown, maybe doesn't exist** → **subjunctive**: *Busco un piso que **esté** cerca del centro.* *Necesito a alguien que **hable** ruso.*
+    - **doesn't exist** (*nadie, nada, ningún*) → **subjunctive**: *No conozco a nadie que **hable** ruso.* *No hay nada que me **guste**.*
+    - **questions** about existence → usually subjunctive: *¿Hay alguien que **sepa** cocinar?*
+
+    Typical triggers: *busco, necesito, quiero, ¿hay…?, no hay, no conozco a nadie*.
+
+    Also: ***lo que*** + subjunctive = "whatever": *Haz **lo que quieras**.* — Do whatever you want. (*Hago lo que quiero* — I do what I want, a fact.)
+comparison:
+  en: |
+    English and Russian don't mark this with the verb — «ищу кого-нибудь, кто **говорит**…» vs «знаю человека, который **говорит**…». In Spanish the mood tells the listener whether the person really exists. Personal *a* also drops before an unknown thing: *busco **un** guía* but *busco **a** alguien*.
+examples:
+  - { text: "Busco un guía que sepa japonés.", translation: "I'm looking for a guide who knows Japanese.", source: "tatoeba:9770530" }
+  - { text: "Busco a alguien que hable portugués.", translation: "I'm looking for someone who can speak Portuguese.", source: "tatoeba:3670318" }
+  - { text: "Conozco a un hombre que habla latín.", translation: "I know a man who speaks Latin.", source: "tatoeba:1079520" }
+  - { text: "No hay nadie que lo haga.", translation: "There is no person to do it.", source: "tatoeba:2174638" }
+  - { text: "No hay nada que me moleste.", translation: "Nothing bothers me.", source: "tatoeba:2057261" }
+exercises:
+  - type: cloze
+    text: "Busco un piso que ___ cerca del centro."
+    answer: "esté"
+    hint: "estar — a flat I want, not one I have"
+    translation: "I'm looking for a flat that is near the centre."
+  - type: cloze
+    text: "Tengo un piso que ___ cerca del centro."
+    answer: "está"
+    hint: "estar — it exists"
+    translation: "I have a flat that is near the centre."
+  - type: cloze
+    text: "Necesitamos a alguien que ___ alemán."
+    answer: "hable"
+    hint: "hablar"
+    translation: "We need someone who speaks German."
+  - type: cloze
+    text: "No conozco a nadie que ___ tocar el piano."
+    answer: "sepa"
+    hint: "saber — nadie"
+    translation: "I don't know anyone who can play the piano."
+  - type: cloze
+    text: "¿Hay alguna farmacia que ___ los domingos?"
+    answer: "abra"
+    hint: "abrir — does one exist?"
+    translation: "Is there a pharmacy that opens on Sundays?"
+  - type: cloze
+    text: "Quiero un trabajo que me ___ viajar."
+    answer: "permita"
+    hint: "permitir"
+    translation: "I want a job that lets me travel."
+  - type: cloze
+    text: "Conozco a una chica que ___ en Madrid."
+    answer: "vive"
+    hint: "vivir — a real person"
+    translation: "I know a girl who lives in Madrid."
+  - type: cloze
+    text: "Haz lo que ___."
+    answer: "quieras"
+    hint: "querer — whatever you want"
+    translation: "Do whatever you want."

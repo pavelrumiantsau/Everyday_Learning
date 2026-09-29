@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0037
+cefr: B1
+order: 37
+title: "Habré terminado, habría ido: future and conditional perfect"
+explanation:
+  en: |
+    Both tenses are **haber + past participle** (*terminado, comido, hecho, dicho, puesto, visto*).
+
+    **Future perfect** — *habré, habrás, habrá, habremos, habréis, habrán* + participle:
+    - "will have done" by a moment in the future: *Para el lunes **habré terminado**.* — By Monday I'll have finished.
+    - a **guess about the past** ("must have", "I wonder"): *Tom no contesta, **habrá salido**.* — He must have gone out. *¿Qué le **habrá pasado**?* — I wonder what happened to him.
+
+    **Conditional perfect** — *habría, habrías, habría, habríamos, habríais, habrían* + participle:
+    - "would have done": *Yo no lo **habría hecho**.* — I wouldn't have done it.
+    - with an unreal past condition — *si* + **hubiera** + participle: *Si **hubiera sabido**, te lo **habría dicho**.* — If I had known, I would have told you.
+
+    Pronouns go before *haber*: *te lo habría dicho*, *se habrá olvidado*.
+comparison:
+  en: |
+    Same structure as English "will have / would have + participle". The guessing use of *habrá* is special: English says "must have", Russian «наверное, уже ушёл» — Spanish just uses the future perfect (*habrá salido*).
+examples:
+  - { text: "Todo habrá terminado en 48 horas.", translation: "In 48 hours, everything will be over!", source: "tatoeba:1704914" }
+  - { text: "Haz otros cinco y habrás terminado.", translation: "Do another five and you'll have finished.", source: "tatoeba:3791410" }
+  - { text: "Me pregunto qué le habrá pasado.", translation: "I wonder what has happened to her.", source: "tatoeba:454977" }
+  - { text: "Yo habría dicho lo mismo.", translation: "I would have said the same thing.", source: "tatoeba:3246104" }
+  - { text: "Si hubieras preguntado, yo te lo habría dicho.", translation: "If you had asked, I would have told you.", source: "tatoeba:3355192" }
+exercises:
+  - type: cloze
+    text: "Para el viernes ya ___ terminado el informe."
+    answer: "habré"
+    hint: "haber, yo, future"
+    translation: "By Friday I will have finished the report."
+  - type: cloze
+    text: "Cuando llegues, nosotros ya ___ cenado."
+    answer: "habremos"
+    hint: "haber, nosotros, future"
+    translation: "When you arrive, we will already have had dinner."
+  - type: cloze
+    text: "Tom no contesta. Se ___ dormido."
+    answer: "habrá"
+    hint: "a guess about the past: he must have…"
+    translation: "Tom isn't answering. He must have fallen asleep."
+  - type: cloze
+    text: "En tu lugar, yo no lo ___ hecho."
+    answer: "habría"
+    hint: "haber, yo, conditional"
+    translation: "In your place, I wouldn't have done it."
+  - type: cloze
+    text: "Si hubieras venido, te habría ___ la fiesta."
+    answer: "gustado"
+    hint: "gustar, past participle"
+    translation: "If you had come, you would have liked the party."
+  - type: cloze
+    text: "Si lo ___ sabido, te lo habría dicho."
+    answer: "hubiera"
+    hint: "haber, yo, imperfect subjunctive"
+    translation: "If I had known, I would have told you."
+  - type: cloze
+    text: "Con más tiempo, ellos ___ ganado el partido."
+    answer: "habrían"
+    hint: "haber, ellos, conditional"
+    translation: "With more time, they would have won the match."
+  - type: cloze
+    text: "¿Dónde ___ puesto mis llaves?"
+    answer: "habré"
+    hint: "haber, yo — \"where could I have put…?\""
+    translation: "Where could I have put my keys?"

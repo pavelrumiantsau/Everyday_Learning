@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0040
+cefr: A2
+order: 40
+title: "Te lo doy, dámelo, voy a decírtelo: where pronouns go"
+explanation:
+  en: |
+    **Order:** indirect before direct — *me lo, te la, nos los*. *Le/les* + *lo/la/los/las* → ***se***: *Se lo doy a Ana* (not ~~le lo~~).
+
+    **Position:**
+    - **before a conjugated verb:** *Te lo doy.* *No se lo digas.* (negative commands too)
+    - **attached to an affirmative command:** *Dámelo.* *Díselo.* *Pásamela.*
+    - **infinitive or gerund — two options:** *Te lo voy a decir* = *Voy a decírtelo*; *Lo estoy leyendo* = *Estoy leyéndolo*
+
+    **Accent:** attaching pronouns adds syllables, so the stress is marked to keep it in place: *da → **dá**melo*, *decir → deci**r**telo → de**cír**telo*, *leyendo → le**yén**dolo*.
+comparison:
+  en: |
+    English puts "it" after the verb (give **it** to me); Russian is flexible. Spanish is strict: pronouns go **before** the conjugated verb or **glued to the end** of a command, infinitive or gerund — never between (~~voy te lo a decir~~).
+examples:
+  - { text: "Dámelo.", translation: "Give it to me.", source: "tatoeba:1241277" }
+  - { text: "Tráemelo.", translation: "Bring it to me.", source: "tatoeba:580879" }
+  - { text: "Te lo voy a contar todo.", translation: "I'm going to tell you everything.", source: "tatoeba:631468" }
+  - { text: "Se lo voy a dar a Tom.", translation: "I'm going to give it to Tom.", source: "tatoeba:3533973" }
+  - { text: "Te lo puedo explicar si me dejas.", translation: "I can explain it to you if you let me.", source: "tatoeba:7317531" }
+exercises:
+  - type: cloze
+    text: "¿El libro? Te ___ doy mañana."
+    answer: "lo"
+    hint: "el libro → direct object"
+    translation: "The book? I'll give it to you tomorrow."
+  - type: cloze
+    text: "¿Las fotos? ___ las mando a mis padres."
+    answer: "Se"
+    hint: "les + las → ?"
+    translation: "The photos? I'm sending them to my parents."
+  - type: cloze
+    text: "¿La sal? ___, por favor."
+    answer: "Pásamela"
+    hint: "pasar (tú command) + me + la"
+    translation: "The salt? Pass it to me, please."
+  - type: cloze
+    text: "¿La verdad? No ___ la digas a nadie."
+    answer: "se"
+    hint: "le + la → ?; negative command: before the verb"
+    translation: "The truth? Don't tell it to anyone."
+  - type: cloze
+    text: "Voy a ___ ahora mismo."
+    answer: "decírtelo"
+    hint: "decir + te + lo (add an accent)"
+    translation: "I'm going to tell you right now."
+  - type: cloze
+    text: "¿La carta? Estoy ___ ahora."
+    answer: "escribiéndola"
+    hint: "escribiendo + la (add an accent)"
+    translation: "The letter? I'm writing it now."
+  - type: cloze
+    text: "¿Los zapatos? Me ___ quiero probar."
+    answer: "los"
+    hint: "los zapatos → direct object"
+    translation: "The shoes? I want to try them on."
+  - type: cloze
+    text: "No sé qué pasó. ___ tú."
+    answer: "Cuéntamelo"
+    hint: "contar (tú command) + me + lo"
+    translation: "I don't know what happened. You tell me."

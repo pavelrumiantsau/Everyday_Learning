@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0039
+cefr: B1
+order: 39
+title: "Connectors: además, sin embargo, así que, en cambio"
+explanation:
+  en: |
+    Words that link ideas — they make speech and writing sound B1+ instead of a list of short sentences.
+
+    - **adding:** *además* (besides, moreover), *también* (also), *incluso* (even)
+    - **contrast:** *pero* (but), ***sin embargo*** (however), ***en cambio*** (on the other hand, whereas), *aunque* (although)
+    - **cause:** *porque* (because — after the main clause), ***como*** (since, as — **at the start**): *Como llovía, nos quedamos.*, *ya que* (since)
+    - **result:** ***así que*** (so), ***por eso*** (that's why), *por lo tanto* (therefore — more formal)
+    - **explaining, ordering:** *es decir* (that is), *por ejemplo*, *en primer lugar* (first), *por último* (finally), *en resumen* (in short)
+
+    *Aunque* + indicative = "although" (a fact): *Aunque **es** caro, lo compro.* *Aunque* + subjunctive = "even if": *Iré aunque **llueva**.*
+comparison:
+  en: |
+    *Por eso* ≈ «поэтому», *así que* ≈ «так что», *sin embargo* ≈ «однако», *en cambio* ≈ «а вот, зато». Careful: "because" at the **start** of a sentence is *como*, not *porque*: *Como no tenía dinero, …* — «Так как денег не было, …».
+examples:
+  - { text: "Sin embargo, no tengo dinero.", translation: "However, I have no money.", source: "tatoeba:672903" }
+  - { text: "Tenía hambre, así que comí.", translation: "I was hungry, so I ate.", source: "tatoeba:4610765" }
+  - { text: "Estaba frío y, además, había viento.", translation: "It was cold, and in addition, it was windy.", source: "tatoeba:715258" }
+  - { text: "Ir en bici es un buen ejercicio. Además, no contamina el aire.", translation: "Cycling is good exercise. Moreover, it doesn't pollute the air.", source: "tatoeba:1933210" }
+  - { text: "Iré aunque llueva.", translation: "I will go even if it rains.", source: "tatoeba:991342" }
+exercises:
+  - type: cloze
+    text: "Estudié mucho; sin ___, suspendí el examen."
+    answer: "embargo"
+    hint: "however"
+    translation: "I studied a lot; however, I failed the exam."
+  - type: cloze
+    text: "Estaba cansado, ___ que me fui a dormir."
+    answer: "así"
+    hint: "so"
+    translation: "I was tired, so I went to bed."
+  - type: cloze
+    text: "El piso es bonito y, ___, es barato."
+    answer: "además"
+    hint: "besides"
+    translation: "The flat is nice and, besides, it's cheap."
+  - type: cloze
+    text: "___ llovía, nos quedamos en casa."
+    answer: "Como"
+    hint: "as, since (at the start of a sentence)"
+    translation: "As it was raining, we stayed at home."
+  - type: cloze
+    text: "No tengo coche; por ___, voy en bici."
+    answer: "eso"
+    hint: "that's why"
+    translation: "I don't have a car; that's why I cycle."
+  - type: cloze
+    text: "Mi hermano es muy tímido; yo, en ___, hablo con todos."
+    answer: "cambio"
+    hint: "on the other hand"
+    translation: "My brother is very shy; I, on the other hand, talk to everyone."
+  - type: cloze
+    text: "___ es caro, lo voy a comprar."
+    answer: "Aunque"
+    hint: "although"
+    translation: "Although it's expensive, I'm going to buy it."
+  - type: cloze
+    text: "Llegaré tarde, es ___, a las diez."
+    answer: "decir"
+    hint: "that is"
+    translation: "I'll arrive late, that is, at ten."
