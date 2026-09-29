@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0044
+cefr: B1
+order: 44
+title: "Lo bueno es que…, lo mejor, lo más rápido posible"
+explanation:
+  en: |
+    **Lo** + masculine singular adjective makes an abstract noun — "the … thing / the … part":
+
+    - ***Lo bueno** es que…* — the good thing is that…; ***lo malo*** — the bad part
+    - ***Lo importante** es participar.* — the important thing is to take part
+    - ***Lo mejor** / **lo peor** es…* — the best / worst thing is…
+    - ***Lo único** que quiero…* — the only thing I want…
+    - ***lo mismo*** — the same (thing): *Yo habría dicho lo mismo.*
+
+    **Lo más / lo menos + adjective or adverb:** *lo más rápido posible* — as fast as possible; *lo menos que podía hacer* — the least I could do; ***por lo menos*** — at least.
+
+    **Lo que** = "what" (the thing that): *No entiendo **lo que** dices.* ***Lo que** necesito es dormir.*
+
+    *Lo* never changes: *lo bueno de las vacaciones*, not ~~la buena~~.
+comparison:
+  en: |
+    English needs a noun ("the good **thing**", "the worst **part**"); Russian uses the neuter adjective — *lo bueno* = «хорошее», *lo importante* = «главное», *lo mismo* = «то же самое», *por lo menos* = «по крайней мере».
+examples:
+  - { text: "Lo importante es participar.", translation: "The important thing is to participate.", source: "tatoeba:1541227" }
+  - { text: "Lo mejor es decir la verdad.", translation: "The best thing is to tell the truth.", source: "tatoeba:2867688" }
+  - { text: "Lo único que quiero es salud.", translation: "Health is all I want.", source: "tatoeba:2055572" }
+  - { text: "Ven lo más rápido posible.", translation: "Come as quickly as possible.", source: "tatoeba:9840689" }
+  - { text: "Es lo menos que podía hacer.", translation: "It's the least I could do.", source: "tatoeba:1476811" }
+exercises:
+  - type: cloze
+    text: "___ bueno es que no llueve."
+    answer: "Lo"
+    hint: "the good thing"
+    translation: "The good thing is that it isn't raining."
+  - type: cloze
+    text: "Lo ___ de este trabajo es el horario."
+    answer: "peor"
+    hint: "the worst part"
+    translation: "The worst part of this job is the hours."
+  - type: cloze
+    text: "Lo ___ que sé es que llega mañana."
+    answer: "único"
+    hint: "the only thing"
+    translation: "The only thing I know is that he arrives tomorrow."
+  - type: cloze
+    text: "Yo pienso lo ___ que tú."
+    answer: "mismo"
+    hint: "the same"
+    translation: "I think the same as you."
+  - type: cloze
+    text: "Llámame lo más pronto ___."
+    answer: "posible"
+    hint: "as soon as possible"
+    translation: "Call me as soon as possible."
+  - type: cloze
+    text: "Por lo ___, llámame."
+    answer: "menos"
+    hint: "at least"
+    translation: "At least call me."
+  - type: cloze
+    text: "No entiendo lo ___ dices."
+    answer: "que"
+    hint: "what (= the thing that)"
+    translation: "I don't understand what you're saying."
+  - type: cloze
+    text: "Lo ___ es no perder la calma."
+    answer: "importante"
+    hint: "the important thing"
+    translation: "The important thing is not to lose your cool."

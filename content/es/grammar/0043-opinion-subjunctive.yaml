@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0043
+cefr: B1
+order: 43
+title: "Creo que es… / No creo que sea…: opinions and certainty"
+explanation:
+  en: |
+    Verbs and phrases of **opinion or certainty** take the **indicative** when affirmative, and the **subjunctive** when negative or doubtful:
+
+    - *Creo que **es** verdad.* — *No creo que **sea** verdad.*
+    - *Pienso que **viene**.* — *No pienso que **venga**.*
+    - *Es cierto / Es verdad que **tiene** razón.* — *No es cierto que **tenga** razón.*
+    - *Está claro que **sabe**.* — *No está claro que **sepa**.*
+    - *Parece que **va** a llover.* — *No parece que **vaya** a llover.*
+
+    **Doubt** is always subjunctive, even without *no*: *Dudo que **llueva**.* *Es posible / Es probable que **llegue** tarde.* *Quizás **venga**.* (with *quizás* both moods are possible; subjunctive = less sure)
+
+    Questions: *¿Crees que **es** buena idea?* is normal (you're asking for an opinion).
+comparison:
+  en: |
+    English and Russian use the same verb form in both: "I think he's coming / I don't think he's coming", «думаю, что придёт / не думаю, что придёт». In Spanish the mood tells how sure you are: indicative = I state it, subjunctive = I don't vouch for it.
+examples:
+  - { text: "No creo que venga.", translation: "I don't think he'll come.", source: "tatoeba:720116" }
+  - { text: "Creo que todo va bien.", translation: "I think everything is going well.", source: "tatoeba:1218268" }
+  - { text: "Dudo que Tom sea feliz.", translation: "I doubt that Tom is happy.", source: "tatoeba:1650642" }
+  - { text: "No creo que funcione.", translation: "I don't think it works.", source: "tatoeba:1310697" }
+  - { text: "No es cierto que haya acuerdo sobre este tema.", translation: "It's not true that there's agreement on this subject.", source: "tatoeba:5637282" }
+exercises:
+  - type: cloze
+    text: "Creo que Ana ___ en casa."
+    answer: "está"
+    hint: "estar — affirmative opinion"
+    translation: "I think Ana is at home."
+  - type: cloze
+    text: "No creo que Ana ___ en casa."
+    answer: "esté"
+    hint: "estar — negative opinion"
+    translation: "I don't think Ana is at home."
+  - type: cloze
+    text: "Dudo que ellos ___ a tiempo."
+    answer: "lleguen"
+    hint: "llegar — doubt"
+    translation: "I doubt they'll arrive on time."
+  - type: cloze
+    text: "Está claro que tú ___ razón."
+    answer: "tienes"
+    hint: "tener — certainty"
+    translation: "It's clear that you are right."
+  - type: cloze
+    text: "No es verdad que yo ___ miedo."
+    answer: "tenga"
+    hint: "tener — denied"
+    translation: "It's not true that I'm afraid."
+  - type: cloze
+    text: "Es posible que mañana ___."
+    answer: "llueva"
+    hint: "llover — possibility"
+    translation: "It may rain tomorrow."
+  - type: cloze
+    text: "Pienso que este plan ___ bueno."
+    answer: "es"
+    hint: "ser — affirmative opinion"
+    translation: "I think this plan is good."
+  - type: cloze
+    text: "No parece que el tren ___ a salir pronto."
+    answer: "vaya"
+    hint: "ir — negative 'it seems'"
+    translation: "It doesn't look like the train is going to leave soon."

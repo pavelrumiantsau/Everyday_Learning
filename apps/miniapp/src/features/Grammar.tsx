@@ -12,16 +12,18 @@ import { haptic } from "../telegram";
 const accepted = (ex: Exercise) => [ex.answer, ...(ex.also ?? [])];
 const langOf = (lesson: Pick<Lesson, "id">) => lesson.id.slice(0, 2);
 
-// --- markdown-light: **bold**, *italic*, ***both***, one level of nesting (*a **b** c*, **a *b* c**), "- " lists,
+// --- markdown-light: **bold**, *italic*, ***both***, one level of nesting (*a **b** c*, **a *b* c**), ~~wrong~~, "- " lists,
 // blank line = new paragraph ---
 
-const INLINE = /(\*\*\*[^*]+\*\*\*|\*\*(?!\*)(?:[^*]|\*[^*]+\*)+\*\*|\*(?:[^*]|\*\*[^*]+\*\*)+\*)/g;
+const INLINE = /(~~[^~]+~~|\*\*\*[^*]+\*\*\*|\*\*(?!\*)(?:[^*]|\*[^*]+\*)+\*\*|\*(?:[^*]|\*\*[^*]+\*\*)+\*)/g;
 const BOTH = /^\*\*\*[^*]+\*\*\*$/;
 const BOLD = /^\*\*(?!\*)(?:[^*]|\*[^*]+\*)+\*\*$/;
 
 function inline(text: string): ReactNode[] {
   return text.split(INLINE).map((part, i) =>
-    BOTH.test(part) ? (
+    /^~~[^~]+~~$/.test(part) ? (
+      <s key={i}>{part.slice(2, -2)}</s>
+    ) : BOTH.test(part) ? (
       <b key={i}><i>{part.slice(3, -3)}</i></b>
     ) : BOLD.test(part) ? (
       <b key={i}>{inline(part.slice(2, -2))}</b>

@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0049
+cefr: B1
+order: 49
+title: "Творительный падеж: tapo rašytoju, važiuoju autobusu, rytais"
+explanation:
+  ru: |
+    Творительный (*įnagininkas*, вопрос *kuo?*) в литовском шире, чем в русском, и часто стоит **без предлога**.
+
+    **1. Кем стать, работать, считаться:**
+    - *tapti* — *Jis tapo **rašytoju**.* *Ji tapo **direktore**.*
+    - *dirbti* — *Dirbu **sodininku**.* (работаю садовником)
+    - *laikyti* (считать), *vadinti* (называть), *išrinkti* (избрать): *Tomą laiko **didžiu pianistu**.*
+    - но в настоящем времени после *būti* — именительный: *Jis **yra** mokytojas.*
+
+    **2. Чем, на чём (средство)** — без предлога: *važiuoti **autobusu, traukiniu, dviračiu***, *rašyti **pieštuku***, *valgyti **šaukštu***, *kalbėti **lietuvių kalba***. Предлог *su* — только «вместе с кем»: *su draugu*.
+
+    **3. После глаголов:** *domėtis*, *didžiuotis*, *džiaugtis*, *rūpintis*, *žavėtis* — *kuo*; *tikėti* и *pasitikėti* (верить, доверять) — тоже *kuo*: *Tikiu **tavimi**.*
+
+    **4. Время и путь:** *rytais, vakarais, savaitgaliais* — по утрам, по вечерам, по выходным; *eiti **keliu**, **pakrante*** — идти по дороге, по берегу.
+
+    Окончания ед. ч.: *-as → **-u*** (rašytoju), *-is/-ys → **-iu*** (traukiniu), *-us → **-umi*** (sūnumi), *-a → **-a***, *-ė → **-e***; мн. ч.: **-ais** (m), **-omis / -ėmis** (f).
+comparison:
+  ru: |
+    Ловушки: «ехать **на** автобусе» — *važiuoti **autobusu*** (без *su*!); «верить **в** тебя» — *tikėti **tavimi***; «писать ручкой» совпадает — *rašyti tušinuku*, но ~~su tušinuku~~ — ошибка, *su* означает только компанию.
+examples:
+  - { text: "Jis tapo rašytoju.", translation: "Он стал писателем.", source: "tatoeba:11450766" }
+  - { text: "Aš dirbu sodininku.", translation: "Я работаю садовником.", source: "tatoeba:6918399" }
+  - { text: "Aš važiuoju autobusu.", translation: "Я еду на автобусе.", source: "tatoeba:12144560" }
+  - { text: "Aš tikiu tavimi.", translation: "Я верю в тебя.", source: "tatoeba:2153711" }
+  - { text: "Tomą laiko didžiu pianistu.", translation: "Тома считают великим пианистом.", source: "tatoeba:10781087" }
+exercises:
+  - type: cloze
+    text: "Po studijų ji tapo ___."
+    answer: "gydytoja"
+    hint: "gydytoja → тв. п."
+    translation: "После учёбы она стала врачом."
+  - type: cloze
+    text: "Mano brolis dirba ___."
+    answer: "vairuotoju"
+    hint: "vairuotojas → тв. п."
+    translation: "Мой брат работает водителем."
+  - type: cloze
+    text: "Į darbą aš važiuoju ___."
+    answer: "traukiniu"
+    hint: "traukinys → тв. п. (без предлога)"
+    translation: "На работу я езжу на поезде."
+  - type: cloze
+    text: "Vaikai labai domisi ___."
+    answer: "gyvūnais"
+    hint: "gyvūnai → тв. п. мн. ч."
+    translation: "Дети очень интересуются животными."
+  - type: cloze
+    text: "Tėvai didžiuojasi ___."
+    answer: "sūnumi"
+    hint: "sūnus → тв. п."
+    translation: "Родители гордятся сыном."
+  - type: cloze
+    text: "Rašyk ___, ne pieštuku."
+    answer: "tušinuku"
+    hint: "tušinukas → тв. п. (без su!)"
+    translation: "Пиши ручкой, а не карандашом."
+  - type: cloze
+    text: "___ aš bėgioju parke."
+    answer: "Rytais"
+    hint: "rytas → тв. п. мн. ч. = по утрам"
+    translation: "По утрам я бегаю в парке."
+  - type: cloze
+    text: "Visi jį laiko geru ___."
+    answer: "specialistu"
+    hint: "specialistas → тв. п. (laikyti kuo)"
+    translation: "Все считают его хорошим специалистом."

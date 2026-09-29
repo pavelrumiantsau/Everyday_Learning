@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0048
+cefr: B2
+order: 48
+title: "Словообразование: mokytojas, dainininkas, draugystė, atsakingumas"
+explanation:
+  ru: |
+    Если знаешь суффиксы, незнакомое слово часто можно понять без словаря.
+
+    **Кто делает (от глагола):**
+    - **-tojas / -toja**: *mokyti → **mokytojas***, *gydyti → **gydytojas***, *vairuoti → **vairuotojas***, *vartoti → **vartotojas***
+    - **-ėjas / -ėja**: *kurti → **kūrėjas***, *remti → **rėmėjas*** (спонсор, сторонник)
+    - **-ikas / -ikė**: *bėgti → **bėgikas***, *plaukti → **plaukikas***
+
+    **Кто связан с предметом (от существительного):** **-ininkas / -ininkė**: *daina → **dainininkas***, *menas → **menininkas***, *sportas → **sportininkas***, *gaisras → **gaisrininkas***.
+
+    **Отвлечённые существительные:**
+    - **-ystė** (от сущ. и прил.): *vaikas → **vaikystė***, *jaunas → **jaunystė***, *draugas → **draugystė***, *kvailas → **kvailystė***
+    - **-umas** (от прилагательных, свойство): *atsakingas → **atsakingumas***, *aiškus → **aiškumas***, *tikslus → **tikslumas***
+    - **-ybė**: *asmuo → **asmenybė***, *galimas → **galimybė***, *būtinas → **būtinybė***; *tikėtis → **tikimybė***
+
+    **Прилагательные:** **-inis** (относящийся к чему): *vakaras → **vakarinis***, *istorija → **istorinis***; **-iškas** (такой, как): *vaikas → **vaikiškas*** (детский, ребячливый), *draugas → **draugiškas*** (дружелюбный). Наречия от них — на **-iškai**: *vaikiškai, draugiškai*.
+comparison:
+  ru: |
+    Многое совпадает с русским: *-tojas* ≈ «-тель» (*mokytojas* — учитель, *rašytojas* — писатель), *-ystė* ≈ «-ство, -ость» (*draugystė* — дружба, *jaunystė* — молодость), *-umas* ≈ «-ость» (*atsakingumas* — ответственность). Женские формы почти всегда на **-a / -ė**: *mokytoja, dainininkė*.
+examples:
+  - { text: "Nesu mokytojas.", translation: "Я не учитель.", source: "tatoeba:3137834" }
+  - { text: "Ji dainininkė.", translation: "Она певица.", source: "tatoeba:3596294" }
+  - { text: "Jos vaikystė buvo gera.", translation: "Её детство было хорошим.", source: "tatoeba:13883252" }
+  - { text: "Mūsų draugystė baigėsi.", translation: "Наша дружба закончилась.", source: "tatoeba:11347745" }
+  - { text: "Kame skirtumas?", translation: "В чём разница?", source: "tatoeba:2209279" }
+exercises:
+  - type: cloze
+    text: "Mano sesuo dirba ___ – ji moko vaikus."
+    answer: "mokytoja"
+    hint: "mokyti → кто учит (ж. р., тв. п.)"
+    translation: "Моя сестра работает учительницей — она учит детей."
+  - type: cloze
+    text: "Autobuso ___ sustojo prie stotelės."
+    answer: "vairuotojas"
+    hint: "vairuoti → кто водит"
+    translation: "Водитель автобуса остановился у остановки."
+  - type: cloze
+    text: "Jis mėgsta dainuoti ir nori tapti ___."
+    answer: "dainininku"
+    hint: "daina → -ininkas; tapti kuo → тв. п."
+    translation: "Он любит петь и хочет стать певцом."
+  - type: cloze
+    text: "Mūsų ___ prasidėjo mokykloje."
+    answer: "draugystė"
+    hint: "draugas → -ystė"
+    translation: "Наша дружба началась в школе."
+  - type: cloze
+    text: "___ aš gyvenau kaime."
+    answer: "Vaikystėje"
+    hint: "vaikas → -ystė, мест. п."
+    translation: "В детстве я жил в деревне."
+  - type: cloze
+    text: "Šiame darbe svarbiausia – ___."
+    answer: "atsakingumas"
+    hint: "atsakingas → -umas"
+    translation: "В этой работе главное — ответственность."
+  - type: cloze
+    text: "Kokia ___, kad rytoj lis?"
+    answer: "tikimybė"
+    hint: "tikėtis → -ybė"
+    translation: "Какова вероятность, что завтра будет дождь?"
+  - type: cloze
+    text: "Jis elgiasi labai ___ – kaip mažas vaikas."
+    answer: "vaikiškai"
+    hint: "vaikas → -iškas → наречие"
+    translation: "Он ведёт себя очень по-детски — как маленький ребёнок."
