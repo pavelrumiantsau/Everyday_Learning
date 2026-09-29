@@ -1,0 +1,46 @@
+id: lt-r-0030
+cefr: B2
+title: "Baltijos kelias"
+topic: "Балтийский путь, 23 августа 1989 г."
+source: generated
+text: |
+  1989 metų rugpjūčio 23-iąją apie du milijonus žmonių Lietuvoje, Latvijoje ir Estijoje susikibo rankomis ir sudarė daugiau kaip 600 kilometrų ilgio gyvą grandinę nuo Vilniaus per Rygą iki Talino. Ši akcija, pavadinta Baltijos keliu, tapo vienu garsiausių taikaus pasipriešinimo pavyzdžių pasaulio istorijoje.
+
+  Data buvo pasirinkta neatsitiktinai. Lygiai prieš penkiasdešimt metų Sovietų Sąjunga ir nacistinė Vokietija pasirašė Molotovo–Ribentropo paktą. Slaptuosiuose jo protokoluose buvo nuspręsta, kad Baltijos šalys atiteks Sovietų Sąjungai. Ilgą laiką Maskva neigė, kad tokie protokolai apskritai egzistavo, todėl Baltijos kelio dalyviai reikalavo pripažinti tiesą ir atkurti valstybių nepriklausomybę.
+
+  Akciją organizavo Lietuvos Sąjūdis kartu su Latvijos ir Estijos liaudies frontais. Interneto ir mobiliųjų telefonų tada nebuvo, todėl informacija sklido per radiją, laikraščius ir iš lūpų į lūpas. Žmonės važiavo autobusais, automobiliais ir net traktoriais, kad užpildytų tuščias vietas kaimo keliuose. Septintą valandą vakaro visi penkiolika minučių stovėjo susikibę rankomis, daugelis verkė ir dainavo.
+
+  Tuo metu nedaug kas tikėjo, kad po poros metų visos trys šalys bus laisvos. Vis dėlto Baltijos kelias parodė pasauliui, kad baltų tautos siekia nepriklausomybės vieningai ir be smurto. Lietuva paskelbė nepriklausomybės atkūrimą jau 1990 metų kovo 11-ąją, o 1991-aisiais ją pripažino dauguma pasaulio valstybių.
+
+  Baltijos kelias įkvėpė ir kitus. Panašias gyvas grandines vėliau surengė žmonės kitose šalyse, siekdami atkreipti pasaulio dėmesį į savo problemas. 2009 metais Baltijos kelio dokumentai buvo įtraukti į UNESCO programos „Pasaulio atmintis“ registrą – kaip unikalus liudijimas apie tai, kaip taikiai galima kovoti už laisvę.
+
+  Šiandien rugpjūčio 23-iąją prisimenamos ne tik Baltijos kelio metinės, bet ir totalitarinių režimų aukos. Daugelis šeimų saugo nuotraukas, kuriose jų tėvai ar seneliai stovi toje ilgoje grandinėje.
+glossary:
+  - { word: "susikibo", lemma: "susikibti", pos: verb, forms: { pres: "susikimba", past: "susikibo" }, meaning: "сцепиться, взяться (за руки)", note: "susikibti rankomis — взяться за руки" }
+  - { word: "grandinę", lemma: "grandinė", pos: noun, gender: f, gen: "grandinės", meaning: "цепь", note: "вин. п." }
+  - { word: "taikaus", lemma: "taikus", pos: adj, meaning: "мирный", note: "род. п." }
+  - { word: "neatsitiktinai", lemma: "neatsitiktinai", pos: adv, meaning: "неслучайно" }
+  - { word: "nacistinė", lemma: "nacistinis", pos: adj, meaning: "нацистский" }
+  - { word: "paktą", lemma: "paktas", pos: noun, gender: m, gen: "pakto", meaning: "пакт", note: "вин. п." }
+  - { word: "Slaptuosiuose", lemma: "slaptasis", pos: adj, meaning: "секретный", note: "местоим. форма, местн. п. мн. ч.: slaptieji protokolai — секретные протоколы" }
+  - { word: "atiteks", lemma: "atitekti", pos: verb, forms: { pres: "atitenka", past: "atiteko" }, meaning: "достаться, отойти (к кому)", note: "буд. вр." }
+  - { word: "frontais", lemma: "frontas", pos: noun, gender: m, gen: "fronto", meaning: "фронт", note: "твор. п. мн. ч.: liaudies frontas — народный фронт" }
+  - { word: "sklido", lemma: "sklisti", pos: verb, forms: { pres: "sklinda", past: "sklido" }, meaning: "распространяться" }
+  - { word: "lūpų", lemma: "lūpa", pos: noun, gender: f, gen: "lūpos", meaning: "губа", note: "iš lūpų į lūpas — из уст в уста" }
+  - { word: "užpildytų", lemma: "užpildyti", meaning: "заполнить", item: lt-w-0719, note: "усл. накл.: kad užpildytų — чтобы заполнить" }
+  - { word: "vieningai", lemma: "vieningai", pos: adv, meaning: "единодушно, сплочённо" }
+  - { word: "smurto", lemma: "smurtas", pos: noun, gender: m, gen: "smurto", meaning: "насилие", note: "be smurto — без насилия" }
+  - { word: "pripažino", lemma: "pripažinti", meaning: "признать", item: lt-w-0109, note: "прош. вр." }
+  - { word: "metinės", lemma: "metinės", pos: noun, gender: f, gen: "metinių", meaning: "годовщина", note: "только мн. ч." }
+  - { word: "totalitarinių", lemma: "totalitarinis", pos: adj, meaning: "тоталитарный", note: "род. п. мн. ч." }
+  - { word: "aukos", lemma: "auka", pos: noun, gender: f, gen: "aukos", meaning: "жертва", note: "им. п. мн. ч." }
+questions:
+  - q: "Kiek žmonių dalyvavo Baltijos kelyje?"
+    options: ["Apie du milijonus", "Apie du tūkstančius", "Apie dvidešimt milijonų"]
+    answer: 0
+  - q: "Kodėl buvo pasirinkta rugpjūčio 23-ioji?"
+    options: ["Tai Lietuvos nepriklausomybės diena", "Tą dieną prieš 50 metų buvo pasirašytas Molotovo–Ribentropo paktas", "Tą dieną įkurtas Sąjūdis"]
+    answer: 1
+  - q: "Kaip žmonės sužinojo apie akciją?"
+    options: ["Per internetą", "Mobiliaisiais telefonais", "Per radiją, laikraščius ir iš lūpų į lūpas"]
+    answer: 2

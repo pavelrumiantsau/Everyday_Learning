@@ -1,0 +1,47 @@
+id: lt-r-0031
+cefr: B2
+title: "Pas šeimos gydytoją"
+topic: "здравоохранение и e-sveikata"
+source: generated
+text: |
+  Lietuvoje kiekvienas gyventojas turėtų būti prisirašęs prie poliklinikos ir turėti savo šeimos gydytoją. Būtent pas jį pirmiausia kreipiamasi susirgus: šeimos gydytojas apžiūri pacientą, paskiria tyrimus, išrašo vaistus ir, jeigu reikia, siunčia pas specialistą – kardiologą, neurologą ar kitą gydytoją.
+
+  Pastaraisiais metais daug kas persikėlė į internetą. Elektroninėje sveikatos sistemoje pacientas gali pamatyti savo tyrimų rezultatus, gydytojų išvadas ir išrašytus receptus. Popierinių receptų beveik nebeliko: vaistinėje užtenka parodyti asmens tapatybės kortelę, ir vaistininkas sistemoje randa, ką gydytojas paskyrė. Daugelyje poliklinikų pas gydytoją galima užsiregistruoti internetu, o kartais – net pasikonsultuoti nuotoliu, vaizdo skambučiu.
+
+  Vis dėlto pacientai dažnai skundžiasi eilėmis. Pas šeimos gydytoją paprastai pavyksta patekti per kelias dienas, bet pas kai kuriuos specialistus tenka laukti savaites ar net mėnesius. Todėl nemažai žmonių renkasi privačias klinikas, kuriose už vizitą reikia susimokėti, tačiau laukti tenka gerokai trumpiau. Kiti, ypač gyvenantys užsienyje, suderina apsilankymus pas gydytojus su atostogomis tėvynėje.
+
+  Medikai savo ruožtu primena, kad daugelio problemų galima išvengti. Reguliarūs profilaktiniai patikrinimai, sveika mityba ir judėjimas kainuoja kur kas mažiau nei gydymas. Valstybė apmoka kai kurias prevencines programas – pavyzdžiui, tam tikro amžiaus žmonės gali nemokamai pasitikrinti širdį ar dalyvauti ankstyvosios vėžio diagnostikos programose.
+
+  Dar viena svarbi tema – gydytojų trūkumas regionuose. Jauni medikai dažniau renkasi didmiesčius, kur daugiau galimybių tobulėti ir didesni atlyginimai, todėl mažesnių miestų poliklinikose kartais dirba vos keli gydytojai. Valstybė bando šią problemą spręsti skirdama papildomas išmokas tiems, kurie sutinka dirbti atokesnėse vietovėse.
+
+  Taigi sveikatos priežiūros sistema turi ir privalumų, ir trūkumų. Tačiau vienas patarimas tinka visiems: nelaukite, kol skausmas taps nepakeliamas, – kreipkitės į gydytoją laiku.
+glossary:
+  - { word: "prisirašęs", lemma: "prisirašyti", pos: verb, forms: { pres: "prisirašo", past: "prisirašė" }, meaning: "записаться, прикрепиться", note: "прич.: būti prisirašęs prie poliklinikos — быть прикреплённым к поликлинике" }
+  - { word: "kreipiamasi", lemma: "kreiptis", meaning: "обращаться", item: lt-w-0208, note: "безл.: kreipiamasi — обращаются" }
+  - { word: "susirgus", lemma: "susirgti", meaning: "заболеть", item: lt-w-0324, note: "деепричастие: susirgus — заболев, при болезни" }
+  - { word: "apžiūri", lemma: "apžiūrėti", pos: verb, forms: { pres: "apžiūri", past: "apžiūrėjo" }, meaning: "осмотреть" }
+  - { word: "išrašo", lemma: "išrašyti", pos: verb, forms: { pres: "išrašo", past: "išrašė" }, meaning: "выписать" }
+  - { word: "išvadas", lemma: "išvada", meaning: "заключение, вывод", item: lt-w-0696, note: "вин. п. мн. ч." }
+  - { word: "receptus", lemma: "receptas", meaning: "рецепт", item: lt-w-0607, note: "вин. п. мн. ч." }
+  - { word: "nebeliko", lemma: "likti", meaning: "остаться", note: "ne-be-: nebeliko — не осталось" }
+  - { word: "tapatybės", lemma: "tapatybė", pos: noun, gender: f, gen: "tapatybės", meaning: "личность, идентичность", note: "asmens tapatybės kortelė — ID-карта" }
+  - { word: "vaistininkas", lemma: "vaistininkas", pos: noun, gender: m, gen: "vaistininko", meaning: "фармацевт" }
+  - { word: "užsiregistruoti", lemma: "užsiregistruoti", pos: verb, forms: { pres: "užsiregistruoja", past: "užsiregistravo" }, meaning: "записаться, зарегистрироваться" }
+  - { word: "eilėmis", lemma: "eilė", meaning: "очередь", item: lt-w-0077, note: "твор. п. мн. ч.: skųstis eilėmis — жаловаться на очереди" }
+  - { word: "susimokėti", lemma: "susimokėti", pos: verb, forms: { pres: "susimoka", past: "susimokėjo" }, meaning: "заплатить (за себя)" }
+  - { word: "ruožtu", lemma: "ruožtas", pos: noun, gender: m, gen: "ruožto", meaning: "полоса, отрезок", note: "savo ruožtu — в свою очередь" }
+  - { word: "profilaktiniai", lemma: "profilaktinis", pos: adj, meaning: "профилактический" }
+  - { word: "mityba", lemma: "mityba", pos: noun, gender: f, gen: "mitybos", meaning: "питание" }
+  - { word: "diagnostikos", lemma: "diagnostika", pos: noun, gender: f, gen: "diagnostikos", meaning: "диагностика" }
+  - { word: "priežiūros", lemma: "priežiūra", meaning: "уход, надзор", item: lt-w-0420, note: "sveikatos priežiūra — здравоохранение" }
+  - { word: "nepakeliamas", lemma: "nepakeliamas", pos: adj, meaning: "невыносимый" }
+questions:
+  - q: "Pas ką pirmiausia kreipiamasi susirgus?"
+    options: ["Pas kardiologą", "Į vaistinę", "Pas šeimos gydytoją"]
+    answer: 2
+  - q: "Ką reikia parodyti vaistinėje, kad gautum paskirtus vaistus?"
+    options: ["Asmens tapatybės kortelę", "Popierinį receptą", "Poliklinikos pažymą"]
+    answer: 0
+  - q: "Kodėl dalis žmonių renkasi privačias klinikas?"
+    options: ["Ten vizitai nemokami", "Ten laukti tenka gerokai trumpiau", "Ten dirba tik užsienio gydytojai"]
+    answer: 1

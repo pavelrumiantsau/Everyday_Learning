@@ -1,0 +1,46 @@
+id: lt-r-0032
+cefr: B2
+title: "Dviračiu ar paspirtuku?"
+topic: "город, велосипеды и самокаты"
+source: generated
+text: |
+  Dar prieš dešimtmetį dviratininkų Vilniaus gatvėse buvo nedaug. Šiandien vaizdas visai kitas: nutiesta daug naujų dviračių takų, mieste galima išsinuomoti dviratį ar elektrinį paspirtuką, o nemažai darbuotojų į biurą atvažiuoja dviračiu. Panašiai keičiasi ir Kaunas, Klaipėda bei kiti miestai.
+
+  Miestų valdžia pabrėžia, kad dviratis – ne tik sveika, bet ir ekologiška transporto priemonė. Kuo daugiau žmonių važiuoja dviračiais ar viešuoju transportu, tuo mažiau automobilių spūsčių ir užteršto oro. Be to, vietoj automobilių stovėjimo aikštelių atsiranda daugiau erdvės pėstiesiems, medžiams ir kavinių terasoms.
+
+  Vis dėlto ne visi džiaugiasi. Vairuotojai skundžiasi, kad dėl naujų dviračių takų gatvės susiaurėjo, o stovėjimo vietų mieste mažėja. Pėstieji piktinasi paspirtukais, kurie lekia šaligatviais ir būna palikti bet kur – kartais tiesiog tako viduryje. Todėl savivaldybės nustato griežtesnes taisykles: ribojamas greitis, įrengiamos specialios paspirtukų statymo vietos.
+
+  Didžiausias iššūkis – klimatas. Lietuvoje žiema ilga, o ruduo lietingas, todėl daugelis dviračius padeda į sandėlį jau spalį. Tačiau yra ir tokių, kurie mina pedalus ištisus metus: jie perka specialias padangas su dygliais, šiltas pirštines ir tvirtina, kad nėra blogo oro – yra tik netinkami drabužiai.
+
+  Svarbų vaidmenį atlieka ir viešasis transportas. Vilniuje ir Kaune kursuoja elektriniai autobusai ir troleibusai, o bilietą galima nusipirkti mobiliąja programėle. Kai kurie gyventojai derina kelias transporto priemones: iki stotelės nuvažiuoja paspirtuku, toliau važiuoja autobusu, o paskutinius kelis šimtus metrų eina pėsčiomis.
+
+  Galbūt ateities miestas bus toks, kuriame automobilis taps ne būtinybe, o tik viena iš galimybių. Kol kas lietuviai savo automobilių atsisakyti neskuba, tačiau jaunoji karta vis dažniau renkasi dviratį, paspirtuką arba tiesiog eina į darbą pėsčiomis.
+glossary:
+  - { word: "dviratininkų", lemma: "dviratininkas", pos: noun, gender: m, gen: "dviratininko", meaning: "велосипедист", note: "род. п. мн. ч." }
+  - { word: "nutiesta", lemma: "nutiesti", pos: verb, forms: { pres: "nutiesia", past: "nutiesė" }, meaning: "проложить", note: "страд. прич., безл.: nutiesta takų — проложено дорожек" }
+  - { word: "paspirtuką", lemma: "paspirtukas", pos: noun, gender: m, gen: "paspirtuko", meaning: "самокат", note: "вин. п.; elektrinis paspirtukas — электросамокат" }
+  - { word: "ekologiška", lemma: "ekologiškas", pos: adj, meaning: "экологичный", note: "ж. р." }
+  - { word: "užteršto", lemma: "užterštas", pos: adj, meaning: "загрязнённый", note: "род. п." }
+  - { word: "pėstiesiems", lemma: "pėsčiasis", pos: noun, gender: m, gen: "pėsčiojo", meaning: "пешеход", note: "дат. п. мн. ч." }
+  - { word: "terasoms", lemma: "terasa", pos: noun, gender: f, gen: "terasos", meaning: "терраса", note: "дат. п. мн. ч." }
+  - { word: "susiaurėjo", lemma: "susiaurėti", pos: verb, forms: { pres: "susiaurėja", past: "susiaurėjo" }, meaning: "сузиться" }
+  - { word: "piktinasi", lemma: "piktintis", pos: verb, forms: { pres: "piktinasi", past: "piktinosi" }, meaning: "возмущаться", note: "piktintis kuo — возмущаться чем (твор. п.)" }
+  - { word: "lekia", lemma: "lėkti", pos: verb, forms: { pres: "lekia", past: "lėkė" }, meaning: "мчаться, лететь" }
+  - { word: "šaligatviais", lemma: "šaligatvis", pos: noun, gender: m, gen: "šaligatvio", meaning: "тротуар", note: "твор. п. мн. ч.: lėkti šaligatviais — мчаться по тротуарам" }
+  - { word: "statymo", lemma: "statymas", pos: noun, gender: m, gen: "statymo", meaning: "парковка, установка", note: "statymo vieta — место для стоянки" }
+  - { word: "sandėlį", lemma: "sandėlis", pos: noun, gender: m, gen: "sandėlio", meaning: "склад, кладовка", note: "вин. п." }
+  - { word: "mina", lemma: "minti", pos: verb, forms: { pres: "mina", past: "mynė" }, meaning: "давить ногами, крутить (педали)", note: "minti pedalus — крутить педали" }
+  - { word: "ištisus", lemma: "ištisas", meaning: "целый, сплошной", item: lt-w-0693, note: "вин. п. мн. ч.: ištisus metus — круглый год" }
+  - { word: "dygliais", lemma: "dyglys", pos: noun, gender: m, gen: "dyglio", meaning: "шип, колючка", note: "твор. п. мн. ч.: padangos su dygliais — шипованная резина" }
+  - { word: "būtinybe", lemma: "būtinybė", pos: noun, gender: f, gen: "būtinybės", meaning: "необходимость", note: "твор. п." }
+  - { word: "pėsčiomis", lemma: "pėsčiomis", meaning: "пешком", item: lt-w-0426 }
+questions:
+  - q: "Kodėl miestų valdžia skatina važiuoti dviračiu?"
+    options: ["Nes tai sveika ir ekologiška", "Nes automobiliai uždrausti", "Nes autobusai brangūs"]
+    answer: 0
+  - q: "Kuo skundžiasi pėstieji?"
+    options: ["Dviračių takai per platūs", "Paspirtukai lekia šaligatviais ir paliekami bet kur", "Autobusai vėluoja"]
+    answer: 1
+  - q: "Ką daro tie, kurie važinėja dviračiu ištisus metus?"
+    options: ["Važiuoja tik vasarą", "Keliauja tik autobusu", "Perka specialias padangas ir šiltas pirštines"]
+    answer: 2

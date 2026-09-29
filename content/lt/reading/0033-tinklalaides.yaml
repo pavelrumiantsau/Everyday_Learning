@@ -1,0 +1,46 @@
+id: lt-r-0033
+cefr: B2
+title: "Tinklalaidės – naujasis radijas"
+topic: "подкасты"
+source: generated
+text: |
+  Dar neseniai radijas buvo pagrindinis būdas klausytis pokalbių ir laidų. Šiandien vis daugiau žmonių renkasi tinklalaides – garso įrašus, kurių galima klausytis bet kada: važiuojant į darbą, sportuojant ar tvarkant namus. Lietuvoje tinklalaidžių pasirinkimas sparčiai auga: yra laidų apie istoriją, mokslą, psichologiją, ekonomiką ir net apie lietuvių kalbą.
+
+  Tinklalaidžių populiarumas paaiškinamas paprastai. Jos nemokamos, nereikalauja visiško dėmesio, o klausytojas pats renkasi, ko ir kada klausytis. Daugelis tinklalaidžių kūrėjų – ne profesionalūs žurnalistai, o savo srities žinovai: gydytojai, istorikai, programuotojai ar tiesiog įdomūs pasakotojai. Klausytojams patinka neformalus tonas, tarsi jie sėdėtų prie vieno stalo su pašnekovais.
+
+  Tradicinis radijas taip pat prisitaikė. Visuomeninis transliuotojas LRT daugelį savo laidų skelbia internete, todėl praleistą laidą galima išklausyti vėliau. Kai kurios radijo stotys kuria laidas specialiai tinklalaidžių formatui, o populiariausi radijo vedėjai turi tūkstančius sekėjų socialiniuose tinkluose.
+
+  Besimokantiems kalbos tinklalaidės – tikras lobis. Klausydamas gyvos, natūralios kalbos, žmogus pripranta prie tikro tempo, intonacijos ir kasdienių posakių, kurių vadovėliuose nerasi. Specialistai pataria pradėti nuo jau pažįstamų temų ir to paties epizodo klausytis kelis kartus: pirmą kartą – suvokti bendrą prasmę, antrą – išgirsti detales.
+
+  Tinklalaidės keičia ir žurnalistiką. Kai kurie žinomi žurnalistai paliko tradicinę žiniasklaidą ir kuria savo laidas, kurias finansuoja patys klausytojai – mažais mėnesiniais įnašais. Tokiu būdu autoriai tampa nepriklausomi nuo reklamos užsakovų, tačiau kartu prisiima didesnę atsakomybę už tai, ką sako eteryje.
+
+  Žinoma, kyla ir klausimų. Tinklalaidžių kūrėjų niekas netikrina, todėl kartu su vertinga informacija galima išgirsti ir netiesos. Taigi ir čia galioja ta pati taisyklė kaip skaitant naujienas: domėkitės, kas kalba, ir neskubėkite tikėti viskuo, ką išgirstate.
+glossary:
+  - { word: "tinklalaides", lemma: "tinklalaidė", pos: noun, gender: f, gen: "tinklalaidės", meaning: "подкаст", note: "вин. п. мн. ч." }
+  - { word: "sportuojant", lemma: "sportuoti", pos: verb, forms: { pres: "sportuoja", past: "sportavo" }, meaning: "заниматься спортом", note: "деепричастие: sportuojant — занимаясь спортом" }
+  - { word: "tvarkant", lemma: "tvarkyti", pos: verb, forms: { pres: "tvarko", past: "tvarkė" }, meaning: "убирать, приводить в порядок", note: "деепричастие: tvarkant namus — убирая дом" }
+  - { word: "paaiškinamas", lemma: "paaiškinti", meaning: "объяснить", item: lt-w-0072, note: "страд. прич.: paaiškinamas — объясняется" }
+  - { word: "klausytojas", lemma: "klausytojas", pos: noun, gender: m, gen: "klausytojo", meaning: "слушатель" }
+  - { word: "kūrėjų", lemma: "kūrėjas", pos: noun, gender: m, gen: "kūrėjo", meaning: "создатель, автор", note: "род. п. мн. ч." }
+  - { word: "žinovai", lemma: "žinovas", pos: noun, gender: m, gen: "žinovo", meaning: "знаток, эксперт", note: "им. п. мн. ч." }
+  - { word: "pasakotojai", lemma: "pasakotojas", pos: noun, gender: m, gen: "pasakotojo", meaning: "рассказчик", note: "им. п. мн. ч." }
+  - { word: "pašnekovais", lemma: "pašnekovas", pos: noun, gender: m, gen: "pašnekovo", meaning: "собеседник", note: "твор. п. мн. ч." }
+  - { word: "transliuotojas", lemma: "transliuotojas", pos: noun, gender: m, gen: "transliuotojo", meaning: "вещатель", note: "visuomeninis transliuotojas — общественный вещатель" }
+  - { word: "išklausyti", lemma: "išklausyti", meaning: "выслушать, прослушать", item: lt-w-0562 }
+  - { word: "vedėjai", lemma: "vedėjas", pos: noun, gender: m, gen: "vedėjo", meaning: "ведущий", note: "им. п. мн. ч." }
+  - { word: "sekėjų", lemma: "sekėjas", pos: noun, gender: m, gen: "sekėjo", meaning: "подписчик, последователь", note: "род. п. мн. ч." }
+  - { word: "lobis", lemma: "lobis", pos: noun, gender: m, gen: "lobio", meaning: "сокровище, клад" }
+  - { word: "vadovėliuose", lemma: "vadovėlis", pos: noun, gender: m, gen: "vadovėlio", meaning: "учебник", note: "местн. п. мн. ч." }
+  - { word: "epizodo", lemma: "epizodas", pos: noun, gender: m, gen: "epizodo", meaning: "эпизод, выпуск", note: "род. п." }
+  - { word: "suvokti", lemma: "suvokti", meaning: "осознать, уловить", item: lt-w-0460 }
+  - { word: "galioja", lemma: "galioti", meaning: "действовать (о правиле)", item: lt-w-0475 }
+questions:
+  - q: "Kas yra tinklalaidė?"
+    options: ["Garso įrašas, kurio galima klausytis bet kada", "Televizijos laida", "Laikraščio skiltis"]
+    answer: 0
+  - q: "Kodėl tinklalaidės naudingos besimokantiems kalbos?"
+    options: ["Jose kalbama labai lėtai", "Jose girdima gyva, natūrali kalba", "Jose paaiškinama visa gramatika"]
+    answer: 1
+  - q: "Ką autorius pataria klausantis tinklalaidžių?"
+    options: ["Klausytis kiekvieno epizodo tik vieną kartą", "Tikėti viskuo, ką girdite", "Domėtis, kas kalba, ir neskubėti viskuo tikėti"]
+    answer: 2

@@ -1,0 +1,47 @@
+id: lt-r-0029
+cefr: B2
+title: "Krepšinis – antroji religija"
+topic: "баскетбол и национальная идентичность"
+source: generated
+text: |
+  Sakoma, kad Lietuvoje yra dvi religijos: katalikybė ir krepšinis. Nors tai tik juokas, krepšinio svarba šaliai tikrai ypatinga. Kai žaidžia nacionalinė rinktinė, gatvės ištuštėja, o kavinėse ir baruose susirenka šimtai sirgalių, apsivilkusių žaliais marškinėliais.
+
+  Krepšinio meilė turi ilgą istoriją. Tarpukario Lietuva laimėjo Europos čempionatus 1937 ir 1939 metais, ir krepšinis greitai tapo nacionaliniu žaidimu. Sovietmečiu Kauno „Žalgirio“ pergalės prieš Maskvos komandas buvo daugiau nei sportas – jos tapo tylaus pasipriešinimo simboliu. Tada išgarsėjo Arvydas Sabonis ir Šarūnas Marčiulionis, vėliau žaidę geriausioje pasaulio lygoje NBA.
+
+  Ypač įsimintinos 1992 metų Barselonos olimpinės žaidynės. Vos atkūrusi nepriklausomybę Lietuva neturėjo pinigų kelionei, todėl rinktinei padėjo amerikiečių roko grupė „Grateful Dead“. Žaidėjai į aikštelę išėjo su ryškiais, įvairiaspalviais marškinėliais, o sugrįžo su bronzos medaliais. Daugeliui tai buvo pirmoji proga pajusti, kad maža šalis gali pasiekti daug.
+
+  Šiandien krepšinio aikštelių rasi kone kiekviename kieme, o vaikai svajoja tapti profesionaliais žaidėjais. Kritikų nuomone, dėmesys krepšiniui kartais užgožia kitas sporto šakas, kurioms trūksta finansavimo ir žiūrovų. Kita vertus, krepšinis vienija žmones: per svarbias rungtynes kartu jaudinasi ir vaikai, ir senoliai, ir tie, kurie šiaip sportu visai nesidomi.
+
+  Krepšinis svarbus ir ekonomikai. Didžiųjų rungtynių metu barai ir parduotuvės uždirba daugiau, o sėkmingi žaidėjai tampa reklamos veidais. Lietuvos krepšinio mokyklos garsėja visame pasaulyje: jaunieji žaidėjai iš Kauno ar Vilniaus dažnai išvyksta žaisti į Ispaniją, Italiją ar Jungtines Amerikos Valstijas, o kai kurie jų grįžta jau kaip treneriai ir perduoda patirtį naujai kartai.
+
+  Galbūt todėl lietuviai taip skaudžiai išgyvena pralaimėjimus ir taip triukšmingai švenčia pergales. Krepšinis čia – ne vien žaidimas, o dalis tapatybės.
+glossary:
+  - { word: "katalikybė", lemma: "katalikybė", pos: noun, gender: f, gen: "katalikybės", meaning: "католицизм" }
+  - { word: "rinktinė", lemma: "rinktinė", pos: noun, gender: f, gen: "rinktinės", meaning: "сборная (команда)" }
+  - { word: "ištuštėja", lemma: "ištuštėti", pos: verb, forms: { pres: "ištuštėja", past: "ištuštėjo" }, meaning: "опустеть" }
+  - { word: "sirgalių", lemma: "sirgalius", pos: noun, gender: m, gen: "sirgaliaus", meaning: "болельщик", note: "род. п. мн. ч." }
+  - { word: "apsivilkusių", lemma: "apsivilkti", pos: verb, forms: { pres: "apsivelka", past: "apsivilko" }, meaning: "надеть (на себя)", note: "прич., род. п. мн. ч.: apsivilkusių marškinėliais — одетых в футболки" }
+  - { word: "Tarpukario", lemma: "tarpukaris", pos: noun, gender: m, gen: "tarpukario", meaning: "межвоенный период", note: "Tarpukario Lietuva — Литва 1918–1940 гг." }
+  - { word: "pasipriešinimo", lemma: "pasipriešinimas", pos: noun, gender: m, gen: "pasipriešinimo", meaning: "сопротивление" }
+  - { word: "išgarsėjo", lemma: "išgarsėti", pos: verb, forms: { pres: "išgarsėja", past: "išgarsėjo" }, meaning: "прославиться" }
+  - { word: "lygoje", lemma: "lyga", pos: noun, gender: f, gen: "lygos", meaning: "лига", note: "местн. п." }
+  - { word: "įsimintinos", lemma: "įsimintinas", pos: adj, meaning: "запоминающийся, памятный", note: "ж. р. мн. ч." }
+  - { word: "žaidynės", lemma: "žaidynės", pos: noun, gender: f, gen: "žaidynių", meaning: "игры (соревнования)", note: "только мн. ч.: olimpinės žaidynės — Олимпийские игры" }
+  - { word: "įvairiaspalviais", lemma: "įvairiaspalvis", pos: adj, meaning: "разноцветный", note: "твор. п. мн. ч." }
+  - { word: "kone", lemma: "kone", pos: adv, meaning: "почти" }
+  - { word: "užgožia", lemma: "užgožti", pos: verb, forms: { pres: "užgožia", past: "užgožė" }, meaning: "заглушить, затмить" }
+  - { word: "finansavimo", lemma: "finansavimas", pos: noun, gender: m, gen: "finansavimo", meaning: "финансирование" }
+  - { word: "rungtynes", lemma: "rungtynės", pos: noun, gender: f, gen: "rungtynių", meaning: "матч, игра", note: "только мн. ч.; вин. п.: per rungtynes — во время матча" }
+  - { word: "senoliai", lemma: "senolis", pos: noun, gender: m, gen: "senolio", meaning: "старик, пожилой человек", note: "им. п. мн. ч." }
+  - { word: "pralaimėjimus", lemma: "pralaimėjimas", pos: noun, gender: m, gen: "pralaimėjimo", meaning: "поражение, проигрыш", note: "вин. п. мн. ч." }
+  - { word: "tapatybės", lemma: "tapatybė", pos: noun, gender: f, gen: "tapatybės", meaning: "идентичность", note: "род. п." }
+questions:
+  - q: "Kas padėjo Lietuvos rinktinei nuvykti į Barselonos olimpines žaidynes?"
+    options: ["Amerikiečių roko grupė", "Lietuvos vyriausybė", "NBA klubai"]
+    answer: 0
+  - q: "Kada tarpukario Lietuva laimėjo Europos čempionatus?"
+    options: ["1992 metais", "1937 ir 1939 metais", "2003 metais"]
+    answer: 1
+  - q: "Ką kritikuoja kai kurie žmonės?"
+    options: ["Kad krepšinis per brangus", "Kad rinktinė per mažai treniruojasi", "Kad dėmesys krepšiniui užgožia kitas sporto šakas"]
+    answer: 2
