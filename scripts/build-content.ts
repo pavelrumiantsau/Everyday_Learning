@@ -22,10 +22,11 @@ const seen = new Map<string, string>();
 
 const isGrammar = (rel: string) => /^content\/[a-z]{2}\/grammar\//.test(rel);
 const isReading = (rel: string) => /^content\/[a-z]{2}\/reading\//.test(rel);
+const STRESS_FILE = "content/lt/stress.yaml";
 
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (isGrammar(rel) || isReading(rel)) continue; // grammar lessons and reading texts: see below
+  if (isGrammar(rel) || isReading(rel) || rel === STRESS_FILE) continue; // lessons, texts, stress marks: see below
   const result = ItemFile.safeParse(parse(readFileSync(file, "utf8")));
   if (!result.success) {
     for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
@@ -37,6 +38,28 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
     if (dup) errors.push(`${rel}: duplicate id ${item.id} (also in ${dup})`);
     seen.set(item.id, rel);
     items.push(item);
+  }
+}
+
+// Stress marks for Lithuanian words (content/lt/stress.yaml, word → stressed form; see scripts/stress.py).
+// Kept apart from the batch files so regenerating a batch doesn't lose them; an item's own `stress` wins.
+{
+  const stripAccents = (s: string) => s.normalize("NFD").replace(/[̀́̃]/g, "").normalize("NFC");
+  let stress: Record<string, unknown> = {};
+  try {
+    stress = (parse(readFileSync(join(root, STRESS_FILE), "utf8")) ?? {}) as Record<string, unknown>;
+  } catch {
+    stress = {}; // no file yet
+  }
+  const ltByText = new Map(items.filter((i) => i.id.startsWith("lt-")).map((i) => [i.text, i]));
+  for (const [word, stressed] of Object.entries(stress)) {
+    if (typeof stressed !== "string" || !stressed.trim()) errors.push(`${STRESS_FILE}: "${word}" needs a stressed form`);
+    else if (stripAccents(stressed.normalize("NFC")) !== word.normalize("NFC")) errors.push(`${STRESS_FILE}: "${stressed}" is not "${word}" with stress marks`);
+    else {
+      const item = ltByText.get(word);
+      if (!item) errors.push(`${STRESS_FILE}: "${word}" is not a Lithuanian course word`);
+      else item.stress ??= stressed.normalize("NFC");
+    }
   }
 }
 

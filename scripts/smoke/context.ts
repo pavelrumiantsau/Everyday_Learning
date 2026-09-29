@@ -30,3 +30,6 @@ export interface FakeLlmState {
   /** Number of upcoming requests to a provider that get HTTP 503. */
   fail: Partial<Record<"groq" | "google", number>>;
 }
+
+/** Message text without Lithuanian stress marks (cards show e.g. skubė́ti once content/lt/stress.yaml has it). */
+export const plain = (s: string) => s.normalize("NFD").replace(/[\u0300\u0301\u0303]/g, "").normalize("NFC");

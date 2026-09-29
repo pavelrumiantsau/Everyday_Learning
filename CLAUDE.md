@@ -42,6 +42,7 @@ pnpm content:sources  # download frequency lists + Tatoeba into .cache/ (once)
 pnpm content:candidates lt <fromRank> <count>
 python3 scripts/batch-to-yaml.py scripts/batches/<file>.py <lang> <firstId> content/<lang>/vocab/<file>.yaml
 pnpm content:audio    # needs .cache/venv with edge-tts (docs/SETUP.md "Audio"); run AFTER merging content
+pnpm content:stress   # LT stress marks from Wiktionary → content/lt/stress.yaml (cached, ~1 req/s); run after new LT words
 pnpm content:reports  # open "report a mistake" entries from the live DB
 pnpm llm:eval         # compare AI models on learner mistakes (real API calls, keys from apps/worker/.dev.vars)
 pnpm setup:telegram   # re-run after adding/changing bot commands (updates the command menu)

@@ -1,4 +1,4 @@
-import type { Smoke } from "./context.ts";
+import { plain, type Smoke } from "./context.ts";
 
 // Bot: webhook security, lessons, quiz polls, answers.
 export default async function (t: Smoke) {
@@ -16,7 +16,7 @@ export default async function (t: Smoke) {
   await post(msg("/lesson"));
   const polls = calls.filter((c) => c.method === "sendPoll");
   const lesson = calls.find((c) => c.method === "sendMessage");
-  check(!!lesson?.body.text.includes("laikas"), "morning lesson lists the first Lithuanian word");
+  check(plain(String(lesson?.body.text ?? "")).includes("laikas"), "morning lesson lists the first Lithuanian word");
   check(polls.length === 8, `8 quiz polls for 15 new words (max_new_polls), got ${polls.length}`);
   check(polls.every((p) => p.body.type === "quiz" && p.body.is_anonymous === false), "polls are non-anonymous quizzes");
 
@@ -36,7 +36,7 @@ export default async function (t: Smoke) {
   calls.length = 0;
   await post(msg("/lesson"));
   const lesson2 = calls.find((c) => c.method === "sendMessage")?.body.text ?? "";
-  check(lesson2.includes("skubėti") && !lesson2.includes("<b>laikas</b>"), "a second lesson brings the next words (skubėti…), not the same ones");
+  check(plain(lesson2).includes("skubėti") && !plain(lesson2).includes("<b>laikas</b>"), "a second lesson brings the next words (skubėti…), not the same ones");
 
   calls.length = 0;
   await post(msg("/today"));

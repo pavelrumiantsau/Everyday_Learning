@@ -1,4 +1,4 @@
-import type { Smoke } from "./context.ts";
+import { plain, type Smoke } from "./context.ts";
 
 // Placement test.
 export default async function (t: Smoke) {
@@ -18,6 +18,6 @@ export default async function (t: Smoke) {
   calls.length = 0;
   await post(msg("/lesson"));
   const lesson3 = calls.find((c) => c.method === "sendMessage")?.body.text ?? "";
-  check(!lesson3.includes("skubėti") && lesson3.includes(unknownWord.text), "lessons skip known words and keep unknown ones");
+  check(!plain(lesson3).includes("skubėti") && plain(lesson3).includes(unknownWord.text), "lessons skip known words and keep unknown ones");
 
 }

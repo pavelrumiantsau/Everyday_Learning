@@ -23,7 +23,8 @@
     "build": "pnpm build:content && pnpm --filter @el/miniapp build",
     "content:reports": "pnpm build:content && tsx scripts/content-reports.ts",
     "content:audio": "python3 scripts/tts.py --self-test && pnpm build:content && tsx scripts/audio-texts.ts .cache/audio-texts.json && .cache/venv/bin/python scripts/tts.py .cache/audio-texts.json",
-    "llm:eval": "tsx scripts/llm-eval.ts"
+    "llm:eval": "tsx scripts/llm-eval.ts",
+    "content:stress": "pnpm build:content && python3 scripts/stress.py"
   },
   "devDependencies": {
     "@types/node": "^26.6.3",

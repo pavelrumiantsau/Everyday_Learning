@@ -39,7 +39,7 @@
 | Lithuanian reading | 41 texts: 18 B1 + 23 B2 (0019–0041: society, history, culture, nature — see files) + own texts | B2 texts: 23 Thursdays → ~early March 2027 (then B1 as fallback) | `lt-r-0042` — **B2**, ~250–350 words (next: cinema/literature, sport beyond basketball, universities & students, weather extremes, Klaipėda & the sea, Lithuanian abroad (diaspora), consumer habits) |
 | Spanish reading | 2 texts (A1) | — (read on demand) | `es-r-0003` |
 | French | 10 sounds lessons (Saturdays, ~Oct–early Dec 2026) | starts April 2027: set `/new fr 5` then (not automatic) | `fr-g-0011` (optional more sounds lessons, then A1 grammar), `fr-*-0001` vocabulary; exercises are dictation cloze, examples from Tatoeba `fra` (`pnpm content:sources`) |
-| Stress marks for LT words | 0 of 1268 (`stress` field supported) | — | check each word on lkz.lt / Vikižodynas; add `stress: laĩkas` in the batch files |
+| Stress marks for LT words | 655 of 1268 (`content/lt/stress.yaml`, from English Wiktionary via `pnpm content:stress`; merged at build) | — | ~600 words have no Wiktionary entry (`.cache/stress-skipped.txt` after a run): add by hand from lkz.lt / Vikižodynas; re-run `pnpm content:stress` after each new LT batch |
 
 **Resuming in a new session:** read `CLAUDE.md` (repo root) first — commands, structure, content rules, and lessons learned.
 Then this table, `git branch -a` (unmerged `feat/*`, `content/*`, `grammar/*`, `reading/*` branches), and `gh run list -L 3`.

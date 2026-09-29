@@ -1,4 +1,4 @@
-import type { Smoke } from "./context.ts";
+import { plain, type Smoke } from "./context.ts";
 
 // Mini App: page, login, review queue, answers, verb forms cards, noun genitives.
 export default async function (t: Smoke) {
@@ -20,8 +20,8 @@ export default async function (t: Smoke) {
   check(cards.length === session.due && !!cards[0]?.item.text, `queue returns the ${cards.length} due cards with their content`);
   const formsCard = cards.find((c) => c.cardId === "lt-w-0005:forms") as { item: { text: string; forms?: { pres: string; past: string } } } | undefined;
   check(formsCard?.item.text === "vėluoti" && formsCard.item.forms?.past === "vėlavo", "a verb gets a separate 3-forms card (vėluoti → vėluoja, vėlavo)");
-  check(!!lesson?.body.text.includes("vėluoti, vėluoja, vėlavo"), "the morning lesson shows the verb's 3 forms");
-  check(!!lesson?.body.text.includes("laikas, laiko") && lesson.body.text.includes("сущ., м. р."), "nouns show nominative + genitive and a readable label");
+  check(plain(String(lesson?.body.text ?? "")).includes("vėluoti, vėluoja, vėlavo"), "the morning lesson shows the verb's 3 forms");
+  check(plain(String(lesson?.body.text ?? "")).includes("laikas, laiko") && String(lesson?.body.text).includes("сущ., м. р."), "nouns show nominative + genitive and a readable label");
   check(polls.every((p) => !String(p.body.question).includes(",")), "quiz polls stay on meanings (no forms polls)");
 
   const review = { id: crypto.randomUUID(), cardId: cards[0]!.cardId, rating: 3, reviewedAt: Date.now() };
