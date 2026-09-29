@@ -32,14 +32,14 @@
 **Content — supply and next ids**
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
-| Lithuanian vocabulary | 1268 words (A2–B2, frequency ranks ≤ 23,000) | ~early February 2027 (10/day; later if placement skips known words) | `lt-*-1325`, candidates `lt 18000 5000` partly used (first ~1100 with examples), then continue in that list or `lt 23000 5000`; recipe `prompts/content/lt-vocab.md` |
+| Lithuanian vocabulary | 1582 words (A2–B2, frequency ranks ≤ ~29,000) | ~early March 2027 (10/day; later if placement skips known words) | `lt-*-1639`, candidates `lt 23000 6000` partly used (first ~1000 with examples) — continue there or `lt 29000 6000`; recipe `prompts/content/lt-vocab.md` |
 | Spanish vocabulary | 856 items (A1–B1) | ~late March 2027 (5/day) | `es-*-0857`, `pnpm content:candidates es 5350 1500`; recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 43 lessons (Q1–Q4 + B1/B2 gap-fillers incl. numerals with nouns, causative pairs, word order, reflexive -si, argument connectors, Russianisms) | ~early February 2027 (Mon/Wed; also Sat once the FR sounds lessons are done) | `lt-g-0044`: participles in writing (dalyvinės konstrukcijos review), more idioms, register & formal e-mails, B2 exam-style mixed tasks, review lessons per quarter |
 | Spanish grammar | 36 lessons (A1–B1) | ~mid-February 2027 (Tue/Fri; Fri alternates with FR from April) | `es-g-0037`: future perfect & conditional perfect, ser vs estar review (B1), por vs para review, subjunctive after relatives (busco a alguien que…), pronoun placement review, connectors (sin embargo, por lo tanto), false friends |
 | Lithuanian reading | 41 texts: 18 B1 + 23 B2 (0019–0041: society, history, culture, nature — see files) + own texts | B2 texts: 23 Thursdays → ~early March 2027 (then B1 as fallback) | `lt-r-0042` — **B2**, ~250–350 words (next: cinema/literature, sport beyond basketball, universities & students, weather extremes, Klaipėda & the sea, Lithuanian abroad (diaspora), consumer habits) |
 | Spanish reading | 2 texts (A1) | — (read on demand) | `es-r-0003` |
 | French | 10 sounds lessons (Saturdays, ~Oct–early Dec 2026) | starts April 2027: set `/new fr 5` then (not automatic) | `fr-g-0011` (optional more sounds lessons, then A1 grammar), `fr-*-0001` vocabulary; exercises are dictation cloze, examples from Tatoeba `fra` (`pnpm content:sources`) |
-| Stress marks for LT words | 655 of 1268 (`content/lt/stress.yaml`, from English Wiktionary via `pnpm content:stress`; merged at build) | — | ~600 words have no Wiktionary entry (`.cache/stress-skipped.txt` after a run): add by hand from lkz.lt / Vikižodynas; re-run `pnpm content:stress` after each new LT batch |
+| Stress marks for LT words | 783 of 1582 (`content/lt/stress.yaml`, from English Wiktionary via `pnpm content:stress`; merged at build) | — | ~800 words have no Wiktionary entry (`.cache/stress-skipped.txt` after a run): add by hand from lkz.lt / Vikižodynas; re-run `pnpm content:stress` after each new LT batch |
 
 **Resuming in a new session:** read `CLAUDE.md` (repo root) first — commands, structure, content rules, and lessons learned.
 Then this table, `git branch -a` (unmerged `feat/*`, `content/*`, `grammar/*`, `reading/*` branches), and `gh run list -L 3`.
