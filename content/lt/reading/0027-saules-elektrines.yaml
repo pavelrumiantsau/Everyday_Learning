@@ -1,0 +1,45 @@
+id: lt-r-0027
+cefr: B2
+title: "Saulės elektrinės ant stogų"
+topic: "солнечная и ветровая энергия"
+source: generated
+text: |
+  Dar prieš keletą metų saulės baterijos ant namų stogų Lietuvoje buvo retas vaizdas. Šiandien jų matyti beveik kiekviename priemiestyje. Energijos kainoms staiga išaugus, tūkstančiai gyventojų nusprendė patys gaminti elektrą. Tokie žmonės vadinami gaminančiais vartotojais: dienos metu jų elektrinės pagamina daugiau elektros, nei jiems reikia, o perteklius atiduodamas į bendrą tinklą.
+
+  Valstybė šį procesą skatino, skirdama paramą saulės elektrinėms įsirengti. Be to, atsirado galimybė įsigyti elektrinės dalį nutolusiame saulės parke – tai patogu tiems, kurie gyvena daugiabučiuose ir neturi savo stogo. Taip atsinaujinančią energiją gali naudoti ir miesto gyventojai.
+
+  Saulės energija turi akivaizdžių privalumų. Ji nekenkia aplinkai, mažina priklausomybę nuo importuojamo kuro ir ilgainiui leidžia sutaupyti. Vis dėlto yra ir trūkumų. Lietuvoje žiemą saulės šviesos mažai, todėl daugiausia elektros pagaminama vasarą, kai jos reikia mažiausiai. Energetikos specialistai pabrėžia, kad reikia daugiau būdų elektrai kaupti, pavyzdžiui, didelių baterijų.
+
+  Kai kurie gyventojai jau žengė dar vieną žingsnį: įsirengė šilumos siurblius ir įsigijo elektromobilius. Tokiuose namuose saulės energija naudojama ne tik apšvietimui, bet ir šildymui bei kelionėms. Skaičiuojama, kad per keletą metų tokios investicijos gali atsipirkti, nors pradinė kaina nemaža ir ne kiekviena šeima gali sau tai leisti.
+
+  Kartu su saule sparčiai plečiasi ir vėjo energetika. Baltijos jūroje planuojama statyti vėjo jėgaines, kurios galėtų pagaminti nemažą dalį šaliai reikalingos elektros. Tačiau ne visi tokiems projektams pritaria: pajūrio gyventojai nerimauja dėl kraštovaizdžio, o žvejai – dėl žuvų išteklių.
+
+  Energetinė nepriklausomybė Lietuvai visada buvo ne tik ekonomikos, bet ir saugumo klausimas. Todėl diskusijos apie tai, iš kur gauti energijos, greičiausiai nesibaigs dar ilgai. O gal ir jūs svarstote įsirengti saulės elektrinę?
+glossary:
+  - { word: "baterijos", lemma: "baterija", pos: noun, gender: f, gen: "baterijos", meaning: "батарея; солнечная панель", note: "saulės baterijos — солнечные панели" }
+  - { word: "išaugus", lemma: "išaugti", pos: verb, forms: { pres: "išauga", past: "išaugo" }, meaning: "вырасти", note: "деепричастие: kainoms išaugus — когда выросли цены" }
+  - { word: "vartotojais", lemma: "vartotojas", pos: noun, gender: m, gen: "vartotojo", meaning: "потребитель", note: "твор. п. мн. ч.: gaminantys vartotojai — производящие потребители" }
+  - { word: "elektrinės", lemma: "elektrinė", pos: noun, gender: f, gen: "elektrinės", meaning: "электростанция", note: "им. п. мн. ч." }
+  - { word: "perteklius", lemma: "perteklius", pos: noun, gender: m, gen: "pertekliaus", meaning: "излишек" }
+  - { word: "tinklą", lemma: "tinklas", meaning: "сеть", item: lt-w-0363, note: "вин. п." }
+  - { word: "įsirengti", lemma: "įsirengti", pos: verb, forms: { pres: "įsirengia", past: "įsirengė" }, meaning: "установить (себе)" }
+  - { word: "nutolusiame", lemma: "nutolęs", pos: adj, meaning: "удалённый", note: "местн. п.: nutolęs saulės parkas — удалённый солнечный парк" }
+  - { word: "daugiabučiuose", lemma: "daugiabutis", pos: noun, gender: m, gen: "daugiabučio", meaning: "многоквартирный дом", note: "местн. п. мн. ч." }
+  - { word: "atsinaujinančią", lemma: "atsinaujinantis", pos: adj, meaning: "возобновляемый", note: "вин. п.: atsinaujinanti energija — возобновляемая энергия" }
+  - { word: "akivaizdžių", lemma: "akivaizdus", meaning: "очевидный", item: lt-w-0019, note: "род. п. мн. ч." }
+  - { word: "priklausomybę", lemma: "priklausomybė", pos: noun, gender: f, gen: "priklausomybės", meaning: "зависимость", note: "вин. п." }
+  - { word: "ilgainiui", lemma: "ilgainiui", pos: adv, meaning: "со временем, в долгосрочной перспективе" }
+  - { word: "kaupti", lemma: "kaupti", pos: verb, forms: { pres: "kaupia", past: "kaupė" }, meaning: "накапливать", note: "elektrai kaupti — для накопления электроэнергии" }
+  - { word: "jėgaines", lemma: "jėgainė", pos: noun, gender: f, gen: "jėgainės", meaning: "электростанция", note: "вин. п. мн. ч.: vėjo jėgainė — ветряк" }
+  - { word: "kraštovaizdžio", lemma: "kraštovaizdis", pos: noun, gender: m, gen: "kraštovaizdžio", meaning: "ландшафт, пейзаж", note: "род. п." }
+  - { word: "išteklių", lemma: "ištekliai", pos: noun, gender: m, gen: "išteklių", meaning: "ресурсы", note: "обычно мн. ч.; žuvų ištekliai — рыбные ресурсы" }
+questions:
+  - q: "Kodėl daug gyventojų nusprendė patys gaminti elektrą?"
+    options: ["Nes buvo uždrausta pirkti elektrą", "Nes kaimynai taip darė", "Nes staiga išaugo energijos kainos"]
+    answer: 2
+  - q: "Ką gali daryti daugiabučių gyventojai, neturintys savo stogo?"
+    options: ["Nieko", "Įsigyti elektrinės dalį nutolusiame saulės parke", "Statyti vėjo jėgainę kieme"]
+    answer: 1
+  - q: "Kodėl ne visi pritaria vėjo jėgainėms jūroje?"
+    options: ["Nerimaujama dėl kraštovaizdžio ir žuvų išteklių", "Jos per brangios", "Jos gamina per mažai elektros"]
+    answer: 0

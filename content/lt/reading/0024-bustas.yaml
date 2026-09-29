@@ -1,0 +1,46 @@
+id: lt-r-0024
+cefr: B2
+title: "Būstas – svajonė ar našta?"
+topic: "жильё: купить или снимать"
+source: generated
+text: |
+  Vilniuje, Kaune ir Klaipėdoje būsto kainos per pastarąjį dešimtmetį smarkiai išaugo. Atlyginimai taip pat kilo, tačiau daugeliui jaunų žmonių nusipirkti nuosavą butą vis tiek atrodo sunkiai pasiekiamas tikslas. Norint gauti paskolą, bankas paprastai reikalauja pradinio įnašo – dažniausiai ne mažiau kaip penkiolikos procentų būsto kainos. Sukaupti tokią sumą nuomojantis butą ir mokant nemažą nuomos mokestį nėra paprasta.
+
+  Todėl vis daugiau jaunų šeimų renkasi kitokius sprendimus. Vieni perka butus priemiesčiuose, kur kainos mažesnės, nors kasdien tenka ilgiau važiuoti į darbą. Kiti ilgiau gyvena su tėvais arba dalijasi butu su draugais. Treti apskritai atsisako minties apie nuosavą būstą ir sako, kad nuoma jiems suteikia daugiau laisvės: prireikus galima lengvai persikelti į kitą miestą ar net šalį.
+
+  Lietuvoje tradiciškai manoma, kad nuosavas būstas yra saugumo pagrindas. Sovietmečiu butai buvo skiriami, o po nepriklausomybės atkūrimo daugelis gyventojų juos privatizavo, todėl nuosavą būstą turinčių žmonių dalis šalyje yra viena didžiausių Europoje. Vakarų Europoje, pavyzdžiui, Vokietijoje, nuomotis butą visą gyvenimą laikoma visiškai normaliu dalyku.
+
+  Nuomininkai dažnai skundžiasi ir kitomis problemomis. Nuomos sutartys kartais sudaromos žodžiu, todėl savininkas gali bet kada pakelti kainą arba paprašyti išsikraustyti. Be to, daugelis savininkų nenori išnuomoti buto šeimoms su vaikais ar augintiniais. Teisininkai pataria visada pasirašyti rašytinę sutartį ir joje aiškiai nurodyti, kas moka už remontą ir kaip iš anksto reikia pranešti apie sutarties nutraukimą.
+
+  Ekonomistai nesutaria, ar kainos toliau kils. Vieni tvirtina, kad statoma per mažai naujų namų, todėl paklausa ir toliau viršys pasiūlą. Kiti primena, kad padidėjus palūkanoms paskolos brangsta, o pirkėjų mažėja. Dar kiti atkreipia dėmesį į tai, kad plintant nuotoliniam darbui gyventi pačiame miesto centre nebėra būtina.
+
+  Vienaip ar kitaip, klausimas „pirkti ar nuomotis?“ šiandien turi kur kas daugiau atsakymų nei prieš dvidešimt metų. O ką rinktumėtės jūs?
+glossary:
+  - { word: "nuosavą", lemma: "nuosavas", pos: adj, meaning: "собственный", note: "nuosavas būstas — собственное жильё" }
+  - { word: "pasiekiamas", lemma: "pasiekiamas", pos: adj, meaning: "достижимый", note: "sunkiai pasiekiamas — труднодостижимый" }
+  - { word: "paskolą", lemma: "paskola", meaning: "кредит, заём", item: lt-w-0771, note: "вин. п." }
+  - { word: "įnašo", lemma: "įnašas", pos: noun, gender: m, gen: "įnašo", meaning: "взнос", note: "pradinis įnašas — первоначальный взнос" }
+  - { word: "Sukaupti", lemma: "sukaupti", pos: verb, forms: { pres: "sukaupia", past: "sukaupė" }, meaning: "накопить" }
+  - { word: "nuomojantis", lemma: "nuomotis", pos: verb, forms: { pres: "nuomojasi", past: "nuomojosi" }, meaning: "снимать, арендовать", note: "деепричастие: nuomojantis butą — снимая квартиру" }
+  - { word: "nuomos", lemma: "nuoma", meaning: "аренда, съём", item: lt-w-0567, note: "nuomos mokestis — арендная плата" }
+  - { word: "priemiesčiuose", lemma: "priemiestis", pos: noun, gender: m, gen: "priemiesčio", meaning: "пригород", note: "местн. п. мн. ч." }
+  - { word: "dalijasi", lemma: "dalytis", pos: verb, forms: { pres: "dalijasi", past: "dalijosi" }, meaning: "делиться", note: "dalytis butu su kuo — делить квартиру с кем (твор. п.)" }
+  - { word: "Treti", lemma: "trečias", pos: num, meaning: "третий", note: "vieni… kiti… treti… — одни… другие… третьи…" }
+  - { word: "prireikus", lemma: "prireikti", meaning: "понадобиться", item: lt-w-0227, note: "деепричастие: prireikus — при необходимости" }
+  - { word: "skiriami", lemma: "skirti", meaning: "выделять, назначать", note: "страд. прич. мн. ч.: butai buvo skiriami — квартиры выделялись" }
+  - { word: "privatizavo", lemma: "privatizuoti", pos: verb, forms: { pres: "privatizuoja", past: "privatizavo" }, meaning: "приватизировать" }
+  - { word: "paklausa", lemma: "paklausa", pos: noun, gender: f, gen: "paklausos", meaning: "спрос" }
+  - { word: "viršys", lemma: "viršyti", pos: verb, forms: { pres: "viršija", past: "viršijo" }, meaning: "превысить", note: "буд. вр." }
+  - { word: "pasiūlą", lemma: "pasiūla", pos: noun, gender: f, gen: "pasiūlos", meaning: "предложение (на рынке)", note: "вин. п." }
+  - { word: "palūkanoms", lemma: "palūkanos", pos: noun, gender: f, gen: "palūkanų", meaning: "проценты (по кредиту)", note: "только мн. ч.; дат. п.: padidėjus palūkanoms — когда вырастут ставки" }
+  - { word: "plintant", lemma: "plisti", meaning: "распространяться", item: lt-w-0788, note: "деепричастие: plintant nuotoliniam darbui — по мере распространения удалёнки" }
+questions:
+  - q: "Kodėl dalis jaunų žmonių renkasi nuomą?"
+    options: ["Nes nuoma suteikia daugiau laisvės", "Nes nuoma visada pigesnė", "Nes bankai visai neduoda paskolų"]
+    answer: 0
+  - q: "Ko paprastai reikalauja bankas norint gauti paskolą?"
+    options: ["Laiško iš darbdavio", "Pradinio įnašo", "Kad pirkėjas gyventų centre"]
+    answer: 1
+  - q: "Kuo Lietuva skiriasi nuo Vokietijos?"
+    options: ["Lietuvoje daugiau nuomojamų butų", "Lietuvoje statoma daugiau namų", "Lietuvoje daug daugiau žmonių gyvena nuosavame būste"]
+    answer: 2

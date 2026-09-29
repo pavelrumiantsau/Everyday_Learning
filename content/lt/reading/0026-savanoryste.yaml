@@ -1,0 +1,46 @@
+id: lt-r-0026
+cefr: B2
+title: "Savanorystė"
+topic: "волонтёрство"
+source: generated
+text: |
+  Dar prieš dvidešimt metų savanorystė Lietuvoje daugeliui atrodė keistas dalykas: kam dirbti nemokamai, jei galima už darbą gauti atlyginimą? Šiandien situacija visiškai kitokia. Savanoriai padeda gyvūnų prieglaudose, maisto bankuose, ligoninėse, organizuoja renginius, moko vaikus ir lanko vienišus senelius.
+
+  Kas skatina žmones aukoti savo laisvą laiką? Apklausos rodo, kad svarbiausia priežastis – noras būti naudingam. Vis dėlto savanoriai atvirai pripažįsta, kad patys iš to gauna ne mažiau nei duoda. Jaunimui savanorystė – galimybė įgyti patirties, išmokti bendrauti su skirtingais žmonėmis ir išsiaiškinti, kokią profesiją norėtųsi rinktis. Kai kurie darbdaviai, rinkdamiesi iš kelių kandidatų, pirmenybę teikia tiems, kurie savo gyvenimo aprašyme nurodo savanorišką veiklą.
+
+  Ypač daug žmonių įsitraukė į savanorystę pastaraisiais metais, kai į Lietuvą atvyko karo pabėgėliai iš Ukrainos. Tūkstančiai gyventojų siūlė jiems laikiną būstą, rinko drabužius ir maistą, vežė humanitarinę pagalbą, mokė lietuvių kalbos. Tokios paramos mastas nustebino net pačius organizatorius.
+
+  Savanorystė Lietuvoje turi ir gilesnių šaknų. Sąjūdžio laikais tūkstančiai žmonių be jokio atlygio budėjo prie svarbių pastatų, organizavo mitingus ir dalijo informaciją. Šiandien ši tradicija gyva ir šaulių sąjungoje, kurios nariai laisvu laiku mokosi pirmosios pagalbos, orientavimosi ir kitų įgūdžių, reikalingų krizės atveju. Daugeliui tai ne tik pareiga, bet ir būdas susirasti bendraminčių.
+
+  Tačiau savanorystė turi ir iššūkių. Organizacijos skundžiasi, kad žmonės noriai įsitraukia į trumpas akcijas, bet ilgalaikių savanorių trūksta. Be to, savanoriai kartais „perdega“: jausdami atsakomybę, jie prisiima per daug ir pamiršta pasirūpinti savimi. Todėl geros organizacijos savanorius ne tik moko, bet ir palaiko, o jų darbą viešai įvertina.
+
+  Savanoriauti galima ir turint nedaug laiko – kartais pakanka kelių valandų per mėnesį. Svarbiausia rasti veiklą, kuri iš tiesų džiugina. Juk, kaip sako patys savanoriai, geriausias atlygis – ne pinigai, o žmogaus šypsena.
+glossary:
+  - { word: "savanorystė", lemma: "savanorystė", pos: noun, gender: f, gen: "savanorystės", meaning: "волонтёрство" }
+  - { word: "prieglaudose", lemma: "prieglauda", pos: noun, gender: f, gen: "prieglaudos", meaning: "приют", note: "местн. п. мн. ч.: gyvūnų prieglauda — приют для животных" }
+  - { word: "aukoti", lemma: "aukoti", pos: verb, forms: { pres: "aukoja", past: "aukojo" }, meaning: "жертвовать" }
+  - { word: "Apklausos", lemma: "apklausa", pos: noun, gender: f, gen: "apklausos", meaning: "опрос", note: "им. п. мн. ч." }
+  - { word: "pirmenybę", lemma: "pirmenybė", pos: noun, gender: f, gen: "pirmenybės", meaning: "предпочтение, приоритет", note: "teikti pirmenybę kam — отдавать предпочтение кому" }
+  - { word: "aprašyme", lemma: "aprašymas", pos: noun, gender: m, gen: "aprašymo", meaning: "описание", note: "gyvenimo aprašymas — резюме, CV" }
+  - { word: "savanorišką", lemma: "savanoriškas", pos: adj, meaning: "добровольный, волонтёрский", note: "вин. п." }
+  - { word: "įsitraukė", lemma: "įsitraukti", pos: verb, forms: { pres: "įsitraukia", past: "įsitraukė" }, meaning: "включиться, вовлечься" }
+  - { word: "pabėgėliai", lemma: "pabėgėlis", pos: noun, gender: m, gen: "pabėgėlio", meaning: "беженец", note: "им. п. мн. ч." }
+  - { word: "paramos", lemma: "parama", meaning: "поддержка, помощь", item: lt-w-0488, note: "род. п." }
+  - { word: "mastas", lemma: "mastas", pos: noun, gender: m, gen: "masto", meaning: "масштаб" }
+  - { word: "ilgalaikių", lemma: "ilgalaikis", pos: adj, meaning: "долгосрочный", note: "род. п. мн. ч." }
+  - { word: "perdega", lemma: "perdegti", pos: verb, forms: { pres: "perdega", past: "perdegė" }, meaning: "перегореть, выгореть" }
+  - { word: "prisiima", lemma: "prisiimti", meaning: "брать на себя", item: lt-w-0581 }
+  - { word: "įvertina", lemma: "įvertinti", meaning: "оценить", item: lt-w-0564 }
+  - { word: "Savanoriauti", lemma: "savanoriauti", pos: verb, forms: { pres: "savanoriauja", past: "savanoriavo" }, meaning: "быть волонтёром" }
+  - { word: "džiugina", lemma: "džiuginti", pos: verb, forms: { pres: "džiugina", past: "džiugino" }, meaning: "радовать" }
+  - { word: "atlygis", lemma: "atlygis", pos: noun, gender: m, gen: "atlygio", meaning: "вознаграждение, награда" }
+questions:
+  - q: "Kokia, remiantis apklausomis, yra svarbiausia priežastis savanoriauti?"
+    options: ["Noras būti naudingam", "Noras uždirbti pinigų", "Noras keliauti"]
+    answer: 0
+  - q: "Kokią problemą mini organizacijos?"
+    options: ["Savanorių per daug", "Trūksta ilgalaikių savanorių", "Savanoriai nemoka lietuvių kalbos"]
+    answer: 1
+  - q: "Kas, pasak savanorių, yra geriausias atlygis?"
+    options: ["Atlyginimas", "Nemokamas būstas", "Žmogaus šypsena"]
+    answer: 2

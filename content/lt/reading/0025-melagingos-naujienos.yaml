@@ -1,0 +1,46 @@
+id: lt-r-0025
+cefr: B2
+title: "Melagingos naujienos"
+topic: "фейковые новости"
+source: generated
+text: |
+  Kiekvieną dieną socialiniuose tinkluose pasirodo tūkstančiai žinučių, nuotraukų ir vaizdo įrašų. Dalis jų – tikros naujienos, tačiau nemažai yra iškraipytų arba visiškai išgalvotų. Melagingos naujienos plinta ypač greitai, nes dažniausiai jos sukelia stiprias emocijas: pyktį, baimę ar pasipiktinimą. Žmogus, pamatęs šokiruojančią antraštę, dažnai ja pasidalija, net neperskaitęs viso straipsnio.
+
+  Lietuvoje dezinformacijos problema ypač aktuali. Specialistai pastebi, kad dalis melagingos informacijos sąmoningai skleidžiama siekiant sukelti nepasitikėjimą valstybės institucijomis ar supriešinti visuomenę. Su tuo kovoja ne tik valstybė, bet ir savanoriai – vadinamieji „elfai“, kurie internete ieško melagingų žinučių ir jas paneigia.
+
+  Kaip atpažinti melagingą naujieną? Pirmiausia verta pasižiūrėti, kas ją paskelbė. Ar tai žinomas naujienų portalas, ar niekam negirdėta svetainė? Antra, reikėtų patikrinti, ar apie tą patį įvykį rašo ir kiti šaltiniai. Jeigu apie „sensaciją“ praneša tik vienas anoniminis puslapis, greičiausiai kažkas negerai. Trečia, naudinga atkreipti dėmesį į datą: kartais senos nuotraukos pateikiamos kaip naujos, o tikri faktai iškraipomi juos ištraukiant iš konteksto.
+
+  Svarbu suprasti ir tai, kad socialiniai tinklai kiekvienam rodo tai, kas jam greičiausiai patiks. Taip susidaro vadinamasis informacinis burbulas: žmogus mato vien tas nuomones, kurioms jau pritaria, ir ilgainiui ima manyti, kad visi galvoja taip pat. Norint iš jo ištrūkti, verta retkarčiais pasiskaityti ir tų šaltinių, su kuriais nesutinkame.
+
+  Plečiantis dirbtiniam intelektui, užduotis tampa dar sudėtingesnė. Šiandien galima sukurti įtikinamą vaizdo įrašą, kuriame politikas neva sako tai, ko niekada nesakė. Todėl vis daugiau mokyklų įtraukia medijų raštingumo pamokas, kuriose mokiniai mokosi kritiškai vertinti informaciją ir atskirti faktus nuo nuomonių.
+
+  Galbūt paprasčiausia taisyklė tokia: prieš dalydamiesi žinute, sustokime bent minutei ir paklauskime savęs – ar tikrai esame tikri, kad tai tiesa?
+glossary:
+  - { word: "Melagingos", lemma: "melagingas", pos: adj, meaning: "лживый, ложный", note: "melagingos naujienos — фейковые новости" }
+  - { word: "įrašų", lemma: "įrašas", pos: noun, gender: m, gen: "įrašo", meaning: "запись", note: "род. п. мн. ч.: vaizdo įrašas — видеозапись" }
+  - { word: "iškraipytų", lemma: "iškraipyti", pos: verb, forms: { pres: "iškraipo", past: "iškraipė" }, meaning: "исказить", note: "страд. прич., род. п. мн. ч." }
+  - { word: "išgalvotų", lemma: "išgalvoti", pos: verb, forms: { pres: "išgalvoja", past: "išgalvojo" }, meaning: "выдумать", note: "страд. прич., род. п. мн. ч." }
+  - { word: "pasipiktinimą", lemma: "pasipiktinimas", pos: noun, gender: m, gen: "pasipiktinimo", meaning: "возмущение", note: "вин. п." }
+  - { word: "antraštę", lemma: "antraštė", pos: noun, gender: f, gen: "antraštės", meaning: "заголовок", note: "вин. п." }
+  - { word: "pasidalija", lemma: "pasidalyti", pos: verb, forms: { pres: "pasidalija", past: "pasidalijo" }, meaning: "поделиться", note: "pasidalyti kuo — поделиться чем (твор. п.)" }
+  - { word: "sąmoningai", lemma: "sąmoningai", meaning: "сознательно, намеренно", item: lt-w-0796 }
+  - { word: "skleidžiama", lemma: "skleisti", meaning: "распространять", item: lt-w-0819, note: "страд. прич., ж. р." }
+  - { word: "supriešinti", lemma: "supriešinti", pos: verb, forms: { pres: "supriešina", past: "supriešino" }, meaning: "противопоставить, рассорить" }
+  - { word: "paneigia", lemma: "paneigti", pos: verb, forms: { pres: "paneigia", past: "paneigė" }, meaning: "опровергнуть" }
+  - { word: "atpažinti", lemma: "atpažinti", meaning: "распознать, узнать", item: lt-w-0587 }
+  - { word: "pateikiamos", lemma: "pateikti", meaning: "представить, подать", item: lt-w-0657, note: "страд. прич. мн. ч.: pateikiamos kaip naujos — выдаются за новые" }
+  - { word: "ištraukiant", lemma: "ištraukti", pos: verb, forms: { pres: "ištraukia", past: "ištraukė" }, meaning: "вытащить, вырвать", note: "деепричастие: ištraukiant iš konteksto — вырывая из контекста" }
+  - { word: "Plečiantis", lemma: "plėstis", pos: verb, forms: { pres: "plečiasi", past: "plėtėsi" }, meaning: "расширяться, развиваться", note: "деепричастие: plečiantis DI — по мере развития ИИ" }
+  - { word: "neva", lemma: "neva", pos: part, meaning: "якобы" }
+  - { word: "raštingumo", lemma: "raštingumas", pos: noun, gender: m, gen: "raštingumo", meaning: "грамотность", note: "medijų raštingumas — медиаграмотность" }
+  - { word: "dalydamiesi", lemma: "dalytis", meaning: "делиться", note: "полупричастие мн. ч.: prieš dalydamiesi — прежде чем поделиться" }
+questions:
+  - q: "Kodėl melagingos naujienos plinta greitai?"
+    options: ["Nes jas skelbia tik valstybė", "Nes jos sukelia stiprias emocijas", "Nes jos visada trumpos"]
+    answer: 1
+  - q: "Ką veikia „elfai“?"
+    options: ["Kuria vaizdo įrašus", "Moko vaikus mokyklose", "Ieško melagingų žinučių internete ir jas paneigia"]
+    answer: 2
+  - q: "Ką autorius pataria daryti prieš dalijantis žinute?"
+    options: ["Sustoti ir pagalvoti, ar tai tiesa", "Parodyti ją draugams", "Iš karto ją ištrinti"]
+    answer: 0
