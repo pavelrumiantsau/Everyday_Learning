@@ -1,0 +1,2495 @@
+# Generated from scripts/batches/es-b1-0585.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-0585
+  type: word
+  cefr: A2
+  text: "broma"
+  pos: noun
+  gender: f
+  meaning: { en: "joke, prank" }
+  note: { en: "estar de broma = to be joking" }
+  examples:
+    - { text: "No es una broma.", translation: "It's no joke.", source: "tatoeba:1238493" }
+- id: es-w-0586
+  type: word
+  cefr: A2
+  text: "devolver"
+  pos: verb
+  meaning: { en: "to give back, to return" }
+  note: { en: "o → ue: devuelvo" }
+  examples:
+    - { text: "Quisiera devolver un coche.", translation: "I'd like to return a car.", source: "tatoeba:2181929" }
+- id: es-w-0587
+  type: word
+  cefr: B1
+  text: "breve"
+  pos: adj
+  meaning: { en: "brief, short" }
+  note: { en: "en breve = shortly" }
+  examples:
+    - { text: "Voy a ser breve.", translation: "I'll be brief.", source: "tatoeba:4317620" }
+- id: es-w-0588
+  type: word
+  cefr: B1
+  text: "colección"
+  pos: noun
+  gender: f
+  meaning: { en: "collection" }
+  examples:
+    - { text: "Está orgulloso de su colección.", translation: "He is proud of his collection.", source: "tatoeba:5012154" }
+- id: es-w-0589
+  type: word
+  cefr: A2
+  text: "mandar"
+  pos: verb
+  meaning: { en: "to send; to order" }
+  examples:
+    - { text: "Voy a mandar esta carta.", translation: "I'm going to mail this letter.", source: "tatoeba:3699697" }
+- id: es-w-0590
+  type: word
+  cefr: B1
+  text: "absurdo"
+  pos: adj
+  meaning: { en: "absurd" }
+  examples:
+    - { text: "Eso es absurdo.", translation: "That's absurd.", source: "tatoeba:2151098" }
+- id: es-w-0591
+  type: word
+  cefr: A2
+  text: "empleado"
+  pos: noun
+  gender: m
+  meaning: { en: "employee" }
+  examples:
+    - { text: "Tom es un empleado.", translation: "Tom is an employee.", source: "tatoeba:5009407" }
+- id: es-w-0592
+  type: word
+  cefr: A2
+  text: "almorzar"
+  pos: verb
+  meaning: { en: "to have lunch" }
+  note: { en: "o → ue: almuerzo" }
+  examples:
+    - { text: "Acabo de almorzar.", translation: "I have just eaten lunch.", source: "tatoeba:1517135" }
+- id: es-w-0593
+  type: word
+  cefr: B1
+  text: "agradecido"
+  pos: adj
+  meaning: { en: "grateful" }
+  note: { en: "estar agradecido a alguien" }
+  examples:
+    - { text: "Les estoy agradecido.", translation: "I am grateful to them.", source: "tatoeba:1408305" }
+- id: es-w-0594
+  type: word
+  cefr: B1
+  text: "petición"
+  pos: noun
+  gender: f
+  meaning: { en: "request; petition" }
+  examples:
+    - { text: "Tengo una petición.", translation: "I have a request.", source: "tatoeba:11689736" }
+- id: es-w-0595
+  type: word
+  cefr: A2
+  text: "prestar"
+  pos: verb
+  meaning: { en: "to lend" }
+  note: { en: "prestar atención = to pay attention; \"to borrow\" = pedir prestado" }
+  examples:
+    - { text: "¿Puedes prestar atención?", translation: "Can you pay attention?", source: "tatoeba:7309449" }
+- id: es-w-0596
+  type: word
+  cefr: A2
+  text: "rubio"
+  pos: adj
+  meaning: { en: "blond, fair-haired" }
+  examples:
+    - { text: "Mi pelo es rubio.", translation: "My hair is blond.", source: "tatoeba:9191618" }
+- id: es-w-0597
+  type: word
+  cefr: B1
+  text: "presentación"
+  pos: noun
+  gender: f
+  meaning: { en: "presentation; introduction" }
+  note: { en: "tarjeta de presentación = business card" }
+  examples:
+    - { text: "Esta es mi tarjeta de presentación.", translation: "This is my business card.", source: "tatoeba:2086372" }
+- id: es-w-0598
+  type: word
+  cefr: B1
+  text: "alcanzar"
+  pos: verb
+  meaning: { en: "to reach" }
+  examples:
+    - { text: "No lo puedo alcanzar.", translation: "I can't reach it.", source: "tatoeba:1289301" }
+- id: es-w-0599
+  type: word
+  cefr: A2
+  text: "sano"
+  pos: adj
+  meaning: { en: "healthy" }
+  note: { en: "sano y salvo = safe and sound" }
+  examples:
+    - { text: "Parece estar sano.", translation: "He seems healthy.", source: "tatoeba:1692317" }
+- id: es-w-0600
+  type: word
+  cefr: B1
+  text: "coraje"
+  pos: noun
+  gender: m
+  meaning: { en: "courage" }
+  examples:
+    - { text: "Admiro su coraje.", translation: "I admire his courage.", source: "tatoeba:356236" }
+- id: es-w-0601
+  type: word
+  cefr: B1
+  text: "ocultar"
+  pos: verb
+  meaning: { en: "to hide, to conceal" }
+  examples:
+    - { text: "¿Qué intentas ocultar?", translation: "What are you trying to hide?", source: "tatoeba:1742378" }
+- id: es-w-0602
+  type: word
+  cefr: A2
+  text: "incómodo"
+  pos: adj
+  meaning: { en: "uncomfortable; awkward" }
+  examples:
+    - { text: "Me sentí incómodo.", translation: "I felt uncomfortable.", source: "tatoeba:10068495" }
+- id: es-w-0603
+  type: word
+  cefr: B1
+  text: "caridad"
+  pos: noun
+  gender: f
+  meaning: { en: "charity" }
+  examples:
+    - { text: "No quiero caridad.", translation: "I don't want charity.", source: "tatoeba:2169517" }
+- id: es-w-0604
+  type: word
+  cefr: B1
+  text: "lanzar"
+  pos: verb
+  meaning: { en: "to throw; to launch" }
+  note: { en: "lanzo, lanzas… (z → c before e: lance)" }
+  examples:
+    - { text: "¿Puedes lanzar una bola rápida?", translation: "Can you throw a fastball?", source: "tatoeba:3959738" }
+- id: es-w-0605
+  type: word
+  cefr: B1
+  text: "fascinante"
+  pos: adj
+  meaning: { en: "fascinating" }
+  examples:
+    - { text: "Eso es fascinante.", translation: "That's fascinating.", source: "tatoeba:2151102" }
+- id: es-w-0606
+  type: word
+  cefr: A2
+  text: "llegada"
+  pos: noun
+  gender: f
+  meaning: { en: "arrival" }
+  note: { en: "la salida = departure" }
+  examples:
+    - { text: "Espero tu llegada.", translation: "I await your arrival.", source: "tatoeba:746187" }
+- id: es-w-0607
+  type: word
+  cefr: B1
+  text: "engañar"
+  pos: verb
+  meaning: { en: "to deceive, to cheat" }
+  note: { en: "No te dejes engañar = Don't be fooled" }
+  examples:
+    - { text: "¡No te dejes engañar!", translation: "Don't let yourself be fooled!", source: "tatoeba:1536992" }
+- id: es-w-0608
+  type: word
+  cefr: B1
+  text: "francamente"
+  pos: adv
+  meaning: { en: "frankly" }
+  examples:
+    - { text: "Francamente, ella no me gusta.", translation: "Frankly speaking, I don't like her.", source: "tatoeba:857671" }
+- id: es-w-0609
+  type: word
+  cefr: A2
+  text: "capítulo"
+  pos: noun
+  gender: m
+  meaning: { en: "chapter; episode" }
+  examples:
+    - { text: "Lee este capítulo.", translation: "Read this chapter.", source: "tatoeba:13910696" }
+- id: es-w-0610
+  type: word
+  cefr: B1
+  text: "interrumpir"
+  pos: verb
+  meaning: { en: "to interrupt" }
+  examples:
+    - { text: "No quise interrumpir.", translation: "I didn't want to interrupt.", source: "tatoeba:2164427" }
+- id: es-w-0611
+  type: word
+  cefr: B1
+  text: "confundido"
+  pos: adj
+  meaning: { en: "confused" }
+  note: { en: "estar confundido" }
+  examples:
+    - { text: "Me siento confundido.", translation: "I'm feeling confused.", source: "tatoeba:1781111" }
+- id: es-w-0612
+  type: word
+  cefr: A1
+  text: "tarta"
+  pos: noun
+  gender: f
+  meaning: { en: "cake, tart" }
+  examples:
+    - { text: "No quiero tarta.", translation: "I don't want any cake.", source: "tatoeba:7918555" }
+- id: es-w-0613
+  type: word
+  cefr: B1
+  text: "apostar"
+  pos: verb
+  meaning: { en: "to bet; to gamble" }
+  note: { en: "o → ue: apuesto" }
+  examples:
+    - { text: "Deja de apostar.", translation: "Quit gambling.", source: "tatoeba:1267330" }
+- id: es-w-0614
+  type: word
+  cefr: B1
+  text: "inconsciente"
+  pos: adj
+  meaning: { en: "unconscious; reckless" }
+  examples:
+    - { text: "Ella está inconsciente.", translation: "She's unconscious.", source: "tatoeba:1371524" }
+- id: es-w-0615
+  type: word
+  cefr: A2
+  text: "obra"
+  pos: noun
+  gender: f
+  meaning: { en: "work (of art); building site" }
+  note: { en: "obra de teatro = play; obras = roadworks" }
+  examples:
+    - { text: "Es una obra de arte.", translation: "It's a work of art.", source: "tatoeba:3965444" }
+- id: es-w-0616
+  type: word
+  cefr: B1
+  text: "votar"
+  pos: verb
+  meaning: { en: "to vote" }
+  examples:
+    - { text: "No olvides votar.", translation: "Don't forget to vote.", source: "tatoeba:2502231" }
+- id: es-w-0617
+  type: word
+  cefr: A1
+  text: "amarillo"
+  pos: adj
+  meaning: { en: "yellow" }
+  examples:
+    - { text: "El sol es amarillo.", translation: "The sun is yellow.", source: "tatoeba:5257399" }
+- id: es-w-0618
+  type: word
+  cefr: B1
+  text: "acero"
+  pos: noun
+  gender: m
+  meaning: { en: "steel" }
+  examples:
+    - { text: "La puerta es de acero.", translation: "The door is made of steel.", source: "tatoeba:8927694" }
+- id: es-w-0619
+  type: word
+  cefr: B1
+  text: "causar"
+  pos: verb
+  meaning: { en: "to cause" }
+  examples:
+    - { text: "No quiero causar pánico.", translation: "I don't want to cause a panic.", source: "tatoeba:2781936" }
+- id: es-w-0620
+  type: word
+  cefr: B1
+  text: "infantil"
+  pos: adj
+  meaning: { en: "childish; children's" }
+  examples:
+    - { text: "No seas tan infantil.", translation: "Don't be so childish.", source: "tatoeba:580972" }
+- id: es-w-0621
+  type: word
+  cefr: A2
+  text: "payaso"
+  pos: noun
+  gender: m
+  meaning: { en: "clown" }
+  examples:
+    - { text: "El payaso volvió al circo.", translation: "The clown went back to the circus.", source: "tatoeba:1843888" }
+- id: es-w-0622
+  type: word
+  cefr: B1
+  text: "convencer"
+  pos: verb
+  meaning: { en: "to convince" }
+  note: { en: "convenzo = I convince (c → z)" }
+  examples:
+    - { text: "Es difícil convencer a Jack.", translation: "It is hard to convince Jack.", source: "tatoeba:497629" }
+- id: es-w-0623
+  type: word
+  cefr: A2
+  text: "fabuloso"
+  pos: adj
+  meaning: { en: "fabulous" }
+  examples:
+    - { text: "Eso fue fabuloso.", translation: "That was fabulous.", source: "tatoeba:9564633" }
+- id: es-w-0624
+  type: word
+  cefr: B1
+  text: "rayo"
+  pos: noun
+  gender: m
+  meaning: { en: "ray; lightning" }
+  note: { en: "como un rayo = like lightning" }
+  examples:
+    - { text: "Yo corría como un rayo.", translation: "I ran as fast as lightning.", source: "tatoeba:1068435" }
+- id: es-w-0625
+  type: word
+  cefr: B1
+  text: "cazar"
+  pos: verb
+  meaning: { en: "to hunt" }
+  note: { en: "cazo, cazas… (z → c before e: cace)" }
+  examples:
+    - { text: "Le gusta cazar.", translation: "He likes to hunt.", source: "tatoeba:1123871" }
+- id: es-w-0626
+  type: word
+  cefr: B1
+  text: "extraordinario"
+  pos: adj
+  meaning: { en: "extraordinary" }
+  examples:
+    - { text: "Tom es extraordinario.", translation: "Tom is outstanding.", source: "tatoeba:5982073" }
+- id: es-w-0627
+  type: word
+  cefr: B1
+  text: "diseño"
+  pos: noun
+  gender: m
+  meaning: { en: "design" }
+  examples:
+    - { text: "¿Te gusta este diseño?", translation: "Do you like this design?", source: "tatoeba:4886557" }
+- id: es-w-0628
+  type: word
+  cefr: A2
+  text: "colgar"
+  pos: verb
+  meaning: { en: "to hang (up)" }
+  note: { en: "o → ue: cuelgo; colgar el teléfono = to hang up" }
+  examples:
+    - { text: "¿Puedo colgar tu abrigo?", translation: "May I hang up your coat?", source: "tatoeba:6630152" }
+- id: es-w-0629
+  type: word
+  cefr: B1
+  text: "auténtico"
+  pos: adj
+  meaning: { en: "authentic, genuine" }
+  examples:
+    - { text: "¿Esto es auténtico?", translation: "Is this real?", source: "tatoeba:776399" }
+- id: es-w-0630
+  type: word
+  cefr: B1
+  text: "político"
+  pos: noun
+  gender: m
+  meaning: { en: "politician" }
+  note: { en: "la política = politics; also an adjective: political" }
+  examples:
+    - { text: "Tom es político.", translation: "Tom is a politician.", source: "tatoeba:2383125" }
+- id: es-w-0631
+  type: word
+  cefr: B1
+  text: "convertir"
+  pos: verb
+  meaning: { en: "to turn into, to convert" }
+  note: { en: "e → ie: convierto; convertirse en = to become" }
+  examples:
+    - { text: "Él cree en convertir la basura en combustible.", translation: "He believes in turning garbage into fuel.", source: "tatoeba:13134505" }
+- id: es-w-0632
+  type: word
+  cefr: A2
+  text: "típico"
+  pos: adj
+  meaning: { en: "typical" }
+  examples:
+    - { text: "Esto es tan típico.", translation: "This is so typical.", source: "tatoeba:4329344" }
+- id: es-w-0633
+  type: word
+  cefr: A1
+  text: "italiano"
+  pos: noun
+  gender: m
+  meaning: { en: "Italian (man; language)" }
+  note: { en: "la italiana = Italian woman" }
+  examples:
+    - { text: "Yo soy italiano.", translation: "I'm Italian.", source: "tatoeba:1268912" }
+- id: es-w-0634
+  type: word
+  cefr: B1
+  text: "participar"
+  pos: verb
+  meaning: { en: "to take part" }
+  note: { en: "participar en algo" }
+  examples:
+    - { text: "Lo importante es participar.", translation: "The important thing is to participate.", source: "tatoeba:1541227" }
+- id: es-w-0635
+  type: word
+  cefr: A1
+  text: "gris"
+  pos: adj
+  meaning: { en: "grey" }
+  examples:
+    - { text: "Mi traje es gris.", translation: "My suit is gray.", source: "tatoeba:456474" }
+- id: es-w-0636
+  type: word
+  cefr: A1
+  text: "camiseta"
+  pos: noun
+  gender: f
+  meaning: { en: "T-shirt" }
+  examples:
+    - { text: "Lavé mi camiseta.", translation: "I washed my t-shirt.", source: "tatoeba:528552" }
+- id: es-w-0637
+  type: word
+  cefr: B1
+  text: "identificar"
+  pos: verb
+  meaning: { en: "to identify" }
+  examples:
+    - { text: "¿Puedes identificar esto?", translation: "Can you identify this?", source: "tatoeba:3564904" }
+- id: es-w-0638
+  type: word
+  cefr: B1
+  text: "anciano"
+  pos: adj
+  meaning: { en: "elderly" }
+  note: { en: "Also a noun: un anciano = an old man" }
+  examples:
+    - { text: "Soy un anciano.", translation: "I'm an old man.", source: "tatoeba:1307086" }
+- id: es-w-0639
+  type: word
+  cefr: A2
+  text: "equipaje"
+  pos: noun
+  gender: m
+  meaning: { en: "luggage" }
+  note: { en: "Singular in Spanish: el equipaje" }
+  examples:
+    - { text: "Aquí está mi equipaje.", translation: "Here is my baggage.", source: "tatoeba:435097" }
+- id: es-w-0640
+  type: word
+  cefr: B1
+  text: "defender"
+  pos: verb
+  meaning: { en: "to defend" }
+  note: { en: "e → ie: defiendo" }
+  examples:
+    - { text: "Me puedo defender sola.", translation: "I can defend myself.", source: "tatoeba:2300815" }
+- id: es-w-0641
+  type: word
+  cefr: B1
+  text: "fiel"
+  pos: adj
+  meaning: { en: "faithful, loyal" }
+  examples:
+    - { text: "Mi perro es muy fiel.", translation: "My dog is very faithful.", source: "tatoeba:1338852" }
+- id: es-w-0642
+  type: word
+  cefr: B1
+  text: "sufrimiento"
+  pos: noun
+  gender: m
+  meaning: { en: "suffering" }
+  examples:
+    - { text: "La vida es sufrimiento.", translation: "To live is to suffer.", source: "tatoeba:338545" }
+- id: es-w-0643
+  type: word
+  cefr: B1
+  text: "considerar"
+  pos: verb
+  meaning: { en: "to consider" }
+  examples:
+    - { text: "Esto es algo a considerar.", translation: "This is something to consider.", source: "tatoeba:1704734" }
+- id: es-w-0644
+  type: word
+  cefr: A2
+  text: "generoso"
+  pos: adj
+  meaning: { en: "generous" }
+  examples:
+    - { text: "Eres muy generoso.", translation: "You're very generous.", source: "tatoeba:9431430" }
+- id: es-w-0645
+  type: word
+  cefr: A2
+  text: "adolescente"
+  pos: noun
+  gender: mf
+  meaning: { en: "teenager" }
+  note: { en: "el / la adolescente" }
+  examples:
+    - { text: "No soy un adolescente.", translation: "I'm not a teenager.", source: "tatoeba:9816909" }
+- id: es-w-0646
+  type: word
+  cefr: A2
+  text: "esconder"
+  pos: verb
+  meaning: { en: "to hide" }
+  note: { en: "esconderse = to hide (oneself)" }
+  examples:
+    - { text: "¿Te vas a esconder?", translation: "Are you going to hide?", source: "tatoeba:5132077" }
+- id: es-w-0647
+  type: word
+  cefr: B1
+  text: "violento"
+  pos: adj
+  meaning: { en: "violent" }
+  examples:
+    - { text: "Tom es violento.", translation: "Tom's violent.", source: "tatoeba:2115788" }
+- id: es-w-0648
+  type: word
+  cefr: A2
+  text: "soltero"
+  pos: adj
+  meaning: { en: "single, unmarried" }
+  note: { en: "ser/estar soltero" }
+  examples:
+    - { text: "Tom es soltero.", translation: "Tom is single.", source: "tatoeba:1324741" }
+- id: es-w-0649
+  type: word
+  cefr: A2
+  text: "practicar"
+  pos: verb
+  meaning: { en: "to practise" }
+  note: { en: "practico, practicas… (c → qu before e: practique)" }
+  examples:
+    - { text: "Quiero practicar ruso.", translation: "I want to practice Russian.", source: "tatoeba:12901689" }
+- id: es-w-0650
+  type: word
+  cefr: B1
+  text: "satisfecho"
+  pos: adj
+  meaning: { en: "satisfied" }
+  examples:
+    - { text: "No estoy satisfecho.", translation: "I'm not satisfied.", source: "tatoeba:607427" }
+- id: es-w-0651
+  type: word
+  cefr: B1
+  text: "influencia"
+  pos: noun
+  gender: f
+  meaning: { en: "influence" }
+  examples:
+    - { text: "Él es una mala influencia.", translation: "He's a bad influence.", source: "tatoeba:2745397" }
+- id: es-w-0652
+  type: word
+  cefr: A2
+  text: "besar"
+  pos: verb
+  meaning: { en: "to kiss" }
+  note: { en: "el beso = kiss" }
+  examples:
+    - { text: "¿Te puedo besar?", translation: "May I kiss you?", source: "tatoeba:9748367" }
+- id: es-w-0653
+  type: word
+  cefr: B1
+  text: "evidente"
+  pos: adj
+  meaning: { en: "obvious, evident" }
+  examples:
+    - { text: "Es evidente que él lo hizo.", translation: "It is evident that he did it.", source: "tatoeba:1163528" }
+- id: es-w-0654
+  type: word
+  cefr: B1
+  text: "oxígeno"
+  pos: noun
+  gender: m
+  meaning: { en: "oxygen" }
+  examples:
+    - { text: "El amor es como el oxígeno.", translation: "Love is like oxygen.", source: "tatoeba:1670132" }
+- id: es-w-0655
+  type: word
+  cefr: A1
+  text: "lavar"
+  pos: verb
+  meaning: { en: "to wash" }
+  note: { en: "lavarse = to wash (oneself): me lavo las manos" }
+  examples:
+    - { text: "Me quiero lavar.", translation: "I want to wash myself.", source: "tatoeba:1210065" }
+- id: es-w-0656
+  type: word
+  cefr: B1
+  text: "leal"
+  pos: adj
+  meaning: { en: "loyal" }
+  examples:
+    - { text: "Tom es leal a su país.", translation: "Tom is loyal to his country.", source: "tatoeba:4141399" }
+- id: es-w-0657
+  type: word
+  cefr: B1
+  text: "experimento"
+  pos: noun
+  gender: m
+  meaning: { en: "experiment" }
+  examples:
+    - { text: "El experimento falló.", translation: "The experiment failed.", source: "tatoeba:854085" }
+- id: es-w-0658
+  type: word
+  cefr: B1
+  text: "vomitar"
+  pos: verb
+  meaning: { en: "to vomit, to throw up" }
+  examples:
+    - { text: "Tengo ganas de vomitar.", translation: "I feel like throwing up.", source: "tatoeba:564551" }
+- id: es-w-0659
+  type: word
+  cefr: B1
+  text: "similar"
+  pos: adj
+  meaning: { en: "similar" }
+  examples:
+    - { text: "Hice algo similar.", translation: "I did something similar.", source: "tatoeba:2182360" }
+- id: es-w-0660
+  type: word
+  cefr: B1
+  text: "propuesta"
+  pos: noun
+  gender: f
+  meaning: { en: "proposal" }
+  note: { en: "proponer = to propose" }
+  examples:
+    - { text: "Apoyo la propuesta.", translation: "I support the proposal.", source: "tatoeba:1012268" }
+- id: es-w-0661
+  type: word
+  cefr: B1
+  text: "escoger"
+  pos: verb
+  meaning: { en: "to choose, to pick" }
+  note: { en: "escojo = I choose (g → j)" }
+  examples:
+    - { text: "¿Cuál de ellos vas a escoger?", translation: "Which one are you going to pick?", source: "tatoeba:9002358" }
+- id: es-w-0662
+  type: word
+  cefr: B1
+  text: "grosero"
+  pos: adj
+  meaning: { en: "rude" }
+  examples:
+    - { text: "¡Sos un grosero!", translation: "You are rude!", source: "tatoeba:1691373" }
+- id: es-w-0663
+  type: word
+  cefr: A2
+  text: "cantante"
+  pos: noun
+  gender: mf
+  meaning: { en: "singer" }
+  note: { en: "el / la cantante" }
+  examples:
+    - { text: "Él es cantante.", translation: "He is a singer.", source: "tatoeba:2707015" }
+- id: es-w-0664
+  type: word
+  cefr: B1
+  text: "negociar"
+  pos: verb
+  meaning: { en: "to negotiate" }
+  examples:
+    - { text: "Los extremistas rechazaron negociar.", translation: "The extremists refused to negotiate.", source: "tatoeba:856489" }
+- id: es-w-0665
+  type: word
+  cefr: B1
+  text: "traición"
+  pos: noun
+  gender: f
+  meaning: { en: "betrayal, treachery" }
+  note: { en: "traicionar = to betray" }
+  examples:
+    - { text: "No he olvidado tu traición.", translation: "I have not forgotten your treachery.", source: "tatoeba:3791271" }
+- id: es-w-0666
+  type: word
+  cefr: A2
+  text: "gastar"
+  pos: verb
+  meaning: { en: "to spend (money); to use up" }
+  examples:
+    - { text: "Quiero gastar menos.", translation: "I want to spend less money.", source: "tatoeba:5963756" }
+- id: es-w-0667
+  type: word
+  cefr: B1
+  text: "cementerio"
+  pos: noun
+  gender: m
+  meaning: { en: "cemetery" }
+  examples:
+    - { text: "Vamos al cementerio.", translation: "We are going to the cemetery.", source: "tatoeba:1920669" }
+- id: es-w-0668
+  type: word
+  cefr: A2
+  text: "pintar"
+  pos: verb
+  meaning: { en: "to paint" }
+  examples:
+    - { text: "No me gusta pintar.", translation: "I don't like to paint.", source: "tatoeba:1748397" }
+- id: es-w-0669
+  type: word
+  cefr: B1
+  text: "pozo"
+  pos: noun
+  gender: m
+  meaning: { en: "well (for water)" }
+  examples:
+    - { text: "El pozo se secó.", translation: "The well ran dry.", source: "tatoeba:1258376" }
+- id: es-w-0670
+  type: word
+  cefr: A2
+  text: "pasear"
+  pos: verb
+  meaning: { en: "to go for a walk, to stroll" }
+  note: { en: "el paseo = walk" }
+  examples:
+    - { text: "Me gusta pasear.", translation: "I like to walk.", source: "tatoeba:495136" }
+- id: es-w-0671
+  type: word
+  cefr: B1
+  text: "procedimiento"
+  pos: noun
+  gender: m
+  meaning: { en: "procedure" }
+  examples:
+    - { text: "Es un procedimiento de rutina.", translation: "It's routine procedure.", source: "tatoeba:2414102" }
+- id: es-w-0672
+  type: word
+  cefr: B1
+  text: "contratar"
+  pos: verb
+  meaning: { en: "to hire; to sign up" }
+  note: { en: "el contrato = contract" }
+  examples:
+    - { text: "Quiero contratar a Tom.", translation: "I want to hire Tom.", source: "tatoeba:2169596" }
+- id: es-w-0673
+  type: word
+  cefr: B1
+  text: "fantasía"
+  pos: noun
+  gender: f
+  meaning: { en: "fantasy" }
+  examples:
+    - { text: "Vive en un mundo de fantasía.", translation: "He lives in a world of fantasy.", source: "tatoeba:1715760" }
+- id: es-w-0674
+  type: word
+  cefr: A2
+  text: "encender"
+  pos: verb
+  meaning: { en: "to switch on; to light" }
+  note: { en: "e → ie: enciendo. apagar = to switch off" }
+  examples:
+    - { text: "¿Puedo encender la luz?", translation: "May I switch on the light?", source: "tatoeba:1745892" }
+- id: es-w-0675
+  type: word
+  cefr: A1
+  text: "billete"
+  pos: noun
+  gender: m
+  meaning: { en: "ticket; banknote" }
+  note: { en: "In Spain el billete (train, plane); Latin America el boleto" }
+  examples:
+    - { text: "No tengo billete.", translation: "I don't have a ticket.", source: "tatoeba:898412" }
+- id: es-w-0676
+  type: word
+  cefr: A2
+  text: "boda"
+  pos: noun
+  gender: f
+  meaning: { en: "wedding" }
+  examples:
+    - { text: "La boda es mañana.", translation: "The wedding is tomorrow.", source: "tatoeba:8187743" }
+- id: es-w-0677
+  type: word
+  cefr: A2
+  text: "conejo"
+  pos: noun
+  gender: m
+  meaning: { en: "rabbit" }
+  examples:
+    - { text: "El conejo es marrón.", translation: "The rabbit is brown.", source: "tatoeba:11524214" }
+- id: es-w-0678
+  type: word
+  cefr: B1
+  text: "significado"
+  pos: noun
+  gender: m
+  meaning: { en: "meaning" }
+  note: { en: "significar = to mean" }
+  examples:
+    - { text: "Desconozco el significado.", translation: "The meaning is unknown to me.", source: "tatoeba:1626667" }
+- id: es-w-0679
+  type: word
+  cefr: A1
+  text: "cincuenta"
+  pos: num
+  meaning: { en: "fifty" }
+  examples:
+    - { text: "Tengo cincuenta años.", translation: "I am fifty.", source: "tatoeba:13509540" }
+- id: es-w-0680
+  type: word
+  cefr: B1
+  text: "apropiado"
+  pos: adj
+  meaning: { en: "appropriate" }
+  examples:
+    - { text: "No me parece apropiado.", translation: "I don't think it's appropriate.", source: "tatoeba:7134918" }
+- id: es-w-0681
+  type: word
+  cefr: A1
+  text: "patata"
+  pos: noun
+  gender: f
+  meaning: { en: "potato" }
+  note: { en: "In Spain; in Latin America la papa. tortilla de patata = Spanish omelette" }
+  examples:
+    - { text: "¡También me encanta la tortilla de patata!", translation: "I love potato cakes, too.", source: "tatoeba:1216428" }
+- id: es-w-0682
+  type: word
+  cefr: B1
+  text: "tradición"
+  pos: noun
+  gender: f
+  meaning: { en: "tradition" }
+  examples:
+    - { text: "Ésta es una tradición turca.", translation: "This is a Turkish tradition.", source: "tatoeba:546711" }
+- id: es-w-0683
+  type: word
+  cefr: B1
+  text: "electricidad"
+  pos: noun
+  gender: f
+  meaning: { en: "electricity" }
+  note: { en: "Se fue la electricidad = the power went out" }
+  examples:
+    - { text: "Se fue la electricidad.", translation: "The power went out.", source: "tatoeba:625749" }
+- id: es-w-0684
+  type: word
+  cefr: B1
+  text: "reto"
+  pos: noun
+  gender: m
+  meaning: { en: "challenge" }
+  note: { en: "Same as el desafío" }
+  examples:
+    - { text: "¡Acepto el reto!", translation: "I accept the challenge!", source: "tatoeba:1434398" }
+- id: es-w-0685
+  type: word
+  cefr: B1
+  text: "aldea"
+  pos: noun
+  gender: f
+  meaning: { en: "village, hamlet" }
+  note: { en: "A town-sized village is el pueblo" }
+  examples:
+    - { text: "Él vive en una aldea.", translation: "He lives in a village.", source: "tatoeba:714959" }
+- id: es-w-0686
+  type: word
+  cefr: B1
+  text: "cima"
+  pos: noun
+  gender: f
+  meaning: { en: "top, summit" }
+  examples:
+    - { text: "Subimos a la cima.", translation: "We climbed to the top.", source: "tatoeba:1940255" }
+- id: es-w-0687
+  type: word
+  cefr: A2
+  text: "risa"
+  pos: noun
+  gender: f
+  meaning: { en: "laughter, laugh" }
+  note: { en: "morirse de risa = to die laughing" }
+  examples:
+    - { text: "Me muero de risa.", translation: "I'm dying of laughter.", source: "tatoeba:8674967" }
+- id: es-w-0688
+  type: word
+  cefr: A2
+  text: "rey"
+  pos: noun
+  gender: m
+  meaning: { en: "king" }
+  note: { en: "la reina = queen; los Reyes = the King and Queen / the Three Kings" }
+  examples:
+    - { text: "Fue un buen rey.", translation: "He was a good king.", source: "tatoeba:1365244" }
+- id: es-w-0689
+  type: word
+  cefr: A2
+  text: "nube"
+  pos: noun
+  gender: f
+  meaning: { en: "cloud" }
+  examples:
+    - { text: "Mira la nube por allá.", translation: "Look at the cloud over there.", source: "tatoeba:1715790" }
+- id: es-w-0690
+  type: word
+  cefr: A2
+  text: "circo"
+  pos: noun
+  gender: m
+  meaning: { en: "circus" }
+  examples:
+    - { text: "Vayamos mañana al circo.", translation: "Let's go to the circus tomorrow.", source: "tatoeba:2260361" }
+- id: es-w-0691
+  type: word
+  cefr: B1
+  text: "uña"
+  pos: noun
+  gender: f
+  meaning: { en: "nail (finger, toe)" }
+  examples:
+    - { text: "Me rompí una uña.", translation: "I broke a nail.", source: "tatoeba:1535494" }
+- id: es-w-0692
+  type: word
+  cefr: B1
+  text: "sacrificio"
+  pos: noun
+  gender: m
+  meaning: { en: "sacrifice" }
+  examples:
+    - { text: "Tu sacrificio no fue en vano.", translation: "Your sacrifice was not in vain.", source: "tatoeba:1783061" }
+- id: es-w-0693
+  type: word
+  cefr: A2
+  text: "texto"
+  pos: noun
+  gender: m
+  meaning: { en: "text" }
+  examples:
+    - { text: "Leamos el texto.", translation: "Let's read the text.", source: "tatoeba:10789022" }
+- id: es-w-0694
+  type: word
+  cefr: B1
+  text: "pelea"
+  pos: noun
+  gender: f
+  meaning: { en: "fight" }
+  note: { en: "pelearse = to fight, to quarrel" }
+  examples:
+    - { text: "Hubo una pelea.", translation: "There was a fight.", source: "tatoeba:4795988" }
+- id: es-w-0695
+  type: word
+  cefr: B1
+  text: "colina"
+  pos: noun
+  gender: f
+  meaning: { en: "hill" }
+  examples:
+    - { text: "Subí la colina a pie.", translation: "I walked up the hill.", source: "tatoeba:1810302" }
+- id: es-w-0696
+  type: word
+  cefr: A1
+  text: "naranja"
+  pos: noun
+  gender: f
+  meaning: { en: "orange (fruit)" }
+  note: { en: "As a colour it doesn't change: camisas naranja" }
+  examples:
+    - { text: "Dame una naranja.", translation: "Give me an orange.", source: "tatoeba:1041624" }
+- id: es-w-0697
+  type: word
+  cefr: B1
+  text: "batería"
+  pos: noun
+  gender: f
+  meaning: { en: "battery; drums" }
+  examples:
+    - { text: "La batería murió.", translation: "The battery died.", source: "tatoeba:703126" }
+- id: es-w-0698
+  type: word
+  cefr: A2
+  text: "voz"
+  pos: noun
+  gender: f
+  meaning: { en: "voice" }
+  note: { en: "Plural: voces; en voz alta = aloud" }
+  examples:
+    - { text: "Levanta la voz.", translation: "Raise your voice.", source: "tatoeba:5048460" }
+- id: es-w-0699
+  type: word
+  cefr: B1
+  text: "callejón"
+  pos: noun
+  gender: m
+  meaning: { en: "alley" }
+  note: { en: "callejón sin salida = dead end" }
+  examples:
+    - { text: "Es un callejón sin salida.", translation: "It's a dead end.", source: "tatoeba:803464" }
+- id: es-w-0700
+  type: word
+  cefr: B1
+  text: "técnica"
+  pos: noun
+  gender: f
+  meaning: { en: "technique" }
+  examples:
+    - { text: "Su técnica era la mejor.", translation: "His technique was the best.", source: "tatoeba:1559567" }
+- id: es-w-0701
+  type: word
+  cefr: B1
+  text: "maquillaje"
+  pos: noun
+  gender: m
+  meaning: { en: "make-up" }
+  note: { en: "maquillarse = to put on make-up" }
+  examples:
+    - { text: "Lleva mucho maquillaje.", translation: "She wears a lot of makeup.", source: "tatoeba:2166538" }
+- id: es-w-0702
+  type: word
+  cefr: B1
+  text: "sueldo"
+  pos: noun
+  gender: m
+  meaning: { en: "salary, pay" }
+  note: { en: "Same as el salario" }
+  examples:
+    - { text: "Él cobra un buen sueldo.", translation: "He gets a good salary.", source: "tatoeba:863819" }
+- id: es-w-0703
+  type: word
+  cefr: A2
+  text: "pasaporte"
+  pos: noun
+  gender: m
+  meaning: { en: "passport" }
+  examples:
+    - { text: "Sacó su pasaporte.", translation: "He took out his passport.", source: "tatoeba:10028726" }
+- id: es-w-0704
+  type: word
+  cefr: B1
+  text: "infancia"
+  pos: noun
+  gender: f
+  meaning: { en: "childhood" }
+  examples:
+    - { text: "Recuerdo bien mi infancia.", translation: "I remember my childhood well.", source: "tatoeba:339703" }
+- id: es-w-0705
+  type: word
+  cefr: A2
+  text: "producto"
+  pos: noun
+  gender: m
+  meaning: { en: "product" }
+  examples:
+    - { text: "El producto es bueno.", translation: "The product is good.", source: "tatoeba:11902780" }
+- id: es-w-0706
+  type: word
+  cefr: A2
+  text: "mediodía"
+  pos: noun
+  gender: m
+  meaning: { en: "midday, noon" }
+  examples:
+    - { text: "Es casi mediodía.", translation: "It's almost noon.", source: "tatoeba:776402" }
+- id: es-w-0707
+  type: word
+  cefr: A2
+  text: "plástico"
+  pos: noun
+  gender: m
+  meaning: { en: "plastic" }
+  note: { en: "de plástico = made of plastic" }
+  examples:
+    - { text: "Esto es de plástico.", translation: "That's plastic.", source: "tatoeba:462529" }
+- id: es-w-0708
+  type: word
+  cefr: A2
+  text: "barba"
+  pos: noun
+  gender: f
+  meaning: { en: "beard" }
+  examples:
+    - { text: "Él tiene barba.", translation: "He has a beard.", source: "tatoeba:866998" }
+- id: es-w-0709
+  type: word
+  cefr: B1
+  text: "mago"
+  pos: noun
+  gender: m
+  meaning: { en: "magician, wizard" }
+  examples:
+    - { text: "Yo no soy mago.", translation: "I'm not a magician.", source: "tatoeba:1061432" }
+- id: es-w-0710
+  type: word
+  cefr: A2
+  text: "hoja"
+  pos: noun
+  gender: f
+  meaning: { en: "leaf; sheet (of paper)" }
+  examples:
+    - { text: "¿Me prestas una hoja?", translation: "Can you give me a sheet?", source: "tatoeba:1189234" }
+- id: es-w-0711
+  type: word
+  cefr: A2
+  text: "mantequilla"
+  pos: noun
+  gender: f
+  meaning: { en: "butter" }
+  examples:
+    - { text: "La mantequilla es suave.", translation: "Butter is soft.", source: "tatoeba:1190115" }
+- id: es-w-0712
+  type: word
+  cefr: B1
+  text: "ideal"
+  pos: adj
+  meaning: { en: "ideal, perfect" }
+  examples:
+    - { text: "Tom es el hijo ideal.", translation: "Tom is the perfect son.", source: "tatoeba:1254457" }
+- id: es-w-0713
+  type: word
+  cefr: B1
+  text: "recepción"
+  pos: noun
+  gender: f
+  meaning: { en: "reception (desk); reception (signal)" }
+  examples:
+    - { text: "Yo estaba en la recepción.", translation: "I was at the reception.", source: "tatoeba:4791530" }
+- id: es-w-0714
+  type: word
+  cefr: B1
+  text: "docena"
+  pos: noun
+  gender: f
+  meaning: { en: "dozen" }
+  note: { en: "una docena de huevos" }
+  examples:
+    - { text: "Compró una docena de huevos.", translation: "She bought a dozen eggs.", source: "tatoeba:1288947" }
+- id: es-w-0715
+  type: word
+  cefr: B1
+  text: "multitud"
+  pos: noun
+  gender: f
+  meaning: { en: "crowd" }
+  examples:
+    - { text: "La multitud se dispersó.", translation: "The crowd dispersed.", source: "tatoeba:7968547" }
+- id: es-w-0716
+  type: word
+  cefr: B1
+  text: "rutina"
+  pos: noun
+  gender: f
+  meaning: { en: "routine" }
+  examples:
+    - { text: "Tom tiene una rutina diaria.", translation: "Tom is a creature of habit.", source: "tatoeba:6760497" }
+- id: es-w-0717
+  type: word
+  cefr: A2
+  text: "oportunidad"
+  pos: noun
+  gender: f
+  meaning: { en: "opportunity, chance" }
+  examples:
+    - { text: "Deme una oportunidad.", translation: "Give me a chance.", source: "tatoeba:2279505" }
+- id: es-w-0718
+  type: word
+  cefr: B1
+  text: "progreso"
+  pos: noun
+  gender: m
+  meaning: { en: "progress" }
+  examples:
+    - { text: "Hemos hecho buen progreso.", translation: "We've made good progress.", source: "tatoeba:1526212" }
+- id: es-w-0719
+  type: word
+  cefr: A1
+  text: "ensalada"
+  pos: noun
+  gender: f
+  meaning: { en: "salad" }
+  examples:
+    - { text: "Quisiera una ensalada.", translation: "I'd like a salad.", source: "tatoeba:3245826" }
+- id: es-w-0720
+  type: word
+  cefr: A2
+  text: "letra"
+  pos: noun
+  gender: f
+  meaning: { en: "letter (of the alphabet); handwriting; lyrics" }
+  note: { en: "A letter you send is una carta" }
+  examples:
+    - { text: "¿Cuál es esta letra?", translation: "What is this letter?", source: "tatoeba:641032" }
+- id: es-w-0721
+  type: word
+  cefr: A2
+  text: "novela"
+  pos: noun
+  gender: f
+  meaning: { en: "novel" }
+  examples:
+    - { text: "Ya leí esa novela.", translation: "I've already read that novel.", source: "tatoeba:3389971" }
+- id: es-w-0722
+  type: word
+  cefr: B1
+  text: "herramienta"
+  pos: noun
+  gender: f
+  meaning: { en: "tool" }
+  examples:
+    - { text: "Tengo una herramienta.", translation: "I have a tool.", source: "tatoeba:1546436" }
+- id: es-w-0723
+  type: word
+  cefr: A1
+  text: "septiembre"
+  pos: noun
+  gender: m
+  meaning: { en: "September" }
+  examples:
+    - { text: "Ya es septiembre.", translation: "It's September.", source: "tatoeba:12883978" }
+- id: es-w-0724
+  type: word
+  cefr: A1
+  text: "vestido"
+  pos: noun
+  gender: m
+  meaning: { en: "dress" }
+  note: { en: "vestirse = to get dressed" }
+  examples:
+    - { text: "El vestido es verde.", translation: "The dress is green.", source: "tatoeba:909258" }
+- id: es-w-0725
+  type: word
+  cefr: A2
+  text: "festival"
+  pos: noun
+  gender: m
+  meaning: { en: "festival" }
+  examples:
+    - { text: "El festival llegó a su fin.", translation: "The festival came to an end.", source: "tatoeba:864174" }
+- id: es-w-0726
+  type: word
+  cefr: B1
+  text: "fracaso"
+  pos: noun
+  gender: m
+  meaning: { en: "failure" }
+  note: { en: "fracasar = to fail" }
+  examples:
+    - { text: "Eres un fracaso.", translation: "You're a failure.", source: "tatoeba:8666872" }
+- id: es-w-0727
+  type: word
+  cefr: B1
+  text: "viuda"
+  pos: noun
+  gender: f
+  meaning: { en: "widow" }
+  note: { en: "el viudo = widower" }
+  examples:
+    - { text: "Una viuda tenía dos hijas.", translation: "A widow had two daughters.", source: "tatoeba:1168792" }
+- id: es-w-0728
+  type: word
+  cefr: B1
+  text: "advertencia"
+  pos: noun
+  gender: f
+  meaning: { en: "warning" }
+  note: { en: "advertir = to warn" }
+  examples:
+    - { text: "Esta es tu última advertencia.", translation: "This is your final warning.", source: "tatoeba:3556428" }
+- id: es-w-0729
+  type: word
+  cefr: B1
+  text: "drama"
+  pos: noun
+  gender: m
+  meaning: { en: "drama" }
+  note: { en: "Masculine despite the -a: el drama" }
+  examples:
+    - { text: "Esta película es un drama.", translation: "This film is a drama.", source: "tatoeba:1219403" }
+- id: es-w-0730
+  type: word
+  cefr: B1
+  text: "cueva"
+  pos: noun
+  gender: f
+  meaning: { en: "cave" }
+  examples:
+    - { text: "Entré a la cueva.", translation: "I entered the cave.", source: "tatoeba:1794894" }
+- id: es-w-0731
+  type: word
+  cefr: A2
+  text: "matemáticas"
+  pos: noun
+  gender: f
+  meaning: { en: "mathematics" }
+  note: { en: "Usually plural: las matemáticas" }
+  examples:
+    - { text: "Amo las matemáticas.", translation: "I love math.", source: "tatoeba:1007025" }
+- id: es-w-0732
+  type: word
+  cefr: A2
+  text: "dólar"
+  pos: noun
+  gender: m
+  meaning: { en: "dollar" }
+  examples:
+    - { text: "Quiero un dólar.", translation: "I want a dollar.", source: "tatoeba:4786372" }
+- id: es-w-0733
+  type: word
+  cefr: B1
+  text: "lectura"
+  pos: noun
+  gender: f
+  meaning: { en: "reading" }
+  examples:
+    - { text: "Me apasiona la lectura.", translation: "I am passionate about reading.", source: "tatoeba:5716475" }
+- id: es-w-0734
+  type: word
+  cefr: A2
+  text: "camarero"
+  pos: noun
+  gender: m
+  meaning: { en: "waiter" }
+  note: { en: "In Spain; in Latin America el mesero" }
+  examples:
+    - { text: "Él es camarero y actor.", translation: "He is a waiter and an actor.", source: "tatoeba:1402528" }
+- id: es-w-0735
+  type: word
+  cefr: A1
+  text: "deporte"
+  pos: noun
+  gender: m
+  meaning: { en: "sport" }
+  note: { en: "hacer deporte = to do sport" }
+  examples:
+    - { text: "No hago deporte.", translation: "I do not do sports.", source: "tatoeba:1731679" }
+- id: es-w-0736
+  type: word
+  cefr: B1
+  text: "fuga"
+  pos: noun
+  gender: f
+  meaning: { en: "leak; escape" }
+  examples:
+    - { text: "Hay una fuga de gas.", translation: "There's a gas leak.", source: "tatoeba:13520017" }
+- id: es-w-0737
+  type: word
+  cefr: B1
+  text: "casco"
+  pos: noun
+  gender: m
+  meaning: { en: "helmet" }
+  examples:
+    - { text: "¿Ambos llevaban casco?", translation: "Were both of them wearing helmets?", source: "tatoeba:2959978" }
+- id: es-w-0738
+  type: word
+  cefr: A1
+  text: "junio"
+  pos: noun
+  gender: m
+  meaning: { en: "June" }
+  examples:
+    - { text: "Juan nació en junio.", translation: "Juan was born in June.", source: "tatoeba:9002336" }
+- id: es-w-0739
+  type: word
+  cefr: B1
+  text: "respiración"
+  pos: noun
+  gender: f
+  meaning: { en: "breathing" }
+  examples:
+    - { text: "Contén tu respiración.", translation: "Hold your breath.", source: "tatoeba:5638368" }
+- id: es-w-0740
+  type: word
+  cefr: A2
+  text: "consejo"
+  pos: noun
+  gender: m
+  meaning: { en: "piece of advice; council" }
+  note: { en: "Uncountable in English: un consejo = a piece of advice" }
+  examples:
+    - { text: "Pide su consejo.", translation: "Ask for his advice.", source: "tatoeba:6031430" }
+- id: es-w-0741
+  type: word
+  cefr: A2
+  text: "juguete"
+  pos: noun
+  gender: m
+  meaning: { en: "toy" }
+  examples:
+    - { text: "¡No es un juguete!", translation: "It's not a toy!", source: "tatoeba:995661" }
+- id: es-w-0742
+  type: word
+  cefr: B1
+  text: "debilidad"
+  pos: noun
+  gender: f
+  meaning: { en: "weakness" }
+  examples:
+    - { text: "Las mujeres son mi debilidad.", translation: "Women are my weakness.", source: "tatoeba:3120130" }
+- id: es-w-0743
+  type: word
+  cefr: A2
+  text: "corbata"
+  pos: noun
+  gender: f
+  meaning: { en: "tie" }
+  examples:
+    - { text: "No uso corbata.", translation: "I don't wear a tie.", source: "tatoeba:7758347" }
+- id: es-w-0744
+  type: word
+  cefr: A2
+  text: "pareja"
+  pos: noun
+  gender: f
+  meaning: { en: "couple; partner" }
+  note: { en: "Always feminine, even for a man: mi pareja" }
+  examples:
+    - { text: "Son una pareja.", translation: "They're a couple.", source: "tatoeba:10140886" }
+- id: es-w-0745
+  type: word
+  cefr: B1
+  text: "plazo"
+  pos: noun
+  gender: m
+  meaning: { en: "deadline; period" }
+  note: { en: "a plazos = in instalments" }
+  examples:
+    - { text: "El plazo acaba el lunes.", translation: "The deadline is Monday.", source: "tatoeba:5769382" }
+- id: es-w-0746
+  type: word
+  cefr: B1
+  text: "conducta"
+  pos: noun
+  gender: f
+  meaning: { en: "behaviour, conduct" }
+  examples:
+    - { text: "No apruebo su conducta.", translation: "I don't approve of his conduct.", source: "tatoeba:2258745" }
+- id: es-w-0747
+  type: word
+  cefr: A2
+  text: "vendedor"
+  pos: noun
+  gender: m
+  meaning: { en: "salesman, seller" }
+  examples:
+    - { text: "Soy un vendedor.", translation: "I'm a salesman.", source: "tatoeba:5015038" }
+- id: es-w-0748
+  type: word
+  cefr: B1
+  text: "estrés"
+  pos: noun
+  gender: m
+  meaning: { en: "stress" }
+  examples:
+    - { text: "Siempre estoy bajo estrés.", translation: "I'm always under stress.", source: "tatoeba:1827695" }
+- id: es-w-0749
+  type: word
+  cefr: A2
+  text: "horario"
+  pos: noun
+  gender: m
+  meaning: { en: "timetable; opening hours" }
+  examples:
+    - { text: "¿Tienes un horario?", translation: "Do you have a timetable?", source: "tatoeba:992817" }
+- id: es-w-0750
+  type: word
+  cefr: A2
+  text: "alfombra"
+  pos: noun
+  gender: f
+  meaning: { en: "carpet, rug" }
+  examples:
+    - { text: "Ella lavó una alfombra.", translation: "She washed a carpet.", source: "tatoeba:3149514" }
+- id: es-w-0751
+  type: word
+  cefr: A2
+  text: "actor"
+  pos: noun
+  gender: m
+  meaning: { en: "actor" }
+  note: { en: "la actriz = actress" }
+  examples:
+    - { text: "Soy buen actor.", translation: "I'm a good actor.", source: "tatoeba:12303530" }
+- id: es-w-0752
+  type: word
+  cefr: B1
+  text: "intención"
+  pos: noun
+  gender: f
+  meaning: { en: "intention" }
+  note: { en: "No era mi intención = I didn't mean to" }
+  examples:
+    - { text: "No era mi intención.", translation: "It wasn't my intention.", source: "tatoeba:2608" }
+- id: es-w-0753
+  type: word
+  cefr: A2
+  text: "postre"
+  pos: noun
+  gender: m
+  meaning: { en: "dessert" }
+  note: { en: "de postre = for dessert" }
+  examples:
+    - { text: "¿Qué hay de postre?", translation: "What is for dessert?", source: "tatoeba:1752543" }
+- id: es-w-0754
+  type: word
+  cefr: B1
+  text: "embajador"
+  pos: noun
+  gender: m
+  meaning: { en: "ambassador" }
+  examples:
+    - { text: "El embajador regresó.", translation: "The ambassador returned.", source: "tatoeba:642239" }
+- id: es-w-0755
+  type: word
+  cefr: B1
+  text: "tatuaje"
+  pos: noun
+  gender: m
+  meaning: { en: "tattoo" }
+  examples:
+    - { text: "¿Tienes un tatuaje?", translation: "Do you have a tattoo?", source: "tatoeba:1383029" }
+- id: es-w-0756
+  type: word
+  cefr: B1
+  text: "población"
+  pos: noun
+  gender: f
+  meaning: { en: "population" }
+  examples:
+    - { text: "La población aumenta.", translation: "The population is growing.", source: "tatoeba:967104" }
+- id: es-w-0757
+  type: word
+  cefr: B1
+  text: "aumento"
+  pos: noun
+  gender: m
+  meaning: { en: "increase; pay rise" }
+  examples:
+    - { text: "Necesito un aumento.", translation: "I need a raise.", source: "tatoeba:2856546" }
+- id: es-w-0758
+  type: word
+  cefr: B1
+  text: "taller"
+  pos: noun
+  gender: m
+  meaning: { en: "workshop; garage (repairs)" }
+  examples:
+    - { text: "Estoy trabajando en el taller.", translation: "I am working at the workshop.", source: "tatoeba:1661413" }
+- id: es-w-0759
+  type: word
+  cefr: A2
+  text: "asiento"
+  pos: noun
+  gender: m
+  meaning: { en: "seat" }
+  examples:
+    - { text: "Este es mi asiento.", translation: "This is my seat.", source: "tatoeba:4329296" }
+- id: es-w-0760
+  type: word
+  cefr: A1
+  text: "octubre"
+  pos: noun
+  gender: m
+  meaning: { en: "October" }
+  examples:
+    - { text: "Nací en octubre.", translation: "I was born in October.", source: "tatoeba:10124785" }
+- id: es-w-0761
+  type: word
+  cefr: A2
+  text: "nieto"
+  pos: noun
+  gender: m
+  meaning: { en: "grandson" }
+  note: { en: "los nietos = grandchildren" }
+  examples:
+    - { text: "¿Tienes algún nieto?", translation: "Do you have any grandchildren?", source: "tatoeba:1707737" }
+- id: es-w-0762
+  type: word
+  cefr: A2
+  text: "guante"
+  pos: noun
+  gender: m
+  meaning: { en: "glove" }
+  examples:
+    - { text: "He perdido mi guante derecho en alguna parte.", translation: "I've lost my right glove somewhere.", source: "tatoeba:10106244" }
+- id: es-w-0763
+  type: word
+  cefr: B1
+  text: "mezcla"
+  pos: noun
+  gender: f
+  meaning: { en: "mixture" }
+  note: { en: "mezclar = to mix" }
+  examples:
+    - { text: "El aire es una mezcla de gases.", translation: "Air is a mixture of gases.", source: "tatoeba:670178" }
+- id: es-w-0764
+  type: word
+  cefr: B1
+  text: "gravedad"
+  pos: noun
+  gender: f
+  meaning: { en: "seriousness; gravity" }
+  note: { en: "herido de gravedad = seriously injured" }
+  examples:
+    - { text: "Tom no fue herido de gravedad.", translation: "Tom was not seriously injured.", source: "tatoeba:1551520" }
+- id: es-w-0765
+  type: word
+  cefr: B1
+  text: "lata"
+  pos: noun
+  gender: f
+  meaning: { en: "can, tin" }
+  note: { en: "dar la lata = to pester" }
+  examples:
+    - { text: "Tom abrió la lata.", translation: "Tom opened the can.", source: "tatoeba:10543538" }
+- id: es-w-0766
+  type: word
+  cefr: B1
+  text: "vela"
+  pos: noun
+  gender: f
+  meaning: { en: "candle; sail" }
+  examples:
+    - { text: "Sujeta la vela.", translation: "Hold the candle.", source: "tatoeba:13617161" }
+- id: es-w-0767
+  type: word
+  cefr: B1
+  text: "símbolo"
+  pos: noun
+  gender: m
+  meaning: { en: "symbol" }
+  examples:
+    - { text: "El símbolo del aluminio es Al.", translation: "The chemical symbol for aluminum is Al.", source: "tatoeba:3696879" }
+- id: es-w-0768
+  type: word
+  cefr: B1
+  text: "petróleo"
+  pos: noun
+  gender: m
+  meaning: { en: "oil (crude)" }
+  note: { en: "False friend: not \"petrol\" (= la gasolina)" }
+  examples:
+    - { text: "China no tiene petróleo.", translation: "China doesn't have any oil.", source: "tatoeba:13789800" }
+- id: es-w-0769
+  type: word
+  cefr: B1
+  text: "jaula"
+  pos: noun
+  gender: f
+  meaning: { en: "cage" }
+  examples:
+    - { text: "La jaula está vacía.", translation: "The cage is empty.", source: "tatoeba:9554259" }
+- id: es-w-0770
+  type: word
+  cefr: B1
+  text: "origen"
+  pos: noun
+  gender: m
+  meaning: { en: "origin" }
+  note: { en: "Plural: orígenes (accent moves)" }
+  examples:
+    - { text: "Él es de origen alemán.", translation: "He is a German by origin.", source: "tatoeba:529563" }
+- id: es-w-0771
+  type: word
+  cefr: B1
+  text: "molestia"
+  pos: noun
+  gender: f
+  meaning: { en: "bother, inconvenience" }
+  note: { en: "Disculpe la molestia = Sorry to trouble you" }
+  examples:
+    - { text: "Disculpe la molestia.", translation: "I'm sorry to trouble you.", source: "tatoeba:574361" }
+- id: es-w-0772
+  type: word
+  cefr: B1
+  text: "huella"
+  pos: noun
+  gender: f
+  meaning: { en: "trace; footprint" }
+  note: { en: "huella dactilar = fingerprint" }
+  examples:
+    - { text: "Desapareció sin dejar huella.", translation: "He disappeared without a trace.", source: "tatoeba:3767647" }
+- id: es-w-0773
+  type: word
+  cefr: A2
+  text: "cafetería"
+  pos: noun
+  gender: f
+  meaning: { en: "café" }
+  examples:
+    - { text: "¿Dónde está la cafetería?", translation: "Where is the cafeteria?", source: "tatoeba:1619642" }
+- id: es-w-0774
+  type: word
+  cefr: A2
+  text: "receta"
+  pos: noun
+  gender: f
+  meaning: { en: "recipe; prescription" }
+  examples:
+    - { text: "Yo solo seguí la receta.", translation: "I just followed the recipe.", source: "tatoeba:12857937" }
+- id: es-w-0775
+  type: word
+  cefr: B1
+  text: "norma"
+  pos: noun
+  gender: f
+  meaning: { en: "rule, norm" }
+  examples:
+    - { text: "Esta es la norma.", translation: "This is the norm.", source: "tatoeba:4329346" }
+- id: es-w-0776
+  type: word
+  cefr: B1
+  text: "beneficio"
+  pos: noun
+  gender: m
+  meaning: { en: "benefit; profit" }
+  note: { en: "el beneficio de la duda = the benefit of the doubt" }
+  examples:
+    - { text: "Otórgale el beneficio de la duda.", translation: "Give him the benefit of the doubt.", source: "tatoeba:2050748" }
+- id: es-w-0777
+  type: word
+  cefr: B1
+  text: "clásico"
+  pos: noun
+  gender: m
+  meaning: { en: "classic" }
+  note: { en: "Also an adjective: música clásica" }
+  examples:
+    - { text: "Ese es un clásico.", translation: "It's a classic.", source: "tatoeba:3241249" }
+- id: es-w-0778
+  type: word
+  cefr: A2
+  text: "mueble"
+  pos: noun
+  gender: m
+  meaning: { en: "piece of furniture" }
+  note: { en: "los muebles = furniture" }
+  examples:
+    - { text: "¿Quién movió el mueble?", translation: "Who moved the furniture?", source: "tatoeba:5685040" }
+- id: es-w-0779
+  type: word
+  cefr: B1
+  text: "presupuesto"
+  pos: noun
+  gender: m
+  meaning: { en: "budget; estimate" }
+  examples:
+    - { text: "¿Tienes un presupuesto?", translation: "Do you have a budget?", source: "tatoeba:1386208" }
+- id: es-w-0780
+  type: word
+  cefr: B1
+  text: "etapa"
+  pos: noun
+  gender: f
+  meaning: { en: "stage, phase" }
+  examples:
+    - { text: "Estamos entrando a una etapa en la guerra.", translation: "We are entering a new phase in the war.", source: "tatoeba:1660401" }
+- id: es-w-0781
+  type: word
+  cefr: A2
+  text: "idioma"
+  pos: noun
+  gender: m
+  meaning: { en: "language" }
+  note: { en: "Masculine despite the -a: el idioma" }
+  examples:
+    - { text: "¿Qué idioma es?", translation: "What language is this?", source: "tatoeba:4749472" }
+- id: es-w-0782
+  type: word
+  cefr: A1
+  text: "fruta"
+  pos: noun
+  gender: f
+  meaning: { en: "fruit" }
+  note: { en: "Singular for fruit in general: Come más fruta" }
+  examples:
+    - { text: "Come más fruta.", translation: "Eat more fruit.", source: "tatoeba:9452805" }
+- id: es-w-0783
+  type: word
+  cefr: B1
+  text: "desarrollo"
+  pos: noun
+  gender: m
+  meaning: { en: "development" }
+  examples:
+    - { text: "El desarrollo económico avanzó lentamente.", translation: "Economic development proceeded slowly.", source: "tatoeba:738754" }
+- id: es-w-0784
+  type: word
+  cefr: B1
+  text: "pesca"
+  pos: noun
+  gender: f
+  meaning: { en: "fishing" }
+  note: { en: "ir de pesca = to go fishing" }
+  examples:
+    - { text: "Voy a ir de pesca.", translation: "I'm going fishing.", source: "tatoeba:2028988" }
+- id: es-w-0785
+  type: word
+  cefr: B1
+  text: "fama"
+  pos: noun
+  gender: f
+  meaning: { en: "fame; reputation" }
+  note: { en: "tener fama de = to have a reputation for" }
+  examples:
+    - { text: "Tiene fama de sabio.", translation: "He has a reputation for being very wise.", source: "tatoeba:2266334" }
+- id: es-w-0786
+  type: word
+  cefr: A2
+  text: "maíz"
+  pos: noun
+  gender: m
+  meaning: { en: "maize, corn" }
+  examples:
+    - { text: "Soy alérgico al maíz.", translation: "I'm allergic to corn.", source: "tatoeba:4428652" }
+- id: es-w-0787
+  type: word
+  cefr: B1
+  text: "remedio"
+  pos: noun
+  gender: m
+  meaning: { en: "remedy; option" }
+  note: { en: "No tener más remedio = to have no choice" }
+  examples:
+    - { text: "No tenía más remedio.", translation: "I didn't have another choice.", source: "tatoeba:6591729" }
+- id: es-w-0788
+  type: word
+  cefr: B1
+  text: "disfraz"
+  pos: noun
+  gender: m
+  meaning: { en: "costume; disguise" }
+  note: { en: "disfrazarse de = to dress up as" }
+  examples:
+    - { text: "Mary se quitó el disfraz.", translation: "Mary removed her disguise.", source: "tatoeba:8077198" }
+- id: es-w-0789
+  type: word
+  cefr: B1
+  text: "química"
+  pos: noun
+  gender: f
+  meaning: { en: "chemistry" }
+  examples:
+    - { text: "Odio la química.", translation: "I hate chemistry.", source: "tatoeba:2716834" }
+- id: es-w-0790
+  type: word
+  cefr: B1
+  text: "muelle"
+  pos: noun
+  gender: m
+  meaning: { en: "pier, quay" }
+  examples:
+    - { text: "Ella lo empujó desde el muelle.", translation: "She pushed him off the pier.", source: "tatoeba:1425782" }
+- id: es-w-0791
+  type: word
+  cefr: A2
+  text: "acento"
+  pos: noun
+  gender: m
+  meaning: { en: "accent" }
+  examples:
+    - { text: "No tengo acento.", translation: "I don't have an accent.", source: "tatoeba:11167586" }
+- id: es-w-0792
+  type: word
+  cefr: A2
+  text: "ingeniero"
+  pos: noun
+  gender: m
+  meaning: { en: "engineer" }
+  examples:
+    - { text: "Soy un ingeniero.", translation: "I'm an engineer.", source: "tatoeba:3562567" }
+- id: es-w-0793
+  type: word
+  cefr: B1
+  text: "queja"
+  pos: noun
+  gender: f
+  meaning: { en: "complaint" }
+  note: { en: "quejarse de = to complain about" }
+  examples:
+    - { text: "Puso una queja.", translation: "He filed a complaint.", source: "tatoeba:2246996" }
+- id: es-w-0794
+  type: word
+  cefr: A2
+  text: "bombero"
+  pos: noun
+  gender: m
+  meaning: { en: "firefighter" }
+  examples:
+    - { text: "Tom es bombero.", translation: "Tom is a firefighter.", source: "tatoeba:1604684" }
+- id: es-w-0795
+  type: word
+  cefr: A2
+  text: "horno"
+  pos: noun
+  gender: m
+  meaning: { en: "oven" }
+  note: { en: "al horno = baked" }
+  examples:
+    - { text: "Hay pan en el horno.", translation: "There's bread in the oven.", source: "tatoeba:10698962" }
+- id: es-w-0796
+  type: word
+  cefr: B1
+  text: "préstamo"
+  pos: noun
+  gender: m
+  meaning: { en: "loan" }
+  examples:
+    - { text: "Necesito un préstamo.", translation: "I need a loan.", source: "tatoeba:2938523" }
+- id: es-w-0797
+  type: word
+  cefr: B1
+  text: "propietario"
+  pos: noun
+  gender: m
+  meaning: { en: "owner" }
+  examples:
+    - { text: "Conozco al propietario.", translation: "I know the owner.", source: "tatoeba:3755637" }
+- id: es-w-0798
+  type: word
+  cefr: A2
+  text: "profesión"
+  pos: noun
+  gender: f
+  meaning: { en: "profession" }
+  examples:
+    - { text: "Él es médico de profesión.", translation: "He is a doctor by profession.", source: "tatoeba:1492029" }
+- id: es-w-0799
+  type: word
+  cefr: A1
+  text: "agosto"
+  pos: noun
+  gender: m
+  meaning: { en: "August" }
+  examples:
+    - { text: "Ya estamos en agosto.", translation: "It's already August.", source: "tatoeba:10132890" }
+- id: es-w-0800
+  type: word
+  cefr: A1
+  text: "marzo"
+  pos: noun
+  gender: m
+  meaning: { en: "March" }
+  note: { en: "Months are lower case in Spanish: en marzo" }
+  examples:
+    - { text: "Me voy a ir en Marzo.", translation: "I'll be leaving in March.", source: "tatoeba:1355706" }
+- id: es-w-0801
+  type: word
+  cefr: A1
+  text: "abril"
+  pos: noun
+  gender: m
+  meaning: { en: "April" }
+  examples:
+    - { text: "Ahora es abril.", translation: "It's April.", source: "tatoeba:12883948" }
+- id: es-w-0802
+  type: word
+  cefr: A1
+  text: "noviembre"
+  pos: noun
+  gender: m
+  meaning: { en: "November" }
+  examples:
+    - { text: "Ya es noviembre.", translation: "It's November.", source: "tatoeba:12883983" }
+- id: es-w-0803
+  type: word
+  cefr: A1
+  text: "diciembre"
+  pos: noun
+  gender: m
+  meaning: { en: "December" }
+  examples:
+    - { text: "Ya es diciembre.", translation: "It's December.", source: "tatoeba:12883927" }
+- id: es-w-0804
+  type: word
+  cefr: B1
+  text: "brindis"
+  pos: noun
+  gender: m
+  meaning: { en: "toast (drinking)" }
+  note: { en: "brindar por = to drink to" }
+  examples:
+    - { text: "Propongo un brindis.", translation: "I propose a toast.", source: "tatoeba:1984939" }
+- id: es-w-0805
+  type: word
+  cefr: B1
+  text: "ciudadano"
+  pos: noun
+  gender: m
+  meaning: { en: "citizen" }
+  examples:
+    - { text: "Soy buen ciudadano.", translation: "I'm a good citizen.", source: "tatoeba:13889112" }
+- id: es-w-0806
+  type: word
+  cefr: B1
+  text: "sospecha"
+  pos: noun
+  gender: f
+  meaning: { en: "suspicion" }
+  note: { en: "sospechar = to suspect" }
+  examples:
+    - { text: "¿Estoy bajo sospecha?", translation: "Am I under suspicion?", source: "tatoeba:5044271" }
+- id: es-w-0807
+  type: word
+  cefr: B1
+  text: "alivio"
+  pos: noun
+  gender: m
+  meaning: { en: "relief" }
+  note: { en: "¡Qué alivio! = What a relief!" }
+  examples:
+    - { text: "Eso es un alivio.", translation: "That's a relief.", source: "tatoeba:1284269" }
+- id: es-w-0808
+  type: word
+  cefr: B1
+  text: "lógica"
+  pos: noun
+  gender: f
+  meaning: { en: "logic" }
+  examples:
+    - { text: "No tiene lógica.", translation: "It's not logical.", source: "tatoeba:2132102" }
+- id: es-w-0809
+  type: word
+  cefr: B1
+  text: "grito"
+  pos: noun
+  gender: m
+  meaning: { en: "shout, scream" }
+  note: { en: "gritar = to shout" }
+  examples:
+    - { text: "Él oyó un grito.", translation: "He heard a shout.", source: "tatoeba:1287693" }
+- id: es-w-0810
+  type: word
+  cefr: B1
+  text: "cirujano"
+  pos: noun
+  gender: m
+  meaning: { en: "surgeon" }
+  examples:
+    - { text: "Tom es cirujano.", translation: "Tom is a surgeon.", source: "tatoeba:2383121" }
+- id: es-w-0811
+  type: word
+  cefr: B1
+  text: "retraso"
+  pos: noun
+  gender: m
+  meaning: { en: "delay" }
+  note: { en: "ir con retraso = to be running late" }
+  examples:
+    - { text: "Voy con retraso.", translation: "I'm running late.", source: "tatoeba:4348343" }
+- id: es-w-0812
+  type: word
+  cefr: A2
+  text: "alumno"
+  pos: noun
+  gender: m
+  meaning: { en: "pupil, student" }
+  examples:
+    - { text: "Tom es mi alumno.", translation: "Tom is my student.", source: "tatoeba:2728178" }
+- id: es-w-0813
+  type: word
+  cefr: A2
+  text: "oreja"
+  pos: noun
+  gender: f
+  meaning: { en: "ear (outer)" }
+  note: { en: "el oído = ear (hearing, inner)" }
+  examples:
+    - { text: "Me pica la oreja.", translation: "My ear is itching.", source: "tatoeba:526937" }
+- id: es-w-0814
+  type: word
+  cefr: A2
+  text: "toro"
+  pos: noun
+  gender: m
+  meaning: { en: "bull" }
+  examples:
+    - { text: "Eso es un toro.", translation: "That's a bull.", source: "tatoeba:12580001" }
+- id: es-w-0815
+  type: word
+  cefr: A2
+  text: "sobrina"
+  pos: noun
+  gender: f
+  meaning: { en: "niece" }
+  examples:
+    - { text: "Mary es mi sobrina.", translation: "Mary's my niece.", source: "tatoeba:2225389" }
+- id: es-w-0816
+  type: word
+  cefr: B1
+  text: "pulmón"
+  pos: noun
+  gender: m
+  meaning: { en: "lung" }
+  note: { en: "a pleno pulmón = at the top of one's lungs" }
+  examples:
+    - { text: "Tiene cáncer de pulmón.", translation: "He's got lung cancer.", source: "tatoeba:541893" }
+- id: es-w-0817
+  type: word
+  cefr: A2
+  text: "ratón"
+  pos: noun
+  gender: m
+  meaning: { en: "mouse" }
+  examples:
+    - { text: "El ratón chilla.", translation: "The mouse squeaks.", source: "tatoeba:4538740" }
+- id: es-w-0818
+  type: word
+  cefr: B1
+  text: "soledad"
+  pos: noun
+  gender: f
+  meaning: { en: "loneliness; solitude" }
+  examples:
+    - { text: "Disfruto la soledad.", translation: "I enjoy solitude.", source: "tatoeba:6681512" }
+- id: es-w-0819
+  type: word
+  cefr: B1
+  text: "método"
+  pos: noun
+  gender: m
+  meaning: { en: "method" }
+  examples:
+    - { text: "Este es el mejor método.", translation: "This is the very best method.", source: "tatoeba:1214325" }
+- id: es-w-0820
+  type: word
+  cefr: B1
+  text: "feria"
+  pos: noun
+  gender: f
+  meaning: { en: "fair" }
+  examples:
+    - { text: "Vamos a la feria; ¿vienes?", translation: "We are going to the fair; are you coming?", source: "tatoeba:11254167" }
+- id: es-w-0821
+  type: word
+  cefr: B1
+  text: "mancha"
+  pos: noun
+  gender: f
+  meaning: { en: "stain, spot" }
+  examples:
+    - { text: "Esta mancha no sale.", translation: "This stain won't come out.", source: "tatoeba:1080375" }
+- id: es-w-0822
+  type: word
+  cefr: B1
+  text: "poesía"
+  pos: noun
+  gender: f
+  meaning: { en: "poetry" }
+  examples:
+    - { text: "Tom escribe poesía.", translation: "Tom writes poetry.", source: "tatoeba:4505810" }
+- id: es-w-0823
+  type: word
+  cefr: B1
+  text: "selva"
+  pos: noun
+  gender: f
+  meaning: { en: "jungle" }
+  examples:
+    - { text: "Bienvenido a la selva.", translation: "Welcome to the jungle.", source: "tatoeba:10664193" }
+- id: es-w-0824
+  type: word
+  cefr: A2
+  text: "escolar"
+  pos: adj
+  meaning: { en: "school (adjective)" }
+  note: { en: "el uniforme escolar" }
+  examples:
+    - { text: "¿Tienes uniforme escolar?", translation: "Do you have a school uniform?", source: "tatoeba:1203147" }
+- id: es-w-0825
+  type: word
+  cefr: B1
+  text: "campana"
+  pos: noun
+  gender: f
+  meaning: { en: "bell" }
+  examples:
+    - { text: "La campana sonó.", translation: "The bell rang.", source: "tatoeba:599033" }
+- id: es-w-0826
+  type: word
+  cefr: B1
+  text: "tristeza"
+  pos: noun
+  gender: f
+  meaning: { en: "sadness" }
+  examples:
+    - { text: "Me da tristeza escucharlo.", translation: "I am sad to hear it.", source: "tatoeba:618591" }
+- id: es-w-0827
+  type: word
+  cefr: A1
+  text: "otoño"
+  pos: noun
+  gender: m
+  meaning: { en: "autumn" }
+  examples:
+    - { text: "El otoño ha llegado.", translation: "Autumn is here.", source: "tatoeba:1500051" }
+- id: es-w-0828
+  type: word
+  cefr: B1
+  text: "candidato"
+  pos: noun
+  gender: m
+  meaning: { en: "candidate" }
+  examples:
+    - { text: "Votamos por el candidato.", translation: "We voted for the candidate.", source: "tatoeba:676869" }
+- id: es-w-0829
+  type: word
+  cefr: B1
+  text: "autor"
+  pos: noun
+  gender: m
+  meaning: { en: "author" }
+  note: { en: "la autora = female author" }
+  examples:
+    - { text: "El autor es brasileño.", translation: "The author is Brazilian.", source: "tatoeba:688989" }
+- id: es-w-0830
+  type: word
+  cefr: B1
+  text: "huelga"
+  pos: noun
+  gender: f
+  meaning: { en: "strike" }
+  note: { en: "estar en huelga = to be on strike" }
+  examples:
+    - { text: "Estoy en huelga.", translation: "I'm on strike.", source: "tatoeba:4947998" }
+- id: es-w-0831
+  type: word
+  cefr: B1
+  text: "rabia"
+  pos: noun
+  gender: f
+  meaning: { en: "rage; rabies" }
+  note: { en: "dar rabia = to make angry" }
+  examples:
+    - { text: "Yo echaba humo de rabia.", translation: "I was seething with rage.", source: "tatoeba:1698896" }
+- id: es-w-0832
+  type: word
+  cefr: B1
+  text: "conflicto"
+  pos: noun
+  gender: m
+  meaning: { en: "conflict" }
+  examples:
+    - { text: "No es posible resolver el conflicto.", translation: "It is impossible to resolve the conflict.", source: "tatoeba:1678578" }
+- id: es-w-0833
+  type: word
+  cefr: B1
+  text: "gota"
+  pos: noun
+  gender: f
+  meaning: { en: "drop" }
+  examples:
+    - { text: "No dejó gota en el vaso.", translation: "He didn't leave a drop in the glass.", source: "tatoeba:2266190" }
+- id: es-w-0834
+  type: word
+  cefr: B1
+  text: "medalla"
+  pos: noun
+  gender: f
+  meaning: { en: "medal" }
+  examples:
+    - { text: "Mereces una medalla.", translation: "You deserve a medal.", source: "tatoeba:1598420" }
+- id: es-w-0835
+  type: word
+  cefr: B1
+  text: "pariente"
+  pos: noun
+  gender: mf
+  meaning: { en: "relative" }
+  note: { en: "False friend: not \"parent\" (= el padre / la madre)" }
+  examples:
+    - { text: "Tom es mi pariente.", translation: "Tom is my relative.", source: "tatoeba:3660155" }
+- id: es-w-0836
+  type: word
+  cefr: A2
+  text: "dieta"
+  pos: noun
+  gender: f
+  meaning: { en: "diet" }
+  note: { en: "estar a dieta = to be on a diet" }
+  examples:
+    - { text: "¿Estás a dieta?", translation: "Are you on a diet?", source: "tatoeba:3788654" }
+- id: es-w-0837
+  type: word
+  cefr: B1
+  text: "infección"
+  pos: noun
+  gender: f
+  meaning: { en: "infection" }
+  examples:
+    - { text: "No hay signos de infección.", translation: "There's no sign of infection.", source: "tatoeba:1662852" }
+- id: es-w-0838
+  type: word
+  cefr: B1
+  text: "conclusión"
+  pos: noun
+  gender: f
+  meaning: { en: "conclusion" }
+  examples:
+    - { text: "¿Qué te llevó a esta conclusión?", translation: "What led you to this conclusion?", source: "tatoeba:741894" }
+- id: es-w-0839
+  type: word
+  cefr: A2
+  text: "cajón"
+  pos: noun
+  gender: m
+  meaning: { en: "drawer" }
+  examples:
+    - { text: "Cierra el cajón.", translation: "Close the drawer.", source: "tatoeba:6851323" }
+- id: es-w-0840
+  type: word
+  cefr: A2
+  text: "sándwich"
+  pos: noun
+  gender: m
+  meaning: { en: "sandwich" }
+  note: { en: "In Spain also el bocadillo (baguette sandwich)" }
+  examples:
+    - { text: "Dame un sándwich.", translation: "Give me a sandwich.", source: "tatoeba:1909046" }
+- id: es-w-0841
+  type: word
+  cefr: A2
+  text: "lobo"
+  pos: noun
+  gender: m
+  meaning: { en: "wolf" }
+  examples:
+    - { text: "Tom vio un lobo.", translation: "Tom saw a wolf.", source: "tatoeba:10031117" }
+- id: es-w-0842
+  type: word
+  cefr: A1
+  text: "hamburguesa"
+  pos: noun
+  gender: f
+  meaning: { en: "hamburger" }
+  examples:
+    - { text: "¿Puedo comer esta hamburguesa?", translation: "May I eat this hamburger?", source: "tatoeba:1102853" }
+- id: es-w-0843
+  type: word
+  cefr: B1
+  text: "salario"
+  pos: noun
+  gender: m
+  meaning: { en: "salary, wage" }
+  examples:
+    - { text: "Tiene un buen salario.", translation: "He earns a good salary.", source: "tatoeba:5138375" }
+- id: es-w-0844
+  type: word
+  cefr: B1
+  text: "cuero"
+  pos: noun
+  gender: m
+  meaning: { en: "leather" }
+  examples:
+    - { text: "Éstos son de cuero.", translation: "These are leather.", source: "tatoeba:8616500" }
+- id: es-w-0845
+  type: word
+  cefr: A2
+  text: "comedor"
+  pos: noun
+  gender: m
+  meaning: { en: "dining room; canteen" }
+  examples:
+    - { text: "¿Dónde está el comedor?", translation: "Where's the dining room?", source: "tatoeba:4704807" }
+- id: es-w-0846
+  type: word
+  cefr: B1
+  text: "aguja"
+  pos: noun
+  gender: f
+  meaning: { en: "needle" }
+  examples:
+    - { text: "¿Tienes aguja e hilo?", translation: "Do you have needle and thread?", source: "tatoeba:1017944" }
+- id: es-w-0847
+  type: word
+  cefr: B1
+  text: "tiburón"
+  pos: noun
+  gender: m
+  meaning: { en: "shark" }
+  examples:
+    - { text: "Le atacó un tiburón.", translation: "He was attacked by a shark.", source: "tatoeba:1168606" }
+- id: es-w-0848
+  type: word
+  cefr: B1
+  text: "autopista"
+  pos: noun
+  gender: f
+  meaning: { en: "motorway" }
+  examples:
+    - { text: "Él vino por la autopista.", translation: "He came by the freeway.", source: "tatoeba:3512974" }
+- id: es-w-0849
+  type: word
+  cefr: A2
+  text: "camión"
+  pos: noun
+  gender: m
+  meaning: { en: "lorry, truck" }
+  examples:
+    - { text: "Tengo un camión.", translation: "I have a truck.", source: "tatoeba:1496006" }
+- id: es-w-0850
+  type: word
+  cefr: A2
+  text: "toalla"
+  pos: noun
+  gender: f
+  meaning: { en: "towel" }
+  note: { en: "tirar la toalla = to give up (throw in the towel)" }
+  examples:
+    - { text: "Tiré la toalla.", translation: "I gave up.", source: "tatoeba:6694277" }
+- id: es-w-0851
+  type: word
+  cefr: B1
+  text: "pensión"
+  pos: noun
+  gender: f
+  meaning: { en: "pension; guesthouse" }
+  examples:
+    - { text: "El anciano vive de su pensión.", translation: "The old man lives on his pension.", source: "tatoeba:1449827" }
+- id: es-w-0852
+  type: word
+  cefr: B1
+  text: "poema"
+  pos: noun
+  gender: m
+  meaning: { en: "poem" }
+  note: { en: "Masculine despite the -a: el poema" }
+  examples:
+    - { text: "Es un poema famoso.", translation: "It's a famous poem.", source: "tatoeba:1862086" }
+- id: es-w-0853
+  type: word
+  cefr: A1
+  text: "tenis"
+  pos: noun
+  gender: m
+  meaning: { en: "tennis" }
+  note: { en: "jugar al tenis (in Latin America often jugar tenis)" }
+  examples:
+    - { text: "Juego al tenis.", translation: "I play tennis.", source: "tatoeba:795848" }
+- id: es-w-0854
+  type: word
+  cefr: A2
+  text: "siesta"
+  pos: noun
+  gender: f
+  meaning: { en: "nap" }
+  note: { en: "echarse una siesta = to take a nap" }
+  examples:
+    - { text: "Haré una siesta.", translation: "I'll take a nap.", source: "tatoeba:10835056" }
+- id: es-w-0855
+  type: word
+  cefr: B1
+  text: "ausencia"
+  pos: noun
+  gender: f
+  meaning: { en: "absence" }
+  examples:
+    - { text: "Pronto noté su ausencia.", translation: "I soon noticed his absence.", source: "tatoeba:10104852" }
+- id: es-w-0856
+  type: word
+  cefr: A2
+  text: "perfume"
+  pos: noun
+  gender: m
+  meaning: { en: "perfume" }
+  examples:
+    - { text: "¡Me encanta su perfume!", translation: "I love her perfume.", source: "tatoeba:1136448" }
