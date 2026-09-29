@@ -1,0 +1,54 @@
+id: lt-r-0042
+cefr: B2
+title: "Klaipėda – miestas prie jūros"
+topic: "Клайпеда и море"
+source: generated
+text: |
+  Klaipėda yra trečias pagal dydį Lietuvos miestas ir vienintelis šalies jūrų uostas. Miestas įsikūręs ten, kur Kuršių marios susijungia su Baltijos jūra. Uostas žiemą neužšąla, todėl laivai čia gali atplaukti ištisus metus.
+
+  Klaipėdos istorija gerokai skiriasi nuo kitų Lietuvos miestų istorijos. 1252 metais Livonijos ordinas čia pastatė pilį, vadintą Memelburgu, ir beveik septynis šimtmečius miestas priklausė vokiečių valstybėms. Vokiškai jis vadinosi Memelis. Tik 1923 metais Klaipėdos kraštas buvo prijungtas prie Lietuvos, tačiau 1939 metais jį vėl užėmė Vokietija. Šią praeitį ir šiandien primena fachverkiniai senamiesčio namai, siauros gatvelės ir seni sandėliai prie Danės upės.
+
+  Teatro aikštėje stovi Taravos Anikės skulptūra. Ji skirta poetui Simonui Dachui, kuris gimė Klaipėdoje ir, kaip manoma, parašė garsią dainą apie merginą iš Taravos.
+
+  Uostas – svarbiausia miesto ekonomikos dalis. Per jį keliauja trąšos, grūdai, nafta ir konteineriai. 2014 metais Klaipėdoje pradėjo veikti suskystintų gamtinių dujų terminalas, pavadintas „Nepriklausomybe“. Jis leido Lietuvai pirkti dujas ne tik iš Rusijos, o 2022 metais rusiškų dujų šalis visai atsisakė.
+
+  Vasarą Klaipėda virsta poilsio miestu. Keltu per kelias minutes galima persikelti į Smiltynę, kur prasideda Kuršių nerija, o netoliese esančioje Palangoje poilsiautojai būriais plūsta į paplūdimius. Kasmet liepos pabaigoje vyksta Jūros šventė – didžiausias miesto renginys su koncertais, mugėmis ir laivais, kuriuos galima aplankyti.
+
+  Smiltynėje, senoje Kopgalio tvirtovėje, įsikūręs Lietuvos jūrų muziejus. Čia galima pamatyti senovinius laivus ir žvejų sodybą, o akvariumuose ir baseinuose – ruonius, pingvinus ir delfinus. Muziejus ypač mėgstamas šeimų su vaikais, todėl vasaros savaitgaliais prie kelto nusidriekia ilgos automobilių eilės.
+
+  Vis dėlto klaipėdiečiai skundžiasi, kad jaunimas dažnai išvyksta studijuoti ir dirbti į Vilnių. Miestas stengiasi tapti patrauklesnis: atnaujinamos krantinės, statomi nauji gyvenamieji kvartalai, kuriamos darbo vietos jūrinėse technologijose. Klaipėdiečiai tikisi, kad jūra, kuri kadaise miestą išaugino, padės jam augti ir ateityje.
+glossary:
+  - { word: "uostas", lemma: "uostas", pos: noun, gender: m, gen: "uosto", meaning: "порт" }
+  - { word: "įsikūręs", lemma: "įsikurti", pos: verb, forms: { pres: "įsikuria", past: "įsikūrė" }, meaning: "обосноваться, расположиться", note: "действ. прич. прош. вр.: įsikūręs — расположенный" }
+  - { word: "marios", lemma: "marios", pos: noun, gender: f, gen: "marių", meaning: "залив, лагуна", note: "только мн. ч.: Kuršių marios — Куршский залив" }
+  - { word: "neužšąla", lemma: "užšalti", pos: verb, forms: { pres: "užšąla", past: "užšalo" }, meaning: "замёрзнуть", note: "наст. вр. с отрицанием: не замерзает" }
+  - { word: "ištisus", lemma: "ištisas", pos: adj, meaning: "целый, сплошной", note: "ištisus metus — круглый год" }
+  - { word: "ordinas", lemma: "ordinas", pos: noun, gender: m, gen: "ordino", meaning: "орден (рыцарский)" }
+  - { word: "šimtmečius", lemma: "šimtmetis", pos: noun, gender: m, gen: "šimtmečio", meaning: "столетие, век", note: "вин. п. мн. ч." }
+  - { word: "prijungtas", lemma: "prijungti", pos: verb, forms: { pres: "prijungia", past: "prijungė" }, meaning: "присоединить", note: "страд. прич., м. р." }
+  - { word: "užėmė", lemma: "užimti", pos: verb, forms: { pres: "užima", past: "užėmė" }, meaning: "занять, захватить", note: "прош. вр." }
+  - { word: "fachverkiniai", lemma: "fachverkinis", pos: adj, meaning: "фахверковый" }
+  - { word: "sandėliai", lemma: "sandėlis", pos: noun, gender: m, gen: "sandėlio", meaning: "склад", note: "им. п. мн. ч." }
+  - { word: "trąšos", lemma: "trąšos", pos: noun, gender: f, gen: "trąšų", meaning: "удобрения", note: "только мн. ч." }
+  - { word: "grūdai", lemma: "grūdas", pos: noun, gender: m, gen: "grūdo", meaning: "зерно", note: "мн. ч.: grūdai — зерно, зерновые" }
+  - { word: "suskystintų", lemma: "suskystinti", pos: verb, forms: { pres: "suskystina", past: "suskystino" }, meaning: "сжижать", note: "страд. прич., род. п. мн. ч.: suskystintos gamtinės dujos — сжиженный природный газ" }
+  - { word: "dujas", lemma: "dujos", pos: noun, gender: f, gen: "dujų", meaning: "газ", note: "только мн. ч.; вин. п." }
+  - { word: "atsisakė", lemma: "atsisakyti", pos: verb, forms: { pres: "atsisako", past: "atsisakė" }, meaning: "отказаться (от чего — род. п.)", note: "прош. вр." }
+  - { word: "keltu", lemma: "keltas", pos: noun, gender: m, gen: "kelto", meaning: "паром", note: "тв. п.: на пароме" }
+  - { word: "poilsiautojai", lemma: "poilsiautojas", pos: noun, gender: m, gen: "poilsiautojo", meaning: "отдыхающий", note: "им. п. мн. ч." }
+  - { word: "plūsta", lemma: "plūsti", pos: verb, forms: { pres: "plūsta", past: "plūdo" }, meaning: "хлынуть, валить (толпой)", note: "būriais plūsta — валят толпами" }
+  - { word: "krantinės", lemma: "krantinė", pos: noun, gender: f, gen: "krantinės", meaning: "набережная", note: "им. п. мн. ч." }
+  - { word: "kadaise", lemma: "kadaise", pos: adv, meaning: "когда-то, некогда" }
+  - { word: "tvirtovėje", lemma: "tvirtovė", pos: noun, gender: f, gen: "tvirtovės", meaning: "крепость", note: "местн. п." }
+  - { word: "ruonius", lemma: "ruonis", pos: noun, gender: m, gen: "ruonio", meaning: "тюлень", note: "вин. п. мн. ч." }
+  - { word: "nusidriekia", lemma: "nusidriekti", pos: verb, forms: { pres: "nusidriekia", past: "nusidriekė" }, meaning: "протянуться, растянуться" }
+questions:
+  - q: "Kodėl laivai į Klaipėdą gali atplaukti ištisus metus?"
+    options: ["Nes uostas žiemą neužšąla", "Nes Baltijos jūra niekada nebūna audringa", "Nes Klaipėda yra prie Nemuno žiočių"]
+    answer: 0
+  - q: "Kada Klaipėdos kraštas buvo prijungtas prie Lietuvos?"
+    options: ["1252 metais", "1923 metais", "1939 metais"]
+    answer: 1
+  - q: "Ką leido suskystintų gamtinių dujų terminalas?"
+    options: ["Parduoti dujas Rusijai", "Atsisakyti elektros", "Pirkti dujas ne tik iš Rusijos"]
+    answer: 2

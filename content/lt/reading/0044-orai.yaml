@@ -1,0 +1,58 @@
+id: lt-r-0044
+cefr: B2
+title: "Kai orai krečia pokštus"
+topic: "экстремальная погода и климат"
+source: generated
+text: |
+  Lietuvos klimatas visada buvo gana nuosaikus: ne per karštos vasaros, snieguotos žiemos, lietingi rudenys. Tačiau pastaraisiais dešimtmečiais orai vis dažniau krečia pokštus. Meteorologai pastebi, kad vidutinė metų temperatūra kyla, o karštų dienų vasarą daugėja.
+
+  Žiemos tapo permainingesnės. Vieną savaitę spaudžia šaltis, kitą – lyja, o termometras rodo kelis laipsnius šilumos. Vaikai, kurie laukia sniego, kartais jo sulaukia tik kelioms dienoms per visą žiemą, o slidinėjimo trasose tenka gaminti dirbtinį sniegą.
+
+  Ūkininkams ypač skaudžios sausros. 2018 metų vasarą dėl sausros Lietuvoje buvo paskelbta valstybės lygio ekstremalioji situacija: derlius buvo gerokai mažesnis, o gyvuliams trūko pašarų. O būna metų, kai, priešingai, ilgi lietūs trukdo laiku nuimti javus, ir grūdai supūva laukuose.
+
+  Vasarą vis dažniau užeina karščio bangos. Karštomis dienomis miestuose tampa sunku kvėpuoti, ypač vyresnio amžiaus žmonėms. Gydytojai pataria gerti daugiau vandens ir vengti saulės vidurdienį. Anksčiau oro kondicionieriai Lietuvos butuose buvo retenybė, o dabar juos įsirengia vis daugiau šeimų.
+
+  Vis dažniau pasitaiko ir stiprių vėtrų. Nuvirtę medžiai užtveria kelius, nutrūksta elektros laidai, ir tūkstančiai kaimo gyventojų kartais net kelias dienas lieka be elektros. Todėl energetikos bendrovės oro linijas palaipsniui keičia požeminiais kabeliais.
+
+  Pavasarį Nemuno deltoje, ypač apie Rusnę, beveik kasmet kyla potvyniai. Vietiniai gyventojai prie jų pripratę: tuo metu į kai kurias sodybas galima nuplaukti tik valtimi. Tačiau mokslininkai perspėja, kad ateityje dėl kylančio jūros lygio ir stipresnių liūčių potvyniai gali tapti pavojingesni.
+
+  Prisitaikyti prie naujų orų tenka visiems. Miestuose sodinama daugiau medžių, kurie vasarą suteikia pavėsį, statomi geriau apšiltinti pastatai, o ūkininkai renkasi sausrai atsparesnes kultūras. Kaip sako senas posakis, blogų orų nebūna – būna tik netinkami drabužiai. Deja, vien tinkamų drabužių šiandien jau nebeužtenka.
+glossary:
+  - { word: "nuosaikus", lemma: "nuosaikus", pos: adj, meaning: "умеренный" }
+  - { word: "krečia", lemma: "krėsti", pos: verb, forms: { pres: "krečia", past: "krėtė" }, meaning: "трясти; krėsti pokštus — шутить шутки, откалывать номера" }
+  - { word: "pokštus", lemma: "pokštas", pos: noun, gender: m, gen: "pokšto", meaning: "шутка, проделка", note: "вин. п. мн. ч." }
+  - { word: "permainingesnės", lemma: "permainingas", pos: adj, meaning: "переменчивый", note: "сравн. ст., ж. р. мн. ч." }
+  - { word: "spaudžia", lemma: "spausti", pos: verb, forms: { pres: "spaudžia", past: "spaudė" }, meaning: "давить, жать", note: "spaudžia šaltis — стоит мороз" }
+  - { word: "sulaukia", lemma: "sulaukti", pos: verb, forms: { pres: "sulaukia", past: "sulaukė" }, meaning: "дождаться (чего — род. п.)" }
+  - { word: "sausros", lemma: "sausra", pos: noun, gender: f, gen: "sausros", meaning: "засуха" }
+  - { word: "ekstremalioji", lemma: "ekstremalus", pos: adj, meaning: "экстремальный, чрезвычайный", note: "местоим. форма: ekstremalioji situacija — чрезвычайная ситуация" }
+  - { word: "derlius", lemma: "derlius", pos: noun, gender: m, gen: "derliaus", meaning: "урожай" }
+  - { word: "pašarų", lemma: "pašaras", pos: noun, gender: m, gen: "pašaro", meaning: "корм (для скота)", note: "род. п. мн. ч." }
+  - { word: "javus", lemma: "javai", pos: noun, gender: m, gen: "javų", meaning: "хлеба, зерновые", note: "только мн. ч.; вин. п." }
+  - { word: "supūva", lemma: "supūti", pos: verb, forms: { pres: "supūva", past: "supuvo" }, meaning: "сгнить" }
+  - { word: "vėtrų", lemma: "vėtra", pos: noun, gender: f, gen: "vėtros", meaning: "буря, шторм", note: "род. п. мн. ч." }
+  - { word: "užtveria", lemma: "užtverti", pos: verb, forms: { pres: "užtveria", past: "užtvėrė" }, meaning: "перегородить, преградить" }
+  - { word: "laidai", lemma: "laidas", pos: noun, gender: m, gen: "laido", meaning: "провод", note: "им. п. мн. ч." }
+  - { word: "palaipsniui", lemma: "palaipsniui", pos: adv, meaning: "постепенно" }
+  - { word: "požeminiais", lemma: "požeminis", pos: adj, meaning: "подземный", note: "тв. п. мн. ч." }
+  - { word: "potvyniai", lemma: "potvynis", pos: noun, gender: m, gen: "potvynio", meaning: "наводнение, половодье", note: "им. п. мн. ч." }
+  - { word: "pripratę", lemma: "priprasti", pos: verb, forms: { pres: "pripranta", past: "priprato" }, meaning: "привыкнуть (к чему — prie + род. п.)", note: "действ. прич. прош. вр., мн. ч." }
+  - { word: "liūčių", lemma: "liūtis", pos: noun, gender: f, gen: "liūties", meaning: "ливень", note: "род. п. мн. ч." }
+  - { word: "pavėsį", lemma: "pavėsis", pos: noun, gender: m, gen: "pavėsio", meaning: "тень (от солнца)", note: "вин. п." }
+  - { word: "apšiltinti", lemma: "apšiltinti", pos: verb, forms: { pres: "apšiltina", past: "apšiltino" }, meaning: "утеплить", note: "здесь страд. прич. мн. ч.: apšiltinti pastatai — утеплённые здания" }
+  - { word: "atsparesnes", lemma: "atsparus", pos: adj, meaning: "устойчивый (к чему — дат. п.)", note: "сравн. ст., вин. п. мн. ч. ж. р." }
+  - { word: "bangos", lemma: "banga", pos: noun, gender: f, gen: "bangos", meaning: "волна", note: "им. п. мн. ч.: karščio bangos — волны жары" }
+  - { word: "vidurdienį", lemma: "vidurdienis", pos: noun, gender: m, gen: "vidurdienio", meaning: "полдень", note: "вин. п. времени: в полдень" }
+  - { word: "kondicionieriai", lemma: "kondicionierius", pos: noun, gender: m, gen: "kondicionieriaus", meaning: "кондиционер", note: "им. п. мн. ч." }
+  - { word: "retenybė", lemma: "retenybė", pos: noun, gender: f, gen: "retenybės", meaning: "редкость" }
+  - { word: "įsirengia", lemma: "įsirengti", pos: verb, forms: { pres: "įsirengia", past: "įsirengė" }, meaning: "установить себе, оборудовать" }
+questions:
+  - q: "Kas nutiko 2018 metų vasarą?"
+    options: ["Dėl sausros buvo paskelbta ekstremalioji situacija", "Nemuno deltoje nebuvo potvynio", "Visą vasarą lijo"]
+    answer: 0
+  - q: "Kodėl energetikos bendrovės keičia oro linijas požeminiais kabeliais?"
+    options: ["Nes požeminiai kabeliai pigesni", "Nes per vėtras nuvirtę medžiai nutraukia laidus", "Nes to reikalauja ūkininkai"]
+    answer: 1
+  - q: "Kaip žmonės prisitaiko prie naujų orų?"
+    options: ["Išsikelia gyventi į Rusnę", "Nustoja sodinti medžius", "Sodina medžius, apšiltina pastatus, renkasi atsparesnes kultūras"]
+    answer: 2

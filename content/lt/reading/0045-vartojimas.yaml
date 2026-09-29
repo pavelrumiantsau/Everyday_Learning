@@ -1,0 +1,54 @@
+id: lt-r-0045
+cefr: B2
+title: "Pirkti, taisyti ar parduoti?"
+topic: "покупки, секонд-хенд и привычки потребления"
+source: generated
+text: |
+  Dar prieš dvidešimt metų naudotus drabužius dažniausiai pirkdavo tik tie, kurie neturėjo pinigų naujiems. Šiandien padėtis visai kitokia. Dėvėtų drabužių parduotuvėse galima sutikti ir studentų, ir gerai uždirbančių žmonių, o daiktų pardavimas internetu tapo įprastu dalyku.
+
+  Vienas geriausių pavyzdžių – „Vinted“. Šią platformą 2008 metais Vilniuje sukūrė Milda Mitkutė ir Justas Janauskas. Iš pradžių tai buvo nedidelė svetainė, kurioje buvo galima parduoti ar išmainyti nebereikalingus drabužius. Dabar platforma veikia daugelyje Europos šalių, o 2019 metais ji tapo pirmuoju Lietuvos „vienaragiu“ – startuoliu, vertinamu daugiau nei milijardu dolerių.
+
+  Lietuviai vis daugiau perka internetu. Siuntos dažnai keliauja ne į namus, o į paštomatus – spintelių tinklus, kurių rasi beveik prie kiekvieno prekybos centro. Tai patogu: siuntą galima pasiimti bet kuriuo paros metu. Tačiau patogumas turi ir kitą pusę – impulsyvius pirkinius, dėl kurių vėliau gailimasi, ir daugybę pakuočių.
+
+  Kai kurie įpročiai keičiasi dėl valstybės sprendimų. 2016 metais Lietuvoje buvo įvesta užstato sistema: perkant gėrimą plastikiniame butelyje ar skardinėje, sumokamas nedidelis užstatas, kuris grąžinamas atnešus tuščią pakuotę į parduotuvę. Jau po kelerių metų buvo grąžinama daugiau kaip 90 procentų pakuočių, ir Lietuva tapo pavyzdžiu kitoms šalims.
+
+  Vis populiaresnis ir daiktų taisymas. Atsiranda dirbtuvių, kuriose galima patiems sutaisyti dviratį ar pasisiūti drabužį, o jaunos šeimos vaikų daiktus dažnai perka iš kitų tėvų. Maisto švaistymą mažina ir programėlės, kuriose kavinės bei parduotuvės vakare pigiau parduoda per dieną likusį maistą.
+
+  Keičiasi ir požiūris į maistą. Vis daugiau žmonių ūkininkų turguose perka vietinių ūkių produktus, o kai kurie užsisako daržovių dėžes tiesiai iš ūkio. Nors tokie produktai dažnai brangesni, pirkėjai sako, kad jiems svarbu žinoti, iš kur atkeliauja jų maistas.
+
+  Vis dėlto reklama ir akcijos toliau ragina pirkti daugiau. Tad kiekvienam tenka pačiam atsakyti į paprastą klausimą: ar man tikrai reikia šio daikto?
+glossary:
+  - { word: "dėvėtų", lemma: "dėvėti", pos: verb, forms: { pres: "dėvi", past: "dėvėjo" }, meaning: "носить (одежду)", note: "страд. прич., род. п. мн. ч.: dėvėti drabužiai — ношеная одежда, секонд-хенд" }
+  - { word: "padėtis", lemma: "padėtis", pos: noun, gender: f, gen: "padėties", meaning: "положение, ситуация" }
+  - { word: "įprastu", lemma: "įprastas", pos: adj, meaning: "обычный, привычный", note: "тв. п.: tapo įprastu dalyku — стало обычным делом" }
+  - { word: "išmainyti", lemma: "išmainyti", pos: verb, forms: { pres: "išmaino", past: "išmainė" }, meaning: "обменять" }
+  - { word: "nebereikalingus", lemma: "nebereikalingas", pos: adj, meaning: "уже ненужный", note: "вин. п. мн. ч." }
+  - { word: "vienaragiu", lemma: "vienaragis", pos: noun, gender: m, gen: "vienaragio", meaning: "единорог (стартап дороже миллиарда долларов)", note: "тв. п." }
+  - { word: "startuoliu", lemma: "startuolis", pos: noun, gender: m, gen: "startuolio", meaning: "стартап", note: "тв. п." }
+  - { word: "siuntos", lemma: "siunta", pos: noun, gender: f, gen: "siuntos", meaning: "посылка, отправление", note: "им. п. мн. ч." }
+  - { word: "paštomatus", lemma: "paštomatas", pos: noun, gender: m, gen: "paštomato", meaning: "почтомат, пункт выдачи посылок", note: "вин. п. мн. ч." }
+  - { word: "spintelių", lemma: "spintelė", pos: noun, gender: f, gen: "spintelės", meaning: "шкафчик, ячейка", note: "род. п. мн. ч." }
+  - { word: "pirkinius", lemma: "pirkinys", pos: noun, gender: m, gen: "pirkinio", meaning: "покупка", note: "вин. п. мн. ч." }
+  - { word: "gailimasi", lemma: "gailėtis", pos: verb, forms: { pres: "gailisi", past: "gailėjosi" }, meaning: "жалеть (о чём — род. п.)", note: "безличная форма: dėl kurių gailimasi — о которых жалеют" }
+  - { word: "pakuočių", lemma: "pakuotė", pos: noun, gender: f, gen: "pakuotės", meaning: "упаковка, тара", note: "род. п. мн. ч." }
+  - { word: "užstato", lemma: "užstatas", pos: noun, gender: m, gen: "užstato", meaning: "залог", note: "užstato sistema — залоговая система (возврат тары)" }
+  - { word: "skardinėje", lemma: "skardinė", pos: noun, gender: f, gen: "skardinės", meaning: "жестяная банка", note: "местн. п." }
+  - { word: "atnešus", lemma: "atnešti", pos: verb, forms: { pres: "atneša", past: "atnešė" }, meaning: "принести", note: "деепричастие (padalyvis): atnešus — если (когда) принесёшь" }
+  - { word: "dirbtuvių", lemma: "dirbtuvės", pos: noun, gender: f, gen: "dirbtuvių", meaning: "мастерская", note: "только мн. ч.; род. п." }
+  - { word: "sutaisyti", lemma: "sutaisyti", pos: verb, forms: { pres: "sutaiso", past: "sutaisė" }, meaning: "починить" }
+  - { word: "švaistymą", lemma: "švaistymas", pos: noun, gender: m, gen: "švaistymo", meaning: "расточительство, выбрасывание (впустую)", note: "maisto švaistymas — выбрасывание еды" }
+  - { word: "programėlės", lemma: "programėlė", pos: noun, gender: f, gen: "programėlės", meaning: "приложение (в телефоне)", note: "им. п. мн. ч." }
+  - { word: "ragina", lemma: "raginti", pos: verb, forms: { pres: "ragina", past: "ragino" }, meaning: "призывать, подталкивать" }
+  - { word: "požiūris", lemma: "požiūris", pos: noun, gender: m, gen: "požiūrio", meaning: "взгляд, отношение (к чему — į + вин. п.)" }
+  - { word: "užsisako", lemma: "užsisakyti", pos: verb, forms: { pres: "užsisako", past: "užsisakė" }, meaning: "заказать (себе)" }
+  - { word: "atkeliauja", lemma: "atkeliauti", pos: verb, forms: { pres: "atkeliauja", past: "atkeliavo" }, meaning: "прибыть, прийти (издалека)" }
+questions:
+  - q: "Kas ir kada sukūrė „Vinted“?"
+    options: ["Milda Mitkutė ir Justas Janauskas 2008 metais", "Lietuvos valstybė 2016 metais", "Užsienio bendrovė 2019 metais"]
+    answer: 0
+  - q: "Kaip veikia užstato sistema?"
+    options: ["Tuščias pakuotes reikia išmesti į šiukšlių dėžę", "Už pakuotę sumokamas užstatas, kuris grąžinamas atnešus ją į parduotuvę", "Gėrimai parduodami tik stikliniuose buteliuose"]
+    answer: 1
+  - q: "Kokią neigiamą pusę turi pirkimas internetu?"
+    options: ["Siuntas galima pasiimti tik darbo valandomis", "Paštomatų yra labai mažai", "Impulsyvūs pirkiniai ir daugybė pakuočių"]
+    answer: 2

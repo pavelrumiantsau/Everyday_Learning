@@ -1,0 +1,57 @@
+id: lt-r-0043
+cefr: B2
+title: "Studentų metai"
+topic: "университеты и студенты"
+source: generated
+text: |
+  Vilniaus universitetas, įkurtas 1579 metais, yra vienas seniausių universitetų Vidurio ir Rytų Europoje. Šiandien Lietuvoje veikia keliolika universitetų ir beveik tiek pat kolegijų, o didžiausi studijų centrai yra Vilnius ir Kaunas.
+
+  Į aukštąją mokyklą stojama pagal konkursinį balą, kuris daugiausia priklauso nuo brandos egzaminų rezultatų. Geriausiai egzaminus išlaikę abiturientai gauna valstybės finansuojamas vietas, o kiti už studijas moka patys. Todėl paskutiniai mokyklos metai daugeliui šeimų tampa tikru išbandymu: mokiniai lanko korepetitorius, o tėvai skaičiuoja, kiek kainuotų mokamos studijos.
+
+  Bakalauro studijos dažniausiai trunka ketverius metus, magistrantūra – dar nuo pusantrų iki dvejų metų. Nemažai studentų jau nuo antro kurso pradeda dirbti: vieni nori užsidirbti pragyvenimui, kiti – įgyti patirties ir susirasti darbą dar prieš baigdami studijas. Dėstytojai kartais skundžiasi, kad dirbantys studentai praleidžia paskaitas, tačiau darbdaviai tokią patirtį vertina.
+
+  Nemokamos studijos tenka ne visiems, todėl dalis studentų ima paskolą. Valstybinis studijų fondas teikia valstybės remiamas paskolas, kurias pradedama grąžinti tik po studijų. Geriausiai besimokantiems mokamos skatinamosios stipendijos, o studentai iš mažas pajamas gaunančių šeimų gali gauti socialinę stipendiją.
+
+  Populiari ir „Erasmus“ programa. Semestrą ar du praleidę užsienio universitete, studentai grįžta geriau mokėdami kalbas, susiradę naujų draugų ir kitaip žiūrėdami į mokslą. Be to, į Lietuvą atvyksta vis daugiau užsienio studentų, ypač norinčių studijuoti mediciną ar informacines technologijas.
+
+  Didžiausias iššūkis – demografija. Gimstamumas mažėja, jaunimo vis mažiau, todėl aukštosios mokyklos varžosi dėl kiekvieno stojančiojo. Kai kurie universitetai jau buvo sujungti, o diskusijos, ar mažai šaliai reikia tiek daug aukštųjų mokyklų, nesibaigia. Vieni mano, kad reikėtų mažiau, bet stipresnių universitetų, kiti bijo, kad regionuose neliks galimybių studijuoti.
+
+  Vis dėlto studijų metai daugeliui išlieka ypatingu laiku: bendrabučiai, naktys prieš egzaminus, pirmieji savarankiško gyvenimo bandymai. Kaip juokauja patys studentai, per sesiją ramiai miega tik tie, kurie jau viską išlaikė.
+glossary:
+  - { word: "įkurtas", lemma: "įkurti", pos: verb, forms: { pres: "įkuria", past: "įkūrė" }, meaning: "основать", note: "страд. прич., м. р.: основанный" }
+  - { word: "keliolika", lemma: "keliolika", pos: num, meaning: "десяток с лишним (от 11 до 19)", note: "+ род. п. мн. ч." }
+  - { word: "kolegijų", lemma: "kolegija", pos: noun, gender: f, gen: "kolegijos", meaning: "колледж (вуз прикладных наук)", note: "род. п. мн. ч." }
+  - { word: "stojama", lemma: "stoti", pos: verb, forms: { pres: "stoja", past: "stojo" }, meaning: "поступать (в вуз)", note: "безличная форма: stojama — поступают" }
+  - { word: "konkursinį", lemma: "konkursinis", pos: adj, meaning: "конкурсный", note: "konkursinis balas — конкурсный балл" }
+  - { word: "brandos", lemma: "branda", pos: noun, gender: f, gen: "brandos", meaning: "зрелость", note: "brandos egzaminai — выпускные экзамены" }
+  - { word: "abiturientai", lemma: "abiturientas", pos: noun, gender: m, gen: "abituriento", meaning: "выпускник школы", note: "им. п. мн. ч." }
+  - { word: "finansuojamas", lemma: "finansuoti", pos: verb, forms: { pres: "finansuoja", past: "finansavo" }, meaning: "финансировать", note: "страд. прич. наст. вр., вин. п. мн. ч. ж. р." }
+  - { word: "išbandymu", lemma: "išbandymas", pos: noun, gender: m, gen: "išbandymo", meaning: "испытание", note: "тв. п." }
+  - { word: "korepetitorius", lemma: "korepetitorius", pos: noun, gender: m, gen: "korepetitoriaus", meaning: "репетитор", note: "вин. п. мн. ч." }
+  - { word: "magistrantūra", lemma: "magistrantūra", pos: noun, gender: f, gen: "magistrantūros", meaning: "магистратура" }
+  - { word: "pragyvenimui", lemma: "pragyvenimas", pos: noun, gender: m, gen: "pragyvenimo", meaning: "проживание, жизнь (на что жить)", note: "дат. п.: užsidirbti pragyvenimui — заработать на жизнь" }
+  - { word: "įgyti", lemma: "įgyti", pos: verb, forms: { pres: "įgyja", past: "įgijo" }, meaning: "приобрести, получить (опыт, знания)" }
+  - { word: "praleidžia", lemma: "praleisti", pos: verb, forms: { pres: "praleidžia", past: "praleido" }, meaning: "пропускать; проводить (время)", note: "здесь: пропускают лекции" }
+  - { word: "darbdaviai", lemma: "darbdavys", pos: noun, gender: m, gen: "darbdavio", meaning: "работодатель", note: "им. п. мн. ч." }
+  - { word: "iššūkis", lemma: "iššūkis", pos: noun, gender: m, gen: "iššūkio", meaning: "вызов, сложная задача" }
+  - { word: "gimstamumas", lemma: "gimstamumas", pos: noun, gender: m, gen: "gimstamumo", meaning: "рождаемость" }
+  - { word: "varžosi", lemma: "varžytis", pos: verb, forms: { pres: "varžosi", past: "varžėsi" }, meaning: "соперничать, конкурировать" }
+  - { word: "stojančiojo", lemma: "stojantysis", pos: noun, gender: m, gen: "stojančiojo", meaning: "абитуриент, поступающий", note: "местоим. прич., род. п." }
+  - { word: "sujungti", lemma: "sujungti", pos: verb, forms: { pres: "sujungia", past: "sujungė" }, meaning: "объединить, соединить", note: "здесь страд. прич. мн. ч.: buvo sujungti — были объединены" }
+  - { word: "bendrabučiai", lemma: "bendrabutis", pos: noun, gender: m, gen: "bendrabučio", meaning: "общежитие", note: "им. п. мн. ч." }
+  - { word: "sesiją", lemma: "sesija", pos: noun, gender: f, gen: "sesijos", meaning: "сессия (экзаменационная)", note: "вин. п." }
+  - { word: "paskolą", lemma: "paskola", pos: noun, gender: f, gen: "paskolos", meaning: "кредит, заём", note: "вин. п." }
+  - { word: "remiamas", lemma: "remti", pos: verb, forms: { pres: "remia", past: "rėmė" }, meaning: "поддерживать", note: "страд. прич. наст. вр., вин. п. мн. ч. ж. р.: valstybės remiamos paskolos — кредиты с господдержкой" }
+  - { word: "besimokantiems", lemma: "mokytis", pos: verb, forms: { pres: "mokosi", past: "mokėsi" }, meaning: "учиться", note: "действ. прич. наст. вр. (be-…-si), дат. п. мн. ч.: тем, кто учится" }
+  - { word: "skatinamosios", lemma: "skatinamasis", pos: adj, meaning: "поощрительный", note: "skatinamoji stipendija — стипендия за хорошую учёбу" }
+  - { word: "stipendijos", lemma: "stipendija", pos: noun, gender: f, gen: "stipendijos", meaning: "стипендия", note: "им. п. мн. ч." }
+questions:
+  - q: "Nuo ko daugiausia priklauso konkursinis balas?"
+    options: ["Nuo brandos egzaminų rezultatų", "Nuo tėvų pajamų", "Nuo pokalbio su dėstytojais"]
+    answer: 0
+  - q: "Kodėl nemažai studentų pradeda dirbti jau studijuodami?"
+    options: ["Nes universitetai to reikalauja", "Nori užsidirbti pragyvenimui ir įgyti patirties", "Nes paskaitos vyksta tik savaitgaliais"]
+    answer: 1
+  - q: "Kodėl aukštosios mokyklos varžosi dėl stojančiųjų?"
+    options: ["Nes daug jaunimo išvyksta studijuoti į užsienį", "Nes studijos tapo nemokamos", "Nes mažėja gimstamumas ir jaunimo"]
+    answer: 2
