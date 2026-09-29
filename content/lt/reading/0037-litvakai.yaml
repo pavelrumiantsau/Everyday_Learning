@@ -1,0 +1,46 @@
+id: lt-r-0037
+cefr: B2
+title: "Litvakai – Lietuvos žydai"
+topic: "литваки: евреи Литвы"
+source: generated
+text: |
+  Šimtmečius Lietuvoje gyveno didelė žydų bendruomenė. Lietuvos žydai, vadinami litvakais, garsėjo savo išsilavinimu ir mokslu, o Vilnius buvo vadinamas Šiaurės Jeruzale. XVIII amžiuje čia gyveno garsus rabinas ir mokslininkas Vilniaus Gaonas, kurio darbai iki šiol studijuojami visame pasaulyje.
+
+  Prieš Antrąjį pasaulinį karą žydai sudarė didelę Lietuvos miestų ir miestelių gyventojų dalį. Jie vertėsi prekyba, amatais, dirbo gydytojais ir mokytojais, leido laikraščius ir knygas jidiš bei hebrajų kalbomis. Daugelyje miestelių šalia katalikų bažnyčios stovėjo ir sinagoga.
+
+  Holokaustas šią bendruomenę beveik sunaikino. Nacistinės Vokietijos okupacijos metais buvo nužudyta apie 95 procentai Lietuvos žydų – vienas didžiausių procentų visoje Europoje. Skaudi tiesa ta, kad žudynėse dalyvavo ir dalis vietos gyventojų. Kartu buvo ir tokių, kurie, rizikuodami savo ir savo šeimų gyvybe, slėpė žydus. Šie žmonės vadinami Pasaulio tautų teisuoliais.
+
+  Ilgą laiką apie šias temas Lietuvoje buvo kalbama mažai – sovietmečiu istorija buvo nutylima arba iškraipoma. Nuo nepriklausomybės atkūrimo situacija pamažu keičiasi: statomi paminklai, tyrinėjama istorija, mokyklose apie Holokaustą kalbama atviriau. Kasmet rugsėjo 23-iąją minima Lietuvos žydų genocido aukų atminimo diena.
+
+  Vilniuje apie žydų istoriją galima daug sužinoti Vilniaus Gaono žydų istorijos muziejuje, o netoli miesto esančiuose Paneriuose stovi memorialas. Ten Holokausto metais buvo nužudyta dešimtys tūkstančių žmonių, daugiausia žydų. Kasmet šias vietas lanko mokiniai, turistai ir aukų palikuonys iš viso pasaulio.
+
+  Šiandien apie litvakų paveldą primena atnaujintos sinagogos, muziejai ir garsūs litvakų kilmės žmonės visame pasaulyje – rašytojai, mokslininkai, menininkai. Pažinti šią istoriją svarbu ne tik dėl praeities, bet ir dėl ateities: ji primena, kokia trapi gali būti visuomenė, kurioje leidžiama plisti neapykantai.
+glossary:
+  - { word: "bendruomenė", lemma: "bendruomenė", pos: noun, gender: f, gen: "bendruomenės", meaning: "община, сообщество" }
+  - { word: "garsėjo", lemma: "garsėti", pos: verb, forms: { pres: "garsėja", past: "garsėjo" }, meaning: "славиться", note: "garsėti kuo — славиться чем (твор. п.)" }
+  - { word: "rabinas", lemma: "rabinas", pos: noun, gender: m, gen: "rabino", meaning: "раввин" }
+  - { word: "studijuojami", lemma: "studijuoti", meaning: "изучать", item: lt-w-1238, note: "страд. прич. мн. ч.: studijuojami — изучаются" }
+  - { word: "miestelių", lemma: "miestelis", pos: noun, gender: m, gen: "miestelio", meaning: "местечко, городок", note: "род. п. мн. ч." }
+  - { word: "vertėsi", lemma: "verstis", pos: verb, forms: { pres: "verčiasi", past: "vertėsi" }, meaning: "заниматься (ремеслом, торговлей)", note: "verstis prekyba — заниматься торговлей (твор. п.)" }
+  - { word: "prekyba", lemma: "prekyba", meaning: "торговля", item: lt-w-0773, note: "твор. п." }
+  - { word: "amatais", lemma: "amatas", pos: noun, gender: m, gen: "amato", meaning: "ремесло", note: "твор. п. мн. ч." }
+  - { word: "sinagoga", lemma: "sinagoga", pos: noun, gender: f, gen: "sinagogos", meaning: "синагога" }
+  - { word: "nužudyta", lemma: "nužudyti", pos: verb, forms: { pres: "nužudo", past: "nužudė" }, meaning: "убить", note: "страд. прич., безл.: buvo nužudyta — было убито" }
+  - { word: "žudynėse", lemma: "žudynės", pos: noun, gender: f, gen: "žudynių", meaning: "массовое убийство, резня", note: "только мн. ч.; местн. п." }
+  - { word: "rizikuodami", lemma: "rizikuoti", meaning: "рисковать", item: lt-w-0133, note: "полупричастие мн. ч.: rizikuodami gyvybe — рискуя жизнью" }
+  - { word: "teisuoliais", lemma: "teisuolis", pos: noun, gender: m, gen: "teisuolio", meaning: "праведник", note: "твор. п. мн. ч.: Pasaulio tautų teisuoliai — Праведники народов мира" }
+  - { word: "nutylima", lemma: "nutylėti", pos: verb, forms: { pres: "nutyli", past: "nutylėjo" }, meaning: "замолчать, умолчать", note: "страд. прич.: buvo nutylima — замалчивалась" }
+  - { word: "paminklai", lemma: "paminklas", pos: noun, gender: m, gen: "paminklo", meaning: "памятник", note: "им. п. мн. ч." }
+  - { word: "genocido", lemma: "genocidas", pos: noun, gender: m, gen: "genocido", meaning: "геноцид" }
+  - { word: "kilmės", lemma: "kilmė", meaning: "происхождение", item: lt-w-0740, note: "litvakų kilmės — литовско-еврейского происхождения" }
+  - { word: "neapykantai", lemma: "neapykanta", meaning: "ненависть", item: lt-w-0602, note: "дат. п." }
+questions:
+  - q: "Kaip buvo vadinamas Vilnius?"
+    options: ["Šiaurės Venecija", "Šiaurės Jeruzalė", "Baltijos Paryžius"]
+    answer: 1
+  - q: "Kokia Lietuvos žydų dalis buvo nužudyta Holokausto metu?"
+    options: ["Apie 95 procentai", "Apie pusė", "Apie dešimt procentų"]
+    answer: 0
+  - q: "Kas vadinami Pasaulio tautų teisuoliais?"
+    options: ["Garsūs litvakų rabinai", "Sovietų istorikai", "Žmonės, kurie rizikuodami gyvybe slėpė žydus"]
+    answer: 2

@@ -1,0 +1,48 @@
+id: lt-r-0038
+cefr: B2
+title: "Iš miesto – į sodybą"
+topic: "горожане переезжают в деревню"
+source: generated
+text: |
+  Lietuvos kaimai ilgą laiką tuštėjo: jaunimas išvažiuodavo mokytis ir dirbti į didmiesčius ar užsienį, o seni vienkiemiai likdavo apleisti. Pastaraisiais metais vis dažniau pastebima priešinga tendencija – miestiečiai perka sodybas kaime ir ten praleidžia savaitgalius, o kai kurie persikelia gyventi visam laikui.
+
+  Priežasčių yra kelios. Nuotolinis darbas leidžia dirbti iš bet kur, jei tik yra geras internetas. Sodybos kaime kainuoja kelis kartus pigiau nei butai sostinėje. O svarbiausia – daugelis nori ramybės, gryno oro ir savo daržo. Šeimos su vaikais tikina, kad kaime vaikai daugiau laiko praleidžia lauke ir mažiau žiūri į ekranus.
+
+  Vis dėlto gyvenimas kaime nėra toks idiliškas, kaip atrodo iš nuotraukų socialiniuose tinkluose. Seną sodybą dažnai tenka iš esmės remontuoti: keisti stogą, šildymo sistemą, kasti šulinį. Iki artimiausios parduotuvės, mokyklos ar gydytojo gali būti keliolika kilometrų, todėl be automobilio neišsiversi. Žiemą keliai kartais užpustomi, o autobusai važiuoja retai.
+
+  Vietiniai gyventojai į naujakurius žiūri įvairiai. Vieni džiaugiasi, kad kaime vėl girdėti vaikų balsai, o apleisti namai atgyja. Kiti skundžiasi, kad miestiečiai nesupranta kaimo gyvenimo ritmo: piktinasi gaidžio giedojimu ryte arba traktorių triukšmu per šienapjūtę.
+
+  Kai kurie naujakuriai kaime ne tik gyvena, bet ir kuria verslus. Vieni įrengia svečių namus ir priima turistus, kiti augina ekologiškas daržoves, kepa duoną ar gamina sūrius ir parduoda juos miesto turguose. Taip atsiranda naujų darbo vietų, kurių kaime labai trūksta.
+
+  Sociologai mano, kad šis judėjimas gali padėti atgaivinti regionus, jeigu valstybė investuos į kelius, internetą ir viešąsias paslaugas. O kol kas vis daugiau lietuvių svajoja apie tai, ką jų seneliai laikė kasdienybe, – apie savo namą su obelimi kieme ir pirtimi prie ežero.
+glossary:
+  - { word: "vienkiemiai", lemma: "vienkiemis", pos: noun, gender: m, gen: "vienkiemio", meaning: "хутор (отдельная усадьба)", note: "им. п. мн. ч." }
+  - { word: "apleisti", lemma: "apleistas", pos: adj, meaning: "заброшенный", note: "мн. ч." }
+  - { word: "tendencija", lemma: "tendencija", pos: noun, gender: f, gen: "tendencijos", meaning: "тенденция" }
+  - { word: "miestiečiai", lemma: "miestietis", pos: noun, gender: m, gen: "miestiečio", meaning: "горожанин", note: "им. п. мн. ч." }
+  - { word: "gryno", lemma: "grynas", pos: adj, meaning: "чистый", note: "род. п.: grynas oras — свежий воздух" }
+  - { word: "daržo", lemma: "daržas", pos: noun, gender: m, gen: "daržo", meaning: "огород", note: "род. п." }
+  - { word: "tikina", lemma: "tikinti", pos: verb, forms: { pres: "tikina", past: "tikino" }, meaning: "уверять" }
+  - { word: "idiliškas", lemma: "idiliškas", pos: adj, meaning: "идиллический" }
+  - { word: "esmės", lemma: "esmė", meaning: "суть", item: lt-w-0106, note: "iš esmės — по существу, капитально" }
+  - { word: "šildymo", lemma: "šildymas", pos: noun, gender: m, gen: "šildymo", meaning: "отопление" }
+  - { word: "neišsiversi", lemma: "išsiversti", pos: verb, forms: { pres: "išsiverčia", past: "išsivertė" }, meaning: "обойтись", note: "be automobilio neišsiversi — без машины не обойдёшься" }
+  - { word: "užpustomi", lemma: "užpustyti", pos: verb, forms: { pres: "užpusto", past: "užpustė" }, meaning: "замести (снегом)", note: "страд. прич. мн. ч.: keliai užpustomi — дороги заметает" }
+  - { word: "naujakurius", lemma: "naujakurys", pos: noun, gender: m, gen: "naujakurio", meaning: "новосёл", note: "вин. п. мн. ч." }
+  - { word: "atgyja", lemma: "atgyti", pos: verb, forms: { pres: "atgyja", past: "atgijo" }, meaning: "ожить" }
+  - { word: "gaidžio", lemma: "gaidys", pos: noun, gender: m, gen: "gaidžio", meaning: "петух", note: "род. п." }
+  - { word: "giedojimu", lemma: "giedojimas", pos: noun, gender: m, gen: "giedojimo", meaning: "пение (птиц)", note: "твор. п." }
+  - { word: "šienapjūtę", lemma: "šienapjūtė", pos: noun, gender: f, gen: "šienapjūtės", meaning: "сенокос", note: "вин. п." }
+  - { word: "atgaivinti", lemma: "atgaivinti", pos: verb, forms: { pres: "atgaivina", past: "atgaivino" }, meaning: "оживить, возродить" }
+  - { word: "kasdienybe", lemma: "kasdienybė", pos: noun, gender: f, gen: "kasdienybės", meaning: "повседневность", note: "твор. п." }
+  - { word: "obelimi", lemma: "obelis", pos: noun, gender: f, gen: "obels", meaning: "яблоня", note: "твор. п." }
+questions:
+  - q: "Kodėl miestiečiai perka sodybas kaime?"
+    options: ["Nes kaime didesni atlyginimai", "Dėl nuotolinio darbo, mažesnių kainų ir ramybės", "Nes miestuose uždrausta auginti daržoves"]
+    answer: 1
+  - q: "Kokie sunkumai laukia gyvenančių kaime?"
+    options: ["Per daug kaimynų", "Per brangūs butai", "Toli iki parduotuvių ir gydytojų, reikia remontuoti sodybą"]
+    answer: 2
+  - q: "Kuo kartais skundžiasi vietiniai gyventojai?"
+    options: ["Miestiečiai nesupranta kaimo gyvenimo ritmo", "Miestiečiai per daug dirba laukuose", "Miestiečiai nenori pirkti sodybų"]
+    answer: 0

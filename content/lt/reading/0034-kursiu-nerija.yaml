@@ -1,0 +1,47 @@
+id: lt-r-0034
+cefr: B2
+title: "Kuršių nerija"
+topic: "Куршская коса"
+source: generated
+text: |
+  Kuršių nerija – siaura, beveik šimto kilometrų ilgio smėlio juosta tarp Baltijos jūros ir Kuršių marių. Šiaurinė jos dalis priklauso Lietuvai, pietinė – Rusijos Kaliningrado sričiai. 2000 metais nerija buvo įtraukta į UNESCO pasaulio paveldo sąrašą kaip unikalus gamtos ir žmogaus sukurtas kraštovaizdis.
+
+  Neriją sukūrė vėjas ir jūra. Prieš kelis šimtus metų žmonės iškirto čia augusius miškus, ir smėlis pradėjo judėti. Kopos slinko per kaimus ir juos palaidojo – smėlyje dingo net keliolika gyvenviečių. Tik XIX amžiuje pradėta sodinti medžius ir tvirtinti kopas. Šiandien didžiąją nerijos dalį vėl dengia pušynai, bet aukščiausios kopos tebėra atviros ir primena dykumą.
+
+  Vasarą Nidoje, Juodkrantėje ir Preiloje pilna poilsiautojų. Vieni atvyksta dėl plačių paplūdimių ir švaraus oro, kiti – dėl kultūros. Nidoje stovi namelis, kuriame vasaras leido vokiečių rašytojas Thomas Mannas, o Juodkrantėje galima pasivaikščioti Raganų kalnu, kur tarp medžių stovi dešimtys medinių skulptūrų.
+
+  Tačiau nerijos grožis trapus. Gamtininkai perspėja, kad per didelis turistų srautas kenkia kopoms: nuo kiekvieno žingsnio smėlis pajuda, o reti augalai sunyksta. Todėl į daugelį kopų lipti draudžiama, vaikščioti galima tik specialiais takais, o įvažiavimas į neriją automobiliu yra mokamas.
+
+  Nerijos gyventojai nuo seno vertėsi žvejyba. Iki šiol Nidoje galima pamatyti tradicinius žvejų namelius, dažytus ruda ir mėlyna spalvomis, o ant stogų – medines vėtrunges. Tai spalvingos vėliavėlės, pagal kurias kadaise buvo galima atpažinti, iš kurio kaimo yra valtis.
+
+  Kas kartą užlipus ant Parnidžio kopos ir pamačius, kaip saulė leidžiasi į marias, sunku patikėti, kad šį kraštovaizdį kadaise beveik sunaikino patys žmonės. Galbūt būtent todėl nerija moko svarbios pamokos: gamtą lengva prarasti, o atkurti ją – labai sunku.
+glossary:
+  - { word: "nerija", lemma: "nerija", pos: noun, gender: f, gen: "nerijos", meaning: "коса (песчаная)" }
+  - { word: "siaura", lemma: "siauras", pos: adj, meaning: "узкий", note: "ж. р." }
+  - { word: "marių", lemma: "marios", pos: noun, gender: f, gen: "marių", meaning: "залив (лагуна)", note: "только мн. ч.: Kuršių marios — Куршский залив" }
+  - { word: "paveldo", lemma: "paveldas", pos: noun, gender: m, gen: "paveldo", meaning: "наследие", note: "pasaulio paveldas — всемирное наследие" }
+  - { word: "iškirto", lemma: "iškirsti", pos: verb, forms: { pres: "iškerta", past: "iškirto" }, meaning: "вырубить", note: "прош. вр." }
+  - { word: "Kopos", lemma: "kopa", pos: noun, gender: f, gen: "kopos", meaning: "дюна", note: "им. п. мн. ч." }
+  - { word: "slinko", lemma: "slinkti", pos: verb, forms: { pres: "slenka", past: "slinko" }, meaning: "ползти, сдвигаться", note: "прош. вр." }
+  - { word: "gyvenviečių", lemma: "gyvenvietė", pos: noun, gender: f, gen: "gyvenvietės", meaning: "посёлок, поселение", note: "род. п. мн. ч." }
+  - { word: "tvirtinti", lemma: "tvirtinti", pos: verb, forms: { pres: "tvirtina", past: "tvirtino" }, meaning: "укреплять" }
+  - { word: "pušynai", lemma: "pušynas", pos: noun, gender: m, gen: "pušyno", meaning: "сосновый лес, бор", note: "им. п. мн. ч." }
+  - { word: "tebėra", lemma: "būti", meaning: "быть", note: "te-be-: tebėra — всё ещё есть, остаётся" }
+  - { word: "poilsiautojų", lemma: "poilsiautojas", pos: noun, gender: m, gen: "poilsiautojo", meaning: "отдыхающий", note: "род. п. мн. ч." }
+  - { word: "skulptūrų", lemma: "skulptūra", pos: noun, gender: f, gen: "skulptūros", meaning: "скульптура", note: "род. п. мн. ч." }
+  - { word: "trapus", lemma: "trapus", pos: adj, meaning: "хрупкий" }
+  - { word: "Gamtininkai", lemma: "gamtininkas", pos: noun, gender: m, gen: "gamtininko", meaning: "натуралист, защитник природы", note: "им. п. мн. ч." }
+  - { word: "srautas", lemma: "srautas", pos: noun, gender: m, gen: "srauto", meaning: "поток" }
+  - { word: "sunyksta", lemma: "sunykti", pos: verb, forms: { pres: "sunyksta", past: "sunyko" }, meaning: "зачахнуть, исчезнуть" }
+  - { word: "įvažiavimas", lemma: "įvažiavimas", pos: noun, gender: m, gen: "įvažiavimo", meaning: "въезд" }
+  - { word: "kadaise", lemma: "kadaise", pos: adv, meaning: "когда-то, некогда" }
+questions:
+  - q: "Kodėl smėlis nerijoje pradėjo judėti?"
+    options: ["Dėl stiprių žemės drebėjimų", "Nes žmonės iškirto miškus", "Nes pakilo jūros lygis"]
+    answer: 1
+  - q: "Ką galima pamatyti Raganų kalne?"
+    options: ["Dešimtis medinių skulptūrų", "Thomo Manno namelį", "Seniausią Lietuvos švyturį"]
+    answer: 0
+  - q: "Kodėl į daugelį kopų lipti draudžiama?"
+    options: ["Nes ten gyvena laukiniai gyvūnai", "Nes kopos priklauso Rusijai", "Nes turistai kenkia kopoms ir retiems augalams"]
+    answer: 2

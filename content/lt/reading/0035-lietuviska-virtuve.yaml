@@ -1,0 +1,49 @@
+id: lt-r-0035
+cefr: B2
+title: "Nuo cepelinų iki naujosios virtuvės"
+topic: "литовская кухня: традиции и новое"
+source: generated
+text: |
+  Paklausus užsieniečio, ką jis žino apie lietuvišką virtuvę, dažniausiai išgirsite vieną žodį – cepelinai. Šie dideli bulvių tešlos kukuliai su mėsos įdaru, patiekiami su spirgučiais ir grietine, iš tiesų yra vienas žinomiausių patiekalų. Tačiau lietuvių virtuvė kur kas įvairesnė.
+
+  Bulvės į Lietuvą atkeliavo tik XVIII amžiuje, bet greitai tapo pagrindiniu maistu. Iš jų gaminamas ir bulvių plokštainis – kugelis, ir bulviniai blynai, ir vėdarai. Vasarą populiariausia – ryškiai rožinė šaltibarščių sriuba iš burokėlių, kefyro ir agurkų, dažniausiai valgoma su karštomis bulvėmis. Senesni patiekalai primena laikus, kai valgyta tai, kas užauginta savame ūkyje: ruginė duona, grybai, uogos, medus, rūkyta mėsa.
+
+  Per pastaruosius dešimtmečius Lietuvos restoranuose daug kas pasikeitė. Jauni virėjai atranda senus receptus ir juos perkuria: vietoj riebių padažų – lengvesni, vietoj didelių porcijų – nedideli, bet išradingi patiekalai. Vis dažniau naudojami vietiniai, sezoniniai produktai – laukinės žolelės, žuvis iš Baltijos jūros ar ežerų, ūkininkų sūriai.
+
+  Kai kurie vyresni žmonės į tokias naujoves žiūri skeptiškai: jų nuomone, tikri cepelinai turi būti tokie, kokius virdavo močiutė. Tuo tarpu jaunimas mielai ragauja ir tradicinių, ir naujų patiekalų, o savaitgaliais noriai lankosi ūkininkų turguose.
+
+  Ypatinga vieta lietuvių stalo tradicijose tenka šakočiui. Šis aukštas pyragas su daugybe „šakų“ kepamas ant iešmo prie atviros ugnies, sluoksnis po sluoksnio. Šakotis dažniausiai puošia vestuvių ir kitų didelių švenčių stalus, o užsieniečiai jį dažnai parsiveža kaip suvenyrą.
+
+  Valgis Lietuvoje – ne tik maistas, bet ir bendravimo proga. Per šventes stalai lūžta nuo patiekalų, o svečiui dažnai siūloma „dar truputį“ – net jei jis jau sotus. Taigi, jeigu būsite pakviesti į lietuvių namus, geriau ateikite alkani.
+glossary:
+  - { word: "tešlos", lemma: "tešla", pos: noun, gender: f, gen: "tešlos", meaning: "тесто", note: "род. п." }
+  - { word: "kukuliai", lemma: "kukulis", pos: noun, gender: m, gen: "kukulio", meaning: "клёцка, фрикаделька", note: "им. п. мн. ч." }
+  - { word: "įdaru", lemma: "įdaras", pos: noun, gender: m, gen: "įdaro", meaning: "начинка", note: "твор. п." }
+  - { word: "patiekiami", lemma: "patiekti", pos: verb, forms: { pres: "patiekia", past: "patiekė" }, meaning: "подать (блюдо)", note: "страд. прич. мн. ч.: patiekiami — подаются" }
+  - { word: "spirgučiais", lemma: "spirgučiai", pos: noun, gender: m, gen: "spirgučių", meaning: "шкварки", note: "обычно мн. ч.; твор. п." }
+  - { word: "grietine", lemma: "grietinė", pos: noun, gender: f, gen: "grietinės", meaning: "сметана", note: "твор. п." }
+  - { word: "patiekalų", lemma: "patiekalas", pos: noun, gender: m, gen: "patiekalo", meaning: "блюдо", note: "род. п. мн. ч." }
+  - { word: "plokštainis", lemma: "plokštainis", pos: noun, gender: m, gen: "plokštainio", meaning: "запеканка", note: "bulvių plokštainis — картофельная запеканка (кугелис)" }
+  - { word: "vėdarai", lemma: "vėdarai", pos: noun, gender: m, gen: "vėdarų", meaning: "вëдарай (колбаски из картофеля)", note: "обычно мн. ч." }
+  - { word: "burokėlių", lemma: "burokėlis", pos: noun, gender: m, gen: "burokėlio", meaning: "свёкла", note: "род. п. мн. ч." }
+  - { word: "valgyta", lemma: "valgyti", meaning: "есть", note: "безл. страд. прич.: kai valgyta — когда ели" }
+  - { word: "ruginė", lemma: "ruginis", pos: adj, meaning: "ржаной" }
+  - { word: "rūkyta", lemma: "rūkytas", pos: adj, meaning: "копчёный", note: "ж. р." }
+  - { word: "virėjai", lemma: "virėjas", pos: noun, gender: m, gen: "virėjo", meaning: "повар", note: "им. п. мн. ч." }
+  - { word: "perkuria", lemma: "perkurti", pos: verb, forms: { pres: "perkuria", past: "perkūrė" }, meaning: "переделать, создать заново" }
+  - { word: "padažų", lemma: "padažas", pos: noun, gender: m, gen: "padažo", meaning: "соус", note: "род. п. мн. ч." }
+  - { word: "išradingi", lemma: "išradingas", pos: adj, meaning: "изобретательный", note: "мн. ч." }
+  - { word: "žolelės", lemma: "žolelė", pos: noun, gender: f, gen: "žolelės", meaning: "трава, травка (пряная)", note: "им. п. мн. ч." }
+  - { word: "skeptiškai", lemma: "skeptiškai", pos: adv, meaning: "скептически" }
+  - { word: "lūžta", lemma: "lūžti", pos: verb, forms: { pres: "lūžta", past: "lūžo" }, meaning: "ломаться", note: "stalai lūžta nuo patiekalų — столы ломятся от блюд" }
+  - { word: "sotus", lemma: "sotus", pos: adj, meaning: "сытый" }
+questions:
+  - q: "Kada bulvės atkeliavo į Lietuvą?"
+    options: ["XVIII amžiuje", "Tik XX amžiuje", "Prieš tūkstantį metų"]
+    answer: 0
+  - q: "Kuo jauni virėjai keičia tradicinę virtuvę?"
+    options: ["Gamina tik užsienio patiekalus", "Atsisako visų bulvių", "Perkuria senus receptus ir naudoja vietinius sezoninius produktus"]
+    answer: 2
+  - q: "Ką autorius pataria svečiui, pakviestam į lietuvių namus?"
+    options: ["Atsinešti savo maisto", "Ateiti alkanam", "Atsisakyti antros porcijos"]
+    answer: 1

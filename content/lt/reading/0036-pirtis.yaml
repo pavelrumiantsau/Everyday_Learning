@@ -1,0 +1,47 @@
+id: lt-r-0036
+cefr: B2
+title: "Pirties tradicija"
+topic: "баня (пирт)"
+source: generated
+text: |
+  Daugelyje Lietuvos sodybų šalia gyvenamojo namo stovi nedidelis medinis pastatas – pirtis. Senovėje pirtis buvo ne tik vieta nusiprausti. Joje gimdydavo moterys, gydydavo ligonius, džiovindavo linus ir net rinkdavosi pasikalbėti. Neatsitiktinai sakoma, kad pirtis – tai lietuvio vaistinė.
+
+  Tikra pirtis kūrenama malkomis. Kai krosnis įkaista, ant įkaitusių akmenų pilamas vanduo, ir patalpą užpildo karšti garai. Pirtininkai naudoja vantas – beržo, ąžuolo ar liepos šakelių ryšulius, kuriais švelniai plakamas kūnas. Tikima, kad taip gerėja kraujotaka, o kūnas atsikrato įtampos. Po karštos pirties būtina atvėsti: vasarą šokama į ežerą ar tvenkinį, o žiemą – tiesiog į sniegą.
+
+  Pirties kultūra šiandien išgyvena tikrą atgimimą. Atsirado pirties meistrų, kurie rengia ypatingas ceremonijas su žolelių arbatomis, eteriniais aliejais ir net muzika. Jie tvirtina, kad pirtis padeda ne tik kūnui, bet ir sielai: telefonas lieka už durų, o žmogus pagaliau turi laiko pabūti su savimi ir artimaisiais.
+
+  Vis dėlto gydytojai primena, kad pirtis tinka ne kiekvienam. Žmonėms, sergantiems širdies ligomis ar turintiems aukštą kraujospūdį, reikėtų pasitarti su gydytoju. Taip pat nereikėtų eiti į pirtį išgėrus alkoholio ar iškart po sočių pietų.
+
+  Pirties tradicijas turi ir kaimyninės šalys – suomiai garsėja sauna, rusai – bania. Lietuviška pirtis nuo jų skiriasi nedaug, tačiau pirtininkai pabrėžia savitą ritualą: čia svarbu ne kuo didesnis karštis, o lėtas, ramus buvimas, vantos kvapas ir pokalbiai tarp kaitinimosi.
+
+  Nors šiuolaikiniuose butuose tikros pirties neįsirengsi, daugelis miestiečių jos pasiilgsta. Todėl savaitgaliais jie važiuoja į kaimą pas gimines arba nuomojasi sodybas su pirtimis. Juk pasikaitinus, atvėsus ežere ir susėdus prie arbatos puodelio, sunku rasti geresnį poilsį.
+glossary:
+  - { word: "sodybų", lemma: "sodyba", pos: noun, gender: f, gen: "sodybos", meaning: "усадьба, хутор", note: "род. п. мн. ч." }
+  - { word: "nusiprausti", lemma: "nusiprausti", pos: verb, forms: { pres: "nusiprausia", past: "nusiprausė" }, meaning: "помыться" }
+  - { word: "gimdydavo", lemma: "gimdyti", meaning: "рожать", item: lt-w-1274, note: "многократное прош. вр.: gimdydavo — рожали (бывало)" }
+  - { word: "linus", lemma: "linai", pos: noun, gender: m, gen: "linų", meaning: "лён", note: "обычно мн. ч.; вин. п." }
+  - { word: "kūrenama", lemma: "kūrenti", meaning: "топить (печь, баню)", note: "страд. прич.: kūrenama malkomis — топится дровами" }
+  - { word: "malkomis", lemma: "malkos", pos: noun, gender: f, gen: "malkų", meaning: "дрова", note: "только мн. ч.; твор. п." }
+  - { word: "krosnis", lemma: "krosnis", pos: noun, gender: f, gen: "krosnies", meaning: "печь" }
+  - { word: "įkaitusių", lemma: "įkaitęs", pos: adj, meaning: "раскалённый", note: "род. п. мн. ч." }
+  - { word: "garai", lemma: "garai", pos: noun, gender: m, gen: "garų", meaning: "пар", note: "обычно мн. ч." }
+  - { word: "vantas", lemma: "vanta", pos: noun, gender: f, gen: "vantos", meaning: "веник (банный)", note: "вин. п. мн. ч." }
+  - { word: "ryšulius", lemma: "ryšulys", pos: noun, gender: m, gen: "ryšulio", meaning: "пучок, связка", note: "вин. п. мн. ч." }
+  - { word: "kraujotaka", lemma: "kraujotaka", pos: noun, gender: f, gen: "kraujotakos", meaning: "кровообращение" }
+  - { word: "atvėsti", lemma: "atvėsti", pos: verb, forms: { pres: "atvėsta", past: "atvėso" }, meaning: "остыть" }
+  - { word: "tvenkinį", lemma: "tvenkinys", pos: noun, gender: m, gen: "tvenkinio", meaning: "пруд", note: "вин. п." }
+  - { word: "atgimimą", lemma: "atgimimas", pos: noun, gender: m, gen: "atgimimo", meaning: "возрождение", note: "вин. п." }
+  - { word: "sielai", lemma: "siela", pos: noun, gender: f, gen: "sielos", meaning: "душа", note: "дат. п." }
+  - { word: "kraujospūdį", lemma: "kraujospūdis", pos: noun, gender: m, gen: "kraujospūdžio", meaning: "кровяное давление", note: "вин. п." }
+  - { word: "išgėrus", lemma: "išgerti", pos: verb, forms: { pres: "išgeria", past: "išgėrė" }, meaning: "выпить", note: "деепричастие: išgėrus — выпив" }
+  - { word: "pasikaitinus", lemma: "pasikaitinti", pos: verb, forms: { pres: "pasikaitina", past: "pasikaitino" }, meaning: "погреться, попариться", note: "деепричастие: pasikaitinus — попарившись" }
+questions:
+  - q: "Kam senovėje buvo naudojama pirtis?"
+    options: ["Tik maistui gaminti", "Nusiprausti, gimdyti, gydyti, džiovinti linus", "Tik gyvuliams laikyti"]
+    answer: 1
+  - q: "Ką daryti po karštos pirties?"
+    options: ["Iš karto eiti miegoti", "Išgerti alkoholio", "Atvėsti ežere ar sniege"]
+    answer: 2
+  - q: "Kam, pasak gydytojų, reikėtų pasitarti su gydytoju prieš einant į pirtį?"
+    options: ["Sergantiems širdies ligomis ar turintiems aukštą kraujospūdį", "Visiems vaikams", "Visiems, kurie nemoka plaukti"]
+    answer: 0
