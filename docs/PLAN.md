@@ -32,14 +32,14 @@
 **Content — supply and next ids**
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
-| Lithuanian vocabulary | 1082 words (A2–B2, frequency ranks ≤ 18,000) | ~mid-January 2027 (10/day; later if placement skips known words) | `lt-*-1139`, `pnpm content:candidates lt 18000 4000`; recipe `prompts/content/lt-vocab.md` |
+| Lithuanian vocabulary | 1268 words (A2–B2, frequency ranks ≤ 23,000) | ~early February 2027 (10/day; later if placement skips known words) | `lt-*-1325`, candidates `lt 18000 5000` partly used (first ~1100 with examples), then continue in that list or `lt 23000 5000`; recipe `prompts/content/lt-vocab.md` |
 | Spanish vocabulary | 584 items (A1–B1) | ~late January 2027 (5/day) | `es-*-0585`, `pnpm content:candidates es 3850 1200`; recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 31 lessons (Q1–Q4) | ~early January 2027 (Mon/Wed; also Sat once the FR sounds lessons are done) | `lt-g-0032`: more Q4 — word order and emphasis, set phrases/idioms, register (formal letters), B2 exam-style mixed tasks; also consider review lessons per quarter |
 | Spanish grammar | 28 lessons (A1–A2) | ~mid-January 2027 (Tue/Fri) | `es-g-0029`: subjunctive with emotions (me alegra que), imperfect subjunctive intro (si tuviera), future perfect/pluperfect, indirect speech (dijo que…), passive se, prepositions a/en/de, diminutives |
 | Lithuanian reading | 28 texts: 18 B1 + 10 B2 (0019–0028: remote work, emigration, phones at school, ageing society, AI, housing, fake news, volunteering, solar/wind energy, language & loanwords) + own texts | B2 texts: 10 Thursdays → ~early December 2026 (then B1 as fallback) | `lt-r-0029` — **B2**, 250–350 words (next topics: healthcare, media, Baltic cooperation, culture/cinema, sport & basketball, food trends, cities & transport, education reform) |
 | Spanish reading | 2 texts (A1) | — (read on demand) | `es-r-0003` |
 | French | 10 sounds lessons (Saturdays, ~Oct–early Dec 2026) | starts April 2027: set `/new fr 5` then (not automatic) | `fr-g-0011` (optional more sounds lessons, then A1 grammar), `fr-*-0001` vocabulary; exercises are dictation cloze, examples from Tatoeba `fra` (`pnpm content:sources`) |
-| Stress marks for LT words | 0 of 1082 (`stress` field supported) | — | check each word on lkz.lt / Vikižodynas; add `stress: laĩkas` in the batch files |
+| Stress marks for LT words | 0 of 1268 (`stress` field supported) | — | check each word on lkz.lt / Vikižodynas; add `stress: laĩkas` in the batch files |
 
 **Resuming in a new session:** read `CLAUDE.md` (repo root) first — commands, structure, content rules, and lessons learned.
 Then this table, `git branch -a` (unmerged `feat/*`, `content/*`, `grammar/*`, `reading/*` branches), and `gh run list -L 3`.
