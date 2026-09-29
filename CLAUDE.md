@@ -42,6 +42,7 @@ pnpm content:sources  # download frequency lists + Tatoeba into .cache/ (once)
 pnpm content:candidates lt <fromRank> <count>
 python3 scripts/batch-to-yaml.py scripts/batches/<file>.py <lang> <firstId> content/<lang>/vocab/<file>.yaml
 pnpm content:audio    # needs .cache/venv with edge-tts (docs/SETUP.md "Audio"); run AFTER merging content
+python3 scripts/tatoeba.py lt 'regex'   # find Tatoeba examples (also es/fr; --words w1 w2 to auto-pick per word)
 pnpm content:stress   # LT stress marks from Wiktionary → content/lt/stress.yaml (cached, ~1 req/s); run after new LT words
 pnpm content:reports  # open "report a mistake" entries from the live DB
 pnpm llm:eval         # compare AI models on learner mistakes (real API calls, keys from apps/worker/.dev.vars)
@@ -54,6 +55,14 @@ pnpm setup:telegram   # re-run after adding/changing bot commands (updates the c
 - The repo and its Actions logs are **public**: never log or commit personal texts, tokens or `.dev.vars`. Don't run anything that
   sends the learner's practice texts through GitHub Actions.
 - Git author `Pavel Rumiantsau <p.rumiantsau@gmail.com>`; commit messages end with the co-author line from the session instructions.
+
+## Lessons learned (content sessions, Sep 2026)
+- Current state and the next steps are in `docs/PLAN.md` → "Status" (content table + "Next steps" + "How content is made").
+- LT stress marks live in `content/lt/stress.yaml` (merged at build); smoke checks compare bot text with `plain()` (accents stripped).
+- Wiktionary: use the batched API (50 titles per request) — one-page-per-request gets rate-limited to a crawl.
+- Gate pushes on `pnpm smoke`'s exit code. Commit only the files of the batch you made (`git add <paths>`), not `-A`, when other
+  work is in progress.
+- The learner finds B1 texts too easy: new Lithuanian reading is B2; the app picks levels from the learner's easy/hard ratings.
 
 ## Working with sub-agents (lessons learned)
 - **Run at most 1–2 agents in parallel.** Five at once hit the session usage limit together and lost unsaved work.

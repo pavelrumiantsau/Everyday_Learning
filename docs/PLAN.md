@@ -41,6 +41,21 @@
 | French | 10 sounds lessons (Saturdays, ~Oct–early Dec 2026) | starts April 2027: set `/new fr 5` then (not automatic) | `fr-g-0011` (optional more sounds lessons, then A1 grammar), `fr-*-0001` vocabulary; exercises are dictation cloze, examples from Tatoeba `fra` (`pnpm content:sources`) |
 | Stress marks for LT words | 783 of 1582 (`content/lt/stress.yaml`, from English Wiktionary via `pnpm content:stress`; merged at build) | — | ~800 words have no Wiktionary entry (`.cache/stress-skipped.txt` after a run): add by hand from lkz.lt / Vikižodynas; re-run `pnpm content:stress` after each new LT batch |
 
+**Next steps (in order, as of 2026-09-29):** Lithuanian grammar `lt-g-0044+` and Spanish grammar `es-g-0037+` (first to run out,
+Feb 2027) → more LT B2 reading `lt-r-0042+` → LT vocabulary `lt-*-1639` → ES vocabulary `es-*-0857` → stress marks for the ~800 LT
+words Wiktionary doesn't cover (lkz.lt) → French A1 from `fr-g-0011` / `fr-*-0001` before April 2027. The learner asked for harder
+Lithuanian reading (B2) — keep new LT texts at B2.
+
+**How content is made (workflow that worked in Sep 2026):**
+- *Examples:* `python3 scripts/tatoeba.py <lt|es|fr> '<regex>'` or `--words w1 w2 …` (auto-pick 2 per stem) → read every pair, drop
+  mismatches (the stem search often hits a different word) → put the id in the batch/lesson; never write examples yourself.
+- *Vocabulary:* `pnpm content:candidates` → pick lemmas (skip names, violence, words already in `content/<lang>` — `content:validate`
+  rejects duplicates) → batch file in `scripts/batches/` → `batch-to-yaml.py` → validate → (LT) `pnpm content:stress` → `pnpm content:audio`.
+- *Grammar lessons and reading texts:* written as data in a small script or by hand as YAML (format: existing files); lessons 3–5 examples
+  + 6–8 cloze exercises; texts: B2 = aim for 250–350 words — drafts consistently come out ~20% shorter than planned, so count
+  (`content:validate` enforces the range) and add a paragraph if needed.
+- *Before every push:* `pnpm test` and `pnpm smoke`; push only if smoke **exits 0** (don't rely on grepping its output).
+
 **Resuming in a new session:** read `CLAUDE.md` (repo root) first — commands, structure, content rules, and lessons learned.
 Then this table, `git branch -a` (unmerged `feat/*`, `content/*`, `grammar/*`, `reading/*` branches), and `gh run list -L 3`.
 Every push to `main` that passes CI is deployed automatically.
