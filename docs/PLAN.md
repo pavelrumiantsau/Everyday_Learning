@@ -33,7 +33,7 @@
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
 | Lithuanian vocabulary | 1799 words (A2–B2, frequency ranks ≤ ~35,000) | ~late March 2027 (10/day; later if placement skips known words) | `lt-*-1856`, candidates `lt 29000 6000` partly used (lemmas with good Tatoeba examples up to ~rank 35,000 are taken; the rest need `--words` searches) — or `lt 35000 6000`; recipe `prompts/content/lt-vocab.md` |
-| Spanish vocabulary | 856 items (A1–B1) | ~late March 2027 (5/day) | `es-*-0857`, `pnpm content:candidates es 5350 1500`; recipe `prompts/content/es-vocab.md` |
+| Spanish vocabulary | 1128 items (A1–B1) | ~late May 2027 (5/day) | `es-*-1129`, `pnpm content:candidates es 6850 1500` (ranks 5350–6850 mostly used; the frequency list is from subtitles, so also check basic words it ranks low — months, food, household); recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 47 lessons (Q1–Q4 + B1/B2 gap-fillers incl. numerals with nouns, causative pairs, word order, reflexive -si, argument connectors, Russianisms, participle phrases, formal e-mail phrases, idioms 2, tense/mood review) | ~mid-February 2027 (Mon/Wed; also Sat once the FR sounds lessons are done) | `lt-g-0048`: more review lessons (cases, participles), register (spoken vs written), B2 exam-style mixed tasks, word formation (-ystė, -umas, -imas, -tojas) |
 | Spanish grammar | 42 lessons (A1–B1 incl. future/conditional perfect, subjunctive in relative clauses, connectors, pronoun placement, ser/estar meaning pairs, false friends) | ~early March 2027 (Tue/Fri; Fri alternates with FR from April) | `es-g-0043`: por vs para review (B1), subjunctive after opinion verbs (no creo que…), passive with ser, lo + adjective (lo bueno es que…), gerund uses (seguir/llevar + gerund), ojalá, relative el que / lo cual |
 | Lithuanian reading | 45 texts: 18 B1 + 27 B2 (0019–0045: society, history, culture, nature, Klaipėda, students, weather, shopping habits — see files) + own texts | B2 texts: 27 Thursdays → ~early April 2027 (then B1 as fallback) | `lt-r-0046` — **B2**, ~250–350 words (next: cinema/literature, sport beyond basketball, Kaunas (interwar capital, modernism), forests & mushroom picking, Lithuanian abroad today (diaspora communities), public health / e-health habits, Lithuanian music scene) |
@@ -42,7 +42,7 @@
 | Stress marks for LT words | 850 of 1799 (`content/lt/stress.yaml`, from English Wiktionary via `pnpm content:stress`; merged at build) | — | ~950 words have no Wiktionary entry (`.cache/stress-skipped.txt` after a run): add by hand from lkz.lt / Vikižodynas; re-run `pnpm content:stress` after each new LT batch |
 
 **Next steps (in order, as of 2026-09-29):** Lithuanian grammar `lt-g-0048+` and Spanish grammar `es-g-0043+` (first to run out,
-Feb–Mar 2027) → more LT B2 reading `lt-r-0046+` → LT vocabulary `lt-*-1856` → ES vocabulary `es-*-0857` → stress marks for the ~800 LT
+Feb–Mar 2027) → more LT B2 reading `lt-r-0046+` → LT vocabulary `lt-*-1856` → ES vocabulary `es-*-1129` → stress marks for the ~800 LT
 words Wiktionary doesn't cover (lkz.lt) → French A1 from `fr-g-0011` / `fr-*-0001` before April 2027. The learner asked for harder
 Lithuanian reading (B2) — keep new LT texts at B2.
 
