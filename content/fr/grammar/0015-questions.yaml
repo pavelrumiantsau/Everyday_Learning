@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0015
+cefr: A1
+order: 105
+title: "Questions: est-ce que, intonation, inversion"
+explanation:
+  en: |
+    Three ways to ask a yes/no question:
+
+    - **intonation** (spoken, most common): *Tu parles français ?* — rising voice
+    - **est-ce que** + normal word order (neutral): ***Est-ce que** tu parles français ?*
+    - **inversion** (formal, written): *Parles-**tu** français ?* *Parlez-**vous** anglais ?* — with *il/elle* after a vowel add **-t-**: *Parle-**t**-il français ?*
+
+    **Question words:** *où* (where), *quand* (when), *comment* (how), *pourquoi* (why), *combien* (how much), *qui* (who), *que / qu'est-ce que* (what), *quel, quelle* (which, what + noun).
+    - *Où habites-tu ?* = *Où est-ce que tu habites ?* = (informal) *Tu habites où ?*
+    - ***Qu'est-ce que** tu fais ?* — what are you doing?
+    - ***Quel** âge as-tu ?* ***Quelle** heure est-il ?*
+
+    In French writing there is a space before **?** and **!**.
+comparison:
+  en: |
+    Spanish marks a question with intonation and ¿…?; French adds *est-ce que* or inversion. *¿Qué haces?* = *Qu'est-ce que tu fais ?*; *¿Dónde vives?* = *Où habites-tu ?* (inversion) or *Tu habites où ?* (spoken).
+examples:
+  - { text: "Est-ce que tu sors ?", translation: "Are you going out?", source: "tatoeba:6631004" }
+  - { text: "Tu parles français ?", translation: "Do you speak French?", source: "tatoeba:7281436" }
+  - { text: "Parlez-vous anglais ?", translation: "Do you speak English?", source: "tatoeba:9311" }
+  - { text: "Qu'est-ce que tu fais ?", translation: "What are you doing?", source: "tatoeba:3093" }
+  - { text: "Où habites-tu ?", translation: "Where do you live?", source: "tatoeba:6145" }
+exercises:
+  - type: cloze
+    text: "___-ce que tu parles anglais ?"
+    answer: "Est"
+    hint: "___-ce que"
+    translation: "Do you speak English?"
+  - type: cloze
+    text: "Qu'est-ce ___ tu fais ?"
+    answer: "que"
+    hint: "qu'est-ce ___"
+    translation: "What are you doing?"
+  - type: cloze
+    text: "___ habites-tu ?"
+    answer: "Où"
+    hint: "where"
+    translation: "Where do you live?"
+  - type: cloze
+    text: "___ âge as-tu ?"
+    answer: "Quel"
+    hint: "which / what + masculine noun"
+    translation: "How old are you?"
+  - type: cloze
+    text: "___ ça coûte ?"
+    answer: "Combien"
+    hint: "how much"
+    translation: "How much does it cost?"
+  - type: cloze
+    text: "___ vas-tu ?"
+    answer: "Comment"
+    hint: "how"
+    translation: "How are you?"
+  - type: cloze
+    text: "___ tu pleures ?"
+    answer: "Pourquoi"
+    hint: "why"
+    translation: "Why are you crying?"
+  - type: cloze
+    text: "Parle-___-il français ?"
+    answer: "t"
+    hint: "linking letter in inversion"
+    translation: "Does he speak French?"

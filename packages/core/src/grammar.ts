@@ -9,6 +9,9 @@ export const GRAMMAR_ROTATION: readonly (Lang | null)[] = [null, "lt", "es", "lt
 /** French proper starts here (PLAN §3.5); before it, Saturdays carry the French sounds track. */
 export const FR_START = "2027-04-01";
 
+/** French lessons with `order` up to this are the sounds track; higher ones (A1 grammar, order 101+) wait for FR_START. */
+export const FR_SOUNDS_MAX_ORDER = 99;
+
 /**
  * Candidate languages for the rule of a local calendar day ("2026-09-28"), in order of preference: the first one
  * that still has a lesson left wins. Empty on Thursday and Sunday.
@@ -31,11 +34,17 @@ export function grammarLangForDay(day: string): Lang | null {
   return grammarLangsForDay(day)[0] ?? null;
 }
 
-/** The first lesson of `lang` (by `order`) that isn't done yet. */
-export function pickLesson<L extends { id: string; order: number }>(lessons: readonly L[], lang: Lang, done: ReadonlySet<string>): L | null {
+/** The first lesson of `lang` (by `order`) that isn't done yet. With `day`, French grammar waits for FR_START. */
+export function pickLesson<L extends { id: string; order: number }>(
+  lessons: readonly L[],
+  lang: Lang,
+  done: ReadonlySet<string>,
+  day?: string,
+): L | null {
+  const frHeld = day !== undefined && lang === "fr" && day < FR_START;
   return (
     lessons
-      .filter((l) => l.id.startsWith(`${lang}-`) && !done.has(l.id))
+      .filter((l) => l.id.startsWith(`${lang}-`) && !done.has(l.id) && !(frHeld && l.order > FR_SOUNDS_MAX_ORDER))
       .sort((a, b) => a.order - b.order)[0] ?? null
   );
 }

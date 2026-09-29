@@ -78,6 +78,15 @@ describe("lesson choice", () => {
     expect(pickLesson(ls, "es", new Set())?.id).toBe("es-g-0001");
     expect(pickLesson(ls, "lt", new Set(["lt-g-0001", "lt-g-0002"]))).toBeNull();
   });
+  it("keeps French grammar (order > 99) for April 2027; the sounds track runs before", () => {
+    const fr = [
+      { id: "fr-g-0010", order: 10 },
+      { id: "fr-g-0011", order: 101 },
+    ];
+    expect(pickLesson(fr, "fr", new Set(), "2026-10-03")?.id).toBe("fr-g-0010");
+    expect(pickLesson(fr, "fr", new Set(["fr-g-0010"]), "2027-03-27")).toBeNull(); // Saturday falls back to LT
+    expect(pickLesson(fr, "fr", new Set(["fr-g-0010"]), "2027-04-02")?.id).toBe("fr-g-0011");
+  });
 });
 
 describe("cloze cards", () => {

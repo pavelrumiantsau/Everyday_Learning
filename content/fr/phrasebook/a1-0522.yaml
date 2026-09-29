@@ -1,0 +1,77 @@
+# French survival phrases (PLAN §3.5). Text: Tatoeba sentences copied verbatim (id at the end of each line); meanings and
+# notes in English, written with Claude Code. Phrases sort before vocab/, so they are the first French cards (from April 2027).
+- { id: fr-p-0522, type: phrase, cefr: A1, text: "Comment t'appelles-tu ?", meaning: { en: "What's your name? (informal)" }, note: { en: "informal; formal: Comment vous appelez-vous ?" } }  # tatoeba:451070
+- { id: fr-p-0523, type: phrase, cefr: A1, text: "Je m'appelle Tom.", meaning: { en: "My name is Tom." }, note: { en: "je m'appelle = I am called (s'appeler)" } }  # tatoeba:3138573
+- { id: fr-p-0524, type: phrase, cefr: A1, text: "Enchanté.", meaning: { en: "Nice to meet you. (said by a man)" }, note: { en: "a woman writes Enchantée (same sound)" } }  # tatoeba:590113
+- { id: fr-p-0525, type: phrase, cefr: A1, text: "Comment allez-vous ?", meaning: { en: "How are you? (formal)" }, note: { en: "informal: Ça va ? / Comment vas-tu ?" } }  # tatoeba:11578
+- { id: fr-p-0526, type: phrase, cefr: A1, text: "Ça va ?", meaning: { en: "How are you? / All right?" }, note: { en: "answer: Ça va (bien), merci." } }  # tatoeba:14970
+- { id: fr-p-0527, type: phrase, cefr: A1, text: "Je vais bien, merci.", meaning: { en: "I'm fine, thanks." } }  # tatoeba:180276
+- { id: fr-p-0528, type: phrase, cefr: A1, text: "Très bien, merci.", meaning: { en: "Very well, thanks." } }  # tatoeba:474071
+- { id: fr-p-0529, type: phrase, cefr: A1, text: "Et vous ?", meaning: { en: "And you? (formal)" }, note: { en: "informal: Et toi ?" } }  # tatoeba:8973
+- { id: fr-p-0530, type: phrase, cefr: A1, text: "S'il vous plaît.", meaning: { en: "Please. (formal)" }, note: { en: "informal: s'il te plaît" } }  # tatoeba:487759
+- { id: fr-p-0531, type: phrase, cefr: A1, text: "Merci beaucoup.", meaning: { en: "Thank you very much." } }  # tatoeba:3594330
+- { id: fr-p-0532, type: phrase, cefr: A1, text: "De rien.", meaning: { en: "You're welcome." }, note: { en: "also: Il n'y a pas de quoi." } }  # tatoeba:397490
+- { id: fr-p-0533, type: phrase, cefr: A1, text: "Il n'y a pas de quoi.", meaning: { en: "Don't mention it." } }  # tatoeba:1609111
+- { id: fr-p-0534, type: phrase, cefr: A1, text: "Excusez-moi.", meaning: { en: "Excuse me. / Sorry." } }  # tatoeba:499087
+- { id: fr-p-0535, type: phrase, cefr: A1, text: "Je ne comprends pas.", meaning: { en: "I don't understand." } }  # tatoeba:3528
+- { id: fr-p-0536, type: phrase, cefr: A1, text: "Je ne comprends pas le français.", meaning: { en: "I don't understand French." } }  # tatoeba:6463307
+- { id: fr-p-0537, type: phrase, cefr: A1, text: "Parlez plus lentement, s'il vous plaît.", meaning: { en: "Please speak more slowly." } }  # tatoeba:753470
+- { id: fr-p-0538, type: phrase, cefr: A1, text: "Parlez-vous anglais ?", meaning: { en: "Do you speak English?" }, note: { en: "informal: Tu parles anglais ?" } }  # tatoeba:9311
+- { id: fr-p-0539, type: phrase, cefr: A1, text: "Tu parles français ?", meaning: { en: "Do you speak French? (informal)" } }  # tatoeba:7281436
+- { id: fr-p-0540, type: phrase, cefr: A1, text: "Je ne parle pas français.", meaning: { en: "I don't speak French." }, note: { en: "negation wraps the verb: ne … pas" } }  # tatoeba:2691259
+- { id: fr-p-0541, type: phrase, cefr: A1, text: "Je parle un peu français.", meaning: { en: "I speak a little French." } }  # tatoeba:6454495
+- { id: fr-p-0542, type: phrase, cefr: A1, text: "Que veut dire ce mot ?", meaning: { en: "What does this word mean?" } }  # tatoeba:8865092
+- { id: fr-p-0543, type: phrase, cefr: A1, text: "Qu'est-ce que ça veut dire ?", meaning: { en: "What does that mean?" } }  # tatoeba:2224260
+- { id: fr-p-0544, type: phrase, cefr: A1, text: "Comment ça s'écrit ?", meaning: { en: "How do you spell that?" } }  # tatoeba:12611806
+- { id: fr-p-0545, type: phrase, cefr: A1, text: "Qu'est-ce que c'est ?", meaning: { en: "What is it? / What's this?" } }  # tatoeba:3094
+- { id: fr-p-0546, type: phrase, cefr: A1, text: "Combien ça coûte ?", meaning: { en: "How much is it?" } }  # tatoeba:439117
+- { id: fr-p-0547, type: phrase, cefr: A1, text: "C'est trop cher.", meaning: { en: "It's too expensive." } }  # tatoeba:12361
+- { id: fr-p-0548, type: phrase, cefr: A1, text: "Un café, s'il vous plaît.", meaning: { en: "A coffee, please." } }  # tatoeba:8982406
+- { id: fr-p-0549, type: phrase, cefr: A1, text: "Je voudrais de l’eau.", meaning: { en: "I'd like some water." }, note: { en: "je voudrais = I would like (polite; from vouloir)" } }  # tatoeba:10705554
+- { id: fr-p-0550, type: phrase, cefr: A1, text: "L'addition, s'il vous plaît.", meaning: { en: "The bill, please." } }  # tatoeba:3257954
+- { id: fr-p-0551, type: phrase, cefr: A1, text: "Une table pour deux, s'il vous plaît.", meaning: { en: "A table for two, please." } }  # tatoeba:13360564
+- { id: fr-p-0552, type: phrase, cefr: A1, text: "Bon appétit !", meaning: { en: "Enjoy your meal!" }, note: { en: "said before eating" } }  # tatoeba:4246
+- { id: fr-p-0553, type: phrase, cefr: A1, text: "Santé !", meaning: { en: "Cheers!" }, note: { en: "also: À votre santé !" } }  # tatoeba:9385
+- { id: fr-p-0554, type: phrase, cefr: A1, text: "Je suis végétarien.", meaning: { en: "I'm vegetarian. (said by a man)" }, note: { en: "végétarienne (f)" } }  # tatoeba:367938
+- { id: fr-p-0555, type: phrase, cefr: A1, text: "Où sont les toilettes ?", meaning: { en: "Where are the toilets?" } }  # tatoeba:3946
+- { id: fr-p-0556, type: phrase, cefr: A1, text: "Où est la gare ?", meaning: { en: "Where is the station?" } }  # tatoeba:136614
+- { id: fr-p-0557, type: phrase, cefr: A1, text: "Où est l’arrêt de bus ?", meaning: { en: "Where is the bus stop?" } }  # tatoeba:10144611
+- { id: fr-p-0558, type: phrase, cefr: A1, text: "Je suis perdu.", meaning: { en: "I'm lost. (said by a man)" }, note: { en: "perdue (f)" } }  # tatoeba:901846
+- { id: fr-p-0559, type: phrase, cefr: A1, text: "À quelle heure ?", meaning: { en: "At what time?" } }  # tatoeba:2703133
+- { id: fr-p-0560, type: phrase, cefr: A1, text: "Quel temps fait-il ?", meaning: { en: "What's the weather like?" } }  # tatoeba:3256362
+- { id: fr-p-0561, type: phrase, cefr: A1, text: "Il fait beau.", meaning: { en: "The weather is nice." }, note: { en: "il fait + adjective for weather: il fait froid, chaud" } }  # tatoeba:542198
+- { id: fr-p-0562, type: phrase, cefr: A1, text: "D'où viens-tu ?", meaning: { en: "Where are you from? (informal)" }, note: { en: "formal: D'où venez-vous ?" } }  # tatoeba:4167
+- { id: fr-p-0563, type: phrase, cefr: A1, text: "Où habites-tu ?", meaning: { en: "Where do you live? (informal)" } }  # tatoeba:6145
+- { id: fr-p-0564, type: phrase, cefr: A1, text: "Quel âge as-tu ?", meaning: { en: "How old are you? (informal)" }, note: { en: "answer: J'ai … ans (avoir, not être!)" } }  # tatoeba:3494
+- { id: fr-p-0565, type: phrase, cefr: A1, text: "Je suis étranger.", meaning: { en: "I'm a foreigner. (said by a man)" }, note: { en: "étrangère (f)" } }  # tatoeba:750818
+- { id: fr-p-0566, type: phrase, cefr: A1, text: "Je ne sais pas.", meaning: { en: "I don't know." } }  # tatoeba:3100
+- { id: fr-p-0567, type: phrase, cefr: A1, text: "D'accord.", meaning: { en: "OK." } }  # tatoeba:395588
+- { id: fr-p-0568, type: phrase, cefr: A1, text: "Je suis d'accord.", meaning: { en: "I agree." } }  # tatoeba:378278
+- { id: fr-p-0569, type: phrase, cefr: A1, text: "Tu as raison.", meaning: { en: "You're right." }, note: { en: "avoir raison = to be right" } }  # tatoeba:3640
+- { id: fr-p-0570, type: phrase, cefr: A1, text: "Bien sûr.", meaning: { en: "Of course." } }  # tatoeba:897511
+- { id: fr-p-0571, type: phrase, cefr: A1, text: "Ça dépend.", meaning: { en: "It depends." } }  # tatoeba:924944
+- { id: fr-p-0572, type: phrase, cefr: A1, text: "Ce n'est pas grave.", meaning: { en: "It doesn't matter. / No problem." } }  # tatoeba:333722
+- { id: fr-p-0573, type: phrase, cefr: A1, text: "Ça ne fait rien.", meaning: { en: "Never mind." } }  # tatoeba:373915
+- { id: fr-p-0574, type: phrase, cefr: A1, text: "Pas de souci.", meaning: { en: "No worries." } }  # tatoeba:9952820
+- { id: fr-p-0575, type: phrase, cefr: A1, text: "Avec plaisir.", meaning: { en: "With pleasure." } }  # tatoeba:885427
+- { id: fr-p-0576, type: phrase, cefr: A1, text: "Qu'est-ce qui se passe ?", meaning: { en: "What's going on?" } }  # tatoeba:431615
+- { id: fr-p-0577, type: phrase, cefr: A1, text: "Je suis en retard.", meaning: { en: "I'm late." } }  # tatoeba:4678896
+- { id: fr-p-0578, type: phrase, cefr: A1, text: "Je ne me sens pas bien.", meaning: { en: "I don't feel well." } }  # tatoeba:3537
+- { id: fr-p-0579, type: phrase, cefr: A1, text: "Je suis malade.", meaning: { en: "I'm ill." } }  # tatoeba:459031
+- { id: fr-p-0580, type: phrase, cefr: A1, text: "Appelle un médecin !", meaning: { en: "Call a doctor!" } }  # tatoeba:4625941
+- { id: fr-p-0581, type: phrase, cefr: A1, text: "Au secours !", meaning: { en: "Help!" } }  # tatoeba:7829103
+- { id: fr-p-0582, type: phrase, cefr: A1, text: "Attention !", meaning: { en: "Watch out!" } }  # tatoeba:14218
+- { id: fr-p-0583, type: phrase, cefr: A1, text: "Un instant, s'il vous plaît.", meaning: { en: "Just a moment, please." } }  # tatoeba:6044995
+- { id: fr-p-0584, type: phrase, cefr: A1, text: "Je reviens tout de suite.", meaning: { en: "I'll be right back." } }  # tatoeba:530392
+- { id: fr-p-0585, type: phrase, cefr: A1, text: "Allons-y !", meaning: { en: "Let's go!" } }  # tatoeba:139646
+- { id: fr-p-0586, type: phrase, cefr: A1, text: "À bientôt !", meaning: { en: "See you soon!" } }  # tatoeba:337862
+- { id: fr-p-0587, type: phrase, cefr: A1, text: "À tout à l'heure !", meaning: { en: "See you later! (today)" } }  # tatoeba:829076
+- { id: fr-p-0588, type: phrase, cefr: A1, text: "À demain !", meaning: { en: "See you tomorrow!" } }  # tatoeba:1108688
+- { id: fr-p-0589, type: phrase, cefr: A1, text: "Au revoir !", meaning: { en: "Goodbye!" } }  # tatoeba:13436
+- { id: fr-p-0590, type: phrase, cefr: A1, text: "Bonne nuit.", meaning: { en: "Good night." } }  # tatoeba:2507856
+- { id: fr-p-0591, type: phrase, cefr: A1, text: "Bonne soirée.", meaning: { en: "Have a nice evening." } }  # tatoeba:10968777
+- { id: fr-p-0592, type: phrase, cefr: A1, text: "Bon week-end !", meaning: { en: "Have a nice weekend!" } }  # tatoeba:4626068
+- { id: fr-p-0593, type: phrase, cefr: A1, text: "Bon voyage !", meaning: { en: "Have a good trip!" } }  # tatoeba:435206
+- { id: fr-p-0594, type: phrase, cefr: A1, text: "Bonne chance !", meaning: { en: "Good luck!" } }  # tatoeba:8744
+- { id: fr-p-0595, type: phrase, cefr: A1, text: "Félicitations !", meaning: { en: "Congratulations!" } }  # tatoeba:628277
+- { id: fr-p-0596, type: phrase, cefr: A1, text: "Joyeux anniversaire !", meaning: { en: "Happy birthday!" } }  # tatoeba:530346

@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0013
+cefr: A1
+order: 103
+title: "Present tense of -er verbs: je parle, nous parlons"
+explanation:
+  en: |
+    Most French verbs end in **-er** and follow one pattern. Take the stem (*parl-*) and add:
+
+    - je parl**e**, tu parl**es**, il/elle/on parl**e**, nous parl**ons**, vous parl**ez**, ils/elles parl**ent**
+
+    **Pronunciation:** *parle, parles, parlent* all sound the same [paʁl] — the endings *-e, -es, -ent* are silent. Only *-ons* and *-ez* are heard. That's why the pronoun is always needed.
+
+    Before a vowel *je → j'*: *j'aime, j'habite, j'adore*.
+
+    Small spelling changes keep the sound: *manger → nous mang**e**ons*, *commencer → nous commen**ç**ons*; some verbs change the stem vowel: *acheter → j'ach**è**te*, *préférer → je préf**è**re*, *appeler → j'appe**ll**e*.
+
+    Present tense = English "I speak" **and** "I am speaking": *Je parle.*
+comparison:
+  en: |
+    In Spanish every ending sounds different (*hablo, hablas, habla, hablan*), so the pronoun is often dropped. In French three of the six forms sound the same, so the pronoun is **never** dropped: *je parle*, not ~~parle~~.
+examples:
+  - { text: "Il parle vite.", translation: "He speaks quickly.", source: "tatoeba:14512" }
+  - { text: "Nous parlons.", translation: "We speak.", source: "tatoeba:4965990" }
+  - { text: "Ils parlent.", translation: "They're talking.", source: "tatoeba:3495618" }
+  - { text: "Il habite ici.", translation: "He lives here.", source: "tatoeba:8933584" }
+  - { text: "J'aime danser.", translation: "I like dancing.", source: "tatoeba:6463342" }
+exercises:
+  - type: cloze
+    text: "Je ___ français."
+    answer: "parle"
+    hint: "parler, je"
+    translation: "I speak French."
+  - type: cloze
+    text: "Tu ___ ici ?"
+    answer: "habites"
+    hint: "habiter, tu"
+    translation: "Do you live here?"
+  - type: cloze
+    text: "Nous ___ le samedi."
+    answer: "travaillons"
+    hint: "travailler, nous"
+    translation: "We work on Saturdays."
+  - type: cloze
+    text: "Vous ___ trop."
+    answer: "parlez"
+    hint: "parler, vous"
+    translation: "You talk too much."
+  - type: cloze
+    text: "Ils ___ la musique."
+    answer: "aiment"
+    hint: "aimer, ils"
+    translation: "They like music."
+  - type: cloze
+    text: "Nous ___ à midi."
+    answer: "mangeons"
+    hint: "manger, nous (keep the e)"
+    translation: "We eat at noon."
+  - type: cloze
+    text: "Elle ___ la télé."
+    answer: "regarde"
+    hint: "regarder, elle"
+    translation: "She's watching TV."
+  - type: cloze
+    text: "J'___ le chocolat."
+    answer: "adore"
+    hint: "adorer, je"
+    translation: "I love chocolate."

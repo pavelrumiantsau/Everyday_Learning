@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0012
+cefr: A1
+order: 102
+title: "Le, la, les; un, une, des: articles and gender"
+explanation:
+  en: |
+    Every French noun is **masculine or feminine** — learn the article with the word.
+
+    - **definite** (the): **le** (m) — *le livre*; **la** (f) — *la porte*; **l'** before a vowel or mute h — *l'eau, l'hôtel*; **les** (plural, both genders) — *les enfants*
+    - **indefinite** (a, some): **un** (m) — *un chat*; **une** (f) — *une idée*; **des** (plural) — *des amis*
+    - French uses the definite article for things in general: *J'aime **le** fromage.* — I like cheese.
+
+    **à** and **de** merge with *le* and *les*: *à + le = **au*** (*au marché*), *à + les = **aux***; *de + le = **du*** (*le livre du professeur*), *de + les = **des***. With *la* and *l'* nothing changes: *à la gare, de l'école*.
+
+    Clues for gender: *-tion, -té, -ette, -ure* are usually feminine (*la question, la vérité*); *-age, -ment, -eau* usually masculine (*le fromage, le moment, le bateau*) — with exceptions: *la plage, l'eau (f)*.
+
+    The plural *-s* is silent: *le livre / les livres* sound different only in the article.
+comparison:
+  en: |
+    Like Spanish *el/la/un/una*, but the plural is **les / des** for both genders (ES *los/las, unos/unas*). Many genders differ from Spanish: *le lait* (la leche), *la mer* (el mar), *le sel* (la sal), *la voiture* (el coche). And French says *j'aime **le** fromage* where Spanish also uses the article (*me gusta el queso*) — English doesn't.
+examples:
+  - { text: "J'ai un chat.", translation: "I have a cat.", source: "tatoeba:2792451" }
+  - { text: "J'ai une idée.", translation: "I have an idea.", source: "tatoeba:7916" }
+  - { text: "Ouvre la porte.", translation: "Open the door.", source: "tatoeba:1216901" }
+  - { text: "J'aime le fromage.", translation: "I like cheese.", source: "tatoeba:8352732" }
+  - { text: "Lave les légumes.", translation: "Wash the vegetables.", source: "tatoeba:8701752" }
+exercises:
+  - type: cloze
+    text: "J'ai ___ chat."
+    answer: "un"
+    hint: "a (m)"
+    translation: "I have a cat."
+  - type: cloze
+    text: "C'est ___ bonne idée."
+    answer: "une"
+    hint: "a (f)"
+    translation: "It's a good idea."
+  - type: cloze
+    text: "Ouvre ___ porte."
+    answer: "la"
+    hint: "the (f)"
+    translation: "Open the door."
+  - type: cloze
+    text: "J'aime ___ fromage."
+    answer: "le"
+    hint: "the (m) — things in general"
+    translation: "I like cheese."
+  - type: cloze
+    text: "Lave ___ légumes."
+    answer: "les"
+    hint: "the (plural)"
+    translation: "Wash the vegetables."
+  - type: cloze
+    text: "Je vais ___ marché."
+    answer: "au"
+    hint: "à + le"
+    translation: "I'm going to the market."
+  - type: cloze
+    text: "Il a ___ amis à Paris."
+    answer: "des"
+    hint: "some (plural)"
+    translation: "He has friends in Paris."
+  - type: cloze
+    text: "C'est le livre ___ professeur."
+    answer: "du"
+    hint: "de + le"
+    translation: "It's the teacher's book."

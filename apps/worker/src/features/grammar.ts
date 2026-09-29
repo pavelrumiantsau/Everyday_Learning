@@ -45,7 +45,7 @@ export async function todayLesson(d1: D1Database, now: Date, anyDay = false): Pr
   if (!langs.length && anyDay) langs.push("lt");
   if (!langs.length) return { day, lesson: null };
   const done = await doneLessonIds(d1);
-  const lesson = langs.map((lang) => pickLesson(LESSONS, lang, done)).find((l) => l) ?? null;
+  const lesson = langs.map((lang) => pickLesson(LESSONS, lang, done, day)).find((l) => l) ?? null;
   if (!lesson) return { day, lesson: null };
   await d1.prepare("INSERT OR IGNORE INTO grammar_day (day, lesson_id) VALUES (?, ?)").bind(day, lesson.id).run();
   const id = await dayLessonId(d1, day); // another request may have picked first

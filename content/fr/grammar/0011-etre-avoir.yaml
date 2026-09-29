@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0011
+cefr: A1
+order: 101
+title: "Être and avoir: je suis, j'ai"
+explanation:
+  en: |
+    The two most important verbs — learn them by heart:
+
+    - **être** (to be): je **suis**, tu **es**, il/elle/on **est**, nous **sommes**, vous **êtes**, ils/elles **sont**
+    - **avoir** (to have): j'**ai**, tu **as**, il/elle/on **a**, nous **avons**, vous **avez**, ils/elles **ont**
+
+    **être** — what or where something is: *Je suis fatigué.* *Il est médecin.* (no article with jobs) *Nous sommes à Paris.*
+
+    **avoir** — to have, and in many set phrases where English uses "to be":
+    - age: *J'**ai** trente ans.* — I'm thirty
+    - *avoir faim / soif / froid / chaud / peur* — to be hungry / thirsty / cold / hot / afraid
+    - *avoir raison / tort* — to be right / wrong; *avoir besoin de* — to need
+
+    *je* becomes **j'** before a vowel: *j'ai*, *j'aime*.
+comparison:
+  en: |
+    Spanish has two verbs for "to be" (ser, estar) — French has only **être**. The *avoir* phrases match Spanish *tener*: *tengo hambre* = *j'ai faim*, *tengo 30 años* = *j'ai 30 ans*, *tengo razón* = *j'ai raison*.
+examples:
+  - { text: "Je suis prêt.", translation: "I'm ready.", source: "tatoeba:6705" }
+  - { text: "Tu es en retard.", translation: "You're late.", source: "tatoeba:1407088" }
+  - { text: "J'ai faim !", translation: "I'm hungry!", source: "tatoeba:10146" }
+  - { text: "Il a sept ans.", translation: "He's seven years old.", source: "tatoeba:8030897" }
+  - { text: "Nous sommes jeudi.", translation: "It's Thursday.", source: "tatoeba:1153593" }
+exercises:
+  - type: cloze
+    text: "Je ___ fatigué."
+    answer: "suis"
+    hint: "être, je"
+    translation: "I'm tired."
+  - type: cloze
+    text: "Nous ___ en retard."
+    answer: "sommes"
+    hint: "être, nous"
+    translation: "We're late."
+  - type: cloze
+    text: "Vous ___ médecin ?"
+    answer: "êtes"
+    hint: "être, vous"
+    translation: "Are you a doctor?"
+  - type: cloze
+    text: "Ils ___ deux enfants."
+    answer: "ont"
+    hint: "avoir, ils"
+    translation: "They have two children."
+  - type: cloze
+    text: "J'___ faim."
+    answer: "ai"
+    hint: "avoir, je"
+    translation: "I'm hungry."
+  - type: cloze
+    text: "Tu ___ quel âge ?"
+    answer: "as"
+    hint: "avoir, tu (age uses avoir)"
+    translation: "How old are you?"
+  - type: cloze
+    text: "Elle ___ vingt ans."
+    answer: "a"
+    hint: "avoir, elle"
+    translation: "She's twenty."
+  - type: cloze
+    text: "Il ___ très gentil."
+    answer: "est"
+    hint: "être, il"
+    translation: "He's very kind."

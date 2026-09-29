@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0014
+cefr: A1
+order: 104
+title: "Negation: ne … pas, ne … jamais, pas de"
+explanation:
+  en: |
+    French negation has **two parts** around the conjugated verb: **ne … pas**.
+
+    - *Je **ne** comprends **pas**.* — *ne* becomes **n'** before a vowel: *Je **n'**aime **pas** ça.*
+    - with *aller* + infinitive, around *aller*: *Je **ne** vais **pas** partir.*
+
+    Other pairs work the same way:
+    - **ne … jamais** — never: *Il ne mange jamais de viande.*
+    - **ne … rien** — nothing: *Je ne vois rien.*
+    - **ne … plus** — not any more: *Tu ne travailles plus ici ?*
+    - **ne … personne** — nobody: *Je ne connais personne.*
+
+    After a negative, **un, une, des, du, de la → de (d')**: *J'ai **un** chat → Je n'ai pas **de** chat.* *Il boit **du** café → Il ne boit pas **de** café.* (But not after *être*: *Ce n'est pas **un** chat.*)
+
+    In everyday speech *ne* is often dropped: *Je sais pas.* Write it, and use it when speaking carefully.
+comparison:
+  en: |
+    Spanish puts one word before the verb (*no comprendo*); French needs both parts (*je **ne** comprends **pas***). Spanish keeps the article after negation (*no tengo un coche* / *no tengo coche*); French changes it to *de*: *je n'ai pas **de** voiture*.
+examples:
+  - { text: "Je ne comprends pas.", translation: "I don't get it.", source: "tatoeba:3528" }
+  - { text: "Je ne sais pas.", translation: "Dunno.", source: "tatoeba:3100" }
+  - { text: "Je n'ai pas d'eau.", translation: "I don't have water.", source: "tatoeba:6856732" }
+  - { text: "Il n'a pas d'amis.", translation: "He has no friends.", source: "tatoeba:1015304" }
+  - { text: "Ne mens jamais !", translation: "Never tell a lie!", source: "tatoeba:3252555" }
+exercises:
+  - type: cloze
+    text: "Je ne comprends ___."
+    answer: "pas"
+    hint: "ne … ___"
+    translation: "I don't understand."
+  - type: cloze
+    text: "Il ___ parle pas anglais."
+    answer: "ne"
+    hint: "___ … pas"
+    translation: "He doesn't speak English."
+  - type: cloze
+    text: "Je n'ai pas ___ voiture."
+    answer: "de"
+    hint: "un → ___ after a negative"
+    translation: "I don't have a car."
+  - type: cloze
+    text: "Elle ne boit pas ___ café."
+    answer: "de"
+    hint: "du → ___ after a negative"
+    translation: "She doesn't drink coffee."
+  - type: cloze
+    text: "Il ne mange ___ de viande."
+    answer: "jamais"
+    hint: "never"
+    translation: "He never eats meat."
+  - type: cloze
+    text: "Je ne vois ___."
+    answer: "rien"
+    hint: "nothing"
+    translation: "I can't see anything."
+  - type: cloze
+    text: "Tu ne travailles ___ ici ?"
+    answer: "plus"
+    hint: "not any more"
+    translation: "You don't work here any more?"
+  - type: cloze
+    text: "Ce n'est ___ grave."
+    answer: "pas"
+    hint: "it's not serious"
+    translation: "It doesn't matter."

@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0016
+cefr: A1
+order: 106
+title: "Aller: je vais à Paris, je vais manger"
+explanation:
+  en: |
+    **aller** (to go) is irregular: je **vais**, tu **vas**, il/elle/on **va**, nous **allons**, vous **allez**, ils/elles **vont**.
+
+    **1. Going somewhere:** *Je vais **à** Paris.* *Tu vas **au** cinéma ?* (à + le = au) *Nous allons **à la** plage.*
+
+    **2. The near future — aller + infinitive:** "going to do":
+    - *Je **vais manger**.* — I'm going to eat.
+    - *Il **va pleuvoir**.* — It's going to rain.
+    - negative around *aller*: *Je **ne vais pas** partir.*
+
+    It is the most common way to talk about the future in everyday French.
+
+    Also: *Comment ça va ?* / *Ça va.* — How are you? / Fine. *On y va !* — Let's go!
+comparison:
+  en: |
+    Spanish uses *ir **a*** + infinitive (*voy a comer*); French has **no preposition**: *je vais manger*, not ~~je vais à manger~~.
+examples:
+  - { text: "Il va neiger.", translation: "It is going to snow.", source: "tatoeba:1314953" }
+  - { text: "Je vais y aller.", translation: "I'm going to go.", source: "tatoeba:378541" }
+  - { text: "On va chanter.", translation: "We'll sing.", source: "tatoeba:3554862" }
+  - { text: "Tu vas perdre.", translation: "You'll lose.", source: "tatoeba:3459612" }
+  - { text: "Il va pleuvoir.", translation: "It's going to rain.", source: "tatoeba:761482" }
+exercises:
+  - type: cloze
+    text: "Je ___ au cinéma ce soir."
+    answer: "vais"
+    hint: "aller, je"
+    translation: "I'm going to the cinema tonight."
+  - type: cloze
+    text: "Tu ___ à Paris demain ?"
+    answer: "vas"
+    hint: "aller, tu"
+    translation: "Are you going to Paris tomorrow?"
+  - type: cloze
+    text: "Il ___ pleuvoir."
+    answer: "va"
+    hint: "aller, il"
+    translation: "It's going to rain."
+  - type: cloze
+    text: "Nous ___ manger au restaurant."
+    answer: "allons"
+    hint: "aller, nous"
+    translation: "We're going to eat at a restaurant."
+  - type: cloze
+    text: "Vous ___ partir quand ?"
+    answer: "allez"
+    hint: "aller, vous"
+    translation: "When are you going to leave?"
+  - type: cloze
+    text: "Ils ___ arriver à midi."
+    answer: "vont"
+    hint: "aller, ils"
+    translation: "They're going to arrive at noon."
+  - type: cloze
+    text: "Je vais ___ mon ami demain."
+    answer: "voir"
+    hint: "voir, infinitive"
+    translation: "I'm going to see my friend tomorrow."
+  - type: cloze
+    text: "Je ne vais ___ travailler demain."
+    answer: "pas"
+    hint: "negative around aller"
+    translation: "I'm not going to work tomorrow."
