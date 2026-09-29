@@ -1,0 +1,47 @@
+id: lt-r-0040
+cefr: B2
+title: "Vilniaus senamiestis"
+topic: "Старый город Вильнюса"
+source: generated
+text: |
+  Vilniaus senamiestis – vienas didžiausių išlikusių senamiesčių Rytų ir Vidurio Europoje. 1994 metais jis buvo įtrauktas į UNESCO pasaulio paveldo sąrašą. Siauros gatvelės, jaukūs kiemeliai ir dešimtys bažnyčių primena, kad šis miestas šimtmečius buvo daugelio kultūrų ir religijų susitikimo vieta.
+
+  Vilniaus istorija prasidėjo ant kalvos, kur ir šiandien stovi Gedimino pilies bokštas. Pasak legendos, kunigaikštis Gediminas susapnavo geležinį vilką, kuris staugė ant kalno. Žynys sapną išaiškino taip: čia turi būti įkurtas miestas, apie kurį sklis garsas po visą pasaulį. Nuo tada geležinis vilkas tapo vienu Vilniaus simbolių.
+
+  Senamiestyje galima pamatyti įvairių architektūros stilių – gotikos, renesanso, klasicizmo, tačiau labiausiai Vilnius garsėja baroku. Šv. Onos bažnyčia, sukurta iš raudonų plytų, atrodo tarsi nėriniai, o baroko bažnyčių bokštai matomi iš beveik bet kurios miesto vietos. Aušros vartuose saugomas stebuklingu laikomas Dievo Motinos paveikslas, prie kurio meldžiasi ir katalikai, ir stačiatikiai.
+
+  Senamiestis – ne tik muziejus po atviru dangumi. Čia gyvena žmonės, veikia kavinės, galerijos, universitetas. Vilniaus universitetas, įkurtas 1579 metais, yra vienas seniausių Vidurio ir Rytų Europoje. Jo kiemeliuose ir šiandien vyksta paskaitos, o turistai stebisi senovinėmis freskomis.
+
+  Šalia senamiesčio įsikūręs Užupis – buvęs apleistas kvartalas, kurį menininkai pavertė savotiška „respublika“ su savo konstitucija. Joje, be kita ko, parašyta, kad kiekvienas turi teisę būti laimingas, o kartais – ir nelaimingas.
+
+  Vis dėlto senamiestis turi problemų. Dėl augančių nuomos kainų ir trumpalaikės nuomos turistams dalis gyventojų išsikelia, o kai kurios gatvės vakare tampa tuščios. Todėl miesto valdžia ieško būdų, kaip išsaugoti gyvą senamiestį, o ne tik gražias dekoracijas turistų nuotraukoms.
+glossary:
+  - { word: "išlikusių", lemma: "išlikti", pos: verb, forms: { pres: "išlieka", past: "išliko" }, meaning: "сохраниться", note: "прич., род. п. мн. ч.: vienas didžiausių išlikusių — один из крупнейших сохранившихся" }
+  - { word: "kiemeliai", lemma: "kiemelis", pos: noun, gender: m, gen: "kiemelio", meaning: "дворик", note: "им. п. мн. ч." }
+  - { word: "kalvos", lemma: "kalva", pos: noun, gender: f, gen: "kalvos", meaning: "холм", note: "род. п." }
+  - { word: "kunigaikštis", lemma: "kunigaikštis", pos: noun, gender: m, gen: "kunigaikščio", meaning: "князь" }
+  - { word: "susapnavo", lemma: "susapnuoti", pos: verb, forms: { pres: "susapnuoja", past: "susapnavo" }, meaning: "увидеть во сне", note: "прош. вр." }
+  - { word: "staugė", lemma: "staugti", pos: verb, forms: { pres: "staugia", past: "staugė" }, meaning: "выть", note: "прош. вр." }
+  - { word: "Žynys", lemma: "žynys", pos: noun, gender: m, gen: "žynio", meaning: "жрец" }
+  - { word: "sklis", lemma: "sklisti", pos: verb, forms: { pres: "sklinda", past: "sklido" }, meaning: "распространяться", note: "буд. вр.: sklis garsas — пойдёт слава" }
+  - { word: "gotikos", lemma: "gotika", pos: noun, gender: f, gen: "gotikos", meaning: "готика", note: "род. п." }
+  - { word: "nėriniai", lemma: "nėriniai", pos: noun, gender: m, gen: "nėrinių", meaning: "кружево", note: "обычно мн. ч." }
+  - { word: "stačiatikiai", lemma: "stačiatikis", pos: noun, gender: m, gen: "stačiatikio", meaning: "православный", note: "им. п. мн. ч." }
+  - { word: "paskaitos", lemma: "paskaita", pos: noun, gender: f, gen: "paskaitos", meaning: "лекция", note: "им. п. мн. ч." }
+  - { word: "freskomis", lemma: "freska", pos: noun, gender: f, gen: "freskos", meaning: "фреска", note: "твор. п. мн. ч.: stebėtis freskomis — удивляться фрескам" }
+  - { word: "kvartalas", lemma: "kvartalas", pos: noun, gender: m, gen: "kvartalo", meaning: "квартал" }
+  - { word: "pavertė", lemma: "paversti", pos: verb, forms: { pres: "paverčia", past: "pavertė" }, meaning: "превратить", note: "paversti kuo — превратить во что (твор. п.)" }
+  - { word: "savotiška", lemma: "savotiškas", pos: adj, meaning: "своеобразный", note: "твор. п., ж. р." }
+  - { word: "trumpalaikės", lemma: "trumpalaikis", pos: adj, meaning: "краткосрочный", note: "род. п., ж. р." }
+  - { word: "išsikelia", lemma: "išsikelti", pos: verb, forms: { pres: "išsikelia", past: "išsikėlė" }, meaning: "выехать, переселиться" }
+  - { word: "dekoracijas", lemma: "dekoracija", pos: noun, gender: f, gen: "dekoracijos", meaning: "декорация", note: "вин. п. мн. ч." }
+questions:
+  - q: "Ką, pasak legendos, susapnavo kunigaikštis Gediminas?"
+    options: ["Geležinį vilką", "Auksinę pilį", "Didelę upę"]
+    answer: 0
+  - q: "Kokiu architektūros stiliumi labiausiai garsėja Vilnius?"
+    options: ["Gotika", "Baroku", "Modernizmu"]
+    answer: 1
+  - q: "Kokią problemą mini tekstas?"
+    options: ["Senamiestyje per daug automobilių", "Senamiestyje nėra kavinių", "Dalis gyventojų išsikelia dėl nuomos kainų ir trumpalaikės nuomos"]
+    answer: 2

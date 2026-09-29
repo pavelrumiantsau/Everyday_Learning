@@ -1,0 +1,46 @@
+id: lt-r-0039
+cefr: B2
+title: "Dainų šventė"
+topic: "Праздник песни"
+source: generated
+text: |
+  Kas kelerius metus Vilniuje susirenka dešimtys tūkstančių dainininkų, šokėjų ir muzikantų iš visos Lietuvos ir užsienio lietuvių bendruomenių. Tai Dainų šventė – viena svarbiausių tautos tradicijų. Pirmoji tokia šventė įvyko 1924 metais Kaune, o 2024 metais buvo iškilmingai paminėtas jos šimtmetis.
+
+  Šventės tradicija būdinga visoms trims Baltijos šalims. 2003 metais UNESCO ją paskelbė žodinio ir nematerialaus žmonijos paveldo šedevru. Tai reiškia, kad pasaulis pripažįsta: šie masiniai chorai ir šokių kolektyvai yra unikalus kultūros reiškinys, kurį verta saugoti ateities kartoms.
+
+  Pasiruošimas šventei trunka kelerius metus. Chorai ir šokių kolektyvai mokyklose, miesteliuose ir kaimuose repetuoja tas pačias dainas ir šokius, o vėliau specialios komisijos atrenka geriausius. Todėl dalyvauti šventėje – didelė garbė. Daug šeimų didžiuojasi, kad šventėje dainavo ir jų seneliai, ir tėvai, ir vaikai.
+
+  Ypač svarbi šventės reikšmė buvo sovietmečiu. Nors programa buvo griežtai kontroliuojama, dainuojant lietuviškas dainas bendrame chore žmonės jautė, kad tauta gyva. Vėliau, Sąjūdžio laikais, dainos tapo tikru pasipriešinimo ginklu – ne be priežasties Baltijos šalių laisvės kova kartais vadinama dainuojančia revoliucija.
+
+  Kulminacija – baigiamasis koncertas Vingio parke. Ant didžiulės estrados stovi tūkstančiai choristų tautiniais drabužiais, o tūkstančiai žiūrovų dainuoja kartu. Kai skamba gerai žinomos dainos, daugelis neslepia ašarų.
+
+  Kritikų netrūksta: vieni sako, kad šventė per brangi, kiti – kad repertuaras per daug senamadiškas. Vis dėlto kiekvieną kartą, kai tūkstančiai balsų susilieja į vieną, atrodo, kad šis šimtmečio senumo renginys vis dar kalba šiuolaikiniams lietuviams.
+glossary:
+  - { word: "šokėjų", lemma: "šokėjas", pos: noun, gender: m, gen: "šokėjo", meaning: "танцор", note: "род. п. мн. ч." }
+  - { word: "šimtmetis", lemma: "šimtmetis", pos: noun, gender: m, gen: "šimtmečio", meaning: "столетие" }
+  - { word: "nematerialaus", lemma: "nematerialus", pos: adj, meaning: "нематериальный", note: "род. п." }
+  - { word: "šedevru", lemma: "šedevras", pos: noun, gender: m, gen: "šedevro", meaning: "шедевр", note: "твор. п." }
+  - { word: "masiniai", lemma: "masinis", pos: adj, meaning: "массовый", note: "мн. ч." }
+  - { word: "kolektyvai", lemma: "kolektyvas", pos: noun, gender: m, gen: "kolektyvo", meaning: "коллектив, ансамбль", note: "им. п. мн. ч." }
+  - { word: "repetuoja", lemma: "repetuoti", pos: verb, forms: { pres: "repetuoja", past: "repetavo" }, meaning: "репетировать" }
+  - { word: "atrenka", lemma: "atrinkti", pos: verb, forms: { pres: "atrenka", past: "atrinko" }, meaning: "отобрать" }
+  - { word: "garbė", lemma: "garbė", pos: noun, gender: f, gen: "garbės", meaning: "честь" }
+  - { word: "reikšmė", lemma: "reikšmė", pos: noun, gender: f, gen: "reikšmės", meaning: "значение" }
+  - { word: "kontroliuojama", lemma: "kontroliuoti", pos: verb, forms: { pres: "kontroliuoja", past: "kontroliavo" }, meaning: "контролировать", note: "страд. прич., ж. р.: buvo kontroliuojama — контролировалась" }
+  - { word: "ginklu", lemma: "ginklas", pos: noun, gender: m, gen: "ginklo", meaning: "оружие", note: "твор. п." }
+  - { word: "Kulminacija", lemma: "kulminacija", pos: noun, gender: f, gen: "kulminacijos", meaning: "кульминация" }
+  - { word: "estrados", lemma: "estrada", pos: noun, gender: f, gen: "estrados", meaning: "сцена, эстрада", note: "род. п." }
+  - { word: "choristų", lemma: "choristas", pos: noun, gender: m, gen: "choristo", meaning: "хорист", note: "род. п. мн. ч." }
+  - { word: "tautiniais", lemma: "tautinis", pos: adj, meaning: "национальный, народный", note: "твор. п. мн. ч.: tautiniai drabužiai — национальные костюмы" }
+  - { word: "senamadiškas", lemma: "senamadiškas", pos: adj, meaning: "старомодный" }
+  - { word: "susilieja", lemma: "susilieti", pos: verb, forms: { pres: "susilieja", past: "susiliejo" }, meaning: "слиться" }
+questions:
+  - q: "Kada ir kur įvyko pirmoji Dainų šventė?"
+    options: ["2003 metais Vilniuje", "1924 metais Kaune", "1988 metais Rygoje"]
+    answer: 1
+  - q: "Kodėl dalyvauti šventėje yra garbė?"
+    options: ["Nes geriausius kolektyvus atrenka komisijos", "Nes dalyviams mokami dideli pinigai", "Nes šventėje gali dalyvauti tik profesionalai"]
+    answer: 0
+  - q: "Kodėl Baltijos šalių laisvės kova kartais vadinama dainuojančia revoliucija?"
+    options: ["Nes ją organizavo muzikantai", "Nes ji vyko tik per Dainų šventes", "Nes dainos tapo pasipriešinimo ginklu"]
+    answer: 2

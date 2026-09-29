@@ -1,0 +1,48 @@
+id: lt-r-0041
+cefr: B2
+title: "Saugumas ir šauktiniai"
+topic: "оборона и призыв"
+source: generated
+text: |
+  Dar prieš dešimtmetį daugelis lietuvių apie kariuomenę galvojo retai. Situacija pasikeitė 2014 metais, kai Rusija aneksavo Krymą. Po metų Lietuvoje buvo atkurta privalomoji karo tarnyba, kuri buvo sustabdyta 2008 metais. Šiandien kasmet tūkstančiai jaunų vyrų, o savanoriškai ir moterų, atlieka pradinę karo tarnybą.
+
+  Šauktiniai tarnauja maždaug devynis mėnesius. Per tą laiką jie išmoksta šaudyti, orientuotis miške, suteikti pirmąją pagalbą ir veikti komandoje. Kai kurie jaunuoliai tarnybos bijo ir bando jos išvengti, tačiau nemaža dalis tarnavusiųjų pripažįsta, kad kariuomenė juos užgrūdino ir išmokė disciplinos.
+
+  Lietuva yra NATO ir Europos Sąjungos narė nuo 2004 metų. Narystė Aljanse reiškia, kad užpuolimo atveju kitos šalys narės privalo padėti. Lietuvoje nuolat dislokuoti sąjungininkų kariai, o pastaraisiais metais nuspręsta, kad šalyje bus nuolat dislokuota ir Vokietijos brigada. Anksčiau apie tai niekas nedrįso net svajoti.
+
+  Išlaidos gynybai per pastaruosius metus gerokai išaugo. Perkami nauji šarvuočiai, oro gynybos sistemos, stiprinama pasienio apsauga. Kai kurie ekonomistai perspėja, kad tokios išlaidos atima pinigus iš švietimo ar sveikatos apsaugos. Kiti atsako, kad be saugumo nebus ir kitų dalykų – nei ekonomikos augimo, nei investicijų.
+
+  Gynyba – ne vien kariuomenės reikalas. Vis daugiau civilių stoja į Šaulių sąjungą, lanko pirmosios pagalbos kursus, mokosi, ką daryti krizės atveju. Savivaldybės skelbia, kur yra artimiausios slėptuvės, o šeimos ruošia vadinamąsias išgyvenimo kuprines su vandeniu, maistu, vaistais ir dokumentų kopijomis.
+
+  Tokia pilietinė parengtis daugeliui primena, kad laisvė nėra savaime suprantama. Kaip dažnai sakoma Lietuvoje, geriausias būdas išvengti karo – būti jam pasiruošusiems.
+glossary:
+  - { word: "šauktiniai", lemma: "šauktinis", pos: noun, gender: m, gen: "šauktinio", meaning: "призывник", note: "им. п. мн. ч." }
+  - { word: "aneksavo", lemma: "aneksuoti", pos: verb, forms: { pres: "aneksuoja", past: "aneksavo" }, meaning: "аннексировать", note: "прош. вр." }
+  - { word: "privalomoji", lemma: "privalomas", pos: adj, meaning: "обязательный", note: "местоим. форма: privalomoji karo tarnyba — обязательная военная служба" }
+  - { word: "tarnyba", lemma: "tarnyba", pos: noun, gender: f, gen: "tarnybos", meaning: "служба" }
+  - { word: "sustabdyta", lemma: "sustabdyti", pos: verb, forms: { pres: "sustabdo", past: "sustabdė" }, meaning: "остановить, приостановить", note: "страд. прич., ж. р." }
+  - { word: "orientuotis", lemma: "orientuotis", pos: verb, forms: { pres: "orientuojasi", past: "orientavosi" }, meaning: "ориентироваться" }
+  - { word: "tarnavusiųjų", lemma: "tarnavęs", pos: adj, meaning: "служивший", note: "местоим. прич., род. п. мн. ч.: dalis tarnavusiųjų — часть отслуживших" }
+  - { word: "užgrūdino", lemma: "užgrūdinti", pos: verb, forms: { pres: "užgrūdina", past: "užgrūdino" }, meaning: "закалить", note: "прош. вр." }
+  - { word: "Aljanse", lemma: "aljansas", pos: noun, gender: m, gen: "aljanso", meaning: "альянс", note: "местн. п." }
+  - { word: "užpuolimo", lemma: "užpuolimas", pos: noun, gender: m, gen: "užpuolimo", meaning: "нападение", note: "užpuolimo atveju — в случае нападения" }
+  - { word: "dislokuoti", lemma: "dislokuoti", pos: verb, forms: { pres: "dislokuoja", past: "dislokavo" }, meaning: "дислоцировать, разместить", note: "здесь страд. прич. мн. ч.: dislokuoti kariai — размещённые военные" }
+  - { word: "sąjungininkų", lemma: "sąjungininkas", pos: noun, gender: m, gen: "sąjungininko", meaning: "союзник", note: "род. п. мн. ч." }
+  - { word: "brigada", lemma: "brigada", pos: noun, gender: f, gen: "brigados", meaning: "бригада" }
+  - { word: "gynybai", lemma: "gynyba", pos: noun, gender: f, gen: "gynybos", meaning: "оборона", note: "дат. п." }
+  - { word: "šarvuočiai", lemma: "šarvuotis", pos: noun, gender: m, gen: "šarvuočio", meaning: "бронемашина", note: "им. п. мн. ч." }
+  - { word: "pasienio", lemma: "pasienis", pos: noun, gender: m, gen: "pasienio", meaning: "пограничье", note: "pasienio apsauga — охрана границы" }
+  - { word: "civilių", lemma: "civilis", pos: noun, gender: m, gen: "civilio", meaning: "гражданское лицо", note: "род. п. мн. ч." }
+  - { word: "slėptuvės", lemma: "slėptuvė", pos: noun, gender: f, gen: "slėptuvės", meaning: "убежище", note: "им. п. мн. ч." }
+  - { word: "parengtis", lemma: "parengtis", pos: noun, gender: f, gen: "parengties", meaning: "готовность" }
+  - { word: "savaime", lemma: "savaime", pos: adv, meaning: "само собой", note: "savaime suprantama — само собой разумеется" }
+questions:
+  - q: "Kada Lietuvoje buvo atkurta privalomoji karo tarnyba?"
+    options: ["2004 metais", "Po metų nuo Krymo aneksijos", "Iškart po nepriklausomybės atkūrimo"]
+    answer: 1
+  - q: "Ką reiškia narystė NATO?"
+    options: ["Kad užpuolimo atveju kitos šalys narės privalo padėti", "Kad Lietuvai nebereikia savo kariuomenės", "Kad visi gyventojai privalo tarnauti"]
+    answer: 0
+  - q: "Ką daro civiliai, norėdami būti pasiruošę krizei?"
+    options: ["Išvažiuoja į užsienį", "Perka šarvuočius", "Stoja į Šaulių sąjungą, lanko kursus, ruošia išgyvenimo kuprines"]
+    answer: 2
