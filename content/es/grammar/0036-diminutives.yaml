@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0036
+cefr: A2
+order: 36
+title: "Diminutives: -ito, -ita, -illo"
+explanation:
+  en: |
+    Spanish adds **-ito / -ita** (and in some regions **-illo / -illa**) to make things small, cute or friendly:
+    - *perro → **perrito***, *casa → **casita***, *gato → **gatito***, *abuela → **abuelita***
+    - words ending in **-e, -n, -r** often take **-cito**: *café → **cafecito***, *joven → **jovencito***, *mujer → **mujercita***
+    - spelling changes keep the sound: *poco → **poquito***, *chica → **chiquita***, *amigo → **amiguito***
+
+    They also work with adjectives and adverbs: ***ahorita*** (right now, especially in Mexico), ***cerquita*** (very close), ***un poquito*** (a little bit).
+
+    Often they add **affection or politeness** rather than size: *¿Un **cafecito**?*, *Espera un **momentito**.*
+
+    Some diminutives became separate words: *la **bombilla*** (light bulb), *la **mantequilla*** (butter), *el **pañuelo*** (handkerchief).
+comparison:
+  en: |
+    Very much like Russian «котёнок, домик, чуть-чуть, минуточку»: *un momentito* = «минуточку», *un poquito* = «чуть-чуть». English mostly needs "little" or "a bit".
+examples:
+  - { text: "Quiero un perrito.", translation: "I want a puppy.", source: "tatoeba:1881120" }
+  - { text: "Quiero un gatito.", translation: "I want a kitten!", source: "tatoeba:6586329" }
+  - { text: "Sí, un poquito.", translation: "Yes, a little bit.", source: "tatoeba:1279647" }
+  - { text: "Amo los gatitos.", translation: "I love kittens.", source: "tatoeba:9365729" }
+exercises:
+  - type: cloze
+    text: "Mi hija quiere un ___ para su cumpleaños."
+    answer: "perrito"
+    hint: "perro → diminutive"
+    translation: "My daughter wants a puppy for her birthday."
+  - type: cloze
+    text: "Espera un ___, ahora vuelvo."
+    answer: "momentito"
+    hint: "momento → diminutive"
+    translation: "Wait a moment, I'll be right back."
+  - type: cloze
+    text: "¿Quieres un ___ más de sopa?"
+    answer: "poquito"
+    hint: "poco → diminutive (c → qu)"
+    translation: "Do you want a little more soup?"
+  - type: cloze
+    text: "Vivimos en una ___ cerca del mar."
+    answer: "casita"
+    hint: "casa → diminutive"
+    translation: "We live in a little house near the sea."
+  - type: cloze
+    text: "Mi ___ tiene noventa años."
+    answer: "abuelita"
+    hint: "abuela → diminutive"
+    translation: "My granny is ninety years old."
+  - type: cloze
+    text: "¿Tomamos un ___?"
+    answer: "cafecito"
+    hint: "café → diminutive (-cito)"
+    translation: "Shall we have a little coffee?"
+  - type: cloze
+    text: "El supermercado está ___, a dos minutos."
+    answer: "cerquita"
+    hint: "cerca → diminutive (c → qu)"
+    translation: "The supermarket is really close, two minutes away."
+  - type: cloze
+    text: "Pon la ___ en el pan."
+    answer: "mantequilla"
+    hint: "butter (an old diminutive)"
+    translation: "Put the butter on the bread."

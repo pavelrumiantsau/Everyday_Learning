@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0031
+cefr: B1
+order: 31
+title: "Reported speech: dijo que…, me preguntó si…"
+explanation:
+  en: |
+    When you report what someone said **in the past**, the tenses shift back, much like in English:
+    - present → **imperfect**: *"Estoy cansado."* → *Dijo que **estaba** cansado.*
+    - preterite / perfect → **pluperfect** (lesson 33) or preterite: *"Lo he hecho."* → *Dijo que lo **había hecho**.*
+    - future → **conditional**: *"Vendré."* → *Dijo que **vendría**.*
+    - command → **imperfect subjunctive**: *"¡Ven!"* → *Me dijo que **fuera**.*
+
+    **Questions:**
+    - yes/no → **si**: *Me preguntó **si** era feliz.* — He asked me if I was happy.
+    - with a question word — keep it (with its accent): *Me preguntó **dónde** vivía.*
+
+    **Pronouns and places change** as needed: *"Te quiero"* → *Me dijo que **me** quería.* *aquí → allí, hoy → ese día, mañana → al día siguiente*.
+
+    If the reporting verb is in the present (*dice que*), nothing shifts: *Dice que **está** cansado.*
+comparison:
+  en: |
+    Russian keeps the original tense («Он сказал, что устал / что придёт»); Spanish, like English, shifts it: *Dijo que **vendría*** — "He said he **would** come" (not *vendrá*).
+examples:
+  - { text: "Dijo que vendría.", translation: "He said he'd come.", source: "tatoeba:7724282" }
+  - { text: "Me dijo que me amaba.", translation: "She told me she loved me.", source: "tatoeba:1105295" }
+  - { text: "Me preguntó si era feliz.", translation: "He asked me if I was happy.", source: "tatoeba:10790109" }
+  - { text: "Me preguntó dónde vivía ella.", translation: "He asked me where she lived.", source: "tatoeba:558574" }
+  - { text: "Me dijo que lo sentía.", translation: "He told me he was sorry.", source: "tatoeba:9292085" }
+exercises:
+  - type: cloze
+    text: "\"Estoy muy ocupada.\" → Dijo que ___ muy ocupada."
+    answer: "estaba"
+    hint: "present → imperfect"
+    translation: "She said she was very busy."
+  - type: cloze
+    text: "\"Llegaré tarde.\" → Dijo que ___ tarde."
+    answer: "llegaría"
+    hint: "future → conditional"
+    translation: "He said he would arrive late."
+  - type: cloze
+    text: "\"¿Tienes hambre?\" → Me preguntó ___ tenía hambre."
+    answer: "si"
+    hint: "yes/no question"
+    translation: "She asked me if I was hungry."
+  - type: cloze
+    text: "\"¿Dónde trabajas?\" → Me preguntó ___ trabajaba."
+    answer: "dónde"
+    hint: "keep the question word"
+    translation: "He asked me where I worked."
+  - type: cloze
+    text: "\"He perdido las llaves.\" → Dijo que ___ perdido las llaves."
+    answer: "había"
+    hint: "perfect → pluperfect"
+    translation: "He said he had lost the keys."
+  - type: cloze
+    text: "\"¡Cierra la puerta!\" → Me dijo que ___ la puerta."
+    answer: "cerrara"
+    hint: "command → imperfect subjunctive"
+    translation: "She told me to close the door."
+  - type: cloze
+    text: "\"Te llamo mañana.\" → Dijo que me llamaría al día ___."
+    answer: "siguiente"
+    hint: "mañana → al día siguiente"
+    translation: "He said he would call me the next day."
+  - type: cloze
+    text: "Ana dice que ___ cansada."
+    answer: "está"
+    hint: "reporting verb in the present → no shift"
+    translation: "Ana says she's tired."

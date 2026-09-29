@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0033
+cefr: B1
+order: 33
+title: "Pluperfect: había hecho"
+explanation:
+  en: |
+    The **pluperfect** ("had done") = **había** + past participle:
+    - **había, habías, había, habíamos, habíais, habían** + habl**ado** / com**ido** / hecho, visto, dicho…
+
+    Use it for an action that happened **before another past action**:
+    - *Cuando llegué, la película ya **había empezado**.* — When I arrived, the film had already started.
+    - *Él vino cuando yo **había salido**.*
+    - *Nunca **había visto** el mar.* — I had never seen the sea (before then).
+
+    Typical companions: **ya** (already), **todavía no / aún no** (not yet), **nunca** (never), **antes** (before).
+
+    It is also the tense of reported speech for earlier events (lesson 31): *Dijo que **había perdido** las llaves.*
+comparison:
+  en: |
+    It works exactly like the English past perfect: *había comido* = "I had eaten". Russian has no separate form and uses the past with «уже»: «Когда я пришёл, фильм уже начался».
+examples:
+  - { text: "Él ya había ido.", translation: "He had already gone.", source: "tatoeba:676554" }
+  - { text: "Él ya había estado allí.", translation: "He had been there before.", source: "tatoeba:1249429" }
+  - { text: "Él vino cuando yo había salido.", translation: "He came when I was out.", source: "tatoeba:331712" }
+  - { text: "No había comido arroz.", translation: "I hadn't eaten rice.", source: "tatoeba:13886744" }
+  - { text: "Creí que había empezado a llover.", translation: "I thought it had started to rain.", source: "tatoeba:354968" }
+exercises:
+  - type: cloze
+    text: "Cuando llegamos, el tren ya ___ salido."
+    answer: "había"
+    hint: "haber, él"
+    translation: "When we arrived, the train had already left."
+  - type: cloze
+    text: "Nunca había ___ una ciudad tan bonita."
+    answer: "visto"
+    hint: "ver — participle"
+    translation: "I had never seen such a beautiful city."
+  - type: cloze
+    text: "Ellos ya ___ cenado cuando llamé."
+    answer: "habían"
+    hint: "haber, ellos"
+    translation: "They had already had dinner when I called."
+  - type: cloze
+    text: "No sabía que tú ___ estado en Lituania."
+    answer: "habías"
+    hint: "haber, tú"
+    translation: "I didn't know you had been to Lithuania."
+  - type: cloze
+    text: "Me dijo que ya había ___ los deberes."
+    answer: "hecho"
+    hint: "hacer — participle"
+    translation: "He told me he had already done his homework."
+  - type: cloze
+    text: "Cuando empezó a llover, nosotros ya ___ vuelto a casa."
+    answer: "habíamos"
+    hint: "haber, nosotros"
+    translation: "When it started to rain, we had already come back home."
+  - type: cloze
+    text: "Antes de este viaje nunca había ___ en avión."
+    answer: "volado"
+    hint: "volar — participle"
+    translation: "Before this trip I had never flown."
+  - type: cloze
+    text: "Estaba cansado porque no había ___ bien."
+    answer: "dormido"
+    hint: "dormir — participle"
+    translation: "He was tired because he hadn't slept well."

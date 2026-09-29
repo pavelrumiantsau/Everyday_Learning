@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0029
+cefr: B1
+order: 29
+title: "Subjunctive with feelings: me alegra que, siento que"
+explanation:
+  en: |
+    When you react emotionally to **someone else's** action, the second verb goes into the **subjunctive**:
+    - **me alegra que / me alegro de que** — I'm glad that: ***Me alegra que vengas.***
+    - **siento que** — I'm sorry that: ***Siento que** nos **dejes**.*
+    - **me molesta que** — it bothers me that: ***Me molesta que llegue** siempre tarde.*
+    - **me encanta que, me gusta que, odio que**: *Me encanta que me **escribas**.*
+    - **tengo miedo de que, me preocupa que**: *Me preocupa que no **duermas**.*
+    - **es una pena que, es raro que**: *Es una pena que no **puedas** venir.*
+
+    Same person → **infinitive**: *Me alegra **verte**.* — I'm glad to see you. / *Me alegra que me **veas**.* — I'm glad you see me.
+
+    Careful with **sentir**: *siento que* + subjunctive = "I'm sorry that…", but *siento que* + indicative = "I feel that…": *Siento que **soy** libre.*
+comparison:
+  en: |
+    Russian and English use a normal tense here («рад, что ты пришёл»; "glad you're coming"). Spanish marks the emotional reaction with the subjunctive — a good sign to listen for: *me alegra que… / siento que… / me molesta que…* + *-e / -a* ending.
+examples:
+  - { text: "Me alegra que vengas.", translation: "I'm glad you're coming.", source: "tatoeba:1406129" }
+  - { text: "Me alegra que te guste.", translation: "Glad you like it.", source: "tatoeba:1438043" }
+  - { text: "Me molesta que llegue siempre tarde.", translation: "It bothers me that she's always late.", source: "tatoeba:980370" }
+  - { text: "Siento que nos dejes.", translation: "I'm sorry you're leaving us.", source: "tatoeba:1451422" }
+exercises:
+  - type: cloze
+    text: "Me alegra que ___ bien."
+    answer: "estés"
+    hint: "estar, tú"
+    translation: "I'm glad you're well."
+  - type: cloze
+    text: "Siento que no ___ venir a la fiesta."
+    answer: "puedas"
+    hint: "poder, tú"
+    translation: "I'm sorry you can't come to the party."
+  - type: cloze
+    text: "Me molesta que la gente ___ tan alto."
+    answer: "hable"
+    hint: "hablar, la gente"
+    translation: "It bothers me that people talk so loudly."
+  - type: cloze
+    text: "Me encanta que me ___ cartas."
+    answer: "escribas"
+    hint: "escribir, tú"
+    translation: "I love it that you write me letters."
+  - type: cloze
+    text: "Es una pena que ___ tan pronto."
+    answer: "te vayas"
+    hint: "irse, tú"
+    translation: "It's a pity that you're leaving so soon."
+  - type: cloze
+    text: "Me alegra ___ aquí."
+    answer: "estar"
+    hint: "same person → infinitive"
+    translation: "I'm glad to be here."
+  - type: cloze
+    text: "Me preocupa que no ___ bien."
+    answer: "duermas"
+    hint: "dormir, tú (o → ue)"
+    translation: "It worries me that you don't sleep well."
+  - type: cloze
+    text: "Tengo miedo de que ___ tarde."
+    answer: "sea"
+    hint: "ser"
+    translation: "I'm afraid it's too late."

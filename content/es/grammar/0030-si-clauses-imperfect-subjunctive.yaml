@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0030
+cefr: B1
+order: 30
+title: "If I had…: si tuviera, haría"
+explanation:
+  en: |
+    For **unreal** or unlikely conditions Spanish uses **si + imperfect subjunctive**, and the **conditional** in the other part:
+    - ***Si tuviera** tiempo, **iría** al cine.* — If I had time, I would go to the cinema.
+    - ***Si fuera** rico, lo **compraría**.*
+
+    **Imperfect subjunctive** — take the **ellos** form of the **preterite**, drop **-ron**, add **-ra**:
+    - hablaron → habla-**ra**: hablara, hablaras, hablara, **habláramos**, hablarais, hablaran
+    - comieron → comie-**ra**, vivieron → vivie-**ra**
+    - irregular preterites carry over: tuvieron → **tuviera**, fueron → **fuera** (ser/ir), pudieron → **pudiera**, hicieron → **hiciera**, dijeron → **dijera**, supieron → **supiera**
+
+    (There is also a form in **-se**: *tuviese, fuese* — same meaning, more common in writing in Spain.)
+
+    **Real** conditions stay simple: *Si **tengo** tiempo, **iré**.* — If I have time (and I might), I'll go.
+
+    **Si yo fuera tú…** = If I were you…; **Ojalá + imperfect subjunctive** = I wish: *Ojalá **pudiera**.*
+comparison:
+  en: |
+    The same logic as Russian «если бы… то бы…»: *Si tuviera dinero, te lo daría* = «Если бы у меня были деньги, я бы тебе их дал». Spanish marks both parts with special forms: *tuviera* (subjunctive) + *daría* (conditional). Never use the conditional after *si*: not *si tendría*.
+examples:
+  - { text: "Si tuviera tiempo iría al cine.", translation: "If I had time, I would go to the movies.", source: "tatoeba:844045" }
+  - { text: "Si tuviera dinero, te lo daría.", translation: "If I had money, I'd give it to you.", source: "tatoeba:4548638" }
+  - { text: "Si fuera rico lo compraría.", translation: "If I were rich, I'd buy it.", source: "tatoeba:346211" }
+  - { text: "Si fuera tú, lo ignoraría.", translation: "Were I you, I would ignore it.", source: "tatoeba:1416688" }
+  - { text: "Si pudieras venir, sería muy feliz.", translation: "If you could come, I'd be really happy.", source: "tatoeba:1297049" }
+exercises:
+  - type: cloze
+    text: "Si ___ más dinero, viajaría por el mundo."
+    answer: "tuviera"
+    hint: "tener, yo"
+    translation: "If I had more money, I'd travel the world."
+  - type: cloze
+    text: "Si fuera tú, no lo ___."
+    answer: "haría"
+    hint: "hacer, yo — conditional"
+    translation: "If I were you, I wouldn't do it."
+  - type: cloze
+    text: "Si ___ hablar español, trabajaría en Madrid."
+    answer: "supiera"
+    hint: "saber, yo"
+    translation: "If I could speak Spanish, I'd work in Madrid."
+  - type: cloze
+    text: "Si no lloviera, ___ a la playa."
+    answer: "iríamos"
+    hint: "ir, nosotros — conditional"
+    translation: "If it weren't raining, we'd go to the beach."
+  - type: cloze
+    text: "Si ___ tiempo mañana, te llamaré."
+    answer: "tengo"
+    hint: "real condition → present"
+    translation: "If I have time tomorrow, I'll call you."
+  - type: cloze
+    text: "Ojalá ___ aquí conmigo."
+    answer: "estuvieras"
+    hint: "estar, tú"
+    translation: "I wish you were here with me."
+  - type: cloze
+    text: "Si ella ___ la verdad, estaría enfadada."
+    answer: "supiera"
+    hint: "saber, ella"
+    translation: "If she knew the truth, she'd be angry."
+  - type: cloze
+    text: "¿Qué harías si ___ la lotería?"
+    answer: "ganaras"
+    hint: "ganar, tú"
+    translation: "What would you do if you won the lottery?"

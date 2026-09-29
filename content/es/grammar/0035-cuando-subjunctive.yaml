@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0035
+cefr: B1
+order: 35
+title: "Cuando llegues, hasta que vuelvas, aunque llueva"
+explanation:
+  en: |
+    Time words like **cuando, en cuanto, hasta que, antes de que** take the **subjunctive when they refer to the future**:
+    - ***Cuando llegues**, llámame.* — When you get there, call me.
+    - ***En cuanto llegue**, avísame.* — As soon as he arrives, let me know.
+    - *Esperaré **hasta que vuelvas**.* — I'll wait until you come back.
+    - ***Antes de que** + subjunctive always*: *Vete **antes de que** sea tarde.*
+
+    For **habits or past facts** use the indicative: ***Cuando llego** a casa, ceno.* (every day) / ***Cuando llegué**, cené.*
+
+    Never the future after *cuando*: not ~~cuando llegarás~~, but ***cuando llegues***.
+
+    **aunque**:
+    - + indicative — a fact: *Aunque **es** rico, no es feliz.* — Although he is rich…
+    - + subjunctive — even if (possible or not important): *Aunque **llueva**, iremos.* — Even if it rains, we'll go.
+comparison:
+  en: |
+    Russian says «Когда приедешь, позвони» with a future form; Spanish needs the subjunctive: *Cuando llegues…*. The same happens with «пока не вернёшься» — *hasta que vuelvas*.
+examples:
+  - { text: "Cuando llegues allí llámame.", translation: "When you get there, call me.", source: "tatoeba:10328082" }
+  - { text: "Avisame cuando termines.", translation: "Tell me when you're done.", source: "tatoeba:1215367" }
+  - { text: "Esperaré aquí hasta que vuelva.", translation: "I will wait here until he comes back.", source: "tatoeba:852992" }
+  - { text: "Vete antes de que te vean.", translation: "Go away before they see you here.", source: "tatoeba:1508809" }
+  - { text: "Aunque llueva, jugará al golf.", translation: "Even though it is raining, he will play golf.", source: "tatoeba:1437305" }
+exercises:
+  - type: cloze
+    text: "Cuando ___ a casa, llámame."
+    answer: "llegues"
+    hint: "llegar, tú — future"
+    translation: "When you get home, call me."
+  - type: cloze
+    text: "Te lo diré en cuanto lo ___."
+    answer: "sepa"
+    hint: "saber, yo — future"
+    translation: "I'll tell you as soon as I know."
+  - type: cloze
+    text: "Esperaremos hasta que ___ la lluvia."
+    answer: "pare"
+    hint: "parar — future"
+    translation: "We'll wait until the rain stops."
+  - type: cloze
+    text: "Limpia la casa antes de que ___ tus padres."
+    answer: "vuelvan"
+    hint: "volver, ellos"
+    translation: "Clean the house before your parents come back."
+  - type: cloze
+    text: "Cuando ___ niño, vivía en el campo."
+    answer: "era"
+    hint: "past fact → indicative"
+    translation: "When I was a child, I lived in the countryside."
+  - type: cloze
+    text: "Todos los días, cuando ___ del trabajo, paseo al perro."
+    answer: "vuelvo"
+    hint: "habit → indicative"
+    translation: "Every day, when I come back from work, I walk the dog."
+  - type: cloze
+    text: "Aunque ___ frío mañana, saldremos."
+    answer: "haga"
+    hint: "hacer — even if"
+    translation: "Even if it's cold tomorrow, we'll go out."
+  - type: cloze
+    text: "Aunque ___ cansado, terminó el trabajo."
+    answer: "estaba"
+    hint: "a fact → indicative"
+    translation: "Although he was tired, he finished the work."

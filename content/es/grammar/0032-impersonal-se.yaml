@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0032
+cefr: A2
+order: 32
+title: "Se habla español: impersonal and passive se"
+explanation:
+  en: |
+    Spanish often uses **se + verb (3rd person)** when it doesn't matter who does the action — English uses "one / you / they" or the passive.
+
+    - **Impersonal se** (no subject): ***Se vive** bien aquí.* — Life is good here. *¿Cómo **se dice** "gracias" en lituano?* — How do you say…?
+    - **Passive se** — the verb agrees with the thing: ***Se habla** español.* — Spanish is spoken. ***Se venden** recuerdos.* — Souvenirs for sale.
+    - Signs and rules: ***Se prohíbe** fumar.* ***Se alquila** piso.* ***Se busca** camarero.*
+
+    Agreement: singular thing → **se vende**; plural things → **se venden**: *Se vende **casa** / Se venden **casas***.
+
+    With people use the **singular + a**: *Se busca **a** un camarero* (or simply *Se busca camarero*).
+comparison:
+  en: |
+    Very close to the Russian indefinite-personal and passive forms: *Aquí se habla español* = «Здесь говорят по-испански», *Se vende piso* = «Продаётся квартира». The *-ся* in «продаётся» even works like Spanish *se*.
+examples:
+  - { text: "Aquí se habla español.", translation: "Spanish is spoken here.", source: "tatoeba:462473" }
+  - { text: "Se venden recuerdos.", translation: "Souvenirs are sold or are for sale.", source: "tatoeba:462469" }
+  - { text: "Se prohíbe escupir.", translation: "Spitting is prohibited.", source: "tatoeba:2267746" }
+  - { text: "Se necesita más.", translation: "More is needed.", source: "tatoeba:1253153" }
+  - { text: "Se vende azúcar en la tienda.", translation: "They sell sugar at the store.", source: "tatoeba:330682" }
+exercises:
+  - type: cloze
+    text: "¿Cómo ___ dice \"thank you\" en español?"
+    answer: "se"
+    hint: "how do you say…"
+    translation: "How do you say \"thank you\" in Spanish?"
+  - type: cloze
+    text: "En esta tienda se ___ libros usados."
+    answer: "venden"
+    hint: "vender — plural thing"
+    translation: "Second-hand books are sold in this shop."
+  - type: cloze
+    text: "Se ___ piso en el centro."
+    answer: "alquila"
+    hint: "alquilar — singular thing"
+    translation: "Flat for rent in the centre."
+  - type: cloze
+    text: "Aquí no se ___ fumar."
+    answer: "puede"
+    hint: "poder — with an infinitive"
+    translation: "You can't smoke here."
+  - type: cloze
+    text: "En Lituania se ___ mucho pan negro."
+    answer: "come"
+    hint: "comer"
+    translation: "A lot of dark bread is eaten in Lithuania."
+  - type: cloze
+    text: "Se ___ camareros para el verano."
+    answer: "buscan"
+    hint: "buscar — plural"
+    translation: "Waiters wanted for the summer."
+  - type: cloze
+    text: "¿A qué hora se ___ el museo?"
+    answer: "abre"
+    hint: "abrir"
+    translation: "What time does the museum open?"
+  - type: cloze
+    text: "Se ___ muy bien en esta ciudad."
+    answer: "vive"
+    hint: "vivir — impersonal"
+    translation: "Life is very good in this city."

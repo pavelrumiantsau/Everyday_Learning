@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0034
+cefr: A2
+order: 34
+title: "Personal a; a, en, de"
+explanation:
+  en: |
+    **Personal a** — before a **direct object that is a person** (or a pet), Spanish adds **a**:
+    - *Veo **a** la niña.* — I see the girl. (but *Veo **la** casa.*)
+    - *Busco **a** mi hermano.* — I'm looking for my brother.
+    - Not after *tener*: *Tengo dos hermanos.*
+
+    **a** — direction and time: ***a** Madrid*, ***a** casa*, ***a** las ocho*, *a la derecha*. **a + el = al**: *voy **al** cine*.
+
+    **en** — location ("in, at, on") and transport: *estoy **en** casa*, ***en** la mesa*, ***en** tren*, ***en** verano*, ***en** 2027*.
+
+    **de** — origin, possession, material, "of": *soy **de** Vilna*, *el coche **de** Ana*, *una caja **de** madera*, *una taza **de** café*. **de + el = del**: *la casa **del** profesor*.
+
+    Watch out: *ir **a** casa* (go home) but *estar **en** casa* (be at home); *llegar **a*** (arrive in/at): *Llegamos **a** Madrid.*
+comparison:
+  en: |
+    The personal *a* has no equivalent in Russian or English; think of it as marking "who" rather than "what". *Llegar a* (not *en*) is a classic mistake for English speakers ("arrive in").
+examples:
+  - { text: "Busco a mi hermano.", translation: "I'm looking for my brother.", source: "tatoeba:4952306" }
+  - { text: "Veo a la niña.", translation: "I see the girl.", source: "tatoeba:5023374" }
+  - { text: "Estoy en casa.", translation: "I'm home.", source: "tatoeba:1013884" }
+  - { text: "Voy a casa de mi amigo.", translation: "I am going to my friend's house.", source: "tatoeba:436362" }
+  - { text: "La caja es de madera.", translation: "The box is made of wood.", source: "tatoeba:963798" }
+exercises:
+  - type: cloze
+    text: "Esta tarde voy a visitar ___ mi abuela."
+    answer: "a"
+    hint: "personal a"
+    translation: "This afternoon I'm going to visit my grandmother."
+  - type: cloze
+    text: "Mañana vamos ___ cine."
+    answer: "al"
+    hint: "a + el"
+    translation: "Tomorrow we're going to the cinema."
+  - type: cloze
+    text: "Mis padres viven ___ un pueblo pequeño."
+    answer: "en"
+    hint: "location"
+    translation: "My parents live in a small village."
+  - type: cloze
+    text: "Esta mesa es ___ madera."
+    answer: "de"
+    hint: "material"
+    translation: "This table is made of wood."
+  - type: cloze
+    text: "El avión llega ___ Vilna a las diez."
+    answer: "a"
+    hint: "llegar a"
+    translation: "The plane arrives in Vilnius at ten."
+  - type: cloze
+    text: "Siempre voy al trabajo ___ autobús."
+    answer: "en"
+    hint: "transport"
+    translation: "I always go to work by bus."
+  - type: cloze
+    text: "Este es el coche ___ profesor."
+    answer: "del"
+    hint: "de + el"
+    translation: "This is the teacher's car."
+  - type: cloze
+    text: "Conozco ___ mucha gente aquí."
+    answer: "a"
+    hint: "personal a — people"
+    translation: "I know a lot of people here."
