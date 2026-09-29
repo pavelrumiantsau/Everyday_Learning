@@ -33,7 +33,7 @@
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
 | Lithuanian vocabulary | 1082 words (A2–B2, frequency ranks ≤ 18,000) | ~mid-January 2027 (10/day; later if placement skips known words) | `lt-*-1139`, `pnpm content:candidates lt 18000 4000`; recipe `prompts/content/lt-vocab.md` |
-| Spanish vocabulary | 584 items (A1–B1) | ~early March 2027 (5/day) | `es-*-0585`, `pnpm content:candidates es 3850 1200`; recipe `prompts/content/es-vocab.md` |
+| Spanish vocabulary | 584 items (A1–B1) | ~late January 2027 (5/day) | `es-*-0585`, `pnpm content:candidates es 3850 1200`; recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 31 lessons (Q1–Q4) | ~early January 2027 (Mon/Wed; also Sat once the FR sounds lessons are done) | `lt-g-0032`: more Q4 — word order and emphasis, set phrases/idioms, register (formal letters), B2 exam-style mixed tasks; also consider review lessons per quarter |
 | Spanish grammar | 28 lessons (A1–A2) | ~mid-January 2027 (Tue/Fri) | `es-g-0029`: subjunctive with emotions (me alegra que), imperfect subjunctive intro (si tuviera), future perfect/pluperfect, indirect speech (dijo que…), passive se, prepositions a/en/de, diminutives |
 | Lithuanian reading | 28 texts: 18 B1 + 10 B2 (0019–0028: remote work, emigration, phones at school, ageing society, AI, housing, fake news, volunteering, solar/wind energy, language & loanwords) + own texts | B2 texts: 10 Thursdays → ~early December 2026 (then B1 as fallback) | `lt-r-0029` — **B2**, 250–350 words (next topics: healthcare, media, Baltic cooperation, culture/cinema, sport & basketball, food trends, cities & transport, education reform) |
