@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0054
+cefr: B2
+order: 54
+title: "Повторение: какое причастие выбрать"
+explanation:
+  ru: |
+    Все причастия и деепричастия из прошлых уроков — в одном месте. Выбор зависит от двух вопросов: **кто делает** и **когда**.
+
+    **Определение (какой?):**
+    - делает **сейчас** → **-antis / -inti**: *čia gyvenantys žmonės*
+    - **сделал** (или состояние) → **-ęs / -usi**: *pavargęs vyras, grįžusi sesuo*
+    - что **делают** с ним → **-mas / -ma**: *dabar skaitoma knyga*
+    - что **сделали** → **-tas / -ta**: *prieš šimtą metų pastatytas namas*
+
+    **Обстоятельство (как? когда?) — тот же субъект:**
+    - одновременно, «делая» → **-damas / -dama** (полупричастие): *Jis kalbėjo šypsodamasis.* *Nevalgyk stovėdamas!*
+    - раньше, «сделав» → **-ęs / -usi**: *Grįžęs namo, jis iškart atsigulė.*
+
+    **Другой субъект или безлично** → **-ant / -us** (деепричастие, *padalyvis*); субъект — в **дательном**: *Mums išėjus, pradėjo lyti.* *Vaikai grįžo namo jau temstant.*
+
+    **Чужие слова** (после *sakyti, manyti, apsimesti*) → **-ąs / -anti**: *Jis sakė esąs gydytojas.*
+comparison:
+  ru: |
+    Главная литовская особенность по сравнению с русским — разделение «делая» (*-damas*, тот же человек) и «когда (кто-то другой) делал» (*-ant, -us* + дательный). По-русски «Когда мы вышли, пошёл дождь» — придаточное; по-литовски коротко: *Mums išėjus, pradėjo lyti.*
+examples:
+  - { text: "Nevalgyk stovėdamas!", translation: "Не ешь стоя!", source: "tatoeba:13721249" }
+  - { text: "Vaikai grįžo namo jau temstant.", translation: "Дети вернулись домой с наступлением темноты.", source: "tatoeba:13217529" }
+  - { text: "Jūs nustebote, pamatę mus?", translation: "Вы удивились, увидев нас?", source: "tatoeba:9263260" }
+  - { text: "Praeinanti diena negrįš.", translation: "Уходящий день не вернётся.", source: "tatoeba:12721668" }
+  - { text: "Laukas užklotas sniegu.", translation: "Поле покрыто снегом.", source: "tatoeba:12118323" }
+exercises:
+  - type: cloze
+    text: "Jis kalbėjo ___."
+    answer: "šypsodamasis"
+    hint: "šypsotis → тот же субъект, одновременно (-damas + si)"
+    translation: "Он говорил, улыбаясь."
+  - type: cloze
+    text: "___ namo, jis iškart atsigulė."
+    answer: "Grįžęs"
+    hint: "grįžti → тот же субъект, раньше (-ęs)"
+    translation: "Вернувшись домой, он сразу лёг."
+  - type: cloze
+    text: "Mums ___, pradėjo lyti."
+    answer: "išėjus"
+    hint: "išeiti → другой субъект (-us)"
+    translation: "Когда мы вышли, пошёл дождь."
+  - type: cloze
+    text: "Mieste ___ žmonės dažnai skundžiasi triukšmu."
+    answer: "gyvenantys"
+    hint: "gyventi → кто живёт (-antys)"
+    translation: "Люди, живущие в городе, часто жалуются на шум."
+  - type: cloze
+    text: "Tai prieš šimtą metų ___ namas."
+    answer: "pastatytas"
+    hint: "pastatyti → что построили (-tas)"
+    translation: "Это дом, построенный сто лет назад."
+  - type: cloze
+    text: "Ši knyga dabar labai ___."
+    answer: "skaitoma"
+    hint: "skaityti → что читают (-ma)"
+    translation: "Эту книгу сейчас много читают."
+  - type: cloze
+    text: "Jis sakė ___ gydytojas."
+    answer: "esąs"
+    hint: "būti → чужие слова (-ąs)"
+    translation: "Он сказал, что он врач."
+  - type: cloze
+    text: "Vaikai grįžo namo ___."
+    answer: "temstant"
+    hint: "temti → безлично, когда темнело (-ant)"
+    translation: "Дети вернулись домой, когда темнело."

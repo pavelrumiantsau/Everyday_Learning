@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0055
+cefr: B2
+order: 55
+title: "Мнение и спор: manau, abejoju, ar…, visiškai sutinku"
+explanation:
+  ru: |
+    Для разговора и письма на B2 нужно уметь высказать мнение, согласиться и возразить.
+
+    - **мнение:** *Manau, kad…*; *Mano nuomone, …*; *Man atrodo, kad…*; *Esu įsitikinęs (įsitikinusi), kad…* — я уверен(а), что…
+    - **сомнение:** ***Abejoju, ar**…* — сомневаюсь, что…; *Nemanau, kad…*; *Nesu tikras (tikra), kad…*
+    - **согласие:** *Sutinku (su tavimi).* *Visiškai sutinku.* *Tu teisus / teisi.* *Be abejo.*
+    - **несогласие:** *Nesutinku.* *Tu neteisus / neteisi.* *Aš kitaip manau.* *Ne visai taip.* *Leisk man nesutikti.* — позволь не согласиться
+    - **смягчить:** *Galbūt…*; *Gal ir taip, bet…* — может, и так, но…; *Iš dalies sutinku.* — отчасти согласен
+comparison:
+  ru: |
+    Ловушки: «сомневаюсь, **что**…» → *abejoju, **ar**…* (не *kad*); «согласен **с** тобой» → *sutinku **su** tavimi* (su + тв. п.); «ты прав / права» — *tu teisus / teisi* (прилагательное меняет род, как в русском).
+examples:
+  - { text: "Aš su tavimi sutinku.", translation: "Я с тобой согласен.", source: "tatoeba:12509290" }
+  - { text: "Aš esu įsitikinęs.", translation: "Я уверен.", source: "tatoeba:3206382" }
+  - { text: "Abejoju.", translation: "Сомневаюсь.", source: "tatoeba:12200462" }
+  - { text: "Nemanau, kad ji kalta.", translation: "Не думаю, что она виновата.", source: "tatoeba:13648949" }
+  - { text: "Tu teisus.", translation: "Ты прав.", source: "tatoeba:12220625" }
+exercises:
+  - type: cloze
+    text: "___, kad tai gera idėja."
+    answer: "Manau"
+    hint: "я думаю"
+    translation: "Думаю, что это хорошая идея."
+  - type: cloze
+    text: "Aš su tavimi visiškai ___."
+    answer: "sutinku"
+    hint: "согласен"
+    translation: "Я с тобой полностью согласен."
+  - type: cloze
+    text: "Abejoju, ___ jis ateis."
+    answer: "ar"
+    hint: "сомневаюсь, что… (abejoti + ___)"
+    translation: "Сомневаюсь, что он придёт."
+  - type: cloze
+    text: "Esu ___, kad jis meluoja."
+    answer: "įsitikinęs"
+    hint: "уверен (м. р., -ęs)"
+    translation: "Я уверен, что он врёт."
+  - type: cloze
+    text: "Tu ___, Rasa."
+    answer: "teisi"
+    hint: "права (ж. р.)"
+    translation: "Ты права, Раса."
+  - type: cloze
+    text: "Gal ir taip, ___ aš kitaip manau."
+    answer: "bet"
+    hint: "но"
+    translation: "Может, и так, но я думаю иначе."
+  - type: cloze
+    text: "Iš ___ sutinku su jumis."
+    answer: "dalies"
+    hint: "отчасти (iš ___)"
+    translation: "Отчасти я с вами согласен."
+  - type: cloze
+    text: "Leisk ___ nesutikti."
+    answer: "man"
+    hint: "позволь (мне) не согласиться"
+    translation: "Позволь мне не согласиться."

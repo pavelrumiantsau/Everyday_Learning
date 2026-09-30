@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0050
+cefr: B1
+order: 50
+title: "No sé si viene, dime dónde vives: indirect questions"
+explanation:
+  en: |
+    A question inside another sentence:
+
+    - **yes/no questions → si** (if, whether): *¿Viene?* → *No sé **si** viene.* *Me preguntó **si** tenía hambre.*
+    - **question words stay, with their accent**: *No sé **dónde** vive.* *Dime **qué** quieres.* *No recuerdo **cómo** se llama.* *¿Sabes **cuándo** empieza?*
+    - the word order is normal (no inversion needed): *No sé dónde está la estación.*
+    - **reported in the past** — tenses shift back, like in reported speech: *«¿Dónde vives?»* → *Me preguntó dónde **vivía**.*
+    - *Dime qué quieres* = *Dime **lo que** quieres* (both are fine)
+comparison:
+  en: |
+    As in English: "I don't know if he's coming", "Tell me where you live". Remember the written accent — *dónde, qué, cómo, cuándo, cuánto* keep it even inside the sentence — and *si* (if) has **no** accent (*sí* = yes).
+examples:
+  - { text: "No sé si lloverá.", translation: "I don't know if it's going to rain.", source: "tatoeba:7114885" }
+  - { text: "Dime qué pasó.", translation: "Tell me what happened.", source: "tatoeba:1309145" }
+  - { text: "No sé por qué.", translation: "I don't know why.", source: "tatoeba:861928" }
+  - { text: "Dime qué hacer.", translation: "Tell me what to do.", source: "tatoeba:426731" }
+  - { text: "No sé si lo sabe.", translation: "I don't know if he knows it.", source: "tatoeba:1332531" }
+exercises:
+  - type: cloze
+    text: "No sé ___ viene mañana."
+    answer: "si"
+    hint: "if, whether"
+    translation: "I don't know if he's coming tomorrow."
+  - type: cloze
+    text: "Dime ___ vives."
+    answer: "dónde"
+    hint: "where"
+    translation: "Tell me where you live."
+  - type: cloze
+    text: "Me preguntó ___ tenía hambre."
+    answer: "si"
+    hint: "if"
+    translation: "He asked me if I was hungry."
+  - type: cloze
+    text: "No recuerdo ___ se llama."
+    answer: "cómo"
+    hint: "how (what his name is)"
+    translation: "I don't remember what he's called."
+  - type: cloze
+    text: "¿Sabes ___ empieza la película?"
+    answer: "cuándo"
+    hint: "when"
+    translation: "Do you know when the film starts?"
+  - type: cloze
+    text: "Le pregunté ___ costaba."
+    answer: "cuánto"
+    hint: "how much"
+    translation: "I asked him how much it cost."
+  - type: cloze
+    text: "Me preguntó dónde ___."
+    answer: "vivía"
+    hint: "vivir, yo — reported in the past"
+    translation: "He asked me where I lived."
+  - type: cloze
+    text: "No entiendo ___ lo hiciste."
+    answer: "por qué"
+    hint: "why"
+    translation: "I don't understand why you did it."

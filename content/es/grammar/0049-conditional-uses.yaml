@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0049
+cefr: B1
+order: 49
+title: "¿Podría…?, deberías, serían las tres: uses of the conditional"
+explanation:
+  en: |
+    Besides "would" in *si* clauses, the conditional has four everyday jobs:
+
+    - **politeness:** *¿**Podría** ayudarme?* — Could you help me? *Me **gustaría** un café.* *¿Te **importaría** cerrar la ventana?* (*quisiera* is also very polite)
+    - **advice:** ***Deberías** descansar.* — You should rest. ***Yo que tú**, no lo **haría**.* — If I were you, I wouldn't do it.
+    - **a guess about the past:** *Cuando llegó, **serían** las diez.* — It must have been about ten. (A guess about the present uses the future: *Serán las diez.* — It must be about ten now.)
+    - **the future seen from the past:** *Dijo que **vendría**.* — He said he would come.
+
+    Irregular stems are the same as in the future: *podr-, querr-, har-, dir-, tendr-, vendr-, sabr-, saldr-, pondr-, habr-* + *-ía*.
+comparison:
+  en: |
+    English uses "would / could / should / must have been" — Spanish packs all of them into one form. Russian often uses «бы» (мне бы хотелось = *me gustaría*), but for guesses it needs a word: «было, наверное, часов десять» = *serían las diez*.
+examples:
+  - { text: "Me gustaría ir.", translation: "I'd like to go.", source: "tatoeba:758100" }
+  - { text: "Deberías ir.", translation: "You should go.", source: "tatoeba:1055516" }
+  - { text: "Serían las tres de la tarde.", translation: "It would be three in the afternoon.", source: "tatoeba:711122" }
+  - { text: "Sería un placer.", translation: "It would be a pleasure.", source: "tatoeba:995305" }
+  - { text: "Tom me preguntó si estaría en casa esta noche.", translation: "Tom asked me if I would be home this evening.", source: "tatoeba:3445435" }
+exercises:
+  - type: cloze
+    text: "¿___ ayudarme, por favor?"
+    answer: "Podría"
+    hint: "poder, usted (polite)"
+    translation: "Could you help me, please?"
+  - type: cloze
+    text: "Me ___ un café, por favor."
+    answer: "gustaría"
+    hint: "gustar (polite wish)"
+    translation: "I'd like a coffee, please."
+  - type: cloze
+    text: "___ descansar más."
+    answer: "Deberías"
+    hint: "deber, tú (advice)"
+    translation: "You should rest more."
+  - type: cloze
+    text: "Yo que tú, no lo ___."
+    answer: "haría"
+    hint: "hacer, yo"
+    translation: "If I were you, I wouldn't do it."
+  - type: cloze
+    text: "Cuando llegó, ___ las diez."
+    answer: "serían"
+    hint: "ser (a guess about the past)"
+    translation: "It must have been about ten when he arrived."
+  - type: cloze
+    text: "Dijo que ___ mañana."
+    answer: "vendría"
+    hint: "venir, él (future in the past)"
+    translation: "He said he would come tomorrow."
+  - type: cloze
+    text: "¿Te ___ cerrar la ventana?"
+    answer: "importaría"
+    hint: "importar (polite request)"
+    translation: "Would you mind closing the window?"
+  - type: cloze
+    text: "Sin ti, no ___ qué hacer."
+    answer: "sabría"
+    hint: "saber, yo"
+    translation: "Without you, I wouldn't know what to do."

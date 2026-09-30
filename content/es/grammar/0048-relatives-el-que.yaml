@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0048
+cefr: B1
+order: 48
+title: "La casa en la que vivo, lo cual: relatives after prepositions"
+explanation:
+  en: |
+    After a **preposition**, Spanish relative clauses use **el que, la que, los que, las que** (agreeing with the noun):
+    - *la casa **en la que** vivo* — the house I live in
+    - *el pueblo **en el que** nací*; *el chico **con el que** hablaste*; *la razón **por la que** se fue*
+    - for people, **quien** is also common: *la persona **con quien** trabajo*
+    - *el cual, la cual…* mean the same — more formal, written
+
+    **el que / la que** without a noun = "the one who / which": *Coge **el que** quieras.* *Los que lleguen tarde no entran.*
+
+    **lo cual / lo que** = "which" referring to a **whole idea**: *Llegó tarde, **lo cual** me molestó.* — He was late, which annoyed me.
+comparison:
+  en: |
+    English can drop the relative and leave the preposition at the end ("the house I live in"); Spanish can't: the preposition goes **first** and the article must be there — *la casa **en la que** vivo*, never ~~la casa que vivo en~~. Russian works the same way: «дом, **в котором** я живу».
+examples:
+  - { text: "Es la casa en la que vive él.", translation: "This is the house that he lives in.", source: "tatoeba:980305" }
+  - { text: "Es el pueblo en el que nací.", translation: "This is the village where I was born.", source: "tatoeba:1250899" }
+  - { text: "Coge el que quieras.", translation: "Take whichever you like.", source: "tatoeba:864552" }
+  - { text: "No dije nada, lo cual le hizo enfadar.", translation: "I said nothing, which made him angry.", source: "tatoeba:702646" }
+  - { text: "Ella dijo que volvería, lo cual era mentira.", translation: "She said that she would come back again, which was a lie.", source: "tatoeba:1853398" }
+exercises:
+  - type: cloze
+    text: "Esta es la casa en ___ que nací."
+    answer: "la"
+    hint: "article agreeing with casa"
+    translation: "This is the house I was born in."
+  - type: cloze
+    text: "El chico con el ___ hablaste es mi primo."
+    answer: "que"
+    hint: "el ___"
+    translation: "The boy you talked to is my cousin."
+  - type: cloze
+    text: "No sé la razón por la ___ se fue."
+    answer: "que"
+    hint: "la ___"
+    translation: "I don't know the reason why he left."
+  - type: cloze
+    text: "Llegó tarde, lo ___ me molestó mucho."
+    answer: "cual"
+    hint: "which (the whole idea)"
+    translation: "He arrived late, which annoyed me a lot."
+  - type: cloze
+    text: "Coge ___ que más te guste."
+    answer: "el"
+    hint: "the one (masculine)"
+    translation: "Take the one you like best."
+  - type: cloze
+    text: "El pueblo en ___ que crecí es muy bonito."
+    answer: "el"
+    hint: "article agreeing with pueblo"
+    translation: "The village I grew up in is very pretty."
+  - type: cloze
+    text: "Es la persona con ___ trabajo."
+    answer: "quien"
+    hint: "people after a preposition"
+    translation: "She's the person I work with."
+  - type: cloze
+    text: "Me dijo que vendría, ___ cual era mentira."
+    answer: "lo"
+    hint: "lo ___"
+    translation: "He told me he would come, which was a lie."
