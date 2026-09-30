@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0058
+cefr: B2
+order: 58
+title: "Разговорная речь: einam, daryt, mokaus — и как это пишется"
+explanation:
+  ru: |
+    В разговоре, сериалах, подкастах и чатах литовцы «съедают» конечные гласные. Эти формы нужно **узнавать на слух**, а в письменном тексте (письмо, экзамен) — писать полностью.
+
+    - инфинитив **-ti → -t**: *daryt, eit, miegot, padėt* = *daryti, eiti, miegoti, padėti*
+    - «мы» **-me → -m**: *einam, darom, buvom, eisim* = *einame, darome, buvome, eisime*
+    - «вы» **-te → -t**: *einat, darot, buvot* = *einate, darote, buvote*
+    - возвратное **-si → -s**: *mokaus, džiaugiuos, juokies* = *mokausi, džiaugiuosi, juokiesi*
+    - *Einam!* в разговоре — «пошли!» (письменно *eime / eikime*)
+    - вопрос без ***ar***: *Eini?* — в аккуратном письменном тексте лучше *Ar eini?*
+
+    Разговорные слова: *jo* — да (нейтрально *taip*), *nu* — ну, *žodžiu* — короче, *šiaip* — вообще-то, *faina* — классно.
+comparison:
+  ru: |
+    Как русские «щас», «чё», «ваще»: в разговоре норма, в деловом письме — нет. Окончание 3-го лица (*eina, darė*) не сокращается, поэтому по нему легко понять, какая полная форма имеется в виду: *darom* → *darome*.
+examples:
+  - { text: "Einam maudytis!", translation: "Пойдём купаться!", source: "tatoeba:12209713" }
+  - { text: "Aš einu miegot.", translation: "Я иду спать.", source: "tatoeba:3610690" }
+  - { text: "Kas nors gali padėt?", translation: "Кто-нибудь может помочь?", source: "tatoeba:3580272" }
+  - { text: "Aš ilgėsiuos.", translation: "Я буду скучать.", source: "tatoeba:8917888" }
+  - { text: "Einam pažaisim su kamuoliuku.", translation: "Идём поиграем с мячиком.", source: "tatoeba:3998834" }
+exercises:
+  - type: cloze
+    text: "Rytoj mes ___ į kiną."
+    answer: "einame"
+    hint: "разг. einam → письменно"
+    translation: "Завтра мы идём в кино."
+  - type: cloze
+    text: "Aš nenoriu ___ namų darbų."
+    answer: "daryti"
+    hint: "разг. daryt → письменно"
+    translation: "Я не хочу делать домашнее задание."
+  - type: cloze
+    text: "Ar jūs ___ lietuviškai?"
+    answer: "kalbate"
+    hint: "разг. kalbat → письменно"
+    translation: "Вы говорите по-литовски?"
+  - type: cloze
+    text: "Aš ___ lietuvių kalbos."
+    answer: "mokausi"
+    hint: "разг. mokaus → письменно"
+    translation: "Я учу литовский язык."
+  - type: cloze
+    text: "Vakar mes ___ labai pavargę."
+    answer: "buvome"
+    hint: "разг. buvom → письменно"
+    translation: "Вчера мы были очень уставшие."
+  - type: cloze
+    text: "___ tu rytoj dirbi?"
+    answer: "Ar"
+    hint: "в разговоре часто опускают"
+    translation: "Ты завтра работаешь?"
+  - type: cloze
+    text: "Labai ___, kad atvažiavai!"
+    answer: "džiaugiuosi"
+    hint: "разг. džiaugiuos → письменно"
+    translation: "Очень рад, что ты приехал!"
+  - type: cloze
+    text: "– Ar tu pavargęs? – ___, labai."
+    answer: "Taip"
+    hint: "разг. jo → нейтрально"
+    translation: "— Ты устал? — Да, очень."

@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0059
+cefr: B2
+order: 59
+title: "Жалоба: neveikia, prašau grąžinti pinigus, reikalauju kompensacijos"
+explanation:
+  ru: |
+    Жалоба (*skundas*) — частое задание на B2 и полезная вещь в жизни. Обращение и вежливые фразы были в уроке о деловом письме; здесь — **содержание** жалобы по шагам.
+
+    - **повод:** *Noriu pateikti skundą **dėl**…* (+ род. п.), *Esu **nepatenkintas** (nepatenkinta) Jūsų aptarnavimu* (недоволен + твор. п.)
+    - **что случилось:** *Prekė **sugedo** po savaitės.* (сломался), *Skalbimo mašina **neveikia**.*, *Siuntinys buvo pristatytas **pavėluotai**.* (с опозданием), *Prekė **neatitinka** aprašymo.* (не соответствует описанию)
+    - **чего хочешь:** *Prašau **grąžinti pinigus** / **pakeisti prekę** / nemokamai **sutaisyti**.*, ***Reikalauju** kompensacijos.* — *reikalauti* + **род. п.** (требовать чего)
+    - **срок и что дальше:** *Tikiuosi, kad problema bus **išspręsta** per 14 dienų. **Priešingu atveju** būsiu **priverstas** (priversta) kreiptis į Valstybinę vartotojų teisių apsaugos tarnybą.* (иначе буду вынужден обратиться в службу защиты прав потребителей)
+    - **вложение:** *Pridedu pirkimo čekio kopiją.*
+
+    Жаловаться: ***skųstis*** + твор. п. или *dėl* + род. п.: *skundžiasi galvos skausmu*, *skundžiasi dėl triukšmo*.
+comparison:
+  ru: |
+    «Требовать чего» — тоже родительный: *reikalauju kompensacijos* = требую компенсации. *Atitikti* («соответствовать») берёт винительный (*atitinka reikalavimus*), но после *ne-* — родительный: *neatitinka aprašymo*. Русизм ✗ *skųstis ant ko* («жаловаться на») — правильно *skųstis kuo* или *dėl ko*.
+examples:
+  - { text: "Internetas neveikia.", translation: "Интернет не работает.", source: "tatoeba:12290982" }
+  - { text: "Radijas sugedo.", translation: "Радио сломано.", source: "tatoeba:3088655" }
+  - { text: "Mes gavome skundą.", translation: "Мы получили жалобу.", source: "tatoeba:8082229" }
+  - { text: "Problema reikalauja sprendimo.", translation: "Проблема требует решения.", source: "tatoeba:13899378" }
+  - { text: "Jis man grąžino pinigus.", translation: "Он вернул мне деньги.", source: "tatoeba:11354992" }
+exercises:
+  - type: cloze
+    text: "Noriu pateikti skundą ___ netinkamo aptarnavimo."
+    answer: "dėl"
+    hint: "по поводу (+ род. п.)"
+    translation: "Хочу подать жалобу на плохое обслуживание."
+  - type: cloze
+    text: "Nupirktas šaldytuvas ___ jau antrą savaitę."
+    answer: "neveikia"
+    hint: "не работает"
+    translation: "Купленный холодильник не работает уже вторую неделю."
+  - type: cloze
+    text: "Reikalauju ___ už sugadintą prekę."
+    answer: "kompensacijos"
+    hint: "kompensacija → reikalauti + род. п."
+    translation: "Требую компенсации за испорченный товар."
+  - type: cloze
+    text: "Prašau ___ man pinigus."
+    answer: "grąžinti"
+    hint: "вернуть"
+    translation: "Прошу вернуть мне деньги."
+  - type: cloze
+    text: "Gauta prekė neatitinka ___."
+    answer: "aprašymo"
+    hint: "aprašymas → род. п. после отрицания"
+    translation: "Полученный товар не соответствует описанию."
+  - type: cloze
+    text: "Esu labai nepatenkinta Jūsų ___."
+    answer: "aptarnavimu"
+    hint: "aptarnavimas → твор. п."
+    translation: "Я очень недовольна вашим обслуживанием."
+  - type: cloze
+    text: "Priešingu atveju būsiu ___ kreiptis į teismą."
+    answer: "priverstas"
+    hint: "вынужден"
+    translation: "В противном случае я буду вынужден обратиться в суд."
+  - type: cloze
+    text: "Siuntinys buvo pristatytas ___."
+    answer: "pavėluotai"
+    hint: "с опозданием"
+    translation: "Посылка была доставлена с опозданием."

@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0053
+cefr: B1
+order: 53
+title: "Dentro de, en, al cabo de, a los…: time expressions"
+explanation:
+  en: |
+    - **dentro de** + time — "in … (from now)": *Vuelvo **dentro de** una hora.* *dentro de poco* — soon
+    - **en** + time — how long something takes: *Lo hice **en** una hora.* In everyday speech (especially in Latin America) *en una hora* also means "an hour from now": *Te veo en una hora.*
+    - **hace** + time — "ago": *Llegué **hace** dos días.* (and *desde hace* — see the lesson on *soler* and *hace… que*)
+    - **al cabo de / después de** + time — "after (time had passed)", in a story: *Volvió **al cabo de** un rato.*
+    - **a los** + time — "… later" in a story; also age: *Se conocieron en mayo y **a los** tres meses se casaron.* *Aprendió a leer **a los** cinco años.*
+    - **durante** + time — "for": *Llovió **durante** tres días.* (often no preposition: *Estudié dos horas.*)
+    - **hasta** — until: *Espera **hasta** las seis.* **de… a** / **desde… hasta** — from … to: *de nueve a cinco*
+    - **pasado mañana** — the day after tomorrow; **anteayer** — the day before yesterday
+comparison:
+  en: |
+    English "in two hours" covers two Spanish ideas that Russian also keeps apart: «через два часа» = ***dentro de** dos horas*, «за два часа» = ***en** dos horas*. «Через три месяца» in a story about the past = ***a los** tres meses* or ***al cabo de** tres meses*.
+examples:
+  - { text: "Te veré dentro de tres horas.", translation: "I'll see you in three hours.", source: "tatoeba:3534016" }
+  - { text: "Va a llover dentro de poco.", translation: "It is going to rain soon.", source: "tatoeba:345299" }
+  - { text: "Regresaste al cabo de un rato.", translation: "You came back after a short while.", source: "tatoeba:6564577" }
+  - { text: "Llovió durante tres días.", translation: "It rained for three days.", source: "tatoeba:3947668" }
+  - { text: "Pablo aprendió a leer a los cinco años.", translation: "Pablo learned to read when he was five years old.", source: "tatoeba:5028024" }
+exercises:
+  - type: cloze
+    text: "Vuelvo ___ de diez minutos."
+    answer: "dentro"
+    hint: "ten minutes from now"
+    translation: "I'll be back in ten minutes."
+  - type: cloze
+    text: "Terminé el examen ___ media hora."
+    answer: "en"
+    hint: "how long it took"
+    translation: "I finished the exam in half an hour."
+  - type: cloze
+    text: "Llegué a Madrid ___ tres días."
+    answer: "hace"
+    hint: "ago"
+    translation: "I arrived in Madrid three days ago."
+  - type: cloze
+    text: "Se conocieron en enero y ___ los seis meses se casaron."
+    answer: "a"
+    hint: "six months later"
+    translation: "They met in January and six months later they got married."
+  - type: cloze
+    text: "Esperamos, y al ___ de una hora llegó el tren."
+    answer: "cabo"
+    hint: "after an hour had passed"
+    translation: "We waited, and after an hour the train arrived."
+  - type: cloze
+    text: "Viví en Lima ___ dos años."
+    answer: "durante"
+    hint: "for (a period): d…"
+    translation: "I lived in Lima for two years."
+  - type: cloze
+    text: "La tienda está abierta de nueve ___ ocho."
+    answer: "a"
+    hint: "from … to"
+    translation: "The shop is open from nine to eight."
+  - type: cloze
+    text: "La reunión no es mañana, es ___ mañana."
+    answer: "pasado"
+    hint: "the day after tomorrow"
+    translation: "The meeting isn't tomorrow, it's the day after tomorrow."
