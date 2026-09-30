@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0051
+cefr: B1
+order: 51
+title: "Por or para? A B1 review"
+explanation:
+  en: |
+    **por** — the cause, the route, the means, the exchange:
+    - cause, reason: *Gracias **por** todo.* *Lo hice **por** ti.* ***por** eso* = that's why
+    - through, along, around: *Mira **por** la ventana.* *Paseamos **por** el parque.*
+    - means: ***por** teléfono, **por** correo*
+    - part of the day: ***por** la mañana, **por** la tarde*
+    - exchange, price: *Lo compré **por** diez euros.*
+    - rate: *dos veces **por** semana, cien **por** ciento*
+    - agent in the passive: *escrito **por** Cervantes*
+
+    **para** — the goal, the destination, the deadline, the recipient:
+    - purpose (+ infinitive): *Leo **para** aprender.*
+    - destination: *Salgo **para** Madrid.*
+    - deadline: *Lo necesito **para** mañana.*
+    - recipient: *Es **para** ti.*
+    - opinion: ***Para** mí, es la mejor.*
+    - comparison with what is expected: ***Para** ser niño, habla muy bien.*
+comparison:
+  en: |
+    A rule of thumb: **por** looks back (why? the cause; through what?), **para** looks forward (what for? where to? by when? for whom?). *Lo hago **por** ti* = because of you / on your behalf; *Lo hago **para** ti* = it's a present for you.
+examples:
+  - { text: "Gracias por todo.", translation: "Thanks for everything.", source: "tatoeba:878507" }
+  - { text: "Miró por la ventana.", translation: "He looked out of the window.", source: "tatoeba:434967" }
+  - { text: "Hablé por teléfono.", translation: "I talked on the telephone.", source: "tatoeba:356124" }
+  - { text: "Leo para aprender.", translation: "I read in order to learn.", source: "tatoeba:951259" }
+  - { text: "Lo necesito para mañana.", translation: "I need it by tomorrow.", source: "tatoeba:436856" }
+exercises:
+  - type: cloze
+    text: "Gracias ___ tu ayuda."
+    answer: "por"
+    hint: "cause"
+    translation: "Thanks for your help."
+  - type: cloze
+    text: "Este regalo es ___ ti."
+    answer: "para"
+    hint: "recipient"
+    translation: "This present is for you."
+  - type: cloze
+    text: "Estudio español ___ viajar a México."
+    answer: "para"
+    hint: "purpose"
+    translation: "I'm studying Spanish to travel to Mexico."
+  - type: cloze
+    text: "Paseamos ___ el parque."
+    answer: "por"
+    hint: "through, around"
+    translation: "We walked around the park."
+  - type: cloze
+    text: "Necesito el informe ___ el viernes."
+    answer: "para"
+    hint: "deadline"
+    translation: "I need the report by Friday."
+  - type: cloze
+    text: "Voy al gimnasio dos veces ___ semana."
+    answer: "por"
+    hint: "rate"
+    translation: "I go to the gym twice a week."
+  - type: cloze
+    text: "Lo compré ___ veinte euros."
+    answer: "por"
+    hint: "price, exchange"
+    translation: "I bought it for twenty euros."
+  - type: cloze
+    text: "___ mí, es la mejor película del año."
+    answer: "Para"
+    hint: "opinion"
+    translation: "For me, it's the best film of the year."

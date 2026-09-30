@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0057
+cefr: B1
+order: 57
+title: "Verta, užtenka, galima, teko: безличные слова"
+explanation:
+  ru: |
+    Много частых фраз строятся без подлежащего — как русские «стоит, хватит, можно, пришлось»:
+
+    - **verta** + инф. — стоит: *Verta pamėginti.* — стоит попробовать; *Neverta jaudintis.* — не стоит волноваться; *verta dėmesio* — достойно внимания (род. п.)
+    - **užtenka / pakanka** — хватит, достаточно: *Užtenka!*; *Užtenka laiko.* (+ род. п.); *Mums neužtenka pinigų.*
+    - **galima / negalima** — можно / нельзя: *Ar čia galima fotografuoti?*; после *negalima* дополнение в **родительном**: *Negalima liesti eksponatų.*
+    - **reikia** — нужно (урок о дательном): *Man reikia eiti.*
+    - **teko** (*tekti*) + дательный + инф. — пришлось: *Man teko ilgai laukti.*
+    - **smagu, malonu, lengva, sunku** + инф.: *Smagu tave matyti!* — рад тебя видеть; *Malonu susipažinti.*
+comparison:
+  ru: |
+    Совпадает с русским почти дословно: *verta* = «стоит», *užtenka* = «хватит», *teko* = «пришлось», *malonu susipažinti* = «приятно познакомиться». Отличие: кому — всегда **дательный** (*man teko, mums užtenka*), а после отрицания — родительный (*negalima liesti eksponatų*).
+examples:
+  - { text: "Verta pamėginti.", translation: "Стоит попробовать.", source: "tatoeba:13773562" }
+  - { text: "Buvo verta laukti.", translation: "Ожидание того стоило.", source: "tatoeba:13402004" }
+  - { text: "Užtenka.", translation: "Хватит.", source: "tatoeba:12174877" }
+  - { text: "Negalima.", translation: "Нельзя.", source: "tatoeba:12099102" }
+  - { text: "Užtenka karo!", translation: "Хватит войны!", source: "tatoeba:9996229" }
+exercises:
+  - type: cloze
+    text: "Šį filmą tikrai ___ pamatyti."
+    answer: "verta"
+    hint: "стоит"
+    translation: "Этот фильм действительно стоит посмотреть."
+  - type: cloze
+    text: "___ kalbėti, eime!"
+    answer: "Užtenka"
+    hint: "хватит"
+    translation: "Хватит разговаривать, пошли!"
+  - type: cloze
+    text: "Ar čia ___ fotografuoti?"
+    answer: "galima"
+    hint: "можно"
+    translation: "Здесь можно фотографировать?"
+  - type: cloze
+    text: "Muziejuje negalima liesti ___."
+    answer: "eksponatų"
+    hint: "eksponatai → род. п. после отрицания"
+    translation: "В музее нельзя трогать экспонаты."
+  - type: cloze
+    text: "Man ___ ilgai laukti autobuso."
+    answer: "teko"
+    hint: "пришлось (tekti, прош. вр.)"
+    translation: "Мне пришлось долго ждать автобуса."
+  - type: cloze
+    text: "___ jaudintis, viskas bus gerai."
+    answer: "Neverta"
+    hint: "не стоит"
+    translation: "Не стоит волноваться, всё будет хорошо."
+  - type: cloze
+    text: "Mums neužtenka ___."
+    answer: "laiko"
+    hint: "laikas → род. п."
+    translation: "Нам не хватает времени."
+  - type: cloze
+    text: "Smagu tave ___!"
+    answer: "matyti"
+    hint: "видеть (инфинитив)"
+    translation: "Рад тебя видеть!"

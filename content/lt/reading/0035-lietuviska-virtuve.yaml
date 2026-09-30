@@ -24,7 +24,7 @@ glossary:
   - { word: "grietine", lemma: "grietinė", pos: noun, gender: f, gen: "grietinės", meaning: "сметана", note: "твор. п." }
   - { word: "patiekalų", lemma: "patiekalas", pos: noun, gender: m, gen: "patiekalo", meaning: "блюдо", note: "род. п. мн. ч." }
   - { word: "plokštainis", lemma: "plokštainis", pos: noun, gender: m, gen: "plokštainio", meaning: "запеканка", note: "bulvių plokštainis — картофельная запеканка (кугелис)" }
-  - { word: "vėdarai", lemma: "vėdarai", pos: noun, gender: m, gen: "vėdarų", meaning: "вëдарай (колбаски из картофеля)", note: "обычно мн. ч." }
+  - { word: "vėdarai", lemma: "vėdarai", pos: noun, gender: m, gen: "vėdarų", meaning: "вядарай (картофельные колбаски)", note: "обычно мн. ч." }
   - { word: "burokėlių", lemma: "burokėlis", pos: noun, gender: m, gen: "burokėlio", meaning: "свёкла", note: "род. п. мн. ч." }
   - { word: "valgyta", lemma: "valgyti", meaning: "есть", note: "безл. страд. прич.: kai valgyta — когда ели" }
   - { word: "ruginė", lemma: "ruginis", pos: adj, meaning: "ржаной" }

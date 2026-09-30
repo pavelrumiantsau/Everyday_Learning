@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0022
+cefr: A1
+order: 112
+title: "Reflexive verbs: je me lève, tu te couches"
+explanation:
+  en: |
+    Reflexive verbs have a pronoun that matches the subject:
+    - *je **me** lève, tu **te** lèves, il/elle/on **se** lève, nous **nous** levons, vous **vous** levez, ils/elles **se** lèvent*
+    - before a vowel: **m', t', s'** — *je **m'**appelle, il **s'**habille*
+
+    Common ones: *se lever, se coucher, se laver, s'habiller, se réveiller, s'appeler, se dépêcher, s'asseoir, se souvenir, s'amuser*.
+
+    - **negative** — around the pronoun + verb: *Je **ne** me lève **pas** tôt.*
+    - **command** — the pronoun after, with *toi*: ***Lève-toi !** Dépêche-toi !*; negative: *Ne te lève pas.*
+    - **after another verb** the pronoun still matches: *Je vais **me** coucher.* *Tu dois **te** reposer.*
+    - **each other**: *Ils **s'**aiment.* — They love each other.
+
+    In the passé composé they use *être* (lesson "Passé composé with être"): *je me suis levé*.
+comparison:
+  en: |
+    Very close to Spanish (*me levanto, te acuestas, se llama*) and to Russian «-ся» verbs. The difference: in French the pronoun always stands before the conjugated verb, even with an infinitive (*je vais **me** coucher* ≈ ES *voy a acostarme*).
+examples:
+  - { text: "Je me lève tôt.", translation: "I get up early.", source: "tatoeba:2347563" }
+  - { text: "Je m'habille.", translation: "I'm getting dressed.", source: "tatoeba:1675990" }
+  - { text: "Lève-toi.", translation: "Get up.", source: "tatoeba:886122" }
+  - { text: "Ils s'aiment.", translation: "They love each other.", source: "tatoeba:2807937" }
+  - { text: "Tu te souviens ?", translation: "Remember?", source: "tatoeba:845610" }
+exercises:
+  - type: cloze
+    text: "Je ___ lève à sept heures."
+    answer: "me"
+    hint: "se lever, je"
+    translation: "I get up at seven."
+  - type: cloze
+    text: "Tu ___ couches tard ?"
+    answer: "te"
+    hint: "se coucher, tu"
+    translation: "Do you go to bed late?"
+  - type: cloze
+    text: "Comment vous ___ appelez ?"
+    answer: "vous"
+    hint: "s'appeler, vous"
+    translation: "What's your name?"
+  - type: cloze
+    text: "Nous ___ levons tôt."
+    answer: "nous"
+    hint: "se lever, nous"
+    translation: "We get up early."
+  - type: cloze
+    text: "Ils ___ lavent les mains."
+    answer: "se"
+    hint: "se laver, ils"
+    translation: "They wash their hands."
+  - type: cloze
+    text: "Je ne me ___ pas tôt le dimanche."
+    answer: "lève"
+    hint: "se lever, je (negative)"
+    translation: "I don't get up early on Sundays."
+  - type: cloze
+    text: "Dépêche-___ !"
+    answer: "toi"
+    hint: "command with tu"
+    translation: "Hurry up!"
+  - type: cloze
+    text: "Je vais me ___."
+    answer: "coucher"
+    hint: "se coucher, infinitive"
+    translation: "I'm going to bed."

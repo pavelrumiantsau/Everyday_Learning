@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0023
+cefr: A2
+order: 113
+title: "The imperfect: j'étais, il faisait, je jouais"
+explanation:
+  en: |
+    The **imparfait** describes the past as a background: what things were like, what used to happen, what was going on.
+
+    **Forms:** take the *nous* form of the present, drop *-ons*, add **-ais, -ais, -ait, -ions, -iez, -aient**:
+    - *parler (nous parl**ons**) → je parl**ais**, tu parl**ais**, il parl**ait**, nous parl**ions**, vous parl**iez**, ils parl**aient***
+    - *faire (nous fais**ons**) → je faisais*; *boire (nous buv**ons**) → je buvais*; *finir (nous finiss**ons**) → je finissais*
+    - only exception: **être → j'étais**
+
+    **Uses:**
+    - description: *Il faisait beau. J'étais fatigué.*
+    - habits, "used to": *Quand j'étais petit, je jouais au foot.* *Avant, je buvais du thé.*
+    - something in progress when something else happened: *Il **pleuvait** quand je **suis sorti**.* — the imperfect sets the scene, the passé composé tells the event.
+
+    *-ais, -ait, -aient* sound the same [ɛ].
+comparison:
+  en: |
+    It matches the Spanish imperfect almost exactly (*hablaba, hacía, era* = *parlais, faisais, étais*), and the choice between imparfait and passé composé works like Spanish imperfect vs preterite. For Russian speakers: imparfait ≈ несовершенный вид в прошлом («играл, бывало»), passé composé ≈ совершенный («сыграл»).
+examples:
+  - { text: "Quand j'étais petite, je croyais au Père Noël.", translation: "When I was little, I believed in Santa.", source: "tatoeba:9497535" }
+  - { text: "Quand j'étais petit, je tenais un journal.", translation: "When I was small I kept a diary.", source: "tatoeba:2586603" }
+  - { text: "Il pleuvait.", translation: "It was raining.", source: "tatoeba:14051" }
+  - { text: "J'avais faim.", translation: "I was hungry.", source: "tatoeba:473464" }
+  - { text: "Avant, je buvais du thé au lait.", translation: "I used to drink milk tea.", source: "tatoeba:13551422" }
+exercises:
+  - type: cloze
+    text: "Quand j'étais petit, je ___ au foot."
+    answer: "jouais"
+    hint: "jouer, je — a habit"
+    translation: "When I was little, I used to play football."
+  - type: cloze
+    text: "Il ___ beau hier."
+    answer: "faisait"
+    hint: "faire, il — description"
+    translation: "The weather was nice yesterday."
+  - type: cloze
+    text: "Nous ___ à Paris à cette époque."
+    answer: "habitions"
+    hint: "habiter, nous"
+    translation: "We lived in Paris at that time."
+  - type: cloze
+    text: "Elle ___ très fatiguée."
+    answer: "était"
+    hint: "être, elle"
+    translation: "She was very tired."
+  - type: cloze
+    text: "Tu ___ souvent la télé ?"
+    answer: "regardais"
+    hint: "regarder, tu — a habit"
+    translation: "Did you often watch TV?"
+  - type: cloze
+    text: "Ils ___ beaucoup d'amis."
+    answer: "avaient"
+    hint: "avoir, ils"
+    translation: "They had a lot of friends."
+  - type: cloze
+    text: "Il pleuvait quand je suis ___."
+    answer: "sorti"
+    hint: "sortir — the event (passé composé)"
+    translation: "It was raining when I went out."
+  - type: cloze
+    text: "Avant, on ___ du thé."
+    answer: "buvait"
+    hint: "boire, on (nous buvons → buv-)"
+    translation: "We used to drink tea."

@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0056
+cefr: B2
+order: 56
+title: "Тенденции и цифры: išaugo, sumažėjo, sudaro 20 %"
+explanation:
+  ru: |
+    В письменном задании B2 часто нужно описать график или статистику. Главные слова:
+
+    - **рост:** *didėti → padidėti*, *augti → išaugti*, *kilti → pakilti*: *Kainos kyla.* *Gyventojų skaičius padidėjo.*; вдвое, втрое — *padvigubėti, patrigubėti*
+    - **спад:** *mažėti → sumažėti*, *kristi → nukristi*: *Nedarbas sumažėjo.*
+    - **без изменений:** *išliko stabilus*, *nepasikeitė*
+    - **насколько:** *padidėjo 10 procentų* (в официальном стиле также *dešimčia procentų*, тв. п.); **до какого уровня:** *sumažėjo **iki** 6 procentų*
+    - **как быстро:** *smarkiai, gerokai, sparčiai* (резко, значительно, быстро) — *šiek tiek, nežymiai, lėtai* (немного, незначительно, медленно)
+    - **доля:** *sudaro 20 procentų* (составляет), *didžioji dalis* (большая часть), *pusė, trečdalis, ketvirtadalis*
+    - **время и сравнение:** *per pastaruosius penkerius metus* (за последние пять лет), *nuo 2015 iki 2025 metų*, *lyginant su* / *palyginti su* (по сравнению с)
+comparison:
+  ru: |
+    Почти всё как в русском («цены растут», «составляет 20 %»). Помни: несовершенный вид — процесс (*kainos kyla* — цены растут), совершенный — результат (*kainos pakilo / išaugo* — цены выросли). «За последние пять лет» — *per pastaruosius penkerius metus* (*metai* → собирательное *penkeri*).
+examples:
+  - { text: "Kainos kyla.", translation: "Цены растут.", source: "tatoeba:12163085" }
+  - { text: "Kaina padidėjo.", translation: "Цена повысилась.", source: "tatoeba:3961456" }
+  - { text: "Kainos vėl išaugo.", translation: "Цены снова выросли.", source: "tatoeba:12144868" }
+  - { text: "Nuolaida sudaro 20% kainos.", translation: "Скидка составляет 20% от цены.", source: "tatoeba:12746025" }
+  - { text: "Ji didėja.", translation: "Она увеличивается.", source: "tatoeba:12328013" }
+exercises:
+  - type: cloze
+    text: "Per pastaruosius metus kainos gerokai ___."
+    answer: "išaugo"
+    hint: "выросли (išaugti, прош. вр.)"
+    translation: "За последние годы цены значительно выросли."
+  - type: cloze
+    text: "Nedarbas ___ iki 6 procentų."
+    answer: "sumažėjo"
+    hint: "снизилась (sumažėti, прош. вр.)"
+    translation: "Безработица снизилась до 6 процентов."
+  - type: cloze
+    text: "Moterys ___ 60 procentų visų studentų."
+    answer: "sudaro"
+    hint: "составляют (sudaryti)"
+    translation: "Женщины составляют 60 процентов всех студентов."
+  - type: cloze
+    text: "Gyventojų skaičius per dešimt metų ___."
+    answer: "padvigubėjo"
+    hint: "удвоилось"
+    translation: "Число жителей за десять лет удвоилось."
+  - type: cloze
+    text: "___ su praėjusiais metais, turistų daugiau."
+    answer: "Lyginant"
+    hint: "по сравнению (lyginti → -ant)"
+    translation: "По сравнению с прошлым годом туристов больше."
+  - type: cloze
+    text: "Didžioji ___ gyventojų gyvena miestuose."
+    answer: "dalis"
+    hint: "большая часть"
+    translation: "Большая часть жителей живёт в городах."
+  - type: cloze
+    text: "Atlyginimai kyla ___, bet nuolat."
+    answer: "lėtai"
+    hint: "медленно"
+    translation: "Зарплаты растут медленно, но постоянно."
+  - type: cloze
+    text: "Per ___ penkerius metus eksportas išaugo."
+    answer: "pastaruosius"
+    hint: "последние (вин. п. мн. ч.)"
+    translation: "За последние пять лет экспорт вырос."
