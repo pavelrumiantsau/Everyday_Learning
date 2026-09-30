@@ -1,0 +1,56 @@
+id: lt-r-0047
+cefr: B2
+title: "Į mišką grybauti"
+topic: "леса, грибы и ягоды"
+source: generated
+text: |
+  Miškai dengia maždaug trečdalį Lietuvos teritorijos, todėl nenuostabu, kad jie užima svarbią vietą lietuvių gyvenime. Rudenį, vos tik pradeda lyti, šimtai žmonių ankstų rytą su krepšiais ir peiliukais traukia į mišką grybauti.
+
+  Grybavimas – ne tik būdas prisirinkti maisto. Daugeliui tai tradicija, perduodama iš kartos į kartą: seneliai moko anūkus atpažinti grybus, rodo slaptas vietas ir pasakoja, kaip grybaudavo jų pačių vaikystėje. Labiausiai vertinami baravykai, taip pat populiarios voveraitės, raudonviršiai ir ūmėdės. Grybai verdami, kepami, džiovinami, marinuojami, o žiemą ant stalo atsiranda stiklainiai su vasaros ir rudens skoniu.
+
+  Ypač garsi grybais pietryčių Lietuva – Dzūkija. Varėna net vadinama grybų sostine, o kasmet rugsėjį ten vyksta grybų šventė su mugėmis ir konkursais. Pakelėse galima sutikti žmonių, kurie parduoda ką tik surinktus grybus ir uogas. Vasarą miške renkamos mėlynės ir žemuogės, rudenį – bruknės, o pelkėse – spanguolės.
+
+  Į daugumą Lietuvos miškų galima laisvai eiti, rinkti grybus ir uogas. Tačiau rezervatuose ir kai kuriose kitose saugomose teritorijose tai draudžiama. Be to, miške negalima laužyti medžių, kūrenti laužų tam neskirtose vietose ir palikti šiukšlių.
+
+  Vis dėlto grybauti reikia atsakingai. Kasmet gydytojai praneša apie apsinuodijimus, dažniausiai todėl, kad žmonės surenka nežinomus ar netinkamus grybus. Pavojingiausia – blyškiagalvė musmirė, kurią nepatyrę grybautojai kartais supainioja su valgomais grybais. Todėl patariama rinkti tik tuos grybus, kuriuos tikrai pažįsti, o abejojant pasitarti su labiau patyrusiais.
+
+  Kita miško grėsmė – erkės. Jos gali pernešti erkinį encefalitą ir Laimo ligą, tad specialistai rekomenduoja skiepytis, dėvėti uždarus drabužius ir grįžus namo apžiūrėti visą kūną.
+
+  Nepaisant to, miškas lietuviams išlieka ramybės vieta. Čia ilsimasi nuo miesto triukšmo, vaikštoma, o kai kas tvirtina, kad geriausios mintys ateina būtent tyliai vaikštant tarp pušų su pilnu grybų krepšiu.
+glossary:
+  - { word: "grybauti", lemma: "grybauti", pos: verb, forms: { pres: "grybauja", past: "grybavo" }, meaning: "собирать грибы" }
+  - { word: "dengia", lemma: "dengti", pos: verb, forms: { pres: "dengia", past: "dengė" }, meaning: "покрывать" }
+  - { word: "trečdalį", lemma: "trečdalis", pos: noun, gender: m, gen: "trečdalio", meaning: "треть", note: "вин. п." }
+  - { word: "krepšiais", lemma: "krepšys", pos: noun, gender: m, gen: "krepšio", meaning: "корзина, сумка", note: "тв. п. мн. ч." }
+  - { word: "prisirinkti", lemma: "prisirinkti", pos: verb, forms: { pres: "prisirenka", past: "prisirinko" }, meaning: "насобирать (вдоволь)" }
+  - { word: "perduodama", lemma: "perduoti", pos: verb, forms: { pres: "perduoda", past: "perdavė" }, meaning: "передавать", note: "страд. прич. наст. вр., ж. р." }
+  - { word: "kartos", lemma: "karta", pos: noun, gender: f, gen: "kartos", meaning: "поколение", note: "iš kartos į kartą — из поколения в поколение" }
+  - { word: "atpažinti", lemma: "atpažinti", pos: verb, forms: { pres: "atpažįsta", past: "atpažino" }, meaning: "узнать, распознать" }
+  - { word: "baravykai", lemma: "baravykas", pos: noun, gender: m, gen: "baravyko", meaning: "белый гриб", note: "им. п. мн. ч." }
+  - { word: "voveraitės", lemma: "voveraitė", pos: noun, gender: f, gen: "voveraitės", meaning: "лисичка (гриб)", note: "им. п. мн. ч." }
+  - { word: "džiovinami", lemma: "džiovinti", pos: verb, forms: { pres: "džiovina", past: "džiovino" }, meaning: "сушить", note: "страд. прич. наст. вр., мн. ч." }
+  - { word: "stiklainiai", lemma: "stiklainis", pos: noun, gender: m, gen: "stiklainio", meaning: "стеклянная банка", note: "им. п. мн. ч." }
+  - { word: "Pakelėse", lemma: "pakelė", pos: noun, gender: f, gen: "pakelės", meaning: "обочина", note: "местн. п. мн. ч." }
+  - { word: "bruknės", lemma: "bruknė", pos: noun, gender: f, gen: "bruknės", meaning: "брусника", note: "им. п. мн. ч." }
+  - { word: "spanguolės", lemma: "spanguolė", pos: noun, gender: f, gen: "spanguolės", meaning: "клюква", note: "им. п. мн. ч." }
+  - { word: "apsinuodijimus", lemma: "apsinuodijimas", pos: noun, gender: m, gen: "apsinuodijimo", meaning: "отравление", note: "вин. п. мн. ч." }
+  - { word: "musmirė", lemma: "musmirė", pos: noun, gender: f, gen: "musmirės", meaning: "мухомор", note: "blyškiagalvė musmirė — бледная поганка" }
+  - { word: "supainioja", lemma: "supainioti", pos: verb, forms: { pres: "supainioja", past: "supainiojo" }, meaning: "перепутать" }
+  - { word: "erkės", lemma: "erkė", pos: noun, gender: f, gen: "erkės", meaning: "клещ", note: "им. п. мн. ч." }
+  - { word: "pernešti", lemma: "pernešti", pos: verb, forms: { pres: "perneša", past: "pernešė" }, meaning: "переносить (болезнь)" }
+  - { word: "skiepytis", lemma: "skiepytis", pos: verb, forms: { pres: "skiepijasi", past: "skiepijosi" }, meaning: "прививаться, делать прививку" }
+  - { word: "ilsimasi", lemma: "ilsėtis", pos: verb, forms: { pres: "ilsisi", past: "ilsėjosi" }, meaning: "отдыхать", note: "безличная форма: ilsimasi — отдыхают" }
+  - { word: "pušų", lemma: "pušis", pos: noun, gender: f, gen: "pušies", meaning: "сосна", note: "род. п. мн. ч." }
+  - { word: "rezervatuose", lemma: "rezervatas", pos: noun, gender: m, gen: "rezervato", meaning: "заповедник", note: "местн. п. мн. ч." }
+  - { word: "saugomose", lemma: "saugoti", pos: verb, forms: { pres: "saugo", past: "saugojo" }, meaning: "охранять", note: "страд. прич.: saugoma teritorija — охраняемая территория" }
+  - { word: "šiukšlių", lemma: "šiukšlės", pos: noun, gender: f, gen: "šiukšlių", meaning: "мусор", note: "обычно мн. ч.; род. п." }
+questions:
+  - q: "Kokią Lietuvos teritorijos dalį dengia miškai?"
+    options: ["Maždaug trečdalį", "Beveik visą", "Tik dešimtadalį"]
+    answer: 0
+  - q: "Kodėl kasmet pasitaiko apsinuodijimų grybais?"
+    options: ["Nes grybai per ilgai verdami", "Nes žmonės surenka nežinomus ar netinkamus grybus", "Nes grybų per mažai"]
+    answer: 1
+  - q: "Ką specialistai rekomenduoja dėl erkių?"
+    options: ["Nevaikščioti į mišką rudenį", "Rinkti tik baravykus", "Skiepytis, dėvėti uždarus drabužius ir apžiūrėti kūną"]
+    answer: 2

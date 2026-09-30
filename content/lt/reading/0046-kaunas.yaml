@@ -1,0 +1,54 @@
+id: lt-r-0046
+cefr: B2
+title: "Kaunas – laikinoji sostinė"
+topic: "Каунас: временная столица и модернизм"
+source: generated
+text: |
+  Kaunas yra antras pagal dydį Lietuvos miestas, įsikūręs ten, kur susitinka dvi didžiausios šalies upės – Nemunas ir Neris. Daugeliui lietuvių Kaunas – ne tik pramonės ir studentų miestas, bet ir ypatinga istorijos dalis.
+
+  1920 metais Lenkija užėmė Vilnių, ir Lietuvos valdžia persikėlė į Kauną. Beveik dvidešimt metų jis vadinosi laikinąja sostine. Per tą laiką nedidelis provincijos miestas labai pasikeitė: čia buvo statomi ministerijų pastatai, bankai, mokyklos, teatrai ir šimtai gyvenamųjų namų. 1922 metais įkurtas universitetas, kuris vėliau gavo Vytauto Didžiojo vardą.
+
+  Tuo metu Europoje populiarus buvo modernizmas – paprastos formos, dideli langai, lygios sienos. Jaunieji lietuvių architektai, studijavę užsienyje, šį stilių pritaikė savo miestui. Taip Kaune atsirado išskirtinis tarpukario architektūros ansamblis. 2023 metais modernistinis Kaunas buvo įtrauktas į UNESCO pasaulio paveldo sąrašą, o dar prieš metus miestas buvo Europos kultūros sostinė.
+
+  Tarpukariu Kaunas tapo ir kultūros centru. Čia veikė Valstybės teatras, buvo leidžiami laikraščiai, žurnalai ir knygos, o rašytojai, aktoriai bei dailininkai rinkdavosi kavinėse. Apie bohemos pamėgtą „Konrado kavinę“ Laisvės alėjoje iki šiol pasakojamos istorijos.
+
+  Su Kaunu susijusi ir svarbi Antrojo pasaulinio karo pradžios istorija. 1940 metais čia dirbęs Japonijos konsulas Čiunė Sugihara, nepaisydamas savo vyriausybės nurodymų, išdavė tūkstančius vizų žydų pabėgėliams ir taip išgelbėjo daugybę gyvybių. Jo namuose dabar veikia muziejus.
+
+  Šiandien miesto širdis – pėsčiųjų gatvė Laisvės alėja, besidriekianti per visą centrą. Senamiestyje stovi atnaujinta pilis, o netoliese esantis Pažaislio vienuolynas laikomas vienu gražiausių baroko ansamblių šiaurės rytų Europoje. Sporto mėgėjams Kaunas pirmiausia reiškia krepšinį: „Žalgirio“ rungtynės sutraukia pilną areną.
+
+  Tarp vilniečių ir kauniečių nuo seno vyksta draugiškas varžymasis: vieni didžiuojasi sostine, kiti tvirtina, kad tikroji Lietuva prasideda Kaune. Ginčas turbūt niekada nesibaigs, tačiau abu miestai vienas kitą papildo.
+glossary:
+  - { word: "laikinąja", lemma: "laikinas", pos: adj, meaning: "временный", note: "местоим. форма, тв. п.: vadinosi laikinąja sostine — называлась временной столицей" }
+  - { word: "sostinė", lemma: "sostinė", pos: noun, gender: f, gen: "sostinės", meaning: "столица" }
+  - { word: "pramonės", lemma: "pramonė", pos: noun, gender: f, gen: "pramonės", meaning: "промышленность", note: "род. п." }
+  - { word: "užėmė", lemma: "užimti", pos: verb, forms: { pres: "užima", past: "užėmė" }, meaning: "занять, захватить", note: "прош. вр." }
+  - { word: "valdžia", lemma: "valdžia", pos: noun, gender: f, gen: "valdžios", meaning: "власть, правительство" }
+  - { word: "persikėlė", lemma: "persikelti", pos: verb, forms: { pres: "persikelia", past: "persikėlė" }, meaning: "переехать, переселиться", note: "прош. вр." }
+  - { word: "ministerijų", lemma: "ministerija", pos: noun, gender: f, gen: "ministerijos", meaning: "министерство", note: "род. п. мн. ч." }
+  - { word: "įkurtas", lemma: "įkurti", pos: verb, forms: { pres: "įkuria", past: "įkūrė" }, meaning: "основать", note: "страд. прич.: был основан" }
+  - { word: "lygios", lemma: "lygus", pos: adj, meaning: "ровный, гладкий", note: "ж. р. мн. ч." }
+  - { word: "pritaikė", lemma: "pritaikyti", pos: verb, forms: { pres: "pritaiko", past: "pritaikė" }, meaning: "применить, приспособить", note: "прош. вр." }
+  - { word: "išskirtinis", lemma: "išskirtinis", pos: adj, meaning: "исключительный, особенный" }
+  - { word: "tarpukario", lemma: "tarpukaris", pos: noun, gender: m, gen: "tarpukario", meaning: "межвоенный период", note: "род. п.: tarpukario architektūra — межвоенная архитектура" }
+  - { word: "įtrauktas", lemma: "įtraukti", pos: verb, forms: { pres: "įtraukia", past: "įtraukė" }, meaning: "включить", note: "страд. прич.: был включён" }
+  - { word: "paveldo", lemma: "paveldas", pos: noun, gender: m, gen: "paveldo", meaning: "наследие", note: "pasaulio paveldas — всемирное наследие" }
+  - { word: "nepaisydamas", lemma: "nepaisyti", pos: verb, forms: { pres: "nepaiso", past: "nepaisė" }, meaning: "не считаться, пренебречь (чем — род. п.)", note: "полупричастие: не считаясь с…" }
+  - { word: "nurodymų", lemma: "nurodymas", pos: noun, gender: m, gen: "nurodymo", meaning: "указание, распоряжение", note: "род. п. мн. ч." }
+  - { word: "išdavė", lemma: "išduoti", pos: verb, forms: { pres: "išduoda", past: "išdavė" }, meaning: "выдать; предать", note: "здесь: выдал (визы)" }
+  - { word: "besidriekianti", lemma: "driektis", pos: verb, forms: { pres: "driekiasi", past: "driekėsi" }, meaning: "тянуться, простираться", note: "действ. прич. наст. вр. (be-…-si), ж. р." }
+  - { word: "vienuolynas", lemma: "vienuolynas", pos: noun, gender: m, gen: "vienuolyno", meaning: "монастырь" }
+  - { word: "sutraukia", lemma: "sutraukti", pos: verb, forms: { pres: "sutraukia", past: "sutraukė" }, meaning: "собрать, привлечь (людей)" }
+  - { word: "varžymasis", lemma: "varžymasis", pos: noun, gender: m, gen: "varžymosi", meaning: "соперничество" }
+  - { word: "papildo", lemma: "papildyti", pos: verb, forms: { pres: "papildo", past: "papildė" }, meaning: "дополнять" }
+  - { word: "bohemos", lemma: "bohema", pos: noun, gender: f, gen: "bohemos", meaning: "богема", note: "род. п." }
+  - { word: "rinkdavosi", lemma: "rinktis", pos: verb, forms: { pres: "renkasi", past: "rinkosi" }, meaning: "собираться", note: "многократное прошедшее: обычно собирались" }
+questions:
+  - q: "Kodėl Kaunas tapo laikinąja sostine?"
+    options: ["Nes 1920 metais Lenkija užėmė Vilnių", "Nes Kaune buvo daugiau gyventojų", "Nes Vilnius nukentėjo nuo potvynio"]
+    answer: 0
+  - q: "Kas 2023 metais buvo įtraukta į UNESCO pasaulio paveldo sąrašą?"
+    options: ["Laisvės alėja", "Modernistinis Kaunas", "Pažaislio vienuolynas"]
+    answer: 1
+  - q: "Kuo žinomas Čiunė Sugihara?"
+    options: ["Jis suprojektavo Kauno pilį", "Jis įkūrė Vytauto Didžiojo universitetą", "Jis išdavė vizas žydų pabėgėliams ir išgelbėjo daug gyvybių"]
+    answer: 2
