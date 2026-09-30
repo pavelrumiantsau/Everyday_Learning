@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0063
+cefr: B1
+order: 63
+title: "Трудные склонения: akmuo, sesuo, duktė, šuo, širdis, dantis"
+explanation:
+  ru: |
+    У небольшой группы слов основа в косвенных падежах «вырастает». Тип легко узнать по **родительному**:
+
+    - **-uo → -ens** (м. р.): *akmuo → akmens*, *vanduo → vandens*, *ruduo → rudens*, *šuo → šuns*. Дальше: вин. *akmenį, šunį*, тв. *akmeniu, šunimi*, мн. ч. *akmenys, akmenų; šunys, šunų*.
+    - **-er-** (ж. р.): *sesuo → sesers*, *duktė → dukters*; дат. *seseriai*, вин. *seserį, dukterį*, тв. *seseria*, мн. ч. *seserys, dukterys*, род. мн. *seserų, dukterų*.
+    - **-is → -ies** (i-склонение): *širdis → širdies*, *naktis → nakties* (ж. р.), но и мужские: *dantis → danties*. Вин. *širdį, dantį*, тв. *širdimi, dantimi*, мн. ч. *širdys, dantys*. Сравни обычное *brolis → brolio*.
+    - **mėnuo** → *mėnesio, mėnesį*, мн. ч. *mėnesiai*.
+    - **žmogus** → мн. ч. ***žmonės***, род. *žmonių*.
+comparison:
+  ru: |
+    Это та же древняя основа, что в русском: «дочь — доч**ер**и», «мать — мат**ер**и» ≈ *duktė — dukt**er**s*, *sesuo — ses**er**s*; «камень — камня» ≈ *akmuo — akm**en**s*. Запоминай пару «им. — род.» сразу: *vanduo, vandens*.
+examples:
+  - { text: "Jis paėmė akmenį.", translation: "Он взял камень.", source: "tatoeba:12419373" }
+  - { text: "Atnešk vandens.", translation: "Принеси воды.", source: "tatoeba:13037646" }
+  - { text: "Aš turiu seserį.", translation: "У меня есть сестра.", source: "tatoeba:12220383" }
+  - { text: "Kiek jis turi dukterų?", translation: "Сколько у него дочерей?", source: "tatoeba:12282072" }
+  - { text: "Ji turi gerą širdį.", translation: "У неё доброе сердце.", source: "tatoeba:2225716" }
+exercises:
+  - type: cloze
+    text: "Butelyje nėra ___."
+    answer: "vandens"
+    hint: "vanduo → род. п."
+    translation: "В бутылке нет воды."
+  - type: cloze
+    text: "Šį ___ važiuosime į Paryžių."
+    answer: "rudenį"
+    hint: "ruduo → вин. п. (время)"
+    translation: "Этой осенью поедем в Париж."
+  - type: cloze
+    text: "Rytoj važiuosiu pas ___."
+    answer: "seserį"
+    hint: "sesuo → вин. п. (pas)"
+    translation: "Завтра поеду к сестре."
+  - type: cloze
+    text: "Jie turi tris ___."
+    answer: "dukteris"
+    hint: "duktė → вин. п. мн. ч."
+    translation: "У них три дочери."
+  - type: cloze
+    text: "Vaikai žaidžia su ___."
+    answer: "šunimi"
+    hint: "šuo → тв. п."
+    translation: "Дети играют с собакой."
+  - type: cloze
+    text: "Odontologas ištraukė man ___."
+    answer: "dantį"
+    hint: "dantis → вин. п."
+    translation: "Стоматолог удалил мне зуб."
+  - type: cloze
+    text: "Iš visos ___ dėkoju tau."
+    answer: "širdies"
+    hint: "širdis → род. п."
+    translation: "От всего сердца благодарю тебя."
+  - type: cloze
+    text: "Aikštėje buvo daug ___."
+    answer: "žmonių"
+    hint: "žmogus → род. п. мн. ч."
+    translation: "На площади было много людей."

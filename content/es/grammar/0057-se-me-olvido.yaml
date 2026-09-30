@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0057
+cefr: B1
+order: 57
+title: "Se me olvidó, se me cayó: things that just happen to you"
+explanation:
+  en: |
+    For accidents — things that happen **to** you rather than things you do on purpose — Spanish uses **se + me/te/le/nos/os/les + verb**, and the **thing** is the subject:
+    - *Se me **olvidó**.* — I forgot.
+    - *Se me **cayó** el vaso.* — I dropped the glass.
+    - *Se me **perdieron** las llaves.* — I lost my keys. (the verb agrees with *llaves*)
+    - *Se nos **acabó** la leche.* — We ran out of milk.
+    - *Se me **quedó** el móvil en casa.* — I left my phone at home.
+    - *¿Se te **ocurre** algo?* — Can you think of anything?
+
+    With a name, add *a*: ***A Tom** se le olvidó.*
+
+    Compare: *Rompí el vaso* (I broke it) vs *Se me rompió el vaso* (it broke — it wasn't really my fault).
+comparison:
+  en: |
+    Russian works the same way: «у меня **сломался** телефон», «у нас **кончилось** молоко», «мне **пришло** в голову» — the thing is the subject, the person is in the background. English makes the person the subject: "I dropped", "we ran out".
+examples:
+  - { text: "Perdón, se me olvidó.", translation: "Sorry, I forgot.", source: "tatoeba:1505946" }
+  - { text: "Creo que se me perdió la cartera.", translation: "I think I lost my wallet.", source: "tatoeba:436990" }
+  - { text: "Creo que se te cayó algo.", translation: "I think you dropped something.", source: "tatoeba:10092869" }
+  - { text: "A ella se le acabó el papel.", translation: "She ran out of paper.", source: "tatoeba:483413" }
+  - { text: "A Tom se le olvidó.", translation: "Tom forgot.", source: "tatoeba:4527595" }
+exercises:
+  - type: cloze
+    text: "Lo siento, se me ___ tu cumpleaños."
+    answer: "olvidó"
+    hint: "olvidar — preterite"
+    translation: "Sorry, I forgot your birthday."
+  - type: cloze
+    text: "Se me ___ las llaves."
+    answer: "perdieron"
+    hint: "perder — preterite, agrees with llaves"
+    translation: "I lost my keys."
+  - type: cloze
+    text: "¡Cuidado! Se te va a ___ el vaso."
+    answer: "caer"
+    hint: "caer — infinitive"
+    translation: "Careful! You're going to drop the glass."
+  - type: cloze
+    text: "Se ___ acabó la leche."
+    answer: "nos"
+    hint: "to us"
+    translation: "We ran out of milk."
+  - type: cloze
+    text: "A María se ___ rompieron las gafas."
+    answer: "le"
+    hint: "to her"
+    translation: "María's glasses broke."
+  - type: cloze
+    text: "¿Se te ___ alguna idea?"
+    answer: "ocurre"
+    hint: "ocurrir — present"
+    translation: "Can you think of any idea?"
+  - type: cloze
+    text: "Se me ___ el móvil en casa."
+    answer: "quedó"
+    hint: "quedar — preterite"
+    translation: "I left my phone at home."
+  - type: cloze
+    text: "Se me ___ los platos."
+    answer: "cayeron"
+    hint: "caer — preterite, agrees with platos"
+    translation: "I dropped the plates."

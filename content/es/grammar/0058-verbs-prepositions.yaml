@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0058
+cefr: B1
+order: 58
+title: "Pensar en, soñar con, depender de: verbs with their own preposition"
+explanation:
+  en: |
+    Many verbs take a fixed preposition — learn them as a pair:
+
+    - **en:** *pensar en* (think about), *confiar en* (trust), *fijarse en* (notice), *insistir en*, *quedar en* (agree to)
+    - **con:** *soñar con* (dream of), *casarse con* (marry), *contar con* (count on), *encontrarse con* (run into)
+    - **de:** *depender de*, *enamorarse de*, *acordarse de* (remember), *olvidarse de*, *tratar de* (try to), *darse cuenta de* (realise), *dejar de* (stop)
+    - **a:** *empezar a*, *aprender a*, *ayudar a*, *acostumbrarse a*, *parecerse a* (look like)
+
+    The preposition stays before an infinitive: *Trato **de** entender.* *Sueño **con** vivir junto al mar.* And *de + el = **del***, *a + el = **al***: *Depende **del** tiempo.*
+comparison:
+  en: |
+    Russian helps sometimes (зависеть **от** = depender **de**) but often misleads: думать **о** = pensar **en** (not *de*), жениться **на** = casarse **con**, похож **на** = parecerse **a**, мечтать **о** = soñar **con**. English "marry someone" has no preposition at all.
+examples:
+  - { text: "Sólo pienso en ti.", translation: "I only think of you.", source: "tatoeba:569312" }
+  - { text: "Yo soñé con Tom.", translation: "I dreamed about Tom.", source: "tatoeba:5427288" }
+  - { text: "Ahora depende de ti.", translation: "Now it's up to you!", source: "tatoeba:1297034" }
+  - { text: "Ella se casó con él.", translation: "She married him.", source: "tatoeba:570885" }
+  - { text: "No me acuerdo de ti.", translation: "I don't remember you.", source: "tatoeba:3696250" }
+exercises:
+  - type: cloze
+    text: "¿En qué piensas? — Pienso ___ mis vacaciones."
+    answer: "en"
+    hint: "pensar ___"
+    translation: "What are you thinking about? — I'm thinking about my holidays."
+  - type: cloze
+    text: "Mi hermana se casó ___ un italiano."
+    answer: "con"
+    hint: "casarse ___"
+    translation: "My sister married an Italian."
+  - type: cloze
+    text: "Todo depende ___ tiempo."
+    answer: "del"
+    hint: "depender de + el"
+    translation: "Everything depends on the weather."
+  - type: cloze
+    text: "No me acuerdo ___ su nombre."
+    answer: "de"
+    hint: "acordarse ___"
+    translation: "I don't remember his name."
+  - type: cloze
+    text: "Siempre he soñado ___ vivir junto al mar."
+    answer: "con"
+    hint: "soñar ___"
+    translation: "I've always dreamed of living by the sea."
+  - type: cloze
+    text: "Confío ___ ti."
+    answer: "en"
+    hint: "confiar ___"
+    translation: "I trust you."
+  - type: cloze
+    text: "Me enamoré ___ Sevilla."
+    answer: "de"
+    hint: "enamorarse ___"
+    translation: "I fell in love with Seville."
+  - type: cloze
+    text: "Te pareces mucho ___ tu padre."
+    answer: "a"
+    hint: "parecerse ___"
+    translation: "You look a lot like your father."

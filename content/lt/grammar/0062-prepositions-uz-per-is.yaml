@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0062
+cefr: B2
+order: 62
+title: "Многозначные предлоги: už, per, iš"
+explanation:
+  ru: |
+    У трёх частых предлогов много значений — их стоит знать как готовые обороты.
+
+    **už**
+    - + род. п.: за (позади) — *už namo*; на расстоянии — *už dviejų kilometrų* (в двух километрах)
+    - + вин. п.: за что / за кого — *dėkoju **už** pagalbą*, *balsuoti už*, *mokėti **už** butą*, *nupirkau **už** dešimt eurų*
+    - + вин. п. в сравнении — «чем»: *vyresnis **už** mane* (старше меня)
+
+    **per** + вин. п.
+    - через, по (пространство): *per gatvę, per mišką*
+    - за, в течение: *per savaitę*, *per mėnesį* (в месяц), *per Kalėdas* (на Рождество)
+    - по (средство связи): *per radiją, per televiziją, per internetą*
+    - слишком: *per daug, per brangu, per vėlu*
+    - *per klaidą* — по ошибке
+
+    **iš** + род. п.
+    - из, от (место): *iš Vilniaus*
+    - из чего (материал): *iš medžio*, *suknelė iš šilko*
+    - от (причина чувства): *iš baimės, iš džiaugsmo*
+    - *vienas iš jų* — один из них; *iš anksto* — заранее
+comparison:
+  ru: |
+    Главная ловушка — время: «через час» = ***po** valandos* (род. п.), а *per valandą* = «за час, в течение часа». «По радио» = *per radiją*, «от страха» = *iš baimės*, «старше меня» = *vyresnis už mane* (или *vyresnis nei aš*).
+examples:
+  - { text: "Tomas vyresnis už mane.", translation: "Том старше, чем я.", source: "tatoeba:11932236" }
+  - { text: "Kiek tau moka per mėnesį?", translation: "Сколько тебе платят в месяц?", source: "tatoeba:13440908" }
+  - { text: "Aš Jūsų skėtį paėmiau per klaidą.", translation: "Я взял Ваш зонт по ошибке.", source: "tatoeba:12575150" }
+  - { text: "Jis iš džiaugsmo verkė.", translation: "Он плакал от радости.", source: "tatoeba:12506638" }
+  - { text: "Grįšiu po valandos.", translation: "Я вернусь через час.", source: "tatoeba:1796073" }
+exercises:
+  - type: cloze
+    text: "Dėkoju ___ pagalbą."
+    answer: "už"
+    hint: "благодарю за (+ вин. п.)"
+    translation: "Спасибо за помощь."
+  - type: cloze
+    text: "Sesuo dvejais metais vyresnė ___ mane."
+    answer: "už"
+    hint: "старше (чем) меня"
+    translation: "Сестра на два года старше меня."
+  - type: cloze
+    text: "Šį dviratį nupirkau ___ šimtą eurų."
+    answer: "už"
+    hint: "за (сумму)"
+    translation: "Этот велосипед я купил за сто евро."
+  - type: cloze
+    text: "Rungtynes žiūrėjome ___ televiziją."
+    answer: "per"
+    hint: "по (средство)"
+    translation: "Матч мы смотрели по телевизору."
+  - type: cloze
+    text: "Šiandien ___ karšta, geriau likime namie."
+    answer: "per"
+    hint: "слишком"
+    translation: "Сегодня слишком жарко, лучше останемся дома."
+  - type: cloze
+    text: "Stalas padarytas ___ ąžuolo."
+    answer: "iš"
+    hint: "из (материал)"
+    translation: "Стол сделан из дуба."
+  - type: cloze
+    text: "Ji negalėjo kalbėti ___ jaudulio."
+    answer: "iš"
+    hint: "от (причина)"
+    translation: "Она не могла говорить от волнения."
+  - type: cloze
+    text: "Traukinys išvyks ___ valandos."
+    answer: "po"
+    hint: "через час"
+    translation: "Поезд отправится через час."
