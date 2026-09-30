@@ -34,7 +34,7 @@
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |
 |---|---|---|---|
 | Lithuanian vocabulary | 1977 words (A2–B2, frequency ranks ≤ ~41,000; 20 of the last batch without an example) | ~mid-April 2027 (10/day; later if placement skips known words, sooner with «Ещё новые слова») | `lt-*-2034`, candidates `lt 35000 6000` partly used — continue there or `lt 41000 6000`; words without a good example are OK (empty id); recipe `prompts/content/lt-vocab.md` |
-| Spanish vocabulary | 1331 items (A1–B1); the A1 core the first batches skipped (ranks 1–350: pronouns, ser/estar, question words, numbers, family, body, places, directions, key verbs) added as `vocab/a1-0000-core-1129.yaml` — its file name sorts first, so these are the next new cards | ~mid-July 2027 (5/day) | `es-*-1332`, `pnpm content:candidates es 6850 1500`; before a batch, check basics the subtitle list ranks low (months, food, household); recipe `prompts/content/es-vocab.md` |
+| Spanish vocabulary | 1613 items (A1–B1); the A1 core the first batches skipped (ranks 1–350) is `vocab/a1-0000-core-1129.yaml` — its file name sorts first, so those are the next new cards; `vocab/b1-1332.yaml` = ranks 6850–8350 | ~late September 2027 (§3.3 pace 5 → 4 → 5/day, decided 2026-09-30); target ~2,100 by Dec 2027 → ~500 more | `es-*-1614`, candidates `es 6850 1500` partly used — continue there or `es 8350 1500`; before a batch, check basics the subtitle list ranks low; recipe `prompts/content/es-vocab.md` |
 | Lithuanian grammar | 53 lessons (Q1–Q4 + B1/B2 gap-fillers incl. numerals with nouns, causative pairs, word order, reflexive -si, argument connectors, Russianisms, participle phrases, formal e-mail phrases, idioms 2, tense/mood review, word formation, instrumental, dative in impersonal phrases, -tinas participle, genitive uses, prefix meanings) | ~mid-March 2027 (Mon/Wed; also Sat once the FR sounds lessons are done; sooner with «Следующее правило») | `lt-g-0054`: participles review, register (spoken vs written), B2 exam-style mixed tasks, quarterly review lessons, evaluative vocabulary in writing |
 | Spanish grammar | 47 lessons (A1–B1 incl. future/conditional perfect, subjunctive in relative clauses, connectors, pronoun placement, ser/estar meaning pairs, false friends, opinion + subjunctive, lo + adjective, seguir/llevar/acabar de…, imperfect subjunctive after past verbs, passive with ser) | ~late March 2027 (Tue/Fri; Fri alternates with FR from April) | `es-g-0048`: por vs para review (B1), relative el que / lo cual, conditional for politeness and guesses, time expressions (hace, desde hace, dentro de), indirect questions, review lessons |
 | Lithuanian reading | 47 texts: 18 B1 + 29 B2 (0019–0047: society, history, culture, nature, Klaipėda, students, weather, shopping habits, Kaunas, forests & mushrooms — see files) + own texts | B2 texts: 29 Thursdays → ~mid-April 2027 (then B1 as fallback) | `lt-r-0048` — **B2**, ~250–350 words (next: cinema/literature, sport beyond basketball, Lithuanian abroad today (diaspora communities), public health habits, Lithuanian music scene, Vilnius tech & start-ups, rural life and farming) |
@@ -43,7 +43,7 @@
 | Stress marks for LT words | 904 of 1977 (`content/lt/stress.yaml`, from English Wiktionary via `pnpm content:stress`; merged at build) | — | ~1,070 words have no Wiktionary entry (`.cache/stress-skipped.txt` after a run): add by hand from lkz.lt / Vikižodynas; re-run `pnpm content:stress` after each new LT batch |
 
 **Next steps (in order, as of 2026-09-29):** Lithuanian grammar `lt-g-0054+` and Spanish grammar `es-g-0048+` (first to run out,
-Feb–Mar 2027) → more LT B2 reading `lt-r-0048+` → LT vocabulary `lt-*-2034` → ES vocabulary `es-*-1129` → stress marks for the ~800 LT
+Feb–Mar 2027) → more LT B2 reading `lt-r-0048+` → LT vocabulary `lt-*-2034` → ES vocabulary `es-*-1614` → stress marks for the ~800 LT
 words Wiktionary doesn't cover (lkz.lt) → more French A1 (`fr-g-0020`, `fr-*-0597`) before April 2027. The learner asked for harder
 Lithuanian reading (B2) — keep new LT texts at B2.
 
@@ -60,10 +60,11 @@ Lithuanian reading (B2) — keep new LT texts at B2.
 | LT reading | ~65 Thursdays | 27 B2 (+18 B1) | ~38 B2 | fewer if pasted own texts replace some Thursdays |
 | LT stress marks | all words | 850 / 1,799 | ~950 + every new word | not in Wiktionary → lkz.lt by hand |
 
-Decisions that change the size of the gap (3 and 5 decided by the learner on 2026-09-29):
+Decisions that change the size of the gap (2, 3 and 5 decided by the learner on 2026-09-29/30):
 1. **Grammar after the topic list:** new lessons forever, or a **review rotation** (re-run earlier lessons with fresh exercises,
    quarterly mixed-review lessons) and fewer new-rule days (e.g. LT Mon/Wed only, ES once a week)?
-2. **Spanish pace vs the A2 target:** keep 4–5 new words/day (≈ B1 by the end of 2027) or lower it and move the time to LT/FR?
+2. ✅ **Spanish: keep the §3.3 pace (5 → 4 → 5/day) and add words** (decided 2026-09-30) — ~2,100 items by Dec 2027, i.e.
+   ~800 more after es-*-1331, aiming past A2 toward B1 vocabulary. Prepare them in batches of ~250.
 3. ✅ **LT words without a good Tatoeba example are OK** (the learner looks examples up separately): leave the tatoeba id empty in
    the batch row — `batch-to-yaml.py` then writes the item without examples. Never write examples yourself.
 4. **Placement:** actual skip rate after the learner's placement test — it may cut the LT gap a lot; re-plan once known.
