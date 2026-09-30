@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0021
+cefr: A1
+order: 111
+title: "Passé composé with être: je suis allé, elle est partie"
+explanation:
+  en: |
+    About 15 verbs — mostly **movement** or **change of state** — form the passé composé with **être** instead of *avoir*:
+    - *aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, naître, mourir, rentrer, revenir, devenir*
+    - and **all reflexive verbs**: *se lever → je **me suis** levé*, *se coucher → il **s'est** couché*
+
+    *je **suis** allé, tu **es** allé, il **est** allé, nous **sommes** allés, vous **êtes** allés, ils **sont** allés*
+
+    **Agreement:** with *être* the participle agrees with the subject, like an adjective:
+    - *Il est parti. — Elle est parti**e**. — Ils sont parti**s**. — Elles sont parti**es**.*
+    - *Elle s'est levé**e** tôt.*
+
+    In speech the endings are usually silent (*parti / partie* sound the same), but they must be written.
+
+    Participles: *venir → **venu**, naître → **né**, mourir → **mort***; the others are regular (*allé, arrivé, parti, sorti, tombé, resté*).
+comparison:
+  en: |
+    Spanish uses *haber* for every verb (*he ido, se ha ido*); French splits: *j'ai mangé* but *je suis allé*. Think of it as "I am gone / I am arrived". Russian speakers can lean on agreement: *elle est partie* ≈ «она ушла» — the feminine ending shows up, like «-а».
+examples:
+  - { text: "Elle est partie.", translation: "She left.", source: "tatoeba:134220" }
+  - { text: "Ils sont venus.", translation: "They came.", source: "tatoeba:7136096" }
+  - { text: "Ils sont arrivés.", translation: "They have come.", source: "tatoeba:4320218" }
+  - { text: "Je me suis levé.", translation: "I got up.", source: "tatoeba:4607952" }
+  - { text: "Il est tombé.", translation: "He fell.", source: "tatoeba:8984353" }
+exercises:
+  - type: cloze
+    text: "Je ___ allé au cinéma hier."
+    answer: "suis"
+    hint: "être, je"
+    translation: "I went to the cinema yesterday."
+  - type: cloze
+    text: "Elle est ___ à huit heures."
+    answer: "partie"
+    hint: "partir, elle (agreement)"
+    translation: "She left at eight."
+  - type: cloze
+    text: "Nous ___ restés à la maison."
+    answer: "sommes"
+    hint: "être, nous"
+    translation: "We stayed at home."
+  - type: cloze
+    text: "Ils sont ___ en retard."
+    answer: "arrivés"
+    hint: "arriver, ils (agreement)"
+    translation: "They arrived late."
+  - type: cloze
+    text: "Elle s'est ___ tôt."
+    answer: "levée"
+    hint: "se lever, elle (agreement)"
+    translation: "She got up early."
+  - type: cloze
+    text: "Tu es ___ en France quand ?"
+    answer: "venu"
+    hint: "venir, tu (masculine)"
+    translation: "When did you come to France?"
+  - type: cloze
+    text: "Mon grand-père est ___ en 1950."
+    answer: "né"
+    hint: "naître, participle"
+    translation: "My grandfather was born in 1950."
+  - type: cloze
+    text: "Les enfants ___ tombés."
+    answer: "sont"
+    hint: "être, ils"
+    translation: "The children fell over."

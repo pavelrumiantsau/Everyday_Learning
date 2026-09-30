@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0020
+cefr: A1
+order: 110
+title: "Passé composé with avoir: j'ai mangé, j'ai fini"
+explanation:
+  en: |
+    The **passé composé** is the everyday past tense — "I ate", "I have eaten": **avoir** (present) + **past participle**.
+    - *j'**ai** mangé, tu **as** mangé, il **a** mangé, nous **avons** mangé, vous **avez** mangé, ils **ont** mangé*
+
+    **Regular participles:**
+    - *-er → **-é***: parler → parl**é**, manger → mang**é**
+    - *-ir → **-i***: finir → fin**i**, dormir → dorm**i**, choisir → chois**i**
+    - *-re → **-u***: attendre → attend**u**, vendre → vend**u**, perdre → perd**u**
+
+    **Irregular participles to learn:** *être → **été**, avoir → **eu**, faire → **fait**, dire → **dit**, prendre → **pris** (compris, appris), mettre → **mis**, voir → **vu**, boire → **bu**, lire → **lu**, pouvoir → **pu**, vouloir → **voulu**, savoir → **su**, écrire → **écrit**, ouvrir → **ouvert***.
+
+    **Negative** — around *avoir*: *Je **n'**ai **pas** mangé.* *Il n'a rien vu.*
+
+    Typical time words: *hier, ce matin, la semaine dernière, déjà, il y a deux jours*.
+comparison:
+  en: |
+    Built like the Spanish perfect (*he comido* = *j'ai mangé*), but used much more widely: French speech uses the passé composé for almost every finished past action, where Spanish would often use the preterite (*ayer comí* = *hier j'ai mangé*).
+examples:
+  - { text: "Hier j'ai joué au foot.", translation: "I played soccer yesterday.", source: "tatoeba:1796335" }
+  - { text: "Hier j'ai aidé mon père.", translation: "I helped my father yesterday.", source: "tatoeba:453469" }
+  - { text: "J'ai fini.", translation: "I've finished.", source: "tatoeba:2285475" }
+  - { text: "J'ai vu ça.", translation: "I've seen that.", source: "tatoeba:1313898" }
+  - { text: "Je n'ai rien vu.", translation: "I saw nothing.", source: "tatoeba:485272" }
+exercises:
+  - type: cloze
+    text: "Hier, j'ai ___ une pizza."
+    answer: "mangé"
+    hint: "manger, participle"
+    translation: "Yesterday I ate a pizza."
+  - type: cloze
+    text: "Tu as ___ tes devoirs ?"
+    answer: "fini"
+    hint: "finir, participle"
+    translation: "Have you finished your homework?"
+  - type: cloze
+    text: "Nous avons ___ le bus pendant une heure."
+    answer: "attendu"
+    hint: "attendre, participle"
+    translation: "We waited for the bus for an hour."
+  - type: cloze
+    text: "Il a ___ la vérité."
+    answer: "dit"
+    hint: "dire, participle (irregular)"
+    translation: "He told the truth."
+  - type: cloze
+    text: "J'___ vu ce film deux fois."
+    answer: "ai"
+    hint: "avoir, je"
+    translation: "I've seen this film twice."
+  - type: cloze
+    text: "Elles ___ fait les courses."
+    answer: "ont"
+    hint: "avoir, elles"
+    translation: "They did the shopping."
+  - type: cloze
+    text: "Je n'ai pas ___ ta question."
+    answer: "compris"
+    hint: "comprendre, participle"
+    translation: "I didn't understand your question."
+  - type: cloze
+    text: "Vous avez ___ le livre ?"
+    answer: "lu"
+    hint: "lire, participle"
+    translation: "Have you read the book?"

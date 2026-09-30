@@ -1,0 +1,56 @@
+id: lt-r-0048
+cefr: B2
+title: "Ne vien krepšinis"
+topic: "спорт в Литве кроме баскетбола"
+source: generated
+text: |
+  Kai užsienietis išgirsta apie Lietuvos sportą, jis dažniausiai pagalvoja apie krepšinį. Tačiau nedidelė šalis gali didžiuotis ir kitų sporto šakų čempionais, kurių vardai žinomi visame pasaulyje.
+
+  Vienas garsiausių Lietuvos sportininkų – disko metikas Virgilijus Alekna. Jis du kartus iš eilės, 2000 ir 2004 metais, tapo olimpiniu čempionu. Sporto tradicija šeimoje nenutrūko: jo sūnus Mykolas 2024 metais pagerino disko metimo pasaulio rekordą ir tais pačiais metais Paryžiaus olimpinėse žaidynėse iškovojo sidabro medalį.
+
+  Dar vieną nepamirštamą akimirką lietuviams padovanojo plaukikė Rūta Meilutytė. 2012 metais Londone penkiolikmetė mergina netikėtai laimėjo olimpinį auksą 100 metrų plaukimo krūtine rungtyje. Vėliau ji kuriam laikui pasitraukė iš sporto, tačiau sugrįžo ir 2023 metais vėl tapo pasaulio čempione, pagerinusi pasaulio rekordą. Jos sėkmė paskatino tūkstančius vaikų užsirašyti į plaukimo būrelius visoje Lietuvoje.
+
+  Žinoma, krepšinis išlieka svarbiausias. Per didžiuosius turnyrus gatvės ištuštėja, o žmonės renkasi baruose ir aikštėse prie didelių ekranų. Lietuvos rinktinė yra tris kartus laimėjusi Europos čempionatą ir iškovojusi tris olimpinius bronzos medalius.
+
+  Futbolas Lietuvoje populiarus, bet šalies rinktinė dar nė karto nepateko į pasaulio ar Europos čempionato finalinį turnyrą. Dėl to sirgaliai kartais juokauja, kad lietuviai tiesiog per aukšti futbolui ir per daug mėgsta, kai kamuolys skrenda į krepšį.
+
+  Pastaraisiais metais sparčiai populiarėja bėgimas. Kiekvieną rudenį Vilniaus maratone dalyvauja tūkstančiai bėgikų, o daugelyje miestų vyksta mažesni bėgimai, kuriuose bėga ir vaikai, ir senjorai. Mėgėjai vis dažniau renkasi dviračius, plaukimą ar triatloną, o sporto klubai po darbo būna perpildyti.
+
+  Sporto psichologai sako, kad nedidelei tautai sportininkų pergalės reiškia daug daugiau nei medaliai. Kai pasaulio čempionate plevėsuoja trispalvė, visa šalis bent trumpam pasijunta viena komanda.
+glossary:
+  - { word: "šakų", lemma: "šaka", pos: noun, gender: f, gen: "šakos", meaning: "ветка; отрасль", note: "sporto šaka — вид спорта; род. п. мн. ч." }
+  - { word: "metikas", lemma: "metikas", pos: noun, gender: m, gen: "metiko", meaning: "метатель", note: "disko metikas — метатель диска" }
+  - { word: "nenutrūko", lemma: "nutrūkti", pos: verb, forms: { pres: "nutrūksta", past: "nutrūko" }, meaning: "оборваться, прерваться", note: "прош. вр. с отрицанием" }
+  - { word: "pagerino", lemma: "pagerinti", pos: verb, forms: { pres: "pagerina", past: "pagerino" }, meaning: "улучшить", note: "pagerinti rekordą — побить рекорд" }
+  - { word: "žaidynėse", lemma: "žaidynės", pos: noun, gender: f, gen: "žaidynių", meaning: "игры (соревнования)", note: "только мн. ч.: olimpinės žaidynės — Олимпийские игры; местн. п." }
+  - { word: "iškovojo", lemma: "iškovoti", pos: verb, forms: { pres: "iškovoja", past: "iškovojo" }, meaning: "завоевать", note: "iškovoti medalį — завоевать медаль" }
+  - { word: "akimirką", lemma: "akimirka", pos: noun, gender: f, gen: "akimirkos", meaning: "миг, мгновение", note: "вин. п." }
+  - { word: "plaukikė", lemma: "plaukikė", pos: noun, gender: f, gen: "plaukikės", meaning: "пловчиха", note: "plaukikas — пловец" }
+  - { word: "penkiolikmetė", lemma: "penkiolikmetis", pos: adj, meaning: "пятнадцатилетний", note: "ж. р." }
+  - { word: "rungtyje", lemma: "rungtis", pos: noun, gender: f, gen: "rungties", meaning: "дисциплина (в спорте), вид соревнований", note: "местн. п." }
+  - { word: "pasitraukė", lemma: "pasitraukti", pos: verb, forms: { pres: "pasitraukia", past: "pasitraukė" }, meaning: "уйти, отступить", note: "pasitraukti iš sporto — уйти из спорта" }
+  - { word: "pagerinusi", lemma: "pagerinti", pos: verb, forms: { pres: "pagerina", past: "pagerino" }, meaning: "улучшить", note: "действ. прич. прош. вр., ж. р.: побив (рекорд)" }
+  - { word: "rinktinė", lemma: "rinktinė", pos: noun, gender: f, gen: "rinktinės", meaning: "сборная (команда)" }
+  - { word: "sirgaliai", lemma: "sirgalius", pos: noun, gender: m, gen: "sirgaliaus", meaning: "болельщик", note: "им. п. мн. ч." }
+  - { word: "populiarėja", lemma: "populiarėti", pos: verb, forms: { pres: "populiarėja", past: "populiarėjo" }, meaning: "становиться популярнее" }
+  - { word: "bėgikų", lemma: "bėgikas", pos: noun, gender: m, gen: "bėgiko", meaning: "бегун", note: "род. п. мн. ч." }
+  - { word: "senjorai", lemma: "senjoras", pos: noun, gender: m, gen: "senjoro", meaning: "пожилой человек, пенсионер", note: "им. п. мн. ч." }
+  - { word: "Mėgėjai", lemma: "mėgėjas", pos: noun, gender: m, gen: "mėgėjo", meaning: "любитель", note: "им. п. мн. ч." }
+  - { word: "perpildyti", lemma: "perpildyti", pos: verb, forms: { pres: "perpildo", past: "perpildė" }, meaning: "переполнить", note: "здесь страд. прич. мн. ч.: переполнены" }
+  - { word: "pergalės", lemma: "pergalė", pos: noun, gender: f, gen: "pergalės", meaning: "победа", note: "им. п. мн. ч." }
+  - { word: "plevėsuoja", lemma: "plevėsuoti", pos: verb, forms: { pres: "plevėsuoja", past: "plevėsavo" }, meaning: "развеваться (о флаге)" }
+  - { word: "trispalvė", lemma: "trispalvė", pos: noun, gender: f, gen: "trispalvės", meaning: "триколор, национальный флаг" }
+  - { word: "ištuštėja", lemma: "ištuštėti", pos: verb, forms: { pres: "ištuštėja", past: "ištuštėjo" }, meaning: "опустеть" }
+  - { word: "ekranų", lemma: "ekranas", pos: noun, gender: m, gen: "ekrano", meaning: "экран", note: "род. п. мн. ч." }
+  - { word: "paskatino", lemma: "paskatinti", pos: verb, forms: { pres: "paskatina", past: "paskatino" }, meaning: "побудить, вдохновить", note: "прош. вр." }
+  - { word: "būrelius", lemma: "būrelis", pos: noun, gender: m, gen: "būrelio", meaning: "кружок, секция", note: "вин. п. мн. ч." }
+questions:
+  - q: "Kuo išgarsėjo Virgilijus Alekna?"
+    options: ["Jis du kartus tapo olimpiniu disko metimo čempionu", "Jis laimėjo Vilniaus maratoną", "Jis buvo futbolo rinktinės treneris"]
+    answer: 0
+  - q: "Ką Rūta Meilutytė pasiekė 2023 metais?"
+    options: ["Pirmą kartą dalyvavo olimpinėse žaidynėse", "Vėl tapo pasaulio čempione ir pagerino pasaulio rekordą", "Galutinai pasitraukė iš sporto"]
+    answer: 1
+  - q: "Kodėl, pasak sporto psichologų, pergalės svarbios nedidelei tautai?"
+    options: ["Nes už jas mokama daug pinigų", "Nes tada daugiau žmonių žiūri televizorių", "Nes tada visa šalis pasijunta viena komanda"]
+    answer: 2

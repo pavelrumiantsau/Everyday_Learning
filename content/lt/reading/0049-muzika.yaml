@@ -1,0 +1,57 @@
+id: lt-r-0049
+cefr: B2
+title: "Nuo sutartinių iki džiazo"
+topic: "литовская музыка: от сутартинес до джаза"
+source: generated
+text: |
+  Lietuviai dažnai vadinami dainuojančia tauta. Liaudies dainos per šimtmečius lydėjo visus gyvenimo įvykius: jos buvo dainuojamos dirbant laukuose, per vestuves, laidotuves ir kalendorines šventes. Tautosakininkai kaimuose yra užrašę dešimtis tūkstančių dainų.
+
+  Ypatinga šio paveldo dalis – sutartinės. Tai daugiabalsės dainos, kurias paprastai atlieka kelios moterys: balsai susipina, kartojasi ir tarsi ginčijasi tarpusavyje. Iš pirmo karto jos gali skambėti neįprastai, net keistai, tačiau įsiklausęs imi jausti jų ritmą ir ramybę. 2010 metais sutartinės buvo įtrauktos į UNESCO nematerialaus kultūros paveldo sąrašą.
+
+  Vienas seniausių lietuvių muzikos instrumentų – kanklės, styginis instrumentas, kuriuo grojama gnaibant stygas pirštais. Kanklėmis grojama ir šiandien: ansambliai atlieka ne tik liaudies, bet ir šiuolaikinę muziką, o kanklių pamokų galima imti daugelyje muzikos mokyklų.
+
+  Lietuvių klasikinėje muzikoje svarbiausias vardas – Mikalojus Konstantinas Čiurlionis. Jis buvo ir kompozitorius, ir dailininkas, sukūręs simfonines poemas „Miške“ ir „Jūra“ bei šimtus paveikslų, kuriuose muzika tarsi virsta spalvomis. Čiurlionis mirė vos trisdešimt penkerių, bet jo kūryba iki šiol įkvepia menininkus.
+
+  Nuo sovietmečio Lietuvoje stipri džiazo tradicija. Birštono ir Vilniaus džiazo festivaliai vyksta jau kelis dešimtmečius, o lietuvių džiazo muzikantai koncertuoja visoje Europoje. Sovietmečiu improvizacija daugeliui buvo ir laisvės forma – būdas pasakyti tai, ko nebuvo galima pasakyti žodžiais.
+
+  Šiandien lietuvių muzikos scena labai įvairi: nuo roko ir elektroninės muzikos iki hiphopo ir populiariosios muzikos. Kasmet daug dėmesio sulaukia „Eurovizija“. Lietuva joje dalyvauja nuo 1994 metų, kai debiutinis pasirodymas baigėsi be jokių taškų. Geriausias rezultatas iki šiol – šeštoji vieta 2006 metais.
+
+  Vis dėlto daugelis tvirtina, kad tikroji lietuvių muzikos širdis plaka ne scenose, o prie šeimos stalo, kai po vakarienės kas nors užtraukia dainą ir visi, net nemokantys dainuoti, prisijungia.
+glossary:
+  - { word: "Liaudies", lemma: "liaudis", pos: noun, gender: f, gen: "liaudies", meaning: "народ (простой)", note: "liaudies daina — народная песня" }
+  - { word: "lydėjo", lemma: "lydėti", pos: verb, forms: { pres: "lydi", past: "lydėjo" }, meaning: "сопровождать", note: "прош. вр." }
+  - { word: "laidotuves", lemma: "laidotuvės", pos: noun, gender: f, gen: "laidotuvių", meaning: "похороны", note: "только мн. ч.; вин. п." }
+  - { word: "Tautosakininkai", lemma: "tautosakininkas", pos: noun, gender: m, gen: "tautosakininko", meaning: "фольклорист", note: "им. п. мн. ч." }
+  - { word: "užrašę", lemma: "užrašyti", pos: verb, forms: { pres: "užrašo", past: "užrašė" }, meaning: "записать", note: "yra užrašę — записали (действ. прич. прош. вр., мн. ч.)" }
+  - { word: "daugiabalsės", lemma: "daugiabalsis", pos: adj, meaning: "многоголосый", note: "ж. р. мн. ч." }
+  - { word: "atlieka", lemma: "atlikti", pos: verb, forms: { pres: "atlieka", past: "atliko" }, meaning: "исполнять, выполнять" }
+  - { word: "susipina", lemma: "susipinti", pos: verb, forms: { pres: "susipina", past: "susipynė" }, meaning: "переплетаться" }
+  - { word: "tarpusavyje", lemma: "tarpusavyje", pos: adv, meaning: "между собой" }
+  - { word: "įsiklausęs", lemma: "įsiklausyti", pos: verb, forms: { pres: "įsiklauso", past: "įsiklausė" }, meaning: "вслушаться", note: "действ. прич. прош. вр.: вслушавшись" }
+  - { word: "nematerialaus", lemma: "nematerialus", pos: adj, meaning: "нематериальный", note: "род. п.: nematerialaus kultūros paveldo — нематериального культурного наследия" }
+  - { word: "kompozitorius", lemma: "kompozitorius", pos: noun, gender: m, gen: "kompozitoriaus", meaning: "композитор" }
+  - { word: "paveikslų", lemma: "paveikslas", pos: noun, gender: m, gen: "paveikslo", meaning: "картина", note: "род. п. мн. ч." }
+  - { word: "virsta", lemma: "virsti", pos: verb, forms: { pres: "virsta", past: "virto" }, meaning: "превращаться", note: "virsti kuo (тв. п.)" }
+  - { word: "kūryba", lemma: "kūryba", pos: noun, gender: f, gen: "kūrybos", meaning: "творчество" }
+  - { word: "įkvepia", lemma: "įkvėpti", pos: verb, forms: { pres: "įkvepia", past: "įkvėpė" }, meaning: "вдохновлять; вдохнуть" }
+  - { word: "sovietmečio", lemma: "sovietmetis", pos: noun, gender: m, gen: "sovietmečio", meaning: "советское время", note: "род. п.: nuo sovietmečio — с советских времён" }
+  - { word: "muzikantai", lemma: "muzikantas", pos: noun, gender: m, gen: "muzikanto", meaning: "музыкант", note: "им. п. мн. ч." }
+  - { word: "sulaukia", lemma: "sulaukti", pos: verb, forms: { pres: "sulaukia", past: "sulaukė" }, meaning: "дождаться; получить (внимание)", note: "sulaukti dėmesio — привлекать внимание" }
+  - { word: "debiutinis", lemma: "debiutinis", pos: adj, meaning: "дебютный" }
+  - { word: "pasirodymas", lemma: "pasirodymas", pos: noun, gender: m, gen: "pasirodymo", meaning: "выступление; появление" }
+  - { word: "plaka", lemma: "plakti", pos: verb, forms: { pres: "plaka", past: "plakė" }, meaning: "биться (о сердце); взбивать" }
+  - { word: "užtraukia", lemma: "užtraukti", pos: verb, forms: { pres: "užtraukia", past: "užtraukė" }, meaning: "затянуть (песню); задёрнуть", note: "užtraukti dainą — запеть" }
+  - { word: "prisijungia", lemma: "prisijungti", pos: verb, forms: { pres: "prisijungia", past: "prisijungė" }, meaning: "присоединиться" }
+  - { word: "kanklės", lemma: "kanklės", pos: noun, gender: f, gen: "kanklių", meaning: "канклес (литовские гусли)", note: "только мн. ч." }
+  - { word: "styginis", lemma: "styginis", pos: adj, meaning: "струнный" }
+  - { word: "gnaibant", lemma: "gnaibyti", pos: verb, forms: { pres: "gnaibo", past: "gnaibė" }, meaning: "щипать", note: "деепричастие: щипля (струны)" }
+questions:
+  - q: "Kas yra sutartinės?"
+    options: ["Daugiabalsės dainos, kurias paprastai atlieka kelios moterys", "Liaudies šokiai", "Muzikos instrumentai"]
+    answer: 0
+  - q: "Kuo buvo Mikalojus Konstantinas Čiurlionis?"
+    options: ["Džiazo muzikantas", "Kompozitorius ir dailininkas", "Eurovizijos dalyvis"]
+    answer: 1
+  - q: "Kuo džiazas buvo svarbus sovietmečiu?"
+    options: ["Jis buvo privalomas mokyklose", "Juo buvo galima užsidirbti daug pinigų", "Improvizacija daugeliui buvo laisvės forma"]
+    answer: 2
