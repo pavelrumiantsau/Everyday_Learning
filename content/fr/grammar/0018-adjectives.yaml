@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0018
+cefr: A1
+order: 108
+title: "Adjectives: petit / petite, une voiture rouge, un bon film"
+explanation:
+  en: |
+    **Agreement** — adjectives follow the noun's gender and number: add **-e** for feminine, **-s** for plural:
+    - *petit, petite, petits, petites*; *content, contente*
+    - the added *-e* often makes a silent consonant heard: *peti**t** [pəti] → peti**te** [pətit]*, *gran**d** → gran**de***
+    - adjectives already ending in *-e* don't change: *jeune, rouge, facile*
+
+    **Common irregular feminines:** *heureux → heureuse*, *bon → bonne*, *blanc → blanche*, *cher → chère*, *beau → belle*, *vieux → vieille*, *nouveau → nouvelle*. Before a vowel, the masculine *beau, vieux, nouveau* become **bel, vieil, nouvel**: *un vieil ami*.
+
+    **Position:** most adjectives come **after** the noun: *une voiture **rouge**, un livre **intéressant***. A few short, common ones go **before** — beauty, age, goodness, size: *beau, joli, jeune, vieux, nouveau, bon, mauvais, grand, petit, gros*: *un **bon** film, une **belle** maison*.
+comparison:
+  en: |
+    Spanish also agrees (*pequeño / pequeña*) and mostly puts adjectives after the noun (*un coche rojo* = *une voiture rouge*). The difference is in sound: in French the masculine and feminine often sound different only because the final consonant is pronounced in the feminine (*petit / petite*).
+examples:
+  - { text: "Elle est belle.", translation: "She's beautiful.", source: "tatoeba:410245" }
+  - { text: "Elle est petite.", translation: "She's small.", source: "tatoeba:8660252" }
+  - { text: "J'ai une voiture rouge.", translation: "I have a red car.", source: "tatoeba:3979741" }
+  - { text: "C'est un bon vin.", translation: "It's a good wine.", source: "tatoeba:11931536" }
+  - { text: "J'ai une maison rouge.", translation: "I have a red home.", source: "tatoeba:2721165" }
+exercises:
+  - type: cloze
+    text: "Ma sœur est ___."
+    answer: "petite"
+    hint: "petit → feminine"
+    translation: "My sister is short."
+  - type: cloze
+    text: "C'est une voiture ___."
+    answer: "noire"
+    hint: "noir → feminine"
+    translation: "It's a black car."
+  - type: cloze
+    text: "Ils sont très ___."
+    answer: "contents"
+    hint: "content → masculine plural"
+    translation: "They are very happy."
+  - type: cloze
+    text: "C'est une ___ idée."
+    answer: "bonne"
+    hint: "bon → feminine"
+    translation: "It's a good idea."
+  - type: cloze
+    text: "J'ai une ___ maison."
+    answer: "belle"
+    hint: "beau → feminine"
+    translation: "I have a beautiful house."
+  - type: cloze
+    text: "Elle est ___."
+    answer: "heureuse"
+    hint: "heureux → feminine"
+    translation: "She's happy."
+  - type: cloze
+    text: "C'est un ___ ami."
+    answer: "vieil"
+    hint: "vieux before a vowel"
+    translation: "He's an old friend."
+  - type: cloze
+    text: "J'aime les fleurs ___."
+    answer: "blanches"
+    hint: "blanc → feminine plural"
+    translation: "I like white flowers."

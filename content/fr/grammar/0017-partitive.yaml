@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0017
+cefr: A1
+order: 107
+title: "Du pain, de la viande: the partitive article"
+explanation:
+  en: |
+    For things you can't count (food, drinks, materials) French uses the **partitive** — "some":
+
+    - **du** (m): *du pain, du café, du fromage*
+    - **de la** (f): *de la viande, de la soupe*
+    - **de l'** before a vowel: *de l'eau, de l'argent*
+    - **des** (plural): *des pommes, des amis*
+
+    *Je bois **du** café.* — I drink (some) coffee. *Tu veux **de l'**eau ?*
+
+    **After a negative → de (d')**: *Je ne bois pas **de** café.* *Il n'y a pas **de** sucre.*
+    **After quantities → de**: *beaucoup **de** thé, un peu **de** lait, un verre **d'**eau, un kilo **de** pommes*.
+
+    **le / la / les** = the thing **in general** (with *aimer, adorer, préférer, détester*): *J'aime **le** café, mais je bois **du** thé.*
+comparison:
+  en: |
+    Spanish and English usually use **no article** here (*bebo café*, "I drink coffee"); French must have one: *je bois **du** café*. The general sense is like Spanish, with the definite article: *me gusta el café* = *j'aime le café*.
+examples:
+  - { text: "J'ai du pain.", translation: "I have bread.", source: "tatoeba:5545311" }
+  - { text: "Fais du café.", translation: "Make coffee.", source: "tatoeba:180233" }
+  - { text: "J'ai du vin.", translation: "I have wine.", source: "tatoeba:4678725" }
+  - { text: "Je ne bois pas de café.", translation: "I don't drink coffee.", source: "tatoeba:457318" }
+  - { text: "Il n'y a pas de sucre.", translation: "There's no sugar.", source: "tatoeba:3648383" }
+exercises:
+  - type: cloze
+    text: "Je bois ___ café le matin."
+    answer: "du"
+    hint: "some (m)"
+    translation: "I drink coffee in the morning."
+  - type: cloze
+    text: "Il mange ___ viande."
+    answer: "de la"
+    hint: "some (f)"
+    translation: "He eats meat."
+  - type: cloze
+    text: "Nous achetons ___ pain."
+    answer: "du"
+    hint: "some (m)"
+    translation: "We're buying bread."
+  - type: cloze
+    text: "Je ne mange pas ___ viande."
+    answer: "de"
+    hint: "after a negative"
+    translation: "I don't eat meat."
+  - type: cloze
+    text: "Il y a ___ fromage dans le frigo."
+    answer: "du"
+    hint: "some (m)"
+    translation: "There's cheese in the fridge."
+  - type: cloze
+    text: "J'aime ___ chocolat."
+    answer: "le"
+    hint: "in general (aimer)"
+    translation: "I like chocolate."
+  - type: cloze
+    text: "Elle boit beaucoup ___ thé."
+    answer: "de"
+    hint: "after a quantity"
+    translation: "She drinks a lot of tea."
+  - type: cloze
+    text: "Tu as ___ amis à Paris ?"
+    answer: "des"
+    hint: "some (plural)"
+    translation: "Do you have friends in Paris?"

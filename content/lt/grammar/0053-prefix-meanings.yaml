@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0053
+cefr: B2
+order: 53
+title: "Приставки меняют смысл: perdaryti, pripilti, išmokti, užmigti, atrakinti"
+explanation:
+  ru: |
+    Приставка делает глагол совершенным (урок о виде) и показывает направление движения (урок о приставках движения). Но у многих приставок есть и **своё значение**:
+
+    - **per-** — заново или слишком: *perdaryti* (переделать), *perrašyti* (переписать); *persivalgyti* (объесться), *pervargti* (переутомиться)
+    - **pri-** — наполнить, много: *pripilti* (налить доверху), *prirašyti* (исписать; прописать лекарство), *prisipirkti* (накупить), *priprašyti* (упросить), *prikalbėti* (наговорить)
+    - **iš-** — до конца, полностью: *išmokti* (выучить), *išgyventi* (выжить; прожить), *išsimiegoti* (выспаться)
+    - **už-** — начало или закрытие: *užmigti* (уснуть), *užsidegti* (загореться), *užvirti* (закипеть), *uždaryti* (закрыть), *užrakinti* (запереть)
+    - **at-** — обратное действие: *atrakinti* (отпереть), *atrišti* (развязать), *atsegti* (расстегнуть), *atgauti* (вернуть себе)
+    - **pa-** — немного, недолго: *pasėdėti* (посидеть), *paskaityti* (почитать), *palaukti* (подождать), *pamiegoti* (поспать)
+
+    Возвратное *-si-* встаёт **после** приставки: *per**si**valgyti, iš**si**miegoti, už**si**degti*.
+comparison:
+  ru: |
+    Почти один в один с русским: *per-* = «пере-», *pri-* = «на-» (налить, наговорить), *iš-* = «вы-» (выучить, выспаться), *už-* = «за-» (заснуть, закипеть), *pa-* = «по-» (посидеть). Главное отличие — ***at-*** = «от-/рас-» при обратном действии: *atrakinti* — отпереть, *atsegti* — **рас**стегнуть, *atrišti* — **раз**вязать.
+examples:
+  - { text: "Aš persivalgiau.", translation: "Я объелся.", source: "tatoeba:12422062" }
+  - { text: "Ar jūs galite jį perdaryti?", translation: "Вы можете его переделать?", source: "tatoeba:12967229" }
+  - { text: "Ji pripylė taurę vyno.", translation: "Она наполнила бокал вином.", source: "tatoeba:11487714" }
+  - { text: "Visi užmigo.", translation: "Все уснули.", source: "tatoeba:12201823" }
+  - { text: "Tomas atrakino duris.", translation: "Том отпер дверь.", source: "tatoeba:2753971" }
+exercises:
+  - type: cloze
+    text: "Darbas blogas, reikia jį ___."
+    answer: "perdaryti"
+    hint: "сделать заново (per-)"
+    translation: "Работа плохая, надо её переделать."
+  - type: cloze
+    text: "Vakar aš ___ ir dabar man skauda pilvą."
+    answer: "persivalgiau"
+    hint: "объелся (per- + si)"
+    translation: "Вчера я объелся, и теперь у меня болит живот."
+  - type: cloze
+    text: "Ji ___ stiklinę vandens."
+    answer: "pripylė"
+    hint: "налила полный (pri- + pilti)"
+    translation: "Она налила полный стакан воды."
+  - type: cloze
+    text: "Vaikas greitai ___."
+    answer: "užmigo"
+    hint: "уснул (už- + migti)"
+    translation: "Ребёнок быстро уснул."
+  - type: cloze
+    text: "Aš ___ visus žodžius."
+    answer: "išmokau"
+    hint: "выучил (iš- + mokti)"
+    translation: "Я выучил все слова."
+  - type: cloze
+    text: "___ duris, aš pamiršau raktą."
+    answer: "Atrakink"
+    hint: "отопри (at- + rakinti), повел. накл."
+    translation: "Отопри дверь, я забыл ключ."
+  - type: cloze
+    text: "___ čia, aš tuoj grįšiu."
+    answer: "Palauk"
+    hint: "подожди (pa- + laukti)"
+    translation: "Подожди здесь, я сейчас вернусь."
+  - type: cloze
+    text: "Savaitgalį pagaliau ___."
+    answer: "išsimiegojau"
+    hint: "выспался (iš- + si + miegoti)"
+    translation: "В выходные я наконец выспался."

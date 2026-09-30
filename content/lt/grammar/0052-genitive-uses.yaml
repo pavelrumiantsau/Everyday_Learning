@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0052
+cefr: B1
+order: 52
+title: "Родительный падеж: чей, за чем, какой (Tomo, einu duonos, geros nuotaikos)"
+explanation:
+  ru: |
+    Кроме отрицания, *nėra* и количества (урок о родительном падеже), у родительного есть ещё несколько частых ролей:
+
+    - **чей? какой?** — принадлежность и определение: ***Tomo** tėvai* — родители Тома, ***lietuvių** kalba* — литовский язык, ***vasaros** atostogos* — летний отпуск, ***miesto** centras* — центр города. Родительный стоит **перед** словом, к которому относится.
+    - **за чем?** — цель после глаголов движения, **без предлога**: *Einu **duonos**.* — иду за хлебом; *Jie nuėjo **alaus**.* — пошли за пивом; *eiti **grybų**, **uogų*** — пойти по грибы, по ягоды.
+    - **описание человека:** *Jis **aukšto ūgio**.* — он высокого роста; *vidutinio amžiaus* — средних лет; *Ji **geros nuotaikos**.* — она в хорошем настроении; *geros širdies žmogus* — добрый человек.
+    - **время:** ***šių metų** pavasarį* — этой весной, ***praėjusios savaitės** pabaigoje* — в конце прошлой недели, *iki **kitų metų*** — до следующего года.
+    - **глаголы желания, страха, ожидания, поиска:** *norėti, bijoti, laukti, ieškoti, prašyti, reikėti* + род. п.: *Vaikas bijo **tamsos**.*
+comparison:
+  ru: |
+    Многое как в русском («родители Тома», «высокого роста»). Отличия: «пошёл **за** хлебом» → *nuėjo **duonos*** (без предлога); «**в** хорошем настроении» → *geros **nuotaikos*** (родительный вместо предлога); «литовский язык» → *lietuvių kalba* — буквально «язык литовцев».
+examples:
+  - { text: "Jie nuėjo alaus.", translation: "Они пошли за пивом.", source: "tatoeba:12755361" }
+  - { text: "Tomo tėvai yra mokytojai.", translation: "Родители Тома — учителя.", source: "tatoeba:12119861" }
+  - { text: "Jis yra geros širdies žmogus.", translation: "Он добросердечный человек.", source: "tatoeba:10348092" }
+  - { text: "Ji yra blogos nuotaikos.", translation: "Она в плохом настроении.", source: "tatoeba:3592162" }
+  - { text: "Reikės iki kitų metų palaukti.", translation: "Надо будет подождать до следующего года.", source: "tatoeba:13235333" }
+exercises:
+  - type: cloze
+    text: "Nubėk į parduotuvę ___."
+    answer: "duonos"
+    hint: "duona → род. п. (за чем?)"
+    translation: "Сбегай в магазин за хлебом."
+  - type: cloze
+    text: "Vaikai išėjo į mišką ___."
+    answer: "grybų"
+    hint: "grybai → род. п. мн. ч."
+    translation: "Дети пошли в лес за грибами."
+  - type: cloze
+    text: "Tai mano ___ automobilis."
+    answer: "brolio"
+    hint: "brolis → род. п. (чей?)"
+    translation: "Это машина моего брата."
+  - type: cloze
+    text: "Jis aukšto ___."
+    answer: "ūgio"
+    hint: "ūgis → род. п."
+    translation: "Он высокого роста."
+  - type: cloze
+    text: "Šiandien ji geros ___."
+    answer: "nuotaikos"
+    hint: "nuotaika → род. п."
+    translation: "Сегодня она в хорошем настроении."
+  - type: cloze
+    text: "___ metų vasara buvo karšta."
+    answer: "Šių"
+    hint: "šie metai → род. п."
+    translation: "Лето этого года было жарким."
+  - type: cloze
+    text: "Jis vidutinio ___ vyras."
+    answer: "amžiaus"
+    hint: "amžius → род. п."
+    translation: "Он мужчина средних лет."
+  - type: cloze
+    text: "Vaikas bijo ___."
+    answer: "tamsos"
+    hint: "bijoti + род. п. (tamsa)"
+    translation: "Ребёнок боится темноты."

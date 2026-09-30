@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0019
+cefr: A1
+order: 109
+title: "Mon, ma, mes: possessives"
+explanation:
+  en: |
+    - **my:** *mon* (m), *ma* (f), *mes* (pl) — *mon frère, ma mère, mes parents*
+    - **your (tu):** *ton, ta, tes*
+    - **his / her / its:** *son, sa, ses*
+    - **our:** *notre, nos*; **your (vous):** *votre, vos*; **their:** *leur, leurs*
+
+    The possessive agrees with the **thing owned**, not with the owner: ***son** père* = his father **or** her father; ***sa** mère* = his mother **or** her mother.
+
+    Before a feminine word starting with a vowel, use **mon, ton, son** (for the sound): *mon amie, ton école, son idée*.
+comparison:
+  en: |
+    Spanish *su* is just as ambiguous (his, her, your, their); French *son / sa* shows only the gender of the thing owned, never who owns it. Russian «свой» has no French equivalent: *Il aime sa femme* can mean his own wife or someone else's; the context decides.
+examples:
+  - { text: "C'est ma vie.", translation: "It's my life.", source: "tatoeba:1867457" }
+  - { text: "Voici ta clé.", translation: "Here's your key.", source: "tatoeba:3835904" }
+  - { text: "C'est mon idée.", translation: "That's my idea.", source: "tatoeba:827447" }
+  - { text: "C'est ma famille.", translation: "This is my family.", source: "tatoeba:4479383" }
+  - { text: "Aimez vos parents.", translation: "Love your parents.", source: "tatoeba:11202622" }
+exercises:
+  - type: cloze
+    text: "C'est ___ frère."
+    answer: "mon"
+    hint: "my (m)"
+    translation: "He's my brother."
+  - type: cloze
+    text: "___ mère est professeur."
+    answer: "Ma"
+    hint: "my (f)"
+    translation: "My mother is a teacher."
+  - type: cloze
+    text: "Où sont ___ clés ?"
+    answer: "mes"
+    hint: "my (plural)"
+    translation: "Where are my keys?"
+  - type: cloze
+    text: "Tu as ___ billet ?"
+    answer: "ton"
+    hint: "your (tu, m)"
+    translation: "Do you have your ticket?"
+  - type: cloze
+    text: "Elle aime ___ père."
+    answer: "son"
+    hint: "her + masculine noun"
+    translation: "She loves her father."
+  - type: cloze
+    text: "C'est ___ amie Julie."
+    answer: "mon"
+    hint: "my + feminine noun with a vowel"
+    translation: "This is my friend Julie."
+  - type: cloze
+    text: "Nous aimons ___ maison."
+    answer: "notre"
+    hint: "our"
+    translation: "We love our house."
+  - type: cloze
+    text: "Ils cherchent ___ enfants."
+    answer: "leurs"
+    hint: "their (plural)"
+    translation: "They're looking for their children."
