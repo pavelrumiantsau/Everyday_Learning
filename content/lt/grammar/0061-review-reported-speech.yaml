@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0061
+cefr: B2
+order: 61
+title: "Повторение: чужие слова (sakė, kad…; sakė esąs; pasak jo; paprašė, kad…)"
+explanation:
+  ru: |
+    Как передать чужие слова — четыре инструмента (подробно — урок о косвенной речи).
+
+    - ***kad* + обычный глагол** — подходит всегда: *Ji sakė, kad mums **padės**.*
+    - **причастие вместо *kad*** — если говорит о себе тот же человек: *Jis sakė **sergąs*** (что болеет), ***sirgęs*** (что болел), ***sirgsiąs*** (что будет болеть). Ж. р.: *serganti, sirgusi, sirgsianti*; мн. ч.: *sergą, sirgę, sirgsią*.
+    - **источник:** ***pasak / anot*** + род. п. — *Pasak jo, ji neateis.*; частица ***esą*** — «якобы»: *Kalba, kad esą…*
+    - **просьба, приказ:** *paprašė / liepė, kad* + **условное наклонение** — *Mama paprašė, kad **nupirkčiau** duonos.*; или + инфинитив: *Mama liepė man **eiti** namo.*
+
+    **Вопросы:** «ли» → ***ar***: *Jis paklausė, **ar** kalbu lietuviškai.*; с вопросительным словом — оно и остаётся: *Ji paklausė, **kur** gyvenu.*
+
+    **Время** не сдвигается (как в русском, в отличие от английского): «Я живу в Вильнюсе» → *Ji sakė, kad **gyvena** Vilniuje.*
+comparison:
+  ru: |
+    *kad* + обычная форма = русское «сказал, что…» — это никогда не ошибка. Причастие (*sakė esąs*) — книжнее, частое в новостях и тексте; его надо понимать и уметь поставить на B2. Просьба — как русское «попросил, **чтобы** я купил»: после *kad* условное наклонение (*nupirkčiau*), а не прошедшее время.
+examples:
+  - { text: "Ji sakė, kad mums padės.", translation: "Она сказала, что поможет нам.", source: "tatoeba:11591012" }
+  - { text: "Tomas apsimetė sergąs.", translation: "Том притворился больным.", source: "tatoeba:9636745" }
+  - { text: "Pasak jo, ji neateis.", translation: "По его словам, она не придёт.", source: "tatoeba:13492977" }
+  - { text: "Anot jos, jis neateis.", translation: "По её словам, он не придёт.", source: "tatoeba:10786506" }
+  - { text: "Jis sakė, kad jos nebijo.", translation: "Он сказал, что не боится её.", source: "tatoeba:13415538" }
+exercises:
+  - type: cloze
+    text: "Jonas sakė ___ pavargęs."
+    answer: "esąs"
+    hint: "būti → причастие (о себе)"
+    translation: "Йонас сказал, что устал."
+  - type: cloze
+    text: "Ji sakė ___ Vilniuje."
+    answer: "gyvenanti"
+    hint: "gyventi → причастие наст. вр., ж. р."
+    translation: "Она сказала, что живёт в Вильнюсе."
+  - type: cloze
+    text: "Tomas sakė vakar ___ kine."
+    answer: "buvęs"
+    hint: "būti → причастие прош. вр."
+    translation: "Том сказал, что вчера был в кино."
+  - type: cloze
+    text: "Jie pažadėjo rytoj ___."
+    answer: "ateisią"
+    hint: "ateiti → причастие буд. вр., мн. ч."
+    translation: "Они пообещали, что завтра придут."
+  - type: cloze
+    text: "___ sinoptikų, savaitgalį lis."
+    answer: "Pasak"
+    also: ["Anot"]
+    hint: "по словам (+ род. п.)"
+    translation: "По словам синоптиков, в выходные будет дождь."
+  - type: cloze
+    text: "Mama paprašė, kad aš ___ duonos."
+    answer: "nupirkčiau"
+    hint: "nupirkti → kad + условное накл."
+    translation: "Мама попросила, чтобы я купил хлеба."
+  - type: cloze
+    text: "Jis paklausė, ___ aš kalbu lietuviškai."
+    answer: "ar"
+    hint: "…ли"
+    translation: "Он спросил, говорю ли я по-литовски."
+  - type: cloze
+    text: "Ji paklausė, kur aš ___."
+    answer: "gyvenu"
+    hint: "gyventi — время как в прямой речи"
+    translation: "Она спросила, где я живу."

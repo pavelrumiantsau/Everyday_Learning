@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0060
+cefr: B1
+order: 60
+title: "Повторение: какой падеж? (laukti ko, domėtis kuo, po + три падежа)"
+explanation:
+  ru: |
+    Повторение падежей: что их «включает».
+
+    - **родительный** (*ko?*): отрицание — *neturiu **pinigų***; количество — *daug **žmonių***; глаголы *laukti, bijoti, ieškoti, prašyti, reikalauti, norėti* (чего-то) — *laukiu **autobuso***, *bijau **šunų***; предлоги *be, iki, prie, nuo, iš, dėl, po* («после») — *prie **jūros***, *po **pietų***
+    - **дательный** (*kam?*): *duoti, padėti, patikti, dėkoti, skambinti* — *padėk **man***; *man reikia, man šalta*
+    - **винительный** (*ką?*): прямое дополнение; предлоги *į, per, pro, pas, prieš, apie*; время — *kiekvieną **dieną***, *pirmadienį*
+    - **творительный** (*kuo?*): *su* — *su **draugais***; *domėtis, didžiuotis, tikėti, tapti* (кем-то) — *domiuosi **astronomija***, *tapo **rašytoju***; средство — *važiuoju **autobusu***
+    - **местный** (*kur? kada?*): *mieste, namuose*, *ateityje, XX amžiuje*
+
+    ***po*** — три падежа, три смысла: *po **pietų*** (род. — после), *po **stalu*** (твор. — под), *po **miestą*** (вин. — по).
+comparison:
+  ru: |
+    Чаще всего совпадает с русским: *laukti, bijoti* — род. п. («ждать автобуса», «бояться собак»), *padėti* — дат. п. («помочь мне»), *domėtis* — твор. п. («интересоваться чем»). Отличия: *tikėti **tavimi*** — «верить **в** тебя» без предлога, творительный; *laukti* про человека — тоже род. п.: *laukiu **tavęs*** (не *tave*); *prieš* — всегда **винительный**: *prieš **savaitę***, *prieš **namą***.
+examples:
+  - { text: "Aš laukiu autobuso.", translation: "Я жду автобуса.", source: "tatoeba:11501958" }
+  - { text: "Aš bijau šunų.", translation: "Я боюсь собак.", source: "tatoeba:1665785" }
+  - { text: "Aš domiuosi astronomija.", translation: "Я интересуюсь астрономией.", source: "tatoeba:13714755" }
+  - { text: "Aš tikiu tavimi.", translation: "Я верю в тебя.", source: "tatoeba:2153711" }
+  - { text: "Ką tu darai po pietų?", translation: "Что ты делаешь после обеда?", source: "tatoeba:12195935" }
+exercises:
+  - type: cloze
+    text: "Aš neturiu ___."
+    answer: "pinigų"
+    hint: "pinigai; отрицание"
+    translation: "У меня нет денег."
+  - type: cloze
+    text: "Padėk ___ panešti lagaminą."
+    answer: "man"
+    hint: "aš → кому?"
+    translation: "Помоги мне понести чемодан."
+  - type: cloze
+    text: "Jis domisi ___."
+    answer: "sportu"
+    hint: "sportas → kuo?"
+    translation: "Он интересуется спортом."
+  - type: cloze
+    text: "Katė miega po ___."
+    answer: "stalu"
+    hint: "stalas; «под» → твор. п."
+    translation: "Кошка спит под столом."
+  - type: cloze
+    text: "Po ___ eisime pasivaikščioti."
+    answer: "pietų"
+    hint: "pietūs; «после» → род. п."
+    translation: "После обеда пойдём гулять."
+  - type: cloze
+    text: "Vakare vaikščiojome po ___."
+    answer: "senamiestį"
+    hint: "senamiestis; «по» → вин. п."
+    translation: "Вечером мы гуляли по Старому городу."
+  - type: cloze
+    text: "Visi laukia ___."
+    answer: "atostogų"
+    hint: "atostogos; laukti + род. п."
+    translation: "Все ждут отпуска."
+  - type: cloze
+    text: "Jis nori tapti ___."
+    answer: "inžinieriumi"
+    hint: "inžinierius; tapti + твор. п."
+    translation: "Он хочет стать инженером."

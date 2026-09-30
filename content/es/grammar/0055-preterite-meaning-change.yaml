@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0055
+cefr: B1
+order: 55
+title: "Conocí or conocía, supe or sabía: verbs that change in the preterite"
+explanation:
+  en: |
+    A few common verbs mean something different in the preterite (an event) and the imperfect (a state):
+
+    - **conocer:** *conocía* — knew (someone) / ***conocí*** — **met** for the first time
+    - **saber:** *sabía* — knew / ***supe*** — **found out**
+    - **querer:** *quería* — wanted / ***quise*** — tried; ***no quise*** — **refused**
+    - **poder:** *podía* — could (in general) / ***pude*** — **managed to**; ***no pude*** — **failed**
+    - **tener que:** *tenía que* — was supposed to (maybe didn't) / ***tuve que*** — had to (**and did**)
+    - **haber:** *había* — there was (a scene) / ***hubo*** — there was (**an event happened**): *Hubo un accidente.*
+
+    *Tom **quería** decir más, pero no **pudo**.* — the wish is a state, the failure is an event.
+comparison:
+  en: |
+    English often needs another verb (met, found out, refused, managed) where Spanish just switches the tense. Russian does something similar with aspect: *знал* → *узнал* = *sabía* → *supe*; *мог* → *смог* = *podía* → *pude*.
+examples:
+  - { text: "Lo conocí ayer.", translation: "I met him yesterday for the first time.", source: "tatoeba:1763857" }
+  - { text: "No sabía que venías.", translation: "I didn't know you were coming.", source: "tatoeba:2471367" }
+  - { text: "Lo supe de él.", translation: "I learned it from him.", source: "tatoeba:13450071" }
+  - { text: "Tomás no quiso ir.", translation: "Tom didn't want to go.", source: "tatoeba:4770998" }
+  - { text: "Tom quería decir más, pero no pudo.", translation: "Tom wanted to say more, but he couldn't.", source: "tatoeba:3357726" }
+exercises:
+  - type: cloze
+    text: "___ a mi mujer en una fiesta en 2010."
+    answer: "Conocí"
+    hint: "conocer — met for the first time (yo)"
+    translation: "I met my wife at a party in 2010."
+  - type: cloze
+    text: "Cuando era niño, ___ a todos los vecinos."
+    answer: "conocía"
+    hint: "conocer — knew, a state (yo)"
+    translation: "When I was a child, I knew all the neighbours."
+  - type: cloze
+    text: "Ayer ___ que Ana está embarazada."
+    answer: "supe"
+    hint: "saber — found out (yo)"
+    translation: "Yesterday I found out that Ana is pregnant."
+  - type: cloze
+    text: "No ___ que tenías hermanos."
+    answer: "sabía"
+    hint: "saber — didn't know, a state (yo)"
+    translation: "I didn't know you had brothers."
+  - type: cloze
+    text: "Le ofrecí dinero, pero no lo ___."
+    answer: "quiso"
+    hint: "querer — refused (él)"
+    translation: "I offered him money, but he refused it."
+  - type: cloze
+    text: "Intenté abrir la puerta, pero no ___."
+    answer: "pude"
+    hint: "poder — failed (yo)"
+    translation: "I tried to open the door, but I couldn't."
+  - type: cloze
+    text: "___ que trabajar el sábado, así que no fui a la fiesta."
+    answer: "Tuve"
+    hint: "tener — had to, and did (yo)"
+    translation: "I had to work on Saturday, so I didn't go to the party."
+  - type: cloze
+    text: "Anoche ___ un accidente en la autopista."
+    answer: "hubo"
+    hint: "haber — an event happened"
+    translation: "Last night there was an accident on the motorway."

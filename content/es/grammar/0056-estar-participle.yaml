@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0056
+cefr: B1
+order: 56
+title: "Está cerrado or fue cerrado? estar + participle"
+explanation:
+  en: |
+    - **estar + participle** — a **state**, the result of something: *La tienda **está cerrada**.* *Aquí **está prohibido** fumar.*
+    - **ser + participle** — the **action** itself (the passive, often with *por* or a date): *La tienda **fue cerrada** en 2020.* *La carta **fue escrita por** Tom.*
+
+    The participle agrees like an adjective: *cerrado, cerrada, cerrados, cerradas*.
+
+    Compare: *Cuando llegué, la puerta **estaba abierta**.* (it was open) vs *La puerta **fue abierta** por el portero.* (someone opened it)
+
+    Body positions use *estar* + participle where English uses "-ing": ***Está sentada*** — she's sitting; ***está acostado*** — he's lying down; also *está muerto*, *está casado*.
+
+    Irregular participles: *roto, hecho, escrito, abierto, puesto, visto, dicho, vuelto, muerto, cubierto, resuelto*.
+comparison:
+  en: |
+    English "the shop is closed" hides the difference; Russian shows it like Spanish: «магазин **закрыт**» = *está cerrada*, «магазин **был закрыт** в 2020 году» (someone closed it) = *fue cerrada*.
+examples:
+  - { text: "El bar está cerrado.", translation: "The bar is closed.", source: "tatoeba:3393394" }
+  - { text: "Aquí está prohibido fumar.", translation: "Smoking is forbidden here.", source: "tatoeba:856831" }
+  - { text: "Esto está roto.", translation: "This is broken.", source: "tatoeba:4506132" }
+  - { text: "La carta fue escrita por Tom.", translation: "The letter was written by Tom.", source: "tatoeba:1216178" }
+  - { text: "La prisión de Alcatraz fue cerrada en 1963.", translation: "The Alcatraz prison was closed in 1963.", source: "tatoeba:2256629" }
+exercises:
+  - type: cloze
+    text: "El banco ___ cerrado los domingos."
+    answer: "está"
+    hint: "ser or estar — a state"
+    translation: "The bank is closed on Sundays."
+  - type: cloze
+    text: "La iglesia ___ construida en el siglo XV."
+    answer: "fue"
+    hint: "ser or estar — an action in the past"
+    translation: "The church was built in the 15th century."
+  - type: cloze
+    text: "Las ventanas están ___."
+    answer: "abiertas"
+    hint: "abrir — participle, agrees"
+    translation: "The windows are open."
+  - type: cloze
+    text: "Mi abuela está ___ en el sofá."
+    answer: "sentada"
+    hint: "sentar — she's sitting"
+    translation: "My grandmother is sitting on the sofa."
+  - type: cloze
+    text: "Este móvil está ___."
+    answer: "roto"
+    hint: "romper — irregular participle"
+    translation: "This phone is broken."
+  - type: cloze
+    text: "El trabajo ya está ___."
+    answer: "hecho"
+    hint: "hacer — irregular participle"
+    translation: "The work is already done."
+  - type: cloze
+    text: "La novela ___ escrita por Cervantes."
+    answer: "fue"
+    hint: "ser or estar — the action, with por"
+    translation: "The novel was written by Cervantes."
+  - type: cloze
+    text: "Cuando llegamos, la puerta ya ___ abierta."
+    answer: "estaba"
+    hint: "estar — the state back then (imperfect)"
+    translation: "When we arrived, the door was already open."
