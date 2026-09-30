@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0047
+cefr: B1
+order: 47
+title: "Fue escrita por…: the passive with ser"
+explanation:
+  en: |
+    **ser + past participle (+ por)** = the passive. The participle **agrees** with the subject:
+    - *La carta **fue escrita** por Tom.* — The letter was written by Tom.
+    - *Los puentes **fueron construidos** en 1900.*
+    - *El premio **será entregado** mañana.*
+
+    It is typical of news, history and formal writing: *La ciudad fue fundada en 573.* In conversation Spanish prefers the active voice or *se*: *Se construyeron los puentes…* (lesson "Se habla español").
+
+    **ser vs estar + participle:**
+    - ***fue** cerrada* — the action (someone closed it): *La tienda fue cerrada por la policía.*
+    - ***está** cerrada* — the resulting state: *La tienda está cerrada.* — The shop is closed.
+
+    Irregular participles to know: *escrito, hecho, dicho, visto, puesto, abierto, roto, vuelto, descubierto, muerto*.
+comparison:
+  en: |
+    The same structure as English "was written by". Russian often uses a short participle («письмо написано Томом») or «-ся» verbs; Spanish *estar cerrada* ≈ «закрыта» (state), *fue cerrada* ≈ «была закрыта» (by someone).
+examples:
+  - { text: "La carta fue escrita por Tom.", translation: "The letter was written by Tom.", source: "tatoeba:1216178" }
+  - { text: "La ciudad fue fundada en 573.", translation: "The city was founded in 573.", source: "tatoeba:1651394" }
+  - { text: "El papel fue inventado en China.", translation: "Paper was invented in China.", source: "tatoeba:730038" }
+  - { text: "¿Qué fue inventado por Bell?", translation: "What was invented by Bell?", source: "tatoeba:1202418" }
+  - { text: "Ella fue criada por él.", translation: "She was brought up by him.", source: "tatoeba:889353" }
+exercises:
+  - type: cloze
+    text: "La carta fue ___ por mi abuelo."
+    answer: "escrita"
+    hint: "escribir, feminine"
+    translation: "The letter was written by my grandfather."
+  - type: cloze
+    text: "Estos puentes fueron ___ en el siglo XIX."
+    answer: "construidos"
+    hint: "construir, masculine plural"
+    translation: "These bridges were built in the 19th century."
+  - type: cloze
+    text: "El libro fue ___ al español."
+    answer: "traducido"
+    hint: "traducir"
+    translation: "The book was translated into Spanish."
+  - type: cloze
+    text: "La ventana ___ abierta."
+    answer: "está"
+    hint: "state → estar"
+    translation: "The window is open."
+  - type: cloze
+    text: "El ladrón fue detenido ___ la policía."
+    answer: "por"
+    hint: "by"
+    translation: "The thief was arrested by the police."
+  - type: cloze
+    text: "La tienda ___ cerrada ayer a las ocho."
+    answer: "fue"
+    hint: "the action → ser"
+    translation: "The shop was closed yesterday at eight."
+  - type: cloze
+    text: "Los premios serán ___ mañana."
+    answer: "entregados"
+    hint: "entregar, masculine plural"
+    translation: "The prizes will be handed out tomorrow."
+  - type: cloze
+    text: "La novela fue ___ en 1605."
+    answer: "publicada"
+    hint: "publicar, feminine"
+    translation: "The novel was published in 1605."

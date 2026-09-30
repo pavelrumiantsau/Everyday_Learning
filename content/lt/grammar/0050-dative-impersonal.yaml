@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0050
+cefr: B1
+order: 50
+title: "Дательный падеж: man šalta, man reikia, man sekasi"
+explanation:
+  ru: |
+    Во многих выражениях «кому как» литовский, как и русский, ставит человека в **дательный** падеж (*man, tau, jam, jai, mums, jums, jiems* или *Tomui, mamai*):
+
+    - **состояние:** *Man šalta / karšta / nuobodu / linksma / sunku / įdomu / bloga* — мне холодно / жарко / скучно / весело / трудно / интересно / плохо; *Man gaila* — мне жаль
+    - **нужно:** ***Man reikia** + род. п.* — *Man reikia **darbo**.* (мне нужна работа); ***Man reikia** + инфинитив* — *Man reikia eiti.* (мне надо идти)
+    - **не хватает:** ***Man trūksta** + род. п.* — *Man trūksta **laiko**.*
+    - **везёт, получается:** *Man **sekasi** / **nesiseka*** — у меня всё получается / не везёт; *Man **pasisekė**!* — мне повезло!; *Kaip tau sekasi?* — как дела?
+    - **нравится:** *Man **patinka** muzika.* (им. п., как в русском)
+    - **болит:** *Man **skauda** galvą.* — у меня болит голова (вин. п.!)
+    - **возраст:** *Man trisdešimt metų.* — мне тридцать лет
+    - **кажется:** *Man atrodo, kad…* — мне кажется, что…
+comparison:
+  ru: |
+    Почти всё как в русском («мне холодно, мне жаль, мне кажется»). Три ловушки: *reikia* требует **родительного** («мне нужна работа» → *man reikia **darbo***), *skauda* — **винительного** («болит голова» → *man skauda **galvą***), а «у меня болит» — тоже дательный *man*, без предлога.
+examples:
+  - { text: "Man šalta.", translation: "Мне холодно.", source: "tatoeba:9872712" }
+  - { text: "Man reikia darbo.", translation: "Мне нужна работа.", source: "tatoeba:3576905" }
+  - { text: "Man pasisekė.", translation: "Мне повезло.", source: "tatoeba:8329482" }
+  - { text: "Man nuobodu.", translation: "Мне скучно.", source: "tatoeba:3571488" }
+  - { text: "Man šeši metai.", translation: "Мне шесть лет.", source: "tatoeba:12118598" }
+exercises:
+  - type: cloze
+    text: "___ šalta, uždaryk langą."
+    answer: "Man"
+    hint: "мне (aš → дат. п.)"
+    translation: "Мне холодно, закрой окно."
+  - type: cloze
+    text: "Man reikia ___."
+    answer: "pagalbos"
+    hint: "pagalba → род. п."
+    translation: "Мне нужна помощь."
+  - type: cloze
+    text: "Jai labai ___, kad negalėjo ateiti."
+    answer: "gaila"
+    hint: "жаль"
+    translation: "Ей очень жаль, что она не смогла прийти."
+  - type: cloze
+    text: "Man skauda ___."
+    answer: "galvą"
+    hint: "galva → вин. п."
+    translation: "У меня болит голова."
+  - type: cloze
+    text: "Kaip ___ sekasi darbe?"
+    answer: "tau"
+    hint: "тебе (tu → дат. п.)"
+    translation: "Как у тебя дела на работе?"
+  - type: cloze
+    text: "Man trūksta ___."
+    answer: "laiko"
+    hint: "laikas → род. п."
+    translation: "Мне не хватает времени."
+  - type: cloze
+    text: "___ patinka ši knyga."
+    answer: "Mamai"
+    hint: "mama → дат. п."
+    translation: "Маме нравится эта книга."
+  - type: cloze
+    text: "___ reikia eiti namo."
+    answer: "Mums"
+    hint: "нам (mes → дат. п.)"
+    translation: "Нам нужно идти домой."

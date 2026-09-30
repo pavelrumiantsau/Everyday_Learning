@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0045
+cefr: B1
+order: 45
+title: "Sigo trabajando, llevo dos años, acabo de llegar"
+explanation:
+  en: |
+    Spanish expresses many time nuances with a helper verb + gerund or infinitive:
+
+    - **seguir + gerund** — still / keep doing: *Sigue lloviendo.* — It's still raining.
+    - **llevar + time + gerund** — have been doing for: *Llevo dos años estudiando español.* — I've been studying Spanish for two years.
+    - **acabar de + infinitive** — have just done: *Acabo de llegar.* — I've just arrived.
+    - **volver a + infinitive** — do again: *Lo volvió a hacer.* — He did it again.
+    - **dejar de + infinitive** — stop doing: *Dejó de fumar.* — He quit smoking.
+    - **empezar a / ponerse a + infinitive** — start doing: *Se puso a llorar.* — She burst into tears.
+    - **estar a punto de + infinitive** — be about to: *El tren está a punto de salir.*
+
+    Gerunds: *-ar → -ando* (trabajando), *-er/-ir → -iendo* (comiendo, viviendo); *leer → leyendo, dormir → durmiendo, decir → diciendo*.
+comparison:
+  en: |
+    English needs different tenses ("I've been living", "I've just arrived"); Spanish keeps the present with a helper verb: *llevo tres años viviendo aquí*, *acabo de llegar*. Russian uses adverbs instead: «всё ещё» = *seguir*, «только что» = *acabar de*, «снова» = *volver a*, «перестать» = *dejar de*.
+examples:
+  - { text: "Aún sigue lloviendo.", translation: "It keeps raining.", source: "tatoeba:8189023" }
+  - { text: "Tom lleva tres años estudiando francés.", translation: "Tom has been studying French for three years.", source: "tatoeba:2169365" }
+  - { text: "Él acaba de salir.", translation: "He left just now.", source: "tatoeba:674858" }
+  - { text: "Lo volvió a hacer.", translation: "He did it again.", source: "tatoeba:2124298" }
+  - { text: "Él dejó de fumar.", translation: "He quit smoking.", source: "tatoeba:343442" }
+exercises:
+  - type: cloze
+    text: "Aún ___ lloviendo."
+    answer: "sigue"
+    hint: "seguir, it"
+    translation: "It's still raining."
+  - type: cloze
+    text: "___ tres años viviendo en Vilna."
+    answer: "Llevo"
+    hint: "llevar, yo"
+    translation: "I've been living in Vilnius for three years."
+  - type: cloze
+    text: "Acabo ___ llegar."
+    answer: "de"
+    hint: "have just"
+    translation: "I've just arrived."
+  - type: cloze
+    text: "Lo volví ___ leer."
+    answer: "a"
+    hint: "again"
+    translation: "I read it again."
+  - type: cloze
+    text: "Dejé ___ fumar hace un año."
+    answer: "de"
+    hint: "stop doing"
+    translation: "I quit smoking a year ago."
+  - type: cloze
+    text: "Mi hermano sigue ___ en el banco."
+    answer: "trabajando"
+    hint: "trabajar, gerund"
+    translation: "My brother still works at the bank."
+  - type: cloze
+    text: "El tren está a punto ___ salir."
+    answer: "de"
+    hint: "be about to"
+    translation: "The train is about to leave."
+  - type: cloze
+    text: "De repente se puso ___ llorar."
+    answer: "a"
+    hint: "start doing"
+    translation: "Suddenly she started crying."

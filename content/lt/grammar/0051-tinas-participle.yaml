@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0051
+cefr: B2
+order: 51
+title: "Причастие -tinas: būtina, tikėtina, patartina"
+explanation:
+  ru: |
+    Причастие на **-tinas, -tina** значит «такой, который **нужно / стоит / можно** сделать». Образуется от инфинитива: *-ti → **-tinas*** (м. р.), ***-tina*** (ж. р.):
+
+    - *būti → **būtinas*** — необходимый
+    - *tikėtis → **tikėtinas*** — вероятный; *ne- + → **neįtikėtinas*** — невероятный
+    - *patarti → **patartinas*** — рекомендуемый
+    - *pažymėti → **pažymėtina*** — следует отметить
+    - *vengti → **vengtinas*** — которого следует избегать
+    - *skaityti → **skaitytina** knyga* — книга, которую стоит прочитать
+    - *atleisti → **neatleistinas*** — непростительный
+
+    Чаще всего — **безличная форма на -a** в начале предложения (статьи, новости, официальные тексты):
+    - ***Būtina** atvykti laiku.* — необходимо прибыть вовремя
+    - ***Tikėtina**, kad… / **Mažai tikėtina**, kad…* — вероятно / маловероятно, что…
+    - ***Patartina** pasitarti su gydytoju.* — рекомендуется…
+    - ***Pažymėtina**, kad…* — следует отметить, что…
+
+    Кому нужно — дательный: *Tomui būtina valgyti.*
+comparison:
+  ru: |
+    Русские соответствия — «необходимо, вероятно, рекомендуется, следует отметить». Не путай с *-tas*: *padary**tas*** — «сделанный» (уже), *padary**tina*** — «следует сделать» (ещё нет).
+examples:
+  - { text: "Ar tai būtina?", translation: "Это необходимо?", source: "tatoeba:4781868" }
+  - { text: "Tai būtina sąlyga.", translation: "Это непременное условие.", source: "tatoeba:12963008" }
+  - { text: "Mažai tikėtina, kad Tomas ateis.", translation: "Маловероятно, что Том придёт.", source: "tatoeba:10867962" }
+  - { text: "Labai tikėtina, kad rytoj lis.", translation: "Весьма вероятно, что завтра будет дождь.", source: "tatoeba:3614950" }
+  - { text: "Tomas man papasakojo neįtikėtiną istoriją.", translation: "Том рассказал мне невероятную историю.", source: "tatoeba:3624854" }
+exercises:
+  - type: cloze
+    text: "Į susitikimą atvykti ___."
+    answer: "būtina"
+    hint: "необходимо (būti → -tina)"
+    translation: "Явиться на встречу обязательно."
+  - type: cloze
+    text: "Mažai ___, kad jis sutiks."
+    answer: "tikėtina"
+    hint: "вероятно (tikėtis → -tina)"
+    translation: "Маловероятно, что он согласится."
+  - type: cloze
+    text: "Prieš kelionę ___ pasitarti su gydytoju."
+    answer: "patartina"
+    hint: "рекомендуется (patarti → -tina)"
+    translation: "Перед поездкой рекомендуется посоветоваться с врачом."
+  - type: cloze
+    text: "___, kad kainos vėl kyla."
+    answer: "Pažymėtina"
+    hint: "следует отметить (pažymėti → -tina)"
+    translation: "Следует отметить, что цены снова растут."
+  - type: cloze
+    text: "Tai ___ knyga – perskaityk ją."
+    answer: "skaitytina"
+    hint: "стоит прочитать (skaityti → -tina)"
+    translation: "Это книга, которую стоит прочитать, — прочитай её."
+  - type: cloze
+    text: "Tokių klaidų ___."
+    answer: "vengtina"
+    hint: "следует избегать (vengti → -tina)"
+    translation: "Таких ошибок следует избегать."
+  - type: cloze
+    text: "Tai ___ istorija!"
+    answer: "neįtikėtina"
+    hint: "невероятная (ne- + tikėtis → -tina)"
+    translation: "Это невероятная история!"
+  - type: cloze
+    text: "Jo poelgis ___."
+    answer: "neatleistinas"
+    hint: "непростительный (ne- + atleisti → -tinas)"
+    translation: "Его поступок непростителен."

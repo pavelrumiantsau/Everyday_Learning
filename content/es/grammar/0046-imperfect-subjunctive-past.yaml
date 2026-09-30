@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0046
+cefr: B1
+order: 46
+title: "Quería que vinieras: the subjunctive after past verbs"
+explanation:
+  en: |
+    When the main verb is in the **past** (preterite, imperfect) or the **conditional**, a subjunctive clause moves to the **imperfect subjunctive**:
+
+    - *Quiero que **vengas**.* → *Quería que **vinieras**.* — I wanted you to come.
+    - *Me pide que **llame**.* → *Me pidió que **llamara**.* — He asked me to call.
+    - *Es importante que **salgamos** pronto.* → *Era importante que **saliéramos** pronto.*
+    - *Espero que **haga** buen tiempo.* → *Esperaba que **hiciera** buen tiempo.*
+    - *No creo que **tenga** razón.* → *No creía que **tuviera** razón.*
+
+    **Forms:** take the 3rd person plural of the preterite, drop *-ron*, add *-ra, -ras, -ra, -ramos, -rais, -ran*:
+    - hablaron → habla**ra**; tuvieron → tuvie**ra**; fueron → fue**ra** (ser and ir); vinieron → vinie**ra**; dijeron → dije**ra**; pudieron → pudie**ra**
+    - *nosotros* gets an accent: habl**á**ramos, tuvi**é**ramos
+    - the *-se* forms (hablase, tuviese) mean the same — more common in Spain, in writing
+comparison:
+  en: |
+    English uses an infinitive ("I wanted you to come"), Russian «чтобы» + past («хотел, чтобы ты пришёл») — and Russian also switches to the past form, just like Spanish switches *vengas → vinieras*. The same forms appear in *si* clauses (*si tuviera…*, lesson "If I had…").
+examples:
+  - { text: "Quería que vinieras.", translation: "I wanted you to come.", source: "tatoeba:2102052" }
+  - { text: "Le pedí que viniera.", translation: "I asked him to come.", source: "tatoeba:13743979" }
+  - { text: "No era necesario que te dieras prisa.", translation: "You didn't need to hurry.", source: "tatoeba:867428" }
+  - { text: "Esperaba que dijeras eso.", translation: "I was hoping you'd say that.", source: "tatoeba:437096" }
+  - { text: "Le pedí que me ayudara.", translation: "I asked him to help me.", source: "tatoeba:1551616" }
+exercises:
+  - type: cloze
+    text: "Quería que tú ___ a la fiesta."
+    answer: "vinieras"
+    hint: "venir, tú"
+    translation: "I wanted you to come to the party."
+  - type: cloze
+    text: "Me pidió que le ___ mañana."
+    answer: "llamara"
+    hint: "llamar, yo"
+    translation: "He asked me to call him tomorrow."
+  - type: cloze
+    text: "Era necesario que nosotros ___ temprano."
+    answer: "saliéramos"
+    hint: "salir, nosotros"
+    translation: "We had to leave early."
+  - type: cloze
+    text: "Esperaba que ___ buen tiempo."
+    answer: "hiciera"
+    hint: "hacer (weather)"
+    translation: "I was hoping the weather would be good."
+  - type: cloze
+    text: "Le dije que no ___ tan alto."
+    answer: "hablara"
+    hint: "hablar, él"
+    translation: "I told him not to speak so loudly."
+  - type: cloze
+    text: "No creía que ellos ___ razón."
+    answer: "tuvieran"
+    hint: "tener, ellos"
+    translation: "I didn't think they were right."
+  - type: cloze
+    text: "Quería que mis padres ___ felices."
+    answer: "fueran"
+    hint: "ser, ellos"
+    translation: "I wanted my parents to be happy."
+  - type: cloze
+    text: "Te pedí que me ___ la verdad."
+    answer: "dijeras"
+    hint: "decir, tú"
+    translation: "I asked you to tell me the truth."
