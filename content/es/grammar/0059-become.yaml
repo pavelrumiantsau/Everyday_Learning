@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0059
+cefr: B1
+order: 59
+title: "Ponerse, volverse, hacerse, quedarse: ways to say \"become\""
+explanation:
+  en: |
+    Spanish has no single verb for "become" — the choice depends on the kind of change:
+
+    - **ponerse** + adjective — a quick, usually temporary change (mood, colour, health): *Se puso **rojo**.* *Me pongo **nerviosa**.*
+    - **volverse** + adjective — a deeper, often sudden change of character: *Se volvió **loco**.* *Se ha vuelto muy **egoísta**.*
+    - **hacerse** + noun / adjective — through effort or over time (job, beliefs, money, fame): *Se hizo **médico**.* *Quiere hacerse **rico**.*
+    - **quedarse** + adjective — the result of an event, often a loss: *Se quedó **ciego**.* *Se quedó **sin dinero*** (ran out of money). *Se quedó **dormido*** (fell asleep / overslept).
+    - **llegar a ser** — after a long way: *Llegó a ser presidente.*
+    - **convertirse en** + noun — turn into: *El agua se convirtió **en** hielo.*
+comparison:
+  en: |
+    Russian often uses one verb per change (*покраснеть, разбогатеть, ослепнуть, сойти с ума*) or just *стать*; English uses "get / go / turn / become". Ask what kind of change it is: a moment (*ponerse*), character (*volverse*), effort or career (*hacerse*), a result or loss (*quedarse*).
+examples:
+  - { text: "Tom se puso nervioso.", translation: "Tom got nervous.", source: "tatoeba:1284304" }
+  - { text: "El poeta se volvió loco al final.", translation: "The poet went mad in the end.", source: "tatoeba:1236808" }
+  - { text: "Tom se hizo médico.", translation: "Tom became a doctor.", source: "tatoeba:2084351" }
+  - { text: "Tom se quedó ciego.", translation: "Tom went blind.", source: "tatoeba:4526185" }
+  - { text: "Él llegó a ser un gran novelista.", translation: "He came to be known as a great novelist.", source: "tatoeba:727818" }
+exercises:
+  - type: cloze
+    text: "Cuando la vio, se ___ rojo."
+    answer: "puso"
+    hint: "ponerse — a quick change (él)"
+    translation: "When he saw her, he turned red."
+  - type: cloze
+    text: "Antes de un examen siempre me ___ nerviosa."
+    answer: "pongo"
+    hint: "ponerse — present (yo)"
+    translation: "I always get nervous before an exam."
+  - type: cloze
+    text: "Con los años se ha ___ muy egoísta."
+    answer: "vuelto"
+    hint: "volverse — character; participle"
+    translation: "Over the years he has become very selfish."
+  - type: cloze
+    text: "Estudió mucho y se ___ abogada."
+    answer: "hizo"
+    hint: "hacerse — a profession (ella)"
+    translation: "She studied hard and became a lawyer."
+  - type: cloze
+    text: "Mi abuelo se ___ sordo a los ochenta años."
+    answer: "quedó"
+    hint: "quedarse — a result, a loss"
+    translation: "My grandfather went deaf at eighty."
+  - type: cloze
+    text: "Nos ___ sin gasolina en medio de la carretera."
+    answer: "quedamos"
+    hint: "quedarse sin — ran out (nosotros)"
+    translation: "We ran out of petrol in the middle of the road."
+  - type: cloze
+    text: "El agua se convirtió ___ hielo."
+    answer: "en"
+    hint: "convertirse ___"
+    translation: "The water turned into ice."
+  - type: cloze
+    text: "Con el tiempo llegó ___ ser directora del hospital."
+    answer: "a"
+    hint: "llegar ___ ser"
+    translation: "In time she became director of the hospital."

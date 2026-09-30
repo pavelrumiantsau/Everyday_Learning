@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0064
+cefr: B1
+order: 64
+title: "Числительные в падежах: su dviem, trims dienoms, iš keturių"
+explanation:
+  ru: |
+    Числительные 1–9 склоняются и стоят в том же падеже, что и существительное.
+
+    - ***du / dvi***: род. **dviejų**, дат. **dviem**, вин. *du / dvi*, тв. **dviem**, мест. *dviejuose / dviejose*
+    - ***trys***: род. **trijų**, дат. **trims**, вин. **tris**, тв. **trimis**, мест. *trijuose / trijose*
+    - ***keturi / keturios*** (и так же *penki… devyni*): *keturių*, *keturiems / keturioms*, *keturis / keturias*, *keturiais / keturiomis*, *keturiuose / keturiose*
+    - ***vienas, viena*** — как прилагательное: *vieno, vienam, vieną, vienu, viename*
+    - ***abu / abi*** (оба, обе): *abiejų*, **abiem**, *abu / abi*, **abiem**, *abiejuose*
+
+    *dviem* — и дательный, и творительный: *Tai mums **dviem*** (нам двоим), *su **dviem** draugais* (с двумя друзьями).
+
+    Срок «на сколько» — **дательный** без предлога: *išvykstu **dviem savaitėms*** — уезжаю на две недели.
+comparison:
+  ru: |
+    Как и русские «двух, двум, двумя», литовские числительные склоняются вместе с существительным: *iš **trijų** knygų* — из трёх книг, *su **trimis** knygomis* — с тремя книгами. Отличие: «на две недели» — не *ant* и не *į*, а просто дательный: ***dviem savaitėms***.
+examples:
+  - { text: "Važiuosime dviem automobiliais.", translation: "Поедем на двух машинах.", source: "tatoeba:13194922" }
+  - { text: "Aš išvykstu dviem savaitėms.", translation: "Я уезжаю на две недели.", source: "tatoeba:13674524" }
+  - { text: "Ji grįžo su trimis knygomis.", translation: "Она вернулась с тремя книгами.", source: "tatoeba:12773661" }
+  - { text: "Išsirink vieną iš dviejų.", translation: "Выбери одно из двух.", source: "tatoeba:11529069" }
+  - { text: "Tai mums dviem.", translation: "Это нам двоим.", source: "tatoeba:13193734" }
+exercises:
+  - type: cloze
+    text: "Atėjau su ___ draugais."
+    answer: "dviem"
+    hint: "du → тв. п."
+    translation: "Я пришёл с двумя друзьями."
+  - type: cloze
+    text: "Kambarys skirtas ___ žmonėms."
+    answer: "trims"
+    hint: "trys → дат. п."
+    translation: "Комната рассчитана на трёх человек."
+  - type: cloze
+    text: "Išvažiuoju ___ dienoms."
+    answer: "keturioms"
+    hint: "keturios → дат. п. (на сколько)"
+    translation: "Уезжаю на четыре дня."
+  - type: cloze
+    text: "Mokytoja kalbėjo su ___ mokiniais."
+    answer: "penkiais"
+    hint: "penki → тв. п."
+    translation: "Учительница говорила с пятью учениками."
+  - type: cloze
+    text: "Iš ___ variantų rinkis vieną."
+    answer: "trijų"
+    hint: "trys → род. п."
+    translation: "Из трёх вариантов выбери один."
+  - type: cloze
+    text: "Dovanos skirtos ___ vaikams."
+    answer: "abiem"
+    hint: "abu → дат. п."
+    translation: "Подарки предназначены обоим детям."
+  - type: cloze
+    text: "Gyvename ___ kambariuose."
+    answer: "dviejuose"
+    hint: "du → мест. п."
+    translation: "Мы живём в двух комнатах."
+  - type: cloze
+    text: "Nupirkau ___ bilietus."
+    answer: "tris"
+    hint: "trys → вин. п."
+    translation: "Я купил три билета."

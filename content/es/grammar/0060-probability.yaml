@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0060
+cefr: B1
+order: 60
+title: "Quizás, a lo mejor, puede que: how sure are you?"
+explanation:
+  en: |
+    From more to less sure:
+
+    - ***seguro que*** + indicative — I'm sure: *Seguro que **viene**.*
+    - ***seguramente, probablemente*** — probably, usually + indicative: *Tom seguramente **vendrá**.*
+    - **future for a guess** (see the future lesson): *¿Dónde está Ana? — **Estará** en el trabajo.*
+    - ***a lo mejor*** (and in Spain ***igual***) + **indicative**, very common in speech: *A lo mejor **es** mi culpa.*
+    - ***quizás / quizá / tal vez*** + **subjunctive** (less sure) or indicative (more sure): *Quizá **nieve**.* *Tal vez **tienes** razón.* After the verb, only indicative: *Viene mañana, quizás.*
+    - ***puede que / es posible que*** + **subjunctive**, always: *Puede que **llueva**.*
+comparison:
+  en: |
+    Rough Russian equivalents: *seguramente* ≈ «наверняка, скорее всего» (weaker than English "surely"), *a lo mejor* ≈ «может», *puede que* ≈ «возможно». The trap is the mood: ***a lo mejor*** takes the **indicative**, ***puede que*** the **subjunctive**.
+examples:
+  - { text: "A lo mejor esto es amor.", translation: "Maybe this is love.", source: "tatoeba:9176571" }
+  - { text: "A lo mejor mañana no llueve.", translation: "Maybe it won't rain tomorrow.", source: "tatoeba:2267566" }
+  - { text: "Quizá nieve.", translation: "Maybe it'll snow.", source: "tatoeba:554812" }
+  - { text: "Puede que llueva.", translation: "It may rain.", source: "tatoeba:794089" }
+  - { text: "Tom seguramente vendrá.", translation: "Tom will surely come.", source: "tatoeba:13688966" }
+exercises:
+  - type: cloze
+    text: "A lo mejor ___ tarde."
+    answer: "llego"
+    hint: "llegar — a lo mejor + indicative (yo)"
+    translation: "Maybe I'll be late."
+  - type: cloze
+    text: "Puede que ___ razón."
+    answer: "tengas"
+    hint: "tener — puede que + subjunctive (tú)"
+    translation: "You may be right."
+  - type: cloze
+    text: "Tal vez ___ mañana."
+    answer: "venga"
+    also: ["viene"]
+    hint: "venir — not very sure (él)"
+    translation: "Perhaps he'll come tomorrow."
+  - type: cloze
+    text: "Es posible que ___ un error."
+    answer: "haya"
+    hint: "haber — subjunctive"
+    translation: "There may be a mistake."
+  - type: cloze
+    text: "No contesta. A ___ mejor está durmiendo."
+    answer: "lo"
+    hint: "a ___ mejor"
+    translation: "He isn't answering. Maybe he's asleep."
+  - type: cloze
+    text: "Quizás ___ a la playa este fin de semana."
+    answer: "vayamos"
+    also: ["vamos"]
+    hint: "ir — nosotros, not sure yet"
+    translation: "Maybe we'll go to the beach this weekend."
+  - type: cloze
+    text: "¿Dónde está Ana? — No sé, ___ en el trabajo."
+    answer: "estará"
+    hint: "estar — a guess (future)"
+    translation: "Where's Ana? — I don't know, she's probably at work."
+  - type: cloze
+    text: "Seguro que ___ bien, no te preocupes."
+    answer: "sale"
+    also: ["saldrá"]
+    hint: "salir — seguro que + indicative"
+    translation: "I'm sure it'll turn out fine, don't worry."

@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0065
+cefr: B1
+order: 65
+title: "Прилагательные на -us и -is: gražus, didelis"
+explanation:
+  ru: |
+    Кроме *geras, gera* есть ещё два частых типа прилагательных — узнаются по мужскому роду.
+
+    **-us / -i**: *gražus, saldus, sunkus, brangus, platus, pigus*
+    - м. р.: *gražus, gražaus, gražiam, gražų, gražiu, gražiame*; мн. ч. ***gražūs***, *gražių, gražiems, gražius, gražiais, gražiuose*
+    - ж. р.: *graži, gražios, gražiai, gražią, gražia, gražioje*; мн. ч. *gražios, gražių…*
+    - после **d / t** → **dž / č**: *saldus → saldžios, saldžiam*; *platus → plati, plačiu*
+
+    **-is / -ė**: *didelis, vidutinis, medinis*
+    - м. р. (как *brolis*): *didelis, didelio, dideliam, didelį, dideliu, dideliame*; мн. ч. ***dideli***, *didelių…*
+    - ж. р. (как *upė*): *didelė, didelės, didelei, didelę, didele, didelėje*
+
+    **Средний род** — для «мне холодно, здесь красиво»: *gera, šalta* (от *-as*), ***gražu, sunku, saldu*** (от *-us*): *Čia **gražu**. Man **sunku**.*
+comparison:
+  ru: |
+    В русском у прилагательных один тип окончаний, в литовском — три. Особенно легко спутать им. п. мн. ч.: *geri* (-as), ***gražūs*** (-us), ***dideli*** (-is). Если слово на *-us* — это почти всегда прилагательное, а средний род у него на *-u*: *gražu* = «красиво».
+examples:
+  - { text: "Kokie gražūs namai!", translation: "Какие красивые дома!", source: "tatoeba:12784039" }
+  - { text: "Ji turi gražią lėlę.", translation: "У нее красивая кукла.", source: "tatoeba:2744670" }
+  - { text: "Labanakt, saldžių sapnų!", translation: "Спокойной ночи, сладких снов!", source: "tatoeba:14043895" }
+  - { text: "Tomas gyvena dideliame bute.", translation: "Том живёт в большой квартире.", source: "tatoeba:12185892" }
+  - { text: "Jie turi didelį namą.", translation: "У них большой дом.", source: "tatoeba:1222143" }
+exercises:
+  - type: cloze
+    text: "Gyvename ___ mieste."
+    answer: "gražiame"
+    hint: "gražus → мест. п."
+    translation: "Мы живём в красивом городе."
+  - type: cloze
+    text: "Nusipirkau ___ suknelę."
+    answer: "gražią"
+    hint: "graži → вин. п."
+    translation: "Я купила красивое платье."
+  - type: cloze
+    text: "Šitie batai per ___."
+    answer: "brangūs"
+    hint: "brangus → им. п. мн. ч."
+    translation: "Эти туфли слишком дорогие."
+  - type: cloze
+    text: "Nemėgstu ___ arbatos."
+    answer: "saldžios"
+    hint: "saldi → род. п. (отрицание)"
+    translation: "Не люблю сладкий чай."
+  - type: cloze
+    text: "Prie namo auga ___ medžiai."
+    answer: "dideli"
+    hint: "didelis → им. п. мн. ч."
+    translation: "Возле дома растут большие деревья."
+  - type: cloze
+    text: "Tai buvo ___ diena."
+    answer: "sunki"
+    hint: "sunkus → ж. р."
+    translation: "Это был трудный день."
+  - type: cloze
+    text: "Važiavome ___ keliu."
+    answer: "plačiu"
+    hint: "platus → тв. п."
+    translation: "Мы ехали по широкой дороге."
+  - type: cloze
+    text: "Čia labai ___!"
+    answer: "gražu"
+    hint: "gražus → средний род"
+    translation: "Здесь очень красиво!"
