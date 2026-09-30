@@ -1,0 +1,58 @@
+id: lt-r-0051
+cefr: B2
+title: "Startuolių Vilnius"
+topic: "стартапы и технологии в Вильнюсе"
+source: generated
+text: |
+  Dar prieš dvidešimt metų žodis „startuolis“ daugeliui lietuvių nieko nesakė. Šiandien Vilniuje veikia šimtai jaunų technologijų įmonių, o miestas save noriai pristato kaip vieną iš Europos startuolių centrų. Jose dirba ne tik lietuviai, bet ir specialistai iš viso pasaulio.
+
+  Garsiausia sėkmės istorija – „Vinted“. 2008 metais Milda Mitkutė ir Justas Janauskas sukūrė paprastą svetainę, kurioje draugės galėjo mainytis drabužiais, kurių nebedėvi. Iš šios idėjos išaugo tarptautinė platforma, kuria naudojasi milijonai žmonių daugelyje Europos šalių. 2019 metais „Vinted“ tapo pirmuoju Lietuvos vienaragiu – įmone, kurios vertė viršija milijardą dolerių. Vėliau prie jos prisijungė ir kitos: kibernetinio saugumo bendrovė „Nord Security“, sukūrusi „NordVPN“, vienaragiu tapo 2022 metais.
+
+  Lietuva ypač išgarsėjo finansinių technologijų srityje. Lietuvos bankas sukūrė palankias sąlygas naujoms įmonėms, todėl čia licencijas gavo daug užsienio bendrovių, tarp jų ir britų „Revolut“. Gavusi licenciją Lietuvoje, įmonė gali teikti paslaugas visoje Europos Sąjungoje.
+
+  Kodėl startuoliai renkasi Vilnių? Dažniausiai minimos kelios priežastys: greitas internetas, nedaug biurokratijos, daug angliškai gerai kalbančių jaunų žmonių ir pragyvenimas, gerokai pigesnis nei Londone ar Berlyne. Be to, mieste yra keli universitetai, kurie kasmet parengia naujų programuotojų.
+
+  Vis dėlto ne viskas taip paprasta. Įmonėms trūksta patyrusių specialistų, todėl jos darbuotojų ieško ir užsienyje. Biuruose vis dažniau girdima anglų kalba, o kai kurie vilniečiai skundžiasi, kad sostinėje sparčiai brangsta būstas. Be to, didelė dalis startuolių sėkmės nepasiekia ir per kelerius metus užsidaro – apie tai kalbama kur kas rečiau nei apie vienaragius.
+
+  Nepaisant to, jaunų žmonių susidomėjimas nemažėja. Universitetuose organizuojami verslo idėjų konkursai, o sėkmingų įmonių įkūrėjai dažnai investuoja į naujus projektus. Net ir nepavykus pirmam bandymui, daugelis kuria naują įmonę – jau turėdami patirties ir žinodami, kokių klaidų vengti. Taip startuolių ekosistema pamažu auga pati iš savęs.
+glossary:
+  - { word: "startuolis", lemma: "startuolis", pos: noun, gender: m, gen: "startuolio", meaning: "стартап" }
+  - { word: "noriai", lemma: "noriai", pos: adv, meaning: "охотно" }
+  - { word: "pristato", lemma: "pristatyti", pos: verb, forms: { pres: "pristato", past: "pristatė" }, meaning: "представлять; доставлять" }
+  - { word: "svetainę", lemma: "svetainė", pos: noun, gender: f, gen: "svetainės", meaning: "сайт; гостиная", note: "вин. п." }
+  - { word: "mainytis", lemma: "mainytis", pos: verb, forms: { pres: "mainosi", past: "mainėsi" }, meaning: "обмениваться", note: "mainytis kuo (тв. п.)" }
+  - { word: "nebedėvi", lemma: "dėvėti", pos: verb, forms: { pres: "dėvi", past: "dėvėjo" }, meaning: "носить (одежду)", note: "nebe- — больше не: nebedėvi — больше не носят" }
+  - { word: "išaugo", lemma: "išaugti", pos: verb, forms: { pres: "išauga", past: "išaugo" }, meaning: "вырасти" }
+  - { word: "naudojasi", lemma: "naudotis", pos: verb, forms: { pres: "naudojasi", past: "naudojosi" }, meaning: "пользоваться", note: "+ тв. п.: kuria naudojasi — которой пользуются" }
+  - { word: "vienaragiu", lemma: "vienaragis", pos: noun, gender: m, gen: "vienaragio", meaning: "единорог (стартап дороже 1 млрд долларов)", note: "тв. п.: tapo vienaragiu" }
+  - { word: "vertė", lemma: "vertė", pos: noun, gender: f, gen: "vertės", meaning: "стоимость, ценность" }
+  - { word: "viršija", lemma: "viršyti", pos: verb, forms: { pres: "viršija", past: "viršijo" }, meaning: "превышать" }
+  - { word: "kibernetinio", lemma: "kibernetinis", pos: adj, meaning: "кибер-", note: "kibernetinis saugumas — кибербезопасность; род. п." }
+  - { word: "sukūrusi", lemma: "sukurti", pos: verb, forms: { pres: "sukuria", past: "sukūrė" }, meaning: "создать", note: "действ. прич. прош. вр., ж. р.: создавшая" }
+  - { word: "išgarsėjo", lemma: "išgarsėti", pos: verb, forms: { pres: "išgarsėja", past: "išgarsėjo" }, meaning: "прославиться" }
+  - { word: "srityje", lemma: "sritis", pos: noun, gender: f, gen: "srities", meaning: "область, сфера", note: "мест. п." }
+  - { word: "palankias", lemma: "palankus", pos: adj, meaning: "благоприятный", note: "вин. п. мн. ч. ж. р." }
+  - { word: "licencijas", lemma: "licencija", pos: noun, gender: f, gen: "licencijos", meaning: "лицензия", note: "вин. п. мн. ч." }
+  - { word: "teikti", lemma: "teikti", pos: verb, forms: { pres: "teikia", past: "teikė" }, meaning: "предоставлять (услуги)" }
+  - { word: "priežastys", lemma: "priežastis", pos: noun, gender: f, gen: "priežasties", meaning: "причина", note: "им. п. мн. ч." }
+  - { word: "pragyvenimas", lemma: "pragyvenimas", pos: noun, gender: m, gen: "pragyvenimo", meaning: "проживание, стоимость жизни" }
+  - { word: "parengia", lemma: "parengti", pos: verb, forms: { pres: "parengia", past: "parengė" }, meaning: "подготовить" }
+  - { word: "patyrusių", lemma: "patyręs", pos: adj, meaning: "опытный", note: "род. п. мн. ч." }
+  - { word: "trūksta", lemma: "trūkti", pos: verb, forms: { pres: "trūksta", past: "trūko" }, meaning: "не хватать", note: "кому — дат. п., чего — род. п.: įmonėms trūksta specialistų" }
+  - { word: "brangsta", lemma: "brangti", pos: verb, forms: { pres: "brangsta", past: "brango" }, meaning: "дорожать" }
+  - { word: "užsidaro", lemma: "užsidaryti", pos: verb, forms: { pres: "užsidaro", past: "užsidarė" }, meaning: "закрыться" }
+  - { word: "susidomėjimas", lemma: "susidomėjimas", pos: noun, gender: m, gen: "susidomėjimo", meaning: "интерес" }
+  - { word: "įkūrėjai", lemma: "įkūrėjas", pos: noun, gender: m, gen: "įkūrėjo", meaning: "основатель", note: "им. п. мн. ч." }
+  - { word: "nepavykus", lemma: "pavykti", pos: verb, forms: { pres: "pavyksta", past: "pavyko" }, meaning: "удаваться", note: "деепр. с отрицанием: nepavykus bandymui — когда попытка не удалась" }
+  - { word: "vengti", lemma: "vengti", pos: verb, forms: { pres: "vengia", past: "vengė" }, meaning: "избегать", note: "+ род. п.: klaidų vengti — избегать ошибок" }
+  - { word: "ekosistema", lemma: "ekosistema", pos: noun, gender: f, gen: "ekosistemos", meaning: "экосистема" }
+questions:
+  - q: "Kaip prasidėjo „Vinted“?"
+    options: ["Kaip svetainė, kurioje draugės galėjo mainytis drabužiais", "Kaip nedidelis bankas", "Kaip kibernetinio saugumo bendrovė"]
+    answer: 0
+  - q: "Kodėl daug finansinių įmonių gauna licenciją Lietuvoje?"
+    options: ["Nes Lietuvoje nėra mokesčių", "Nes sąlygos palankios, o su licencija galima dirbti visoje ES", "Nes Lietuvoje gyvena daug bankininkų"]
+    answer: 1
+  - q: "Apie ką, pasak teksto, kalbama rečiau?"
+    options: ["Apie vienaragius", "Apie greitą internetą", "Apie startuolius, kurie užsidaro"]
+    answer: 2

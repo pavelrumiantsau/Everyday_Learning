@@ -1,0 +1,63 @@
+id: lt-r-0050
+cefr: B2
+title: "Nuo „Metų“ iki knygų mugės"
+topic: "литовская литература и книгоноши"
+source: generated
+text: |
+  Lietuvių grožinė literatūra, palyginti su kaimyninių šalių literatūra, gana jauna. Pirmuoju tikru jos kūriniu laikoma Kristijono Donelaičio poema „Metai“, parašyta XVIII amžiuje Mažojoje Lietuvoje. Joje vaizduojamas valstiečių gyvenimas per keturis metų laikus – nuo pavasario darbų iki žiemos vargų. Poema buvo išleista tik 1818 metais, praėjus daugiau nei trims dešimtmečiams po autoriaus mirties.
+
+  Ypač sunki lietuviškai knygai buvo XIX amžiaus antroji pusė. 1864 metais Rusijos imperijos valdžia uždraudė spausdinti lietuviškus tekstus lotyniškais rašmenimis. Draudimas truko keturiasdešimt metų. Knygos buvo spausdinamos Prūsijoje, o į Lietuvą jas slapta nešė knygnešiai, rizikuodami būti suimti ir ištremti į Sibirą. Kovo 16-ąją Lietuvoje minima Knygnešio diena.
+
+  Spaudos draudimo metais gimė ir moderni lietuvių poezija. Maironio eilėraščių rinkinys „Pavasario balsai“ tapo tautinio atgimimo simboliu, o daugelį jo eilėraščių žmonės dainuoja iki šiol. Tuo metu Žemaitė rašė apsakymus apie kaimo gyvenimą – be jokių pagražinimų, su humoru ir aštriu žvilgsniu.
+
+  XX amžius lietuvių rašytojams atnešė naujų išbandymų. Balys Sruoga, kalintas nacių koncentracijos stovykloje Štuthofe, parašė knygą „Dievų miškas“. Apie baisius dalykus joje pasakojama su karčia ironija. Sovietmečiu knyga ilgai negalėjo būti išleista. Nemažai rašytojų pasitraukė į Vakarus ir kūrė emigracijoje.
+
+  Su Lietuva susijęs ir Nobelio premijos laureatas Czesławas Miłoszas. Jis gimė Šeteniuose, netoli Kėdainių, ir studijavo Vilniuje, nors rašė lenkiškai.
+
+  Atkūrus nepriklausomybę, lietuvių literatūra tapo laisvesnė ir įvairesnė. Rašytojai atvirai kalba apie tremtį, pokario partizanus ir sovietmečio kasdienybę, o jų knygos vis dažniau verčiamos į kitas kalbas.
+
+  Šiandien lietuviai vis dar daug skaito. Kiekvieną vasarį Vilniuje vyksta knygų mugė – didžiausia Baltijos šalyse. Į ją per kelias dienas atvyksta dešimtys tūkstančių lankytojų, o prie populiarių autorių stendų nusidriekia ilgos eilės. Galbūt tai knygnešių palikimas: knyga, dėl kurios kadaise buvo rizikuojama laisve, čia iki šiol vertinama ypatingai.
+glossary:
+  - { word: "grožinė", lemma: "grožinis", pos: adj, meaning: "художественный (о литературе)", note: "grožinė literatūra — художественная литература" }
+  - { word: "kūriniu", lemma: "kūrinys", pos: noun, gender: m, gen: "kūrinio", meaning: "произведение", note: "тв. п.: laikoma kūriniu — считается произведением" }
+  - { word: "vaizduojamas", lemma: "vaizduoti", pos: verb, forms: { pres: "vaizduoja", past: "vaizdavo" }, meaning: "изображать", note: "страд. прич.: изображается" }
+  - { word: "valstiečių", lemma: "valstietis", pos: noun, gender: m, gen: "valstiečio", meaning: "крестьянин", note: "род. п. мн. ч." }
+  - { word: "vargų", lemma: "vargas", pos: noun, gender: m, gen: "vargo", meaning: "нужда, мучение", note: "род. п. мн. ч." }
+  - { word: "išleista", lemma: "išleisti", pos: verb, forms: { pres: "išleidžia", past: "išleido" }, meaning: "издать; выпустить", note: "страд. прич.: издана" }
+  - { word: "praėjus", lemma: "praeiti", pos: verb, forms: { pres: "praeina", past: "praėjo" }, meaning: "пройти", note: "деепр.: praėjus trims dešimtmečiams — спустя три десятилетия" }
+  - { word: "uždraudė", lemma: "uždrausti", pos: verb, forms: { pres: "uždraudžia", past: "uždraudė" }, meaning: "запретить" }
+  - { word: "rašmenimis", lemma: "rašmuo", pos: noun, gender: m, gen: "rašmens", meaning: "письменный знак, буква", note: "тв. п. мн. ч.: lotyniškais rašmenimis — латиницей" }
+  - { word: "truko", lemma: "trukti", pos: verb, forms: { pres: "trunka", past: "truko" }, meaning: "длиться" }
+  - { word: "knygnešiai", lemma: "knygnešys", pos: noun, gender: m, gen: "knygnešio", meaning: "книгоноша (тайно носил запрещённые книги)" }
+  - { word: "ištremti", lemma: "ištremti", pos: verb, forms: { pres: "ištremia", past: "ištrėmė" }, meaning: "сослать, выслать" }
+  - { word: "minima", lemma: "minėti", pos: verb, forms: { pres: "mini", past: "minėjo" }, meaning: "отмечать (дату); упоминать", note: "страд. прич.: отмечается" }
+  - { word: "rinkinys", lemma: "rinkinys", pos: noun, gender: m, gen: "rinkinio", meaning: "сборник; набор" }
+  - { word: "atgimimo", lemma: "atgimimas", pos: noun, gender: m, gen: "atgimimo", meaning: "возрождение", note: "tautinis atgimimas — национальное возрождение" }
+  - { word: "apsakymus", lemma: "apsakymas", pos: noun, gender: m, gen: "apsakymo", meaning: "рассказ", note: "вин. п. мн. ч." }
+  - { word: "pagražinimų", lemma: "pagražinimas", pos: noun, gender: m, gen: "pagražinimo", meaning: "приукрашивание", note: "род. п. мн. ч." }
+  - { word: "išbandymų", lemma: "išbandymas", pos: noun, gender: m, gen: "išbandymo", meaning: "испытание", note: "род. п. мн. ч." }
+  - { word: "kalintas", lemma: "kalinti", pos: verb, forms: { pres: "kalina", past: "kalino" }, meaning: "держать в заключении", note: "страд. прич.: находившийся в заключении" }
+  - { word: "karčia", lemma: "kartus", pos: adj, meaning: "горький", note: "тв. п. ж. р." }
+  - { word: "pasitraukė", lemma: "pasitraukti", pos: verb, forms: { pres: "pasitraukia", past: "pasitraukė" }, meaning: "отступить; уехать", note: "pasitraukti į Vakarus — уехать на Запад" }
+  - { word: "laureatas", lemma: "laureatas", pos: noun, gender: m, gen: "laureato", meaning: "лауреат" }
+  - { word: "Atkūrus", lemma: "atkurti", pos: verb, forms: { pres: "atkuria", past: "atkūrė" }, meaning: "восстановить", note: "деепр.: atkūrus nepriklausomybę — после восстановления независимости" }
+  - { word: "tremtį", lemma: "tremtis", pos: noun, gender: f, gen: "tremties", meaning: "ссылка, депортация", note: "вин. п." }
+  - { word: "pokario", lemma: "pokaris", pos: noun, gender: m, gen: "pokario", meaning: "послевоенное время", note: "род. п.: pokario partizanai — послевоенные партизаны" }
+  - { word: "kasdienybę", lemma: "kasdienybė", pos: noun, gender: f, gen: "kasdienybės", meaning: "повседневность", note: "вин. п." }
+  - { word: "verčiamos", lemma: "versti", pos: verb, forms: { pres: "verčia", past: "vertė" }, meaning: "переводить (текст); опрокидывать", note: "страд. прич.: переводятся" }
+  - { word: "mugė", lemma: "mugė", pos: noun, gender: f, gen: "mugės", meaning: "ярмарка" }
+  - { word: "stendų", lemma: "stendas", pos: noun, gender: m, gen: "stendo", meaning: "стенд", note: "род. п. мн. ч." }
+  - { word: "nusidriekia", lemma: "nusidriekti", pos: verb, forms: { pres: "nusidriekia", past: "nusidriekė" }, meaning: "растянуться, протянуться" }
+  - { word: "palikimas", lemma: "palikimas", pos: noun, gender: m, gen: "palikimo", meaning: "наследие" }
+  - { word: "kadaise", lemma: "kadaise", pos: adv, meaning: "когда-то, некогда" }
+  - { word: "rizikuojama", lemma: "rizikuoti", pos: verb, forms: { pres: "rizikuoja", past: "rizikavo" }, meaning: "рисковать", note: "безличн.: buvo rizikuojama laisve — рисковали свободой (тв. п.)" }
+questions:
+  - q: "Kas laikomas pirmuoju tikru lietuvių literatūros kūriniu?"
+    options: ["Kristijono Donelaičio poema „Metai“", "Maironio rinkinys „Pavasario balsai“", "Balio Sruogos knyga „Dievų miškas“"]
+    answer: 0
+  - q: "Ką darė knygnešiai?"
+    options: ["Spausdino knygas Vilniuje", "Slapta nešė į Lietuvą Prūsijoje išspausdintas knygas", "Pardavinėjo knygas mugėje"]
+    answer: 1
+  - q: "Kokia kalba rašė Czesławas Miłoszas?"
+    options: ["Lietuvių", "Rusų", "Lenkų"]
+    answer: 2
