@@ -14,7 +14,7 @@ Spanish beginner, French starts April 2027.
   for vocabulary). Reading texts are written (`source: generated`) and checked line by line.
 - Lithuanian verbs need `forms: {pres, past}` (3rd person), Lithuanian nouns need `gen` (plural-only nouns: genitive plural +
   `plural_only`). `pnpm content:validate` enforces this, plus duplicate words, glossary↔item links and lesson limits
-  (≤ 5 examples, ≤ 8 exercises).
+  (≤ 5 examples, ≤ 8 exercises), and words that mix Latin and Cyrillic letters (a common typo when switching keyboard layouts).
 - Content rules in detail: `prompts/content/_common.md`, recipes `prompts/content/lt-vocab.md`, `es-vocab.md`; formats in PLAN §6.4–§6.6.
 
 ## Repository map

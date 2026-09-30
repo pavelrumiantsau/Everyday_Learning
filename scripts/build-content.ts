@@ -20,6 +20,19 @@ const errors: string[] = [];
 const items: Item[] = [];
 const seen = new Map<string, string>();
 
+// A word that mixes Latin and Cyrillic letters is always a typo (e.g. "dėmесio" typed with Russian "е", "с").
+const MIXED_SCRIPT = /[\p{Script=Latin}][\p{Script=Cyrillic}]|[\p{Script=Cyrillic}][\p{Script=Latin}]/u;
+for (const file of yamlFiles(join(root, "content"))) {
+  const rel = relative(root, file);
+  readFileSync(file, "utf8")
+    .split("\n")
+    .forEach((line, i) => {
+      for (const word of line.match(/[\p{L}\p{M}]+/gu) ?? []) {
+        if (MIXED_SCRIPT.test(word)) errors.push(`${rel}:${i + 1}: "${word}" mixes Latin and Cyrillic letters`);
+      }
+    });
+}
+
 const isGrammar = (rel: string) => /^content\/[a-z]{2}\/grammar\//.test(rel);
 const isReading = (rel: string) => /^content\/[a-z]{2}\/reading\//.test(rel);
 const STRESS_FILE = "content/lt/stress.yaml";
