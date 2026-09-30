@@ -1,0 +1,3211 @@
+# Generated from scripts/batches/fr-a2-0597.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: fr-w-0597
+  type: word
+  cefr: A1
+  text: "radio"
+  pos: noun
+  gender: f
+  meaning: { en: "radio" }
+  note: { en: "allumer / éteindre la radio" }
+  examples:
+    - { text: "Allume la radio.", translation: "Turn on the radio.", source: "tatoeba:374593" }
+- id: fr-w-0598
+  type: word
+  cefr: A2
+  text: "obtenir"
+  pos: verb
+  meaning: { en: "to get, to obtain" }
+  note: { en: "like tenir: j'obtiens" }
+  examples:
+    - { text: "J'ai tout obtenu.", translation: "I got everything.", source: "tatoeba:13449525" }
+- id: fr-w-0599
+  type: word
+  cefr: A1
+  text: "nord"
+  pos: noun
+  gender: m
+  meaning: { en: "north" }
+  examples:
+    - { text: "Elle vient du nord.", translation: "She comes from the north.", source: "tatoeba:3981637" }
+- id: fr-w-0600
+  type: word
+  cefr: A1
+  text: "deuxième"
+  pos: adj
+  meaning: { en: "second" }
+  note: { en: "also second (more formal)" }
+  examples:
+    - { text: "Je veux un deuxième avis.", translation: "I want a second opinion.", source: "tatoeba:5974593" }
+- id: fr-w-0601
+  type: word
+  cefr: A1
+  text: "sud"
+  pos: noun
+  gender: m
+  meaning: { en: "south" }
+  examples:
+    - { text: "Nice est au sud.", translation: "Nice is to the south.", source: "tatoeba:3260262" }
+- id: fr-w-0602
+  type: word
+  cefr: A2
+  text: "s'ennuyer"
+  pos: verb
+  meaning: { en: "to be bored" }
+  note: { en: "je m'ennuie; l'ennui = boredom" }
+  examples:
+    - { text: "Elle s'ennuie.", translation: "She is bored.", source: "tatoeba:1633876" }
+- id: fr-w-0603
+  type: word
+  cefr: A1
+  text: "ouest"
+  pos: noun
+  gender: m
+  meaning: { en: "west" }
+  note: { en: "the t is pronounced" }
+  examples:
+    - { text: "Va vers l'ouest.", translation: "Go west.", source: "tatoeba:10026473" }
+- id: fr-w-0604
+  type: word
+  cefr: A1
+  text: "copine"
+  pos: noun
+  gender: f
+  meaning: { en: "girlfriend; (female) friend" }
+  note: { en: "informal" }
+  examples:
+    - { text: "C'est ma copine.", translation: "She is my girlfriend.", source: "tatoeba:3252440" }
+- id: fr-w-0605
+  type: word
+  cefr: B1
+  text: "paraître"
+  pos: verb
+  meaning: { en: "to appear; to seem; to come out" }
+  note: { en: "je parais; il paraît que… = apparently" }
+  examples:
+    - { text: "Ça vient de paraître.", translation: "It just came out.", source: "tatoeba:1623538" }
+- id: fr-w-0606
+  type: word
+  cefr: A1
+  text: "copain"
+  pos: noun
+  gender: m
+  meaning: { en: "boyfriend; friend, mate" }
+  note: { en: "informal" }
+  examples:
+    - { text: "C'est son copain.", translation: "It's her boyfriend.", source: "tatoeba:11161521" }
+- id: fr-w-0607
+  type: word
+  cefr: A1
+  text: "anglais"
+  pos: adj
+  meaning: { en: "English" }
+  note: { en: "the language: l'anglais (m); a person: un Anglais" }
+  examples:
+    - { text: "Il parle anglais.", translation: "He speaks English.", source: "tatoeba:6796" }
+- id: fr-w-0608
+  type: word
+  cefr: A1
+  text: "toilettes"
+  pos: noun
+  gender: f
+  meaning: { en: "toilet(s)" }
+  note: { en: "plural: les toilettes" }
+  examples:
+    - { text: "Où sont les toilettes ?", translation: "Where's the loo?", source: "tatoeba:3946" }
+- id: fr-w-0609
+  type: word
+  cefr: A2
+  text: "excuser"
+  pos: verb
+  meaning: { en: "to excuse" }
+  note: { en: "excusez-moi = excuse me; s'excuser = to apologize" }
+  examples:
+    - { text: "Il m'excusera.", translation: "He will excuse me.", source: "tatoeba:4696128" }
+- id: fr-w-0610
+  type: word
+  cefr: A2
+  text: "rôle"
+  pos: noun
+  gender: m
+  meaning: { en: "role, part" }
+  examples:
+    - { text: "Il joue son rôle.", translation: "He plays his part.", source: "tatoeba:10797843" }
+- id: fr-w-0611
+  type: word
+  cefr: A2
+  text: "reine"
+  pos: noun
+  gender: f
+  meaning: { en: "queen" }
+  examples:
+    - { text: "Vive la Reine !", translation: "Long live the Queen!", source: "tatoeba:552015" }
+- id: fr-w-0612
+  type: word
+  cefr: B1
+  text: "mériter"
+  pos: verb
+  meaning: { en: "to deserve" }
+  examples:
+    - { text: "Tu le mérites.", translation: "You deserve it.", source: "tatoeba:1314954" }
+- id: fr-w-0613
+  type: word
+  cefr: A2
+  text: "sol"
+  pos: noun
+  gender: m
+  meaning: { en: "floor; ground" }
+  examples:
+    - { text: "Regarde le sol.", translation: "Look down at the floor.", source: "tatoeba:6889098" }
+- id: fr-w-0614
+  type: word
+  cefr: A2
+  text: "spécial"
+  pos: adj
+  meaning: { en: "special" }
+  examples:
+    - { text: "C'est spécial.", translation: "It's special.", source: "tatoeba:8731386" }
+- id: fr-w-0615
+  type: word
+  cefr: A2
+  text: "espoir"
+  pos: noun
+  gender: m
+  meaning: { en: "hope" }
+  examples:
+    - { text: "On a de l'espoir.", translation: "We have hope.", source: "tatoeba:12346177" }
+- id: fr-w-0616
+  type: word
+  cefr: B1
+  text: "prouver"
+  pos: verb
+  meaning: { en: "to prove" }
+  examples:
+    - { text: "Prouve-le-moi !", translation: "Prove it to me.", source: "tatoeba:4894148" }
+- id: fr-w-0617
+  type: word
+  cefr: A1
+  text: "vidéo"
+  pos: noun
+  gender: f
+  meaning: { en: "video" }
+  examples:
+    - { text: "J'ai vu la vidéo.", translation: "I saw the video.", source: "tatoeba:8954322" }
+- id: fr-w-0618
+  type: word
+  cefr: A1
+  text: "match"
+  pos: noun
+  gender: m
+  meaning: { en: "match, game" }
+  examples:
+    - { text: "J'ai vu le match.", translation: "I saw the game.", source: "tatoeba:5933985" }
+- id: fr-w-0619
+  type: word
+  cefr: A2
+  text: "discuter"
+  pos: verb
+  meaning: { en: "to talk, to chat; to argue" }
+  examples:
+    - { text: "J'aime discuter.", translation: "I like to talk.", source: "tatoeba:2383914" }
+- id: fr-w-0620
+  type: word
+  cefr: A2
+  text: "zone"
+  pos: noun
+  gender: f
+  meaning: { en: "area, zone" }
+  examples:
+    - { text: "Cette zone était calme.", translation: "The area was quiet.", source: "tatoeba:434047" }
+- id: fr-w-0621
+  type: word
+  cefr: A2
+  text: "proche"
+  pos: adj
+  meaning: { en: "near, close" }
+  examples:
+    - { text: "Noël est proche.", translation: "Christmas is near at hand.", source: "tatoeba:9554334" }
+- id: fr-w-0622
+  type: word
+  cefr: A2
+  text: "douleur"
+  pos: noun
+  gender: f
+  meaning: { en: "pain" }
+  examples:
+    - { text: "La douleur empire.", translation: "The pain is getting worse.", source: "tatoeba:1018264" }
+- id: fr-w-0623
+  type: word
+  cefr: A2
+  text: "toucher"
+  pos: verb
+  meaning: { en: "to touch; to receive (money)" }
+  examples:
+    - { text: "Il m'a touché.", translation: "He touched me.", source: "tatoeba:1635861" }
+- id: fr-w-0624
+  type: word
+  cefr: A2
+  text: "projet"
+  pos: noun
+  gender: m
+  meaning: { en: "plan; project" }
+  examples:
+    - { text: "Il a des projets.", translation: "He has plans.", source: "tatoeba:7098990" }
+- id: fr-w-0625
+  type: word
+  cefr: A2
+  text: "planète"
+  pos: noun
+  gender: f
+  meaning: { en: "planet" }
+  examples:
+    - { text: "Mars est une planète.", translation: "Mars is a planet.", source: "tatoeba:6479777" }
+- id: fr-w-0626
+  type: word
+  cefr: B1
+  text: "apprécier"
+  pos: verb
+  meaning: { en: "to like, to appreciate" }
+  examples:
+    - { text: "Je l'apprécie.", translation: "I like him.", source: "tatoeba:129987" }
+- id: fr-w-0627
+  type: word
+  cefr: A2
+  text: "client"
+  pos: noun
+  gender: m
+  meaning: { en: "customer, client" }
+  note: { en: "la cliente" }
+  examples:
+    - { text: "Le client est roi.", translation: "Customer is king.", source: "tatoeba:1026696" }
+- id: fr-w-0628
+  type: word
+  cefr: A2
+  text: "merveilleux"
+  pos: adj
+  meaning: { en: "wonderful" }
+  note: { en: "merveilleuse (f)" }
+  examples:
+    - { text: "C'est merveilleux.", translation: "It is marvelous.", source: "tatoeba:4983061" }
+- id: fr-w-0629
+  type: word
+  cefr: A2
+  text: "importance"
+  pos: noun
+  gender: f
+  meaning: { en: "importance" }
+  note: { en: "sans importance = unimportant" }
+  examples:
+    - { text: "C'est sans importance.", translation: "It's of no importance.", source: "tatoeba:4481512" }
+- id: fr-w-0630
+  type: word
+  cefr: A2
+  text: "découvrir"
+  pos: verb
+  meaning: { en: "to discover, to find out" }
+  note: { en: "like ouvrir: je découvre" }
+  examples:
+    - { text: "Et si Tom le découvre ?", translation: "What if Tom finds out?", source: "tatoeba:5706325" }
+- id: fr-w-0631
+  type: word
+  cefr: A2
+  text: "machine"
+  pos: noun
+  gender: f
+  meaning: { en: "machine" }
+  note: { en: "machine à laver = washing machine" }
+  examples:
+    - { text: "Il a activé la machine.", translation: "He activated the machine.", source: "tatoeba:8635545" }
+- id: fr-w-0632
+  type: word
+  cefr: A2
+  text: "occasion"
+  pos: noun
+  gender: f
+  meaning: { en: "opportunity; (d'occasion) second-hand" }
+  note: { en: "false friend: une occasion = a chance, not only \"an occasion\"" }
+  examples:
+    - { text: "Elle est d'occasion.", translation: "It's second-hand.", source: "tatoeba:1062495" }
+- id: fr-w-0633
+  type: word
+  cefr: A2
+  text: "retrouver"
+  pos: verb
+  meaning: { en: "to find (again); (se retrouver) to meet up" }
+  examples:
+    - { text: "On se retrouve à 15h.", translation: "We'll meet at 3:00 p.m.", source: "tatoeba:1369608" }
+- id: fr-w-0634
+  type: word
+  cefr: A1
+  text: "glace"
+  pos: noun
+  gender: f
+  meaning: { en: "ice; ice cream; mirror" }
+  examples:
+    - { text: "La glace fond.", translation: "The ice is melting.", source: "tatoeba:1410418" }
+- id: fr-w-0635
+  type: word
+  cefr: B1
+  text: "ravi"
+  pos: adj
+  meaning: { en: "delighted" }
+  note: { en: "ravi de vous rencontrer" }
+  examples:
+    - { text: "Je suis ravie.", translation: "I'm thrilled.", source: "tatoeba:5058654" }
+- id: fr-w-0636
+  type: word
+  cefr: A2
+  text: "camion"
+  pos: noun
+  gender: m
+  meaning: { en: "lorry, truck" }
+  examples:
+    - { text: "J'ai un camion.", translation: "I have a truck.", source: "tatoeba:1495982" }
+- id: fr-w-0637
+  type: word
+  cefr: A2
+  text: "rappeler"
+  pos: verb
+  meaning: { en: "to call back; to remind" }
+  note: { en: "j'appelle / je rappelle (ll before a silent e)" }
+  examples:
+    - { text: "Je te rappelle.", translation: "I'll ring you back.", source: "tatoeba:331225" }
+- id: fr-w-0638
+  type: word
+  cefr: A2
+  text: "spectacle"
+  pos: noun
+  gender: m
+  meaning: { en: "show" }
+  examples:
+    - { text: "As-tu vu le spectacle ?", translation: "Did you see the show?", source: "tatoeba:3816313" }
+- id: fr-w-0639
+  type: word
+  cefr: A2
+  text: "réalité"
+  pos: noun
+  gender: f
+  meaning: { en: "reality" }
+  note: { en: "en réalité = actually" }
+  examples:
+    - { text: "C'est la réalité.", translation: "This is reality.", source: "tatoeba:3224706" }
+- id: fr-w-0640
+  type: word
+  cefr: A2
+  text: "se préparer"
+  pos: verb
+  meaning: { en: "to get ready" }
+  note: { en: "préparer = to prepare" }
+  examples:
+    - { text: "Je me prépare.", translation: "I'm getting ready.", source: "tatoeba:2445916" }
+- id: fr-w-0641
+  type: word
+  cefr: A1
+  text: "vacances"
+  pos: noun
+  gender: f
+  meaning: { en: "holidays" }
+  note: { en: "always plural: être en vacances" }
+  examples:
+    - { text: "Es-tu en vacances ?", translation: "Are you on holiday?", source: "tatoeba:576686" }
+- id: fr-w-0642
+  type: word
+  cefr: A2
+  text: "certainement"
+  pos: adv
+  meaning: { en: "certainly, surely" }
+  examples:
+    - { text: "Je le ferai certainement.", translation: "I'll do that for sure.", source: "tatoeba:1072114" }
+- id: fr-w-0643
+  type: word
+  cefr: A2
+  text: "solution"
+  pos: noun
+  gender: f
+  meaning: { en: "solution" }
+  examples:
+    - { text: "J'ai une solution.", translation: "I have a solution.", source: "tatoeba:3692488" }
+- id: fr-w-0644
+  type: word
+  cefr: A2
+  text: "réfléchir"
+  pos: verb
+  meaning: { en: "to think, to reflect" }
+  note: { en: "like finir: je réfléchis" }
+  examples:
+    - { text: "J'y réfléchirai.", translation: "I'll think about this.", source: "tatoeba:2180591" }
+- id: fr-w-0645
+  type: word
+  cefr: A2
+  text: "information"
+  pos: noun
+  gender: f
+  meaning: { en: "information; (les infos) the news" }
+  examples:
+    - { text: "Partage l'information.", translation: "Share information.", source: "tatoeba:12476786" }
+- id: fr-w-0646
+  type: word
+  cefr: A1
+  text: "ordinateur"
+  pos: noun
+  gender: m
+  meaning: { en: "computer" }
+  examples:
+    - { text: "C'est un ordinateur.", translation: "It's a computer.", source: "tatoeba:8406353" }
+- id: fr-w-0647
+  type: word
+  cefr: B1
+  text: "épouser"
+  pos: verb
+  meaning: { en: "to marry" }
+  note: { en: "se marier (avec) = to get married" }
+  examples:
+    - { text: "Il l'a épousée.", translation: "He married her.", source: "tatoeba:4696063" }
+- id: fr-w-0648
+  type: word
+  cefr: A2
+  text: "nature"
+  pos: noun
+  gender: f
+  meaning: { en: "nature" }
+  examples:
+    - { text: "J'aime la nature.", translation: "I love the outdoors.", source: "tatoeba:535797" }
+- id: fr-w-0649
+  type: word
+  cefr: A2
+  text: "mignon"
+  pos: adj
+  meaning: { en: "cute" }
+  note: { en: "mignonne (f)" }
+  examples:
+    - { text: "Tom est mignon.", translation: "Tom is cute.", source: "tatoeba:8690316" }
+- id: fr-w-0650
+  type: word
+  cefr: A2
+  text: "énergie"
+  pos: noun
+  gender: f
+  meaning: { en: "energy" }
+  examples:
+    - { text: "Je manque d'énergie.", translation: "I lack energy.", source: "tatoeba:12031356" }
+- id: fr-w-0651
+  type: word
+  cefr: B1
+  text: "arranger"
+  pos: verb
+  meaning: { en: "to arrange; to sort out" }
+  examples:
+    - { text: "J'arrangerai ça.", translation: "I'll arrange it.", source: "tatoeba:4693342" }
+- id: fr-w-0652
+  type: word
+  cefr: B1
+  text: "pression"
+  pos: noun
+  gender: f
+  meaning: { en: "pressure" }
+  examples:
+    - { text: "J'étais sous pression.", translation: "I was under pressure.", source: "tatoeba:2201834" }
+- id: fr-w-0653
+  type: word
+  cefr: A1
+  text: "bain"
+  pos: noun
+  gender: m
+  meaning: { en: "bath" }
+  note: { en: "prendre un bain; salle de bains = bathroom" }
+  examples:
+    - { text: "Je veux un bain.", translation: "I want a bath.", source: "tatoeba:879607" }
+- id: fr-w-0654
+  type: word
+  cefr: A2
+  text: "accepter"
+  pos: verb
+  meaning: { en: "to accept, to agree" }
+  examples:
+    - { text: "Elle a accepté.", translation: "She agreed.", source: "tatoeba:10026382" }
+- id: fr-w-0655
+  type: word
+  cefr: A2
+  text: "ennemi"
+  pos: noun
+  gender: m
+  meaning: { en: "enemy" }
+  examples:
+    - { text: "J'ai aucun ennemi.", translation: "I don't have any enemies.", source: "tatoeba:672935" }
+- id: fr-w-0656
+  type: word
+  cefr: A2
+  text: "honnête"
+  pos: adj
+  meaning: { en: "honest" }
+  examples:
+    - { text: "Il est honnête.", translation: "He's honest.", source: "tatoeba:5701910" }
+- id: fr-w-0657
+  type: word
+  cefr: A2
+  text: "futur"
+  pos: noun
+  gender: m
+  meaning: { en: "future" }
+  note: { en: "also l'avenir" }
+  examples:
+    - { text: "Le futur est là.", translation: "The future is here.", source: "tatoeba:8823983" }
+- id: fr-w-0658
+  type: word
+  cefr: A2
+  text: "sauter"
+  pos: verb
+  meaning: { en: "to jump" }
+  examples:
+    - { text: "Ne saute pas !", translation: "Don't jump!", source: "tatoeba:6463093" }
+- id: fr-w-0659
+  type: word
+  cefr: A1
+  text: "fleur"
+  pos: noun
+  gender: f
+  meaning: { en: "flower" }
+  examples:
+    - { text: "Sens cette fleur.", translation: "Smell this flower.", source: "tatoeba:5778584" }
+- id: fr-w-0660
+  type: word
+  cefr: A2
+  text: "politique"
+  pos: noun
+  gender: f
+  meaning: { en: "politics; policy" }
+  note: { en: "also adj.: political" }
+  examples:
+    - { text: "C'est de la politique.", translation: "It's politics.", source: "tatoeba:7701704" }
+- id: fr-w-0661
+  type: word
+  cefr: A2
+  text: "casser"
+  pos: verb
+  meaning: { en: "to break" }
+  examples:
+    - { text: "Est-ce cassé ?", translation: "Is it broken?", source: "tatoeba:4547427" }
+- id: fr-w-0662
+  type: word
+  cefr: A2
+  text: "urgence"
+  pos: noun
+  gender: f
+  meaning: { en: "emergency" }
+  note: { en: "les urgences = A&E" }
+  examples:
+    - { text: "J'ai une urgence.", translation: "I've got an emergency.", source: "tatoeba:7695446" }
+- id: fr-w-0663
+  type: word
+  cefr: A2
+  text: "fier"
+  pos: adj
+  meaning: { en: "proud" }
+  note: { en: "fière (f); fier de = proud of" }
+  examples:
+    - { text: "Ziri est fier.", translation: "Ziri is proud.", source: "tatoeba:10975858" }
+- id: fr-w-0664
+  type: word
+  cefr: A2
+  text: "conversation"
+  pos: noun
+  gender: f
+  meaning: { en: "conversation" }
+  examples:
+    - { text: "On a une conversation.", translation: "We have a conversation.", source: "tatoeba:10700943" }
+- id: fr-w-0665
+  type: word
+  cefr: A2
+  text: "refuser"
+  pos: verb
+  meaning: { en: "to refuse" }
+  examples:
+    - { text: "Ziri a refusé.", translation: "Ziri refused.", source: "tatoeba:10243125" }
+- id: fr-w-0666
+  type: word
+  cefr: A2
+  text: "mémoire"
+  pos: noun
+  gender: f
+  meaning: { en: "memory" }
+  examples:
+    - { text: "Il a bonne mémoire.", translation: "He has a good memory.", source: "tatoeba:131813" }
+- id: fr-w-0667
+  type: word
+  cefr: A2
+  text: "contraire"
+  pos: noun
+  gender: m
+  meaning: { en: "opposite" }
+  note: { en: "au contraire = on the contrary" }
+  examples:
+    - { text: "Il a fait le contraire.", translation: "He did the opposite.", source: "tatoeba:1151744" }
+- id: fr-w-0668
+  type: word
+  cefr: A2
+  text: "quitter"
+  pos: verb
+  meaning: { en: "to leave (a place, a person)" }
+  note: { en: "ne quittez pas = hold the line" }
+  examples:
+    - { text: "Tom m’a quitté.", translation: "Tom left me.", source: "tatoeba:4838650" }
+- id: fr-w-0669
+  type: word
+  cefr: A2
+  text: "taille"
+  pos: noun
+  gender: f
+  meaning: { en: "size; height; waist" }
+  examples:
+    - { text: "La taille compte.", translation: "Size does matter.", source: "tatoeba:8465034" }
+- id: fr-w-0670
+  type: word
+  cefr: A2
+  text: "nécessaire"
+  pos: adj
+  meaning: { en: "necessary" }
+  examples:
+    - { text: "Est-ce nécessaire ?", translation: "Is it necessary?", source: "tatoeba:5933989" }
+- id: fr-w-0671
+  type: word
+  cefr: B1
+  text: "contrat"
+  pos: noun
+  gender: m
+  meaning: { en: "contract" }
+  examples:
+    - { text: "Lis le contrat.", translation: "Read the contract.", source: "tatoeba:11837530" }
+- id: fr-w-0672
+  type: word
+  cefr: A2
+  text: "remercier"
+  pos: verb
+  meaning: { en: "to thank" }
+  note: { en: "remercier de / pour" }
+  examples:
+    - { text: "Il m’a remercié.", translation: "He thanked me.", source: "tatoeba:10984997" }
+- id: fr-w-0673
+  type: word
+  cefr: B1
+  text: "carrière"
+  pos: noun
+  gender: f
+  meaning: { en: "career" }
+  examples:
+    - { text: "Sa carrière est en jeu.", translation: "His career is on the line.", source: "tatoeba:2022317" }
+- id: fr-w-0674
+  type: word
+  cefr: A1
+  text: "université"
+  pos: noun
+  gender: f
+  meaning: { en: "university" }
+  note: { en: "informal: la fac" }
+  examples:
+    - { text: "Il va à l'université.", translation: "He goes to university.", source: "tatoeba:132895" }
+- id: fr-w-0675
+  type: word
+  cefr: A1
+  text: "pleurer"
+  pos: verb
+  meaning: { en: "to cry" }
+  examples:
+    - { text: "Ne pleure pas.", translation: "Don't cry.", source: "tatoeba:1251902" }
+- id: fr-w-0676
+  type: word
+  cefr: A2
+  text: "sentiment"
+  pos: noun
+  gender: m
+  meaning: { en: "feeling" }
+  examples:
+    - { text: "Je connais ce sentiment.", translation: "I know the feeling.", source: "tatoeba:839160" }
+- id: fr-w-0677
+  type: word
+  cefr: A2
+  text: "immédiatement"
+  pos: adv
+  meaning: { en: "immediately" }
+  examples:
+    - { text: "J'arrive immédiatement.", translation: "I'm coming right away.", source: "tatoeba:329744" }
+- id: fr-w-0678
+  type: word
+  cefr: A1
+  text: "papier"
+  pos: noun
+  gender: m
+  meaning: { en: "paper" }
+  examples:
+    - { text: "As-tu du papier ?", translation: "Do you have paper?", source: "tatoeba:4598221" }
+- id: fr-w-0679
+  type: word
+  cefr: B1
+  text: "régler"
+  pos: verb
+  meaning: { en: "to settle, to sort out; to pay" }
+  examples:
+    - { text: "C'est tout réglé.", translation: "It's all settled.", source: "tatoeba:4866679" }
+- id: fr-w-0680
+  type: word
+  cefr: A2
+  text: "beauté"
+  pos: noun
+  gender: f
+  meaning: { en: "beauty" }
+  examples:
+    - { text: "De toute beauté !", translation: "Beautiful!", source: "tatoeba:10753333" }
+- id: fr-w-0681
+  type: word
+  cefr: A2
+  text: "couple"
+  pos: noun
+  gender: m
+  meaning: { en: "couple" }
+  examples:
+    - { text: "Nous sommes en couple.", translation: "We're a couple.", source: "tatoeba:4805463" }
+- id: fr-w-0682
+  type: word
+  cefr: B1
+  text: "rejoindre"
+  pos: verb
+  meaning: { en: "to join, to meet up with" }
+  examples:
+    - { text: "Viens nous rejoindre !", translation: "Come join us.", source: "tatoeba:3516603" }
+- id: fr-w-0683
+  type: word
+  cefr: A2
+  text: "différence"
+  pos: noun
+  gender: f
+  meaning: { en: "difference" }
+  examples:
+    - { text: "Où est la différence ?", translation: "Where is the difference?", source: "tatoeba:4899134" }
+- id: fr-w-0684
+  type: word
+  cefr: A2
+  text: "finalement"
+  pos: adv
+  meaning: { en: "in the end, finally" }
+  examples:
+    - { text: "Tom sourit finalement.", translation: "Tom finally smiled.", source: "tatoeba:8703722" }
+- id: fr-w-0685
+  type: word
+  cefr: A2
+  text: "course"
+  pos: noun
+  gender: f
+  meaning: { en: "race; (les courses) shopping" }
+  note: { en: "faire les courses = to do the shopping" }
+  examples:
+    - { text: "Je fais les courses.", translation: "I'm shopping.", source: "tatoeba:2586715" }
+- id: fr-w-0686
+  type: word
+  cefr: A2
+  text: "s'amuser"
+  pos: verb
+  meaning: { en: "to have fun" }
+  note: { en: "amusez-vous bien ! = have fun!" }
+  examples:
+    - { text: "Ils s'amusent.", translation: "They're having fun.", source: "tatoeba:1760054" }
+- id: fr-w-0687
+  type: word
+  cefr: A2
+  text: "bonheur"
+  pos: noun
+  gender: m
+  meaning: { en: "happiness" }
+  examples:
+    - { text: "Qu'est le bonheur ?", translation: "What is happiness?", source: "tatoeba:3793140" }
+- id: fr-w-0688
+  type: word
+  cefr: A2
+  text: "action"
+  pos: noun
+  gender: f
+  meaning: { en: "action; share (stock)" }
+  examples:
+    - { text: "Passons à l'action.", translation: "Let's take action.", source: "tatoeba:11759421" }
+- id: fr-w-0689
+  type: word
+  cefr: A2
+  text: "bouger"
+  pos: verb
+  meaning: { en: "to move" }
+  note: { en: "nous bougeons" }
+  examples:
+    - { text: "Ne bouge pas !", translation: "Don't move!", source: "tatoeba:4580483" }
+- id: fr-w-0690
+  type: word
+  cefr: B1
+  text: "crise"
+  pos: noun
+  gender: f
+  meaning: { en: "crisis; fit, attack" }
+  note: { en: "piquer une crise = to throw a fit" }
+  examples:
+    - { text: "Il a piqué une crise.", translation: "He went ballistic.", source: "tatoeba:1688148" }
+- id: fr-w-0691
+  type: word
+  cefr: A2
+  text: "énorme"
+  pos: adj
+  meaning: { en: "huge" }
+  examples:
+    - { text: "C'est énorme !", translation: "It's enormous!", source: "tatoeba:1623530" }
+- id: fr-w-0692
+  type: word
+  cefr: A2
+  text: "secret"
+  pos: noun
+  gender: m
+  meaning: { en: "secret" }
+  examples:
+    - { text: "C'est un secret.", translation: "It's a secret.", source: "tatoeba:706741" }
+- id: fr-w-0693
+  type: word
+  cefr: A2
+  text: "attraper"
+  pos: verb
+  meaning: { en: "to catch" }
+  examples:
+    - { text: "On m'a attrapé.", translation: "I got caught.", source: "tatoeba:5063601" }
+- id: fr-w-0694
+  type: word
+  cefr: A2
+  text: "maladie"
+  pos: noun
+  gender: f
+  meaning: { en: "illness, disease" }
+  examples:
+    - { text: "C'est une maladie.", translation: "It's a disease.", source: "tatoeba:12947420" }
+- id: fr-w-0695
+  type: word
+  cefr: A2
+  text: "île"
+  pos: noun
+  gender: f
+  meaning: { en: "island" }
+  examples:
+    - { text: "Chypre est une île.", translation: "Cyprus is an island.", source: "tatoeba:6000903" }
+- id: fr-w-0696
+  type: word
+  cefr: B1
+  text: "appartenir"
+  pos: verb
+  meaning: { en: "to belong" }
+  note: { en: "like tenir: j'appartiens; appartenir à" }
+  examples:
+    - { text: "Elle appartenait à Thomas.", translation: "It belonged to Tom.", source: "tatoeba:7689389" }
+- id: fr-w-0697
+  type: word
+  cefr: A2
+  text: "caméra"
+  pos: noun
+  gender: f
+  meaning: { en: "video camera" }
+  note: { en: "a stills camera = un appareil photo" }
+  examples:
+    - { text: "Prends la caméra.", translation: "Get the camera.", source: "tatoeba:7556189" }
+- id: fr-w-0698
+  type: word
+  cefr: A2
+  text: "ancien"
+  pos: adj
+  meaning: { en: "old; former" }
+  note: { en: "before the noun = former (mon ancien patron), after = old (un meuble ancien)" }
+  examples:
+    - { text: "Lequel est ancien ?", translation: "Which is old?", source: "tatoeba:744197" }
+- id: fr-w-0699
+  type: word
+  cefr: A1
+  text: "animal"
+  pos: noun
+  gender: m
+  meaning: { en: "animal" }
+  note: { en: "plural animaux" }
+  examples:
+    - { text: "L'animal mange.", translation: "The animal eats.", source: "tatoeba:5041118" }
+- id: fr-w-0700
+  type: word
+  cefr: A2
+  text: "amener"
+  pos: verb
+  meaning: { en: "to bring (someone)" }
+  note: { en: "j'amène; things: apporter" }
+  examples:
+    - { text: "Amenez Tom ici.", translation: "Bring Tom here.", source: "tatoeba:9391793" }
+- id: fr-w-0701
+  type: word
+  cefr: A2
+  text: "image"
+  pos: noun
+  gender: f
+  meaning: { en: "picture, image" }
+  examples:
+    - { text: "J'aime cette image.", translation: "I love this picture.", source: "tatoeba:1071743" }
+- id: fr-w-0702
+  type: word
+  cefr: A1
+  text: "langue"
+  pos: noun
+  gender: f
+  meaning: { en: "language; tongue" }
+  examples:
+    - { text: "C'est ma langue.", translation: "That's my language.", source: "tatoeba:13797667" }
+- id: fr-w-0703
+  type: word
+  cefr: A2
+  text: "couper"
+  pos: verb
+  meaning: { en: "to cut; to switch off" }
+  examples:
+    - { text: "Coupe le gaz !", translation: "Cut off the gas!", source: "tatoeba:3655719" }
+- id: fr-w-0704
+  type: word
+  cefr: A2
+  text: "direction"
+  pos: noun
+  gender: f
+  meaning: { en: "direction; management" }
+  examples:
+    - { text: "De quelle direction ?", translation: "From which direction?", source: "tatoeba:969773" }
+- id: fr-w-0705
+  type: word
+  cefr: A2
+  text: "patient"
+  pos: adj
+  meaning: { en: "patient" }
+  examples:
+    - { text: "Je suis patient.", translation: "I'm patient.", source: "tatoeba:4593072" }
+- id: fr-w-0706
+  type: word
+  cefr: A1
+  text: "couleur"
+  pos: noun
+  gender: f
+  meaning: { en: "colour" }
+  examples:
+    - { text: "J'aime les couleurs.", translation: "I love the colors.", source: "tatoeba:5939147" }
+- id: fr-w-0707
+  type: word
+  cefr: B1
+  text: "dépendre"
+  pos: verb
+  meaning: { en: "to depend" }
+  note: { en: "ça dépend = it depends" }
+  examples:
+    - { text: "Ta vie pourrait en dépendre.", translation: "Your life could depend on it.", source: "tatoeba:10944474" }
+- id: fr-w-0708
+  type: word
+  cefr: A2
+  text: "date"
+  pos: noun
+  gender: f
+  meaning: { en: "date" }
+  examples:
+    - { text: "Tom vérifia la date.", translation: "Tom checked the date.", source: "tatoeba:5348100" }
+- id: fr-w-0709
+  type: word
+  cefr: A2
+  text: "goût"
+  pos: noun
+  gender: m
+  meaning: { en: "taste" }
+  note: { en: "avoir bon goût" }
+  examples:
+    - { text: "Tu as bon goût.", translation: "You have good taste.", source: "tatoeba:8597713" }
+- id: fr-w-0710
+  type: word
+  cefr: B1
+  text: "agir"
+  pos: verb
+  meaning: { en: "to act" }
+  note: { en: "like finir; il s'agit de = it's about" }
+  examples:
+    - { text: "On doit agir vite.", translation: "We have to act fast.", source: "tatoeba:3922817" }
+- id: fr-w-0711
+  type: word
+  cefr: A2
+  text: "sourire"
+  pos: noun
+  gender: m
+  meaning: { en: "smile; (verb) to smile" }
+  examples:
+    - { text: "Garde le sourire.", translation: "Keep smiling.", source: "tatoeba:7563004" }
+- id: fr-w-0712
+  type: word
+  cefr: A2
+  text: "dur"
+  pos: adj
+  meaning: { en: "hard; tough" }
+  examples:
+    - { text: "Vous êtes dur.", translation: "You're tough.", source: "tatoeba:4653712" }
+- id: fr-w-0713
+  type: word
+  cefr: B1
+  text: "destin"
+  pos: noun
+  gender: m
+  meaning: { en: "fate, destiny" }
+  examples:
+    - { text: "C'est mon destin.", translation: "This is my fate.", source: "tatoeba:1800463" }
+- id: fr-w-0714
+  type: word
+  cefr: B1
+  text: "se produire"
+  pos: verb
+  meaning: { en: "to happen" }
+  examples:
+    - { text: "Ça se produit.", translation: "It happens.", source: "tatoeba:7563059" }
+- id: fr-w-0715
+  type: word
+  cefr: B1
+  text: "partenaire"
+  pos: noun
+  gender: mf
+  meaning: { en: "partner" }
+  examples:
+    - { text: "C'est mon partenaire.", translation: "He's my partner.", source: "tatoeba:2201341" }
+- id: fr-w-0716
+  type: word
+  cefr: A2
+  text: "costume"
+  pos: noun
+  gender: m
+  meaning: { en: "suit; costume" }
+  examples:
+    - { text: "J'aime ce costume.", translation: "I love that suit.", source: "tatoeba:7791004" }
+- id: fr-w-0717
+  type: word
+  cefr: B1
+  text: "échanger"
+  pos: verb
+  meaning: { en: "to exchange, to swap" }
+  note: { en: "nous échangeons" }
+  examples:
+    - { text: "Échangeons nos places.", translation: "Let's swap places.", source: "tatoeba:11932006" }
+- id: fr-w-0718
+  type: word
+  cefr: A2
+  text: "entreprise"
+  pos: noun
+  gender: f
+  meaning: { en: "company, business" }
+  examples:
+    - { text: "Notre entreprise s'étend.", translation: "Our business is expanding.", source: "tatoeba:3625489" }
+- id: fr-w-0719
+  type: word
+  cefr: A2
+  text: "excellent"
+  pos: adj
+  meaning: { en: "excellent" }
+  examples:
+    - { text: "Ils sont excellents.", translation: "They're excellent.", source: "tatoeba:8724090" }
+- id: fr-w-0720
+  type: word
+  cefr: A2
+  text: "art"
+  pos: noun
+  gender: m
+  meaning: { en: "art" }
+  examples:
+    - { text: "Il aime l'art.", translation: "He loves art.", source: "tatoeba:11941757" }
+- id: fr-w-0721
+  type: word
+  cefr: A2
+  text: "imaginer"
+  pos: verb
+  meaning: { en: "to imagine" }
+  examples:
+    - { text: "Imagine un peu !", translation: "Just imagine!", source: "tatoeba:11964646" }
+- id: fr-w-0722
+  type: word
+  cefr: A2
+  text: "magie"
+  pos: noun
+  gender: f
+  meaning: { en: "magic" }
+  examples:
+    - { text: "Crois-tu en la magie ?", translation: "Do you believe in magic?", source: "tatoeba:2354573" }
+- id: fr-w-0723
+  type: word
+  cefr: A2
+  text: "pièce"
+  pos: noun
+  gender: f
+  meaning: { en: "room; coin; play; piece" }
+  examples:
+    - { text: "Nettoie la pièce.", translation: "Clean the room.", source: "tatoeba:378285" }
+- id: fr-w-0724
+  type: word
+  cefr: A2
+  text: "jeter"
+  pos: verb
+  meaning: { en: "to throw; to throw away" }
+  note: { en: "je jette; jeter un œil = to have a look" }
+  examples:
+    - { text: "Tu devrais jeter ça.", translation: "You should throw this out.", source: "tatoeba:7802628" }
+- id: fr-w-0725
+  type: word
+  cefr: A2
+  text: "identité"
+  pos: noun
+  gender: f
+  meaning: { en: "identity" }
+  note: { en: "carte d'identité = ID card" }
+  examples:
+    - { text: "C'est ma carte d'identité.", translation: "This is my I.D. card.", source: "tatoeba:470451" }
+- id: fr-w-0726
+  type: word
+  cefr: B1
+  text: "parmi"
+  pos: prep
+  meaning: { en: "among" }
+  examples:
+    - { text: "Ils sont parmi nous !", translation: "They are among us!", source: "tatoeba:447192" }
+- id: fr-w-0727
+  type: word
+  cefr: A2
+  text: "morceau"
+  pos: noun
+  gender: m
+  meaning: { en: "piece, bit" }
+  note: { en: "manger un morceau = to have a bite" }
+  examples:
+    - { text: "Mangeons un morceau.", translation: "Let's grab a bite.", source: "tatoeba:10678192" }
+- id: fr-w-0728
+  type: word
+  cefr: A2
+  text: "partager"
+  pos: verb
+  meaning: { en: "to share" }
+  note: { en: "nous partageons" }
+  examples:
+    - { text: "On va partager.", translation: "We'll share.", source: "tatoeba:7397581" }
+- id: fr-w-0729
+  type: word
+  cefr: A2
+  text: "nombre"
+  pos: noun
+  gender: m
+  meaning: { en: "number" }
+  examples:
+    - { text: "Choisis un nombre !", translation: "Pick a number.", source: "tatoeba:4625967" }
+- id: fr-w-0730
+  type: word
+  cefr: A2
+  text: "joie"
+  pos: noun
+  gender: f
+  meaning: { en: "joy" }
+  examples:
+    - { text: "Il pleura de joie.", translation: "He cried with joy.", source: "tatoeba:2104637" }
+- id: fr-w-0731
+  type: word
+  cefr: B1
+  text: "inquiéter"
+  pos: verb
+  meaning: { en: "to worry (someone)" }
+  note: { en: "s'inquiéter = to worry; ne t'inquiète pas = don't worry" }
+  examples:
+    - { text: "Ça m'inquiétait.", translation: "That worried me.", source: "tatoeba:10540495" }
+- id: fr-w-0732
+  type: word
+  cefr: A2
+  text: "appareil"
+  pos: noun
+  gender: m
+  meaning: { en: "device, appliance; phone" }
+  note: { en: "qui est à l'appareil ? = who's calling?; appareil photo = camera" }
+  examples:
+    - { text: "Que fait cet appareil ?", translation: "What does this device do?", source: "tatoeba:2061257" }
+- id: fr-w-0733
+  type: word
+  cefr: A2
+  text: "humain"
+  pos: adj
+  meaning: { en: "human" }
+  examples:
+    - { text: "Je suis humain.", translation: "I am human.", source: "tatoeba:7550" }
+- id: fr-w-0734
+  type: word
+  cefr: A2
+  text: "résultat"
+  pos: noun
+  gender: m
+  meaning: { en: "result" }
+  examples:
+    - { text: "Voilà le résultat !", translation: "Here's the result!", source: "tatoeba:8676740" }
+- id: fr-w-0735
+  type: word
+  cefr: B1
+  text: "se cacher"
+  pos: verb
+  meaning: { en: "to hide" }
+  note: { en: "cacher = to hide (something)" }
+  examples:
+    - { text: "Je me cachais.", translation: "I was hiding.", source: "tatoeba:2201967" }
+- id: fr-w-0736
+  type: word
+  cefr: B1
+  text: "vitesse"
+  pos: noun
+  gender: f
+  meaning: { en: "speed; gear" }
+  examples:
+    - { text: "La vitesse tue.", translation: "Speed kills.", source: "tatoeba:8090779" }
+- id: fr-w-0737
+  type: word
+  cefr: A2
+  text: "succès"
+  pos: noun
+  gender: m
+  meaning: { en: "success" }
+  note: { en: "false friend: success, not \"exit\"" }
+  examples:
+    - { text: "J'envie son succès.", translation: "I am envious of his success.", source: "tatoeba:127725" }
+- id: fr-w-0738
+  type: word
+  cefr: B1
+  text: "abandonner"
+  pos: verb
+  meaning: { en: "to give up; to abandon" }
+  examples:
+    - { text: "N'abandonne pas.", translation: "Don't give up.", source: "tatoeba:1845859" }
+- id: fr-w-0739
+  type: word
+  cefr: A2
+  text: "odeur"
+  pos: noun
+  gender: f
+  meaning: { en: "smell" }
+  examples:
+    - { text: "L'odeur est immonde.", translation: "The odor is vile.", source: "tatoeba:10324739" }
+- id: fr-w-0740
+  type: word
+  cefr: B1
+  text: "marrant"
+  pos: adj
+  meaning: { en: "funny (informal)" }
+  examples:
+    - { text: "C'est marrant.", translation: "It's fun.", source: "tatoeba:2190175" }
+- id: fr-w-0741
+  type: word
+  cefr: A2
+  text: "règle"
+  pos: noun
+  gender: f
+  meaning: { en: "rule; ruler" }
+  examples:
+    - { text: "C'est une règle.", translation: "It's a rule.", source: "tatoeba:7699829" }
+- id: fr-w-0742
+  type: word
+  cefr: B1
+  text: "créer"
+  pos: verb
+  meaning: { en: "to create" }
+  examples:
+    - { text: "Je vais le créer.", translation: "I will create it.", source: "tatoeba:12474123" }
+- id: fr-w-0743
+  type: word
+  cefr: B1
+  text: "ministre"
+  pos: noun
+  gender: m
+  meaning: { en: "minister" }
+  note: { en: "le Premier ministre" }
+  examples:
+    - { text: "Bob devint ministre.", translation: "Bob became a minister.", source: "tatoeba:464740" }
+- id: fr-w-0744
+  type: word
+  cefr: A1
+  text: "arbre"
+  pos: noun
+  gender: m
+  meaning: { en: "tree" }
+  examples:
+    - { text: "L'arbre tombe.", translation: "The tree falls.", source: "tatoeba:7361754" }
+- id: fr-w-0745
+  type: word
+  cefr: A2
+  text: "embrasser"
+  pos: verb
+  meaning: { en: "to kiss; to hug" }
+  examples:
+    - { text: "Elle l'embrasse.", translation: "She is kissing him.", source: "tatoeba:1342040" }
+- id: fr-w-0746
+  type: word
+  cefr: B1
+  text: "maire"
+  pos: noun
+  gender: m
+  meaning: { en: "mayor" }
+  note: { en: "la mairie = town hall" }
+  examples:
+    - { text: "Es-tu le maire ?", translation: "Are you the mayor?", source: "tatoeba:5347991" }
+- id: fr-w-0747
+  type: word
+  cefr: B1
+  text: "puisque"
+  pos: conj
+  meaning: { en: "since, as" }
+  examples:
+    - { text: "Puisque tu le dis.", translation: "Since you say so.", source: "tatoeba:180987" }
+- id: fr-w-0748
+  type: word
+  cefr: A2
+  text: "champ"
+  pos: noun
+  gender: m
+  meaning: { en: "field" }
+  examples:
+    - { text: "Va dans le champ.", translation: "Go in the field.", source: "tatoeba:11432" }
+- id: fr-w-0749
+  type: word
+  cefr: B1
+  text: "convaincre"
+  pos: verb
+  meaning: { en: "to convince" }
+  note: { en: "je convaincs" }
+  examples:
+    - { text: "Tu ne peux pas me convaincre.", translation: "You can't convince me.", source: "tatoeba:11156639" }
+- id: fr-w-0750
+  type: word
+  cefr: B1
+  text: "valeur"
+  pos: noun
+  gender: f
+  meaning: { en: "value" }
+  examples:
+    - { text: "C'est sans valeur.", translation: "It's worthless.", source: "tatoeba:10257465" }
+- id: fr-w-0751
+  type: word
+  cefr: A2
+  text: "toit"
+  pos: noun
+  gender: m
+  meaning: { en: "roof" }
+  examples:
+    - { text: "Tom est sur le toit.", translation: "Tom is on the roof.", source: "tatoeba:2449810" }
+- id: fr-w-0752
+  type: word
+  cefr: B1
+  text: "signer"
+  pos: verb
+  meaning: { en: "to sign" }
+  examples:
+    - { text: "Ont-ils signé ?", translation: "Did they sign?", source: "tatoeba:4614003" }
+- id: fr-w-0753
+  type: word
+  cefr: A2
+  text: "extérieur"
+  pos: noun
+  gender: m
+  meaning: { en: "outside" }
+  note: { en: "à l'extérieur = outside" }
+  examples:
+    - { text: "Venez à l'extérieur.", translation: "Come outside.", source: "tatoeba:6468784" }
+- id: fr-w-0754
+  type: word
+  cefr: B1
+  text: "totalement"
+  pos: adv
+  meaning: { en: "totally" }
+  examples:
+    - { text: "C'est totalement faux.", translation: "That's totally wrong.", source: "tatoeba:12953980" }
+- id: fr-w-0755
+  type: word
+  cefr: A2
+  text: "membre"
+  pos: noun
+  gender: m
+  meaning: { en: "member" }
+  examples:
+    - { text: "Je suis membre.", translation: "I'm a member.", source: "tatoeba:4579619" }
+- id: fr-w-0756
+  type: word
+  cefr: B1
+  text: "lancer"
+  pos: verb
+  meaning: { en: "to throw; to launch" }
+  note: { en: "nous lançons" }
+  examples:
+    - { text: "Lance la balle.", translation: "Throw the ball.", source: "tatoeba:4274124" }
+- id: fr-w-0757
+  type: word
+  cefr: B1
+  text: "hasard"
+  pos: noun
+  gender: m
+  meaning: { en: "chance, coincidence" }
+  note: { en: "par hasard = by chance" }
+  examples:
+    - { text: "C'est un pur hasard.", translation: "It's pure chance.", source: "tatoeba:11230239" }
+- id: fr-w-0758
+  type: word
+  cefr: B1
+  text: "génie"
+  pos: noun
+  gender: m
+  meaning: { en: "genius" }
+  examples:
+    - { text: "Tu es un génie.", translation: "You're a genius.", source: "tatoeba:4626920" }
+- id: fr-w-0759
+  type: word
+  cefr: B1
+  text: "contrôler"
+  pos: verb
+  meaning: { en: "to control; to check" }
+  examples:
+    - { text: "Contrôle ta peur.", translation: "Control your fear.", source: "tatoeba:8165934" }
+- id: fr-w-0760
+  type: word
+  cefr: A1
+  text: "saison"
+  pos: noun
+  gender: f
+  meaning: { en: "season" }
+  examples:
+    - { text: "J'aime cette saison.", translation: "I like this season.", source: "tatoeba:6889142" }
+- id: fr-w-0761
+  type: word
+  cefr: A2
+  text: "clair"
+  pos: adj
+  meaning: { en: "clear; light (colour)" }
+  examples:
+    - { text: "Tout est clair.", translation: "It's all clear.", source: "tatoeba:4864867" }
+- id: fr-w-0762
+  type: word
+  cefr: A1
+  text: "mètre"
+  pos: noun
+  gender: m
+  meaning: { en: "metre" }
+  examples:
+    - { text: "Cela fait 30 mètres de long.", translation: "That is 30 metres long.", source: "tatoeba:5736961" }
+- id: fr-w-0763
+  type: word
+  cefr: B1
+  text: "supporter"
+  pos: verb
+  meaning: { en: "to stand, to bear" }
+  note: { en: "false friend: to support a team = soutenir, encourager" }
+  examples:
+    - { text: "Je le supporte.", translation: "I can live with that.", source: "tatoeba:5561972" }
+- id: fr-w-0764
+  type: word
+  cefr: A2
+  text: "service"
+  pos: noun
+  gender: m
+  meaning: { en: "service; favour" }
+  note: { en: "à votre service" }
+  examples:
+    - { text: "À votre service.", translation: "At your service.", source: "tatoeba:8751255" }
+- id: fr-w-0765
+  type: word
+  cefr: A2
+  text: "poids"
+  pos: noun
+  gender: m
+  meaning: { en: "weight" }
+  note: { en: "perdre du poids" }
+  examples:
+    - { text: "Perds du poids.", translation: "Lose weight.", source: "tatoeba:12476706" }
+- id: fr-w-0766
+  type: word
+  cefr: B1
+  text: "retirer"
+  pos: verb
+  meaning: { en: "to take off, to withdraw" }
+  note: { en: "se retirer = to withdraw, to retire" }
+  examples:
+    - { text: "Il s'est retiré.", translation: "He retired.", source: "tatoeba:9017543" }
+- id: fr-w-0767
+  type: word
+  cefr: A2
+  text: "poche"
+  pos: noun
+  gender: f
+  meaning: { en: "pocket" }
+  note: { en: "argent de poche = pocket money" }
+  examples:
+    - { text: "Vide tes poches !", translation: "Empty your pockets!", source: "tatoeba:1925136" }
+- id: fr-w-0768
+  type: word
+  cefr: B1
+  text: "entier"
+  pos: adj
+  meaning: { en: "whole, entire" }
+  note: { en: "en entier = in full" }
+  examples:
+    - { text: "Tu l'as lu en entier ?", translation: "Have you read all of it?", source: "tatoeba:590111" }
+- id: fr-w-0769
+  type: word
+  cefr: A2
+  text: "changement"
+  pos: noun
+  gender: m
+  meaning: { en: "change" }
+  examples:
+    - { text: "Il y a du changement.", translation: "Change is afoot.", source: "tatoeba:7938768" }
+- id: fr-w-0770
+  type: word
+  cefr: B1
+  text: "atteindre"
+  pos: verb
+  meaning: { en: "to reach" }
+  note: { en: "j'atteins, il a atteint" }
+  examples:
+    - { text: "Je ne peux pas l'atteindre.", translation: "I can't reach it.", source: "tatoeba:181425" }
+- id: fr-w-0771
+  type: word
+  cefr: A1
+  text: "page"
+  pos: noun
+  gender: f
+  meaning: { en: "page" }
+  examples:
+    - { text: "Tourne la page.", translation: "Turn the page.", source: "tatoeba:6947584" }
+- id: fr-w-0772
+  type: word
+  cefr: A2
+  text: "trésor"
+  pos: noun
+  gender: m
+  meaning: { en: "treasure; darling" }
+  examples:
+    - { text: "C'est un trésor.", translation: "It's a treasure.", source: "tatoeba:1238369" }
+- id: fr-w-0773
+  type: word
+  cefr: B1
+  text: "fuir"
+  pos: verb
+  meaning: { en: "to flee; to leak" }
+  note: { en: "je fuis, nous fuyons" }
+  examples:
+    - { text: "Tom a dû fuir.", translation: "Tom had to run.", source: "tatoeba:6287320" }
+- id: fr-w-0774
+  type: word
+  cefr: A2
+  text: "naissance"
+  pos: noun
+  gender: f
+  meaning: { en: "birth" }
+  examples:
+    - { text: "Il est Grec de naissance.", translation: "He is a Greek by birth.", source: "tatoeba:132764" }
+- id: fr-w-0775
+  type: word
+  cefr: B1
+  text: "évidemment"
+  pos: adv
+  meaning: { en: "obviously, of course" }
+  examples:
+    - { text: "C'est évidemment faux.", translation: "This is obviously false.", source: "tatoeba:7928293" }
+- id: fr-w-0776
+  type: word
+  cefr: B1
+  text: "retraite"
+  pos: noun
+  gender: f
+  meaning: { en: "retirement" }
+  note: { en: "prendre sa retraite = to retire" }
+  examples:
+    - { text: "Je prends ma retraite.", translation: "I'm retiring.", source: "tatoeba:2444094" }
+- id: fr-w-0777
+  type: word
+  cefr: B1
+  text: "se défendre"
+  pos: verb
+  meaning: { en: "to defend oneself" }
+  examples:
+    - { text: "Elle sait se défendre.", translation: "She knows how to defend herself.", source: "tatoeba:8637927" }
+- id: fr-w-0778
+  type: word
+  cefr: A2
+  text: "bâtiment"
+  pos: noun
+  gender: m
+  meaning: { en: "building" }
+  examples:
+    - { text: "Regarde ce bâtiment.", translation: "Look at that building.", source: "tatoeba:10484" }
+- id: fr-w-0779
+  type: word
+  cefr: A1
+  text: "cheval"
+  pos: noun
+  gender: m
+  meaning: { en: "horse" }
+  note: { en: "plural chevaux" }
+  examples:
+    - { text: "J'ai un cheval.", translation: "I have a horse.", source: "tatoeba:3720316" }
+- id: fr-w-0780
+  type: word
+  cefr: B1
+  text: "blesser"
+  pos: verb
+  meaning: { en: "to hurt, to injure" }
+  examples:
+    - { text: "Es-tu blessé ?", translation: "Are you hurt?", source: "tatoeba:1112173" }
+- id: fr-w-0781
+  type: word
+  cefr: B1
+  text: "émission"
+  pos: noun
+  gender: f
+  meaning: { en: "programme, show (TV, radio)" }
+  examples:
+    - { text: "J'ai adoré cette émission.", translation: "I loved that show.", source: "tatoeba:11181111" }
+- id: fr-w-0782
+  type: word
+  cefr: A1
+  text: "troisième"
+  pos: adj
+  meaning: { en: "third" }
+  examples:
+    - { text: "J'étais troisième.", translation: "I was third.", source: "tatoeba:6287677" }
+- id: fr-w-0783
+  type: word
+  cefr: B1
+  text: "conscience"
+  pos: noun
+  gender: f
+  meaning: { en: "consciousness; conscience" }
+  note: { en: "reprendre conscience = to come round" }
+  examples:
+    - { text: "Tom reprend conscience.", translation: "Tom is coming to.", source: "tatoeba:9167294" }
+- id: fr-w-0784
+  type: word
+  cefr: B1
+  text: "permettre"
+  pos: verb
+  meaning: { en: "to allow; (se permettre) to afford" }
+  note: { en: "like mettre" }
+  examples:
+    - { text: "Peut-on se le permettre ?", translation: "Can we afford that?", source: "tatoeba:11189979" }
+- id: fr-w-0785
+  type: word
+  cefr: B1
+  text: "relation"
+  pos: noun
+  gender: f
+  meaning: { en: "relationship" }
+  examples:
+    - { text: "Leur relation se détériore.", translation: "Their relationship is deteriorating.", source: "tatoeba:7809653" }
+- id: fr-w-0786
+  type: word
+  cefr: A2
+  text: "mensonge"
+  pos: noun
+  gender: m
+  meaning: { en: "lie" }
+  examples:
+    - { text: "Il dit un mensonge.", translation: "He is telling a lie.", source: "tatoeba:921334" }
+- id: fr-w-0787
+  type: word
+  cefr: A2
+  text: "se doucher"
+  pos: verb
+  meaning: { en: "to shower" }
+  note: { en: "prendre une douche" }
+  examples:
+    - { text: "Je vais me doucher.", translation: "I'm going to take a shower.", source: "tatoeba:1237319" }
+- id: fr-w-0788
+  type: word
+  cefr: B1
+  text: "victoire"
+  pos: noun
+  gender: f
+  meaning: { en: "victory" }
+  examples:
+    - { text: "C'est ta victoire.", translation: "It's your victory.", source: "tatoeba:477469" }
+- id: fr-w-0789
+  type: word
+  cefr: A2
+  text: "faible"
+  pos: adj
+  meaning: { en: "weak" }
+  examples:
+    - { text: "Tom est faible.", translation: "Tom's weak.", source: "tatoeba:3375038" }
+- id: fr-w-0790
+  type: word
+  cefr: A2
+  text: "droit"
+  pos: noun
+  gender: m
+  meaning: { en: "right; law; (adj.) straight" }
+  note: { en: "tout droit = straight on; à droite = on the right" }
+  examples:
+    - { text: "Va tout droit.", translation: "Go straight on.", source: "tatoeba:13455" }
+- id: fr-w-0791
+  type: word
+  cefr: B1
+  text: "divorcer"
+  pos: verb
+  meaning: { en: "to divorce" }
+  examples:
+    - { text: "Je veux divorcer.", translation: "I want a divorce.", source: "tatoeba:1858004" }
+- id: fr-w-0792
+  type: word
+  cefr: A2
+  text: "gaz"
+  pos: noun
+  gender: m
+  meaning: { en: "gas" }
+  examples:
+    - { text: "Je sens le gaz.", translation: "I smell gas.", source: "tatoeba:1190536" }
+- id: fr-w-0793
+  type: word
+  cefr: A1
+  text: "internet"
+  pos: noun
+  gender: m
+  meaning: { en: "internet" }
+  examples:
+    - { text: "J'adore Internet.", translation: "I love the internet.", source: "tatoeba:5290886" }
+- id: fr-w-0794
+  type: word
+  cefr: A2
+  text: "pousser"
+  pos: verb
+  meaning: { en: "to push; to grow" }
+  examples:
+    - { text: "Ne pousse pas.", translation: "Don't push.", source: "tatoeba:9416311" }
+- id: fr-w-0795
+  type: word
+  cefr: A2
+  text: "style"
+  pos: noun
+  gender: m
+  meaning: { en: "style" }
+  examples:
+    - { text: "J'aime ton style.", translation: "I like your style.", source: "tatoeba:1330086" }
+- id: fr-w-0796
+  type: word
+  cefr: B1
+  text: "afin"
+  pos: conj
+  meaning: { en: "so that (afin que, afin de)" }
+  note: { en: "afin de + inf.; afin que + subjunctive" }
+  examples:
+    - { text: "Aidons-le afin qu'il réussisse.", translation: "Let's help him so that he will succeed.", source: "tatoeba:130009" }
+- id: fr-w-0797
+  type: word
+  cefr: A2
+  text: "queue"
+  pos: noun
+  gender: f
+  meaning: { en: "queue; tail" }
+  note: { en: "faire la queue = to queue" }
+  examples:
+    - { text: "Fais la queue.", translation: "Stand in the queue.", source: "tatoeba:10705496" }
+- id: fr-w-0798
+  type: word
+  cefr: A2
+  text: "crier"
+  pos: verb
+  meaning: { en: "to shout" }
+  examples:
+    - { text: "Arrête de crier.", translation: "Stop shouting.", source: "tatoeba:6462983" }
+- id: fr-w-0799
+  type: word
+  cefr: A2
+  text: "métier"
+  pos: noun
+  gender: m
+  meaning: { en: "job, trade, profession" }
+  examples:
+    - { text: "Quel est ton métier ?", translation: "What's your job?", source: "tatoeba:374909" }
+- id: fr-w-0800
+  type: word
+  cefr: A2
+  text: "pilote"
+  pos: noun
+  gender: mf
+  meaning: { en: "pilot; driver (racing)" }
+  examples:
+    - { text: "Tom est un pilote.", translation: "Tom is a pilot.", source: "tatoeba:2968613" }
+- id: fr-w-0801
+  type: word
+  cefr: B1
+  text: "plaisanter"
+  pos: verb
+  meaning: { en: "to joke" }
+  note: { en: "tu plaisantes ! = you're joking!" }
+  examples:
+    - { text: "Tu veux plaisanter !", translation: "You must be kidding!", source: "tatoeba:1954183" }
+- id: fr-w-0802
+  type: word
+  cefr: A1
+  text: "leçon"
+  pos: noun
+  gender: f
+  meaning: { en: "lesson" }
+  examples:
+    - { text: "Tom étudie sa leçon.", translation: "Tom is studying his lesson.", source: "tatoeba:1502580" }
+- id: fr-w-0803
+  type: word
+  cefr: A2
+  text: "utile"
+  pos: adj
+  meaning: { en: "useful" }
+  examples:
+    - { text: "C'était utile.", translation: "That helped.", source: "tatoeba:8719013" }
+- id: fr-w-0804
+  type: word
+  cefr: A2
+  text: "paquet"
+  pos: noun
+  gender: m
+  meaning: { en: "parcel, package; packet" }
+  examples:
+    - { text: "Ouvre le paquet.", translation: "Open up the package.", source: "tatoeba:6941597" }
+- id: fr-w-0805
+  type: word
+  cefr: B1
+  text: "construire"
+  pos: verb
+  meaning: { en: "to build" }
+  note: { en: "je construis, il a construit" }
+  examples:
+    - { text: "Nous pouvons construire cela.", translation: "We can build that.", source: "tatoeba:6935811" }
+- id: fr-w-0806
+  type: word
+  cefr: A2
+  text: "immeuble"
+  pos: noun
+  gender: m
+  meaning: { en: "block of flats, building" }
+  examples:
+    - { text: "J'ai trouvé l'immeuble.", translation: "I found the building.", source: "tatoeba:331092" }
+- id: fr-w-0807
+  type: word
+  cefr: A1
+  text: "oiseau"
+  pos: noun
+  gender: m
+  meaning: { en: "bird" }
+  note: { en: "plural oiseaux" }
+  examples:
+    - { text: "C'est un oiseau.", translation: "It's a bird.", source: "tatoeba:3221898" }
+- id: fr-w-0808
+  type: word
+  cefr: B1
+  text: "soutenir"
+  pos: verb
+  meaning: { en: "to support" }
+  note: { en: "like tenir: je soutiens" }
+  examples:
+    - { text: "Je le soutiens.", translation: "I support him.", source: "tatoeba:849188" }
+- id: fr-w-0809
+  type: word
+  cefr: B1
+  text: "propriétaire"
+  pos: noun
+  gender: mf
+  meaning: { en: "owner; landlord" }
+  examples:
+    - { text: "Tu es le propriétaire.", translation: "You're the owner.", source: "tatoeba:2415414" }
+- id: fr-w-0810
+  type: word
+  cefr: B1
+  text: "unique"
+  pos: adj
+  meaning: { en: "unique; only" }
+  note: { en: "fils unique = only child" }
+  examples:
+    - { text: "Je suis unique.", translation: "I'm unique.", source: "tatoeba:3366243" }
+- id: fr-w-0811
+  type: word
+  cefr: A2
+  text: "bague"
+  pos: noun
+  gender: f
+  meaning: { en: "ring" }
+  examples:
+    - { text: "J'ai une bague.", translation: "I have a ring.", source: "tatoeba:6569744" }
+- id: fr-w-0812
+  type: word
+  cefr: A2
+  text: "deviner"
+  pos: verb
+  meaning: { en: "to guess" }
+  examples:
+    - { text: "Vas-y, devine ?", translation: "Go on, take a guess!", source: "tatoeba:10677185" }
+- id: fr-w-0813
+  type: word
+  cefr: A2
+  text: "genou"
+  pos: noun
+  gender: m
+  meaning: { en: "knee" }
+  note: { en: "à genoux = on one's knees; plural genoux" }
+  examples:
+    - { text: "J'étais à genoux.", translation: "I was on my knees.", source: "tatoeba:1629864" }
+- id: fr-w-0814
+  type: word
+  cefr: B1
+  text: "commande"
+  pos: noun
+  gender: f
+  meaning: { en: "order" }
+  examples:
+    - { text: "Voici ta commande.", translation: "Here's your order.", source: "tatoeba:5816575" }
+- id: fr-w-0815
+  type: word
+  cefr: A2
+  text: "traverser"
+  pos: verb
+  meaning: { en: "to cross" }
+  examples:
+    - { text: "Traversez la rue.", translation: "Cross the street.", source: "tatoeba:7007326" }
+- id: fr-w-0816
+  type: word
+  cefr: A1
+  text: "sport"
+  pos: noun
+  gender: m
+  meaning: { en: "sport" }
+  note: { en: "faire du sport" }
+  examples:
+    - { text: "J'aime le sport.", translation: "I like sport.", source: "tatoeba:11925" }
+- id: fr-w-0817
+  type: word
+  cefr: B1
+  text: "justement"
+  pos: adv
+  meaning: { en: "precisely, just; rightly" }
+  examples:
+    - { text: "Je voulais justement cela.", translation: "That is actually what I wanted.", source: "tatoeba:1157283" }
+- id: fr-w-0818
+  type: word
+  cefr: A2
+  text: "étoile"
+  pos: noun
+  gender: f
+  meaning: { en: "star" }
+  examples:
+    - { text: "Je vois l'étoile.", translation: "I see the star.", source: "tatoeba:2366367" }
+- id: fr-w-0819
+  type: word
+  cefr: B1
+  text: "résoudre"
+  pos: verb
+  meaning: { en: "to solve" }
+  note: { en: "il a résolu" }
+  examples:
+    - { text: "Je vais résoudre ça.", translation: "I'll solve this.", source: "tatoeba:2576530" }
+- id: fr-w-0820
+  type: word
+  cefr: B1
+  text: "ombre"
+  pos: noun
+  gender: f
+  meaning: { en: "shadow; shade" }
+  note: { en: "à l'ombre = in the shade" }
+  examples:
+    - { text: "C'est une ombre.", translation: "It's a shadow.", source: "tatoeba:2800496" }
+- id: fr-w-0821
+  type: word
+  cefr: B1
+  text: "talent"
+  pos: noun
+  gender: m
+  meaning: { en: "talent" }
+  examples:
+    - { text: "Tom a du talent.", translation: "Tom has talent.", source: "tatoeba:7411749" }
+- id: fr-w-0822
+  type: word
+  cefr: B1
+  text: "disparaître"
+  pos: verb
+  meaning: { en: "to disappear" }
+  note: { en: "like connaître: je disparais" }
+  examples:
+    - { text: "Tout doit disparaître.", translation: "Everything must go.", source: "tatoeba:10490522" }
+- id: fr-w-0823
+  type: word
+  cefr: B1
+  text: "assurance"
+  pos: noun
+  gender: f
+  meaning: { en: "insurance; confidence" }
+  examples:
+    - { text: "J'ai une assurance-vie.", translation: "I have life insurance.", source: "tatoeba:6259" }
+- id: fr-w-0824
+  type: word
+  cefr: A2
+  text: "rapidement"
+  pos: adv
+  meaning: { en: "quickly" }
+  examples:
+    - { text: "Viens ici rapidement.", translation: "Come here quickly.", source: "tatoeba:1010540" }
+- id: fr-w-0825
+  type: word
+  cefr: B1
+  text: "emploi"
+  pos: noun
+  gender: m
+  meaning: { en: "job, employment" }
+  examples:
+    - { text: "Trouve un emploi !", translation: "Get a job.", source: "tatoeba:1973318" }
+- id: fr-w-0826
+  type: word
+  cefr: B1
+  text: "souffrir"
+  pos: verb
+  meaning: { en: "to suffer" }
+  note: { en: "like ouvrir: je souffre" }
+  examples:
+    - { text: "Je ne souffre pas.", translation: "I'm not in pain.", source: "tatoeba:11071147" }
+- id: fr-w-0827
+  type: word
+  cefr: B1
+  text: "voleur"
+  pos: noun
+  gender: m
+  meaning: { en: "thief" }
+  examples:
+    - { text: "C'est un voleur.", translation: "He is a thief.", source: "tatoeba:435779" }
+- id: fr-w-0828
+  type: word
+  cefr: A1
+  text: "zéro"
+  pos: noun
+  gender: m
+  meaning: { en: "zero" }
+  examples:
+    - { text: "On part de zéro.", translation: "We're starting from zero.", source: "tatoeba:11217818" }
+- id: fr-w-0829
+  type: word
+  cefr: A2
+  text: "fumer"
+  pos: verb
+  meaning: { en: "to smoke" }
+  examples:
+    - { text: "Évite de fumer.", translation: "Avoid smoking.", source: "tatoeba:10105850" }
+- id: fr-w-0830
+  type: word
+  cefr: A2
+  text: "sommeil"
+  pos: noun
+  gender: m
+  meaning: { en: "sleep" }
+  note: { en: "avoir sommeil = to be sleepy" }
+  examples:
+    - { text: "J'ai sommeil !", translation: "I'm sleepy!", source: "tatoeba:338203" }
+- id: fr-w-0831
+  type: word
+  cefr: B1
+  text: "bref"
+  pos: adj
+  meaning: { en: "brief; (bref) in short" }
+  examples:
+    - { text: "Bref, il avait tort.", translation: "In short, he was wrong.", source: "tatoeba:8486446" }
+- id: fr-w-0832
+  type: word
+  cefr: B1
+  text: "traduction"
+  pos: noun
+  gender: f
+  meaning: { en: "translation" }
+  examples:
+    - { text: "Voici la traduction.", translation: "Here's the translation.", source: "tatoeba:6926747" }
+- id: fr-w-0833
+  type: word
+  cefr: B1
+  text: "profiter"
+  pos: verb
+  meaning: { en: "to make the most of; to take advantage" }
+  note: { en: "profiter de la vie = to enjoy life" }
+  examples:
+    - { text: "Il a profité de moi.", translation: "He took advantage of me.", source: "tatoeba:2283250" }
+- id: fr-w-0834
+  type: word
+  cefr: B1
+  text: "siège"
+  pos: noun
+  gender: m
+  meaning: { en: "seat; headquarters" }
+  examples:
+    - { text: "Prends ce siège.", translation: "Take that seat.", source: "tatoeba:11462209" }
+- id: fr-w-0835
+  type: word
+  cefr: A2
+  text: "examen"
+  pos: noun
+  gender: m
+  meaning: { en: "exam; examination" }
+  note: { en: "passer un examen = to take an exam (not pass!)" }
+  examples:
+    - { text: "L'examen approche.", translation: "The examination is drawing nearer.", source: "tatoeba:1646779" }
+- id: fr-w-0836
+  type: word
+  cefr: A2
+  text: "respecter"
+  pos: verb
+  meaning: { en: "to respect" }
+  examples:
+    - { text: "Je te respecte.", translation: "I respect you.", source: "tatoeba:5064946" }
+- id: fr-w-0837
+  type: word
+  cefr: B1
+  text: "distance"
+  pos: noun
+  gender: f
+  meaning: { en: "distance" }
+  examples:
+    - { text: "Reste à distance.", translation: "Keep away.", source: "tatoeba:7166572" }
+- id: fr-w-0838
+  type: word
+  cefr: B1
+  text: "obligé"
+  pos: adj
+  meaning: { en: "obliged, forced" }
+  note: { en: "tu n'es pas obligé = you don't have to" }
+  examples:
+    - { text: "Non, tu n'es pas obligé.", translation: "No, you don't have to.", source: "tatoeba:486471" }
+- id: fr-w-0839
+  type: word
+  cefr: A2
+  text: "théâtre"
+  pos: noun
+  gender: m
+  meaning: { en: "theatre" }
+  examples:
+    - { text: "Allons au théâtre.", translation: "Let's go to the theater.", source: "tatoeba:8315139" }
+- id: fr-w-0840
+  type: word
+  cefr: B1
+  text: "pardonner"
+  pos: verb
+  meaning: { en: "to forgive" }
+  note: { en: "pardonner à quelqu'un" }
+  examples:
+    - { text: "Je te pardonne.", translation: "I forgive you.", source: "tatoeba:805839" }
+- id: fr-w-0841
+  type: word
+  cefr: A2
+  text: "plat"
+  pos: noun
+  gender: m
+  meaning: { en: "dish; (adj.) flat" }
+  note: { en: "plat principal = main course" }
+  examples:
+    - { text: "Le plat sent bon.", translation: "The dish smells good.", source: "tatoeba:339451" }
+- id: fr-w-0842
+  type: word
+  cefr: A2
+  text: "journal"
+  pos: noun
+  gender: m
+  meaning: { en: "newspaper; diary" }
+  note: { en: "plural journaux" }
+  examples:
+    - { text: "C'est un journal.", translation: "This is a newspaper.", source: "tatoeba:3578397" }
+- id: fr-w-0843
+  type: word
+  cefr: A2
+  text: "réussir"
+  pos: verb
+  meaning: { en: "to succeed; to pass (an exam)" }
+  note: { en: "like finir; réussir un examen = to pass an exam" }
+  examples:
+    - { text: "Tu as réussi !", translation: "You did it!", source: "tatoeba:1115498" }
+- id: fr-w-0844
+  type: word
+  cefr: B1
+  text: "responsabilité"
+  pos: noun
+  gender: f
+  meaning: { en: "responsibility" }
+  examples:
+    - { text: "C'est ta responsabilité.", translation: "That's your responsibility.", source: "tatoeba:12357" }
+- id: fr-w-0845
+  type: word
+  cefr: A2
+  text: "formidable"
+  pos: adj
+  meaning: { en: "great, wonderful" }
+  examples:
+    - { text: "C'est formidable.", translation: "That's amazing.", source: "tatoeba:8666391" }
+- id: fr-w-0846
+  type: word
+  cefr: A2
+  text: "tableau"
+  pos: noun
+  gender: m
+  meaning: { en: "painting; (black)board; table" }
+  note: { en: "plural tableaux" }
+  examples:
+    - { text: "C'est un tableau.", translation: "This is a painting.", source: "tatoeba:3654598" }
+- id: fr-w-0847
+  type: word
+  cefr: B1
+  text: "empêcher"
+  pos: verb
+  meaning: { en: "to prevent" }
+  examples:
+    - { text: "Qui peut l'empêcher ?", translation: "Who can prevent it?", source: "tatoeba:3245349" }
+- id: fr-w-0848
+  type: word
+  cefr: A2
+  text: "secrétaire"
+  pos: noun
+  gender: mf
+  meaning: { en: "secretary" }
+  examples:
+    - { text: "Je suis secrétaire.", translation: "I am a secretary.", source: "tatoeba:6195661" }
+- id: fr-w-0849
+  type: word
+  cefr: B1
+  text: "amitié"
+  pos: noun
+  gender: f
+  meaning: { en: "friendship" }
+  examples:
+    - { text: "Quelle belle amitié.", translation: "What a beautiful friendship.", source: "tatoeba:11069867" }
+- id: fr-w-0850
+  type: word
+  cefr: B1
+  text: "remplacer"
+  pos: verb
+  meaning: { en: "to replace; to stand in for" }
+  note: { en: "nous remplaçons" }
+  examples:
+    - { text: "Je le remplace.", translation: "I'm filling in for him.", source: "tatoeba:12908254" }
+- id: fr-w-0851
+  type: word
+  cefr: B1
+  text: "annonce"
+  pos: noun
+  gender: f
+  meaning: { en: "advert, announcement" }
+  note: { en: "petites annonces = classified ads" }
+  examples:
+    - { text: "As-tu lu l'annonce ?", translation: "Have you read the ad?", source: "tatoeba:9869768" }
+- id: fr-w-0852
+  type: word
+  cefr: A2
+  text: "intelligent"
+  pos: adj
+  meaning: { en: "intelligent, clever" }
+  examples:
+    - { text: "Il est intelligent.", translation: "He's smart.", source: "tatoeba:379613" }
+- id: fr-w-0853
+  type: word
+  cefr: B1
+  text: "humeur"
+  pos: noun
+  gender: f
+  meaning: { en: "mood" }
+  note: { en: "de bonne humeur = in a good mood" }
+  examples:
+    - { text: "Je ne suis pas d'humeur.", translation: "I'm not in the mood.", source: "tatoeba:579401" }
+- id: fr-w-0854
+  type: word
+  cefr: B1
+  text: "physique"
+  pos: noun
+  gender: f
+  meaning: { en: "physics; (adj.) physical" }
+  examples:
+    - { text: "Il est bon en physique.", translation: "He does well in physics.", source: "tatoeba:897921" }
+- id: fr-w-0855
+  type: word
+  cefr: A2
+  text: "vache"
+  pos: noun
+  gender: f
+  meaning: { en: "cow" }
+  note: { en: "oh, la vache ! = wow! (informal)" }
+  examples:
+    - { text: "C'est ma vache.", translation: "This is my cow.", source: "tatoeba:3222064" }
+- id: fr-w-0856
+  type: word
+  cefr: B1
+  text: "étude"
+  pos: noun
+  gender: f
+  meaning: { en: "study; (les études) studies" }
+  note: { en: "faire des études = to study (at university)" }
+  examples:
+    - { text: "Arrêtez les études !", translation: "Stop studying!", source: "tatoeba:7581921" }
+- id: fr-w-0857
+  type: word
+  cefr: B1
+  text: "malgré"
+  pos: prep
+  meaning: { en: "despite" }
+  note: { en: "malgré moi = in spite of myself" }
+  examples:
+    - { text: "Je le fais malgré toi.", translation: "I'm doing it in spite of you.", source: "tatoeba:2576407" }
+- id: fr-w-0858
+  type: word
+  cefr: B1
+  text: "modèle"
+  pos: noun
+  gender: m
+  meaning: { en: "model; role model" }
+  examples:
+    - { text: "Tom était mon modèle.", translation: "Tom was my role model.", source: "tatoeba:5829833" }
+- id: fr-w-0859
+  type: word
+  cefr: B1
+  text: "pensée"
+  pos: noun
+  gender: f
+  meaning: { en: "thought" }
+  examples:
+    - { text: "Je lis tes pensées.", translation: "I read your thoughts.", source: "tatoeba:5254249" }
+- id: fr-w-0860
+  type: word
+  cefr: A2
+  text: "concert"
+  pos: noun
+  gender: m
+  meaning: { en: "concert" }
+  examples:
+    - { text: "Il va au concert.", translation: "He is going to the concert.", source: "tatoeba:971278" }
+- id: fr-w-0861
+  type: word
+  cefr: B1
+  text: "blessure"
+  pos: noun
+  gender: f
+  meaning: { en: "injury, wound" }
+  examples:
+    - { text: "La blessure guérit.", translation: "The wound is healing.", source: "tatoeba:10039050" }
+- id: fr-w-0862
+  type: word
+  cefr: B1
+  text: "privé"
+  pos: adj
+  meaning: { en: "private" }
+  examples:
+    - { text: "Tom a un jet privé.", translation: "Tom has a private jet.", source: "tatoeba:1697559" }
+- id: fr-w-0863
+  type: word
+  cefr: A2
+  text: "chauffeur"
+  pos: noun
+  gender: m
+  meaning: { en: "driver" }
+  examples:
+    - { text: "Où est mon chauffeur ?", translation: "Where's my driver?", source: "tatoeba:5311807" }
+- id: fr-w-0864
+  type: word
+  cefr: B1
+  text: "moteur"
+  pos: noun
+  gender: m
+  meaning: { en: "engine, motor" }
+  examples:
+    - { text: "Arrête le moteur.", translation: "Stop the engine.", source: "tatoeba:10676296" }
+- id: fr-w-0865
+  type: word
+  cefr: A2
+  text: "usine"
+  pos: noun
+  gender: f
+  meaning: { en: "factory" }
+  examples:
+    - { text: "Mon père travaille en usine.", translation: "My father works in a factory.", source: "tatoeba:478737" }
+- id: fr-w-0866
+  type: word
+  cefr: A2
+  text: "château"
+  pos: noun
+  gender: m
+  meaning: { en: "castle" }
+  note: { en: "plural châteaux" }
+  examples:
+    - { text: "Quel beau château !", translation: "What a beautiful castle!", source: "tatoeba:6381979" }
+- id: fr-w-0867
+  type: word
+  cefr: A2
+  text: "malheureusement"
+  pos: adv
+  meaning: { en: "unfortunately" }
+  examples:
+    - { text: "C'est malheureusement vrai.", translation: "It's unfortunately true.", source: "tatoeba:3136" }
+- id: fr-w-0868
+  type: word
+  cefr: A2
+  text: "garage"
+  pos: noun
+  gender: m
+  meaning: { en: "garage" }
+  examples:
+    - { text: "Tu as un garage ?", translation: "Do you have a garage?", source: "tatoeba:9558591" }
+- id: fr-w-0869
+  type: word
+  cefr: B1
+  text: "crédit"
+  pos: noun
+  gender: m
+  meaning: { en: "credit" }
+  note: { en: "à crédit = on credit" }
+  examples:
+    - { text: "N'achetez pas à crédit.", translation: "Don't buy on credit.", source: "tatoeba:11988335" }
+- id: fr-w-0870
+  type: word
+  cefr: A2
+  text: "ambulance"
+  pos: noun
+  gender: f
+  meaning: { en: "ambulance" }
+  examples:
+    - { text: "Appelle une ambulance.", translation: "Call an ambulance.", source: "tatoeba:9255" }
+- id: fr-w-0871
+  type: word
+  cefr: B1
+  text: "comportement"
+  pos: noun
+  gender: m
+  meaning: { en: "behaviour" }
+  examples:
+    - { text: "Son comportement m'agace.", translation: "His behaviour annoys me.", source: "tatoeba:1671479" }
+- id: fr-w-0872
+  type: word
+  cefr: A2
+  text: "mince"
+  pos: adj
+  meaning: { en: "thin, slim" }
+  note: { en: "mince ! = darn! (informal)" }
+  examples:
+    - { text: "Tom est mince.", translation: "Tom is thin.", source: "tatoeba:8678733" }
+- id: fr-w-0873
+  type: word
+  cefr: A2
+  text: "artiste"
+  pos: noun
+  gender: mf
+  meaning: { en: "artist" }
+  examples:
+    - { text: "Tu es un artiste.", translation: "You're an artist.", source: "tatoeba:7811603" }
+- id: fr-w-0874
+  type: word
+  cefr: B1
+  text: "période"
+  pos: noun
+  gender: f
+  meaning: { en: "period, time" }
+  examples:
+    - { text: "C'est une période délicate.", translation: "It is a delicate period.", source: "tatoeba:9129753" }
+- id: fr-w-0875
+  type: word
+  cefr: A2
+  text: "essence"
+  pos: noun
+  gender: f
+  meaning: { en: "petrol" }
+  note: { en: "false friend: petrol, not only \"essence\"" }
+  examples:
+    - { text: "Tom n'a plus d'essence.", translation: "Tom ran out of gas.", source: "tatoeba:4205163" }
+- id: fr-w-0876
+  type: word
+  cefr: B1
+  text: "chaleur"
+  pos: noun
+  gender: f
+  meaning: { en: "heat, warmth" }
+  examples:
+    - { text: "La chaleur m'étouffe.", translation: "The heat is stifling to me.", source: "tatoeba:8553355" }
+- id: fr-w-0877
+  type: word
+  cefr: B1
+  text: "réel"
+  pos: adj
+  meaning: { en: "real" }
+  examples:
+    - { text: "Ce n'est pas réel.", translation: "It's not real.", source: "tatoeba:1624999" }
+- id: fr-w-0878
+  type: word
+  cefr: A2
+  text: "objet"
+  pos: noun
+  gender: m
+  meaning: { en: "object, thing" }
+  examples:
+    - { text: "Cet objet est beau.", translation: "This object is beautiful.", source: "tatoeba:10490101" }
+- id: fr-w-0879
+  type: word
+  cefr: A2
+  text: "siècle"
+  pos: noun
+  gender: m
+  meaning: { en: "century" }
+  note: { en: "au XIXe siècle" }
+  examples:
+    - { text: "Il est né au XIXe siècle.", translation: "He was born in the 19th century.", source: "tatoeba:15345" }
+- id: fr-w-0880
+  type: word
+  cefr: A1
+  text: "piscine"
+  pos: noun
+  gender: f
+  meaning: { en: "swimming pool" }
+  examples:
+    - { text: "Je veux une piscine.", translation: "I want a pool.", source: "tatoeba:4437916" }
+- id: fr-w-0881
+  type: word
+  cefr: B1
+  text: "lendemain"
+  pos: noun
+  gender: m
+  meaning: { en: "next day" }
+  note: { en: "le lendemain = the day after" }
+  examples:
+    - { text: "Le lendemain de Noël il a neigé.", translation: "The day after Christmas it snowed.", source: "tatoeba:6568349" }
+- id: fr-w-0882
+  type: word
+  cefr: B1
+  text: "également"
+  pos: adv
+  meaning: { en: "also, as well" }
+  examples:
+    - { text: "Y vas-tu également ?", translation: "Are you going, too?", source: "tatoeba:1314536" }
+- id: fr-w-0883
+  type: word
+  cefr: B1
+  text: "concours"
+  pos: noun
+  gender: m
+  meaning: { en: "competition, contest" }
+  examples:
+    - { text: "Tom a gagné le concours.", translation: "Tom won the contest.", source: "tatoeba:5301119" }
+- id: fr-w-0884
+  type: word
+  cefr: A2
+  text: "chaîne"
+  pos: noun
+  gender: f
+  meaning: { en: "channel; chain" }
+  examples:
+    - { text: "Ne change pas la chaîne.", translation: "Don't change the channel.", source: "tatoeba:7689413" }
+- id: fr-w-0885
+  type: word
+  cefr: A2
+  text: "chèque"
+  pos: noun
+  gender: m
+  meaning: { en: "cheque" }
+  examples:
+    - { text: "Il signa le chèque.", translation: "He signed the check.", source: "tatoeba:1718114" }
+- id: fr-w-0886
+  type: word
+  cefr: A2
+  text: "enfance"
+  pos: noun
+  gender: f
+  meaning: { en: "childhood" }
+  examples:
+    - { text: "C'est un ami d'enfance.", translation: "He's a childhood friend.", source: "tatoeba:378672" }
+- id: fr-w-0887
+  type: word
+  cefr: A2
+  text: "suivant"
+  pos: adj
+  meaning: { en: "next, following" }
+  examples:
+    - { text: "Qui est le suivant ?", translation: "Who's next?", source: "tatoeba:3673849" }
+- id: fr-w-0888
+  type: word
+  cefr: A2
+  text: "science"
+  pos: noun
+  gender: f
+  meaning: { en: "science" }
+  examples:
+    - { text: "Il aime la science.", translation: "He is keen on science.", source: "tatoeba:1673407" }
+- id: fr-w-0889
+  type: word
+  cefr: B1
+  text: "scientifique"
+  pos: noun
+  gender: mf
+  meaning: { en: "scientist; (adj.) scientific" }
+  examples:
+    - { text: "C'est un scientifique.", translation: "He is a scientist.", source: "tatoeba:14480" }
+- id: fr-w-0890
+  type: word
+  cefr: B1
+  text: "promesse"
+  pos: noun
+  gender: f
+  meaning: { en: "promise" }
+  note: { en: "tenir sa promesse" }
+  examples:
+    - { text: "Tiens ta promesse.", translation: "Abide by your promise.", source: "tatoeba:3970478" }
+- id: fr-w-0891
+  type: word
+  cefr: B1
+  text: "chute"
+  pos: noun
+  gender: f
+  meaning: { en: "fall, drop" }
+  examples:
+    - { text: "La température chute.", translation: "The temperature falls.", source: "tatoeba:895493" }
+- id: fr-w-0892
+  type: word
+  cefr: A2
+  text: "directement"
+  pos: adv
+  meaning: { en: "directly, straight" }
+  examples:
+    - { text: "David est directement entré.", translation: "David went right in.", source: "tatoeba:11504304" }
+- id: fr-w-0893
+  type: word
+  cefr: A2
+  text: "journaliste"
+  pos: noun
+  gender: mf
+  meaning: { en: "journalist" }
+  examples:
+    - { text: "Il est journaliste.", translation: "He's a journalist.", source: "tatoeba:873171" }
+- id: fr-w-0894
+  type: word
+  cefr: A2
+  text: "peinture"
+  pos: noun
+  gender: f
+  meaning: { en: "painting; paint" }
+  examples:
+    - { text: "Il adore la peinture.", translation: "He is fond of painting.", source: "tatoeba:3655149" }
+- id: fr-w-0895
+  type: word
+  cefr: B1
+  text: "opinion"
+  pos: noun
+  gender: f
+  meaning: { en: "opinion" }
+  examples:
+    - { text: "C'est mon opinion.", translation: "That's my opinion.", source: "tatoeba:562963" }
+- id: fr-w-0896
+  type: word
+  cefr: B1
+  text: "geste"
+  pos: noun
+  gender: m
+  meaning: { en: "gesture" }
+  examples:
+    - { text: "J'apprécie le geste.", translation: "I appreciate the gesture.", source: "tatoeba:6324097" }
+- id: fr-w-0897
+  type: word
+  cefr: A2
+  text: "compliqué"
+  pos: adj
+  meaning: { en: "complicated" }
+  examples:
+    - { text: "Est-ce compliqué ?", translation: "Is it complicated?", source: "tatoeba:4548339" }
+- id: fr-w-0898
+  type: word
+  cefr: A1
+  text: "pizza"
+  pos: noun
+  gender: f
+  meaning: { en: "pizza" }
+  examples:
+    - { text: "J'aime la pizza.", translation: "I like pizza.", source: "tatoeba:4902246" }
+- id: fr-w-0899
+  type: word
+  cefr: A2
+  text: "uniforme"
+  pos: noun
+  gender: m
+  meaning: { en: "uniform" }
+  examples:
+    - { text: "Où est ton uniforme ?", translation: "Where's your uniform?", source: "tatoeba:7356055" }
+- id: fr-w-0900
+  type: word
+  cefr: B1
+  text: "cauchemar"
+  pos: noun
+  gender: m
+  meaning: { en: "nightmare" }
+  examples:
+    - { text: "C'était un cauchemar.", translation: "It was a nightmare.", source: "tatoeba:12352" }
+- id: fr-w-0901
+  type: word
+  cefr: A2
+  text: "champion"
+  pos: noun
+  gender: m
+  meaning: { en: "champion" }
+  examples:
+    - { text: "Il est le champion.", translation: "He is the champion.", source: "tatoeba:4256080" }
+- id: fr-w-0902
+  type: word
+  cefr: A2
+  text: "amusant"
+  pos: adj
+  meaning: { en: "fun, funny" }
+  examples:
+    - { text: "Ce sera amusant.", translation: "It'll be fun.", source: "tatoeba:2822851" }
+- id: fr-w-0903
+  type: word
+  cefr: B1
+  text: "conférence"
+  pos: noun
+  gender: f
+  meaning: { en: "conference; lecture" }
+  examples:
+    - { text: "La conférence finira demain.", translation: "The conference will end tomorrow.", source: "tatoeba:405732" }
+- id: fr-w-0904
+  type: word
+  cefr: A2
+  text: "crème"
+  pos: noun
+  gender: f
+  meaning: { en: "cream" }
+  note: { en: "crème glacée = ice cream" }
+  examples:
+    - { text: "Tom aime la crème glacée.", translation: "Tom likes ice cream.", source: "tatoeba:8703536" }
+- id: fr-w-0905
+  type: word
+  cefr: A2
+  text: "couloir"
+  pos: noun
+  gender: m
+  meaning: { en: "corridor; aisle" }
+  examples:
+    - { text: "Fenêtre ou couloir ?", translation: "Window or aisle?", source: "tatoeba:437660" }
+- id: fr-w-0906
+  type: word
+  cefr: B1
+  text: "foule"
+  pos: noun
+  gender: f
+  meaning: { en: "crowd" }
+  note: { en: "une foule de = lots of" }
+  examples:
+    - { text: "La foule applaudit.", translation: "The crowd clapped.", source: "tatoeba:2269506" }
+- id: fr-w-0907
+  type: word
+  cefr: B1
+  text: "franchement"
+  pos: adv
+  meaning: { en: "frankly" }
+  examples:
+    - { text: "Elle parle franchement.", translation: "She speaks frankly.", source: "tatoeba:1240865" }
+- id: fr-w-0908
+  type: word
+  cefr: A2
+  text: "lapin"
+  pos: noun
+  gender: m
+  meaning: { en: "rabbit" }
+  note: { en: "poser un lapin = to stand someone up" }
+  examples:
+    - { text: "Tom a un lapin.", translation: "Tom has a rabbit.", source: "tatoeba:6734195" }
+- id: fr-w-0909
+  type: word
+  cefr: A2
+  text: "boutique"
+  pos: noun
+  gender: f
+  meaning: { en: "shop, boutique" }
+  examples:
+    - { text: "Je dois ouvrir ma boutique.", translation: "I have to open my shop.", source: "tatoeba:3214179" }
+- id: fr-w-0910
+  type: word
+  cefr: B1
+  text: "discussion"
+  pos: noun
+  gender: f
+  meaning: { en: "discussion" }
+  examples:
+    - { text: "C'est en discussion.", translation: "That's under discussion.", source: "tatoeba:7815900" }
+- id: fr-w-0911
+  type: word
+  cefr: B1
+  text: "incendie"
+  pos: noun
+  gender: m
+  meaning: { en: "fire (blaze)" }
+  examples:
+    - { text: "L'incendie s'étend.", translation: "The fire is spreading.", source: "tatoeba:6455983" }
+- id: fr-w-0912
+  type: word
+  cefr: A2
+  text: "fantastique"
+  pos: adj
+  meaning: { en: "fantastic" }
+  examples:
+    - { text: "C'est fantastique.", translation: "That's fantastic.", source: "tatoeba:4767889" }
+- id: fr-w-0913
+  type: word
+  cefr: A2
+  text: "conseil"
+  pos: noun
+  gender: m
+  meaning: { en: "piece of advice; council" }
+  examples:
+    - { text: "Suis mon conseil !", translation: "Take my advice!", source: "tatoeba:7673" }
+- id: fr-w-0914
+  type: word
+  cefr: A2
+  text: "ascenseur"
+  pos: noun
+  gender: m
+  meaning: { en: "lift, elevator" }
+  examples:
+    - { text: "Où est l'ascenseur ?", translation: "Where's the lift?", source: "tatoeba:492340" }
+- id: fr-w-0915
+  type: word
+  cefr: B1
+  text: "larme"
+  pos: noun
+  gender: f
+  meaning: { en: "tear" }
+  examples:
+    - { text: "Essuie tes larmes.", translation: "Wipe your tears.", source: "tatoeba:997595" }
+- id: fr-w-0916
+  type: word
+  cefr: A2
+  text: "parking"
+  pos: noun
+  gender: m
+  meaning: { en: "car park" }
+  examples:
+    - { text: "Y a-t-il un parking ?", translation: "Is there a parking lot?", source: "tatoeba:1291943" }
+- id: fr-w-0917
+  type: word
+  cefr: A2
+  text: "heureusement"
+  pos: adv
+  meaning: { en: "fortunately" }
+  examples:
+    - { text: "Heureusement, on a un plan.", translation: "Luckily, we have a plan.", source: "tatoeba:5865597" }
+- id: fr-w-0918
+  type: word
+  cefr: B1
+  text: "frontière"
+  pos: noun
+  gender: f
+  meaning: { en: "border" }
+  examples:
+    - { text: "Nous passons la frontière.", translation: "We're crossing the border.", source: "tatoeba:6885584" }
+- id: fr-w-0919
+  type: word
+  cefr: A1
+  text: "prénom"
+  pos: noun
+  gender: m
+  meaning: { en: "first name" }
+  note: { en: "nom (de famille) = surname" }
+  examples:
+    - { text: "Je sais ton prénom.", translation: "I know your name.", source: "tatoeba:395878" }
+- id: fr-w-0920
+  type: word
+  cefr: B1
+  text: "cérémonie"
+  pos: noun
+  gender: f
+  meaning: { en: "ceremony" }
+  examples:
+    - { text: "Tom adore les cérémonies.", translation: "Tom loves ceremonies.", source: "tatoeba:8538669" }
+- id: fr-w-0921
+  type: word
+  cefr: A2
+  text: "océan"
+  pos: noun
+  gender: m
+  meaning: { en: "ocean" }
+  examples:
+    - { text: "J'aime l'océan.", translation: "I like the ocean.", source: "tatoeba:7449042" }
+- id: fr-w-0922
+  type: word
+  cefr: A2
+  text: "agréable"
+  pos: adj
+  meaning: { en: "pleasant, nice" }
+  examples:
+    - { text: "La vie est agréable.", translation: "Life is enjoyable.", source: "tatoeba:1314415" }
+- id: fr-w-0923
+  type: word
+  cefr: A2
+  text: "poupée"
+  pos: noun
+  gender: f
+  meaning: { en: "doll" }
+  examples:
+    - { text: "C'est ma poupée.", translation: "That's my doll.", source: "tatoeba:2352427" }
+- id: fr-w-0924
+  type: word
+  cefr: B1
+  text: "ménage"
+  pos: noun
+  gender: m
+  meaning: { en: "housework; household" }
+  note: { en: "faire le ménage = to clean the house" }
+  examples:
+    - { text: "Je fais le ménage.", translation: "I'm cleaning the house.", source: "tatoeba:3556094" }
+- id: fr-w-0925
+  type: word
+  cefr: A2
+  text: "employé"
+  pos: noun
+  gender: m
+  meaning: { en: "employee" }
+  examples:
+    - { text: "J'ai quatre employés.", translation: "I have four employees.", source: "tatoeba:7093135" }
+- id: fr-w-0926
+  type: word
+  cefr: A2
+  text: "bouton"
+  pos: noun
+  gender: m
+  meaning: { en: "button; spot, pimple" }
+  examples:
+    - { text: "Il manque un bouton.", translation: "A button is missing.", source: "tatoeba:10357331" }
+- id: fr-w-0927
+  type: word
+  cefr: A2
+  text: "nerveux"
+  pos: adj
+  meaning: { en: "nervous" }
+  note: { en: "nerveuse (f)" }
+  examples:
+    - { text: "Tu es nerveux.", translation: "You're nervous.", source: "tatoeba:7581868" }
+- id: fr-w-0928
+  type: word
+  cefr: A2
+  text: "acteur"
+  pos: noun
+  gender: m
+  meaning: { en: "actor" }
+  note: { en: "actrice (f)" }
+  examples:
+    - { text: "C'est un acteur.", translation: "He is an actor.", source: "tatoeba:133116" }
+- id: fr-w-0929
+  type: word
+  cefr: A2
+  text: "interdit"
+  pos: adj
+  meaning: { en: "forbidden" }
+  examples:
+    - { text: "C'est interdit.", translation: "It's forbidden.", source: "tatoeba:2190327" }
+- id: fr-w-0930
+  type: word
+  cefr: B1
+  text: "autrement"
+  pos: adv
+  meaning: { en: "otherwise; differently" }
+  examples:
+    - { text: "Je pense autrement.", translation: "I think otherwise.", source: "tatoeba:7829" }
+- id: fr-w-0931
+  type: word
+  cefr: B1
+  text: "innocent"
+  pos: adj
+  meaning: { en: "innocent" }
+  examples:
+    - { text: "Il est innocent.", translation: "He's innocent.", source: "tatoeba:1706542" }
+- id: fr-w-0932
+  type: word
+  cefr: B1
+  text: "récemment"
+  pos: adv
+  meaning: { en: "recently" }
+  examples:
+    - { text: "Je l'ai vu récemment.", translation: "I saw him recently.", source: "tatoeba:822251" }
+- id: fr-w-0933
+  type: word
+  cefr: A2
+  text: "chinois"
+  pos: adj
+  meaning: { en: "Chinese" }
+  examples:
+    - { text: "Es-tu Chinois ?", translation: "Are you Chinese?", source: "tatoeba:1098174" }
+- id: fr-w-0934
+  type: word
+  cefr: B1
+  text: "aveugle"
+  pos: adj
+  meaning: { en: "blind" }
+  examples:
+    - { text: "Je suis aveugle.", translation: "I'm blind.", source: "tatoeba:1842809" }
+- id: fr-w-0935
+  type: word
+  cefr: B1
+  text: "commun"
+  pos: adj
+  meaning: { en: "common; shared" }
+  note: { en: "en commun = in common" }
+  examples:
+    - { text: "On a un ami commun.", translation: "We have a mutual friend.", source: "tatoeba:5331614" }
+- id: fr-w-0936
+  type: word
+  cefr: A2
+  text: "charmant"
+  pos: adj
+  meaning: { en: "charming" }
+  examples:
+    - { text: "Tu es charmant.", translation: "You're charming.", source: "tatoeba:4653916" }
+- id: fr-w-0937
+  type: word
+  cefr: A2
+  text: "facilement"
+  pos: adv
+  meaning: { en: "easily" }
+  examples:
+    - { text: "Je pleure facilement.", translation: "I cry easily.", source: "tatoeba:6032283" }
+- id: fr-w-0938
+  type: word
+  cefr: B1
+  text: "clairement"
+  pos: adv
+  meaning: { en: "clearly" }
+  examples:
+    - { text: "Dis-le clairement.", translation: "Say it clearly.", source: "tatoeba:1407136" }
+- id: fr-w-0939
+  type: word
+  cefr: B1
+  text: "évident"
+  pos: adj
+  meaning: { en: "obvious" }
+  examples:
+    - { text: "C'est évident.", translation: "It's obvious.", source: "tatoeba:2190180" }
+- id: fr-w-0940
+  type: word
+  cefr: B1
+  text: "logique"
+  pos: adj
+  meaning: { en: "logical" }
+  examples:
+    - { text: "C'est logique.", translation: "That's logical.", source: "tatoeba:2190172" }
+- id: fr-w-0941
+  type: word
+  cefr: B1
+  text: "principal"
+  pos: adj
+  meaning: { en: "main" }
+  note: { en: "plural principaux" }
+  examples:
+    - { text: "C'est le principal.", translation: "That's the main thing.", source: "tatoeba:12936619" }
+- id: fr-w-0942
+  type: word
+  cefr: B1
+  text: "nombreux"
+  pos: adj
+  meaning: { en: "numerous, many" }
+  note: { en: "de nombreux amis = many friends" }
+  examples:
+    - { text: "J'ai de nombreux amis.", translation: "I have lots of friends.", source: "tatoeba:2040938" }
+- id: fr-w-0943
+  type: word
+  cefr: B1
+  text: "romantique"
+  pos: adj
+  meaning: { en: "romantic" }
+  examples:
+    - { text: "C'est romantique.", translation: "This is romantic.", source: "tatoeba:13376196" }
+- id: fr-w-0944
+  type: word
+  cefr: B1
+  text: "prudent"
+  pos: adj
+  meaning: { en: "careful" }
+  examples:
+    - { text: "Tu es prudent.", translation: "You're careful.", source: "tatoeba:4653907" }
+- id: fr-w-0945
+  type: word
+  cefr: B1
+  text: "puissant"
+  pos: adj
+  meaning: { en: "powerful" }
+  examples:
+    - { text: "Tu es puissant.", translation: "You're powerful.", source: "tatoeba:4655436" }
+- id: fr-w-0946
+  type: word
+  cefr: B1
+  text: "sage"
+  pos: adj
+  meaning: { en: "wise; (child) good, well-behaved" }
+  note: { en: "sois sage ! = be good!" }
+  examples:
+    - { text: "Tiens-toi sage.", translation: "Be quiet.", source: "tatoeba:12948682" }
+- id: fr-w-0947
+  type: word
+  cefr: B1
+  text: "cependant"
+  pos: adv
+  meaning: { en: "however" }
+  examples:
+    - { text: "Cependant c'est trop cher.", translation: "However, it is too expensive.", source: "tatoeba:237241" }
+- id: fr-w-0948
+  type: word
+  cefr: B1
+  text: "sombre"
+  pos: adj
+  meaning: { en: "dark" }
+  note: { en: "il fait sombre = it's dark" }
+  examples:
+    - { text: "Il fait sombre.", translation: "It's dark.", source: "tatoeba:10363652" }
+- id: fr-w-0949
+  type: word
+  cefr: B1
+  text: "menteur"
+  pos: adj
+  meaning: { en: "lying; (noun) liar" }
+  note: { en: "menteuse (f)" }
+  examples:
+    - { text: "C'est un menteur.", translation: "He's a liar.", source: "tatoeba:3668577" }
+- id: fr-w-0950
+  type: word
+  cefr: A2
+  text: "inquiet"
+  pos: adj
+  meaning: { en: "worried" }
+  note: { en: "inquiète (f)" }
+  examples:
+    - { text: "J'étais inquiet.", translation: "I was worried.", source: "tatoeba:2201099" }
+- id: fr-w-0951
+  type: word
+  cefr: B1
+  text: "jaloux"
+  pos: adj
+  meaning: { en: "jealous" }
+  note: { en: "jalouse (f)" }
+  examples:
+    - { text: "Il est jaloux.", translation: "He's jealous.", source: "tatoeba:2078217" }
+- id: fr-w-0952
+  type: word
+  cefr: A1
+  text: "russe"
+  pos: adj
+  meaning: { en: "Russian" }
+  note: { en: "the language: le russe" }
+  examples:
+    - { text: "Il parle russe.", translation: "He speaks Russian.", source: "tatoeba:806515" }
+- id: fr-w-0953
+  type: word
+  cefr: B1
+  text: "complet"
+  pos: adj
+  meaning: { en: "full; complete; sold out" }
+  note: { en: "complète (f); \"complet\" on a sign = full, sold out" }
+  examples:
+    - { text: "C'est complet.", translation: "The seats are all sold out.", source: "tatoeba:458541" }
+- id: fr-w-0954
+  type: word
+  cefr: B1
+  text: "curieux"
+  pos: adj
+  meaning: { en: "curious; strange" }
+  note: { en: "curieuse (f)" }
+  examples:
+    - { text: "Je suis curieux.", translation: "I'm curious.", source: "tatoeba:3252" }
+- id: fr-w-0955
+  type: word
+  cefr: B1
+  text: "doué"
+  pos: adj
+  meaning: { en: "gifted, talented" }
+  note: { en: "doué pour = good at" }
+  examples:
+    - { text: "Tu es doué pour ça.", translation: "You're great at this.", source: "tatoeba:7982832" }
