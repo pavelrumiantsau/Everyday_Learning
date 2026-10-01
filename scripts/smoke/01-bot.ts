@@ -31,7 +31,9 @@ export default async function (t: Smoke) {
   await post(msg("/today"));
   const today = calls.find((c) => c.method === "sendMessage")?.body.text ?? "";
   check(today.includes("Ответов сегодня: 2"), "two answers recorded, duplicate ignored");
-  check(/К повторению сейчас: [1-9]/.test(today), "the wrong answer is due again soon");
+  check(/Новых слов к изучению: [1-9]/.test(today), "/today counts the new words waiting in «Учить новые слова»");
+  check(!!calls.find((c) => c.method === "sendMessage")?.body.reply_markup?.inline_keyboard?.[0]?.[0]?.web_app?.url?.includes("screen=learn"),
+    "/today's button opens «Учить новые слова» while there are new words");
 
   calls.length = 0;
   await post(msg("/lesson"));

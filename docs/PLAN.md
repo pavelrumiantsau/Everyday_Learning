@@ -6,7 +6,7 @@
 > **Budget:** free tiers + your existing Claude subscription. The Claude API is an optional extra.
 > **Devices:** iPhone (main), MacBook (work), Windows laptop (occasional). All of them run **Telegram**.
 
-## Status (updated as work lands) — last update 2026-09-29 (evening)
+## Status (updated as work lands) — last update 2026-10-01
 
 **App: all planned features (1–17) are built and live.** What is left is content (table below) and real-use feedback.
 | # | Feature | Status | Notes |
@@ -29,6 +29,7 @@
 | 16 | Suggested input sources | ✅ Done | `config/sources.yaml` (validated at build) → «Что послушать» in 🎧; one LT tip in the Sunday report when LT input < 3 h |
 | 17 | Reading: own texts + adaptive level | ✅ Done | 📖 «＋ Вставить свой текст» (paste any article; stored only in D1, AI word lookups + 3 AI questions, task `reading_questions`); after reading «легко / нормально / сложно» → next «Текст дня» level (`nextReadingLevel`, default LT = B2); migration 0010 |
 | 18 | "More today" on days with extra time | ✅ Done | New words: Mini App «➕ Ещё новые слова сейчас» / `/more` (one daily portion per active language), `/more es`, `/more lt 20` (max 30) — introduced as cards now, the next morning continues after them (`features/more.ts`, `POST /api/more`). Grammar: «➕ Следующее правило» after today's rule / on days without one, `/rule next [lt\|es\|fr]` (`GET /api/grammar/next`; today's rule stays; French grammar still waits for April). Reading was already on demand (📖 lists all texts). No migration; smoke `13-more.ts` |
+| 19 | «Учить новые слова» — a separate mode for new words | ✅ Done | Mini App 🆕 (`screens/Learn.tsx`): groups of 5 → «знакомство» (full card, «Уже знаю» = Easy) → drill until each word is recalled twice in a row (word → meaning, then meaning → word; a miss comes back 2 cards later). Answers go to FSRS on the `:recog` card (Помню = Good, Не помню = Again) — two Goods in a row = graduation to review. Words in FSRS state New/Learning are **left out of «Повторить»** and of `due` counts, together with their forms/reverse cards (`NOT_LEARNING` in `db.ts`); `GET /api/learn`, `session.learning`. Morning lesson, `/more` and `/today` buttons open `?screen=learn`. No migration |
 
 **Content — supply and next ids**
 | Area | Now | Runs out (at default pace) | Next ids / where to continue |

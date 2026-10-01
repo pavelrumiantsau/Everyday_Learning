@@ -1,9 +1,9 @@
-// Mini App flashcards: session numbers, due queue, answers (server-side FSRS, idempotent by review id).
+// Mini App flashcards: session numbers, due queue, new words to learn, answers (server-side FSRS, idempotent by review id).
 import { langOf, localClock, reviewCard } from "@el/core";
 import { Hono } from "hono";
 import { ITEM_BY_ID, SCHEDULE } from "../content";
 import { ensureCards } from "../daily";
-import { Db } from "../db";
+import { Db, type CardRow } from "../db";
 import type { Feature } from "../feature";
 import { grammarQueueCard } from "./grammar";
 import { ensureMistakeCards, mistakeQueueCards } from "./mistakes";
@@ -15,8 +15,8 @@ api.get("/session", async (c) => {
   const db = new Db(c.env.DB);
   const now = new Date();
   const { day } = localClock(now, SCHEDULE.timezone);
-  const [today, due, known] = await Promise.all([db.getDay(day), db.countDue(now.getTime()), db.countCards()]);
-  return c.json({ day, reviewsToday: today.reviews, newToday: today.new_cards, due, known });
+  const [today, due, learning, known] = await Promise.all([db.getDay(day), db.countDue(now.getTime()), db.countLearning(), db.countCards()]);
+  return c.json({ day, reviewsToday: today.reviews, newToday: today.new_cards, due, learning, known });
 });
 
 const QUEUE_MAX = 200;
@@ -27,9 +27,24 @@ api.get("/queue", async (c) => {
   await ensureCards(db);
   await ensureMistakeCards(db, c.env.DB);
   const rows = await db.dueCards(Date.now(), limit);
-  const fixes = await mistakeQueueCards(c.env.DB, rows.map((r) => r.item_id)); // "✏️ Как правильно?" cards from the learner's mistakes
-  const mine = await learnerItems(c.env.DB, rows.map((r) => r.item_id)); // words added from reading
-  const cards = rows.flatMap((r): object[] => {
+  return c.json({ cards: await queueCards(c.env.DB, rows) });
+});
+
+const LEARN_MAX = 100;
+
+/** «Учить новые слова»: meaning cards of introduced words that are not learned yet (not due-filtered), plus how many there are. */
+api.get("/learn", async (c) => {
+  const db = new Db(c.env.DB);
+  const limit = Math.min(Number(c.req.query("limit") ?? 5) || 5, LEARN_MAX);
+  const [rows, total] = await Promise.all([db.learningCards(limit), db.countLearning()]);
+  return c.json({ cards: await queueCards(c.env.DB, rows), total });
+});
+
+/** Card rows → what the Mini App shows: course words, the learner's own words, grammar cloze and mistake cards. */
+async function queueCards(d1: D1Database, rows: CardRow[]): Promise<object[]> {
+  const fixes = await mistakeQueueCards(d1, rows.map((r) => r.item_id)); // "✏️ Как правильно?" cards from the learner's mistakes
+  const mine = await learnerItems(d1, rows.map((r) => r.item_id)); // words added from reading
+  return rows.flatMap((r): object[] => {
     const fix = fixes.get(r.item_id);
     if (fix) return [fix];
     const own = mine.get(r.item_id);
@@ -40,8 +55,7 @@ api.get("/queue", async (c) => {
     const cloze = grammarQueueCard(r.card_id); // grammar exercise card (lt-g-0001:cloze1)
     return cloze ? [cloze] : []; // skip items removed from content
   });
-  return c.json({ cards });
-});
+}
 
 type ReviewIn = { id: string; cardId: string; rating: 1 | 2 | 3 | 4; reviewedAt: number };
 

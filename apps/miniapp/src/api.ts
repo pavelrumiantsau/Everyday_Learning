@@ -2,7 +2,8 @@ import type { Exercise, Item, Lesson } from "@el/core";
 import { tg } from "./telegram";
 
 export type Lang = "lt" | "es" | "fr";
-export interface Session { day: string; reviewsToday: number; newToday: number; due: number; known: Partial<Record<Lang, number>> }
+/** `learning`: new words not learned yet («Учить новые слова»); they are not part of `due`. */
+export interface Session { day: string; reviewsToday: number; newToday: number; due: number; learning: number; known: Partial<Record<Lang, number>> }
 export interface WordCard { cardId: string; kind: "recog" | "forms" | "prod"; lang: Lang; item: Item }
 /** Grammar exercise card (lt-g-0001:cloze1), created when a lesson is marked done. */
 export interface ClozeCard { cardId: string; kind: "cloze"; lang: Lang; lessonId: string; lessonTitle: string; exercise: Exercise }
@@ -23,6 +24,8 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
 
 export const getSession = () => call<Session>("/session");
 export const getQueue = (limit = 100) => call<{ cards: QueueCard[] }>(`/queue?limit=${limit}`).then((r) => r.cards);
+/** The next new words to learn (meaning cards, oldest first) and how many are waiting in total. */
+export const getLearn = (limit = 5) => call<{ cards: WordCard[]; total: number }>(`/learn?limit=${limit}`);
 
 // Answers are kept on the device until the server confirms them, so a bad connection loses nothing.
 const PENDING_KEY = "el.pending.v1";

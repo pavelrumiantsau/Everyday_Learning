@@ -2,6 +2,11 @@ import type { CardJson } from "@el/core";
 
 export interface CardRow { card_id: string; item_id: string; fsrs: string }
 
+/** FSRS state New (0) or Learning (1): a word not yet learned in «Учить новые слова». */
+const LEARNING = "json_extract(fsrs, '$.state') IN (0, 1)";
+/** Excludes every card of a word whose meaning card is still being learned: those are practised in «Учить новые слова». */
+const NOT_LEARNING = `NOT EXISTS (SELECT 1 FROM card_state w WHERE w.card_id = card_state.item_id || ':recog' AND json_extract(w.fsrs, '$.state') IN (0, 1))`;
+
 export class Db {
   constructor(private readonly d1: D1Database) {}
 
@@ -10,10 +15,10 @@ export class Db {
     return new Set(results.map((r) => r.item_id));
   }
 
-  /** Due cards, oldest first; `kind` limits to one card type (e.g. "recog" for quiz polls). */
+  /** Due cards, oldest first; `kind` limits to one card type (e.g. "recog" for quiz polls). New words still being learned are left out. */
   async dueCards(now: number, limit: number, kind?: string): Promise<CardRow[]> {
     const { results } = await this.d1
-      .prepare("SELECT card_id, item_id, fsrs FROM card_state WHERE due <= ? AND card_id LIKE ? ORDER BY due LIMIT ?")
+      .prepare(`SELECT card_id, item_id, fsrs FROM card_state WHERE due <= ? AND card_id LIKE ? AND ${NOT_LEARNING} ORDER BY due LIMIT ?`)
       .bind(now, kind ? `%:${kind}` : "%", limit)
       .all<CardRow>();
     return results;
@@ -25,7 +30,20 @@ export class Db {
   }
 
   async countDue(now: number): Promise<number> {
-    return (await this.d1.prepare("SELECT COUNT(*) AS n FROM card_state WHERE due <= ?").bind(now).first<number>("n")) ?? 0;
+    return (await this.d1.prepare(`SELECT COUNT(*) AS n FROM card_state WHERE due <= ? AND ${NOT_LEARNING}`).bind(now).first<number>("n")) ?? 0;
+  }
+
+  /** Meaning cards of words not learned yet (new, or in FSRS learning steps), in the order they were introduced. */
+  async learningCards(limit: number): Promise<CardRow[]> {
+    const { results } = await this.d1
+      .prepare(`SELECT card_id, item_id, fsrs FROM card_state WHERE card_id LIKE '%:recog' AND ${LEARNING} ORDER BY introduced_at, card_id LIMIT ?`)
+      .bind(limit)
+      .all<CardRow>();
+    return results;
+  }
+
+  async countLearning(): Promise<number> {
+    return (await this.d1.prepare(`SELECT COUNT(*) AS n FROM card_state WHERE card_id LIKE '%:recog' AND ${LEARNING}`).first<number>("n")) ?? 0;
   }
 
   async countCards(): Promise<Record<string, number>> {

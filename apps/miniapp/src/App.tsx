@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { addMoreWords, flushReviews, getQueue, getSession, type QueueCard, type Session } from "./api";
 import { FEATURES } from "./features";
 import { FLAG } from "./flags";
+import { LearnNew } from "./screens/Learn";
 import { Review } from "./screens/Review";
 import { haptic, tg } from "./telegram";
 
@@ -23,7 +24,7 @@ export function App() {
 function Learn() {
   const [session, setSession] = useState<Session | null>(null);
   const [queue, setQueue] = useState<QueueCard[] | null>(null);
-  const [openFeature, setOpenFeature] = useState<string | null>(() => new URLSearchParams(location.search).get("screen")); // deep link: ?screen=grammar
+  const [openFeature, setOpenFeature] = useState<string | null>(() => new URLSearchParams(location.search).get("screen")); // deep link: ?screen=grammar, ?screen=learn
   const [homeKey, setHomeKey] = useState(0); // remounts home entries so they reload their numbers
   const [error, setError] = useState<string | null>(null);
 
@@ -75,6 +76,7 @@ function Learn() {
       </main>
     );
   }
+  if (openFeature === "learn") return <LearnNew onDone={goHome} />;
   const feature = FEATURES.find((f) => f.id === openFeature);
   if (feature?.Screen) return <feature.Screen close={goHome} />;
   if (queue) return <Review initial={queue} onDone={goHome} />;
@@ -106,14 +108,19 @@ function Learn() {
       </p>
       {FEATURES.map((f) => f.HomeEntry && <f.HomeEntry key={`${f.id}-${homeKey}`} open={() => setOpenFeature(f.id)} />)}
       <div className="spacer" />
+      {session.learning > 0 && (
+        <button className="button big" onClick={() => { haptic("tap"); setOpenFeature("learn"); }}>
+          🆕 Учить новые слова ({session.learning})
+        </button>
+      )}
       {session.due > 0 ? (
         <button className="button big" onClick={() => void start()}>
           Повторить ({session.due})
         </button>
       ) : (
-        <p className="done-note">Всё повторено 🎉 Новые слова придут утром — или возьми их сейчас.</p>
+        session.learning === 0 && <p className="done-note">Всё повторено 🎉 Новые слова придут утром — или возьми их сейчас.</p>
       )}
-      <MoreWords onAdded={() => void start()} />
+      <MoreWords onAdded={() => setOpenFeature("learn")} />
     </main>
   );
 }

@@ -22,8 +22,8 @@ export default async function (t: Smoke) {
   check(a2.source === "cache" && llm.requests.length === aiCalls, "the second lookup comes from the cache, no AI call");
 
   const add = await json<{ itemId: string }>(postJson("/reading/cards", { lang: "lt", lemma: "butas", pos: "noun", gender: "m", gen: "buto", meaning: "квартира", example: "Išsinuomojome naują butą." }));
-  const q = await json<{ cards: { cardId: string; item?: { text: string; gen?: string } }[] }>(api("/queue?limit=200", me));
-  check(/^u-lt-\d{6}$/.test(add.itemId) && q.cards.some((c) => c.cardId === `${add.itemId}:recog` && c.item?.gen === "buto"), "a looked-up word becomes a review card");
+  const q = await json<{ cards: { cardId: string; item?: { text: string; gen?: string } }[] }>(api("/learn?limit=100", me));
+  check(/^u-lt-\d{6}$/.test(add.itemId) && q.cards.some((c) => c.cardId === `${add.itemId}:recog` && c.item?.gen === "buto"), "a looked-up word becomes a card in «Учить новые слова»");
   const again = await json<{ added: boolean }>(postJson("/reading/lookup", { lang: "lt", word: "butą", sentence: "…", textId: "lt-r-0001" }));
   check(again.added === true, "the lookup then shows the word as already in the cards");
   const course = await json<{ itemId: string }>(postJson("/reading/cards", { lang: "lt", lemma: "pavojus", meaning: "опасность", example: "…" }));

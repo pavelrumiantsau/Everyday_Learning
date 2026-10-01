@@ -99,6 +99,8 @@ async function coreTick(db: Db, tg: Telegram, chatId: string, webAppUrl: string,
 }
 
 export const learnButton = (url: string) => ({ text: "▶ Карточки", url });
+/** Opens «Учить новые слова» in the Mini App (Mini App deep link ?screen=learn). */
+export const newWordsButton = (url: string) => ({ text: "🆕 Учить новые слова", url: `${url}?screen=learn` });
 
 export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now = new Date()): Promise<void> {
   const [introduced, prefs] = await Promise.all([db.introducedItemIds(), getPrefs(db)]);
@@ -111,7 +113,7 @@ export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUr
   if (fresh.length) lines.push("", ...fresh.map(formatNewItem));
   else lines.push("", "Новых слов пока нет — нужна следующая партия контента.");
   if (fresh.length > prefs.max_new_polls) lines.push("", `Квизы ниже — по первым ${prefs.max_new_polls} словам, остальные — в карточках ▶`);
-  await tg.sendMessage(chatId, lines.join("\n"), learnButton(webAppUrl));
+  await tg.sendMessage(chatId, lines.join("\n"), fresh.length ? newWordsButton(webAppUrl) : learnButton(webAppUrl));
 
   // Introduce the new items as cards (due now, so their quiz below counts as the first review).
   await introduceItems(db, fresh, now);

@@ -1,10 +1,10 @@
 // "More today": on days with extra time, take the next new words now instead of waiting for tomorrow's morning lesson.
 // /more — the next daily portion of every active language; /more es — Spanish only; /more lt 20 — 20 Lithuanian words.
-// The words are introduced as cards straight away (due now); the next morning simply continues after them.
+// The words are introduced as cards straight away (to learn in «Учить новые слова»); the next morning simply continues after them.
 import { formatNewItem, pickNewItems, type Item, type Lang } from "@el/core";
 import { Hono } from "hono";
 import { ITEMS } from "../content";
-import { introduceItems, learnButton } from "../daily";
+import { introduceItems, newWordsButton } from "../daily";
 import { Db } from "../db";
 import type { Feature } from "../feature";
 import { getPrefs } from "../prefs";
@@ -56,8 +56,8 @@ export const more: Feature = {
       run: async (c, args) => {
         const fresh = await introduceMore(c.db, c.now, parseMoreArgs(args));
         if (!fresh.length) return c.tg.sendMessage(c.ownerId, "Новых слов больше нет — нужна следующая партия контента.");
-        const text = [`➕ <b>Ещё ${fresh.length} новых</b> — уже в карточках:`, "", ...fresh.map(formatNewItem)].join("\n");
-        return c.tg.sendMessage(c.ownerId, text, learnButton(c.webAppUrl));
+        const text = [`➕ <b>Ещё ${fresh.length} новых</b> — учи их в «Учить новые слова»:`, "", ...fresh.map(formatNewItem)].join("\n");
+        return c.tg.sendMessage(c.ownerId, text, newWordsButton(c.webAppUrl));
       },
     },
   ],

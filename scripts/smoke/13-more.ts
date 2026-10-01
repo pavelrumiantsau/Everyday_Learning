@@ -4,24 +4,25 @@ import type { Smoke } from "./context.ts";
 // extra rule ahead of the rotation (not today's rule, French grammar still held until April 2027).
 export default async function (t: Smoke) {
   const { check, api, me, post, msg, calls } = t;
-  type Session = { newToday: number };
+  type Session = { newToday: number; learning: number };
   const session = async () => (await (await api("/session", me)).json()) as Session;
 
-  const before = (await session()).newToday;
+  const { newToday: before, learning } = await session();
   calls.length = 0;
   await post(msg("/more es 3"));
   const reply = calls.find((c) => c.method === "sendMessage")?.body;
   check(!!reply?.text.includes("Ещё 3 новых"), "/more es 3 introduces 3 Spanish words now");
-  check(!!reply?.reply_markup?.inline_keyboard?.[0]?.[0]?.web_app?.url, "the /more reply has the cards button");
+  check(!!reply?.reply_markup?.inline_keyboard?.[0]?.[0]?.web_app?.url?.includes("screen=learn"), "the /more reply's button opens «Учить новые слова»");
 
   const r = (await (await api("/more", me, { method: "POST", body: JSON.stringify({ lang: "lt", n: 2 }) })).json()) as {
     added: number;
     items: { id: string }[];
   };
   check(r.added === 2 && r.items.every((i) => i.id.startsWith("lt-")), "POST /api/more adds 2 Lithuanian words");
-  check((await session()).newToday === before + 5, "extra words count as today's new cards");
-  const { cards } = (await (await api("/queue?limit=300", me)).json()) as { cards: { cardId: string }[] };
-  check(r.items.every((i) => cards.some((c) => c.cardId === `${i.id}:recog`)), "the extra words are due in reviews right away");
+  const s = await session();
+  check(s.newToday === before + 5, "extra words count as today's new cards");
+  const { cards } = (await (await api("/learn?limit=100", me)).json()) as { cards: { cardId: string }[] };
+  check(s.learning === learning + 5 && r.items.every((i) => cards.some((c) => c.cardId === `${i.id}:recog`)), "the extra words are in «Учить новые слова» right away");
 
   const again = (await (await api("/more", me, { method: "POST", body: JSON.stringify({ lang: "lt", n: 2 }) })).json()) as {
     items: { id: string }[];
