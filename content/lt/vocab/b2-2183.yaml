@@ -1,0 +1,768 @@
+# Generated from scripts/batches/lt-b2-2183.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2183
+  type: word
+  cefr: B1
+  text: "partija"
+  pos: noun
+  gender: f
+  gen: "partijos"
+  meaning: { ru: "партия" }
+  note: { ru: "также партия в игре: sužaisti partiją" }
+  examples:
+    - { text: "Ar tu partijos narys?", translation: "Ты член партии?", source: "tatoeba:12331707" }
+- id: lt-w-2184
+  type: word
+  cefr: B2
+  text: "lygybė"
+  pos: noun
+  gender: f
+  gen: "lygybės"
+  meaning: { ru: "равенство" }
+  examples:
+    - { text: "Laisvė, lygybė, brolybė.", translation: "Свобода, равенство, братство.", source: "tatoeba:13633247" }
+- id: lt-w-2185
+  type: word
+  cefr: B2
+  text: "diskriminacija"
+  pos: noun
+  gender: f
+  gen: "diskriminacijos"
+  meaning: { ru: "дискриминация" }
+  examples:
+    - { text: "Tikriausiai tai diskriminacija.", translation: "Наверное, это дискриминация.", source: "tatoeba:13043679" }
+- id: lt-w-2186
+  type: word
+  cefr: B2
+  text: "transliuoti"
+  pos: verb
+  forms: { pres: "transliuoja", past: "transliavo" }
+  meaning: { ru: "транслировать" }
+  note: { ru: "tiesioginė transliacija — прямая трансляция" }
+  examples:
+    - { text: "Jį dažnai transliuoja per radiją.", translation: "Его часто крутят по радио.", source: "tatoeba:13539555" }
+- id: lt-w-2187
+  type: word
+  cefr: B2
+  text: "gerovė"
+  pos: noun
+  gender: f
+  gen: "gerovės"
+  meaning: { ru: "благосостояние, благополучие" }
+  examples:
+    - { text: "Piliečių gerovė auga.", translation: "Благосостояние граждан растёт.", source: "tatoeba:13085963" }
+- id: lt-w-2188
+  type: word
+  cefr: B2
+  text: "korupcija"
+  pos: noun
+  gender: f
+  gen: "korupcijos"
+  meaning: { ru: "коррупция" }
+  examples:
+    - { text: "Tomas savo šalyje paskelbė karą korupcijai.", translation: "Том объявил войну коррупции в своей стране.", source: "tatoeba:8049432" }
+- id: lt-w-2189
+  type: word
+  cefr: B2
+  text: "kyšis"
+  pos: noun
+  gender: m
+  gen: "kyšio"
+  meaning: { ru: "взятка" }
+  note: { ru: "duoti / imti kyšį — давать / брать взятку" }
+  examples:
+    - { text: "Jis atsisakė imti kyšį.", translation: "Он отказался брать взятку.", source: "tatoeba:3954135" }
+- id: lt-w-2190
+  type: word
+  cefr: B2
+  text: "socialinis"
+  pos: adj
+  meaning: { ru: "социальный" }
+  note: { ru: "socialiniai tinklai — социальные сети" }
+  examples:
+    - { text: "Tai socialinė problema.", translation: "Это социальная проблема.", source: "tatoeba:8353960" }
+- id: lt-w-2191
+  type: word
+  cefr: B2
+  text: "protestas"
+  pos: noun
+  gender: m
+  gen: "protesto"
+  meaning: { ru: "протест" }
+  examples:
+    - { text: "Protestai išplito visoje šalyje.", translation: "Протесты перекинулись на всю страну.", source: "tatoeba:13091368" }
+- id: lt-w-2192
+  type: word
+  cefr: B1
+  text: "savanoris"
+  pos: noun
+  gender: m
+  gen: "savanorio"
+  meaning: { ru: "доброволец, волонтёр" }
+  examples:
+    - { text: "Jam trūksta savanorių.", translation: "Ему не хватает добровольцев.", source: "tatoeba:13856433" }
+- id: lt-w-2193
+  type: word
+  cefr: B2
+  text: "labdara"
+  pos: noun
+  gender: f
+  gen: "labdaros"
+  meaning: { ru: "благотворительность" }
+- id: lt-w-2194
+  type: word
+  cefr: B2
+  text: "teršti"
+  pos: verb
+  forms: { pres: "teršia", past: "teršė" }
+  meaning: { ru: "загрязнять, засорять" }
+  note: { ru: "užteršti — загрязнить" }
+  examples:
+    - { text: "Šitie žodžiai teršia mūsų kalbą.", translation: "Эти слова засоряют нашу речь.", source: "tatoeba:13920157" }
+- id: lt-w-2195
+  type: word
+  cefr: B2
+  text: "bendruomenė"
+  pos: noun
+  gender: f
+  gen: "bendruomenės"
+  meaning: { ru: "сообщество, община" }
+- id: lt-w-2196
+  type: word
+  cefr: B2
+  text: "emigracija"
+  pos: noun
+  gender: f
+  gen: "emigracijos"
+  meaning: { ru: "эмиграция" }
+  note: { ru: "emigrantas — эмигрант" }
+  examples:
+    - { text: "Nepainiok turizmo su emigracija.", translation: "Не путай туризм с эмиграцией.", source: "tatoeba:11651605" }
+- id: lt-w-2197
+  type: word
+  cefr: B2
+  text: "imigrantas"
+  pos: noun
+  gender: m
+  gen: "imigranto"
+  meaning: { ru: "иммигрант" }
+  examples:
+    - { text: "Tomo tėvai yra imigrantai.", translation: "Родители Тома — иммигранты.", source: "tatoeba:12119858" }
+- id: lt-w-2198
+  type: word
+  cefr: B1
+  text: "tautybė"
+  pos: noun
+  gender: f
+  gen: "tautybės"
+  meaning: { ru: "национальность" }
+  examples:
+    - { text: "Kokia jūsų tautybė?", translation: "Вы по национальности кто?", source: "tatoeba:13529034" }
+- id: lt-w-2199
+  type: word
+  cefr: B2
+  text: "balsavimas"
+  pos: noun
+  gender: m
+  gen: "balsavimo"
+  meaning: { ru: "голосование" }
+  note: { ru: "balsavimo teisė — право голоса" }
+  examples:
+    - { text: "Moterys neturėjo balsavimo teisės.", translation: "Женщины не имели права голоса.", source: "tatoeba:12792658" }
+- id: lt-w-2200
+  type: word
+  cefr: B1
+  text: "rūšiuoti"
+  pos: verb
+  forms: { pres: "rūšiuoja", past: "rūšiavo" }
+  meaning: { ru: "сортировать" }
+  note: { ru: "rūšiuoti šiukšles — сортировать мусор" }
+  examples:
+    - { text: "Labai svarbu rūšiuoti šiukšles.", translation: "Очень важно сортировать мусор.", source: "tatoeba:10458204" }
+- id: lt-w-2201
+  type: word
+  cefr: B2
+  text: "referendumas"
+  pos: noun
+  gender: m
+  gen: "referendumo"
+  meaning: { ru: "референдум" }
+  examples:
+    - { text: "Referendumo rezultatas neturi juridinės galios.", translation: "Результат референдума не имеет юридической силы.", source: "tatoeba:13808273" }
+- id: lt-w-2202
+  type: word
+  cefr: B2
+  text: "opozicija"
+  pos: noun
+  gender: f
+  gen: "opozicijos"
+  meaning: { ru: "оппозиция" }
+  examples:
+    - { text: "Mes irgi opozicija.", translation: "Мы тоже оппозиция.", source: "tatoeba:13859831" }
+- id: lt-w-2203
+  type: word
+  cefr: B2
+  text: "reforma"
+  pos: noun
+  gender: f
+  gen: "reformos"
+  meaning: { ru: "реформа" }
+  examples:
+    - { text: "Dauguma gyventojų yra prieš pensijų reformą.", translation: "Большинство населения против пенсионной реформы.", source: "tatoeba:11583210" }
+- id: lt-w-2204
+  type: word
+  cefr: B1
+  text: "teismas"
+  pos: noun
+  gender: m
+  gen: "teismo"
+  meaning: { ru: "суд" }
+  examples:
+    - { text: "Jis stojo prieš teismą.", translation: "Он предстал перед судом.", source: "tatoeba:13018598" }
+- id: lt-w-2205
+  type: word
+  cefr: B1
+  text: "nusikaltimas"
+  pos: noun
+  gender: m
+  gen: "nusikaltimo"
+  meaning: { ru: "преступление" }
+  note: { ru: "padaryti nusikaltimą — совершить преступление" }
+  examples:
+    - { text: "Ji padarė nusikaltimą.", translation: "Она совершила преступление.", source: "tatoeba:12138180" }
+- id: lt-w-2206
+  type: word
+  cefr: B2
+  text: "visuomeninis"
+  pos: adj
+  meaning: { ru: "общественный" }
+  examples:
+    - { text: "Bitės yra visuomeniniai gyvūnai.", translation: "Пчёлы являются общественными животными.", source: "tatoeba:2693407" }
+- id: lt-w-2207
+  type: word
+  cefr: B1
+  text: "kariuomenė"
+  pos: noun
+  gender: f
+  gen: "kariuomenės"
+  meaning: { ru: "армия, войско" }
+  examples:
+    - { text: "Jis išėjo į kariuomenę.", translation: "Он ушёл в армию.", source: "tatoeba:12927190" }
+- id: lt-w-2208
+  type: word
+  cefr: B2
+  text: "perdirbti"
+  pos: verb
+  forms: { pres: "perdirba", past: "perdirbo" }
+  meaning: { ru: "перерабатывать; переделать" }
+  note: { ru: "perdirbimas — переработка" }
+  examples:
+    - { text: "Aš viską perdirbsiu.", translation: "Я всё переделаю.", source: "tatoeba:12175718" }
+- id: lt-w-2209
+  type: word
+  cefr: B2
+  text: "gynyba"
+  pos: noun
+  gender: f
+  gen: "gynybos"
+  meaning: { ru: "оборона, защита" }
+  examples:
+    - { text: "Nekaltumas yra pati geriausia gynyba.", translation: "Невиновность — самая лучшая защита.", source: "tatoeba:10779758" }
+- id: lt-w-2210
+  type: word
+  cefr: B2
+  text: "konstitucija"
+  pos: noun
+  gender: f
+  gen: "konstitucijos"
+  meaning: { ru: "конституция" }
+- id: lt-w-2211
+  type: word
+  cefr: B2
+  text: "gimstamumas"
+  pos: noun
+  gender: m
+  gen: "gimstamumo"
+  meaning: { ru: "рождаемость" }
+- id: lt-w-2212
+  type: word
+  cefr: B1
+  text: "žurnalistas"
+  pos: noun
+  gender: m
+  gen: "žurnalisto"
+  meaning: { ru: "журналист" }
+  examples:
+    - { text: "Aš norėjau būti žurnalistu.", translation: "Я хотел быть журналистом.", source: "tatoeba:14030441" }
+- id: lt-w-2213
+  type: word
+  cefr: B1
+  text: "interviu"
+  pos: noun
+  gender: m
+  gen: "interviu"
+  meaning: { ru: "интервью" }
+  note: { ru: "не склоняется: duoti interviu — дать интервью" }
+  examples:
+    - { text: "Kaip pavyko interviu?", translation: "Как прошло интервью?", source: "tatoeba:12734724" }
+- id: lt-w-2214
+  type: word
+  cefr: B2
+  text: "transliacija"
+  pos: noun
+  gender: f
+  gen: "transliacijos"
+  meaning: { ru: "трансляция" }
+  examples:
+    - { text: "Tiesioginės transliacijos yra populiarios Kinijoje.", translation: "Прямые трансляции популярны в Китае.", source: "tatoeba:11489477" }
+- id: lt-w-2215
+  type: word
+  cefr: B1
+  text: "persėsti"
+  pos: verb
+  forms: { pres: "persėda", past: "persėdo" }
+  meaning: { ru: "пересесть" }
+  note: { ru: "persėsti į kitą traukinį — пересесть на другой поезд" }
+  examples:
+    - { text: "Persėskime prie to stalo.", translation: "Давайте пересядем за тот стол.", source: "tatoeba:12578609" }
+- id: lt-w-2216
+  type: word
+  cefr: B1
+  text: "žiūrovas"
+  pos: noun
+  gender: m
+  gen: "žiūrovo"
+  meaning: { ru: "зритель" }
+  examples:
+    - { text: "Koncerte buvo daug žiūrovų.", translation: "На концерте было много зрителей.", source: "tatoeba:11690467" }
+- id: lt-w-2217
+  type: word
+  cefr: B2
+  text: "klausytojas"
+  pos: noun
+  gender: m
+  gen: "klausytojo"
+  meaning: { ru: "слушатель" }
+  examples:
+    - { text: "Dainelė labai patiko radijo klausytojams.", translation: "Песенка очень полюбилась радиослушателям.", source: "tatoeba:12717479" }
+- id: lt-w-2218
+  type: word
+  cefr: B1
+  text: "skaitytojas"
+  pos: noun
+  gender: m
+  gen: "skaitytojo"
+  meaning: { ru: "читатель" }
+  examples:
+    - { text: "Knyga būtinai ras savo skaitytoją.", translation: "Книга непременно найдёт своего читателя.", source: "tatoeba:12896393" }
+- id: lt-w-2219
+  type: word
+  cefr: B2
+  text: "prenumerata"
+  pos: noun
+  gender: f
+  gen: "prenumeratos"
+  meaning: { ru: "подписка" }
+  examples:
+    - { text: "Aš noriu atšaukti prenumeratą.", translation: "Я хочу отменить подписку.", source: "tatoeba:12867717" }
+- id: lt-w-2220
+  type: word
+  cefr: B2
+  text: "dezinformacija"
+  pos: noun
+  gender: f
+  gen: "dezinformacijos"
+  meaning: { ru: "дезинформация" }
+  examples:
+    - { text: "Mes gyvename dezinformacijos epochoje.", translation: "Мы живём в эпоху дезинформации.", source: "tatoeba:13105051" }
+- id: lt-w-2221
+  type: word
+  cefr: B2
+  text: "leidykla"
+  pos: noun
+  gender: f
+  gen: "leidyklos"
+  meaning: { ru: "издательство" }
+  examples:
+    - { text: "Kur mūsų leidyklos pranašumas?", translation: "В чём преимущество нашего издательства?", source: "tatoeba:10242040" }
+- id: lt-w-2222
+  type: word
+  cefr: B1
+  text: "rezervuoti"
+  pos: verb
+  forms: { pres: "rezervuoja", past: "rezervavo" }
+  meaning: { ru: "забронировать, зарезервировать" }
+- id: lt-w-2223
+  type: word
+  cefr: B2
+  text: "ekologiškas"
+  pos: adj
+  meaning: { ru: "экологичный, экологически чистый" }
+  examples:
+    - { text: "Vėjas yra pigus ir ekologiškas energijos šaltinis.", translation: "Ветер - это дешевый и экологически чистый источник энергии.", source: "tatoeba:10706354" }
+- id: lt-w-2224
+  type: word
+  cefr: B2
+  text: "redaktorius"
+  pos: noun
+  gender: m
+  gen: "redaktoriaus"
+  meaning: { ru: "редактор" }
+- id: lt-w-2225
+  type: word
+  cefr: B1
+  text: "įrašas"
+  pos: noun
+  gender: m
+  gen: "įrašo"
+  meaning: { ru: "запись; пост (в соцсетях)" }
+  note: { ru: "vaizdo įrašas — видеозапись" }
+  examples:
+    - { text: "Jis turi vaizdo įrašą.", translation: "У него есть видео.", source: "tatoeba:11597917" }
+- id: lt-w-2226
+  type: word
+  cefr: B2
+  text: "cenzūra"
+  pos: noun
+  gender: f
+  gen: "cenzūros"
+  meaning: { ru: "цензура" }
+- id: lt-w-2227
+  type: word
+  cefr: B2
+  text: "tarša"
+  pos: noun
+  gender: f
+  gen: "taršos"
+  meaning: { ru: "загрязнение (окружающей среды)" }
+- id: lt-w-2228
+  type: word
+  cefr: B2
+  text: "gyvūnija"
+  pos: noun
+  gender: f
+  gen: "gyvūnijos"
+  meaning: { ru: "животный мир, фауна" }
+  note: { ru: "augalija — растительный мир, флора" }
+  examples:
+    - { text: "Būtina saugoti unikalią salos augaliją ir gyvūniją.", translation: "Необходимо защитить уникальную флору и фауну острова.", source: "tatoeba:13310512" }
+- id: lt-w-2229
+  type: word
+  cefr: B2
+  text: "smerkti"
+  pos: verb
+  forms: { pres: "smerkia", past: "smerkė" }
+  meaning: { ru: "осуждать" }
+  note: { ru: "pasmerkti — осудить" }
+  examples:
+    - { text: "Senukai visada smerkia jaunimą.", translation: "Старики всегда осуждают молодёжь.", source: "tatoeba:12855852" }
+- id: lt-w-2230
+  type: word
+  cefr: B2
+  text: "sausra"
+  pos: noun
+  gender: f
+  gen: "sausros"
+  meaning: { ru: "засуха" }
+  examples:
+    - { text: "Tai sausros problemos neišspręs.", translation: "Проблему засухи это не решит.", source: "tatoeba:13415439" }
+- id: lt-w-2231
+  type: word
+  cefr: B1
+  text: "audra"
+  pos: noun
+  gender: f
+  gen: "audros"
+  meaning: { ru: "буря, гроза" }
+  examples:
+    - { text: "Lauke siautė audra.", translation: "Снаружи бушевала гроза.", source: "tatoeba:3192559" }
+- id: lt-w-2232
+  type: word
+  cefr: B1
+  text: "kalva"
+  pos: noun
+  gender: f
+  gen: "kalvos"
+  meaning: { ru: "холм" }
+  examples:
+    - { text: "Kalva buvo apsnigta.", translation: "Холм был покрыт снегом.", source: "tatoeba:9989855" }
+- id: lt-w-2233
+  type: word
+  cefr: B1
+  text: "slėnis"
+  pos: noun
+  gender: m
+  gen: "slėnio"
+  meaning: { ru: "долина" }
+  examples:
+    - { text: "Tirštas rūkas uždengė slėnį.", translation: "Густой туман накрыл долину.", source: "tatoeba:10272852" }
+- id: lt-w-2234
+  type: word
+  cefr: B1
+  text: "pakrantė"
+  pos: noun
+  gender: f
+  gen: "pakrantės"
+  meaning: { ru: "побережье, берег" }
+  examples:
+    - { text: "Jis gyvena pakrantėje.", translation: "Он живёт на побережье.", source: "tatoeba:10170723" }
+- id: lt-w-2235
+  type: word
+  cefr: B1
+  text: "kopa"
+  pos: noun
+  gender: f
+  gen: "kopos"
+  meaning: { ru: "дюна" }
+- id: lt-w-2236
+  type: word
+  cefr: B2
+  text: "paplisti"
+  pos: verb
+  forms: { pres: "paplinta", past: "paplito" }
+  meaning: { ru: "распространиться" }
+  note: { ru: "paplitęs — распространённый" }
+  examples:
+    - { text: "Naujienos greitai paplito.", translation: "Новости быстро распространились.", source: "tatoeba:10638745" }
+- id: lt-w-2237
+  type: word
+  cefr: B2
+  text: "rezervatas"
+  pos: noun
+  gender: m
+  gen: "rezervato"
+  meaning: { ru: "заповедник" }
+- id: lt-w-2238
+  type: word
+  cefr: B2
+  text: "derlingas"
+  pos: adj
+  meaning: { ru: "плодородный" }
+- id: lt-w-2239
+  type: word
+  cefr: B2
+  text: "jėgainė"
+  pos: noun
+  gender: f
+  gen: "jėgainės"
+  meaning: { ru: "электростанция" }
+  note: { ru: "vėjo / saulės jėgainė — ветряная / солнечная электростанция" }
+- id: lt-w-2240
+  type: word
+  cefr: B1
+  text: "gaisras"
+  pos: noun
+  gender: m
+  gen: "gaisro"
+  meaning: { ru: "пожар" }
+  note: { ru: "kilo gaisras — начался пожар" }
+  examples:
+    - { text: "Naktį kilo gaisras.", translation: "Ночью случился пожар.", source: "tatoeba:4620045" }
+- id: lt-w-2241
+  type: word
+  cefr: B1
+  text: "šiltnamis"
+  pos: noun
+  gender: m
+  gen: "šiltnamio"
+  meaning: { ru: "теплица" }
+  examples:
+    - { text: "Mes neturime šiltnamio.", translation: "У нас нет теплицы.", source: "tatoeba:9945646" }
+- id: lt-w-2242
+  type: word
+  cefr: B2
+  text: "atšilimas"
+  pos: noun
+  gender: m
+  gen: "atšilimo"
+  meaning: { ru: "потепление" }
+  note: { ru: "klimato atšilimas — потепление климата" }
+  examples:
+    - { text: "Nuo penktadienio žada smarkų atšilimą.", translation: "С пятницы обещают сильное потепление.", source: "tatoeba:13524850" }
+- id: lt-w-2243
+  type: word
+  cefr: B2
+  text: "ledynas"
+  pos: noun
+  gender: m
+  gen: "ledyno"
+  meaning: { ru: "ледник" }
+- id: lt-w-2244
+  type: word
+  cefr: B2
+  text: "kandidatuoti"
+  pos: verb
+  forms: { pres: "kandidatuoja", past: "kandidatavo" }
+  meaning: { ru: "баллотироваться" }
+  note: { ru: "kandidatas — кандидат" }
+  examples:
+    - { text: "Jis buvo pasirengęs kandidatuoti prezidento rinkimuose.", translation: "Он был готов выставить свою кандидатуру на президентских выборах.", source: "tatoeba:12916685" }
+- id: lt-w-2245
+  type: word
+  cefr: B1
+  text: "vandenynas"
+  pos: noun
+  gender: m
+  gen: "vandenyno"
+  meaning: { ru: "океан" }
+  examples:
+    - { text: "Tai Atlanto vandenynas.", translation: "Это Атлантический океан.", source: "tatoeba:12582378" }
+- id: lt-w-2246
+  type: word
+  cefr: B2
+  text: "dirva"
+  pos: noun
+  gender: f
+  gen: "dirvos"
+  meaning: { ru: "почва" }
+  note: { ru: "dirvožemis — почва (научн.)" }
+  examples:
+    - { text: "Dirva dar drėgna.", translation: "Почва ещё влажная.", source: "tatoeba:13244976" }
+- id: lt-w-2247
+  type: word
+  cefr: A2
+  text: "žemėlapis"
+  pos: noun
+  gender: m
+  gen: "žemėlapio"
+  meaning: { ru: "карта (географическая)" }
+  examples:
+    - { text: "Man reikia žemėlapio.", translation: "Мне нужна карта.", source: "tatoeba:8581450" }
+- id: lt-w-2248
+  type: word
+  cefr: B2
+  text: "pasienis"
+  pos: noun
+  gender: m
+  gen: "pasienio"
+  meaning: { ru: "приграничная зона, граница" }
+  examples:
+    - { text: "Muitinė yra pasienyje.", translation: "Таможня находится на границе.", source: "tatoeba:13442485" }
+- id: lt-w-2249
+  type: word
+  cefr: B1
+  text: "keltas"
+  pos: noun
+  gender: m
+  gen: "kelto"
+  meaning: { ru: "паром" }
+  examples:
+    - { text: "Kur yra keltas?", translation: "Где паром?", source: "tatoeba:12656522" }
+- id: lt-w-2250
+  type: word
+  cefr: B2
+  text: "pasisakyti"
+  pos: verb
+  forms: { pres: "pasisako", past: "pasisakė" }
+  meaning: { ru: "высказаться; выступить (за / против)" }
+  note: { ru: "pasisakyti už ką / prieš ką" }
+  examples:
+    - { text: "Jis pasisako už demokratiją.", translation: "Он выступает за демократию.", source: "tatoeba:12896023" }
+- id: lt-w-2251
+  type: word
+  cefr: B1
+  text: "uostas"
+  pos: noun
+  gender: m
+  gen: "uosto"
+  meaning: { ru: "порт" }
+  note: { ru: "oro uostas — аэропорт" }
+  examples:
+    - { text: "Tai krovinių uostas.", translation: "Это грузовой порт.", source: "tatoeba:10954934" }
+- id: lt-w-2252
+  type: word
+  cefr: B1
+  text: "kurortas"
+  pos: noun
+  gender: m
+  gen: "kurorto"
+  meaning: { ru: "курорт" }
+  examples:
+    - { text: "Tomas dirba slidinėjimo kurorte.", translation: "Том работает на лыжном курорте.", source: "tatoeba:9946537" }
+- id: lt-w-2253
+  type: word
+  cefr: B1
+  text: "agentūra"
+  pos: noun
+  gender: f
+  gen: "agentūros"
+  meaning: { ru: "агентство" }
+  note: { ru: "kelionių agentūra — турагентство" }
+  examples:
+    - { text: "Aš dirbu kelionių agentūroje.", translation: "Я работаю в турагентстве.", source: "tatoeba:10641418" }
+- id: lt-w-2254
+  type: word
+  cefr: B2
+  text: "lankytinas"
+  pos: adj
+  meaning: { ru: "достойный посещения" }
+  note: { ru: "lankytinos vietos — достопримечательности" }
+- id: lt-w-2255
+  type: word
+  cefr: B2
+  text: "poilsiautojas"
+  pos: noun
+  gender: m
+  gen: "poilsiautojo"
+  meaning: { ru: "отдыхающий" }
+  examples:
+    - { text: "Balandžio mėnesį saloje buvo ne tiek daug poilsiautojų.", translation: "В апреле на острове было не так много отдыхающих.", source: "tatoeba:13692467" }
+- id: lt-w-2256
+  type: word
+  cefr: B1
+  text: "stovykla"
+  pos: noun
+  gender: f
+  gen: "stovyklos"
+  meaning: { ru: "лагерь" }
+  examples:
+    - { text: "Kur jie šiandien įrengs stovyklą?", translation: "Где они сегодня разобьют лагерь?", source: "tatoeba:13332564" }
+- id: lt-w-2257
+  type: word
+  cefr: B1
+  text: "vėlavimas"
+  pos: noun
+  gender: m
+  gen: "vėlavimo"
+  meaning: { ru: "опоздание, задержка" }
+  examples:
+    - { text: "Tomas atsiprašė už vėlavimą.", translation: "Том извинился за опоздание.", source: "tatoeba:3951630" }
+- id: lt-w-2258
+  type: word
+  cefr: B1
+  text: "išrinkti"
+  pos: verb
+  forms: { pres: "išrenka", past: "išrinko" }
+  meaning: { ru: "выбрать, избрать" }
+  note: { ru: "išrinkti prezidentą — избрать президента" }
+  examples:
+    - { text: "Aš tave išrinkau.", translation: "Я тебя выбрал.", source: "tatoeba:12368641" }
+- id: lt-w-2259
+  type: word
+  cefr: B1
+  text: "išvykimas"
+  pos: noun
+  gender: m
+  gen: "išvykimo"
+  meaning: { ru: "отъезд, отправление" }
+  examples:
+    - { text: "Atidėjome išvykimą dėl audros.", translation: "Мы отложили отъезд из-за грозы.", source: "tatoeba:3192569" }
+- id: lt-w-2260
+  type: word
+  cefr: B1
+  text: "atvykimas"
+  pos: noun
+  gender: m
+  gen: "atvykimo"
+  meaning: { ru: "приезд, прибытие" }
+  examples:
+    - { text: "Aš laukiu jų atvykimo.", translation: "Я жду их приезда.", source: "tatoeba:13806225" }
+- id: lt-w-2261
+  type: word
+  cefr: B1
+  text: "nakvynė"
+  pos: noun
+  gender: f
+  gen: "nakvynės"
+  meaning: { ru: "ночлег" }
