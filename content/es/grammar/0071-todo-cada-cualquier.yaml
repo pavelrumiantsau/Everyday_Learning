@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0071
+cefr: A2
+order: 71
+title: "Todo el día, todos los días, cada, cualquier: all, every, any"
+explanation:
+  en: |
+    ***todo*** agrees and comes **before the article**:
+    - singular = the whole: ***todo el** día* (all day), ***toda la** noche*, ***toda la** pizza*
+    - plural = every: ***todos los** días* (every day), ***todas las** semanas*
+    - alone: ***todo*** = everything (*Todo está bien. Lo sé todo.*), ***todos*** = everybody (*Todos lo saben.*)
+    - ***todo el mundo*** = everybody, with a **singular** verb: *Todo el mundo **lo sabe**.*
+
+    ***cada*** = each, every — never changes, singular noun: *cada día, cada mañana, cada ocho horas, cada uno*. ***cada vez más*** = more and more; ***cada día mejor*** = better every day.
+
+    ***cualquier*** + noun = any (it doesn't matter which): *cualquier cosa, cualquier día, a cualquier hora*. Alone — ***cualquiera***: *Pregúntale a cualquiera.* — Ask anyone.
+
+    "Any" after a negative is not *cualquier* but *ningún / nada / nadie* (lesson 62): *No tengo **ningún** problema.*
+comparison:
+  en: |
+    Russian: *todo el día* = «весь день», *todos los días* = «каждый день», *cada* = «каждый», *cualquier* = «любой». English "all day" vs "every day" works the same way — just remember the article: ~~todo día~~ → *todo **el** día*, ~~todos días~~ → *todos **los** días*.
+examples:
+  - { text: "Nado todos los días.", translation: "I swim every day.", source: "tatoeba:520543" }
+  - { text: "Dormí todo el día.", translation: "I slept all day.", source: "tatoeba:4576692" }
+  - { text: "Me afeito cada mañana.", translation: "I shave every morning.", source: "tatoeba:436954" }
+  - { text: "Pregúntame cualquier cosa.", translation: "Ask me anything.", source: "tatoeba:3266428" }
+  - { text: "Le pudo pasar a cualquiera.", translation: "It could've happened to anyone.", source: "tatoeba:2998311" }
+exercises:
+  - type: cloze
+    text: "Ayer llovió ___ el día."
+    answer: "todo"
+    hint: "the whole day"
+    translation: "Yesterday it rained all day."
+  - type: cloze
+    text: "Voy al gimnasio ___ los días."
+    answer: "todos"
+    hint: "every day"
+    translation: "I go to the gym every day."
+  - type: cloze
+    text: "___ el mundo lo sabe."
+    answer: "Todo"
+    hint: "everybody"
+    translation: "Everybody knows it."
+  - type: cloze
+    text: "Tomo una pastilla ___ ocho horas."
+    answer: "cada"
+    hint: "every (eight hours)"
+    translation: "I take a pill every eight hours."
+  - type: cloze
+    text: "Puedes llamarme a ___ hora."
+    answer: "cualquier"
+    hint: "any — it doesn't matter which"
+    translation: "You can call me at any time."
+  - type: cloze
+    text: "Eso lo sabe ___."
+    answer: "cualquiera"
+    hint: "anyone"
+    translation: "Anyone knows that."
+  - type: cloze
+    text: "Hay ___ vez más turistas en la ciudad."
+    answer: "cada"
+    hint: "more and more"
+    translation: "There are more and more tourists in the city."
+  - type: cloze
+    text: "Se comió ___ la pizza."
+    answer: "toda"
+    hint: "the whole pizza"
+    translation: "He ate the whole pizza."
