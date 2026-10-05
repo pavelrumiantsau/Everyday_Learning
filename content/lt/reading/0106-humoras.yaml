@@ -1,0 +1,46 @@
+id: lt-r-0106
+cefr: C1
+title: "Iš ko juokiasi lietuviai"
+topic: "литовский юмор и анекдоты"
+source: generated
+text: |
+  Užsieniečiai lietuvius dažnai apibūdina kaip santūrius, net niūrokus žmones, kurie gatvėje nesišypso nepažįstamiesiems. Vis dėlto, pagyvenus čia ilgiau, paaiškėja, kad lietuviškas humoras egzistuoja – tik jis tylesnis, sausesnis ir neretai nukreiptas į save.
+
+  Ko gero, populiariausias lietuviškas anekdotas pasakoja apie pragarą. Velnias vedžioja naujoką tarp katilų: prie kiekvieno stovi sargybinis, kad nusidėjėliai neišlįstų, o prie vieno – nė gyvos dvasios. „O čia kas?“ – klausia naujokas. „Lietuviai, – atsako velnias. – Jų saugoti nereikia: jei kuris nors bando išlipti, kiti patys jį įtraukia atgal.“
+
+  Toks anekdotas – tikras savikritikos šedevras. Juo išjuokiamas pavydas, kurį patys lietuviai laiko viena savo ydų, tačiau juokiamasi ne piktai, o tarsi atpažįstant save veidrodyje. Panašiai pasakojami anekdotai apie užsispyrusius žemaičius, gudrius dzūkus ar amžinai besivaržančius vilniečius ir kauniečius: regioniniai stereotipai virsta žaidimu, kuriame įsižeisti būtų tiesiog juokinga.
+
+  Sovietmečiu humoras buvo ir savotiška išgyvenimo priemonė. Politiniai anekdotai, pasakojami tik patikimiems draugams, leido bent akimirkai pasijusti laisvam. Satyrikai išmoko kritikuoti tarp eilučių – taip, kad cenzorius nesuprastų, o skaitytojas suprastų.
+
+  Šiandien humoro vis daugiau girdėti televizijoje, internete ir komikų pasirodymuose. Kai kas dejuoja, kad jis tampa šiurkštesnis ir lėkštesnis. Galbūt. Tačiau tauta, mokanti pasijuokti iš savo silpnybių, paprastai būna kur kas stipresnė, nei pati mano.
+glossary:
+  - { word: "santūrius", lemma: "santūrus", pos: adj, meaning: "сдержанный", note: "вин. п. мн. ч." }
+  - { word: "niūrokus", lemma: "niūrokas", pos: adj, meaning: "мрачноватый", note: "вин. п. мн. ч." }
+  - { word: "pagyvenus", lemma: "pagyventi", pos: verb, forms: { pres: "pagyvena", past: "pagyveno" }, meaning: "пожить", note: "деепр.: pagyvenus čia ilgiau — если пожить здесь подольше" }
+  - { word: "naujoką", lemma: "naujokas", pos: noun, gender: m, gen: "naujoko", meaning: "новичок", note: "вин. п." }
+  - { word: "katilų", lemma: "katilas", pos: noun, gender: m, gen: "katilo", meaning: "котёл", note: "род. п. мн. ч." }
+  - { word: "sargybinis", lemma: "sargybinis", pos: noun, gender: m, gen: "sargybinio", meaning: "часовой, охранник" }
+  - { word: "nusidėjėliai", lemma: "nusidėjėlis", pos: noun, gender: m, gen: "nusidėjėlio", meaning: "грешник", note: "им. п. мн. ч." }
+  - { word: "neišlįstų", lemma: "išlįsti", pos: verb, forms: { pres: "išlenda", past: "išlindo" }, meaning: "вылезти", note: "сослаг. накл. с отрицанием: kad neišlįstų — чтобы не вылезли" }
+  - { word: "dvasios", lemma: "dvasia", pos: noun, gender: f, gen: "dvasios", meaning: "дух, душа", note: "nė gyvos dvasios — ни души" }
+  - { word: "įtraukia", lemma: "įtraukti", pos: verb, forms: { pres: "įtraukia", past: "įtraukė" }, meaning: "втянуть, втащить" }
+  - { word: "išjuokiamas", lemma: "išjuokti", pos: verb, forms: { pres: "išjuokia", past: "išjuokė" }, meaning: "высмеивать", note: "пассивное прич. наст. вр." }
+  - { word: "pavydas", lemma: "pavydas", pos: noun, gender: m, gen: "pavydo", meaning: "зависть" }
+  - { word: "ydų", lemma: "yda", pos: noun, gender: f, gen: "ydos", meaning: "порок, недостаток", note: "род. п. мн. ч." }
+  - { word: "užsispyrusius", lemma: "užsispyręs", pos: adj, meaning: "упрямый", note: "вин. п. мн. ч." }
+  - { word: "besivaržančius", lemma: "varžytis", pos: verb, forms: { pres: "varžosi", past: "varžėsi" }, meaning: "соперничать", note: "прич. наст. вр. с be-, вин. п. мн. ч." }
+  - { word: "įsižeisti", lemma: "įsižeisti", pos: verb, forms: { pres: "įsižeidžia", past: "įsižeidė" }, meaning: "обидеться" }
+  - { word: "cenzorius", lemma: "cenzorius", pos: noun, gender: m, gen: "cenzoriaus", meaning: "цензор" }
+  - { word: "dejuoja", lemma: "dejuoti", pos: verb, forms: { pres: "dejuoja", past: "dejavo" }, meaning: "сетовать, жаловаться" }
+  - { word: "lėkštesnis", lemma: "lėkštas", pos: adj, meaning: "плоский, пошлый", note: "сравн. ст." }
+  - { word: "silpnybių", lemma: "silpnybė", pos: noun, gender: f, gen: "silpnybės", meaning: "слабость", note: "род. п. мн. ч." }
+questions:
+  - q: "Kas, pasak autoriaus, būdinga lietuviškam humorui?"
+    options: ["Jis tylesnis, sausesnis ir dažnai nukreiptas į save", "Jis garsus ir agresyvus", "Jo iš viso nėra"]
+    answer: 0
+  - q: "Kokią ydą išjuokia anekdotas apie pragarą?"
+    options: ["Tingumą", "Pavydą – kai kiti neleidžia vienam ištrūkti", "Girtavimą"]
+    answer: 1
+  - q: "Kokią išvadą daro autorius pabaigoje?"
+    options: ["Kad šiuolaikinis humoras yra geresnis už sovietinį", "Kad juokauti apie savo tautą nedera", "Kad tauta, mokanti juoktis iš savo silpnybių, yra stipresnė, nei pati mano"]
+    answer: 2
