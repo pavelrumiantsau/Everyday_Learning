@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0080
+cefr: B1
+order: 80
+title: "Ir or irse, dormir or dormirse, nos conocimos: what se adds"
+explanation:
+  en: |
+    With some verbs ***se*** (*me, te, nos…*) is not "myself" — it changes the meaning:
+    - ***ir*** go — ***irse*** leave, go away: *Me **voy**.* — I'm off. *Se **fue** sin pagar.*
+    - ***dormir*** sleep — ***dormirse*** fall asleep: *Me **dormí** en el sofá.*
+    - ***quedar*** arrange to meet (lesson 81) — ***quedarse*** stay: *Hoy me **quedo** en casa.*
+    - ***llevar*** take, carry — ***llevarse*** take away with you: ***Llévate** el paraguas.* — and ***llevarse bien / mal con*** get on well / badly with: *Me llevo bien con mi hermano.*
+    - ***comer*** eat — ***comerse*** eat up (all of it): *Se **comió** toda la tarta.*
+    - ***parecer*** seem — ***parecerse a*** look like: *Se parece a su padre.*
+    - ***acordar*** agree — ***acordarse de*** remember: *No me acuerdo de su nombre.*
+
+    **Each other:** in the plural, ***nos, os, se*** often mean "each other": *Nos **conocimos** en 2010.* — We met in 2010. *Se **quieren** mucho.* — They love each other. *¿Os **escribís**?* To make it clear add ***el uno al otro***: *Se miraron el uno al otro.*
+comparison:
+  en: |
+    Russian marks these with a prefix or with -ся: *dormirse* = «заснуть», *irse* = «уйти», *comerse* = «съесть», *conocerse* = «познакомиться», *quererse* = «любить друг друга». English uses a different verb or "each other". So *Me voy* is «Я пошёл / ухожу», while *Voy* alone needs a destination: *Voy a casa*.
+examples:
+  - { text: "Se fue sin despedirse.", translation: "He left without saying goodbye.", source: "tatoeba:120062" }
+  - { text: "Me dormí leyendo un libro.", translation: "I fell asleep reading a book.", source: "tatoeba:1067497" }
+  - { text: "Me llevo bien con ella.", translation: "I get along well with her.", source: "tatoeba:1001509" }
+  - { text: "Se parece a su padre.", translation: "He looks like his father.", source: "tatoeba:1034853" }
+  - { text: "Nos conocimos en la facultad.", translation: "We met in college.", source: "tatoeba:4210060" }
+exercises:
+  - type: cloze
+    text: "Es tarde, ___ voy a casa."
+    answer: "me"
+    hint: "I'm leaving — irse"
+    translation: "It's late, I'm going home."
+  - type: cloze
+    text: "Anoche me ___ viendo la tele."
+    answer: "dormí"
+    hint: "fell asleep — preterite"
+    translation: "Last night I fell asleep watching TV."
+  - type: cloze
+    text: "Mis abuelos ___ conocieron en un baile."
+    answer: "se"
+    hint: "met each other"
+    translation: "My grandparents met at a dance."
+  - type: cloze
+    text: "Ana y yo ___ escribimos todas las semanas."
+    answer: "nos"
+    hint: "each other"
+    translation: "Ana and I write to each other every week."
+  - type: cloze
+    text: "Mi hermana y yo nos ___ muy bien."
+    answer: "llevamos"
+    hint: "get on — llevarse, present"
+    translation: "My sister and I get on very well."
+  - type: cloze
+    text: "¿Te vas o te ___?"
+    answer: "quedas"
+    hint: "stay — quedarse"
+    translation: "Are you leaving or staying?"
+  - type: cloze
+    text: "El perro se ___ mi bocadillo."
+    answer: "comió"
+    hint: "ate up — preterite"
+    translation: "The dog ate my sandwich."
+  - type: cloze
+    text: "___ el paraguas, va a llover."
+    answer: "Llévate"
+    hint: "take with you (tú) — command"
+    translation: "Take the umbrella, it's going to rain."
