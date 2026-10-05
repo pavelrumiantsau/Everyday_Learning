@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0075
+cefr: B2
+order: 75
+title: "Некуда, нечего, некогда: nėra kur eiti, turiu ką veikti"
+explanation:
+  ru: |
+    Русские «некуда, нечего, некогда, некому» в литовском — это ***nėra* + вопросительное слово + инфинитив**, а тот, кому «некуда», — в **дательном**:
+    - *Man **nėra kur** eiti.* — Мне некуда идти.
+    - *Jam **nėra ko** slėpti.* — Ему нечего скрывать.
+    - *Mums **nėra kada**.* — Нам некогда.
+    - ***Nėra kam*** *padėti.* — Некому помочь.
+    - *Čia **nėra ko** bijoti.* — Тут нечего бояться.
+
+    Прошедшее и будущее — через *nebuvo / nebus*: *Nebuvo kur sėdėti.* — Негде было сесть.
+
+    Утвердительная пара «есть что, есть где» — ***turėti ką / turėti kur*** или ***yra ką / yra kur***:
+    - *Turiu **ką** veikti.* — Мне есть чем заняться.
+    - *Ar **turi kur** gyventi?* — Тебе есть где жить?
+    - *Ar **yra ko** pavalgyti?* — Есть что поесть?
+comparison:
+  ru: |
+    Конструкция зеркальна русской, только «не-» превращается в отдельное *nėra*: «не**где** сесть» = *nėra **kur** atsisėsti*. Слова *kas* и *ko* выбираются по падежу: *nėra **ko** bijoti* (бояться чего → род. п.), *nėra **kam** paskambinti* (кому → дат. п.).
+examples:
+  - { text: "Tau nėra kur eiti.", translation: "Тебе некуда идти.", source: "tatoeba:8199973" }
+  - { text: "Jam nėra ko slėpti.", translation: "Ему нечего скрывать.", source: "tatoeba:11261149" }
+  - { text: "Mums nėra kada.", translation: "Нам некогда.", source: "tatoeba:11584799" }
+  - { text: "Ar yra ko pavalgyti?", translation: "Есть чего поесть?", source: "tatoeba:13035022" }
+  - { text: "Ar dar turi ką pasakyti?", translation: "У тебя ещё есть что сказать?", source: "tatoeba:11076473" }
+exercises:
+  - type: cloze
+    text: "Mums ___ kur dėti visų daiktų."
+    answer: "nėra"
+    hint: "некуда"
+    translation: "Нам некуда девать все вещи."
+  - type: cloze
+    text: "Ko tu bijai? Čia nėra ___ bijoti."
+    answer: "ko"
+    hint: "нечего (bijoti ko)"
+    translation: "Чего ты боишься? Тут нечего бояться."
+  - type: cloze
+    text: "Vakar man nebuvo ___ tau paskambinti."
+    answer: "kada"
+    hint: "некогда"
+    translation: "Вчера мне было некогда тебе позвонить."
+  - type: cloze
+    text: "Jei turi ___ pasakyti, sakyk dabar."
+    answer: "ką"
+    hint: "есть что"
+    translation: "Если тебе есть что сказать, говори сейчас."
+  - type: cloze
+    text: "Seneliui nėra ___ padėti – visi išvažiavo."
+    answer: "kam"
+    hint: "некому"
+    translation: "Дедушке некому помочь — все уехали."
+  - type: cloze
+    text: "Ar turite ___ apsistoti Vilniuje?"
+    answer: "kur"
+    hint: "есть где"
+    translation: "Вам есть где остановиться в Вильнюсе?"
+  - type: cloze
+    text: "Ateik savaitgalį – ___ ką veikti."
+    answer: "bus"
+    hint: "будет чем"
+    translation: "Приходи на выходных — будет чем заняться."
+  - type: cloze
+    text: "Tau ___ ko jaudintis – viskas bus gerai."
+    answer: "nėra"
+    hint: "нечего"
+    translation: "Тебе не о чем волноваться — всё будет хорошо."

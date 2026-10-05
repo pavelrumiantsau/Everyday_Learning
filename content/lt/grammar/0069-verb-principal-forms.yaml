@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0069
+cefr: B1
+order: 69
+title: "Три основные формы глагола: gauti – gauna – gavo"
+explanation:
+  ru: |
+    Каждый литовский глагол запоминается **тремя формами**: инфинитив – 3 л. настоящего – 3 л. прошедшего. Из них строится всё остальное:
+    - от **инфинитива** — будущее и сослагательное: *gauti → gausiu, gaučiau*
+    - от **настоящего** — настоящее время: *gauna → gaunu, gauni*
+    - от **прошедшего** — прошедшее: *gavo → gavau, gavai*
+
+    **Прошедшее на -o или на -ė** — от этого зависят окончания:
+    - **-o** → *-au, -ai, -o, -ome, -ote*: *gavo → gavau, gavai, gavome* (так же *rado → radau*, *žinojo → žinojau*)
+    - **-ė** → *-iau, -ei, -ė, -ėme, -ėte*: *ėmė → ėmiau, ėmei, ėmėme* (так же *darė, laukė, davė, matė*)
+
+    Частые глаголы, которые надо просто запомнить:
+    - *gauti – gauna – gavo* · *imti – ima – ėmė* · *rasti – randa – rado*
+    - *duoti – duoda – davė* · *eiti – eina – ėjo* · *pradėti – pradeda – pradėjo*
+    - *būti – yra – buvo* · *vesti – veda – vedė* · *kirsti – kerta – kirto*
+    - *daryti – daro – darė* · *matyti – mato – matė* · *žinoti – žino – žinojo*
+
+    В словарях и в карточках приложения глаголы даны именно так: *pres* и *past* — это 2-я и 3-я формы.
+comparison:
+  ru: |
+    В русском по инфинитиву обычно угадываешь всё (*брать – беру – брал*), в литовском — нет: *imti – ima – **ėmė***, *rasti – **randa** – rado*. Поэтому учите глагол сразу тремя формами, как неправильные глаголы в английском.
+examples:
+  - { text: "Aš gavau kvietimą.", translation: "Я получил приглашение.", source: "tatoeba:3580195" }
+  - { text: "Aš radau raktą.", translation: "Я нашёл ключ.", source: "tatoeba:3112845" }
+  - { text: "Ji paėmė šakutę.", translation: "Она взяла вилку.", source: "tatoeba:12580940" }
+  - { text: "Ji ėmė verkti.", translation: "Она заплакала.", source: "tatoeba:10711681" }
+  - { text: "Merė jau pradėjo.", translation: "Мэри уже начала.", source: "tatoeba:3321130" }
+exercises:
+  - type: cloze
+    text: "Vakar aš ___ laišką iš banko."
+    answer: "gavau"
+    hint: "gauti – gauna – gavo → я"
+    translation: "Вчера я получил письмо из банка."
+  - type: cloze
+    text: "Ar tu ___ savo raktus?"
+    answer: "radai"
+    hint: "rasti – randa – rado → ты"
+    translation: "Ты нашёл свои ключи?"
+  - type: cloze
+    text: "Jis ___ lietsargį ir išėjo."
+    answer: "paėmė"
+    hint: "paimti – paima – paėmė"
+    translation: "Он взял зонт и вышел."
+  - type: cloze
+    text: "Mes ___ dirbti devintą valandą."
+    answer: "pradėjome"
+    hint: "pradėti – pradeda – pradėjo → мы"
+    translation: "Мы начали работать в девять часов."
+  - type: cloze
+    text: "Ji ___ man savo nuotraukas."
+    answer: "parodė"
+    hint: "parodyti – parodo – parodė"
+    translation: "Она показала мне свои фотографии."
+  - type: cloze
+    text: "Kodėl tu man nieko ___?"
+    answer: "nedavei"
+    hint: "duoti – duoda – davė → ты, с отрицанием"
+    translation: "Почему ты мне ничего не дал?"
+  - type: cloze
+    text: "Jie ilgai ___ autobuso."
+    answer: "laukė"
+    hint: "laukti – laukia – laukė"
+    translation: "Они долго ждали автобуса."
+  - type: cloze
+    text: "Aš to ___."
+    answer: "nežinojau"
+    hint: "žinoti – žino – žinojo → я, с отрицанием"
+    translation: "Я этого не знал."

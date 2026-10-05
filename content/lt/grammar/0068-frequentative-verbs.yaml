@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0068
+cefr: B1
+order: 68
+title: "Идти и ходить: eiti – vaikščioti, skristi – skraidyti, -inėti"
+explanation:
+  ru: |
+    Как в русском (*идти – ходить, лететь – летать*), у глаголов движения есть пары: **одно направление сейчас** и **туда-сюда / регулярно / вообще**.
+
+    - *eiti* – ***vaikščioti*** (ходить, гулять)
+    - *bėgti* – ***bėgioti*** (бегать)
+    - *skristi* – ***skraidyti*** (летать)
+    - *plaukti* – ***plaukioti*** (плавать)
+    - *važiuoti* – ***važinėti*** (ездить, кататься)
+    - *nešti* – ***nešioti*** (носить; одежду, очки — тоже *nešioti*)
+    - *vežti* – ***vežioti*** (возить)
+
+    *Dabar einu į darbą* (сейчас иду), но *Rytais vaikščioju parke* (гуляю по утрам). *Vaikas pradėjo vaikščioti* — начал ходить.
+
+    Суффикс **-inėti** добавляет «туда-сюда, понемногу, много раз»: *klausti → **klausinėti*** (расспрашивать), *skaityti → **skaitinėti*** (почитывать), *rašyti → **rašinėti*** (пописывать), *važiuoti → važinėti*.
+
+    Основные формы: *vaikščioti – vaikščioja – vaikščiojo*, *bėgioti – bėgioja – bėgiojo*, *skraidyti – skraido – skraidė*, *nešioti – nešioja – nešiojo*, *važinėti – važinėja – važinėjo*.
+comparison:
+  ru: |
+    Пары почти совпадают с русскими. Ловушка: *važinėti dviračiu* = кататься на велосипеде (не просто ехать), а «носить очки, шапку» — ***nešioti***, не *nešti*.
+examples:
+  - { text: "Kur vaikščiojai?", translation: "Куда ходил?", source: "tatoeba:12235897" }
+  - { text: "Rytais aš bėgioju.", translation: "По утрам я бегаю.", source: "tatoeba:11553681" }
+  - { text: "Plaštakė skraido.", translation: "Бабочка летает.", source: "tatoeba:13637522" }
+  - { text: "Ji nešioja peruką.", translation: "Она носит парик.", source: "tatoeba:8304297" }
+  - { text: "Tomas klausinėjo.", translation: "Том задавал вопросы.", source: "tatoeba:9957170" }
+exercises:
+  - type: cloze
+    text: "Paukščiai ___ virš ežero."
+    answer: "skraido"
+    hint: "skraidyti → они"
+    translation: "Птицы летают над озером."
+  - type: cloze
+    text: "Rytais aš ___ parke."
+    answer: "bėgioju"
+    hint: "bėgioti → я"
+    translation: "По утрам я бегаю в парке."
+  - type: cloze
+    text: "Mano senelis visada ___ skrybėlę."
+    answer: "nešiojo"
+    hint: "nešioti → прош. вр."
+    translation: "Мой дедушка всегда носил шляпу."
+  - type: cloze
+    text: "Vasarą mes daug ___ dviračiais."
+    answer: "važinėjome"
+    hint: "važinėti → прош. вр., мы"
+    translation: "Летом мы много катались на велосипедах."
+  - type: cloze
+    text: "Vaikas jau pradėjo ___."
+    answer: "vaikščioti"
+    hint: "ходить (вообще)"
+    translation: "Ребёнок уже начал ходить."
+  - type: cloze
+    text: "Dabar aš ___ į darbą."
+    answer: "einu"
+    hint: "eiti или vaikščioti? (сейчас, в одну сторону)"
+    translation: "Сейчас я иду на работу."
+  - type: cloze
+    text: "Jis mane ilgai ___ apie kelionę."
+    answer: "klausinėjo"
+    hint: "klausinėti → прош. вр."
+    translation: "Он долго расспрашивал меня о поездке."
+  - type: cloze
+    text: "Tėtis kasdien ___ vaikus į mokyklą."
+    answer: "vežioja"
+    hint: "vežioti → он"
+    translation: "Папа каждый день возит детей в школу."

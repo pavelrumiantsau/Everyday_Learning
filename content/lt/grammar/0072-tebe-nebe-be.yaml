@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0072
+cefr: B2
+order: 72
+title: "Частица be-: nebedirba, tebegyvena, beeidamas, kur bebūtum"
+explanation:
+  ru: |
+    Маленькая частица **be-** встаёт перед глаголом (после *ne-* и *te-*) и сильно меняет оттенок.
+
+    **nebe-** = «больше не, уже не»:
+    - *Aš **nebe**rūkau.* · *Pieno **nebe**liko.* · *Jis **nebe**jaunas.*
+
+    **tebe-** = «всё ещё, до сих пор» (книжнее, чем *vis dar*):
+    - *Jis **tebe**gyvena Kaune.* · *Diskusijos **tebe**vyksta.* · ***tebėra*** = *tebe + yra* (всё ещё есть)
+
+    **be-** + полупричастие или деепричастие = «пока, в процессе»:
+    - ***Be**eidamas namo sutikau draugą.* — Идя домой, встретил друга.
+    - *vos **be**paeina* — еле ходит (почти уже не может)
+
+    **be-** + сослагательное = «что бы ни, где бы ни»:
+    - *Kur **be**būtum, paskambink.* — Где бы ты ни был, позвони.
+    - *Kas **be**atsitiktų…* — Что бы ни случилось…
+comparison:
+  ru: |
+    Русское «больше не» = одно слово с *nebe-*: *nebedirbu* (больше не работаю). Не путайте ***nebe-*** с ***ne be*** «не без»: *ne be reikalo* = не без причины.
+examples:
+  - { text: "Aš neberūkysiu.", translation: "Я больше не буду курить.", source: "tatoeba:12941154" }
+  - { text: "Druskos nebeliko.", translation: "Больше не осталось соли.", source: "tatoeba:12289200" }
+  - { text: "Aš jau nebemiegu.", translation: "Я уже не сплю.", source: "tatoeba:10268529" }
+  - { text: "Tu dar teberūkai?", translation: "Ты до сих пор куришь?", source: "tatoeba:9916282" }
+  - { text: "Ginčas tebevyksta.", translation: "Спор продолжается.", source: "tatoeba:12976130" }
+exercises:
+  - type: cloze
+    text: "Pieno ___, reikia nupirkti."
+    answer: "nebeliko"
+    hint: "likti → больше не, прош."
+    translation: "Молока больше не осталось, надо купить."
+  - type: cloze
+    text: "Ar tu ___ tame pačiame bute?"
+    answer: "tebegyveni"
+    hint: "gyventi → всё ещё, ты"
+    translation: "Ты всё ещё живёшь в той же квартире?"
+  - type: cloze
+    text: "Diskusijos ___ iki šiol."
+    answer: "tebevyksta"
+    hint: "vykti → всё ещё"
+    translation: "Дискуссии продолжаются до сих пор."
+  - type: cloze
+    text: "Aš ___ jo numerio – pamečiau telefoną."
+    answer: "nebeturiu"
+    hint: "turėti → больше не, я"
+    translation: "У меня больше нет его номера — я потерял телефон."
+  - type: cloze
+    text: "Jis jau ___, bet dar labai stiprus."
+    answer: "nebejaunas"
+    hint: "jaunas → уже не"
+    translation: "Он уже не молод, но ещё очень силён."
+  - type: cloze
+    text: "Kur ___, visada tave rasiu."
+    answer: "bebūtum"
+    hint: "būti → где бы ты ни был"
+    translation: "Где бы ты ни был, я всегда тебя найду."
+  - type: cloze
+    text: "___ namo, sutikau seną draugą."
+    answer: "Beeidamas"
+    also: ["Beeidama"]
+    hint: "eiti → be- + полупричастие"
+    translation: "Идя домой, я встретил старого друга."
+  - type: cloze
+    text: "Senelis jau vos ___."
+    answer: "bepaeina"
+    hint: "paeiti → be-: еле ходит"
+    translation: "Дедушка уже еле ходит."

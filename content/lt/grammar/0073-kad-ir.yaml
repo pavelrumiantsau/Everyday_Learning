@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0073
+cefr: B2
+order: 73
+title: "Что бы ни, как бы ни: kad ir kas, vis tiek, nesvarbu, net jei"
+explanation:
+  ru: |
+    Как сказать «что бы ни случилось», «как я ни старался», «всё равно»?
+
+    **kad ir + вопросительное слово** = «что бы ни, где бы ни, как бы ни»:
+    - *Kad ir **kas** atsitiktų, paskambink.* — что бы ни случилось (сослагательное)
+    - *Kad ir **kur** eičiau…* — куда бы я ни пошёл
+    - *Kad ir **kaip** stengiausi, nepavyko.* — как я ни старался (о реальном прошлом — изъявительное)
+    - то же значение даёт *be-* + сослагательное: *kas bebūtų, kur bebūtum*
+
+    Другие уступительные слова:
+    - ***vis tiek*** — всё равно: *Lijo, bet vis tiek ėjome.* · *Man vis tiek.*
+    - ***nesvarbu, kas / ar / kur*** — неважно: *Nesvarbu, kas laimės.*
+    - ***net jei (jeigu)*** — даже если: *Net jei lis, eisime.*
+    - ***nors ir*** — хотя и: *Nors ir pavargęs, jis padėjo.*
+comparison:
+  ru: |
+    Русское «бы ни» передаётся сочетанием ***kad ir*** + сослагательное: *kad ir kas būtų* = что бы ни было. Частицы «ни» здесь нет — не пишите *kad ir kas nebūtų*.
+examples:
+  - { text: "Aš eisiu, kad ir kas būtų.", translation: "Я пойду во что бы то ни стало.", source: "tatoeba:13251502" }
+  - { text: "Jis mane visur lydi, kad ir kur aš eičiau.", translation: "Он сопровождает меня повсюду, куда бы я ни пошёл.", source: "tatoeba:13093144" }
+  - { text: "Aš visada tave mylėsiu, kad ir kas atsitiktų.", translation: "Я всегда буду тебя любить, что бы ни случилось.", source: "tatoeba:13397936" }
+  - { text: "Man vis tiek, kiek tu uždirbi.", translation: "Мне всё равно, сколько ты зарабатываешь.", source: "tatoeba:12153576" }
+exercises:
+  - type: cloze
+    text: "Kad ir kas ___, aš tave palaikysiu."
+    answer: "atsitiktų"
+    hint: "atsitikti → сослагат."
+    translation: "Что бы ни случилось, я тебя поддержу."
+  - type: cloze
+    text: "Kad ir kaip ___, nespėjau."
+    answer: "skubėjau"
+    hint: "skubėti → прош., я"
+    translation: "Как я ни торопился, не успел."
+  - type: cloze
+    text: "Lijo, bet mes ___ tiek ėjome į kalnus."
+    answer: "vis"
+    hint: "всё равно"
+    translation: "Шёл дождь, но мы всё равно пошли в горы."
+  - type: cloze
+    text: "___, kas laimės, – svarbu žaidimas."
+    answer: "Nesvarbu"
+    hint: "неважно"
+    translation: "Неважно, кто победит, — важна игра."
+  - type: cloze
+    text: "Net ___ lis, eisime pasivaikščioti."
+    answer: "jei"
+    also: ["jeigu"]
+    hint: "даже если"
+    translation: "Даже если будет дождь, мы пойдём гулять."
+  - type: cloze
+    text: "Kad ir kur ___, visur jautiesi kaip namie."
+    answer: "keliautum"
+    hint: "keliauti → ты, сослагат."
+    translation: "Куда бы ты ни поехал, везде чувствуешь себя как дома."
+  - type: cloze
+    text: "Kad ir ___ brangu, bilietus nupirksime."
+    answer: "kaip"
+    hint: "как бы ни"
+    translation: "Как бы ни было дорого, билеты мы купим."
+  - type: cloze
+    text: "Nors ___ pavargęs, jis dar padėjo mums."
+    answer: "ir"
+    hint: "хотя и"
+    translation: "Хотя и уставший, он ещё помог нам."

@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0070
+cefr: B1
+order: 70
+title: "Цель: kad nepavėluotų, einu nupirkti duonos, pietums"
+explanation:
+  ru: |
+    Цель («чтобы, зачем, для чего») выражается тремя способами.
+
+    **1. kad + сослагательное наклонение** — как русское «чтобы» + прошедшее:
+    - *Skubu, **kad** nepavėluo**čiau**.* — Спешу, чтобы не опоздать.
+    - *Kalbėk garsiau, **kad** visi girdė**tų**.*
+    - усиленно: ***tam, kad*** — для того чтобы.
+
+    **2. Глагол движения + инфинитив** — как «пошёл купить»:
+    - *Einu nusipirkti duonos. Atėjau pasiimti knygos.*
+    - ⚠️ Дополнение при таком инфинитиве ставится в **родительный** падеж: *nupirkti **duonos***, *pasiimti **knygos*** (не *knygą*).
+
+    **3. Дательный падеж цели** — «на что, к чему»:
+    - ***pietums*** (на обед), ***pusryčiams*** (на завтрак), ***kelionei*** (в дорогу), ***gimtadieniui*** (на день рождения), ***atminimui*** (на память)
+comparison:
+  ru: |
+    Русское «на обед, в дорогу, на память» — в литовском просто дательный без предлога: *pietums, kelionei, atminimui*.
+    А «пошёл за хлебом» — *nuėjo **duonos*** или *nuėjo nupirkti **duonos***: родительный, а не винительный.
+examples:
+  - { text: "Jis skuba, kad nepavėluotų į traukinį.", translation: "Он торопится, чтобы успеть на поезд.", source: "tatoeba:8184963" }
+  - { text: "Tomas išėjo nusipirkti duonos.", translation: "Он вышел купить батон хлеба.", source: "tatoeba:13687371" }
+  - { text: "Jie išėjo nusipirkti knygos apie vorus.", translation: "Они пошли покупать книгу про пауков.", source: "tatoeba:13765473" }
+  - { text: "Ko tu nori pietums?", translation: "Что ты хочешь на обед?", source: "tatoeba:10513494" }
+  - { text: "Pinigų užteks tik kelionei.", translation: "Денег хватит только на дорогу.", source: "tatoeba:11517490" }
+exercises:
+  - type: cloze
+    text: "Skubėk, kad ___ į traukinį."
+    answer: "nepavėluotum"
+    hint: "nepavėluoti → ты, сослагат."
+    translation: "Торопись, чтобы не опоздать на поезд."
+  - type: cloze
+    text: "Kalbėk garsiau, kad visi ___."
+    answer: "girdėtų"
+    hint: "girdėti → они, сослагат."
+    translation: "Говори громче, чтобы все слышали."
+  - type: cloze
+    text: "Nuėjau į parduotuvę nusipirkti ___."
+    answer: "pieno"
+    hint: "pienas → род. п. (цель)"
+    translation: "Я пошёл в магазин купить молока."
+  - type: cloze
+    text: "Atėjau pasiimti savo ___."
+    answer: "knygos"
+    hint: "knyga → род. п. (цель)"
+    translation: "Я пришёл забрать свою книгу."
+  - type: cloze
+    text: "Ką valgysime ___?"
+    answer: "pietums"
+    hint: "pietūs → дат. п."
+    translation: "Что будем есть на обед?"
+  - type: cloze
+    text: "Šią dovaną nupirkau tau ___."
+    answer: "gimtadieniui"
+    hint: "gimtadienis → дат. п."
+    translation: "Этот подарок я купил тебе на день рождения."
+  - type: cloze
+    text: "Mama atsiuntė pinigų, kad ___ nusipirkti vadovėlių."
+    answer: "galėčiau"
+    hint: "galėti → я, сослагат."
+    translation: "Мама прислала денег, чтобы я мог купить учебники."
+  - type: cloze
+    text: "Pasiimk sumuštinį ___."
+    answer: "kelionei"
+    hint: "kelionė → дат. п."
+    translation: "Возьми бутерброд в дорогу."

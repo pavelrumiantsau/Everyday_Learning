@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0071
+cefr: B1
+order: 71
+title: "Отрицание: niekas nieko, nė vienas, nei… nei, joks"
+explanation:
+  ru: |
+    **Двойное отрицание** — как в русском: отрицательное слово + *ne-* при глаголе.
+    - *Niekas **nieko** ne**žino**.* · *Ji **niekada** ne**buvo** Paryžiuje.* · *Aš **niekur** ne**einu**.*
+    - отрицательные слова: *niekas* (никто, ничто), *nieko*, *niekam*, *niekur* (нигде, никуда), *niekada* (никогда), ***joks / jokia*** (никакой).
+
+    **ne** пишется **слитно** с глаголом и причастием: *nežinau, nėra, nieko nepasakęs*. При отрицании дополнение — в **родительном**: *Neturiu **laiko**.*
+
+    **nė** — усиление «ни»: ***nė vieno*** (ни одного), ***nė žodžio***, ***nė kiek***.
+    **nei … nei** — «ни … ни» при перечислении: *Negeriu **nei** kavos, **nei** arbatos.*
+
+    Ещё два частых оттенка:
+    - ***nebe-*** = больше не: *nebedirbu* (больше не работаю)
+    - ***dar ne-*** = ещё не: *dar nežinau*
+comparison:
+  ru: |
+    Главная ловушка — *nė* и *nei*: «ни одного» = ***nė*** *vieno*, а «ни … ни» = ***nei*** *… **nei***. И *joks* склоняется как прилагательное: *jokio laiko, jokių problemų* — «никаких проблем!».
+examples:
+  - { text: "Aš niekur nenuėjau.", translation: "Я никуда не пошёл.", source: "tatoeba:13818143" }
+  - { text: "Čia nė vieno medžio nėra.", translation: "Здесь нет ни одного дерева.", source: "tatoeba:12280913" }
+  - { text: "Nepasakysime nė vieno žodžio.", translation: "Мы не скажем ни единого слова.", source: "tatoeba:3951622" }
+  - { text: "Man nė viena nepatinka.", translation: "Мне ни одна не нравится.", source: "tatoeba:12290937" }
+  - { text: "Aš to nebenoriu.", translation: "Я больше не хочу этого.", source: "tatoeba:12130050" }
+exercises:
+  - type: cloze
+    text: "Aš ___ nieko nesakiau."
+    answer: "niekam"
+    hint: "никому"
+    translation: "Я никому ничего не сказал."
+  - type: cloze
+    text: "Ji ___ nebuvo užsienyje."
+    answer: "niekada"
+    hint: "никогда"
+    translation: "Она никогда не была за границей."
+  - type: cloze
+    text: "Šiandien neturiu ___ laiko."
+    answer: "jokio"
+    hint: "joks → род. п."
+    translation: "Сегодня у меня нет никакого времени."
+  - type: cloze
+    text: "Jis neištarė ___ žodžio."
+    answer: "nė"
+    hint: "ни (одного)"
+    translation: "Он не произнёс ни слова."
+  - type: cloze
+    text: "Negeriu ___ kavos, nei arbatos."
+    answer: "nei"
+    hint: "ни … ни"
+    translation: "Я не пью ни кофе, ни чая."
+  - type: cloze
+    text: "Klasėje nebuvo nė ___ mokinio."
+    answer: "vieno"
+    hint: "ни одного"
+    translation: "В классе не было ни одного ученика."
+  - type: cloze
+    text: "Aš čia jau ___ – persikėliau į Kauną."
+    answer: "nebedirbu"
+    hint: "dirbti → больше не, я"
+    translation: "Я здесь больше не работаю — переехал в Каунас."
+  - type: cloze
+    text: "Kodėl tu ___ neini?"
+    answer: "niekur"
+    hint: "никуда"
+    translation: "Почему ты никуда не идёшь?"

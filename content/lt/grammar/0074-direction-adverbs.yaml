@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0074
+cefr: B1
+order: 74
+title: "Где и куда: namie – namo, aukštai – aukštyn, lauke – į lauką"
+explanation:
+  ru: |
+    Как и в русском (*дома – домой, вверху – вверх*), у наречий места есть пары «где?» и «куда?».
+
+    - ***namie*** (дома) — ***namo*** (домой) — ***iš namų*** (из дома)
+    - ***čia*** (здесь; сюда) — ***iš čia*** (отсюда); ***ten*** (там; туда) — ***iš ten***
+    - ***aukštai*** (высоко, наверху) — ***aukštyn*** (вверх)
+    - ***žemai*** (низко, внизу) — ***žemyn*** (вниз)
+    - ***toli*** (далеко) — ***tolyn*** (вдаль, дальше)
+    - ***pirmyn*** (вперёд) — ***atgal*** (назад, обратно)
+    - ***lauke*** (на улице, снаружи) — ***į lauką*** (на улицу)
+
+    Суффикс **-yn** почти всегда значит направление: *aukštyn, žemyn, tolyn, pirmyn*, а также *gilyn* (вглубь).
+
+    ⚠️ ***namo*** — ещё и родительный от *namas*: *Ieškau **namo**.* = Ищу дом. Смысл подскажет глагол: *grįžti namo* — домой.
+comparison:
+  ru: |
+    Русское «на улице» = *lauke* (не *gatvėje*, если речь про «снаружи»): *Vaikai žaidžia lauke.* А «туда-сюда» — *pirmyn atgal*.
+examples:
+  - { text: "Aš grįžau namo.", translation: "Я вернулся домой.", source: "tatoeba:8813525" }
+  - { text: "Mamos nėra namie.", translation: "Мамы нет дома.", source: "tatoeba:11789272" }
+  - { text: "Aš ieškau namo.", translation: "Я ищу дом.", source: "tatoeba:11938731" }
+  - { text: "Nežiūrėk žemyn.", translation: "Не смотри вниз.", source: "tatoeba:3937388" }
+  - { text: "Jie ėjo pirmyn.", translation: "Они шли вперёд.", source: "tatoeba:12760530" }
+exercises:
+  - type: cloze
+    text: "Vakare grįžau ___ labai pavargęs."
+    answer: "namo"
+    hint: "куда?"
+    translation: "Вечером я вернулся домой очень уставший."
+  - type: cloze
+    text: "Šiandien visą dieną dirbu ___."
+    answer: "namie"
+    hint: "где?"
+    translation: "Сегодня весь день работаю дома."
+  - type: cloze
+    text: "Nežiūrėk ___ – eik ramiai."
+    answer: "žemyn"
+    hint: "вниз"
+    translation: "Не смотри вниз — иди спокойно."
+  - type: cloze
+    text: "Lėktuvas kilo vis ___."
+    answer: "aukštyn"
+    hint: "вверх"
+    translation: "Самолёт поднимался всё выше."
+  - type: cloze
+    text: "Vaikai žaidžia ___."
+    answer: "lauke"
+    hint: "на улице (где?)"
+    translation: "Дети играют на улице."
+  - type: cloze
+    text: "Išeik į ___, ten šilta."
+    answer: "lauką"
+    hint: "на улицу (куда?)"
+    translation: "Выйди на улицу, там тепло."
+  - type: cloze
+    text: "Jis žengė žingsnį ___ ir sustojo."
+    answer: "atgal"
+    hint: "назад"
+    translation: "Он сделал шаг назад и остановился."
+  - type: cloze
+    text: "Kalnų viršūnėse, ___, guli sniegas."
+    answer: "aukštai"
+    hint: "высоко (где?)"
+    translation: "На вершинах гор, высоко, лежит снег."

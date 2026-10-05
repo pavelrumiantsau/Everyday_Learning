@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0077
+cefr: B2
+order: 77
+title: "Повторение B2: skaitydamas, grįžęs, lyjant, parašyta, sakė sergąs"
+explanation:
+  ru: |
+    Смешанная тренировка форм, которые в B2-текстах встречаются на каждом шагу. Главный вопрос — **кто действует и когда**.
+
+    **Тот же субъект:**
+    - одновременно → **полупричастие** *-damas / -dama*: ***Skaitydamas** užmigau.*
+    - раньше главного действия → **причастие** *-ęs / -usi*: ***Grįžęs** namo, paskambinau mamai.* · *Jis **nepavalgęs** išėjo.*
+
+    **Другой субъект** (или безличное) → **деепричастие** *-ant / -int / -us* (субъект в дательном):
+    - ***Lyjant** ėjome namo.* · *Saulei **tekant** išvažiavome.* · *Mums **grįžus**, jau temo.*
+
+    **Пассив** → *-tas / -ta* (результат), *-mas / -ma* (процесс): *Tai **parašyta** arabiškai.* · *Čia alus **neparduodamas**.*
+
+    **Чужие слова** → косвенная речь *-ąs / -ęs*: *Jis sakė **sergąs**.* = сказал, что болеет.
+comparison:
+  ru: |
+    В русском одно деепричастие на все случаи (*читая, вернувшись*), а в литовском выбор зависит от субъекта: «вернувшись (я), я позвонил» — *grįžęs*, а «когда мы вернулись, (уже) темнело» — *mums grįžus*.
+examples:
+  - { text: "Skaitydamas aš užmigau.", translation: "Читая книгу, я уснул.", source: "tatoeba:9666470" }
+  - { text: "Jis nepavalgęs išėjo.", translation: "Он ушел, не поев.", source: "tatoeba:8458423" }
+  - { text: "Studentas, nieko nepasakęs, išėjo.", translation: "Студент ушёл, ничего не сказав.", source: "tatoeba:10824115" }
+  - { text: "Tomas lyjant ėjo namo.", translation: "Том шёл домой под дождём.", source: "tatoeba:11057810" }
+  - { text: "Tai parašyta arabiškai.", translation: "Это написано на арабском.", source: "tatoeba:13568875" }
+exercises:
+  - type: cloze
+    text: "___ į darbą, klausausi radijo."
+    answer: "Važiuodamas"
+    also: ["Važiuodama"]
+    hint: "važiuoti → одновременно, тот же субъект"
+    translation: "Едучи на работу, я слушаю радио."
+  - type: cloze
+    text: "___ namo, paskambinau mamai."
+    answer: "Grįžęs"
+    also: ["Grįžusi"]
+    hint: "grįžti → раньше, тот же субъект"
+    translation: "Вернувшись домой, я позвонил маме."
+  - type: cloze
+    text: "Saulei ___, jau buvome kelyje."
+    answer: "tekant"
+    hint: "tekėti → другой субъект, одновременно"
+    translation: "Когда всходило солнце, мы уже были в пути."
+  - type: cloze
+    text: "Šis namas ___ prieš šimtą metų."
+    answer: "pastatytas"
+    hint: "pastatyti → пассив, м. р."
+    translation: "Этот дом построен сто лет назад."
+  - type: cloze
+    text: "Jis sakė ___ ligoninėje."
+    answer: "dirbąs"
+    hint: "dirbti → косвенная речь, наст. вр."
+    translation: "Он сказал, что работает в больнице."
+  - type: cloze
+    text: "Ji išėjo nieko ___."
+    answer: "nepasakiusi"
+    hint: "pasakyti → не сказав, ж. р."
+    translation: "Она ушла, ничего не сказав."
+  - type: cloze
+    text: "Tėvams ___, vaikai žiūrėjo televizorių."
+    answer: "nematant"
+    hint: "matyti → другой субъект, с отрицанием"
+    translation: "Пока родители не видели, дети смотрели телевизор."
+  - type: cloze
+    text: "Laiškas buvo ___ ranka."
+    answer: "parašytas"
+    hint: "parašyti → пассив, м. р."
+    translation: "Письмо было написано от руки."

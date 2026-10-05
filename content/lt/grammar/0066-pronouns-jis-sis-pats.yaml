@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0066
+cefr: B1
+order: 66
+title: "Склонение местоимений: jis / ji, šis / tas, pats"
+explanation:
+  ru: |
+    Личные и указательные местоимения склоняются по одной схеме — выучив *jis / ji*, вы почти знаете *šis* и *tas*.
+
+    **jis / ji** (он / она):
+    - *jis, jo, jam, jį, juo, jame*; мн. ч. *jie, jų, jiems, juos, jais, juose*
+    - *ji, jos, jai, ją, ja, joje*; мн. ч. *jos, jų, joms, jas, jomis, jose*
+
+    **šis / ši** (этот) и **tas / ta** (тот) — так же:
+    - *šis, šio, šiam, šį, šiuo, šiame* · *ši, šios, šiai, šią, šia, šioje*
+    - *tas, to, tam, tą, tuo, tame* · *ta, tos, tai, tą, ta, toje*
+    - мн. ч.: *šie, šių, šiems, šiuos, šiais, šiuose* · *tie, tų, tiems, tuos, tais, tuose*
+
+    **pats / pati** (сам / сама): *pats, paties, pačiam, patį, pačiu, pačiame* · *pati, pačios, pačiai, pačią, pačia, pačioje*; мн. ч. *patys / pačios*.
+    - ***tas pats*** = тот же самый: *tą patį, tą pačią dieną, tame pačiame mieste*.
+
+    Не путайте: ***tai*** — это «это» (средний род: *Tai mano namas*) и дательный *ta → tai* (*tai moteriai*).
+comparison:
+  ru: |
+    После предлогов в литовском нет русского «н-»: *к нему* — ***prie jo***, *с ней* — ***su ja***, *о них* — ***apie juos***.
+    Родительный *jo, jos, jų* — это и «его, её, их» в значении принадлежности: *jo namas* = его дом.
+examples:
+  - { text: "Ji jam davė laikrodį.", translation: "Она дала ему часы.", source: "tatoeba:12288148" }
+  - { text: "Paklausk, ko jai reikia.", translation: "Спроси, что ей нужно.", source: "tatoeba:13194528" }
+  - { text: "Mes visi gimėme šioje šalyje.", translation: "Мы все родились в этой стране.", source: "tatoeba:12810447" }
+  - { text: "Jūs patys esate kalti.", translation: "Вы сами виноваты.", source: "tatoeba:3944875" }
+  - { text: "Aš grįžau tą pačią dieną.", translation: "Я вернулся в тот же день.", source: "tatoeba:12702153" }
+exercises:
+  - type: cloze
+    text: "Paskambinau ___ vakare."
+    answer: "jam"
+    hint: "jis → дат. п."
+    translation: "Я позвонил ему вечером."
+  - type: cloze
+    text: "Aš ___ nemačiau jau seniai."
+    answer: "jos"
+    hint: "ji → род. п. (отрицание)"
+    translation: "Я её давно не видел."
+  - type: cloze
+    text: "Ar gyveni ___ name?"
+    answer: "šiame"
+    hint: "šis → мест. п."
+    translation: "Ты живёшь в этом доме?"
+  - type: cloze
+    text: "Nepažįstu ___ žmonių."
+    answer: "tų"
+    hint: "tie → род. п."
+    translation: "Я не знаю тех людей."
+  - type: cloze
+    text: "Ji ___ viską padarė."
+    answer: "pati"
+    hint: "pats → ж. р."
+    translation: "Она всё сделала сама."
+  - type: cloze
+    text: "Mes gyvename ___ pačiame mieste."
+    answer: "tame"
+    hint: "tas → мест. п."
+    translation: "Мы живём в том же городе."
+  - type: cloze
+    text: "Pasakyk ___, kad vėluosiu."
+    answer: "jiems"
+    hint: "jie → дат. п."
+    translation: "Скажи им, что я опоздаю."
+  - type: cloze
+    text: "Ar galiu eiti kartu su ___?"
+    answer: "jais"
+    hint: "jie → тв. п."
+    translation: "Можно мне пойти вместе с ними?"

@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0076
+cefr: B1
+order: 76
+title: "Такой, какой; столько, сколько: toks – koks, tiek – kiek, kitas – kitoks"
+explanation:
+  ru: |
+    Указательное слово в главном предложении + вопросительное в придаточном — как в русском:
+    - ***toks … koks*** / ***tokia … kokia***: *Jis ne **toks**, **koks** atrodo.*
+    - ***tiek … kiek***: *Imk **tiek**, **kiek** reikia.* · ***tiek pat … kiek*** — столько же, сколько
+    - ***taip … kaip***: *Daryk **taip**, **kaip** sakau.*
+    - ***ten … kur***: *Susitiksime **ten**, **kur** visada.*
+    - ***tada … kai***: *Ateik **tada**, **kai** baigsi.*
+    - ***kas … tas***: ***Kas** nedirba, **tas** nevalgo.*
+
+    Ещё две пары, которые часто путают:
+    - ***kitas*** — другой (ещё один, не этот): *kitą dieną* (на другой день)
+    - ***kitoks*** — иной, не такой (по качеству): *Jis visai **kitoks** nei brolis.*
+    - ***toks pat*** / ***tokia pati*** — такой же: *Turiu **tokį pat** telefoną.*
+
+    *toks, koks, kitoks* склоняются как прилагательные: *tokį, tokia, tokios, kitokią*.
+comparison:
+  ru: |
+    «Другой человек» = *kitas žmogus*, а «он стал другим» (изменился) = *jis tapo **kitoks***. После *kitoks* сравнение — через ***nei***: *kitoks nei aš*.
+examples:
+  - { text: "Pasaulis toks, koks yra.", translation: "Мир такой, какой есть.", source: "tatoeba:13485635" }
+  - { text: "Ji ne tokia, kokia atrodo.", translation: "Она не такая, какой кажется.", source: "tatoeba:10604762" }
+  - { text: "Visada lik toks, koks tu esi!", translation: "Оставайся всегда таким, какой ты есть!", source: "tatoeba:13808496" }
+  - { text: "Tomui ne tiek metų, kiek tau.", translation: "Тому не столько лет, сколько тебе.", source: "tatoeba:12173399" }
+  - { text: "Aš dirbu tiek pat, kiek ir tu.", translation: "Я работаю столько же, сколько и ты.", source: "tatoeba:13359810" }
+exercises:
+  - type: cloze
+    text: "Šis miestas jau ne ___, koks buvo anksčiau."
+    answer: "toks"
+    hint: "такой"
+    translation: "Этот город уже не такой, каким был раньше."
+  - type: cloze
+    text: "Imk ___, kiek tau reikia."
+    answer: "tiek"
+    hint: "столько"
+    translation: "Бери столько, сколько тебе нужно."
+  - type: cloze
+    text: "Padaryk ___, kaip susitarėme."
+    answer: "taip"
+    hint: "так"
+    translation: "Сделай так, как мы договорились."
+  - type: cloze
+    text: "Susitiksime ___, kur ir praėjusį kartą."
+    answer: "ten"
+    hint: "там"
+    translation: "Встретимся там же, где и в прошлый раз."
+  - type: cloze
+    text: "Kas nedirba, ___ nevalgo."
+    answer: "tas"
+    hint: "тот"
+    translation: "Кто не работает, тот не ест."
+  - type: cloze
+    text: "Mano sesuo visiškai ___ nei aš."
+    answer: "kitokia"
+    hint: "иная, не такая"
+    translation: "Моя сестра совсем не такая, как я."
+  - type: cloze
+    text: "Nusipirkau ___ pat striukę kaip tavo."
+    answer: "tokią"
+    hint: "toks pat → вин. п. ж. р."
+    translation: "Я купил такую же куртку, как у тебя."
+  - type: cloze
+    text: "Ateik ___, kai baigsi darbą."
+    answer: "tada"
+    hint: "тогда"
+    translation: "Приходи тогда, когда закончишь работу."

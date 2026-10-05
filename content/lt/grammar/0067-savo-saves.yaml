@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0067
+cefr: B1
+order: 67
+title: "Savo и savęs: свой и себя"
+explanation:
+  ru: |
+    **savo** = «свой» — указывает на подлежащее и **не склоняется**: *savo brolį, savo tėvus, su savo draugais*.
+    - *Petras myli **savo** žmoną.* — свою (жену Петра).
+    - *Petras myli **jo** žmoną.* — его (жену другого человека)!
+
+    Поэтому в 3-м лице *jo / jos / jų* вместо *savo* меняет смысл: *Ji atėjo su draugu ir **jo** sese* — с сестрой друга.
+    В 1-м и 2-м лице *savo* тоже нормален и предпочтителен: *Pamiršau **savo** raktus.*
+
+    **savęs** = «себя» (именительного нет):
+    - род. ***savęs*** · дат. ***sau*** · вин. ***save*** · тв. ***savimi*** · мест. ***savyje***
+    - *Nekaltink **savęs**.* · *Nusipirkau **sau** dviratį.* · *Galvok apie **save**.* · *Ji pasitiki **savimi**.*
+
+    Часто вместо *save* стоит возвратный глагол: *prausiasi* = моет себя, *rengiasi* = одевается.
+comparison:
+  ru: |
+    Почти как в русском: *свой* и *себя*. Отличие — *savo* не склоняется (*su savo draugais* = со своими друзьями), а «так себе» — ***šiaip sau***.
+examples:
+  - { text: "Pašauk savo brolį.", translation: "Позови своего брата.", source: "tatoeba:3953678" }
+  - { text: "Mylėk savo tėvus.", translation: "Люби своих родителей.", source: "tatoeba:13566275" }
+  - { text: "Nekaltink savęs.", translation: "Не упрекай себя.", source: "tatoeba:10754955" }
+  - { text: "Suteik sau šansą.", translation: "Дай шанс себе самому.", source: "tatoeba:13103217" }
+  - { text: "Laikai save storu?", translation: "Ты считаешь себя толстым?", source: "tatoeba:4646245" }
+exercises:
+  - type: cloze
+    text: "Tomas pamiršo ___ telefoną namie."
+    answer: "savo"
+    hint: "свой"
+    translation: "Том забыл свой телефон дома."
+  - type: cloze
+    text: "Petras atėjo su draugu ir ___ žmona."
+    answer: "jo"
+    hint: "жена друга, не своя"
+    translation: "Пётр пришёл с другом и его женой."
+  - type: cloze
+    text: "Nekaltink ___ dėl to."
+    answer: "savęs"
+    hint: "себя → род. п. (отрицание)"
+    translation: "Не вини себя в этом."
+  - type: cloze
+    text: "Nusipirkau ___ naują dviratį."
+    answer: "sau"
+    hint: "себе"
+    translation: "Я купил себе новый велосипед."
+  - type: cloze
+    text: "Jis per daug galvoja apie ___."
+    answer: "save"
+    hint: "apie + вин. п."
+    translation: "Он слишком много думает о себе."
+  - type: cloze
+    text: "Ji labai ___ pasitiki."
+    answer: "savimi"
+    hint: "pasitikėti kuo → тв. п."
+    translation: "Она очень уверена в себе."
+  - type: cloze
+    text: "Visi kalbėjo apie ___ šeimas."
+    answer: "savo"
+    hint: "свои"
+    translation: "Все говорили о своих семьях."
+  - type: cloze
+    text: "Filmas buvo šiaip ___."
+    answer: "sau"
+    hint: "так себе"
+    translation: "Фильм был так себе."
