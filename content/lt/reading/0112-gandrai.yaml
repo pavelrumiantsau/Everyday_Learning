@@ -1,0 +1,46 @@
+id: lt-r-0112
+cefr: C1
+title: "Gandras ant stulpo"
+topic: "наблюдение за птицами и аисты"
+source: generated
+text: |
+  Vargu ar rastume kitą paukštį, kuris lietuviams būtų toks artimas kaip baltasis gandras. Jis dažnai vadinamas nacionaliniu paukščiu, o pagal gandrų lizdų tankumą Lietuva – viena pirmaujančių pasaulio šalių. Kovo pabaigoje minimos Gandrinės – liaudies šventė, kai, kaip tikima, iš Afrikos sugrįžta gandrai.
+
+  Senoji pasaulėžiūra gandrui skyrė ypatingą vietą. Buvo tikima, kad gandras, susukęs lizdą ant sodybos stogo, atneša laimę ir saugo namus nuo gaisro, o jo lizdą sugriovusiam žmogui gresia nelaimė. Šiandien gandrai lizdus vis dažniau suka ant elektros stulpų, todėl energetikai ant stulpų įrengia specialias platformas – tai savotiškas, technokratiškas pagarbos ženklas.
+
+  Pastaraisiais dešimtmečiais paukščiai sulaukia vis daugiau ir mokslininkų, ir mėgėjų dėmesio. Ventės rage, Kuršių marių pakrantėje, veikia viena seniausių Europoje ornitologinių stočių, kurioje kasmet žieduojami tūkstančiai migruojančių paukščių. Paukščių stebėjimas, ilgai laikytas keistuolių užsiėmimu, virto populiariu laisvalaikio praleidimo būdu: žmonės su žiūronais ir fotoaparatais keliasi auštant, kad išvystų tilvikų būrius ar retai pasirodantį juodąjį gandrą.
+
+  Šis pomėgis moko to, ko taip trūksta šiuolaikiniam žmogui, – kantrybės ir dėmesio. Valandą pastovėjus pelkės pakraštyje be telefono, pasaulis staiga pasirodo kur kas turtingesnis, nei atrodė.
+
+  Tačiau idilė apgaulinga. Daugelio paukščių rūšių, ypač gyvenančių žemės ūkio kraštovaizdyje, gausa mažėja, nes nyksta pievos ir šlapynės. Gandras ant stulpo dar ilgai gali likti mielu kaimo simboliu, bet tik tol, kol aplink jį bus kuo maitintis.
+glossary:
+  - { word: "Vargu", lemma: "vargu", pos: part, meaning: "вряд ли", note: "vargu ar — вряд ли" }
+  - { word: "tankumą", lemma: "tankumas", pos: noun, gender: m, gen: "tankumo", meaning: "плотность", note: "вин. п." }
+  - { word: "pirmaujančių", lemma: "pirmauti", pos: verb, forms: { pres: "pirmauja", past: "pirmavo" }, meaning: "лидировать, быть первым", note: "прич. наст. вр., род. п. мн. ч." }
+  - { word: "Gandrinės", lemma: "Gandrinės", pos: noun, gender: f, gen: "Gandrinių", plural_only: true, meaning: "Гандрине, день аистов (народный праздник в конце марта)" }
+  - { word: "pasaulėžiūra", lemma: "pasaulėžiūra", pos: noun, gender: f, gen: "pasaulėžiūros", meaning: "мировоззрение" }
+  - { word: "susukęs", lemma: "susukti", pos: verb, forms: { pres: "susuka", past: "susuko" }, meaning: "свить (гнездо)", note: "прич. прош. вр.: свивший" }
+  - { word: "sugriovusiam", lemma: "sugriauti", pos: verb, forms: { pres: "sugriauna", past: "sugriovė" }, meaning: "разрушить", note: "прич. прош. вр., дат. п." }
+  - { word: "stulpų", lemma: "stulpas", pos: noun, gender: m, gen: "stulpo", meaning: "столб", note: "род. п. мн. ч." }
+  - { word: "energetikai", lemma: "energetikas", pos: noun, gender: m, gen: "energetiko", meaning: "энергетик", note: "им. п. мн. ч." }
+  - { word: "žieduojami", lemma: "žieduoti", pos: verb, forms: { pres: "žieduoja", past: "žiedavo" }, meaning: "кольцевать (птиц)", note: "пассивное прич., мн. ч." }
+  - { word: "keistuolių", lemma: "keistuolis", pos: noun, gender: m, gen: "keistuolio", meaning: "чудак", note: "род. п. мн. ч." }
+  - { word: "žiūronais", lemma: "žiūronai", pos: noun, gender: m, gen: "žiūronų", plural_only: true, meaning: "бинокль", note: "тв. п." }
+  - { word: "auštant", lemma: "aušti", pos: verb, forms: { pres: "aušta", past: "aušo" }, meaning: "светать", note: "деепр.: на рассвете" }
+  - { word: "išvystų", lemma: "išvysti", pos: verb, forms: { pres: "išvysta", past: "išvydo" }, meaning: "увидеть", note: "сослаг. накл.: kad išvystų — чтобы увидеть" }
+  - { word: "tilvikų", lemma: "tilvikas", pos: noun, gender: m, gen: "tilviko", meaning: "песочник, кулик", note: "род. п. мн. ч." }
+  - { word: "būrius", lemma: "būrys", pos: noun, gender: m, gen: "būrio", meaning: "стая; отряд", note: "вин. п. мн. ч." }
+  - { word: "kantrybės", lemma: "kantrybė", pos: noun, gender: f, gen: "kantrybės", meaning: "терпение", note: "род. п." }
+  - { word: "apgaulinga", lemma: "apgaulingas", pos: adj, meaning: "обманчивый", note: "ж. р." }
+  - { word: "gausa", lemma: "gausa", pos: noun, gender: f, gen: "gausos", meaning: "численность; изобилие" }
+  - { word: "šlapynės", lemma: "šlapynė", pos: noun, gender: f, gen: "šlapynės", meaning: "заболоченное место, мокрый луг", note: "им. п. мн. ч." }
+questions:
+  - q: "Ką, pagal senąją pasaulėžiūrą, reiškė gandro lizdas ant sodybos stogo?"
+    options: ["Laimę ir apsaugą nuo gaisro", "Artėjančią nelaimę", "Šaltą žiemą"]
+    answer: 0
+  - q: "Ko, autoriaus nuomone, moko paukščių stebėjimas?"
+    options: ["Greitai fotografuoti", "Kantrybės ir dėmesio", "Atpažinti visas Europos paukščių rūšis"]
+    answer: 1
+  - q: "Kodėl autorius sako, kad idilė apgaulinga?"
+    options: ["Nes gandrai Lietuvoje nebeperi", "Nes paukščių stebėtojų per daug", "Nes daugelio rūšių gausa mažėja, nykstant pievoms ir šlapynėms"]
+    answer: 2
