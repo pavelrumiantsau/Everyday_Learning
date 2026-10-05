@@ -1,0 +1,49 @@
+id: lt-r-0060
+cefr: C1
+title: "Gyventi ilgiau – bet kaip?"
+topic: "здоровье и образ жизни"
+source: generated
+text: |
+  Lietuviai gyvena ilgiau nei prieš kelis dešimtmečius, tačiau vidutinė tikėtina gyvenimo trukmė vis dar viena mažiausių Europos Sąjungoje. Dar labiau stebina kitas skaičius: vyrai vidutiniškai gyvena maždaug dešimčia metų trumpiau nei moterys – toks skirtumas yra vienas didžiausių Europoje.
+
+  Priežasčių ieškoma ne tik ligoninėse. Gydytojai pabrėžia, kad didelę dalį ankstyvų mirčių lemia gyvensena: rūkymas, nesveika mityba, per mažas fizinis aktyvumas ir, žinoma, alkoholis. Dar prieš dešimtmetį pagal suvartojamo alkoholio kiekį Lietuva buvo tarp pirmaujančių pasaulyje.
+
+  Tuomet valstybė ėmėsi griežtų priemonių. Uždrausta alkoholio reklama, sutrumpintas prekybos laikas, o amžius, nuo kurio galima jo įsigyti, padidintas iki dvidešimties metų. Sprendimai sukėlė audringų diskusijų: verslas skundėsi nuostoliais, dalis visuomenės piktinosi, kad valstybė elgiasi su suaugusiais kaip su vaikais. Vis dėlto statistika rodo, kad suvartojimas sumažėjo, o kartu sumažėjo ir su alkoholiu susijusių mirčių.
+
+  Kita vertus, draudimai sprendžia tik dalį problemos. Daugelis žmonių vis dar kreipiasi į gydytoją tik tada, kai skauda, o profilaktinių patikrų vengia – iš įpročio, baimės ar dėl laiko stokos. Valstybė apmoka kelias ligų prevencijos programas, bet jomis pasinaudoja toli gražu ne visi, kam jos skirtos.
+
+  Pastaraisiais metais pastebimas ir priešingas reiškinys. Miestuose daugėja bėgimo klubų, maratonų dalyvių, sporto salių, o sveika gyvensena jaunimui tampa savotišku statuso ženklu. Tiesa, kritikai pastebi, kad tai labiau išsilavinusių ir pasiturinčių žmonių mada, o didžiausia rizika vis dar tenka tiems, kurie neturi nei laiko, nei pinigų rūpintis savimi.
+
+  Todėl, specialistų teigimu, sveikata – ne vien asmeninis pasirinkimas. Ji priklauso ir nuo to, ar žmogus turi galimybę sveikai maitintis, saugiai judėti po miestą, laiku patekti pas gydytoją. Kitaip tariant, tai ir socialinės lygybės klausimas.
+glossary:
+  - { word: "tikėtina", lemma: "tikėtinas", pos: adj, meaning: "вероятный, ожидаемый", note: "tikėtina gyvenimo trukmė — ожидаемая продолжительность жизни" }
+  - { word: "trukmė", lemma: "trukmė", pos: noun, gender: f, gen: "trukmės", meaning: "продолжительность" }
+  - { word: "dešimčia", lemma: "dešimt", pos: num, meaning: "десять", note: "тв. п.: dešimčia metų trumpiau — на десять лет меньше" }
+  - { word: "pabrėžia", lemma: "pabrėžti", pos: verb, forms: { pres: "pabrėžia", past: "pabrėžė" }, meaning: "подчёркивать" }
+  - { word: "gyvensena", lemma: "gyvensena", pos: noun, gender: f, gen: "gyvensenos", meaning: "образ жизни" }
+  - { word: "mityba", lemma: "mityba", pos: noun, gender: f, gen: "mitybos", meaning: "питание" }
+  - { word: "suvartojamo", lemma: "suvartoti", pos: verb, forms: { pres: "suvartoja", past: "suvartojo" }, meaning: "потребить", note: "пассивное прич. наст. вр., род. п.: suvartojamo alkoholio kiekis — количество потребляемого алкоголя" }
+  - { word: "pirmaujančių", lemma: "pirmauti", pos: verb, forms: { pres: "pirmauja", past: "pirmavo" }, meaning: "лидировать", note: "прич. наст. вр., род. п. мн. ч." }
+  - { word: "priemonių", lemma: "priemonė", pos: noun, gender: f, gen: "priemonės", meaning: "мера, средство", note: "род. п. мн. ч.: imtis priemonių — принять меры" }
+  - { word: "audringų", lemma: "audringas", pos: adj, meaning: "бурный", note: "род. п. мн. ч. (часть): sukėlė audringų diskusijų" }
+  - { word: "nuostoliais", lemma: "nuostolis", pos: noun, gender: m, gen: "nuostolio", meaning: "убыток", note: "тв. п. мн. ч.: skųstis nuostoliais — жаловаться на убытки" }
+  - { word: "piktinosi", lemma: "piktintis", pos: verb, forms: { pres: "piktinasi", past: "piktinosi" }, meaning: "возмущаться" }
+  - { word: "kreipiasi", lemma: "kreiptis", pos: verb, forms: { pres: "kreipiasi", past: "kreipėsi" }, meaning: "обращаться", note: "kreiptis į gydytoją — обращаться к врачу" }
+  - { word: "profilaktinių", lemma: "profilaktinis", pos: adj, meaning: "профилактический", note: "род. п. мн. ч." }
+  - { word: "patikrų", lemma: "patikra", pos: noun, gender: f, gen: "patikros", meaning: "проверка, обследование", note: "род. п. мн. ч. после vengti" }
+  - { word: "stokos", lemma: "stoka", pos: noun, gender: f, gen: "stokos", meaning: "нехватка", note: "dėl laiko stokos — из-за нехватки времени" }
+  - { word: "gražu", lemma: "toli gražu", pos: phrase, meaning: "toli gražu — далеко не", note: "toli gražu ne visi — далеко не все" }
+  - { word: "pasiturinčių", lemma: "pasiturintis", pos: adj, meaning: "состоятельный, зажиточный", note: "род. п. мн. ч." }
+  - { word: "tenka", lemma: "tekti", pos: verb, forms: { pres: "tenka", past: "teko" }, meaning: "доставаться, приходиться", note: "rizika tenka tiems — риск ложится на тех" }
+  - { word: "teigimu", lemma: "teigimas", pos: noun, gender: m, gen: "teigimo", meaning: "утверждение", note: "specialistų teigimu — по словам специалистов" }
+  - { word: "lygybės", lemma: "lygybė", pos: noun, gender: f, gen: "lygybės", meaning: "равенство", note: "род. п." }
+questions:
+  - q: "Kas tekste pateikiama kaip ypač stebinantis faktas?"
+    options: ["Didelis vyrų ir moterų gyvenimo trukmės skirtumas", "Kad lietuviai gyvena ilgiausiai Europoje", "Kad Lietuvoje nėra ligoninių"]
+    answer: 0
+  - q: "Kaip tekste vertinami alkoholio ribojimai?"
+    options: ["Jie nedavė jokių rezultatų", "Jie sukėlė ginčų, bet suvartojimas ir su alkoholiu susijusių mirčių skaičius sumažėjo", "Juos visi vienbalsiai palaikė"]
+    answer: 1
+  - q: "Kodėl, pasak specialistų, sveikata – ir socialinės lygybės klausimas?"
+    options: ["Nes sportuoti draudžiama skurdesniems žmonėms", "Nes prevencijos programos skirtos tik turtingiesiems", "Nes galimybės gyventi sveikai priklauso ir nuo žmogaus pajamų, laiko bei aplinkos"]
+    answer: 2

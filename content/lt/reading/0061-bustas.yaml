@@ -1,0 +1,47 @@
+id: lt-r-0061
+cefr: C1
+title: "Nuosavas būstas: svajonė ar spąstai?"
+topic: "жильё: покупка или аренда"
+source: generated
+text: |
+  Lietuvoje daugiau nei aštuoni iš dešimties gyventojų gyvena nuosavame būste – tai vienas didžiausių rodiklių Europoje. Šis paprotys turi istorinę priežastį: dešimtajame dešimtmetyje butai buvo privatizuoti už simbolinę kainą ar investicinius čekius, todėl daugelis šeimų beveik per naktį tapo savininkėmis.
+
+  Nuo to laiko nuosavas būstas lietuvių sąmonėje tapo sėkmės ir saugumo matu. Nuomotis iki trisdešimties ar keturiasdešimties daugeliui vis dar atrodo kaip nesėkmės ženklas, nors Vakarų Europoje tai visiškai įprasta. Tėvai neretai ragina vaikus kuo greičiau imti paskolą, nes mokėti svetimam esą tas pats, kas mesti pinigus į balą.
+
+  Tačiau pastarąjį dešimtmetį būsto kainos, ypač Vilniuje, augo kur kas sparčiau nei atlyginimai. Jauna pora, norinti įsigyti dviejų kambarių butą sostinėje, turi sukaupti nemenką pradinį įnašą, o paskolą grąžinti dažnai tenka dvidešimt ar trisdešimt metų. Ne vienas jaunas žmogus prisipažįsta, kad toks įsipareigojimas jį gąsdina: paskola pririša prie vienos vietos ir vieno darbo.
+
+  Kita problema – senstantys sovietmečio daugiabučiai. Daugelis jų buvo pastatyti skubotai ir prastai apšiltinti, todėl žiemą gyventojai gauna didžiules sąskaitas už šildymą. Renovacijos programa padeda, tačiau vyksta lėtai: kad namas būtų atnaujintas, turi sutikti dauguma butų savininkų, o susitarti pavyksta ne visada.
+
+  Ekonomistai ragina plėtoti civilizuotą nuomos rinką, kad žmogus galėtų rinktis, o ne būtų verčiamas skolintis. Šiuo metu nuomos sutartys dažnai neformalios, nuomininkai jaučiasi neapsaugoti, o savininkai nepasitiki nuomininkais. Kol taip yra, nuosavas butas lieka ne tiek pasirinkimas, kiek vienintelis būdas jaustis saugiai.
+glossary:
+  - { word: "rodiklių", lemma: "rodiklis", pos: noun, gender: m, gen: "rodiklio", meaning: "показатель", note: "род. п. мн. ч." }
+  - { word: "privatizuoti", lemma: "privatizuoti", pos: verb, forms: { pres: "privatizuoja", past: "privatizavo" }, meaning: "приватизировать", note: "здесь пассивное прич.: buvo privatizuoti — были приватизированы" }
+  - { word: "savininkėmis", lemma: "savininkė", pos: noun, gender: f, gen: "savininkės", meaning: "владелица, собственница", note: "тв. п. мн. ч. после tapti (šeimos — ж. р.)" }
+  - { word: "sąmonėje", lemma: "sąmonė", pos: noun, gender: f, gen: "sąmonės", meaning: "сознание", note: "мест. п." }
+  - { word: "matu", lemma: "matas", pos: noun, gender: m, gen: "mato", meaning: "мера, мерило", note: "тв. п. после tapti" }
+  - { word: "Nuomotis", lemma: "nuomotis", pos: verb, forms: { pres: "nuomojasi", past: "nuomojosi" }, meaning: "снимать (жильё), арендовать" }
+  - { word: "esą", lemma: "esą", pos: part, meaning: "якобы, мол", note: "частица чужой речи: tai esą tas pats — это, мол, то же самое" }
+  - { word: "balą", lemma: "bala", pos: noun, gender: f, gen: "balos", meaning: "лужа", note: "mesti pinigus į balą — выбрасывать деньги на ветер" }
+  - { word: "sukaupti", lemma: "sukaupti", pos: verb, forms: { pres: "sukaupia", past: "sukaupė" }, meaning: "накопить" }
+  - { word: "nemenką", lemma: "nemenkas", pos: adj, meaning: "немалый", note: "вин. п." }
+  - { word: "įnašą", lemma: "įnašas", pos: noun, gender: m, gen: "įnašo", meaning: "взнос", note: "pradinis įnašas — первоначальный взнос" }
+  - { word: "įsipareigojimas", lemma: "įsipareigojimas", pos: noun, gender: m, gen: "įsipareigojimo", meaning: "обязательство" }
+  - { word: "pririša", lemma: "pririšti", pos: verb, forms: { pres: "pririša", past: "pririšo" }, meaning: "привязать" }
+  - { word: "daugiabučiai", lemma: "daugiabutis", pos: noun, gender: m, gen: "daugiabučio", meaning: "многоквартирный дом", note: "им. п. мн. ч." }
+  - { word: "skubotai", lemma: "skubotai", pos: adv, meaning: "наспех, поспешно" }
+  - { word: "apšiltinti", lemma: "apšiltinti", pos: verb, forms: { pres: "apšiltina", past: "apšiltino" }, meaning: "утеплить", note: "здесь пассивное прич., мн. ч.: prastai apšiltinti — плохо утеплены" }
+  - { word: "sąskaitas", lemma: "sąskaita", pos: noun, gender: f, gen: "sąskaitos", meaning: "счёт (к оплате)", note: "вин. п. мн. ч." }
+  - { word: "plėtoti", lemma: "plėtoti", pos: verb, forms: { pres: "plėtoja", past: "plėtojo" }, meaning: "развивать" }
+  - { word: "verčiamas", lemma: "versti", pos: verb, forms: { pres: "verčia", past: "vertė" }, meaning: "заставлять; переводить", note: "пассивное прич.: būtų verčiamas skolintis — был бы вынужден брать в долг" }
+  - { word: "nuomininkai", lemma: "nuomininkas", pos: noun, gender: m, gen: "nuomininko", meaning: "арендатор, съёмщик", note: "им. п. мн. ч." }
+  - { word: "neapsaugoti", lemma: "neapsaugotas", pos: adj, meaning: "незащищённый", note: "им. п. мн. ч. м. р." }
+questions:
+  - q: "Kodėl Lietuvoje tiek daug žmonių gyvena nuosavame būste?"
+    options: ["Nes dešimtajame dešimtmetyje butai buvo privatizuoti labai pigiai", "Nes būstas Lietuvoje visada buvo pigus", "Nes nuomotis įstatymu draudžiama"]
+    answer: 0
+  - q: "Ko, pasak teksto, bijo kai kurie jauni žmonės?"
+    options: ["Kad tėvai neleis jiems nuomotis", "Kad ilgalaikė paskola pririš juos prie vienos vietos ir darbo", "Kad renovacija niekada neprasidės"]
+    answer: 1
+  - q: "Ką siūlo ekonomistai?"
+    options: ["Uždrausti būsto paskolas", "Statyti daugiau sovietinio tipo daugiabučių", "Plėtoti patikimą nuomos rinką, kad žmonės turėtų pasirinkimą"]
+    answer: 2

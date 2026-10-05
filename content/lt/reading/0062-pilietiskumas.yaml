@@ -1,0 +1,48 @@
+id: lt-r-0062
+cefr: C1
+title: "Nuo Baltijos kelio iki savanorystės"
+topic: "гражданское общество и волонтёрство"
+source: generated
+text: |
+  1989 metų rugpjūčio 23-iąją apie du milijonus žmonių susikibo rankomis ir sudarė gyvą grandinę nuo Vilniaus iki Talino. Baltijos kelias iki šiol laikomas vienu įspūdingiausių taikaus pasipriešinimo pavyzdžių pasaulyje. Paradoksalu, bet po nepriklausomybės atkūrimo ilgą laiką buvo kalbama, kad pilietinė visuomenė Lietuvoje silpna: žmonės nepasitiki institucijomis, nedalyvauja bendruomenių veikloje ir retai savanoriauja.
+
+  Tokį pasyvumą sociologai dažnai siejo su sovietmečio palikimu. Kai „visuomeninė veikla“ dešimtmečius reiškė privalomus susirinkimus ir talkas, žodis „savanoris“ kėlė įtarimą. Be to, ekonominių sunkumų metais daugelis tiesiog neturėjo jėgų rūpintis kuo nors daugiau nei savo šeima.
+
+  Pastarąjį dešimtmetį vaizdas ėmė keistis. Prieš šventes prekybos centruose savanoriai renka maistą stokojantiems, jaunimas važiuoja tvarkyti miškų ir pakrančių, o po 2014 metų įvykių Ukrainoje gerokai išaugo Šaulių sąjunga, kurioje žmonės laisvu laiku mokosi ginti šalį.
+
+  Bene ryškiausias pavyzdys – 2022-ųjų vasara. Per kelias dienas Lietuvos gyventojai suaukojo apie penkis milijonus eurų, kad nupirktų Ukrainai kovinį bepilotį orlaivį. Gamintojas galiausiai jį padovanojo, o surinkti pinigai buvo skirti kitai pagalbai Ukrainai. Ši istorija apskriejo pasaulio žiniasklaidą ir daugeliui lietuvių tapo pasididžiavimo šaltiniu.
+
+  Vis dėlto kritikai primena, kad pilietiškumas – ne vien vienkartiniai gražūs gestai. Paaukoti telefonu kur kas lengviau nei kas mėnesį dalyvauti bendruomenės susirinkimuose ar ilgus metus padėti vienišai kaimynei. Tikrasis išbandymas – ar susitelkimo banga virs ilgalaikiu įpročiu, kai krizė pasibaigs ir dėmesys nuslūgs.
+glossary:
+  - { word: "susikibo", lemma: "susikibti", pos: verb, forms: { pres: "susikimba", past: "susikibo" }, meaning: "сцепиться", note: "susikibti rankomis — взяться за руки" }
+  - { word: "grandinę", lemma: "grandinė", pos: noun, gender: f, gen: "grandinės", meaning: "цепь", note: "вин. п." }
+  - { word: "įspūdingiausių", lemma: "įspūdingas", pos: adj, meaning: "впечатляющий", note: "превосх. ст., род. п. мн. ч." }
+  - { word: "pasipriešinimo", lemma: "pasipriešinimas", pos: noun, gender: m, gen: "pasipriešinimo", meaning: "сопротивление", note: "taikus pasipriešinimas — мирное сопротивление" }
+  - { word: "savanoriauja", lemma: "savanoriauti", pos: verb, forms: { pres: "savanoriauja", past: "savanoriavo" }, meaning: "волонтёрить, работать добровольцем" }
+  - { word: "pasyvumą", lemma: "pasyvumas", pos: noun, gender: m, gen: "pasyvumo", meaning: "пассивность", note: "вин. п." }
+  - { word: "siejo", lemma: "sieti", pos: verb, forms: { pres: "sieja", past: "siejo" }, meaning: "связывать", note: "sieti ką su kuo" }
+  - { word: "palikimu", lemma: "palikimas", pos: noun, gender: m, gen: "palikimo", meaning: "наследие", note: "тв. п." }
+  - { word: "talkas", lemma: "talka", pos: noun, gender: f, gen: "talkos", meaning: "толока; субботник", note: "вин. п. мн. ч." }
+  - { word: "įtarimą", lemma: "įtarimas", pos: noun, gender: m, gen: "įtarimo", meaning: "подозрение", note: "kelti įtarimą — вызывать подозрение" }
+  - { word: "stokojantiems", lemma: "stokoti", pos: verb, forms: { pres: "stokoja", past: "stokojo" }, meaning: "нуждаться, испытывать нехватку", note: "прич. наст. вр., дат. п. мн. ч.: stokojantiems — нуждающимся" }
+  - { word: "pakrančių", lemma: "pakrantė", pos: noun, gender: f, gen: "pakrantės", meaning: "побережье, берег", note: "род. п. мн. ч." }
+  - { word: "Šaulių", lemma: "šaulys", pos: noun, gender: m, gen: "šaulio", meaning: "стрелок", note: "Šaulių sąjunga — Союз стрелков (добровольная оборонная организация)" }
+  - { word: "Bene", lemma: "bene", pos: part, meaning: "пожалуй", note: "bene ryškiausias — пожалуй, самый яркий" }
+  - { word: "suaukojo", lemma: "suaukoti", pos: verb, forms: { pres: "suaukoja", past: "suaukojo" }, meaning: "собрать пожертвования (сообща)" }
+  - { word: "bepilotį", lemma: "bepilotis", pos: adj, meaning: "беспилотный", note: "bepilotis orlaivis — беспилотник" }
+  - { word: "orlaivį", lemma: "orlaivis", pos: noun, gender: m, gen: "orlaivio", meaning: "летательный аппарат", note: "вин. п." }
+  - { word: "apskriejo", lemma: "apskrieti", pos: verb, forms: { pres: "apskrieja", past: "apskriejo" }, meaning: "облететь" }
+  - { word: "pasididžiavimo", lemma: "pasididžiavimas", pos: noun, gender: m, gen: "pasididžiavimo", meaning: "гордость", note: "род. п." }
+  - { word: "pilietiškumas", lemma: "pilietiškumas", pos: noun, gender: m, gen: "pilietiškumo", meaning: "гражданственность, гражданская активность" }
+  - { word: "susitelkimo", lemma: "susitelkimas", pos: noun, gender: m, gen: "susitelkimo", meaning: "сплочение", note: "род. п." }
+  - { word: "nuslūgs", lemma: "nuslūgti", pos: verb, forms: { pres: "nuslūgsta", past: "nuslūgo" }, meaning: "спасть, утихнуть" }
+questions:
+  - q: "Kokį paradoksą mini autorius pirmoje pastraipoje?"
+    options: ["Po įspūdingo Baltijos kelio ilgai buvo kalbama apie silpną pilietinę visuomenę", "Baltijos kelyje dalyvavo tik lietuviai", "Po nepriklausomybės žmonės ėmė masiškai savanoriauti"]
+    answer: 0
+  - q: "Kaip sociologai aiškino žmonių pasyvumą?"
+    options: ["Per dideliais atlyginimais", "Sovietmečio palikimu ir ekonominiais sunkumais", "Tuo, kad savanorystė buvo uždrausta"]
+    answer: 1
+  - q: "Kas, pasak kritikų, būtų tikrasis pilietiškumo išbandymas?"
+    options: ["Surinkti dar daugiau pinigų per kelias dienas", "Įstoti į Šaulių sąjungą", "Išlaikyti aktyvumą ir tada, kai krizė baigsis"]
+    answer: 2

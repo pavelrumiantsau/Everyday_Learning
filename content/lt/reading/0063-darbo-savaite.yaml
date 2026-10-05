@@ -1,0 +1,45 @@
+id: lt-r-0063
+cefr: C1
+title: "Keturios dienos vietoj penkių?"
+topic: "четырёхдневная рабочая неделя"
+source: generated
+text: |
+  Penkių dienų darbo savaitė atrodo tokia natūrali, tarsi būtų egzistavusi visada. Iš tiesų ji įsitvirtino tik XX amžiuje, o anksčiau žmonės dirbdavo šešias dienas per savaitę ir gerokai daugiau valandų. Todėl kai kurie ekonomistai klausia: jei darbo laikas trumpėjo anksčiau, kodėl jis negalėtų trumpėti ir toliau?
+
+  Pastaraisiais metais keturių dienų savaitė išbandyta keliose šalyse. Islandijoje, Didžiojoje Britanijoje ir kitur vykusiuose eksperimentuose darbuotojai dirbo mažiau valandų už tą patį atlyginimą. Daugelis įmonių pranešė, kad našumas nesumažėjo, o kai kur net išaugo: pailsėję žmonės rečiau sirgo, mažiau blaškėsi ir rečiau keitė darbą.
+
+  Skeptikai vis dėlto atkreipia dėmesį į kelias problemas. Pirma, eksperimentuose dažniausiai dalyvavo biurų darbuotojai, kurių darbą lengviau pertvarkyti. Gydytojas, pardavėjas ar autobuso vairuotojas negali tiesiog suspausti penkių dienų darbo į keturias – tektų samdyti daugiau žmonių, o tai brangu. Antra, į eksperimentus savanoriškai jungėsi įmonės, kurios ir taip tikėjo sėkme, todėl rezultatai gali būti pernelyg optimistiški.
+
+  Lietuvoje diskusija kol kas atsargi. Trumpesnė darbo savaitė jau taikoma kai kuriems viešojo sektoriaus darbuotojams, auginantiems mažus vaikus, o kai kurios IT įmonės savo noru siūlo laisvus penktadienius, kad pritrauktų specialistų. Tačiau darbdavių organizacijos perspėja, kad šaliai, kurioje trūksta darbo jėgos, toks sprendimas gali būti per brangus.
+
+  Galbūt svarbiausia šios diskusijos nauda – ne konkretus dienų skaičius, o pats klausimas, ką laikome darbo rezultatu. Jei vertinamos ne prie kompiuterio praleistos valandos, o tai, kas iš tiesų nuveikta, darbas savaime tampa lankstesnis – nesvarbu, ar darbo dienų savaitėje keturios, ar penkios.
+glossary:
+  - { word: "egzistavusi", lemma: "egzistuoti", pos: verb, forms: { pres: "egzistuoja", past: "egzistavo" }, meaning: "существовать", note: "tarsi būtų egzistavusi — как будто существовала (сослагательное, ж. р.)" }
+  - { word: "įsitvirtino", lemma: "įsitvirtinti", pos: verb, forms: { pres: "įsitvirtina", past: "įsitvirtino" }, meaning: "утвердиться, закрепиться" }
+  - { word: "trumpėjo", lemma: "trumpėti", pos: verb, forms: { pres: "trumpėja", past: "trumpėjo" }, meaning: "сокращаться, становиться короче" }
+  - { word: "išbandyta", lemma: "išbandyti", pos: verb, forms: { pres: "išbando", past: "išbandė" }, meaning: "испытать, опробовать", note: "пассивное прич., ж. р.: savaitė išbandyta — неделю опробовали" }
+  - { word: "našumas", lemma: "našumas", pos: noun, gender: m, gen: "našumo", meaning: "производительность" }
+  - { word: "blaškėsi", lemma: "blaškytis", pos: verb, forms: { pres: "blaškosi", past: "blaškėsi" }, meaning: "отвлекаться, метаться" }
+  - { word: "Skeptikai", lemma: "skeptikas", pos: noun, gender: m, gen: "skeptiko", meaning: "скептик", note: "им. п. мн. ч." }
+  - { word: "atkreipia", lemma: "atkreipti", pos: verb, forms: { pres: "atkreipia", past: "atkreipė" }, meaning: "обратить", note: "atkreipti dėmesį į ką — обратить внимание на что" }
+  - { word: "pertvarkyti", lemma: "pertvarkyti", pos: verb, forms: { pres: "pertvarko", past: "pertvarkė" }, meaning: "перестроить, реорганизовать" }
+  - { word: "suspausti", lemma: "suspausti", pos: verb, forms: { pres: "suspaudžia", past: "suspaudė" }, meaning: "сжать", note: "с отрицанием — род. п.: negali suspausti darbo" }
+  - { word: "jungėsi", lemma: "jungtis", pos: verb, forms: { pres: "jungiasi", past: "jungėsi" }, meaning: "присоединяться" }
+  - { word: "pernelyg", lemma: "pernelyg", pos: adv, meaning: "слишком, чрезмерно" }
+  - { word: "atsargi", lemma: "atsargus", pos: adj, meaning: "осторожный", note: "ж. р." }
+  - { word: "sektoriaus", lemma: "sektorius", pos: noun, gender: m, gen: "sektoriaus", meaning: "сектор", note: "viešasis sektorius — государственный сектор" }
+  - { word: "pritrauktų", lemma: "pritraukti", pos: verb, forms: { pres: "pritraukia", past: "pritraukė" }, meaning: "привлечь", note: "kad pritrauktų specialistų — чтобы привлечь специалистов (род. п.)" }
+  - { word: "perspėja", lemma: "perspėti", pos: verb, forms: { pres: "perspėja", past: "perspėjo" }, meaning: "предупреждать" }
+  - { word: "praleistos", lemma: "praleisti", pos: verb, forms: { pres: "praleidžia", past: "praleido" }, meaning: "провести (время); пропустить", note: "пассивное прич., ж. р. мн. ч.: praleistos valandos — проведённые часы" }
+  - { word: "nuveikta", lemma: "nuveikti", pos: verb, forms: { pres: "nuveikia", past: "nuveikė" }, meaning: "сделать, совершить", note: "kas nuveikta — что сделано" }
+  - { word: "lankstesnis", lemma: "lankstus", pos: adj, meaning: "гибкий", note: "сравн. ст." }
+questions:
+  - q: "Kokiu argumentu remiasi keturių dienų savaitės šalininkai pirmoje pastraipoje?"
+    options: ["Darbo laikas istoriškai jau trumpėjo, tad gali trumpėti ir toliau", "Penkių dienų savaitė buvo visada", "Žmonės anksčiau dirbo mažiau nei dabar"]
+    answer: 0
+  - q: "Kodėl eksperimentų rezultatai gali būti pernelyg optimistiški?"
+    options: ["Nes juose dalyvavo tik gydytojai", "Nes dalyvavo savanoriškai prisijungusios, sėkme tikinčios įmonės", "Nes eksperimentai truko per trumpai"]
+    answer: 1
+  - q: "Kokią mintį autorius išsako pabaigoje?"
+    options: ["Keturių dienų savaitę reikia įvesti nedelsiant", "Darbo valandų skaičius yra svarbiausias rezultatas", "Svarbiau vertinti nuveiktą darbą, o ne praleistas valandas"]
+    answer: 2
