@@ -1,0 +1,539 @@
+# Generated from scripts/batches/fr-a2-1191.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: fr-w-1191
+  type: word
+  cefr: A2
+  text: "large"
+  pos: adj
+  meaning: { en: "wide, broad" }
+  note: { en: "false friend: large = wide; big = grand" }
+  examples:
+    - { text: "Il est aussi profond que large.", translation: "It's as deep as it is wide.", source: "tatoeba:747439" }
+- id: fr-w-1192
+  type: word
+  cefr: B1
+  text: "étroit"
+  pos: adj
+  meaning: { en: "narrow; tight" }
+  examples:
+    - { text: "Cette ville a des rues étroites.", translation: "This town has narrow streets.", source: "tatoeba:10544048" }
+- id: fr-w-1193
+  type: word
+  cefr: A2
+  text: "haut"
+  pos: adj
+  meaning: { en: "high, tall" }
+  note: { en: "haute (f); en haut = upstairs, at the top; à haute voix = aloud" }
+  examples:
+    - { text: "Quel est ce haut bâtiment ?", translation: "What's that tall building?", source: "tatoeba:1108646" }
+- id: fr-w-1194
+  type: word
+  cefr: A2
+  text: "bas"
+  pos: adj
+  meaning: { en: "low; (en bas) down, downstairs" }
+  note: { en: "basse (f); là-bas = over there" }
+  examples:
+    - { text: "Ne regarde pas en bas !", translation: "Don't look down!", source: "tatoeba:8869278" }
+- id: fr-w-1195
+  type: word
+  cefr: A2
+  text: "court"
+  pos: adj
+  meaning: { en: "short" }
+  note: { en: "courte (f); for a short person: petit" }
+  examples:
+    - { text: "Que la vie est courte !", translation: "How short life is!", source: "tatoeba:128728" }
+- id: fr-w-1196
+  type: word
+  cefr: B1
+  text: "profond"
+  pos: adj
+  meaning: { en: "deep" }
+  note: { en: "peu profond = shallow" }
+  examples:
+    - { text: "Comme ce lac est profond !", translation: "How deep this lake is!", source: "tatoeba:11341" }
+- id: fr-w-1197
+  type: word
+  cefr: A2
+  text: "doux"
+  pos: adj
+  meaning: { en: "soft; mild; gentle" }
+  note: { en: "douce (f); eau douce = fresh water" }
+  examples:
+    - { text: "La soie est douce au toucher.", translation: "Silk feels soft.", source: "tatoeba:9416424" }
+- id: fr-w-1198
+  type: word
+  cefr: A2
+  text: "sec"
+  pos: adj
+  meaning: { en: "dry" }
+  note: { en: "sèche (f)" }
+  examples:
+    - { text: "Le linge n'est pas encore sec.", translation: "The laundry isn't dry yet.", source: "tatoeba:11267539" }
+- id: fr-w-1199
+  type: word
+  cefr: A2
+  text: "mouillé"
+  pos: adj
+  meaning: { en: "wet" }
+  examples:
+    - { text: "Attention ! Le sol est mouillé.", translation: "Be careful! The floor is wet.", source: "tatoeba:12364306" }
+- id: fr-w-1200
+  type: word
+  cefr: A2
+  text: "frais"
+  pos: adj
+  meaning: { en: "fresh; cool" }
+  note: { en: "fraîche (f); il fait frais = it's cool; les frais (m) = costs" }
+  examples:
+    - { text: "Aucun de ces œufs n'est frais.", translation: "None of these eggs are fresh.", source: "tatoeba:330933" }
+- id: fr-w-1201
+  type: word
+  cefr: A2
+  text: "cuit"
+  pos: adj
+  meaning: { en: "cooked" }
+  note: { en: "from cuire = to cook; raw = cru; bien cuit = well done" }
+  examples:
+    - { text: "Cette viande n'est pas assez cuite.", translation: "This meat is undercooked.", source: "tatoeba:11664562" }
+- id: fr-w-1202
+  type: word
+  cefr: A2
+  text: "sucré"
+  pos: adj
+  meaning: { en: "sweet" }
+  examples:
+    - { text: "Je n'aime pas les boissons sucrées.", translation: "I don't like sweet drinks.", source: "tatoeba:5643946" }
+- id: fr-w-1203
+  type: word
+  cefr: A2
+  text: "salé"
+  pos: adj
+  meaning: { en: "salty; savoury" }
+  examples:
+    - { text: "La soupe est trop salée.", translation: "The soup is too salty.", source: "tatoeba:433584" }
+- id: fr-w-1204
+  type: word
+  cefr: B1
+  text: "bruyant"
+  pos: adj
+  meaning: { en: "noisy" }
+  note: { en: "le bruit = noise" }
+  examples:
+    - { text: "Pourquoi est-ce si bruyant ici ?", translation: "Why is it so noisy here?", source: "tatoeba:8887021" }
+- id: fr-w-1205
+  type: word
+  cefr: A2
+  text: "tranquille"
+  pos: adj
+  meaning: { en: "quiet, calm" }
+  note: { en: "laisse-moi tranquille = leave me alone" }
+  examples:
+    - { text: "Tout était tranquille dans la pièce.", translation: "All was quiet in the room.", source: "tatoeba:12232" }
+- id: fr-w-1206
+  type: word
+  cefr: B1
+  text: "pareil"
+  pos: adj
+  meaning: { en: "the same; such" }
+  note: { en: "pareille (f); c'est pareil = it's the same" }
+  examples:
+    - { text: "Qui ferait une chose pareille ?", translation: "Who would do such a thing?", source: "tatoeba:11934433" }
+- id: fr-w-1207
+  type: word
+  cefr: A2
+  text: "rare"
+  pos: adj
+  meaning: { en: "rare" }
+  examples:
+    - { text: "Ce n'est pas rare du tout.", translation: "It's not at all uncommon.", source: "tatoeba:12444267" }
+- id: fr-w-1208
+  type: word
+  cefr: A2
+  text: "moderne"
+  pos: adj
+  meaning: { en: "modern" }
+  examples:
+    - { text: "Que penses-tu de l'art moderne ?", translation: "What do you think of modern art?", source: "tatoeba:367929" }
+- id: fr-w-1209
+  type: word
+  cefr: B1
+  text: "actuel"
+  pos: adj
+  meaning: { en: "current, present" }
+  note: { en: "actuelle (f); false friend: actual = réel; actuellement = at the moment" }
+  examples:
+    - { text: "Quelle est la situation actuelle ?", translation: "What's the current situation?", source: "tatoeba:10984376" }
+- id: fr-w-1210
+  type: word
+  cefr: A2
+  text: "bête"
+  pos: adj
+  meaning: { en: "stupid, silly" }
+  note: { en: "also a noun: une bête = an animal, a beast" }
+  examples:
+    - { text: "Je commence à me sentir bête.", translation: "I'm beginning to feel stupid.", source: "tatoeba:2576384" }
+- id: fr-w-1211
+  type: word
+  cefr: A2
+  text: "timide"
+  pos: adj
+  meaning: { en: "shy" }
+  examples:
+    - { text: "Il est juste un peu timide.", translation: "He's just a little shy.", source: "tatoeba:12965028" }
+- id: fr-w-1212
+  type: word
+  cefr: A2
+  text: "généreux"
+  pos: adj
+  meaning: { en: "generous" }
+  note: { en: "généreuse (f)" }
+  examples:
+    - { text: "C'est très généreux de ta part.", translation: "That's very generous of you.", source: "tatoeba:12313207" }
+- id: fr-w-1213
+  type: word
+  cefr: A2
+  text: "paresseux"
+  pos: adj
+  meaning: { en: "lazy" }
+  note: { en: "paresseuse (f)" }
+  examples:
+    - { text: "Il a tendance à être paresseux.", translation: "He tends to be lazy.", source: "tatoeba:10885091" }
+- id: fr-w-1214
+  type: word
+  cefr: A2
+  text: "laid"
+  pos: adj
+  meaning: { en: "ugly" }
+  note: { en: "laide (f); informal: moche" }
+  examples:
+    - { text: "Ma maison est vieille et laide.", translation: "My house is old and ugly.", source: "tatoeba:7812" }
+- id: fr-w-1215
+  type: word
+  cefr: A2
+  text: "célibataire"
+  pos: adj
+  meaning: { en: "single, unmarried" }
+  note: { en: "also a noun: un / une célibataire" }
+  examples:
+    - { text: "Ils sont tous les deux célibataires.", translation: "They're both single.", source: "tatoeba:10556325" }
+- id: fr-w-1216
+  type: word
+  cefr: A2
+  text: "enceinte"
+  pos: adj
+  meaning: { en: "pregnant" }
+  note: { en: "enceinte de huit mois = eight months pregnant" }
+  examples:
+    - { text: "Elle est enceinte de huit mois.", translation: "She is 8 months pregnant.", source: "tatoeba:433464" }
+- id: fr-w-1217
+  type: word
+  cefr: A2
+  text: "vivant"
+  pos: adj
+  meaning: { en: "alive, living" }
+  examples:
+    - { text: "Ce poisson est-il encore vivant ?", translation: "Is this fish still alive?", source: "tatoeba:498956" }
+- id: fr-w-1218
+  type: word
+  cefr: A2
+  text: "mort"
+  pos: adj
+  meaning: { en: "dead" }
+  note: { en: "morte (f); also the past participle of mourir: il est mort = he died; la mort = death" }
+  examples:
+    - { text: "L'oiseau est-il vivant ou mort ?", translation: "Is the bird dead or alive?", source: "tatoeba:13542428" }
+- id: fr-w-1219
+  type: word
+  cefr: A2
+  text: "connu"
+  pos: adj
+  meaning: { en: "well-known" }
+  note: { en: "from connaître; connu de tous = known to everyone" }
+  examples:
+    - { text: "Le chanteur est connu de tous.", translation: "The singer is known to everyone.", source: "tatoeba:3451942" }
+- id: fr-w-1220
+  type: word
+  cefr: A2
+  text: "étranger"
+  pos: adj
+  meaning: { en: "foreign; (noun) foreigner; (à l'étranger) abroad" }
+  note: { en: "étrangère (f)" }
+  examples:
+    - { text: "Je vais à l'étranger cet été.", translation: "I'm going abroad this summer.", source: "tatoeba:472228" }
+- id: fr-w-1221
+  type: word
+  cefr: A2
+  text: "fâché"
+  pos: adj
+  meaning: { en: "angry, cross" }
+  note: { en: "fâché contre quelqu'un; se fâcher = to get angry" }
+  examples:
+    - { text: "Ne sois pas fâché contre moi.", translation: "Don't be mad at me.", source: "tatoeba:11336792" }
+- id: fr-w-1222
+  type: word
+  cefr: A2
+  text: "surpris"
+  pos: adj
+  meaning: { en: "surprised" }
+  note: { en: "surprise (f)" }
+  examples:
+    - { text: "Je suis surpris de te voir.", translation: "I'm surprised to see you.", source: "tatoeba:1628731" }
+- id: fr-w-1223
+  type: word
+  cefr: B1
+  text: "déçu"
+  pos: adj
+  meaning: { en: "disappointed" }
+  note: { en: "décevoir = to disappoint (false friend: not \"to deceive\")" }
+  examples:
+    - { text: "Je sais que tu es déçu.", translation: "I know you're disappointed.", source: "tatoeba:6480091" }
+- id: fr-w-1224
+  type: word
+  cefr: A2
+  text: "stressé"
+  pos: adj
+  meaning: { en: "stressed" }
+  examples:
+    - { text: "Je suis un peu stressé.", translation: "I'm a little stressed.", source: "tatoeba:12195045" }
+- id: fr-w-1225
+  type: word
+  cefr: A2
+  text: "colère"
+  pos: noun
+  gender: f
+  meaning: { en: "anger" }
+  note: { en: "être en colère = to be angry; se mettre en colère = to get angry" }
+  examples:
+    - { text: "Ne te mets pas en colère.", translation: "Don't get mad.", source: "tatoeba:12465" }
+- id: fr-w-1226
+  type: word
+  cefr: B1
+  text: "tristesse"
+  pos: noun
+  gender: f
+  meaning: { en: "sadness" }
+  examples:
+    - { text: "Tes yeux étaient pleins de tristesse.", translation: "Your eyes were full of sadness.", source: "tatoeba:4446947" }
+- id: fr-w-1227
+  type: word
+  cefr: A2
+  text: "honte"
+  pos: noun
+  gender: f
+  meaning: { en: "shame" }
+  note: { en: "avoir honte (de) = to be ashamed (of); h aspiré: la honte" }
+  examples:
+    - { text: "Tu n'as pas à avoir honte.", translation: "You don't need to be ashamed.", source: "tatoeba:13071179" }
+- id: fr-w-1228
+  type: word
+  cefr: A2
+  text: "surprise"
+  pos: noun
+  gender: f
+  meaning: { en: "surprise" }
+  examples:
+    - { text: "J'ai une surprise pour toi.", translation: "I've got a surprise for you.", source: "tatoeba:11559874" }
+- id: fr-w-1229
+  type: word
+  cefr: A2
+  text: "plaisir"
+  pos: noun
+  gender: m
+  meaning: { en: "pleasure" }
+  note: { en: "avec plaisir = gladly" }
+  examples:
+    - { text: "Tout le plaisir est pour moi.", translation: "It's my pleasure.", source: "tatoeba:2491519" }
+- id: fr-w-1230
+  type: word
+  cefr: A2
+  text: "souci"
+  pos: noun
+  gender: m
+  meaning: { en: "worry; problem" }
+  note: { en: "se faire du souci = to worry; pas de souci = no problem" }
+  examples:
+    - { text: "Je me fais trop de souci.", translation: "I worry too much.", source: "tatoeba:5558988" }
+- id: fr-w-1231
+  type: word
+  cefr: A2
+  text: "souvenir"
+  pos: noun
+  gender: m
+  meaning: { en: "memory; souvenir" }
+  note: { en: "se souvenir de = to remember" }
+  examples:
+    - { text: "En as-tu de bons souvenirs ?", translation: "Do you have good memories of it?", source: "tatoeba:10975951" }
+- id: fr-w-1232
+  type: word
+  cefr: B1
+  text: "ridicule"
+  pos: adj
+  meaning: { en: "ridiculous" }
+  examples:
+    - { text: "Ne soyez pas ridicule !", translation: "Don't be ridiculous!", source: "tatoeba:1287055" }
+- id: fr-w-1233
+  type: word
+  cefr: B1
+  text: "censé"
+  pos: adj
+  meaning: { en: "supposed (to)" }
+  note: { en: "être censé + infinitive: tu es censé le savoir" }
+  examples:
+    - { text: "Tu n'es pas censé fumer ici.", translation: "You're not supposed to smoke here.", source: "tatoeba:485209" }
+- id: fr-w-1234
+  type: word
+  cefr: B1
+  text: "parole"
+  pos: noun
+  gender: f
+  meaning: { en: "word (promise); speech" }
+  note: { en: "tenir parole = to keep one's word; les paroles = lyrics; couper la parole = to interrupt" }
+  examples:
+    - { text: "Tu n'as pas tenu ta parole.", translation: "You didn't keep your word.", source: "tatoeba:2284265" }
+- id: fr-w-1235
+  type: word
+  cefr: A2
+  text: "courage"
+  pos: noun
+  gender: m
+  meaning: { en: "courage" }
+  note: { en: "bon courage ! = hang in there, good luck" }
+  examples:
+    - { text: "Il n'en a pas le courage.", translation: "He doesn't have the courage.", source: "tatoeba:4218219" }
+- id: fr-w-1236
+  type: word
+  cefr: A2
+  text: "permis"
+  pos: noun
+  gender: m
+  meaning: { en: "licence, permit" }
+  note: { en: "permis de conduire = driving licence" }
+  examples:
+    - { text: "As-tu ton permis de conduire ?", translation: "Do you have your driver's license?", source: "tatoeba:5662012" }
+- id: fr-w-1237
+  type: word
+  cefr: A2
+  text: "portable"
+  pos: noun
+  gender: m
+  meaning: { en: "mobile phone; laptop" }
+  note: { en: "short for téléphone portable or ordinateur portable" }
+  examples:
+    - { text: "Mon portable n'a pas de réseau.", translation: "My mobile hasn't got a signal.", source: "tatoeba:11246017" }
+- id: fr-w-1238
+  type: word
+  cefr: A2
+  text: "détail"
+  pos: noun
+  gender: m
+  meaning: { en: "detail" }
+  note: { en: "plural détails; en détail = in detail" }
+  examples:
+    - { text: "Je ne connais pas les détails.", translation: "I don't know the details.", source: "tatoeba:427089" }
+- id: fr-w-1239
+  type: word
+  cefr: B1
+  text: "lien"
+  pos: noun
+  gender: m
+  meaning: { en: "link; connection, bond" }
+  examples:
+    - { text: "Je ne vois pas le lien.", translation: "I don't get the connection.", source: "tatoeba:2421289" }
+- id: fr-w-1240
+  type: word
+  cefr: A2
+  text: "pause"
+  pos: noun
+  gender: f
+  meaning: { en: "break" }
+  note: { en: "faire une pause = to take a break" }
+  examples:
+    - { text: "Tu veux faire une pause ?", translation: "Do you want to take a break?", source: "tatoeba:7290460" }
+- id: fr-w-1241
+  type: word
+  cefr: A2
+  text: "produit"
+  pos: noun
+  gender: m
+  meaning: { en: "product" }
+  note: { en: "produire = to produce" }
+  examples:
+    - { text: "Ce produit est fait en Italie.", translation: "This product is made in Italy.", source: "tatoeba:391024" }
+- id: fr-w-1242
+  type: word
+  cefr: B1
+  text: "gérer"
+  pos: verb
+  meaning: { en: "to manage, to handle" }
+  note: { en: "je gère, nous gérons" }
+  examples:
+    - { text: "Je peux gérer ça tout seul.", translation: "I can manage that on my own.", source: "tatoeba:7793993" }
+- id: fr-w-1243
+  type: word
+  cefr: A2
+  text: "regretter"
+  pos: verb
+  meaning: { en: "to regret; to be sorry" }
+  note: { en: "je regrette = I'm sorry (formal)" }
+  examples:
+    - { text: "Je regrette ce que j'ai dit.", translation: "I regret what I said.", source: "tatoeba:5919818" }
+- id: fr-w-1244
+  type: word
+  cefr: B1
+  text: "désormais"
+  pos: adv
+  meaning: { en: "from now on; now" }
+  note: { en: "more formal than maintenant" }
+  examples:
+    - { text: "Tout ça est désormais derrière toi.", translation: "It's all behind you now.", source: "tatoeba:4188739" }
+- id: fr-w-1245
+  type: word
+  cefr: A2
+  text: "moyen"
+  pos: noun
+  gender: m
+  meaning: { en: "means, way" }
+  note: { en: "also an adjective: average; moyen de transport = means of transport" }
+  examples:
+    - { text: "Il y a toujours un moyen.", translation: "There's always a way.", source: "tatoeba:11166884" }
+- id: fr-w-1246
+  type: word
+  cefr: B1
+  text: "vente"
+  pos: noun
+  gender: f
+  meaning: { en: "sale" }
+  note: { en: "en vente = on sale (available); vendre = to sell" }
+  examples:
+    - { text: "Les tickets sont déjà en vente.", translation: "Tickets are already on sale.", source: "tatoeba:8427380" }
+- id: fr-w-1247
+  type: word
+  cefr: B1
+  text: "réaliser"
+  pos: verb
+  meaning: { en: "to carry out, to achieve; to realize" }
+  note: { en: "se réaliser = to come true; \"realize\" (understand) is better se rendre compte" }
+  examples:
+    - { text: "Notre rêve s'est réalisé, enfin !", translation: "Our dream has come true, at last!", source: "tatoeba:898160" }
+- id: fr-w-1248
+  type: word
+  cefr: B1
+  text: "connaissance"
+  pos: noun
+  gender: f
+  meaning: { en: "knowledge; acquaintance" }
+  note: { en: "faire la connaissance de quelqu'un = to meet someone (for the first time)" }
+  examples:
+    - { text: "Où as-tu fait sa connaissance ?", translation: "Where did you get to know her?", source: "tatoeba:1348575" }
+- id: fr-w-1249
+  type: word
+  cefr: B1
+  text: "loi"
+  pos: noun
+  gender: f
+  meaning: { en: "law" }
+  examples:
+    - { text: "Vous devez obéir à la loi.", translation: "You have to obey the law.", source: "tatoeba:6373729" }
