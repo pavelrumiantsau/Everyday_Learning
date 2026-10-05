@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0066
+cefr: A2
+order: 66
+title: "Ya, todavía, aún: already, still, not yet, no longer"
+explanation:
+  en: |
+    Four meanings, two words:
+    - ***ya*** = already — *Ya pagué.* *¿Ya has comido?*
+    - ***todavía*** or ***aún*** = still — *Todavía tengo sed.* *Aún está aquí.*
+    - ***todavía no / aún no*** = not yet — *Todavía no lo sé.* Also at the end: *No lo sé **todavía**.*
+    - ***ya no*** = not any more, no longer — *Ya no fumo.*
+
+    Short answers: *¿Ya has terminado? — Sí, **ya**. / No, **todavía no**.* *¿Todavía vives allí? — Sí, **todavía**. / No, **ya no**.*
+
+    ***Ya*** in speech also means "now, right away" or "I see": ***Ya** voy* (I'm coming), ***Ya** está* (done), ***Ya** veo* (I see).
+
+    **Accent:** ***aún*** (= todavía) has an accent; ***aun*** without it means "even": ***aun así*** = even so.
+comparison:
+  en: |
+    Spanish copies Russian exactly: *ya* = «уже», *todavía / aún* = «ещё», *todavía no* = «ещё не», *ya no* = «уже не». English needs four different words (already, still, yet, any more). So think in Russian: «я уже не курю» → *ya no fumo*.
+examples:
+  - { text: "Ya pagué.", translation: "I've already paid.", source: "tatoeba:14031269" }
+  - { text: "Todavía tengo sed.", translation: "I'm still thirsty.", source: "tatoeba:986026" }
+  - { text: "Ya no fumo.", translation: "I don't smoke anymore.", source: "tatoeba:1322579" }
+  - { text: "Todavía no lo sé.", translation: "I don't know yet.", source: "tatoeba:747768" }
+  - { text: "Aún no estoy listo.", translation: "I'm not ready yet.", source: "tatoeba:856275" }
+exercises:
+  - type: cloze
+    text: "¿Has terminado los deberes? — Sí, ___ los he terminado."
+    answer: "ya"
+    hint: "already"
+    translation: "Have you finished your homework? — Yes, I've already finished it."
+  - type: cloze
+    text: "Son las once y Pedro ___ duerme."
+    answer: "todavía"
+    also: ["aún"]
+    hint: "still"
+    translation: "It's eleven o'clock and Pedro is still asleep."
+  - type: cloze
+    text: "Lo siento, ___ es demasiado tarde."
+    answer: "ya"
+    hint: "already"
+    translation: "Sorry, it's already too late."
+  - type: cloze
+    text: "Estaba muy cansado, pero ___ así fue a trabajar."
+    answer: "aun"
+    hint: "even (so) — accent or not?"
+    translation: "He was very tired, but even so he went to work."
+  - type: cloze
+    text: "___ no he visto esa película. ¿Es buena?"
+    answer: "Todavía"
+    also: ["Aún"]
+    hint: "not yet"
+    translation: "I haven't seen that film yet. Is it good?"
+  - type: cloze
+    text: "¿___ estás aquí? Pensaba que te habías ido."
+    answer: "Todavía"
+    also: ["Aún"]
+    hint: "still"
+    translation: "Are you still here? I thought you'd left."
+  - type: cloze
+    text: "¡Espera, ___ voy!"
+    answer: "ya"
+    hint: "I'm coming — right now"
+    translation: "Wait, I'm coming!"
+  - type: cloze
+    text: "___ no tengo coche: lo vendí el mes pasado."
+    answer: "Ya"
+    hint: "not any more"
+    translation: "I don't have a car any more: I sold it last month."
