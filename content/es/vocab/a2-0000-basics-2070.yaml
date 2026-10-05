@@ -1,0 +1,490 @@
+# Generated from scripts/batches/es-a2-basics-2070.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-2070
+  type: word
+  cefr: A1
+  text: "señor"
+  pos: noun
+  gender: m
+  meaning: { en: "man, gentleman; Mr; sir" }
+  note: { en: "el señor García (with the article when you talk about him); short: Sr." }
+  examples:
+    - { text: "Por favor, señor, rellene este formulario.", translation: "Sir, please fill out this form.", source: "tatoeba:571816" }
+- id: es-w-2071
+  type: word
+  cefr: A1
+  text: "señora"
+  pos: noun
+  gender: f
+  meaning: { en: "lady; Mrs; madam" }
+  note: { en: "short: Sra.; also: wife (mi señora)" }
+  examples:
+    - { text: "Yo no conozco a esta señora.", translation: "I don't know this lady.", source: "tatoeba:873801" }
+- id: es-w-2072
+  type: word
+  cefr: A2
+  text: "esposo"
+  pos: noun
+  gender: m
+  meaning: { en: "husband" }
+  note: { en: "la esposa = wife; = el marido" }
+  examples:
+    - { text: "Su esposo es un excelente cocinero.", translation: "Her husband is an excellent cook.", source: "tatoeba:597720" }
+- id: es-w-2073
+  type: word
+  cefr: A1
+  text: "bebé"
+  pos: noun
+  gender: m
+  meaning: { en: "baby" }
+  note: { en: "el bebé (for a girl also la bebé)" }
+  examples:
+    - { text: "El bebé lloró toda la noche.", translation: "The baby cried all night.", source: "tatoeba:398411" }
+- id: es-w-2074
+  type: word
+  cefr: A1
+  text: "pregunta"
+  pos: noun
+  gender: f
+  meaning: { en: "question" }
+  note: { en: "hacer una pregunta = to ask a question" }
+  examples:
+    - { text: "Por favor, responde a mi pregunta.", translation: "Please answer my question.", source: "tatoeba:546939" }
+- id: es-w-2075
+  type: word
+  cefr: A1
+  text: "respuesta"
+  pos: noun
+  gender: f
+  meaning: { en: "answer, reply" }
+  examples:
+    - { text: "Creo que tu respuesta es correcta.", translation: "I think your answer is correct.", source: "tatoeba:715843" }
+- id: es-w-2076
+  type: word
+  cefr: A2
+  text: "mentira"
+  pos: noun
+  gender: f
+  meaning: { en: "lie" }
+  note: { en: "decir mentiras = to tell lies; ¡mentira! = that's not true!" }
+  examples:
+    - { text: "Me dijo que no contara mentiras.", translation: "He told me not to tell lies.", source: "tatoeba:860270" }
+- id: es-w-2077
+  type: word
+  cefr: A2
+  text: "manera"
+  pos: noun
+  gender: f
+  meaning: { en: "way, manner" }
+  note: { en: "de esta manera = this way; de todas maneras = anyway" }
+  examples:
+    - { text: "Ella lo hizo a su manera.", translation: "She did it in her own way.", source: "tatoeba:585073" }
+- id: es-w-2078
+  type: word
+  cefr: A2
+  text: "tipo"
+  pos: noun
+  gender: m
+  meaning: { en: "type, kind; guy (colloquial)" }
+  note: { en: "¿qué tipo de…? = what kind of…?" }
+  examples:
+    - { text: "¿Qué tipo de pescado es éste?", translation: "What kind of fish is this?", source: "tatoeba:687379" }
+- id: es-w-2079
+  type: word
+  cefr: A1
+  text: "lista"
+  pos: noun
+  gender: f
+  meaning: { en: "list" }
+  note: { en: "also the feminine of listo (clever; ready)" }
+  examples:
+    - { text: "Añadí su nombre a la lista.", translation: "I added his name to the list.", source: "tatoeba:1070692" }
+- id: es-w-2080
+  type: word
+  cefr: A1
+  text: "papel"
+  pos: noun
+  gender: m
+  meaning: { en: "paper; role" }
+  note: { en: "hacer un papel = to play a role" }
+  examples:
+    - { text: "Esta caja está hecha de papel.", translation: "This box is made of paper.", source: "tatoeba:623847" }
+- id: es-w-2081
+  type: word
+  cefr: A1
+  text: "mensaje"
+  pos: noun
+  gender: m
+  meaning: { en: "message" }
+  note: { en: "dejar un mensaje = to leave a message" }
+  examples:
+    - { text: "¿Puedo dejar un mensaje, por favor?", translation: "Can I leave a message, please?", source: "tatoeba:1192437" }
+- id: es-w-2082
+  type: word
+  cefr: A1
+  text: "juego"
+  pos: noun
+  gender: m
+  meaning: { en: "game; play" }
+  note: { en: "also: juego = I play (jugar)" }
+  examples:
+    - { text: "Les expliqué las reglas del juego.", translation: "I explained the rules of the game to them.", source: "tatoeba:330080" }
+- id: es-w-2083
+  type: word
+  cefr: A1
+  text: "canción"
+  pos: noun
+  gender: f
+  meaning: { en: "song" }
+  examples:
+    - { text: "Me gusta esta canción de amor.", translation: "I like this love song.", source: "tatoeba:868584" }
+- id: es-w-2084
+  type: word
+  cefr: A1
+  text: "foto"
+  pos: noun
+  gender: f
+  meaning: { en: "photo" }
+  note: { en: "la foto (short for la fotografía); hacer / sacar una foto = to take a photo" }
+  examples:
+    - { text: "¡Qué bien estás en esta foto!", translation: "You look great in this photo!", source: "tatoeba:687945" }
+- id: es-w-2085
+  type: word
+  cefr: A2
+  text: "sueño"
+  pos: noun
+  gender: m
+  meaning: { en: "dream; sleep" }
+  note: { en: "tener sueño = to be sleepy" }
+  examples:
+    - { text: "Mi sueño es ir a Japón.", translation: "My dream is to go to Japan.", source: "tatoeba:727894" }
+- id: es-w-2086
+  type: word
+  cefr: A1
+  text: "luz"
+  pos: noun
+  gender: f
+  meaning: { en: "light; electricity" }
+  note: { en: "plural: luces; apagar / encender la luz = to turn off / on the light" }
+  examples:
+    - { text: "Apaga la luz antes de acostarte.", translation: "Turn off the light before you go to bed.", source: "tatoeba:727063" }
+- id: es-w-2087
+  type: word
+  cefr: A2
+  text: "paz"
+  pos: noun
+  gender: f
+  meaning: { en: "peace" }
+  note: { en: "¡déjame en paz! = leave me alone!" }
+  examples:
+    - { text: "Todo el mundo desea la paz.", translation: "The entire world desires peace.", source: "tatoeba:1296556" }
+- id: es-w-2088
+  type: word
+  cefr: A2
+  text: "cuerpo"
+  pos: noun
+  gender: m
+  meaning: { en: "body" }
+  examples:
+    - { text: "Me duele todo el cuerpo.", translation: "I ache all over.", source: "tatoeba:605707" }
+- id: es-w-2089
+  type: word
+  cefr: A2
+  text: "culpa"
+  pos: noun
+  gender: f
+  meaning: { en: "fault, blame; guilt" }
+  note: { en: "tener la culpa = to be to blame; por culpa de = because of" }
+  examples:
+    - { text: "No tienes la culpa del accidente.", translation: "The accident wasn't your fault.", source: "tatoeba:613934" }
+- id: es-w-2090
+  type: word
+  cefr: A1
+  text: "país"
+  pos: noun
+  gender: m
+  meaning: { en: "country" }
+  examples:
+    - { text: "Quiero saber más sobre tu país.", translation: "I want to know more about your country.", source: "tatoeba:674857" }
+- id: es-w-2091
+  type: word
+  cefr: A2
+  text: "cuidado"
+  pos: noun
+  gender: m
+  meaning: { en: "care" }
+  note: { en: "¡cuidado! = watch out!; tener cuidado = to be careful" }
+  examples:
+    - { text: "Ten cuidado con lo que deseas.", translation: "Be careful what you wish for.", source: "tatoeba:875177" }
+- id: es-w-2092
+  type: word
+  cefr: A2
+  text: "error"
+  pos: noun
+  gender: m
+  meaning: { en: "mistake, error" }
+  note: { en: "cometer un error = to make a mistake; por error = by mistake" }
+  examples:
+    - { text: "Ella reconoció haber cometido un error.", translation: "She acknowledged having made a mistake.", source: "tatoeba:330134" }
+- id: es-w-2093
+  type: word
+  cefr: A2
+  text: "futuro"
+  pos: noun
+  gender: m
+  meaning: { en: "future" }
+  note: { en: "en el futuro = in the future" }
+  examples:
+    - { text: "¿Qué quieres ser en el futuro?", translation: "What do you want to be in the future?", source: "tatoeba:985583" }
+- id: es-w-2094
+  type: word
+  cefr: A2
+  text: "secreto"
+  pos: noun
+  gender: m
+  meaning: { en: "secret" }
+  note: { en: "guardar un secreto = to keep a secret" }
+  examples:
+    - { text: "Deja que te cuente un secreto.", translation: "Let me tell you a secret.", source: "tatoeba:1036157" }
+- id: es-w-2095
+  type: word
+  cefr: A2
+  text: "fuerza"
+  pos: noun
+  gender: f
+  meaning: { en: "strength, force" }
+  note: { en: "a la fuerza = by force" }
+  examples:
+    - { text: "Tom no conoce su propia fuerza.", translation: "Tom doesn't know his own strength.", source: "tatoeba:1530584" }
+- id: es-w-2096
+  type: word
+  cefr: A2
+  text: "aire"
+  pos: noun
+  gender: m
+  meaning: { en: "air" }
+  note: { en: "aire acondicionado = air conditioning; al aire libre = outdoors" }
+  examples:
+    - { text: "Tom salió a respirar aire fresco.", translation: "Tom went out for a breath of fresh air.", source: "tatoeba:1075060" }
+- id: es-w-2097
+  type: word
+  cefr: A2
+  text: "gusto"
+  pos: noun
+  gender: m
+  meaning: { en: "taste; pleasure" }
+  note: { en: "mucho gusto = nice to meet you; estar a gusto = to feel comfortable" }
+  examples:
+    - { text: "¡Hola! Soy Ichirou Tanaka. Mucho gusto.", translation: "Hi! I'm Ichirou Tanaka. Nice to meet you.", source: "tatoeba:1057951" }
+- id: es-w-2098
+  type: word
+  cefr: B1
+  text: "negocio"
+  pos: noun
+  gender: m
+  meaning: { en: "business" }
+  note: { en: "false friend: business, not \"negotiation\" (= negociación)" }
+  examples:
+    - { text: "Vendió su negocio y se jubiló.", translation: "He sold his business and retired.", source: "tatoeba:1111899" }
+- id: es-w-2099
+  type: word
+  cefr: A2
+  text: "situación"
+  pos: noun
+  gender: f
+  meaning: { en: "situation" }
+  examples:
+    - { text: "¿Qué deberían hacer en esta situación?", translation: "What should they do in this situation?", source: "tatoeba:336775" }
+- id: es-w-2100
+  type: word
+  cefr: B1
+  text: "relación"
+  pos: noun
+  gender: f
+  meaning: { en: "relationship; connection" }
+  examples:
+    - { text: "Tom no está buscando una relación.", translation: "Tom isn't looking for a relationship.", source: "tatoeba:1658462" }
+- id: es-w-2101
+  type: word
+  cefr: A2
+  text: "accidente"
+  pos: noun
+  gender: m
+  meaning: { en: "accident" }
+  examples:
+    - { text: "El accidente ocurrió en la autopista.", translation: "The accident took place on the highway.", source: "tatoeba:401601" }
+- id: es-w-2102
+  type: word
+  cefr: B1
+  text: "placer"
+  pos: noun
+  gender: m
+  meaning: { en: "pleasure" }
+  note: { en: "fue un placer = it was a pleasure" }
+  examples:
+    - { text: "Fue un placer volver a verte.", translation: "It was very nice seeing you again.", source: "tatoeba:543196" }
+- id: es-w-2103
+  type: word
+  cefr: A2
+  text: "servicio"
+  pos: noun
+  gender: m
+  meaning: { en: "service" }
+  note: { en: "fuera de servicio = out of order; los servicios = toilets (Spain)" }
+  examples:
+    - { text: "El ascensor está fuera de servicio.", translation: "The lift is out of order.", source: "tatoeba:1285042" }
+- id: es-w-2104
+  type: word
+  cefr: A2
+  text: "decisión"
+  pos: noun
+  gender: f
+  meaning: { en: "decision" }
+  note: { en: "tomar una decisión = to make a decision" }
+  examples:
+    - { text: "Depende de ti tomar una decisión.", translation: "It's up to you to make a choice.", source: "tatoeba:1562188" }
+- id: es-w-2105
+  type: word
+  cefr: A2
+  text: "silencio"
+  pos: noun
+  gender: m
+  meaning: { en: "silence" }
+  note: { en: "en silencio = silently" }
+  examples:
+    - { text: "He puesto mi móvil en silencio.", translation: "I've put my mobile on silent.", source: "tatoeba:1061428" }
+- id: es-w-2106
+  type: word
+  cefr: B1
+  text: "gobierno"
+  pos: noun
+  gender: m
+  meaning: { en: "government" }
+  examples:
+    - { text: "El Gobierno invierte poco en educación.", translation: "The government invests little in education.", source: "tatoeba:1242622" }
+- id: es-w-2107
+  type: word
+  cefr: B1
+  text: "libertad"
+  pos: noun
+  gender: f
+  meaning: { en: "freedom, liberty" }
+  examples:
+    - { text: "Dan apoya la libertad de expresión.", translation: "Dan is for freedom of expression.", source: "tatoeba:4058700" }
+- id: es-w-2108
+  type: word
+  cefr: A2
+  text: "peligro"
+  pos: noun
+  gender: m
+  meaning: { en: "danger" }
+  note: { en: "peligroso = dangerous" }
+  examples:
+    - { text: "La chica era consciente del peligro.", translation: "The girl was aware of the danger.", source: "tatoeba:737108" }
+- id: es-w-2109
+  type: word
+  cefr: A2
+  text: "rato"
+  pos: noun
+  gender: m
+  meaning: { en: "while, short time" }
+  note: { en: "hace un rato = a little while ago; un buen rato = quite a while" }
+  examples:
+    - { text: "Tom estuvo aquí hace un rato.", translation: "Tom was here a while ago.", source: "tatoeba:1237337" }
+- id: es-w-2110
+  type: word
+  cefr: A2
+  text: "éxito"
+  pos: noun
+  gender: m
+  meaning: { en: "success; hit" }
+  note: { en: "false friend: success, not \"exit\" (= salida); tener éxito = to be successful" }
+  examples:
+    - { text: "La película fue un gran éxito.", translation: "The film was a great success.", source: "tatoeba:480237" }
+- id: es-w-2111
+  type: word
+  cefr: A2
+  text: "diferencia"
+  pos: noun
+  gender: f
+  meaning: { en: "difference" }
+  examples:
+    - { text: "¿Cuál es la diferencia entre ambos?", translation: "What's the difference between these two?", source: "tatoeba:2182783" }
+- id: es-w-2112
+  type: word
+  cefr: B1
+  text: "nivel"
+  pos: noun
+  gender: m
+  meaning: { en: "level" }
+  examples:
+    - { text: "Su nivel de inglés mejoró rápidamente.", translation: "Her proficiency in English rapidly improved.", source: "tatoeba:1871294" }
+- id: es-w-2113
+  type: word
+  cefr: A2
+  text: "grupo"
+  pos: noun
+  gender: m
+  meaning: { en: "group" }
+  examples:
+    - { text: "Me gustaría unirme a vuestro grupo.", translation: "I'd like to join your group.", source: "tatoeba:859299" }
+- id: es-w-2114
+  type: word
+  cefr: A2
+  text: "información"
+  pos: noun
+  gender: f
+  meaning: { en: "information" }
+  note: { en: "uncountable, like in English" }
+  examples:
+    - { text: "Esa información no es muy útil.", translation: "That's not a useful piece of information.", source: "tatoeba:1698491" }
+- id: es-w-2115
+  type: word
+  cefr: A2
+  text: "llamada"
+  pos: noun
+  gender: f
+  meaning: { en: "(phone) call" }
+  note: { en: "hacer una llamada = to make a call" }
+  examples:
+    - { text: "Tengo que hacer una llamada telefónica.", translation: "I have to make a phone call.", source: "tatoeba:872683" }
+- id: es-w-2116
+  type: word
+  cefr: B1
+  text: "sentido"
+  pos: noun
+  gender: m
+  meaning: { en: "sense; meaning; direction" }
+  note: { en: "no tener sentido = to make no sense; sentido del humor = sense of humour" }
+  examples:
+    - { text: "Lo que dices no tiene sentido.", translation: "You're talking nonsense.", source: "tatoeba:544057" }
+- id: es-w-2117
+  type: word
+  cefr: A2
+  text: "plan"
+  pos: noun
+  gender: m
+  meaning: { en: "plan" }
+  examples:
+    - { text: "¿Qué plan tienes para esta noche?", translation: "What do you plan on doing tonight?", source: "tatoeba:508831" }
+- id: es-w-2118
+  type: word
+  cefr: A2
+  text: "paso"
+  pos: noun
+  gender: m
+  meaning: { en: "step; way through" }
+  note: { en: "paso a paso = step by step" }
+  examples:
+    - { text: "Tienes que aprender paso a paso.", translation: "You must learn step by step.", source: "tatoeba:994290" }
+- id: es-w-2119
+  type: word
+  cefr: A1
+  text: "perdón"
+  pos: noun
+  gender: m
+  meaning: { en: "forgiveness; sorry, excuse me" }
+  note: { en: "¡perdón! = sorry! / excuse me; pedir perdón = to apologise" }
+  examples:
+    - { text: "Perdón, no sabía que seguías aquí.", translation: "Sorry, I didn't know you were still here.", source: "tatoeba:564201" }
