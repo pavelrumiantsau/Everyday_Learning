@@ -1,0 +1,742 @@
+# Generated from scripts/batches/lt-b2-2401.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2401
+  type: word
+  cefr: B1
+  text: "keptuvė"
+  pos: noun
+  gender: f
+  gen: "keptuvės"
+  meaning: { ru: "сковорода" }
+  examples:
+    - { text: "Keptuvė reikalinga kepimui.", translation: "Сковорода нужна для того, чтобы жарить.", source: "tatoeba:10677038" }
+- id: lt-w-2402
+  type: word
+  cefr: B2
+  text: "troškinti"
+  pos: verb
+  forms: { pres: "troškina", past: "troškino" }
+  meaning: { ru: "тушить (мясо, овощи)" }
+  note: { ru: "troškinys — рагу" }
+  examples:
+    - { text: "Aš noriu troškintos vištos!", translation: "Я хочу тушёной курицы!", source: "tatoeba:8047713" }
+- id: lt-w-2403
+  type: word
+  cefr: B1
+  text: "kartus"
+  pos: adj
+  meaning: { ru: "горький" }
+  examples:
+    - { text: "Kava buvo karti.", translation: "Кофе был горький.", source: "tatoeba:10753627" }
+- id: lt-w-2404
+  type: word
+  cefr: B1
+  text: "puodas"
+  pos: noun
+  gender: m
+  gen: "puodo"
+  meaning: { ru: "кастрюля; горшок" }
+- id: lt-w-2405
+  type: word
+  cefr: B1
+  text: "pjaustyti"
+  pos: verb
+  forms: { pres: "pjausto", past: "pjaustė" }
+  meaning: { ru: "резать, нарезать (на куски)" }
+  note: { ru: "supjaustyti — нарезать (сов.)" }
+  examples:
+    - { text: "Aš pjaustau stiklą.", translation: "Я режу стекло.", source: "tatoeba:4636972" }
+- id: lt-w-2406
+  type: word
+  cefr: B1
+  text: "rūgštus"
+  pos: adj
+  meaning: { ru: "кислый" }
+  examples:
+    - { text: "Pieno skonis rūgštus.", translation: "У молока кислый вкус.", source: "tatoeba:3594155" }
+- id: lt-w-2407
+  type: word
+  cefr: B1
+  text: "dubuo"
+  pos: noun
+  gender: m
+  gen: "dubens"
+  meaning: { ru: "миска" }
+  note: { ru: "род. п. dubens (как vanduo — vandens)" }
+  examples:
+    - { text: "Kiek mes turime dubenų?", translation: "Сколько у нас мисок?", source: "tatoeba:3101651" }
+- id: lt-w-2408
+  type: word
+  cefr: B1
+  text: "maišyti"
+  pos: verb
+  forms: { pres: "maišo", past: "maišė" }
+  meaning: { ru: "мешать, смешивать; путать" }
+  note: { ru: "мешать (кому-л.) — trukdyti" }
+  examples:
+    - { text: "Jis dažnai maišo kaimynų vardus.", translation: "Он часто путает имена соседей.", source: "tatoeba:12847749" }
+- id: lt-w-2409
+  type: word
+  cefr: B1
+  text: "sūrus"
+  pos: adj
+  meaning: { ru: "солёный" }
+  note: { ru: "не путать: sūris — сыр" }
+  examples:
+    - { text: "Vanduo lagūnoje sūrus.", translation: "Вода в лагуне солёная.", source: "tatoeba:11953399" }
+- id: lt-w-2410
+  type: word
+  cefr: B2
+  text: "samtis"
+  pos: noun
+  gender: m
+  gen: "samčio"
+  meaning: { ru: "половник, поварёшка" }
+  examples:
+    - { text: "Sriuba gatava, o kur samtis?", translation: "Суп готов, а где поварёшка?", source: "tatoeba:10745605" }
+- id: lt-w-2411
+  type: word
+  cefr: B2
+  text: "įberti"
+  pos: verb
+  forms: { pres: "įberia", past: "įbėrė" }
+  meaning: { ru: "всыпать, насыпать (сахар, соль)" }
+  note: { ru: "įberti ko (род. п.)" }
+  examples:
+    - { text: "Tu per daug cukraus įbėrei.", translation: "Ты насыпал слишком много сахара.", source: "tatoeba:13286794" }
+- id: lt-w-2412
+  type: word
+  cefr: B2
+  text: "beskonis"
+  pos: adj
+  meaning: { ru: "безвкусный" }
+  examples:
+    - { text: "Valgis šitame restorane yra beskonis.", translation: "Еда в этом ресторане безвкусная.", source: "tatoeba:13600067" }
+- id: lt-w-2413
+  type: word
+  cefr: B2
+  text: "padėklas"
+  pos: noun
+  gender: m
+  gen: "padėklo"
+  meaning: { ru: "поднос" }
+  examples:
+    - { text: "Kur man padėti padėklą?", translation: "Где мне поставить поднос?", source: "tatoeba:11695104" }
+- id: lt-w-2414
+  type: word
+  cefr: B1
+  text: "nulupti"
+  pos: verb
+  forms: { pres: "nulupa", past: "nulupo" }
+  meaning: { ru: "очистить (от кожуры, скорлупы)" }
+  examples:
+    - { text: "Jis nulupo kiaušinius.", translation: "Он почистил яйца.", source: "tatoeba:12926979" }
+- id: lt-w-2415
+  type: word
+  cefr: B2
+  text: "sultingas"
+  pos: adj
+  meaning: { ru: "сочный" }
+  examples:
+    - { text: "Obuolys yra sultingas.", translation: "Яблоко сочное.", source: "tatoeba:13072302" }
+- id: lt-w-2416
+  type: word
+  cefr: B1
+  text: "šaukštelis"
+  pos: noun
+  gender: m
+  gen: "šaukštelio"
+  meaning: { ru: "ложечка" }
+  note: { ru: "arbatinis šaukštelis — чайная ложка" }
+  examples:
+    - { text: "Kur mano arbatinis šaukštelis?", translation: "Где моя чайная ложка?", source: "tatoeba:12191199" }
+- id: lt-w-2417
+  type: word
+  cefr: B2
+  text: "tarkuoti"
+  pos: verb
+  forms: { pres: "tarkuoja", past: "tarkavo" }
+  meaning: { ru: "тереть на тёрке" }
+  note: { ru: "tarkuotas sūris — тёртый сыр" }
+  examples:
+    - { text: "Dešimt minučių iki kepimo pabaigos, patiekalą apibarstykite tarkuotu sūriu.", translation: "За десять минут до окончания готовки посыпьте блюдо тёртым сыром.", source: "tatoeba:13869458" }
+- id: lt-w-2418
+  type: word
+  cefr: B2
+  text: "traškus"
+  pos: adj
+  meaning: { ru: "хрустящий" }
+  note: { ru: "traškučiai — чипсы" }
+  examples:
+    - { text: "Šitas sausainis išorėje yra traškus, o viduje minkštas.", translation: "Это печенье снаружи хрустящее, а внутри мягкое.", source: "tatoeba:13692211" }
+- id: lt-w-2419
+  type: word
+  cefr: B1
+  text: "orkaitė"
+  pos: noun
+  gender: f
+  gen: "orkaitės"
+  meaning: { ru: "духовка" }
+  examples:
+    - { text: "Aš bulves įdėjau į orkaitę.", translation: "Я поставил картошку в духовку.", source: "tatoeba:12856987" }
+- id: lt-w-2420
+  type: word
+  cefr: B1
+  text: "išvirti"
+  pos: verb
+  forms: { pres: "išverda", past: "išvirė" }
+  meaning: { ru: "сварить" }
+  note: { ru: "virti — варить" }
+  examples:
+    - { text: "Aš išviriau bulves.", translation: "Я сварил картошку.", source: "tatoeba:12926967" }
+- id: lt-w-2421
+  type: word
+  cefr: B1
+  text: "apkūnus"
+  pos: adj
+  meaning: { ru: "полный, тучный" }
+  examples:
+    - { text: "Apkūnūs žmonės paprastai daug prakaituoja.", translation: "Полные люди обычно много потеют.", source: "tatoeba:14032028" }
+- id: lt-w-2422
+  type: word
+  cefr: B1
+  text: "puodelis"
+  pos: noun
+  gender: m
+  gen: "puodelio"
+  meaning: { ru: "чашка, кружка" }
+  examples:
+    - { text: "Kiek puodelių kavos tu išgėrei?", translation: "Сколько чашек кофе ты выпил?", source: "tatoeba:2744656" }
+- id: lt-w-2423
+  type: word
+  cefr: B1
+  text: "garbanotas"
+  pos: adj
+  meaning: { ru: "кудрявый" }
+  examples:
+    - { text: "Jos plaukai juodi, trumpi ir garbanoti.", translation: "Волосы у неё чёрные, короткие и кудрявые.", source: "tatoeba:10099113" }
+- id: lt-w-2424
+  type: word
+  cefr: B1
+  text: "stiklainis"
+  pos: noun
+  gender: m
+  gen: "stiklainio"
+  meaning: { ru: "стеклянная банка" }
+  examples:
+    - { text: "Ar tu gali man šitą stiklainį atidaryti?", translation: "Ты можешь открыть мне эту банку?", source: "tatoeba:13602522" }
+- id: lt-w-2425
+  type: word
+  cefr: B1
+  text: "žilas"
+  pos: adj
+  meaning: { ru: "седой" }
+  examples:
+    - { text: "Mano plaukai žili.", translation: "У меня седые волосы.", source: "tatoeba:9213098" }
+- id: lt-w-2426
+  type: word
+  cefr: B1
+  text: "padažas"
+  pos: noun
+  gender: m
+  gen: "padažo"
+  meaning: { ru: "соус" }
+  examples:
+    - { text: "Ar dar nori padažo?", translation: "Хочешь ещё соуса?", source: "tatoeba:12120192" }
+- id: lt-w-2427
+  type: word
+  cefr: B2
+  text: "sūdyti"
+  pos: verb
+  forms: { pres: "sūdo", past: "sūdė" }
+  meaning: { ru: "солить" }
+  note: { ru: "sūdytas — солёный (засоленный)" }
+  examples:
+    - { text: "Sūdyti reikia pačioje pabaigoje.", translation: "Солить надо в самом конце.", source: "tatoeba:13869469" }
+- id: lt-w-2428
+  type: word
+  cefr: B1
+  text: "plikas"
+  pos: adj
+  meaning: { ru: "лысый; голый" }
+  examples:
+    - { text: "Jų tėvas plikas.", translation: "Их отец лысый.", source: "tatoeba:13103303" }
+- id: lt-w-2429
+  type: word
+  cefr: B2
+  text: "troškinys"
+  pos: noun
+  gender: m
+  gen: "troškinio"
+  meaning: { ru: "рагу" }
+  examples:
+    - { text: "Aš valgiau troškinį su duona.", translation: "Я поел рагу с хлебом.", source: "tatoeba:13499681" }
+- id: lt-w-2430
+  type: word
+  cefr: B1
+  text: "užvirti"
+  pos: verb
+  forms: { pres: "užverda", past: "užvirė" }
+  meaning: { ru: "закипеть" }
+  note: { ru: "užvirinti — вскипятить (что-л.)" }
+- id: lt-w-2431
+  type: word
+  cefr: B2
+  text: "dailus"
+  pos: adj
+  meaning: { ru: "изящный, хорошенький" }
+  examples:
+    - { text: "Kokia daili jachta!", translation: "Какая изящная яхта!", source: "tatoeba:9775703" }
+- id: lt-w-2432
+  type: word
+  cefr: B1
+  text: "užkandis"
+  pos: noun
+  gender: m
+  gen: "užkandžio"
+  meaning: { ru: "закуска" }
+  note: { ru: "užkąsti — перекусить" }
+  examples:
+    - { text: "Tomas svečiams pateikė užkandžius.", translation: "Том подал гостям закуски.", source: "tatoeba:12868904" }
+- id: lt-w-2433
+  type: word
+  cefr: B2
+  text: "skrudinti"
+  pos: verb
+  forms: { pres: "skrudina", past: "skrudino" }
+  meaning: { ru: "поджаривать (хлеб, орехи)" }
+  note: { ru: "skrudinta duona — поджаренный хлеб, тосты" }
+- id: lt-w-2434
+  type: word
+  cefr: B2
+  text: "raumeningas"
+  pos: adj
+  meaning: { ru: "мускулистый" }
+  note: { ru: "raumuo — мышца" }
+- id: lt-w-2435
+  type: word
+  cefr: B1
+  text: "valgiaraštis"
+  pos: noun
+  gender: m
+  gen: "valgiaraščio"
+  meaning: { ru: "меню" }
+  examples:
+    - { text: "Prašau, duokite valgiaraštį.", translation: "Дайте, пожалуйста, меню.", source: "tatoeba:13192819" }
+- id: lt-w-2436
+  type: word
+  cefr: B2
+  text: "atšildyti"
+  pos: verb
+  forms: { pres: "atšildo", past: "atšildė" }
+  meaning: { ru: "разморозить; отогреть" }
+- id: lt-w-2437
+  type: word
+  cefr: B2
+  text: "išvaizdus"
+  pos: adj
+  meaning: { ru: "видный, привлекательный (о внешности)" }
+  note: { ru: "išvaizda — внешность" }
+- id: lt-w-2438
+  type: word
+  cefr: B1
+  text: "išplauti"
+  pos: verb
+  forms: { pres: "išplauna", past: "išplovė" }
+  meaning: { ru: "вымыть (посуду, пол)" }
+  note: { ru: "išplauti indus — помыть посуду" }
+  examples:
+    - { text: "Išplauk indus, prašau.", translation: "Помой посуду, пожалуйста.", source: "tatoeba:12857062" }
+- id: lt-w-2439
+  type: word
+  cefr: B2
+  text: "apsileidęs"
+  pos: adj
+  meaning: { ru: "неопрятный, опустившийся" }
+  note: { ru: "apsileisti — опуститься, запустить себя" }
+  examples:
+    - { text: "Jaunystėje aš buvau apsileidęs.", translation: "В молодости я был небрежен.", source: "tatoeba:12798781" }
+- id: lt-w-2440
+  type: word
+  cefr: B1
+  text: "porcija"
+  pos: noun
+  gender: f
+  gen: "porcijos"
+  meaning: { ru: "порция" }
+  examples:
+    - { text: "Nereikia savo skrandžio taip apsunkinti, geriau valgyti dažniau ir mažomis porcijomis.", translation: "Не надо так нагружать свой желудок, лучше есть чаще и небольшими порциями.", source: "tatoeba:12850608" }
+- id: lt-w-2441
+  type: word
+  cefr: B1
+  text: "išsiurbti"
+  pos: verb
+  forms: { pres: "išsiurbia", past: "išsiurbė" }
+  meaning: { ru: "пропылесосить" }
+  note: { ru: "išsiurbti kilimą — пропылесосить ковёр" }
+- id: lt-w-2442
+  type: word
+  cefr: B1
+  text: "sugedęs"
+  pos: adj
+  meaning: { ru: "сломанный; испорченный" }
+  note: { ru: "sugesti — сломаться; испортиться" }
+  examples:
+    - { text: "Ar ventiliatorius sugedęs?", translation: "Вентилятор сломан?", source: "tatoeba:13176850" }
+- id: lt-w-2443
+  type: word
+  cefr: B1
+  text: "kruopos"
+  pos: noun
+  gender: f
+  gen: "kruopų"
+  plural_only: true
+  meaning: { ru: "крупа" }
+  note: { ru: "Только мн. ч.: kruopos, род. п. kruopų; manų kruopos — манка" }
+  examples:
+    - { text: "Ar jūs turite manų kruopų?", translation: "У вас есть манная крупа?", source: "tatoeba:13568712" }
+- id: lt-w-2444
+  type: word
+  cefr: B1
+  text: "nušluostyti"
+  pos: verb
+  forms: { pres: "nušluosto", past: "nušluostė" }
+  meaning: { ru: "вытереть" }
+  note: { ru: "šluostyti — вытирать" }
+  examples:
+    - { text: "Jis nušluostė dulkes nuo palangės.", translation: "Он вытер пыль с подоконника.", source: "tatoeba:12788454" }
+- id: lt-w-2445
+  type: word
+  cefr: B1
+  text: "grikiai"
+  pos: noun
+  gender: m
+  gen: "grikių"
+  plural_only: true
+  meaning: { ru: "гречка" }
+  note: { ru: "Только мн. ч.: grikiai, род. п. grikių" }
+- id: lt-w-2446
+  type: word
+  cefr: B1
+  text: "išskalbti"
+  pos: verb
+  forms: { pres: "išskalbia", past: "išskalbė" }
+  meaning: { ru: "выстирать" }
+  note: { ru: "skalbti — стирать" }
+  examples:
+    - { text: "Kelnes reikia išskalbti.", translation: "Штаны нужно постирать.", source: "tatoeba:13102357" }
+- id: lt-w-2447
+  type: word
+  cefr: B1
+  text: "krapai"
+  pos: noun
+  gender: m
+  gen: "krapų"
+  plural_only: true
+  meaning: { ru: "укроп" }
+  note: { ru: "Только мн. ч.: krapai, род. п. krapų" }
+- id: lt-w-2448
+  type: word
+  cefr: B1
+  text: "išnešti"
+  pos: verb
+  forms: { pres: "išneša", past: "išnešė" }
+  meaning: { ru: "вынести" }
+  note: { ru: "išnešti šiukšles — вынести мусор" }
+  examples:
+    - { text: "Eik šiukšles išnešti.", translation: "Иди вынеси мусор.", source: "tatoeba:12726396" }
+- id: lt-w-2449
+  type: word
+  cefr: B1
+  text: "imbieras"
+  pos: noun
+  gender: m
+  gen: "imbiero"
+  meaning: { ru: "имбирь" }
+  examples:
+    - { text: "Žiemą imbieras yra labai naudingas.", translation: "Имбирь зимой очень полезен.", source: "tatoeba:12099734" }
+- id: lt-w-2450
+  type: word
+  cefr: B1
+  text: "apsiauti"
+  pos: verb
+  forms: { pres: "apsiauna", past: "apsiavė" }
+  meaning: { ru: "обуться" }
+  note: { ru: "apsiauti batus — надеть обувь" }
+  examples:
+    - { text: "Mums reikia apsiauti.", translation: "Нам надо обуться.", source: "tatoeba:13491399" }
+- id: lt-w-2451
+  type: word
+  cefr: B1
+  text: "cinamonas"
+  pos: noun
+  gender: m
+  gen: "cinamono"
+  meaning: { ru: "корица" }
+  examples:
+    - { text: "Tu kvepi cinamonu.", translation: "От тебя пахнет корицей.", source: "tatoeba:12705376" }
+- id: lt-w-2452
+  type: word
+  cefr: B1
+  text: "nusiauti"
+  pos: verb
+  forms: { pres: "nusiauna", past: "nusiavė" }
+  meaning: { ru: "разуться" }
+  examples:
+    - { text: "Mes nusiavėme batus.", translation: "Мы разулись.", source: "tatoeba:10147780" }
+- id: lt-w-2453
+  type: word
+  cefr: B1
+  text: "grietinė"
+  pos: noun
+  gender: f
+  gen: "grietinės"
+  meaning: { ru: "сметана" }
+  note: { ru: "grietinėlė — сливки" }
+- id: lt-w-2454
+  type: word
+  cefr: B1
+  text: "nusivilkti"
+  pos: verb
+  forms: { pres: "nusivelka", past: "nusivilko" }
+  meaning: { ru: "снять (с себя одежду)" }
+  note: { ru: "apsivilkti — надеть" }
+  examples:
+    - { text: "Jis nusivilko paltą ir ėmėsi darbo.", translation: "Он снял пальто и принялся за работу.", source: "tatoeba:13016420" }
+- id: lt-w-2455
+  type: word
+  cefr: B1
+  text: "burokėlis"
+  pos: noun
+  gender: m
+  gen: "burokėlio"
+  meaning: { ru: "свёкла" }
+- id: lt-w-2456
+  type: word
+  cefr: B1
+  text: "persirengti"
+  pos: verb
+  forms: { pres: "persirengia", past: "persirengė" }
+  meaning: { ru: "переодеться" }
+  examples:
+    - { text: "Aš turiu persirengti.", translation: "Мне нужно переодеться.", source: "tatoeba:10720218" }
+- id: lt-w-2457
+  type: word
+  cefr: B1
+  text: "uogienė"
+  pos: noun
+  gender: f
+  gen: "uogienės"
+  meaning: { ru: "варенье" }
+  examples:
+    - { text: "Ji išvirė obuolių uogienę.", translation: "Она сварила яблочное варенье.", source: "tatoeba:4679938" }
+- id: lt-w-2458
+  type: word
+  cefr: B1
+  text: "pasimatuoti"
+  pos: verb
+  forms: { pres: "pasimatuoja", past: "pasimatavo" }
+  meaning: { ru: "примерить" }
+  examples:
+    - { text: "Pasimatuok šį megztinį.", translation: "Примерь этот свитер.", source: "tatoeba:4871632" }
+- id: lt-w-2459
+  type: word
+  cefr: B1
+  text: "kiaušinienė"
+  pos: noun
+  gender: f
+  gen: "kiaušinienės"
+  meaning: { ru: "яичница" }
+  examples:
+    - { text: "Aš mėgstu kiaušinienę su kumpiu.", translation: "Я люблю яичницу с ветчиной.", source: "tatoeba:9794420" }
+- id: lt-w-2460
+  type: word
+  cefr: B1
+  text: "nusiskusti"
+  pos: verb
+  forms: { pres: "nusiskuta", past: "nusiskuto" }
+  meaning: { ru: "побриться" }
+  note: { ru: "skustis — бриться" }
+  examples:
+    - { text: "Aš noriu nusiskusti.", translation: "Я хочу побриться.", source: "tatoeba:12170354" }
+- id: lt-w-2461
+  type: word
+  cefr: B1
+  text: "dešrelė"
+  pos: noun
+  gender: f
+  gen: "dešrelės"
+  meaning: { ru: "сосиска, колбаска" }
+  examples:
+    - { text: "Aš labai mėgstu rūkytas dešreles.", translation: "Обожаю копченые колбаски.", source: "tatoeba:10870349" }
+- id: lt-w-2462
+  type: word
+  cefr: B1
+  text: "nusikirpti"
+  pos: verb
+  forms: { pres: "nusikerpa", past: "nusikirpo" }
+  meaning: { ru: "подстричься" }
+  note: { ru: "kirpti — стричь" }
+  examples:
+    - { text: "Aš vakar nusikirpau kirpykloje.", translation: "Я вчера постригся в парикмахерской.", source: "tatoeba:13383659" }
+- id: lt-w-2463
+  type: word
+  cefr: B1
+  text: "indaplovė"
+  pos: noun
+  gender: f
+  gen: "indaplovės"
+  meaning: { ru: "посудомоечная машина" }
+- id: lt-w-2464
+  type: word
+  cefr: B1
+  text: "šukuotis"
+  pos: verb
+  forms: { pres: "šukuojasi", past: "šukavosi" }
+  meaning: { ru: "причёсываться" }
+  note: { ru: "susišukuoti — причесаться" }
+  examples:
+    - { text: "Kol sesuo tvarkė namus, ji šukavosi.", translation: "Пока сестра убирала дом, она причёсывалась.", source: "tatoeba:14030649" }
+- id: lt-w-2465
+  type: word
+  cefr: B1
+  text: "šaldiklis"
+  pos: noun
+  gender: m
+  gen: "šaldiklio"
+  meaning: { ru: "морозилка" }
+- id: lt-w-2466
+  type: word
+  cefr: B1
+  text: "siurblys"
+  pos: noun
+  gender: m
+  gen: "siurblio"
+  meaning: { ru: "насос; пылесос" }
+  note: { ru: "dulkių siurblys — пылесос" }
+  examples:
+    - { text: "Aš nusipirksiu dulkių siurblį.", translation: "Я куплю пылесос.", source: "tatoeba:13398429" }
+- id: lt-w-2467
+  type: word
+  cefr: B1
+  text: "skalbiniai"
+  pos: noun
+  gender: m
+  gen: "skalbinių"
+  plural_only: true
+  meaning: { ru: "бельё (для стирки)" }
+  note: { ru: "Только мн. ч.: skalbiniai, род. п. skalbinių" }
+  examples:
+    - { text: "Skalbiniai dar drėgni.", translation: "Бельё ещё влажное.", source: "tatoeba:10151597" }
+- id: lt-w-2468
+  type: word
+  cefr: B1
+  text: "skuduras"
+  pos: noun
+  gender: m
+  gen: "skuduro"
+  meaning: { ru: "тряпка" }
+  examples:
+    - { text: "Ar tu turi kibirą ir skudurą?", translation: "У тебя есть ведро и тряпка?", source: "tatoeba:13926350" }
+- id: lt-w-2469
+  type: word
+  cefr: B1
+  text: "šepetys"
+  pos: noun
+  gender: m
+  gen: "šepečio"
+  meaning: { ru: "щётка" }
+  note: { ru: "dantų šepetėlis — зубная щётка" }
+  examples:
+    - { text: "Tai tavo plaukų šepetys?", translation: "Это твоя щётка для волос?", source: "tatoeba:12876648" }
+- id: lt-w-2470
+  type: word
+  cefr: B1
+  text: "auskaras"
+  pos: noun
+  gender: m
+  gen: "auskaro"
+  meaning: { ru: "серьга" }
+  examples:
+    - { text: "Ar tu pametei auskarą?", translation: "Ты потеряла серёжку?", source: "tatoeba:12290763" }
+- id: lt-w-2471
+  type: word
+  cefr: B1
+  text: "lietpaltis"
+  pos: noun
+  gender: m
+  gen: "lietpalčio"
+  meaning: { ru: "плащ" }
+  examples:
+    - { text: "Jis nusivilko lietpaltį.", translation: "Он снял плащ.", source: "tatoeba:12299954" }
+- id: lt-w-2472
+  type: word
+  cefr: B1
+  text: "chalatas"
+  pos: noun
+  gender: m
+  gen: "chalato"
+  meaning: { ru: "халат" }
+  examples:
+    - { text: "Gydytojai baltais chalatais ėjo koridoriumi.", translation: "Врачи в белых халатах шли по коридору.", source: "tatoeba:13047072" }
+- id: lt-w-2473
+  type: word
+  cefr: B1
+  text: "kuprinė"
+  pos: noun
+  gender: f
+  gen: "kuprinės"
+  meaning: { ru: "рюкзак" }
+  examples:
+    - { text: "Mano kuprinė labai sunki.", translation: "У меня очень тяжёлый рюкзак.", source: "tatoeba:10638689" }
+- id: lt-w-2474
+  type: word
+  cefr: B1
+  text: "rankovė"
+  pos: noun
+  gender: f
+  gen: "rankovės"
+  meaning: { ru: "рукав" }
+  examples:
+    - { text: "Megztinio ilgos rankovės.", translation: "У свитера длинные рукава.", source: "tatoeba:13524904" }
+- id: lt-w-2475
+  type: word
+  cefr: B1
+  text: "apykaklė"
+  pos: noun
+  gender: f
+  gen: "apykaklės"
+  meaning: { ru: "воротник" }
+  examples:
+    - { text: "Aš nusipirkau švarką be apykaklės.", translation: "Я купил пиджак без воротника.", source: "tatoeba:13806190" }
+- id: lt-w-2476
+  type: word
+  cefr: B2
+  text: "liemenė"
+  pos: noun
+  gender: f
+  gen: "liemenės"
+  meaning: { ru: "жилет" }
+  note: { ru: "liemenėlė — бюстгальтер" }
+  examples:
+    - { text: "Tomas buvo be gelbėjimosi liemenės.", translation: "Том был без спасательного жилета.", source: "tatoeba:10237849" }
+- id: lt-w-2477
+  type: word
+  cefr: B2
+  text: "raukšlė"
+  pos: noun
+  gender: f
+  gen: "raukšlės"
+  meaning: { ru: "морщина; складка" }
+- id: lt-w-2478
+  type: word
+  cefr: B2
+  text: "strazdana"
+  pos: noun
+  gender: f
+  gen: "strazdanos"
+  meaning: { ru: "веснушка" }
+  note: { ru: "strazdanotas — веснушчатый" }
+  examples:
+    - { text: "Mano sesuo turi strazdanų.", translation: "У моей сестры есть веснушки.", source: "tatoeba:13225957" }
