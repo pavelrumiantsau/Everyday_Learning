@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0095
+cefr: B1
+order: 95
+title: "Возраст: man trisdešimt metų, vienerių metų vaikas, mano amžiaus"
+explanation:
+  ru: |
+    **Сколько лет** — кому в дательном: ***Kiek tau metų?*** — *Man trisdešimt metų.*
+    - 10–20 и круглые десятки → ***metų*** (род. мн.): *dvidešimt **metų**, keturiasdešimt metų*
+    - 1, 21, 31… → ***vieneri*** *metai*: *Man trisdešimt **vieneri** metai.*
+    - 2–9 → *metai* с числительным: *penki metai, šeši metai*; для 2–4 часто собирательные: *dveji, treji metai*
+
+    **«Ребёнок одного года, девочка пятнадцати лет»** — родительный:
+    - ***vienerių metų*** *vaikas* · *penkiolikos metų mergaitė*
+
+    **amžius** — возраст (и «век»):
+    - *mano **amžiaus*** (моего возраста), *vieno amžiaus* (одного возраста), *pensinio amžiaus* (пенсионного возраста)
+
+    **Кто старше:** *vyresnis / jaunesnis **už** mane* (или *nei aš*); на сколько — творительный: *dvejais metais vyresnis*.
+comparison:
+  ru: |
+    Как в русском «мне двадцать лет» — дательный. Отличия: «на два года старше» = ***dvejais metais*** *vyresnis* (творительный без предлога) и «старше меня» = *vyresnis **už** mane*.
+examples:
+  - { text: "Man šeši metai.", translation: "Мне шесть лет.", source: "tatoeba:12118598" }
+  - { text: "Man šešiasdešimt vieneri metai.", translation: "Мне шестьдесят один год.", source: "tatoeba:10323241" }
+  - { text: "Aš buvau jūsų amžiaus.", translation: "Я был вашего возраста.", source: "tatoeba:3576780" }
+  - { text: "Jie visi vieno amžiaus.", translation: "Они все одного возраста.", source: "tatoeba:12198552" }
+  - { text: "Ji maždaug tavo amžiaus.", translation: "Она примерно твоего возраста.", source: "tatoeba:12855182" }
+exercises:
+  - type: cloze
+    text: "Kiek ___ metų?"
+    answer: "tau"
+    hint: "тебе"
+    translation: "Сколько тебе лет?"
+  - type: cloze
+    text: "Mano broliui dvidešimt ___."
+    answer: "metų"
+    hint: "20 → род. мн."
+    translation: "Моему брату двадцать лет."
+  - type: cloze
+    text: "Dukrai dabar dveji ___."
+    answer: "metai"
+    hint: "2 года"
+    translation: "Дочери сейчас два года."
+  - type: cloze
+    text: "Jis dvejais metais ___ už mane."
+    answer: "vyresnis"
+    hint: "старше"
+    translation: "Он на два года старше меня."
+  - type: cloze
+    text: "Jis jau ___ amžiaus."
+    answer: "pensinio"
+    hint: "пенсионного"
+    translation: "Он уже пенсионного возраста."
+  - type: cloze
+    text: "Mano sesuo ___ už mane trejais metais."
+    answer: "jaunesnė"
+    hint: "младше (ж. р.)"
+    translation: "Моя сестра младше меня на три года."
+  - type: cloze
+    text: "Kai man buvo ___ metų, pradėjau groti gitara."
+    answer: "dešimt"
+    hint: "10"
+    translation: "Когда мне было десять лет, я начал играть на гитаре."
+  - type: cloze
+    text: "Tai ___ metų vaikas."
+    answer: "vienerių"
+    hint: "одного года (род. п.)"
+    translation: "Это ребёнок одного года."

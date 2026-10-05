@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0098
+cefr: B2
+order: 98
+title: "Видел, как…: mačiau, kaip jis išėjo; girdėjau tave verkiant"
+explanation:
+  ru: |
+    После глаголов восприятия (*matyti, girdėti, pastebėti, jausti*) есть три конструкции.
+
+    **1. kaip + изъявительное** — процесс, «видел, как»; как в русском:
+    - *Mačiau, **kaip** jis išėjo.* · *Girdėjau, **kaip** ji dainuoja.*
+
+    **2. винительный + деепричастие на -ant / -int** — то же, книжнее и короче:
+    - *Girdėjau **tave verkiant**.* — Слышал, как ты плачешь.
+    - *Mačiau **jį ateinant**.* · *Girdėjau **vaikus žaidžiant**.*
+
+    **3. kad + изъявительное** — **факт** или новость, не сам процесс:
+    - *Girdėjau, **kad** jis išvažiavo.* — Я слышал (узнал), что он уехал.
+comparison:
+  ru: |
+    Различие как в русском «слышал, **как** он пел» (процесс) и «слышал, **что** он поёт» (новость): *kaip* — процесс, *kad* — факт. Конструкция с *-ant* — это тот же «винительный с деепричастием», что в *saulei tekant*, только с винительным.
+examples:
+  - { text: "Aš girdėjau tave verkiant.", translation: "Я слышал, как ты плачешь.", source: "tatoeba:13579740" }
+  - { text: "Aš girdėjau jus verkiant.", translation: "Я слышал, как вы плачете.", source: "tatoeba:13579746" }
+  - { text: "Aš mačiau, kaip tai įvyko.", translation: "Я видел, как это случилось.", source: "tatoeba:11388718" }
+  - { text: "Aš mačiau, kaip tu išėjai.", translation: "Я видел, как ты уходил.", source: "tatoeba:12203385" }
+  - { text: "Aš girdėjau, kaip ji išėjo.", translation: "Я слышал, как она выходила.", source: "tatoeba:12131692" }
+exercises:
+  - type: cloze
+    text: "Mačiau, ___ jis išėjo iš namų."
+    answer: "kaip"
+    hint: "процесс"
+    translation: "Я видел, как он вышел из дома."
+  - type: cloze
+    text: "Girdėjau, ___ jis išvažiavo į Londoną."
+    answer: "kad"
+    hint: "факт, новость"
+    translation: "Я слышал, что он уехал в Лондон."
+  - type: cloze
+    text: "Girdėjau tave ___."
+    answer: "dainuojant"
+    hint: "dainuoti → -ant"
+    translation: "Я слышал, как ты поёшь."
+  - type: cloze
+    text: "Mačiau jį ___ pro langą."
+    answer: "žiūrint"
+    hint: "žiūrėti → -int"
+    translation: "Я видел, как он смотрел в окно."
+  - type: cloze
+    text: "Pamačiau ją ___ gatve."
+    answer: "einant"
+    hint: "eiti → -ant"
+    translation: "Я увидел, как она идёт по улице."
+  - type: cloze
+    text: "Ar girdėjai, ___ šuo loja?"
+    answer: "kaip"
+    hint: "процесс"
+    translation: "Ты слышал, как лает собака?"
+  - type: cloze
+    text: "Girdėjau vaikus ___ kieme."
+    answer: "žaidžiant"
+    hint: "žaisti → -ant"
+    translation: "Я слышал, как дети играют во дворе."
+  - type: cloze
+    text: "Ar girdėjai, ___ Tomas susituokė?"
+    answer: "kad"
+    hint: "новость"
+    translation: "Ты слышал, что Том женился?"

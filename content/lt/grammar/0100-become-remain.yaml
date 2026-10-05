@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0100
+cefr: B1
+order: 100
+title: "Стать и остаться: tapti, pasidaryti, darytis, likti, virsti"
+explanation:
+  ru: |
+    **tapti** (tampa, tapo) — стать:
+    - существительное — **творительный**: *tapo **rašytoju**, nori tapti **gydytoja***
+    - прилагательное — обычно **именительный**: *tapo **laiminga**, jie tapo **tingūs***
+
+    **pasidaryti** (pasidaro, pasidarė) — стать (о состоянии, разговорно); без подлежащего — средний род:
+    - *Pasidarė **šalta**.* — Стало холодно. · *Jis pasidarė piktas.*
+    - ***darytis*** — становиться (процесс): *Darosi tamsu.* — Темнеет.
+
+    **likti** (lieka, liko) — остаться:
+    - *Jie liko **vieni**.* · *Tomas liko **gyvas**.* · с существительным — тв. п.: *liko **draugais***
+
+    **virsti** (virsta, virto) + тв. п. — превратиться: *Vanduo virto **ledu**.*
+comparison:
+  ru: |
+    «Стал врачом» — творительный, как в русском (*tapo gydytoju*). Но «стал богатым» — в литовском чаще именительный: *tapo **turtingas***. «Стало холодно» — не *tapo*, а ***pasidarė*** *šalta*.
+examples:
+  - { text: "Jis tapo rašytoju.", translation: "Он стал писателем.", source: "tatoeba:11450766" }
+  - { text: "Ji tapo laiminga.", translation: "Она стала счастливой.", source: "tatoeba:2151423" }
+  - { text: "Jie tapo tingūs.", translation: "Они стали ленивыми.", source: "tatoeba:13401035" }
+  - { text: "Jie liko vieni.", translation: "Они остались одни.", source: "tatoeba:12631454" }
+  - { text: "Tomas liko gyvas.", translation: "Том выжил.", source: "tatoeba:11974319" }
+exercises:
+  - type: cloze
+    text: "Ji ___ garsia aktore."
+    answer: "tapo"
+    hint: "стала"
+    translation: "Она стала известной актрисой."
+  - type: cloze
+    text: "Jis norėjo tapti ___."
+    answer: "gydytoju"
+    hint: "gydytojas → тв. п."
+    translation: "Он хотел стать врачом."
+  - type: cloze
+    text: "Vakare ___ šalta."
+    answer: "pasidarė"
+    hint: "стало"
+    translation: "Вечером стало холодно."
+  - type: cloze
+    text: "Lauke jau ___ tamsu."
+    answer: "darosi"
+    hint: "становится (процесс)"
+    translation: "На улице уже темнеет."
+  - type: cloze
+    text: "Po skyrybų jie ___ draugais."
+    answer: "liko"
+    hint: "остались"
+    translation: "После развода они остались друзьями."
+  - type: cloze
+    text: "Žiemą vanduo ___ ledu."
+    answer: "virsta"
+    hint: "virsti → наст. вр."
+    translation: "Зимой вода превращается в лёд."
+  - type: cloze
+    text: "Po tos žinios jis tapo labai ___."
+    answer: "liūdnas"
+    hint: "прилагательное → им. п."
+    translation: "После этой новости он стал очень грустным."
+  - type: cloze
+    text: "Visi išėjo, o aš ___ namie."
+    answer: "likau"
+    hint: "likti → я"
+    translation: "Все ушли, а я остался дома."

@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0096
+cefr: B1
+order: 96
+title: "Здоровье: man skauda galvą, sergu gripu, jaučiuosi geriau"
+explanation:
+  ru: |
+    **skaudėti** (skauda, skaudėjo) — болеть (о части тела): кому — дательный, **что — винительный**!
+    - *Man skauda **galvą** / **dantį** / **pilvą** / **koją**.*
+
+    **sirgti** (serga, sirgo) — болеть (быть больным), чем — творительный: *Sergu **gripu**.*
+    - ***susirgti*** — заболеть · ***pasveikti*** — выздороветь: *Greitai pasveik!*
+    - ***peršalti*** — простудиться · ***kosėti*** — кашлять
+
+    **jaustis** (jaučiasi, jautėsi) — чувствовать себя:
+    - *Kaip jautiesi?* — *Jaučiuosi **geriau** / blogai / pavargęs.*
+
+    **Температура:** *Turiu temperatūros.* — У меня температура (родительный, «немного температуры»).
+comparison:
+  ru: |
+    Главная ловушка: «у меня болит голова» = *Man skauda **galvą*** — винительный, не *galva*. «У меня температура» — ***turiu temperatūros*** (род. п.), а «болеть гриппом» — как в русском, творительный.
+examples:
+  - { text: "Man skauda galvą.", translation: "Голова у меня болит.", source: "tatoeba:2153648" }
+  - { text: "Man skauda koją.", translation: "У меня болит нога.", source: "tatoeba:10752129" }
+  - { text: "Mano tėvas serga.", translation: "Мой отец болен.", source: "tatoeba:12300464" }
+  - { text: "Kaip tu jautiesi?", translation: "Как ты себя чувствуешь?", source: "tatoeba:8719288" }
+  - { text: "Ar tu gerai jautiesi?", translation: "Ты хорошо себя чувствуешь?", source: "tatoeba:8047654" }
+exercises:
+  - type: cloze
+    text: "Vaikui skauda ___."
+    answer: "pilvą"
+    hint: "pilvas → вин. п."
+    translation: "У ребёнка болит живот."
+  - type: cloze
+    text: "Jau savaitę ___ gripu."
+    answer: "sergu"
+    hint: "sirgti → я"
+    translation: "Я уже неделю болею гриппом."
+  - type: cloze
+    text: "Ačiū, jau ___ geriau."
+    answer: "jaučiuosi"
+    hint: "jaustis → я"
+    translation: "Спасибо, я уже чувствую себя лучше."
+  - type: cloze
+    text: "Vakar ___ ir negalėjau eiti į darbą."
+    answer: "susirgau"
+    hint: "susirgti → я"
+    translation: "Вчера я заболел и не смог пойти на работу."
+  - type: cloze
+    text: "Greitai ___!"
+    answer: "pasveik"
+    hint: "pasveikti → ты"
+    translation: "Скорее выздоравливай!"
+  - type: cloze
+    text: "Mamai skaudėjo ___."
+    answer: "dantį"
+    hint: "dantis → вин. п."
+    translation: "У мамы болел зуб."
+  - type: cloze
+    text: "Ar turi ___?"
+    answer: "temperatūros"
+    hint: "temperatūra → род. п."
+    translation: "У тебя есть температура?"
+  - type: cloze
+    text: "Žiemą lengva ___."
+    answer: "peršalti"
+    hint: "простудиться"
+    translation: "Зимой легко простудиться."

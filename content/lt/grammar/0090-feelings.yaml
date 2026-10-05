@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0090
+cefr: B1
+order: 90
+title: "Чувства: man gaila, gėda, baisu, nuobodu, nusibodo"
+explanation:
+  ru: |
+    Многие чувства выражаются **безлично**: кому — дательный, а само чувство — слово среднего рода или глагол.
+
+    - ***gaila*** — жаль: *Man gaila.* · кого / чего — родительный: *Man **jo** gaila.* · ***Gaila**, kad…*
+    - ***gėda*** — стыдно: *Man gėda.* · *Gėda prisipažinti.*
+    - ***baisu*** (страшно), ***įdomu*** (интересно), ***nuobodu*** (скучно), ***liūdna*** (грустно), ***smagu*** (весело)
+    - прошлое и будущее — через *buvo / bus*: *Man **buvo** gėda.* · *Bus įdomu.*
+
+    **«Надоело»** — глагол в прошедшем времени, как в русском:
+    - ***nusibodo / atsibodo / pabodo***: *Man nusibodo laukti.*
+    - кто или что надоело — **именительный**: *Man nusibodo **darbas**.* · *Jis man nusibodo.*
+    - ***įgriso*** — то же, но резче: *Tu man įgrisai!*
+comparison:
+  ru: |
+    Конструкция зеркальна русской: «мне жаль, мне стыдно, мне надоело» = *man gaila, man gėda, man nusibodo*. Отличие: «жаль его» — родительный ***jo*** (как «жаль денег»).
+examples:
+  - { text: "Mums jų gaila.", translation: "Нам их жаль.", source: "tatoeba:8142308" }
+  - { text: "Man buvo gėda.", translation: "Мне было стыдно.", source: "tatoeba:13186278" }
+  - { text: "Jam buvo baisu.", translation: "Ему было страшно.", source: "tatoeba:2589286" }
+  - { text: "Man tai įdomu.", translation: "Мне это интересно.", source: "tatoeba:10756108" }
+  - { text: "Man pabodo laukti!", translation: "Мне надоело ждать!", source: "tatoeba:13007968" }
+exercises:
+  - type: cloze
+    text: "Man labai ___, kad negalėsiu ateiti."
+    answer: "gaila"
+    hint: "жаль"
+    translation: "Мне очень жаль, что я не смогу прийти."
+  - type: cloze
+    text: "Vaikui ___ vienam namie."
+    answer: "baisu"
+    hint: "страшно"
+    translation: "Ребёнку страшно одному дома."
+  - type: cloze
+    text: "Man ___ laukti – eime."
+    answer: "nusibodo"
+    also: ["atsibodo", "pabodo"]
+    hint: "надоело"
+    translation: "Мне надоело ждать — пошли."
+  - type: cloze
+    text: "Ar tau ___ klausytis?"
+    answer: "įdomu"
+    hint: "интересно"
+    translation: "Тебе интересно слушать?"
+  - type: cloze
+    text: "Man buvo ___ dėl savo elgesio."
+    answer: "gėda"
+    hint: "стыдно"
+    translation: "Мне было стыдно за своё поведение."
+  - type: cloze
+    text: "Per paskaitą studentams buvo ___."
+    answer: "nuobodu"
+    hint: "скучно"
+    translation: "Студентам на лекции было скучно."
+  - type: cloze
+    text: "Lietingą dieną man visada ___."
+    answer: "liūdna"
+    hint: "грустно"
+    translation: "В дождливый день мне всегда грустно."
+  - type: cloze
+    text: "Man ___ šitas darbas!"
+    answer: "nusibodo"
+    also: ["atsibodo", "pabodo", "įgriso"]
+    hint: "надоела"
+    translation: "Мне надоела эта работа!"

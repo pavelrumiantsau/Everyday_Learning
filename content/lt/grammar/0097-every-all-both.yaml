@@ -1,0 +1,67 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0097
+cefr: B1
+order: 97
+title: "Каждый, весь, оба, любой: kiekvienas, visas, visi, abu / abi, bet kuris"
+explanation:
+  ru: |
+    - ***kiekvienas / kiekviena*** — каждый: *kiekvieną dieną, kiekvienas žmogus, kiekviena detalė*
+    - ***visas / visa*** — весь, целый: *visą dieną, visa šeima* · ***visi / visos*** — все: *Visi atėjo.* · ***viskas*** — всё
+    - ***abu*** (м. р.) / ***abi*** (ж. р.) — оба / обе: *abu broliai, abi seserys*
+      - род. ***abiejų***, дат. ***abiem***, вин. *abu / abi*, тв. *abiem*
+    - ***bet kuris / bet kuri*** — любой (на выбор): *Paimk bet kurį.*
+    - регулярность: ***kas*** + вин. п.: *kas savaitę, kas mėnesį*; одним словом — *kasdien, kasmet*
+
+    Все они склоняются как прилагательные (кроме *viskas* — как *kas*).
+comparison:
+  ru: |
+    «Весь день» — *visą dieną* (вин. п., без предлога), «каждое утро» — *kiekvieną rytą*. «Оба» различает род, как в русском: *abu* / *abi* = «оба» / «обе».
+examples:
+  - { text: "Taip galvoja kiekvienas.", translation: "Так думает каждый.", source: "tatoeba:2630687" }
+  - { text: "Svarbi kiekviena detalė.", translation: "Важна каждая деталь.", source: "tatoeba:8354542" }
+  - { text: "Snigo visą naktį.", translation: "Шёл снег всю ночь.", source: "tatoeba:630615" }
+  - { text: "Aš juos abu myliu.", translation: "Я их обоих люблю.", source: "tatoeba:12730409" }
+  - { text: "Mes abi tai matėme.", translation: "Мы обе это видели.", source: "tatoeba:3951634" }
+exercises:
+  - type: cloze
+    text: "Aš bėgioju ___ rytą."
+    answer: "kiekvieną"
+    hint: "каждое (вин. п.)"
+    translation: "Я бегаю каждое утро."
+  - type: cloze
+    text: "Lijo ___ dieną."
+    answer: "visą"
+    hint: "весь (вин. п.)"
+    translation: "Дождь шёл весь день."
+  - type: cloze
+    text: "___ studentai atėjo į paskaitą."
+    answer: "Visi"
+    hint: "все"
+    translation: "Все студенты пришли на лекцию."
+  - type: cloze
+    text: "Mano ___ seserys gyvena Kaune."
+    answer: "abi"
+    hint: "обе"
+    translation: "Обе мои сестры живут в Каунасе."
+  - type: cloze
+    text: "Dovanų nupirkau ___ vaikams."
+    answer: "abiem"
+    hint: "abu → дат. п."
+    translation: "Я купил подарки обоим детям."
+  - type: cloze
+    text: "Gali paimti ___ knygą – visos geros."
+    answer: "bet kurią"
+    hint: "любую"
+    translation: "Можешь взять любую книгу — все хорошие."
+  - type: cloze
+    text: "___ žmogus turi teisę klysti."
+    answer: "Kiekvienas"
+    hint: "каждый"
+    translation: "Каждый человек имеет право ошибаться."
+  - type: cloze
+    text: "Ar ___ supratai?"
+    answer: "viską"
+    hint: "всё (вин. п.)"
+    translation: "Ты всё понял?"

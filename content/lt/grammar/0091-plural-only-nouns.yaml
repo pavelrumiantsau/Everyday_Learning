@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0091
+cefr: B1
+order: 91
+title: "Только во множественном: durys, akiniai, marškiniai, lubos — dveji, treji"
+explanation:
+  ru: |
+    Как в русском (*очки, ножницы, брюки*), в литовском есть слова только во множественном числе — но список **шире**, и некоторые совпадения неожиданны:
+
+    - ***durys*** — дверь · ***lubos*** — потолок · ***marškiniai*** — рубашка
+    - ***akiniai*** — очки · ***žirklės*** — ножницы · ***kelnės*** — брюки
+    - ***metai*** — год · ***pietūs*** — обед · ***pusryčiai*** — завтрак · ***atostogos*** — отпуск
+    - ***vestuvės*** — свадьба · ***Kalėdos, Velykos*** · ***pinigai*** — деньги
+
+    С ними всё во множественном: *Durys **atidarytos**.* · *Mano marškiniai **švarūs**.*
+
+    **Счёт** — собирательными числительными: ***vieneri, dveji, treji, ketveri, penkeri…***
+    - *dveji marškiniai, vienerios durys, treji metai*
+    - вин. п.: ***dvejus*** *metus*, *trejus metus*
+    - возраст на 1: *Man trisdešimt **vieneri** metai.*
+comparison:
+  ru: |
+    Ловушки — слова, которые в русском единственного числа: «дверь» = ***durys***, «рубашка» = ***marškiniai***, «потолок» = ***lubos***, «год» = ***metai***. «Закрой дверь» — *Uždaryk **duris***, «новая рубашка» — *nauji **marškiniai***.
+examples:
+  - { text: "Atidaryk duris!", translation: "Открой дверь!", source: "tatoeba:4871602" }
+  - { text: "Jis dėvi akinius.", translation: "Он носит очки.", source: "tatoeba:1604405" }
+  - { text: "Atnešk man žirkles.", translation: "Принеси мне ножницы.", source: "tatoeba:4671659" }
+  - { text: "Aš čia jau beveik treji metai.", translation: "Я здесь уже почти три года.", source: "tatoeba:10214460" }
+  - { text: "Karas truko dvejus metus.", translation: "Война длилась два года.", source: "tatoeba:1517074" }
+exercises:
+  - type: cloze
+    text: "Uždaryk ___, šalta."
+    answer: "duris"
+    hint: "durys → вин. п."
+    translation: "Закрой дверь, холодно."
+  - type: cloze
+    text: "Kur mano ___? Nieko nematau."
+    answer: "akiniai"
+    hint: "очки"
+    translation: "Где мои очки? Ничего не вижу."
+  - type: cloze
+    text: "Nusipirkau naujus ___."
+    answer: "marškinius"
+    hint: "marškiniai → вин. п."
+    translation: "Я купил новую рубашку."
+  - type: cloze
+    text: "Mes čia gyvename jau ___ metus."
+    answer: "dvejus"
+    hint: "2 → вин. п."
+    translation: "Мы живём здесь уже два года."
+  - type: cloze
+    text: "Mano ___ prasideda liepą."
+    answer: "atostogos"
+    hint: "отпуск"
+    translation: "Мой отпуск начинается в июле."
+  - type: cloze
+    text: "Kambario ___ labai aukštos."
+    answer: "lubos"
+    hint: "потолок"
+    translation: "Потолок в комнате очень высокий."
+  - type: cloze
+    text: "Man trisdešimt ___ metai."
+    answer: "vieneri"
+    hint: "31 год"
+    translation: "Мне тридцать один год."
+  - type: cloze
+    text: "Ar matei mano ___? Reikia nukirpti siūlą."
+    answer: "žirkles"
+    hint: "žirklės → вин. п."
+    translation: "Ты не видел мои ножницы? Надо обрезать нитку."

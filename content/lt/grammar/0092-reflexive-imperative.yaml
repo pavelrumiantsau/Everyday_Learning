@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0092
+cefr: B1
+order: 92
+title: "Повелительное у возвратных: renkis, nusiramink, nesijaudink, susitikime"
+explanation:
+  ru: |
+    В повелительном наклонении возвратная частица ведёт себя так же, как в других формах: **в конце**, если нет приставки и *ne-*, и **внутри** — после приставки или *ne-*.
+
+    **Без приставки** — *-is* в конце (вы: *-itės*, мы: *-imės*):
+    - *rengtis → **renkis**, renkitės* (одевайся, одевайтесь)
+    - *praustis → **prauskis**, prauskimės*
+    - *ruoštis → **ruoškis***
+
+    **С приставкой** — *-si-* после неё:
+    - *nusiraminti → **nusiramink**, nusiraminkite*
+    - *atsisėsti → **atsisėsk**, atsisėskite* · *apsirengti → **apsirenk***
+    - *susitikti → **susitikime*** (давай встретимся)
+
+    **С отрицанием** — *-si-* после *ne-*:
+    - *jaudintis → **nesijaudink*** · *juoktis → **nesijuok*** · *vėluoti → nevėluok* (не возвратный)
+comparison:
+  ru: |
+    В русском «-ся» всегда в конце: «не волнуйся, успокойся». В литовском при приставке или *ne-* частица прыгает внутрь: ***nesi**jaudink, nu**si**ramink*. Ошибка — *nejaudinkis*.
+examples:
+  - { text: "O, nesijaudink.", translation: "О, не волнуйся.", source: "tatoeba:4690712" }
+  - { text: "Prašau nusiramink.", translation: "Пожалуйста, успокойся.", source: "tatoeba:2153375" }
+  - { text: "Greitai apsirenk.", translation: "Быстро одевайся.", source: "tatoeba:1607585" }
+  - { text: "Eik ir čia atsisėsk.", translation: "Иди сядь здесь.", source: "tatoeba:13383248" }
+  - { text: "Prašau, neskubėk.", translation: "Не спеши, пожалуйста.", source: "tatoeba:12286353" }
+exercises:
+  - type: cloze
+    text: "___, viskas bus gerai."
+    answer: "Nesijaudink"
+    hint: "jaudintis → не (ты)"
+    translation: "Не волнуйся, всё будет хорошо."
+  - type: cloze
+    text: "Prašau, ___ – gydytojas tuoj ateis."
+    answer: "atsisėskite"
+    hint: "atsisėsti → вы"
+    translation: "Пожалуйста, садитесь — врач сейчас придёт."
+  - type: cloze
+    text: "Greičiau ___, vėluojame!"
+    answer: "renkis"
+    also: ["apsirenk"]
+    hint: "rengtis → ты"
+    translation: "Одевайся быстрее, опаздываем!"
+  - type: cloze
+    text: "___ rytoj prie kavinės."
+    answer: "Susitikime"
+    hint: "susitikti → мы"
+    translation: "Давай встретимся завтра у кафе."
+  - type: cloze
+    text: "___ iš manęs!"
+    answer: "Nesijuok"
+    hint: "juoktis → не (ты)"
+    translation: "Не смейся надо мной!"
+  - type: cloze
+    text: "Vaikai, ___ rankas prieš valgį."
+    answer: "nusiplaukite"
+    hint: "nusiplauti → вы"
+    translation: "Дети, помойте руки перед едой."
+  - type: cloze
+    text: "___, mes turime laiko."
+    answer: "Neskubėk"
+    hint: "skubėti → не (ты)"
+    translation: "Не спеши, у нас есть время."
+  - type: cloze
+    text: "___ ir pagalvok dar kartą."
+    answer: "Nusiramink"
+    hint: "nusiraminti → ты"
+    translation: "Успокойся и подумай ещё раз."

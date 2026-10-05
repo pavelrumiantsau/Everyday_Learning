@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0093
+cefr: B1
+order: 93
+title: "Сколько: daug, nemažai, dauguma, daugelis, keli, keletas"
+explanation:
+  ru: |
+    **daug / mažai / nemažai / kiek** + родительный: *daug **žmonių**, mažai **laiko**, nemažai **pinigų**, kiek **metų**?*
+
+    **dauguma** — большинство, **daugelis** — многие; оба + род. п., глагол обычно в **ед. ч.**:
+    - ***Dauguma** žmonių taip **mano**.* · ***Daugelis** apie tai **kalbėjo**.*
+
+    **Несколько** — два слова:
+    - ***keli / kelios*** — согласуется как прилагательное: *keli draugai, kelios dienos, kelių žmonių, kelias minutes*
+    - ***keletas*** + род. п. (вин. ***keletą***): *keletas draugų, turiu keletą klausimų*
+    - с *metai* и другими словами только во мн. ч. — ***keleri***: *prieš **kelerius** metus*
+
+    И противоположности: ***nė vienas*** — ни один, ***visi*** — все.
+comparison:
+  ru: |
+    «Большинство» (*dauguma*) — часть целого, «многие» (*daugelis*) — просто много. «Несколько дней» можно сказать двумя способами: *kelias dienas* или *keletą dienų*.
+examples:
+  - { text: "Taip galvoja dauguma.", translation: "Так думает большинство.", source: "tatoeba:13265445" }
+  - { text: "Taip galvoja dauguma žmonių.", translation: "Так думает большинство людей.", source: "tatoeba:13265450" }
+  - { text: "Apie tai daugelis kalbėjo.", translation: "Об этом многие говорили.", source: "tatoeba:12173384" }
+  - { text: "Tu moki keletą kalbų.", translation: "Ты владеешь несколькими языками.", source: "tatoeba:12967222" }
+  - { text: "Aš nemažai mačiau.", translation: "Я много чего видел.", source: "tatoeba:8217172" }
+exercises:
+  - type: cloze
+    text: "Parke buvo ___ žmonių."
+    answer: "daug"
+    also: ["nemažai"]
+    hint: "много"
+    translation: "В парке было много людей."
+  - type: cloze
+    text: "___ studentų išlaikė egzaminą."
+    answer: "Dauguma"
+    also: ["Daugelis"]
+    hint: "большинство"
+    translation: "Большинство студентов сдали экзамен."
+  - type: cloze
+    text: "Lauksiu tavęs ___ minutes."
+    answer: "kelias"
+    hint: "keli → вин. п. ж. р."
+    translation: "Я подожду тебя несколько минут."
+  - type: cloze
+    text: "Turiu ___ klausimų."
+    answer: "keletą"
+    hint: "keletas → вин. п."
+    translation: "У меня есть несколько вопросов."
+  - type: cloze
+    text: "___ mano, kad tai tiesa."
+    answer: "Daugelis"
+    also: ["Dauguma"]
+    hint: "многие"
+    translation: "Многие считают, что это правда."
+  - type: cloze
+    text: "Prieš ___ metus čia buvo miškas."
+    answer: "kelerius"
+    hint: "keleri (metai) → вин. п."
+    translation: "Несколько лет назад здесь был лес."
+  - type: cloze
+    text: "Šiandien turiu labai ___ laiko."
+    answer: "mažai"
+    hint: "мало"
+    translation: "Сегодня у меня очень мало времени."
+  - type: cloze
+    text: "___ kainuoja šitas bilietas?"
+    answer: "Kiek"
+    hint: "сколько"
+    translation: "Сколько стоит этот билет?"

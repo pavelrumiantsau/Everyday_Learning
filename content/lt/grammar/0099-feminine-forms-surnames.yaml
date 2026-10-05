@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0099
+cefr: B1
+order: 99
+title: "Женские формы: mokytoja, studentė; фамилии Kazlauskienė, Kazlauskaitė"
+explanation:
+  ru: |
+    **Профессии** — у почти каждой есть женская форма:
+    - *-tojas → **-toja***: *mokytojas → mokytoja, gydytojas → gydytoja, vairuotojas → vairuotoja*
+    - *-ėjas → **-ėja***: *pardavėjas → pardavėja, virėjas → virėja*
+    - *-as / -is / -ius → **-ė***: *studentas → studentė, direktorius → direktorė*
+    - *-ininkas → **-ininkė***: *dainininkas → dainininkė*
+
+    **Фамилии** — у женщин свои окончания:
+    - замужняя: ***-ienė***: *Kazlauskas → **Kazlauskienė***, *Petraitis → Petraitienė*, *Butkus → Butkuvienė*
+    - незамужняя: ***-aitė / -ytė / -utė / -ūtė***: *Kazlauskas → **Kazlauskaitė***, *Petraitis → Petraitytė*, *Butkus → Butkutė*
+    - нейтральная форма на ***-ė*** (не указывает на семейное положение): *Kazlauskė*
+
+    **Обращение** — звательный падеж: *Laba diena, ponia **Kazlauskiene**! · pone **Kazlauskai**!*
+comparison:
+  ru: |
+    В русском фамилия жены совпадает с мужской в женском роде (*Казлаускас → Казлаускас*), а в литовском по фамилии видно, замужем ли женщина: *Kazlauskienė* — жена, *Kazlauskaitė* — дочь.
+examples:
+  - { text: "Ar jūs mokytoja?", translation: "Вы учительница?", source: "tatoeba:12348918" }
+  - { text: "Ji nori būti mokytoja.", translation: "Она хочет быть учительницей.", source: "tatoeba:13391288" }
+  - { text: "Ar tu dainininkė?", translation: "Ты певица?", source: "tatoeba:12328020" }
+  - { text: "Ji yra jauna studentė.", translation: "Она молодая студентка.", source: "tatoeba:2725782" }
+  - { text: "Aš ne studentė.", translation: "Я не студентка.", source: "tatoeba:13562760" }
+exercises:
+  - type: cloze
+    text: "Mano mama dirba ___ ligoninėje."
+    answer: "gydytoja"
+    hint: "gydytojas → ж. р., тв. п."
+    translation: "Моя мама работает врачом в больнице."
+  - type: cloze
+    text: "Ji – mūsų naujoji ___."
+    answer: "mokytoja"
+    hint: "mokytojas → ж. р."
+    translation: "Она — наша новая учительница."
+  - type: cloze
+    text: "Mano sesuo – universiteto ___."
+    answer: "studentė"
+    hint: "studentas → ж. р."
+    translation: "Моя сестра — студентка университета."
+  - type: cloze
+    text: "Petro Kazlausko žmona – ponia ___."
+    answer: "Kazlauskienė"
+    hint: "Kazlauskas → жена"
+    translation: "Жена Пятраса Казлаускаса — госпожа Казлаускене."
+  - type: cloze
+    text: "Jų dukra – Rūta ___."
+    answer: "Kazlauskaitė"
+    hint: "Kazlauskas → дочь"
+    translation: "Их дочь — Рута Казлаускайте."
+  - type: cloze
+    text: "Jono Petraičio žmona – ___."
+    answer: "Petraitienė"
+    hint: "Petraitis → жена"
+    translation: "Жена Йонаса Петрайтиса — Петрайтене."
+  - type: cloze
+    text: "Parduotuvėje mums padėjo maloni ___."
+    answer: "pardavėja"
+    hint: "pardavėjas → ж. р."
+    translation: "В магазине нам помогла приятная продавщица."
+  - type: cloze
+    text: "Laba diena, ponia ___!"
+    answer: "Kazlauskiene"
+    hint: "Kazlauskienė → зват. п."
+    translation: "Добрый день, госпожа Казлаускене!"

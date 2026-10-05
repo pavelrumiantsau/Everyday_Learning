@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0094
+cefr: B1
+order: 94
+title: "Рассказ по порядку: iš pradžių, paskui, tuo metu, staiga, galiausiai"
+explanation:
+  ru: |
+    Чтобы пересказать историю или прочитанное (это задание есть на B2), нужны слова порядка событий:
+
+    - ***iš pradžių*** — сначала · ***pirmiausia*** — прежде всего
+    - ***paskui / po to / tada*** — потом, затем
+    - ***tuo metu*** — в это время · ***tuo tarpu*** — тем временем, а между тем
+    - ***staiga*** — вдруг, внезапно
+    - ***netrukus*** — вскоре · ***vėliau*** — позже
+    - ***galiausiai*** — в итоге, в конце концов · ***pagaliau*** — наконец-то
+
+    ⚠️ ***paskui*** + винительный значит «за кем-то»: *Eik **paskui mane**.* — Иди за мной.
+comparison:
+  ru: |
+    Почти один к одному с русским. Различайте: *iš pradžių* (сначала — в начале истории) и *pradėk **iš pradžių*** (начни сначала — заново); *galiausiai* (в итоге) и *pagaliau* (наконец-то, с облегчением).
+examples:
+  - { text: "Iš pradžių jis varžėsi.", translation: "Сначала он стеснялся.", source: "tatoeba:12654183" }
+  - { text: "Paskui ji atvažiavo.", translation: "Потом она приехала.", source: "tatoeba:13004475" }
+  - { text: "Staiga pradėjo lyti.", translation: "Внезапно пошёл дождь.", source: "tatoeba:8080724" }
+  - { text: "Galiausiai jie pasidavė.", translation: "В итоге они сдались.", source: "tatoeba:13389011" }
+  - { text: "Eik paskui mane.", translation: "Иди за мной.", source: "tatoeba:12195796" }
+exercises:
+  - type: cloze
+    text: "___ viskas atrodė paprasta."
+    answer: "Iš pradžių"
+    hint: "сначала"
+    translation: "Сначала всё казалось простым."
+  - type: cloze
+    text: "Pavalgėme, o ___ išėjome pasivaikščioti."
+    answer: "paskui"
+    also: ["tada", "po to"]
+    hint: "потом"
+    translation: "Мы поели, а потом пошли гулять."
+  - type: cloze
+    text: "Sėdėjome tyliai, ir ___ kažkas pasibeldė."
+    answer: "staiga"
+    hint: "вдруг"
+    translation: "Мы сидели тихо, и вдруг кто-то постучал."
+  - type: cloze
+    text: "Aš gaminau vakarienę, o vyras ___ tvarkė kambarį."
+    answer: "tuo metu"
+    also: ["tuo tarpu"]
+    hint: "в это время"
+    translation: "Я готовила ужин, а муж в это время убирал комнату."
+  - type: cloze
+    text: "Ilgai ginčijomės, bet ___ susitarėme."
+    answer: "galiausiai"
+    also: ["pagaliau"]
+    hint: "в итоге"
+    translation: "Мы долго спорили, но в итоге договорились."
+  - type: cloze
+    text: "Dabar neturiu laiko – paskambinsiu ___."
+    answer: "vėliau"
+    hint: "позже"
+    translation: "Сейчас нет времени — позвоню позже."
+  - type: cloze
+    text: "Šuo bėgo ___ šeimininką."
+    answer: "paskui"
+    hint: "за (кем)"
+    translation: "Собака бежала за хозяином."
+  - type: cloze
+    text: "Lėktuvas pakilo ir ___ dingo debesyse."
+    answer: "netrukus"
+    hint: "вскоре"
+    translation: "Самолёт взлетел и вскоре исчез в облаках."

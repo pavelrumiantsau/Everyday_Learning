@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0101
+cefr: B2
+order: 101
+title: "Повторение B2: «если бы тогда» — būčiau žinojęs, būtum pasakęs"
+explanation:
+  ru: |
+    О том, что **могло бы случиться в прошлом, но не случилось**, говорят сослагательным от *būti* + причастием прошедшего времени:
+
+    - ***būčiau, būtum, būtų, būtume, būtumėte*** + *-ęs / -usi / -ę*
+    - *Jei **būčiau žinojęs**, **būčiau atėjęs**.* — Если бы я знал, я бы пришёл.
+    - причастие согласуется: *aš būčiau žinojęs* (м.) / *žinojusi* (ж.), *mes būtume žinoję*
+
+    **Смешанный вариант** — прошлое условие, результат сейчас:
+    - *Jei **būtume išvažiavę** anksčiau, dabar jau **būtume** namie.*
+
+    Частые фразы:
+    - ***Kas būtų pagalvojęs!*** — Кто бы мог подумать!
+    - ***Jei tik būčiau žinojusi!*** — Если бы я только знала!
+    - *Be tavęs **būčiau pražuvęs**.* — Без тебя я бы пропал.
+comparison:
+  ru: |
+    В русском «если бы знал» — одна форма для настоящего и прошлого, в литовском их две: *jei žinočiau* (сейчас, вообще) и *jei **būčiau žinojęs*** (тогда, в прошлом).
+examples:
+  - { text: "Kas būtų pagalvojęs!", translation: "Кто бы мог подумать!", source: "tatoeba:10281169" }
+  - { text: "Ką tada tu būtum pasakęs?", translation: "Что бы ты тогда сказал?", source: "tatoeba:9022585" }
+  - { text: "Jei tik aš būčiau žinojusi!", translation: "Если бы я знала!", source: "tatoeba:2612125" }
+  - { text: "Be šito aš būčiau pražuvęs.", translation: "Без этого я бы пропал.", source: "tatoeba:12975161" }
+  - { text: "O jeigu tai būtų nutikę tau?", translation: "А если бы такое случилось с тобой?", source: "tatoeba:13848992" }
+exercises:
+  - type: cloze
+    text: "Jei būčiau ___, būčiau atėjęs."
+    answer: "žinojęs"
+    also: ["žinojusi"]
+    hint: "žinoti → прич. прош. вр."
+    translation: "Если бы я знал, я бы пришёл."
+  - type: cloze
+    text: "Jei būtum paskambinęs, ___ tave pasitikęs."
+    answer: "būčiau"
+    hint: "būti → я, сослагат."
+    translation: "Если бы ты позвонил, я бы тебя встретил."
+  - type: cloze
+    text: "Be tavo pagalbos mes nebūtume ___."
+    answer: "suspėję"
+    hint: "suspėti → мы"
+    translation: "Без твоей помощи мы бы не успели."
+  - type: cloze
+    text: "Jei būčiau tave ___, būčiau pasisveikinęs."
+    answer: "pamatęs"
+    also: ["pamačiusi"]
+    hint: "pamatyti → прич. прош. вр."
+    translation: "Если бы я тебя увидел, я бы поздоровался."
+  - type: cloze
+    text: "Ką tu ___ daręs mano vietoje?"
+    answer: "būtum"
+    hint: "būti → ты, сослагат."
+    translation: "Что бы ты сделал на моём месте?"
+  - type: cloze
+    text: "Jei būtume išvažiavę anksčiau, dabar jau ___ namie."
+    answer: "būtume"
+    hint: "сейчас → сослагат. наст., мы"
+    translation: "Если бы мы выехали раньше, сейчас бы уже были дома."
+  - type: cloze
+    text: "Ji būtų ___ egzaminą, jei būtų daugiau mokiusis."
+    answer: "išlaikiusi"
+    hint: "išlaikyti → ж. р."
+    translation: "Она бы сдала экзамен, если бы больше училась."
+  - type: cloze
+    text: "Jie būtų ___ anksčiau, bet sugedo automobilis."
+    answer: "atvykę"
+    hint: "atvykti → мн. ч."
+    translation: "Они бы приехали раньше, но сломалась машина."
