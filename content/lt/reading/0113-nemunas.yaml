@@ -1,0 +1,45 @@
+id: lt-r-0113
+cefr: C1
+title: "Upė, kuri skiria ir jungia"
+topic: "Неман"
+source: generated
+text: |
+  Nemunas – ne tik ilgiausia Lietuvos upė, bet ir vienas svarbiausių tautos simbolių. Prasidėjęs Baltarusijoje, jis teka per visą Lietuvą, kurį laiką skiria ją nuo Kaliningrado srities, o galiausiai, išsišakojęs į deltą, įsilieja į Kuršių marias. Neatsitiktinai jis dažnai vadinamas Lietuvos upių tėvu: prie jo krantų kūrėsi gyvenvietės, o jo vandenimis keliavo prekės, žmonės ir idėjos.
+
+  Viduramžiais Nemunas buvo ir gynybos linija. Jo slėnyje iki šiol stūkso piliakalniai, o vėlesniais amžiais ant aukštų krantų iškilo pilys ir dvarai – Raudonės, Panemunės ir kiti, šiandien traukiantys turistus. Žemupyje upė ilgai skyrė Lietuvą nuo kryžiuočių valdų, tačiau kartu ir jungė: vėliau ja vyko gyva prekyba su Prūsija ir Karaliaučiumi.
+
+  Sovietmečiu santykis su upe tapo grynai utilitarinis. Netoli Kauno pastačius hidroelektrinę, susidarė didžiulis tvenkinys – Kauno marios, po kurių vandeniu atsidūrė ištisi kaimai. Pažanga buvo matuojama kilovatais, o prarastos sodybos ir kapinės liko tik senųjų gyventojų atmintyje.
+
+  Šiandien Nemunas grįžta į žmonių gyvenimą kitaip – kaip poilsio vieta. Plaukiojama baidarėmis, pakrantėse rengiami festivaliai, Kaune ir kituose miestuose tvarkomos ilgai apleistos krantinės. O Nemuno deltoje pavasario potvyniai kasmet vis dar užlieja kelius, primindami, kad upė nepaklūsta žmogaus planams.
+
+  Ko gero, Nemuno istorija atspindi, kaip keitėsi pats žmogaus santykis su gamta: nuo pagarbos ir baimės per užkariavimą iki atsargaus, dar ne visai išmokto sugyvenimo.
+glossary:
+  - { word: "išsišakojęs", lemma: "išsišakoti", pos: verb, forms: { pres: "išsišakoja", past: "išsišakojo" }, meaning: "разветвиться", note: "прич. прош. вр.: разветвившись" }
+  - { word: "įsilieja", lemma: "įsilieti", pos: verb, forms: { pres: "įsilieja", past: "įsiliejo" }, meaning: "влиться, впадать" }
+  - { word: "marias", lemma: "marios", pos: noun, gender: f, gen: "marių", plural_only: true, meaning: "залив (лагуна); водохранилище", note: "вин. п.; Kuršių marios — Куршский залив" }
+  - { word: "gyvenvietės", lemma: "gyvenvietė", pos: noun, gender: f, gen: "gyvenvietės", meaning: "поселение, посёлок", note: "им. п. мн. ч." }
+  - { word: "slėnyje", lemma: "slėnis", pos: noun, gender: m, gen: "slėnio", meaning: "долина", note: "мест. п." }
+  - { word: "stūkso", lemma: "stūksoti", pos: verb, forms: { pres: "stūkso", past: "stūksojo" }, meaning: "возвышаться, громоздиться" }
+  - { word: "Žemupyje", lemma: "žemupys", pos: noun, gender: m, gen: "žemupio", meaning: "низовье (реки)", note: "мест. п." }
+  - { word: "kryžiuočių", lemma: "kryžiuotis", pos: noun, gender: m, gen: "kryžiuočio", meaning: "крестоносец", note: "род. п. мн. ч." }
+  - { word: "valdų", lemma: "valda", pos: noun, gender: f, gen: "valdos", meaning: "владение", note: "род. п. мн. ч." }
+  - { word: "utilitarinis", lemma: "utilitarinis", pos: adj, meaning: "утилитарный" }
+  - { word: "hidroelektrinę", lemma: "hidroelektrinė", pos: noun, gender: f, gen: "hidroelektrinės", meaning: "гидроэлектростанция", note: "вин. п." }
+  - { word: "tvenkinys", lemma: "tvenkinys", pos: noun, gender: m, gen: "tvenkinio", meaning: "водохранилище, пруд" }
+  - { word: "baidarėmis", lemma: "baidarė", pos: noun, gender: f, gen: "baidarės", meaning: "байдарка", note: "тв. п. мн. ч." }
+  - { word: "apleistos", lemma: "apleistas", pos: adj, meaning: "заброшенный", note: "им. п. мн. ч. ж. р." }
+  - { word: "krantinės", lemma: "krantinė", pos: noun, gender: f, gen: "krantinės", meaning: "набережная", note: "им. п. мн. ч." }
+  - { word: "potvyniai", lemma: "potvynis", pos: noun, gender: m, gen: "potvynio", meaning: "половодье, наводнение", note: "им. п. мн. ч." }
+  - { word: "nepaklūsta", lemma: "paklusti", pos: verb, forms: { pres: "paklūsta", past: "pakluso" }, meaning: "подчиняться", note: "с отрицанием, + дат. п." }
+  - { word: "užkariavimą", lemma: "užkariavimas", pos: noun, gender: m, gen: "užkariavimo", meaning: "завоевание, покорение", note: "вин. п." }
+  - { word: "sugyvenimo", lemma: "sugyvenimas", pos: noun, gender: m, gen: "sugyvenimo", meaning: "сосуществование, уживчивость", note: "род. п." }
+questions:
+  - q: "Kokį vaidmenį Nemunas atliko viduramžiais?"
+    options: ["Buvo gynybos linija, kurios žemupys skyrė Lietuvą nuo kryžiuočių valdų", "Buvo naudojamas elektrai gaminti", "Buvo vienintelis kelias į Vilnių"]
+    answer: 0
+  - q: "Ką autorius pabrėžia kalbėdamas apie Kauno hidroelektrinę?"
+    options: ["Kad ji buvo pastatyta per vėlai", "Kad dėl tvenkinio po vandeniu atsidūrė ištisi kaimai, o pažanga buvo matuojama vien kilovatais", "Kad ji pagerino žvejybą"]
+    answer: 1
+  - q: "Kaip, autoriaus nuomone, keitėsi žmogaus santykis su gamta?"
+    options: ["Jis visą laiką buvo vienodas", "Nuo užkariavimo iki baimės", "Nuo pagarbos ir baimės per užkariavimą iki atsargaus sugyvenimo"]
+    answer: 2
