@@ -1,0 +1,710 @@
+# Generated from scripts/batches/lt-b2-2034.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2034
+  type: word
+  cefr: B2
+  text: "pasitenkinimas"
+  pos: noun
+  gender: m
+  gen: "pasitenkinimo"
+  meaning: { ru: "удовлетворение" }
+  note: { ru: "teikti pasitenkinimą — приносить удовлетворение" }
+  examples:
+    - { text: "Darbas jam nesuteikia pasitenkinimo.", translation: "Работа не приносит ему удовлетворения.", source: "tatoeba:12859190" }
+- id: lt-w-2035
+  type: word
+  cefr: B1
+  text: "užjausti"
+  pos: verb
+  forms: { pres: "užjaučia", past: "užjautė" }
+  meaning: { ru: "сочувствовать" }
+  note: { ru: "užjausti ką (вин. п.) — сочувствовать кому" }
+  examples:
+    - { text: "Aš jį labai užjaučiu.", translation: "Я ему очень сочувствую.", source: "tatoeba:11682675" }
+- id: lt-w-2036
+  type: word
+  cefr: B1
+  text: "nusivylęs"
+  pos: adj
+  meaning: { ru: "разочарованный" }
+  note: { ru: "nusivylęs kuo (тв. п.) — разочарован в ком/чём" }
+  examples:
+    - { text: "Aš esu taip nusivylęs.", translation: "Я так разочарован.", source: "tatoeba:13407685" }
+- id: lt-w-2037
+  type: word
+  cefr: B2
+  text: "nekantrumas"
+  pos: noun
+  gender: m
+  gen: "nekantrumo"
+  meaning: { ru: "нетерпение" }
+  note: { ru: "degti iš nekantrumo — сгорать от нетерпения" }
+  examples:
+    - { text: "Jis dega iš nekantrumo.", translation: "Он сгорает от нетерпения.", source: "tatoeba:11284640" }
+- id: lt-w-2038
+  type: word
+  cefr: B1
+  text: "gėdytis"
+  pos: verb
+  forms: { pres: "gėdijasi", past: "gėdijosi" }
+  meaning: { ru: "стыдиться, стесняться" }
+  note: { ru: "gėdytis ko (род. п.)" }
+  examples:
+    - { text: "Tomas gėdijasi savo kūno.", translation: "Том стесняется своего тела.", source: "tatoeba:12178449" }
+- id: lt-w-2039
+  type: word
+  cefr: B2
+  text: "pasipiktinimas"
+  pos: noun
+  gender: m
+  gen: "pasipiktinimo"
+  meaning: { ru: "возмущение" }
+  examples:
+    - { text: "Mano pasipiktinimui nebuvo ribų.", translation: "Моему возмущению не было предела.", source: "tatoeba:11566196" }
+- id: lt-w-2040
+  type: word
+  cefr: B2
+  text: "sutrikęs"
+  pos: adj
+  meaning: { ru: "растерянный, смущённый" }
+  examples:
+    - { text: "Tomas atrodė sutrikęs.", translation: "Том выглядел смущённым.", source: "tatoeba:10716942" }
+- id: lt-w-2041
+  type: word
+  cefr: B2
+  text: "sielvartas"
+  pos: noun
+  gender: m
+  gen: "sielvarto"
+  meaning: { ru: "горе, скорбь" }
+  examples:
+    - { text: "Aš dalinuosi tavo sielvartu.", translation: "Я разделяю твое горе.", source: "tatoeba:11940468" }
+- id: lt-w-2042
+  type: word
+  cefr: B2
+  text: "piktintis"
+  pos: verb
+  forms: { pres: "piktinasi", past: "piktinosi" }
+  meaning: { ru: "возмущаться" }
+  note: { ru: "piktinti — злить, возмущать (кого-л.)" }
+- id: lt-w-2043
+  type: word
+  cefr: B1
+  text: "jaudulys"
+  pos: noun
+  gender: m
+  gen: "jaudulio"
+  meaning: { ru: "волнение" }
+  examples:
+    - { text: "Jis stengėsi sutramdyti jaudulį.", translation: "Он старался сдержать волнение.", source: "tatoeba:11651595" }
+- id: lt-w-2044
+  type: word
+  cefr: B1
+  text: "susirūpinęs"
+  pos: adj
+  meaning: { ru: "обеспокоенный" }
+  note: { ru: "susirūpinęs kuo / dėl ko — обеспокоен чем" }
+  examples:
+    - { text: "Kuo tu susirūpinęs?", translation: "Чем ты обеспокоен?", source: "tatoeba:12506670" }
+- id: lt-w-2045
+  type: word
+  cefr: B2
+  text: "nuoskauda"
+  pos: noun
+  gender: f
+  gen: "nuoskaudos"
+  meaning: { ru: "обида" }
+  examples:
+    - { text: "Aš verkiu ne iš skausmo, o iš nuoskaudos.", translation: "Я плачу не от боли, а от обиды.", source: "tatoeba:10190899" }
+- id: lt-w-2046
+  type: word
+  cefr: B2
+  text: "susigėsti"
+  pos: verb
+  forms: { pres: "susigėsta", past: "susigėdo" }
+  meaning: { ru: "смутиться, устыдиться" }
+  examples:
+    - { text: "Aš labai susigėdau.", translation: "Мне стало очень стыдно.", source: "tatoeba:13520669" }
+- id: lt-w-2047
+  type: word
+  cefr: B2
+  text: "susižavėjimas"
+  pos: noun
+  gender: m
+  gen: "susižavėjimo"
+  meaning: { ru: "восхищение" }
+  examples:
+    - { text: "Jie visi verti susižavėjimo.", translation: "Все они достойны восхищения.", source: "tatoeba:10574900" }
+- id: lt-w-2048
+  type: word
+  cefr: B1
+  text: "išsigąsti"
+  pos: verb
+  forms: { pres: "išsigąsta", past: "išsigando" }
+  meaning: { ru: "испугаться" }
+  note: { ru: "išsigąsti ko (род. п.); išgąsdinti — напугать" }
+  examples:
+    - { text: "Vaikai išsigando griaustinio.", translation: "Дети испугались грома.", source: "tatoeba:12231829" }
+- id: lt-w-2049
+  type: word
+  cefr: B1
+  text: "nustebęs"
+  pos: adj
+  meaning: { ru: "удивлённый" }
+  examples:
+    - { text: "Aš labai nustebęs.", translation: "Я очень удивлён.", source: "tatoeba:10217985" }
+- id: lt-w-2050
+  type: word
+  cefr: A2
+  text: "ligoninė"
+  pos: noun
+  gender: f
+  gen: "ligoninės"
+  meaning: { ru: "больница" }
+  note: { ru: "gulėti ligoninėje — лежать в больнице" }
+  examples:
+    - { text: "Ji bijo ligoninių.", translation: "Она боится больниц.", source: "tatoeba:12464260" }
+- id: lt-w-2051
+  type: word
+  cefr: B2
+  text: "kraujospūdis"
+  pos: noun
+  gender: m
+  gen: "kraujospūdžio"
+  meaning: { ru: "кровяное давление" }
+  note: { ru: "matuoti kraujospūdį — измерять давление" }
+  examples:
+    - { text: "Jis privalo kraujospūdį matuoti kasdien.", translation: "Он должен измерять кровяное давление каждый день.", source: "tatoeba:11993235" }
+- id: lt-w-2052
+  type: word
+  cefr: B1
+  text: "nusiraminti"
+  pos: verb
+  forms: { pres: "nusiramina", past: "nusiramino" }
+  meaning: { ru: "успокоиться" }
+  note: { ru: "nuraminti — успокоить (кого-л.)" }
+  examples:
+    - { text: "Vėliau ji nusiramino.", translation: "Потом она успокоилась.", source: "tatoeba:13495692" }
+- id: lt-w-2053
+  type: word
+  cefr: B1
+  text: "nekantrus"
+  pos: adj
+  meaning: { ru: "нетерпеливый" }
+  examples:
+    - { text: "Tu taip nekantri.", translation: "Ты так нетерпелива.", source: "tatoeba:12922482" }
+- id: lt-w-2054
+  type: word
+  cefr: B1
+  text: "sloga"
+  pos: noun
+  gender: f
+  gen: "slogos"
+  meaning: { ru: "насморк" }
+  note: { ru: "man sloga — у меня насморк" }
+  examples:
+    - { text: "Ar jums sloga?", translation: "У вас насморк?", source: "tatoeba:13102342" }
+- id: lt-w-2055
+  type: word
+  cefr: B1
+  text: "susijaudinti"
+  pos: verb
+  forms: { pres: "susijaudina", past: "susijaudino" }
+  meaning: { ru: "разволноваться" }
+  examples:
+    - { text: "Ji buvo labai susijaudinusi.", translation: "Она была очень взволнована.", source: "tatoeba:10832175" }
+- id: lt-w-2056
+  type: word
+  cefr: B1
+  text: "peršalimas"
+  pos: noun
+  gender: m
+  gen: "peršalimo"
+  meaning: { ru: "простуда" }
+  examples:
+    - { text: "Kūdikis atsigavo po peršalimo.", translation: "Младенец оправился от простуды.", source: "tatoeba:10253415" }
+- id: lt-w-2057
+  type: word
+  cefr: B2
+  text: "susierzinęs"
+  pos: adj
+  meaning: { ru: "раздражённый" }
+- id: lt-w-2058
+  type: word
+  cefr: B1
+  text: "žaizda"
+  pos: noun
+  gender: f
+  gen: "žaizdos"
+  meaning: { ru: "рана" }
+  examples:
+    - { text: "Iš žaizdos bėgo kraujas.", translation: "Из раны текла кровь.", source: "tatoeba:9442426" }
+- id: lt-w-2059
+  type: word
+  cefr: B2
+  text: "pavyduliauti"
+  pos: verb
+  forms: { pres: "pavyduliauja", past: "pavydulavo" }
+  meaning: { ru: "ревновать" }
+  note: { ru: "pavyduliauti ką / dėl ko" }
+  examples:
+    - { text: "Jis turbūt pavyduliauja.", translation: "Он, наверное, ревнует.", source: "tatoeba:13503640" }
+- id: lt-w-2060
+  type: word
+  cefr: A2
+  text: "tabletė"
+  pos: noun
+  gender: f
+  gen: "tabletės"
+  meaning: { ru: "таблетка" }
+  examples:
+    - { text: "Tabletę užgerk vandeniu.", translation: "Запей таблетку водой.", source: "tatoeba:12865864" }
+- id: lt-w-2061
+  type: word
+  cefr: B2
+  text: "irzlus"
+  pos: adj
+  meaning: { ru: "раздражительный" }
+  examples:
+    - { text: "Dėl alkio žmogus tampa irzlus.", translation: "От голода человек становится раздражительным.", source: "tatoeba:13235314" }
+- id: lt-w-2062
+  type: word
+  cefr: B1
+  text: "mankšta"
+  pos: noun
+  gender: f
+  gen: "mankštos"
+  meaning: { ru: "зарядка, гимнастика" }
+  note: { ru: "daryti mankštą — делать зарядку" }
+  examples:
+    - { text: "Ryte aš darau mankštą.", translation: "Я делаю зарядку по утрам.", source: "tatoeba:12960018" }
+- id: lt-w-2063
+  type: word
+  cefr: B1
+  text: "persišaldyti"
+  pos: verb
+  forms: { pres: "persišaldo", past: "persišaldė" }
+  meaning: { ru: "простудиться" }
+  examples:
+    - { text: "Aš tikriausiai persišaldžiau.", translation: "Я, наверное, простудился.", source: "tatoeba:11461652" }
+- id: lt-w-2064
+  type: word
+  cefr: B2
+  text: "antsvoris"
+  pos: noun
+  gender: m
+  gen: "antsvorio"
+  meaning: { ru: "лишний вес" }
+  note: { ru: "turėti antsvorio (род. п.)" }
+  examples:
+    - { text: "Tavo katė turi antsvorio.", translation: "У твоей кошки лишний вес.", source: "tatoeba:13612077" }
+- id: lt-w-2065
+  type: word
+  cefr: B1
+  text: "karščiuoti"
+  pos: verb
+  forms: { pres: "karščiuoja", past: "karščiavo" }
+  meaning: { ru: "температурить, иметь жар" }
+  note: { ru: "karščiavimas — жар, лихорадка" }
+  examples:
+    - { text: "Oho, tu karščiuoji.", translation: "Ого, да у тебя жар.", source: "tatoeba:13488835" }
+- id: lt-w-2066
+  type: word
+  cefr: B1
+  text: "užkrečiamas"
+  pos: adj
+  meaning: { ru: "заразный" }
+  examples:
+    - { text: "Tai užkrečiama liga.", translation: "Это заразная болезнь.", source: "tatoeba:11580811" }
+- id: lt-w-2067
+  type: word
+  cefr: B2
+  text: "imunitetas"
+  pos: noun
+  gender: m
+  gen: "imuniteto"
+  meaning: { ru: "иммунитет" }
+  examples:
+    - { text: "Tomui nusilpęs imunitetas.", translation: "У Тома ослабленный иммунитет.", source: "tatoeba:10781664" }
+- id: lt-w-2068
+  type: word
+  cefr: B2
+  text: "diagnozė"
+  pos: noun
+  gender: f
+  gen: "diagnozės"
+  meaning: { ru: "диагноз" }
+  note: { ru: "diagnozuoti — поставить диагноз" }
+  examples:
+    - { text: "Kaip Jūs sužinojote apie savo diagnozę?", translation: "Как Вы узнали о своём диагнозе?", source: "tatoeba:13632938" }
+- id: lt-w-2069
+  type: word
+  cefr: B1
+  text: "kosėti"
+  pos: verb
+  forms: { pres: "kosėja", past: "kosėjo" }
+  meaning: { ru: "кашлять" }
+  note: { ru: "наст. вр. также kosi; kosulys — кашель" }
+  examples:
+    - { text: "Aš visą laiką kosėju.", translation: "Я всё время кашляю.", source: "tatoeba:12341679" }
+- id: lt-w-2070
+  type: word
+  cefr: B2
+  text: "chirurgas"
+  pos: noun
+  gender: m
+  gen: "chirurgo"
+  meaning: { ru: "хирург" }
+  examples:
+    - { text: "Mano tėvas yra patyręs chirurgas.", translation: "Мой отец - опытный хирург.", source: "tatoeba:8122690" }
+- id: lt-w-2071
+  type: word
+  cefr: B1
+  text: "skausmingas"
+  pos: adj
+  meaning: { ru: "болезненный" }
+  examples:
+    - { text: "Jam tai buvo labai skausminga.", translation: "Для него это было очень болезненно.", source: "tatoeba:11208943" }
+- id: lt-w-2072
+  type: word
+  cefr: B1
+  text: "čiaudėti"
+  pos: verb
+  forms: { pres: "čiaudi", past: "čiaudėjo" }
+  meaning: { ru: "чихать" }
+  examples:
+    - { text: "Įdomu, dėl ko aš čiaudėju.", translation: "Интересно, из-за чего я чихаю.", source: "tatoeba:13736148" }
+- id: lt-w-2073
+  type: word
+  cefr: B2
+  text: "migrena"
+  pos: noun
+  gender: f
+  gen: "migrenos"
+  meaning: { ru: "мигрень" }
+  examples:
+    - { text: "Man šampanas sukelia migreną.", translation: "У меня от шампанского мигрень.", source: "tatoeba:12918709" }
+- id: lt-w-2074
+  type: word
+  cefr: B1
+  text: "stomatologas"
+  pos: noun
+  gender: m
+  gen: "stomatologo"
+  meaning: { ru: "стоматолог" }
+  note: { ru: "eiti pas stomatologą — идти к стоматологу" }
+  examples:
+    - { text: "Šiandien aš ėjau pas stomatologą.", translation: "Я сегодня ходил к стоматологу.", source: "tatoeba:12225074" }
+- id: lt-w-2075
+  type: word
+  cefr: B1
+  text: "neramus"
+  pos: adj
+  meaning: { ru: "беспокойный, неспокойный" }
+  examples:
+    - { text: "Jūra buvo nerami.", translation: "Море было неспокойное.", source: "tatoeba:12419363" }
+- id: lt-w-2076
+  type: word
+  cefr: B1
+  text: "svaigti"
+  pos: verb
+  forms: { pres: "svaigsta", past: "svaigo" }
+  meaning: { ru: "кружиться (о голове)" }
+  note: { ru: "man svaigsta galva — у меня кружится голова" }
+  examples:
+    - { text: "Man vis dar svaigsta galva.", translation: "У меня всё ещё кружится голова.", source: "tatoeba:10686721" }
+- id: lt-w-2077
+  type: word
+  cefr: B1
+  text: "daugiabutis"
+  pos: noun
+  gender: m
+  gen: "daugiabučio"
+  meaning: { ru: "многоквартирный дом" }
+  note: { ru: "daugiabutis namas" }
+  examples:
+    - { text: "Tai daugiabutis namas.", translation: "Это многоквартирный дом.", source: "tatoeba:13097253" }
+- id: lt-w-2078
+  type: word
+  cefr: B2
+  text: "negaluoti"
+  pos: verb
+  forms: { pres: "negaluoja", past: "negalavo" }
+  meaning: { ru: "недомогать, нездоровиться" }
+  examples:
+    - { text: "Aš šiandien truputį negaluoju.", translation: "Мне сегодня что-то нездоровится.", source: "tatoeba:12427282" }
+- id: lt-w-2079
+  type: word
+  cefr: B2
+  text: "sklypas"
+  pos: noun
+  gender: m
+  gen: "sklypo"
+  meaning: { ru: "участок (земли)" }
+  note: { ru: "žemės sklypas — земельный участок" }
+  examples:
+    - { text: "Ji nusipirko žemės sklypą statyboms.", translation: "Она купила участок под строительство.", source: "tatoeba:13499137" }
+- id: lt-w-2080
+  type: word
+  cefr: B2
+  text: "patiklus"
+  pos: adj
+  meaning: { ru: "доверчивый" }
+  examples:
+    - { text: "Jis yra patiklus.", translation: "Он доверчив.", source: "tatoeba:11832985" }
+- id: lt-w-2081
+  type: word
+  cefr: B1
+  text: "rūsys"
+  pos: noun
+  gender: m
+  gen: "rūsio"
+  meaning: { ru: "подвал, погреб" }
+  examples:
+    - { text: "Mano rūsį apsėmė.", translation: "Мой подвал затопило.", source: "tatoeba:10868125" }
+- id: lt-w-2082
+  type: word
+  cefr: B2
+  text: "apsinuodyti"
+  pos: verb
+  forms: { pres: "apsinuodija", past: "apsinuodijo" }
+  meaning: { ru: "отравиться" }
+  note: { ru: "apsinuodyti kuo (тв. п.)" }
+  examples:
+    - { text: "Aš turbūt kažkuo apsinuodijau.", translation: "Я, наверное, чем-то отравился.", source: "tatoeba:12625252" }
+- id: lt-w-2083
+  type: word
+  cefr: A2
+  text: "laiptai"
+  pos: noun
+  gender: m
+  gen: "laiptų"
+  plural_only: true
+  meaning: { ru: "лестница" }
+  note: { ru: "lipti laiptais — подниматься по лестнице" }
+  examples:
+    - { text: "Vyras užlipo laiptais.", translation: "Мужчина поднялся по лестнице.", source: "tatoeba:13197367" }
+- id: lt-w-2084
+  type: word
+  cefr: B2
+  text: "ciniškas"
+  pos: adj
+  meaning: { ru: "циничный" }
+  examples:
+    - { text: "Tu per daug ciniškas.", translation: "Ты слишком циничен.", source: "tatoeba:12705364" }
+- id: lt-w-2085
+  type: word
+  cefr: A2
+  text: "miegamasis"
+  pos: noun
+  gender: m
+  gen: "miegamojo"
+  meaning: { ru: "спальня" }
+  note: { ru: "склоняется как прилагательное: miegamajame — в спальне" }
+  examples:
+    - { text: "Moteris miega miegamajame.", translation: "Женщина спит в спальне.", source: "tatoeba:11268508" }
+- id: lt-w-2086
+  type: word
+  cefr: A2
+  text: "sportuoti"
+  pos: verb
+  forms: { pres: "sportuoja", past: "sportavo" }
+  meaning: { ru: "заниматься спортом" }
+  examples:
+    - { text: "Aš pradėjau sportuoti.", translation: "Я начал заниматься спортом.", source: "tatoeba:13713850" }
+- id: lt-w-2087
+  type: word
+  cefr: B1
+  text: "tapetai"
+  pos: noun
+  gender: m
+  gen: "tapetų"
+  plural_only: true
+  meaning: { ru: "обои" }
+  examples:
+    - { text: "Virtuvę reikia išklijuoti naujais tapetais.", translation: "На кухне нужно поклеить новые обои.", source: "tatoeba:13529166" }
+- id: lt-w-2088
+  type: word
+  cefr: B2
+  text: "išrankus"
+  pos: adj
+  meaning: { ru: "разборчивый, привередливый" }
+  note: { ru: "išrankus kam (дат. п.) — разборчив в чём" }
+  examples:
+    - { text: "Ji labai išranki maistui.", translation: "Она очень разборчива в еде.", source: "tatoeba:10275413" }
+- id: lt-w-2089
+  type: word
+  cefr: B1
+  text: "remontuoti"
+  pos: verb
+  forms: { pres: "remontuoja", past: "remontavo" }
+  meaning: { ru: "ремонтировать, чинить" }
+  note: { ru: "suremontuoti — отремонтировать" }
+  examples:
+    - { text: "Ji remontuoja savo namą.", translation: "Она ремонтирует свой дом.", source: "tatoeba:11938425" }
+- id: lt-w-2090
+  type: word
+  cefr: B2
+  text: "vandentiekis"
+  pos: noun
+  gender: m
+  gen: "vandentiekio"
+  meaning: { ru: "водопровод" }
+  examples:
+    - { text: "Šitame name nėra vandentiekio.", translation: "В этом доме нет водопровода.", source: "tatoeba:13606790" }
+- id: lt-w-2091
+  type: word
+  cefr: B1
+  text: "užtrauktukas"
+  pos: noun
+  gender: m
+  gen: "užtrauktuko"
+  meaning: { ru: "молния (застёжка)" }
+  examples:
+    - { text: "Tavo užtrauktukas atsegtas.", translation: "У тебя молния расстегнута.", source: "tatoeba:12725256" }
+- id: lt-w-2092
+  type: word
+  cefr: B2
+  text: "nesubrendęs"
+  pos: adj
+  meaning: { ru: "незрелый" }
+  examples:
+    - { text: "Nebūk toks nesubrendęs.", translation: "Не будь таким незрелым.", source: "tatoeba:13401002" }
+- id: lt-w-2093
+  type: word
+  cefr: B2
+  text: "apstatyti"
+  pos: verb
+  forms: { pres: "apstato", past: "apstatė" }
+  meaning: { ru: "обставить (мебелью)" }
+  note: { ru: "apstatyti butą baldais" }
+  examples:
+    - { text: "Apstatyti naują butą baldais kainuoja pašėlusius pinigus.", translation: "Обставить новую квартиру мебелью стоит бешеных денег.", source: "tatoeba:12646735" }
+- id: lt-w-2094
+  type: word
+  cefr: B1
+  text: "šildytuvas"
+  pos: noun
+  gender: m
+  gen: "šildytuvo"
+  meaning: { ru: "обогреватель" }
+  note: { ru: "šildymas — отопление" }
+  examples:
+    - { text: "Tomas išjungė šildytuvą.", translation: "Том выключил обогреватель.", source: "tatoeba:8339385" }
+- id: lt-w-2095
+  type: word
+  cefr: B1
+  text: "išnuomoti"
+  pos: verb
+  forms: { pres: "išnuomoja", past: "išnuomojo" }
+  meaning: { ru: "сдать в аренду" }
+  note: { ru: "išsinuomoti — снять, арендовать (себе)" }
+  examples:
+    - { text: "Jie kambarį viršuje išnuomojo studentui.", translation: "Они сдали комнату наверху студенту.", source: "tatoeba:13739833" }
+- id: lt-w-2096
+  type: word
+  cefr: B2
+  text: "nuomininkas"
+  pos: noun
+  gender: m
+  gen: "nuomininko"
+  meaning: { ru: "арендатор, квартиросъёмщик" }
+- id: lt-w-2097
+  type: word
+  cefr: B2
+  text: "gyvenamasis"
+  pos: adj
+  meaning: { ru: "жилой" }
+  note: { ru: "gyvenamoji vieta — место жительства" }
+  examples:
+    - { text: "Šitie namai yra gyvenamieji.", translation: "Эти дома жилые.", source: "tatoeba:12744031" }
+- id: lt-w-2098
+  type: word
+  cefr: B2
+  text: "nuomotojas"
+  pos: noun
+  gender: m
+  gen: "nuomotojo"
+  meaning: { ru: "арендодатель" }
+- id: lt-w-2099
+  type: word
+  cefr: B2
+  text: "vėdinti"
+  pos: verb
+  forms: { pres: "vėdina", past: "vėdino" }
+  meaning: { ru: "проветривать" }
+- id: lt-w-2100
+  type: word
+  cefr: B2
+  text: "skersvėjis"
+  pos: noun
+  gender: m
+  gen: "skersvėjo"
+  meaning: { ru: "сквозняк" }
+  examples:
+    - { text: "Uždaryk langą. Skersvėjis.", translation: "Закрой окно. Сквозняк.", source: "tatoeba:13814226" }
+- id: lt-w-2101
+  type: word
+  cefr: B1
+  text: "tvanku"
+  pos: adv
+  meaning: { ru: "душно" }
+  examples:
+    - { text: "Kambaryje buvo tvanku.", translation: "В комнате было душно.", source: "tatoeba:12554617" }
+- id: lt-w-2102
+  type: word
+  cefr: B1
+  text: "nuovargis"
+  pos: noun
+  gender: m
+  gen: "nuovargio"
+  meaning: { ru: "усталость" }
+  examples:
+    - { text: "Aš visai nejaučiu nuovargio.", translation: "Я совсем не чувствую усталости.", source: "tatoeba:13760730" }
+- id: lt-w-2103
+  type: word
+  cefr: B2
+  text: "susivaldyti"
+  pos: verb
+  forms: { pres: "susivaldo", past: "susivaldė" }
+  meaning: { ru: "сдержаться, совладать с собой" }
+  examples:
+    - { text: "Aš negalėjau susivaldyti.", translation: "Я не мог сдержаться.", source: "tatoeba:13108425" }
+- id: lt-w-2104
+  type: word
+  cefr: B1
+  text: "kirpykla"
+  pos: noun
+  gender: f
+  gen: "kirpyklos"
+  meaning: { ru: "парикмахерская" }
+  examples:
+    - { text: "Aš einu į kirpyklą.", translation: "Я в парикмахерскую.", source: "tatoeba:12983839" }
+- id: lt-w-2105
+  type: word
+  cefr: B2
+  text: "paranku"
+  pos: adv
+  meaning: { ru: "удобно, выгодно (кому-л.)" }
+  examples:
+    - { text: "Labai paranku dėl visko kaltinti kitus.", translation: "Очень удобно обвинять во всём других.", source: "tatoeba:13053278" }
+- id: lt-w-2106
+  type: word
+  cefr: B2
+  text: "įsikurti"
+  pos: verb
+  forms: { pres: "įsikuria", past: "įsikūrė" }
+  meaning: { ru: "обосноваться, поселиться; располагаться" }
+  examples:
+    - { text: "Pirmuose aukštuose įsikurs parduotuvės, kavinės ir buitinės įmonės.", translation: "На первых этажах будут располагаться магазины, кафе и предприятия быта.", source: "tatoeba:13097232" }
+- id: lt-w-2107
+  type: word
+  cefr: B2
+  text: "nutukimas"
+  pos: noun
+  gender: m
+  gen: "nutukimo"
+  meaning: { ru: "ожирение" }
+  examples:
+    - { text: "Su nutukimu reikia kovoti, ir taškas.", translation: "С ожирением нужно бороться, и точка.", source: "tatoeba:11701934" }
