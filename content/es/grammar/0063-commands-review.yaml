@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0063
+cefr: A2
+order: 63
+title: "Ven, no vengas, venga: commands — a review"
+explanation:
+  en: |
+    **tú, affirmative** — the *él/ella* present form (lesson 20): *habla, come, escribe, cierra*.
+    Eight irregulars: ***ven*** (venir), ***ten*** (tener), ***pon*** (poner), ***sal*** (salir), ***haz*** (hacer), ***di*** (decir), ***ve*** (ir), ***sé*** (ser).
+
+    **Everything else uses the present subjunctive** (lesson 27):
+    - **tú, negative:** *no* + subjunctive — ***no hables, no comas, no vengas, no hagas, no vayas, no seas***
+    - **usted / ustedes, positive and negative:** ***hable / hablen, venga, haga, diga, vaya, sea*** — *Dígame. No se preocupe.*
+    - **nosotros** = "let's": ***hablemos, comamos*** — but "let's go" is ***vamos***
+
+    **Pronouns:**
+    - glued to **affirmative** commands, usually with an accent: ***Dímelo. Siéntese. Póngalo aquí.***
+    - **before** the verb in **negative** commands: ***No me lo digas. No se siente. No lo ponga aquí.***
+
+    (In Spain *vosotros* has its own form: *¡Venid!* — *¡No vengáis!*)
+comparison:
+  en: |
+    English has one form for everyone ("come", "don't come"); Russian has two («иди / идите»). Spanish has four, and the **affirmative tú** form is the odd one out: *ven* — but *no vengas*, *venga*, *no venga*. Polite *usted* commands are what you hear from waiters, doctors and officials: *Pase. Siéntese. Firme aquí.*
+examples:
+  - { text: "Sé puntual.", translation: "Be punctual.", source: "tatoeba:2117432" }
+  - { text: "Ponte esto.", translation: "Put this on.", source: "tatoeba:4941017" }
+  - { text: "No te preocupes.", translation: "Don't worry.", source: "tatoeba:2513" }
+  - { text: "No se lo digas.", translation: "Don't tell him.", source: "tatoeba:5967491" }
+  - { text: "Dígame su nombre.", translation: "Please tell me your name.", source: "tatoeba:1246362" }
+exercises:
+  - type: cloze
+    text: "___ cuidado, la calle está mojada."
+    answer: "Ten"
+    hint: "tener, tú"
+    translation: "Be careful, the street is wet."
+  - type: cloze
+    text: "___ de aquí ahora mismo."
+    answer: "Sal"
+    hint: "salir, tú"
+    translation: "Get out of here right now."
+  - type: cloze
+    text: "No ___ la puerta, hace frío."
+    answer: "abras"
+    hint: "abrir, tú — negative"
+    translation: "Don't open the door, it's cold."
+  - type: cloze
+    text: "No ___ tonto."
+    answer: "seas"
+    hint: "ser, tú — negative"
+    translation: "Don't be silly."
+  - type: cloze
+    text: "Señora, ___ aquí, por favor."
+    answer: "firme"
+    hint: "firmar, usted"
+    translation: "Sign here, please, madam."
+  - type: cloze
+    text: "___ a la derecha en el semáforo."
+    answer: "Gire"
+    hint: "girar, usted"
+    translation: "Turn right at the traffic lights."
+  - type: cloze
+    text: "¿Los documentos? ___ aquí, por favor."
+    answer: "Déjelos"
+    hint: "dejar (usted) + los"
+    translation: "The documents? Leave them here, please."
+  - type: cloze
+    text: "¿La chaqueta? No te la ___, hace calor."
+    answer: "pongas"
+    hint: "ponerse, tú — negative"
+    translation: "The jacket? Don't put it on, it's hot."
