@@ -31,7 +31,7 @@ examples:
   - { text: "Je suis aussi âgé que toi.", translation: "I'm as old as you.", source: "tatoeba:1147749" }
   - { text: "Il est meilleur que moi.", translation: "He is better than me.", source: "tatoeba:1769530" }
   - { text: "Il nage mieux que moi.", translation: "He swims better than I do.", source: "tatoeba:1337080" }
-  - { text: "Qui est le plus grand de tous ?", translation: "Who is the tallest of all?", source: "tatoeba:888959" }
+  - { text: "Qui est le plus grand de tous ?", translation: "Who is the tallest of all?", source: "tatoeba:888959" }
 exercises:
   - type: cloze
     text: "Paris est ___ grand que Lyon."

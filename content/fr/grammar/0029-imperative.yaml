@@ -20,16 +20,16 @@ explanation:
     - **vouloir**: ***veuillez*** + infinitive = "please" in formal writing: *Veuillez patienter.*
 
     **Pronouns:**
-    - affirmative → **after** the verb, with a hyphen; *me, te* become ***moi, toi***: *Aide-**moi**. Lève-**toi** ! Prends-**le**.*
+    - affirmative → **after** the verb, with a hyphen; *me, te* become ***moi, toi***: *Aide-**moi**. Assieds-**toi**. Prends-**le**.*
     - two pronouns: *le / la / les* first: *Donne-**le-moi**.*
     - negative → the usual place, **before** the verb: *Ne **le** fais pas ! Ne **te** lève pas.*
 
     With *y* and *en* the *-s* comes back for the sound: ***Vas-y !***
 comparison:
   en: |
-    Spanish works the same way — pronouns attach to an affirmative command and go in front of a negative one (*ayúdame* / *no me ayudes*). But French keeps the normal present form in the negative (*ne parle pas*), with no special subjunctive form like Spanish *no hables*.
+    Spanish works the same way — pronouns attach to an affirmative command and go in front of a negative one (*ayúdame* / *no me ayudes*). But French just puts *ne … pas* around the same form (*parle → ne parle pas*), with no switch to the subjunctive like Spanish *habla → no hables*.
 examples:
-  - { text: "Parle plus fort !", translation: "Speak louder!", source: "tatoeba:504430" }
+  - { text: "Parle plus fort !", translation: "Speak louder!", source: "tatoeba:504430" }
   - { text: "Aide-moi.", translation: "Help me.", source: "tatoeba:428130" }
   - { text: "Ne le fais pas !", translation: "Don't do it!", source: "tatoeba:1111977" }
   - { text: "Sois sage.", translation: "Behave yourself.", source: "tatoeba:13481471" }

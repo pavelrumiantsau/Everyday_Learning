@@ -10,7 +10,7 @@ explanation:
   en: |
     **Clock time:** ***il est** + number + **heure(s)***; "at" = ***à***.
     - *Il est une heure. Il est huit heures. Le cours commence **à** neuf heures.*
-    - *et quart* (quarter past), *et demie* (half past), *moins le quart* (quarter to), *moins dix* (ten to): *Il est huit heures **et demie**. Il est neuf heures **moins dix**.*
+    - *et quart* (quarter past), *et demie* (half past), *moins le quart* (quarter to), *moins dix* (ten to): *Il est huit heures **et demie**. Il est dix heures **moins vingt**.*
     - ***midi*** (noon), ***minuit*** (midnight) — without *heures*: *Il est midi. Je déjeune à midi.*
     - *du matin, de l'après-midi, du soir*: *huit heures du soir*. Timetables use 24 hours: *20 h 30* = *vingt heures trente*.
     - *Quelle heure est-il ?* — What time is it?
@@ -29,7 +29,7 @@ comparison:
   en: |
     Very close to Spanish: *son las ocho* = *il est huit heures*, *a las ocho* = *à huit heures*, *y cuarto / y media / menos diez* = *et quart / et demie / moins dix*, *el 5 de octubre* = *le 5 octobre* (French drops the *de*), *el lunes* = *lundi*, *los lunes* = *le lundi*. French uses the singular *il est* even for "eight o'clock" — never ~~ils sont~~.
 examples:
-  - { text: "Quelle heure est-il ?", translation: "What time is it?", source: "tatoeba:3474" }
+  - { text: "Quelle heure est-il ?", translation: "What time is it?", source: "tatoeba:3474" }
   - { text: "Il est neuf heures et quart.", translation: "It's a quarter past nine.", source: "tatoeba:10122" }
   - { text: "Je déjeune à midi.", translation: "I have lunch at noon.", source: "tatoeba:6268" }
   - { text: "C'est le trois octobre.", translation: "It's the third of October.", source: "tatoeba:9971" }
