@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0026
+cefr: A1
+order: 116
+title: "Dates and time: le 5 octobre, en 2027, à huit heures"
+explanation:
+  en: |
+    **Clock time:** ***il est** + number + **heure(s)***; "at" = ***à***.
+    - *Il est une heure. Il est huit heures. Le cours commence **à** neuf heures.*
+    - *et quart* (quarter past), *et demie* (half past), *moins le quart* (quarter to), *moins dix* (ten to): *Il est huit heures **et demie**. Il est neuf heures **moins dix**.*
+    - ***midi*** (noon), ***minuit*** (midnight) — without *heures*: *Il est midi. Je déjeune à midi.*
+    - *du matin, de l'après-midi, du soir*: *huit heures du soir*. Timetables use 24 hours: *20 h 30* = *vingt heures trente*.
+    - *Quelle heure est-il ?* — What time is it?
+
+    **Dates:** ***le** + plain number + month* — no "of", no ordinal, except ***le premier*** (the 1st):
+    - *le 5 octobre, le 14 juillet, le premier mai*
+    - *On est le combien ? — On est le 5.* / *Nous sommes le 5 octobre.*
+    - days and months take **no capital letter**: *lundi, octobre*
+
+    **"In":**
+    - months and years: ***en*** *octobre, **en** 2027*
+    - seasons: ***en*** *été, **en** automne, **en** hiver*, but ***au*** *printemps*
+
+    **Days:** *lundi* = on Monday (this one); *le lundi* = on Mondays (every week); *du lundi au vendredi* = from Monday to Friday.
+comparison:
+  en: |
+    Very close to Spanish: *son las ocho* = *il est huit heures*, *a las ocho* = *à huit heures*, *y cuarto / y media / menos diez* = *et quart / et demie / moins dix*, *el 5 de octubre* = *le 5 octobre* (French drops the *de*), *el lunes* = *lundi*, *los lunes* = *le lundi*. French uses the singular *il est* even for "eight o'clock" — never ~~ils sont~~.
+examples:
+  - { text: "Quelle heure est-il ?", translation: "What time is it?", source: "tatoeba:3474" }
+  - { text: "Il est neuf heures et quart.", translation: "It's a quarter past nine.", source: "tatoeba:10122" }
+  - { text: "Je déjeune à midi.", translation: "I have lunch at noon.", source: "tatoeba:6268" }
+  - { text: "C'est le trois octobre.", translation: "It's the third of October.", source: "tatoeba:9971" }
+  - { text: "Il est né en 1960.", translation: "He was born in 1960.", source: "tatoeba:135787" }
+exercises:
+  - type: cloze
+    text: "Il est huit heures et ___."
+    answer: "quart"
+    hint: "a quarter past"
+    translation: "It's a quarter past eight."
+  - type: cloze
+    text: "Le film commence ___ neuf heures."
+    answer: "à"
+    hint: "at (a time)"
+    translation: "The film starts at nine."
+  - type: cloze
+    text: "Il est sept heures et ___."
+    answer: "demie"
+    hint: "half past"
+    translation: "It's half past seven."
+  - type: cloze
+    text: "Il est neuf heures ___ dix."
+    answer: "moins"
+    hint: "ten to nine"
+    translation: "It's ten to nine."
+  - type: cloze
+    text: "Mon anniversaire est le ___ mai."
+    answer: "premier"
+    hint: "the 1st — the only ordinal in dates"
+    translation: "My birthday is on the first of May."
+  - type: cloze
+    text: "Je suis né ___ 1990."
+    answer: "en"
+    hint: "in (a year)"
+    translation: "I was born in 1990."
+  - type: cloze
+    text: "Nous partons en vacances ___ juillet."
+    answer: "en"
+    hint: "in (a month)"
+    translation: "We're going on holiday in July."
+  - type: cloze
+    text: "Les arbres fleurissent ___ printemps."
+    answer: "au"
+    hint: "in spring (the exception among seasons)"
+    translation: "The trees blossom in spring."
