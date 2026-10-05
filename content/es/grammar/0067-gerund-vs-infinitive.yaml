@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0067
+cefr: B1
+order: 67
+title: "Al llegar, antes de salir, fumar es malo: infinitive or gerund?"
+explanation:
+  en: |
+    English "-ing" is usually a Spanish **infinitive**:
+    - **as a subject:** ***Fumar** es malo para la salud.* — Smoking is bad… (not ~~Fumando es…~~)
+    - **after verbs of liking:** *Me encanta **leer**.* *Odio **esperar**.*
+    - **after any preposition** — never a gerund there: *antes de **salir**, después de **comer**, sin **decir** nada, en vez de **trabajar**, gracias por **venir***
+    - ***al* + infinitive** = when / on doing: ***Al llegar**, no vi a nadie.* = *Cuando llegué…*
+    - **signs:** *Prohibido **fumar**.*
+
+    The **gerund** (*-ando / -iendo*) is for:
+    - an action in progress: *estar, seguir, llevar, pasar el día* + gerund — *Estoy **leyendo**.* *Pasé el día **viendo** la televisión.*
+    - **how / by doing:** *Aprendí español **viendo** series.* *Llegó a casa **llorando**.*
+
+    The gerund is **never a noun or an adjective**: a sleeping bag = *un saco **de dormir***; the people living here = *la gente **que vive** aquí*.
+comparison:
+  en: |
+    The trap is English: "before leaving", "thanks for coming", "swimming is fun" — all infinitives in Spanish (*antes de salir, gracias por venir, nadar es divertido*). Russian helps: where Russian uses an infinitive or a noun («курить вредно», «перед выходом»), Spanish uses the infinitive; where Russian uses a деепричастие («пришла плача», «учил, смотря сериалы»), Spanish uses the gerund.
+examples:
+  - { text: "Al llegar, no vi a nadie.", translation: "When I arrived, I didn't see anyone.", source: "tatoeba:6632850" }
+  - { text: "Péinate antes de salir.", translation: "Comb your hair before you go out.", source: "tatoeba:865707" }
+  - { text: "Fumar es malo para la salud.", translation: "Smoking is bad for the health.", source: "tatoeba:338600" }
+  - { text: "Me encanta leer.", translation: "I love reading.", source: "tatoeba:2486360" }
+  - { text: "Pasé el día viendo la televisión.", translation: "I spent the day watching TV.", source: "tatoeba:3355208" }
+exercises:
+  - type: cloze
+    text: "___ es bueno para la salud."
+    answer: "Caminar"
+    hint: "caminar — walking, as the subject"
+    translation: "Walking is good for your health."
+  - type: cloze
+    text: "Lávate las manos antes de ___."
+    answer: "comer"
+    hint: "comer"
+    translation: "Wash your hands before eating."
+  - type: cloze
+    text: "Al ___ a casa, me di cuenta de que no tenía las llaves."
+    answer: "llegar"
+    hint: "llegar — on arriving"
+    translation: "When I got home, I realised I didn't have my keys."
+  - type: cloze
+    text: "Se fue sin ___ nada."
+    answer: "decir"
+    hint: "decir"
+    translation: "He left without saying anything."
+  - type: cloze
+    text: "Aprendí inglés ___ series."
+    answer: "viendo"
+    hint: "ver — by watching"
+    translation: "I learned English by watching TV series."
+  - type: cloze
+    text: "Gracias por ___."
+    answer: "venir"
+    hint: "venir"
+    translation: "Thanks for coming."
+  - type: cloze
+    text: "Necesito un saco de ___ para la excursión."
+    answer: "dormir"
+    hint: "dormir — a sleeping bag"
+    translation: "I need a sleeping bag for the trip."
+  - type: cloze
+    text: "Pasé toda la tarde ___ con mi madre."
+    answer: "hablando"
+    hint: "hablar — spent the afternoon …ing"
+    translation: "I spent the whole afternoon talking with my mother."
