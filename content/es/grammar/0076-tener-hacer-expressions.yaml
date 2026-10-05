@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0076
+cefr: A2
+order: 76
+title: "Tengo frío, hace frío, está frío: tener, hacer and estar expressions"
+explanation:
+  en: |
+    Many states that English expresses with "to be + adjective" are ***tener* + noun** in Spanish ("I have hunger"):
+    - ***tener hambre*** — be hungry, ***tener sed*** — be thirsty, ***tener sueño*** — be sleepy
+    - ***tener frío / calor*** — be (feel) cold / hot
+    - ***tener miedo*** — be afraid, ***tener prisa*** — be in a hurry, ***tener cuidado*** — be careful
+    - ***tener razón*** — be right, ***tener suerte*** — be lucky
+    - ***tener ganas de*** + infinitive — feel like doing: *Tengo ganas de salir.*
+    - ***tener … años*** — be … years old: *Tengo treinta años.*
+
+    Because these are nouns, "very" is ***mucho / mucha***, not *muy*: *Tengo **mucha** hambre, **mucho** miedo* (lesson 64).
+
+    **Weather** uses ***hacer*** (always 3rd person singular): ***hace** frío, calor, sol, viento, buen / mal tiempo*. Some weather is a verb of its own: ***llueve***, ***nieva***; or ***está nublado***, ***hay niebla***.
+
+    **Three kinds of "cold":**
+    - *Tengo frío.* — I feel cold (a person).
+    - *Hace frío.* — It's cold (the weather).
+    - *La sopa **está** fría.* — The soup is cold (a thing).
+comparison:
+  en: |
+    Russian also avoids "to be" here, but with other means: «мне холодно» = *tengo frío*, «холодно» = *hace frío*, «я голоден» = *tengo hambre*, «ты прав» = *tienes razón*, «мне 30 лет» = *tengo 30 años*. The usual mistake from English is ~~soy frío~~ or ~~estoy frío~~ for "I'm cold" — *soy frío* means "I'm a cold person".
+examples:
+  - { text: "Tengo frío.", translation: "I'm cold.", source: "tatoeba:436326" }
+  - { text: "Hoy hace calor.", translation: "It's hot today.", source: "tatoeba:345513" }
+  - { text: "La sopa está fría.", translation: "The soup's cold.", source: "tatoeba:2268540" }
+  - { text: "Tienes razón.", translation: "You're right.", source: "tatoeba:2928" }
+  - { text: "Tengo ganas de salir.", translation: "I feel like going out.", source: "tatoeba:1302449" }
+exercises:
+  - type: cloze
+    text: "¿Quieres agua? — Sí, tengo mucha ___."
+    answer: "sed"
+    hint: "thirst"
+    translation: "Do you want some water? — Yes, I'm very thirsty."
+  - type: cloze
+    text: "Abre la ventana, ___ mucho calor aquí."
+    answer: "hace"
+    hint: "hacer — temperature in a place"
+    translation: "Open the window, it's very hot in here."
+  - type: cloze
+    text: "___ cuidado, el suelo está mojado."
+    answer: "Ten"
+    hint: "tener — command (tú)"
+    translation: "Be careful, the floor is wet."
+  - type: cloze
+    text: "Me voy a la cama, tengo mucho ___."
+    answer: "sueño"
+    hint: "sleepiness"
+    translation: "I'm going to bed, I'm very sleepy."
+  - type: cloze
+    text: "No ___ razón: el museo cierra a las seis."
+    answer: "tienes"
+    hint: "tener — tú"
+    translation: "You're not right: the museum closes at six."
+  - type: cloze
+    text: "Lo siento, no puedo hablar, tengo ___."
+    answer: "prisa"
+    hint: "a hurry"
+    translation: "Sorry, I can't talk, I'm in a hurry."
+  - type: cloze
+    text: "Hoy no ___ ganas de cocinar."
+    answer: "tengo"
+    hint: "tener — yo"
+    translation: "I don't feel like cooking today."
+  - type: cloze
+    text: "El café ya ___ frío."
+    answer: "está"
+    hint: "the temperature of a thing"
+    translation: "The coffee is already cold."
