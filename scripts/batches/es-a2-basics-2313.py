@@ -44,7 +44,7 @@ w|cariñoso|adj||A2|affectionate, loving|2258548|el cariño = affection; cariño
 w|responsable|adj||A2|responsible|859326|ser responsable de = to be responsible for
 w|puntual|adj||A2|punctual, on time|1935054|
 w|redondo|adj||A2|round|748793|cuadrado = square
-w|actual|adj||B1|current, present(-day)|1434186|false friend: "actual" = real, verdadero; actualmente = currently
+w|actual|adj||B1|current, present(-day)|1434186|false friend: English "actual" = real, verdadero; actualmente = currently
 w|amargo|adj||B1|bitter|699787|dulce = sweet; salado = salty; ácido = sour
 w|gemelo|noun|m|A2|twin|2130347|la gemela; los gemelos = twins (non-identical twins: los mellizos)
 w|suegro|noun|m|A2|father-in-law|1942970|la suegra = mother-in-law; los suegros = parents-in-law

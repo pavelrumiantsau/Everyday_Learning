@@ -379,7 +379,7 @@
   meaning: { en: "(electric) socket; plug" }
   note: { en: "enchufar = to plug in" }
   examples:
-    - { text: "Nunca pongas los dedos en el enchufe.", translation: "Never plug your finger into the socket.", source: "tatoeba:5157527" }
+    - { text: "Saca el tenedor del enchufe.", translation: "Take the fork out of the electric socket.", source: "tatoeba:5800906" }
 - id: es-w-2201
   type: word
   cefr: A2

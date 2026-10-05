@@ -8,7 +8,7 @@ w|contrato|noun|m|B1|contract|10839103|firmar un contrato = to sign a contract
 w|jubilarse|verb||B1|to retire|2620432|jubilado = retired; pensioner; la jubilación = retirement
 w|paro|noun|m|B1|unemployment|13659023|Spain: estar en paro = to be unemployed (= estar desempleado); Latin America: paro = strike
 w|nota|noun|f|A2|note; mark, grade|12958230|sacar buenas notas = to get good marks; Latin America also: la calificación
-w|deberes|noun|m|A1|homework|342878|plural: hacer los deberes; Latin America: la tarea
+w|deberes|noun|m|A2|homework|342878|plural: hacer los deberes; Latin America: la tarea
 w|diccionario|noun|m|A1|dictionary|336556|
 w|computadora|noun|f|A1|computer|1514291|Latin America; Spain: el ordenador
 w|celular|noun|m|A1|mobile (phone), cell phone|2045284|Latin America (teléfono celular); Spain: el móvil

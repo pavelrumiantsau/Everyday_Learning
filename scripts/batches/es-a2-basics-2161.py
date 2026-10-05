@@ -41,7 +41,7 @@ w|sábana|noun|f|A2|(bed) sheet|4692485|
 w|champú|noun|m|A2|shampoo|13485030|
 w|cepillo|noun|m|A2|brush|687575|cepillo de dientes = toothbrush; cepillarse los dientes = to brush your teeth
 w|peine|noun|m|A2|comb|346430|peinarse = to comb your hair
-w|enchufe|noun|m|A2|(electric) socket; plug|5157527|enchufar = to plug in
+w|enchufe|noun|m|A2|(electric) socket; plug|5800906|enchufar = to plug in
 w|calefacción|noun|f|A2|heating|12849115|calefacción central = central heating
 w|bombilla|noun|f|A2|light bulb|10106263|Mexico: el foco
 w|tijeras|noun|f|A2|scissors|805602|usually plural: unas tijeras = a pair of scissors

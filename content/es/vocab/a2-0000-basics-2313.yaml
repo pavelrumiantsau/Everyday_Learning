@@ -381,7 +381,7 @@
   text: "actual"
   pos: adj
   meaning: { en: "current, present(-day)" }
-  note: { en: "false friend: \"actual\" = real, verdadero; actualmente = currently" }
+  note: { en: "false friend: English \"actual\" = real, verdadero; actualmente = currently" }
   examples:
     - { text: "Tom es el novio actual de Mary.", translation: "Tom is Mary's current boyfriend.", source: "tatoeba:1434186" }
 - id: es-w-2356

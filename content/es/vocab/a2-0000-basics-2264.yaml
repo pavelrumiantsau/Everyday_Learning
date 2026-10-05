@@ -52,7 +52,7 @@
     - { text: "Nunca he sacado buenas notas en matemáticas.", translation: "I never got good marks in maths.", source: "tatoeba:12958230" }
 - id: es-w-2269
   type: word
-  cefr: A1
+  cefr: A2
   text: "deberes"
   pos: noun
   gender: m
