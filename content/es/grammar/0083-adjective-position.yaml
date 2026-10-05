@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0083
+cefr: B1
+order: 83
+title: "Un gran hombre, un perro grande, un viejo amigo: where adjectives go"
+explanation:
+  en: |
+    **After the noun** is the normal place — it tells this thing apart from others: *un coche **rojo**, una idea **interesante**, la cocina **española***. Colour, nationality, shape and longer adjectives always go after.
+
+    **Before the noun** go words of quantity and order (*mucho, poco, otro, primer, último*) and some common judgements (*buen, mal, gran*).
+
+    **Short forms before a singular noun:**
+    - ***bueno → buen***, ***malo → mal*** (masculine only): *un **buen** libro, **mal** tiempo* — but *una **buena** idea*
+    - ***grande → gran*** (masculine **and** feminine): *un **gran** hombre, una **gran** ciudad*
+    - also *primero → primer, tercero → tercer, alguno → algún, ninguno → ningún*
+
+    **The meaning changes with the position:**
+    - *un **gran** hombre* — a great man / *un hombre **grande*** — a big man
+    - *un **viejo** amigo* — an old (long-standing) friend / *un amigo **viejo*** — an elderly friend
+    - *¡**Pobre** niño!* — poor (unlucky) child / *un niño **pobre*** — a poor (not rich) child
+    - *el **mismo** día* — the same day / *el director **mismo*** — the director himself
+    - *un **nuevo** coche* — another, different car / *un coche **nuevo*** — a brand-new car
+comparison:
+  en: |
+    Russian and English put adjectives before the noun, so the default ~~un rojo coche~~ is a typical mistake: *un coche rojo*. Before the noun the adjective sounds subjective or emotional, like English "a great man", "poor thing", "an old friend" — the same words after the noun have their literal meaning.
+examples:
+  - { text: "Es una gran idea.", translation: "That's a great idea.", source: "tatoeba:530660" }
+  - { text: "Ha muerto un gran hombre.", translation: "A great man has died.", source: "tatoeba:5155826" }
+  - { text: "Tengo un perro grande.", translation: "I have a big dog.", source: "tatoeba:702629" }
+  - { text: "Él es un viejo amigo mío.", translation: "He's an old friend of mine.", source: "tatoeba:679777" }
+  - { text: "Hace buen tiempo.", translation: "The weather is good.", source: "tatoeba:1215730" }
+exercises:
+  - type: cloze
+    text: "Es un ___ libro, te lo recomiendo."
+    answer: "buen"
+    hint: "good"
+    translation: "It's a good book, I recommend it."
+  - type: cloze
+    text: "Madrid es una ___ ciudad."
+    answer: "gran"
+    hint: "great"
+    translation: "Madrid is a great city."
+  - type: cloze
+    text: "No es una ___ idea salir con esta lluvia."
+    answer: "buena"
+    hint: "good"
+    translation: "It's not a good idea to go out in this rain."
+  - type: cloze
+    text: "Lo siento, es un ___ momento."
+    answer: "mal"
+    hint: "bad"
+    translation: "Sorry, it's a bad time."
+  - type: cloze
+    text: "Juan es un ___ amigo: nos conocemos desde niños."
+    answer: "viejo"
+    hint: "old — long-standing"
+    translation: "Juan is an old friend: we've known each other since we were children."
+  - type: cloze
+    text: "¡___ niña! Se ha caído de la bici."
+    answer: "Pobre"
+    hint: "poor — unlucky"
+    translation: "Poor girl! She's fallen off her bike."
+  - type: cloze
+    text: "Es el ___ restaurante donde cenamos el año pasado."
+    answer: "mismo"
+    hint: "same"
+    translation: "It's the same restaurant where we had dinner last year."
+  - type: cloze
+    text: "Necesitamos una mesa ___ para doce personas."
+    answer: "grande"
+    hint: "big — after the noun"
+    translation: "We need a big table for twelve people."
