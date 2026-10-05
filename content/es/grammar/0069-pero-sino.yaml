@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0069
+cefr: B1
+order: 69
+title: "Pero, sino, sino que: two kinds of \"but\""
+explanation:
+  en: |
+    ***pero*** = but, however — adds something that contrasts; both parts stay true:
+    - *Es duro, **pero** justo.*
+    - *No es rico, **pero** es feliz.* (he isn't rich — still, he's happy)
+
+    ***sino*** = but rather, instead — only after a **negative**, and it **replaces** the wrong thing with the right one:
+    - *No soy médico, **sino** profesor.*
+    - *No vino en tren, **sino** en avión.*
+
+    ***sino que*** — the same, when a **conjugated verb** follows:
+    - *No llamó, **sino que** escribió.* *No es que no quiera, **sino que** no puedo.*
+
+    ***no solo… sino también*** = not only… but also: *Habla no solo español, **sino también** francés.* With a verb: *no solo…, **sino que** además / también…*
+
+    Don't mix up ***sino*** (one word) and ***si no*** = if not: ***Si no** vienes, te llamo.*
+comparison:
+  en: |
+    Russian makes the same split: «но» = *pero*, and «не…, **а**…» = *sino*: «я не врач, **а** учитель» → *no soy médico, **sino** profesor*. English uses "but" for both, so check: if you can say "…but rather / …instead" or Russian «а», use *sino*.
+examples:
+  - { text: "Es duro, pero justo.", translation: "It's harsh, but fair.", source: "tatoeba:5886300" }
+  - { text: "No es rico, pero es feliz.", translation: "He's not rich, but he's happy.", source: "tatoeba:1807302" }
+  - { text: "No soy médico, sino profesor.", translation: "I'm a teacher, not a doctor.", source: "tatoeba:1302101" }
+  - { text: "Yo no vivo para comer, sino que como para vivir.", translation: "I do not live to eat, but eat to live.", source: "tatoeba:727849" }
+  - { text: "Él no solo habla español, sino también francés.", translation: "He speaks not only Spanish, but also French.", source: "tatoeba:1256492" }
+exercises:
+  - type: cloze
+    text: "No quiero té, ___ café."
+    answer: "sino"
+    hint: "not this — that instead"
+    translation: "I don't want tea, I want coffee."
+  - type: cloze
+    text: "Es un piso pequeño, ___ muy bonito."
+    answer: "pero"
+    hint: "but, however"
+    translation: "It's a small flat, but very nice."
+  - type: cloze
+    text: "No vino en tren, ___ en avión."
+    answer: "sino"
+    hint: "not this — that instead"
+    translation: "He didn't come by train but by plane."
+  - type: cloze
+    text: "No me llamó, ___ que me escribió un mensaje."
+    answer: "sino"
+    hint: "instead — a verb follows"
+    translation: "He didn't call me; he sent me a message instead."
+  - type: cloze
+    text: "No tengo mucho tiempo, ___ te ayudo."
+    answer: "pero"
+    hint: "but, still"
+    translation: "I don't have much time, but I'll help you."
+  - type: cloze
+    text: "Habla no solo inglés, ___ también alemán."
+    answer: "sino"
+    hint: "not only… but also"
+    translation: "He speaks not only English but also German."
+  - type: cloze
+    text: "___ estudias, no vas a aprobar."
+    answer: "Si no"
+    hint: "if not (two words)"
+    translation: "If you don't study, you won't pass."
+  - type: cloze
+    text: "No es que no quiera ir, ___ que no puedo."
+    answer: "sino"
+    hint: "it's not that…, it's that…"
+    translation: "It's not that I don't want to go; it's that I can't."
