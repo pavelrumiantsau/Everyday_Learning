@@ -1,0 +1,45 @@
+id: lt-r-0107
+cefr: C1
+title: "Kalnas, kurio nepavyko nulyginti"
+topic: "Гора крестов"
+source: generated
+text: |
+  Netoli Šiaulių, tarp lygių laukų, kyla nedidelė kalvelė, kurią pirmą kartą pamatęs žmogus ilgai neranda žodžių. Ją dengia nesuskaičiuojama daugybė kryžių – didelių ir mažų, medinių ir metalinių, kartais vos delno dydžio, o vėjyje tarška tūkstančiai ant jų pakabintų rožinių.
+
+  Kada atsirado pirmieji kryžiai, tiksliai nežinoma. Dažniausiai manoma, kad juos ėmė statyti po XIX amžiaus sukilimų, pagerbiant žuvusius sukilėlius, kurių kapai liko nežinomi. Vėliau kryžius čia nešdavo prašydami sveikatos, dėkodami už išgijimą ar tiesiog išreikšdami savo tikėjimą.
+
+  Tikruoju simboliu kalnas tapo sovietmečiu. Valdžia ne kartą jį nulygino buldozeriais, kryžius sudegino ar išvežė, o prieigas kurį laiką saugojo milicija. Tačiau kiekvieną kartą, praėjus vos kelioms dienoms ar savaitėms, vėl atsirasdavo naujų kryžių – dažnai pastatytų naktį, slapčia, nors už tai grėsė rimti nemalonumai. Nedidelis piliakalnis virto tylaus, bet atkaklaus pasipriešinimo ženklu. 1993 metais čia lankėsi popiežius Jonas Paulius II, ir šis vizitas kalnui suteikė pasaulinį garsą.
+
+  Šiandien Kryžių kalnas – viena lankomiausių Lietuvos vietų. Čia atvažiuoja piligrimai, turistų grupės, jaunavedžiai. Ir čia slypi tam tikra įtampa: kai kas klausia, ar vieta, kurioje kryžius tapo suvenyru, perkamu prie įėjimo, neprarado dalies savo prasmės.
+
+  Vis dėlto, rodos, kalno galia slypi ne kiekvieno kryžiaus šventume, o jų visumoje. Kiekvienas atvykėlis palieka kažką savo – maldą, prašymą ar tiesiog pėdsaką, ir būtent šis daugiabalsis choras liudija tai, ko nesugebėjo sunaikinti jokie buldozeriai.
+glossary:
+  - { word: "kalvelė", lemma: "kalvelė", pos: noun, gender: f, gen: "kalvelės", meaning: "холмик" }
+  - { word: "delno", lemma: "delnas", pos: noun, gender: m, gen: "delno", meaning: "ладонь", note: "род. п.: vos delno dydžio — размером с ладонь" }
+  - { word: "tarška", lemma: "tarškėti", pos: verb, forms: { pres: "tarška", past: "tarškėjo" }, meaning: "стучать, трещать, постукивать" }
+  - { word: "rožinių", lemma: "rožinis", pos: noun, gender: m, gen: "rožinio", meaning: "чётки (католические)", note: "род. п. мн. ч." }
+  - { word: "sukilimų", lemma: "sukilimas", pos: noun, gender: m, gen: "sukilimo", meaning: "восстание", note: "род. п. мн. ч." }
+  - { word: "sukilėlius", lemma: "sukilėlis", pos: noun, gender: m, gen: "sukilėlio", meaning: "повстанец", note: "вин. п. мн. ч." }
+  - { word: "išgijimą", lemma: "išgijimas", pos: noun, gender: m, gen: "išgijimo", meaning: "выздоровление", note: "вин. п." }
+  - { word: "nulygino", lemma: "nulyginti", pos: verb, forms: { pres: "nulygina", past: "nulygino" }, meaning: "сровнять (с землёй)" }
+  - { word: "prieigas", lemma: "prieiga", pos: noun, gender: f, gen: "prieigos", meaning: "подступ, подход", note: "вин. п. мн. ч." }
+  - { word: "slapčia", lemma: "slapčia", pos: adv, meaning: "тайком, тайно" }
+  - { word: "grėsė", lemma: "grėsti", pos: verb, forms: { pres: "gresia", past: "grėsė" }, meaning: "грозить", note: "už tai grėsė nemalonumai — за это грозили неприятности" }
+  - { word: "piliakalnis", lemma: "piliakalnis", pos: noun, gender: m, gen: "piliakalnio", meaning: "городище (холм древнего замка)" }
+  - { word: "atkaklaus", lemma: "atkaklus", pos: adj, meaning: "упорный", note: "род. п." }
+  - { word: "jaunavedžiai", lemma: "jaunavedys", pos: noun, gender: m, gen: "jaunavedžio", meaning: "новобрачный", note: "им. п. мн. ч.: молодожёны" }
+  - { word: "slypi", lemma: "slypėti", pos: verb, forms: { pres: "slypi", past: "slypėjo" }, meaning: "таиться, скрываться" }
+  - { word: "šventume", lemma: "šventumas", pos: noun, gender: m, gen: "šventumo", meaning: "святость", note: "мест. п." }
+  - { word: "visumoje", lemma: "visuma", pos: noun, gender: f, gen: "visumos", meaning: "целое, совокупность", note: "мест. п." }
+  - { word: "pėdsaką", lemma: "pėdsakas", pos: noun, gender: m, gen: "pėdsako", meaning: "след", note: "вин. п." }
+  - { word: "liudija", lemma: "liudyti", pos: verb, forms: { pres: "liudija", past: "liudijo" }, meaning: "свидетельствовать" }
+questions:
+  - q: "Kodėl, kaip dažniausiai manoma, buvo pastatyti pirmieji kryžiai?"
+    options: ["Pagerbiant XIX amžiaus sukilimuose žuvusius sukilėlius, kurių kapai liko nežinomi", "Popiežiaus vizito proga", "Kaip turistų traukos objektas"]
+    answer: 0
+  - q: "Kodėl sovietmečiu kalnas tapo pasipriešinimo ženklu?"
+    options: ["Nes valdžia jį saugojo ir puoselėjo", "Nes po kiekvieno nulyginimo žmonės, rizikuodami, vėl statydavo kryžius", "Nes čia vykdavo partizanų mūšiai"]
+    answer: 1
+  - q: "Kur, autoriaus nuomone, slypi kalno galia?"
+    options: ["Suvenyrų parduotuvėje prie įėjimo", "Kiekviename atskirame kryžiuje", "Visų paliktų kryžių visumoje – daugiabalsiame chore"]
+    answer: 2
