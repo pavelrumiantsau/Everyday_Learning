@@ -1,0 +1,398 @@
+# Generated from scripts/batches/fr-a2-1146.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: fr-w-1146
+  type: word
+  cefr: A2
+  text: "falloir"
+  pos: verb
+  meaning: { en: "to be necessary (il faut)" }
+  note: { en: "impersonal only: il faut + infinitive, il faut que + subjunctive; il me faut = I need" }
+  examples:
+    - { text: "Il faut que j'y aille !", translation: "I've got to go!", source: "tatoeba:9396808" }
+- id: fr-w-1147
+  type: word
+  cefr: A2
+  text: "sembler"
+  pos: verb
+  meaning: { en: "to seem" }
+  note: { en: "ça me semble… = it seems … to me" }
+  examples:
+    - { text: "Ça ne me semble pas normal.", translation: "This doesn't seem normal to me.", source: "tatoeba:2401039" }
+- id: fr-w-1148
+  type: word
+  cefr: A2
+  text: "plaire"
+  pos: verb
+  meaning: { en: "to please (ça me plaît = I like it)" }
+  note: { en: "the thing liked is the subject, like ES gustar: ça me plaît ≈ me gusta; past participle plu" }
+  examples:
+    - { text: "Ça te plaît ? Moi, oui.", translation: "Do you like it? I like it.", source: "tatoeba:6180192" }
+- id: fr-w-1149
+  type: word
+  cefr: A2
+  text: "manquer"
+  pos: verb
+  meaning: { en: "to miss; to be missing" }
+  note: { en: "reversed: tu me manques = I miss you (lit. you are missing to me)" }
+  examples:
+    - { text: "Tu me manques tout le temps.", translation: "I miss you all the time.", source: "tatoeba:6837710" }
+- id: fr-w-1150
+  type: word
+  cefr: A2
+  text: "servir"
+  pos: verb
+  meaning: { en: "to serve; to be used for" }
+  note: { en: "je sers, il sert; à quoi ça sert ? = what is it for?" }
+  examples:
+    - { text: "À quoi sert cette clé ?", translation: "What's this key for?", source: "tatoeba:539768" }
+- id: fr-w-1151
+  type: word
+  cefr: A2
+  text: "tourner"
+  pos: verb
+  meaning: { en: "to turn" }
+  note: { en: "tourner à gauche / à droite" }
+  examples:
+    - { text: "Où est-ce que je tourne ?", translation: "Where do I turn?", source: "tatoeba:5655285" }
+- id: fr-w-1152
+  type: word
+  cefr: A2
+  text: "emmener"
+  pos: verb
+  meaning: { en: "to take (someone somewhere)" }
+  note: { en: "j'emmène; for things: emporter" }
+  examples:
+    - { text: "Mon frère m'a emmené au musée.", translation: "My brother took me to the museum.", source: "tatoeba:794292" }
+- id: fr-w-1153
+  type: word
+  cefr: A2
+  text: "offrir"
+  pos: verb
+  meaning: { en: "to give (as a present); to offer" }
+  note: { en: "like ouvrir: j'offre, offert" }
+  examples:
+    - { text: "Mon père m'a offert un jeu.", translation: "My father gave me a game.", source: "tatoeba:14723" }
+- id: fr-w-1154
+  type: word
+  cefr: A2
+  text: "se reposer"
+  pos: verb
+  meaning: { en: "to rest" }
+  note: { en: "le repos = rest" }
+  examples:
+    - { text: "Tu ne te reposes jamais ?", translation: "Don't you ever rest?", source: "tatoeba:11166596" }
+- id: fr-w-1155
+  type: word
+  cefr: A2
+  text: "se promener"
+  pos: verb
+  meaning: { en: "to go for a walk" }
+  note: { en: "je me promène, nous nous promenons" }
+  examples:
+    - { text: "Je me promène dans le parc.", translation: "I walk in the park.", source: "tatoeba:180265" }
+- id: fr-w-1156
+  type: word
+  cefr: A2
+  text: "se dépêcher"
+  pos: verb
+  meaning: { en: "to hurry" }
+  note: { en: "dépêche-toi ! = hurry up!" }
+  examples:
+    - { text: "Dépêche-toi ! Le bus arrive !", translation: "Hurry up! Here comes the bus.", source: "tatoeba:138904" }
+- id: fr-w-1157
+  type: word
+  cefr: A2
+  text: "s'habiller"
+  pos: verb
+  meaning: { en: "to get dressed" }
+  examples:
+    - { text: "Il me faut m'habiller pour l'école.", translation: "I've got to get dressed for school.", source: "tatoeba:2371165" }
+- id: fr-w-1158
+  type: word
+  cefr: A1
+  text: "se réveiller"
+  pos: verb
+  meaning: { en: "to wake up" }
+  note: { en: "réveiller = to wake (someone) up" }
+  examples:
+    - { text: "Je me réveille à sept heures.", translation: "I wake up at 7 o'clock.", source: "tatoeba:624697" }
+- id: fr-w-1159
+  type: word
+  cefr: A2
+  text: "se marier"
+  pos: verb
+  meaning: { en: "to get married" }
+  note: { en: "se marier avec quelqu'un; épouser = to marry (someone)" }
+  examples:
+    - { text: "Je veux me marier avec lui.", translation: "I want to marry him.", source: "tatoeba:12420051" }
+- id: fr-w-1160
+  type: word
+  cefr: A2
+  text: "s'occuper"
+  pos: verb
+  meaning: { en: "to take care (of), to look after" }
+  note: { en: "s'occuper de: je m'occupe de tout" }
+  examples:
+    - { text: "Qui va s'occuper du bébé ?", translation: "Who will look after the baby?", source: "tatoeba:136635" }
+- id: fr-w-1161
+  type: word
+  cefr: A2
+  text: "se tromper"
+  pos: verb
+  meaning: { en: "to be wrong, to make a mistake" }
+  note: { en: "se tromper de = to get the wrong…: je me suis trompé de numéro" }
+  examples:
+    - { text: "Est-ce que je me trompe ?", translation: "Am I wrong?", source: "tatoeba:1512040" }
+- id: fr-w-1162
+  type: word
+  cefr: A2
+  text: "se sentir"
+  pos: verb
+  meaning: { en: "to feel" }
+  note: { en: "+ adjective or adverb: je me sens bien; sentir = to smell; to feel (something)" }
+  examples:
+    - { text: "Je me sens un peu mieux.", translation: "I feel slightly better.", source: "tatoeba:7101809" }
+- id: fr-w-1163
+  type: word
+  cefr: B1
+  text: "se rendre compte"
+  pos: verb
+  meaning: { en: "to realize" }
+  note: { en: "se rendre compte de / que; je me rends compte" }
+  examples:
+    - { text: "Je me rends compte des difficultés.", translation: "I'm aware of the difficulties.", source: "tatoeba:3448087" }
+- id: fr-w-1164
+  type: word
+  cefr: A2
+  text: "remplir"
+  pos: verb
+  meaning: { en: "to fill; to fill in" }
+  note: { en: "like finir; remplir un formulaire = to fill in a form" }
+  examples:
+    - { text: "Elle a rempli ce vase d'eau.", translation: "She filled the vase with water.", source: "tatoeba:134001" }
+- id: fr-w-1165
+  type: word
+  cefr: A2
+  text: "vérifier"
+  pos: verb
+  meaning: { en: "to check" }
+  examples:
+    - { text: "Vérifie que la porte est fermée.", translation: "Make sure the door is closed.", source: "tatoeba:11171706" }
+- id: fr-w-1166
+  type: word
+  cefr: A2
+  text: "réparer"
+  pos: verb
+  meaning: { en: "to repair, to fix" }
+  examples:
+    - { text: "Il n'a pas pu le réparer.", translation: "He couldn't fix it.", source: "tatoeba:2029557" }
+- id: fr-w-1167
+  type: word
+  cefr: A2
+  text: "louer"
+  pos: verb
+  meaning: { en: "to rent; to rent out" }
+  note: { en: "also (formal): to praise; la location = renting" }
+  examples:
+    - { text: "Je loue une chambre au mois.", translation: "I rent a room by the month.", source: "tatoeba:527831" }
+- id: fr-w-1168
+  type: word
+  cefr: A2
+  text: "réserver"
+  pos: verb
+  meaning: { en: "to book, to reserve" }
+  examples:
+    - { text: "Je dois réserver une chambre d'hôtel.", translation: "I have to book a hotel room.", source: "tatoeba:8718284" }
+- id: fr-w-1169
+  type: word
+  cefr: A2
+  text: "annuler"
+  pos: verb
+  meaning: { en: "to cancel" }
+  examples:
+    - { text: "Je vais devoir annuler mon rendez-vous.", translation: "I'm going to have to cancel my appointment.", source: "tatoeba:2791119" }
+- id: fr-w-1170
+  type: word
+  cefr: A2
+  text: "répéter"
+  pos: verb
+  meaning: { en: "to repeat; to rehearse" }
+  note: { en: "je répète, nous répétons" }
+  examples:
+    - { text: "Pourrais-tu me répéter ton nom ?", translation: "Could you tell me your name again?", source: "tatoeba:2161212" }
+- id: fr-w-1171
+  type: word
+  cefr: A2
+  text: "traduire"
+  pos: verb
+  meaning: { en: "to translate" }
+  note: { en: "je traduis, traduit; la traduction" }
+  examples:
+    - { text: "Je ne veux pas traduire ça.", translation: "I don't want to translate that.", source: "tatoeba:11305211" }
+- id: fr-w-1172
+  type: word
+  cefr: A2
+  text: "prêter"
+  pos: verb
+  meaning: { en: "to lend" }
+  note: { en: "the opposite: emprunter = to borrow" }
+  examples:
+    - { text: "Je lui ai prêté un CD.", translation: "I lent him a CD.", source: "tatoeba:414164" }
+- id: fr-w-1173
+  type: word
+  cefr: A2
+  text: "emprunter"
+  pos: verb
+  meaning: { en: "to borrow" }
+  note: { en: "emprunter quelque chose à quelqu'un = to borrow from someone" }
+  examples:
+    - { text: "Je peux emprunter tes crayons ?", translation: "Can I borrow your pencils?", source: "tatoeba:14017049" }
+- id: fr-w-1174
+  type: word
+  cefr: A2
+  text: "ranger"
+  pos: verb
+  meaning: { en: "to tidy (up); to put away" }
+  note: { en: "nous rangeons" }
+  examples:
+    - { text: "Range ta chambre s'il te plaît.", translation: "Clean your room, please.", source: "tatoeba:565835" }
+- id: fr-w-1175
+  type: word
+  cefr: A2
+  text: "goûter"
+  pos: verb
+  meaning: { en: "to taste, to try" }
+  note: { en: "le goûter = afternoon snack" }
+  examples:
+    - { text: "Goûte pour voir si c'est bon.", translation: "Taste some to see if it's any good.", source: "tatoeba:13535898" }
+- id: fr-w-1176
+  type: word
+  cefr: B1
+  text: "mentir"
+  pos: verb
+  meaning: { en: "to lie" }
+  note: { en: "je mens, il ment; un mensonge = a lie" }
+  examples:
+    - { text: "Ne mens pas sur ton âge.", translation: "Don't lie about your age.", source: "tatoeba:5442224" }
+- id: fr-w-1177
+  type: word
+  cefr: A2
+  text: "inviter"
+  pos: verb
+  meaning: { en: "to invite" }
+  examples:
+    - { text: "Il m'a invité à une fête.", translation: "He invited me to a party.", source: "tatoeba:992788" }
+- id: fr-w-1178
+  type: word
+  cefr: A2
+  text: "proposer"
+  pos: verb
+  meaning: { en: "to suggest; to offer" }
+  examples:
+    - { text: "Que proposez-vous à la place ?", translation: "What do you propose instead?", source: "tatoeba:8755971" }
+- id: fr-w-1179
+  type: word
+  cefr: B1
+  text: "se plaindre"
+  pos: verb
+  meaning: { en: "to complain" }
+  note: { en: "je me plains, il se plaint, je me suis plaint; se plaindre de" }
+  examples:
+    - { text: "Il se plaint tout le temps.", translation: "He's always complaining.", source: "tatoeba:130764" }
+- id: fr-w-1180
+  type: word
+  cefr: B1
+  text: "se disputer"
+  pos: verb
+  meaning: { en: "to argue, to quarrel" }
+  note: { en: "une dispute = an argument" }
+  examples:
+    - { text: "On se dispute tout le temps.", translation: "We fight all the time.", source: "tatoeba:9989765" }
+- id: fr-w-1181
+  type: word
+  cefr: A2
+  text: "augmenter"
+  pos: verb
+  meaning: { en: "to increase, to rise" }
+  examples:
+    - { text: "Le prix du pétrole a augmenté.", translation: "The price of oil went up.", source: "tatoeba:11942174" }
+- id: fr-w-1182
+  type: word
+  cefr: B1
+  text: "améliorer"
+  pos: verb
+  meaning: { en: "to improve" }
+  note: { en: "s'améliorer = to get better" }
+  examples:
+    - { text: "Le yoga peut améliorer ta posture.", translation: "Yoga can improve your posture.", source: "tatoeba:6570394" }
+- id: fr-w-1183
+  type: word
+  cefr: A2
+  text: "ajouter"
+  pos: verb
+  meaning: { en: "to add" }
+  examples:
+    - { text: "As-tu autre chose à ajouter ?", translation: "Do you have anything else to add?", source: "tatoeba:7785770" }
+- id: fr-w-1184
+  type: word
+  cefr: A2
+  text: "enlever"
+  pos: verb
+  meaning: { en: "to take off, to remove" }
+  note: { en: "j'enlève; enlever son manteau = to take off one's coat" }
+  examples:
+    - { text: "Enlève tes pieds de la table.", translation: "Get your feet off the table.", source: "tatoeba:10714484" }
+- id: fr-w-1185
+  type: word
+  cefr: A2
+  text: "garder"
+  pos: verb
+  meaning: { en: "to keep; to look after" }
+  note: { en: "garder des enfants = to babysit" }
+  examples:
+    - { text: "Je sais comment garder un secret.", translation: "I know how to keep a secret.", source: "tatoeba:7696544" }
+- id: fr-w-1186
+  type: word
+  cefr: A2
+  text: "éteindre"
+  pos: verb
+  meaning: { en: "to turn off, to switch off" }
+  note: { en: "j'éteins, il éteint, éteint" }
+  examples:
+    - { text: "Je peux éteindre la lumière ?", translation: "May I turn off the lights?", source: "tatoeba:3869249" }
+- id: fr-w-1187
+  type: word
+  cefr: A2
+  text: "allumer"
+  pos: verb
+  meaning: { en: "to turn on, to switch on; to light" }
+  examples:
+    - { text: "Tu peux allumer la lumière ?", translation: "Can you turn on the light?", source: "tatoeba:7236755" }
+- id: fr-w-1188
+  type: word
+  cefr: A2
+  text: "se passer"
+  pos: verb
+  meaning: { en: "to happen" }
+  note: { en: "qu'est-ce qui se passe ? = what's going on?" }
+  examples:
+    - { text: "Dis-moi ce qui se passe !", translation: "Tell me what's going on.", source: "tatoeba:1846227" }
+- id: fr-w-1189
+  type: word
+  cefr: B1
+  text: "s'intéresser"
+  pos: verb
+  meaning: { en: "to be interested (in)" }
+  note: { en: "s'intéresser à: je m'intéresse à l'art" }
+  examples:
+    - { text: "Je m'intéresse à la culture coréenne.", translation: "I'm interested in the Korean culture.", source: "tatoeba:13787210" }
+- id: fr-w-1190
+  type: word
+  cefr: A2
+  text: "se trouver"
+  pos: verb
+  meaning: { en: "to be (located)" }
+  note: { en: "où se trouve… ? = where is…?" }
+  examples:
+    - { text: "Où se trouve la gare ?", translation: "Where's the station?", source: "tatoeba:1316283" }
