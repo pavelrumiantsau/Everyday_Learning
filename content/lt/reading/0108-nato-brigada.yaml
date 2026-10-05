@@ -1,0 +1,45 @@
+id: lt-r-0108
+cefr: C1
+title: "Svečiai, atvykę pasilikti"
+topic: "войска НАТО и немецкая бригада в Литве"
+source: generated
+text: |
+  Dar prieš dešimtmetį sakinys „Lietuvoje nuolat dislokuota vokiečių brigada“ daugeliui būtų skambėjęs kaip politinė fantastika. Šiandien tai realybė. Nuo 2017 metų Lietuvoje veikia NATO priešakinių pajėgų batalioninė kovinė grupė, kuriai vadovauja Vokietija, o 2023 metais Berlynas paskelbė apie dar ambicingesnį žingsnį – nuolatinės brigados dislokavimą. Tai pirmas toks atvejis Vokietijos pokario istorijoje.
+
+  Sprendimą lėmė ne sentimentai, o pasikeitusi saugumo aplinka. Rusijai pradėjus plataus masto karą prieš Ukrainą, tapo akivaizdu, kad atgrasymas turi būti ne simbolinis, o realus: kariai turi būti čia, o ne laukti signalo už tūkstančio kilometrų.
+
+  Įdomu, kad visuomenė vokiečių karius sutiko itin palankiai. Istorijos šešėlių, žinoma, netrūksta, tačiau šiuolaikinė Vokietija suvokiama visų pirma kaip sąjungininkė, o ne kaip skaudžios praeities priminimas. Kur kas daugiau diskusijų sukelia praktiniai klausimai: kas pastatys kareivines ir poligonus, kur gyvens karių šeimos, kuriose mokyklose mokysis jų vaikai ir kiek visa tai kainuos valstybės biudžetui.
+
+  Kritikai perspėja, kad augančios gynybos išlaidos gali būti dengiamos kitų sričių – švietimo, sveikatos apsaugos – sąskaita. Vis dėlto vyrauja nuomonė, kad saugumas yra visų kitų dalykų prielaida: be jo nei mokyklos, nei ligoninės neturėtų ateities.
+
+  Galbūt didžiausias šios istorijos paradoksas tas, kad sėkmingas atgrasymas lieka nematomas. Apie jį nerašoma antraštėse, jo neįmanoma pamatyti ar pačiupinėti. Ir jei sąjungininkų kariams niekada neteks kautis, tai ir bus geriausias įrodymas, kad jie čia buvo reikalingi.
+glossary:
+  - { word: "dislokuota", lemma: "dislokuoti", pos: verb, forms: { pres: "dislokuoja", past: "dislokavo" }, meaning: "дислоцировать, разместить (войска)", note: "пассивное прич., ж. р." }
+  - { word: "skambėjęs", lemma: "skambėti", pos: verb, forms: { pres: "skamba", past: "skambėjo" }, meaning: "звучать", note: "būtų skambėjęs — звучало бы (сослаг. прош.)" }
+  - { word: "priešakinių", lemma: "priešakinis", pos: adj, meaning: "передовой", note: "priešakinės pajėgos — передовые силы" }
+  - { word: "batalioninė", lemma: "batalioninis", pos: adj, meaning: "батальонный", note: "batalioninė kovinė grupė — батальонная боевая группа" }
+  - { word: "ambicingesnį", lemma: "ambicingas", pos: adj, meaning: "амбициозный", note: "сравн. ст., вин. п." }
+  - { word: "pokario", lemma: "pokaris", pos: noun, gender: m, gen: "pokario", meaning: "послевоенное время", note: "род. п." }
+  - { word: "lėmė", lemma: "lemti", pos: verb, forms: { pres: "lemia", past: "lėmė" }, meaning: "определить, обусловить" }
+  - { word: "atgrasymas", lemma: "atgrasymas", pos: noun, gender: m, gen: "atgrasymo", meaning: "сдерживание (военное)" }
+  - { word: "palankiai", lemma: "palankiai", pos: adv, meaning: "благосклонно, доброжелательно" }
+  - { word: "šešėlių", lemma: "šešėlis", pos: noun, gender: m, gen: "šešėlio", meaning: "тень", note: "род. п. мн. ч." }
+  - { word: "kareivines", lemma: "kareivinės", pos: noun, gender: f, gen: "kareivinių", plural_only: true, meaning: "казармы", note: "вин. п." }
+  - { word: "poligonus", lemma: "poligonas", pos: noun, gender: m, gen: "poligono", meaning: "полигон", note: "вин. п. мн. ч." }
+  - { word: "išlaidos", lemma: "išlaidos", pos: noun, gender: f, gen: "išlaidų", plural_only: true, meaning: "расходы" }
+  - { word: "sąskaita", lemma: "sąskaita", pos: noun, gender: f, gen: "sąskaitos", meaning: "счёт", note: "kieno nors sąskaita — за чей-л. счёт" }
+  - { word: "vyrauja", lemma: "vyrauti", pos: verb, forms: { pres: "vyrauja", past: "vyravo" }, meaning: "преобладать" }
+  - { word: "prielaida", lemma: "prielaida", pos: noun, gender: f, gen: "prielaidos", meaning: "предпосылка, условие" }
+  - { word: "antraštėse", lemma: "antraštė", pos: noun, gender: f, gen: "antraštės", meaning: "заголовок", note: "мест. п. мн. ч." }
+  - { word: "pačiupinėti", lemma: "pačiupinėti", pos: verb, forms: { pres: "pačiupinėja", past: "pačiupinėjo" }, meaning: "пощупать, потрогать" }
+  - { word: "kautis", lemma: "kautis", pos: verb, forms: { pres: "kaunasi", past: "kovėsi" }, meaning: "сражаться, биться", note: "neteks kautis — не придётся сражаться" }
+questions:
+  - q: "Kas, pasak teksto, lėmė sprendimą dislokuoti Lietuvoje nuolatinę vokiečių brigadą?"
+    options: ["Pasikeitusi saugumo aplinka po Rusijos plataus masto karo prieš Ukrainą pradžios", "Istoriniai sentimentai", "Lietuvos ekonomikos augimas"]
+    answer: 0
+  - q: "Kas, autoriaus teigimu, kelia daugiausia diskusijų visuomenėje?"
+    options: ["Istorinės nuoskaudos Vokietijai", "Praktiniai klausimai: kareivinės, šeimų būstas, mokyklos ir kaina", "Vokiečių kalbos mokymasis"]
+    answer: 1
+  - q: "Kokį paradoksą autorius įžvelgia pabaigoje?"
+    options: ["Kad karių per daug", "Kad gynybai skiriama per mažai lėšų", "Kad sėkmingas atgrasymas nematomas: jei kautis neteks, tai ir įrodys, jog kariai buvo reikalingi"]
+    answer: 2
