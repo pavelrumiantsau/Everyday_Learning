@@ -1,0 +1,434 @@
+# Generated from scripts/batches/es-a2-basics-2313.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-2313
+  type: word
+  cefr: A2
+  text: "llorar"
+  pos: verb
+  meaning: { en: "to cry" }
+  examples:
+    - { text: "El bebé siguió llorando toda la noche.", translation: "The baby kept crying all night.", source: "tatoeba:445861" }
+- id: es-w-2314
+  type: word
+  cefr: A2
+  text: "abrazar"
+  pos: verb
+  meaning: { en: "to hug, to embrace" }
+  note: { en: "el abrazo = hug; un abrazo = best wishes (end of a letter)" }
+  examples:
+    - { text: "Todos los niños abrazaron a sus padres.", translation: "All the children hugged their parents.", source: "tatoeba:14021729" }
+- id: es-w-2315
+  type: word
+  cefr: A2
+  text: "soler"
+  pos: verb
+  meaning: { en: "to usually (do)" }
+  note: { en: "o → ue: suelo, sueles + infinitive: suelo levantarme a las siete = I usually get up at seven" }
+  examples:
+    - { text: "¿A qué hora sueles salir de trabajar?", translation: "When do you usually get off work?", source: "tatoeba:509559" }
+- id: es-w-2316
+  type: word
+  cefr: A2
+  text: "acompañar"
+  pos: verb
+  meaning: { en: "to go with, to accompany" }
+  examples:
+    - { text: "Te voy a acompañar a la estación.", translation: "I'll accompany you to the station.", source: "tatoeba:625867" }
+- id: es-w-2317
+  type: word
+  cefr: A2
+  text: "acercarse"
+  pos: verb
+  meaning: { en: "to come closer, to approach" }
+  note: { en: "acercarse a; opposite: alejarse" }
+  examples:
+    - { text: "Tom se acercó un poco a Mary.", translation: "Tom moved a bit closer to Mary.", source: "tatoeba:1411073" }
+- id: es-w-2318
+  type: word
+  cefr: B1
+  text: "confiar"
+  pos: verb
+  meaning: { en: "to trust" }
+  note: { en: "confiar en alguien; confío, confías (stress on í); la confianza = trust" }
+  examples:
+    - { text: "Puedes confiar en él. Nunca te fallará.", translation: "You can rely on him. He never lets you down.", source: "tatoeba:482504" }
+- id: es-w-2319
+  type: word
+  cefr: B1
+  text: "depender"
+  pos: verb
+  meaning: { en: "to depend" }
+  note: { en: "depender de; ¡depende! = it depends" }
+  examples:
+    - { text: "Ella depende de su marido para todo.", translation: "She depends on her husband for everything.", source: "tatoeba:950643" }
+- id: es-w-2320
+  type: word
+  cefr: A2
+  text: "engordar"
+  pos: verb
+  meaning: { en: "to put on weight; to be fattening" }
+  note: { en: "opposite: adelgazar" }
+  examples:
+    - { text: "Si siempre comes tanto, vas a engordar.", translation: "If you always eat that much, you'll gain weight.", source: "tatoeba:1831960" }
+- id: es-w-2321
+  type: word
+  cefr: A2
+  text: "adelgazar"
+  pos: verb
+  meaning: { en: "to lose weight" }
+  note: { en: "= perder peso; delgado = thin" }
+  examples:
+    - { text: "Ella está a dieta para adelgazar.", translation: "She is on a diet to lose weight.", source: "tatoeba:1408314" }
+- id: es-w-2322
+  type: word
+  cefr: A2
+  text: "enamorarse"
+  pos: verb
+  meaning: { en: "to fall in love" }
+  note: { en: "enamorarse de (not con); enamorado = in love" }
+  examples:
+    - { text: "Me enamoré de ella a primera vista.", translation: "I fell in love with her at first sight.", source: "tatoeba:867497" }
+- id: es-w-2323
+  type: word
+  cefr: B1
+  text: "entregar"
+  pos: verb
+  meaning: { en: "to hand in, to hand over; to deliver" }
+  note: { en: "la entrega = delivery" }
+  examples:
+    - { text: "Tienes que entregar los informes el lunes.", translation: "You have to turn in the reports on Monday.", source: "tatoeba:645752" }
+- id: es-w-2324
+  type: word
+  cefr: B1
+  text: "evitar"
+  pos: verb
+  meaning: { en: "to avoid; to prevent" }
+  note: { en: "no pude evitarlo = I couldn't help it" }
+  examples:
+    - { text: "Evito ir allí tarde por la noche.", translation: "I avoid going there late at night.", source: "tatoeba:13889905" }
+- id: es-w-2325
+  type: word
+  cefr: B1
+  text: "existir"
+  pos: verb
+  meaning: { en: "to exist" }
+  examples:
+    - { text: "La vida no puede existir sin agua.", translation: "Life cannot exist without water.", source: "tatoeba:697347" }
+- id: es-w-2326
+  type: word
+  cefr: A2
+  text: "funcionar"
+  pos: verb
+  meaning: { en: "to work (machines), to function" }
+  note: { en: "no funciona = it's out of order; for people: trabajar" }
+  examples:
+    - { text: "No pude llamarte; el teléfono no funcionaba.", translation: "I couldn't call you; the telephone was out of order.", source: "tatoeba:853808" }
+- id: es-w-2327
+  type: word
+  cefr: A2
+  text: "imaginar"
+  pos: verb
+  meaning: { en: "to imagine" }
+  note: { en: "also imaginarse; ¡imagínate! = just imagine!" }
+  examples:
+    - { text: "No puedo imaginar la vida sin ti.", translation: "I can't imagine life without you.", source: "tatoeba:597695" }
+- id: es-w-2328
+  type: word
+  cefr: B1
+  text: "merecer"
+  pos: verb
+  meaning: { en: "to deserve" }
+  note: { en: "merezco; merecer la pena = to be worth it (= valer la pena)" }
+  examples:
+    - { text: "Todo el mundo merece una segunda oportunidad.", translation: "Everyone deserves a second chance.", source: "tatoeba:1039939" }
+- id: es-w-2329
+  type: word
+  cefr: B1
+  text: "proteger"
+  pos: verb
+  meaning: { en: "to protect" }
+  note: { en: "protejo (g → j before o)" }
+  examples:
+    - { text: "La pared me protegía de la lluvia.", translation: "The wall protected me from the rain.", source: "tatoeba:2927870" }
+- id: es-w-2330
+  type: word
+  cefr: B1
+  text: "resolver"
+  pos: verb
+  meaning: { en: "to solve, to resolve" }
+  note: { en: "o → ue: resuelvo; past participle: resuelto" }
+  examples:
+    - { text: "Tengo muchos problemas que tengo que resolver.", translation: "I have a lot of problems to solve.", source: "tatoeba:346319" }
+- id: es-w-2331
+  type: word
+  cefr: A2
+  text: "sonar"
+  pos: verb
+  meaning: { en: "to ring; to sound" }
+  note: { en: "o → ue: suena; me suena = it sounds familiar" }
+  examples:
+    - { text: "Estaba viendo TV cuando sonó el teléfono.", translation: "I was watching TV when the telephone rang.", source: "tatoeba:1070157" }
+- id: es-w-2332
+  type: word
+  cefr: A2
+  text: "tardar"
+  pos: verb
+  meaning: { en: "to take (time); to take long" }
+  note: { en: "tardar dos horas en hacer algo = to take two hours to do something" }
+  examples:
+    - { text: "¿Cuánto tiempo tarda en llegar la carta?", translation: "How long will it take for the letter to arrive?", source: "tatoeba:687541" }
+- id: es-w-2333
+  type: word
+  cefr: A2
+  text: "valer"
+  pos: verb
+  meaning: { en: "to cost; to be worth" }
+  note: { en: "valgo; ¿cuánto vale? = how much is it?; vale la pena = it's worth it; ¡vale! = OK (Spain)" }
+  examples:
+    - { text: "Sí, éste está muy bien. ¿Cuánto vale?", translation: "Yes, this one is very nice. How much does it cost?", source: "tatoeba:687881" }
+- id: es-w-2334
+  type: word
+  cefr: A1
+  text: "levantarse"
+  pos: verb
+  meaning: { en: "to get up; to stand up" }
+  note: { en: "me levanto; levantar = to lift" }
+  examples:
+    - { text: "Me levanto a las seis y media.", translation: "I get up at 6:30.", source: "tatoeba:539385" }
+- id: es-w-2335
+  type: word
+  cefr: A1
+  text: "sentarse"
+  pos: verb
+  meaning: { en: "to sit down" }
+  note: { en: "e → ie: me siento (the same form as sentirse); ¡siéntate! = sit down!" }
+  examples:
+    - { text: "El visitante se sentó frente a mí.", translation: "The visitor sat across from me.", source: "tatoeba:862794" }
+- id: es-w-2336
+  type: word
+  cefr: A2
+  text: "quedarse"
+  pos: verb
+  meaning: { en: "to stay, to remain" }
+  note: { en: "quedarse en casa = to stay at home; quedarse con = to keep" }
+  examples:
+    - { text: "Él tenía que quedarse en la cama.", translation: "He had to stay in bed.", source: "tatoeba:618922" }
+- id: es-w-2337
+  type: word
+  cefr: A1
+  text: "irse"
+  pos: verb
+  meaning: { en: "to leave, to go away" }
+  note: { en: "me voy = I'm off; ¡vete! = go away!; ¡vámonos! = let's go!" }
+  examples:
+    - { text: "El alumno se fue sin decir nada.", translation: "The student left without saying anything.", source: "tatoeba:360398" }
+- id: es-w-2338
+  type: word
+  cefr: A2
+  text: "sentirse"
+  pos: verb
+  meaning: { en: "to feel (well, tired…)" }
+  note: { en: "e → ie: me siento bien / cansado (the same form as sentarse)" }
+  examples:
+    - { text: "Cada día me siento mejor y mejor.", translation: "Every day I feel better and better.", source: "tatoeba:434685" }
+- id: es-w-2339
+  type: word
+  cefr: A2
+  text: "coger"
+  pos: verb
+  meaning: { en: "to take, to catch (a bus, a cold); to pick up" }
+  note: { en: "cojo (g → j); Spain. In Mexico and Argentina it is vulgar: use tomar or agarrar there" }
+  examples:
+    - { text: "Tiene que coger el autobús número 12.", translation: "You have to take bus number 12.", source: "tatoeba:687941" }
+- id: es-w-2340
+  type: word
+  cefr: A2
+  text: "meter"
+  pos: verb
+  meaning: { en: "to put (in), to insert" }
+  note: { en: "meterse en = to get into; meter la pata = to put your foot in it" }
+  examples:
+    - { text: "Él metió la llave en la cerradura.", translation: "He put the key in the lock.", source: "tatoeba:627793" }
+- id: es-w-2341
+  type: word
+  cefr: A2
+  text: "tirar"
+  pos: verb
+  meaning: { en: "to throw; to throw away; to pull" }
+  note: { en: "tirar a la basura = to throw away; on doors in Spain: tirar = pull, empujar = push" }
+  examples:
+    - { text: "Probablemente debería tirar esto a la basura.", translation: "I should probably just toss this in the trash.", source: "tatoeba:5889733" }
+- id: es-w-2342
+  type: word
+  cefr: B1
+  text: "prohibir"
+  pos: verb
+  meaning: { en: "to forbid, to ban" }
+  note: { en: "prohíbo (stress on í); prohibido fumar = no smoking" }
+  examples:
+    - { text: "Muchos países tienen leyes que prohíben fumar.", translation: "Many countries have laws prohibiting smoking.", source: "tatoeba:832229" }
+- id: es-w-2343
+  type: word
+  cefr: A2
+  text: "despierto"
+  pos: adj
+  meaning: { en: "awake; sharp, bright" }
+  note: { en: "despertarse = to wake up; opposite: dormido" }
+  examples:
+    - { text: "Él se quedó despierto toda la noche.", translation: "He stayed up all night.", source: "tatoeba:1432042" }
+- id: es-w-2344
+  type: word
+  cefr: A2
+  text: "dormido"
+  pos: adj
+  meaning: { en: "asleep" }
+  note: { en: "quedarse dormido = to fall asleep; to oversleep" }
+  examples:
+    - { text: "Después de la película se quedaron dormidos.", translation: "After the movie, they fell asleep.", source: "tatoeba:877060" }
+- id: es-w-2345
+  type: word
+  cefr: A2
+  text: "roto"
+  pos: adj
+  meaning: { en: "broken" }
+  note: { en: "irregular past participle of romper" }
+  examples:
+    - { text: "Ha encontrado una cámara de fotos rota.", translation: "He found a broken camera.", source: "tatoeba:710231" }
+- id: es-w-2346
+  type: word
+  cefr: A2
+  text: "encendido"
+  pos: adj
+  meaning: { en: "on (light, device); lit" }
+  note: { en: "encender = to turn on; opposite: apagado" }
+  examples:
+    - { text: "No te duermas con la luz encendida.", translation: "Don't sleep with the light left on.", source: "tatoeba:616059" }
+- id: es-w-2347
+  type: word
+  cefr: A2
+  text: "apagado"
+  pos: adj
+  meaning: { en: "off (light, device)" }
+  note: { en: "apagar = to turn off" }
+  examples:
+    - { text: "El televisor está apagado pero todavía está caliente.", translation: "The TV is off but it is still warm.", source: "tatoeba:976588" }
+- id: es-w-2348
+  type: word
+  cefr: A2
+  text: "moreno"
+  pos: adj
+  meaning: { en: "dark-haired; dark-skinned; tanned" }
+  note: { en: "estar moreno = to be tanned; opposite: rubio" }
+  examples:
+    - { text: "¿Tu esposa es rubia o morena?", translation: "Is your wife a blonde or a brunette?", source: "tatoeba:2260724" }
+- id: es-w-2349
+  type: word
+  cefr: A2
+  text: "liso"
+  pos: adj
+  meaning: { en: "straight (hair); smooth; plain" }
+  note: { en: "pelo liso ≠ pelo rizado (curly)" }
+  examples:
+    - { text: "Lidia tiene el pelo liso y rubio.", translation: "Lidia has straight blonde hair.", source: "tatoeba:921586" }
+- id: es-w-2350
+  type: word
+  cefr: A2
+  text: "perezoso"
+  pos: adj
+  meaning: { en: "lazy" }
+  note: { en: "= vago; la pereza = laziness; me da pereza = I can't be bothered" }
+  examples:
+    - { text: "Mi hermana pequeña es un poco perezosa.", translation: "My little sister is kind of lazy.", source: "tatoeba:859703" }
+- id: es-w-2351
+  type: word
+  cefr: A2
+  text: "cariñoso"
+  pos: adj
+  meaning: { en: "affectionate, loving" }
+  note: { en: "el cariño = affection; cariño = darling" }
+  examples:
+    - { text: "Era muy cariñoso con sus padres.", translation: "He was very affectionate with his parents.", source: "tatoeba:2258548" }
+- id: es-w-2352
+  type: word
+  cefr: A2
+  text: "responsable"
+  pos: adj
+  meaning: { en: "responsible" }
+  note: { en: "ser responsable de = to be responsible for" }
+  examples:
+    - { text: "Un hombre es responsable de sus actos.", translation: "A man is responsible for his deeds.", source: "tatoeba:859326" }
+- id: es-w-2353
+  type: word
+  cefr: A2
+  text: "puntual"
+  pos: adj
+  meaning: { en: "punctual, on time" }
+  examples:
+    - { text: "De ahora en adelante, prometo ser puntual.", translation: "From now on, I promise to be punctual.", source: "tatoeba:1935054" }
+- id: es-w-2354
+  type: word
+  cefr: A2
+  text: "redondo"
+  pos: adj
+  meaning: { en: "round" }
+  note: { en: "cuadrado = square" }
+  examples:
+    - { text: "Necesitamos una mesa cuadrada, no redonda.", translation: "We need a square table, not a round one.", source: "tatoeba:748793" }
+- id: es-w-2355
+  type: word
+  cefr: B1
+  text: "actual"
+  pos: adj
+  meaning: { en: "current, present(-day)" }
+  note: { en: "false friend: \"actual\" = real, verdadero; actualmente = currently" }
+  examples:
+    - { text: "Tom es el novio actual de Mary.", translation: "Tom is Mary's current boyfriend.", source: "tatoeba:1434186" }
+- id: es-w-2356
+  type: word
+  cefr: B1
+  text: "amargo"
+  pos: adj
+  meaning: { en: "bitter" }
+  note: { en: "dulce = sweet; salado = salty; ácido = sour" }
+  examples:
+    - { text: "Este medicamento tiene un sabor amargo.", translation: "This medicine tastes bitter.", source: "tatoeba:699787" }
+- id: es-w-2357
+  type: word
+  cefr: A2
+  text: "gemelo"
+  pos: noun
+  gender: m
+  meaning: { en: "twin" }
+  note: { en: "la gemela; los gemelos = twins (non-identical twins: los mellizos)" }
+  examples:
+    - { text: "Pensé que Tom y María eran gemelos.", translation: "I thought Tom and Mary were twins.", source: "tatoeba:2130347" }
+- id: es-w-2358
+  type: word
+  cefr: A2
+  text: "suegro"
+  pos: noun
+  gender: m
+  meaning: { en: "father-in-law" }
+  note: { en: "la suegra = mother-in-law; los suegros = parents-in-law" }
+  examples:
+    - { text: "Me llevo muy bien con mi suegra.", translation: "I'm getting along with my mother-in-law very well.", source: "tatoeba:1942970" }
+- id: es-w-2359
+  type: word
+  cefr: A2
+  text: "mascota"
+  pos: noun
+  gender: f
+  meaning: { en: "pet; mascot" }
+  examples:
+    - { text: "A Tom no le gustan las mascotas.", translation: "Tom is not fond of pets.", source: "tatoeba:854682" }
+- id: es-w-2360
+  type: word
+  cefr: A2
+  text: "planta"
+  pos: noun
+  gender: f
+  meaning: { en: "plant; floor (of a building)" }
+  note: { en: "planta baja = ground floor" }
+  examples:
+    - { text: "Las plantas murieron por falta de agua.", translation: "The plants died for lack of water.", source: "tatoeba:658708" }
