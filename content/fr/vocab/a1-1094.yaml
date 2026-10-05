@@ -343,7 +343,7 @@
   meaning: { en: "unemployment" }
   note: { en: "être au chômage = to be unemployed" }
   examples:
-    - { text: "Je suis un professeur au chômage.", translation: "I'm an unemployed teacher.", source: "tatoeba:7526043" }
+    - { text: "Mon frère est au chômage.", translation: "My brother is out of work.", source: "tatoeba:3640795" }
 - id: fr-w-1130
   type: word
   cefr: B1

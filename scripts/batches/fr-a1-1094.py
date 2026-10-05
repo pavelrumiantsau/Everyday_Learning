@@ -37,7 +37,7 @@ w|neveu|noun|m|A2|nephew|11069476|plural neveux
 w|nièce|noun|f|A2|niece|7793898|
 w|réunion|noun|f|A2|meeting|968178|
 w|salaire|noun|m|A2|salary, pay|867123|
-w|chômage|noun|m|B1|unemployment|7526043|être au chômage = to be unemployed
+w|chômage|noun|m|B1|unemployment|3640795|être au chômage = to be unemployed
 w|entretien|noun|m|B1|interview; maintenance|10627086|entretien d'embauche = job interview
 w|stage|noun|m|B1|internship; (short) course|1054251|false friend: a theatre stage = la scène
 w|équipe|noun|f|A2|team|11928448|

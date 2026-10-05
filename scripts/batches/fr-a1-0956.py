@@ -34,7 +34,7 @@ w|bien que|conj||B1|although|793278|+ subjunctive: bien qu'il soit…; ES: aunqu
 w|quand même|adv||A2|still, all the same|6935962|
 w|ainsi|adv||B1|thus, (in) this way|3599270|ainsi que = as well as
 w|grâce à|prep||B1|thanks to|10873860|for a good cause; for a bad one: à cause de
-w|à cause de|prep||A2|because of|11146037|à cause du / des: à cause du bruit
+w|à cause de|prep||A2|because of|8952363|à cause du / des: à cause du bruit
 w|au lieu de|prep||B1|instead of|6799140|
 w|jusqu'à|prep||A2|until; as far as|15463|jusqu'au bout = to the end
 w|dès que|conj||B1|as soon as|3273401|dès alone = from, as early as: dès demain

@@ -283,7 +283,7 @@
   meaning: { en: "because of" }
   note: { en: "à cause du / des: à cause du bruit" }
   examples:
-    - { text: "Je souffre à cause de toi.", translation: "I suffer because of you.", source: "tatoeba:11146037" }
+    - { text: "Je suis ici à cause de Tom.", translation: "I'm here because of Tom.", source: "tatoeba:8952363" }
 - id: fr-w-0989
   type: word
   cefr: B1
