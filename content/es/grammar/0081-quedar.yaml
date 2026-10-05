@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0081
+cefr: B1
+order: 81
+title: "¿Quedamos?, no me queda dinero, te queda bien: the many uses of quedar"
+explanation:
+  en: |
+    ***quedar*** is one of the most useful verbs in everyday Spanish:
+    - **arrange to meet** — ***quedar (con alguien)***: *¿**Quedamos** a las ocho?* — Shall we meet at eight? *He **quedado** con Ana.* — I'm meeting Ana. ***quedar en*** + infinitive = agree to: *Quedamos en vernos el lunes.*
+    - **be left** — like *gustar*: ***me / te / nos queda(n)***: *No me **queda** dinero.* — I have no money left. *Nos **quedan** dos días.* Without a person: *¿**Queda** leche?* — Is there any milk left?
+    - **fit, suit** — ***quedar bien / mal / grande***, also like *gustar*: *Esa camisa te **queda** bien.* *Los zapatos me **quedan** pequeños.*
+    - **be (located)**: *¿Dónde **queda** la playa?* — = *¿Dónde está…?*
+
+    With ***se***:
+    - ***quedarse*** — stay: *Me quedo en casa.*
+    - ***quedarse con*** — keep, take: ***Quédese con** el cambio.* — Keep the change. *Me quedo con este.* — I'll take this one.
+    - ***quedarse*** + adjective — end up (lesson 59): *Se quedó sin trabajo.*
+comparison:
+  en: |
+    Russian needs a different verb for each: «встретиться, договориться» (*quedar*), «остаться» (*quedar(se)*: *no me queda dinero* = «у меня не осталось денег»), «сидеть, идти» about clothes (*te queda bien* = «тебе идёт»), «оставить себе» (*quedarse con*). Watch the agreement in the "left" and "fit" meanings: the **thing** is the subject — *me queda**n** dos días*, *me queda**n** pequeños*.
+examples:
+  - { text: "¿Quedamos para mañana?", translation: "Are we meeting tomorrow?", source: "tatoeba:853784" }
+  - { text: "No me queda dinero.", translation: "I have no money left.", source: "tatoeba:7931133" }
+  - { text: "Esa camisa te queda bien.", translation: "That shirt looks good on you.", source: "tatoeba:1781282" }
+  - { text: "¿Dónde queda la playa?", translation: "Where's the beach?", source: "tatoeba:9855684" }
+  - { text: "Quédese con el cambio.", translation: "Keep the change.", source: "tatoeba:456282" }
+exercises:
+  - type: cloze
+    text: "¿___ a las siete en la plaza?"
+    answer: "Quedamos"
+    hint: "shall we meet — nosotros"
+    translation: "Shall we meet at seven in the square?"
+  - type: cloze
+    text: "Hoy no puedo, he ___ con unos amigos."
+    answer: "quedado"
+    hint: "quedar — present perfect"
+    translation: "I can't today, I'm meeting some friends."
+  - type: cloze
+    text: "Solo nos ___ diez euros."
+    answer: "quedan"
+    hint: "are left"
+    translation: "We only have ten euros left."
+  - type: cloze
+    text: "¿___ leche en la nevera?"
+    answer: "Queda"
+    hint: "is there … left"
+    translation: "Is there any milk left in the fridge?"
+  - type: cloze
+    text: "Estos pantalones me ___ grandes."
+    answer: "quedan"
+    hint: "fit (too big) — present"
+    translation: "These trousers are too big for me."
+  - type: cloze
+    text: "Ese color te ___ muy bien."
+    answer: "queda"
+    hint: "suits"
+    translation: "That colour really suits you."
+  - type: cloze
+    text: "Me gustan los dos, pero me ___ con el azul."
+    answer: "quedo"
+    hint: "I'll take — quedarse con"
+    translation: "I like them both, but I'll take the blue one."
+  - type: cloze
+    text: "Perdone, ¿dónde ___ el museo?"
+    answer: "queda"
+    also: ["está"]
+    hint: "is located — quedar"
+    translation: "Excuse me, where is the museum?"
