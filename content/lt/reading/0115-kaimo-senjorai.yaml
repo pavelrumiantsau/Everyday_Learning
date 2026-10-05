@@ -1,0 +1,45 @@
+id: lt-r-0115
+cefr: C1
+title: "Antradienis prie autoparduotuvės"
+topic: "стареющие деревни и социальная помощь"
+source: generated
+text: |
+  Kiekvieną antradienį į nedidelį kaimą Rytų Lietuvoje atvažiuoja autoparduotuvė. Jos signalas – ne tik kvietimas nusipirkti duonos ir cukraus. Tai ir proga susitikti: prie mašinos susirenka keletas senolių, pasikalbama apie orus, sveikatą ir vaikus, gyvenančius Vilniuje ar Airijoje. Kitomis dienomis kai kurie iš jų gali neištarti nė žodžio.
+
+  Tokių kaimų Lietuvoje daugėja. Jaunimas išvyko, mokykla uždaryta, o autobusas, jei apskritai dar kursuoja, pasirodo porą kartų per savaitę. Likę gyventojai – dažniausiai vienišos vyresnio amžiaus moterys – gyvena atokiose sodybose, iki kurių žiemą ne visada lengva privažiuoti.
+
+  Valstybė ir savivaldybės bando reaguoti. Socialiniai darbuotojai lanko senjorus namuose, padeda nusipirkti vaistų, sutvarkyti dokumentus, o kartais tiesiog pasikalba. Daug kur veikia vadinamasis socialinis taksi, nuvežantis senjorus pas gydytoją. Tačiau darbuotojų trūksta, atlyginimai kuklūs, o atstumai dideli: kad aplankytų vos kelis žmones, darbuotojas per dieną kartais nuvažiuoja dešimtis kilometrų.
+
+  Senelių globos namai dažnai pateikiami kaip savaime suprantama išeitis. Vis dėlto dauguma senų žmonių nori likti savo namuose – tarp savų daiktų, sode, kurį augino visą gyvenimą. Todėl ekspertai ragina ne tiek statyti naujas įstaigas, kiek investuoti į pagalbą namuose, kaimo bendruomenių iniciatyvas ir savanorystę.
+
+  Kalbant apie senėjimą, dažniausiai skaičiuojami pinigai: pensijos, išlaidos, biudžetas. Tačiau vienatvė į statistiką sunkiai telpa. Galbūt visuomenės brandą geriausiai parodo ne tai, kiek ji išleidžia, o tai, ar kas nors pastebės, kad antradienį prie autoparduotuvės neatėjo viena iš įprastų pirkėjų.
+glossary:
+  - { word: "autoparduotuvė", lemma: "autoparduotuvė", pos: noun, gender: f, gen: "autoparduotuvės", meaning: "автолавка" }
+  - { word: "senolių", lemma: "senolis", pos: noun, gender: m, gen: "senolio", meaning: "старик, пожилой человек", note: "род. п. мн. ч." }
+  - { word: "pasikalbama", lemma: "pasikalbėti", pos: verb, forms: { pres: "pasikalba", past: "pasikalbėjo" }, meaning: "поговорить", note: "безличный пассив: разговаривают" }
+  - { word: "neištarti", lemma: "ištarti", pos: verb, forms: { pres: "ištaria", past: "ištarė" }, meaning: "произнести", note: "с отрицанием: neištarti nė žodžio — не произнести ни слова" }
+  - { word: "kursuoja", lemma: "kursuoti", pos: verb, forms: { pres: "kursuoja", past: "kursavo" }, meaning: "курсировать, ходить (о транспорте)" }
+  - { word: "vienišos", lemma: "vienišas", pos: adj, meaning: "одинокий", note: "им. п. мн. ч. ж. р." }
+  - { word: "atokiose", lemma: "atokus", pos: adj, meaning: "отдалённый", note: "мест. п. мн. ч. ж. р." }
+  - { word: "privažiuoti", lemma: "privažiuoti", pos: verb, forms: { pres: "privažiuoja", past: "privažiavo" }, meaning: "подъехать" }
+  - { word: "nuvežantis", lemma: "nuvežti", pos: verb, forms: { pres: "nuveža", past: "nuvežė" }, meaning: "отвезти", note: "прич. наст. вр., м. р." }
+  - { word: "kuklūs", lemma: "kuklus", pos: adj, meaning: "скромный", note: "им. п. мн. ч." }
+  - { word: "globos", lemma: "globa", pos: noun, gender: f, gen: "globos", meaning: "опека, попечение", note: "senelių globos namai — дом престарелых" }
+  - { word: "išeitis", lemma: "išeitis", pos: noun, gender: f, gen: "išeities", meaning: "выход (из положения)" }
+  - { word: "savų", lemma: "savas", pos: adj, meaning: "свой, родной", note: "род. п. мн. ч." }
+  - { word: "įstaigas", lemma: "įstaiga", pos: noun, gender: f, gen: "įstaigos", meaning: "учреждение", note: "вин. п. мн. ч." }
+  - { word: "savanorystę", lemma: "savanorystė", pos: noun, gender: f, gen: "savanorystės", meaning: "волонтёрство", note: "вин. п." }
+  - { word: "vienatvė", lemma: "vienatvė", pos: noun, gender: f, gen: "vienatvės", meaning: "одиночество" }
+  - { word: "telpa", lemma: "tilpti", pos: verb, forms: { pres: "telpa", past: "tilpo" }, meaning: "помещаться, умещаться" }
+  - { word: "brandą", lemma: "branda", pos: noun, gender: f, gen: "brandos", meaning: "зрелость", note: "вин. п." }
+  - { word: "įprastų", lemma: "įprastas", pos: adj, meaning: "привычный, обычный", note: "род. п. мн. ч." }
+questions:
+  - q: "Kodėl autoparduotuvės atvykimas kaimo gyventojams toks svarbus?"
+    options: ["Nes tai ir proga susitikti bei pasikalbėti", "Nes joje parduodami pigūs vaistai", "Nes ji atveža laiškus iš Airijos"]
+    answer: 0
+  - q: "Kokias socialinės pagalbos kaime problemas mini autorius?"
+    options: ["Per daug socialinių darbuotojų", "Darbuotojų trūkumą, kuklius atlyginimus ir didelius atstumus", "Kad senjorai atsisako bet kokios pagalbos"]
+    answer: 1
+  - q: "Kas, autoriaus nuomone, geriausiai parodo visuomenės brandą?"
+    options: ["Kiek pinigų ji išleidžia pensijoms", "Kiek senelių globos namų pastatyta", "Ar kas nors pastebės, kad vieniša kaimynė šį kartą neatėjo"]
+    answer: 2
