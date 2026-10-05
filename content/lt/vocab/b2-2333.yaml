@@ -1,0 +1,637 @@
+# Generated from scripts/batches/lt-b2-2333.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2333
+  type: word
+  cefr: B2
+  text: "sluoksnis"
+  pos: noun
+  gender: m
+  gen: "sluoksnio"
+  meaning: { ru: "слой" }
+  note: { ru: "visuomenės sluoksniai — слои общества" }
+  examples:
+    - { text: "Visur buvo storas dulkių sluoksnis.", translation: "Повсюду лежал толстый слой пыли.", source: "tatoeba:13674494" }
+- id: lt-w-2334
+  type: word
+  cefr: B2
+  text: "įgyvendinti"
+  pos: verb
+  forms: { pres: "įgyvendina", past: "įgyvendino" }
+  meaning: { ru: "осуществить, реализовать" }
+  note: { ru: "įgyvendinamas — осуществимый" }
+  examples:
+    - { text: "Sau kelk įgyvendinamus tikslus.", translation: "Ставь перед собой достижимые цели.", source: "tatoeba:10636593" }
+- id: lt-w-2335
+  type: word
+  cefr: B2
+  text: "veiksmingas"
+  pos: adj
+  meaning: { ru: "действенный, эффективный" }
+  examples:
+    - { text: "Tai gana veiksmingas būdas.", translation: "Это довольно эффективный способ.", source: "tatoeba:13721897" }
+- id: lt-w-2336
+  type: word
+  cefr: B2
+  text: "prioritetas"
+  pos: noun
+  gender: m
+  gen: "prioriteto"
+  meaning: { ru: "приоритет" }
+  examples:
+    - { text: "Svarbu teisingai sudėlioti prioritetus.", translation: "Важно правильно расставить приоритеты.", source: "tatoeba:12716432" }
+- id: lt-w-2337
+  type: word
+  cefr: B1
+  text: "sumažėti"
+  pos: verb
+  forms: { pres: "sumažėja", past: "sumažėjo" }
+  meaning: { ru: "уменьшиться, снизиться" }
+  note: { ru: "sumažinti — уменьшить (что-л.)" }
+  examples:
+    - { text: "Ryžių gamyba sumažėjo.", translation: "Производство риса снизилось.", source: "tatoeba:12117786" }
+- id: lt-w-2338
+  type: word
+  cefr: B1
+  text: "nuosavas"
+  pos: adj
+  meaning: { ru: "собственный" }
+  note: { ru: "nuosavybė — собственность" }
+  examples:
+    - { text: "Tomas turi nuosavą kambarį.", translation: "У Тома есть собственная комната.", source: "tatoeba:12514416" }
+- id: lt-w-2339
+  type: word
+  cefr: B2
+  text: "ketinimas"
+  pos: noun
+  gender: m
+  gen: "ketinimo"
+  meaning: { ru: "намерение" }
+  note: { ru: "ketinti — намереваться" }
+- id: lt-w-2340
+  type: word
+  cefr: B1
+  text: "padidėti"
+  pos: verb
+  forms: { pres: "padidėja", past: "padidėjo" }
+  meaning: { ru: "увеличиться, вырасти" }
+  note: { ru: "padidinti — увеличить (что-л.)" }
+  examples:
+    - { text: "Elektros kainos padidėjo.", translation: "Цены на электроэнергию выросли.", source: "tatoeba:11350303" }
+- id: lt-w-2341
+  type: word
+  cefr: B1
+  text: "ankstesnis"
+  pos: adj
+  meaning: { ru: "прежний, предыдущий" }
+  examples:
+    - { text: "Ankstesni laikai praėjo.", translation: "Прежние времена прошли.", source: "tatoeba:13867237" }
+- id: lt-w-2342
+  type: word
+  cefr: B2
+  text: "pagunda"
+  pos: noun
+  gender: f
+  gen: "pagundos"
+  meaning: { ru: "соблазн, искушение" }
+  note: { ru: "pasiduoti pagundai — поддаться искушению" }
+  examples:
+    - { text: "Ji nepasidavė pagundai.", translation: "Она не поддалась искушению.", source: "tatoeba:13491162" }
+- id: lt-w-2343
+  type: word
+  cefr: B2
+  text: "susilpnėti"
+  pos: verb
+  forms: { pres: "susilpnėja", past: "susilpnėjo" }
+  meaning: { ru: "ослабеть" }
+  examples:
+    - { text: "Jo kvėpavimas susilpnėjo.", translation: "Его дыхание ослабло.", source: "tatoeba:13637912" }
+- id: lt-w-2344
+  type: word
+  cefr: B2
+  text: "atitinkamas"
+  pos: adj
+  meaning: { ru: "соответствующий" }
+  note: { ru: "atitinkamai — соответственно" }
+  examples:
+    - { text: "Sunku parinkti atitinkamą vertimą.", translation: "Трудно подобрать подходящий перевод.", source: "tatoeba:9840794" }
+- id: lt-w-2345
+  type: word
+  cefr: B2
+  text: "yda"
+  pos: noun
+  gender: f
+  gen: "ydos"
+  meaning: { ru: "порок, недостаток" }
+  examples:
+    - { text: "Kas iš mūsų neturi ydų?", translation: "У кого из нас нет недостатков?", source: "tatoeba:12847582" }
+- id: lt-w-2346
+  type: word
+  cefr: B2
+  text: "susidurti"
+  pos: verb
+  forms: { pres: "susiduria", past: "susidūrė" }
+  meaning: { ru: "столкнуться" }
+  note: { ru: "susidurti su kuo — столкнуться с чем" }
+  examples:
+    - { text: "Susidūrė du automobiliai.", translation: "Два автомобиля столкнулись.", source: "tatoeba:13088550" }
+- id: lt-w-2347
+  type: word
+  cefr: B2
+  text: "klastingas"
+  pos: adj
+  meaning: { ru: "коварный" }
+  examples:
+    - { text: "Vairuokite atsargiai! Šitie keliai yra klastingi.", translation: "Ведите осторожно! Эти дороги коварны.", source: "tatoeba:12102239" }
+- id: lt-w-2348
+  type: word
+  cefr: B2
+  text: "gebėjimas"
+  pos: noun
+  gender: m
+  gen: "gebėjimo"
+  meaning: { ru: "способность, умение" }
+  note: { ru: "gebėti — быть способным" }
+  examples:
+    - { text: "Tu netekai gebėjimo koncentruotis.", translation: "Ты утратил способность концентрироваться.", source: "tatoeba:3092209" }
+- id: lt-w-2349
+  type: word
+  cefr: B1
+  text: "atsirasti"
+  pos: verb
+  forms: { pres: "atsiranda", past: "atsirado" }
+  meaning: { ru: "появиться, возникнуть, найтись" }
+  examples:
+    - { text: "Kaip atsirado visata?", translation: "Как возникла Вселенная?", source: "tatoeba:11852114" }
+- id: lt-w-2350
+  type: word
+  cefr: B2
+  text: "nepriekaištingas"
+  pos: adj
+  meaning: { ru: "безупречный" }
+  examples:
+    - { text: "Jūsų anglų kalba nepriekaištinga.", translation: "Ваш английский безупречен.", source: "tatoeba:13717311" }
+- id: lt-w-2351
+  type: word
+  cefr: B2
+  text: "dialogas"
+  pos: noun
+  gender: m
+  gen: "dialogo"
+  meaning: { ru: "диалог" }
+  examples:
+    - { text: "Tai gyvas ir naudingas dialogas.", translation: "Это живой и полезный диалог.", source: "tatoeba:13085898" }
+- id: lt-w-2352
+  type: word
+  cefr: B2
+  text: "lemti"
+  pos: verb
+  forms: { pres: "lemia", past: "lėmė" }
+  meaning: { ru: "определять, обусловливать" }
+  note: { ru: "lemtis — судьба" }
+  examples:
+    - { text: "Daiktų vertę lemia retybė.", translation: "Редкость определяет стоимость вещей.", source: "tatoeba:13845050" }
+- id: lt-w-2353
+  type: word
+  cefr: B2
+  text: "įgimtas"
+  pos: adj
+  meaning: { ru: "врождённый" }
+  examples:
+    - { text: "Tai ne įgimtas aklumas.", translation: "Это не врождённая слепота.", source: "tatoeba:13797960" }
+- id: lt-w-2354
+  type: word
+  cefr: B2
+  text: "mėginimas"
+  pos: noun
+  gender: m
+  gen: "mėginimo"
+  meaning: { ru: "попытка" }
+  note: { ru: "mėginti — пытаться" }
+  examples:
+    - { text: "Mes atsisakėme mėginimų.", translation: "Мы бросили попытки.", source: "tatoeba:9695572" }
+- id: lt-w-2355
+  type: word
+  cefr: B2
+  text: "reguliuoti"
+  pos: verb
+  forms: { pres: "reguliuoja", past: "reguliavo" }
+  meaning: { ru: "регулировать" }
+  examples:
+    - { text: "Jis reguliuoja termostatą, kad namuose būtų šilčiau.", translation: "Он регулирует термостат, чтобы в доме было теплее.", source: "tatoeba:12890314" }
+- id: lt-w-2356
+  type: word
+  cefr: B2
+  text: "neįkainojamas"
+  pos: adj
+  meaning: { ru: "бесценный" }
+  examples:
+    - { text: "Žinios yra neįkainojamas turtas.", translation: "Знание — бесценное сокровище.", source: "tatoeba:13631875" }
+- id: lt-w-2357
+  type: word
+  cefr: B2
+  text: "retenybė"
+  pos: noun
+  gender: f
+  gen: "retenybės"
+  meaning: { ru: "редкость" }
+  examples:
+    - { text: "Lietūs čia ne retenybė.", translation: "Дожди здесь не редкость.", source: "tatoeba:13167216" }
+- id: lt-w-2358
+  type: word
+  cefr: B2
+  text: "apriboti"
+  pos: verb
+  forms: { pres: "apriboja", past: "apribojo" }
+  meaning: { ru: "ограничить" }
+  note: { ru: "apribojimas — ограничение" }
+  examples:
+    - { text: "Stenkitės apriboti druskos vartojimą.", translation: "Старайтесь ограничивать потребление соли.", source: "tatoeba:12532133" }
+- id: lt-w-2359
+  type: word
+  cefr: B2
+  text: "keblus"
+  pos: adj
+  meaning: { ru: "затруднительный, щекотливый" }
+  examples:
+    - { text: "Tai labai kebli tema.", translation: "Это очень деликатная тема.", source: "tatoeba:12197902" }
+- id: lt-w-2360
+  type: word
+  cefr: B2
+  text: "pripažinimas"
+  pos: noun
+  gender: m
+  gen: "pripažinimo"
+  meaning: { ru: "признание" }
+  examples:
+    - { text: "Aš nenoriu susižavėjimo, aš noriu tik pripažinimo.", translation: "Я не хочу восхищения, я хочу лишь признания.", source: "tatoeba:12727347" }
+- id: lt-w-2361
+  type: word
+  cefr: B2
+  text: "išplėsti"
+  pos: verb
+  forms: { pres: "išplečia", past: "išplėtė" }
+  meaning: { ru: "расширить" }
+  examples:
+    - { text: "Jie nusprendė išplėsti savo veiklos lauką.", translation: "Они решили расширить поле своей деятельности.", source: "tatoeba:12892505" }
+- id: lt-w-2362
+  type: word
+  cefr: B2
+  text: "abipusis"
+  pos: adj
+  meaning: { ru: "взаимный" }
+  examples:
+    - { text: "Tarp mūsų atsirado abipusė simpatija.", translation: "Между нами возникла взаимная симпатия.", source: "tatoeba:13035051" }
+- id: lt-w-2363
+  type: word
+  cefr: B2
+  text: "tobulumas"
+  pos: noun
+  gender: m
+  gen: "tobulumo"
+  meaning: { ru: "совершенство" }
+  note: { ru: "tobulas — совершенный" }
+  examples:
+    - { text: "Nėra pasaulyje tobulumo.", translation: "Нет в мире совершенства.", source: "tatoeba:3951899" }
+- id: lt-w-2364
+  type: word
+  cefr: B2
+  text: "derinti"
+  pos: verb
+  forms: { pres: "derina", past: "derino" }
+  meaning: { ru: "согласовывать; сочетать" }
+  examples:
+    - { text: "Aš nesu pasiruošęs kiekvieną savo žingsnį derinti.", translation: "Я не готов согласовывать каждый свой шаг.", source: "tatoeba:13708189" }
+- id: lt-w-2365
+  type: word
+  cefr: B1
+  text: "tradicinis"
+  pos: adj
+  meaning: { ru: "традиционный" }
+  examples:
+    - { text: "Tai tradicinis vietinis patiekalas.", translation: "Это традиционное местное блюдо.", source: "tatoeba:13676499" }
+- id: lt-w-2366
+  type: word
+  cefr: B2
+  text: "prasimanymas"
+  pos: noun
+  gender: m
+  gen: "prasimanymo"
+  meaning: { ru: "выдумка, вымысел" }
+  examples:
+    - { text: "Tai visiškas prasimanymas.", translation: "Это сплошной вымысел.", source: "tatoeba:14036911" }
+- id: lt-w-2367
+  type: word
+  cefr: B2
+  text: "klestėti"
+  pos: verb
+  forms: { pres: "klesti", past: "klestėjo" }
+  meaning: { ru: "процветать" }
+  examples:
+    - { text: "Kurį laiką Tomo verslas klestėjo.", translation: "До поры до времени бизнес Тома процветал.", source: "tatoeba:13833358" }
+- id: lt-w-2368
+  type: word
+  cefr: B2
+  text: "konservatyvus"
+  pos: adj
+  meaning: { ru: "консервативный" }
+  examples:
+    - { text: "Aš nesu konservatyvus.", translation: "Я не консервативен.", source: "tatoeba:13026352" }
+- id: lt-w-2369
+  type: word
+  cefr: B1
+  text: "paprotys"
+  pos: noun
+  gender: m
+  gen: "papročio"
+  meaning: { ru: "обычай" }
+  examples:
+    - { text: "Kada atsirado šitas paprotys?", translation: "Когда возник этот обычай?", source: "tatoeba:13658723" }
+- id: lt-w-2370
+  type: word
+  cefr: B2
+  text: "vyrauti"
+  pos: verb
+  forms: { pres: "vyrauja", past: "vyravo" }
+  meaning: { ru: "преобладать, царить" }
+  examples:
+    - { text: "Įmonėje vyrauja draugiška atmosfera.", translation: "В компании царит дружелюбная атмосфера.", source: "tatoeba:13569792" }
+- id: lt-w-2371
+  type: word
+  cefr: B2
+  text: "netobulas"
+  pos: adj
+  meaning: { ru: "несовершенный" }
+  examples:
+    - { text: "Pasaulis yra netobulas.", translation: "Мир несовершенен.", source: "tatoeba:13345177" }
+- id: lt-w-2372
+  type: word
+  cefr: B2
+  text: "painiava"
+  pos: noun
+  gender: f
+  gen: "painiavos"
+  meaning: { ru: "путаница" }
+  examples:
+    - { text: "Dabar aišku, dėl ko kilo painiava.", translation: "Теперь понятно, из-за чего возникла путаница.", source: "tatoeba:13599861" }
+- id: lt-w-2373
+  type: word
+  cefr: B2
+  text: "įtikti"
+  pos: verb
+  forms: { pres: "įtinka", past: "įtiko" }
+  meaning: { ru: "угодить" }
+  note: { ru: "įtikti kam (дат. п.)" }
+  examples:
+    - { text: "Sunku Tomui įtikti.", translation: "Тому трудно угодить.", source: "tatoeba:9050999" }
+- id: lt-w-2374
+  type: word
+  cefr: B2
+  text: "žalingas"
+  pos: adj
+  meaning: { ru: "вредный" }
+  examples:
+    - { text: "Ar tai tikrai žalinga?", translation: "Это действительно вредно?", source: "tatoeba:13880183" }
+- id: lt-w-2375
+  type: word
+  cefr: B2
+  text: "gausybė"
+  pos: noun
+  gender: f
+  gen: "gausybės"
+  meaning: { ru: "множество, изобилие" }
+  note: { ru: "gausybė ko (род. п.)" }
+  examples:
+    - { text: "Suomijoje yra gausybė ežerų.", translation: "В Финляндии множество озёр.", source: "tatoeba:12913902" }
+- id: lt-w-2376
+  type: word
+  cefr: B2
+  text: "apmąstyti"
+  pos: verb
+  forms: { pres: "apmąsto", past: "apmąstė" }
+  meaning: { ru: "обдумать, осмыслить" }
+  examples:
+    - { text: "Aš privalau tai apmąstyti.", translation: "Я должен это осмыслить.", source: "tatoeba:12334875" }
+- id: lt-w-2377
+  type: word
+  cefr: B2
+  text: "ilgalaikis"
+  pos: adj
+  meaning: { ru: "долгосрочный, продолжительный" }
+  examples:
+    - { text: "Mes su jais pasirašėme ilgalaikę sutartį.", translation: "Мы подписали с ними долгосрочный контракт.", source: "tatoeba:13840100" }
+- id: lt-w-2378
+  type: word
+  cefr: B2
+  text: "įkvėpimas"
+  pos: noun
+  gender: m
+  gen: "įkvėpimo"
+  meaning: { ru: "вдохновение; вдох" }
+  examples:
+    - { text: "Man trūksta įkvėpimo.", translation: "Мне не хватает вдохновения.", source: "tatoeba:12663518" }
+- id: lt-w-2379
+  type: word
+  cefr: B2
+  text: "susigaudyti"
+  pos: verb
+  forms: { pres: "susigaudo", past: "susigaudė" }
+  meaning: { ru: "разобраться, сообразить" }
+  examples:
+    - { text: "Tomas greitai susigaudo.", translation: "Том быстро соображает.", source: "tatoeba:8223560" }
+- id: lt-w-2380
+  type: word
+  cefr: B2
+  text: "trumpalaikis"
+  pos: adj
+  meaning: { ru: "кратковременный, преходящий" }
+  examples:
+    - { text: "Grožis yra trumpalaikis.", translation: "Красота мимолётна.", source: "tatoeba:12794947" }
+- id: lt-w-2381
+  type: word
+  cefr: B2
+  text: "atrama"
+  pos: noun
+  gender: f
+  gen: "atramos"
+  meaning: { ru: "опора" }
+  examples:
+    - { text: "Tėvas yra šeimos atrama.", translation: "Отец - опора семьи.", source: "tatoeba:13618108" }
+- id: lt-w-2382
+  type: word
+  cefr: B2
+  text: "sugyventi"
+  pos: verb
+  forms: { pres: "sugyvena", past: "sugyveno" }
+  meaning: { ru: "ладить, уживаться" }
+  note: { ru: "sugyventi su kuo" }
+  examples:
+    - { text: "Su juo buvo sunku sugyventi.", translation: "С ним было нелегко ужиться.", source: "tatoeba:13501742" }
+- id: lt-w-2383
+  type: word
+  cefr: B2
+  text: "išsamus"
+  pos: adj
+  meaning: { ru: "подробный, исчерпывающий" }
+  note: { ru: "išsamiai — подробно" }
+  examples:
+    - { text: "Jis išsamiai išdėstė faktus.", translation: "Он подробно изложил факты.", source: "tatoeba:11536533" }
+- id: lt-w-2384
+  type: word
+  cefr: B2
+  text: "drausmė"
+  pos: noun
+  gender: f
+  gen: "drausmės"
+  meaning: { ru: "дисциплина" }
+  examples:
+    - { text: "Drausmė keičia jaunimą.", translation: "Дисциплина меняет молодёжь.", source: "tatoeba:12295943" }
+- id: lt-w-2385
+  type: word
+  cefr: B2
+  text: "užtarti"
+  pos: verb
+  forms: { pres: "užtaria", past: "užtarė" }
+  meaning: { ru: "заступиться" }
+  note: { ru: "užtarti ką (вин. п.) — заступиться за кого" }
+  examples:
+    - { text: "Aš neketinu Tomo užtarti.", translation: "Я не собираюсь защищать Тома.", source: "tatoeba:8084908" }
+- id: lt-w-2386
+  type: word
+  cefr: B1
+  text: "pastovus"
+  pos: adj
+  meaning: { ru: "постоянный, стабильный" }
+  examples:
+    - { text: "Jie turi pastovų darbą.", translation: "У них есть стабильная работа.", source: "tatoeba:12894285" }
+- id: lt-w-2387
+  type: word
+  cefr: B1
+  text: "gimtinė"
+  pos: noun
+  gender: f
+  gen: "gimtinės"
+  meaning: { ru: "родина, родные места" }
+  examples:
+    - { text: "Aš svajojau grįžti į gimtinę.", translation: "Я мечтал вернуться на родину.", source: "tatoeba:2489680" }
+- id: lt-w-2388
+  type: word
+  cefr: B2
+  text: "lygiuotis"
+  pos: verb
+  forms: { pres: "lygiuojasi", past: "lygiavosi" }
+  meaning: { ru: "равняться (на кого-л.)" }
+  note: { ru: "lygiuotis į ką — равняться на кого" }
+- id: lt-w-2389
+  type: word
+  cefr: B1
+  text: "įspūdingas"
+  pos: adj
+  meaning: { ru: "впечатляющий" }
+  examples:
+    - { text: "Tai buvo įspūdinga.", translation: "Это было впечатляюще.", source: "tatoeba:10066096" }
+- id: lt-w-2390
+  type: word
+  cefr: B2
+  text: "užsidegimas"
+  pos: noun
+  gender: m
+  gen: "užsidegimo"
+  meaning: { ru: "воодушевление, энтузиазм" }
+  examples:
+    - { text: "Ar jo užsidegimas jau dingo?", translation: "Его энтузиазм уже испарился?", source: "tatoeba:13599808" }
+- id: lt-w-2391
+  type: word
+  cefr: B2
+  text: "vadovautis"
+  pos: verb
+  forms: { pres: "vadovaujasi", past: "vadovavosi" }
+  meaning: { ru: "руководствоваться" }
+  note: { ru: "vadovautis kuo (тв. п.)" }
+  examples:
+    - { text: "Tu turi vadovautis taisyklėmis.", translation: "Ты должен следовать правилам.", source: "tatoeba:13759910" }
+- id: lt-w-2392
+  type: word
+  cefr: B2
+  text: "neįtikėtinas"
+  pos: adj
+  meaning: { ru: "невероятный" }
+  examples:
+    - { text: "Šituo laiku būna neįtikėtinos spūstys.", translation: "В это время невероятные пробки.", source: "tatoeba:13788832" }
+- id: lt-w-2393
+  type: word
+  cefr: B2
+  text: "agresija"
+  pos: noun
+  gender: f
+  gen: "agresijos"
+  meaning: { ru: "агрессия" }
+  examples:
+    - { text: "Agresija yra baimės požymis.", translation: "Агрессия - признак страха.", source: "tatoeba:12885798" }
+- id: lt-w-2394
+  type: word
+  cefr: B1
+  text: "įsimylėti"
+  pos: verb
+  forms: { pres: "įsimyli", past: "įsimylėjo" }
+  meaning: { ru: "влюбиться" }
+  note: { ru: "įsimylėti ką (вин. п.)" }
+  examples:
+    - { text: "Aš jį įsimylėjęs.", translation: "Я в него влюблён.", source: "tatoeba:12194119" }
+- id: lt-w-2395
+  type: word
+  cefr: B2
+  text: "privalomas"
+  pos: adj
+  meaning: { ru: "обязательный" }
+  examples:
+    - { text: "Tai privalomas reikalavimas.", translation: "Это обязательное требование.", source: "tatoeba:13743618" }
+- id: lt-w-2396
+  type: word
+  cefr: B2
+  text: "plėšrūnas"
+  pos: noun
+  gender: m
+  gen: "plėšrūno"
+  meaning: { ru: "хищник" }
+  examples:
+    - { text: "Liūtai yra plėšrūnai.", translation: "Львы — хищники.", source: "tatoeba:13743375" }
+- id: lt-w-2397
+  type: word
+  cefr: B2
+  text: "išsilaikyti"
+  pos: verb
+  forms: { pres: "išsilaiko", past: "išsilaikė" }
+  meaning: { ru: "продержаться, уцелеть" }
+  examples:
+    - { text: "Karštis dar savaitę išsilaikys.", translation: "Жара продержится ещё неделю.", source: "tatoeba:12483631" }
+- id: lt-w-2398
+  type: word
+  cefr: B2
+  text: "sąmoningas"
+  pos: adj
+  meaning: { ru: "сознательный; в сознании" }
+  note: { ru: "sąmoningai — сознательно, умышленно" }
+  examples:
+    - { text: "Ligonis yra sąmoningas.", translation: "Больной в сознании.", source: "tatoeba:10279983" }
+- id: lt-w-2399
+  type: word
+  cefr: B2
+  text: "sutuoktinis"
+  pos: noun
+  gender: m
+  gen: "sutuoktinio"
+  meaning: { ru: "супруг" }
+  note: { ru: "sutuoktiniai — супруги" }
+  examples:
+    - { text: "Tavo sutuoktinis yra lenkas.", translation: "Твой супруг — поляк.", source: "tatoeba:13738818" }
+- id: lt-w-2400
+  type: word
+  cefr: B2
+  text: "pageidavimas"
+  pos: noun
+  gender: m
+  gen: "pageidavimo"
+  meaning: { ru: "пожелание" }
+  examples:
+    - { text: "Aš turiu pageidavimų.", translation: "У меня есть пожелания.", source: "tatoeba:11551085" }
