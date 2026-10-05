@@ -1,0 +1,496 @@
+# Generated from scripts/batches/es-a2-basics-2213.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-2213
+  type: word
+  cefr: A2
+  text: "labio"
+  pos: noun
+  gender: m
+  meaning: { en: "lip" }
+  examples:
+    - { text: "María puso su dedo sobre mis labios.", translation: "Mary put her finger on my lips.", source: "tatoeba:5157526" }
+- id: es-w-2214
+  type: word
+  cefr: A2
+  text: "cintura"
+  pos: noun
+  gender: f
+  meaning: { en: "waist" }
+  examples:
+    - { text: "Puso su brazo alrededor de mi cintura.", translation: "He put his arm around my waist.", source: "tatoeba:5046150" }
+- id: es-w-2215
+  type: word
+  cefr: A2
+  text: "hueso"
+  pos: noun
+  gender: m
+  meaning: { en: "bone" }
+  note: { en: "romperse un hueso = to break a bone" }
+  examples:
+    - { text: "¿Alguna vez te has roto un hueso?", translation: "Have you ever broken a bone?", source: "tatoeba:2138210" }
+- id: es-w-2216
+  type: word
+  cefr: A2
+  text: "cerebro"
+  pos: noun
+  gender: m
+  meaning: { en: "brain" }
+  examples:
+    - { text: "El cerebro es solamente una máquina complicada.", translation: "The brain is just a complicated machine.", source: "tatoeba:1003021" }
+- id: es-w-2217
+  type: word
+  cefr: A2
+  text: "frente"
+  pos: noun
+  gender: f
+  meaning: { en: "forehead" }
+  note: { en: "el frente = front; frente a = opposite, facing" }
+  examples:
+    - { text: "Él me besó en la frente.", translation: "He kissed me on the forehead.", source: "tatoeba:488873" }
+- id: es-w-2218
+  type: word
+  cefr: A2
+  text: "ceja"
+  pos: noun
+  gender: f
+  meaning: { en: "eyebrow" }
+  examples:
+    - { text: "No tenían barba, pelo ni cejas.", translation: "They had no beards, no hair and no eyebrows.", source: "tatoeba:1937294" }
+- id: es-w-2219
+  type: word
+  cefr: A2
+  text: "oído"
+  pos: noun
+  gender: m
+  meaning: { en: "(inner) ear; hearing" }
+  note: { en: "the outer ear: la oreja; de oído = by ear; also past participle of oír" }
+  examples:
+    - { text: "Tom es sordo de un oído.", translation: "Tom is deaf in one ear.", source: "tatoeba:1306141" }
+- id: es-w-2220
+  type: word
+  cefr: A2
+  text: "jersey"
+  pos: noun
+  gender: m
+  meaning: { en: "jumper, sweater" }
+  note: { en: "Spain; plural jerséis; Latin America: el suéter" }
+  examples:
+    - { text: "¿Cuánto cuesta este jersey, por favor?", translation: "How much is this pullover, please?", source: "tatoeba:436228" }
+- id: es-w-2221
+  type: word
+  cefr: A1
+  text: "bota"
+  pos: noun
+  gender: f
+  meaning: { en: "boot" }
+  note: { en: "usually plural: las botas" }
+  examples:
+    - { text: "Siempre uso botas cuando llueve o nieva.", translation: "I always wear boots when it rains or snows.", source: "tatoeba:1082856" }
+- id: es-w-2222
+  type: word
+  cefr: A2
+  text: "bufanda"
+  pos: noun
+  gender: f
+  meaning: { en: "scarf" }
+  examples:
+    - { text: "Ella lleva una bufanda alrededor del cuello.", translation: "She has a scarf around her neck.", source: "tatoeba:2005527" }
+- id: es-w-2223
+  type: word
+  cefr: A2
+  text: "gorro"
+  pos: noun
+  gender: m
+  meaning: { en: "(woolly) hat, beanie" }
+  note: { en: "una gorra = a cap with a peak; un sombrero = a hat with a brim" }
+  examples:
+    - { text: "Se me perdió el gorro en el autobús.", translation: "I lost my hat on the bus.", source: "tatoeba:2078341" }
+- id: es-w-2224
+  type: word
+  cefr: A2
+  text: "traje"
+  pos: noun
+  gender: m
+  meaning: { en: "suit; costume" }
+  note: { en: "traje de baño = swimsuit; also traje = I brought (traer)" }
+  examples:
+    - { text: "Yo llevo traje, pero no llevo corbata.", translation: "I wear a suit, but not a tie.", source: "tatoeba:437157" }
+- id: es-w-2225
+  type: word
+  cefr: A2
+  text: "talla"
+  pos: noun
+  gender: f
+  meaning: { en: "(clothes) size" }
+  note: { en: "for shoes: el número (¿qué número calza?)" }
+  examples:
+    - { text: "¿Tiene esto en una talla más grande?", translation: "Do you have this in a bigger size?", source: "tatoeba:434593" }
+- id: es-w-2226
+  type: word
+  cefr: A2
+  text: "anillo"
+  pos: noun
+  gender: m
+  meaning: { en: "ring" }
+  note: { en: "anillo de boda = wedding ring" }
+  examples:
+    - { text: "Ella parecía contenta con su nuevo anillo.", translation: "She looked pleased with her new ring.", source: "tatoeba:658336" }
+- id: es-w-2227
+  type: word
+  cefr: A2
+  text: "pendiente"
+  pos: noun
+  gender: m
+  meaning: { en: "earring" }
+  note: { en: "Spain; Latin America: el arete; also adj.: pending; la pendiente = slope" }
+  examples:
+    - { text: "Mary se quitó los pendientes.", translation: "Mary took her earrings off.", source: "tatoeba:8005818" }
+- id: es-w-2228
+  type: word
+  cefr: A2
+  text: "bañador"
+  pos: noun
+  gender: m
+  meaning: { en: "swimsuit, swimming trunks" }
+  note: { en: "Spain; Latin America: el traje de baño" }
+  examples:
+    - { text: "Me gusta mi bañador nuevo.", translation: "I'm pleased with my new bathing suit.", source: "tatoeba:855025" }
+- id: es-w-2229
+  type: word
+  cefr: A1
+  text: "parada"
+  pos: noun
+  gender: f
+  meaning: { en: "stop (bus, tram)" }
+  note: { en: "parada de autobús = bus stop" }
+  examples:
+    - { text: "Creo que bajamos en la próxima parada.", translation: "I think we get off at the next stop.", source: "tatoeba:437000" }
+- id: es-w-2230
+  type: word
+  cefr: A2
+  text: "andén"
+  pos: noun
+  gender: m
+  meaning: { en: "(railway) platform" }
+  examples:
+    - { text: "Su tren sale del andén 10.", translation: "Your train leaves from Platform 10.", source: "tatoeba:1511093" }
+- id: es-w-2231
+  type: word
+  cefr: A2
+  text: "aduana"
+  pos: noun
+  gender: f
+  meaning: { en: "customs" }
+  note: { en: "pasar la aduana = to go through customs" }
+  examples:
+    - { text: "Hay que pasar por la aduana al llegar.", translation: "It's necessary to go through customs on arriving.", source: "tatoeba:456228" }
+- id: es-w-2232
+  type: word
+  cefr: A1
+  text: "moto"
+  pos: noun
+  gender: f
+  meaning: { en: "motorbike" }
+  note: { en: "feminine: la moto (short for la motocicleta); ir en moto" }
+  examples:
+    - { text: "Es peligroso ir en moto sin casco.", translation: "It is dangerous to ride a motorbike without a helmet.", source: "tatoeba:712047" }
+- id: es-w-2233
+  type: word
+  cefr: A2
+  text: "acera"
+  pos: noun
+  gender: f
+  meaning: { en: "pavement, sidewalk" }
+  note: { en: "Spain; Mexico: la banqueta; Argentina, Peru: la vereda" }
+  examples:
+    - { text: "No está permitido aparcar en la acera.", translation: "You aren't allowed to park on the sidewalk.", source: "tatoeba:1284716" }
+- id: es-w-2234
+  type: word
+  cefr: A2
+  text: "oficina de correos"
+  pos: noun
+  gender: f
+  meaning: { en: "post office" }
+  note: { en: "in Spain often just Correos: ir a Correos" }
+  examples:
+    - { text: "¿Cómo llego a la oficina de correos?", translation: "How do I get to the post office?", source: "tatoeba:1666869" }
+- id: es-w-2235
+  type: word
+  cefr: A1
+  text: "panadería"
+  pos: noun
+  gender: f
+  meaning: { en: "bakery" }
+  note: { en: "el pan = bread; el panadero = baker" }
+  examples:
+    - { text: "¿Dónde está la panadería más cercana?", translation: "Where is the nearest bakery?", source: "tatoeba:1011550" }
+- id: es-w-2236
+  type: word
+  cefr: A2
+  text: "librería"
+  pos: noun
+  gender: f
+  meaning: { en: "bookshop" }
+  note: { en: "false friend: library = la biblioteca" }
+  examples:
+    - { text: "Ella está comprando libros en la librería.", translation: "She is buying books in the bookstore.", source: "tatoeba:456714" }
+- id: es-w-2237
+  type: word
+  cefr: A2
+  text: "peluquería"
+  pos: noun
+  gender: f
+  meaning: { en: "hairdresser's, barber's" }
+  note: { en: "el peluquero / la peluquera = hairdresser" }
+  examples:
+    - { text: "Voy a la peluquería todos los meses.", translation: "I go monthly to the hairdresser.", source: "tatoeba:459182" }
+- id: es-w-2238
+  type: word
+  cefr: A2
+  text: "fuente"
+  pos: noun
+  gender: f
+  meaning: { en: "fountain; source" }
+  note: { en: "fuente de inspiración = source of inspiration" }
+  examples:
+    - { text: "¿Cuál es tu mayor fuente de inspiración?", translation: "What is your greatest source of inspiration?", source: "tatoeba:978744" }
+- id: es-p-2239
+  type: phrase
+  cefr: A2
+  text: "ida y vuelta"
+  pos: phrase
+  meaning: { en: "return, round trip" }
+  note: { en: "un billete de ida y vuelta = a return ticket; solo ida = one-way; Latin America: boleto" }
+  examples:
+    - { text: "Compré un billete de ida y vuelta.", translation: "I bought a return ticket.", source: "tatoeba:1591613" }
+- id: es-p-2240
+  type: phrase
+  cefr: A1
+  text: "todo recto"
+  pos: phrase
+  meaning: { en: "straight on, straight ahead" }
+  note: { en: "Spain; Latin America: (todo) derecho" }
+  examples:
+    - { text: "Siga usted todo recto.", translation: "Continue straight ahead.", source: "tatoeba:434465" }
+- id: es-w-2241
+  type: word
+  cefr: A2
+  text: "enfrente"
+  pos: adv
+  meaning: { en: "opposite, across the street" }
+  note: { en: "enfrente de = opposite (something): enfrente de mi casa" }
+  examples:
+    - { text: "¿Quién vive en la casa de enfrente?", translation: "Who lives in the house across the street?", source: "tatoeba:8337537" }
+- id: es-p-2242
+  type: phrase
+  cefr: A1
+  text: "al lado de"
+  pos: phrase
+  meaning: { en: "next to, beside" }
+  note: { en: "al lado = next door: los vecinos de al lado" }
+  examples:
+    - { text: "Yo me senté al lado de ella.", translation: "I sat beside her.", source: "tatoeba:1289509" }
+- id: es-w-2243
+  type: word
+  cefr: A2
+  text: "rebajas"
+  pos: noun
+  gender: f
+  meaning: { en: "(the) sales" }
+  note: { en: "plural; Spain: seasonal sales in January and July; estar rebajado = to be reduced" }
+  examples:
+    - { text: "Me compré esta camiseta en las rebajas.", translation: "I bought this T-shirt on sale.", source: "tatoeba:1975760" }
+- id: es-w-2244
+  type: word
+  cefr: A2
+  text: "oferta"
+  pos: noun
+  gender: f
+  meaning: { en: "offer; special offer" }
+  note: { en: "estar de oferta = to be on special offer" }
+  examples:
+    - { text: "He recibido una buena oferta de trabajo.", translation: "I received a good job offer.", source: "tatoeba:957809" }
+- id: es-w-2245
+  type: word
+  cefr: A2
+  text: "recibo"
+  pos: noun
+  gender: m
+  meaning: { en: "receipt; bill (for utilities)" }
+  note: { en: "also recibo = I receive (recibir)" }
+  examples:
+    - { text: "¿Me podría dar el recibo de pago?", translation: "Could you give me the payment receipt?", source: "tatoeba:9379005" }
+- id: es-w-2246
+  type: word
+  cefr: A2
+  text: "cola"
+  pos: noun
+  gender: f
+  meaning: { en: "queue, line; tail" }
+  note: { en: "hacer cola = to queue (Latin America: hacer fila)" }
+  examples:
+    - { text: "Los británicos están acostumbrados a hacer cola.", translation: "British people are used to standing in queues.", source: "tatoeba:1072314" }
+- id: es-w-2247
+  type: word
+  cefr: A2
+  text: "dependiente"
+  pos: noun
+  gender: m
+  meaning: { en: "shop assistant" }
+  note: { en: "la dependienta; also adj.: dependent" }
+  examples:
+    - { text: "El dependiente los atendió en seguida.", translation: "The clerk waited on them immediately.", source: "tatoeba:2259294" }
+- id: es-w-2248
+  type: word
+  cefr: A2
+  text: "cambio"
+  pos: noun
+  gender: m
+  meaning: { en: "change; exchange; small change" }
+  note: { en: "tipo de cambio = exchange rate; ¿tiene cambio? = do you have change?" }
+  examples:
+    - { text: "¿Cuál es el tipo de cambio hoy?", translation: "What's the exchange rate today?", source: "tatoeba:642343" }
+- id: es-w-2249
+  type: word
+  cefr: A2
+  text: "herida"
+  pos: noun
+  gender: f
+  meaning: { en: "wound, injury" }
+  note: { en: "herido = injured" }
+  examples:
+    - { text: "La herida no se ha curado aún.", translation: "The wound has not healed yet.", source: "tatoeba:1353075" }
+- id: es-w-2250
+  type: word
+  cefr: A2
+  text: "alergia"
+  pos: noun
+  gender: f
+  meaning: { en: "allergy" }
+  note: { en: "tener alergia a = ser alérgico a = to be allergic to" }
+  examples:
+    - { text: "Tengo alergia a la leche.", translation: "I have an allergy to milk.", source: "tatoeba:1702904" }
+- id: es-w-2251
+  type: word
+  cefr: A2
+  text: "toser"
+  pos: verb
+  meaning: { en: "to cough" }
+  note: { en: "la tos = cough" }
+  examples:
+    - { text: "Tom no podía parar de toser.", translation: "Tom couldn't stop coughing.", source: "tatoeba:1257786" }
+- id: es-w-2252
+  type: word
+  cefr: A2
+  text: "mareado"
+  pos: adj
+  meaning: { en: "dizzy; (car-, sea-)sick" }
+  note: { en: "marearse = to get dizzy / travel-sick" }
+  examples:
+    - { text: "Tom se sintió un poco mareado.", translation: "Tom felt a little dizzy.", source: "tatoeba:1410215" }
+- id: es-w-2253
+  type: word
+  cefr: A2
+  text: "urgencias"
+  pos: noun
+  gender: f
+  meaning: { en: "accident and emergency, ER" }
+  note: { en: "plural: ir a urgencias; Latin America also: emergencias" }
+  examples:
+    - { text: "Tuve que ir a urgencias.", translation: "I had to go to the emergency room.", source: "tatoeba:2405363" }
+- id: es-w-2254
+  type: word
+  cefr: A2
+  text: "ambulancia"
+  pos: noun
+  gender: f
+  meaning: { en: "ambulance" }
+  examples:
+    - { text: "Necesito usar tu teléfono para llamar una ambulancia.", translation: "I need to use your phone to call an ambulance.", source: "tatoeba:1564830" }
+- id: es-w-2255
+  type: word
+  cefr: A2
+  text: "embarazada"
+  pos: adj
+  meaning: { en: "pregnant" }
+  note: { en: "false friend: embarrassed = avergonzado" }
+  examples:
+    - { text: "Acabo de averiguar que ella estaba embarazada.", translation: "I just found out she was pregnant.", source: "tatoeba:1684117" }
+- id: es-w-2256
+  type: word
+  cefr: B1
+  text: "vacuna"
+  pos: noun
+  gender: f
+  meaning: { en: "vaccine; vaccination, jab" }
+  note: { en: "vacunar = to vaccinate; vacunarse = to get vaccinated" }
+  examples:
+    - { text: "El enfermero me administró una vacuna.", translation: "The nurse gave me a vaccine.", source: "tatoeba:6619881" }
+- id: es-w-2257
+  type: word
+  cefr: A2
+  text: "medicamento"
+  pos: noun
+  gender: m
+  meaning: { en: "medicine, medication" }
+  note: { en: "= la medicina" }
+  examples:
+    - { text: "Toma el medicamento tres veces al día.", translation: "Take the medicine three times a day.", source: "tatoeba:573296" }
+- id: es-w-2258
+  type: word
+  cefr: A2
+  text: "tirita"
+  pos: noun
+  gender: f
+  meaning: { en: "(sticking) plaster, Band-Aid" }
+  note: { en: "Spain; Latin America: la curita" }
+  examples:
+    - { text: "Se puso una tirita en la mano.", translation: "He put a Band-Aid on his hand.", source: "tatoeba:895206" }
+- id: es-w-2259
+  type: word
+  cefr: A2
+  text: "nublado"
+  pos: adj
+  meaning: { en: "cloudy" }
+  note: { en: "está nublado = it's cloudy; la nube = cloud" }
+  examples:
+    - { text: "Estuvo nublado todo el día hoy.", translation: "It was cloudy all day long today.", source: "tatoeba:1442115" }
+- id: es-w-2260
+  type: word
+  cefr: A2
+  text: "soleado"
+  pos: adj
+  meaning: { en: "sunny" }
+  note: { en: "hace sol = it's sunny" }
+  examples:
+    - { text: "Está soleado, pero el agua está fría.", translation: "It's sunny, but the water is cold.", source: "tatoeba:4359646" }
+- id: es-w-2261
+  type: word
+  cefr: A2
+  text: "trueno"
+  pos: noun
+  gender: m
+  meaning: { en: "thunder" }
+  examples:
+    - { text: "A ella le dan miedo los truenos.", translation: "She is frightened of thunder.", source: "tatoeba:956739" }
+- id: es-w-2262
+  type: word
+  cefr: B1
+  text: "relámpago"
+  pos: noun
+  gender: m
+  meaning: { en: "(flash of) lightning" }
+  note: { en: "un rayo = a lightning bolt (that strikes)" }
+  examples:
+    - { text: "El relámpago alumbró el cielo.", translation: "The lightning lit up the sky.", source: "tatoeba:1386447" }
+- id: es-w-2263
+  type: word
+  cefr: B1
+  text: "pronóstico"
+  pos: noun
+  gender: m
+  meaning: { en: "forecast" }
+  note: { en: "el pronóstico del tiempo = the weather forecast; Spain also: la previsión" }
+  examples:
+    - { text: "Según el pronóstico va a nevar mañana.", translation: "According to the weather forecast it is going to snow tomorrow.", source: "tatoeba:434161" }
