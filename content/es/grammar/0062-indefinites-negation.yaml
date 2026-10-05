@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0062
+cefr: A2
+order: 62
+title: "Alguien, nadie, algo, nada, ningún: some, any, no"
+explanation:
+  en: |
+    **Pairs — positive / negative:**
+    - ***alguien / nadie*** — somebody / nobody (people)
+    - ***algo / nada*** — something / nothing
+    - ***alguno / ninguno*** — some, any (one of them) / none, no
+    - ***siempre / nunca*** (or ***jamás***) — always / never
+    - ***también / tampoco*** — too / neither, not … either
+
+    **Double negation is normal:** **no** + verb + negative word — *No vi **a nadie**.* *No dije **nada**.* *No fumo **nunca**.*
+    If the negative word comes **before** the verb, drop *no*: ***Nadie** llamó.* ***Nunca** fumo.* *Yo **tampoco** lo sé.*
+
+    **Alguno / ninguno** agree with the noun and lose *-o* before a masculine singular noun: ***algún** libro, **alguna** duda, **ningún** error, **ninguna** idea*. *Ninguno* is almost always singular: *No tengo **ningún** amigo allí* (not ~~ningunos amigos~~).
+
+    **Personal *a*:** *alguien* and *nadie* as objects take *a*: *¿Conoces **a alguien**?* *No vi **a nadie**.*
+comparison:
+  en: |
+    Exactly like Russian «я **ни**кого **не** видел», «**никто не** звонил»: Spanish doubles the negation, English does not ("I didn't see anybody"). English "any" has no single Spanish word: in questions *algún / alguna* (*¿Tienes alguna pregunta?*) or nothing (*¿Tienes hermanos?*); after *no* — *ningún / ninguna* or *nada / nadie*.
+examples:
+  - { text: "¿Hay alguien en casa?", translation: "Anyone home?", source: "tatoeba:740590" }
+  - { text: "No vi a nadie.", translation: "I didn't see anybody.", source: "tatoeba:850508" }
+  - { text: "Nadie llamó.", translation: "Nobody called.", source: "tatoeba:2150109" }
+  - { text: "No hay ningún error.", translation: "There's no mistake.", source: "tatoeba:628037" }
+  - { text: "Yo tampoco lo sé.", translation: "I don't know either.", source: "tatoeba:3303095" }
+exercises:
+  - type: cloze
+    text: "No hay ___ en la nevera."
+    answer: "nada"
+    hint: "nothing"
+    translation: "There's nothing in the fridge."
+  - type: cloze
+    text: "¿Conoces a ___ en esta ciudad?"
+    answer: "alguien"
+    hint: "somebody, anybody"
+    translation: "Do you know anybody in this city?"
+  - type: cloze
+    text: "No conozco a ___ aquí."
+    answer: "nadie"
+    hint: "nobody"
+    translation: "I don't know anybody here."
+  - type: cloze
+    text: "___ me dijo nada."
+    answer: "Nadie"
+    hint: "nobody — before the verb, drop \"no\""
+    translation: "Nobody told me anything."
+  - type: cloze
+    text: "No tengo ___ problema."
+    answer: "ningún"
+    hint: "ninguno + masculine noun"
+    translation: "I don't have any problem."
+  - type: cloze
+    text: "¿Tienes ___ pregunta?"
+    answer: "alguna"
+    hint: "alguno + feminine noun"
+    translation: "Do you have any questions?"
+  - type: cloze
+    text: "No me gusta el café. — A mí ___."
+    answer: "tampoco"
+    hint: "me neither"
+    translation: "I don't like coffee. — Me neither."
+  - type: cloze
+    text: "No he estado ___ en México."
+    answer: "nunca"
+    also: ["jamás"]
+    hint: "never — after the verb, keep \"no\""
+    translation: "I've never been to Mexico."
