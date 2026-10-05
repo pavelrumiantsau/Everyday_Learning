@@ -1,0 +1,44 @@
+id: lt-r-0080
+cefr: C1
+title: "Geležinio vilko šalyje"
+topic: "волки и фермеры"
+source: generated
+text: |
+  Pasak legendos, kunigaikščiui Gediminui susapnavo geležinis vilkas, staugiantis ant kalvos, ir tai paskatino jį įkurti Vilnių. Vilkas lietuvių kultūroje visada buvo dviprasmiškas simbolis: stiprybės ir laisvės ženklas, bet kartu – pavojus, nuo kurio reikėjo saugoti bandą.
+
+  Šis dvilypumas išliko iki šių dienų. Lietuvos miškuose gyvena keli šimtai vilkų, ir jų skaičius pastaruoju metu nemažėja. Ūkininkai, ypač auginantys avis, skundžiasi, kad plėšrūnai kasmet išpjauna dešimtis gyvulių, o žalos kompensacijos dažnai būna per mažos ir mokamos per vėlai. Kai kuriuose kaimuose žmonės sako bijantys vakare išleisti vaikus į lauką.
+
+  Gamtosaugininkai atsako, kad vilkai atlieka svarbų vaidmenį ekosistemoje: reguliuoja elnių ir šernų populiacijas, kurios kitu atveju naikintų jaunus miškus ir pasėlius. Be to, išpuoliai prieš žmones itin reti, o daugelio ginčų būtų galima išvengti tinkamai apsaugojus bandas – elektriniais aptvarais ar sarginiais šunimis.
+
+  Ilgą laiką vilkas Europos Sąjungoje buvo griežtai saugoma rūšis, todėl jų medžioklė Lietuvoje buvo ribojama metiniais limitais. Neseniai apsaugos statusas Europoje sušvelnintas, ir tai vėl įžiebė diskusiją: vieni džiaugiasi, kad bus lengviau ginti ūkius, kiti baiminasi, kad tai atvers kelią nekontroliuojamai medžioklei.
+
+  Ši diskusija iš esmės ne apie vilkus, o apie tai, kaip žmogus nori dalytis erdve su laukine gamta. Kaip pastebi vienas biologas, vilkas nesirenka, ar jis bus legendos herojus, ar kenkėjas – tai sprendžiame mes.
+glossary:
+  - { word: "kunigaikščiui", lemma: "kunigaikštis", pos: noun, gender: m, gen: "kunigaikščio", meaning: "князь", note: "дат. п.: kunigaikščiui susapnavo — князю приснилось" }
+  - { word: "susapnavo", lemma: "susapnuoti", pos: verb, forms: { pres: "susapnuoja", past: "susapnavo" }, meaning: "присниться; увидеть во сне" }
+  - { word: "staugiantis", lemma: "staugti", pos: verb, forms: { pres: "staugia", past: "staugė" }, meaning: "выть", note: "прич. наст. вр., м. р." }
+  - { word: "bandą", lemma: "banda", pos: noun, gender: f, gen: "bandos", meaning: "стадо", note: "вин. п." }
+  - { word: "dvilypumas", lemma: "dvilypumas", pos: noun, gender: m, gen: "dvilypumo", meaning: "двойственность" }
+  - { word: "plėšrūnai", lemma: "plėšrūnas", pos: noun, gender: m, gen: "plėšrūno", meaning: "хищник", note: "им. п. мн. ч." }
+  - { word: "išpjauna", lemma: "išpjauti", pos: verb, forms: { pres: "išpjauna", past: "išpjovė" }, meaning: "зарезать (многих)" }
+  - { word: "gyvulių", lemma: "gyvulys", pos: noun, gender: m, gen: "gyvulio", meaning: "домашнее животное, скот", note: "род. п. мн. ч." }
+  - { word: "elnių", lemma: "elnias", pos: noun, gender: m, gen: "elnio", meaning: "олень", note: "род. п. мн. ч." }
+  - { word: "šernų", lemma: "šernas", pos: noun, gender: m, gen: "šerno", meaning: "кабан", note: "род. п. мн. ч." }
+  - { word: "pasėlius", lemma: "pasėlis", pos: noun, gender: m, gen: "pasėlio", meaning: "посев", note: "вин. п. мн. ч." }
+  - { word: "išpuoliai", lemma: "išpuolis", pos: noun, gender: m, gen: "išpuolio", meaning: "нападение", note: "им. п. мн. ч." }
+  - { word: "aptvarais", lemma: "aptvaras", pos: noun, gender: m, gen: "aptvaro", meaning: "загон, ограждение", note: "тв. п. мн. ч." }
+  - { word: "sarginiais", lemma: "sarginis", pos: adj, meaning: "сторожевой", note: "тв. п. мн. ч." }
+  - { word: "rūšis", lemma: "rūšis", pos: noun, gender: f, gen: "rūšies", meaning: "вид (биол.), сорт" }
+  - { word: "medžioklė", lemma: "medžioklė", pos: noun, gender: f, gen: "medžioklės", meaning: "охота" }
+  - { word: "sušvelnintas", lemma: "sušvelninti", pos: verb, forms: { pres: "sušvelnina", past: "sušvelnino" }, meaning: "смягчить", note: "пассивное прич., м. р." }
+  - { word: "kenkėjas", lemma: "kenkėjas", pos: noun, gender: m, gen: "kenkėjo", meaning: "вредитель" }
+questions:
+  - q: "Kodėl vilkas lietuvių kultūroje – dviprasmiškas simbolis?"
+    options: ["Jis reiškė stiprybę ir laisvę, bet kartu ir pavojų bandoms", "Jis buvo tik linksmų pasakų veikėjas", "Jis buvo laikomas šventu ir niekada nemedžiojamas"]
+    answer: 0
+  - q: "Kaip, pasak gamtosaugininkų, galima išvengti daugelio konfliktų?"
+    options: ["Visiškai išnaikinus vilkus", "Tinkamai apsaugojus bandas aptvarais ar sarginiais šunimis", "Uždraudus auginti avis"]
+    answer: 1
+  - q: "Kokia teksto pabaigos mintis?"
+    options: ["Vilkai patys nusprendžia, kur gyventi", "Diskusija apie vilkus jau baigta", "Tai iš esmės klausimas, kaip žmonės nori dalytis erdve su laukine gamta"]
+    answer: 2

@@ -1,0 +1,44 @@
+id: lt-r-0081
+cefr: C1
+title: "Dvidešimt metų Europos Sąjungoje"
+topic: "Литва в Евросоюзе"
+source: generated
+text: |
+  2003 metų referendume už narystę Europos Sąjungoje balsavo daugiau nei devyniasdešimt procentų jame dalyvavusių Lietuvos piliečių, o 2004 metų gegužės 1-ąją šalis tapo visateise Bendrijos nare. Po kelerių metų, prisijungus prie Šengeno erdvės, išnyko ir pasų patikra kelionėse po didžiąją Europos dalį.
+
+  Per du dešimtmečius pokyčiai tapo tokie įprasti, kad jų beveik nebepastebime. Europos lėšomis nutiesti keliai, renovuotos mokyklos ir ligoninės, pastatyti vandenvalos įrenginiai. Studentai išvažiuoja mokytis pagal mainų programas, ūkininkai gauna išmokas, o įmonės be muitų parduoda savo produkciją didžiulėje rinkoje.
+
+  Narystė suteikė ir galimybę daryti įtaką. 2013 metų antrąjį pusmetį Lietuva pirmininkavo Europos Sąjungos Tarybai. Tuomet Vilniuje vyko Rytų partnerystės susitikimas, kuriame Ukraina turėjo pasirašyti asociacijos sutartį. Prezidentui Viktorui Janukovyčiui jos atsisakius, Kijeve kilo protestai, vėliau pavadinti Euromaidanu, – įvykiai, pakeitę viso regiono istoriją.
+
+  Vis dėlto narystė turi ir kitą pusę. Atsivėrus darbo rinkoms, šimtai tūkstančių žmonių išvyko uždarbiauti į Vakarus. Dalis visuomenės skundžiasi, kad sprendimai priimami toli Briuselyje, o vietos ypatumai neretai ignoruojami. Euroskeptikų balsai Lietuvoje palyginti tylūs, bet jie skamba.
+
+  Šiandien daugeliui jaunų lietuvių sunku įsivaizduoti gyvenimą be laisvo judėjimo ir bendros valiutos. Jiems Europa – ne tolima svajonė, o kasdienybė. Galbūt kaip tik tai ir yra geriausias įrodymas, kad prieš dvidešimt metų priimtas sprendimas buvo teisingas.
+glossary:
+  - { word: "narystę", lemma: "narystė", pos: noun, gender: f, gen: "narystės", meaning: "членство", note: "вин. п." }
+  - { word: "visateise", lemma: "visateisis", pos: adj, meaning: "полноправный", note: "тв. п. ж. р.: tapo visateise nare" }
+  - { word: "Bendrijos", lemma: "bendrija", pos: noun, gender: f, gen: "bendrijos", meaning: "сообщество (здесь — ЕС)", note: "род. п." }
+  - { word: "patikra", lemma: "patikra", pos: noun, gender: f, gen: "patikros", meaning: "проверка", note: "pasų patikra — паспортный контроль" }
+  - { word: "vandenvalos", lemma: "vandenvala", pos: noun, gender: f, gen: "vandenvalos", meaning: "очистка воды", note: "vandenvalos įrenginiai — очистные сооружения" }
+  - { word: "mainų", lemma: "mainai", pos: noun, gender: m, gen: "mainų", plural_only: true, meaning: "обмен", note: "mainų programa — программа обмена" }
+  - { word: "išmokas", lemma: "išmoka", pos: noun, gender: f, gen: "išmokos", meaning: "выплата", note: "вин. п. мн. ч." }
+  - { word: "muitų", lemma: "muitas", pos: noun, gender: m, gen: "muito", meaning: "пошлина", note: "род. п. мн. ч." }
+  - { word: "įtaką", lemma: "įtaka", pos: noun, gender: f, gen: "įtakos", meaning: "влияние", note: "daryti įtaką — оказывать влияние" }
+  - { word: "pusmetį", lemma: "pusmetis", pos: noun, gender: m, gen: "pusmečio", meaning: "полугодие", note: "вин. п. (время)" }
+  - { word: "pirmininkavo", lemma: "pirmininkauti", pos: verb, forms: { pres: "pirmininkauja", past: "pirmininkavo" }, meaning: "председательствовать", note: "+ дат. п.: pirmininkavo Tarybai" }
+  - { word: "asociacijos", lemma: "asociacija", pos: noun, gender: f, gen: "asociacijos", meaning: "ассоциация", note: "asociacijos sutartis — соглашение об ассоциации" }
+  - { word: "atsisakius", lemma: "atsisakyti", pos: verb, forms: { pres: "atsisako", past: "atsisakė" }, meaning: "отказаться", note: "деепр.: prezidentui jos atsisakius — когда президент отказался от него" }
+  - { word: "Atsivėrus", lemma: "atsiverti", pos: verb, forms: { pres: "atsiveria", past: "atsivėrė" }, meaning: "открыться", note: "деепр.: atsivėrus rinkoms — когда открылись рынки" }
+  - { word: "uždarbiauti", lemma: "uždarbiauti", pos: verb, forms: { pres: "uždarbiauja", past: "uždarbiavo" }, meaning: "подрабатывать, ездить на заработки" }
+  - { word: "ypatumai", lemma: "ypatumas", pos: noun, gender: m, gen: "ypatumo", meaning: "особенность", note: "им. п. мн. ч." }
+  - { word: "palyginti", lemma: "palyginti", pos: adv, meaning: "сравнительно", note: "palyginti tylūs — сравнительно тихие (также глагол «сравнить»)" }
+  - { word: "judėjimo", lemma: "judėjimas", pos: noun, gender: m, gen: "judėjimo", meaning: "движение, перемещение", note: "laisvas judėjimas — свобода передвижения" }
+questions:
+  - q: "Kokia buvo Lietuvos piliečių nuomonė 2003 metų referendume?"
+    options: ["Didžioji dauguma balsavo už narystę", "Dauguma balsavo prieš", "Balsai pasiskirstė per pusę"]
+    answer: 0
+  - q: "Kodėl tekste minimas 2013 metų Rytų partnerystės susitikimas Vilniuje?"
+    options: ["Nes jame Lietuva įstojo į NATO", "Nes Ukrainos prezidentui atsisakius pasirašyti sutartį Kijeve kilo Euromaidanas", "Nes jame buvo įvestas euras"]
+    answer: 1
+  - q: "Ką autorius laiko geriausiu sprendimo teisingumo įrodymu?"
+    options: ["Kad euroskeptikų Lietuvoje nėra", "Kad visi emigrantai grįžo", "Kad jauniems lietuviams Europa tapo kasdienybe"]
+    answer: 2

@@ -1,0 +1,43 @@
+id: lt-r-0086
+cefr: C1
+title: "Senamiestis: dekoracija ar namai?"
+topic: "Старый город Вильнюса"
+source: generated
+text: |
+  Vilniaus senamiestis – vienas didžiausių išlikusių senamiesčių Vidurio ir Rytų Europoje, 1994 metais įtrauktas į UNESCO pasaulio paveldo sąrašą. Siauros gatvelės, vidiniai kiemai, gotikos, renesanso ir ypač baroko bažnyčios sukuria įspūdį, kad laikas čia teka lėčiau.
+
+  Senamiestis visada buvo daugiakultūris. Šalia katalikų bažnyčių stovi stačiatikių cerkvės, liuteronų ir reformatų šventovės, o kadaise čia gyvavo didelis žydų kvartalas. Kiekviena bendruomenė paliko savo pėdsaką, ir būtent ši įvairovė daro Vilnių išskirtinį.
+
+  Sovietmečiu didelė senamiesčio dalis buvo apleista: pastatai griuvo, o gyventojai kraustėsi į naujus mikrorajonus su patogumais. Atkūrus nepriklausomybę prasidėjo spartus atgimimas – restauruoti fasadai, atidaryti restoranai, galerijos, viešbučiai. Šalia esantis Užupis, kadaise turėjęs prastą reputaciją, pasiskelbė respublika su savo humoristine konstitucija ir tapo menininkų rajonu.
+
+  Tačiau sėkmė turi ir šešėlinę pusę. Vis daugiau butų trumpam nuomojama turistams, todėl nuolatinių gyventojų mažėja, o kainos kyla. Vietiniai skundžiasi naktiniu triukšmu, o mažos parduotuvėlės užleidžia vietą suvenyrų kioskams. Urbanistai perspėja, kad senamiestis rizikuoja virsti dekoracija – gražia, bet negyva.
+
+  Kaip išlaikyti pusiausvyrą tarp turizmo ir kasdienio gyvenimo? Kai kurie Europos miestai jau riboja trumpalaikę nuomą, ir Vilniuje diskutuojama apie panašias priemones. Juk senamiestį gyvą daro ne tik pastatai, bet ir žmonės, kurie jame gyvena.
+glossary:
+  - { word: "gatvelės", lemma: "gatvelė", pos: noun, gender: f, gen: "gatvelės", meaning: "улочка", note: "им. п. мн. ч." }
+  - { word: "vidiniai", lemma: "vidinis", pos: adj, meaning: "внутренний", note: "им. п. мн. ч." }
+  - { word: "daugiakultūris", lemma: "daugiakultūris", pos: adj, meaning: "многокультурный" }
+  - { word: "stačiatikių", lemma: "stačiatikis", pos: noun, gender: m, gen: "stačiatikio", meaning: "православный", note: "род. п. мн. ч." }
+  - { word: "cerkvės", lemma: "cerkvė", pos: noun, gender: f, gen: "cerkvės", meaning: "православная церковь", note: "им. п. мн. ч." }
+  - { word: "šventovės", lemma: "šventovė", pos: noun, gender: f, gen: "šventovės", meaning: "святилище, храм", note: "им. п. мн. ч." }
+  - { word: "gyvavo", lemma: "gyvuoti", pos: verb, forms: { pres: "gyvuoja", past: "gyvavo" }, meaning: "существовать, жить" }
+  - { word: "išskirtinį", lemma: "išskirtinis", pos: adj, meaning: "исключительный, особенный", note: "вин. п." }
+  - { word: "patogumais", lemma: "patogumas", pos: noun, gender: m, gen: "patogumo", meaning: "удобство", note: "тв. п. мн. ч.: su patogumais — с удобствами" }
+  - { word: "pasiskelbė", lemma: "pasiskelbti", pos: verb, forms: { pres: "pasiskelbia", past: "pasiskelbė" }, meaning: "объявить себя", note: "+ тв. п. или им. п.: pasiskelbė respublika" }
+  - { word: "šešėlinę", lemma: "šešėlinis", pos: adj, meaning: "теневой", note: "вин. п. ж. р." }
+  - { word: "nuomojama", lemma: "nuomoti", pos: verb, forms: { pres: "nuomoja", past: "nuomojo" }, meaning: "сдавать в аренду", note: "безличный пассив: butų nuomojama — квартир сдаётся" }
+  - { word: "užleidžia", lemma: "užleisti", pos: verb, forms: { pres: "užleidžia", past: "užleido" }, meaning: "уступать" }
+  - { word: "Urbanistai", lemma: "urbanistas", pos: noun, gender: m, gen: "urbanisto", meaning: "урбанист", note: "им. п. мн. ч." }
+  - { word: "dekoracija", lemma: "dekoracija", pos: noun, gender: f, gen: "dekoracijos", meaning: "декорация", note: "тв. п.: virsti dekoracija" }
+  - { word: "pusiausvyrą", lemma: "pusiausvyra", pos: noun, gender: f, gen: "pusiausvyros", meaning: "равновесие, баланс", note: "вин. п." }
+  - { word: "trumpalaikę", lemma: "trumpalaikis", pos: adj, meaning: "краткосрочный", note: "вин. п. ж. р." }
+questions:
+  - q: "Kas, pasak teksto, daro Vilniaus senamiestį išskirtinį?"
+    options: ["Skirtingų bendruomenių paliktų pėdsakų įvairovė", "Tai, kad jis visai naujas", "Tai, kad jame nėra bažnyčių"]
+    answer: 0
+  - q: "Kas nutiko senamiesčiui sovietmečiu?"
+    options: ["Jis buvo kruopščiai restauruotas", "Didelė jo dalis buvo apleista, o gyventojai kėlėsi į mikrorajonus", "Jis buvo visiškai nugriautas"]
+    answer: 1
+  - q: "Kodėl urbanistai perspėja, kad senamiestis gali virsti dekoracija?"
+    options: ["Nes fasadai per ryškiai nudažyti", "Nes jame per mažai turistų", "Nes butai nuomojami turistams, o nuolatinių gyventojų mažėja"]
+    answer: 2

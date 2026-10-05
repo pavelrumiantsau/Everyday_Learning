@@ -1,0 +1,43 @@
+id: lt-r-0091
+cefr: C1
+title: "Šviesa iš Vilniaus laboratorijų"
+topic: "литовские лазеры"
+source: generated
+text: |
+  Kai kalbama apie Lietuvos eksportą, dažniausiai prisimenami baldai, maistas ar transporto paslaugos. Tačiau viena įspūdingiausių sėkmės istorijų – lazeriai. Lietuvoje pagaminti lazeriai naudojami mokslinėse laboratorijose visuose žemynuose, o kai kurių mokslinių lazerių rinkoje lietuviškos įmonės užima reikšmingą dalį.
+
+  Ši sėkmė neatsirado tuščioje vietoje. Lazerių fizikos tyrimai Vilniaus universitete pradėti dar sovietmečiu, ir čia susiformavo stipri mokslininkų mokykla. Žlugus Sovietų Sąjungai, finansavimas smarkiai sumažėjo, tačiau keli mokslininkai ryžosi įkurti privačias įmones. Iš pradžių jos dirbo kukliomis sąlygomis, bet turėjo tai, ko negalima nusipirkti, – žinių ir patirties.
+
+  Tokie lazeriai naudojami ne vien fizikų laboratorijose. Jie padeda chirurgams atlikti akių operacijas, gamintojams – itin tiksliai apdirbti medžiagas, o mokslininkams – tyrinėti procesus, trunkančius vos kelias femtosekundes, tai yra milijonines milijardosios sekundės dalis.
+
+  Ekspertai šią istoriją dažnai pateikia kaip pavyzdį, kaip maža šalis gali konkuruoti pasaulyje ne pigia darbo jėga, o žiniomis. Tačiau jie mato ir pavojų: sektoriui trūksta specialistų, o gabūs fizikai dažnai išvyksta į užsienio universitetus. Be nuolatinių investicijų į mokslą ir švietimą sėkmė gali likti praeities istorija.
+
+  Galbūt svarbiausia šios istorijos pamoka – kantrybė. Kelių kartų mokslininkų darbas, kurio vaisių niekas negalėjo numatyti, šiandien virto pasaulinio lygio pramone.
+glossary:
+  - { word: "lazeriai", lemma: "lazeris", pos: noun, gender: m, gen: "lazerio", meaning: "лазер", note: "им. п. мн. ч." }
+  - { word: "žemynuose", lemma: "žemynas", pos: noun, gender: m, gen: "žemyno", meaning: "континент", note: "мест. п. мн. ч." }
+  - { word: "reikšmingą", lemma: "reikšmingas", pos: adj, meaning: "значительный", note: "вин. п. ж. р." }
+  - { word: "susiformavo", lemma: "susiformuoti", pos: verb, forms: { pres: "susiformuoja", past: "susiformavo" }, meaning: "сформироваться" }
+  - { word: "Žlugus", lemma: "žlugti", pos: verb, forms: { pres: "žlunga", past: "žlugo" }, meaning: "рухнуть, распасться", note: "деепр.: žlugus Sovietų Sąjungai — после распада СССР" }
+  - { word: "finansavimas", lemma: "finansavimas", pos: noun, gender: m, gen: "finansavimo", meaning: "финансирование" }
+  - { word: "kukliomis", lemma: "kuklus", pos: adj, meaning: "скромный", note: "тв. п. мн. ч. ж. р." }
+  - { word: "chirurgams", lemma: "chirurgas", pos: noun, gender: m, gen: "chirurgo", meaning: "хирург", note: "дат. п. мн. ч." }
+  - { word: "apdirbti", lemma: "apdirbti", pos: verb, forms: { pres: "apdirba", past: "apdirbo" }, meaning: "обрабатывать" }
+  - { word: "femtosekundes", lemma: "femtosekundė", pos: noun, gender: f, gen: "femtosekundės", meaning: "фемтосекунда", note: "вин. п. мн. ч." }
+  - { word: "milijonines", lemma: "milijoninis", pos: adj, meaning: "миллионный", note: "вин. п. мн. ч. ж. р.: milijoninės dalys — миллионные доли" }
+  - { word: "milijardosios", lemma: "milijardasis", pos: num, meaning: "миллиардный", note: "род. п. ж. р." }
+  - { word: "konkuruoti", lemma: "konkuruoti", pos: verb, forms: { pres: "konkuruoja", past: "konkuravo" }, meaning: "конкурировать" }
+  - { word: "sektoriui", lemma: "sektorius", pos: noun, gender: m, gen: "sektoriaus", meaning: "сектор, отрасль", note: "дат. п. после trūkti" }
+  - { word: "gabūs", lemma: "gabus", pos: adj, meaning: "способный, талантливый", note: "им. п. мн. ч." }
+  - { word: "kantrybė", lemma: "kantrybė", pos: noun, gender: f, gen: "kantrybės", meaning: "терпение" }
+  - { word: "vaisių", lemma: "vaisius", pos: noun, gender: m, gen: "vaisiaus", meaning: "плод", note: "род. п. мн. ч.: darbo vaisiai — плоды труда" }
+questions:
+  - q: "Kur, pasak teksto, prasidėjo Lietuvos lazerių sėkmė?"
+    options: ["Vilniaus universiteto lazerių fizikos tyrimuose dar sovietmečiu", "Užsienio įmonių gamyklose", "Baldų pramonėje"]
+    answer: 0
+  - q: "Ką turėjo pirmosios privačios lazerių įmonės, nors dirbo kukliomis sąlygomis?"
+    options: ["Didelį valstybės finansavimą", "Žinių ir patirties", "Pigią darbo jėgą"]
+    answer: 1
+  - q: "Kokią grėsmę sektoriui mato ekspertai?"
+    options: ["Kad lazerių niekam nebereikės", "Kad konkurentai nukopijuos technologijas", "Kad trūksta specialistų, o gabūs fizikai išvyksta į užsienį"]
+    answer: 2

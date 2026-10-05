@@ -1,0 +1,44 @@
+id: lt-r-0083
+cefr: C1
+title: "Baltijos auksas"
+topic: "янтарь"
+source: generated
+text: |
+  Po stiprios audros Baltijos pakrantėje visada galima sutikti žmonių, palinkusių prie smėlio: jie ieško gintaro. Kartais pasiseka rasti tik mažą gabalėlį, kartais – kumščio dydžio grynuolį. Tačiau kiekvienas radinys turi istoriją, kuri prasidėjo prieš dešimtis milijonų metų.
+
+  Gintaras – tai suakmenėję senovinių spygliuočių sakai. Tekėdami medžio kamienu, sakai kartais apgaubdavo vabzdžius, augalų sėklas ar net driežiukus, ir šie amžiams sustingdavo skaidrioje kapsulėje. Tokie intarpai mokslininkams yra neįkainojami: jie leidžia pamatyti, kaip atrodė seniai išnykę gyvūnai.
+
+  Žmonės gintarą vertino nuo seniausių laikų. Romėnų imperijos laikais iš Baltijos pakrančių į pietus vedė vadinamasis Gintaro kelias, kuriuo prekeiviai gabeno šį brangų akmenį. XIX amžiuje Juodkrantėje, gilinant laivybos kanalą Kuršių mariose, buvo iškasta daugybė gintaro dirbinių, kuriuos archeologai vadina Juodkrantės lobiu.
+
+  Gintaras glaudžiai susijęs ir su tautosaka. Legenda pasakoja apie jūrų deivę Jūratę, kuri įsimylėjo paprastą žveją Kastytį. Supykęs dievas Perkūnas sudaužė jos gintaro rūmus, ir nuo tada jūra išmeta į krantą jų nuolaužas.
+
+  Šiandien gintaras – ir turistų suvenyras, ir menininkų medžiaga, ir pelningas verslas. Palangos gintaro muziejus, įsikūręs grafų Tiškevičių rūmuose, kasmet sulaukia daugybės lankytojų. Tiesa, rinkoje gausu ir klastočių, todėl pirkėjams patariama pasitikrinti, ar „Baltijos auksas“ iš tiesų nėra plastikas.
+glossary:
+  - { word: "palinkusių", lemma: "palinkti", pos: verb, forms: { pres: "palinksta", past: "palinko" }, meaning: "наклониться", note: "прич. прош. вр., род. п. мн. ч." }
+  - { word: "gabalėlį", lemma: "gabalėlis", pos: noun, gender: m, gen: "gabalėlio", meaning: "кусочек", note: "вин. п." }
+  - { word: "kumščio", lemma: "kumštis", pos: noun, gender: m, gen: "kumščio", meaning: "кулак", note: "kumščio dydžio — размером с кулак" }
+  - { word: "grynuolį", lemma: "grynuolis", pos: noun, gender: m, gen: "grynuolio", meaning: "самородок", note: "вин. п." }
+  - { word: "radinys", lemma: "radinys", pos: noun, gender: m, gen: "radinio", meaning: "находка" }
+  - { word: "suakmenėję", lemma: "suakmenėti", pos: verb, forms: { pres: "suakmenėja", past: "suakmenėjo" }, meaning: "окаменеть", note: "прич. прош. вр., мн. ч." }
+  - { word: "spygliuočių", lemma: "spygliuotis", pos: noun, gender: m, gen: "spygliuočio", meaning: "хвойное дерево", note: "род. п. мн. ч." }
+  - { word: "sakai", lemma: "sakai", pos: noun, gender: m, gen: "sakų", plural_only: true, meaning: "смола (деревьев)" }
+  - { word: "apgaubdavo", lemma: "apgaubti", pos: verb, forms: { pres: "apgaubia", past: "apgaubė" }, meaning: "окутать, обволочь", note: "прош. многократное" }
+  - { word: "sustingdavo", lemma: "sustingti", pos: verb, forms: { pres: "sustingsta", past: "sustingo" }, meaning: "застыть", note: "прош. многократное" }
+  - { word: "intarpai", lemma: "intarpas", pos: noun, gender: m, gen: "intarpo", meaning: "включение (в янтаре)", note: "им. п. мн. ч." }
+  - { word: "neįkainojami", lemma: "neįkainojamas", pos: adj, meaning: "бесценный", note: "им. п. мн. ч." }
+  - { word: "gabeno", lemma: "gabenti", pos: verb, forms: { pres: "gabena", past: "gabeno" }, meaning: "перевозить" }
+  - { word: "dirbinių", lemma: "dirbinys", pos: noun, gender: m, gen: "dirbinio", meaning: "изделие", note: "род. п. мн. ч." }
+  - { word: "lobiu", lemma: "lobis", pos: noun, gender: m, gen: "lobio", meaning: "клад, сокровище", note: "тв. п." }
+  - { word: "tautosaka", lemma: "tautosaka", pos: noun, gender: f, gen: "tautosakos", meaning: "фольклор", note: "тв. п.: susijęs su tautosaka" }
+  - { word: "nuolaužas", lemma: "nuolauža", pos: noun, gender: f, gen: "nuolaužos", meaning: "обломок", note: "вин. п. мн. ч." }
+  - { word: "klastočių", lemma: "klastotė", pos: noun, gender: f, gen: "klastotės", meaning: "подделка", note: "род. п. мн. ч." }
+questions:
+  - q: "Kodėl gintaro intarpai vertingi mokslininkams?"
+    options: ["Jie leidžia pamatyti, kaip atrodė seniai išnykę gyvūnai ir augalai", "Juos galima brangiai parduoti", "Iš jų gaminami vaistai"]
+    answer: 0
+  - q: "Kas yra Juodkrantės lobis?"
+    options: ["Nuskendęs laivas su auksu", "Daugybė gintaro dirbinių, iškastų gilinant kanalą Kuršių mariose", "Jūratės rūmų liekanos"]
+    answer: 1
+  - q: "Kokį patarimą tekstas duoda pirkėjams?"
+    options: ["Pirkti gintarą tik po audros", "Rinktis tik didelius gabalus", "Pasitikrinti, ar gintaras tikras, nes rinkoje daug klastočių"]
+    answer: 2

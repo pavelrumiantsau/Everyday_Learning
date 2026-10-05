@@ -1,0 +1,43 @@
+id: lt-r-0084
+cefr: C1
+title: "Optimizmo architektūra"
+topic: "каунасский модернизм"
+source: generated
+text: |
+  Tarpukariu, kai Vilnius priklausė Lenkijai, laikinąja Lietuvos sostine tapo Kaunas. Per du dešimtmečius nedidelis provincijos miestas virto moderniu centru: buvo statomos ministerijos, bankai, mokyklos, kino teatrai ir daugiabučiai. Jaunai valstybei reikėjo parodyti, kad ji gali būti europietiška, ir architektūra tapo vienu svarbiausių būdų tai pasakyti.
+
+  Kauno architektai, dažnai studijavę Vakarų Europoje, rėmėsi to meto modernizmo idėjomis: aiškiomis formomis, funkcionalumu, šviesa. Kartu jie ieškojo lietuviško savitumo, todėl fasaduose galima pastebėti tautinių ornamentų. Ryškiausi pavyzdžiai – Centrinis paštas, Kristaus Prisikėlimo bažnyčia, kurios statyba užsitęsė ne vieną dešimtmetį, ir daugybė privačių vilų Žaliakalnyje.
+
+  Ilgai šis paveldas buvo nevertinamas. Sovietmečiu daugelis pastatų pritaikyti kitoms reikmėms, jų interjerai sunaikinti, o po nepriklausomybės atkūrimo kai kurie buvo apleisti ar perstatyti visiškai nepaisant pirminio sumanymo.
+
+  Požiūris pasikeitė per pastarąjį dešimtmetį. 2022 metais Kaunas buvo Europos kultūros sostinė, o 2023 metais modernistinis Kaunas įtrauktas į UNESCO pasaulio paveldo sąrašą kaip optimizmo architektūra. Šis pavadinimas taikliai nusako tą laikotarpį: statydami miestą, kauniečiai kūrė ne tik pastatus, bet ir tikėjimą valstybės ateitimi.
+
+  Tiesa, UNESCO statusas iškėlė ir naujų klausimų. Daugelio pastatų savininkai – privatūs asmenys, kuriems brangu restauruoti fasadus pagal griežtus reikalavimus. Ar miestui pavyks išsaugoti paveldą, nepaverčiant jo muziejumi, parodys ateitis.
+glossary:
+  - { word: "laikinąja", lemma: "laikinas", pos: adj, meaning: "временный", note: "тв. п. ж. р. (местоим. форма): tapo laikinąja sostine" }
+  - { word: "virto", lemma: "virsti", pos: verb, forms: { pres: "virsta", past: "virto" }, meaning: "превратиться", note: "+ тв. п." }
+  - { word: "europietiška", lemma: "europietiškas", pos: adj, meaning: "европейский (по духу)", note: "ж. р." }
+  - { word: "studijavę", lemma: "studijuoti", pos: verb, forms: { pres: "studijuoja", past: "studijavo" }, meaning: "учиться (в вузе)", note: "прич. прош. вр., мн. ч.: учившиеся" }
+  - { word: "funkcionalumu", lemma: "funkcionalumas", pos: noun, gender: m, gen: "funkcionalumo", meaning: "функциональность", note: "тв. п." }
+  - { word: "fasaduose", lemma: "fasadas", pos: noun, gender: m, gen: "fasado", meaning: "фасад", note: "мест. п. мн. ч." }
+  - { word: "Prisikėlimo", lemma: "prisikėlimas", pos: noun, gender: m, gen: "prisikėlimo", meaning: "воскресение", note: "Kristaus Prisikėlimo bažnyčia — церковь Воскресения Христова" }
+  - { word: "užsitęsė", lemma: "užsitęsti", pos: verb, forms: { pres: "užsitęsia", past: "užsitęsė" }, meaning: "затянуться" }
+  - { word: "pritaikyti", lemma: "pritaikyti", pos: verb, forms: { pres: "pritaiko", past: "pritaikė" }, meaning: "приспособить", note: "здесь пассивное прич., мн. ч.: pastatai pritaikyti kitoms reikmėms" }
+  - { word: "reikmėms", lemma: "reikmė", pos: noun, gender: f, gen: "reikmės", meaning: "нужда, потребность", note: "дат. п. мн. ч." }
+  - { word: "perstatyti", lemma: "perstatyti", pos: verb, forms: { pres: "perstato", past: "perstatė" }, meaning: "перестроить", note: "здесь пассивное прич., мн. ч." }
+  - { word: "nepaisant", lemma: "nepaisant", pos: prep, meaning: "несмотря на, не считаясь с", note: "+ род. п." }
+  - { word: "sumanymo", lemma: "sumanymas", pos: noun, gender: m, gen: "sumanymo", meaning: "замысел", note: "род. п." }
+  - { word: "taikliai", lemma: "taikliai", pos: adv, meaning: "метко, точно" }
+  - { word: "nusako", lemma: "nusakyti", pos: verb, forms: { pres: "nusako", past: "nusakė" }, meaning: "описать, выразить" }
+  - { word: "restauruoti", lemma: "restauruoti", pos: verb, forms: { pres: "restauruoja", past: "restauravo" }, meaning: "реставрировать" }
+  - { word: "nepaverčiant", lemma: "paversti", pos: verb, forms: { pres: "paverčia", past: "pavertė" }, meaning: "превратить", note: "деепр. с отрицанием: nepaverčiant muziejumi — не превращая в музей" }
+questions:
+  - q: "Kodėl tarpukario Kaune architektūra buvo tokia svarbi?"
+    options: ["Ji padėjo jaunai valstybei parodyti, kad ji gali būti moderni ir europietiška", "Nes Kaunas norėjo tapti turistų centru", "Nes Vilnius uždraudė statybas"]
+    answer: 0
+  - q: "Kas nutiko daugeliui pastatų sovietmečiu?"
+    options: ["Jie buvo kruopščiai restauruoti", "Jie buvo pritaikyti kitoms reikmėms, o interjerai sunaikinti", "Jie buvo perkelti į Vilnių"]
+    answer: 1
+  - q: "Kokią problemą iškėlė UNESCO statusas?"
+    options: ["Kaune sumažėjo turistų", "Pastatus teko nugriauti", "Privatiems savininkams brangu restauruoti fasadus pagal griežtus reikalavimus"]
+    answer: 2

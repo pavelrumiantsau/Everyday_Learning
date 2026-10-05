@@ -1,0 +1,43 @@
+id: lt-r-0085
+cefr: C1
+title: "Gyvoji senovė"
+topic: "древность литовского языка"
+source: generated
+text: |
+  Kalbininkai iš viso pasaulio domisi lietuvių kalba dėl vienos priežasties: ji laikoma viena archajiškiausių gyvų indoeuropiečių kalbų. Tai reiškia, kad joje išliko daug bruožų, kurie kitose giminiškose kalbose seniai išnyko.
+
+  Dažnai minimi stebinantys panašumai su senąja Indijos kalba – sanskritu. Lietuviški žodžiai „dievas“, „sūnus“, „avis“ sanskrito atitikmenis primena taip, kad net nespecialistas pastebi giminystę, nors šias kalbas skiria tūkstančiai kilometrų ir metų. Žinoma, lietuvių kalba nėra kilusi iš sanskrito: abi jos tiesiog išsaugojo daug bendros prokalbės bruožų.
+
+  Archajiškumas matyti ir gramatikoje. Daiktavardžiai turi septynis linksnius, kai kuriose tarmėse dar vartojama dviskaita – speciali forma dviem asmenims ar daiktams žymėti, o laisvas, kilnojamas kirtis užsieniečiams kelia daug galvos skausmo. Kodėl kalba pakito palyginti nedaug? Viena dažnai minimų priežasčių – ilgas gyvenimas atokiau nuo didžiųjų prekybos kelių ir kalbų maišymosi centrų.
+
+  Iš kadaise gausios baltų kalbų šeimos šiandien išliko tik dvi kalbos – lietuvių ir latvių. Prūsų kalba išnyko XVIII amžiuje, o kitų baltų genčių kalbas žinome tik iš pavienių žodžių ar vietovardžių. Šis likimas primena, kad ir senos kalbos nėra amžinos.
+
+  Paradoksalu, bet būtent archajiškumas šiandien tampa iššūkiu. Kalbai reikia nuolat kurti naujų žodžių technologijoms, mokslui, kasdienybei – kitaip ji rizikuoja tapti muziejaus eksponatu. Senovė yra vertybė, tačiau gyva kalba turi gebėti kalbėti ir apie šiandieną.
+glossary:
+  - { word: "archajiškiausių", lemma: "archajiškas", pos: adj, meaning: "архаичный", note: "превосх. ст., род. п. мн. ч." }
+  - { word: "indoeuropiečių", lemma: "indoeuropiečiai", pos: noun, gender: m, gen: "indoeuropiečių", plural_only: true, meaning: "индоевропейцы", note: "indoeuropiečių kalbos — индоевропейские языки" }
+  - { word: "bruožų", lemma: "bruožas", pos: noun, gender: m, gen: "bruožo", meaning: "черта", note: "род. п. мн. ч." }
+  - { word: "giminiškose", lemma: "giminiškas", pos: adj, meaning: "родственный", note: "мест. п. мн. ч. ж. р." }
+  - { word: "giminystę", lemma: "giminystė", pos: noun, gender: f, gen: "giminystės", meaning: "родство", note: "вин. п." }
+  - { word: "prokalbės", lemma: "prokalbė", pos: noun, gender: f, gen: "prokalbės", meaning: "праязык", note: "род. п." }
+  - { word: "linksnius", lemma: "linksnis", pos: noun, gender: m, gen: "linksnio", meaning: "падеж", note: "вин. п. мн. ч." }
+  - { word: "dviskaita", lemma: "dviskaita", pos: noun, gender: f, gen: "dviskaitos", meaning: "двойственное число" }
+  - { word: "žymėti", lemma: "žymėti", pos: verb, forms: { pres: "žymi", past: "žymėjo" }, meaning: "обозначать" }
+  - { word: "kilnojamas", lemma: "kilnojamas", pos: adj, meaning: "подвижный, переносимый", note: "kilnojamas kirtis — подвижное ударение" }
+  - { word: "kirtis", lemma: "kirtis", pos: noun, gender: m, gen: "kirčio", meaning: "ударение" }
+  - { word: "pakito", lemma: "pakisti", pos: verb, forms: { pres: "pakinta", past: "pakito" }, meaning: "измениться" }
+  - { word: "atokiau", lemma: "atokiau", pos: adv, meaning: "в стороне, поодаль", note: "+ nuo: atokiau nuo kelių" }
+  - { word: "maišymosi", lemma: "maišymasis", pos: noun, gender: m, gen: "maišymosi", meaning: "смешение", note: "род. п." }
+  - { word: "genčių", lemma: "gentis", pos: noun, gender: f, gen: "genties", meaning: "племя", note: "род. п. мн. ч." }
+  - { word: "pavienių", lemma: "pavienis", pos: adj, meaning: "отдельный, единичный", note: "род. п. мн. ч." }
+  - { word: "amžinos", lemma: "amžinas", pos: adj, meaning: "вечный", note: "им. п. мн. ч. ж. р." }
+questions:
+  - q: "Kodėl kalbininkai domisi lietuvių kalba?"
+    options: ["Nes joje išliko daug senovinių bruožų, kurie kitose kalbose išnyko", "Nes ji kilusi iš sanskrito", "Nes ja kalba daug žmonių"]
+    answer: 0
+  - q: "Kaip tekste paaiškinami panašumai su sanskritu?"
+    options: ["Lietuviai atkeliavo iš Indijos", "Abi kalbos išsaugojo daug bendros prokalbės bruožų", "Lietuviai pasiskolino žodžius iš sanskrito"]
+    answer: 1
+  - q: "Kodėl archajiškumas tampa iššūkiu?"
+    options: ["Nes tarmės išnyksta", "Nes kalbą sunku išmokti užsieniečiams", "Nes kalba turi nuolat kurti naujų žodžių šiuolaikiniam gyvenimui"]
+    answer: 2

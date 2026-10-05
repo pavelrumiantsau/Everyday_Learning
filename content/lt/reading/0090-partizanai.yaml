@@ -1,0 +1,44 @@
+id: lt-r-0090
+cefr: C1
+title: "Miško broliai"
+topic: "партизанская война 1944–1953"
+source: generated
+text: |
+  1944 metais, sovietų kariuomenei antrą kartą okupavus Lietuvą, tūkstančiai vyrų ir moterų pasitraukė į miškus. Taip prasidėjo partizaninis karas, trukęs beveik dešimtmetį ir pareikalavęs dešimčių tūkstančių gyvybių. Partizanai tikėjosi, kad Vakarai netrukus įsikiš ir okupacija bus trumpalaikė.
+
+  Miško broliai gyveno slėptuvėse – po žeme įrengtuose bunkeriuose, kurių įėjimai būdavo kruopščiai užmaskuoti. Jie leido pogrindžio laikraščius, priešinosi kolektyvizacijai ir trėmimams. 1949 metų vasario 16-ąją partizanų vadai pasirašė deklaraciją, kurioje skelbė siekiantys atkurti nepriklausomą demokratinę Lietuvą. Vėliau Seimas šį dokumentą pripažino teisės aktu, o partizanų vadą Joną Žemaitį-Vytautą – faktiniu valstybės vadovu.
+
+  Kova buvo nelygi. Saugumas verbavo išdavikus, o žuvusių partizanų kūnai būdavo numetami miestelių aikštėse, kad juos atpažinę artimieji išsiduotų. Iki šeštojo dešimtmečio pradžios organizuotas pasipriešinimas buvo palaužtas, nors pavieniai partizanai slapstėsi dar ilgai.
+
+  Sovietmečiu partizanai oficialiai vadinti banditais, ir ši propaganda kai kuriose šeimose paliko pėdsakų iki šiol. Šiandien jie laikomi laisvės kovotojais, jų atminimą saugo muziejai, filmai, rekonstruoti bunkeriai. Vis dėlto istorikai ragina neidealizuoti: kaip ir kiekviename kare, ir šiame būta žiaurumo, o daugelis civilių atsidūrė tarp dviejų ugnių.
+
+  Galbūt todėl partizanų istorija tokia svarbi ir šiandien. Ji primena ne tik apie drąsą, bet ir apie sunkius pasirinkimus, kuriuos tenka daryti žmonėms, kai laisvė nėra savaime suprantama.
+glossary:
+  - { word: "okupavus", lemma: "okupuoti", pos: verb, forms: { pres: "okupuoja", past: "okupavo" }, meaning: "оккупировать", note: "деепр.: kariuomenei okupavus — когда армия оккупировала" }
+  - { word: "partizaninis", lemma: "partizaninis", pos: adj, meaning: "партизанский" }
+  - { word: "pareikalavęs", lemma: "pareikalauti", pos: verb, forms: { pres: "pareikalauja", past: "pareikalavo" }, meaning: "потребовать", note: "прич. прош. вр., м. р.: pareikalavęs gyvybių — унёсший жизни" }
+  - { word: "įsikiš", lemma: "įsikišti", pos: verb, forms: { pres: "įsikiša", past: "įsikišo" }, meaning: "вмешаться" }
+  - { word: "slėptuvėse", lemma: "slėptuvė", pos: noun, gender: f, gen: "slėptuvės", meaning: "убежище, тайник", note: "мест. п. мн. ч." }
+  - { word: "užmaskuoti", lemma: "užmaskuoti", pos: verb, forms: { pres: "užmaskuoja", past: "užmaskavo" }, meaning: "замаскировать", note: "здесь пассивное прич., мн. ч." }
+  - { word: "pogrindžio", lemma: "pogrindis", pos: noun, gender: m, gen: "pogrindžio", meaning: "подполье", note: "pogrindžio laikraštis — подпольная газета" }
+  - { word: "kolektyvizacijai", lemma: "kolektyvizacija", pos: noun, gender: f, gen: "kolektyvizacijos", meaning: "коллективизация", note: "дат. п. после priešintis" }
+  - { word: "deklaraciją", lemma: "deklaracija", pos: noun, gender: f, gen: "deklaracijos", meaning: "декларация", note: "вин. п." }
+  - { word: "faktiniu", lemma: "faktinis", pos: adj, meaning: "фактический", note: "тв. п." }
+  - { word: "verbavo", lemma: "verbuoti", pos: verb, forms: { pres: "verbuoja", past: "verbavo" }, meaning: "вербовать" }
+  - { word: "išdavikus", lemma: "išdavikas", pos: noun, gender: m, gen: "išdaviko", meaning: "предатель", note: "вин. п. мн. ч." }
+  - { word: "išsiduotų", lemma: "išsiduoti", pos: verb, forms: { pres: "išsiduoda", past: "išsidavė" }, meaning: "выдать себя" }
+  - { word: "palaužtas", lemma: "palaužti", pos: verb, forms: { pres: "palaužia", past: "palaužė" }, meaning: "сломить", note: "пассивное прич., м. р." }
+  - { word: "slapstėsi", lemma: "slapstytis", pos: verb, forms: { pres: "slapstosi", past: "slapstėsi" }, meaning: "скрываться, прятаться" }
+  - { word: "neidealizuoti", lemma: "idealizuoti", pos: verb, forms: { pres: "idealizuoja", past: "idealizavo" }, meaning: "идеализировать" }
+  - { word: "būta", lemma: "būti", pos: verb, forms: { pres: "yra", past: "buvo" }, meaning: "быть", note: "безличный пассив: būta žiaurumo — была жестокость" }
+  - { word: "žiaurumo", lemma: "žiaurumas", pos: noun, gender: m, gen: "žiaurumo", meaning: "жестокость", note: "род. п." }
+questions:
+  - q: "Ko tikėjosi partizanai, pasitraukę į miškus?"
+    options: ["Kad Vakarai netrukus įsikiš ir okupacija bus trumpa", "Kad jiems pavyks užimti Maskvą", "Kad sovietų valdžia juos amnestuos"]
+    answer: 0
+  - q: "Kodėl žuvusių partizanų kūnai būdavo numetami miestelių aikštėse?"
+    options: ["Kad juos palaidotų valdžia", "Kad juos atpažinę artimieji išsiduotų", "Kad juos galėtų pagerbti visi gyventojai"]
+    answer: 1
+  - q: "Ką istorikai ragina daryti šiandien?"
+    options: ["Pamiršti partizanų istoriją", "Vadinti partizanus banditais", "Neidealizuoti karo, nes jame būta žiaurumo, o civiliai atsidūrė tarp dviejų ugnių"]
+    answer: 2

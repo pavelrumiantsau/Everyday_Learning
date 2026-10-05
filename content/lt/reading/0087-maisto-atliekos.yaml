@@ -1,0 +1,43 @@
+id: lt-r-0087
+cefr: C1
+title: "Šiukšlių dėžėje – pietūs"
+topic: "пищевые отходы"
+source: generated
+text: |
+  Kiekvienas Europos Sąjungos gyventojas per metus išmeta daugiau nei šimtą kilogramų maisto. Didžioji dalis šių atliekų susidaro ne parduotuvėse ar restoranuose, o namų ūkiuose: sugedę vaisiai, šaldytuve pamiršti likučiai, per daug nupirkta duona.
+
+  Paradoksas akivaizdus: tuo pat metu, kai dalis maisto keliauja į šiukšlių dėžes, nemažai žmonių neišgali nusipirkti jo pakankamai. Be to, išmesto maisto kaina neapsiriboja pinigais. Jam užauginti, pagaminti ir atvežti sunaudota vandens, energijos ir žemės, o pūdamas sąvartyne jis išskiria šiltnamio efektą sukeliančių dujų.
+
+  Lietuvoje su maisto švaistymu bando kovoti ir valstybė, ir visuomenė. Maisto bankas ir kitos organizacijos surenka iš prekybos tinklų produktus, kurių galiojimo laikas baigiasi, ir išdalija juos stokojantiems. Atsirado programėlių, kuriose restoranai ir kepyklos vakare pigiau parduoda nesuvalgytą maistą, o kai kuriuose miestuose veikia viešieji šaldytuvai, kuriuose kiekvienas gali palikti nereikalingų produktų.
+
+  Vis dėlto didžiausias pokytis turi įvykti mūsų pačių virtuvėse. Specialistai pataria planuoti pirkinius, neapsipirkinėti išalkus, skirti užrašą „tinka vartoti iki“ nuo „geriausias iki“ ir išmokti gaminti iš likučių. Antrasis užrašas reiškia tik tai, kad po nurodytos datos produktas gali būti šiek tiek prastesnės kokybės, bet dažniausiai jis dar visiškai tinkamas.
+
+  Tai, ką mūsų močiutės darė iš būtinybės, šiandien tampa sąmoningu pasirinkimu. Ir galbūt geriausia pradžia – ne didelės kampanijos, o paprastas klausimas prieš kiekvieną apsipirkimą: ar man to tikrai reikia?
+glossary:
+  - { word: "atliekų", lemma: "atliekos", pos: noun, gender: f, gen: "atliekų", plural_only: true, meaning: "отходы", note: "род. п." }
+  - { word: "susidaro", lemma: "susidaryti", pos: verb, forms: { pres: "susidaro", past: "susidarė" }, meaning: "образоваться" }
+  - { word: "sugedę", lemma: "sugesti", pos: verb, forms: { pres: "sugenda", past: "sugedo" }, meaning: "испортиться, сломаться", note: "прич. прош. вр., мн. ч.: sugedę vaisiai — испорченные фрукты" }
+  - { word: "likučiai", lemma: "likutis", pos: noun, gender: m, gen: "likučio", meaning: "остаток", note: "им. п. мн. ч." }
+  - { word: "neišgali", lemma: "išgalėti", pos: verb, forms: { pres: "išgali", past: "išgalėjo" }, meaning: "быть в состоянии (финансово)", note: "neišgali nusipirkti — не могут себе позволить купить" }
+  - { word: "neapsiriboja", lemma: "apsiriboti", pos: verb, forms: { pres: "apsiriboja", past: "apsiribojo" }, meaning: "ограничиваться", note: "+ тв. п." }
+  - { word: "pūdamas", lemma: "pūti", pos: verb, forms: { pres: "pūva", past: "puvo" }, meaning: "гнить", note: "полупричастие, м. р.: pūdamas — гния" }
+  - { word: "išskiria", lemma: "išskirti", pos: verb, forms: { pres: "išskiria", past: "išskyrė" }, meaning: "выделять" }
+  - { word: "šiltnamio", lemma: "šiltnamis", pos: noun, gender: m, gen: "šiltnamio", meaning: "теплица", note: "šiltnamio efektas — парниковый эффект" }
+  - { word: "švaistymu", lemma: "švaistymas", pos: noun, gender: m, gen: "švaistymo", meaning: "расточительство, разбазаривание", note: "тв. п.: kovoti su švaistymu" }
+  - { word: "galiojimo", lemma: "galiojimas", pos: noun, gender: m, gen: "galiojimo", meaning: "действие, срок действия", note: "galiojimo laikas — срок годности" }
+  - { word: "išdalija", lemma: "išdalyti", pos: verb, forms: { pres: "išdalija", past: "išdalijo" }, meaning: "раздать" }
+  - { word: "programėlių", lemma: "programėlė", pos: noun, gender: f, gen: "programėlės", meaning: "приложение (для телефона)", note: "род. п. мн. ч." }
+  - { word: "kepyklos", lemma: "kepykla", pos: noun, gender: f, gen: "kepyklos", meaning: "пекарня", note: "им. п. мн. ч." }
+  - { word: "neapsipirkinėti", lemma: "apsipirkinėti", pos: verb, forms: { pres: "apsipirkinėja", past: "apsipirkinėjo" }, meaning: "закупаться (обычно, многократно)" }
+  - { word: "išalkus", lemma: "išalkti", pos: verb, forms: { pres: "išalksta", past: "išalko" }, meaning: "проголодаться", note: "деепр.: išalkus — будучи голодным" }
+  - { word: "būtinybės", lemma: "būtinybė", pos: noun, gender: f, gen: "būtinybės", meaning: "необходимость", note: "iš būtinybės — по необходимости" }
+questions:
+  - q: "Kur susidaro didžioji dalis maisto atliekų?"
+    options: ["Namų ūkiuose", "Restoranuose", "Gamyklose"]
+    answer: 0
+  - q: "Kodėl išmesto maisto kaina neapsiriboja pinigais?"
+    options: ["Nes už šiukšlių išvežimą reikia mokėti", "Nes jam pagaminti sunaudota vandens, energijos ir žemės, o sąvartyne jis teršia aplinką", "Nes maisto bankai ima mokestį"]
+    answer: 1
+  - q: "Ką reiškia užrašas „geriausias iki“?"
+    options: ["Kad po šios datos produktą valgyti pavojinga", "Kad produktą reikia išmesti tą pačią dieną", "Kad po šios datos kokybė gali būti šiek tiek prastesnė, bet produktas dažniausiai tinkamas"]
+    answer: 2

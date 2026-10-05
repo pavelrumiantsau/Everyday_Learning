@@ -1,0 +1,42 @@
+id: lt-r-0088
+cefr: C1
+title: "Vaikystė ekrane"
+topic: "смартфоны и детство"
+source: generated
+text: |
+  Vos prieš penkiolika metų išmanusis telefonas vaiko rankose buvo retenybė. Šiandien daugelis pirmokų į mokyklą ateina su savo telefonu, o paaugliai prie ekranų praleidžia po kelias valandas per dieną. Tėvai jaučiasi įstrigę tarp dviejų baimių: kad be telefono vaikas bus atskirtas nuo draugų ir kad su telefonu jis bus atskirtas nuo tikrojo pasaulio.
+
+  Psichologai ir pediatrai vis garsiau kalba apie pasekmes. Tyrimai sieja ilgą buvimą socialiniuose tinkluose su prastesniu miegu, nerimu ir menkesne saviverte, ypač tarp paauglių mergaičių. Kita vertus, dalis mokslininkų ragina nedaryti skubotų išvadų: ne visada aišku, ar telefonas sukelia problemas, ar žmonės, turintys problemų, tiesiog daugiau laiko praleidžia prie ekrano.
+
+  Daugelis Europos šalių ėmė riboti telefonų naudojimą mokyklose, ir Lietuva – ne išimtis. Vienos mokyklos per pamokas telefonus surenka į specialias dėžes, kitos neleidžia jais naudotis net per pertraukas. Mokytojai pastebi, kad per pertraukas vaikai vėl ėmė žaisti ir kalbėtis, nors iš pradžių protestų netrūko.
+
+  Vis dėlto vien draudimais problemos neišspręsi. Specialistai pabrėžia, kad didžiausią įtaką daro suaugusiųjų pavyzdys: sunku įtikinti vaiką padėti telefoną, jei tėvai vakarienės metu nenuleidžia akių nuo savųjų ekranų. Dar svarbiau – pasiūlyti alternatyvą: laiko gamtoje, sporto, bendrų pomėgių.
+
+  Galbūt klausimas turėtų būti ne „kiek laiko vaikas praleidžia prie ekrano?“, o „ko jis nepatiria, kol žiūri į ekraną?“. Atsakymas į jį dažnai pasako daugiau nei bet kokia statistika.
+glossary:
+  - { word: "retenybė", lemma: "retenybė", pos: noun, gender: f, gen: "retenybės", meaning: "редкость" }
+  - { word: "pirmokų", lemma: "pirmokas", pos: noun, gender: m, gen: "pirmoko", meaning: "первоклассник", note: "род. п. мн. ч." }
+  - { word: "įstrigę", lemma: "įstrigti", pos: verb, forms: { pres: "įstringa", past: "įstrigo" }, meaning: "застрять", note: "прич. прош. вр., мн. ч." }
+  - { word: "atskirtas", lemma: "atskirti", pos: verb, forms: { pres: "atskiria", past: "atskyrė" }, meaning: "отделить, отрезать", note: "пассивное прич., м. р." }
+  - { word: "pediatrai", lemma: "pediatras", pos: noun, gender: m, gen: "pediatro", meaning: "педиатр", note: "им. п. мн. ч." }
+  - { word: "pasekmes", lemma: "pasekmė", pos: noun, gender: f, gen: "pasekmės", meaning: "последствие", note: "вин. п. мн. ч." }
+  - { word: "nerimu", lemma: "nerimas", pos: noun, gender: m, gen: "nerimo", meaning: "тревога", note: "тв. п." }
+  - { word: "saviverte", lemma: "savivertė", pos: noun, gender: f, gen: "savivertės", meaning: "самооценка", note: "тв. п.: su menkesne saviverte — с более низкой самооценкой" }
+  - { word: "išvadų", lemma: "išvada", pos: noun, gender: f, gen: "išvados", meaning: "вывод", note: "род. п. мн. ч. после отрицания" }
+  - { word: "išimtis", lemma: "išimtis", pos: noun, gender: f, gen: "išimties", meaning: "исключение" }
+  - { word: "pertraukas", lemma: "pertrauka", pos: noun, gender: f, gen: "pertraukos", meaning: "перемена, перерыв", note: "вин. п. мн. ч." }
+  - { word: "neišspręsi", lemma: "išspręsti", pos: verb, forms: { pres: "išsprendžia", past: "išsprendė" }, meaning: "решить", note: "2 л. буд. вр. в обобщённом значении: neišspręsi — не решишь" }
+  - { word: "įtikinti", lemma: "įtikinti", pos: verb, forms: { pres: "įtikina", past: "įtikino" }, meaning: "убедить" }
+  - { word: "nenuleidžia", lemma: "nuleisti", pos: verb, forms: { pres: "nuleidžia", past: "nuleido" }, meaning: "опустить", note: "nenuleisti akių nuo — не отрывать глаз от" }
+  - { word: "pomėgių", lemma: "pomėgis", pos: noun, gender: m, gen: "pomėgio", meaning: "увлечение, хобби", note: "род. п. мн. ч." }
+  - { word: "nepatiria", lemma: "patirti", pos: verb, forms: { pres: "patiria", past: "patyrė" }, meaning: "испытать, пережить" }
+questions:
+  - q: "Tarp kokių dviejų baimių, pasak teksto, jaučiasi įstrigę tėvai?"
+    options: ["Kad be telefono vaikas bus atskirtas nuo draugų, o su juo – nuo tikrojo pasaulio", "Kad telefonai per brangūs ir greitai genda", "Kad mokykla uždraus telefonus"]
+    answer: 0
+  - q: "Kodėl dalis mokslininkų ragina nedaryti skubotų išvadų?"
+    options: ["Nes tyrimų apie telefonus nėra", "Nes ne visada aišku, kas yra priežastis, o kas – pasekmė", "Nes telefonai visiškai nekenksmingi"]
+    answer: 1
+  - q: "Kas, pasak specialistų, turi didžiausią įtaką vaikų įpročiams?"
+    options: ["Mokyklos taisyklės", "Telefonų gamintojai", "Suaugusiųjų pavyzdys"]
+    answer: 2

@@ -1,0 +1,42 @@
+id: lt-r-0089
+cefr: C1
+title: "Iš emigracijos į imigracijos šalį"
+topic: "трудовая иммиграция"
+source: generated
+text: |
+  Dar prieš dešimtmetį Lietuva buvo laikoma emigracijos šalimi: daugiau žmonių išvykdavo, nei atvykdavo. Šiandien padėtis kitokia. Statybvietėse, sunkvežimių kabinose, kavinėse ir sandėliuose vis dažniau dirba atvykėliai iš Ukrainos, Baltarusijos, Centrinės Azijos ar Indijos.
+
+  Pagrindinė priežastis – darbo jėgos trūkumas. Visuomenė sensta, dalis jaunų žmonių emigravo, o ekonomika auga. Ypač trūksta tolimųjų reisų vairuotojų, statybininkų, suvirintojų, slaugytojų. Darbdaviai tvirtina, kad be užsieniečių kai kurios įmonės tiesiog negalėtų veikti.
+
+  Tačiau imigracija kelia ir klausimų. Dalis gyventojų baiminasi, kad pigi darbo jėga stabdys atlyginimų augimą, kiti nerimauja dėl kultūrinių skirtumų ar saugumo. Šias baimes sustiprino 2021 metų krizė prie Baltarusijos sienos, kai Minsko režimas sąmoningai nukreipė tūkstančius migrantų į Lietuvą. Pasienyje skubiai pastatyta tvora, o diskusijos apie migraciją tapo kur kas aštresnės.
+
+  Ekspertai pabrėžia, kad svarbiausia – integracija. Atvykėliams reikia galimybių mokytis lietuvių kalbos, suprasti įstatymus, rasti būstą nebūdami apgauti, o jų vaikams – mokyklų, pasirengusių priimti kitakalbius. Kol kas daug kas daroma paskubomis, o didelė dalis darbo tenka nevyriausybinėms organizacijoms.
+
+  Lietuva iš esmės renkasi, kokia šalimi ji nori būti. Šalis, kurios piliečiai patys dešimtmečiais kūrė gyvenimą svetur, gali geriau nei kas kitas suprasti, ką reiškia būti svetimam.
+glossary:
+  - { word: "Statybvietėse", lemma: "statybvietė", pos: noun, gender: f, gen: "statybvietės", meaning: "стройплощадка", note: "мест. п. мн. ч." }
+  - { word: "sunkvežimių", lemma: "sunkvežimis", pos: noun, gender: m, gen: "sunkvežimio", meaning: "грузовик", note: "род. п. мн. ч." }
+  - { word: "sandėliuose", lemma: "sandėlis", pos: noun, gender: m, gen: "sandėlio", meaning: "склад", note: "мест. п. мн. ч." }
+  - { word: "tolimųjų", lemma: "tolimas", pos: adj, meaning: "дальний", note: "tolimųjų reisų vairuotojas — водитель-дальнобойщик" }
+  - { word: "suvirintojų", lemma: "suvirintojas", pos: noun, gender: m, gen: "suvirintojo", meaning: "сварщик", note: "род. п. мн. ч." }
+  - { word: "slaugytojų", lemma: "slaugytojas", pos: noun, gender: m, gen: "slaugytojo", meaning: "медбрат, сиделка", note: "род. п. мн. ч." }
+  - { word: "stabdys", lemma: "stabdyti", pos: verb, forms: { pres: "stabdo", past: "stabdė" }, meaning: "тормозить, сдерживать" }
+  - { word: "režimas", lemma: "režimas", pos: noun, gender: m, gen: "režimo", meaning: "режим" }
+  - { word: "nukreipė", lemma: "nukreipti", pos: verb, forms: { pres: "nukreipia", past: "nukreipė" }, meaning: "направить" }
+  - { word: "Pasienyje", lemma: "pasienis", pos: noun, gender: m, gen: "pasienio", meaning: "пограничье", note: "мест. п." }
+  - { word: "aštresnės", lemma: "aštrus", pos: adj, meaning: "острый", note: "сравн. ст., им. п. мн. ч. ж. р." }
+  - { word: "apgauti", lemma: "apgauti", pos: verb, forms: { pres: "apgauna", past: "apgavo" }, meaning: "обмануть", note: "здесь пассивное прич.: nebūdami apgauti — не будучи обманутыми" }
+  - { word: "kitakalbius", lemma: "kitakalbis", pos: noun, gender: m, gen: "kitakalbio", meaning: "иноязычный (человек)", note: "вин. п. мн. ч." }
+  - { word: "paskubomis", lemma: "paskubomis", pos: adv, meaning: "наспех, второпях" }
+  - { word: "nevyriausybinėms", lemma: "nevyriausybinis", pos: adj, meaning: "неправительственный", note: "дат. п. мн. ч. ж. р." }
+  - { word: "svetimam", lemma: "svetimas", pos: adj, meaning: "чужой", note: "дат. п.: būti svetimam — быть чужим" }
+questions:
+  - q: "Kokia pagrindinė imigracijos į Lietuvą priežastis?"
+    options: ["Darbo jėgos trūkumas", "Šiltas klimatas", "Pigus būstas"]
+    answer: 0
+  - q: "Kas sustiprino gyventojų baimes dėl migracijos?"
+    options: ["Euro įvedimas", "2021 metų krizė prie Baltarusijos sienos", "Darbo užmokesčio sumažėjimas"]
+    answer: 1
+  - q: "Kodėl, autoriaus manymu, Lietuva gali geriau suprasti atvykėlius?"
+    options: ["Nes joje gyvena daug užsieniečių", "Nes lietuvių kalba lengva", "Nes daug jos piliečių patys gyveno svetur"]
+    answer: 2

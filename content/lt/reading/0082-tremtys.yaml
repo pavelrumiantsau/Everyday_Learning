@@ -1,0 +1,44 @@
+id: lt-r-0082
+cefr: C1
+title: "Birželio keturioliktoji"
+topic: "депортации и память о них"
+source: generated
+text: |
+  1941 metų birželio 14-osios naktį į tūkstančių Lietuvos šeimų duris pasibeldė ginkluoti vyrai. Per kelias valandas žmonėms buvo liepta susikrauti būtiniausius daiktus, o paskui juos sugrūdo į gyvulinius vagonus ir išvežė į Sibirą. Tarp ištremtųjų buvo mokytojų, ūkininkų, karininkų, valdininkų, tačiau ir vaikų, kurie niekuo negalėjo būti „kalti“.
+
+  Tai buvo tik pradžia. Po karo trėmimai atsinaujino, ir iki šeštojo dešimtmečio pradžios iš Lietuvos ištremta daugiau nei šimtas tūkstančių žmonių. Daugelis jų nebegrįžo: mirė nuo bado, šalčio ir ligų, o išgyvenusiems ilgai nebuvo leidžiama sugrįžti į gimtinę.
+
+  Sovietmečiu apie tai buvo galima kalbėti tik pašnibždomis. Dalia Grinkevičiūtė, paauglystėje ištremta prie Laptevų jūros, savo prisiminimus užrašė slapta, o rankraštis buvo rastas tik po daugelio metų. Šiandien jos liudijimas skaitomas mokyklose, o lietuvių kilmės amerikiečių rašytojos Rūtos Šepetys romanas apie tremtį pasiekė milijonus skaitytojų visame pasaulyje.
+
+  Birželio 14-oji dabar minima kaip Gedulo ir vilties diena. Geležinkelio stotyse, iš kurių kadaise išvažiavo ešelonai, uždegamos žvakės, skaitomi ištremtųjų vardai. Kai kurie klausia, ar nereikėtų pagaliau „paleisti praeities“. Tačiau istorikai pabrėžia, kad atmintis – ne kerštas, o įsipareigojimas: kol prisimename, kas nutiko, sunkiau patikėti tais, kurie bando istoriją perrašyti.
+
+  Liudininkų lieka vis mažiau. Todėl vis svarbiau tampa jų pasakojimai, užrašyti dabar, kol dar yra kam papasakoti.
+glossary:
+  - { word: "pasibeldė", lemma: "pasibelsti", pos: verb, forms: { pres: "pasibeldžia", past: "pasibeldė" }, meaning: "постучать" }
+  - { word: "ginkluoti", lemma: "ginkluotas", pos: adj, meaning: "вооружённый", note: "им. п. мн. ч." }
+  - { word: "susikrauti", lemma: "susikrauti", pos: verb, forms: { pres: "susikrauna", past: "susikrovė" }, meaning: "сложить, собрать (вещи)" }
+  - { word: "sugrūdo", lemma: "sugrūsti", pos: verb, forms: { pres: "sugrūda", past: "sugrūdo" }, meaning: "затолкать, набить" }
+  - { word: "gyvulinius", lemma: "gyvulinis", pos: adj, meaning: "для скота", note: "gyvuliniai vagonai — вагоны для скота; вин. п. мн. ч." }
+  - { word: "ištremtųjų", lemma: "ištremtasis", pos: noun, gender: m, gen: "ištremtojo", meaning: "сосланный, депортированный", note: "род. п. мн. ч." }
+  - { word: "trėmimai", lemma: "trėmimas", pos: noun, gender: m, gen: "trėmimo", meaning: "депортация, ссылка", note: "им. п. мн. ч." }
+  - { word: "atsinaujino", lemma: "atsinaujinti", pos: verb, forms: { pres: "atsinaujina", past: "atsinaujino" }, meaning: "возобновиться" }
+  - { word: "ištremta", lemma: "ištremti", pos: verb, forms: { pres: "ištremia", past: "ištrėmė" }, meaning: "сослать, депортировать", note: "безличный пассив: ištremta ... žmonių — было сослано ... людей" }
+  - { word: "gimtinę", lemma: "gimtinė", pos: noun, gender: f, gen: "gimtinės", meaning: "родина, родные края", note: "вин. п." }
+  - { word: "pašnibždomis", lemma: "pašnibždomis", pos: adv, meaning: "шёпотом" }
+  - { word: "paauglystėje", lemma: "paauglystė", pos: noun, gender: f, gen: "paauglystės", meaning: "подростковый возраст", note: "мест. п." }
+  - { word: "rankraštis", lemma: "rankraštis", pos: noun, gender: m, gen: "rankraščio", meaning: "рукопись" }
+  - { word: "liudijimas", lemma: "liudijimas", pos: noun, gender: m, gen: "liudijimo", meaning: "свидетельство" }
+  - { word: "Gedulo", lemma: "gedulas", pos: noun, gender: m, gen: "gedulo", meaning: "траур", note: "Gedulo ir vilties diena — День траура и надежды" }
+  - { word: "kerštas", lemma: "kerštas", pos: noun, gender: m, gen: "keršto", meaning: "месть" }
+  - { word: "perrašyti", lemma: "perrašyti", pos: verb, forms: { pres: "perrašo", past: "perrašė" }, meaning: "переписать" }
+  - { word: "Liudininkų", lemma: "liudininkas", pos: noun, gender: m, gen: "liudininko", meaning: "свидетель", note: "род. п. мн. ч." }
+questions:
+  - q: "Kas tekste pabrėžiama apie ištremtuosius?"
+    options: ["Tarp jų buvo ir vaikų, kurie niekuo negalėjo būti kalti", "Visi jie buvo kariškiai", "Jie išvyko savo noru"]
+    answer: 0
+  - q: "Kas ypatinga Dalios Grinkevičiūtės prisiminimuose?"
+    options: ["Jie buvo išleisti sovietmečiu dideliu tiražu", "Jie buvo užrašyti slapta, o rankraštis rastas tik po daugelio metų", "Juos parašė amerikiečių rašytoja"]
+    answer: 1
+  - q: "Kaip istorikai atsako tiems, kurie siūlo „paleisti praeitį“?"
+    options: ["Kad reikia ieškoti keršto", "Kad apie tremtis geriau nekalbėti", "Kad atmintis yra įsipareigojimas, padedantis atsispirti istorijos perrašymui"]
+    answer: 2
