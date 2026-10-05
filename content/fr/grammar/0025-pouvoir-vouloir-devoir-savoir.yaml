@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0025
+cefr: A1
+order: 115
+title: "Pouvoir, vouloir, devoir, savoir + infinitive"
+explanation:
+  en: |
+    Four irregular verbs that are followed directly by an **infinitive** (no preposition): *Je **peux** venir. Je **dois** partir.*
+
+    - **pouvoir** (can, may): *je **peux**, tu **peux**, il **peut**, nous **pouvons**, vous **pouvez**, ils **peuvent***
+    - **vouloir** (want): *je **veux**, tu **veux**, il **veut**, nous **voulons**, vous **voulez**, ils **veulent***
+    - **devoir** (must, have to): *je **dois**, tu **dois**, il **doit**, nous **devons**, vous **devez**, ils **doivent***
+    - **savoir** (know): *je **sais**, tu **sais**, il **sait**, nous **savons**, vous **savez**, ils **savent***
+
+    Pattern: the singular has *-x / -x / -t* or *-s / -s / -t*; *nous* and *vous* keep the infinitive stem (*pouv-, voul-, dev-, sav-*); *ils* changes again (*peuvent, veulent, doivent*).
+
+    **Polite request:** ***je voudrais*** (I would like) is the normal way to ask in a shop or café — *je veux* sounds blunt.
+
+    **savoir or pouvoir?**
+    - ***savoir** + infinitive* = know how to (a skill): *Je **sais** nager.*
+    - ***pouvoir*** = be able right now / be allowed: *Je ne **peux** pas nager aujourd'hui.*
+
+    Negation goes around the conjugated verb: *Je **ne** peux **pas** venir.*
+comparison:
+  en: |
+    Same as Spanish *poder, querer, deber, saber* + infinitive — including *saber nadar* = *savoir nager*, and *je voudrais* ≈ *quisiera / me gustaría*. English "can swim" covers both, but French (like Russian «умею плавать» vs «могу плавать») keeps them apart.
+examples:
+  - { text: "Peux-tu m'aider ?", translation: "Can you help me?", source: "tatoeba:1159441" }
+  - { text: "Il veut venir.", translation: "He wants to come.", source: "tatoeba:1978606" }
+  - { text: "Je dois partir.", translation: "I have to go.", source: "tatoeba:1996330" }
+  - { text: "Il sait nager.", translation: "He knows how to swim.", source: "tatoeba:131603" }
+  - { text: "Je voudrais une tasse de thé.", translation: "I'd like a cup of tea.", source: "tatoeba:509008" }
+exercises:
+  - type: cloze
+    text: "Je ne ___ pas venir demain."
+    answer: "peux"
+    hint: "pouvoir, je"
+    translation: "I can't come tomorrow."
+  - type: cloze
+    text: "Vous ___ fermer la fenêtre, s'il vous plaît ?"
+    answer: "pouvez"
+    hint: "pouvoir, vous"
+    translation: "Can you close the window, please?"
+  - type: cloze
+    text: "Les enfants ___ jouer dehors."
+    answer: "veulent"
+    hint: "vouloir, ils"
+    translation: "The children want to play outside."
+  - type: cloze
+    text: "Je ___ un café, s'il vous plaît."
+    answer: "voudrais"
+    hint: "vouloir — polite form, I would like"
+    translation: "I'd like a coffee, please."
+  - type: cloze
+    text: "Nous ___ travailler samedi."
+    answer: "devons"
+    hint: "devoir, nous"
+    translation: "We have to work on Saturday."
+  - type: cloze
+    text: "Elle ___ rentrer avant minuit."
+    answer: "doit"
+    hint: "devoir, elle"
+    translation: "She has to be home before midnight."
+  - type: cloze
+    text: "Tu ___ nager ?"
+    answer: "sais"
+    hint: "a skill — know how to, tu"
+    translation: "Can you swim?"
+  - type: cloze
+    text: "Ils ne ___ pas où elle habite."
+    answer: "savent"
+    hint: "savoir, ils"
+    translation: "They don't know where she lives."
