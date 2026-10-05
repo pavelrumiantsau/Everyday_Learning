@@ -1,0 +1,45 @@
+id: lt-r-0068
+cefr: C1
+title: "Kaimynai su bendra praeitimi"
+topic: "литовско-польские отношения"
+source: generated
+text: |
+  Lietuvių ir lenkų istorija susipynusi taip glaudžiai, kad kartais sunku pasakyti, kur baigiasi viena ir prasideda kita. Daugiau nei du šimtmečius abi tautos gyveno bendroje valstybėje – Abiejų Tautų Respublikoje, sukurtoje 1569 metų Liublino unija. Tos epochos didikai dažnai kalbėjo lenkiškai, o tokie kūrėjai kaip Adomas Mickevičius iki šiol laikomi savais abiejose šalyse.
+
+  Vis dėlto XX amžius paliko gilių žaizdų. 1920 metais Lenkijos kariuomenė užėmė Vilnių, ir beveik du dešimtmečius abi valstybės neturėjo net diplomatinių santykių, o laikinąja sostine tapo Kaunas. Lietuvių atmintyje šis laikotarpis ilgai išliko kaip skriauda, o daugeliui lenkų Vilnius, kuriame gyveno daug lenkiškai kalbančių žmonių, atrodė natūrali Lenkijos dalis.
+
+  Po nepriklausomybės atkūrimo santykiai ilgai buvo nevienareikšmiai. Vienas skaudžiausių klausimų – Lietuvos lenkų, sudarančių apie šešis procentus gyventojų, teisės: mokyklos, vietovardžių užrašai, pavardžių rašyba dokumentuose. Ginčai dėl to, ar asmens dokumentuose galima rašyti pavardes originalia rašyba, tęsėsi daugiau nei du dešimtmečius ir buvo iš dalies išspręsti tik 2022 metais, kai leista vartoti raides w, q ir x.
+
+  Pastaraisiais metais šiuos ginčus nustelbė bendra grėsmė. Rusijos agresija prieš Ukrainą parodė, kad abiejų šalių saugumas neatsiejamas: siauras sausumos ruožas tarp Lenkijos ir Lietuvos, vadinamasis Suvalkų koridorius, laikomas viena jautriausių NATO vietų. Politikai ėmė kalbėti apie strateginę partnerystę, o bendros pratybos ir infrastruktūros projektai tapo kasdienybe.
+
+  Tai nereiškia, kad istorinės nuoskaudos išnyko. Tačiau vis daugiau istorikų pabrėžia, kad bendra praeitis gali būti ne tik ginčų, bet ir supratimo šaltinis – jei abi pusės sugebės į ją pažvelgti ne vien per savo skriaudų prizmę.
+glossary:
+  - { word: "susipynusi", lemma: "susipinti", pos: verb, forms: { pres: "susipina", past: "susipynė" }, meaning: "переплестись", note: "прич. прош. вр., ж. р.: istorija susipynusi — история переплетена" }
+  - { word: "glaudžiai", lemma: "glaudžiai", pos: adv, meaning: "тесно" }
+  - { word: "Abiejų", lemma: "abu", pos: num, meaning: "оба", note: "Abiejų Tautų Respublika — Речь Посполитая (букв. Республика Обоих Народов)" }
+  - { word: "unija", lemma: "unija", pos: noun, gender: f, gen: "unijos", meaning: "уния, союз", note: "тв. п.: sukurtoje Liublino unija — созданной Люблинской унией" }
+  - { word: "didikai", lemma: "didikas", pos: noun, gender: m, gen: "didiko", meaning: "магнат, вельможа", note: "им. п. мн. ч." }
+  - { word: "žaizdų", lemma: "žaizda", pos: noun, gender: f, gen: "žaizdos", meaning: "рана", note: "род. п. мн. ч. (часть): paliko gilių žaizdų" }
+  - { word: "užėmė", lemma: "užimti", pos: verb, forms: { pres: "užima", past: "užėmė" }, meaning: "занять, захватить" }
+  - { word: "skriauda", lemma: "skriauda", pos: noun, gender: f, gen: "skriaudos", meaning: "обида, несправедливость" }
+  - { word: "nevienareikšmiai", lemma: "nevienareikšmis", pos: adj, meaning: "неоднозначный", note: "им. п. мн. ч. м. р." }
+  - { word: "vietovardžių", lemma: "vietovardis", pos: noun, gender: m, gen: "vietovardžio", meaning: "топоним, название места", note: "род. п. мн. ч." }
+  - { word: "rašyba", lemma: "rašyba", pos: noun, gender: f, gen: "rašybos", meaning: "написание, орфография" }
+  - { word: "nustelbė", lemma: "nustelbti", pos: verb, forms: { pres: "nustelbia", past: "nustelbė" }, meaning: "заглушить, отодвинуть на второй план" }
+  - { word: "neatsiejamas", lemma: "neatsiejamas", pos: adj, meaning: "неотделимый" }
+  - { word: "ruožas", lemma: "ruožas", pos: noun, gender: m, gen: "ruožo", meaning: "полоса, участок" }
+  - { word: "jautriausių", lemma: "jautrus", pos: adj, meaning: "чувствительный, уязвимый", note: "превосх. ст., род. п. мн. ч." }
+  - { word: "partnerystę", lemma: "partnerystė", pos: noun, gender: f, gen: "partnerystės", meaning: "партнёрство", note: "вин. п." }
+  - { word: "pratybos", lemma: "pratybos", pos: noun, gender: f, gen: "pratybų", plural_only: true, meaning: "учения" }
+  - { word: "nuoskaudos", lemma: "nuoskauda", pos: noun, gender: f, gen: "nuoskaudos", meaning: "обида", note: "им. п. мн. ч." }
+  - { word: "prizmę", lemma: "prizmė", pos: noun, gender: f, gen: "prizmės", meaning: "призма", note: "per prizmę — через призму" }
+questions:
+  - q: "Kodėl, pasak teksto, Adomas Mickevičius laikomas savu abiejose šalyse?"
+    options: ["Nes jis gyveno bendros lietuvių ir lenkų istorijos epochoje ir kūrė lenkiškai", "Nes jis buvo Lietuvos prezidentas", "Nes jis gimė Varšuvoje"]
+    answer: 0
+  - q: "Kas pastaraisiais metais nustelbė istorinius ginčus?"
+    options: ["Bendra valiuta", "Bendra grėsmė, kurią parodė Rusijos agresija prieš Ukrainą", "Bendros sporto varžybos"]
+    answer: 1
+  - q: "Kokią mintį autorius išsako pabaigoje?"
+    options: ["Istorinės nuoskaudos jau visiškai išnyko", "Apie bendrą praeitį geriau nekalbėti", "Bendra praeitis gali padėti suprasti vieni kitus, jei į ją žiūrima ne vien per savo skriaudas"]
+    answer: 2

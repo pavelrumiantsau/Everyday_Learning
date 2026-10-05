@@ -1,0 +1,45 @@
+id: lt-r-0072
+cefr: C1
+title: "Daugiau nei cepelinai"
+topic: "литовская кухня вчера и сегодня"
+source: generated
+text: |
+  Paklauskite užsieniečio, ką jis žino apie lietuvišką virtuvę, ir greičiausiai išgirsite du žodžius: cepelinai ir šaltibarščiai. Abu patiekalai gimė bulvių ir burokėlių šalyje, tačiau nė vienas jų nėra toks senas, kaip dažnai manoma. Bulvės Lietuvoje paplito tik XVIII–XIX amžiais, o iki tol valstiečių stalą sudarė ruginė duona, košės, žirniai, ropės ir pieno produktai.
+
+  Lietuviška virtuvė niekada nebuvo uždara. Totoriai, karaimai, žydai, lenkai, vokiečiai paliko joje savo pėdsaką: karaimų kibinai tapo Trakų simboliu, o šakotis, kepamas sukant volą virš ugnies, turi giminaičių visoje Vidurio Europoje. Sovietmečiu daugelis regioninių receptų nunyko – valgyklų meniu buvo vienodas visoje imperijoje, o trūkstant produktų namų virtuvėje tekdavo improvizuoti.
+
+  Pastarąjį dešimtmetį padėtis iš esmės pasikeitė. Jauni virėjai ėmė ieškoti įkvėpimo senuosiuose receptuose ir vietiniuose produktuose: miško grybuose, uogose, ožkų sūriuose, net pievų žolelėse. Restoranuose šie produktai patiekiami šiuolaikiškai, o neseniai į Lietuvą atėjęs „Michelin“ gidas sostinės virtuvę pristatė tarptautinei publikai.
+
+  Kartu atgimsta ir pasididžiavimas paprastais patiekalais. Vilniuje rengiama šaltibarščių šventė, kurios metu miesto gatvės nusidažo rožine spalva, o internete ši sriuba tapo savotišku lietuvių tapatybės ženklu.
+
+  Mitybos specialistai, tiesa, primena, kad tradicinė virtuvė nebūtinai sveika: riebūs, sotūs patiekalai buvo skirti sunkiai fiziškai dirbantiems žmonėms, o ne biure sėdintiems. Todėl gal ir neblogai, kad cepelinai šiandien valgomi ne kasdien, o kaip šventinis prisiminimas apie močiutės virtuvę.
+glossary:
+  - { word: "patiekalai", lemma: "patiekalas", pos: noun, gender: m, gen: "patiekalo", meaning: "блюдо", note: "им. п. мн. ч." }
+  - { word: "burokėlių", lemma: "burokėlis", pos: noun, gender: m, gen: "burokėlio", meaning: "свёкла", note: "род. п. мн. ч." }
+  - { word: "paplito", lemma: "paplisti", pos: verb, forms: { pres: "paplinta", past: "paplito" }, meaning: "распространиться" }
+  - { word: "valstiečių", lemma: "valstietis", pos: noun, gender: m, gen: "valstiečio", meaning: "крестьянин", note: "род. п. мн. ч." }
+  - { word: "ruginė", lemma: "ruginis", pos: adj, meaning: "ржаной", note: "ж. р." }
+  - { word: "ropės", lemma: "ropė", pos: noun, gender: f, gen: "ropės", meaning: "репа", note: "им. п. мн. ч." }
+  - { word: "pėdsaką", lemma: "pėdsakas", pos: noun, gender: m, gen: "pėdsako", meaning: "след", note: "вин. п." }
+  - { word: "karaimų", lemma: "karaimas", pos: noun, gender: m, gen: "karaimo", meaning: "караим", note: "род. п. мн. ч." }
+  - { word: "volą", lemma: "volas", pos: noun, gender: m, gen: "volo", meaning: "вал, валик", note: "вин. п." }
+  - { word: "giminaičių", lemma: "giminaitis", pos: noun, gender: m, gen: "giminaičio", meaning: "родственник", note: "род. п. мн. ч." }
+  - { word: "nunyko", lemma: "nunykti", pos: verb, forms: { pres: "nunyksta", past: "nunyko" }, meaning: "исчезнуть, отмереть" }
+  - { word: "valgyklų", lemma: "valgykla", pos: noun, gender: f, gen: "valgyklos", meaning: "столовая", note: "род. п. мн. ч." }
+  - { word: "įkvėpimo", lemma: "įkvėpimas", pos: noun, gender: m, gen: "įkvėpimo", meaning: "вдохновение", note: "род. п. после ieškoti" }
+  - { word: "žolelėse", lemma: "žolelė", pos: noun, gender: f, gen: "žolelės", meaning: "травка, трава (пряная)", note: "мест. п. мн. ч." }
+  - { word: "patiekiami", lemma: "patiekti", pos: verb, forms: { pres: "patiekia", past: "patiekė" }, meaning: "подавать (блюдо)", note: "пассивное прич. наст. вр., мн. ч." }
+  - { word: "nusidažo", lemma: "nusidažyti", pos: verb, forms: { pres: "nusidažo", past: "nusidažė" }, meaning: "окраситься" }
+  - { word: "riebūs", lemma: "riebus", pos: adj, meaning: "жирный", note: "им. п. мн. ч. м. р." }
+  - { word: "sotūs", lemma: "sotus", pos: adj, meaning: "сытный", note: "им. п. мн. ч. м. р." }
+  - { word: "šventinis", lemma: "šventinis", pos: adj, meaning: "праздничный" }
+questions:
+  - q: "Ką tekstas teigia apie cepelinų ir šaltibarščių amžių?"
+    options: ["Jie nėra tokie seni, kaip manoma, nes bulvės paplito tik XVIII–XIX amžiais", "Jie valgomi Lietuvoje jau tūkstantį metų", "Juos atvežė karaimai"]
+    answer: 0
+  - q: "Kaip sovietmetis paveikė lietuvišką virtuvę?"
+    options: ["Atsirado daug naujų regioninių patiekalų", "Daug regioninių receptų nunyko, o meniu tapo vienodas", "Restoranai gavo daug apdovanojimų"]
+    answer: 1
+  - q: "Kodėl, pasak mitybos specialistų, gerai, kad cepelinai valgomi ne kasdien?"
+    options: ["Nes juos sunku pagaminti", "Nes jie labai brangūs", "Nes sotūs patiekalai buvo skirti sunkiai fiziškai dirbantiems, o ne biuro darbuotojams"]
+    answer: 2

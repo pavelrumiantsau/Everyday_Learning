@@ -1,0 +1,46 @@
+id: lt-r-0071
+cefr: C1
+title: "Elfai prieš trolius"
+topic: "дезинформация и медиаграмотность"
+source: generated
+text: |
+  Netikra naujiena plinta greičiau nei jos paneigimas – šią tiesą šiandien žino kiekvienas žurnalistas. Socialiniai tinklai sukurti taip, kad labiausiai būtų skleidžiama tai, kas sukelia stiprias emocijas: pyktį, baimę, pasipiktinimą. Tiesa dažnai būna nuobodesnė ir sudėtingesnė, todėl lenktynes pralaimi.
+
+  Lietuvai dezinformacija – ne abstrakti problema. Jau daugiau nei dešimtmetį šalis yra kryptingų informacinių atakų taikinys: skleidžiamos netikros žinios apie NATO karius, iškraipoma istorija, bandoma kiršinti tautines bendrijas. Kartais pakanka vienos suklastotos nuotraukos, kad per kelias valandas ji pasiektų dešimtis tūkstančių žmonių.
+
+  Į tai atsakyta neįprastai. 2014 metais susibūrė savanoriai, pasivadinę elfais – tarsi priešprieša internetiniams troliams. Jie stebi socialinius tinklus, demaskuoja netikras paskyras ir praneša apie melagingus įrašus. Vėliau prie jų darbo prisidėjo žurnalistai, analitikai ir valstybės institucijos, o lietuvių elfų pavyzdys sulaukė dėmesio ir užsienyje.
+
+  Vis dėlto ekspertai sutaria, kad vien demaskuoti melą nepakanka. Daug svarbiau išmokyti žmones patiems kritiškai vertinti informaciją: patikrinti šaltinį, palyginti kelias žiniasklaidos priemones, atkreipti dėmesį į datą ir kontekstą. Todėl medijų raštingumas vis dažniau įtraukiamas į mokyklų programas.
+
+  Tačiau atsparumas manipuliacijoms – ne vien žinių klausimas. Lengviausiai melu patikime tada, kai jis patvirtina tai, ką ir taip manėme. Todėl pats sunkiausias įgūdis – suabejoti ne tik priešininkų, bet ir savo pačių įsitikinimais.
+glossary:
+  - { word: "paneigimas", lemma: "paneigimas", pos: noun, gender: m, gen: "paneigimo", meaning: "опровержение" }
+  - { word: "skleidžiama", lemma: "skleisti", pos: verb, forms: { pres: "skleidžia", past: "skleidė" }, meaning: "распространять", note: "безличный пассив: būtų skleidžiama — распространялось бы" }
+  - { word: "pasipiktinimą", lemma: "pasipiktinimas", pos: noun, gender: m, gen: "pasipiktinimo", meaning: "возмущение", note: "вин. п." }
+  - { word: "lenktynes", lemma: "lenktynės", pos: noun, gender: f, gen: "lenktynių", plural_only: true, meaning: "гонка, соревнование", note: "вин. п.: pralaimi lenktynes — проигрывает гонку" }
+  - { word: "kryptingų", lemma: "kryptingas", pos: adj, meaning: "целенаправленный", note: "род. п. мн. ч." }
+  - { word: "taikinys", lemma: "taikinys", pos: noun, gender: m, gen: "taikinio", meaning: "мишень, цель" }
+  - { word: "iškraipoma", lemma: "iškraipyti", pos: verb, forms: { pres: "iškraipo", past: "iškraipė" }, meaning: "искажать", note: "пассивное прич. наст. вр., ж. р.: iškraipoma istorija — искажается история" }
+  - { word: "kiršinti", lemma: "kiršinti", pos: verb, forms: { pres: "kiršina", past: "kiršino" }, meaning: "ссорить, натравливать друг на друга" }
+  - { word: "bendrijas", lemma: "bendrija", pos: noun, gender: f, gen: "bendrijos", meaning: "община, сообщество", note: "вин. п. мн. ч." }
+  - { word: "suklastotos", lemma: "suklastoti", pos: verb, forms: { pres: "suklastoja", past: "suklastojo" }, meaning: "подделать", note: "пассивное прич., род. п. ж. р.: suklastotos nuotraukos — поддельной фотографии" }
+  - { word: "susibūrė", lemma: "susiburti", pos: verb, forms: { pres: "susiburia", past: "susibūrė" }, meaning: "объединиться, собраться" }
+  - { word: "priešprieša", lemma: "priešprieša", pos: noun, gender: f, gen: "priešpriešos", meaning: "противовес, противопоставление" }
+  - { word: "demaskuoja", lemma: "demaskuoti", pos: verb, forms: { pres: "demaskuoja", past: "demaskavo" }, meaning: "разоблачать" }
+  - { word: "paskyras", lemma: "paskyra", pos: noun, gender: f, gen: "paskyros", meaning: "аккаунт, учётная запись", note: "вин. п. мн. ч." }
+  - { word: "melagingus", lemma: "melagingas", pos: adj, meaning: "ложный", note: "вин. п. мн. ч." }
+  - { word: "sutaria", lemma: "sutarti", pos: verb, forms: { pres: "sutaria", past: "sutarė" }, meaning: "сходиться во мнении; ладить" }
+  - { word: "raštingumas", lemma: "raštingumas", pos: noun, gender: m, gen: "raštingumo", meaning: "грамотность", note: "medijų raštingumas — медиаграмотность" }
+  - { word: "atsparumas", lemma: "atsparumas", pos: noun, gender: m, gen: "atsparumo", meaning: "устойчивость, сопротивляемость" }
+  - { word: "suabejoti", lemma: "suabejoti", pos: verb, forms: { pres: "suabejoja", past: "suabejojo" }, meaning: "усомниться", note: "+ тв. п.: suabejoti įsitikinimais" }
+  - { word: "įsitikinimais", lemma: "įsitikinimas", pos: noun, gender: m, gen: "įsitikinimo", meaning: "убеждение", note: "тв. п. мн. ч." }
+questions:
+  - q: "Kodėl, pasak teksto, netikros naujienos plinta greičiau už tiesą?"
+    options: ["Nes socialiniai tinklai labiausiai skleidžia tai, kas sukelia stiprias emocijas", "Nes tiesą draudžiama skelbti", "Nes žurnalistai rašo per lėtai"]
+    answer: 0
+  - q: "Kas yra lietuvių elfai?"
+    options: ["Valstybės tarnautojai, rašantys įstatymus", "Savanoriai, kurie stebi tinklus ir demaskuoja netikras paskyras bei melą", "Internetiniai troliai"]
+    answer: 1
+  - q: "Kas, pasak autoriaus, yra pats sunkiausias įgūdis?"
+    options: ["Greitai skaityti naujienas", "Rasti kuo daugiau šaltinių", "Suabejoti ne tik priešininkų, bet ir savo įsitikinimais"]
+    answer: 2

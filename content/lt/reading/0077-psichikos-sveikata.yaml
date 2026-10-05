@@ -1,0 +1,43 @@
+id: lt-r-0077
+cefr: C1
+title: "Apie ką nekalbėdavome"
+topic: "психическое здоровье"
+source: generated
+text: |
+  Ilgą laiką Lietuva pagal savižudybių skaičių buvo tarp pirmaujančių Europoje. Pastaraisiais dešimtmečiais šis rodiklis gerokai sumažėjo, tačiau vis dar išlieka aukštas, o apie psichikos sveikatą viešai kalbėti daugeliui iki šiol nelengva.
+
+  Specialistai šią problemą dažnai sieja su istorinėmis traumomis: karais, tremtimis, okupacija, kai jausmus reikėjo slėpti, o ieškoti pagalbos buvo gėda ar net pavojinga. Tokios nuostatos perduodamos iš kartos į kartą: „vyrai neverkia“, „savo bėdas reikia spręsti pačiam“. Ypač sunku vyrams – jie rečiau kreipiasi pagalbos, o slogią nuotaiką neretai bando „gydyti“ alkoholiu.
+
+  Vis dėlto požiūris keičiasi. Jaunesnė karta apie apsilankymą pas psichologą kalba taip pat natūraliai kaip apie vizitą pas odontologą, žinomi žmonės socialiniuose tinkluose atvirai pasakoja apie savo sunkumus, o savanoriai jau kelis dešimtmečius budi emocinės paramos linijose. Atsirado ir galimybė nemokamai pasikonsultuoti su psichologu be gydytojo siuntimo.
+
+  Kita vertus, specialistų trūksta, o eilės pas psichiatrą ar psichoterapeutą kartais tęsiasi mėnesius. Mažesniuose miestuose pagalba dar sunkiau pasiekiama, be to, ten stipresnė baimė, kad apie apsilankymą sužinos kaimynai.
+
+  Psichologai pabrėžia, kad didžiausias žingsnis – ne nauji įstatymai, o paprastas pokalbis. Paklausti draugo, kaip jis iš tikrųjų jaučiasi, ir išklausyti jo nepertraukiant – kartais tai gali pakeisti daugiau, nei atrodo.
+glossary:
+  - { word: "savižudybių", lemma: "savižudybė", pos: noun, gender: f, gen: "savižudybės", meaning: "самоубийство", note: "род. п. мн. ч." }
+  - { word: "psichikos", lemma: "psichika", pos: noun, gender: f, gen: "psichikos", meaning: "психика", note: "psichikos sveikata — психическое здоровье" }
+  - { word: "traumomis", lemma: "trauma", pos: noun, gender: f, gen: "traumos", meaning: "травма", note: "тв. п. мн. ч." }
+  - { word: "tremtimis", lemma: "tremtis", pos: noun, gender: f, gen: "tremties", meaning: "ссылка, депортация", note: "тв. п. мн. ч." }
+  - { word: "nuostatos", lemma: "nuostata", pos: noun, gender: f, gen: "nuostatos", meaning: "установка, убеждение; положение", note: "им. п. мн. ч." }
+  - { word: "perduodamos", lemma: "perduoti", pos: verb, forms: { pres: "perduoda", past: "perdavė" }, meaning: "передавать", note: "пассивное прич. наст. вр., ж. р. мн. ч." }
+  - { word: "bėdas", lemma: "bėda", pos: noun, gender: f, gen: "bėdos", meaning: "беда, проблема", note: "вин. п. мн. ч." }
+  - { word: "slogią", lemma: "slogus", pos: adj, meaning: "гнетущий, подавленный", note: "вин. п. ж. р.: sloga nuotaika — подавленное настроение" }
+  - { word: "odontologą", lemma: "odontologas", pos: noun, gender: m, gen: "odontologo", meaning: "стоматолог", note: "вин. п." }
+  - { word: "budi", lemma: "budėti", pos: verb, forms: { pres: "budi", past: "budėjo" }, meaning: "дежурить" }
+  - { word: "paramos", lemma: "parama", pos: noun, gender: f, gen: "paramos", meaning: "поддержка, помощь", note: "emocinė parama — эмоциональная поддержка" }
+  - { word: "pasikonsultuoti", lemma: "pasikonsultuoti", pos: verb, forms: { pres: "pasikonsultuoja", past: "pasikonsultavo" }, meaning: "проконсультироваться" }
+  - { word: "siuntimo", lemma: "siuntimas", pos: noun, gender: m, gen: "siuntimo", meaning: "направление (к врачу); отправка", note: "род. п. после be" }
+  - { word: "eilės", lemma: "eilė", pos: noun, gender: f, gen: "eilės", meaning: "очередь; ряд", note: "им. п. мн. ч." }
+  - { word: "pasiekiama", lemma: "pasiekiamas", pos: adj, meaning: "доступный, достижимый", note: "ж. р.: pagalba sunkiau pasiekiama — помощь труднее получить" }
+  - { word: "išklausyti", lemma: "išklausyti", pos: verb, forms: { pres: "išklauso", past: "išklausė" }, meaning: "выслушать" }
+  - { word: "nepertraukiant", lemma: "pertraukti", pos: verb, forms: { pres: "pertraukia", past: "pertraukė" }, meaning: "прервать, перебить", note: "деепр. с отрицанием: nepertraukiant — не перебивая" }
+questions:
+  - q: "Su kuo specialistai sieja nenorą kalbėti apie psichikos sveikatą?"
+    options: ["Su istorinėmis traumomis, kai jausmus reikėjo slėpti", "Su per dideliu psichologų skaičiumi", "Su šaltu klimatu"]
+    answer: 0
+  - q: "Kokia problema išlieka, nors požiūris keičiasi?"
+    options: ["Jaunimas atsisako kalbėti su psichologais", "Specialistų trūksta, o eilės pas juos ilgos", "Konsultacijos su psichologu labai brangios visiems"]
+    answer: 1
+  - q: "Kas, pasak psichologų, yra didžiausias žingsnis?"
+    options: ["Nauji įstatymai", "Daugiau ligoninių", "Paprastas pokalbis ir dėmesingas išklausymas"]
+    answer: 2

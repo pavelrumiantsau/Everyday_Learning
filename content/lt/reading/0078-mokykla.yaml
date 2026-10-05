@@ -1,0 +1,43 @@
+id: lt-r-0078
+cefr: C1
+title: "Mokykla egzaminų šešėlyje"
+topic: "школа, экзамены и реформы образования"
+source: generated
+text: |
+  Kiekvieną birželį tūkstančiai abiturientų laiko brandos egzaminus, nuo kurių rezultatų priklauso, ar jie įstos į norimą studijų programą. Egzaminų sesija – tikras nacionalinis įvykis: apie užduotis diskutuojama žiniasklaidoje, o rezultatų laukia ne tik moksleiviai, bet ir jų tėvai.
+
+  Vis dėlto vis garsiau klausiama, ar tokia sistema iš tiesų matuoja tai, ko prireiks gyvenime. Kritikai teigia, kad mokykla pernelyg orientuota į egzaminus: mokiniai išmoksta spręsti tam tikro tipo užduotis, bet ne mąstyti, ieškoti informacijos ar dirbti komandoje. Siekdami geresnių rezultatų, tėvai samdo korepetitorius, ir taip didėja atotrūkis tarp šeimų, kurios gali sau tai leisti, ir tų, kurios negali.
+
+  Švietimo reformos keičia viena kitą beveik su kiekviena vyriausybe. Atnaujinamos ugdymo programos, keičiami vertinimo principai, pertvarkomas mokyklų tinklas. Mokytojai skundžiasi, kad nespėja prisitaikyti prie vienų pokyčių, kai jau skelbiami kiti, o patys pokyčiai dažnai planuojami nepasitarus su tais, kuriems juos teks įgyvendinti.
+
+  Dar viena problema – mokytojų trūkumas. Ši profesija ilgai buvo menkai apmokama ir nepakankamai vertinama, todėl jaunų mokytojų ateina nedaug, o daugelis dirbančiųjų artėja prie pensinio amžiaus. Kai kuriose mokyklose fizikos ar informatikos pamokų tiesiog nėra kam vesti.
+
+  Ekspertai sutaria, kad jokia reforma nepavyks be mokytojo. Galima keisti programas ir egzaminus, bet tikrasis pokytis įvyksta klasėje – ten, kur vienas žmogus sugeba įžiebti vaikui norą mokytis.
+glossary:
+  - { word: "abiturientų", lemma: "abiturientas", pos: noun, gender: m, gen: "abituriento", meaning: "выпускник школы", note: "род. п. мн. ч." }
+  - { word: "brandos", lemma: "branda", pos: noun, gender: f, gen: "brandos", meaning: "зрелость", note: "brandos egzaminai — выпускные экзамены (экзамены зрелости)" }
+  - { word: "įstos", lemma: "įstoti", pos: verb, forms: { pres: "įstoja", past: "įstojo" }, meaning: "поступить", note: "įstoti į studijų programą — поступить на программу обучения" }
+  - { word: "sesija", lemma: "sesija", pos: noun, gender: f, gen: "sesijos", meaning: "сессия" }
+  - { word: "matuoja", lemma: "matuoti", pos: verb, forms: { pres: "matuoja", past: "matavo" }, meaning: "измерять" }
+  - { word: "orientuota", lemma: "orientuotas", pos: adj, meaning: "ориентированный", note: "ж. р." }
+  - { word: "korepetitorius", lemma: "korepetitorius", pos: noun, gender: m, gen: "korepetitoriaus", meaning: "репетитор", note: "здесь вин. п. мн. ч." }
+  - { word: "atotrūkis", lemma: "atotrūkis", pos: noun, gender: m, gen: "atotrūkio", meaning: "разрыв, отрыв" }
+  - { word: "ugdymo", lemma: "ugdymas", pos: noun, gender: m, gen: "ugdymo", meaning: "воспитание, обучение", note: "ugdymo programa — учебная программа" }
+  - { word: "vertinimo", lemma: "vertinimas", pos: noun, gender: m, gen: "vertinimo", meaning: "оценивание", note: "род. п." }
+  - { word: "pertvarkomas", lemma: "pertvarkyti", pos: verb, forms: { pres: "pertvarko", past: "pertvarkė" }, meaning: "реорганизовать", note: "пассивное прич. наст. вр., м. р." }
+  - { word: "nepasitarus", lemma: "pasitarti", pos: verb, forms: { pres: "pasitaria", past: "pasitarė" }, meaning: "посоветоваться", note: "деепр. с отрицанием: nepasitarus su — не посоветовавшись с" }
+  - { word: "įgyvendinti", lemma: "įgyvendinti", pos: verb, forms: { pres: "įgyvendina", past: "įgyvendino" }, meaning: "осуществить, реализовать" }
+  - { word: "apmokama", lemma: "apmokamas", pos: adj, meaning: "оплачиваемый", note: "ж. р.: menkai apmokama — плохо оплачиваемая" }
+  - { word: "artėja", lemma: "artėti", pos: verb, forms: { pres: "artėja", past: "artėjo" }, meaning: "приближаться" }
+  - { word: "vesti", lemma: "vesti", pos: verb, forms: { pres: "veda", past: "vedė" }, meaning: "вести", note: "nėra kam vesti — некому вести" }
+  - { word: "įžiebti", lemma: "įžiebti", pos: verb, forms: { pres: "įžiebia", past: "įžiebė" }, meaning: "зажечь (интерес, огонь)" }
+questions:
+  - q: "Kuo kritikai kaltina mokyklą?"
+    options: ["Kad ji pernelyg orientuota į egzaminus, o ne į mąstymą ir darbą komandoje", "Kad joje per mažai egzaminų", "Kad mokiniai nelaiko brandos egzaminų"]
+    answer: 0
+  - q: "Kodėl korepetitoriai, pasak teksto, didina nelygybę?"
+    options: ["Nes jie moko neteisingai", "Nes juos gali sau leisti ne visos šeimos", "Nes jie dirba tik Vilniuje"]
+    answer: 1
+  - q: "Kokia autoriaus pagrindinė mintis pabaigoje?"
+    options: ["Reikia panaikinti brandos egzaminus", "Reformos turi vykti dar dažniau", "Jokia reforma nepavyks be gero mokytojo"]
+    answer: 2

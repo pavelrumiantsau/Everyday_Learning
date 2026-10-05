@@ -1,0 +1,44 @@
+id: lt-r-0075
+cefr: C1
+title: "Laivas, pavadintas „Nepriklausomybe“"
+topic: "энергетическая независимость"
+source: generated
+text: |
+  Dar visai neseniai Lietuva energetikoje buvo beveik visiškai priklausoma nuo vieno tiekėjo – Rusijos. Dujos ateidavo vienu vamzdynu, elektros tinklai buvo sujungti su Rusijos ir Baltarusijos sistema, o kainas neretai lėmė ne rinka, o politika. Tokia priklausomybė reiškė ne tik didesnes sąskaitas, bet ir nuolatinę grėsmę: bet kurią akimirką čiaupas galėjo būti užsuktas.
+
+  Lūžis įvyko 2014 metais, kai Klaipėdos uoste pradėjo veikti suskystintųjų gamtinių dujų terminalas – laivas, simboliškai pavadintas „Independence“, tai yra „Nepriklausomybė“. Kritikai tuomet tvirtino, kad projektas per brangus ir nereikalingas. Tačiau 2022 metų pavasarį, prasidėjus Rusijos karui prieš Ukrainą, Lietuva tapo pirmąja Europos Sąjungos šalimi, visiškai atsisakiusia rusiškų dujų importo. Terminalas, anksčiau vadintas politine užgaida, staiga tapo strateginiu turtu.
+
+  Kitas didelis žingsnis žengtas 2025 metų vasarį: Baltijos šalys atsijungė nuo posovietinės elektros sistemos ir prisijungė prie kontinentinės Europos tinklų. Projektas kainavo daugiau nei milijardą eurų, tačiau dauguma politikų jį laiko ne tik ekonomikos, bet visų pirma saugumo klausimu.
+
+  Kartu sparčiai plečiasi atsinaujinanti energetika: laukuose dygsta vėjo jėgainės, ant namų stogų – saulės elektrinės. Daugelis gyventojų tapo ne tik elektros vartotojais, bet ir gamintojais, o ateities planuose – vėjo parkas Baltijos jūroje.
+
+  Vis dėlto energetinė nepriklausomybė nėra galutinis taškas. Naujos jungtys ir jėgainės gali tapti sabotažo taikiniais, o žalioji pertvarka reikalauja investicijų, už kurias galiausiai sumoka vartotojai. Ekspertai pabrėžia, kad saugumas energetikoje – ne kartą pasiektas rezultatas, o nuolatinis darbas.
+glossary:
+  - { word: "tiekėjo", lemma: "tiekėjas", pos: noun, gender: m, gen: "tiekėjo", meaning: "поставщик", note: "род. п." }
+  - { word: "vamzdynu", lemma: "vamzdynas", pos: noun, gender: m, gen: "vamzdyno", meaning: "трубопровод", note: "тв. п." }
+  - { word: "užsuktas", lemma: "užsukti", pos: verb, forms: { pres: "užsuka", past: "užsuko" }, meaning: "закрутить, перекрыть (кран)", note: "пассивное прич., м. р." }
+  - { word: "Lūžis", lemma: "lūžis", pos: noun, gender: m, gen: "lūžio", meaning: "перелом, поворотный момент" }
+  - { word: "suskystintųjų", lemma: "suskystintas", pos: adj, meaning: "сжиженный", note: "suskystintosios gamtinės dujos — сжиженный природный газ (СПГ); род. п. мн. ч." }
+  - { word: "atsisakiusia", lemma: "atsisakyti", pos: verb, forms: { pres: "atsisako", past: "atsisakė" }, meaning: "отказаться", note: "прич. прош. вр., тв. п. ж. р.: šalimi, atsisakiusia — страной, отказавшейся" }
+  - { word: "užgaida", lemma: "užgaida", pos: noun, gender: f, gen: "užgaidos", meaning: "прихоть, каприз", note: "тв. п.: vadintas užgaida" }
+  - { word: "turtu", lemma: "turtas", pos: noun, gender: m, gen: "turto", meaning: "имущество, богатство; актив", note: "тв. п. после tapti" }
+  - { word: "žengtas", lemma: "žengti", pos: verb, forms: { pres: "žengia", past: "žengė" }, meaning: "шагнуть", note: "žingsnis žengtas — шаг сделан" }
+  - { word: "atsijungė", lemma: "atsijungti", pos: verb, forms: { pres: "atsijungia", past: "atsijungė" }, meaning: "отключиться" }
+  - { word: "kontinentinės", lemma: "kontinentinis", pos: adj, meaning: "континентальный", note: "род. п. ж. р." }
+  - { word: "atsinaujinanti", lemma: "atsinaujinantis", pos: adj, meaning: "возобновляемый", note: "atsinaujinanti energetika — возобновляемая энергетика" }
+  - { word: "dygsta", lemma: "dygti", pos: verb, forms: { pres: "dygsta", past: "dygo" }, meaning: "прорастать; вырастать (как грибы)" }
+  - { word: "jėgainės", lemma: "jėgainė", pos: noun, gender: f, gen: "jėgainės", meaning: "электростанция, установка", note: "vėjo jėgainė — ветряк" }
+  - { word: "elektrinės", lemma: "elektrinė", pos: noun, gender: f, gen: "elektrinės", meaning: "электростанция", note: "saulės elektrinė — солнечная электростанция" }
+  - { word: "jungtys", lemma: "jungtis", pos: noun, gender: f, gen: "jungties", meaning: "соединение, линия связи", note: "им. п. мн. ч." }
+  - { word: "sabotažo", lemma: "sabotažas", pos: noun, gender: m, gen: "sabotažo", meaning: "саботаж, диверсия" }
+  - { word: "pertvarka", lemma: "pertvarka", pos: noun, gender: f, gen: "pertvarkos", meaning: "преобразование, перестройка", note: "žalioji pertvarka — зелёный переход" }
+questions:
+  - q: "Kodėl priklausomybė nuo vieno tiekėjo buvo pavojinga?"
+    options: ["Nes tiekimą bet kurią akimirką galėjo nutraukti politiniais sumetimais", "Nes dujos buvo per pigios", "Nes Lietuva negalėjo pirkti elektros"]
+    answer: 0
+  - q: "Kaip pasikeitė požiūris į Klaipėdos terminalą?"
+    options: ["Jis buvo uždarytas kaip nereikalingas", "Iš pradžių kritikuotas kaip per brangus, po 2022 metų jis tapo strateginiu turtu", "Jis visada buvo laikomas nereikšmingu"]
+    answer: 1
+  - q: "Kokia teksto pabaigos mintis?"
+    options: ["Lietuva jau visiškai saugi ir daugiau investuoti nereikia", "Vėjo jėgainės turėtų būti uždraustos", "Energetinis saugumas reikalauja nuolatinių pastangų"]
+    answer: 2

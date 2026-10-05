@@ -1,0 +1,47 @@
+id: lt-r-0076
+cefr: C1
+title: "Antroji religija"
+topic: "баскетбол в Литве"
+source: generated
+text: |
+  Užsieniečiai mėgsta juokauti, kad Lietuvoje yra dvi religijos – katalikybė ir krepšinis. Juokas juokais, bet kai žaidžia rinktinė, gatvės ištuštėja, o barai prisipildo žmonių su geltonai, žaliai ir raudonai dryžuotais šalikais.
+
+  Meilė krepšiniui prasidėjo dar tarpukariu. 1937 ir 1939 metais Lietuvos rinktinė tapo Europos čempione – nemažai tam prisidėjo iš Amerikos atvykę lietuvių kilmės žaidėjai. Mažai valstybei, kurios kaimynai buvo kur kas galingesni, šios pergalės turėjo ypatingą simbolinę reikšmę.
+
+  Sovietmečiu krepšinis tapo savotiška tautinio pasipriešinimo forma. Kauno „Žalgirio“ pergalės prieš Maskvos CSKA devintajame dešimtmetyje buvo išgyvenamos kaip daugiau nei sportas: tai buvo mažos tautos pergalė prieš imperijos centrą. Arvydas Sabonis, Šarūnas Marčiulionis ir kiti tos kartos žaidėjai tapo tikrais didvyriais.
+
+  Simboliškiausia akimirka – 1992 metų Barselonos olimpinės žaidynės. Ką tik nepriklausomybę atkūrusios valstybės rinktinei trūko net pinigų kelionei, tačiau jai padėjo amerikiečių roko grupė „Grateful Dead“. Lietuviai iškovojo bronzos medalius, kovoje dėl jų įveikę buvusius sovietinės rinktinės draugus, o ryškiaspalviai marškinėliai su šokinėjančiu skeletu tapo legenda.
+
+  Šiandien krepšinis Lietuvoje – ir verslas, ir pramoga, ir tapatybės dalis. Vis dėlto kai kurie sporto specialistai kritikuoja, kad vienos šakos populiarumas nustelbia kitas, o lėšos dažnai atitenka profesionalams, užuot skatinus visų vaikų fizinį aktyvumą. Bet kol kone kiekviename kieme kabo krepšys, sunku tikėtis, kad ši aistra kada nors atvės.
+glossary:
+  - { word: "katalikybė", lemma: "katalikybė", pos: noun, gender: f, gen: "katalikybės", meaning: "католицизм" }
+  - { word: "Juokas", lemma: "juokas", pos: noun, gender: m, gen: "juoko", meaning: "смех", note: "juokas juokais — шутки шутками" }
+  - { word: "rinktinė", lemma: "rinktinė", pos: noun, gender: f, gen: "rinktinės", meaning: "сборная (команда)" }
+  - { word: "ištuštėja", lemma: "ištuštėti", pos: verb, forms: { pres: "ištuštėja", past: "ištuštėjo" }, meaning: "опустеть" }
+  - { word: "prisipildo", lemma: "prisipildyti", pos: verb, forms: { pres: "prisipildo", past: "prisipildė" }, meaning: "наполниться" }
+  - { word: "dryžuotais", lemma: "dryžuotas", pos: adj, meaning: "полосатый", note: "тв. п. мн. ч." }
+  - { word: "šalikais", lemma: "šalikas", pos: noun, gender: m, gen: "šaliko", meaning: "шарф", note: "тв. п. мн. ч." }
+  - { word: "kilmės", lemma: "kilmė", pos: noun, gender: f, gen: "kilmės", meaning: "происхождение", note: "lietuvių kilmės — литовского происхождения" }
+  - { word: "galingesni", lemma: "galingas", pos: adj, meaning: "могущественный", note: "сравн. ст., мн. ч." }
+  - { word: "išgyvenamos", lemma: "išgyventi", pos: verb, forms: { pres: "išgyvena", past: "išgyveno" }, meaning: "переживать; выживать", note: "пассивное прич. наст. вр., ж. р. мн. ч." }
+  - { word: "didvyriais", lemma: "didvyris", pos: noun, gender: m, gen: "didvyrio", meaning: "герой", note: "тв. п. мн. ч. после tapti" }
+  - { word: "žaidynės", lemma: "žaidynės", pos: noun, gender: f, gen: "žaidynių", plural_only: true, meaning: "игры (соревнования)", note: "olimpinės žaidynės — Олимпийские игры" }
+  - { word: "iškovojo", lemma: "iškovoti", pos: verb, forms: { pres: "iškovoja", past: "iškovojo" }, meaning: "завоевать" }
+  - { word: "įveikę", lemma: "įveikti", pos: verb, forms: { pres: "įveikia", past: "įveikė" }, meaning: "одолеть, победить", note: "прич. прош. вр., мн. ч.: įveikę — победив" }
+  - { word: "ryškiaspalviai", lemma: "ryškiaspalvis", pos: adj, meaning: "яркий, ярких цветов", note: "им. п. мн. ч." }
+  - { word: "pramoga", lemma: "pramoga", pos: noun, gender: f, gen: "pramogos", meaning: "развлечение" }
+  - { word: "šakos", lemma: "šaka", pos: noun, gender: f, gen: "šakos", meaning: "ветка; отрасль", note: "sporto šaka — вид спорта" }
+  - { word: "atitenka", lemma: "atitekti", pos: verb, forms: { pres: "atitenka", past: "atiteko" }, meaning: "доставаться" }
+  - { word: "užuot", lemma: "užuot", pos: conj, meaning: "вместо того чтобы", note: "užuot skatinus — вместо того чтобы поощрять" }
+  - { word: "krepšys", lemma: "krepšys", pos: noun, gender: m, gen: "krepšio", meaning: "корзина; баскетбольное кольцо" }
+  - { word: "atvės", lemma: "atvėsti", pos: verb, forms: { pres: "atvėsta", past: "atvėso" }, meaning: "остыть" }
+questions:
+  - q: "Kodėl tarpukario pergalės turėjo ypatingą reikšmę?"
+    options: ["Nes mažai valstybei, apsuptai galingesnių kaimynų, jos buvo svarbus simbolis", "Nes tai buvo pirmosios olimpinės žaidynės", "Nes jose žaidė tik vietiniai žaidėjai"]
+    answer: 0
+  - q: "Kodėl „Žalgirio“ pergalės prieš CSKA buvo daugiau nei sportas?"
+    options: ["Nes už jas buvo mokami dideli prizai", "Nes jos simbolizavo mažos tautos pergalę prieš imperijos centrą", "Nes CSKA buvo amerikiečių komanda"]
+    answer: 1
+  - q: "Ką kritikuoja kai kurie sporto specialistai?"
+    options: ["Kad krepšinio Lietuvoje per mažai", "Kad rinktinė per retai žaidžia", "Kad krepšinis nustelbia kitas sporto šakas, o lėšos atitenka profesionalams"]
+    answer: 2

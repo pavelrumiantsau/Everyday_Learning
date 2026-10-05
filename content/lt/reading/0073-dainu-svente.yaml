@@ -1,0 +1,45 @@
+id: lt-r-0073
+cefr: C1
+title: "Šimtas metų kartu dainuojant"
+topic: "Праздник песни"
+source: generated
+text: |
+  Kas kelerius metus Vilniaus Vingio parke susirenka dešimtys tūkstančių dainininkų, šokėjų ir muzikantų iš visos Lietuvos ir užsienio lietuvių bendruomenių. Dainų šventė – viena seniausių ir masiškiausių lietuvių tradicijų: pirmoji įvyko 1924 metais Kaune, o 2024-aisiais tradicija paminėjo šimtmetį.
+
+  Kartu su latvių ir estų šventėmis ši tradicija 2003 metais pripažinta UNESCO žodinio ir nematerialaus žmonijos paveldo šedevru. Užsieniečius dažnai stebina ne tik mastas, bet ir tai, kad dauguma dalyvių – mėgėjai: mokytojai, inžinieriai, studentai, ištisus metus repetuojantys laisvalaikiu.
+
+  Ypatinga šventės reikšmė atsiskleidė sovietmečiu. Oficialiai ji turėjo šlovinti tarybinę liaudį, todėl repertuare privalėjo būti partiją garbinančių kūrinių. Tačiau greta jų skambėjo ir lietuvių liaudies dainos, kurias dešimtys tūkstančių žmonių dainuodavo kartu, – tai buvo viena iš nedaugelio progų viešai pajusti tautinę bendrystę. Ne veltui Baltijos šalių išsivadavimas vėliau pavadintas Dainuojančia revoliucija.
+
+  Šiandien šventė susiduria su kitais iššūkiais. Kolektyvams vis sunkiau pritraukti jaunimo, mažų miestelių choruose mažėja dainininkų, o jų vadovai dažnai dirba už simbolinį atlygį. Kai kurie kritikai teigia, kad renginys pernelyg sureikšmina praeitį ir per mažai atsiveria šiuolaikinei kultūrai.
+
+  Vis dėlto kiekvieną kartą, kai Vingio parke tūkstančiai balsų užtraukia tą pačią dainą, net skeptikai pripažįsta, kad tokio bendrumo jausmo sunku patirti kitur. Galbūt dėl to tradicija ir išgyveno šimtmetį: ji atsako į poreikį, kurio nepatenkins jokia technologija, – būti kartu.
+glossary:
+  - { word: "masiškiausių", lemma: "masiškas", pos: adj, meaning: "массовый", note: "превосх. ст., род. п. мн. ч." }
+  - { word: "paminėjo", lemma: "paminėti", pos: verb, forms: { pres: "pamini", past: "paminėjo" }, meaning: "отметить (годовщину); упомянуть" }
+  - { word: "nematerialaus", lemma: "nematerialus", pos: adj, meaning: "нематериальный", note: "род. п." }
+  - { word: "šedevru", lemma: "šedevras", pos: noun, gender: m, gen: "šedevro", meaning: "шедевр", note: "тв. п.: pripažinta šedevru" }
+  - { word: "mastas", lemma: "mastas", pos: noun, gender: m, gen: "masto", meaning: "масштаб" }
+  - { word: "mėgėjai", lemma: "mėgėjas", pos: noun, gender: m, gen: "mėgėjo", meaning: "любитель (непрофессионал)", note: "им. п. мн. ч." }
+  - { word: "repetuojantys", lemma: "repetuoti", pos: verb, forms: { pres: "repetuoja", past: "repetavo" }, meaning: "репетировать", note: "прич. наст. вр., им. п. мн. ч." }
+  - { word: "atsiskleidė", lemma: "atsiskleisti", pos: verb, forms: { pres: "atsiskleidžia", past: "atsiskleidė" }, meaning: "раскрыться, проявиться" }
+  - { word: "šlovinti", lemma: "šlovinti", pos: verb, forms: { pres: "šlovina", past: "šlovino" }, meaning: "прославлять" }
+  - { word: "garbinančių", lemma: "garbinti", pos: verb, forms: { pres: "garbina", past: "garbino" }, meaning: "восхвалять, поклоняться", note: "прич. наст. вр., род. п. мн. ч." }
+  - { word: "greta", lemma: "greta", pos: prep, meaning: "рядом, наряду с", note: "+ род. п.: greta jų — наряду с ними" }
+  - { word: "bendrystę", lemma: "bendrystė", pos: noun, gender: f, gen: "bendrystės", meaning: "общность, единство", note: "вин. п." }
+  - { word: "veltui", lemma: "veltui", pos: adv, meaning: "напрасно; даром", note: "ne veltui — не зря" }
+  - { word: "išsivadavimas", lemma: "išsivadavimas", pos: noun, gender: m, gen: "išsivadavimo", meaning: "освобождение" }
+  - { word: "iššūkiais", lemma: "iššūkis", pos: noun, gender: m, gen: "iššūkio", meaning: "вызов (трудность)", note: "тв. п. мн. ч." }
+  - { word: "atlygį", lemma: "atlygis", pos: noun, gender: m, gen: "atlygio", meaning: "вознаграждение, оплата", note: "вин. п." }
+  - { word: "sureikšmina", lemma: "sureikšminti", pos: verb, forms: { pres: "sureikšmina", past: "sureikšmino" }, meaning: "придавать чрезмерное значение" }
+  - { word: "užtraukia", lemma: "užtraukti", pos: verb, forms: { pres: "užtraukia", past: "užtraukė" }, meaning: "затянуть (песню)" }
+  - { word: "nepatenkins", lemma: "patenkinti", pos: verb, forms: { pres: "patenkina", past: "patenkino" }, meaning: "удовлетворить" }
+questions:
+  - q: "Kas užsieniečius dažnai stebina Dainų šventėje?"
+    options: ["Kad dauguma dalyvių yra mėgėjai, repetuojantys laisvalaikiu", "Kad dainuojama tik angliškai", "Kad šventė vyksta kasmet"]
+    answer: 0
+  - q: "Kokią reikšmę šventė turėjo sovietmečiu?"
+    options: ["Ji buvo uždrausta", "Ji leido viešai pajusti tautinę bendrystę, nors oficialiai turėjo šlovinti santvarką", "Joje dalyvavo tik profesionalai"]
+    answer: 1
+  - q: "Kodėl, autoriaus manymu, tradicija išgyveno šimtmetį?"
+    options: ["Nes ją remia UNESCO", "Nes joje dalyvauja vis daugiau jaunimo", "Nes ji atsako į žmonių poreikį būti kartu"]
+    answer: 2

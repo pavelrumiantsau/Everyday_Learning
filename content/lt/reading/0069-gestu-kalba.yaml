@@ -1,0 +1,44 @@
+id: lt-r-0069
+cefr: C1
+title: "Svečiai savo šalyje?"
+topic: "язык жестов и доступность"
+source: generated
+text: |
+  Lietuvoje gyvena keli tūkstančiai kurčiųjų, kuriems gimtoji kalba yra ne lietuvių, o lietuvių gestų kalba. Daugeliui girdinčiųjų tai netikėta: įprasta manyti, kad gestai – tik pagalbinė priemonė, kuria kurtieji „rodo“ žodžius. Iš tiesų gestų kalba turi savo gramatiką, žodyną, tarmes ir net humorą, kurio neįmanoma pažodžiui išversti.
+
+  1995 metais Seimas pripažino lietuvių gestų kalbą gimtąja kurčiųjų kalba. Tai buvo vienas pirmųjų tokių sprendimų Europoje. Vis dėlto teisinis pripažinimas savaime nepanaikina kasdienių kliūčių. Kurčiasis, norintis apsilankyti pas gydytoją, notarą ar valstybės įstaigoje, dažnai turi iš anksto užsisakyti vertėją, o vertėjų trūksta, ypač mažesniuose miestuose. Per pandemiją atsirado ir naujų problemų: veido kaukės paslėpė lūpas, iš kurių dalis kurčiųjų yra įpratusi skaityti.
+
+  Prieinamumas – platesnė sąvoka, apimanti ne tik kurčiuosius. Žmogui, sėdinčiam neįgaliojo vežimėlyje, kelionę gali sužlugdyti vienas laiptelis, akliesiems – interneto svetainė, kurios negali perskaityti ekrano skaitymo programa. Pastaraisiais metais atsiranda vis daugiau pandusų, garsinių šviesoforų, subtitruojamų laidų, tačiau dažnai tai daroma tik tada, kai to reikalauja įstatymas ar Europos Sąjungos lėšos.
+
+  Neįgaliųjų organizacijos pabrėžia, kad svarbiausia keisti ne vien pandusus, o požiūrį. Kol prieinamumas laikomas malone, o ne teise, žmonės su negalia ir toliau jausis svečiais savo pačių šalyje.
+glossary:
+  - { word: "kurčiųjų", lemma: "kurčiasis", pos: noun, gender: m, gen: "kurčiojo", meaning: "глухой (человек)", note: "род. п. мн. ч." }
+  - { word: "gestų", lemma: "gestas", pos: noun, gender: m, gen: "gesto", meaning: "жест", note: "gestų kalba — язык жестов" }
+  - { word: "girdinčiųjų", lemma: "girdintysis", pos: noun, gender: m, gen: "girdinčiojo", meaning: "слышащий (человек)", note: "род. п. мн. ч." }
+  - { word: "pagalbinė", lemma: "pagalbinis", pos: adj, meaning: "вспомогательный", note: "ж. р." }
+  - { word: "pažodžiui", lemma: "pažodžiui", pos: adv, meaning: "дословно" }
+  - { word: "pripažino", lemma: "pripažinti", pos: verb, forms: { pres: "pripažįsta", past: "pripažino" }, meaning: "признать", note: "pripažinti kuo (тв. п.): pripažino gimtąja kalba" }
+  - { word: "kliūčių", lemma: "kliūtis", pos: noun, gender: f, gen: "kliūties", meaning: "препятствие", note: "род. п. мн. ч." }
+  - { word: "užsisakyti", lemma: "užsisakyti", pos: verb, forms: { pres: "užsisako", past: "užsisakė" }, meaning: "заказать (себе)" }
+  - { word: "įpratusi", lemma: "įprasti", pos: verb, forms: { pres: "įpranta", past: "įprato" }, meaning: "привыкнуть", note: "прич. прош. вр., ж. р. (согласуется с dalis)" }
+  - { word: "Prieinamumas", lemma: "prieinamumas", pos: noun, gender: m, gen: "prieinamumo", meaning: "доступность" }
+  - { word: "sąvoka", lemma: "sąvoka", pos: noun, gender: f, gen: "sąvokos", meaning: "понятие" }
+  - { word: "apimanti", lemma: "apimti", pos: verb, forms: { pres: "apima", past: "apėmė" }, meaning: "охватывать, включать", note: "прич. наст. вр., ж. р." }
+  - { word: "neįgaliojo", lemma: "neįgalusis", pos: noun, gender: m, gen: "neįgaliojo", meaning: "человек с инвалидностью", note: "neįgaliojo vežimėlis — инвалидная коляска" }
+  - { word: "sužlugdyti", lemma: "sužlugdyti", pos: verb, forms: { pres: "sužlugdo", past: "sužlugdė" }, meaning: "сорвать, погубить (план)" }
+  - { word: "laiptelis", lemma: "laiptelis", pos: noun, gender: m, gen: "laiptelio", meaning: "ступенька" }
+  - { word: "pandusų", lemma: "pandusas", pos: noun, gender: m, gen: "panduso", meaning: "пандус", note: "род. п. мн. ч." }
+  - { word: "šviesoforų", lemma: "šviesoforas", pos: noun, gender: m, gen: "šviesoforo", meaning: "светофор", note: "род. п. мн. ч." }
+  - { word: "subtitruojamų", lemma: "subtitruoti", pos: verb, forms: { pres: "subtitruoja", past: "subtitravo" }, meaning: "снабжать субтитрами", note: "пассивное прич. наст. вр., род. п. мн. ч." }
+  - { word: "malone", lemma: "malonė", pos: noun, gender: f, gen: "malonės", meaning: "милость, одолжение", note: "тв. п.: laikomas malone — считается милостью" }
+  - { word: "negalia", lemma: "negalia", pos: noun, gender: f, gen: "negalios", meaning: "инвалидность", note: "žmonės su negalia — люди с инвалидностью" }
+questions:
+  - q: "Kokį klaidingą įsitikinimą apie gestų kalbą mini autorius?"
+    options: ["Kad tai tik pagalbinė priemonė žodžiams parodyti, o ne tikra kalba", "Kad gestų kalba turi savo gramatiką", "Kad ja kalba tik vaikai"]
+    answer: 0
+  - q: "Kodėl kurtiesiems sunku apsilankyti įstaigose?"
+    options: ["Nes įstaigos dirba tik naktį", "Nes vertėją reikia užsisakyti iš anksto, o vertėjų trūksta", "Nes įstatymas draudžia jiems ten lankytis"]
+    answer: 1
+  - q: "Ką, pasak neįgaliųjų organizacijų, svarbiausia pakeisti?"
+    options: ["Įstatymų kalbą", "Tik pastatų įėjimus", "Požiūrį – kad prieinamumas būtų laikomas teise, o ne malone"]
+    answer: 2

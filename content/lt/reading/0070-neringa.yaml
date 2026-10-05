@@ -1,0 +1,46 @@
+id: lt-r-0070
+cefr: C1
+title: "Kopos, kurias sustabdė žmogus"
+topic: "Куршская коса"
+source: generated
+text: |
+  Kuršių nerija – siauras, beveik šimto kilometrų ilgio smėlio pusiasalis, skiriantis Baltijos jūrą nuo Kuršių marių. Šiaurinė jo dalis priklauso Lietuvai, pietinė – Rusijos Kaliningrado sričiai. 2000 metais nerija įtraukta į UNESCO pasaulio paveldo sąrašą kaip unikalus kultūrinis kraštovaizdis, sukurtas ne vien gamtos, bet ir žmogaus.
+
+  Šiandien sunku patikėti, kad šis kraštas kadaise buvo ekologinės katastrofos vieta. Iškirtus miškus, vėjas pajudino smėlį, ir didžiulės kopos ėmė slinkti, palaidodamos ištisus kaimus. XVIII–XIX amžiais gyventojams teko ne kartą keltis į naujas vietas, o kai kurių kaimų pavadinimai išliko tik senuose žemėlapiuose.
+
+  Tik XIX amžiuje imta sistemingai tvirtinti kopas: sodinti pušis ir kalnapušes, pilti apsauginius pylimus. Šis ne vieną dešimtmetį trukęs darbas išgelbėjo neriją, ir būtent dėl jo jos kraštovaizdis vadinamas bendru žmogaus ir gamtos kūriniu.
+
+  XX amžiaus pradžioje Nida tapo menininkų traukos centru. Čia vasarodavo dailininkai, o rašytojas Thomas Mannas 1930 metais pasistatė vasarnamį, kuriame dabar veikia memorialinis muziejus.
+
+  Šiandien didžiausia grėsmė nerijai – ne smėlis, o žmonės. Vasarą siaura juosta tarp jūros ir marių sulaukia šimtų tūkstančių lankytojų, kurie mina kopas, palieka šiukšlių ir didina spaudimą statyti naujus pastatus. Saugomoje teritorijoje statybos griežtai ribojamos, tačiau kiekvienas naujas projektas sukelia ginčų tarp verslo ir gamtosaugininkų. Paradoksalu, bet kopas, kurias kadaise išjudino žmonės, dabar vėl tenka saugoti nuo žmonių.
+glossary:
+  - { word: "pusiasalis", lemma: "pusiasalis", pos: noun, gender: m, gen: "pusiasalio", meaning: "полуостров" }
+  - { word: "marių", lemma: "marios", pos: noun, gender: f, gen: "marių", plural_only: true, meaning: "залив (лагуна)", note: "Kuršių marios — Куршский залив" }
+  - { word: "įtraukta", lemma: "įtraukti", pos: verb, forms: { pres: "įtraukia", past: "įtraukė" }, meaning: "включить", note: "пассивное прич., ж. р.: nerija įtraukta — коса включена" }
+  - { word: "paveldo", lemma: "paveldas", pos: noun, gender: m, gen: "paveldo", meaning: "наследие", note: "pasaulio paveldas — всемирное наследие" }
+  - { word: "kraštovaizdis", lemma: "kraštovaizdis", pos: noun, gender: m, gen: "kraštovaizdžio", meaning: "ландшафт" }
+  - { word: "Iškirtus", lemma: "iškirsti", pos: verb, forms: { pres: "iškerta", past: "iškirto" }, meaning: "вырубить", note: "деепр.: iškirtus miškus — когда вырубили леса" }
+  - { word: "pajudino", lemma: "pajudinti", pos: verb, forms: { pres: "pajudina", past: "pajudino" }, meaning: "сдвинуть" }
+  - { word: "slinkti", lemma: "slinkti", pos: verb, forms: { pres: "slenka", past: "slinko" }, meaning: "ползти, двигаться" }
+  - { word: "palaidodamos", lemma: "palaidoti", pos: verb, forms: { pres: "palaidoja", past: "palaidojo" }, meaning: "похоронить, засыпать", note: "полупричастие, ж. р. мн. ч.: palaidodamos kaimus — погребая деревни" }
+  - { word: "ištisus", lemma: "ištisas", pos: adj, meaning: "целый", note: "вин. п. мн. ч." }
+  - { word: "tvirtinti", lemma: "tvirtinti", pos: verb, forms: { pres: "tvirtina", past: "tvirtino" }, meaning: "укреплять; утверждать" }
+  - { word: "kalnapušes", lemma: "kalnapušė", pos: noun, gender: f, gen: "kalnapušės", meaning: "горная сосна", note: "вин. п. мн. ч." }
+  - { word: "pylimus", lemma: "pylimas", pos: noun, gender: m, gen: "pylimo", meaning: "вал, насыпь", note: "вин. п. мн. ч." }
+  - { word: "kūriniu", lemma: "kūrinys", pos: noun, gender: m, gen: "kūrinio", meaning: "творение, произведение", note: "тв. п." }
+  - { word: "traukos", lemma: "trauka", pos: noun, gender: f, gen: "traukos", meaning: "притяжение", note: "traukos centras — центр притяжения" }
+  - { word: "vasarodavo", lemma: "vasaroti", pos: verb, forms: { pres: "vasaroja", past: "vasarojo" }, meaning: "проводить лето, отдыхать летом", note: "прош. многократное" }
+  - { word: "vasarnamį", lemma: "vasarnamis", pos: noun, gender: m, gen: "vasarnamio", meaning: "летний дом, дача", note: "вин. п." }
+  - { word: "mina", lemma: "minti", pos: verb, forms: { pres: "mina", past: "mynė" }, meaning: "топтать" }
+  - { word: "gamtosaugininkų", lemma: "gamtosaugininkas", pos: noun, gender: m, gen: "gamtosaugininko", meaning: "защитник природы, эколог", note: "род. п. мн. ч." }
+  - { word: "išjudino", lemma: "išjudinti", pos: verb, forms: { pres: "išjudina", past: "išjudino" }, meaning: "сдвинуть с места" }
+questions:
+  - q: "Kodėl kopos ėmė slinkti ir laidoti kaimus?"
+    options: ["Nes buvo iškirsti miškai, ir vėjas pajudino smėlį", "Nes pakilo jūros lygis", "Nes kaimai buvo pastatyti per arti jūros"]
+    answer: 0
+  - q: "Kodėl nerijos kraštovaizdis vadinamas bendru žmogaus ir gamtos kūriniu?"
+    options: ["Nes visos kopos supiltos dirbtinai", "Nes žmonės per kelis dešimtmečius sutvirtino kopas ir išgelbėjo neriją", "Nes čia gyveno daug menininkų"]
+    answer: 1
+  - q: "Kokį paradoksą mini autorius pabaigoje?"
+    options: ["Smėlis dabar saugo žmones nuo jūros", "Lankytojų mažėja, nors nerija populiari", "Kopas, kurias kadaise išjudino žmonės, dabar vėl reikia saugoti nuo žmonių"]
+    answer: 2

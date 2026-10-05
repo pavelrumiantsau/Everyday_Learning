@@ -1,0 +1,43 @@
+id: lt-r-0074
+cefr: C1
+title: "Lietuvos Jeruzalės atmintis"
+topic: "наследие литовских евреев"
+source: generated
+text: |
+  Daugiau nei penkis šimtmečius Lietuvoje gyveno gausi žydų bendruomenė. Vilnius buvo vadinamas Lietuvos Jeruzale: čia veikė dešimtys sinagogų, mokyklų, spaustuvių, buvo leidžiami laikraščiai jidiš ir hebrajų kalbomis. Lietuvos žydai, vadinami litvakais, garsėjo išsimokslinimu ir racionaliu požiūriu į religiją, o XVIII amžiaus mokslininkas Vilniaus Gaonas iki šiol laikomas vienu žymiausių judaizmo autoritetų.
+
+  Šis pasaulis buvo sunaikintas per kelerius metus. Antrojo pasaulinio karo metais, nacių okupacijos laikotarpiu, buvo nužudyta daugiau nei devyniasdešimt procentų Lietuvos žydų – vienas didžiausių nuostolių visoje Europoje. Paneriuose prie Vilniaus nušauta dešimtys tūkstančių žmonių. Skaudžiausia tai, kad žudynėse dalyvavo ir dalis vietos gyventojų.
+
+  Sovietmečiu apie tai beveik nekalbėta: aukos vadintos tiesiog tarybiniais piliečiais, o jų tautinė tapatybė nutylėta. Po nepriklausomybės atkūrimo prasidėjo sunkus atminties darbas. Valstybės vadovai oficialiai atsiprašė žydų tautos, įsteigti muziejai, mokyklose vis daugiau kalbama apie Holokaustą. Vis dėlto kai kurių istorinių asmenybių vaidmuo iki šiol kelia aštrių ginčų.
+
+  Pastaraisiais metais vis daugiau žmonių patys domisi, kas gyveno jų mieste ar miestelyje prieš karą. Tvarkomos apleistos žydų kapinės, atsiranda atminimo ženklų, o Vilniaus universitete mokomasi jidiš kalbos. Tai ne vien praeities tyrinėjimas: atmindama tuos, kurių nebėra, visuomenė geriau supranta ir pati save.
+glossary:
+  - { word: "gausi", lemma: "gausus", pos: adj, meaning: "многочисленный", note: "ж. р." }
+  - { word: "spaustuvių", lemma: "spaustuvė", pos: noun, gender: f, gen: "spaustuvės", meaning: "типография", note: "род. п. мн. ч." }
+  - { word: "išsimokslinimu", lemma: "išsimokslinimas", pos: noun, gender: m, gen: "išsimokslinimo", meaning: "образованность", note: "тв. п.: garsėjo išsimokslinimu" }
+  - { word: "žymiausių", lemma: "žymus", pos: adj, meaning: "выдающийся, известный", note: "превосх. ст., род. п. мн. ч." }
+  - { word: "autoritetų", lemma: "autoritetas", pos: noun, gender: m, gen: "autoriteto", meaning: "авторитет", note: "род. п. мн. ч." }
+  - { word: "sunaikintas", lemma: "sunaikinti", pos: verb, forms: { pres: "sunaikina", past: "sunaikino" }, meaning: "уничтожить", note: "пассивное прич., м. р." }
+  - { word: "nužudyta", lemma: "nužudyti", pos: verb, forms: { pres: "nužudo", past: "nužudė" }, meaning: "убить", note: "безличный пассив: buvo nužudyta ... žydų — было убито ... евреев" }
+  - { word: "nušauta", lemma: "nušauti", pos: verb, forms: { pres: "nušauna", past: "nušovė" }, meaning: "застрелить", note: "безличный пассив" }
+  - { word: "žudynėse", lemma: "žudynės", pos: noun, gender: f, gen: "žudynių", plural_only: true, meaning: "массовое убийство, резня", note: "мест. п." }
+  - { word: "aukos", lemma: "auka", pos: noun, gender: f, gen: "aukos", meaning: "жертва", note: "им. п. мн. ч." }
+  - { word: "nutylėta", lemma: "nutylėti", pos: verb, forms: { pres: "nutyli", past: "nutylėjo" }, meaning: "умолчать", note: "пассивное прич., ж. р.: tapatybė nutylėta — об идентичности умалчивали" }
+  - { word: "atsiprašė", lemma: "atsiprašyti", pos: verb, forms: { pres: "atsiprašo", past: "atsiprašė" }, meaning: "извиниться", note: "+ род. п.: atsiprašė žydų tautos" }
+  - { word: "įsteigti", lemma: "įsteigti", pos: verb, forms: { pres: "įsteigia", past: "įsteigė" }, meaning: "учредить, основать", note: "здесь пассивное прич., мн. ч.: įsteigti muziejai — основаны музеи" }
+  - { word: "asmenybių", lemma: "asmenybė", pos: noun, gender: f, gen: "asmenybės", meaning: "личность", note: "род. п. мн. ч." }
+  - { word: "aštrių", lemma: "aštrus", pos: adj, meaning: "острый", note: "род. п. мн. ч.: kelia aštrių ginčų — вызывает острые споры" }
+  - { word: "domisi", lemma: "domėtis", pos: verb, forms: { pres: "domisi", past: "domėjosi" }, meaning: "интересоваться", note: "+ тв. п." }
+  - { word: "atminimo", lemma: "atminimas", pos: noun, gender: m, gen: "atminimo", meaning: "память", note: "atminimo ženklas — памятный знак" }
+  - { word: "tyrinėjimas", lemma: "tyrinėjimas", pos: noun, gender: m, gen: "tyrinėjimo", meaning: "исследование" }
+  - { word: "atmindama", lemma: "atminti", pos: verb, forms: { pres: "atmena", past: "atminė" }, meaning: "помнить", note: "полупричастие, ж. р.: atmindama — помня" }
+questions:
+  - q: "Kuo garsėjo Lietuvos žydai – litvakai?"
+    options: ["Išsimokslinimu ir racionaliu požiūriu į religiją", "Tuo, kad gyveno tik kaimuose", "Tuo, kad kalbėjo tik lietuviškai"]
+    answer: 0
+  - q: "Kaip apie Holokaustą buvo kalbama sovietmečiu?"
+    options: ["Apie jį buvo daug rašoma mokykliniuose vadovėliuose", "Beveik nekalbėta, o aukų tautinė tapatybė buvo nutylėta", "Apie jį kalbėta tik jidiš kalba"]
+    answer: 1
+  - q: "Kodėl, autoriaus manymu, svarbu atminti žuvusiuosius?"
+    options: ["Nes to reikalauja įstatymas", "Nes tai padeda pritraukti turistų", "Nes tai padeda visuomenei geriau suprasti pačią save"]
+    answer: 2

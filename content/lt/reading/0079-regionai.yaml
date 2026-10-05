@@ -1,0 +1,44 @@
+id: lt-r-0079
+cefr: C1
+title: "Dvi Lietuvos"
+topic: "столица и регионы"
+source: generated
+text: |
+  Vilnius per pastaruosius du dešimtmečius pasikeitė neatpažįstamai: stikliniai biurų pastatai, tarptautinės įmonės, gyvas kultūrinis gyvenimas. Sostinėje vidutinis atlyginimas gerokai viršija šalies vidurkį, o nedarbas – vienas mažiausių. Tačiau užtenka nuvažiuoti porą šimtų kilometrų, ir vaizdas visai kitas.
+
+  Daugelyje mažesnių miestų ir rajonų gyventojų sparčiai mažėja, uždaromos mokyklos ir ligoninių skyriai, o jaunimas po studijų nebegrįžta. Ekonomistai tai vadina regionine atskirtimi, o žiniasklaidoje dažnai kalbama apie dvi Lietuvas – sėkmingą didmiesčių ir pamirštą provincijos.
+
+  Atotrūkis matyti ne tik statistikoje, bet ir politikoje. Rinkimų rezultatai didmiesčiuose ir regionuose neretai labai skiriasi: vieni labiau balsuoja už pokyčius ir atvirumą pasauliui, kiti – už stabilumą ir socialines garantijas. Vis dažniau jaučiamas abipusis nesusikalbėjimas, kai kiekviena pusė mano, kad kita jos nesupranta ir nevertina.
+
+  Valstybė bando mažinti skirtumus: į kelius, kultūros centrus, pramonės parkus investuojamos Europos Sąjungos lėšos. Tačiau kritikai pastebi, kad nauja aikštė ar fontanas neišlaikys žmonių, jei nebus gerai apmokamo darbo. Kaunui ir Klaipėdai pavyko pritraukti stambių investuotojų, bet mažesniems miestams tai pasiseka retai.
+
+  Galbūt nuotolinis darbas atvers naują galimybę: dirbti Vilniaus įmonei galima gyvenant ir prie ežero Zarasų rajone. Vis dėlto tam reikia ne tik interneto, bet ir mokyklų, gydytojų, kultūros – visko, kas vietą daro tinkamą gyventi, o ne tik iš jos išvykti.
+glossary:
+  - { word: "neatpažįstamai", lemma: "neatpažįstamai", pos: adv, meaning: "до неузнаваемости" }
+  - { word: "stikliniai", lemma: "stiklinis", pos: adj, meaning: "стеклянный", note: "им. п. мн. ч." }
+  - { word: "viršija", lemma: "viršyti", pos: verb, forms: { pres: "viršija", past: "viršijo" }, meaning: "превышать" }
+  - { word: "vidurkį", lemma: "vidurkis", pos: noun, gender: m, gen: "vidurkio", meaning: "среднее (значение)", note: "вин. п." }
+  - { word: "nedarbas", lemma: "nedarbas", pos: noun, gender: m, gen: "nedarbo", meaning: "безработица" }
+  - { word: "skyriai", lemma: "skyrius", pos: noun, gender: m, gen: "skyriaus", meaning: "отделение; глава", note: "им. п. мн. ч." }
+  - { word: "atskirtimi", lemma: "atskirtis", pos: noun, gender: f, gen: "atskirties", meaning: "отчуждённость, изоляция", note: "тв. п.: regioninė atskirtis — региональное неравенство" }
+  - { word: "didmiesčių", lemma: "didmiestis", pos: noun, gender: m, gen: "didmiesčio", meaning: "крупный город", note: "род. п. мн. ч." }
+  - { word: "provincijos", lemma: "provincija", pos: noun, gender: f, gen: "provincijos", meaning: "провинция", note: "род. п." }
+  - { word: "atvirumą", lemma: "atvirumas", pos: noun, gender: m, gen: "atvirumo", meaning: "открытость", note: "вин. п." }
+  - { word: "garantijas", lemma: "garantija", pos: noun, gender: f, gen: "garantijos", meaning: "гарантия", note: "вин. п. мн. ч." }
+  - { word: "abipusis", lemma: "abipusis", pos: adj, meaning: "взаимный" }
+  - { word: "nesusikalbėjimas", lemma: "nesusikalbėjimas", pos: noun, gender: m, gen: "nesusikalbėjimo", meaning: "непонимание (неспособность договориться)" }
+  - { word: "investuojamos", lemma: "investuoti", pos: verb, forms: { pres: "investuoja", past: "investavo" }, meaning: "инвестировать", note: "пассивное прич. наст. вр., ж. р. мн. ч." }
+  - { word: "neišlaikys", lemma: "išlaikyti", pos: verb, forms: { pres: "išlaiko", past: "išlaikė" }, meaning: "удержать; содержать" }
+  - { word: "stambių", lemma: "stambus", pos: adj, meaning: "крупный", note: "род. п. мн. ч." }
+  - { word: "pasiseka", lemma: "pasisekti", pos: verb, forms: { pres: "pasiseka", past: "pasisekė" }, meaning: "удаваться", note: "кому — дат. п." }
+  - { word: "nuotolinis", lemma: "nuotolinis", pos: adj, meaning: "удалённый, дистанционный", note: "nuotolinis darbas — удалённая работа" }
+questions:
+  - q: "Ką reiškia posakis „dvi Lietuvos“?"
+    options: ["Sėkmingų didmiesčių ir atsiliekančių regionų skirtumą", "Dvi valstybines kalbas", "Šiaurės ir pietų Lietuvos tarmes"]
+    answer: 0
+  - q: "Kodėl, pasak kritikų, naujos aikštės ir fontanai neišlaikys žmonių?"
+    options: ["Nes jie per brangūs", "Nes be gerai apmokamo darbo žmonės vis tiek išvyks", "Nes žmonėms jie nepatinka"]
+    answer: 1
+  - q: "Ko, pasak autoriaus, reikia, kad nuotolinis darbas padėtų regionams?"
+    options: ["Tik greito interneto", "Kad visi persikeltų į Vilnių", "Ne tik interneto, bet ir mokyklų, gydytojų bei kultūros"]
+    answer: 2
