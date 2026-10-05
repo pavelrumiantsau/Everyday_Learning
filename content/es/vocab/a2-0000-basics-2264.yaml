@@ -1,0 +1,450 @@
+# Generated from scripts/batches/es-a2-basics-2264.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-2264
+  type: word
+  cefr: A2
+  text: "colega"
+  pos: noun
+  gender: mf
+  meaning: { en: "colleague" }
+  note: { en: "el colega / la colega; Spain, colloquial: mate, buddy" }
+  examples:
+    - { text: "Invitó a sus colegas a su boda.", translation: "He invited his colleagues to his wedding.", source: "tatoeba:11564184" }
+- id: es-w-2265
+  type: word
+  cefr: B1
+  text: "contrato"
+  pos: noun
+  gender: m
+  meaning: { en: "contract" }
+  note: { en: "firmar un contrato = to sign a contract" }
+  examples:
+    - { text: "Es muy importante firmar este contrato hoy.", translation: "It is very important to sign this contract today.", source: "tatoeba:10839103" }
+- id: es-w-2266
+  type: word
+  cefr: B1
+  text: "jubilarse"
+  pos: verb
+  meaning: { en: "to retire" }
+  note: { en: "jubilado = retired; pensioner; la jubilación = retirement" }
+  examples:
+    - { text: "Tom se jubiló a los 67 años.", translation: "Tom retired at the age of 67.", source: "tatoeba:2620432" }
+- id: es-w-2267
+  type: word
+  cefr: B1
+  text: "paro"
+  pos: noun
+  gender: m
+  meaning: { en: "unemployment" }
+  note: { en: "Spain: estar en paro = to be unemployed (= estar desempleado); Latin America: paro = strike" }
+  examples:
+    - { text: "Creo que Tom todavía está en paro.", translation: "I think that Tom is still unemployed.", source: "tatoeba:13659023" }
+- id: es-w-2268
+  type: word
+  cefr: A2
+  text: "nota"
+  pos: noun
+  gender: f
+  meaning: { en: "note; mark, grade" }
+  note: { en: "sacar buenas notas = to get good marks; Latin America also: la calificación" }
+  examples:
+    - { text: "Nunca he sacado buenas notas en matemáticas.", translation: "I never got good marks in maths.", source: "tatoeba:12958230" }
+- id: es-w-2269
+  type: word
+  cefr: A1
+  text: "deberes"
+  pos: noun
+  gender: m
+  meaning: { en: "homework" }
+  note: { en: "plural: hacer los deberes; Latin America: la tarea" }
+  examples:
+    - { text: "Mi padre me ayudó con los deberes.", translation: "My father helped me with my homework.", source: "tatoeba:342878" }
+- id: es-w-2270
+  type: word
+  cefr: A1
+  text: "diccionario"
+  pos: noun
+  gender: m
+  meaning: { en: "dictionary" }
+  examples:
+    - { text: "La palabra no aparece en mi diccionario.", translation: "The word is not in my dictionary.", source: "tatoeba:336556" }
+- id: es-w-2271
+  type: word
+  cefr: A1
+  text: "computadora"
+  pos: noun
+  gender: f
+  meaning: { en: "computer" }
+  note: { en: "Latin America; Spain: el ordenador" }
+  examples:
+    - { text: "Ya es hora de apagar la computadora.", translation: "It's time to turn off the computer.", source: "tatoeba:1514291" }
+- id: es-w-2272
+  type: word
+  cefr: A1
+  text: "celular"
+  pos: noun
+  gender: m
+  meaning: { en: "mobile (phone), cell phone" }
+  note: { en: "Latin America (teléfono celular); Spain: el móvil" }
+  examples:
+    - { text: "Tu teléfono celular sonó hace un minuto.", translation: "Your cell phone rang a minute ago.", source: "tatoeba:2045284" }
+- id: es-w-2273
+  type: word
+  cefr: A1
+  text: "internet"
+  pos: noun
+  gender: mf
+  meaning: { en: "internet" }
+  note: { en: "usually without an article: en internet, por internet" }
+  examples:
+    - { text: "Él pasa su tiempo libre en Internet.", translation: "He spends his free time on the internet.", source: "tatoeba:1707840" }
+- id: es-w-2274
+  type: word
+  cefr: A2
+  text: "impresora"
+  pos: noun
+  gender: f
+  meaning: { en: "printer" }
+  note: { en: "imprimir = to print" }
+  examples:
+    - { text: "Mi impresora solo imprime en blanco y negro.", translation: "My printer only prints in black and white.", source: "tatoeba:11375640" }
+- id: es-w-2275
+  type: word
+  cefr: A2
+  text: "descargar"
+  pos: verb
+  meaning: { en: "to download; to unload" }
+  note: { en: "opposite: subir = to upload" }
+  examples:
+    - { text: "Descargué el archivo que Tom subió.", translation: "I downloaded the file which Tom uploaded.", source: "tatoeba:4692772" }
+- id: es-w-2276
+  type: word
+  cefr: A2
+  text: "madrugada"
+  pos: noun
+  gender: f
+  meaning: { en: "early morning, small hours (after midnight)" }
+  note: { en: "a las tres de la madrugada = at three in the morning" }
+  examples:
+    - { text: "Nos levantamos a las cuatro de la madrugada.", translation: "We got up at four in the morning.", source: "tatoeba:718655" }
+- id: es-w-2277
+  type: word
+  cefr: A1
+  text: "Navidad"
+  pos: noun
+  gender: f
+  meaning: { en: "Christmas" }
+  note: { en: "¡Feliz Navidad! = Merry Christmas!; la Nochebuena = Christmas Eve" }
+  examples:
+    - { text: "Ella me regaló un libro por Navidad.", translation: "She gave me a book for Christmas.", source: "tatoeba:340278" }
+- id: es-w-2278
+  type: word
+  cefr: A2
+  text: "Nochevieja"
+  pos: noun
+  gender: f
+  meaning: { en: "New Year's Eve" }
+  note: { en: "Latin America also: fin de año" }
+  examples:
+    - { text: "¿Por qué no salimos esta Nochevieja?", translation: "Why don't we go out this New Year's Eve?", source: "tatoeba:5722656" }
+- id: es-w-2279
+  type: word
+  cefr: A1
+  text: "Año Nuevo"
+  pos: noun
+  gender: m
+  meaning: { en: "New Year" }
+  note: { en: "¡Feliz Año Nuevo! = Happy New Year!" }
+  examples:
+    - { text: "Feliz Navidad y próspero año nuevo a todos.", translation: "Merry Christmas and a happy New Year to everyone.", source: "tatoeba:683460" }
+- id: es-p-2280
+  type: phrase
+  cefr: A1
+  text: "fin de semana"
+  pos: phrase
+  meaning: { en: "weekend" }
+  note: { en: "el fin de semana; los fines de semana = at weekends" }
+  examples:
+    - { text: "¿Has pasado un buen fin de semana?", translation: "Did you have a good weekend?", source: "tatoeba:346421" }
+- id: es-p-2281
+  type: phrase
+  cefr: A1
+  text: "pasado mañana"
+  pos: phrase
+  meaning: { en: "the day after tomorrow" }
+  examples:
+    - { text: "Pasado mañana es el cumpleaños de Tom.", translation: "The day after tomorrow is Tom's birthday.", source: "tatoeba:625878" }
+- id: es-w-2282
+  type: word
+  cefr: A2
+  text: "anteayer"
+  pos: adv
+  meaning: { en: "the day before yesterday" }
+  note: { en: "also: antes de ayer, antier (Latin America)" }
+  examples:
+    - { text: "Tom no ha dormido nada desde anteayer.", translation: "Tom hasn't slept at all since the day before yesterday.", source: "tatoeba:1503321" }
+- id: es-p-2283
+  type: phrase
+  cefr: A1
+  text: "por la mañana"
+  pos: phrase
+  meaning: { en: "in the morning" }
+  note: { en: "por la tarde = in the afternoon / evening; por la noche = at night; Latin America also: en la mañana" }
+  examples:
+    - { text: "Prefiero tomar una ducha por la mañana.", translation: "I prefer to take a shower in the morning.", source: "tatoeba:436926" }
+- id: es-p-2284
+  type: phrase
+  cefr: A1
+  text: "ahora mismo"
+  pos: phrase
+  meaning: { en: "right now" }
+  examples:
+    - { text: "Ahora mismo no puedo ir a clase.", translation: "I can't go to class right now.", source: "tatoeba:1134047" }
+- id: es-p-2285
+  type: phrase
+  cefr: A2
+  text: "hoy en día"
+  pos: phrase
+  meaning: { en: "nowadays" }
+  examples:
+    - { text: "La carne es cara hoy en día.", translation: "Meat is expensive nowadays.", source: "tatoeba:1172983" }
+- id: es-p-2286
+  type: phrase
+  cefr: A2
+  text: "de vez en cuando"
+  pos: phrase
+  meaning: { en: "from time to time, now and then" }
+  examples:
+    - { text: "Por favor, escríbeme de vez en cuando.", translation: "Please write to me once in a while.", source: "tatoeba:573789" }
+- id: es-p-2287
+  type: phrase
+  cefr: A2
+  text: "a menudo"
+  pos: phrase
+  meaning: { en: "often" }
+  note: { en: "= con frecuencia, muchas veces" }
+  examples:
+    - { text: "Los griegos también comen pescado a menudo.", translation: "Greeks often eat fish, too.", source: "tatoeba:432305" }
+- id: es-p-2288
+  type: phrase
+  cefr: A1
+  text: "otra vez"
+  pos: phrase
+  meaning: { en: "again" }
+  note: { en: "= de nuevo; una y otra vez = over and over again" }
+  examples:
+    - { text: "Ella cometió otra vez el mismo error.", translation: "She made the same mistake again.", source: "tatoeba:721381" }
+- id: es-w-2289
+  type: word
+  cefr: B1
+  text: "mente"
+  pos: noun
+  gender: f
+  meaning: { en: "mind" }
+  note: { en: "tener en mente = to have in mind; -mente makes adverbs: lenta → lentamente" }
+  examples:
+    - { text: "Me gusta ejercitar la mente estudiando latín.", translation: "I like to exercise my mind by studying Latin.", source: "tatoeba:1032090" }
+- id: es-w-2290
+  type: word
+  cefr: B1
+  text: "tras"
+  pos: prep
+  meaning: { en: "after; behind" }
+  note: { en: "more formal than después de / detrás de; uno tras otro = one after another" }
+  examples:
+    - { text: "Reanudó su trabajo tras un breve descanso.", translation: "He resumed his work after a short break.", source: "tatoeba:566497" }
+- id: es-w-2291
+  type: word
+  cefr: B1
+  text: "ante"
+  pos: prep
+  meaning: { en: "before, in front of; in the face of" }
+  note: { en: "formal; ante todo = above all" }
+  examples:
+    - { text: "Él mantuvo la calma ante el peligro.", translation: "He kept calm in the face of the danger.", source: "tatoeba:3674737" }
+- id: es-w-2292
+  type: word
+  cefr: A2
+  text: "exactamente"
+  pos: adv
+  meaning: { en: "exactly" }
+  note: { en: "exacto = exact; ¡exacto! = exactly!" }
+  examples:
+    - { text: "El avión llegó exactamente a las nueve.", translation: "The plane arrived exactly at nine.", source: "tatoeba:566448" }
+- id: es-w-2293
+  type: word
+  cefr: A2
+  text: "solamente"
+  pos: adv
+  meaning: { en: "only" }
+  note: { en: "= solo" }
+  examples:
+    - { text: "En esa tienda solamente venden alimentos procesados.", translation: "They only sell processed foods in that store.", source: "tatoeba:4375140" }
+- id: es-p-2294
+  type: phrase
+  cefr: A2
+  text: "ojalá"
+  pos: phrase
+  meaning: { en: "I hope, let's hope; if only" }
+  note: { en: "followed by the subjunctive: ¡Ojalá llueva!" }
+  examples:
+    - { text: "Ojalá esté todo bien en casa.", translation: "I hope everything is fine at home.", source: "tatoeba:1167683" }
+- id: es-p-2295
+  type: phrase
+  cefr: A1
+  text: "buenos días"
+  pos: phrase
+  meaning: { en: "good morning" }
+  note: { en: "until lunch (about 2 p.m. in Spain); also a general \"hello\" in shops" }
+  examples:
+    - { text: "Buenos días, ¿es usted mi nuevo vecino?", translation: "Good morning, are you my new neighbor?", source: "tatoeba:8933316" }
+- id: es-p-2296
+  type: phrase
+  cefr: A1
+  text: "buenas tardes"
+  pos: phrase
+  meaning: { en: "good afternoon, good evening" }
+  note: { en: "from lunch until it gets dark" }
+  examples:
+    - { text: "Buenas tardes, ¿cómo estás?", translation: "Good evening, how are you?", source: "tatoeba:745023" }
+- id: es-p-2297
+  type: phrase
+  cefr: A1
+  text: "buenas noches"
+  pos: phrase
+  meaning: { en: "good evening; good night" }
+  note: { en: "used after dark, both to greet and to say goodbye" }
+  examples:
+    - { text: "Gracias por traerme a casa. Buenas noches.", translation: "Thanks for bringing me home. Good night.", source: "tatoeba:8310949" }
+- id: es-p-2298
+  type: phrase
+  cefr: A1
+  text: "adiós"
+  pos: phrase
+  meaning: { en: "goodbye" }
+  note: { en: "decir adiós = to say goodbye; more casual: hasta luego, chao" }
+  examples:
+    - { text: "Ella dijo adiós y colgó el teléfono.", translation: "She just said goodbye and hung up the phone.", source: "tatoeba:976159" }
+- id: es-p-2299
+  type: phrase
+  cefr: A1
+  text: "por favor"
+  pos: phrase
+  meaning: { en: "please" }
+  examples:
+    - { text: "\"Pásame la sal, por favor.\" \"Aquí tienes.\"", translation: "\"Pass me the salt, please.\" \"Here you are.\"", source: "tatoeba:2849" }
+- id: es-p-2300
+  type: phrase
+  cefr: A1
+  text: "de nada"
+  pos: phrase
+  meaning: { en: "you're welcome" }
+  note: { en: "the answer to gracias" }
+  examples:
+    - { text: "\"Muchas gracias por todo.\" \"De nada.\"", translation: "\"Thank you very much for everything.\" \"You are welcome.\"", source: "tatoeba:2783773" }
+- id: es-p-2301
+  type: phrase
+  cefr: A1
+  text: "lo siento"
+  pos: phrase
+  meaning: { en: "I'm sorry" }
+  note: { en: "from sentir; for small things: perdón, perdone" }
+  examples:
+    - { text: "Lo siento, pero no puedo ir contigo.", translation: "I'm sorry, but I can't go with you.", source: "tatoeba:562549" }
+- id: es-p-2302
+  type: phrase
+  cefr: A1
+  text: "vale"
+  pos: phrase
+  meaning: { en: "OK, all right" }
+  note: { en: "Spain, very common; also vale = it's worth / it costs (valer)" }
+  examples:
+    - { text: "Vale, haré lo que dices.", translation: "OK, I'll do what you say.", source: "tatoeba:7726615" }
+- id: es-w-2303
+  type: word
+  cefr: A1
+  text: "bienvenido"
+  pos: adj
+  meaning: { en: "welcome" }
+  note: { en: "agrees: bienvenida, bienvenidos; la bienvenida = welcome (noun)" }
+  examples:
+    - { text: "¡Bienvenido a tu nuevo hogar!", translation: "Welcome to your new home.", source: "tatoeba:4737526" }
+- id: es-p-2304
+  type: phrase
+  cefr: A1
+  text: "felicidades"
+  pos: phrase
+  meaning: { en: "congratulations; happy birthday" }
+  note: { en: "felicidades por… = congratulations on…; Spain also: ¡enhorabuena!" }
+  examples:
+    - { text: "Felicidades por tu graduación.", translation: "Congratulations on your graduation.", source: "tatoeba:8312747" }
+- id: es-w-2305
+  type: word
+  cefr: A1
+  text: "cuarenta"
+  pos: num
+  meaning: { en: "forty" }
+  note: { en: "cuarenta y uno, cuarenta y dos…" }
+  examples:
+    - { text: "Tiene un poco más de cuarenta años.", translation: "He is a little over forty.", source: "tatoeba:610605" }
+- id: es-w-2306
+  type: word
+  cefr: A1
+  text: "sesenta"
+  pos: num
+  meaning: { en: "sixty" }
+  examples:
+    - { text: "Tenemos la misma altura: un metro sesenta.", translation: "We are the same height: one meter sixty.", source: "tatoeba:10254985" }
+- id: es-w-2307
+  type: word
+  cefr: A1
+  text: "setenta"
+  pos: num
+  meaning: { en: "seventy" }
+  examples:
+    - { text: "La escuela se fundó hace setenta años.", translation: "The school was founded seventy years ago.", source: "tatoeba:2047382" }
+- id: es-w-2308
+  type: word
+  cefr: A1
+  text: "ochenta"
+  pos: num
+  meaning: { en: "eighty" }
+  note: { en: "los años ochenta = the eighties" }
+  examples:
+    - { text: "La mujer tiene más de ochenta años.", translation: "The lady is over eighty.", source: "tatoeba:2857739" }
+- id: es-w-2309
+  type: word
+  cefr: A1
+  text: "noventa"
+  pos: num
+  meaning: { en: "ninety" }
+  note: { en: "noventa y un años (uno → un before a noun)" }
+  examples:
+    - { text: "Mi abuela tiene noventa y un años.", translation: "My grandmother is ninety-one years old.", source: "tatoeba:8962309" }
+- id: es-w-2310
+  type: word
+  cefr: A2
+  text: "millón"
+  pos: num
+  meaning: { en: "million" }
+  note: { en: "a noun: un millón de personas; plural: millones (no accent)" }
+  examples:
+    - { text: "Hay nueve millones de bicicletas en Pekín.", translation: "There are nine million bicycles in Beijing.", source: "tatoeba:1106467" }
+- id: es-w-2311
+  type: word
+  cefr: A1
+  text: "cuarto"
+  pos: adj
+  meaning: { en: "fourth; (noun) quarter; room" }
+  note: { en: "las tres y cuarto = quarter past three; el cuarto = room (esp. Latin America)" }
+  examples:
+    - { text: "Mi habitación está en el cuarto piso.", translation: "My room is on the fourth floor.", source: "tatoeba:1643993" }
+- id: es-w-2312
+  type: word
+  cefr: A1
+  text: "quinto"
+  pos: adj
+  meaning: { en: "fifth" }
+  examples:
+    - { text: "Subí al quinto piso en un ascensor.", translation: "I went up to the 5th floor in an elevator.", source: "tatoeba:603998" }
