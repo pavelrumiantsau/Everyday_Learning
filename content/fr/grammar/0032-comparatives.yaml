@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0032
+cefr: A2
+order: 122
+title: "Plus grand que, le plus grand, meilleur, mieux"
+explanation:
+  en: |
+    **Comparing:** ***plus / moins / aussi** + adjective or adverb + **que***
+    - *Ce livre est **plus** intéressant **que** le film. Le train est **moins** rapide **que** l'avion. Je suis **aussi** âgé **que** toi.*
+    - the adjective still agrees: *Elle est plus grand**e** que lui.*
+    - after *que* use *moi, toi, lui, elle, nous, vous, eux*: *plus grand que **moi***
+    - with nouns: ***plus de / moins de / autant de** + noun*: *J'ai **plus de** temps que toi.*
+    - with verbs: *Il travaille **plus que** moi / **autant que** moi.*
+
+    **The most:** ***le / la / les plus** + adjective*, and "in" = ***de***:
+    - *la **plus** grande ville **de** France, le plus grand **du** monde*
+    - if the adjective goes after the noun, the article is repeated: *le film **le** plus intéressant*
+
+    **bon and bien — irregular:**
+    - *bon* (good, adjective) → ***meilleur*** (better), ***le meilleur*** (the best) — never ~~plus bon~~: *une **meilleure** idée, le **meilleur** restaurant*
+    - *bien* (well, adverb) → ***mieux*** (better), ***le mieux*** (the best): *Il nage **mieux** que moi.*
+    - test: describes a **noun** → *meilleur* (agrees); describes a **verb** → *mieux* (never changes). *C'est mieux* = "it's better (that way)".
+comparison:
+  en: |
+    Spanish *más / menos / tan … como*, *mejor* — but Spanish uses *mejor* for both "better" (adj.) and "better" (adv.), while French splits it: *un meilleur film* / *il chante mieux*. Note *aussi … que* (not ~~comme~~), unlike Spanish *tan … como*. Russian «лучше» is also both — French makes you choose.
+examples:
+  - { text: "Tu es plus grand que moi.", translation: "You're taller than me.", source: "tatoeba:474727" }
+  - { text: "Je suis aussi âgé que toi.", translation: "I'm as old as you.", source: "tatoeba:1147749" }
+  - { text: "Il est meilleur que moi.", translation: "He is better than me.", source: "tatoeba:1769530" }
+  - { text: "Il nage mieux que moi.", translation: "He swims better than I do.", source: "tatoeba:1337080" }
+  - { text: "Qui est le plus grand de tous ?", translation: "Who is the tallest of all?", source: "tatoeba:888959" }
+exercises:
+  - type: cloze
+    text: "Paris est ___ grand que Lyon."
+    answer: "plus"
+    hint: "bigger"
+    translation: "Paris is bigger than Lyon."
+  - type: cloze
+    text: "Le bus est ___ cher que le taxi."
+    answer: "moins"
+    hint: "less"
+    translation: "The bus is cheaper than a taxi."
+  - type: cloze
+    text: "Ma sœur est aussi grande ___ moi."
+    answer: "que"
+    hint: "as … as"
+    translation: "My sister is as tall as me."
+  - type: cloze
+    text: "Ce gâteau est ___ que l'autre."
+    answer: "meilleur"
+    hint: "better — bon (le gâteau, m)"
+    translation: "This cake is better than the other one."
+  - type: cloze
+    text: "Elle parle français ___ que moi."
+    answer: "mieux"
+    hint: "better — bien (how she speaks)"
+    translation: "She speaks French better than I do."
+  - type: cloze
+    text: "C'est la ___ pizza de la ville !"
+    answer: "meilleure"
+    hint: "the best — bon, feminine"
+    translation: "It's the best pizza in town!"
+  - type: cloze
+    text: "C'est l'homme le plus riche ___ monde."
+    answer: "du"
+    hint: "in the world — de + le"
+    translation: "He's the richest man in the world."
+  - type: cloze
+    text: "J'ai ___ de travail que l'année dernière."
+    answer: "plus"
+    hint: "more (+ de + noun)"
+    translation: "I have more work than last year."
