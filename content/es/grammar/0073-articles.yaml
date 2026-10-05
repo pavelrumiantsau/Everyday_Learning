@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0073
+cefr: A2
+order: 73
+title: "Me gusta el café, soy médico: when to use el, un or nothing"
+explanation:
+  en: |
+    **el / la / los / las** where English has **no** article:
+    - things **in general**: *Me gusta **el** café.* — I like coffee. ***Los** perros son fieles.* — Dogs are loyal. ***La** vida es bella.*
+    - **days**: ***el** lunes* — on Monday (this one), ***los** lunes* — on Mondays (every week). Never ~~en lunes~~.
+    - **time**: *a **las** tres, a **la** una*.
+    - talking **about** a person with a title: ***el** señor García, **la** doctora López* — but not when you speak **to** them: *Buenos días, señor García.*
+    - a language as a subject: ***El** español es fácil* — but *Hablo español*, *Estudio inglés* (no article after *hablar, estudiar, aprender*).
+
+    **No un / una** where English has "a":
+    - profession, nationality, religion after ***ser***: *Soy médico.* — I'm a doctor. *Es española.* With an adjective the article comes back: *Es **un** médico excelente.*
+    - before ***otro, medio, cien, mil***: ***otro** café* (another coffee), ***medio** kilo* (half a kilo), ***cien** euros*, ***mil** años*. Never ~~un otro~~.
+    - after ***tener, buscar, llevar*** with a thing you have one of anyway: *No tengo coche.* *¿Llevas paraguas?*
+comparison:
+  en: |
+    Russian has no articles, so the trap is to drop them everywhere: ~~Me gusta café~~ → *Me gusta **el** café*, ~~Perros son fieles~~ → ***Los** perros son fieles*. English is the opposite trap: "I'm **a** doctor", "**another**" (= an + other) — Spanish says *Soy médico*, *otro café*. Think «вообще» → *el / los*: *Me gusta el café* = «Я люблю кофе (вообще)».
+examples:
+  - { text: "Me gusta el café.", translation: "I like coffee.", source: "tatoeba:2002085" }
+  - { text: "Los perros son fieles.", translation: "Dogs are loyal.", source: "tatoeba:715839" }
+  - { text: "Soy médico.", translation: "I'm a doctor.", source: "tatoeba:1006320" }
+  - { text: "Soy un buen profesor.", translation: "I'm a good teacher.", source: "tatoeba:2389295" }
+  - { text: "Quiero otra cerveza.", translation: "I want another beer.", source: "tatoeba:786288" }
+exercises:
+  - type: cloze
+    text: "No me gusta ___ fútbol."
+    answer: "el"
+    hint: "football in general"
+    translation: "I don't like football."
+  - type: cloze
+    text: "___ niños necesitan dormir mucho."
+    answer: "Los"
+    hint: "children in general"
+    translation: "Children need a lot of sleep."
+  - type: cloze
+    text: "Mi padre es ___."
+    answer: "profesor"
+    hint: "a teacher (profesor) — profession after ser"
+    translation: "My father is a teacher."
+  - type: cloze
+    text: "Mi hermana es ___ médica muy buena."
+    answer: "una"
+    hint: "a — profession + adjective"
+    translation: "My sister is a very good doctor."
+  - type: cloze
+    text: "¿Me pones ___ café, por favor?"
+    answer: "otro"
+    hint: "another"
+    translation: "Can I have another coffee, please?"
+  - type: cloze
+    text: "___ sábados vamos al mercado."
+    answer: "Los"
+    hint: "on Saturdays — every week"
+    translation: "On Saturdays we go to the market."
+  - type: cloze
+    text: "La reunión es a ___ tres."
+    answer: "las"
+    hint: "at three o'clock"
+    translation: "The meeting is at three."
+  - type: cloze
+    text: "Necesito ___ kilo de tomates."
+    answer: "medio"
+    hint: "half (a kilo)"
+    translation: "I need half a kilo of tomatoes."
