@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0075
+cefr: A2
+order: 75
+title: "Para mí, contigo, entre tú y yo: pronouns after prepositions"
+explanation:
+  en: |
+    After a preposition (*para, de, en, a, sin, por, sobre…*) only "I" and "you" have special forms — ***mí*** and ***ti***; the rest are the subject pronouns:
+    - *para **mí**, para **ti**, para **él / ella / usted**, para **nosotros**, para **vosotros**, para **ellos / ustedes***
+    - *Lo compré para **ti**.* *Pienso en **ti**.* *No puedo vivir sin **ti**.*
+    - ***mí*** has an accent (not *mi* = my); ***ti*** never has one.
+
+    ***con*** is special: ***conmigo*** (with me), ***contigo*** (with you) — never ~~con mí~~, ~~con ti~~. The others are regular: *con él, con nosotros, con ellos*.
+
+    ***entre, según, menos, excepto, incluso*** take the subject forms ***yo, tú***: *entre **tú y yo***, *según **tú***, *todos menos **yo***.
+
+    ***sí / consigo*** = himself, herself, themselves (the same person as the subject): *Habló **consigo** mismo.* — He talked to himself. *Lleva el pasaporte **consigo**.* — He has his passport on him.
+
+    ***a mí, a ti*** also add emphasis next to *me, te*: ***A mí** me gusta, ¿y **a ti**?*
+comparison:
+  en: |
+    Russian also changes the pronoun after a preposition («для **меня**», «с **тобой**»), but Spanish keeps it simple: only *mí, ti* and the three *con* forms. English "between you and **me**" becomes *entre tú y **yo*** — the trap is to say ~~entre ti y mí~~.
+examples:
+  - { text: "Lo compré para ti.", translation: "I bought it for you.", source: "tatoeba:2266442" }
+  - { text: "¿Vienes conmigo?", translation: "Are you coming with me?", source: "tatoeba:346661" }
+  - { text: "Esto queda entre tú y yo.", translation: "This stays between you and me.", source: "tatoeba:1053194" }
+  - { text: "Lo sabían todos menos yo.", translation: "Everyone except me knew it.", source: "tatoeba:651685" }
+  - { text: "Él habló consigo mismo.", translation: "He talked to himself.", source: "tatoeba:1842906" }
+exercises:
+  - type: cloze
+    text: "Este regalo es para ___."
+    answer: "ti"
+    hint: "you (tú)"
+    translation: "This present is for you."
+  - type: cloze
+    text: "¿Quieres cenar ___ esta noche?"
+    answer: "conmigo"
+    hint: "with me"
+    translation: "Do you want to have dinner with me tonight?"
+  - type: cloze
+    text: "No puedo ir ___ porque tengo que trabajar."
+    answer: "contigo"
+    hint: "with you (tú)"
+    translation: "I can't go with you because I have to work."
+  - type: cloze
+    text: "Según ___, ¿quién tiene razón?"
+    answer: "tú"
+    hint: "you (tú) — after según"
+    translation: "In your opinion, who is right?"
+  - type: cloze
+    text: "Todos bailaron menos ___."
+    answer: "yo"
+    hint: "me — after menos"
+    translation: "Everyone danced except me."
+  - type: cloze
+    text: "A ___ no me gusta nada el frío."
+    answer: "mí"
+    hint: "me — for emphasis"
+    translation: "I don't like the cold at all."
+  - type: cloze
+    text: "¿Vienes al cine con ___?"
+    answer: "nosotros"
+    also: ["nosotras"]
+    hint: "us"
+    translation: "Are you coming to the cinema with us?"
+  - type: cloze
+    text: "Pedro siempre lleva el móvil ___."
+    answer: "consigo"
+    hint: "with him(self)"
+    translation: "Pedro always has his phone on him."
