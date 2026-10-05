@@ -1,0 +1,46 @@
+id: lt-r-0109
+cefr: C1
+title: "Silpniausia grandis"
+topic: "кибербезопасность"
+source: generated
+text: |
+  Kibernetinės atakos ilgai atrodė kaip kažkas iš filmų apie programišius su gobtuvais tamsiuose kambariuose. Tačiau Lietuvoje jos seniai tapo kasdienybe. 2022 metų vasarą, Lietuvai apribojus sankcionuotų prekių tranzitą į Kaliningradą, valstybės institucijų ir įmonių svetaines užplūdo vadinamosios DDoS atakos, atsakomybę už kurias prisiėmė prorusiška programišių grupuotė. Kai kurios svetainės kurį laiką neveikė, tačiau didesnės žalos išvengta.
+
+  Ekspertai pabrėžia, kad tokie išpuoliai – tik matoma ledkalnio viršūnė. Kur kas pavojingesni tylūs įsilaužimai, kurių tikslas – ne sutrikdyti, o šnipinėti ar pasirengti smūgiui ateityje. Todėl įkurtas Nacionalinis kibernetinio saugumo centras, o Lietuva inicijavo Europos Sąjungos kibernetinių greitojo reagavimo komandų projektą.
+
+  Vis dėlto didžiausia spraga, regis, slypi ne serveriuose, o mūsų įpročiuose. Kone kiekvienas yra gavęs žinutę apie neva vėluojantį siuntinį su nuoroda, kurią paspaudus prašoma įvesti banko duomenis. Telefonu skambinantys sukčiai apsimeta policininkais ar banko darbuotojais ir įtikinamai kuria skubos jausmą. Nukenčia ne tik naivūs senjorai, kaip dažnai manoma, bet ir išsilavinę, technologijas išmanantys žmonės, kurie tą akimirką tiesiog buvo pavargę ar išsiblaškę.
+
+  Kibernetinis saugumas, kaip ir higiena, prasideda nuo paprastų dalykų: skirtingų slaptažodžių, dviejų veiksnių autentifikavimo, sveikos skepsio dozės. Tai nuobodu, nepatogu ir nė kiek neherojiška. Bet būtent tokie nuobodūs įpročiai, o ne brangiausios sistemos, dažniausiai ir nulemia, ar užpuolikui pavyks.
+
+  Galima sakyti, kad šiuolaikinė valstybės gynyba prasideda ne tik prie sienos, bet ir kiekvieno iš mūsų telefone.
+glossary:
+  - { word: "programišius", lemma: "programišius", pos: noun, gender: m, gen: "programišiaus", meaning: "хакер", note: "вин. п. мн. ч." }
+  - { word: "gobtuvais", lemma: "gobtuvas", pos: noun, gender: m, gen: "gobtuvo", meaning: "капюшон", note: "тв. п. мн. ч." }
+  - { word: "sankcionuotų", lemma: "sankcionuotas", pos: adj, meaning: "подсанкционный", note: "род. п. мн. ч." }
+  - { word: "užplūdo", lemma: "užplūsti", pos: verb, forms: { pres: "užplūsta", past: "užplūdo" }, meaning: "нахлынуть, захлестнуть" }
+  - { word: "prisiėmė", lemma: "prisiimti", pos: verb, forms: { pres: "prisiima", past: "prisiėmė" }, meaning: "взять на себя", note: "prisiimti atsakomybę — взять на себя ответственность" }
+  - { word: "grupuotė", lemma: "grupuotė", pos: noun, gender: f, gen: "grupuotės", meaning: "группировка" }
+  - { word: "išvengta", lemma: "išvengti", pos: verb, forms: { pres: "išvengia", past: "išvengė" }, meaning: "избежать", note: "безличн. пассив + род. п.: žalos išvengta — ущерба удалось избежать" }
+  - { word: "išpuoliai", lemma: "išpuolis", pos: noun, gender: m, gen: "išpuolio", meaning: "нападение, выпад", note: "им. п. мн. ч." }
+  - { word: "ledkalnio", lemma: "ledkalnis", pos: noun, gender: m, gen: "ledkalnio", meaning: "айсберг", note: "ledkalnio viršūnė — верхушка айсберга" }
+  - { word: "įsilaužimai", lemma: "įsilaužimas", pos: noun, gender: m, gen: "įsilaužimo", meaning: "взлом", note: "им. п. мн. ч." }
+  - { word: "šnipinėti", lemma: "šnipinėti", pos: verb, forms: { pres: "šnipinėja", past: "šnipinėjo" }, meaning: "шпионить" }
+  - { word: "spraga", lemma: "spraga", pos: noun, gender: f, gen: "spragos", meaning: "брешь, пробел" }
+  - { word: "neva", lemma: "neva", pos: part, meaning: "якобы" }
+  - { word: "sukčiai", lemma: "sukčius", pos: noun, gender: m, gen: "sukčiaus", meaning: "мошенник", note: "им. п. мн. ч." }
+  - { word: "apsimeta", lemma: "apsimesti", pos: verb, forms: { pres: "apsimeta", past: "apsimetė" }, meaning: "притворяться, выдавать себя за", note: "+ тв. п." }
+  - { word: "išsiblaškę", lemma: "išsiblaškęs", pos: adj, meaning: "рассеянный", note: "им. п. мн. ч." }
+  - { word: "slaptažodžių", lemma: "slaptažodis", pos: noun, gender: m, gen: "slaptažodžio", meaning: "пароль", note: "род. п. мн. ч." }
+  - { word: "veiksnių", lemma: "veiksnys", pos: noun, gender: m, gen: "veiksnio", meaning: "фактор", note: "dviejų veiksnių autentifikavimas — двухфакторная аутентификация" }
+  - { word: "skepsio", lemma: "skepsis", pos: noun, gender: m, gen: "skepsio", meaning: "скепсис", note: "род. п." }
+  - { word: "užpuolikui", lemma: "užpuolikas", pos: noun, gender: m, gen: "užpuoliko", meaning: "нападающий, злоумышленник", note: "дат. п." }
+questions:
+  - q: "Kas nutiko 2022 metų vasarą?"
+    options: ["Lietuvos institucijų ir įmonių svetaines užplūdo DDoS atakos", "Lietuva uždraudė internetą", "Buvo pavogti visų gyventojų slaptažodžiai"]
+    answer: 0
+  - q: "Kodėl ekspertai DDoS atakas vadina ledkalnio viršūne?"
+    options: ["Nes jos vyksta tik žiemą", "Nes kur kas pavojingesni tylūs įsilaužimai, skirti šnipinėti ar pasirengti smūgiui", "Nes jos nepadaro jokios žalos"]
+    answer: 1
+  - q: "Kur, autoriaus nuomone, slypi didžiausia spraga?"
+    options: ["Valstybės serveriuose", "Brangiose apsaugos sistemose", "Mūsų pačių kasdieniuose įpročiuose"]
+    answer: 2
