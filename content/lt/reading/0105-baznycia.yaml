@@ -1,0 +1,45 @@
+id: lt-r-0105
+cefr: C1
+title: "Katalikai, bet nebūtinai praktikuojantys"
+topic: "католическая церковь в Литве сегодня"
+source: generated
+text: |
+  Lietuva mėgsta save vadinti katalikiška šalimi, ir gyventojų surašymai tai lyg ir patvirtina: didžioji dauguma žmonių save priskiria Romos katalikams. Vis dėlto sekmadienio rytą užsukus į daugelį bažnyčių, vaizdas kitoks – reguliariai Mišiose dalyvauja tik nedidelė dalis tikinčiųjų, dažniausiai vyresnio amžiaus.
+
+  Šį paradoksą iš dalies paaiškina istorija. Sovietmečiu Bažnyčia buvo persekiojama, kunigai kalinami, o tikintieji rizikavo karjera. Pogrindyje leidžiama „Lietuvos Katalikų Bažnyčios kronika“ fiksavo tikinčiųjų teisių pažeidimus ir pasiekdavo net Vakarus. Todėl daugeliui lietuvių katalikybė tapo ne tik tikėjimo, bet ir tautinės tapatybės, pasipriešinimo ženklu. O tapatybė, kaip žinoma, išlieka ir tada, kai religinė praktika susilpnėja.
+
+  Šiandien santykis su Bažnyčia dažnai primena santykį su sena šeimos tradicija: vaikai krikštijami, tuokiamasi bažnyčioje, artimieji laidojami dalyvaujant kunigui, o per Kūčias ir Velykas bažnyčios vėl prisipildo žmonių. Kasdienybėje tačiau daugelis vadovaujasi savo sąžine, o ne bažnytiniu mokymu, ypač šeimos ir moralės klausimais.
+
+  Bažnyčia ieško būdų pasiekti šiuolaikinį žmogų: kuriamos jaunimo bendruomenės, rengiamos piligriminės kelionės, veikia „Caritas“ organizacija, padedanti stokojantiems. Popiežiaus Pranciškaus vizitas 2018 metais sutraukė dešimtis tūkstančių žmonių. Kartu Bažnyčia susiduria su nelengvais iššūkiais – pasitikėjimo krize, kunigų stoka, skandalais, kurių nebegalima nutylėti.
+
+  Atrodo, kad Lietuvos katalikybės ateitį lems ne tai, kiek žmonių surašymo anketoje nurodys esą katalikai, o tai, ar Bažnyčia sugebės ne tik saugoti praeitį, bet ir kalbėtis su dabarties žmogumi.
+glossary:
+  - { word: "surašymai", lemma: "surašymas", pos: noun, gender: m, gen: "surašymo", meaning: "перепись", note: "им. п. мн. ч.; gyventojų surašymas — перепись населения" }
+  - { word: "priskiria", lemma: "priskirti", pos: verb, forms: { pres: "priskiria", past: "priskyrė" }, meaning: "относить (к чему-л.), причислять", note: "save priskirti katalikams — считать себя католиком" }
+  - { word: "užsukus", lemma: "užsukti", pos: verb, forms: { pres: "užsuka", past: "užsuko" }, meaning: "заглянуть, зайти", note: "деепр.: если заглянуть" }
+  - { word: "Mišiose", lemma: "Mišios", pos: noun, gender: f, gen: "Mišių", plural_only: true, meaning: "месса", note: "мест. п." }
+  - { word: "persekiojama", lemma: "persekioti", pos: verb, forms: { pres: "persekioja", past: "persekiojo" }, meaning: "преследовать", note: "пассивное прич., ж. р." }
+  - { word: "kalinami", lemma: "kalinti", pos: verb, forms: { pres: "kalina", past: "kalino" }, meaning: "держать в заключении", note: "пассивное прич., мн. ч." }
+  - { word: "Pogrindyje", lemma: "pogrindis", pos: noun, gender: m, gen: "pogrindžio", meaning: "подполье", note: "мест. п." }
+  - { word: "pažeidimus", lemma: "pažeidimas", pos: noun, gender: m, gen: "pažeidimo", meaning: "нарушение", note: "вин. п. мн. ч." }
+  - { word: "katalikybė", lemma: "katalikybė", pos: noun, gender: f, gen: "katalikybės", meaning: "католичество" }
+  - { word: "tuokiamasi", lemma: "tuoktis", pos: verb, forms: { pres: "tuokiasi", past: "tuokėsi" }, meaning: "вступать в брак, венчаться", note: "безличный пассив: венчаются" }
+  - { word: "laidojami", lemma: "laidoti", pos: verb, forms: { pres: "laidoja", past: "laidojo" }, meaning: "хоронить", note: "пассивное прич., мн. ч." }
+  - { word: "Kūčias", lemma: "Kūčios", pos: noun, gender: f, gen: "Kūčių", plural_only: true, meaning: "Сочельник (24 декабря)", note: "вин. п." }
+  - { word: "sąžine", lemma: "sąžinė", pos: noun, gender: f, gen: "sąžinės", meaning: "совесть", note: "тв. п." }
+  - { word: "piligriminės", lemma: "piligriminis", pos: adj, meaning: "паломнический", note: "им. п. мн. ч. ж. р." }
+  - { word: "stokojantiems", lemma: "stokoti", pos: verb, forms: { pres: "stokoja", past: "stokojo" }, meaning: "испытывать нехватку", note: "прич., дат. п. мн. ч.: нуждающимся" }
+  - { word: "sutraukė", lemma: "sutraukti", pos: verb, forms: { pres: "sutraukia", past: "sutraukė" }, meaning: "собрать (людей)" }
+  - { word: "stoka", lemma: "stoka", pos: noun, gender: f, gen: "stokos", meaning: "нехватка, недостаток", note: "тв. п." }
+  - { word: "nutylėti", lemma: "nutylėti", pos: verb, forms: { pres: "nutyli", past: "nutylėjo" }, meaning: "умолчать, замолчать (что-л.)" }
+  - { word: "esą", lemma: "būti", pos: verb, forms: { pres: "yra", past: "buvo" }, meaning: "быть", note: "прич. наст. вр., им. п. мн. ч.: nurodys esą katalikai — укажут, что являются католиками" }
+questions:
+  - q: "Kokį paradoksą autorius pastebi pirmoje pastraipoje?"
+    options: ["Dauguma save laiko katalikais, bet reguliariai Mišiose dalyvauja nedaugelis", "Bažnyčių Lietuvoje per mažai", "Jauni žmonės bažnyčiose lankosi dažniau nei vyresni"]
+    answer: 0
+  - q: "Kodėl sovietmečiu katalikybė tapo daugiau nei tikėjimu?"
+    options: ["Nes valdžia ją rėmė", "Nes ji tapo tautinės tapatybės ir pasipriešinimo ženklu", "Nes kunigai buvo išrenkami į Seimą"]
+    answer: 1
+  - q: "Kas, autoriaus nuomone, lems katalikybės ateitį Lietuvoje?"
+    options: ["Surašymo rezultatai", "Bažnyčių skaičius", "Ar Bažnyčia sugebės kalbėtis su dabarties žmogumi"]
+    answer: 2
