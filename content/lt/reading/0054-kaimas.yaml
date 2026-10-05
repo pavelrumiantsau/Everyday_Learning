@@ -1,0 +1,55 @@
+id: lt-r-0054
+cefr: C1
+title: "Ar išliks lietuviškas kaimas?"
+topic: "жизнь в деревне сегодня"
+source: generated
+text: |
+  Lietuvių kultūroje kaimas visada užėmė ypatingą vietą. Iš kaimo gyvenimo kilo didelė dalis klasikinės literatūros, liaudies dainų ir švenčių papročių. Tačiau šiandien kaime gyvena tik maždaug trečdalis šalies gyventojų, ir šis skaičius toliau mažėja.
+
+  Atkūrus nepriklausomybę, kolūkiai buvo išformuoti, o žemė grąžinta buvusiems savininkams ar jų paveldėtojams. Iš pradžių atrodė, kad atgims smulkių ūkių kraštas, apie kurį svajojo tarpukario kartos. Deja, daugeliui naujųjų ūkininkų trūko ir technikos, ir lėšų, ir patirties. Per kelis dešimtmečius didelė dalis žemės sukoncentruota stambiuose ūkiuose, kurie, pasitelkę modernią techniką, užaugina didžiulius grūdų kiekius – nemaža jų dalis eksportuojama.
+
+  Paradoksalu, bet kuo našesnis žemės ūkis, tuo mažiau jam reikia žmonių. Vienas traktorininkas šiandien atlieka darbą, kuriam anksčiau būtų prireikę dešimčių rankų. Jaunimas, nematydamas perspektyvų, išvyksta mokytis į miestus ir retai begrįžta. Uždaromos mokyklos, paštai, parduotuvės, o likusiems gyventojams, dažniausiai senjorams, tenka važiuoti dešimtis kilometrų iki artimiausios ambulatorijos.
+
+  Vis dėlto kaimas nemiršta – jis keičiasi. Daugelis miestiečių įsigyja sodybas, kuriose leidžia savaitgalius ir atostogas. Pandemijos metu, kai darbas persikėlė į internetą, kai kurios šeimos ryžosi kraustytis į kaimą visam laikui. Kuriasi kaimo turizmo sodybos, amatų dirbtuvės, ekologiški ūkiai, siūlantys savo produkciją tiesiai pirkėjams.
+
+  Tokie naujakuriai neretai susiduria su vietinių nepasitikėjimu: jie kitaip leidžia laiką, kitaip žiūri į gamtą ir kaimynystę. Kita vertus, būtent jie atgaivina apleistus namus, kuria darbo vietas ir organizuoja renginius, į kuriuos susirenka visas kaimas.
+
+  Taigi klausimas, ar kaimas išliks, galbūt suformuluotas netiksliai. Tikriausiai išliks – tik ne toks, kokį jį prisimename iš senelių pasakojimų, o mažiau susijęs su žemės darbais ir labiau – su gyvenimo būdu, kurį žmogus pasirenka sąmoningai.
+glossary:
+  - { word: "užėmė", lemma: "užimti", pos: verb, forms: { pres: "užima", past: "užėmė" }, meaning: "занимать" }
+  - { word: "papročių", lemma: "paprotys", pos: noun, gender: m, gen: "papročio", meaning: "обычай", note: "род. п. мн. ч." }
+  - { word: "kolūkiai", lemma: "kolūkis", pos: noun, gender: m, gen: "kolūkio", meaning: "колхоз", note: "им. п. мн. ч." }
+  - { word: "išformuoti", lemma: "išformuoti", pos: verb, forms: { pres: "išformuoja", past: "išformavo" }, meaning: "расформировать", note: "здесь пассивное прич.: buvo išformuoti — были расформированы" }
+  - { word: "paveldėtojams", lemma: "paveldėtojas", pos: noun, gender: m, gen: "paveldėtojo", meaning: "наследник", note: "дат. п. мн. ч." }
+  - { word: "tarpukario", lemma: "tarpukaris", pos: noun, gender: m, gen: "tarpukario", meaning: "межвоенный период (1918–1940)", note: "род. п.: tarpukario kartos — поколения межвоенной Литвы" }
+  - { word: "lėšų", lemma: "lėšos", pos: noun, gender: f, gen: "lėšų", plural_only: true, meaning: "средства, деньги", note: "род. п. после trūkti" }
+  - { word: "sukoncentruota", lemma: "sukoncentruoti", pos: verb, forms: { pres: "sukoncentruoja", past: "sukoncentravo" }, meaning: "сосредоточить", note: "пассивное прич., ж. р.: dalis žemės sukoncentruota — часть земли сосредоточена" }
+  - { word: "stambiuose", lemma: "stambus", pos: adj, meaning: "крупный", note: "мест. п. мн. ч." }
+  - { word: "pasitelkę", lemma: "pasitelkti", pos: verb, forms: { pres: "pasitelkia", past: "pasitelkė" }, meaning: "привлечь, использовать", note: "прич. прош. вр., мн. ч.: pasitelkę techniką — используя технику" }
+  - { word: "grūdų", lemma: "grūdai", pos: noun, gender: m, gen: "grūdų", plural_only: true, meaning: "зерно (урожай)", note: "род. п." }
+  - { word: "našesnis", lemma: "našus", pos: adj, meaning: "продуктивный, производительный", note: "сравн. ст.: kuo našesnis..., tuo... — чем продуктивнее..., тем..." }
+  - { word: "prireikę", lemma: "prireikti", pos: verb, forms: { pres: "prireikia", past: "prireikė" }, meaning: "понадобиться", note: "+ род. п.: būtų prireikę dešimčių rankų — понадобились бы десятки рук" }
+  - { word: "begrįžta", lemma: "grįžti", pos: verb, forms: { pres: "grįžta", past: "grįžo" }, meaning: "возвращаться", note: "be- после retai/nebe-: retai begrįžta — редко уже возвращается" }
+  - { word: "tenka", lemma: "tekti", pos: verb, forms: { pres: "tenka", past: "teko" }, meaning: "приходиться", note: "кому — дат. п.: gyventojams tenka važiuoti — жителям приходится ездить" }
+  - { word: "ambulatorijos", lemma: "ambulatorija", pos: noun, gender: f, gen: "ambulatorijos", meaning: "амбулатория, сельская поликлиника", note: "род. п." }
+  - { word: "sodybas", lemma: "sodyba", pos: noun, gender: f, gen: "sodybos", meaning: "усадьба, дом в деревне", note: "вин. п. мн. ч." }
+  - { word: "persikėlė", lemma: "persikelti", pos: verb, forms: { pres: "persikelia", past: "persikėlė" }, meaning: "переместиться, переехать" }
+  - { word: "ryžosi", lemma: "ryžtis", pos: verb, forms: { pres: "ryžtasi", past: "ryžosi" }, meaning: "решиться" }
+  - { word: "amatų", lemma: "amatas", pos: noun, gender: m, gen: "amato", meaning: "ремесло", note: "род. п. мн. ч.: amatų dirbtuvės — ремесленные мастерские" }
+  - { word: "naujakuriai", lemma: "naujakurys", pos: noun, gender: m, gen: "naujakurio", meaning: "новосёл, переселенец", note: "им. п. мн. ч." }
+  - { word: "nepasitikėjimu", lemma: "nepasitikėjimas", pos: noun, gender: m, gen: "nepasitikėjimo", meaning: "недоверие", note: "тв. п." }
+  - { word: "kaimynystę", lemma: "kaimynystė", pos: noun, gender: f, gen: "kaimynystės", meaning: "соседство, соседские отношения", note: "вин. п." }
+  - { word: "atgaivina", lemma: "atgaivinti", pos: verb, forms: { pres: "atgaivina", past: "atgaivino" }, meaning: "оживлять, возрождать" }
+  - { word: "apleistus", lemma: "apleistas", pos: adj, meaning: "заброшенный", note: "вин. п. мн. ч." }
+  - { word: "suformuluotas", lemma: "suformuluoti", pos: verb, forms: { pres: "suformuluoja", past: "suformulavo" }, meaning: "сформулировать", note: "пассивное прич.: suformuluotas netiksliai — сформулирован неточно" }
+  - { word: "sąmoningai", lemma: "sąmoningai", pos: adv, meaning: "сознательно" }
+questions:
+  - q: "Kodėl smulkių ūkių kraštas, apie kurį svajota, taip ir neatsirado?"
+    options: ["Naujiesiems ūkininkams trūko technikos, lėšų ir patirties", "Žemė nebuvo grąžinta savininkams", "Valstybė uždraudė smulkius ūkius"]
+    answer: 0
+  - q: "Kokį paradoksą mini autorius?"
+    options: ["Kaime gyvena vis daugiau žmonių, bet ūkių mažėja", "Kuo našesnis žemės ūkis, tuo mažiau jam reikia darbuotojų", "Grūdų užauginama daugiau, nei galima parduoti"]
+    answer: 1
+  - q: "Kaip autorius atsako į pavadinime iškeltą klausimą?"
+    options: ["Kaimas netrukus išnyks", "Kaimas liks toks pat kaip senelių laikais", "Kaimas tikriausiai išliks, bet kaip pasirinktas gyvenimo būdas, o ne vien žemės darbų vieta"]
+    answer: 2

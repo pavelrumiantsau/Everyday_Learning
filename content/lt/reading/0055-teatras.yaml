@@ -1,0 +1,54 @@
+id: lt-r-0055
+cefr: C1
+title: "Teatro šalis"
+topic: "литовский театр и кино"
+source: generated
+text: |
+  Užsienio kritikai Lietuvą kartais vadina teatro šalimi. Tai gali nustebinti: valstybė nedidelė, o jos režisierių spektakliai rodomi prestižiškiausiuose Europos teatro festivaliuose.
+
+  Ryškiausias šios tradicijos vardas – Eimuntas Nekrošius. Jo spektakliai garsėjo ne žodžiais, o vaizdais: ledas, vanduo, ugnis, akmuo scenoje virsdavo metaforomis, kurias žiūrovas turėdavo iššifruoti pats. Šekspyro „Hamletas“, kuriame pagrindinį vaidmenį atliko roko muzikantas Andrius Mamontovas, tapo legenda – apie jį kalbama iki šiol, nors nuo premjeros praėjo beveik trys dešimtmečiai.
+
+  Kodėl būtent teatras? Viena iš dažnai minimų priežasčių – sovietmetis. Kai atvirai kalbėti buvo pavojinga, scena tapo vieta, kur galima pasakyti daugiau, nei leido cenzūra: per užuominas, simbolius, nutylėjimus. Žiūrovai išmoko skaityti tarp eilučių, o režisieriai – kalbėti taip, kad suprastų tik tie, kam reikia. Šis įprotis ieškoti antrojo plano išliko ir vėliau.
+
+  Kinui sekėsi sunkiau. Filmų gamyba brangi, rinka maža, o lietuvių kalba už šalies ribų suprantama nedaugeliui. Vis dėlto ir čia yra kuo didžiuotis. Jonas Mekas, karo metais pasitraukęs iš Lietuvos ir apsigyvenęs Niujorke, tapo vienu svarbiausių Amerikos avangardinio kino kūrėjų. Šarūno Barto filmai, lėti ir beveik be dialogų, ne kartą rodyti Kanų kino festivalyje.
+
+  Pastarąjį dešimtmetį lietuviškų filmų lankomumas kino teatruose gerokai išaugo: kai kurios komedijos ir istorinės dramos surenka daugiau žiūrovų nei Holivudo filmai. Kritikai šį reiškinį vertina nevienodai – vieni džiaugiasi, kad žiūrovai sugrįžo prie savo kino, kiti apgailestauja, kad populiarumą dažniausiai pelno lengvi, greitai pamirštami filmai.
+
+  Teatras tuo tarpu išlieka ištikimas savo publikai. Bilietai į populiarius spektaklius išperkami prieš kelis mėnesius, o salėse sėdi ne tik vyresnio amžiaus žiūrovai, bet ir daug jaunimo. Galbūt tai ir yra geriausias įrodymas, kad tradicija gyva.
+glossary:
+  - { word: "prestižiškiausiuose", lemma: "prestižiškas", pos: adj, meaning: "престижный", note: "превосх. ст., мест. п. мн. ч.: в самых престижных" }
+  - { word: "Ryškiausias", lemma: "ryškus", pos: adj, meaning: "яркий", note: "превосх. ст." }
+  - { word: "garsėjo", lemma: "garsėti", pos: verb, forms: { pres: "garsėja", past: "garsėjo" }, meaning: "славиться", note: "+ тв. п.: garsėjo vaizdais — славились образами" }
+  - { word: "virsdavo", lemma: "virsti", pos: verb, forms: { pres: "virsta", past: "virto" }, meaning: "превращаться", note: "прош. многократное: virsdavo kuo (тв. п.)" }
+  - { word: "iššifruoti", lemma: "iššifruoti", pos: verb, forms: { pres: "iššifruoja", past: "iššifravo" }, meaning: "расшифровать" }
+  - { word: "vaidmenį", lemma: "vaidmuo", pos: noun, gender: m, gen: "vaidmens", meaning: "роль", note: "вин. п.; atlikti vaidmenį — исполнить роль" }
+  - { word: "sovietmetis", lemma: "sovietmetis", pos: noun, gender: m, gen: "sovietmečio", meaning: "советское время" }
+  - { word: "cenzūra", lemma: "cenzūra", pos: noun, gender: f, gen: "cenzūros", meaning: "цензура" }
+  - { word: "užuominas", lemma: "užuomina", pos: noun, gender: f, gen: "užuominos", meaning: "намёк", note: "вин. п. мн. ч." }
+  - { word: "nutylėjimus", lemma: "nutylėjimas", pos: noun, gender: m, gen: "nutylėjimo", meaning: "умолчание", note: "вин. п. мн. ч." }
+  - { word: "eilučių", lemma: "eilutė", pos: noun, gender: f, gen: "eilutės", meaning: "строчка", note: "skaityti tarp eilučių — читать между строк" }
+  - { word: "įprotis", lemma: "įprotis", pos: noun, gender: m, gen: "įpročio", meaning: "привычка" }
+  - { word: "antrojo", lemma: "antrasis", pos: num, meaning: "второй", note: "antrasis planas — подтекст, второй план" }
+  - { word: "sekėsi", lemma: "sektis", pos: verb, forms: { pres: "sekasi", past: "sekėsi" }, meaning: "удаваться, везти", note: "кому — дат. п.: kinui sekėsi sunkiau — кино пришлось труднее" }
+  - { word: "nedaugeliui", lemma: "nedaugelis", pos: pron, meaning: "немногие", note: "дат. п.: suprantama nedaugeliui — понятна немногим" }
+  - { word: "didžiuotis", lemma: "didžiuotis", pos: verb, forms: { pres: "didžiuojasi", past: "didžiavosi" }, meaning: "гордиться", note: "+ тв. п.; yra kuo didžiuotis — есть чем гордиться" }
+  - { word: "pasitraukęs", lemma: "pasitraukti", pos: verb, forms: { pres: "pasitraukia", past: "pasitraukė" }, meaning: "отступить, уехать (бежать от войны)", note: "прич. прош. вр., м. р." }
+  - { word: "avangardinio", lemma: "avangardinis", pos: adj, meaning: "авангардный", note: "род. п." }
+  - { word: "lankomumas", lemma: "lankomumas", pos: noun, gender: m, gen: "lankomumo", meaning: "посещаемость" }
+  - { word: "reiškinį", lemma: "reiškinys", pos: noun, gender: m, gen: "reiškinio", meaning: "явление", note: "вин. п." }
+  - { word: "nevienodai", lemma: "nevienodai", pos: adv, meaning: "неодинаково, по-разному" }
+  - { word: "apgailestauja", lemma: "apgailestauti", pos: verb, forms: { pres: "apgailestauja", past: "apgailestavo" }, meaning: "сожалеть" }
+  - { word: "pelno", lemma: "pelnyti", pos: verb, forms: { pres: "pelno", past: "pelnė" }, meaning: "заслужить, завоевать (признание)" }
+  - { word: "ištikimas", lemma: "ištikimas", pos: adj, meaning: "верный", note: "+ дат. п.: ištikimas publikai" }
+  - { word: "išperkami", lemma: "išpirkti", pos: verb, forms: { pres: "išperka", past: "išpirko" }, meaning: "раскупить", note: "пассивное прич. наст. вр., мн. ч.: bilietai išperkami — билеты раскупаются" }
+  - { word: "įrodymas", lemma: "įrodymas", pos: noun, gender: m, gen: "įrodymo", meaning: "доказательство" }
+questions:
+  - q: "Kuo garsėjo Eimunto Nekrošiaus spektakliai?"
+    options: ["Vaizdinėmis metaforomis, kurias žiūrovas turėjo suprasti pats", "Ilgais monologais", "Garsiais Holivudo aktoriais"]
+    answer: 0
+  - q: "Kaip sovietmetis, pasak teksto, paveikė lietuvių teatrą?"
+    options: ["Teatrai buvo uždaryti", "Žiūrovai ir režisieriai išmoko kalbėtis užuominomis ir ieškoti antrojo plano", "Spektakliai buvo rodomi tik rusų kalba"]
+    answer: 1
+  - q: "Kodėl kritikai nevienodai vertina lietuviškų filmų populiarumą?"
+    options: ["Nes lietuviški filmai nerodomi kino teatruose", "Nes žiūrovų sumažėjo", "Nes daugiausia žiūrovų surenka lengvi, greitai pamirštami filmai"]
+    answer: 2

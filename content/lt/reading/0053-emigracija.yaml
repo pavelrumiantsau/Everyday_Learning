@@ -1,0 +1,52 @@
+id: lt-r-0053
+cefr: C1
+title: "Išvykti ar sugrįžti?"
+topic: "эмиграция и возвращение домой"
+source: generated
+text: |
+  Per tris dešimtmečius po nepriklausomybės atkūrimo Lietuvos gyventojų sumažėjo beveik milijonu, o didžiąją šio praradimo dalį lėmė emigracija. Ypač daug žmonių išvyko įstojus į Europos Sąjungą ir per 2009 metų ekonominę krizę: Airija, Didžioji Britanija, Norvegija tapo antraisiais namais šimtams tūkstančių lietuvių. Ilgą laiką viešojoje erdvėje apie išvykusiuosius kalbėta su priekaištu, tarsi jie būtų išdavę tėvynę, nors dažniausiai žmones išstūmė paprasčiausias poreikis išlaikyti šeimą.
+
+  Užsienyje susikūrė gyvos lietuvių bendruomenės. Šeštadieninėse mokyklose vaikai mokosi lietuvių kalbos, švenčiamos Joninės ir Vasario 16-oji, leidžiami laikraščiai, veikia tautinių šokių kolektyvai. Kita vertus, antrosios kartos emigrantams lietuvių kalba dažnai tampa tik namų kalba, kuria jie kalba su tėvais, o su draugais bendrauja angliškai ar norvegiškai. Kiek ilgai išsilaikys tokia tapatybė, sunku nuspėti.
+
+  Pastaraisiais metais padėtis pasikeitė: į Lietuvą atvyksta daugiau žmonių, nei iš jos išvyksta. Nemažą dalį atvykėlių sudaro grįžtantys lietuviai – vieni pasiilgę artimųjų, kiti pastebėję, kad atlyginimų skirtumas nebėra toks didelis, o gyvenimo kokybė Lietuvoje gerokai pagerėjo. Grįžtantieji parsiveža ne tik santaupų, bet ir patirties, užsienio kalbų žinių, kitokio požiūrio į darbą ar valdžią.
+
+  Vis dėlto sugrįžimas retai būna sklandus. Daugelis grįžusiųjų pasakoja, kad patyrė atvirkštinį kultūrinį šoką: tėvynė, kurią jie prisiminė, per dešimtmetį pasikeitė, o jie patys pasikeitė dar labiau. Vaikams, užaugusiems svetur, lietuviška mokykla kartais atrodo griežta ir svetima, be to, jiems ne visada lengva rašyti lietuviškai. Kai kurie prisipažįsta, kad nė vienoje iš dviejų šalių nebesijaučia visiškai savi.
+
+  Todėl vis dažniau sakoma, kad emigracijos nereikėtų vertinti vien kaip netekties. Žmonės, gyvenantys keliose šalyse ir jungiantys skirtingas kultūras, gali tapti tiltu tarp Lietuvos ir pasaulio – jeigu tik valstybė sugebės juos ne smerkti, o kviesti bendradarbiauti.
+glossary:
+  - { word: "praradimo", lemma: "praradimas", pos: noun, gender: m, gen: "praradimo", meaning: "потеря", note: "род. п." }
+  - { word: "įstojus", lemma: "įstoti", pos: verb, forms: { pres: "įstoja", past: "įstojo" }, meaning: "вступить", note: "деепр.: įstojus į ES — после вступления в ЕС" }
+  - { word: "išvykusiuosius", lemma: "išvykęs", pos: adj, meaning: "уехавший", note: "местоимённая форма прич., вин. п. мн. ч.: apie išvykusiuosius — об уехавших" }
+  - { word: "kalbėta", lemma: "kalbėti", pos: verb, forms: { pres: "kalba", past: "kalbėjo" }, meaning: "говорить", note: "безличный пассив: apie juos kalbėta — о них говорили" }
+  - { word: "priekaištu", lemma: "priekaištas", pos: noun, gender: m, gen: "priekaišto", meaning: "упрёк", note: "тв. п." }
+  - { word: "išdavę", lemma: "išduoti", pos: verb, forms: { pres: "išduoda", past: "išdavė" }, meaning: "предать; выдать", note: "tarsi būtų išdavę — как будто предали (сослагательное)" }
+  - { word: "išstūmė", lemma: "išstumti", pos: verb, forms: { pres: "išstumia", past: "išstūmė" }, meaning: "вытолкнуть" }
+  - { word: "išlaikyti", lemma: "išlaikyti", pos: verb, forms: { pres: "išlaiko", past: "išlaikė" }, meaning: "содержать (семью); сохранить; сдать (экзамен)" }
+  - { word: "Šeštadieninėse", lemma: "šeštadieninis", pos: adj, meaning: "субботний", note: "šeštadieninė mokykla — субботняя школа для детей эмигрантов" }
+  - { word: "tautinių", lemma: "tautinis", pos: adj, meaning: "национальный, народный", note: "tautiniai šokiai — народные танцы" }
+  - { word: "išsilaikys", lemma: "išsilaikyti", pos: verb, forms: { pres: "išsilaiko", past: "išsilaikė" }, meaning: "удержаться, сохраниться" }
+  - { word: "tapatybė", lemma: "tapatybė", pos: noun, gender: f, gen: "tapatybės", meaning: "идентичность" }
+  - { word: "nuspėti", lemma: "nuspėti", pos: verb, forms: { pres: "nuspėja", past: "nuspėjo" }, meaning: "предсказать, угадать" }
+  - { word: "atvykėlių", lemma: "atvykėlis", pos: noun, gender: m, gen: "atvykėlio", meaning: "приезжий", note: "род. п. мн. ч." }
+  - { word: "pasiilgę", lemma: "pasiilgti", pos: verb, forms: { pres: "pasiilgsta", past: "pasiilgo" }, meaning: "соскучиться", note: "+ род. п.: pasiilgę artimųjų — соскучившись по близким" }
+  - { word: "parsiveža", lemma: "parsivežti", pos: verb, forms: { pres: "parsiveža", past: "parsivežė" }, meaning: "привезти (с собой домой)" }
+  - { word: "santaupų", lemma: "santaupos", pos: noun, gender: f, gen: "santaupų", plural_only: true, meaning: "сбережения", note: "род. п. (часть чего-то): parsiveža santaupų" }
+  - { word: "sklandus", lemma: "sklandus", pos: adj, meaning: "гладкий, без проблем" }
+  - { word: "atvirkštinį", lemma: "atvirkštinis", pos: adj, meaning: "обратный", note: "вин. п." }
+  - { word: "svetur", lemma: "svetur", pos: adv, meaning: "на чужбине, за границей" }
+  - { word: "prisipažįsta", lemma: "prisipažinti", pos: verb, forms: { pres: "prisipažįsta", past: "prisipažino" }, meaning: "признаваться" }
+  - { word: "savi", lemma: "savas", pos: adj, meaning: "свой", note: "jaustis savam — чувствовать себя своим" }
+  - { word: "netekties", lemma: "netektis", pos: noun, gender: f, gen: "netekties", meaning: "утрата, потеря", note: "род. п. после отрицания: nevertinti kaip netekties" }
+  - { word: "jungiantys", lemma: "jungti", pos: verb, forms: { pres: "jungia", past: "jungė" }, meaning: "соединять", note: "прич. наст. вр., им. п. мн. ч." }
+  - { word: "smerkti", lemma: "smerkti", pos: verb, forms: { pres: "smerkia", past: "smerkė" }, meaning: "осуждать" }
+  - { word: "bendradarbiauti", lemma: "bendradarbiauti", pos: verb, forms: { pres: "bendradarbiauja", past: "bendradarbiavo" }, meaning: "сотрудничать" }
+questions:
+  - q: "Kaip, pasak autoriaus, ilgą laiką buvo kalbama apie emigrantus?"
+    options: ["Su priekaištu, nors dauguma išvyko dėl ekonominių priežasčių", "Su pavydu, nes jie daug uždirbdavo", "Apie juos beveik nekalbėta"]
+    answer: 0
+  - q: "Kokia problema minima kalbant apie antrąją emigrantų kartą?"
+    options: ["Jie nenori lankyti šeštadieninių mokyklų", "Lietuvių kalba jiems dažnai lieka tik bendravimo su tėvais kalba", "Jie neturi draugų užsienyje"]
+    answer: 1
+  - q: "Kokią išvadą daro autorius?"
+    options: ["Emigrantai turėtų negrįžti", "Grįžusieji visada greitai prisitaiko", "Emigrantai gali būti naudingi Lietuvai, jei valstybė į juos žiūrės kaip į partnerius"]
+    answer: 2

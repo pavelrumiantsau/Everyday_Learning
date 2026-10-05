@@ -62,7 +62,7 @@ pnpm setup:telegram   # re-run after adding/changing bot commands (updates the c
 - Wiktionary: use the batched API (50 titles per request) — one-page-per-request gets rate-limited to a crawl.
 - Gate pushes on `pnpm smoke`'s exit code. Commit only the files of the batch you made (`git add <paths>`), not `-A`, when other
   work is in progress.
-- The learner finds B1 texts too easy: new Lithuanian reading is B2; the app picks levels from the learner's easy/hard ratings.
+- The learner finds B1 and B2 texts too easy: new Lithuanian reading is C1 (Oct 2026); the app picks levels from the learner's easy/hard ratings.
 
 ## Working with sub-agents (lessons learned)
 - **Run at most 1–2 agents in parallel.** Five at once hit the session usage limit together and lost unsaved work.

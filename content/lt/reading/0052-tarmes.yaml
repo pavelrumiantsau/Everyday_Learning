@@ -1,0 +1,57 @@
+id: lt-r-0052
+cefr: C1
+title: "Tarmės: gėda ar turtas?"
+topic: "диалекты литовского языка"
+source: generated
+text: |
+  Dar prieš kelis dešimtmečius vaikas, atvykęs iš Žemaitijos į Vilniaus mokyklą, neretai susidurdavo su pašaipomis: jo kalba buvo laikoma netaisyklinga, net kaimietiška. Mokytojai stropiai taisydavo kiekvieną „neteisingą“ žodį, todėl daugelis tarmiškai kalbėjusių žmonių išmoko savo gimtosios šnektos gėdytis ir vartoti ją nebent namuose, tarp savųjų.
+
+  Šiandien požiūris pamažu keičiasi, tačiau tarmės nyksta greičiau nei bet kada anksčiau. Kalbininkai skiria dvi pagrindines lietuvių kalbos tarmes – aukštaičių ir žemaičių, o šios skyla į daugybę smulkesnių patarmių ir šnektų. Kai kurios jų skiriasi taip smarkiai, kad dzūkas ir šiaurės žemaitis, kalbėdami kiekvienas savaip, vienas kito kone nesuprastų.
+
+  Bendrinė kalba, kurios mokomasi mokykloje, susiformavo XIX a. pabaigoje – XX a. pradžioje, daugiausia remiantis vakarų aukštaičių, ypač suvalkiečių, šnektomis. Ji buvo būtina: tautai, neturėjusiai savo valstybės, be bendros normos būtų buvę sunku kurti spaudą, mokyklas ir mokslą. Vis dėlto, įtvirtinus normą, tarmės ilgainiui imtos vertinti kaip kažkas antraeilio.
+
+  Tarmių nykimą lemia ne vien mokykla. Kaimai tuštėja, jaunimas kraustosi į miestus ar emigruoja, o televizija ir internetas kasdien perša vienodą, standartizuotą kalbą. Kai miršta paskutiniai tam tikros šnektos vartotojai, kartu dingsta ir unikalūs žodžiai, posakiai, tarimo ypatybės – visa tai, ko neįmanoma visiškai atkurti iš įrašų.
+
+  Pastaraisiais metais vis dėlto pastebimas atgimimas. Kai kurie žemaičiai netgi įrodinėja, kad jų tarmė yra atskira kalba, rengiami tarmių konkursai, kuriamos dainos, net reklamos tarmiškai. Kalbininkai ragina nepriešinti bendrinės kalbos ir tarmės, o laikyti jas viena kitą papildančiomis: oficialioje aplinkoje kalbėti bendrine kalba, o šeimoje ar su kraštiečiais – taip, kaip kalbėjo seneliai.
+
+  Galbūt didžiausias pokytis įvyko ne įstatymuose, o žmonių galvose. Tarmiškai kalbantis žmogus vis rečiau sulaukia pašaipų ir vis dažniau – susidomėjimo. Lieka atviras klausimas, ar šis susidomėjimas nėra pavėluotas ir ar pavyks išsaugoti tai, kas dar išliko.
+glossary:
+  - { word: "pašaipomis", lemma: "pašaipa", pos: noun, gender: f, gen: "pašaipos", meaning: "насмешка", note: "тв. п. мн. ч.: susidurti su pašaipomis — сталкиваться с насмешками" }
+  - { word: "kaimietiška", lemma: "kaimietiškas", pos: adj, meaning: "деревенский", note: "тв. п. ж. р. после laikyti: laikoma kaimietiška — считалась деревенской" }
+  - { word: "stropiai", lemma: "stropiai", pos: adv, meaning: "старательно, усердно" }
+  - { word: "šnektos", lemma: "šnekta", pos: noun, gender: f, gen: "šnektos", meaning: "говор", note: "мельче, чем patarmė (наречие), а та — мельче, чем tarmė (диалект)" }
+  - { word: "gėdytis", lemma: "gėdytis", pos: verb, forms: { pres: "gėdijasi", past: "gėdijosi" }, meaning: "стыдиться", note: "+ род. п.: gėdytis šnektos" }
+  - { word: "nebent", lemma: "nebent", pos: part, meaning: "разве что, только" }
+  - { word: "nyksta", lemma: "nykti", pos: verb, forms: { pres: "nyksta", past: "nyko" }, meaning: "исчезать, вымирать" }
+  - { word: "skyla", lemma: "skilti", pos: verb, forms: { pres: "skyla", past: "skilo" }, meaning: "раскалываться, делиться" }
+  - { word: "patarmių", lemma: "patarmė", pos: noun, gender: f, gen: "patarmės", meaning: "наречие (часть диалекта)", note: "род. п. мн. ч." }
+  - { word: "savaip", lemma: "savaip", pos: adv, meaning: "по-своему" }
+  - { word: "kone", lemma: "kone", pos: adv, meaning: "почти, чуть ли не" }
+  - { word: "mokomasi", lemma: "mokytis", pos: verb, forms: { pres: "mokosi", past: "mokėsi" }, meaning: "учиться", note: "безличный пассив: kurios mokomasi — которую изучают (mokytis + род. п.)" }
+  - { word: "remiantis", lemma: "remtis", pos: verb, forms: { pres: "remiasi", past: "rėmėsi" }, meaning: "опираться, основываться", note: "деепр.: remiantis kuo (тв. п.) — на основе чего" }
+  - { word: "neturėjusiai", lemma: "turėti", pos: verb, forms: { pres: "turi", past: "turėjo" }, meaning: "иметь", note: "прич. прош. вр. с отрицанием, дат. п. ж. р.: tautai, neturėjusiai — народу, не имевшему" }
+  - { word: "įtvirtinus", lemma: "įtvirtinti", pos: verb, forms: { pres: "įtvirtina", past: "įtvirtino" }, meaning: "закрепить", note: "деепр.: įtvirtinus normą — когда норма была закреплена" }
+  - { word: "ilgainiui", lemma: "ilgainiui", pos: adv, meaning: "со временем, постепенно" }
+  - { word: "antraeilio", lemma: "antraeilis", pos: adj, meaning: "второстепенный", note: "kažkas antraeilio — нечто второстепенное (род. п.)" }
+  - { word: "lemia", lemma: "lemti", pos: verb, forms: { pres: "lemia", past: "lėmė" }, meaning: "определять, обусловливать" }
+  - { word: "tuštėja", lemma: "tuštėti", pos: verb, forms: { pres: "tuštėja", past: "tuštėjo" }, meaning: "пустеть" }
+  - { word: "perša", lemma: "piršti", pos: verb, forms: { pres: "perša", past: "piršo" }, meaning: "навязывать" }
+  - { word: "ypatybės", lemma: "ypatybė", pos: noun, gender: f, gen: "ypatybės", meaning: "особенность", note: "им. п. мн. ч." }
+  - { word: "atkurti", lemma: "atkurti", pos: verb, forms: { pres: "atkuria", past: "atkūrė" }, meaning: "восстановить, воссоздать" }
+  - { word: "atgimimas", lemma: "atgimimas", pos: noun, gender: m, gen: "atgimimo", meaning: "возрождение" }
+  - { word: "įrodinėja", lemma: "įrodinėti", pos: verb, forms: { pres: "įrodinėja", past: "įrodinėjo" }, meaning: "доказывать (настойчиво, многократно)" }
+  - { word: "nepriešinti", lemma: "priešinti", pos: verb, forms: { pres: "priešina", past: "priešino" }, meaning: "противопоставлять", note: "с отрицанием — род. п.: nepriešinti kalbos ir tarmės" }
+  - { word: "papildančiomis", lemma: "papildyti", pos: verb, forms: { pres: "papildo", past: "papildė" }, meaning: "дополнять", note: "прич. наст. вр., тв. п. мн. ч. ж. р.: laikyti jas viena kitą papildančiomis — считать дополняющими друг друга" }
+  - { word: "kraštiečiais", lemma: "kraštietis", pos: noun, gender: m, gen: "kraštiečio", meaning: "земляк", note: "тв. п. мн. ч." }
+  - { word: "sulaukia", lemma: "sulaukti", pos: verb, forms: { pres: "sulaukia", past: "sulaukė" }, meaning: "дождаться, получить (реакцию)", note: "+ род. п.: sulaukti pašaipų, susidomėjimo" }
+  - { word: "pavėluotas", lemma: "pavėluotas", pos: adj, meaning: "запоздалый" }
+questions:
+  - q: "Kodėl daugelis tarmiškai kalbėjusių žmonių ėmė vengti tarmės viešumoje?"
+    options: ["Nes mokykloje jų kalba buvo laikoma netaisyklinga ir iš jos šaipytasi", "Nes tarmiškai kalbėti buvo uždrausta įstatymu", "Nes jie patys nebesuprato savo tarmės"]
+    answer: 0
+  - q: "Kaip tekste vertinamas bendrinės kalbos susiformavimas?"
+    options: ["Kaip klaida, sunaikinusi tarmes", "Kaip būtinas žingsnis, nors vėliau dėl jo nukentėjo tarmių prestižas", "Kaip vien žemaičių nuopelnas"]
+    answer: 1
+  - q: "Kokią mintį autorius išsako pabaigoje?"
+    options: ["Tarmės jau visiškai išnyko", "Įstatymai išgelbėjo tarmes", "Požiūris į tarmes pagerėjo, bet neaišku, ar jas dar pavyks išsaugoti"]
+    answer: 2
