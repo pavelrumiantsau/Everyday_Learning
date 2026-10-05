@@ -1,0 +1,47 @@
+id: lt-r-0064
+cefr: C1
+title: "Ežerų kraštas po turistų antplūdžio"
+topic: "озёра Аукштайтии и туризм"
+source: generated
+text: |
+  Lietuvoje yra beveik trys tūkstančiai ežerų, didesnių nei pusė hektaro, o daugiausia jų – rytinėje šalies dalyje, Aukštaitijoje. Molėtų, Ignalinos, Zarasų apylinkės vasarą virsta poilsiautojų rojumi: miškų apsupti ežerai, kalvos, siauri keliukai, vedantys į sodybas, kurių kiemuose kūrenamos pirtys.
+
+  1974 metais čia įkurtas pirmasis Lietuvos nacionalinis parkas – Aukštaitijos. Jo tikslas buvo išsaugoti ne tik gamtą, bet ir tradicinius kaimus, senąją medinę architektūrą, vandens malūnus. Nuo Ladakalnio, vienos žinomiausių parko apžvalgos vietų, matyti keli ežerai vienu metu, ir šis vaizdas dažnai puikuojasi turizmo leidiniuose.
+
+  Tačiau populiarumas turi savo kainą. Savaitgaliais prie ežerų sunku rasti vietos automobiliui, paplūdimiuose lieka šiukšlių, o vakarais tylą drumsčia garsi muzika. Dar didesnė problema – statybos. Sklypai prie vandens brangsta, ir nors pakrantėse statyti griežtai ribojama, vis daugiau krantų atsiduria už privačių tvorų. Vietos gyventojai skundžiasi, kad prie ežero, kuriame vaikystėje maudydavosi, dabar nebegali prieiti.
+
+  Gamtininkai pabrėžia ir mažiau matomą žalą. Iš sodybų nuotekų ir laukų į ežerus patenka maisto medžiagų, todėl kai kurie ežerai pamažu užželia, o vanduo praranda skaidrumą. Iš tolo ežeras gali atrodyti gražus, bet jo ekosistema jau būna pažeista.
+
+  Ar įmanoma suderinti turizmą ir gamtos apsaugą? Kai kurios savivaldybės įrengia viešas maudyklas ir pažintinius takus, kad poilsiautojai nesirinktų bet kur ant kranto, o sodybų šeimininkai vis dažniau kalba apie lėtąjį turizmą: mažiau lankytojų, bet ilgesnės viešnagės ir daugiau pagarbos vietai. Galbūt tai vienintelis būdas, kad ežerų kraštas išliktų toks, dėl kurio į jį ir važiuojama.
+glossary:
+  - { word: "apylinkės", lemma: "apylinkė", pos: noun, gender: f, gen: "apylinkės", meaning: "окрестность", note: "им. п. мн. ч." }
+  - { word: "poilsiautojų", lemma: "poilsiautojas", pos: noun, gender: m, gen: "poilsiautojo", meaning: "отдыхающий", note: "род. п. мн. ч." }
+  - { word: "apsupti", lemma: "apsuptas", pos: adj, meaning: "окружённый", note: "miškų apsupti ežerai — озёра, окружённые лесами" }
+  - { word: "kūrenamos", lemma: "kūrenti", pos: verb, forms: { pres: "kūrena", past: "kūreno" }, meaning: "топить (печь, баню)", note: "пассивное прич. наст. вр., ж. р. мн. ч." }
+  - { word: "įkurtas", lemma: "įkurti", pos: verb, forms: { pres: "įkuria", past: "įkūrė" }, meaning: "основать", note: "пассивное прич.: įkurtas — основан" }
+  - { word: "apžvalgos", lemma: "apžvalga", pos: noun, gender: f, gen: "apžvalgos", meaning: "обзор", note: "apžvalgos vieta — смотровая площадка" }
+  - { word: "puikuojasi", lemma: "puikuotis", pos: verb, forms: { pres: "puikuojasi", past: "puikavosi" }, meaning: "красоваться" }
+  - { word: "leidiniuose", lemma: "leidinys", pos: noun, gender: m, gen: "leidinio", meaning: "издание", note: "мест. п. мн. ч." }
+  - { word: "drumsčia", lemma: "drumsti", pos: verb, forms: { pres: "drumsčia", past: "drumstė" }, meaning: "нарушать (тишину), мутить" }
+  - { word: "Sklypai", lemma: "sklypas", pos: noun, gender: m, gen: "sklypo", meaning: "участок (земли)", note: "им. п. мн. ч." }
+  - { word: "atsiduria", lemma: "atsidurti", pos: verb, forms: { pres: "atsiduria", past: "atsidūrė" }, meaning: "оказаться" }
+  - { word: "tvorų", lemma: "tvora", pos: noun, gender: f, gen: "tvoros", meaning: "забор", note: "род. п. мн. ч." }
+  - { word: "Gamtininkai", lemma: "gamtininkas", pos: noun, gender: m, gen: "gamtininko", meaning: "натуралист, защитник природы", note: "им. п. мн. ч." }
+  - { word: "žalą", lemma: "žala", pos: noun, gender: f, gen: "žalos", meaning: "вред, ущерб", note: "вин. п." }
+  - { word: "užželia", lemma: "užželti", pos: verb, forms: { pres: "užželia", past: "užželė" }, meaning: "зарастать" }
+  - { word: "skaidrumą", lemma: "skaidrumas", pos: noun, gender: m, gen: "skaidrumo", meaning: "прозрачность", note: "вин. п." }
+  - { word: "suderinti", lemma: "suderinti", pos: verb, forms: { pres: "suderina", past: "suderino" }, meaning: "совместить, согласовать" }
+  - { word: "savivaldybės", lemma: "savivaldybė", pos: noun, gender: f, gen: "savivaldybės", meaning: "самоуправление, муниципалитет", note: "им. п. мн. ч." }
+  - { word: "maudyklas", lemma: "maudykla", pos: noun, gender: f, gen: "maudyklos", meaning: "место для купания, пляж", note: "вин. п. мн. ч." }
+  - { word: "pažintinius", lemma: "pažintinis", pos: adj, meaning: "познавательный", note: "pažintinis takas — экологическая тропа" }
+  - { word: "viešnagės", lemma: "viešnagė", pos: noun, gender: f, gen: "viešnagės", meaning: "пребывание в гостях", note: "им. п. мн. ч." }
+questions:
+  - q: "Ką, be gamtos, siekta išsaugoti įkūrus Aukštaitijos nacionalinį parką?"
+    options: ["Tradicinius kaimus, medinę architektūrą ir vandens malūnus", "Didelius viešbučius prie ežerų", "Sovietmečio poilsio namus"]
+    answer: 0
+  - q: "Kuo skundžiasi vietos gyventojai?"
+    options: ["Kad į regioną atvyksta per mažai turistų", "Kad privačios tvoros vis dažniau užtveria kelią prie ežerų", "Kad ežeruose per šaltas vanduo"]
+    answer: 1
+  - q: "Ką reiškia lėtasis turizmas, apie kurį kalba sodybų šeimininkai?"
+    options: ["Keliones į ežerų kraštą tik pėsčiomis", "Kuo daugiau lankytojų trumpam laikui", "Mažiau lankytojų, ilgesnes viešnages ir pagarbą vietai"]
+    answer: 2

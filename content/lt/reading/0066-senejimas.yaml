@@ -1,0 +1,47 @@
+id: lt-r-0066
+cefr: C1
+title: "Senstanti visuomenė"
+topic: "старение общества и пенсии"
+source: generated
+text: |
+  Lietuvos visuomenė sensta sparčiau nei daugumos Europos šalių. Gimstamumas mažas, jauni žmonės dažnai išvyksta, o vidutinė gyvenimo trukmė, nors ir lėtai, ilgėja. Jau maždaug kas penktas gyventojas yra vyresnis nei šešiasdešimt penkerių metų, ir ši dalis toliau didės.
+
+  Pensijų sistema tokiems pokyčiams buvo menkai pasirengusi. Dabartiniams pensininkams pensijos mokamos iš dirbančiųjų įmokų, todėl kuo mažiau dirbančiųjų tenka vienam pensininkui, tuo sunkiau sistemai išsilaikyti. Dėl to pensinis amžius buvo palaipsniui keliamas ir šiais metais pasiekė šešiasdešimt penkerius metus tiek vyrams, tiek moterims.
+
+  Be to, nuo 2019 metų jaunesni nei keturiasdešimties metų dirbantieji automatiškai įtraukiami į antrosios pakopos pensijų kaupimą: dalis atlyginimo kaupiama asmeninėje sąskaitoje, o valstybė prideda nedidelę paskatą. Žmogus gali atsisakyti, tačiau daugelis lieka sistemoje, net gerai nesuprasdami, kaip ji veikia.
+
+  Ekonomistai pabrėžia, kad senėjimas – ne vien finansų klausimas. Vyresnio amžiaus žmonės galėtų ilgiau likti darbo rinkoje, tačiau jiems dažnai trukdo darbdavių stereotipai ir menkos galimybės persikvalifikuoti. Kita vertus, vis daugiau senjorų lanko trečiojo amžiaus universitetus, mokosi kalbų, keliauja – senatvė pamažu nustoja būti vien ramybės ir laukimo metais.
+
+  Tikriausiai svarbiausias klausimas – solidarumas tarp kartų. Jaunimas baiminasi, kad mokės už kitų pensijas, o pats senatvėje gaus mažai. Vyresnieji primena, kad būtent jie kūrė šalį sunkiausiais metais. Atsakymas, matyt, ne vienos kartos pergalė, o susitarimas, kurį visuomenei teks nuolat atnaujinti.
+glossary:
+  - { word: "sensta", lemma: "senti", pos: verb, forms: { pres: "sensta", past: "seno" }, meaning: "стареть" }
+  - { word: "Gimstamumas", lemma: "gimstamumas", pos: noun, gender: m, gen: "gimstamumo", meaning: "рождаемость" }
+  - { word: "menkai", lemma: "menkai", pos: adv, meaning: "слабо, плохо" }
+  - { word: "pasirengusi", lemma: "pasirengti", pos: verb, forms: { pres: "pasirengia", past: "pasirengė" }, meaning: "подготовиться", note: "прич. прош. вр., ж. р.: buvo pasirengusi — была готова" }
+  - { word: "įmokų", lemma: "įmoka", pos: noun, gender: f, gen: "įmokos", meaning: "взнос", note: "род. п. мн. ч." }
+  - { word: "dirbančiųjų", lemma: "dirbantysis", pos: noun, gender: m, gen: "dirbančiojo", meaning: "работающий", note: "род. п. мн. ч. (местоимённая форма прич.)" }
+  - { word: "pensinis", lemma: "pensinis", pos: adj, meaning: "пенсионный", note: "pensinis amžius — пенсионный возраст" }
+  - { word: "palaipsniui", lemma: "palaipsniui", pos: adv, meaning: "постепенно" }
+  - { word: "įtraukiami", lemma: "įtraukti", pos: verb, forms: { pres: "įtraukia", past: "įtraukė" }, meaning: "включить, вовлечь", note: "пассивное прич. наст. вр., мн. ч." }
+  - { word: "pakopos", lemma: "pakopa", pos: noun, gender: f, gen: "pakopos", meaning: "ступень", note: "antroji pakopa — вторая ступень (накопительная пенсия)" }
+  - { word: "kaupimą", lemma: "kaupimas", pos: noun, gender: m, gen: "kaupimo", meaning: "накопление", note: "вин. п." }
+  - { word: "paskatą", lemma: "paskata", pos: noun, gender: f, gen: "paskatos", meaning: "стимул, поощрение", note: "вин. п." }
+  - { word: "atsisakyti", lemma: "atsisakyti", pos: verb, forms: { pres: "atsisako", past: "atsisakė" }, meaning: "отказаться", note: "+ род. п." }
+  - { word: "senėjimas", lemma: "senėjimas", pos: noun, gender: m, gen: "senėjimo", meaning: "старение" }
+  - { word: "trukdo", lemma: "trukdyti", pos: verb, forms: { pres: "trukdo", past: "trukdė" }, meaning: "мешать", note: "кому — дат. п." }
+  - { word: "senjorų", lemma: "senjoras", pos: noun, gender: m, gen: "senjoro", meaning: "пожилой человек, пенсионер", note: "род. п. мн. ч." }
+  - { word: "senatvė", lemma: "senatvė", pos: noun, gender: f, gen: "senatvės", meaning: "старость" }
+  - { word: "solidarumas", lemma: "solidarumas", pos: noun, gender: m, gen: "solidarumo", meaning: "солидарность" }
+  - { word: "baiminasi", lemma: "baimintis", pos: verb, forms: { pres: "baiminasi", past: "baiminosi" }, meaning: "опасаться" }
+  - { word: "pergalė", lemma: "pergalė", pos: noun, gender: f, gen: "pergalės", meaning: "победа" }
+  - { word: "atnaujinti", lemma: "atnaujinti", pos: verb, forms: { pres: "atnaujina", past: "atnaujino" }, meaning: "обновлять, возобновлять" }
+questions:
+  - q: "Kodėl dabartinei pensijų sistemai sunku išsilaikyti?"
+    options: ["Nes pensijos mokamos iš dirbančiųjų įmokų, o dirbančiųjų vienam pensininkui tenka vis mažiau", "Nes pensininkai nemoka mokesčių", "Nes pensinis amžius buvo sumažintas"]
+    answer: 0
+  - q: "Kas tekste kritiškai pastebima apie antrosios pakopos kaupimą?"
+    options: ["Kad jis privalomas visiems be išimčių", "Kad daugelis jame lieka net gerai nesuprasdami, kaip jis veikia", "Kad valstybė į jį nieko neprideda"]
+    answer: 1
+  - q: "Kokią išvadą daro autorius?"
+    options: ["Jaunimas turėtų atsisakyti mokėti įmokas", "Vyresnieji turėtų dirbti iki aštuoniasdešimties", "Kartų solidarumas – tai susitarimas, kurį reikia nuolat atnaujinti"]
+    answer: 2

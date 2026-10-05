@@ -1,0 +1,47 @@
+id: lt-r-0065
+cefr: C1
+title: "Miestas žmonėms ar automobiliams?"
+topic: "машины, велосипеды и общественный транспорт"
+source: generated
+text: |
+  Dar prieš dvidešimt metų dviratininkas Vilniaus centre buvo retas reiškinys, o dviračių takų beveik nebuvo. Šiandien sostinėje ir kituose didžiuosiuose miestuose takų tinklas kasmet plečiasi, gatvėse zuja elektriniai paspirtukai, o į kai kurias senamiesčio gatves automobiliams įvažiuoti apskritai ribojama.
+
+  Vis dėlto automobilis daugeliui lietuvių tebėra savotiškas laisvės ir statuso simbolis. Sovietmečiu jo tekdavo laukti metų metus, todėl nuosava mašina ilgai buvo laikoma tikru pasiekimu. Šiandien keliuose daug senų, iš Vakarų Europos atvežtų automobilių, kurie teršia orą labiau nei naujesni.
+
+  Miestų planuotojai pabrėžia paradoksą: kuo daugiau plačių gatvių nutiesiama, tuo daugiau automobilių jomis važinėja. Spūstys nemažėja, tik persikelia kitur. Todėl vis daugiau Europos miestų renkasi priešingą kelią – siaurina eismo juostas, įrengia atskiras juostas autobusams, brangina automobilių stovėjimą centre ir investuoja į viešąjį transportą.
+
+  Tokie sprendimai Lietuvoje sukelia karštų ginčų. Vairuotojai piktinasi, kad jiems sąmoningai gadinamas gyvenimas, ypač tiems, kurie gyvena priemiesčiuose, kur autobusai kursuoja retai, o iki darbo – keliolika kilometrų. Dviračių šalininkai atsako, kad miestas turi būti kuriamas žmonėms, o ne mašinoms, ir kad saugesnės gatvės naudingos visiems – nuo vaikų iki senjorų.
+
+  Akivaizdu, kad vien draudimais žmonių įpročių nepakeisi. Kad žmogus paliktų automobilį namie, alternatyva turi būti iš tiesų patogi: autobusas – dažnas ir punktualus, dviračių takas – nenutrūkstantis ir saugus. Kol to nėra, didžioji dalis gyventojų ir toliau rinksis vairą, net jei teks valandą sėdėti spūstyje.
+glossary:
+  - { word: "dviratininkas", lemma: "dviratininkas", pos: noun, gender: m, gen: "dviratininko", meaning: "велосипедист" }
+  - { word: "tinklas", lemma: "tinklas", pos: noun, gender: m, gen: "tinklo", meaning: "сеть" }
+  - { word: "zuja", lemma: "zuiti", pos: verb, forms: { pres: "zuja", past: "zujo" }, meaning: "сновать, носиться туда-сюда" }
+  - { word: "paspirtukai", lemma: "paspirtukas", pos: noun, gender: m, gen: "paspirtuko", meaning: "самокат", note: "им. п. мн. ч." }
+  - { word: "tebėra", lemma: "tebebūti", pos: verb, forms: { pres: "tebėra", past: "tebebuvo" }, meaning: "всё ещё быть", note: "te(be)- — всё ещё: tebėra — всё ещё является" }
+  - { word: "tekdavo", lemma: "tekti", pos: verb, forms: { pres: "tenka", past: "teko" }, meaning: "приходиться", note: "прош. многократное: jo tekdavo laukti — его приходилось ждать" }
+  - { word: "pasiekimu", lemma: "pasiekimas", pos: noun, gender: m, gen: "pasiekimo", meaning: "достижение", note: "тв. п. после laikyti" }
+  - { word: "teršia", lemma: "teršti", pos: verb, forms: { pres: "teršia", past: "teršė" }, meaning: "загрязнять" }
+  - { word: "planuotojai", lemma: "planuotojas", pos: noun, gender: m, gen: "planuotojo", meaning: "планировщик", note: "miestų planuotojai — градостроители" }
+  - { word: "nutiesiama", lemma: "nutiesti", pos: verb, forms: { pres: "nutiesia", past: "nutiesė" }, meaning: "проложить (дорогу)", note: "безличный пассив: kuo daugiau gatvių nutiesiama — чем больше улиц прокладывают" }
+  - { word: "Spūstys", lemma: "spūstis", pos: noun, gender: f, gen: "spūsties", meaning: "пробка (на дороге)", note: "им. п. мн. ч." }
+  - { word: "siaurina", lemma: "siaurinti", pos: verb, forms: { pres: "siaurina", past: "siaurino" }, meaning: "сужать" }
+  - { word: "juostas", lemma: "juosta", pos: noun, gender: f, gen: "juostos", meaning: "полоса", note: "eismo juosta — полоса движения; вин. п. мн. ч." }
+  - { word: "brangina", lemma: "branginti", pos: verb, forms: { pres: "brangina", past: "brangino" }, meaning: "делать дороже; ценить" }
+  - { word: "stovėjimą", lemma: "stovėjimas", pos: noun, gender: m, gen: "stovėjimo", meaning: "стоянка", note: "automobilių stovėjimas — парковка" }
+  - { word: "gadinamas", lemma: "gadinti", pos: verb, forms: { pres: "gadina", past: "gadino" }, meaning: "портить", note: "пассивное прич. наст. вр.: gyvenimas gadinamas — жизнь портят" }
+  - { word: "priemiesčiuose", lemma: "priemiestis", pos: noun, gender: m, gen: "priemiesčio", meaning: "пригород", note: "мест. п. мн. ч." }
+  - { word: "kursuoja", lemma: "kursuoti", pos: verb, forms: { pres: "kursuoja", past: "kursavo" }, meaning: "курсировать" }
+  - { word: "keliolika", lemma: "keliolika", pos: num, meaning: "несколько (от 11 до 19), десяток с лишним" }
+  - { word: "nenutrūkstantis", lemma: "nenutrūkstantis", pos: adj, meaning: "непрерывный" }
+  - { word: "vairą", lemma: "vairas", pos: noun, gender: m, gen: "vairo", meaning: "руль", note: "rinktis vairą — выбирать машину (букв. руль)" }
+questions:
+  - q: "Kodėl, pasak teksto, automobilis daugeliui lietuvių tebėra statuso simbolis?"
+    options: ["Nes sovietmečiu jo tekdavo ilgai laukti ir jis buvo laikomas pasiekimu", "Nes automobiliai Lietuvoje labai pigūs", "Nes viešojo transporto Lietuvoje nėra"]
+    answer: 0
+  - q: "Kokį paradoksą mini miestų planuotojai?"
+    options: ["Kuo daugiau dviračių takų, tuo daugiau automobilių", "Kuo daugiau plačių gatvių, tuo daugiau automobilių, o spūstys nemažėja", "Kuo brangesnis stovėjimas, tuo daugiau žmonių važiuoja į centrą"]
+    answer: 1
+  - q: "Kokią sąlygą autorius laiko būtina, kad žmonės paliktų automobilį namie?"
+    options: ["Griežtesnius draudimus vairuotojams", "Naujų automobilių mokestį", "Iš tiesų patogią alternatyvą – dažnus autobusus ir saugius takus"]
+    answer: 2

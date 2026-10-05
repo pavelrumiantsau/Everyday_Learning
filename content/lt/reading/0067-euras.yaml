@@ -1,0 +1,44 @@
+id: lt-r-0067
+cefr: C1
+title: "Atsisveikinimas su litu"
+topic: "евро в Литве спустя десять лет"
+source: generated
+text: |
+  2015 metų sausio 1-ąją Lietuva tapo devynioliktąja euro zonos nare ir paskutinė iš Baltijos šalių įsivedė bendrą Europos valiutą. Daugiau nei dvidešimt metų galiojęs litas buvo daugiau nei pinigai: jis simbolizavo atkurtą valstybę ir sunkiai iškovotą stabilumą.
+
+  Prieš įvedant eurą visuomenė buvo susiskaldžiusi. Šalininkai kalbėjo apie mažesnes skolinimosi palūkanas, patogumą keliaujant ir tvirtesnius ryšius su Vakarais. Skeptikai baiminosi, kad prekybininkai pasinaudos proga ir suapvalins kainas aukštyn. Iš dalies taip ir nutiko: kai kurių paslaugų, pavyzdžiui, kavinių ir kirpyklų, kainos šoktelėjo, nors bendra infliacija tais metais buvo nedidelė.
+
+  Iš tiesų litas jau seniai buvo susietas su euru fiksuotu kursu, todėl savarankiškos pinigų politikos Lietuva neturėjo ir anksčiau. Įvedus eurą, bent jau įgyta balso teisė: Lietuvos banko vadovas dalyvauja priimant Europos centrinio banko sprendimus, o ne tik jiems paklūsta.
+
+  Didžiausias išbandymas atėjo 2022 metais, kai kainos per metus išaugo beveik penktadaliu – labiau nei daugelyje kitų euro zonos šalių. Kai kas tuomet vėl prisiminė litą ir ėmė svarstyti, ar su savo valiuta nebūtų buvę lengviau. Dauguma ekonomistų atsakė neigiamai: infliaciją lėmė energijos kainų šuolis ir karas, o ne valiuta, be to, maža šalis su savo pinigais tokiu metu būtų buvusi dar labiau pažeidžiama.
+
+  Šiandien daugeliui jaunų žmonių litas – tik vaikystės prisiminimas, o kelionės po Europą be valiutos keitimo atrodo savaime suprantamos. Ginčai dėl euro nurimo, tačiau jie primena paprastą tiesą: pinigai nėra vien ekonomika – tai ir tapatybės, ir pasitikėjimo klausimas.
+glossary:
+  - { word: "valiutą", lemma: "valiuta", pos: noun, gender: f, gen: "valiutos", meaning: "валюта", note: "вин. п." }
+  - { word: "galiojęs", lemma: "galioti", pos: verb, forms: { pres: "galioja", past: "galiojo" }, meaning: "действовать, быть в силе", note: "прич. прош. вр., м. р.: galiojęs litas — действовавший лит" }
+  - { word: "iškovotą", lemma: "iškovoti", pos: verb, forms: { pres: "iškovoja", past: "iškovojo" }, meaning: "завоевать, добиться", note: "пассивное прич., вин. п. м. р." }
+  - { word: "susiskaldžiusi", lemma: "susiskaldyti", pos: verb, forms: { pres: "susiskaldo", past: "susiskaldė" }, meaning: "расколоться", note: "прич. прош. вр., ж. р.: visuomenė buvo susiskaldžiusi — общество было расколото" }
+  - { word: "palūkanas", lemma: "palūkanos", pos: noun, gender: f, gen: "palūkanų", plural_only: true, meaning: "проценты (по кредиту)", note: "вин. п." }
+  - { word: "suapvalins", lemma: "suapvalinti", pos: verb, forms: { pres: "suapvalina", past: "suapvalino" }, meaning: "округлить" }
+  - { word: "nutiko", lemma: "nutikti", pos: verb, forms: { pres: "nutinka", past: "nutiko" }, meaning: "случиться" }
+  - { word: "kirpyklų", lemma: "kirpykla", pos: noun, gender: f, gen: "kirpyklos", meaning: "парикмахерская", note: "род. п. мн. ч." }
+  - { word: "susietas", lemma: "susieti", pos: verb, forms: { pres: "susieja", past: "susiejo" }, meaning: "связать, привязать", note: "пассивное прич.: susietas su euru — привязан к евро" }
+  - { word: "kursu", lemma: "kursas", pos: noun, gender: m, gen: "kurso", meaning: "курс", note: "тв. п.: fiksuotu kursu — по фиксированному курсу" }
+  - { word: "savarankiškos", lemma: "savarankiškas", pos: adj, meaning: "самостоятельный", note: "род. п. после отрицания" }
+  - { word: "įgyta", lemma: "įgyti", pos: verb, forms: { pres: "įgyja", past: "įgijo" }, meaning: "приобрести, получить", note: "пассивное прич., ж. р.: įgyta balso teisė — получено право голоса" }
+  - { word: "paklūsta", lemma: "paklusti", pos: verb, forms: { pres: "paklūsta", past: "pakluso" }, meaning: "подчиняться", note: "+ дат. п." }
+  - { word: "penktadaliu", lemma: "penktadalis", pos: noun, gender: m, gen: "penktadalio", meaning: "пятая часть", note: "тв. п.: išaugo penktadaliu — выросли на пятую часть" }
+  - { word: "neigiamai", lemma: "neigiamai", pos: adv, meaning: "отрицательно" }
+  - { word: "šuolis", lemma: "šuolis", pos: noun, gender: m, gen: "šuolio", meaning: "скачок, прыжок" }
+  - { word: "pažeidžiama", lemma: "pažeidžiamas", pos: adj, meaning: "уязвимый", note: "ж. р.: būtų buvusi pažeidžiama — была бы уязвима" }
+  - { word: "nurimo", lemma: "nurimti", pos: verb, forms: { pres: "nurimsta", past: "nurimo" }, meaning: "утихнуть, успокоиться" }
+questions:
+  - q: "Kodėl, pasak teksto, įvedus eurą Lietuva neprarado savarankiškos pinigų politikos?"
+    options: ["Nes litas jau seniai buvo susietas su euru fiksuotu kursu", "Nes Lietuvos bankas gali spausdinti eurus", "Nes euras įvestas tik iš dalies"]
+    answer: 0
+  - q: "Kas nutiko su kainomis įvedus eurą?"
+    options: ["Visos kainos sumažėjo", "Kai kurių paslaugų kainos šoktelėjo, nors bendra infliacija buvo nedidelė", "Kainos padvigubėjo"]
+    answer: 1
+  - q: "Kaip dauguma ekonomistų aiškino 2022 metų infliaciją?"
+    options: ["Ją sukėlė euras", "Ją sukėlė per mažos pensijos", "Ją lėmė energijos kainų šuolis ir karas, o ne valiuta"]
+    answer: 2
