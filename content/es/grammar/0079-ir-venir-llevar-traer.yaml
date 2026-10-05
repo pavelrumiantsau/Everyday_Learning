@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0079
+cefr: A2
+order: 79
+title: "¡Ya voy!, ven aquí, tráeme, te llevo: ir or venir, llevar or traer"
+explanation:
+  en: |
+    Spanish chooses the verb by **where the speaker is**:
+
+    ***venir*** — come **here**, to where I am (now or then): *¡**Ven** aquí!* *¿**Vienes** a mi fiesta?* (it's at my place)
+    ***ir*** — go **anywhere else**, also **to you**: *Mañana **voy** a Sevilla.* *¿Puedo **ir** a tu casa?*
+    - So "I'm coming!" (to you) is ***¡Ya voy!*** — not ~~¡Ya vengo!~~ (that means "I'll be back").
+
+    ***traer*** — bring **here**, towards me: ***Tráeme** las gafas.* *Cuando vengas, **trae** vino.*
+    ***llevar*** — take **there**, away from here: *Te **llevo** a casa.* — I'll take you home. *Le **llevo** flores a mi abuela.*
+
+    Forms of ***traer***: *trai**go**, traes, trae…*; preterite *tra**je**, trajiste, trajo, trajimos, trajeron*; participle *traído*.
+    ***venir***: *vengo, vienes…*; preterite *vine, viniste, vino*; command *ven*.
+
+    ***llevar*** has other meanings too: wear (*Lleva gafas.*), carry, and time (*Llevo dos años aquí*, lesson 45).
+comparison:
+  en: |
+    English "I'm coming" (to you) and "Can I come to your place?" use *come* from the listener's point of view; Spanish uses ***ir*** there: *¡Ya voy!*, *¿Puedo ir a tu casa?* Russian «приходить / уходить», «приносить / уносить» work like Spanish: *venir* ≈ «прийти сюда», *traer* ≈ «принести», *llevar* ≈ «отнести, отвезти».
+examples:
+  - { text: "¡Ya voy!", translation: "I'm coming!", source: "tatoeba:1391633" }
+  - { text: "¡Ven aquí!", translation: "Come here!", source: "tatoeba:875104" }
+  - { text: "¿Vendrás a verme?", translation: "Will you come and see me?", source: "tatoeba:1415272" }
+  - { text: "Te llevaré a casa.", translation: "I'll take you home.", source: "tatoeba:541124" }
+  - { text: "Tráeme mis gafas.", translation: "Bring me my glasses.", source: "tatoeba:482571" }
+exercises:
+  - type: cloze
+    text: "¡La cena está lista! — ¡Ya ___!"
+    answer: "voy"
+    hint: "I'm coming (to you)"
+    translation: "Dinner's ready! — I'm coming!"
+  - type: cloze
+    text: "¿___ a mi fiesta el sábado?"
+    answer: "Vienes"
+    also: ["Vendrás"]
+    hint: "come — to my place (tú)"
+    translation: "Are you coming to my party on Saturday?"
+  - type: cloze
+    text: "Mañana ___ a Sevilla en tren."
+    answer: "voy"
+    hint: "go — yo, present"
+    translation: "Tomorrow I'm going to Seville by train."
+  - type: cloze
+    text: "Cuando vengas a mi casa, ___ tus fotos."
+    answer: "trae"
+    hint: "bring (tú) — to me"
+    translation: "When you come to my house, bring your photos."
+  - type: cloze
+    text: "¿Quieres que te ___ al aeropuerto?"
+    answer: "lleve"
+    hint: "take — yo, subjunctive"
+    translation: "Do you want me to take you to the airport?"
+  - type: cloze
+    text: "Voy a casa de Ana; le ___ unas flores."
+    answer: "llevo"
+    hint: "take (there) — yo"
+    translation: "I'm going to Ana's; I'm taking her some flowers."
+  - type: cloze
+    text: "Ayer mi hermano me ___ un regalo de Italia."
+    answer: "trajo"
+    hint: "traer — preterite (él)"
+    translation: "Yesterday my brother brought me a present from Italy."
+  - type: cloze
+    text: "¿Puedo ir a tu casa? — Sí, ___ cuando quieras."
+    answer: "ven"
+    hint: "come (tú) — command"
+    translation: "Can I come to your place? — Yes, come whenever you like."
