@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0030
+cefr: A2
+order: 120
+title: "Object pronouns: je le vois, je lui parle"
+explanation:
+  en: |
+    **Direct object** (no preposition — *voir qqn, aimer qqch*):
+    - *me, te, **le** (him, it), **la** (her, it), nous, vous, **les** (them)*; *le / la* → ***l'*** before a vowel
+    - *Tu vois Paul ? — Oui, je **le** vois.* *La lettre ? Je **l'**ai lue.*
+
+    **Indirect object** (replaces ***à** + person* — *parler à, téléphoner à, dire à, donner à, écrire à*):
+    - *me, te, **lui** (him or her), nous, vous, **leur** (them)*
+    - *Je parle à Marie. → Je **lui** parle.* *Je téléphone à mes parents. → Je **leur** téléphone.*
+    - *leur* as a pronoun never takes *-s*
+
+    **Place — before the verb** (unlike English):
+    - present: *Je **le** vois. Je ne **le** vois pas.*
+    - passé composé — before *avoir / être*: *Je **l'**ai vu. Je ne **lui** ai pas parlé.*
+    - verb + infinitive — before the infinitive: *Je vais **le** faire. Je peux **lui** parler.*
+    - (the affirmative imperative is the exception: *Aide-moi*, see the imperative lesson)
+
+    **Agreement:** a direct object pronoun placed before *avoir* makes the participle agree: *Je l'ai vu**e**.* (her) *Les clés ? Je les ai trouvé**es**.* — indirect *lui / leur* never cause agreement.
+comparison:
+  en: |
+    Placement is as in Spanish (*lo veo, le hablo, voy a hacerlo* = *je vais le faire*), but *lui / leur* never turn into *se* the way Spanish *le* does in *se lo doy*. Watch verbs that take a different object than in Russian: ***aider** qqn* — direct: *je **l'**aide* («помогаю ему»); ***téléphoner à** qqn* — indirect: *je **lui** téléphone* («звоню ему»); *écouter, regarder, attendre* are direct: *je l'attends* (I'm waiting **for** him).
+examples:
+  - { text: "Je les aime.", translation: "I like them.", source: "tatoeba:888767" }
+  - { text: "Je l'ai vue.", translation: "I saw her.", source: "tatoeba:11615531" }
+  - { text: "Je lui téléphone.", translation: "I'm calling him.", source: "tatoeba:4320567" }
+  - { text: "Je leur ai tout dit.", translation: "I told them everything.", source: "tatoeba:1984928" }
+  - { text: "Je peux le faire.", translation: "I can do it.", source: "tatoeba:998651" }
+exercises:
+  - type: cloze
+    text: "Tu connais Marie ? — Oui, je ___ connais bien."
+    answer: "la"
+    hint: "her — direct (connaître qqn)"
+    translation: "Do you know Marie? — Yes, I know her well."
+  - type: cloze
+    text: "Où sont mes clés ? Je ne ___ trouve pas."
+    answer: "les"
+    hint: "them — direct"
+    translation: "Where are my keys? I can't find them."
+  - type: cloze
+    text: "J'appelle ma sœur et je ___ dis bonjour."
+    answer: "lui"
+    hint: "to her — dire à qqn"
+    translation: "I call my sister and say hello to her."
+  - type: cloze
+    text: "Mes parents ? Je ___ téléphone tous les dimanches."
+    answer: "leur"
+    hint: "to them — téléphoner à qqn"
+    translation: "My parents? I call them every Sunday."
+  - type: cloze
+    text: "Ce film ? Je l'ai déjà ___."
+    answer: "vu"
+    hint: "voir, participle — le film (m)"
+    translation: "That film? I've already seen it."
+  - type: cloze
+    text: "La lettre ? Je l'ai ___ hier."
+    answer: "écrite"
+    hint: "écrire, participle — agrees with la lettre"
+    translation: "The letter? I wrote it yesterday."
+  - type: cloze
+    text: "Ce gâteau ? Je vais ___ manger ce soir."
+    answer: "le"
+    hint: "it — before the infinitive"
+    translation: "This cake? I'm going to eat it tonight."
+  - type: cloze
+    text: "Les enfants ? Je ___ aide avec leurs devoirs."
+    answer: "les"
+    hint: "them — aider qqn is direct"
+    translation: "The children? I help them with their homework."
