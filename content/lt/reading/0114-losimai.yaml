@@ -1,0 +1,45 @@
+id: lt-r-0114
+cefr: C1
+title: "Reklamoje visada laimima"
+topic: "азартные игры и реклама ставок"
+source: generated
+text: |
+  Dar neseniai krepšinio transliacijų pertraukos atrodė panašiai: jaunas, sėkmingas vyras su telefonu rankoje džiaugsmingai šaukia, nes ką tik laimėjo lažybas. Reklamų kūrėjai puikiai žinojo, kam jos skirtos, – jauniems vyrams, kurie aistringai seka sportą ir mano jį išmaną geriau už kitus.
+
+  Lošimų ir lažybų bendrovės ilgą laiką buvo vienos dosniausių sporto rėmėjų. Jų logotipai puikavosi ant sportininkų marškinėlių ir arenų sienose, o lažinimasis buvo pateikiamas kaip natūrali aistringo sirgaliaus gyvenimo dalis. Taip ilgainiui susiformavo įspūdis, kad lažintis – tai ne rizika, o savotiškas pomėgis, net intelektinis žaidimas.
+
+  Tačiau su priklausomybėmis dirbantys specialistai piešia kitokį vaizdą. Internetu lošti galima bet kada ir bet kur, todėl azartas lengvai virsta priklausomybe, o ši – skolomis, melu artimiesiems ir sugriautomis šeimomis. Dažnai pamirštama, kad lošimų verslas iš esmės gyvena iš pralaimėjusiųjų: kad bendrovė uždirbtų, dauguma žaidėjų turi pralaimėti.
+
+  Pastaraisiais metais lošimų reklama Lietuvoje vis griežčiau ribojama, o žmonės gali patys užsiregistruoti, kad jiems būtų apribota galimybė lošti. Verslo atstovai tvirtina, kad draudimai tik nustums žaidėjus į nelegalias svetaines. Argumentas ne be pagrindo, tačiau jis primena keistą logiką: jei problemos negalime išspręsti visiškai, geriau jos visai nespręsti.
+
+  Galbūt svarbiausia tai, kad reklamoje visada rodomas laimėtojas. Šimtų pralaimėjusiųjų, tyliai slepiančių skolas nuo savo šeimų, joje nėra ir negali būti – jie paprasčiausiai netinka reklamai.
+glossary:
+  - { word: "transliacijų", lemma: "transliacija", pos: noun, gender: f, gen: "transliacijos", meaning: "трансляция", note: "род. п. мн. ч." }
+  - { word: "lažybas", lemma: "lažybos", pos: noun, gender: f, gen: "lažybų", plural_only: true, meaning: "пари, ставки", note: "вин. п." }
+  - { word: "aistringai", lemma: "aistringai", pos: adv, meaning: "страстно, увлечённо" }
+  - { word: "išmaną", lemma: "išmanyti", pos: verb, forms: { pres: "išmano", past: "išmanė" }, meaning: "разбираться (в чём-л.)", note: "прич. наст. вр., им. п. мн. ч.: mano jį išmaną — считают, что разбираются в нём" }
+  - { word: "rėmėjų", lemma: "rėmėjas", pos: noun, gender: m, gen: "rėmėjo", meaning: "спонсор", note: "род. п. мн. ч." }
+  - { word: "puikavosi", lemma: "puikuotis", pos: verb, forms: { pres: "puikuojasi", past: "puikavosi" }, meaning: "красоваться" }
+  - { word: "lažinimasis", lemma: "lažinimasis", pos: noun, gender: m, gen: "lažinimosi", meaning: "заключение пари, ставки" }
+  - { word: "sirgaliaus", lemma: "sirgalius", pos: noun, gender: m, gen: "sirgaliaus", meaning: "болельщик", note: "род. п." }
+  - { word: "ilgainiui", lemma: "ilgainiui", pos: adv, meaning: "со временем" }
+  - { word: "lažintis", lemma: "lažintis", pos: verb, forms: { pres: "lažinasi", past: "lažinosi" }, meaning: "держать пари, делать ставки" }
+  - { word: "priklausomybėmis", lemma: "priklausomybė", pos: noun, gender: f, gen: "priklausomybės", meaning: "зависимость", note: "тв. п. мн. ч." }
+  - { word: "azartas", lemma: "azartas", pos: noun, gender: m, gen: "azarto", meaning: "азарт" }
+  - { word: "skolomis", lemma: "skola", pos: noun, gender: f, gen: "skolos", meaning: "долг", note: "тв. п. мн. ч." }
+  - { word: "pralaimėjusiųjų", lemma: "pralaimėti", pos: verb, forms: { pres: "pralaimi", past: "pralaimėjo" }, meaning: "проиграть", note: "местоим. прич. прош. вр., род. п. мн. ч.: проигравших" }
+  - { word: "ribojama", lemma: "riboti", pos: verb, forms: { pres: "riboja", past: "ribojo" }, meaning: "ограничивать", note: "пассивное прич. наст. вр., ж. р." }
+  - { word: "apribota", lemma: "apriboti", pos: verb, forms: { pres: "apriboja", past: "apribojo" }, meaning: "ограничить", note: "пассивное прич. прош. вр., ж. р." }
+  - { word: "nustums", lemma: "nustumti", pos: verb, forms: { pres: "nustumia", past: "nustūmė" }, meaning: "оттеснить, столкнуть", note: "буд. вр." }
+  - { word: "pagrindo", lemma: "pagrindas", pos: noun, gender: m, gen: "pagrindo", meaning: "основание", note: "ne be pagrindo — не без оснований" }
+  - { word: "slepiančių", lemma: "slėpti", pos: verb, forms: { pres: "slepia", past: "slėpė" }, meaning: "скрывать, прятать", note: "прич. наст. вр., род. п. мн. ч." }
+questions:
+  - q: "Kam, pasak autoriaus, buvo skirtos lažybų reklamos?"
+    options: ["Jauniems vyrams, aistringai sekantiems sportą", "Pensininkams", "Vaikams ir paaugliams"]
+    answer: 0
+  - q: "Kodėl, autoriaus teigimu, lošimų verslas „gyvena iš pralaimėjusiųjų“?"
+    options: ["Nes laimėtojai nemoka mokesčių", "Nes kad bendrovė uždirbtų, dauguma žaidėjų turi pralaimėti", "Nes pralaimėjusieji gauna kompensacijas"]
+    answer: 1
+  - q: "Kaip autorius vertina verslo argumentą, kad draudimai nustums žaidėjus į nelegalias svetaines?"
+    options: ["Visiškai su juo sutinka", "Laiko jį visiškai nepagrįstu", "Pripažįsta, kad jis ne be pagrindo, bet mato jame keistą logiką"]
+    answer: 2
