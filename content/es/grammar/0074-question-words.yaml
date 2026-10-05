@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0074
+cefr: A2
+order: 74
+title: "¿Con quién?, ¿de dónde?, ¿qué o cuál?: question words"
+explanation:
+  en: |
+    The preposition goes **in front of** the question word — never at the end, as in English:
+    - ***¿Con quién** vives?* — Who do you live **with**?
+    - ***¿De dónde** eres?* — Where are you **from**?
+    - ***¿De qué** hablas?* — What are you talking **about**?
+    - ***¿Para qué** sirve?* — What is it **for**?
+    - ***¿A qué hora** abre?* — (At) what time does it open?
+    - ***¿Adónde** vas?* (also *¿A dónde?*) — Where are you going (to)? *¿Dónde?* alone = where (location).
+    - ***¿De quién** es?* — **Whose** is it? (there is no word for "whose" — it's *de quién*)
+
+    ***¿Qué?*** or ***¿cuál?*** for "what / which":
+    - before a **noun** — ***qué***: *¿**Qué** libro quieres?* *¿**Qué** color prefieres?*
+    - ***qué es…?*** asks for a **definition**: *¿Qué es esto?* — What is this?
+    - ***cuál es / cuáles son…?*** asks for **one item of information** or a choice: *¿**Cuál** es tu nombre / tu número / tu dirección?* — never ~~¿Qué es tu número?~~. *¿Cuál prefieres?* — Which one do you prefer?
+
+    ***quién → quiénes*** and ***cuánto → cuánta, cuántos, cuántas*** agree: *¿**Cuántas** hermanas tienes?*
+comparison:
+  en: |
+    Russian works like Spanish: «**С кем** ты живёшь?», «**О чём** ты говоришь?», «**Чей** это?» = *¿De quién es?* — just don't copy English "Who do you live with?" into ~~¿Quién vives con?~~. The English "what is your name / number" is a trap: Spanish says ***cuál*** there, because you pick one answer from many possible ones.
+examples:
+  - { text: "¿Con quién vives?", translation: "Who do you live with?", source: "tatoeba:750447" }
+  - { text: "¿De qué hablas?", translation: "What are you talking about?", source: "tatoeba:1123760" }
+  - { text: "¿De quién es la culpa?", translation: "Whose fault is it?", source: "tatoeba:1132649" }
+  - { text: "¿Para qué sirve eso?", translation: "What's that for?", source: "tatoeba:1397846" }
+  - { text: "¿Cuál es tu número?", translation: "What's your number?", source: "tatoeba:1406135" }
+exercises:
+  - type: cloze
+    text: "¿___ dónde es tu novia?"
+    answer: "De"
+    hint: "where … from"
+    translation: "Where is your girlfriend from?"
+  - type: cloze
+    text: "¿Con ___ vas al cine?"
+    answer: "quién"
+    also: ["quiénes"]
+    hint: "with whom"
+    translation: "Who are you going to the cinema with?"
+  - type: cloze
+    text: "¿___ qué hora empieza la película?"
+    answer: "A"
+    hint: "at what time"
+    translation: "What time does the film start?"
+  - type: cloze
+    text: "¿___ es tu dirección?"
+    answer: "Cuál"
+    hint: "what — asking for a piece of information"
+    translation: "What is your address?"
+  - type: cloze
+    text: "¿___ es la paella?"
+    answer: "Qué"
+    hint: "what — asking for a definition"
+    translation: "What is paella?"
+  - type: cloze
+    text: "¿___ quién es esta chaqueta?"
+    answer: "De"
+    hint: "whose"
+    translation: "Whose jacket is this?"
+  - type: cloze
+    text: "¿___ hermanos tienes?"
+    answer: "Cuántos"
+    hint: "how many"
+    translation: "How many brothers and sisters do you have?"
+  - type: cloze
+    text: "¿___ vas este verano?"
+    answer: "Adónde"
+    also: ["A dónde"]
+    hint: "where to"
+    translation: "Where are you going this summer?"
