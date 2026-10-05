@@ -1,0 +1,494 @@
+# Generated from scripts/batches/es-a2-basics-2161.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-2161
+  type: word
+  cefr: A2
+  text: "sartén"
+  pos: noun
+  gender: f
+  meaning: { en: "frying pan" }
+  note: { en: "la sartén (feminine in Spain; often el sartén in Latin America)" }
+  examples:
+    - { text: "¿Dónde está la tapa de la sartén?", translation: "Where's the pan lid?", source: "tatoeba:1693593" }
+- id: es-w-2162
+  type: word
+  cefr: A1
+  text: "cuchillo"
+  pos: noun
+  gender: m
+  meaning: { en: "knife" }
+  examples:
+    - { text: "Él cortó la carne con un cuchillo.", translation: "He cut the meat with a knife.", source: "tatoeba:1173030" }
+- id: es-w-2163
+  type: word
+  cefr: A1
+  text: "tenedor"
+  pos: noun
+  gender: m
+  meaning: { en: "fork" }
+  examples:
+    - { text: "Ellos comen con tenedor y cuchillo.", translation: "They eat with a knife and fork.", source: "tatoeba:1241415" }
+- id: es-w-2164
+  type: word
+  cefr: A2
+  text: "copa"
+  pos: noun
+  gender: f
+  meaning: { en: "(wine) glass; drink; cup (trophy)" }
+  note: { en: "tomar una copa = to have a drink; for water: un vaso" }
+  examples:
+    - { text: "Él bebió una copa de vino tinto.", translation: "He drank a glass of red wine.", source: "tatoeba:602678" }
+- id: es-w-2165
+  type: word
+  cefr: A2
+  text: "servilleta"
+  pos: noun
+  gender: f
+  meaning: { en: "napkin, serviette" }
+  examples:
+    - { text: "Límpiate los labios con la servilleta.", translation: "Clean your lips with the napkin.", source: "tatoeba:1879303" }
+- id: es-w-2166
+  type: word
+  cefr: A2
+  text: "grifo"
+  pos: noun
+  gender: m
+  meaning: { en: "tap, faucet" }
+  note: { en: "agua del grifo = tap water; Mexico: la llave; Argentina: la canilla" }
+  examples:
+    - { text: "El grifo del baño está estropeado.", translation: "The faucet in the bathroom's out of order.", source: "tatoeba:2268123" }
+- id: es-w-2167
+  type: word
+  cefr: A2
+  text: "hervir"
+  pos: verb
+  meaning: { en: "to boil" }
+  note: { en: "e → ie: hierve" }
+  examples:
+    - { text: "El agua hierve a 100 grados centígrados.", translation: "Water boils at 100 degrees Celsius.", source: "tatoeba:633622" }
+- id: es-w-2168
+  type: word
+  cefr: A2
+  text: "freír"
+  pos: verb
+  meaning: { en: "to fry" }
+  note: { en: "frito = fried: patatas fritas = chips / French fries; huevo frito = fried egg" }
+  examples:
+    - { text: "Hay que tener cuidado al freír patatas.", translation: "You need to be careful when frying potatoes.", source: "tatoeba:10003035" }
+- id: es-w-2169
+  type: word
+  cefr: A2
+  text: "pelar"
+  pos: verb
+  meaning: { en: "to peel" }
+  note: { en: "las papas (Latin America) = las patatas (Spain)" }
+  examples:
+    - { text: "No puedo pelar papas. No tengo cuchillo.", translation: "I cannot peel potatoes. I don't have a knife.", source: "tatoeba:1805539" }
+- id: es-w-2170
+  type: word
+  cefr: A2
+  text: "mezclar"
+  pos: verb
+  meaning: { en: "to mix" }
+  examples:
+    - { text: "No se puede mezclar aceite con agua.", translation: "You can't mix oil with water.", source: "tatoeba:689055" }
+- id: es-w-2171
+  type: word
+  cefr: A2
+  text: "calentar"
+  pos: verb
+  meaning: { en: "to heat (up), to warm (up)" }
+  note: { en: "e → ie: caliento" }
+  examples:
+    - { text: "¿Me puedes calentar un poco de leche?", translation: "Could you warm up some milk for me?", source: "tatoeba:13440544" }
+- id: es-w-2172
+  type: word
+  cefr: A1
+  text: "fresa"
+  pos: noun
+  gender: f
+  meaning: { en: "strawberry" }
+  note: { en: "Argentina, Chile, Uruguay: la frutilla" }
+  examples:
+    - { text: "Me gustan los helados de fresa.", translation: "I like strawberry ice cream.", source: "tatoeba:1129681" }
+- id: es-w-2173
+  type: word
+  cefr: A1
+  text: "uva"
+  pos: noun
+  gender: f
+  meaning: { en: "grape" }
+  examples:
+    - { text: "No me gustan las manzanas ni las uvas.", translation: "I like neither apples nor grapes.", source: "tatoeba:1392573" }
+- id: es-w-2174
+  type: word
+  cefr: A1
+  text: "pera"
+  pos: noun
+  gender: f
+  meaning: { en: "pear" }
+  examples:
+    - { text: "¿Quieres una pera, una manzana o ambas?", translation: "Do you want a pear, an apple, or both?", source: "tatoeba:1393717" }
+- id: es-w-2175
+  type: word
+  cefr: A2
+  text: "melocotón"
+  pos: noun
+  gender: m
+  meaning: { en: "peach" }
+  note: { en: "Latin America: el durazno" }
+  examples:
+    - { text: "Estos melocotones no son muy dulces.", translation: "These peaches aren't very sweet.", source: "tatoeba:5317777" }
+- id: es-w-2176
+  type: word
+  cefr: A2
+  text: "sandía"
+  pos: noun
+  gender: f
+  meaning: { en: "watermelon" }
+  examples:
+    - { text: "Me encanta comer sandía en verano.", translation: "I love eating watermelon in the summer.", source: "tatoeba:1300190" }
+- id: es-w-2177
+  type: word
+  cefr: A2
+  text: "piña"
+  pos: noun
+  gender: f
+  meaning: { en: "pineapple" }
+  note: { en: "also: pine cone" }
+  examples:
+    - { text: "Deme la piña más grande, por favor.", translation: "Please, give me the biggest pineapple.", source: "tatoeba:1564947" }
+- id: es-w-2178
+  type: word
+  cefr: A2
+  text: "aguacate"
+  pos: noun
+  gender: m
+  meaning: { en: "avocado" }
+  note: { en: "Argentina, Chile, Peru, Uruguay: la palta" }
+  examples:
+    - { text: "El aguacate es rico en nutrientes.", translation: "The avocado is rich in nutrients.", source: "tatoeba:6023051" }
+- id: es-w-2179
+  type: word
+  cefr: A1
+  text: "zanahoria"
+  pos: noun
+  gender: f
+  meaning: { en: "carrot" }
+  examples:
+    - { text: "Las zanahorias son buenas para la vista.", translation: "Carrots are good for the eyesight.", source: "tatoeba:738847" }
+- id: es-w-2180
+  type: word
+  cefr: A1
+  text: "lechuga"
+  pos: noun
+  gender: f
+  meaning: { en: "lettuce" }
+  examples:
+    - { text: "Por favor, lava bien la lechuga antes de comértela.", translation: "Please wash the lettuce well before you eat it.", source: "tatoeba:1831979" }
+- id: es-w-2181
+  type: word
+  cefr: A2
+  text: "pepino"
+  pos: noun
+  gender: m
+  meaning: { en: "cucumber" }
+  note: { en: "colloquial: me importa un pepino = I couldn't care less" }
+  examples:
+    - { text: "Tom casi nunca come pepinos.", translation: "Tom almost never eats cucumbers.", source: "tatoeba:8970647" }
+- id: es-w-2182
+  type: word
+  cefr: A2
+  text: "pimiento"
+  pos: noun
+  gender: m
+  meaning: { en: "(bell) pepper" }
+  note: { en: "la pimienta = (black) pepper" }
+  examples:
+    - { text: "Me encantan los pimientos verdes.", translation: "I love green peppers.", source: "tatoeba:1484345" }
+- id: es-w-2183
+  type: word
+  cefr: A2
+  text: "merienda"
+  pos: noun
+  gender: f
+  meaning: { en: "afternoon snack" }
+  note: { en: "merendar = to have an afternoon snack" }
+  examples:
+    - { text: "Vamos a hacer una pausa para la merienda.", translation: "We are going to have a break for a snack.", source: "tatoeba:1293070" }
+- id: es-w-2184
+  type: word
+  cefr: A1
+  text: "desayunar"
+  pos: verb
+  meaning: { en: "to have breakfast" }
+  note: { en: "el desayuno = breakfast; desayunar café con leche = to have coffee for breakfast" }
+  examples:
+    - { text: "Ayer salí de la casa sin desayunar.", translation: "I left home without having breakfast yesterday.", source: "tatoeba:610723" }
+- id: es-w-2185
+  type: word
+  cefr: A1
+  text: "preparar"
+  pos: verb
+  meaning: { en: "to prepare, to make (a meal)" }
+  note: { en: "prepararse para = to get ready for" }
+  examples:
+    - { text: "Bob prepara el desayuno en la mañana.", translation: "Bob cooks breakfast in the morning.", source: "tatoeba:771094" }
+- id: es-w-2186
+  type: word
+  cefr: A2
+  text: "bocadillo"
+  pos: noun
+  gender: m
+  meaning: { en: "sandwich (made with a bread roll)" }
+  note: { en: "Spain; with sliced bread: un sándwich" }
+  examples:
+    - { text: "¿Has traído los bocadillos para la excursión?", translation: "Have you brought the sandwiches for the trip?", source: "tatoeba:1371625" }
+- id: es-w-2187
+  type: word
+  cefr: A2
+  text: "tortilla"
+  pos: noun
+  gender: f
+  meaning: { en: "omelette (Spain); tortilla, flatbread (Mexico)" }
+  note: { en: "tortilla de patatas = Spanish potato omelette" }
+  examples:
+    - { text: "La tortilla española es distinta a la mexicana.", translation: "A Spanish tortilla is different from a Mexican one.", source: "tatoeba:3373866" }
+- id: es-w-2188
+  type: word
+  cefr: A2
+  text: "mermelada"
+  pos: noun
+  gender: f
+  meaning: { en: "jam" }
+  examples:
+    - { text: "Como pan con mermelada en el desayuno.", translation: "I eat bread with jam for breakfast.", source: "tatoeba:11656945" }
+- id: es-w-2189
+  type: word
+  cefr: A2
+  text: "yogur"
+  pos: noun
+  gender: m
+  meaning: { en: "yoghurt" }
+  examples:
+    - { text: "Compré tres manzanas, huevos y yogur.", translation: "I bought three apples, some eggs and some yogurt.", source: "tatoeba:6803790" }
+- id: es-w-2190
+  type: word
+  cefr: A2
+  text: "marisco"
+  pos: noun
+  gender: m
+  meaning: { en: "seafood, shellfish" }
+  note: { en: "usually plural: los mariscos" }
+  examples:
+    - { text: "¿Qué tipo de marisco es tu preferido?", translation: "What's your favorite type of seafood?", source: "tatoeba:1340901" }
+- id: es-w-2191
+  type: word
+  cefr: A2
+  text: "gamba"
+  pos: noun
+  gender: f
+  meaning: { en: "prawn, shrimp" }
+  note: { en: "Spain; Latin America: el camarón" }
+  examples:
+    - { text: "El cóctel de gambas estaba delicioso.", translation: "The prawn cocktail was delicious.", source: "tatoeba:1712133" }
+- id: es-w-2192
+  type: word
+  cefr: A2
+  text: "refresco"
+  pos: noun
+  gender: m
+  meaning: { en: "soft drink, soda" }
+  examples:
+    - { text: "¿Le gusta el refresco de piña?", translation: "Do you like pineapple soda?", source: "tatoeba:2265784" }
+- id: es-w-2193
+  type: word
+  cefr: A2
+  text: "frigorífico"
+  pos: noun
+  gender: m
+  meaning: { en: "fridge, refrigerator" }
+  note: { en: "Spain, also la nevera; Latin America: el refrigerador; Argentina: la heladera" }
+  examples:
+    - { text: "Pon los huevos en el frigorífico.", translation: "Put the eggs in the fridge.", source: "tatoeba:1158196" }
+- id: es-w-2194
+  type: word
+  cefr: A2
+  text: "microondas"
+  pos: noun
+  gender: m
+  meaning: { en: "microwave (oven)" }
+  note: { en: "el microondas, los microondas (same in the plural)" }
+  examples:
+    - { text: "Jamás aprendí a usar un microondas.", translation: "I never learned how to use a microwave oven.", source: "tatoeba:2260375" }
+- id: es-w-2195
+  type: word
+  cefr: A2
+  text: "estantería"
+  pos: noun
+  gender: f
+  meaning: { en: "shelves, bookcase" }
+  note: { en: "un estante = a single shelf" }
+  examples:
+    - { text: "Él tomó un libro de la estantería.", translation: "He took a book from the shelf.", source: "tatoeba:360383" }
+- id: es-w-2196
+  type: word
+  cefr: A2
+  text: "sábana"
+  pos: noun
+  gender: f
+  meaning: { en: "(bed) sheet" }
+  examples:
+    - { text: "Tom cambió las sábanas de su cama.", translation: "Tom changed the sheets on his bed.", source: "tatoeba:4692485" }
+- id: es-w-2197
+  type: word
+  cefr: A2
+  text: "champú"
+  pos: noun
+  gender: m
+  meaning: { en: "shampoo" }
+  examples:
+    - { text: "Hay que comprar champú porque no queda ya.", translation: "We need to buy shampoo because there's none left.", source: "tatoeba:13485030" }
+- id: es-w-2198
+  type: word
+  cefr: A2
+  text: "cepillo"
+  pos: noun
+  gender: m
+  meaning: { en: "brush" }
+  note: { en: "cepillo de dientes = toothbrush; cepillarse los dientes = to brush your teeth" }
+  examples:
+    - { text: "¿Dónde puedo comprar un cepillo de dientes?", translation: "Where can I buy a toothbrush?", source: "tatoeba:687575" }
+- id: es-w-2199
+  type: word
+  cefr: A2
+  text: "peine"
+  pos: noun
+  gender: m
+  meaning: { en: "comb" }
+  note: { en: "peinarse = to comb your hair" }
+  examples:
+    - { text: "Tengo un peine de madera.", translation: "I have a wooden comb.", source: "tatoeba:346430" }
+- id: es-w-2200
+  type: word
+  cefr: A2
+  text: "enchufe"
+  pos: noun
+  gender: m
+  meaning: { en: "(electric) socket; plug" }
+  note: { en: "enchufar = to plug in" }
+  examples:
+    - { text: "Nunca pongas los dedos en el enchufe.", translation: "Never plug your finger into the socket.", source: "tatoeba:5157527" }
+- id: es-w-2201
+  type: word
+  cefr: A2
+  text: "calefacción"
+  pos: noun
+  gender: f
+  meaning: { en: "heating" }
+  note: { en: "calefacción central = central heating" }
+  examples:
+    - { text: "¿Quién ha apagado la calefacción otra vez?", translation: "Who's turned the heating off again?", source: "tatoeba:12849115" }
+- id: es-w-2202
+  type: word
+  cefr: A2
+  text: "bombilla"
+  pos: noun
+  gender: f
+  meaning: { en: "light bulb" }
+  note: { en: "Mexico: el foco" }
+  examples:
+    - { text: "Si me traes la escalera, podré cambiar la bombilla.", translation: "If you bring me the ladder, I'll be able to change the light bulb.", source: "tatoeba:10106263" }
+- id: es-w-2203
+  type: word
+  cefr: A2
+  text: "tijeras"
+  pos: noun
+  gender: f
+  meaning: { en: "scissors" }
+  note: { en: "usually plural: unas tijeras = a pair of scissors" }
+  examples:
+    - { text: "Necesito unas tijeras para cortar este papel.", translation: "I need a pair of scissors to cut this paper.", source: "tatoeba:805602" }
+- id: es-w-2204
+  type: word
+  cefr: A2
+  text: "barrer"
+  pos: verb
+  meaning: { en: "to sweep" }
+  note: { en: "la escoba = broom" }
+  examples:
+    - { text: "Haz el favor de barrer el suelo.", translation: "Please sweep the floor.", source: "tatoeba:7967762" }
+- id: es-w-2205
+  type: word
+  cefr: A2
+  text: "fregar"
+  pos: verb
+  meaning: { en: "to wash up (dishes); to mop" }
+  note: { en: "e → ie: friego; fregar los platos = to do the dishes (Latin America: lavar los platos)" }
+  examples:
+    - { text: "No me gusta fregar los platos.", translation: "I don't like to wash dishes.", source: "tatoeba:2266949" }
+- id: es-w-2206
+  type: word
+  cefr: A2
+  text: "aspiradora"
+  pos: noun
+  gender: f
+  meaning: { en: "vacuum cleaner" }
+  note: { en: "pasar la aspiradora = to vacuum" }
+  examples:
+    - { text: "Esta aspiradora hace mucho ruido.", translation: "This vacuum cleaner makes a lot of noise.", source: "tatoeba:398418" }
+- id: es-w-2207
+  type: word
+  cefr: A2
+  text: "lavadora"
+  pos: noun
+  gender: f
+  meaning: { en: "washing machine" }
+  note: { en: "poner una lavadora = to do a load of washing" }
+  examples:
+    - { text: "La lavadora está haciendo un ruido raro.", translation: "The washing machine is making a strange sound.", source: "tatoeba:3929931" }
+- id: es-w-2208
+  type: word
+  cefr: A2
+  text: "planchar"
+  pos: verb
+  meaning: { en: "to iron" }
+  note: { en: "la plancha = iron" }
+  examples:
+    - { text: "Plancho mi ropa casi todos los días.", translation: "I iron my clothes almost every day.", source: "tatoeba:1745924" }
+- id: es-w-2209
+  type: word
+  cefr: A2
+  text: "reciclar"
+  pos: verb
+  meaning: { en: "to recycle" }
+  examples:
+    - { text: "Yo reciclo y cuido el medio ambiente.", translation: "I recycle and take care of the environment.", source: "tatoeba:2936617" }
+- id: es-w-2210
+  type: word
+  cefr: A2
+  text: "llenar"
+  pos: verb
+  meaning: { en: "to fill" }
+  note: { en: "lleno = full; opposite: vaciar" }
+  examples:
+    - { text: "Tom llenó la bañera con agua caliente.", translation: "Tom filled the bathtub with hot water.", source: "tatoeba:1288015" }
+- id: es-w-2211
+  type: word
+  cefr: A2
+  text: "vaciar"
+  pos: verb
+  meaning: { en: "to empty" }
+  note: { en: "vacío = empty; vacío, vacías, vacía (stress on í); opposite: llenar" }
+  examples:
+    - { text: "Él vació el contenido de sus bolsillos.", translation: "He emptied his pockets of their contents.", source: "tatoeba:1591121" }
+- id: es-w-2212
+  type: word
+  cefr: A2
+  text: "secar"
+  pos: verb
+  meaning: { en: "to dry" }
+  note: { en: "secarse = to dry yourself; seco = dry" }
+  examples:
+    - { text: "Ella lavó los cubiertos y los secó.", translation: "She washed and dried the silverware.", source: "tatoeba:1311746" }
