@@ -1,0 +1,584 @@
+# Generated from scripts/batches/es-a2-basics-1936.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-1936
+  type: word
+  cefr: A2
+  text: "además"
+  pos: adv
+  meaning: { en: "besides, in addition, moreover" }
+  note: { en: "además de = besides, as well as" }
+  examples:
+    - { text: "Además de ser doctor, es escritor.", translation: "In addition to being a doctor, he is a writer.", source: "tatoeba:8888991" }
+- id: es-w-1937
+  type: word
+  cefr: A2
+  text: "aunque"
+  pos: conj
+  meaning: { en: "although, even though; even if" }
+  note: { en: "+ indicative = although (a fact); + subjunctive = even if" }
+  examples:
+    - { text: "El partido se jugará aunque llueva.", translation: "The game will be played even if it rains.", source: "tatoeba:1277952" }
+- id: es-w-1938
+  type: word
+  cefr: A2
+  text: "pues"
+  pos: adv
+  meaning: { en: "well (starting a reply); so, then" }
+  note: { en: "very common in speech: pues no sé = well, I don't know" }
+  examples:
+    - { text: "-Necesito más. -Pues no hay más.", translation: "\"I need more.\" \"Well, there's no more.\"", source: "tatoeba:7451930" }
+- id: es-w-1939
+  type: word
+  cefr: A1
+  text: "luego"
+  pos: adv
+  meaning: { en: "then, next; later" }
+  note: { en: "hasta luego = see you later; desde luego = of course" }
+  examples:
+    - { text: "Luego alzó su mano para interrumpirme.", translation: "Then he raised his hand to interrupt me.", source: "tatoeba:1812152" }
+- id: es-w-1940
+  type: word
+  cefr: A1
+  text: "después"
+  pos: adv
+  meaning: { en: "after, afterwards; later" }
+  note: { en: "después de + noun / infinitive: después de comer" }
+  examples:
+    - { text: "La primavera viene después del invierno.", translation: "Spring comes after winter.", source: "tatoeba:493756" }
+- id: es-w-1941
+  type: word
+  cefr: A1
+  text: "antes"
+  pos: adv
+  meaning: { en: "before; earlier" }
+  note: { en: "antes de + noun / infinitive: antes de trabajar" }
+  examples:
+    - { text: "Él bebe café antes de trabajar.", translation: "He drinks coffee before work.", source: "tatoeba:434877" }
+- id: es-w-1942
+  type: word
+  cefr: A2
+  text: "mientras"
+  pos: conj
+  meaning: { en: "while" }
+  note: { en: "mientras tanto = meanwhile" }
+  examples:
+    - { text: "No me interrumpas mientras estoy hablando.", translation: "Don't interrupt me while I'm talking.", source: "tatoeba:610835" }
+- id: es-w-1943
+  type: word
+  cefr: A2
+  text: "incluso"
+  pos: adv
+  meaning: { en: "even" }
+  examples:
+    - { text: "Allí hace frío incluso en verano.", translation: "It's cold there even in the summer.", source: "tatoeba:578872" }
+- id: es-w-1944
+  type: word
+  cefr: A2
+  text: "sino"
+  pos: conj
+  meaning: { en: "but (rather)" }
+  note: { en: "only after a negative: no A sino B = not A but B; otherwise use pero" }
+  examples:
+    - { text: "Él no es poeta, sino novelista.", translation: "He is not a poet but a novelist.", source: "tatoeba:541281" }
+- id: es-w-1945
+  type: word
+  cefr: A1
+  text: "así"
+  pos: adv
+  meaning: { en: "like this, like that, this way" }
+  note: { en: "así que = so (therefore)" }
+  examples:
+    - { text: "¿Cómo te atreves a hablarme así?", translation: "How dare you speak like that to me?", source: "tatoeba:475351" }
+- id: es-w-1946
+  type: word
+  cefr: A2
+  text: "enseguida"
+  pos: adv
+  meaning: { en: "right away, at once" }
+  note: { en: "also written en seguida" }
+  examples:
+    - { text: "Tengo que dejarte unos minutos pero vuelvo enseguida.", translation: "I need to leave you for a few minutes, but I'll be right back.", source: "tatoeba:3784005" }
+- id: es-w-1947
+  type: word
+  cefr: A2
+  text: "aún"
+  pos: adv
+  meaning: { en: "still, yet" }
+  note: { en: "= todavía: aún no = not yet. Without the accent, aun = even" }
+  examples:
+    - { text: "Ella aún no sabe la verdad.", translation: "She doesn't know the truth yet.", source: "tatoeba:343625" }
+- id: es-w-1948
+  type: word
+  cefr: B1
+  text: "apenas"
+  pos: adv
+  meaning: { en: "hardly, barely" }
+  note: { en: "also: as soon as (apenas llegue = as soon as he arrives)" }
+  examples:
+    - { text: "Apenas puedo entender lo que dice.", translation: "I can hardly understand what he says.", source: "tatoeba:522881" }
+- id: es-w-1949
+  type: word
+  cefr: A2
+  text: "quizás"
+  pos: adv
+  meaning: { en: "maybe, perhaps" }
+  note: { en: "also quizá; often followed by the subjunctive" }
+  examples:
+    - { text: "Quizás él ha perdido el avión.", translation: "He may have missed the plane.", source: "tatoeba:962062" }
+- id: es-w-1950
+  type: word
+  cefr: A2
+  text: "jamás"
+  pos: adv
+  meaning: { en: "never, ever" }
+  note: { en: "a stronger nunca; nunca jamás = never ever" }
+  examples:
+    - { text: "Creo que él no volverá jamás.", translation: "I think he'll never return.", source: "tatoeba:342627" }
+- id: es-w-1951
+  type: word
+  cefr: A1
+  text: "anoche"
+  pos: adv
+  meaning: { en: "last night" }
+  examples:
+    - { text: "¿A qué hora te acostaste anoche?", translation: "When did you go to bed last night?", source: "tatoeba:672960" }
+- id: es-w-1952
+  type: word
+  cefr: A1
+  text: "ahí"
+  pos: adv
+  meaning: { en: "there (near you)" }
+  note: { en: "aquí = here, ahí = there (near you), allí = over there" }
+  examples:
+    - { text: "Quiero ir ahí una vez más.", translation: "I want to go there once more.", source: "tatoeba:825009" }
+- id: es-w-1953
+  type: word
+  cefr: A2
+  text: "allá"
+  pos: adv
+  meaning: { en: "(over) there" }
+  note: { en: "vaguer than allí, often with a motion verb; por allá = over there" }
+  examples:
+    - { text: "Por allá verás una casa roja.", translation: "You will see a red house over there.", source: "tatoeba:1115801" }
+- id: es-w-1954
+  type: word
+  cefr: A2
+  text: "dentro"
+  pos: adv
+  meaning: { en: "inside" }
+  note: { en: "dentro de = inside; dentro de una semana = in a week's time" }
+  examples:
+    - { text: "La carta está dentro del sobre.", translation: "The letter is inside the envelope.", source: "tatoeba:1256579" }
+- id: es-w-1955
+  type: word
+  cefr: A2
+  text: "fuera"
+  pos: adv
+  meaning: { en: "outside, out; away" }
+  note: { en: "fuera de = outside (of); estar fuera = to be away; Latin America often afuera" }
+  examples:
+    - { text: "Está demasiado oscuro para jugar fuera.", translation: "It is too dark to play outside.", source: "tatoeba:2415146" }
+- id: es-w-1956
+  type: word
+  cefr: A2
+  text: "arriba"
+  pos: adv
+  meaning: { en: "up, above; upstairs" }
+  note: { en: "opposite: abajo" }
+  examples:
+    - { text: "Tom está arriba, en su habitación.", translation: "Tom is upstairs in his bedroom.", source: "tatoeba:5648907" }
+- id: es-w-1957
+  type: word
+  cefr: A2
+  text: "abajo"
+  pos: adv
+  meaning: { en: "down, below; downstairs" }
+  note: { en: "opposite: arriba; boca abajo = face down, upside down" }
+  examples:
+    - { text: "Nuestro invitado nos está esperando abajo.", translation: "Our guest is waiting for us downstairs.", source: "tatoeba:688385" }
+- id: es-w-1958
+  type: word
+  cefr: A2
+  text: "alrededor"
+  pos: adv
+  meaning: { en: "around" }
+  note: { en: "alrededor de = around; with numbers: about (alrededor de cien)" }
+  examples:
+    - { text: "Me gustaría viajar alrededor del mundo.", translation: "I would like to travel around the world.", source: "tatoeba:671750" }
+- id: es-w-1959
+  type: word
+  cefr: A2
+  text: "según"
+  pos: prep
+  meaning: { en: "according to" }
+  examples:
+    - { text: "Según ella, él es un cobarde.", translation: "According to her, he is a coward.", source: "tatoeba:1253955" }
+- id: es-w-1960
+  type: word
+  cefr: A2
+  text: "hacia"
+  pos: prep
+  meaning: { en: "towards" }
+  note: { en: "with a time: around (hacia las seis)" }
+  examples:
+    - { text: "Vi un caballo galopando hacia mí.", translation: "I saw a horse galloping toward me.", source: "tatoeba:511465" }
+- id: es-w-1961
+  type: word
+  cefr: A1
+  text: "durante"
+  pos: prep
+  meaning: { en: "during; for (a period of time)" }
+  note: { en: "durante una hora = for an hour" }
+  examples:
+    - { text: "Hablé con ella durante una hora.", translation: "I talked to her for an hour.", source: "tatoeba:515894" }
+- id: es-w-1962
+  type: word
+  cefr: B1
+  text: "actualmente"
+  pos: adv
+  meaning: { en: "currently, at present" }
+  note: { en: "false friend: currently, not \"actually\" (= en realidad)" }
+  examples:
+    - { text: "Actualmente, Tom no tiene empleo.", translation: "Tom currently doesn't have a job.", source: "tatoeba:1715889" }
+- id: es-w-1963
+  type: word
+  cefr: A2
+  text: "finalmente"
+  pos: adv
+  meaning: { en: "finally, in the end" }
+  examples:
+    - { text: "Finalmente encontré la solución al problema.", translation: "I finally found the solution to the problem.", source: "tatoeba:1040954" }
+- id: es-w-1964
+  type: word
+  cefr: A2
+  text: "realmente"
+  pos: adv
+  meaning: { en: "really" }
+  examples:
+    - { text: "Mi mejor amigo baila realmente bien.", translation: "My best friend dances really well.", source: "tatoeba:973002" }
+- id: es-w-1965
+  type: word
+  cefr: A2
+  text: "probablemente"
+  pos: adv
+  meaning: { en: "probably" }
+  examples:
+    - { text: "Probablemente no nevará mucho este invierno.", translation: "We probably won't have much snow this winter.", source: "tatoeba:1441744" }
+- id: es-w-1966
+  type: word
+  cefr: B1
+  text: "seguramente"
+  pos: adv
+  meaning: { en: "most likely, surely" }
+  note: { en: "usually \"very probably\", not a guarantee" }
+  examples:
+    - { text: "Seguramente se trate de un malentendido.", translation: "That's surely a misunderstanding.", source: "tatoeba:3791176" }
+- id: es-p-1967
+  type: phrase
+  cefr: A2
+  text: "sin embargo"
+  pos: phrase
+  meaning: { en: "however, nevertheless" }
+  examples:
+    - { text: "Sin embargo, no tengo dinero.", translation: "However, I have no money.", source: "tatoeba:672903" }
+- id: es-p-1968
+  type: phrase
+  cefr: A2
+  text: "por eso"
+  pos: phrase
+  meaning: { en: "that's why, so" }
+  examples:
+    - { text: "\"Por eso he llegado tarde.\" \"Entiendo.\"", translation: "\"That's why I've come late.\" \"I see.\"", source: "tatoeba:1572083" }
+- id: es-p-1969
+  type: phrase
+  cefr: B1
+  text: "por lo tanto"
+  pos: phrase
+  meaning: { en: "therefore" }
+  note: { en: "more formal than por eso" }
+  examples:
+    - { text: "Pienso, por lo tanto existo.", translation: "I think, therefore I am.", source: "tatoeba:5369161" }
+- id: es-p-1970
+  type: phrase
+  cefr: B1
+  text: "es decir"
+  pos: phrase
+  meaning: { en: "that is, in other words" }
+  examples:
+    - { text: "Mis vecinos son financieramente estables, es decir, ricos.", translation: "My neighbors are financially stable, in other words, rich.", source: "tatoeba:9049981" }
+- id: es-p-1971
+  type: phrase
+  cefr: B1
+  text: "o sea"
+  pos: phrase
+  meaning: { en: "I mean; so (colloquial)" }
+  note: { en: "spoken: o sea que… = so…" }
+  examples:
+    - { text: "¿O sea que no le dijiste nada?", translation: "You mean you didn't tell him anything?", source: "tatoeba:1467868" }
+- id: es-p-1972
+  type: phrase
+  cefr: B1
+  text: "en cambio"
+  pos: phrase
+  meaning: { en: "on the other hand; instead" }
+  examples:
+    - { text: "Tú eres joven. Yo, en cambio, soy muy mayor.", translation: "You are young. I, on the contrary, am very old.", source: "tatoeba:1707868" }
+- id: es-p-1973
+  type: phrase
+  cefr: B1
+  text: "a pesar de"
+  pos: phrase
+  meaning: { en: "despite, in spite of" }
+  note: { en: "a pesar de + noun / infinitive; a pesar de que + clause" }
+  examples:
+    - { text: "A pesar de todo, él vino.", translation: "In spite of everything, he came.", source: "tatoeba:5649108" }
+- id: es-p-1974
+  type: phrase
+  cefr: A2
+  text: "al final"
+  pos: phrase
+  meaning: { en: "in the end, eventually" }
+  note: { en: "al final de = at the end of" }
+  examples:
+    - { text: "Al final, Jane no lo compró.", translation: "Jane ended up not buying it.", source: "tatoeba:460881" }
+- id: es-p-1975
+  type: phrase
+  cefr: A2
+  text: "por fin"
+  pos: phrase
+  meaning: { en: "at last, finally" }
+  note: { en: "with relief: ¡por fin!" }
+  examples:
+    - { text: "Por fin he dejado de fumar.", translation: "I finally quit smoking.", source: "tatoeba:1084521" }
+- id: es-p-1976
+  type: phrase
+  cefr: A2
+  text: "de repente"
+  pos: phrase
+  meaning: { en: "suddenly" }
+  examples:
+    - { text: "De repente la luz se apagó.", translation: "The light suddenly went out.", source: "tatoeba:484897" }
+- id: es-p-1977
+  type: phrase
+  cefr: A2
+  text: "tal vez"
+  pos: phrase
+  meaning: { en: "maybe, perhaps" }
+  note: { en: "often followed by the subjunctive" }
+  examples:
+    - { text: "Tal vez tengas una solución mejor.", translation: "Maybe you have a better solution.", source: "tatoeba:1885086" }
+- id: es-p-1978
+  type: phrase
+  cefr: A1
+  text: "a veces"
+  pos: phrase
+  meaning: { en: "sometimes" }
+  examples:
+    - { text: "A veces sueño con mi madre.", translation: "I sometimes dream of my mother.", source: "tatoeba:534281" }
+- id: es-w-1979
+  type: word
+  cefr: A1
+  text: "viajar"
+  pos: verb
+  meaning: { en: "to travel" }
+  note: { en: "el viaje = trip" }
+  examples:
+    - { text: "Yo no tengo tiempo para viajar.", translation: "I don't have time to travel.", source: "tatoeba:339523" }
+- id: es-w-1980
+  type: word
+  cefr: A2
+  text: "andar"
+  pos: verb
+  meaning: { en: "to walk; to go, to work (a machine)" }
+  note: { en: "preterite: anduve; ir andando = to go on foot" }
+  examples:
+    - { text: "El bebé todavía no puede andar.", translation: "The baby can't walk yet.", source: "tatoeba:540300" }
+- id: es-w-1981
+  type: word
+  cefr: A2
+  text: "enviar"
+  pos: verb
+  meaning: { en: "to send" }
+  note: { en: "envío, envías (stressed í)" }
+  examples:
+    - { text: "Te lo envié hace dos días.", translation: "I sent it to you two days ago.", source: "tatoeba:803419" }
+- id: es-w-1982
+  type: word
+  cefr: A2
+  text: "elegir"
+  pos: verb
+  meaning: { en: "to choose; to elect" }
+  note: { en: "e → i: elijo, eliges" }
+  examples:
+    - { text: "Puedes elegir el libro que quieras.", translation: "You may choose whichever book you like.", source: "tatoeba:769360" }
+- id: es-w-1983
+  type: word
+  cefr: A2
+  text: "tratar"
+  pos: verb
+  meaning: { en: "to try (to); to treat" }
+  note: { en: "tratar de + infinitive = to try to; tratarse de = to be about" }
+  examples:
+    - { text: "Siempre trato de decir la verdad.", translation: "I always try to tell the truth.", source: "tatoeba:952806" }
+- id: es-w-1984
+  type: word
+  cefr: A2
+  text: "arreglar"
+  pos: verb
+  meaning: { en: "to fix, to repair; to sort out" }
+  note: { en: "arreglarse = to get ready, to dress up" }
+  examples:
+    - { text: "Mi padre arregló una silla rota.", translation: "My father fixed a broken chair.", source: "tatoeba:864161" }
+- id: es-w-1985
+  type: word
+  cefr: A2
+  text: "regalar"
+  pos: verb
+  meaning: { en: "to give (as a present)" }
+  note: { en: "el regalo = present" }
+  examples:
+    - { text: "Mi tía me regaló una cámara.", translation: "My aunt gave me a camera.", source: "tatoeba:343361" }
+- id: es-w-1986
+  type: word
+  cefr: A2
+  text: "opinar"
+  pos: verb
+  meaning: { en: "to think, to have an opinion" }
+  note: { en: "¿qué opinas de…? = what do you think of…?" }
+  examples:
+    - { text: "¿Qué opinas de mi abrigo nuevo?", translation: "What do you think of my new coat?", source: "tatoeba:731568" }
+- id: es-w-1987
+  type: word
+  cefr: A1
+  text: "encantar"
+  pos: verb
+  meaning: { en: "to love (to like a lot)" }
+  note: { en: "works like gustar: me encanta = I love it" }
+  examples:
+    - { text: "A ella le encanta la música.", translation: "She loves music.", source: "tatoeba:449354" }
+- id: es-w-1988
+  type: word
+  cefr: A2
+  text: "odiar"
+  pos: verb
+  meaning: { en: "to hate" }
+  examples:
+    - { text: "Odio ver sufrir a los animales.", translation: "I hate to see animals suffer.", source: "tatoeba:1101444" }
+- id: es-w-1989
+  type: word
+  cefr: A1
+  text: "preferir"
+  pos: verb
+  meaning: { en: "to prefer" }
+  note: { en: "e → ie: prefiero; preferir A a B = to prefer A to B" }
+  examples:
+    - { text: "Prefiero el pescado a la carne.", translation: "I prefer fish to meat.", source: "tatoeba:538632" }
+- id: es-w-1990
+  type: word
+  cefr: A2
+  text: "descansar"
+  pos: verb
+  meaning: { en: "to rest" }
+  note: { en: "el descanso = rest, break" }
+  examples:
+    - { text: "Me quedé en casa para descansar.", translation: "I stayed home to rest.", source: "tatoeba:840768" }
+- id: es-w-1991
+  type: word
+  cefr: A2
+  text: "ordenar"
+  pos: verb
+  meaning: { en: "to tidy (up); to order, to command" }
+  note: { en: "ordenado = tidy" }
+  examples:
+    - { text: "Tom está ordenando su habitación.", translation: "Tom is tidying his room.", source: "tatoeba:3425794" }
+- id: es-w-1992
+  type: word
+  cefr: A2
+  text: "traducir"
+  pos: verb
+  meaning: { en: "to translate" }
+  note: { en: "traduzco; preterite: traduje" }
+  examples:
+    - { text: "Es muy difícil traducir esta palabra.", translation: "It's very difficult to translate this word.", source: "tatoeba:955307" }
+- id: es-w-1993
+  type: word
+  cefr: B1
+  text: "manejar"
+  pos: verb
+  meaning: { en: "to drive (Latin America); to handle, to manage" }
+  note: { en: "Spain: conducir" }
+  examples:
+    - { text: "Si vas a manejar, no bebas.", translation: "If you're going to drive, don't drink.", source: "tatoeba:1279313" }
+- id: es-w-1994
+  type: word
+  cefr: A2
+  text: "aparcar"
+  pos: verb
+  meaning: { en: "to park" }
+  note: { en: "aparqué; Latin America: estacionar" }
+  examples:
+    - { text: "No puedes aparcar en esta calle.", translation: "You can't park in this street.", source: "tatoeba:4796924" }
+- id: es-w-1995
+  type: word
+  cefr: A2
+  text: "reservar"
+  pos: verb
+  meaning: { en: "to book, to reserve" }
+  note: { en: "la reserva = booking" }
+  examples:
+    - { text: "Me gustaría reservar mesa para dos.", translation: "I'd like to reserve a table for two.", source: "tatoeba:832436" }
+- id: es-w-1996
+  type: word
+  cefr: A2
+  text: "faltar"
+  pos: verb
+  meaning: { en: "to be missing, to be lacking; to miss (class)" }
+  note: { en: "works like gustar: me falta tiempo; hace falta = it's necessary" }
+  examples:
+    - { text: "Lo que le falta es coraje.", translation: "What he lacks is courage.", source: "tatoeba:702642" }
+- id: es-w-1997
+  type: word
+  cefr: A2
+  text: "importar"
+  pos: verb
+  meaning: { en: "to matter; to mind; to import" }
+  note: { en: "works like gustar: no me importa = I don't care; ¿te importa si…? = do you mind if…?" }
+  examples:
+    - { text: "No me importa lo que cueste.", translation: "I don't care how much it costs.", source: "tatoeba:656236" }
+- id: es-w-1998
+  type: word
+  cefr: A2
+  text: "molestar"
+  pos: verb
+  meaning: { en: "to bother, to disturb" }
+  note: { en: "false friend: not \"to molest\"; works like gustar: me molesta" }
+  examples:
+    - { text: "Lo que haces no me molesta.", translation: "What you do doesn't bother me.", source: "tatoeba:600886" }
+- id: es-w-1999
+  type: word
+  cefr: A1
+  text: "doler"
+  pos: verb
+  meaning: { en: "to hurt, to ache" }
+  note: { en: "o → ue; works like gustar: me duele la cabeza" }
+  examples:
+    - { text: "Ya no me duele la cabeza.", translation: "My head doesn't ache anymore.", source: "tatoeba:723580" }
+- id: es-w-2000
+  type: word
+  cefr: A2
+  text: "interesar"
+  pos: verb
+  meaning: { en: "to interest" }
+  note: { en: "works like gustar: me interesa = I'm interested in" }
+  examples:
+    - { text: "No me interesa el arte moderno.", translation: "I'm not interested in modern art.", source: "tatoeba:460385" }
+- id: es-w-2001
+  type: word
+  cefr: B1
+  text: "apetecer"
+  pos: verb
+  meaning: { en: "to feel like, to fancy" }
+  note: { en: "mainly Spain; works like gustar: ¿te apetece un café?" }
+  examples:
+    - { text: "Hoy no me apetece comida china.", translation: "I don't feel like having Chinese food today.", source: "tatoeba:1938558" }
