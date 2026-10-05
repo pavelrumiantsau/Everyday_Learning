@@ -20,7 +20,7 @@ explanation:
     Careful: ***por si*** (just in case) takes the **indicative**: *Llévate el paraguas **por si llueve**.* = *…en caso de que **llueva**.*
 comparison:
   en: |
-    Russian uses «чтобы» only for *para que*; here it has «без того чтобы / так, что никто не…» (*sin que*), «если только не» (*a menos que*), «лишь бы» (*con tal de que*), «на случай, если» (*en caso de que*), «как будто» (*como si*). English "as if he **were**" is the closest: *como si **fuera***. Never the present after *como si*: ~~como si es~~.
+    Russian uses «чтобы» only for *para que*; here it has «так, чтобы никто не…», «без ведома» (*sin que*), «если только не» (*a menos que*), «лишь бы» (*con tal de que*), «на случай, если» (*en caso de que*), «как будто» (*como si*). English "as if he **were**" is the closest: *como si **fuera***. Never the present after *como si*: ~~como si es~~.
 examples:
   - { text: "Ella se casó sin que sus padres lo supieran.", translation: "She married without her parents' knowledge.", source: "tatoeba:707765" }
   - { text: "No tienes que ir a menos que quieras.", translation: "You don't have to go unless you want to.", source: "tatoeba:1143197" }
