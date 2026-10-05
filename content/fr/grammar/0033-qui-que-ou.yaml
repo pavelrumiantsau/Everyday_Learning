@@ -1,0 +1,80 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0033
+cefr: A2
+order: 123
+title: "Qui, que, où: the man who, the book that, the day when"
+explanation:
+  en: |
+    Relative pronouns join two sentences. For people and things alike, the choice depends on **what comes next**.
+
+    ***qui*** — the subject; a **verb** follows:
+    - *J'ai un ami **qui** vit à Londres.* (the friend lives)
+    - *Le train **qui** part à 8 h est complet.*
+    - *qui* never shortens: *l'homme qui arrive*
+
+    ***que / qu'*** — the object; a **subject + verb** follow:
+    - *C'est le livre **que** tu cherches.* (you look for the book)
+    - *L'homme **qu'**elle aime.*
+    - it can't be left out as in English: "the book you want" = *le livre **que** tu veux*
+    - passé composé with *avoir* agrees with it (as with *la / les*): *les photos que j'ai pris**es***
+
+    ***où*** — place **and time**:
+    - *C'est la maison **où** je suis né.*
+    - *le jour **où** elle est partie* — not ~~le jour quand~~
+
+    ***ce qui / ce que*** = "what" (the thing that): *Je ne comprends pas **ce que** tu dis. Je ne sais pas **ce qui** se passe.*
+
+    Quick test: *qui* + verb (an object pronoun may come between: *qui m'appelle*), *que* + someone doing something.
+comparison:
+  en: |
+    Spanish uses one word, *que*, for both (*el amigo que vive*, *el libro que buscas*); French splits it into *qui* / *que*, like Russian «который» / «которого». Spanish *donde* for place is the same as *où*, but French also uses *où* for time (Spanish *el día que / en que*). *Ce que* = Spanish *lo que*.
+examples:
+  - { text: "J'ai un ami qui vit à Londres.", translation: "I have a friend who lives in London.", source: "tatoeba:1356414" }
+  - { text: "C'est le livre que tu cherches.", translation: "This is the book you're looking for.", source: "tatoeba:484178" }
+  - { text: "C'est l'homme que j'ai vu hier.", translation: "That's the man I saw yesterday.", source: "tatoeba:11535686" }
+  - { text: "C'est la maison où je suis né.", translation: "This is the house where I was born.", source: "tatoeba:473998" }
+  - { text: "Il est arrivé le jour où elle est partie.", translation: "He arrived the day she left.", source: "tatoeba:133661" }
+exercises:
+  - type: cloze
+    text: "J'ai une amie ___ parle cinq langues."
+    answer: "qui"
+    hint: "a verb follows"
+    translation: "I have a friend who speaks five languages."
+  - type: cloze
+    text: "Le gâteau ___ tu as fait est délicieux."
+    answer: "que"
+    hint: "a subject + verb follow"
+    translation: "The cake you made is delicious."
+  - type: cloze
+    text: "C'est le quartier ___ j'habite."
+    answer: "où"
+    hint: "a place"
+    translation: "This is the neighbourhood where I live."
+  - type: cloze
+    text: "C'est l'homme ___ m'a aidé."
+    answer: "qui"
+    hint: "the man helped — a verb follows"
+    translation: "That's the man who helped me."
+  - type: cloze
+    text: "Je me souviens du jour ___ on s'est rencontrés."
+    answer: "où"
+    hint: "time — the day when"
+    translation: "I remember the day we met."
+  - type: cloze
+    text: "La robe ___ elle a achetée est rouge."
+    answer: "que"
+    hint: "she bought it — object"
+    translation: "The dress she bought is red."
+  - type: cloze
+    text: "Le bus ___ va à la gare passe toutes les dix minutes."
+    answer: "qui"
+    hint: "a verb follows"
+    translation: "The bus that goes to the station comes every ten minutes."
+  - type: cloze
+    text: "Dis-moi ce ___ tu veux."
+    answer: "que"
+    hint: "what — tu veux follows"
+    translation: "Tell me what you want."
