@@ -1,0 +1,693 @@
+# Generated from scripts/batches/fr-a1-0956.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: fr-w-0956
+  type: word
+  cefr: A1
+  text: "vraiment"
+  pos: adv
+  meaning: { en: "really" }
+  examples:
+    - { text: "Tu lui as vraiment parlé ?", translation: "Have you really talked to him?", source: "tatoeba:10970897" }
+- id: fr-w-0957
+  type: word
+  cefr: A2
+  text: "donc"
+  pos: conj
+  meaning: { en: "so, therefore" }
+  examples:
+    - { text: "Donc, quel est ton nom ?", translation: "So, what's your name?", source: "tatoeba:3586633" }
+- id: fr-w-0958
+  type: word
+  cefr: A1
+  text: "alors"
+  pos: adv
+  meaning: { en: "so, then; well" }
+  note: { en: "et alors ? = so what?" }
+  examples:
+    - { text: "Et alors, ça t'a plu ?", translation: "So, did you like it?", source: "tatoeba:8355382" }
+- id: fr-w-0959
+  type: word
+  cefr: A1
+  text: "peut-être"
+  pos: adv
+  meaning: { en: "maybe, perhaps" }
+  note: { en: "with a hyphen; peut être (two words) = can be" }
+  examples:
+    - { text: "Il y a peut-être un moyen.", translation: "There may be a way.", source: "tatoeba:5943531" }
+- id: fr-w-0960
+  type: word
+  cefr: A2
+  text: "presque"
+  pos: adv
+  meaning: { en: "almost, nearly" }
+  examples:
+    - { text: "On est presque à la maison.", translation: "We're nearly home.", source: "tatoeba:11171754" }
+- id: fr-w-0961
+  type: word
+  cefr: A2
+  text: "seulement"
+  pos: adv
+  meaning: { en: "only; just" }
+  note: { en: "in speech often ne … que: je n'ai que dix euros" }
+  examples:
+    - { text: "Je l'ai utilisé seulement une fois.", translation: "I've only used it once.", source: "tatoeba:2965226" }
+- id: fr-w-0962
+  type: word
+  cefr: A1
+  text: "ensemble"
+  pos: adv
+  meaning: { en: "together" }
+  note: { en: "also a noun: un ensemble = a set; an outfit" }
+  examples:
+    - { text: "Et si on dînait ensemble ?", translation: "How about having dinner together?", source: "tatoeba:10930140" }
+- id: fr-w-0963
+  type: word
+  cefr: A1
+  text: "vite"
+  pos: adv
+  meaning: { en: "quickly, fast" }
+  note: { en: "adverb; the adjective is rapide" }
+  examples:
+    - { text: "Ne parlez pas si vite !", translation: "Don't speak so fast.", source: "tatoeba:3704123" }
+- id: fr-w-0964
+  type: word
+  cefr: A1
+  text: "loin"
+  pos: adv
+  meaning: { en: "far" }
+  note: { en: "loin de = far from" }
+  examples:
+    - { text: "Le lac n'est pas loin d'ici.", translation: "The lake isn't far from here.", source: "tatoeba:11054583" }
+- id: fr-w-0965
+  type: word
+  cefr: A1
+  text: "près"
+  pos: adv
+  meaning: { en: "near, close" }
+  note: { en: "près de = near; don't mix up with prêt (ready)" }
+  examples:
+    - { text: "J'ai une maison près d'ici.", translation: "I have a house near here.", source: "tatoeba:7368273" }
+- id: fr-w-0966
+  type: word
+  cefr: A2
+  text: "dehors"
+  pos: adv
+  meaning: { en: "outside" }
+  examples:
+    - { text: "Il y a du vent dehors.", translation: "It's windy outside.", source: "tatoeba:11965202" }
+- id: fr-w-0967
+  type: word
+  cefr: A2
+  text: "partout"
+  pos: adv
+  meaning: { en: "everywhere" }
+  examples:
+    - { text: "La pluie me suit partout !", translation: "The rain follows me everywhere!", source: "tatoeba:864050" }
+- id: fr-w-0968
+  type: word
+  cefr: B1
+  text: "ailleurs"
+  pos: adv
+  meaning: { en: "elsewhere, somewhere else" }
+  note: { en: "d'ailleurs = besides, by the way" }
+  examples:
+    - { text: "Peut-on parler de ça ailleurs ?", translation: "Can we talk about this somewhere else?", source: "tatoeba:11445825" }
+- id: fr-w-0969
+  type: word
+  cefr: A1
+  text: "devant"
+  pos: prep
+  meaning: { en: "in front of" }
+  examples:
+    - { text: "Elle se tient devant la porte.", translation: "She is standing in front of the door.", source: "tatoeba:10506291" }
+- id: fr-w-0970
+  type: word
+  cefr: A1
+  text: "derrière"
+  pos: prep
+  meaning: { en: "behind" }
+  examples:
+    - { text: "Qu'y a-t-il derrière le mur ?", translation: "What's behind the wall?", source: "tatoeba:11933915" }
+- id: fr-w-0971
+  type: word
+  cefr: A1
+  text: "à côté de"
+  pos: prep
+  meaning: { en: "next to" }
+  note: { en: "à côté = nearby, next door" }
+  examples:
+    - { text: "Il habite à côté de moi.", translation: "He lives next to me.", source: "tatoeba:4269504" }
+- id: fr-w-0972
+  type: word
+  cefr: A2
+  text: "en face de"
+  pos: prep
+  meaning: { en: "opposite, across from" }
+  examples:
+    - { text: "Elle était assise en face de moi.", translation: "She was sitting opposite me.", source: "tatoeba:10736327" }
+- id: fr-w-0973
+  type: word
+  cefr: A2
+  text: "plutôt"
+  pos: adv
+  meaning: { en: "rather; quite" }
+  note: { en: "plutôt que = rather than" }
+  examples:
+    - { text: "Je suis plutôt fier de ça.", translation: "I'm rather proud of it.", source: "tatoeba:128488" }
+- id: fr-w-0974
+  type: word
+  cefr: A2
+  text: "environ"
+  pos: adv
+  meaning: { en: "about, approximately" }
+  examples:
+    - { text: "Ça a pris environ 15 minutes.", translation: "It took about 15 minutes.", source: "tatoeba:6628895" }
+- id: fr-w-0975
+  type: word
+  cefr: A2
+  text: "surtout"
+  pos: adv
+  meaning: { en: "especially; above all" }
+  examples:
+    - { text: "Je déteste surtout les maths.", translation: "I hate math most of all.", source: "tatoeba:1689655" }
+- id: fr-w-0976
+  type: word
+  cefr: A2
+  text: "même"
+  pos: adj
+  meaning: { en: "same; (adverb) even" }
+  note: { en: "le / la même = the same; même pas = not even; moi-même = myself" }
+  examples:
+    - { text: "Il m'a dit la même chose.", translation: "He told me the same thing.", source: "tatoeba:11880333" }
+- id: fr-w-0977
+  type: word
+  cefr: A1
+  text: "d'abord"
+  pos: adv
+  meaning: { en: "first, at first" }
+  note: { en: "tout d'abord = first of all" }
+  examples:
+    - { text: "Il me faut d'abord un verre.", translation: "I need a drink first.", source: "tatoeba:3678008" }
+- id: fr-w-0978
+  type: word
+  cefr: A1
+  text: "puis"
+  pos: adv
+  meaning: { en: "then, next" }
+  note: { en: "d'abord … puis … = first … then …" }
+  examples:
+    - { text: "D’abord nous allons manger, puis nous partirons.", translation: "First we'll eat, and then we'll go.", source: "tatoeba:400335" }
+- id: fr-w-0979
+  type: word
+  cefr: B1
+  text: "pourtant"
+  pos: adv
+  meaning: { en: "yet, however" }
+  examples:
+    - { text: "Le soleil brillait, pourtant il faisait froid.", translation: "The sun was shining, yet it was cold.", source: "tatoeba:2163880" }
+- id: fr-w-0980
+  type: word
+  cefr: A2
+  text: "sinon"
+  pos: conj
+  meaning: { en: "otherwise, or else" }
+  examples:
+    - { text: "Rapproche-toi sinon tu ne verras rien.", translation: "Come closer, otherwise you won't see anything.", source: "tatoeba:8672923" }
+- id: fr-w-0981
+  type: word
+  cefr: A1
+  text: "comme"
+  pos: conj
+  meaning: { en: "like, as" }
+  note: { en: "comme ça = like that; comme d'habitude = as usual" }
+  examples:
+    - { text: "Je ne suis pas comme toi.", translation: "I'm not like you.", source: "tatoeba:3636911" }
+- id: fr-w-0982
+  type: word
+  cefr: B1
+  text: "lorsque"
+  pos: conj
+  meaning: { en: "when" }
+  note: { en: "more formal than quand; lorsqu' before il, elle, on" }
+  examples:
+    - { text: "Lorsqu'il pleut, elle prend le bus.", translation: "When it rains, she takes the bus.", source: "tatoeba:180962" }
+- id: fr-w-0983
+  type: word
+  cefr: B1
+  text: "tandis que"
+  pos: conj
+  meaning: { en: "while; whereas" }
+  examples:
+    - { text: "Ne m'interromps pas tandis que je parle.", translation: "Don't interrupt me while I'm speaking.", source: "tatoeba:560693" }
+- id: fr-w-0984
+  type: word
+  cefr: B1
+  text: "bien que"
+  pos: conj
+  meaning: { en: "although" }
+  note: { en: "+ subjunctive: bien qu'il soit…; ES: aunque" }
+  examples:
+    - { text: "Bien qu'il soit pauvre, il est heureux.", translation: "Even though he's poor, he's happy.", source: "tatoeba:793278" }
+- id: fr-w-0985
+  type: word
+  cefr: A2
+  text: "quand même"
+  pos: adv
+  meaning: { en: "still, all the same" }
+  examples:
+    - { text: "C'est quand même un gros risque.", translation: "It's still a big risk.", source: "tatoeba:6935962" }
+- id: fr-w-0986
+  type: word
+  cefr: B1
+  text: "ainsi"
+  pos: adv
+  meaning: { en: "thus, (in) this way" }
+  note: { en: "ainsi que = as well as" }
+  examples:
+    - { text: "C'est ainsi que je l'ai fait.", translation: "That's how I did it.", source: "tatoeba:3599270" }
+- id: fr-w-0987
+  type: word
+  cefr: B1
+  text: "grâce à"
+  pos: prep
+  meaning: { en: "thanks to" }
+  note: { en: "for a good cause; for a bad one: à cause de" }
+  examples:
+    - { text: "On a gagné grâce à toi.", translation: "We won, thanks to you.", source: "tatoeba:10873860" }
+- id: fr-w-0988
+  type: word
+  cefr: A2
+  text: "à cause de"
+  pos: prep
+  meaning: { en: "because of" }
+  note: { en: "à cause du / des: à cause du bruit" }
+  examples:
+    - { text: "Je souffre à cause de toi.", translation: "I suffer because of you.", source: "tatoeba:11146037" }
+- id: fr-w-0989
+  type: word
+  cefr: B1
+  text: "au lieu de"
+  pos: prep
+  meaning: { en: "instead of" }
+  examples:
+    - { text: "Travaille au lieu de bavarder !", translation: "Work instead of chatting!", source: "tatoeba:6799140" }
+- id: fr-w-0990
+  type: word
+  cefr: A2
+  text: "jusqu'à"
+  pos: prep
+  meaning: { en: "until; as far as" }
+  note: { en: "jusqu'au bout = to the end" }
+  examples:
+    - { text: "Il a vécu jusqu'à 90 ans.", translation: "He lived to be ninety.", source: "tatoeba:15463" }
+- id: fr-w-0991
+  type: word
+  cefr: B1
+  text: "dès que"
+  pos: conj
+  meaning: { en: "as soon as" }
+  note: { en: "dès alone = from, as early as: dès demain" }
+  examples:
+    - { text: "Je t'appelle dès que j'ai fini.", translation: "I'll call you as soon as I've finished.", source: "tatoeba:3273401" }
+- id: fr-w-0992
+  type: word
+  cefr: A2
+  text: "sauf"
+  pos: prep
+  meaning: { en: "except" }
+  examples:
+    - { text: "Tout le monde ira sauf toi.", translation: "All will go except you.", source: "tatoeba:330287" }
+- id: fr-w-0993
+  type: word
+  cefr: B1
+  text: "selon"
+  pos: prep
+  meaning: { en: "according to" }
+  note: { en: "selon moi = in my opinion" }
+  examples:
+    - { text: "Selon les journaux, il neigera demain.", translation: "According to the paper, it will snow tomorrow.", source: "tatoeba:128615" }
+- id: fr-w-0994
+  type: word
+  cefr: A2
+  text: "contre"
+  pos: prep
+  meaning: { en: "against" }
+  examples:
+    - { text: "Je ne suis pas contre lui.", translation: "I am not against him.", source: "tatoeba:11807713" }
+- id: fr-w-0995
+  type: word
+  cefr: A1
+  text: "par"
+  pos: prep
+  meaning: { en: "by; through; per" }
+  note: { en: "par ici = this way; par exemple = for example" }
+  examples:
+    - { text: "Je gagne 100 € par jour.", translation: "I make €100 a day.", source: "tatoeba:3115" }
+- id: fr-w-0996
+  type: word
+  cefr: A1
+  text: "quelque chose"
+  pos: pron
+  meaning: { en: "something" }
+  note: { en: "quelque chose de bon = something good" }
+  examples:
+    - { text: "Quelque chose ne va pas ?", translation: "Is something wrong?", source: "tatoeba:181178" }
+- id: fr-w-0997
+  type: word
+  cefr: A1
+  text: "personne"
+  pos: noun
+  gender: f
+  meaning: { en: "person" }
+  note: { en: "always feminine, even for a man; ne … personne = nobody" }
+  examples:
+    - { text: "Sais-tu qui est cette personne ?", translation: "Do you know who that person is?", source: "tatoeba:1462291" }
+- id: fr-w-0998
+  type: word
+  cefr: A2
+  text: "quelque part"
+  pos: adv
+  meaning: { en: "somewhere" }
+  examples:
+    - { text: "Tu veux aller quelque part ?", translation: "Do you want to go somewhere?", source: "tatoeba:4534807" }
+- id: fr-w-0999
+  type: word
+  cefr: B1
+  text: "nulle part"
+  pos: adv
+  meaning: { en: "nowhere" }
+  note: { en: "with ne: je ne le trouve nulle part" }
+  examples:
+    - { text: "Je ne les vois nulle part.", translation: "I don't see them anywhere.", source: "tatoeba:2527799" }
+- id: fr-w-1000
+  type: word
+  cefr: A2
+  text: "plusieurs"
+  pos: adj
+  meaning: { en: "several" }
+  note: { en: "same form for masculine and feminine" }
+  examples:
+    - { text: "J'ai vu ce film plusieurs fois.", translation: "I've seen this film several times.", source: "tatoeba:10509240" }
+- id: fr-w-1001
+  type: word
+  cefr: A1
+  text: "quelques"
+  pos: adj
+  meaning: { en: "a few, some" }
+  note: { en: "quelques-uns = a few (pronoun)" }
+  examples:
+    - { text: "Il est là pour quelques jours.", translation: "He is there for a few days.", source: "tatoeba:1082449" }
+- id: fr-w-1002
+  type: word
+  cefr: A2
+  text: "aucun"
+  pos: adj
+  meaning: { en: "no, not any; none" }
+  note: { en: "aucune (f); with ne: je n'ai aucune idée" }
+  examples:
+    - { text: "Aucun de nous ne l'a vu.", translation: "None of us saw it.", source: "tatoeba:5933956" }
+- id: fr-w-1003
+  type: word
+  cefr: A2
+  text: "tellement"
+  pos: adv
+  meaning: { en: "so, so much" }
+  note: { en: "tellement de = so much, so many" }
+  examples:
+    - { text: "Tu as tellement de talent !", translation: "You're so talented.", source: "tatoeba:3644898" }
+- id: fr-w-1004
+  type: word
+  cefr: A2
+  text: "exactement"
+  pos: adv
+  meaning: { en: "exactly" }
+  examples:
+    - { text: "Je sais exactement qui tu es.", translation: "I know exactly who you are.", source: "tatoeba:10790320" }
+- id: fr-w-1005
+  type: word
+  cefr: A2
+  text: "probablement"
+  pos: adv
+  meaning: { en: "probably" }
+  examples:
+    - { text: "Il va probablement gagner le match.", translation: "He'll probably win the match.", source: "tatoeba:130838" }
+- id: fr-w-1006
+  type: word
+  cefr: A2
+  text: "simplement"
+  pos: adv
+  meaning: { en: "simply, just" }
+  examples:
+    - { text: "Je veux simplement être ton ami.", translation: "I just want to be your friend.", source: "tatoeba:1890491" }
+- id: fr-w-1007
+  type: word
+  cefr: A2
+  text: "lentement"
+  pos: adv
+  meaning: { en: "slowly" }
+  examples:
+    - { text: "Il se lève et marche lentement.", translation: "He gets up and walks slowly.", source: "tatoeba:11278097" }
+- id: fr-w-1008
+  type: word
+  cefr: A2
+  text: "d'habitude"
+  pos: adv
+  meaning: { en: "usually" }
+  note: { en: "comme d'habitude = as usual" }
+  examples:
+    - { text: "D'habitude, je ne me trompe pas.", translation: "I usually don't make mistakes.", source: "tatoeba:6821386" }
+- id: fr-w-1009
+  type: word
+  cefr: B1
+  text: "généralement"
+  pos: adv
+  meaning: { en: "generally, usually" }
+  examples:
+    - { text: "Je me lève généralement très tôt.", translation: "I usually get up very early.", source: "tatoeba:9761447" }
+- id: fr-w-1010
+  type: word
+  cefr: A2
+  text: "rarement"
+  pos: adv
+  meaning: { en: "rarely, seldom" }
+  examples:
+    - { text: "Je vais rarement à la plage.", translation: "I rarely go to the beach.", source: "tatoeba:11319547" }
+- id: fr-w-1011
+  type: word
+  cefr: A2
+  text: "longtemps"
+  pos: adv
+  meaning: { en: "(for) a long time" }
+  note: { en: "il y a longtemps = a long time ago" }
+  examples:
+    - { text: "J'ai arrêté il y a longtemps.", translation: "I quit a long time ago.", source: "tatoeba:2390651" }
+- id: fr-w-1012
+  type: word
+  cefr: B1
+  text: "autrefois"
+  pos: adv
+  meaning: { en: "in the past, formerly" }
+  examples:
+    - { text: "Autrefois, nous jouions dans le parc.", translation: "We used to play in the park.", source: "tatoeba:333423" }
+- id: fr-w-1013
+  type: word
+  cefr: A1
+  text: "tout de suite"
+  pos: adv
+  meaning: { en: "right away, immediately" }
+  examples:
+    - { text: "Je serai là tout de suite.", translation: "I'll be there right away.", source: "tatoeba:1223634" }
+- id: fr-w-1014
+  type: word
+  cefr: A2
+  text: "tout à l'heure"
+  pos: adv
+  meaning: { en: "a moment ago; in a little while" }
+  note: { en: "past or future by context; à tout à l'heure = see you later" }
+  examples:
+    - { text: "Il me l'a dit tout à l'heure.", translation: "He told me just now.", source: "tatoeba:13369110" }
+- id: fr-w-1015
+  type: word
+  cefr: A1
+  text: "après-midi"
+  pos: noun
+  gender: m
+  meaning: { en: "afternoon" }
+  note: { en: "usually masculine (cet après-midi); feminine is also accepted" }
+  examples:
+    - { text: "Je vais au parc cet après-midi.", translation: "I'm going to the park this afternoon.", source: "tatoeba:6877187" }
+- id: fr-w-1016
+  type: word
+  cefr: A1
+  text: "week-end"
+  pos: noun
+  gender: m
+  meaning: { en: "weekend" }
+  examples:
+    - { text: "Que vas-tu faire ce week-end ?", translation: "What'll you be doing over the weekend?", source: "tatoeba:484676" }
+- id: fr-w-1017
+  type: word
+  cefr: B1
+  text: "veille"
+  pos: noun
+  gender: f
+  meaning: { en: "the day before; eve" }
+  note: { en: "la veille de Noël = Christmas Eve" }
+  examples:
+    - { text: "Le 24 décembre est la veille de Noël.", translation: "December 24th is Christmas Eve.", source: "tatoeba:9489659" }
+- id: fr-w-1018
+  type: word
+  cefr: A2
+  text: "passé"
+  pos: noun
+  gender: m
+  meaning: { en: "the past" }
+  examples:
+    - { text: "Ne te soucie pas du passé.", translation: "Don't worry about the past.", source: "tatoeba:1339342" }
+- id: fr-w-1019
+  type: word
+  cefr: A2
+  text: "avenir"
+  pos: noun
+  gender: m
+  meaning: { en: "future" }
+  note: { en: "à l'avenir = in future" }
+  examples:
+    - { text: "Tu devrais penser à ton avenir.", translation: "You should think about your future.", source: "tatoeba:7676620" }
+- id: fr-w-1020
+  type: word
+  cefr: A2
+  text: "retard"
+  pos: noun
+  gender: m
+  meaning: { en: "delay, lateness" }
+  note: { en: "être en retard = to be late" }
+  examples:
+    - { text: "Tu es un peu en retard.", translation: "You're a little late.", source: "tatoeba:3801900" }
+- id: fr-w-1021
+  type: word
+  cefr: A1
+  text: "quart"
+  pos: noun
+  gender: m
+  meaning: { en: "quarter" }
+  note: { en: "deux heures et quart = 2:15; deux heures moins le quart = 1:45" }
+  examples:
+    - { text: "Je serai là dans un quart d'heure.", translation: "I'll be there in fifteen minutes.", source: "tatoeba:6774503" }
+- id: fr-w-1022
+  type: word
+  cefr: A2
+  text: "moitié"
+  pos: noun
+  gender: f
+  meaning: { en: "half" }
+  note: { en: "à moitié = half (done, full…)" }
+  examples:
+    - { text: "La moitié de six est trois.", translation: "Half of six is three.", source: "tatoeba:7217895" }
+- id: fr-w-1023
+  type: word
+  cefr: B1
+  text: "dizaine"
+  pos: noun
+  gender: f
+  meaning: { en: "about ten" }
+  note: { en: "also une vingtaine, une centaine = about 20, about 100" }
+  examples:
+    - { text: "Nous y serons dans une dizaine de minutes.", translation: "We'll be there in about ten minutes.", source: "tatoeba:8755922" }
+- id: fr-w-1024
+  type: word
+  cefr: A1
+  text: "onze"
+  pos: num
+  meaning: { en: "eleven" }
+  note: { en: "no elision: le onze" }
+  examples:
+    - { text: "Il est onze heures et quart.", translation: "It's a quarter past eleven.", source: "tatoeba:10672572" }
+- id: fr-w-1025
+  type: word
+  cefr: A1
+  text: "douze"
+  pos: num
+  meaning: { en: "twelve" }
+  note: { en: "une douzaine = a dozen" }
+  examples:
+    - { text: "Mon petit frère a douze ans.", translation: "My kid brother is twelve.", source: "tatoeba:1991084" }
+- id: fr-w-1026
+  type: word
+  cefr: A1
+  text: "treize"
+  pos: num
+  meaning: { en: "thirteen" }
+  examples:
+    - { text: "J'ai treize noms sur ma liste.", translation: "I have thirteen names on my list.", source: "tatoeba:5302723" }
+- id: fr-w-1027
+  type: word
+  cefr: A1
+  text: "quatorze"
+  pos: num
+  meaning: { en: "fourteen" }
+  examples:
+    - { text: "Je vais avoir quatorze ans.", translation: "I'm going to be fourteen.", source: "tatoeba:6890" }
+- id: fr-w-1028
+  type: word
+  cefr: A1
+  text: "quinze"
+  pos: num
+  meaning: { en: "fifteen" }
+  note: { en: "quinze jours = two weeks" }
+  examples:
+    - { text: "Je serai là dans quinze minutes.", translation: "I'll be there in fifteen minutes.", source: "tatoeba:2856659" }
+- id: fr-w-1029
+  type: word
+  cefr: A1
+  text: "seize"
+  pos: num
+  meaning: { en: "sixteen" }
+  note: { en: "from 17: dix-sept, dix-huit, dix-neuf" }
+  examples:
+    - { text: "J'aurai seize ans le mois prochain.", translation: "I'll be sixteen years old next month.", source: "tatoeba:13867" }
+- id: fr-w-1030
+  type: word
+  cefr: A1
+  text: "trente"
+  pos: num
+  meaning: { en: "thirty" }
+  note: { en: "trente et un = 31" }
+  examples:
+    - { text: "Je vis ici depuis trente ans.", translation: "I've lived here for 30 years.", source: "tatoeba:11529845" }
+- id: fr-w-1031
+  type: word
+  cefr: A1
+  text: "quarante"
+  pos: num
+  meaning: { en: "forty" }
+  examples:
+    - { text: "La vie commence à quarante ans.", translation: "Life begins at forty.", source: "tatoeba:1720008" }
+- id: fr-w-1032
+  type: word
+  cefr: A1
+  text: "cinquante"
+  pos: num
+  meaning: { en: "fifty" }
+  examples:
+    - { text: "J'ai cinquante euros dans ma poche.", translation: "I have fifty euros in my pocket.", source: "tatoeba:8332805" }
+- id: fr-w-1033
+  type: word
+  cefr: A1
+  text: "soixante"
+  pos: num
+  meaning: { en: "sixty" }
+  note: { en: "70 = soixante-dix (60 + 10)" }
+  examples:
+    - { text: "Il a près de soixante ans.", translation: "He is close to sixty.", source: "tatoeba:130645" }
+- id: fr-w-1034
+  type: word
+  cefr: A2
+  text: "million"
+  pos: noun
+  gender: m
+  meaning: { en: "million" }
+  note: { en: "un million de + noun; ES: un millón de" }
+  examples:
+    - { text: "Cette ville compte un million d'habitants.", translation: "This city has a million inhabitants.", source: "tatoeba:12038664" }
