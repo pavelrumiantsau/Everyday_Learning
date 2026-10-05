@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0115
+cefr: B1
+order: 115
+title: "Местный падеж: virtuvėje, darbe, vaikystėje, XX amžiuje, laikraščiuose"
+explanation:
+  ru: |
+    Местный падеж (*kur? kada?*) — без предлога. Окончания: *-e* (mieste), *-yje* (brolyje), *-oje* (knygoje), *-ėje* (virtuvėje), *-uje* (turguje); мн. ч. *-uose, -ose, -ėse, -yse*.
+
+    **1. Место — «где?»**, и там, где по-русски «на»:
+    - *mieste, kaime, parduotuvėje, lovoje*
+    - ***virtuvėje*** — на кухне, ***darbe*** — на работе, ***koncerte*** — на концерте, ***susirinkime*** — на собрании, *trečiame **aukšte*** — на третьем этаже, *gatvėje* — на улице
+
+    *ant* + род. п. — только «на поверхности»: *ant stalo, ant sienos*. «На кухне» — не *ant virtuvės*.
+
+    **2. Время — периоды жизни и истории:** *vaikystėje, jaunystėje, senatvėje*, *ateityje, praeityje*, *XX **amžiuje***, *metų **pradžioje** / **pabaigoje***. А дни, сезоны и месяцы — винительный: *pirmadienį, žiemą, gegužę*.
+
+    **3. Внутри чего-то нематериального:** *širdyje, sapne* (во сне), *akyse* (в глазах), *gerose rankose*, *laikraščiuose / internete rašoma* (в газетах / в интернете пишут), *gyventi taikoje*.
+
+    Куда? — *į* + вин. п.: *einu **į** parduotuvę* → *esu **parduotuvėje***.
+comparison:
+  ru: |
+    Местный падеж — это русский предложный с «в»: *mieste* — «в городе». Отличие: литовский не делит «в» и «на» — «на работе, на кухне, на концерте» тоже местный падеж. Русское «на» превращается в *ant* только тогда, когда что-то лежит или стоит **сверху**.
+examples:
+  - { text: "Padėk man virtuvėje.", translation: "Помоги мне на кухне.", source: "tatoeba:12793181" }
+  - { text: "Kaip sekasi darbe?", translation: "Как на работе дела?", source: "tatoeba:13396836" }
+  - { text: "Aš jaunystėje rūkiau.", translation: "Я курил в молодости.", source: "tatoeba:10254804" }
+  - { text: "Blogiausia jau praeityje.", translation: "Худшее позади.", source: "tatoeba:12425644" }
+  - { text: "Ką rašo laikraščiuose?", translation: "Что пишут в газетах?", source: "tatoeba:12226635" }
+exercises:
+  - type: cloze
+    text: "Vakar buvau ___ ir sutikau Joną."
+    answer: "koncerte"
+    hint: "на концерте (koncertas)"
+    translation: "Вчера я был на концерте и встретил Йонаса."
+  - type: cloze
+    text: "Mama gamina vakarienę ___."
+    answer: "virtuvėje"
+    hint: "на кухне (virtuvė)"
+    translation: "Мама готовит ужин на кухне."
+  - type: cloze
+    text: "___ aš gyvenau kaime."
+    answer: "Vaikystėje"
+    hint: "в детстве (vaikystė)"
+    translation: "В детстве я жил в деревне."
+  - type: cloze
+    text: "___ bus dar sunkiau."
+    answer: "Ateityje"
+    hint: "в будущем (ateitis)"
+    translation: "В будущем будет ещё труднее."
+  - type: cloze
+    text: "Ši pilis pastatyta XIV ___."
+    answer: "amžiuje"
+    hint: "в веке (amžius)"
+    translation: "Этот замок построен в XIV веке."
+  - type: cloze
+    text: "___ rašoma, kad rytoj lis."
+    answer: "Internete"
+    hint: "в интернете (internetas)"
+    translation: "В интернете пишут, что завтра будет дождь."
+  - type: cloze
+    text: "Mūsų butas yra trečiame ___."
+    answer: "aukšte"
+    hint: "на этаже (aukštas)"
+    translation: "Наша квартира на третьем этаже."
+  - type: cloze
+    text: "Šiandien ___ buvo daug žmonių."
+    answer: "susirinkime"
+    hint: "на собрании (susirinkimas)"
+    translation: "Сегодня на собрании было много людей."

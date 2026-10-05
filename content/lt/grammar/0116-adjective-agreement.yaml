@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0116
+cefr: B1
+order: 116
+title: "Прилагательное + существительное во всех падежах: geram draugui, naujame name, su gerais draugais"
+explanation:
+  ru: |
+    Прилагательные на *-as / -a* (*geras, gera*) склоняются почти как *vyras* и *knyga* — но в мужском роде есть **местоименные окончания** (как у *tas*: *tam, tame, tie, tiems*).
+
+    **Мужской род:**
+    - ед. ч.: geras – gero – **geram** – gerą – geru – **gerame**
+    - мн. ч.: **geri** – gerų – **geriems** – gerus – gerais – geruose
+
+    **Женский род** — как *knyga*:
+    - ед. ч.: gera – geros – gerai – gerą – gera – geroje
+    - мн. ч.: geros – gerų – geroms – geras – geromis – gerose
+
+    Значит: ***geram** draugui* (не *gerui*), *naujame **name***, ***geri** draugai*, ***geriems** draugams*. Прилагательные на *-ias* (*žalias*) — так же, с *-i-*: *žaliam, žaliame, žali, žaliems, žaliuose*. На *-us* и *-is* — урок «Прилагательные на -us и -is».
+
+    Женский род: творительный ед. ч. без носовой — *su **gera** drauge*, винительный — с ней: *turiu **gerą** draugę*.
+comparison:
+  ru: |
+    В русском у прилагательных тоже свои окончания, не как у существительных: «доброму другу», «в новом доме». Литовский делает то же самое в мужском роде: *geram draugui* («доброму»), *naujame name* («в новом»). Женский род проще — окончания совпадают с существительным: *geroje knygoje*.
+examples:
+  - { text: "Naujame bute jauku.", translation: "В новой квартире уютно.", source: "tatoeba:13527095" }
+  - { text: "Aš gyvenu mažame mieste.", translation: "Я живу в маленьком городке.", source: "tatoeba:1659952" }
+  - { text: "Aš su naujais batais.", translation: "Я в новых ботинках.", source: "tatoeba:12792458" }
+  - { text: "Jie yra gerose rankose.", translation: "Они в хороших руках.", source: "tatoeba:11319691" }
+  - { text: "Jis bijo juodų kačių.", translation: "Он боится чёрных кошек.", source: "tatoeba:13223756" }
+exercises:
+  - type: cloze
+    text: "Padovanojau knygą ___ draugui."
+    answer: "geram"
+    hint: "geras → дат."
+    translation: "Я подарил книгу хорошему другу."
+  - type: cloze
+    text: "Mes gyvename ___ name."
+    answer: "naujame"
+    hint: "naujas → мест."
+    translation: "Мы живём в новом доме."
+  - type: cloze
+    text: "Mano ___ draugai gyvena Kaune."
+    answer: "geri"
+    hint: "geras → им. мн."
+    translation: "Мои хорошие друзья живут в Каунасе."
+  - type: cloze
+    text: "Jaunimas padėjo ___ žmonėms."
+    answer: "seniems"
+    hint: "senas → дат. мн."
+    translation: "Молодёжь помогла пожилым людям."
+  - type: cloze
+    text: "Ji vaikšto su ___ batais."
+    answer: "raudonais"
+    hint: "raudonas → твор. мн."
+    translation: "Она ходит в красных ботинках."
+  - type: cloze
+    text: "___ miestuose daug turistų."
+    answer: "Senuose"
+    hint: "senas → мест. мн."
+    translation: "В старых городах много туристов."
+  - type: cloze
+    text: "Ji grįžo su ___ knyga."
+    answer: "nauja"
+    hint: "nauja → твор. ед. (без носовой)"
+    translation: "Она вернулась с новой книгой."
+  - type: cloze
+    text: "Kalbėjausi su ___ mokytojomis."
+    answer: "jaunomis"
+    hint: "jauna → твор. мн."
+    translation: "Я поговорил с молодыми учительницами."

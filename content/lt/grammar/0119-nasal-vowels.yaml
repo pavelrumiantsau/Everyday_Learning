@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0119
+cefr: B2
+order: 119
+title: "Носовые ą, ę, į, ų: knygą, но su knyga; knygų, esąs, pažįstu"
+explanation:
+  ru: |
+    *ą, ę, į, ų* сегодня звучат как **долгие** *a, e, i, u* — носового звука нет. Поэтому их легко пропустить на письме. Где они пишутся:
+
+    **1. Окончания:**
+    - винительный ед. ч.: *knyg**ą**, up**ę**, brol**į**, naktį, sūn**ų***; прилагательные: *ger**ą**, didel**į**, graž**ų***; *ger**ąjį**, ger**ąją***
+    - родительный мн. ч. — **всегда -ų**: *knygų, žmonių, gerų, mūsų*
+    - причастия: *es**ą**s, tur**į**s* (наст.), *buv**ę**s, skait**ę**s* (прош.), *skaitysi**ą**s* (буд.)
+
+    **Без носовой:** творительный ж. р. — ***su knyga**, su mama, su gera drauge*; именительный — *knyga*. В речи *knygą* и *knyga* почти одинаковы, на письме их различает только знак.
+
+    **2. Корни:** носовая пишется там, где в родственной форме слышно *an, en, in, un*:
+    - *k**ą**sti – k**an**da*, *si**ų**sti – si**un**čia*, *sk**ę**sti – sk**en**do*, *l**į**sti – l**en**da*, *paž**į**stu – paž**in**ti*
+
+    **3. Приставка и предлог *į*** — всегда с носовой: ***į** namus, **į**eiti, **į**domu*. А в *yra, ypač* — *y*.
+comparison:
+  ru: |
+    Это похоже на русское «тся / ться»: в речи одинаково, на письме — по правилу. Самое частое правило: «кого? что?» в ед. ч. → носовая (*matau knygą*), «с кем? чем?» → нет (*su knyga*). Родительный мн. ч. («чего? кого?» — много) → всегда *-ų*. Пропущенная носовая — частая ошибка в письменных заданиях B2.
+examples:
+  - { text: "Aš imu knygą.", translation: "Я беру книгу.", source: "tatoeba:12498212" }
+  - { text: "Tu turi sūnų.", translation: "У тебя есть сын.", source: "tatoeba:12078331" }
+  - { text: "Aš neturiu sūnų.", translation: "У меня нет сыновей.", source: "tatoeba:12137975" }
+  - { text: "Paimk šitą dėžę.", translation: "Возьми этот ящик.", source: "tatoeba:10125100" }
+  - { text: "Jis mano esąs turtingas.", translation: "Он думает, что он богат.", source: "tatoeba:10930377" }
+exercises:
+  - type: cloze
+    text: "Vakar perskaičiau įdomią ___."
+    answer: "knygą"
+    hint: "knyga → вин."
+    translation: "Вчера я прочитал интересную книгу."
+  - type: cloze
+    text: "Kalbėjau telefonu su ___."
+    answer: "mama"
+    hint: "mama → твор. (с мамой)"
+    translation: "Я говорил по телефону с мамой."
+  - type: cloze
+    text: "Neturiu ___."
+    answer: "pinigų"
+    hint: "pinigai → род. мн."
+    translation: "У меня нет денег."
+  - type: cloze
+    text: "Jis nusipirko ___ automobilį."
+    answer: "naują"
+    hint: "naujas → вин."
+    translation: "Он купил новую машину."
+  - type: cloze
+    text: "Iš kalno matome ___."
+    answer: "upę"
+    hint: "upė → вин."
+    translation: "С горы мы видим реку."
+  - type: cloze
+    text: "Jis sakė ___ pavargęs."
+    answer: "esąs"
+    hint: "būti → причастие (косв. речь)"
+    translation: "Он сказал, что устал."
+  - type: cloze
+    text: "Ar ___ šitą žmogų?"
+    answer: "pažįsti"
+    hint: "pažinti → ты"
+    translation: "Ты знаешь этого человека?"
+  - type: cloze
+    text: "Mokytojas ___ į klasę."
+    answer: "įėjo"
+    hint: "įeiti → прош."
+    translation: "Учитель вошёл в класс."

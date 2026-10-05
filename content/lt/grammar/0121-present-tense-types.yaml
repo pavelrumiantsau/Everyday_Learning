@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0121
+cefr: B1
+order: 121
+title: "Настоящее время: три типа — dirba, myli, žino (и kalbėti – kalba)"
+explanation:
+  ru: |
+    Тип спряжения виден по **3-му лицу** настоящего времени (вторая форма в словаре и в карточках):
+
+    - **-a / -ia**: *dirbti – dirba*: dirb**u**, dirb**i**, dirb**a**, dirb**ame**, dirb**ate**; *piešti – piešia*: pieš**iu**, pieš**i**, pieš**ia**, pieš**iame**, pieš**iate**
+    - **-i**: *mylėti – myli*: myl**iu**, myl**i**, myl**i**, myl**ime**, myl**ite** (*tikėti, norėti, turėti, girdėti*)
+    - **-o**: *žinoti – žino*: žin**au**, žin**ai**, žin**o**, žin**ome**, žin**ote** (*rašyti, skaityti, daryti, matyti*)
+
+    Перед *-iu* согласные **t, d** смягчаются: *girdėti → **girdžiu***, *sėdėti → **sėdžiu***, *keisti – keičia → **keičiu***.
+
+    **Ловушка:** инфинитив не показывает тип. *kalbėti – **kalba***, *mokėti – **moka*** — тип *-a*, хотя *-ėti* часто даёт *-i* (*mylėti – myli*). А *matyti – **mato***, *rašyti – **rašo*** — тип *-o*. Поэтому глагол учат тремя формами (урок «Три основные формы глагола»).
+comparison:
+  ru: |
+    Как русские I и II спряжения (*делает* / *любит*), только типов три. Окончания 1-го лица *-u / -iu / -au* похожи на русские *-у / -ю*: *dirbu* — «работаю», *myliu* — «люблю». Смягчение *girdėti → girdžiu* — как русское «сидеть → сижу».
+examples:
+  - { text: "Aš dirbu naktį.", translation: "Я работаю ночью.", source: "tatoeba:13191409" }
+  - { text: "Ką tu pieši?", translation: "Что ты рисуешь?", source: "tatoeba:11554606" }
+  - { text: "Aš tave myliu.", translation: "Я тебя люблю.", source: "tatoeba:624348" }
+  - { text: "Aš nežinau.", translation: "Я не знаю.", source: "tatoeba:1197532" }
+  - { text: "Aš sėdžiu.", translation: "Я сижу.", source: "tatoeba:8654253" }
+exercises:
+  - type: cloze
+    text: "Aš ___ banke."
+    answer: "dirbu"
+    hint: "dirbti – dirba → я"
+    translation: "Я работаю в банке."
+  - type: cloze
+    text: "Gražiai ___, tau reikia mokytis dailės."
+    answer: "pieši"
+    hint: "piešti – piešia → ты"
+    translation: "Ты красиво рисуешь, тебе нужно учиться живописи."
+  - type: cloze
+    text: "Aš ___ tik tave."
+    answer: "myliu"
+    hint: "mylėti – myli → я"
+    translation: "Я люблю только тебя."
+  - type: cloze
+    text: "Mes ___ jo adresą."
+    answer: "žinome"
+    hint: "žinoti – žino → мы"
+    translation: "Мы знаем его адрес."
+  - type: cloze
+    text: "Kiekvieną vakarą vaikams ___ pasakas."
+    answer: "skaitau"
+    hint: "skaityti – skaito → я"
+    translation: "Каждый вечер я читаю детям сказки."
+  - type: cloze
+    text: "Ar jūs mane ___?"
+    answer: "girdite"
+    hint: "girdėti – girdi → вы"
+    translation: "Вы меня слышите?"
+  - type: cloze
+    text: "Aš ___ prie lango ir laukiu."
+    answer: "sėdžiu"
+    hint: "sėdėti – sėdi → я"
+    translation: "Я сижу у окна и жду."
+  - type: cloze
+    text: "Jie gerai ___ lietuviškai."
+    answer: "kalba"
+    hint: "kalbėti → они"
+    translation: "Они хорошо говорят по-литовски."

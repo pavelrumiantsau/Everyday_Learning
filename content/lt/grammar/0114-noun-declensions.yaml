@@ -1,0 +1,80 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0114
+cefr: B1
+order: 114
+title: "Склонение существительных: таблица, особенно множественное (draugams, draugais, drauguose)"
+explanation:
+  ru: |
+    Пять типов склонения в одной таблице. Порядок падежей: им. – род. – дат. – вин. – твор. – мест.
+
+    **Единственное число:**
+    - *vyras*: vyras – vyro – vyrui – vyrą – vyru – **vyre**
+    - *brolis*: brolis – brolio – broliui – brolį – broliu – **brolyje**
+    - *knyga*: knyga – knygos – knygai – knygą – knyga – **knygoje**
+    - *upė*: upė – upės – upei – upę – upe – **upėje**
+    - *naktis* (ж. р.): naktis – nakties – nakčiai – naktį – naktimi – **naktyje**
+    - *sūnus*: sūnus – sūnaus – sūnui – sūnų – sūnumi – **sūnuje**
+
+    **Множественное число** — здесь больше всего ошибок:
+    - *vyrai* – vyrų – **vyrams** – vyrus – **vyrais** – **vyruose**
+    - *broliai* – brolių – **broliams** – brolius – **broliais** – **broliuose**
+    - *knygos* – knygų – **knygoms** – knygas – **knygomis** – **knygose**
+    - *upės* – upių – **upėms** – upes – **upėmis** – **upėse**
+    - *naktys* – naktų – **naktims** – naktis – **naktimis** – **naktyse**
+    - *sūnūs* – sūnų – **sūnums** – sūnus – **sūnumis** – **sūnuose**
+
+    Подсказка: дательный мн. ч. всегда на **-ms** (*-ams, -oms, -ėms, -ims, -ums*), творительный — на **-ais** (м. р. на *-as/-is*) или **-mis** (*-omis, -ėmis, -imis, -umis*), местный — на **-se** (*-uose, -ose, -ėse, -yse*). Родительный мн. ч. — всегда **-ų**.
+
+    *akmuo, sesuo, duktė, šuo* и мужские на *-is* (*dantis*) — в уроке «Трудные склонения».
+comparison:
+  ru: |
+    Как и в русском, во множественном числе у разных склонений окончания похожи: «друзьям – книгам», «друзьями – книгами», «в друзьях – в книгах». В литовском так же: *-ms*, *-mis/-ais*, *-se*. Главная ловушка — мужской творительный: *su draugais* (а не *su draugomis*), и местный *-uose*: *namuose, miestuose*.
+examples:
+  - { text: "Vaikams tai nemokama.", translation: "Для детей это бесплатно.", source: "tatoeba:13505914" }
+  - { text: "Dabar ji su tėvais.", translation: "Она сейчас с родителями.", source: "tatoeba:8964054" }
+  - { text: "Žaisk su katėmis.", translation: "Играй с кошками.", source: "tatoeba:12183453" }
+  - { text: "Aš užaugau kalnuose.", translation: "Я вырос в горах.", source: "tatoeba:10253348" }
+  - { text: "Kas yra tose dėžėse?", translation: "Что в этих ящиках?", source: "tatoeba:4171344" }
+exercises:
+  - type: cloze
+    text: "Parašiau laišką ___."
+    answer: "draugams"
+    hint: "друзьям (draugai)"
+    translation: "Я написал письмо друзьям."
+  - type: cloze
+    text: "Vaikai žaidžia su ___."
+    answer: "kamuoliais"
+    hint: "мячами (kamuoliai)"
+    translation: "Дети играют с мячами."
+  - type: cloze
+    text: "Šiose ___ daug žuvų."
+    answer: "upėse"
+    hint: "в реках (upės)"
+    translation: "В этих реках много рыбы."
+  - type: cloze
+    text: "Mokytoja padėjo ___."
+    answer: "mokinėms"
+    hint: "ученицам (mokinės)"
+    translation: "Учительница помогла ученицам."
+  - type: cloze
+    text: "Knygos stovi ___."
+    answer: "lentynose"
+    hint: "на полках (lentynos)"
+    translation: "Книги стоят на полках."
+  - type: cloze
+    text: "Jie dirba ___."
+    answer: "naktimis"
+    hint: "по ночам (naktys, твор.)"
+    translation: "Они работают по ночам."
+  - type: cloze
+    text: "Prie stalo sėdi daug ___."
+    answer: "žmonių"
+    hint: "людей (žmonės)"
+    translation: "За столом сидит много людей."
+  - type: cloze
+    text: "Mes dažnai kalbamės su ___."
+    answer: "kaimynais"
+    hint: "с соседями (kaimynai)"
+    translation: "Мы часто разговариваем с соседями."

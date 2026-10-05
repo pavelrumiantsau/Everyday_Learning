@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0120
+cefr: B2
+order: 120
+title: "Годы, века и официальный стиль: 1990 m., XX a., atsižvelgiant į, remiantis, dėl"
+explanation:
+  ru: |
+    **Годы.** «В каком году?» — творительный: *1990 **metais*** (пишется *1990 m.*). Читается порядковым только **последнее** слово: *tūkstantis devyni šimtai **devyniasdešimtaisiais** metais*. Коротко: *1990-aisiais*.
+
+    **Полная дата:** *2027 m. spalio 5 d.* — читается *du tūkstančiai dvidešimt **septintųjų** metų spalio penktą (dieną)*. Год — в родительном, перед месяцем.
+
+    **Века и десятилетия:** *XX **amžius*** (пишется *XX a.*); «в XX веке» — ***XX amžiuje***; «в конце XIX века» — *XIX a. **pabaigoje***. Десятилетие считается порядковым: ***devintasis dešimtmetis*** = 1981–1990, то есть «восьмидесятые»: *praėjusio amžiaus **devintajame dešimtmetyje***.
+
+    Сокращения: *m.* (metai), *mėn.*, *d.* (diena), *a.* (amžius), *val.*, *min.*, *pvz.*, *t. y.* (то есть).
+
+    **Официальный стиль** (письма, новости, документы):
+    - ***atsižvelgiant į*** + вин. — учитывая: *atsižvelgiant į gyventojų nuomonę*
+    - ***remiantis*** + твор. — на основании: *remiantis tyrimo duomenimis*
+    - ***vadovaujantis*** + твор. — руководствуясь: *vadovaujantis įstatymu*
+    - ***pagal*** + вин. — согласно, по: *pagal taisykles, pagal planą* (но не *pagal mane*)
+    - ***dėl*** + род. — из-за, в связи с: *dėl blogo oro*; ***siekiant*** + род. / инф. — с целью
+comparison:
+  ru: |
+    Десятилетия — главная ловушка: русские «восьмидесятые» — это ***devintasis** dešimtmetis* (девятое десятилетие века), как «двадцатый век» = 1901–2000. Обороты *atsižvelgiant, remiantis, vadovaujantis, siekiant* — это деепричастия, ставшие предлогами, как русские «учитывая», «благодаря».
+examples:
+  - { text: "Aš esu gimusi 1982 metais.", translation: "Я родилась в 1982.", source: "tatoeba:2767361" }
+  - { text: "Paryžius krito 1940 metais.", translation: "Париж пал в 1940 году.", source: "tatoeba:11832610" }
+  - { text: "Šiais metais žiema šalta.", translation: "В этом году зима холодная.", source: "tatoeba:11740464" }
+  - { text: "Ji atsižvelgė į mano nuomonę.", translation: "Она прислушалась к моему мнению.", source: "tatoeba:13007995" }
+  - { text: "Mes žaidėme pagal taisykles.", translation: "Мы играли по правилам.", source: "tatoeba:10032885" }
+exercises:
+  - type: cloze
+    text: "Lietuva atkūrė nepriklausomybę 1990 ___."
+    answer: "metais"
+    hint: "в … году"
+    translation: "Литва восстановила независимость в 1990 году."
+  - type: cloze
+    text: "Vilnius pirmą kartą paminėtas XIV ___ pradžioje."
+    answer: "amžiaus"
+    hint: "века"
+    translation: "Вильнюс впервые упомянут в начале XIV века."
+  - type: cloze
+    text: "Šis namas pastatytas praėjusio amžiaus devintajame ___."
+    answer: "dešimtmetyje"
+    hint: "десятилетии (dešimtmetis)"
+    translation: "Этот дом построен в восьмидесятые годы прошлого века."
+  - type: cloze
+    text: "Sprendimas priimtas ___ į gyventojų nuomonę."
+    answer: "atsižvelgiant"
+    hint: "учитывая"
+    translation: "Решение принято с учётом мнения жителей."
+  - type: cloze
+    text: "Išvados padarytos ___ tyrimo duomenimis."
+    answer: "remiantis"
+    hint: "на основании"
+    translation: "Выводы сделаны на основании данных исследования."
+  - type: cloze
+    text: "Viskas vyko ___ planą."
+    answer: "pagal"
+    hint: "по (плану)"
+    translation: "Всё шло по плану."
+  - type: cloze
+    text: "Renginys atšauktas ___ blogo oro."
+    answer: "dėl"
+    hint: "из-за"
+    translation: "Мероприятие отменено из-за плохой погоды."
+  - type: cloze
+    text: "Darbas atliktas ___ nauja tvarka."
+    answer: "vadovaujantis"
+    hint: "руководствуясь"
+    translation: "Работа выполнена в соответствии с новым порядком."

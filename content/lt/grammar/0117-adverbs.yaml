@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0117
+cefr: B1
+order: 117
+title: "Наречие или средний род: gražiai dainuoja, bet čia gražu; gerai – gera"
+explanation:
+  ru: |
+    **Наречие** (как? — при глаголе) образуется от прилагательного:
+    - *-as* → **-ai**: *geras → **gerai***, *greitas → greitai*, *lėtas → lėtai*, *šiltas → šiltai*
+    - *-us* → **-iai**: *gražus → **gražiai***, *tylus → tyliai*, *skanus → skaniai*; *t, d* смягчаются: *platus → **plačiai***, *saldus → saldžiai*
+    - *-iškas* → *-iškai*: *draugiškai*; сравнение — *-iau, -iausiai* (урок «Степени сравнения»)
+
+    **Средний род** (каково? — состояние, без подлежащего): *gera, šalta, karšta* (от *-as*), ***gražu, sunku, įdomu*** (от *-us*). Он стоит:
+    - с *yra / buvo / bus* или без глагола: *Čia **gražu**. Lauke **šalta**.*
+    - с дательным: *Man **šalta**. Jam **įdomu**.*
+    - перед инфинитивом: ***Lengva** pasakyti. Čia **gera** gyventi.*
+
+    Проверка: есть глагол действия (*dainuoti, dirbti, atrodyti, atsakyti*) — наречие: *gražiai dainuoja, gerai atrodo*. Описывается обстановка или чувство — средний род: *čia gražu, man gera*.
+comparison:
+  ru: |
+    В русском одно слово на обе роли: «Здесь **красиво**» и «Она **красиво** поёт». В литовском — два: *Čia **gražu***, но *Ji **gražiai** dainuoja*. Так же «хорошо»: *Man **gera*** («мне хорошо») — *Jis **gerai** dirba* («хорошо работает»); «холодно»: *Lauke **šalta*** — *Jis **šaltai** atsakė* («холодно ответил»).
+examples:
+  - { text: "Kaip gražiai ji dainuoja!", translation: "Как красиво она поет!", source: "tatoeba:11528371" }
+  - { text: "Čia gražu, tiesa?", translation: "Здесь красиво, правда?", source: "tatoeba:10684891" }
+  - { text: "Veja gražiai atrodo.", translation: "Трава хорошо выглядит.", source: "tatoeba:2206768" }
+  - { text: "Lauke šalta.", translation: "На улице холодно.", source: "tatoeba:1556444" }
+  - { text: "Tu skaniai gamini.", translation: "Ты вкусно готовишь.", source: "tatoeba:12192850" }
+exercises:
+  - type: cloze
+    text: "Ji labai ___ šoka."
+    answer: "gražiai"
+    hint: "gražus → как?"
+    translation: "Она очень красиво танцует."
+  - type: cloze
+    text: "Šiandien prie jūros labai ___."
+    answer: "gražu"
+    hint: "gražus → каково?"
+    translation: "Сегодня у моря очень красиво."
+  - type: cloze
+    text: "Kalbėk ___, vaikas miega."
+    answer: "tyliai"
+    hint: "tylus → как?"
+    translation: "Говори тихо, ребёнок спит."
+  - type: cloze
+    text: "Man ___ — atidaryk langą."
+    answer: "karšta"
+    hint: "karštas → каково?"
+    translation: "Мне жарко — открой окно."
+  - type: cloze
+    text: "Jis ___ atsakė ir išėjo."
+    answer: "šaltai"
+    hint: "šaltas → как?"
+    translation: "Он холодно ответил и вышел."
+  - type: cloze
+    text: "Šiuos žodžius ___ išmokti."
+    answer: "lengva"
+    hint: "lengvas → каково?"
+    translation: "Эти слова легко выучить."
+  - type: cloze
+    text: "Jis ___ nusišypsojo."
+    answer: "plačiai"
+    hint: "platus → как?"
+    translation: "Он широко улыбнулся."
+  - type: cloze
+    text: "Važiuok ___, kelias slidus."
+    answer: "lėtai"
+    hint: "lėtas → как?"
+    translation: "Езжай медленно, дорога скользкая."

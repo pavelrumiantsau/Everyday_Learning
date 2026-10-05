@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0118
+cefr: B2
+order: 118
+title: "Запятые: kad, nes, kuris, deja — и где запятой нет (ir, galbūt, kaip)"
+explanation:
+  ru: |
+    Для письма на B2 хватит нескольких правил.
+
+    **Запятая нужна:**
+    - перед придаточным: ***, kad** / **, nes** / **, kai** / **, jei** / **, nors** / **, kol** / **, ar** (ли)*: *Manau, kad taip. Valgyk, nes atšals.* Придаточное в середине — с двух сторон: *Katė, **kurią** tu radai, yra mano.*
+    - перед *bet, o, tačiau* между частями: *Ji nori, **bet** negali.*
+    - после вводных слов: ***Žinoma**, **deja**, **beje**, **be to**, **mano nuomone**, **pavyzdžiui***.
+    - при обращении: ***Tomai**, grįžk!*
+    - развёрнутый оборот с *-damas*, причастием или деепричастием — обычно выделяют: *Tomas, **žiūrėdamas filmą**, užmigo.* Одно слово без зависимых (*skaitydamas*) обычно не выделяют.
+
+    **Запятой нет:**
+    - перед одиночным ***ir*** — даже между двумя частями: *Saulė nusileido **ir** pasidarė vėsu.*
+    - после ***galbūt, turbūt, tikriausiai, gal*** — по-литовски это не вводные слова: *Galbūt jis teisus.*
+    - в сравнении с *kaip, lyg* без глагола: *baltas **kaip** sniegas*.
+    - после *Todėl, Tačiau* в начале предложения — обычно без запятой.
+comparison:
+  ru: |
+    Придаточные, обращения и большинство вводных слов — как в русском. Три отличия, где русская привычка даёт лишнюю запятую: «Солнце село**,** и стало прохладно» → *Saulė nusileido ir pasidarė vėsu*; «Он**,** наверное**,** прав» → *Jis turbūt teisus*; «белый**,** как снег» → *baltas kaip sniegas*.
+examples:
+  - { text: "Manau, kad taip.", translation: "По-моему, так.", source: "tatoeba:12690524" }
+  - { text: "Valgyk, nes atšals.", translation: "Ешь, а то остынет.", source: "tatoeba:10305380" }
+  - { text: "Katė, kurią tu radai, yra mano.", translation: "Кошка, которую ты нашёл, моя.", source: "tatoeba:10864475" }
+  - { text: "Deja, negaliu.", translation: "К сожалению, не могу.", source: "tatoeba:12201986" }
+  - { text: "Tomas, žiūrėdamas filmą, užmigo.", translation: "Том уснул, когда смотрел фильм.", source: "tatoeba:12511476" }
+exercises:
+  - type: cloze
+    text: "Manau kad rytoj lis. (kablelis po žodžio ___)"
+    answer: "manau"
+    hint: "после какого слова запятая?"
+    translation: "Думаю, что завтра будет дождь."
+  - type: cloze
+    text: "Neišėjau nes lijo. (kablelis po žodžio ___)"
+    answer: "neišėjau"
+    hint: "после какого слова запятая?"
+    translation: "Я не вышел, потому что шёл дождь."
+  - type: cloze
+    text: "Deja aš negaliu ateiti. (kablelis po žodžio ___)"
+    answer: "deja"
+    hint: "после какого слова запятая?"
+    translation: "К сожалению, я не могу прийти."
+  - type: cloze
+    text: "Tomai ateik čia! (kablelis po žodžio ___)"
+    answer: "Tomai"
+    hint: "после какого слова запятая?"
+    translation: "Том, иди сюда!"
+  - type: cloze
+    text: "Jis nori bet negali. (kablelis po žodžio ___)"
+    answer: "nori"
+    hint: "после какого слова запятая?"
+    translation: "Он хочет, но не может."
+  - type: cloze
+    text: "Knyga kurią skaitau labai įdomi. (kablelių: ___)"
+    answer: "2"
+    also: ["du", "два"]
+    hint: "сколько запятых?"
+    translation: "Книга, которую я читаю, очень интересная."
+  - type: cloze
+    text: "Galbūt jis teisus. (kablelių: ___)"
+    answer: "0"
+    also: ["nė vieno", "nulis", "ноль", "ни одной"]
+    hint: "сколько запятых?"
+    translation: "Возможно, он прав."
+  - type: cloze
+    text: "Saulė nusileido ir pasidarė vėsu. (kablelių: ___)"
+    answer: "0"
+    also: ["nė vieno", "nulis", "ноль", "ни одной"]
+    hint: "сколько запятых?"
+    translation: "Солнце село, и стало прохладно."
