@@ -11,7 +11,7 @@ explanation:
     - **as a subject:** ***Fumar** es malo para la salud.* — Smoking is bad… (not ~~Fumando es…~~)
     - **after verbs of liking:** *Me encanta **leer**.* *Odio **esperar**.*
     - **after any preposition** — never a gerund there: *antes de **salir**, después de **comer**, sin **decir** nada, en vez de **trabajar**, gracias por **venir***
-    - ***al* + infinitive** = when / on doing: ***Al llegar**, no vi a nadie.* = *Cuando llegué…*
+    - ***al*** + **infinitive** = when / on doing: ***Al llegar**, no vi a nadie.* = *Cuando llegué…*
     - **signs:** *Prohibido **fumar**.*
 
     The **gerund** (*-ando / -iendo*) is for:
@@ -26,7 +26,7 @@ examples:
   - { text: "Al llegar, no vi a nadie.", translation: "When I arrived, I didn't see anyone.", source: "tatoeba:6632850" }
   - { text: "Péinate antes de salir.", translation: "Comb your hair before you go out.", source: "tatoeba:865707" }
   - { text: "Fumar es malo para la salud.", translation: "Smoking is bad for the health.", source: "tatoeba:338600" }
-  - { text: "Me encanta leer.", translation: "I love reading.", source: "tatoeba:2486360" }
+  - { text: "Odio viajar.", translation: "I hate traveling.", source: "tatoeba:5011313" }
   - { text: "Pasé el día viendo la televisión.", translation: "I spent the day watching TV.", source: "tatoeba:3355208" }
 exercises:
   - type: cloze
