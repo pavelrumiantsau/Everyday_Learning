@@ -1,0 +1,610 @@
+# Generated from scripts/batches/lt-b2-2262.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2262
+  type: word
+  cefr: B1
+  text: "vadinasi"
+  pos: part
+  meaning: { ru: "значит, следовательно" }
+  note: { ru: "вводное слово, выделяется запятыми" }
+  examples:
+    - { text: "Vadinasi, mes kolegos?", translation: "Значит, мы коллеги?", source: "tatoeba:10717275" }
+- id: lt-w-2263
+  type: word
+  cefr: B1
+  text: "įsitikinęs"
+  pos: adj
+  meaning: { ru: "уверенный, убеждённый" }
+  note: { ru: "įsitikinęs kuo (тв. п.) — уверен в чём" }
+  examples:
+    - { text: "Aš tuo įsitikinęs.", translation: "Я в этом уверен.", source: "tatoeba:11865967" }
+- id: lt-w-2264
+  type: word
+  cefr: B2
+  text: "dilema"
+  pos: noun
+  gender: f
+  gen: "dilemos"
+  meaning: { ru: "дилемма" }
+  examples:
+    - { text: "Tai mūsų dilema.", translation: "Это наша дилемма.", source: "tatoeba:12545406" }
+- id: lt-w-2265
+  type: word
+  cefr: B2
+  text: "tvirtinti"
+  pos: verb
+  forms: { pres: "tvirtina", past: "tvirtino" }
+  meaning: { ru: "утверждать; укреплять" }
+  examples:
+    - { text: "Tomas tvirtino, kad nebijo.", translation: "Том утверждал, что не боится.", source: "tatoeba:11725529" }
+- id: lt-w-2266
+  type: word
+  cefr: B1
+  text: "taigi"
+  pos: conj
+  meaning: { ru: "итак, значит, таким образом" }
+  examples:
+    - { text: "Taigi, mes kolegos?", translation: "Значит, мы коллеги?", source: "tatoeba:10717276" }
+- id: lt-w-2267
+  type: word
+  cefr: B2
+  text: "abejotinas"
+  pos: adj
+  meaning: { ru: "сомнительный" }
+  examples:
+    - { text: "Man tai atrodo abejotina.", translation: "Это кажется мне сомнительным.", source: "tatoeba:12760453" }
+- id: lt-w-2268
+  type: word
+  cefr: B2
+  text: "prieštaravimas"
+  pos: noun
+  gender: m
+  gen: "prieštaravimo"
+  meaning: { ru: "возражение; противоречие" }
+  examples:
+    - { text: "Ar turite kokių nors prieštaravimų?", translation: "У вас есть какие-то возражения?", source: "tatoeba:4170439" }
+- id: lt-w-2269
+  type: word
+  cefr: B2
+  text: "paneigti"
+  pos: verb
+  forms: { pres: "paneigia", past: "paneigė" }
+  meaning: { ru: "опровергнуть" }
+  examples:
+    - { text: "Teorija buvo paneigta.", translation: "Теория была опровергнута.", source: "tatoeba:12887602" }
+- id: lt-w-2270
+  type: word
+  cefr: B1
+  text: "kadangi"
+  pos: conj
+  meaning: { ru: "поскольку, так как" }
+  examples:
+    - { text: "Kadangi lyja, aš į lauką neisiu.", translation: "Поскольку идёт дождь, я на улицу не выйду.", source: "tatoeba:13499635" }
+- id: lt-w-2271
+  type: word
+  cefr: B2
+  text: "ginčytinas"
+  pos: adj
+  meaning: { ru: "спорный" }
+  examples:
+    - { text: "Klausimas pasirodė labai ginčytinas.", translation: "Вопрос оказался очень спорным.", source: "tatoeba:9025416" }
+- id: lt-w-2272
+  type: word
+  cefr: B2
+  text: "kompromisas"
+  pos: noun
+  gender: m
+  gen: "kompromiso"
+  meaning: { ru: "компромисс" }
+  note: { ru: "pasiekti kompromisą — достичь компромисса" }
+  examples:
+    - { text: "Tikiuosi, kad mes galėsime pasiekti kompromisą.", translation: "Надеюсь, мы сможем достичь компромисса.", source: "tatoeba:13681577" }
+- id: lt-w-2273
+  type: word
+  cefr: B2
+  text: "suabejoti"
+  pos: verb
+  forms: { pres: "suabejoja", past: "suabejojo" }
+  meaning: { ru: "усомниться" }
+  note: { ru: "suabejoti kuo (тв. п.)" }
+  examples:
+    - { text: "Kai kas suabejojo jo sąžiningumu.", translation: "Некоторые поставили под сомнение его честность.", source: "tatoeba:13223842" }
+- id: lt-w-2274
+  type: word
+  cefr: B1
+  text: "juk"
+  pos: part
+  meaning: { ru: "ведь" }
+  examples:
+    - { text: "Juk tau geriau?", translation: "Тебе ведь лучше?", source: "tatoeba:8751688" }
+- id: lt-w-2275
+  type: word
+  cefr: B2
+  text: "prieštaringas"
+  pos: adj
+  meaning: { ru: "противоречивый" }
+- id: lt-w-2276
+  type: word
+  cefr: B2
+  text: "nesutarimas"
+  pos: noun
+  gender: m
+  gen: "nesutarimo"
+  meaning: { ru: "разногласие" }
+  examples:
+    - { text: "Nesutarimai tarp šalių turi būti sprendžiami dialogo keliu.", translation: "Разногласия между странами должны разрешаться путём диалога.", source: "tatoeba:13003395" }
+- id: lt-w-2277
+  type: word
+  cefr: B2
+  text: "apibendrinti"
+  pos: verb
+  forms: { pres: "apibendrina", past: "apibendrino" }
+  meaning: { ru: "обобщить" }
+  examples:
+    - { text: "Sako, kad japonai yra simpatingi žmonės, bet neverta apibendrinti.", translation: "Говорят, японцы - приятные люди, но не стоит обобщать.", source: "tatoeba:11782015" }
+- id: lt-w-2278
+  type: word
+  cefr: B1
+  text: "beje"
+  pos: adv
+  meaning: { ru: "кстати, между прочим" }
+  examples:
+    - { text: "Beje, tai ne dykai.", translation: "Это, между прочим, не бесплатно.", source: "tatoeba:13396709" }
+- id: lt-w-2279
+  type: word
+  cefr: B2
+  text: "reikšmingas"
+  pos: adj
+  meaning: { ru: "значительный, значимый" }
+  examples:
+    - { text: "Tai reikšmingas įvykis.", translation: "Это важное событие.", source: "tatoeba:10759443" }
+- id: lt-w-2280
+  type: word
+  cefr: B2
+  text: "pritarimas"
+  pos: noun
+  gender: m
+  gen: "pritarimo"
+  meaning: { ru: "одобрение, согласие" }
+  note: { ru: "pritarti — одобрить, поддержать" }
+  examples:
+    - { text: "Aš laukiu jūsų pritarimo.", translation: "Я жду вашего согласия.", source: "tatoeba:13639332" }
+- id: lt-w-2281
+  type: word
+  cefr: B2
+  text: "atsižvelgti"
+  pos: verb
+  forms: { pres: "atsižvelgia", past: "atsižvelgė" }
+  meaning: { ru: "учесть, принять во внимание" }
+  note: { ru: "atsižvelgti į ką (вин. п.)" }
+  examples:
+    - { text: "Jūs turite į tai atsižvelgti.", translation: "Вы должны это учесть.", source: "tatoeba:13988107" }
+- id: lt-w-2282
+  type: word
+  cefr: B1
+  text: "būtent"
+  pos: part
+  meaning: { ru: "именно" }
+  examples:
+    - { text: "Būtent taip ir yra.", translation: "Именно так и есть.", source: "tatoeba:13731201" }
+- id: lt-w-2283
+  type: word
+  cefr: B2
+  text: "teigiamas"
+  pos: adj
+  meaning: { ru: "положительный" }
+  note: { ru: "teigiamai — положительно" }
+  examples:
+    - { text: "Mes gavome daug teigiamų atsiliepimų.", translation: "Мы получили много положительных отзывов.", source: "tatoeba:13524924" }
+- id: lt-w-2284
+  type: word
+  cefr: B2
+  text: "kaltinimas"
+  pos: noun
+  gender: m
+  gen: "kaltinimo"
+  meaning: { ru: "обвинение" }
+  examples:
+    - { text: "Jis atmetė kaltinimą.", translation: "Он отверг обвинение.", source: "tatoeba:8084221" }
+- id: lt-w-2285
+  type: word
+  cefr: B2
+  text: "nurodyti"
+  pos: verb
+  forms: { pres: "nurodo", past: "nurodė" }
+  meaning: { ru: "указать" }
+  examples:
+    - { text: "Būtų gerai nurodyti autorių.", translation: "Неплохо было бы указать автора.", source: "tatoeba:13617561" }
+- id: lt-w-2286
+  type: word
+  cefr: B1
+  text: "tikriausiai"
+  pos: adv
+  meaning: { ru: "наверное, вероятно" }
+  examples:
+    - { text: "Tikriausiai ji žino.", translation: "Она, наверное, знает.", source: "tatoeba:10039200" }
+- id: lt-w-2287
+  type: word
+  cefr: B2
+  text: "objektyvus"
+  pos: adj
+  meaning: { ru: "объективный" }
+  examples:
+    - { text: "Nemanau, kad tu esi objektyvus.", translation: "Не думаю, что ты объективен.", source: "tatoeba:13399677" }
+- id: lt-w-2288
+  type: word
+  cefr: B2
+  text: "hipotezė"
+  pos: noun
+  gender: f
+  gen: "hipotezės"
+  meaning: { ru: "гипотеза" }
+  examples:
+    - { text: "Kol kas tai tik hipotezė.", translation: "Пока что это только гипотеза.", source: "tatoeba:13452149" }
+- id: lt-w-2289
+  type: word
+  cefr: B2
+  text: "įžvelgti"
+  pos: verb
+  forms: { pres: "įžvelgia", past: "įžvelgė" }
+  meaning: { ru: "усмотреть, разглядеть; предвидеть" }
+  examples:
+    - { text: "Šitą krizę buvo galima įžvelgti.", translation: "Этот кризис можно было предвидеть.", source: "tatoeba:13516050" }
+- id: lt-w-2290
+  type: word
+  cefr: B2
+  text: "veikiausiai"
+  pos: adv
+  meaning: { ru: "скорее всего" }
+  examples:
+    - { text: "Veikiausiai tai legenda.", translation: "Скорее всего, это легенда.", source: "tatoeba:12615034" }
+- id: lt-w-2291
+  type: word
+  cefr: B2
+  text: "subjektyvus"
+  pos: adj
+  meaning: { ru: "субъективный" }
+  examples:
+    - { text: "Moralė yra subjektyvi.", translation: "Мораль субъективна.", source: "tatoeba:10166278" }
+- id: lt-w-2292
+  type: word
+  cefr: B2
+  text: "kriterijus"
+  pos: noun
+  gender: m
+  gen: "kriterijaus"
+  meaning: { ru: "критерий" }
+  examples:
+    - { text: "Kokie yra kriterijai?", translation: "Каковы критерии?", source: "tatoeba:12955560" }
+- id: lt-w-2293
+  type: word
+  cefr: B2
+  text: "sutapti"
+  pos: verb
+  forms: { pres: "sutampa", past: "sutapo" }
+  meaning: { ru: "совпасть" }
+  note: { ru: "sutapimas — совпадение" }
+  examples:
+    - { text: "Džiaugiuosi, kad mūsų visų nuomonės šiuo klausimu sutampa.", translation: "Я рада, что у всех нас мнения по этому вопросу совпадают.", source: "tatoeba:3960616" }
+- id: lt-w-2294
+  type: word
+  cefr: B1
+  text: "galiausiai"
+  pos: adv
+  meaning: { ru: "в конце концов, в итоге" }
+  examples:
+    - { text: "Galiausiai jie pasidavė.", translation: "В итоге они сдались.", source: "tatoeba:13389011" }
+- id: lt-w-2295
+  type: word
+  cefr: B2
+  text: "šališkas"
+  pos: adj
+  meaning: { ru: "предвзятый, пристрастный" }
+  examples:
+    - { text: "Tai šališka nuomonė.", translation: "Это предвзятое мнение.", source: "tatoeba:3953523" }
+- id: lt-w-2296
+  type: word
+  cefr: B2
+  text: "abejingumas"
+  pos: noun
+  gender: m
+  gen: "abejingumo"
+  meaning: { ru: "равнодушие" }
+  examples:
+    - { text: "Mane labiausiai užgauna jos abejingumas.", translation: "Больше всего меня задевает ее равнодушие.", source: "tatoeba:12785192" }
+- id: lt-w-2297
+  type: word
+  cefr: B2
+  text: "susikalbėti"
+  pos: verb
+  forms: { pres: "susikalba", past: "susikalbėjo" }
+  meaning: { ru: "найти общий язык, понять друг друга" }
+- id: lt-w-2298
+  type: word
+  cefr: B1
+  text: "pirmiausia"
+  pos: adv
+  meaning: { ru: "прежде всего, сначала" }
+  examples:
+    - { text: "Pirmiausia aš jį noriu pamatyti.", translation: "Я хочу сначала его увидеть.", source: "tatoeba:12481147" }
+- id: lt-w-2299
+  type: word
+  cefr: B2
+  text: "tikėtinas"
+  pos: adj
+  meaning: { ru: "вероятный" }
+  note: { ru: "tikėtina, kad… — вероятно, что…" }
+  examples:
+    - { text: "Tikėtina, kad rytoj lis.", translation: "Завтра есть вероятность дождя.", source: "tatoeba:11865315" }
+- id: lt-w-2300
+  type: word
+  cefr: B2
+  text: "pasiteisinimas"
+  pos: noun
+  gender: m
+  gen: "pasiteisinimo"
+  meaning: { ru: "оправдание" }
+  examples:
+    - { text: "Tai kvailas pasiteisinimas.", translation: "Это глупое оправдание.", source: "tatoeba:11852415" }
+- id: lt-w-2301
+  type: word
+  cefr: B1
+  text: "išskyrus"
+  pos: prep
+  meaning: { ru: "кроме, за исключением" }
+  note: { ru: "išskyrus ką (вин. п.)" }
+  examples:
+    - { text: "Buvo visi, išskyrus jį.", translation: "Были все, кроме него.", source: "tatoeba:13292688" }
+- id: lt-w-2302
+  type: word
+  cefr: B1
+  text: "įmanomas"
+  pos: adj
+  meaning: { ru: "возможный" }
+  note: { ru: "neįmanoma — невозможно" }
+  examples:
+    - { text: "Kaip tai įmanoma?", translation: "Как это возможно?", source: "tatoeba:10726934" }
+- id: lt-w-2303
+  type: word
+  cefr: B1
+  text: "maždaug"
+  pos: adv
+  meaning: { ru: "примерно, приблизительно" }
+  examples:
+    - { text: "Aš maždaug tavo metų.", translation: "Я примерно твоего возраста.", source: "tatoeba:10192103" }
+- id: lt-w-2304
+  type: word
+  cefr: B2
+  text: "paviršutiniškas"
+  pos: adj
+  meaning: { ru: "поверхностный" }
+  examples:
+    - { text: "Koks paviršutiniškas atsakymas!", translation: "Что за поверхностный ответ!", source: "tatoeba:2760724" }
+- id: lt-w-2305
+  type: word
+  cefr: B2
+  text: "santykinai"
+  pos: adv
+  meaning: { ru: "относительно, сравнительно" }
+  examples:
+    - { text: "Dabar ten santykinai ramu.", translation: "Сейчас там относительно спокойно.", source: "tatoeba:6893432" }
+- id: lt-w-2306
+  type: word
+  cefr: B2
+  text: "priešiškas"
+  pos: adj
+  meaning: { ru: "враждебный" }
+  examples:
+    - { text: "Tai priešiška aplinka.", translation: "Это враждебная среда.", source: "tatoeba:10310581" }
+- id: lt-w-2307
+  type: word
+  cefr: B1
+  text: "bent"
+  pos: part
+  meaning: { ru: "хотя бы" }
+  note: { ru: "bent jau — по крайней мере" }
+  examples:
+    - { text: "Bent jau pabandyk.", translation: "Хотя бы попробуй.", source: "tatoeba:12099707" }
+- id: lt-w-2308
+  type: word
+  cefr: B2
+  text: "palankus"
+  pos: adj
+  meaning: { ru: "благоприятный; благосклонный" }
+  examples:
+    - { text: "Tai palankus momentas.", translation: "Это благоприятный момент.", source: "tatoeba:10794145" }
+- id: lt-w-2309
+  type: word
+  cefr: B2
+  text: "tarsi"
+  pos: conj
+  meaning: { ru: "как будто, словно" }
+  note: { ru: "tartum — то же" }
+  examples:
+    - { text: "Jis man tarsi brolis.", translation: "Он мне как брат.", source: "tatoeba:3954076" }
+- id: lt-w-2310
+  type: word
+  cefr: B1
+  text: "darbštus"
+  pos: adj
+  meaning: { ru: "трудолюбивый" }
+  examples:
+    - { text: "Tomas darbštus ir patikimas.", translation: "Том трудолюбив и надежен.", source: "tatoeba:3212162" }
+- id: lt-w-2311
+  type: word
+  cefr: B2
+  text: "kuomet"
+  pos: conj
+  meaning: { ru: "когда (книжн.)" }
+  examples:
+    - { text: "Kuomet tu šypsaisi, aš esu laiminga.", translation: "Когда ты улыбаешься, я счастлива.", source: "tatoeba:12968308" }
+- id: lt-w-2312
+  type: word
+  cefr: B1
+  text: "dosnus"
+  pos: adj
+  meaning: { ru: "щедрый" }
+  examples:
+    - { text: "Tomas yra dosnus.", translation: "Том щедр.", source: "tatoeba:11002540" }
+- id: lt-w-2313
+  type: word
+  cefr: B1
+  text: "tačiau"
+  pos: conj
+  meaning: { ru: "однако" }
+  examples:
+    - { text: "Tačiau būna išimtys.", translation: "Однако бывают исключения.", source: "tatoeba:12097495" }
+- id: lt-w-2314
+  type: word
+  cefr: B1
+  text: "šykštus"
+  pos: adj
+  meaning: { ru: "скупой" }
+  examples:
+    - { text: "Nebūk toks šykštus.", translation: "Не будь таким скупым.", source: "tatoeba:13693434" }
+- id: lt-w-2315
+  type: word
+  cefr: B1
+  text: "be to"
+  pos: phrase
+  meaning: { ru: "кроме того" }
+  examples:
+    - { text: "Be to, aš nemoku šokti.", translation: "Кроме того, я не умею танцевать.", source: "tatoeba:13555862" }
+- id: lt-w-2316
+  type: word
+  cefr: B2
+  text: "godus"
+  pos: adj
+  meaning: { ru: "жадный, алчный" }
+  examples:
+    - { text: "Nebūk toks godus.", translation: "Не будь таким жадным.", source: "tatoeba:13693448" }
+- id: lt-w-2317
+  type: word
+  cefr: B1
+  text: "be abejo"
+  pos: phrase
+  meaning: { ru: "несомненно, конечно" }
+  examples:
+    - { text: "Be abejo, jis žino.", translation: "Конечно, он знает.", source: "tatoeba:11030989" }
+- id: lt-w-2318
+  type: word
+  cefr: B1
+  text: "punktualus"
+  pos: adj
+  meaning: { ru: "пунктуальный" }
+  examples:
+    - { text: "Tomas visada punktualus.", translation: "Том всегда пунктуален.", source: "tatoeba:11002607" }
+- id: lt-w-2319
+  type: word
+  cefr: B1
+  text: "netgi"
+  pos: part
+  meaning: { ru: "даже" }
+  examples:
+    - { text: "Jūs netgi panašūs.", translation: "Вы даже похожи.", source: "tatoeba:8791562" }
+- id: lt-w-2320
+  type: word
+  cefr: B2
+  text: "kūrybingas"
+  pos: adj
+  meaning: { ru: "творческий, креативный" }
+  examples:
+    - { text: "Aš nesu kūrybingas žmogus.", translation: "Я не творческий человек.", source: "tatoeba:3985284" }
+- id: lt-w-2321
+  type: word
+  cefr: B2
+  text: "nedelsiant"
+  pos: adv
+  meaning: { ru: "немедленно" }
+  examples:
+    - { text: "Nedelsiant tai perskaityk.", translation: "Немедленно прочти это.", source: "tatoeba:12097392" }
+- id: lt-w-2322
+  type: word
+  cefr: B2
+  text: "ryžtingas"
+  pos: adj
+  meaning: { ru: "решительный" }
+  examples:
+    - { text: "Tomas yra ryžtingas žmogus.", translation: "Том — человек решительный.", source: "tatoeba:13707177" }
+- id: lt-w-2323
+  type: word
+  cefr: B1
+  text: "netrukus"
+  pos: adv
+  meaning: { ru: "вскоре" }
+  examples:
+    - { text: "Netrukus jis išėjo.", translation: "Вскоре он ушёл.", source: "tatoeba:8181623" }
+- id: lt-w-2324
+  type: word
+  cefr: B2
+  text: "išradingas"
+  pos: adj
+  meaning: { ru: "изобретательный, находчивый" }
+  examples:
+    - { text: "Tu esi išradingas.", translation: "Ты изобретателен.", source: "tatoeba:9801368" }
+- id: lt-w-2325
+  type: word
+  cefr: B2
+  text: "vargu ar"
+  pos: phrase
+  meaning: { ru: "вряд ли" }
+  examples:
+    - { text: "Vargu ar tai galima.", translation: "Вряд ли это возможно.", source: "tatoeba:12090587" }
+- id: lt-w-2326
+  type: word
+  cefr: B2
+  text: "negarbingas"
+  pos: adj
+  meaning: { ru: "бесчестный, непорядочный" }
+  examples:
+    - { text: "Tai itin negarbingas žmogus.", translation: "Это исключительно непорядочный человек.", source: "tatoeba:13320063" }
+- id: lt-w-2327
+  type: word
+  cefr: B2
+  text: "iš dalies"
+  pos: phrase
+  meaning: { ru: "отчасти, частично" }
+  examples:
+    - { text: "Tomas iš dalies teisus.", translation: "Том отчасти прав.", source: "tatoeba:4674184" }
+- id: lt-w-2328
+  type: word
+  cefr: B1
+  text: "nesąžiningas"
+  pos: adj
+  meaning: { ru: "нечестный" }
+  examples:
+    - { text: "Aš suprantu, kad tai nesąžininga.", translation: "Я понимаю, что это нечестно.", source: "tatoeba:10672576" }
+- id: lt-w-2329
+  type: word
+  cefr: B2
+  text: "neva"
+  pos: part
+  meaning: { ru: "якобы" }
+  examples:
+    - { text: "Kalba, neva Homeras buvo aklas.", translation: "Говорят, якобы Гомер был слепой.", source: "tatoeba:11388600" }
+- id: lt-w-2330
+  type: word
+  cefr: B2
+  text: "antra vertus"
+  pos: phrase
+  meaning: { ru: "с другой стороны" }
+  note: { ru: "kita vertus — то же; viena vertus — с одной стороны" }
+  examples:
+    - { text: "Antra vertus, aš jo visiškai nepažįstu.", translation: "С другой стороны, я его совершенно не знаю.", source: "tatoeba:12333997" }
+- id: lt-w-2331
+  type: word
+  cefr: B1
+  text: "iš tiesų"
+  pos: phrase
+  meaning: { ru: "действительно, в самом деле" }
+  examples:
+    - { text: "Tai iš tiesų pigu.", translation: "Это действительно дёшево.", source: "tatoeba:11912362" }
+- id: lt-w-2332
+  type: word
+  cefr: B2
+  text: "nepaliaujamai"
+  pos: adv
+  meaning: { ru: "непрерывно, беспрестанно" }
+  examples:
+    - { text: "Mes nepaliaujamai apie tai kalbėjome.", translation: "Мы всё время об этом говорили.", source: "tatoeba:11978759" }
