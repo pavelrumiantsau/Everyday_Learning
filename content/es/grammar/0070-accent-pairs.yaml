@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0070
+cefr: A2
+order: 70
+title: "Tú or tu, sí or si, qué or que: accents that change the meaning"
+explanation:
+  en: |
+    One-syllable words normally have **no** written accent (*fue, dio, vio, pie, ti*). The accent appears only to tell **pairs** apart:
+    - ***tú*** you — ***tu*** your: *Tú eres tu peor enemigo.*
+    - ***él*** he, him — ***el*** the: *El premio fue para él.*
+    - ***mí*** me (after a preposition) — ***mi*** my: *A mí no me gusta mi nombre.*
+    - ***sí*** yes; himself — ***si*** if: *Si yo fuera tú diría que sí.*
+    - ***sé*** I know; be! — ***se*** (pronoun): *Sé que no se repetirá.*
+    - ***té*** tea — ***te*** you (pronoun); ***dé*** give (subjunctive) — ***de*** of; ***más*** more — ***mas*** but (literary)
+
+    **Question words** have an accent in questions, exclamations and **indirect** questions: ***qué, quién, cómo, dónde, cuándo, cuánto, cuál*** — *¿Qué quiere que haga?* *No sé **qué** hacer.* *¡**Qué** bonito!* Without the accent they are connectors: *Creo **que**… **Cuando** llegues… La casa **donde** vivo.*
+
+    Also ***aún*** still — ***aun*** even (lesson 66). Since 2010, ***solo*** and ***este, ese*** are written without an accent — older texts have *sólo, éste*.
+comparison:
+  en: |
+    Spanish spelling shows the stress, and these accents are part of the spelling: *si* and *sí* are as different as English "its" and "it's". Russian has no written stress, so it's easy to forget — check every *tu, el, mi, si, se, que* you write. The app accepts an answer without the accent as "almost".
+examples:
+  - { text: "Tú eres tu peor enemigo.", translation: "You are your own worst enemy.", source: "tatoeba:5310665" }
+  - { text: "El premio fue para él.", translation: "The prize went to him.", source: "tatoeba:1800220" }
+  - { text: "A mí no me gusta mi nombre.", translation: "I don't like my name.", source: "tatoeba:11031769" }
+  - { text: "Si yo fuera tú diría que sí.", translation: "I'd say yes if I were you.", source: "tatoeba:5979714" }
+  - { text: "¿Qué quiere que haga?", translation: "What do you want me to do?", source: "tatoeba:1290365" }
+exercises:
+  - type: cloze
+    text: "¿Este es ___ móvil?"
+    answer: "tu"
+    hint: "your — accent or not?"
+    translation: "Is this your phone?"
+  - type: cloze
+    text: "¿Y ___, qué piensas?"
+    answer: "tú"
+    hint: "you — accent or not?"
+    translation: "And you, what do you think?"
+  - type: cloze
+    text: "Este regalo es para ___."
+    answer: "mí"
+    hint: "me — after a preposition"
+    translation: "This present is for me."
+  - type: cloze
+    text: "No ___ dónde está la estación."
+    answer: "sé"
+    hint: "saber, yo"
+    translation: "I don't know where the station is."
+  - type: cloze
+    text: "Me preguntó ___ quería venir."
+    answer: "si"
+    hint: "if, whether"
+    translation: "He asked me if I wanted to come."
+  - type: cloze
+    text: "Hablé con ___ ayer por la tarde."
+    answer: "él"
+    hint: "him — accent or not?"
+    translation: "I talked to him yesterday afternoon."
+  - type: cloze
+    text: "No sé ___ hacer."
+    answer: "qué"
+    hint: "what — indirect question"
+    translation: "I don't know what to do."
+  - type: cloze
+    text: "Creo ___ va a llover."
+    answer: "que"
+    hint: "that — connector"
+    translation: "I think it's going to rain."
