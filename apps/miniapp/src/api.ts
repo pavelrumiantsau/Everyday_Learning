@@ -53,7 +53,12 @@ export function recordReview(cardId: string, rating: Rating) {
 
 let flushing: Promise<void> | null = null;
 export function flushReviews(): Promise<void> {
-  flushing ??= (async () => {
+  if (flushing) return flushing;
+  // Nothing to send: return without touching `flushing`. (With nothing pending the async body below would run its
+  // `finally` synchronously, before `flushing` is assigned, and leave a finished promise there — every later answer
+  // would then stay on the device until the app restarts, and «Учить новые слова» would show the same words again.)
+  if (!memoryPending.length) return Promise.resolve();
+  const run = (async () => {
     try {
       while (memoryPending.length) {
         const batch = memoryPending.slice(0, 100);
@@ -64,10 +69,11 @@ export function flushReviews(): Promise<void> {
       }
     } catch {
       // offline or server error: keep them and try again on the next answer / app start
-    } finally {
-      flushing = null;
     }
   })();
+  flushing = run.finally(() => {
+    flushing = null;
+  });
   return flushing;
 }
 
