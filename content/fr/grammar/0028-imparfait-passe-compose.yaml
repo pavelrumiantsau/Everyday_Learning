@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0028
+cefr: A2
+order: 118
+title: "Imparfait or passé composé: il pleuvait quand je suis sorti"
+explanation:
+  en: |
+    A story in the past uses both tenses. Ask: **is this an event, or the situation around it?**
+
+    **Passé composé — the events** (what happened, one after another, finished):
+    - *Je suis venu, j'ai vu, j'ai vaincu.*
+    - a counted or limited action: *Il a plu **toute la nuit**. J'ai vu ce film **trois fois**.*
+    - signal words: *soudain, tout à coup, un jour, hier, ce jour-là*
+
+    **Imparfait — the scene** (no beginning or end in view):
+    - description, weather, time, age, feelings: *Il faisait froid. Il était minuit. Elle avait vingt ans.*
+    - an action in progress: *Je **prenais** un bain quand le téléphone **a sonné**.*
+    - habits, "used to": *Le dimanche, on **mangeait** chez ma grand-mère.*
+    - signal words: *souvent, d'habitude, tous les jours, chaque été, quand j'étais petit*
+
+    **The same verb in both:**
+    - *Il **pleuvait**.* — it was raining (background)
+    - *Il **a plu** toute la nuit.* — it rained all night (the whole rain, seen as one finished event)
+    - *Avant, je **travaillais** le samedi.* — I used to work on Saturdays / *Samedi, j'**ai travaillé**.* — on Saturday I worked (once)
+comparison:
+  en: |
+    Exactly the Spanish split: *llovía* / *llovió*, *estaba en el baño cuando sonó el teléfono*. If Spanish would use the imperfect, French uses the imparfait; if Spanish uses the preterite, French (in speech) uses the passé composé. Russian helps too: «шёл дождь, когда я вышел» — imparfait ≈ несовершенный вид for the background, passé composé ≈ совершенный for the event.
+examples:
+  - { text: "Je prenais un bain quand le téléphone a sonné.", translation: "I was taking a bath when the telephone rang.", source: "tatoeba:392006" }
+  - { text: "Il neigeait quand je me suis réveillé.", translation: "It was snowing when I woke up.", source: "tatoeba:1331164" }
+  - { text: "Puisqu'il faisait froid, nous avons fait un feu.", translation: "Since it was cold, we made a fire.", source: "tatoeba:6454503" }
+  - { text: "Je suis venu, j'ai vu, j'ai vaincu.", translation: "I came, I saw, I conquered.", source: "tatoeba:369544" }
+  - { text: "Je fumais quand j'étais jeune.", translation: "I smoked when I was young.", source: "tatoeba:6359" }
+exercises:
+  - type: cloze
+    text: "Il ___ beau, alors nous sommes allés à la plage."
+    answer: "faisait"
+    hint: "faire — the weather, background"
+    translation: "The weather was nice, so we went to the beach."
+  - type: cloze
+    text: "Je regardais la télé quand tu as ___."
+    answer: "appelé"
+    hint: "appeler — the event"
+    translation: "I was watching TV when you called."
+  - type: cloze
+    text: "Je ___ un livre quand quelqu'un a frappé à la porte."
+    answer: "lisais"
+    hint: "lire, je — in progress (nous lisons → lis-)"
+    translation: "I was reading a book when someone knocked at the door."
+  - type: cloze
+    text: "Quand j'étais petit, nous ___ chaque été en Bretagne."
+    answer: "allions"
+    hint: "aller, nous — a habit"
+    translation: "When I was little, we went to Brittany every summer."
+  - type: cloze
+    text: "Soudain, le téléphone a ___."
+    answer: "sonné"
+    hint: "sonner — a sudden event"
+    translation: "Suddenly the phone rang."
+  - type: cloze
+    text: "Elle ___ vingt ans quand elle est partie à Paris."
+    answer: "avait"
+    hint: "avoir, elle — age"
+    translation: "She was twenty when she left for Paris."
+  - type: cloze
+    text: "Il a ___ toute la nuit."
+    answer: "plu"
+    hint: "pleuvoir — the whole night, a finished event"
+    translation: "It rained all night."
+  - type: cloze
+    text: "D'habitude, il ___ le bus, mais ce jour-là il a pris un taxi."
+    answer: "prenait"
+    hint: "prendre, il — a habit"
+    translation: "He usually took the bus, but that day he took a taxi."
