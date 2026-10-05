@@ -1,0 +1,49 @@
+id: lt-r-0059
+cefr: C1
+title: "Kas dirbs už mus?"
+topic: "искусственный интеллект и работа"
+source: generated
+text: |
+  Dar visai neseniai buvo manoma, kad automatizacija pirmiausia pakeis fizinį darbą: robotai surinks automobilius, o žmonėms liks kūrybinės ir intelektinės užduotys. Dirbtinio intelekto pokalbių robotai šią prognozę apvertė aukštyn kojomis. Paaiškėjo, kad kompiuteriui kur kas lengviau parašyti pranešimą spaudai ar išversti sutartį, nei sutvarkyti kambarį ar pakeisti čiaupą.
+
+  Lietuvoje, kaip ir kitur, reakcijos labai skiriasi. Vieni darbdaviai džiaugiasi, kad rutininės užduotys atliekamos per kelias sekundes, ir svarsto, ar apskritai verta samdyti naujų darbuotojų. Vertėjai, tekstų rašytojai, klientų aptarnavimo specialistai nerimauja, kad jų profesijos gali sunykti greičiau, nei jie spės persikvalifikuoti. Ypač jautriai šis klausimas skamba mažos kalbos šalyje: kol programos lietuviškai rašė su klaidomis, vertėjai jautėsi saugūs, tačiau kokybė gerėja kasmet.
+
+  Kita vertus, istorija rodo, kad technologijos retai panaikina darbą visiškai – dažniau jos pakeičia jo pobūdį. Atsiradus skaičiuoklėms, buhalteriai neišnyko, tik nustojo skaičiuoti stulpeliu. Panašiai ir dabar: daugelis specialistų dirbtinį intelektą naudoja kaip pagalbininką, kuris parengia juodraštį, o žmogus jį patikrina, pataiso ir prisiima atsakomybę už galutinį rezultatą.
+
+  Būtent atsakomybė, ko gero, ir yra svarbiausias klausimas. Dirbtinis intelektas gali suklysti labai įtikinamai: išgalvoti faktą, šaltinį ar net teismo sprendimą. Todėl didėja ne tik gebėjimo naudotis šiais įrankiais, bet ir kritinio mąstymo vertė – mokėjimo atskirti, kur tekstas tik skamba įtikinamai, o kur jis iš tiesų teisingas.
+
+  Švietimo sistema į šiuos pokyčius reaguoja lėtai. Mokytojai svarsto, kaip vertinti rašinius, kuriuos gali parašyti programa, o universitetai – kokių įgūdžių absolventams prireiks po dešimties metų. Aiškių atsakymų kol kas nėra, tačiau vienas dalykas akivaizdus: mokytis teks visą gyvenimą.
+glossary:
+  - { word: "manoma", lemma: "manyti", pos: verb, forms: { pres: "mano", past: "manė" }, meaning: "думать, полагать", note: "безличный пассив: buvo manoma — считалось" }
+  - { word: "surinks", lemma: "surinkti", pos: verb, forms: { pres: "surenka", past: "surinko" }, meaning: "собрать" }
+  - { word: "apvertė", lemma: "apversti", pos: verb, forms: { pres: "apverčia", past: "apvertė" }, meaning: "перевернуть", note: "apversti aukštyn kojomis — перевернуть с ног на голову" }
+  - { word: "Paaiškėjo", lemma: "paaiškėti", pos: verb, forms: { pres: "paaiškėja", past: "paaiškėjo" }, meaning: "выясниться" }
+  - { word: "čiaupą", lemma: "čiaupas", pos: noun, gender: m, gen: "čiaupo", meaning: "кран (водопроводный)", note: "вин. п." }
+  - { word: "darbdaviai", lemma: "darbdavys", pos: noun, gender: m, gen: "darbdavio", meaning: "работодатель", note: "им. п. мн. ч." }
+  - { word: "samdyti", lemma: "samdyti", pos: verb, forms: { pres: "samdo", past: "samdė" }, meaning: "нанимать" }
+  - { word: "aptarnavimo", lemma: "aptarnavimas", pos: noun, gender: m, gen: "aptarnavimo", meaning: "обслуживание", note: "klientų aptarnavimas — обслуживание клиентов" }
+  - { word: "nerimauja", lemma: "nerimauti", pos: verb, forms: { pres: "nerimauja", past: "nerimavo" }, meaning: "беспокоиться, тревожиться" }
+  - { word: "sunykti", lemma: "sunykti", pos: verb, forms: { pres: "sunyksta", past: "sunyko" }, meaning: "исчезнуть, захиреть" }
+  - { word: "persikvalifikuoti", lemma: "persikvalifikuoti", pos: verb, forms: { pres: "persikvalifikuoja", past: "persikvalifikavo" }, meaning: "переквалифицироваться" }
+  - { word: "pobūdį", lemma: "pobūdis", pos: noun, gender: m, gen: "pobūdžio", meaning: "характер (чего-то)", note: "вин. п." }
+  - { word: "skaičiuoklėms", lemma: "skaičiuoklė", pos: noun, gender: f, gen: "skaičiuoklės", meaning: "калькулятор", note: "дат. п. мн. ч.: atsiradus skaičiuoklėms — когда появились калькуляторы" }
+  - { word: "stulpeliu", lemma: "stulpelis", pos: noun, gender: m, gen: "stulpelio", meaning: "столбик, колонка", note: "skaičiuoti stulpeliu — считать в столбик" }
+  - { word: "juodraštį", lemma: "juodraštis", pos: noun, gender: m, gen: "juodraščio", meaning: "черновик", note: "вин. п." }
+  - { word: "prisiima", lemma: "prisiimti", pos: verb, forms: { pres: "prisiima", past: "prisiėmė" }, meaning: "брать на себя (ответственность)" }
+  - { word: "įtikinamai", lemma: "įtikinamai", pos: adv, meaning: "убедительно" }
+  - { word: "išgalvoti", lemma: "išgalvoti", pos: verb, forms: { pres: "išgalvoja", past: "išgalvojo" }, meaning: "выдумать" }
+  - { word: "gebėjimo", lemma: "gebėjimas", pos: noun, gender: m, gen: "gebėjimo", meaning: "способность, умение", note: "род. п." }
+  - { word: "atskirti", lemma: "atskirti", pos: verb, forms: { pres: "atskiria", past: "atskyrė" }, meaning: "отличить, отделить" }
+  - { word: "įgūdžių", lemma: "įgūdis", pos: noun, gender: m, gen: "įgūdžio", meaning: "навык", note: "род. п. мн. ч." }
+  - { word: "absolventams", lemma: "absolventas", pos: noun, gender: m, gen: "absolvento", meaning: "выпускник", note: "дат. п. мн. ч." }
+  - { word: "akivaizdus", lemma: "akivaizdus", pos: adj, meaning: "очевидный" }
+questions:
+  - q: "Kokią prognozę, pasak teksto, apvertė pokalbių robotai?"
+    options: ["Kad automatizacija pirmiausia pakeis fizinį, o ne intelektinį darbą", "Kad kompiuteriai niekada nemokės versti", "Kad robotai neišmoks surinkti automobilių"]
+    answer: 0
+  - q: "Ką autorius nori parodyti pavyzdžiu apie skaičiuokles?"
+    options: ["Kad buhalterių profesija išnyko", "Kad technologijos dažniau keičia darbo pobūdį, nei jį panaikina", "Kad skaičiuoklės dažnai klysta"]
+    answer: 1
+  - q: "Kodėl, autoriaus manymu, kritinis mąstymas tampa vertingesnis?"
+    options: ["Nes mokyklos jo nebemoko", "Nes programos rašo per lėtai", "Nes dirbtinis intelektas gali įtikinamai klysti, ir žmogus turi tai atpažinti"]
+    answer: 2

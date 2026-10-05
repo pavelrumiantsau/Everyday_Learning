@@ -1,0 +1,51 @@
+id: lt-r-0058
+cefr: C1
+title: "Serganti Baltija"
+topic: "экология Балтийского моря"
+source: generated
+text: |
+  Lietuvai priklauso vos apie devyniasdešimt kilometrų Baltijos jūros kranto, tačiau jūra lietuvių tapatybėje užima kur kas daugiau vietos. Palangos paplūdimiai, Kuršių nerijos kopos, gintaras – visa tai daugeliui yra vasaros ir vaikystės simboliai. Retas susimąsto, kad pati Baltija yra viena labiausiai pažeidžiamų jūrų pasaulyje.
+
+  Baltija sekli ir beveik uždara: su Šiaurės jūra ją jungia tik siauri Danijos sąsiauriai, todėl vanduo atsinaujina labai lėtai, per kelis dešimtmečius. Tai, kas patenka į jūrą, joje ir lieka. O patenka nemažai: upės neša trąšas iš laukų, nuotekas iš miestų, plastiko atliekas.
+
+  Didžiausia problema – eutrofikacija. Azoto ir fosforo perteklius skatina dumblių augimą, o dumbliams žuvus ir pradėjus irti, sunaudojama daug deguonies. Taip susidaro vadinamosios mirties zonos – dugno plotai, kuriuose deguonies beveik nėra ir kur negali išgyventi nei žuvys, nei kiti gyvūnai. Vasarą kai kur prie kranto vanduo tampa žalias, o maudytis tenka uždrausti dėl melsvadumblių, galinčių sukelti alergiją ar apsinuodijimą.
+
+  Prie šių problemų prisideda klimato kaita. Šiltėjantis vanduo dar palankesnis dumbliams, o vis stipresnės audros ardo krantą: po kai kurių audrų dalis paplūdimių tiesiog nuplaunama, todėl smėlį tenka papildyti dirbtinai.
+
+  Vis dėlto ne viskas taip niūru. Baltijos šalys jau nuo praėjusio amžiaus aštuntojo dešimtmečio bendradarbiauja pagal Helsinkio konvenciją, griežtinami nuotekų valymo reikalavimai, ūkininkai skatinami tręšti saikingiau. Kai kur vandens kokybė jau pagerėjo, o ruoniai, kurių kadaise buvo likę vos keli tūkstančiai, vėl dažniau matomi ir prie Lietuvos krantų.
+
+  Jūros ateitis priklauso ne tik nuo vyriausybių susitarimų. Kiekvienas, kuris sprendžia, kiek trąšų berti į savo daržą ar ką išmesti į kanalizaciją, bent šiek tiek prisideda prie to, ar Baltija bus sveikesnė.
+glossary:
+  - { word: "kopos", lemma: "kopa", pos: noun, gender: f, gen: "kopos", meaning: "дюна", note: "им. п. мн. ч." }
+  - { word: "pažeidžiamų", lemma: "pažeidžiamas", pos: adj, meaning: "уязвимый", note: "род. п. мн. ч." }
+  - { word: "sekli", lemma: "seklus", pos: adj, meaning: "мелкий, неглубокий", note: "ж. р." }
+  - { word: "sąsiauriai", lemma: "sąsiauris", pos: noun, gender: m, gen: "sąsiaurio", meaning: "пролив", note: "им. п. мн. ч." }
+  - { word: "atsinaujina", lemma: "atsinaujinti", pos: verb, forms: { pres: "atsinaujina", past: "atsinaujino" }, meaning: "обновляться" }
+  - { word: "trąšas", lemma: "trąšos", pos: noun, gender: f, gen: "trąšų", plural_only: true, meaning: "удобрения", note: "вин. п." }
+  - { word: "nuotekas", lemma: "nuotekos", pos: noun, gender: f, gen: "nuotekų", plural_only: true, meaning: "сточные воды", note: "вин. п." }
+  - { word: "perteklius", lemma: "perteklius", pos: noun, gender: m, gen: "pertekliaus", meaning: "избыток" }
+  - { word: "dumblių", lemma: "dumblis", pos: noun, gender: m, gen: "dumblio", meaning: "водоросль", note: "род. п. мн. ч." }
+  - { word: "irti", lemma: "irti", pos: verb, forms: { pres: "yra", past: "iro" }, meaning: "разлагаться, распадаться" }
+  - { word: "sunaudojama", lemma: "sunaudoti", pos: verb, forms: { pres: "sunaudoja", past: "sunaudojo" }, meaning: "израсходовать", note: "безличный пассив: sunaudojama deguonies — расходуется кислород" }
+  - { word: "dugno", lemma: "dugnas", pos: noun, gender: m, gen: "dugno", meaning: "дно" }
+  - { word: "melsvadumblių", lemma: "melsvadumbliai", pos: noun, gender: m, gen: "melsvadumblių", plural_only: true, meaning: "сине-зелёные водоросли (цианобактерии)" }
+  - { word: "apsinuodijimą", lemma: "apsinuodijimas", pos: noun, gender: m, gen: "apsinuodijimo", meaning: "отравление", note: "вин. п." }
+  - { word: "prisideda", lemma: "prisidėti", pos: verb, forms: { pres: "prisideda", past: "prisidėjo" }, meaning: "присоединяться; вносить вклад", note: "prisidėti prie ko" }
+  - { word: "ardo", lemma: "ardyti", pos: verb, forms: { pres: "ardo", past: "ardė" }, meaning: "разрушать" }
+  - { word: "nuplaunama", lemma: "nuplauti", pos: verb, forms: { pres: "nuplauna", past: "nuplovė" }, meaning: "смыть", note: "пассивное прич. наст. вр., ж. р." }
+  - { word: "niūru", lemma: "niūrus", pos: adj, meaning: "мрачный", note: "средний род: ne viskas taip niūru — не всё так мрачно" }
+  - { word: "griežtinami", lemma: "griežtinti", pos: verb, forms: { pres: "griežtina", past: "griežtino" }, meaning: "ужесточать", note: "пассивное прич. наст. вр., мн. ч." }
+  - { word: "tręšti", lemma: "tręšti", pos: verb, forms: { pres: "tręšia", past: "tręšė" }, meaning: "удобрять" }
+  - { word: "saikingiau", lemma: "saikingai", pos: adv, meaning: "умеренно", note: "сравн. ст.: умереннее" }
+  - { word: "ruoniai", lemma: "ruonis", pos: noun, gender: m, gen: "ruonio", meaning: "тюлень", note: "им. п. мн. ч." }
+  - { word: "berti", lemma: "berti", pos: verb, forms: { pres: "beria", past: "bėrė" }, meaning: "сыпать" }
+questions:
+  - q: "Kodėl teršalai Baltijos jūroje išlieka taip ilgai?"
+    options: ["Nes jūra sekli ir beveik uždara, todėl vanduo atsinaujina labai lėtai", "Nes jūra labai gili", "Nes į ją neįteka jokios upės"]
+    answer: 0
+  - q: "Kaip susidaro vadinamosios mirties zonos?"
+    options: ["Jas sukuria audros, išardančios krantą", "Irstant dumbliams sunaudojama daug deguonies, ir dugne jo beveik nelieka", "Jas sukelia per šaltas vanduo"]
+    answer: 1
+  - q: "Kokia teksto pabaigos mintis?"
+    options: ["Baltijos išgelbėti jau nebeįmanoma", "Už jūros būklę atsakingos tik vyriausybės", "Jūros būklė priklauso ir nuo kiekvieno žmogaus kasdienių sprendimų"]
+    answer: 2

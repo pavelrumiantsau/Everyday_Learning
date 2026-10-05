@@ -1,0 +1,52 @@
+id: lt-r-0057
+cefr: C1
+title: "Laukiniai devyniasdešimtieji"
+topic: "Литва в 1990-е"
+source: generated
+text: |
+  Paskutinis praėjusio amžiaus dešimtmetis Lietuvoje dažnai vadinamas laukiniais devyniasdešimtaisiais. Tai buvo laikas, kai griuvo viena sistema, o kita dar tik kūrėsi, todėl taisyklės keitėsi greičiau, nei žmonės spėdavo prie jų prisitaikyti.
+
+  Atkūrus nepriklausomybę, euforiją netrukus pakeitė kasdieniai rūpesčiai. Kainos šoktelėjo dešimtis kartų, o bankuose laikytos santaupos per kelis mėnesius nuvertėjo. Kurį laiką buvo atsiskaitoma laikinaisiais pinigais – talonais, liaudyje pramintais „vagnorkėmis“, ir tik 1993 metais įvestas litas pagaliau suteikė stabilumo jausmą.
+
+  Tūkstančiai žmonių, netekusių darbo gamyklose, ėmėsi prekybos. Vilniaus Gariūnų turgus tapo vienu didžiausių Rytų Europoje: ten buvo vežami drabužiai iš Lenkijos ir Turkijos, elektronika, automobiliai. Vieniems turgus buvo išgyvenimo būdas, kitiems – pirmojo kapitalo šaltinis, iš kurio vėliau išaugo solidžios įmonės.
+
+  Valstybės institucijos tuo metu buvo silpnos, ir tuštumą skubėjo užpildyti nusikalstamos grupuotės. Reketas, susišaudymai, sprogdinimai – laikraščių antraštės kartais priminė veiksmo filmą. Kartu vyko privatizacija: gyventojams buvo išdalyti investiciniai čekiai, už kuriuos buvo galima įsigyti valstybinių įmonių akcijų. Vieni jais pasinaudojo sumaniai, kiti juos pardavė už juokingą kainą, nesuvokdami jų vertės. O 1995 metų pabaigoje žlugus keliems stambiems bankams, daugelis vėl prarado santaupas.
+
+  Šiandien apie tą dešimtmetį kalbama nevienareikšmiškai. Vyresnioji karta prisimena nesaugumą ir skurdą, tačiau dažnai priduria, kad tuomet jautė laisvę ir tikėjo, jog viskas įmanoma. Jaunimui devyniasdešimtieji tapo savotiška mada: jų estetika atgimsta muzikoje, drabužiuose, serialuose. Galbūt ši nostalgija ir rodo, kad visuomenė pagaliau pakankamai nutolo nuo to laiko, kad galėtų pažvelgti į jį be pykčio ir baimės.
+glossary:
+  - { word: "griuvo", lemma: "griūti", pos: verb, forms: { pres: "griūva", past: "griuvo" }, meaning: "рушиться" }
+  - { word: "prisitaikyti", lemma: "prisitaikyti", pos: verb, forms: { pres: "prisitaiko", past: "prisitaikė" }, meaning: "приспособиться", note: "prisitaikyti prie ko" }
+  - { word: "rūpesčiai", lemma: "rūpestis", pos: noun, gender: m, gen: "rūpesčio", meaning: "забота, хлопоты", note: "им. п. мн. ч." }
+  - { word: "šoktelėjo", lemma: "šoktelėti", pos: verb, forms: { pres: "šokteli", past: "šoktelėjo" }, meaning: "подскочить (резко вырасти)" }
+  - { word: "nuvertėjo", lemma: "nuvertėti", pos: verb, forms: { pres: "nuvertėja", past: "nuvertėjo" }, meaning: "обесцениться" }
+  - { word: "atsiskaitoma", lemma: "atsiskaityti", pos: verb, forms: { pres: "atsiskaito", past: "atsiskaitė" }, meaning: "расплачиваться", note: "безличный пассив: buvo atsiskaitoma talonais — расплачивались талонами" }
+  - { word: "talonais", lemma: "talonas", pos: noun, gender: m, gen: "talono", meaning: "талон", note: "здесь — временные деньги 1992–1993 гг." }
+  - { word: "pramintais", lemma: "pramintas", pos: adj, meaning: "прозванный", note: "liaudyje pramintas — в народе прозванный; тв. п. мн. ч." }
+  - { word: "ėmėsi", lemma: "imtis", pos: verb, forms: { pres: "imasi", past: "ėmėsi" }, meaning: "взяться (за что-то)", note: "+ род. п.: ėmėsi prekybos — занялись торговлей" }
+  - { word: "išgyvenimo", lemma: "išgyvenimas", pos: noun, gender: m, gen: "išgyvenimo", meaning: "выживание; переживание", note: "род. п." }
+  - { word: "solidžios", lemma: "solidus", pos: adj, meaning: "солидный", note: "им. п. мн. ч. ж. р." }
+  - { word: "tuštumą", lemma: "tuštuma", pos: noun, gender: f, gen: "tuštumos", meaning: "пустота", note: "вин. п." }
+  - { word: "nusikalstamos", lemma: "nusikalstamas", pos: adj, meaning: "преступный", note: "nusikalstama grupuotė — преступная группировка" }
+  - { word: "grupuotės", lemma: "grupuotė", pos: noun, gender: f, gen: "grupuotės", meaning: "группировка", note: "им. п. мн. ч." }
+  - { word: "Reketas", lemma: "reketas", pos: noun, gender: m, gen: "reketo", meaning: "рэкет" }
+  - { word: "antraštės", lemma: "antraštė", pos: noun, gender: f, gen: "antraštės", meaning: "заголовок", note: "им. п. мн. ч." }
+  - { word: "čekiai", lemma: "čekis", pos: noun, gender: m, gen: "čekio", meaning: "чек", note: "investiciniai čekiai — инвестиционные чеки (ваучеры приватизации)" }
+  - { word: "akcijų", lemma: "akcija", pos: noun, gender: f, gen: "akcijos", meaning: "акция (ценная бумага; кампания)", note: "род. п. мн. ч." }
+  - { word: "sumaniai", lemma: "sumaniai", pos: adv, meaning: "умело, находчиво" }
+  - { word: "nesuvokdami", lemma: "suvokti", pos: verb, forms: { pres: "suvokia", past: "suvokė" }, meaning: "осознавать, понимать", note: "полупричастие с отрицанием: nesuvokdami — не осознавая" }
+  - { word: "žlugus", lemma: "žlugti", pos: verb, forms: { pres: "žlunga", past: "žlugo" }, meaning: "рухнуть, обанкротиться", note: "деепр.: žlugus bankams — когда рухнули банки" }
+  - { word: "nevienareikšmiškai", lemma: "nevienareikšmiškai", pos: adv, meaning: "неоднозначно" }
+  - { word: "skurdą", lemma: "skurdas", pos: noun, gender: m, gen: "skurdo", meaning: "бедность, нищета", note: "вин. п." }
+  - { word: "priduria", lemma: "pridurti", pos: verb, forms: { pres: "priduria", past: "pridūrė" }, meaning: "добавить (к сказанному)" }
+  - { word: "savotiška", lemma: "savotiškas", pos: adj, meaning: "своего рода, своеобразный" }
+  - { word: "nutolo", lemma: "nutolti", pos: verb, forms: { pres: "nutolsta", past: "nutolo" }, meaning: "отдалиться" }
+questions:
+  - q: "Kas, pasak teksto, pagaliau suteikė finansinio stabilumo jausmą?"
+    options: ["1993 metais įvestas litas", "Talonai", "Investiciniai čekiai"]
+    answer: 0
+  - q: "Kodėl tekste minimos nusikalstamos grupuotės?"
+    options: ["Nes jos valdė Gariūnų turgų nuo sovietmečio", "Nes jos pasinaudojo silpnų valstybės institucijų palikta tuštuma", "Nes jos organizavo privatizaciją"]
+    answer: 1
+  - q: "Ką, autoriaus manymu, rodo jaunimo susidomėjimas devyniasdešimtaisiais?"
+    options: ["Kad jaunimas nežino istorijos", "Kad tas laikas buvo geresnis už dabartinį", "Kad visuomenė jau gali į tą laiką žiūrėti ramiau"]
+    answer: 2

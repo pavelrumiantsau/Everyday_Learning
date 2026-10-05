@@ -1,0 +1,49 @@
+id: lt-r-0056
+cefr: C1
+title: "Saugoti kalbą ar leisti jai keistis?"
+topic: "заимствования и языковая политика"
+source: generated
+text: |
+  Kiekviena gyva kalba skolinasi. Lietuvių kalboje gausu žodžių, atėjusių iš slavų, vokiečių, lotynų kalbų, ir dauguma jų jau seniai nebeatrodo svetimi: retas susimąsto, kad „knyga“ ar „muilas“ kadaise buvo skoliniai iš slavų kalbų.
+
+  Šiandien didžiausias skolinių šaltinis – anglų kalba. Ypač jaunimo ir IT specialistų kalboje gausu žodžių, kurie tiesiog perimami su lietuviška galūne: „apdeitinti“, „šerinti“, „laikinti“. Dažnai tai daroma ne iš tingumo, o todėl, kad naujas reiškinys atsiranda greičiau, nei kas nors spėja jį pavadinti lietuviškai. Dalis tokių žodžių taip ir lieka žargonu, tačiau kai kurie pamažu skverbiasi į laikraščius ir net į oficialius dokumentus.
+
+  Lietuvoje kalbos politika tradiciškai griežtesnė nei daugelyje Europos šalių. Valstybinė lietuvių kalbos komisija ne tik nustato normas, bet ir siūlo lietuviškus atitikmenis naujiems tarptautiniams žodžiams. Kai kurie jų prigijo taip sėkmingai, kad šiandien niekas nebeprisimena, jog kadaise teko rinktis: sakome „svetainė“, o ne „saitas“, o kompiuterio „pelę“ vadiname lietuviškai. Kiti pasiūlymai sutinkami su šypsena ir taip ir lieka žodynuose.
+
+  Kritikai teigia, kad toks kalbos saugojimas primena kovą su vėjo malūnais: kalba keičiasi pagal tai, kaip ja kalba žmonės, o ne pagal komisijų nutarimus. Be to, nuolatinis taisymas gali atgrasyti žmones nuo viešo kalbėjimo – bijodami suklysti, jie verčiau tyli. Šalininkai atsako, kad maža kalba, kuria kalba vos keli milijonai žmonių, be sąmoningos priežiūros galėtų greitai prarasti savitumą, o daugelis lietuviškų atitikmenų atsirado būtent todėl, kad kažkas laiku juos pasiūlė.
+
+  Atrodo, kad tiesa – kažkur per vidurį. Kalba neturi tapti muziejaus eksponatu, tačiau neturi virsti ir sąvartynu, į kurį be atrankos metama viskas, kas ateina iš ekrano. Svarbiausia galbūt ne draudimai, o pasirinkimo laisvė: kad kalbėtojas žinotų lietuvišką žodį ir pats spręstų, kada jį vartoti.
+glossary:
+  - { word: "skolinasi", lemma: "skolintis", pos: verb, forms: { pres: "skolinasi", past: "skolinosi" }, meaning: "занимать, заимствовать" }
+  - { word: "gausu", lemma: "gausu", pos: adv, meaning: "много, в изобилии", note: "+ род. п.: kalboje gausu žodžių — в языке много слов" }
+  - { word: "susimąsto", lemma: "susimąstyti", pos: verb, forms: { pres: "susimąsto", past: "susimąstė" }, meaning: "задуматься" }
+  - { word: "skoliniai", lemma: "skolinys", pos: noun, gender: m, gen: "skolinio", meaning: "заимствование (слово)", note: "им. п. мн. ч." }
+  - { word: "perimami", lemma: "perimti", pos: verb, forms: { pres: "perima", past: "perėmė" }, meaning: "перенимать", note: "пассивное прич. наст. вр., мн. ч.: žodžiai perimami — слова перенимаются" }
+  - { word: "galūne", lemma: "galūnė", pos: noun, gender: f, gen: "galūnės", meaning: "окончание (слова)", note: "тв. п." }
+  - { word: "tingumo", lemma: "tingumas", pos: noun, gender: m, gen: "tingumo", meaning: "лень", note: "iš tingumo — из-за лени" }
+  - { word: "žargonu", lemma: "žargonas", pos: noun, gender: m, gen: "žargono", meaning: "жаргон", note: "тв. п.: lieka žargonu — остаётся жаргоном" }
+  - { word: "skverbiasi", lemma: "skverbtis", pos: verb, forms: { pres: "skverbiasi", past: "skverbėsi" }, meaning: "проникать, пробиваться" }
+  - { word: "atitikmenis", lemma: "atitikmuo", pos: noun, gender: m, gen: "atitikmens", meaning: "соответствие, эквивалент", note: "вин. п. мн. ч." }
+  - { word: "prigijo", lemma: "prigyti", pos: verb, forms: { pres: "prigyja", past: "prigijo" }, meaning: "прижиться" }
+  - { word: "nebeprisimena", lemma: "prisiminti", pos: verb, forms: { pres: "prisimena", past: "prisiminė" }, meaning: "вспоминать, помнить", note: "nebe- — уже не: nebeprisimena — уже не помнит" }
+  - { word: "sutinkami", lemma: "sutikti", pos: verb, forms: { pres: "sutinka", past: "sutiko" }, meaning: "встречать; соглашаться", note: "пассивное прич.: sutinkami su šypsena — встречаются с улыбкой" }
+  - { word: "malūnais", lemma: "malūnas", pos: noun, gender: m, gen: "malūno", meaning: "мельница", note: "kova su vėjo malūnais — борьба с ветряными мельницами" }
+  - { word: "nutarimus", lemma: "nutarimas", pos: noun, gender: m, gen: "nutarimo", meaning: "постановление, решение", note: "вин. п. мн. ч." }
+  - { word: "atgrasyti", lemma: "atgrasyti", pos: verb, forms: { pres: "atgraso", past: "atgrasė" }, meaning: "отпугнуть, отбить охоту", note: "atgrasyti ką nuo ko" }
+  - { word: "verčiau", lemma: "verčiau", pos: adv, meaning: "лучше, скорее (предпочитая)" }
+  - { word: "Šalininkai", lemma: "šalininkas", pos: noun, gender: m, gen: "šalininko", meaning: "сторонник", note: "им. п. мн. ч." }
+  - { word: "priežiūros", lemma: "priežiūra", pos: noun, gender: f, gen: "priežiūros", meaning: "присмотр, уход, надзор", note: "род. п. после be" }
+  - { word: "savitumą", lemma: "savitumas", pos: noun, gender: m, gen: "savitumo", meaning: "своеобразие, самобытность", note: "вин. п." }
+  - { word: "eksponatu", lemma: "eksponatas", pos: noun, gender: m, gen: "eksponato", meaning: "экспонат", note: "тв. п. после tapti" }
+  - { word: "sąvartynu", lemma: "sąvartynas", pos: noun, gender: m, gen: "sąvartyno", meaning: "свалка", note: "тв. п. после virsti" }
+  - { word: "atrankos", lemma: "atranka", pos: noun, gender: f, gen: "atrankos", meaning: "отбор", note: "be atrankos — без разбора" }
+questions:
+  - q: "Kodėl, pasak teksto, anglicizmai dažnai perimami be vertimo?"
+    options: ["Nauji reiškiniai atsiranda greičiau, nei spėjama juos pavadinti lietuviškai", "Lietuviškų žodžių vartoti draudžiama", "Jaunimas nemoka lietuvių kalbos"]
+    answer: 0
+  - q: "Kokį pavojų mato griežtos kalbos politikos kritikai?"
+    options: ["Kad lietuvių kalba taps per sunki užsieniečiams", "Kad nuolatinis taisymas atbaido žmones nuo kalbėjimo viešai", "Kad komisija nustos siūlyti naujus žodžius"]
+    answer: 1
+  - q: "Kokia autoriaus pozicija?"
+    options: ["Visus skolinius reikia drausti", "Kalbos normų apskritai nereikia", "Reikia vidurio kelio: žinoti lietuvišką žodį ir laisvai rinktis"]
+    answer: 2
