@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0024
+cefr: A1
+order: 114
+title: "Faire, prendre, venir: je fais, je prends, je viens"
+explanation:
+  en: |
+    Three very common irregular verbs. Learn them as a block — their compounds follow the same pattern.
+
+    **faire** (do, make): *je **fais**, tu **fais**, il **fait**, nous **faisons**, vous **faites**, ils **font***
+    - *faire du sport, faire la cuisine, faire les courses* (do the shopping)
+    - weather: ***il fait** beau / chaud / froid*
+    - *vous faites* — not ~~vous faisez~~; *faisons* is said [fəzɔ̃]
+
+    **prendre** (take): *je **prends**, tu **prends**, il **prend**, nous **prenons**, vous **prenez**, ils **prennent***
+    - *prendre le bus, prendre une photo*; with food and drink = "have": *Je prends un café.*
+    - the same forms: ***comprendre*** (understand), ***apprendre*** (learn): *ils compr**ennent**, nous appr**enons***
+
+    **venir** (come): *je **viens**, tu **viens**, il **vient**, nous **venons**, vous **venez**, ils **viennent***
+    - origin: *Je viens **de** Lyon.*
+    - the same forms: ***revenir*** (come back), ***devenir*** (become)
+    - ***venir de** + infinitive* = "have just done": *Je **viens de** manger.* — I've just eaten.
+
+    Singular forms sound alike (*fais/fait*, *prends/prend*, *viens/vient*); the plural *prennent, viennent* has a clearly different vowel [ɛn].
+comparison:
+  en: |
+    Spanish: *hacer* — and the weather works the same way (*hace calor* = *il fait chaud*); *tomar un café* = *prendre un café*; *venir de + inf* = *acabar de + inf* (*Je viens de manger* = *Acabo de comer*). Careful: French *venir de* + infinitive is the recent past, not "come from doing".
+examples:
+  - { text: "Je fais du café.", translation: "I'm making coffee.", source: "tatoeba:1612725" }
+  - { text: "Que faites-vous ?", translation: "What are you doing?", source: "tatoeba:543525" }
+  - { text: "Il prend une photo.", translation: "He is taking a photo.", source: "tatoeba:10719653" }
+  - { text: "Nous comprenons.", translation: "We understand.", source: "tatoeba:1996498" }
+  - { text: "D'où viens-tu ?", translation: "Where are you from?", source: "tatoeba:4167" }
+exercises:
+  - type: cloze
+    text: "Qu'est-ce que tu ___ ce soir ?"
+    answer: "fais"
+    hint: "faire, tu"
+    translation: "What are you doing tonight?"
+  - type: cloze
+    text: "Nous ___ les courses le samedi."
+    answer: "faisons"
+    hint: "faire, nous"
+    translation: "We do the shopping on Saturdays."
+  - type: cloze
+    text: "Vous ___ du sport ?"
+    answer: "faites"
+    hint: "faire, vous (irregular)"
+    translation: "Do you do any sport?"
+  - type: cloze
+    text: "Je ___ le bus tous les matins."
+    answer: "prends"
+    hint: "prendre, je"
+    translation: "I take the bus every morning."
+  - type: cloze
+    text: "Ils ne ___ pas la question."
+    answer: "comprennent"
+    hint: "comprendre, ils"
+    translation: "They don't understand the question."
+  - type: cloze
+    text: "Elle ___ d'Espagne."
+    answer: "vient"
+    hint: "venir, elle"
+    translation: "She comes from Spain."
+  - type: cloze
+    text: "Mes parents ___ ce week-end."
+    answer: "viennent"
+    hint: "venir, ils"
+    translation: "My parents are coming this weekend."
+  - type: cloze
+    text: "Je ___ de manger, merci."
+    answer: "viens"
+    hint: "venir de + infinitive = have just done"
+    translation: "I've just eaten, thanks."
