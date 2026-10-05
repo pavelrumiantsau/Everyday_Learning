@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0082
+cefr: A2
+order: 82
+title: "¡Qué bonito!, ¡qué día tan largo!, ¡cuánta gente!: exclamations"
+explanation:
+  en: |
+    ***¡Qué…!*** is the all-purpose exclamation:
+    - + adjective or adverb — "how…!": *¡Qué **caro**!* *¡Qué **bien**!* *¡Qué **guapa** es!*
+    - + noun — "what a…!" (no *un*): *¡Qué **sorpresa**!* *¡Qué **pena**!* *¡Qué **suerte**!* *¡Qué **calor**!*
+    - + noun + ***tan*** or ***más*** + adjective — "what a … !": *¡Qué día **tan** largo!* = *¡Qué día **más** largo!*
+    - + adverb + verb: *¡Qué bien **canta**!* — How well she sings!
+
+    ***¡Cuánto…!*** — "so much / so many", agrees with the noun: *¡**Cuánta** gente!* *¡**Cuántos** libros!* *¡**Cuánto** tiempo!* — Long time no see!
+
+    ***¡Cómo…!*** + verb — "how (much)…!": *¡Cómo **llueve**!* *¡Cómo has **crecido**!*
+
+    ***¡Lo* + adjective + *que…!*** — "how … (it is)!", the adjective agrees: *¡**Lo** cansad**a** **que** estoy!* — I'm so tired! *No sabes **lo** difícil **que** es.*
+
+    All exclamation words have an accent (*qué, cuánto, cómo*), and the sentence opens with ***¡***.
+comparison:
+  en: |
+    English "what **a** surprise" has an article — Spanish doesn't: *¡Qué sorpresa!*, not ~~¡Qué una sorpresa!~~. Russian «какой…!», «как…!», «сколько…!» map well: *¡Qué día tan bonito!* = «Какой прекрасный день!», *¡Cómo has crecido!* = «Как ты вырос!», *¡Cuánta gente!* = «Сколько народу!».
+examples:
+  - { text: "¡Qué sorpresa!", translation: "What a surprise!", source: "tatoeba:599606" }
+  - { text: "¡Qué flor tan bonita!", translation: "What a beautiful flower!", source: "tatoeba:483429" }
+  - { text: "¡Qué bien canta!", translation: "How beautifully she sings!", source: "tatoeba:534311" }
+  - { text: "¡Cuánto tiempo sin vernos!", translation: "Long time no see!", source: "tatoeba:1679886" }
+  - { text: "¡Cómo has crecido!", translation: "How you've grown!", source: "tatoeba:1068458" }
+exercises:
+  - type: cloze
+    text: "¡___ casa tan grande!"
+    answer: "Qué"
+    hint: "what a"
+    translation: "What a big house!"
+  - type: cloze
+    text: "¡Qué película ___ aburrida!"
+    answer: "más"
+    also: ["tan"]
+    hint: "so — qué + noun + … + adjective"
+    translation: "What a boring film!"
+  - type: cloze
+    text: "¡___ gente hay en la playa!"
+    answer: "Cuánta"
+    hint: "so many (gente)"
+    translation: "There are so many people on the beach!"
+  - type: cloze
+    text: "¡___ llueve hoy!"
+    answer: "Cómo"
+    also: ["Cuánto"]
+    hint: "how (it rains!) — with a verb"
+    translation: "It's really pouring today!"
+  - type: cloze
+    text: "¡Qué ___ tienes! Has ganado otra vez."
+    answer: "suerte"
+    hint: "luck"
+    translation: "You're so lucky! You've won again."
+  - type: cloze
+    text: "¡Qué ___ hablas español!"
+    answer: "bien"
+    hint: "well"
+    translation: "How well you speak Spanish!"
+  - type: cloze
+    text: "¡___ libros tienes!"
+    answer: "Cuántos"
+    hint: "so many"
+    translation: "You have so many books!"
+  - type: cloze
+    text: "¡___ cansada que estoy!"
+    answer: "Lo"
+    also: ["Qué"]
+    hint: "how (… tired I am) — lo … que"
+    translation: "I'm so tired!"
