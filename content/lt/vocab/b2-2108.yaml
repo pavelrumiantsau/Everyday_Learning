@@ -1,0 +1,731 @@
+# Generated from scripts/batches/lt-b2-2108.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2108
+  type: word
+  cefr: B1
+  text: "darbdavys"
+  pos: noun
+  gender: m
+  gen: "darbdavio"
+  meaning: { ru: "работодатель" }
+  examples:
+    - { text: "Darbdavys jau antras mėnuo nemoka man atlyginimo.", translation: "Работодатель уже второй месяц не платит мне зарплату.", source: "tatoeba:3692193" }
+- id: lt-w-2109
+  type: word
+  cefr: B1
+  text: "apmokėti"
+  pos: verb
+  forms: { pres: "apmoka", past: "apmokėjo" }
+  meaning: { ru: "оплатить" }
+  note: { ru: "apmokėti sąskaitą — оплатить счёт" }
+  examples:
+    - { text: "Ji apmokės viską.", translation: "Она оплатит всё.", source: "tatoeba:13044028" }
+- id: lt-w-2110
+  type: word
+  cefr: B2
+  text: "etatas"
+  pos: noun
+  gender: m
+  gen: "etato"
+  meaning: { ru: "ставка, штатная должность" }
+  note: { ru: "dirbti visu etatu / puse etato — работать на полную ставку / на полставки" }
+- id: lt-w-2111
+  type: word
+  cefr: B2
+  text: "viršvalandžiai"
+  pos: noun
+  gender: m
+  gen: "viršvalandžių"
+  plural_only: true
+  meaning: { ru: "сверхурочные (часы)" }
+  note: { ru: "dirbti viršvalandžius — работать сверхурочно" }
+  examples:
+    - { text: "Bijau, kad jums teks padirbėti viršvalandžius.", translation: "Боюсь, вам придется поработать сверхурочно.", source: "tatoeba:9845053" }
+- id: lt-w-2112
+  type: word
+  cefr: B1
+  text: "pareigos"
+  pos: noun
+  gender: f
+  gen: "pareigų"
+  plural_only: true
+  meaning: { ru: "должность; обязанности" }
+  note: { ru: "eiti pareigas — занимать должность; ср. pareiga — долг" }
+  examples:
+    - { text: "Ji tave pažemino pareigose.", translation: "Она понизила тебя в должности.", source: "tatoeba:13008441" }
+- id: lt-w-2113
+  type: word
+  cefr: B2
+  text: "finansinis"
+  pos: adj
+  meaning: { ru: "финансовый" }
+  examples:
+    - { text: "Jie patiria finansinius sunkumus.", translation: "Они испытывают финансовые трудности.", source: "tatoeba:11417649" }
+- id: lt-w-2114
+  type: word
+  cefr: B1
+  text: "pabrangti"
+  pos: verb
+  forms: { pres: "pabrangsta", past: "pabrango" }
+  meaning: { ru: "подорожать" }
+  examples:
+    - { text: "Viskas labai pabrango.", translation: "Всё очень подорожало.", source: "tatoeba:13903373" }
+- id: lt-w-2115
+  type: word
+  cefr: B2
+  text: "kvalifikacija"
+  pos: noun
+  gender: f
+  gen: "kvalifikacijos"
+  meaning: { ru: "квалификация" }
+  examples:
+    - { text: "Aš esu aukštos kvalifikacijos profesionalas.", translation: "Я высококвалифицированный профессионал.", source: "tatoeba:13641256" }
+- id: lt-w-2116
+  type: word
+  cefr: B2
+  text: "profsąjunga"
+  pos: noun
+  gender: f
+  gen: "profsąjungos"
+  meaning: { ru: "профсоюз" }
+- id: lt-w-2117
+  type: word
+  cefr: B2
+  text: "nedarbas"
+  pos: noun
+  gender: m
+  gen: "nedarbo"
+  meaning: { ru: "безработица" }
+  note: { ru: "nedarbo lygis — уровень безработицы" }
+  examples:
+    - { text: "Nedarbo lygis auga.", translation: "Показатели безработицы растут.", source: "tatoeba:13709169" }
+- id: lt-w-2118
+  type: word
+  cefr: B1
+  text: "atpigti"
+  pos: verb
+  forms: { pres: "atpinga", past: "atpigo" }
+  meaning: { ru: "подешеветь" }
+  examples:
+    - { text: "Šitas nešiojamas kompiuteris iš tiesų atpigo.", translation: "Этот ноутбук и вправду подешевел.", source: "tatoeba:11524019" }
+- id: lt-w-2119
+  type: word
+  cefr: B2
+  text: "pašalpa"
+  pos: noun
+  gender: f
+  gen: "pašalpos"
+  meaning: { ru: "пособие" }
+  note: { ru: "bedarbio pašalpa — пособие по безработице" }
+  examples:
+    - { text: "Jis gyvena iš bedarbio pašalpos.", translation: "Он живёт на пособие по безработице.", source: "tatoeba:12450684" }
+- id: lt-w-2120
+  type: word
+  cefr: A2
+  text: "biuras"
+  pos: noun
+  gender: m
+  gen: "biuro"
+  meaning: { ru: "офис, бюро" }
+  examples:
+    - { text: "Ji dirba biure.", translation: "Она работает в офисе.", source: "tatoeba:11938397" }
+- id: lt-w-2121
+  type: word
+  cefr: B1
+  text: "darbovietė"
+  pos: noun
+  gender: f
+  gen: "darbovietės"
+  meaning: { ru: "место работы" }
+  examples:
+    - { text: "Man pasisekė, kad radau butą arti darbovietės.", translation: "Мне повезло, что я нашла квартиру близко к работе.", source: "tatoeba:11627116" }
+- id: lt-w-2122
+  type: word
+  cefr: B2
+  text: "sukaupti"
+  pos: verb
+  forms: { pres: "sukaupia", past: "sukaupė" }
+  meaning: { ru: "накопить" }
+  examples:
+    - { text: "Jis sukaupė daug pinigų.", translation: "Он скопил много денег.", source: "tatoeba:12868899" }
+- id: lt-w-2123
+  type: word
+  cefr: B1
+  text: "komandiruotė"
+  pos: noun
+  gender: f
+  gen: "komandiruotės"
+  meaning: { ru: "командировка" }
+  note: { ru: "išvykti į komandiruotę — уехать в командировку" }
+  examples:
+    - { text: "Galina išvyko į komandiruotę į Austriją.", translation: "Галина поехала в командировку в Австрию.", source: "tatoeba:9614858" }
+- id: lt-w-2124
+  type: word
+  cefr: B2
+  text: "pasiturintis"
+  pos: adj
+  meaning: { ru: "зажиточный, состоятельный" }
+  examples:
+    - { text: "Ji yra pasiturinti moteris.", translation: "Она состоятельная женщина.", source: "tatoeba:11515550" }
+- id: lt-w-2125
+  type: word
+  cefr: B2
+  text: "vadovybė"
+  pos: noun
+  gender: f
+  gen: "vadovybės"
+  meaning: { ru: "руководство" }
+  examples:
+    - { text: "Atėjus naujai vadovybei, įmonė pradėjo degraduoti.", translation: "С приходом нового руководства предприятие начало деградировать.", source: "tatoeba:11595961" }
+- id: lt-w-2126
+  type: word
+  cefr: B2
+  text: "pavaduotojas"
+  pos: noun
+  gender: m
+  gen: "pavaduotojo"
+  meaning: { ru: "заместитель" }
+- id: lt-w-2127
+  type: word
+  cefr: B2
+  text: "eikvoti"
+  pos: verb
+  forms: { pres: "eikvoja", past: "eikvojo" }
+  meaning: { ru: "расходовать, тратить (зря)" }
+  examples:
+    - { text: "Neeikvok savo pinigų.", translation: "Не транжирь свои деньги.", source: "tatoeba:12712237" }
+- id: lt-w-2128
+  type: word
+  cefr: B1
+  text: "buhalteris"
+  pos: noun
+  gender: m
+  gen: "buhalterio"
+  meaning: { ru: "бухгалтер" }
+  examples:
+    - { text: "Buhalteris ir kasininkas yra broliai.", translation: "Бухгалтер и кассир - братья.", source: "tatoeba:12722902" }
+- id: lt-w-2129
+  type: word
+  cefr: B2
+  text: "našumas"
+  pos: noun
+  gender: m
+  gen: "našumo"
+  meaning: { ru: "производительность" }
+  note: { ru: "darbo našumas — производительность труда" }
+  examples:
+    - { text: "Darbo našumas nuo to tik išaugs.", translation: "Производительность труда от этого только вырастет.", source: "tatoeba:13810401" }
+- id: lt-w-2130
+  type: word
+  cefr: B2
+  text: "derėtis"
+  pos: verb
+  forms: { pres: "derasi", past: "derėjosi" }
+  meaning: { ru: "торговаться; вести переговоры" }
+  note: { ru: "derybos — переговоры" }
+  examples:
+    - { text: "Jis visada bando derėtis.", translation: "Он всегда пытается торговаться.", source: "tatoeba:11684756" }
+- id: lt-w-2131
+  type: word
+  cefr: B2
+  text: "užimtumas"
+  pos: noun
+  gender: m
+  gen: "užimtumo"
+  meaning: { ru: "занятость" }
+  examples:
+    - { text: "Jie savo darbuotojams garantuoja aukštą užimtumą.", translation: "Они гарантируют своим сотрудникам высокую занятость.", source: "tatoeba:12198427" }
+- id: lt-w-2132
+  type: word
+  cefr: B2
+  text: "konkurentas"
+  pos: noun
+  gender: m
+  gen: "konkurento"
+  meaning: { ru: "конкурент" }
+  examples:
+    - { text: "Mes turime stiprius konkurentus.", translation: "У нас сильные соперники.", source: "tatoeba:14001023" }
+- id: lt-w-2133
+  type: word
+  cefr: B2
+  text: "užsakovas"
+  pos: noun
+  gender: m
+  gen: "užsakovo"
+  meaning: { ru: "заказчик" }
+  examples:
+    - { text: "Jūs esate geras užsakovas.", translation: "Вы хороший заказчик.", source: "tatoeba:10919468" }
+- id: lt-w-2134
+  type: word
+  cefr: B2
+  text: "prabangus"
+  pos: adj
+  meaning: { ru: "роскошный" }
+  note: { ru: "prabangiai — роскошно, в роскоши" }
+  examples:
+    - { text: "Palubėje kabojo prabangus sietynas.", translation: "На потолке висела роскошная люстра.", source: "tatoeba:10745712" }
+- id: lt-w-2135
+  type: word
+  cefr: B2
+  text: "verstis"
+  pos: verb
+  forms: { pres: "verčiasi", past: "vertėsi" }
+  meaning: { ru: "зарабатывать на жизнь (чем-л.), заниматься (чем-л.)" }
+  note: { ru: "kuo verčiatės? — чем вы занимаетесь?" }
+  examples:
+    - { text: "Kuo tu vertiesi Bostone?", translation: "Чем ты занимаешься в Бостоне?", source: "tatoeba:10774624" }
+- id: lt-w-2136
+  type: word
+  cefr: B2
+  text: "pusmetis"
+  pos: noun
+  gender: m
+  gen: "pusmečio"
+  meaning: { ru: "полугодие" }
+  examples:
+    - { text: "Šitas pusmetis buvo labai sėkmingas.", translation: "Это полугодие было очень успешным.", source: "tatoeba:12137130" }
+- id: lt-w-2137
+  type: word
+  cefr: B1
+  text: "pasitarimas"
+  pos: noun
+  gender: m
+  gen: "pasitarimo"
+  meaning: { ru: "совещание" }
+  examples:
+    - { text: "Aš turiu labai svarbų pasitarimą.", translation: "У меня очень важное совещание.", source: "tatoeba:12957788" }
+- id: lt-w-2138
+  type: word
+  cefr: B2
+  text: "palūkanos"
+  pos: noun
+  gender: f
+  gen: "palūkanų"
+  plural_only: true
+  meaning: { ru: "проценты (по кредиту, вкладу)" }
+  examples:
+    - { text: "Bankai siūlo paskolas su pernelyg didelėmis palūkanomis.", translation: "Банки предлагают кредит под грабительские проценты.", source: "tatoeba:13750543" }
+- id: lt-w-2139
+  type: word
+  cefr: B2
+  text: "pragyventi"
+  pos: verb
+  forms: { pres: "pragyvena", past: "pragyveno" }
+  meaning: { ru: "прожить; прокормиться" }
+  note: { ru: "pragyvenimas — средства к существованию" }
+  examples:
+    - { text: "Aš pragyvenau ilgą gyvenimą.", translation: "Я прожил долгую жизнь.", source: "tatoeba:10142032" }
+- id: lt-w-2140
+  type: word
+  cefr: B1
+  text: "nuolaida"
+  pos: noun
+  gender: f
+  gen: "nuolaidos"
+  meaning: { ru: "скидка; уступка" }
+  examples:
+    - { text: "Kasininkas suteiks jums nuolaidą.", translation: "Кассир сделает Вам скидку.", source: "tatoeba:2724949" }
+- id: lt-w-2141
+  type: word
+  cefr: B2
+  text: "santaupos"
+  pos: noun
+  gender: f
+  gen: "santaupų"
+  plural_only: true
+  meaning: { ru: "сбережения" }
+  examples:
+    - { text: "Marija prarado visas savo santaupas.", translation: "Мэри потеряла все свои сбережения.", source: "tatoeba:13031771" }
+- id: lt-w-2142
+  type: word
+  cefr: B1
+  text: "kvitas"
+  pos: noun
+  gender: m
+  gen: "kvito"
+  meaning: { ru: "квитанция, чек" }
+  examples:
+    - { text: "Būtinai išsaugokite kvitą.", translation: "Обязательно сохраните квитанцию.", source: "tatoeba:12085944" }
+- id: lt-w-2143
+  type: word
+  cefr: B1
+  text: "aptarnauti"
+  pos: verb
+  forms: { pres: "aptarnauja", past: "aptarnavo" }
+  meaning: { ru: "обслуживать" }
+  examples:
+    - { text: "Padavėjas mus greitai aptarnavo.", translation: "Официант быстро нас обслужил.", source: "tatoeba:11666348" }
+- id: lt-w-2144
+  type: word
+  cefr: B1
+  text: "čekis"
+  pos: noun
+  gender: m
+  gen: "čekio"
+  meaning: { ru: "чек" }
+  examples:
+    - { text: "Ar jūs turite čekį?", translation: "У вас есть чек?", source: "tatoeba:13648584" }
+- id: lt-w-2145
+  type: word
+  cefr: A2
+  text: "turtingas"
+  pos: adj
+  meaning: { ru: "богатый" }
+  examples:
+    - { text: "Tu labai turtingas.", translation: "Ты очень богат.", source: "tatoeba:12368854" }
+- id: lt-w-2146
+  type: word
+  cefr: B2
+  text: "infliacija"
+  pos: noun
+  gender: f
+  gen: "infliacijos"
+  meaning: { ru: "инфляция" }
+  examples:
+    - { text: "Jo atlyginimas nespėja paskui infliaciją.", translation: "Его зарплата не поспевает за инфляцией.", source: "tatoeba:10716785" }
+- id: lt-w-2147
+  type: word
+  cefr: B2
+  text: "atstovauti"
+  pos: verb
+  forms: { pres: "atstovauja", past: "atstovavo" }
+  meaning: { ru: "представлять (кого-что)" }
+  note: { ru: "atstovauti kam (дат. п.)" }
+  examples:
+    - { text: "Aš atstovauju savo šaliai.", translation: "Я представляю свою страну.", source: "tatoeba:13221596" }
+- id: lt-w-2148
+  type: word
+  cefr: B1
+  text: "kreditas"
+  pos: noun
+  gender: m
+  gen: "kredito"
+  meaning: { ru: "кредит" }
+  examples:
+    - { text: "Man nereikia kredito.", translation: "Мне не нужен кредит.", source: "tatoeba:10892928" }
+- id: lt-w-2149
+  type: word
+  cefr: B1
+  text: "turtas"
+  pos: noun
+  gender: m
+  gen: "turto"
+  meaning: { ru: "имущество; богатство, состояние" }
+  note: { ru: "nekilnojamasis turtas — недвижимость" }
+  examples:
+    - { text: "Tu susikrovei turtą.", translation: "Ты сколотил себе состояние.", source: "tatoeba:13800206" }
+- id: lt-w-2150
+  type: word
+  cefr: B2
+  text: "skurdas"
+  pos: noun
+  gender: m
+  gen: "skurdo"
+  meaning: { ru: "бедность, нищета" }
+  examples:
+    - { text: "Jie skurde gyveno.", translation: "Они жили в бедности.", source: "tatoeba:13163883" }
+- id: lt-w-2151
+  type: word
+  cefr: B2
+  text: "konkuruoti"
+  pos: verb
+  forms: { pres: "konkuruoja", past: "konkuravo" }
+  meaning: { ru: "конкурировать, соперничать" }
+  note: { ru: "konkuruoti su kuo" }
+  examples:
+    - { text: "Aš negaliu su jumis konkuruoti.", translation: "Я не могу с вами соперничать.", source: "tatoeba:13555883" }
+- id: lt-w-2152
+  type: word
+  cefr: B2
+  text: "sąnaudos"
+  pos: noun
+  gender: f
+  gen: "sąnaudų"
+  plural_only: true
+  meaning: { ru: "затраты, издержки" }
+  examples:
+    - { text: "Per daug didelės sąnaudos.", translation: "Затраты слишком высоки.", source: "tatoeba:12725838" }
+- id: lt-w-2153
+  type: word
+  cefr: B2
+  text: "valiuta"
+  pos: noun
+  gender: f
+  gen: "valiutos"
+  meaning: { ru: "валюта" }
+  examples:
+    - { text: "Euras yra Europos valiuta.", translation: "Евро - европейская валюта.", source: "tatoeba:12774137" }
+- id: lt-w-2154
+  type: word
+  cefr: B2
+  text: "keitykla"
+  pos: noun
+  gender: f
+  gen: "keityklos"
+  meaning: { ru: "обменный пункт" }
+  note: { ru: "valiutos keitykla — пункт обмена валюты" }
+  examples:
+    - { text: "Kur valiutos keitykla?", translation: "Где пункт обмена валюты?", source: "tatoeba:13870772" }
+- id: lt-w-2155
+  type: word
+  cefr: B2
+  text: "remti"
+  pos: verb
+  forms: { pres: "remia", past: "rėmė" }
+  meaning: { ru: "поддерживать" }
+  note: { ru: "parama — поддержка" }
+  examples:
+    - { text: "Jis remia demokratiją.", translation: "Он поддерживает демократию.", source: "tatoeba:12896032" }
+- id: lt-w-2156
+  type: word
+  cefr: B2
+  text: "nuotolinis"
+  pos: adj
+  meaning: { ru: "удалённый, дистанционный" }
+  note: { ru: "nuotolinis darbas — удалённая работа" }
+- id: lt-w-2157
+  type: word
+  cefr: B1
+  text: "pirkinys"
+  pos: noun
+  gender: m
+  gen: "pirkinio"
+  meaning: { ru: "покупка" }
+  note: { ru: "pirkinių sąrašas — список покупок" }
+  examples:
+    - { text: "Aš pamiršau pirkinių sąrašą.", translation: "Я забыл список покупок.", source: "tatoeba:13487971" }
+- id: lt-w-2158
+  type: word
+  cefr: B2
+  text: "gaminys"
+  pos: noun
+  gender: m
+  gen: "gaminio"
+  meaning: { ru: "изделие, продукт" }
+  examples:
+    - { text: "Geras gaminys pats save parduos.", translation: "Хороший продукт сам себя продаст.", source: "tatoeba:13352096" }
+- id: lt-w-2159
+  type: word
+  cefr: A2
+  text: "bankomatas"
+  pos: noun
+  gender: m
+  gen: "bankomato"
+  meaning: { ru: "банкомат" }
+  examples:
+    - { text: "Šitame banke yra bankomatas.", translation: "В этом банке есть банкомат.", source: "tatoeba:13006090" }
+- id: lt-w-2160
+  type: word
+  cefr: B1
+  text: "išsaugoti"
+  pos: verb
+  forms: { pres: "išsaugo", past: "išsaugojo" }
+  meaning: { ru: "сохранить" }
+  examples:
+    - { text: "Ji išsaugojo jų paslaptis.", translation: "Она сохранила их тайны.", source: "tatoeba:13357102" }
+- id: lt-w-2161
+  type: word
+  cefr: B1
+  text: "parašas"
+  pos: noun
+  gender: m
+  gen: "parašo"
+  meaning: { ru: "подпись" }
+  note: { ru: "padėti parašą — поставить подпись" }
+  examples:
+    - { text: "Man reikia tavo parašo.", translation: "Мне нужна твоя подпись.", source: "tatoeba:8925913" }
+- id: lt-w-2162
+  type: word
+  cefr: B2
+  text: "antspaudas"
+  pos: noun
+  gender: m
+  gen: "antspaudo"
+  meaning: { ru: "печать, штамп" }
+  examples:
+    - { text: "Ant blanko nėra antspaudo ir parašo.", translation: "На бланке нет печати и подписи.", source: "tatoeba:10905657" }
+- id: lt-w-2163
+  type: word
+  cefr: A2
+  text: "pasas"
+  pos: noun
+  gender: m
+  gen: "paso"
+  meaning: { ru: "паспорт" }
+  examples:
+    - { text: "Ji pametė pasą.", translation: "Она потеряла паспорт.", source: "tatoeba:9609848" }
+- id: lt-w-2164
+  type: word
+  cefr: B2
+  text: "patikslinti"
+  pos: verb
+  forms: { pres: "patikslina", past: "patikslino" }
+  meaning: { ru: "уточнить" }
+  examples:
+    - { text: "Aš dabar patikslinsiu.", translation: "Я сейчас уточню.", source: "tatoeba:8946087" }
+- id: lt-w-2165
+  type: word
+  cefr: B2
+  text: "pilietybė"
+  pos: noun
+  gender: f
+  gen: "pilietybės"
+  meaning: { ru: "гражданство" }
+  examples:
+    - { text: "Jis gavo Amerikos pilietybę.", translation: "Он получил американское гражданство.", source: "tatoeba:13725756" }
+- id: lt-w-2166
+  type: word
+  cefr: B1
+  text: "atsarginis"
+  pos: adj
+  meaning: { ru: "запасной" }
+  examples:
+    - { text: "Nėra atsarginio plano.", translation: "Запасного плана нет.", source: "tatoeba:10724334" }
+- id: lt-w-2167
+  type: word
+  cefr: B2
+  text: "savivaldybė"
+  pos: noun
+  gender: f
+  gen: "savivaldybės"
+  meaning: { ru: "самоуправление, муниципалитет" }
+  examples:
+    - { text: "Ji yra savivaldybės darbuotoja.", translation: "Она работник местного управления.", source: "tatoeba:13296677" }
+- id: lt-w-2168
+  type: word
+  cefr: B2
+  text: "užsitarnauti"
+  pos: verb
+  forms: { pres: "užsitarnauja", past: "užsitarnavo" }
+  meaning: { ru: "заслужить" }
+  examples:
+    - { text: "Tu, kaip niekas kitas, tai užsitarnavai.", translation: "Ты, как никто, это заслужил.", source: "tatoeba:13196884" }
+- id: lt-w-2169
+  type: word
+  cefr: B2
+  text: "seniūnija"
+  pos: noun
+  gender: f
+  gen: "seniūnijos"
+  meaning: { ru: "староство (часть района в Литве)" }
+- id: lt-w-2170
+  type: word
+  cefr: B2
+  text: "pareiškimas"
+  pos: noun
+  gender: m
+  gen: "pareiškimo"
+  meaning: { ru: "заявление" }
+  examples:
+    - { text: "Prezidentas padarė sensacingą pareiškimą.", translation: "Президент сделал сенсационное заявление.", source: "tatoeba:12894417" }
+- id: lt-w-2171
+  type: word
+  cefr: B2
+  text: "įgaliojimas"
+  pos: noun
+  gender: m
+  gen: "įgaliojimo"
+  meaning: { ru: "доверенность; полномочие" }
+  examples:
+    - { text: "Tu viršiji savo įgaliojimus.", translation: "Ты превышаешь свои полномочия.", source: "tatoeba:13770059" }
+- id: lt-w-2172
+  type: word
+  cefr: B2
+  text: "pelnyti"
+  pos: verb
+  forms: { pres: "pelno", past: "pelnė" }
+  meaning: { ru: "заслужить, завоевать (доверие, награду)" }
+  note: { ru: "pelnyti pasitikėjimą — завоевать доверие; pelnas — прибыль" }
+  examples:
+    - { text: "Savo nuoširdumu ji pelnė visų pasitikėjimą.", translation: "Своей искренностью она завоевала доверие всех.", source: "tatoeba:13384552" }
+- id: lt-w-2173
+  type: word
+  cefr: B2
+  text: "valdininkas"
+  pos: noun
+  gender: m
+  gen: "valdininko"
+  meaning: { ru: "чиновник" }
+  examples:
+    - { text: "Valdininkai į reikalą pažiūrėjo formaliai.", translation: "Чиновники подошли к делу формально.", source: "tatoeba:13732988" }
+- id: lt-w-2174
+  type: word
+  cefr: B2
+  text: "ministerija"
+  pos: noun
+  gender: f
+  gen: "ministerijos"
+  meaning: { ru: "министерство" }
+  examples:
+    - { text: "Jis ministerijoje užima labai svarbias pareigas.", translation: "Он занимает очень важную должность в министерстве.", source: "tatoeba:10546421" }
+- id: lt-w-2175
+  type: word
+  cefr: B2
+  text: "pažyma"
+  pos: noun
+  gender: f
+  gen: "pažymos"
+  meaning: { ru: "справка" }
+- id: lt-w-2176
+  type: word
+  cefr: B2
+  text: "įdarbinti"
+  pos: verb
+  forms: { pres: "įdarbina", past: "įdarbino" }
+  meaning: { ru: "трудоустроить, принять на работу" }
+- id: lt-w-2177
+  type: word
+  cefr: B1
+  text: "valstybinis"
+  pos: adj
+  meaning: { ru: "государственный" }
+  examples:
+    - { text: "Ji dirba valstybinėje įstaigoje.", translation: "Она работает в государственном учреждении.", source: "tatoeba:10284877" }
+- id: lt-w-2178
+  type: word
+  cefr: B2
+  text: "notaras"
+  pos: noun
+  gender: m
+  gen: "notaro"
+  meaning: { ru: "нотариус" }
+- id: lt-w-2179
+  type: word
+  cefr: B1
+  text: "kopija"
+  pos: noun
+  gender: f
+  gen: "kopijos"
+  meaning: { ru: "копия" }
+  examples:
+    - { text: "Jis tėvo kopija.", translation: "Он копия отца.", source: "tatoeba:12442135" }
+- id: lt-w-2180
+  type: word
+  cefr: B2
+  text: "galiojimas"
+  pos: noun
+  gender: m
+  gen: "galiojimo"
+  meaning: { ru: "действие, действительность (документа)" }
+  note: { ru: "galiojimo laikas — срок действия / годности" }
+  examples:
+    - { text: "Jūsų vairuotojo pažymėjimo galiojimo laikas pasibaigęs.", translation: "Ваши водительские права просрочены.", source: "tatoeba:13322986" }
+- id: lt-w-2181
+  type: word
+  cefr: B2
+  text: "deklaruoti"
+  pos: verb
+  forms: { pres: "deklaruoja", past: "deklaravo" }
+  meaning: { ru: "декларировать; регистрировать (место жительства)" }
+  note: { ru: "deklaruoti gyvenamąją vietą — задекларировать место жительства" }
+- id: lt-w-2182
+  type: word
+  cefr: B2
+  text: "kreipimasis"
+  pos: noun
+  gender: m
+  gen: "kreipimosi"
+  meaning: { ru: "обращение" }
+  examples:
+    - { text: "Ar tai pirmasis Jūsų kreipimasis į mus?", translation: "Это Ваше первое обращение к нам?", source: "tatoeba:13097205" }
