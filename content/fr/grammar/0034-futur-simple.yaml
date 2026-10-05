@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0034
+cefr: A2
+order: 124
+title: "The simple future: je parlerai, j'irai, je serai"
+explanation:
+  en: |
+    **Forms:** infinitive + ***-ai, -as, -a, -ons, -ez, -ont*** (the endings of *avoir*):
+    - *parler → je parler**ai**, tu parler**as**, il parler**a**, nous parler**ons**, vous parler**ez**, ils parler**ont***
+    - *finir → je finir**ai***; *-re* verbs drop the final *e*: *prendre → je prendr**ai***
+
+    **Irregular stems** (same endings):
+    - *être → **ser**ai, avoir → **aur**ai, aller → **ir**ai, faire → **fer**ai*
+    - *venir → **viendr**ai, pouvoir → **pourr**ai, vouloir → **voudr**ai, devoir → **devr**ai*
+    - *savoir → **saur**ai, voir → **verr**ai*; *il faut → il **faudra***, *il pleut → il **pleuvra***
+
+    **Futur proche or futur simple?**
+    - *je vais partir* — near, already planned, everyday speech (lesson on *aller*)
+    - *je partirai* — further away, predictions, promises, conditions; standard in writing
+    - in conversation they often overlap
+
+    **Two traps:**
+    - after ***si*** (if) — present, never future: *Si tu **viens**, on **ira** au cinéma.*
+    - after ***quand*** (when) about the future — **future**: *Quand je **serai** grand…* (English and Spanish use another tense here)
+comparison:
+  en: |
+    The same idea as the Spanish future (*hablaré, iré, seré*), with several of the same irregular stems: *podré = je pourrai*, *sabré = je saurai*, *haré = je ferai*, *vendré = je viendrai*. Big difference: *quand* + future — Spanish *cuando sea mayor* (subjunctive) = *quand je serai grand*.
+examples:
+  - { text: "Je viendrai.", translation: "I'll come.", source: "tatoeba:5064939" }
+  - { text: "Tu iras loin.", translation: "You'll go far.", source: "tatoeba:1741091" }
+  - { text: "Quand tu seras plus grande, tu comprendras.", translation: "When you're older, you'll understand.", source: "tatoeba:11885214" }
+  - { text: "S'il pleut demain, nous n'y irons pas.", translation: "If it rains tomorrow, we won't go there.", source: "tatoeba:1549198" }
+  - { text: "J'espère que l'année prochaine sera meilleure.", translation: "I hope next year will be better.", source: "tatoeba:8314969" }
+exercises:
+  - type: cloze
+    text: "Demain, je ___ mes grands-parents."
+    answer: "verrai"
+    hint: "voir, je"
+    translation: "Tomorrow I'll see my grandparents."
+  - type: cloze
+    text: "Nous ___ en Italie l'été prochain."
+    answer: "irons"
+    hint: "aller, nous"
+    translation: "We'll go to Italy next summer."
+  - type: cloze
+    text: "Tu ___ le temps ce week-end ?"
+    answer: "auras"
+    hint: "avoir, tu"
+    translation: "Will you have time this weekend?"
+  - type: cloze
+    text: "Il ___ beau demain."
+    answer: "fera"
+    hint: "faire, il"
+    translation: "The weather will be nice tomorrow."
+  - type: cloze
+    text: "Quand tu ___ à Paris, appelle-moi."
+    answer: "seras"
+    hint: "être, tu — quand about the future"
+    translation: "When you're in Paris, call me."
+  - type: cloze
+    text: "S'il ___ demain, nous resterons à la maison."
+    answer: "pleut"
+    hint: "pleuvoir — after si"
+    translation: "If it rains tomorrow, we'll stay at home."
+  - type: cloze
+    text: "Je te ___ demain, c'est promis."
+    answer: "téléphonerai"
+    hint: "téléphoner, je — a promise"
+    translation: "I'll call you tomorrow, I promise."
+  - type: cloze
+    text: "Ils ___ venir plus tard."
+    answer: "pourront"
+    hint: "pouvoir, ils"
+    translation: "They'll be able to come later."
