@@ -1,0 +1,733 @@
+# Generated from scripts/batches/lt-b2-2555.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2555
+  type: word
+  cefr: B1
+  text: "treniruotė"
+  pos: noun
+  gender: f
+  gen: "treniruotės"
+  meaning: { ru: "тренировка" }
+  examples:
+    - { text: "Prieš treniruotę aš visada padarau mankštą.", translation: "Я всегда разминаюсь перед тренировкой.", source: "tatoeba:12733185" }
+- id: lt-w-2556
+  type: word
+  cefr: B1
+  text: "treniruotis"
+  pos: verb
+  forms: { pres: "treniruojasi", past: "treniravosi" }
+  meaning: { ru: "тренироваться" }
+  examples:
+    - { text: "Svarbu reguliariai treniruotis.", translation: "Важно регулярно тренироваться.", source: "tatoeba:13687622" }
+- id: lt-w-2557
+  type: word
+  cefr: B2
+  text: "ištvermingas"
+  pos: adj
+  meaning: { ru: "выносливый" }
+  note: { ru: "ištvermė — выносливость" }
+  examples:
+    - { text: "Tomas yra ištvermingas.", translation: "Том выносливый.", source: "tatoeba:7133873" }
+- id: lt-w-2558
+  type: word
+  cefr: B1
+  text: "treneris"
+  pos: noun
+  gender: m
+  gen: "trenerio"
+  meaning: { ru: "тренер" }
+  examples:
+    - { text: "Jis tapo krepšinio treneriu.", translation: "Он стал баскетбольным тренером.", source: "tatoeba:12530659" }
+- id: lt-w-2559
+  type: word
+  cefr: B1
+  text: "sirgti"
+  pos: verb
+  forms: { pres: "serga", past: "sirgo" }
+  meaning: { ru: "болеть (чем-л.); болеть (за команду)" }
+  note: { ru: "sirgti už ką — болеть за кого" }
+  examples:
+    - { text: "Už ką tu sergi?", translation: "За кого ты болеешь?", source: "tatoeba:11459152" }
+- id: lt-w-2560
+  type: word
+  cefr: B1
+  text: "sportiškas"
+  pos: adj
+  meaning: { ru: "спортивный (о человеке)" }
+  note: { ru: "sportinis — спортивный (о вещах: sportinis kostiumas)" }
+  examples:
+    - { text: "Mūsų šeimoje visi yra labai sportiški.", translation: "В нашей семье все очень спортивные.", source: "tatoeba:12120006" }
+- id: lt-w-2561
+  type: word
+  cefr: B1
+  text: "varžybos"
+  pos: noun
+  gender: f
+  gen: "varžybų"
+  plural_only: true
+  meaning: { ru: "соревнования" }
+  note: { ru: "Только мн. ч.: varžybos, род. п. varžybų" }
+  examples:
+    - { text: "Mes laimėjome varžybas.", translation: "Мы выиграли соревнования.", source: "tatoeba:12927144" }
+- id: lt-w-2562
+  type: word
+  cefr: B1
+  text: "įmušti"
+  pos: verb
+  forms: { pres: "įmuša", past: "įmušė" }
+  meaning: { ru: "забить (гол)" }
+  examples:
+    - { text: "Jis įmušė tris įvarčius.", translation: "Он забил три гола.", source: "tatoeba:13505896" }
+- id: lt-w-2563
+  type: word
+  cefr: B1
+  text: "nekaltas"
+  pos: adj
+  meaning: { ru: "невиновный; невинный" }
+  examples:
+    - { text: "Ji laiko jį nekaltu.", translation: "Она считает, что он невиновен.", source: "tatoeba:13522390" }
+- id: lt-w-2564
+  type: word
+  cefr: B1
+  text: "rungtynės"
+  pos: noun
+  gender: f
+  gen: "rungtynių"
+  plural_only: true
+  meaning: { ru: "матч, игра" }
+  note: { ru: "Только мн. ч.: rungtynės, род. п. rungtynių" }
+  examples:
+    - { text: "Tu žiūrėjai rungtynes?", translation: "Ты смотрел матч?", source: "tatoeba:12127842" }
+- id: lt-w-2565
+  type: word
+  cefr: B1
+  text: "pataikyti"
+  pos: verb
+  forms: { pres: "pataiko", past: "pataikė" }
+  meaning: { ru: "попасть (в цель)" }
+  note: { ru: "pataikyti į ką" }
+  examples:
+    - { text: "Strėlė pataikė į taikinį.", translation: "Стрела попала в цель.", source: "tatoeba:11647539" }
+- id: lt-w-2566
+  type: word
+  cefr: B1
+  text: "dokumentinis"
+  pos: adj
+  meaning: { ru: "документальный" }
+  note: { ru: "dokumentinis filmas — документальный фильм" }
+  examples:
+    - { text: "Aš kartais žiūriu dokumentinius filmus.", translation: "Я иногда смотрю документальные фильмы.", source: "tatoeba:8252016" }
+- id: lt-w-2567
+  type: word
+  cefr: B1
+  text: "sirgalius"
+  pos: noun
+  gender: m
+  gen: "sirgaliaus"
+  meaning: { ru: "болельщик" }
+  examples:
+    - { text: "Aš žinau, kad Tomas yra ledo ritulio sirgalius.", translation: "Я знаю, что Том — хоккейный болельщик.", source: "tatoeba:13765642" }
+- id: lt-w-2568
+  type: word
+  cefr: B1
+  text: "slidinėti"
+  pos: verb
+  forms: { pres: "slidinėja", past: "slidinėjo" }
+  meaning: { ru: "кататься на лыжах" }
+  note: { ru: "slidės — лыжи" }
+  examples:
+    - { text: "Ar tu slidinėji?", translation: "Ты катаешься на лыжах?", source: "tatoeba:2606213" }
+- id: lt-w-2569
+  type: word
+  cefr: B1
+  text: "čempionatas"
+  pos: noun
+  gender: m
+  gen: "čempionato"
+  meaning: { ru: "чемпионат" }
+  examples:
+    - { text: "Kas laimės pasaulio čempionatą?", translation: "Кто выиграет чемпионат мира?", source: "tatoeba:3951893" }
+- id: lt-w-2570
+  type: word
+  cefr: B1
+  text: "čiuožti"
+  pos: verb
+  forms: { pres: "čiuožia", past: "čiuožė" }
+  meaning: { ru: "кататься на коньках; скользить" }
+  note: { ru: "pačiūžos — коньки" }
+  examples:
+    - { text: "Norėčiau išmokti čiuožti.", translation: "Я хотела бы научиться кататься на коньках.", source: "tatoeba:3117146" }
+- id: lt-w-2571
+  type: word
+  cefr: B1
+  text: "čempionas"
+  pos: noun
+  gender: m
+  gen: "čempiono"
+  meaning: { ru: "чемпион" }
+  examples:
+    - { text: "Jis pasaulio čempionas.", translation: "Он чемпион мира.", source: "tatoeba:8404663" }
+- id: lt-w-2572
+  type: word
+  cefr: B1
+  text: "megzti"
+  pos: verb
+  forms: { pres: "mezga", past: "mezgė" }
+  meaning: { ru: "вязать" }
+  note: { ru: "megztinis — свитер" }
+  examples:
+    - { text: "Vaikai išmoko megzti.", translation: "Дети научились вязать.", source: "tatoeba:12386311" }
+- id: lt-w-2573
+  type: word
+  cefr: B1
+  text: "įvartis"
+  pos: noun
+  gender: m
+  gen: "įvarčio"
+  meaning: { ru: "гол" }
+  note: { ru: "pelnyti / įmušti įvartį — забить гол" }
+  examples:
+    - { text: "Puolėjas pelnė įvartį.", translation: "Форвард забил гол.", source: "tatoeba:2609474" }
+- id: lt-w-2574
+  type: word
+  cefr: B2
+  text: "siuvinėti"
+  pos: verb
+  forms: { pres: "siuvinėja", past: "siuvinėjo" }
+  meaning: { ru: "вышивать" }
+  examples:
+    - { text: "Siuvinėdama ji įsidūrė adata.", translation: "Она укололась иглой во время вышивания.", source: "tatoeba:2744610" }
+- id: lt-w-2575
+  type: word
+  cefr: B2
+  text: "lygiosios"
+  pos: noun
+  gender: f
+  gen: "lygiųjų"
+  plural_only: true
+  meaning: { ru: "ничья" }
+  note: { ru: "Только мн. ч.: lygiosios, род. п. lygiųjų; rungtynės baigėsi lygiosiomis — матч закончился вничью" }
+- id: lt-w-2576
+  type: word
+  cefr: B1
+  text: "kolekcionuoti"
+  pos: verb
+  forms: { pres: "kolekcionuoja", past: "kolekcionavo" }
+  meaning: { ru: "коллекционировать" }
+  examples:
+    - { text: "Jis kolekcionuoja atvirukus.", translation: "Он коллекционирует открытки.", source: "tatoeba:11334491" }
+- id: lt-w-2577
+  type: word
+  cefr: B1
+  text: "pralaimėjimas"
+  pos: noun
+  gender: m
+  gen: "pralaimėjimo"
+  meaning: { ru: "поражение, проигрыш" }
+  note: { ru: "pralaimėti — проиграть" }
+  examples:
+    - { text: "Mūsų pralaimėjimo priežastis yra tokia.", translation: "Причина нашего провала следующая.", source: "tatoeba:12959897" }
+- id: lt-w-2578
+  type: word
+  cefr: B1
+  text: "fotografuoti"
+  pos: verb
+  forms: { pres: "fotografuoja", past: "fotografavo" }
+  meaning: { ru: "фотографировать" }
+  examples:
+    - { text: "Jie nenorėjo, kad juos fotografuotų.", translation: "Они не хотели, чтобы их фотографировали.", source: "tatoeba:10874008" }
+- id: lt-w-2579
+  type: word
+  cefr: B1
+  text: "rekordas"
+  pos: noun
+  gender: m
+  gen: "rekordo"
+  meaning: { ru: "рекорд" }
+  examples:
+    - { text: "Ji pasiekė naują pasaulio rekordą.", translation: "Она установила новый мировой рекорд.", source: "tatoeba:12140060" }
+- id: lt-w-2580
+  type: word
+  cefr: B1
+  text: "grybauti"
+  pos: verb
+  forms: { pres: "grybauja", past: "grybavo" }
+  meaning: { ru: "собирать грибы" }
+- id: lt-w-2581
+  type: word
+  cefr: B1
+  text: "nugalėtojas"
+  pos: noun
+  gender: m
+  gen: "nugalėtojo"
+  meaning: { ru: "победитель" }
+  examples:
+    - { text: "Nugalėtojų laukia prizai.", translation: "Победителей ждут призы.", source: "tatoeba:13454059" }
+- id: lt-w-2582
+  type: word
+  cefr: B1
+  text: "žvejoti"
+  pos: verb
+  forms: { pres: "žvejoja", past: "žvejojo" }
+  meaning: { ru: "ловить рыбу, рыбачить" }
+  note: { ru: "žvejys — рыбак" }
+  examples:
+    - { text: "Ar tu žvejoji?", translation: "Ты рыбачишь?", source: "tatoeba:12741865" }
+- id: lt-w-2583
+  type: word
+  cefr: B1
+  text: "maratonas"
+  pos: noun
+  gender: m
+  gen: "maratono"
+  meaning: { ru: "марафон" }
+  examples:
+    - { text: "Aš rytoj bėgsiu maratoną.", translation: "Я завтра бегу марафон.", source: "tatoeba:12892774" }
+- id: lt-w-2584
+  type: word
+  cefr: B1
+  text: "ploti"
+  pos: verb
+  forms: { pres: "ploja", past: "plojo" }
+  meaning: { ru: "хлопать, аплодировать" }
+  note: { ru: "plojimai — аплодисменты" }
+  examples:
+    - { text: "Minia pradėjo ploti.", translation: "Толпа зааплодировала.", source: "tatoeba:12359206" }
+- id: lt-w-2585
+  type: word
+  cefr: B1
+  text: "čiuožykla"
+  pos: noun
+  gender: f
+  gen: "čiuožyklos"
+  meaning: { ru: "каток" }
+  examples:
+    - { text: "Kelias labiau panašus į čiuožyklą.", translation: "Дорога больше похожа на каток.", source: "tatoeba:8979687" }
+- id: lt-w-2586
+  type: word
+  cefr: B1
+  text: "vaidinti"
+  pos: verb
+  forms: { pres: "vaidina", past: "vaidino" }
+  meaning: { ru: "играть (роль); притворяться" }
+  examples:
+    - { text: "Jis vaidino Hamletą.", translation: "Он играл Гамлета.", source: "tatoeba:2991384" }
+- id: lt-w-2587
+  type: word
+  cefr: B1
+  text: "baseinas"
+  pos: noun
+  gender: m
+  gen: "baseino"
+  meaning: { ru: "бассейн" }
+  examples:
+    - { text: "Jis šoko į baseiną.", translation: "Он прыгнул в бассейн.", source: "tatoeba:6453465" }
+- id: lt-w-2588
+  type: word
+  cefr: B2
+  text: "liudyti"
+  pos: verb
+  forms: { pres: "liudija", past: "liudijo" }
+  meaning: { ru: "давать показания; свидетельствовать" }
+  note: { ru: "liudytojas — свидетель" }
+  examples:
+    - { text: "Ji liudijo prieš jį.", translation: "Она свидетельствовала против него.", source: "tatoeba:1605778" }
+- id: lt-w-2589
+  type: word
+  cefr: B1
+  text: "aikštelė"
+  pos: noun
+  gender: f
+  gen: "aikštelės"
+  meaning: { ru: "площадка; стоянка" }
+  note: { ru: "stovėjimo aikštelė — парковка" }
+  examples:
+    - { text: "Stovėjimo aikštelė tuščia.", translation: "Стоянка пустая.", source: "tatoeba:2775086" }
+- id: lt-w-2590
+  type: word
+  cefr: B2
+  text: "nuteisti"
+  pos: verb
+  forms: { pres: "nuteisia", past: "nuteisė" }
+  meaning: { ru: "осудить, приговорить" }
+- id: lt-w-2591
+  type: word
+  cefr: B1
+  text: "pomėgis"
+  pos: noun
+  gender: m
+  gen: "pomėgio"
+  meaning: { ru: "хобби, увлечение" }
+  examples:
+    - { text: "Mano laisvalaikio pomėgis yra sportas.", translation: "Спорт — моё хобби.", source: "tatoeba:9788700" }
+- id: lt-w-2592
+  type: word
+  cefr: B2
+  text: "suimti"
+  pos: verb
+  forms: { pres: "suima", past: "suėmė" }
+  meaning: { ru: "арестовать, задержать" }
+  examples:
+    - { text: "Ji buvo suimta.", translation: "Она была арестована.", source: "tatoeba:14042724" }
+- id: lt-w-2593
+  type: word
+  cefr: B1
+  text: "dėlionė"
+  pos: noun
+  gender: f
+  gen: "dėlionės"
+  meaning: { ru: "пазл" }
+  examples:
+    - { text: "Duok man antai tą dėlionės detalę.", translation: "Дай мне вон ту пазлинку.", source: "tatoeba:13358894" }
+- id: lt-w-2594
+  type: word
+  cefr: B2
+  text: "nusikalsti"
+  pos: verb
+  forms: { pres: "nusikalsta", past: "nusikalto" }
+  meaning: { ru: "совершить преступление" }
+- id: lt-w-2595
+  type: word
+  cefr: B1
+  text: "kryžiažodis"
+  pos: noun
+  gender: m
+  gen: "kryžiažodžio"
+  meaning: { ru: "кроссворд" }
+  examples:
+    - { text: "Jis lengvai išsprendė kryžiažodį.", translation: "Он легко разгадал кроссворд.", source: "tatoeba:9938433" }
+- id: lt-w-2596
+  type: word
+  cefr: B1
+  text: "kolekcija"
+  pos: noun
+  gender: f
+  gen: "kolekcijos"
+  meaning: { ru: "коллекция" }
+  examples:
+    - { text: "Aš turiu didelę knygų kolekciją.", translation: "У меня есть большая коллекция книг.", source: "tatoeba:13103129" }
+- id: lt-w-2597
+  type: word
+  cefr: B1
+  text: "bėgimas"
+  pos: noun
+  gender: m
+  gen: "bėgimo"
+  meaning: { ru: "бег; забег" }
+  examples:
+    - { text: "Bėgime gali dalyvauti visi norintys.", translation: "Принять участие в забеге могут все желающие.", source: "tatoeba:13395907" }
+- id: lt-w-2598
+  type: word
+  cefr: B2
+  text: "ištvermė"
+  pos: noun
+  gender: f
+  gen: "ištvermės"
+  meaning: { ru: "выносливость" }
+- id: lt-w-2599
+  type: word
+  cefr: B1
+  text: "galerija"
+  pos: noun
+  gender: f
+  gen: "galerijos"
+  meaning: { ru: "галерея" }
+  examples:
+    - { text: "Tomas Bostone turi galeriją.", translation: "Том владеет галереей в Бостоне.", source: "tatoeba:12100657" }
+- id: lt-w-2600
+  type: word
+  cefr: B1
+  text: "spektaklis"
+  pos: noun
+  gender: m
+  gen: "spektaklio"
+  meaning: { ru: "спектакль" }
+  examples:
+    - { text: "Jam patiko šitas spektaklis.", translation: "Ему понравился этот спектакль.", source: "tatoeba:6020160" }
+- id: lt-w-2601
+  type: word
+  cefr: B2
+  text: "premjera"
+  pos: noun
+  gender: f
+  gen: "premjeros"
+  meaning: { ru: "премьера" }
+  note: { ru: "не путать: premjeras — премьер-министр" }
+- id: lt-w-2602
+  type: word
+  cefr: B1
+  text: "scena"
+  pos: noun
+  gender: f
+  gen: "scenos"
+  meaning: { ru: "сцена" }
+  examples:
+    - { text: "Tu man sceną keli?", translation: "Ты мне сцену устраиваешь?", source: "tatoeba:13054583" }
+- id: lt-w-2603
+  type: word
+  cefr: B2
+  text: "skulptūra"
+  pos: noun
+  gender: f
+  gen: "skulptūros"
+  meaning: { ru: "скульптура" }
+- id: lt-w-2604
+  type: word
+  cefr: B2
+  text: "skulptorius"
+  pos: noun
+  gender: m
+  gen: "skulptoriaus"
+  meaning: { ru: "скульптор" }
+  examples:
+    - { text: "Tomas yra labai geras skulptorius.", translation: "Том очень хороший скульптор.", source: "tatoeba:11060733" }
+- id: lt-w-2605
+  type: word
+  cefr: B2
+  text: "tapyba"
+  pos: noun
+  gender: f
+  gen: "tapybos"
+  meaning: { ru: "живопись" }
+  note: { ru: "tapyti — писать красками" }
+  examples:
+    - { text: "Ji išmano tapybą.", translation: "Она знает толк в живописи.", source: "tatoeba:13538212" }
+- id: lt-w-2606
+  type: word
+  cefr: B1
+  text: "paveikslas"
+  pos: noun
+  gender: m
+  gen: "paveikslo"
+  meaning: { ru: "картина" }
+  examples:
+    - { text: "Koks gražus paveikslas!", translation: "Какая красивая картина!", source: "tatoeba:10458161" }
+- id: lt-w-2607
+  type: word
+  cefr: B2
+  text: "drobė"
+  pos: noun
+  gender: f
+  gen: "drobės"
+  meaning: { ru: "холст, полотно" }
+  examples:
+    - { text: "Tu esi balta kaip drobė.", translation: "Ты белая как полотно.", source: "tatoeba:12347001" }
+- id: lt-w-2608
+  type: word
+  cefr: B2
+  text: "teptukas"
+  pos: noun
+  gender: m
+  gen: "teptuko"
+  meaning: { ru: "кисть (для рисования)" }
+- id: lt-w-2609
+  type: word
+  cefr: B1
+  text: "poezija"
+  pos: noun
+  gender: f
+  gen: "poezijos"
+  meaning: { ru: "поэзия" }
+  examples:
+    - { text: "Marija už savo poeziją gavo daug apdovanojimų.", translation: "Мэри получила много наград за свою поэзию.", source: "tatoeba:10662337" }
+- id: lt-w-2610
+  type: word
+  cefr: B1
+  text: "apsakymas"
+  pos: noun
+  gender: m
+  gen: "apsakymo"
+  meaning: { ru: "рассказ (литературный)" }
+  examples:
+    - { text: "Tomas rašė apsakymus.", translation: "Том писал рассказы.", source: "tatoeba:11633221" }
+- id: lt-w-2611
+  type: word
+  cefr: B2
+  text: "repeticija"
+  pos: noun
+  gender: f
+  gen: "repeticijos"
+  meaning: { ru: "репетиция" }
+- id: lt-w-2612
+  type: word
+  cefr: B2
+  text: "dirigentas"
+  pos: noun
+  gender: m
+  gen: "dirigento"
+  meaning: { ru: "дирижёр" }
+  examples:
+    - { text: "Šitas žinomas dirigentas gyvena Niujorke.", translation: "Этот знаменитый дирижёр живёт в Нью-Йорке.", source: "tatoeba:11965748" }
+- id: lt-w-2613
+  type: word
+  cefr: B1
+  text: "choras"
+  pos: noun
+  gender: m
+  gen: "choro"
+  meaning: { ru: "хор" }
+- id: lt-w-2614
+  type: word
+  cefr: B1
+  text: "baletas"
+  pos: noun
+  gender: m
+  gen: "baleto"
+  meaning: { ru: "балет" }
+- id: lt-w-2615
+  type: word
+  cefr: B2
+  text: "eksponatas"
+  pos: noun
+  gender: m
+  gen: "eksponato"
+  meaning: { ru: "экспонат" }
+  examples:
+    - { text: "Muziejaus ekspoziciją papildė naujas eksponatas.", translation: "Экспозицию музея пополнил новый экспонат.", source: "tatoeba:13516120" }
+- id: lt-w-2616
+  type: word
+  cefr: B1
+  text: "režisierius"
+  pos: noun
+  gender: m
+  gen: "režisieriaus"
+  meaning: { ru: "режиссёр" }
+  examples:
+    - { text: "Kas šito filmo režisierius?", translation: "Кто режиссировал этот фильм?", source: "tatoeba:13772966" }
+- id: lt-w-2617
+  type: word
+  cefr: B1
+  text: "advokatas"
+  pos: noun
+  gender: m
+  gen: "advokato"
+  meaning: { ru: "адвокат" }
+  examples:
+    - { text: "Aš esu jo advokatas.", translation: "Я его адвокат.", source: "tatoeba:11259517" }
+- id: lt-w-2618
+  type: word
+  cefr: B2
+  text: "prokuroras"
+  pos: noun
+  gender: m
+  gen: "prokuroro"
+  meaning: { ru: "прокурор" }
+- id: lt-w-2619
+  type: word
+  cefr: B2
+  text: "kaltinamasis"
+  pos: noun
+  gender: m
+  gen: "kaltinamojo"
+  meaning: { ru: "обвиняемый, подсудимый" }
+  note: { ru: "kaltinti — обвинять; род. п. kaltinamojo" }
+- id: lt-w-2620
+  type: word
+  cefr: B2
+  text: "nuosprendis"
+  pos: noun
+  gender: m
+  gen: "nuosprendžio"
+  meaning: { ru: "приговор" }
+- id: lt-w-2621
+  type: word
+  cefr: B1
+  text: "bauda"
+  pos: noun
+  gender: f
+  gen: "baudos"
+  meaning: { ru: "штраф" }
+  examples:
+    - { text: "Aš gavau baudą už kelių eismo taisyklių pažeidimą.", translation: "Мне выписали штраф за нарушение ПДД.", source: "tatoeba:12065725" }
+- id: lt-w-2622
+  type: word
+  cefr: B1
+  text: "kalėjimas"
+  pos: noun
+  gender: m
+  gen: "kalėjimo"
+  meaning: { ru: "тюрьма" }
+  examples:
+    - { text: "Aš nenoriu į kalėjimą.", translation: "Я не хочу в тюрьму.", source: "tatoeba:2991391" }
+- id: lt-w-2623
+  type: word
+  cefr: B2
+  text: "kalinys"
+  pos: noun
+  gender: m
+  gen: "kalinio"
+  meaning: { ru: "заключённый" }
+  examples:
+    - { text: "Kur tie kaliniai?", translation: "Где эти заключённые?", source: "tatoeba:10244868" }
+- id: lt-w-2624
+  type: word
+  cefr: B1
+  text: "nusikaltėlis"
+  pos: noun
+  gender: m
+  gen: "nusikaltėlio"
+  meaning: { ru: "преступник" }
+  note: { ru: "nusikaltimas — преступление" }
+  examples:
+    - { text: "Mes ne nusikaltėliai.", translation: "Мы не преступники.", source: "tatoeba:3627157" }
+- id: lt-w-2625
+  type: word
+  cefr: B2
+  text: "sukčius"
+  pos: noun
+  gender: m
+  gen: "sukčiaus"
+  meaning: { ru: "мошенник, жулик" }
+  examples:
+    - { text: "Jis yra sukčius.", translation: "Он жулик.", source: "tatoeba:11076573" }
+- id: lt-w-2626
+  type: word
+  cefr: B1
+  text: "vagis"
+  pos: noun
+  gender: m
+  gen: "vagies"
+  meaning: { ru: "вор" }
+  note: { ru: "род. п. vagies" }
+  examples:
+    - { text: "Jis sulaikė vagį.", translation: "Он задержал вора.", source: "tatoeba:12871383" }
+- id: lt-w-2627
+  type: word
+  cefr: B2
+  text: "kyšininkavimas"
+  pos: noun
+  gender: m
+  gen: "kyšininkavimo"
+  meaning: { ru: "взяточничество" }
+  note: { ru: "kyšis — взятка" }
+  examples:
+    - { text: "Alžyras turi kovoti su kyšininkavimu.", translation: "Алжир должен бороться со взяточничеством.", source: "tatoeba:11346936" }
+- id: lt-w-2628
+  type: word
+  cefr: B2
+  text: "užstatas"
+  pos: noun
+  gender: m
+  gen: "užstato"
+  meaning: { ru: "залог (денежный)" }
+- id: lt-w-2629
+  type: word
+  cefr: B2
+  text: "apklausa"
+  pos: noun
+  gender: f
+  gen: "apklausos"
+  meaning: { ru: "опрос; допрос" }
+  examples:
+    - { text: "Aš nedalyvauju apklausose.", translation: "Я не участвую в опросах.", source: "tatoeba:13752007" }
+- id: lt-w-2630
+  type: word
+  cefr: B2
+  text: "tardytojas"
+  pos: noun
+  gender: m
+  gen: "tardytojo"
+  meaning: { ru: "следователь" }
+  examples:
+    - { text: "Tomas yra mūsų geriausias tardytojas.", translation: "Том - наш лучший следователь.", source: "tatoeba:10735654" }
