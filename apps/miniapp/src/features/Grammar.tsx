@@ -1,9 +1,22 @@
-// Grammar: rule of the day (explanation → examples → exercises → "Готово"), and cloze cards in reviews.
+// Grammar: rule of the day (explanation → examples → exercises → "Готово"), cloze cards in reviews, and
+// «📚 Пройденные правила» — every rule seen so far, to read again and redo its exercises.
 import { lessonAudioId } from "@el/core/audio";
-import { checkAnswer, clozeParts, parseExerciseCardId, type AnswerResult } from "@el/core/grammar";
+import { checkAnswer, clozeParts, exerciseCardId, parseExerciseCardId, type AnswerResult } from "@el/core/grammar";
 import type { Exercise, Lesson } from "@el/core";
-import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
-import { getGrammarToday, getLesson, getNextLesson, markLessonDone, type ClozeCard, type GrammarToday, type Lang, type Rating } from "../api";
+import { Fragment, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import {
+  getGrammarHistory,
+  getGrammarToday,
+  getLesson,
+  getNextLesson,
+  markLessonDone,
+  recordReview,
+  type ClozeCard,
+  type GrammarToday,
+  type Lang,
+  type Rating,
+  type SeenLesson,
+} from "../api";
 import type { MiniFeature } from "../features";
 import { Play } from "../Audio";
 import { FLAG } from "../flags";
@@ -195,9 +208,14 @@ function HomeEntry({ open }: { open: () => void }) {
 
 // --- lesson screen ---
 
-function ExerciseStep({ lesson, index, onNext }: { lesson: Lesson; index: number; onNext: (correct: boolean) => void }) {
+/** `record`: the lesson is done, so its exercises are review cards — an answer here counts as their review (a miss comes back soon). */
+function ExerciseStep({ lesson, index, record, onNext }: { lesson: Lesson; index: number; record: boolean; onNext: (correct: boolean) => void }) {
   const ex = lesson.exercises[index]!;
   const state = useClozeInput(ex);
+  const next = () => {
+    if (record && state.result) recordReview(exerciseCardId(lesson.id, index), SUGGESTED[state.result]);
+    onNext(state.result === "correct");
+  };
   return (
     <main className="screen">
       <div className="progress">
@@ -209,7 +227,7 @@ function ExerciseStep({ lesson, index, onNext }: { lesson: Lesson; index: number
       <ClozeBody ex={ex} {...state} {...exerciseAudio(lesson.id, index)} />
       <div className="spacer" />
       {state.result ? (
-        <button className="button big" onClick={() => onNext(state.result === "correct")}>
+        <button className="button big" onClick={next}>
           Дальше
         </button>
       ) : (
@@ -221,7 +239,7 @@ function ExerciseStep({ lesson, index, onNext }: { lesson: Lesson; index: number
   );
 }
 
-function Exercises({ lesson, onFinish }: { lesson: Lesson; onFinish: (correct: number) => void }) {
+function Exercises({ lesson, record, onFinish }: { lesson: Lesson; record: boolean; onFinish: (correct: number) => void }) {
   const [index, setIndex] = useState(0);
   const [correct, setCorrect] = useState(0);
   const next = (ok: boolean) => {
@@ -230,7 +248,7 @@ function Exercises({ lesson, onFinish }: { lesson: Lesson; onFinish: (correct: n
     setCorrect(total);
     setIndex(index + 1);
   };
-  return <ExerciseStep key={index} lesson={lesson} index={index} onNext={next} />; // key: fresh input per exercise
+  return <ExerciseStep key={index} lesson={lesson} index={index} record={record} onNext={next} />; // key: fresh input per exercise
 }
 
 /** «Ещё одно правило»: the next lesson ahead of the rotation, for days with more time. */
@@ -267,10 +285,77 @@ function NextRule({ onPick }: { onPick: (lesson: Lesson) => void }) {
 
 interface Current extends GrammarToday {
   extra: boolean; // opened ahead of the rotation, not the rule of the day
+  repeat?: boolean; // opened from «📚 Пройденные правила»
 }
 
-function Screen({ close }: { close: () => void }) {
+const LANG_FILTERS: (Lang | "all")[] = ["all", "lt", "es", "fr"];
+const formatDay = (day: string) => new Date(`${day}T12:00:00Z`).toLocaleDateString("ru-RU", { day: "numeric", month: "short", timeZone: "UTC" });
+
+/** «📚 Пройденные правила»: rules seen so far, newest first, by language and with search; tap one to read it again. */
+function History({ onOpen, onBack }: { onOpen: (id: string) => void; onBack: () => void }) {
+  const [lessons, setLessons] = useState<SeenLesson[] | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [lang, setLang] = useState<Lang | "all">("all");
+  const [query, setQuery] = useState("");
+  useEffect(() => {
+    getGrammarHistory().then(setLessons, (e) => setError(String(e)));
+  }, []);
+  const langs = useMemo(() => new Set(lessons?.map((l) => l.lang)), [lessons]);
+  const shown = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return (lessons ?? []).filter((l) => (lang === "all" || l.lang === lang) && (!q || l.title.toLowerCase().includes(q)));
+  }, [lessons, lang, query]);
+
+  if (error) {
+    return (
+      <main className="screen center">
+        <p>Не получилось загрузить список.</p>
+        <p className="hint small">{error}</p>
+        <button className="button" onClick={onBack}>Назад</button>
+      </main>
+    );
+  }
+  if (!lessons) return <main className="screen center hint">Загрузка…</main>;
+  return (
+    <main className="screen">
+      <h1>📚 Пройденные правила</h1>
+      {lessons.length === 0 ? (
+        <p className="hint">Пока ни одного — первое правило придёт утром.</p>
+      ) : (
+        <>
+          <p className="hint small">Открой правило, чтобы перечитать объяснение и снова сделать упражнения.</p>
+          {langs.size > 1 && (
+            <div className="chips">
+              {LANG_FILTERS.filter((l) => l === "all" || langs.has(l)).map((l) => (
+                <button key={l} className={`chip ${lang === l ? "on" : ""}`} onClick={() => setLang(l)}>
+                  {l === "all" ? "Все" : FLAG[l]}
+                </button>
+              ))}
+            </div>
+          )}
+          {lessons.length > 8 && (
+            <input className="text-input" placeholder="Поиск по названию" value={query} onChange={(e) => setQuery(e.target.value)} />
+          )}
+          {shown.map((l) => (
+            <button key={l.id} className="secondary" onClick={() => { haptic("tap"); onOpen(l.id); }}>
+              {l.title}
+              <span className="hint small">
+                {FLAG[l.lang]} {l.cefr} · {formatDay(l.day)} · {l.exercises} упражнений{l.done ? "" : " · не отмечено «Готово»"}
+              </span>
+            </button>
+          ))}
+          {shown.length === 0 && <p className="hint">Ничего не найдено.</p>}
+        </>
+      )}
+      <div className="spacer" />
+      <button className="secondary center-text" onClick={onBack}>Назад</button>
+    </main>
+  );
+}
+
+function Screen({ close, startWithList = false }: { close: () => void; startWithList?: boolean }) {
   const [today, setCurrent] = useState<Current | null>(null);
+  const [list, setList] = useState(startWithList);
   const [step, setStep] = useState<"read" | "practice" | "finish">("read");
   const [score, setScore] = useState(0);
   const [saving, setSaving] = useState(false);
@@ -278,6 +363,7 @@ function Screen({ close }: { close: () => void }) {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (startWithList) return;
     // Deep link from /rule next: ?screen=grammar&lesson=lt-g-0050 (removed from the URL so it opens only once).
     const params = new URLSearchParams(location.search);
     const id = params.get("lesson");
@@ -288,14 +374,27 @@ function Screen({ close }: { close: () => void }) {
       return;
     }
     getGrammarToday().then((t) => setCurrent({ ...t, extra: false }), (e) => setError(String(e)));
-  }, []);
+  }, [startWithList]);
 
-  const openExtra = (lesson: Lesson) => {
-    setCurrent({ day: today?.day ?? "", lesson, done: false, extra: true });
+  const show = (current: Current) => {
+    setCurrent(current);
     setStep("read");
     setSaved(false);
+    setList(false);
     window.scrollTo(0, 0);
   };
+  const openExtra = (lesson: Lesson) => show({ day: today?.day ?? "", lesson, done: false, extra: true });
+  const openSeen = (id: string) => {
+    setCurrent(null);
+    setList(false);
+    getLesson(id).then((r) => show({ day: "", lesson: r.lesson, done: r.done, extra: true, repeat: true }), (e) => setError(String(e)));
+  };
+  const openList = () => {
+    setList(true);
+    window.scrollTo(0, 0);
+  };
+  // From a repeated rule, «назад» goes to the list; from the list, to wherever it was opened from.
+  const back = today?.repeat ? openList : close;
 
   if (error) {
     return (
@@ -306,21 +405,26 @@ function Screen({ close }: { close: () => void }) {
       </main>
     );
   }
+  if (list) return <History onOpen={openSeen} onBack={startWithList || !today ? close : () => setList(false)} />;
   if (!today) return <main className="screen center hint">Загрузка…</main>;
   const lesson = today.lesson;
+  const HistoryLink = () => (
+    <button className="secondary center-text" onClick={openList}>📚 Пройденные правила</button>
+  );
   if (!lesson) {
     return (
       <main className="screen center">
         <h1>📘</h1>
         <p className="hint">Сегодня правила нет — день для чтения и письма. Если есть время, можно взять следующее:</p>
         <NextRule onPick={openExtra} />
+        <HistoryLink />
         <button className="button" onClick={close}>На главную</button>
       </main>
     );
   }
 
   if (step === "practice") {
-    return <Exercises lesson={lesson} onFinish={(c) => (setScore(c), setStep("finish"))} />;
+    return <Exercises lesson={lesson} record={today.done} onFinish={(c) => (setScore(c), setStep("finish"))} />;
   }
 
   if (step === "finish") {
@@ -336,13 +440,28 @@ function Screen({ close }: { close: () => void }) {
         setSaving(false);
       }
     };
+    if (today.done) {
+      // A repeat (or today's rule again): already saved, answers went to the exercises' reviews.
+      return (
+        <main className="screen center">
+          <h1>{score} из {lesson.exercises.length}</h1>
+          <p className="hint">
+            {score === lesson.exercises.length
+              ? "Всё верно 🎉"
+              : "Упражнения с ошибками придут в повторениях пораньше."}
+          </p>
+          <button className="button big" onClick={() => setStep("practice")}>Пройти ещё раз</button>
+          {today.repeat ? <HistoryLink /> : <button className="secondary center-text" onClick={close}>На главную</button>}
+        </main>
+      );
+    }
     if (saved) {
       return (
         <main className="screen center">
           <h1>✓</h1>
           <p className="hint">Сохранено. Упражнения этого правила будут приходить в обычных повторениях.</p>
-          <button className="button big" onClick={close}>На главную</button>
-          <NextRule onPick={openExtra} />
+          <button className="button big" onClick={today.repeat ? openList : close}>{today.repeat ? "К списку правил" : "На главную"}</button>
+          {!today.repeat && <NextRule onPick={openExtra} />}
         </main>
       );
     }
@@ -361,10 +480,11 @@ function Screen({ close }: { close: () => void }) {
   const lang = langOf(lesson);
   const explanation = lang === "lt" ? lesson.explanation.ru : lesson.explanation.en;
   const comparison = lang === "lt" ? lesson.comparison?.ru : lesson.comparison?.en;
+  const label = today.repeat ? "повторение" : today.extra ? "дополнительное правило" : "правило дня";
   return (
     <main className="screen lesson">
       <p className="hint small">
-        {FLAG[lang]} {lesson.cefr} · {today.extra ? "дополнительное правило" : "правило дня"}{today.done ? " · ✓ пройдено" : ""}
+        {FLAG[lang]} {lesson.cefr} · {label}{today.done ? " · ✓ пройдено" : ""}
       </p>
       <h1>{lesson.title}</h1>
       <section className="lesson-text">
@@ -390,9 +510,37 @@ function Screen({ close }: { close: () => void }) {
       <button className="button big" onClick={() => setStep("practice")}>
         К упражнениям ({lesson.exercises.length})
       </button>
-      {today.done && <NextRule onPick={openExtra} />}
+      {today.repeat ? (
+        <button className="secondary center-text" onClick={back}>← К списку правил</button>
+      ) : (
+        <>
+          {today.done && <NextRule onPick={openExtra} />}
+          <HistoryLink />
+        </>
+      )}
     </main>
   );
 }
 
 export const grammarFeature: MiniFeature = { id: "grammar", HomeEntry, Screen };
+
+/** Home: «📚 Пройденные правила» — shown once there is at least one rule to go back to. */
+function HistoryEntry({ open }: { open: () => void }) {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    getGrammarHistory().then((l) => setCount(l.length), () => setCount(0));
+  }, []);
+  if (!count) return null;
+  return (
+    <button className="secondary" onClick={open}>
+      📚 Пройденные правила ({count})
+      <span className="hint small">перечитать объяснение и снова сделать упражнения</span>
+    </button>
+  );
+}
+
+export const grammarHistoryFeature: MiniFeature = {
+  id: "grammar-history",
+  HomeEntry: HistoryEntry,
+  Screen: ({ close }) => <Screen close={close} startWithList />,
+};

@@ -121,6 +121,9 @@ export interface GrammarToday { day: string; lesson: Lesson | null; done: boolea
 export const getGrammarToday = () => call<GrammarToday>("/grammar/today");
 export const getLesson = (id: string) => call<{ lesson: Lesson; done: boolean }>(`/grammar/lessons/${encodeURIComponent(id)}`);
 /** An extra rule ahead of the rotation (the next not-done lesson; `lang` optional). */
+/** «📚 Пройденные правила»: lessons sent as the rule of the day or marked done, newest first (`day`: last time seen). */
+export interface SeenLesson { id: string; title: string; cefr: string; lang: Lang; exercises: number; day: string; done: boolean }
+export const getGrammarHistory = () => call<{ lessons: SeenLesson[] }>("/grammar/history").then((r) => r.lessons);
 export const getNextLesson = (lang?: Lang) => call<{ lesson: Lesson | null }>(`/grammar/next${lang ? `?lang=${lang}` : ""}`);
 /** Next new words now instead of tomorrow morning: one daily portion per active language, or `n` of `lang`. */
 export const addMoreWords = (b: { lang?: Lang; n?: number } = {}) =>

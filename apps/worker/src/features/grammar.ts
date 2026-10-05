@@ -153,6 +153,33 @@ api.get("/grammar/lessons/:id", async (c) => {
 });
 
 /**
+ * «📚 Пройденные правила»: every lesson the learner has seen — sent as a rule of the day, or marked done (also extra rules
+ * and placement) — newest first, to read again and redo the exercises. `day`: when it was the rule of the day or done.
+ */
+api.get("/grammar/history", async (c) => {
+  const { day: today } = localClock(new Date(), SCHEDULE.timezone);
+  const [sent, done] = await Promise.all([
+    c.env.DB.prepare("SELECT lesson_id, MAX(day) AS day FROM grammar_day WHERE sent_at IS NOT NULL OR day < ? GROUP BY lesson_id")
+      .bind(today)
+      .all<{ lesson_id: string; day: string }>(),
+    c.env.DB.prepare("SELECT lesson_id, done_at FROM grammar_done").all<{ lesson_id: string; done_at: number }>(),
+  ]);
+  const seen = new Map<string, { day: string; done: boolean }>();
+  for (const r of sent.results) seen.set(r.lesson_id, { day: r.day, done: false });
+  for (const r of done.results) {
+    const day = localClock(new Date(r.done_at), SCHEDULE.timezone).day;
+    const prev = seen.get(r.lesson_id);
+    seen.set(r.lesson_id, { day: prev && prev.day > day ? prev.day : day, done: true });
+  }
+  const lessons = [...seen].flatMap(([id, s]) => {
+    const l = LESSON_BY_ID.get(id);
+    return l ? [{ id, title: l.title, cefr: l.cefr, lang: langOfLesson(l), exercises: l.exercises.length, ...s }] : [];
+  });
+  lessons.sort((a, b) => b.day.localeCompare(a.day) || b.id.localeCompare(a.id));
+  return c.json({ lessons });
+});
+
+/**
  * Placement «Грамматика»: the language's not-yet-done lessons in order, each with 2 exercises (first and last).
  * Both right → the Mini App offers to mark the lesson done without cards (`{ cards: false }` below).
  */

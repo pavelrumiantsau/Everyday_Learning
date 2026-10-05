@@ -54,6 +54,14 @@ export default async function (t: Smoke) {
   const after = (await (await api("/grammar/today", me)).json()) as { lesson: Lesson | null; done: boolean };
   check(after.lesson?.id === lesson.id && after.done, "today's lesson stays the same after it's done, marked done");
 
+  // «📚 Пройденные правила»: today's rule (sent by /rule, done) and the one marked known in the diagnostic; not lt-g-0003 (only opened).
+  type Seen = { id: string; done: boolean; day: string; exercises: number };
+  const seen = ((await (await api("/grammar/history", me)).json()) as { lessons: Seen[] }).lessons;
+  const mine = seen.find((l) => l.id === lesson.id);
+  check(!!mine?.done && mine.exercises === lesson.exercises.length && /^\d{4}-\d{2}-\d{2}$/.test(mine.day),
+    "the list of seen rules has today's rule, done, with its date and exercise count");
+  check(seen.some((l) => l.id === "lt-g-0010") && !seen.some((l) => l.id === "lt-g-0003"), "…and lessons marked done, but not ones only opened");
+
   const review = { id: crypto.randomUUID(), cardId: first!.cardId, rating: 3, reviewedAt: Date.now() };
   const saved = (await (await api("/reviews", me, { method: "POST", body: JSON.stringify({ reviews: [review] }) })).json()) as { applied: number };
   check(saved.applied === 1, "a cloze card answer is saved like any other review");

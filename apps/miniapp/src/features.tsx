@@ -2,7 +2,7 @@
 // HomeEntry is shown on the home screen (return null to hide); Screen opens full-screen with Telegram's back button.
 import type { FC } from "react";
 import { inputFeature } from "./features/Input";
-import { grammarFeature } from "./features/Grammar";
+import { grammarFeature, grammarHistoryFeature } from "./features/Grammar";
 import { placementFeature } from "./features/Placement";
 import { profileFeature } from "./features/Profile";
 import { readingFeature } from "./features/Reading";
@@ -13,4 +13,4 @@ export interface MiniFeature {
   Screen?: FC<{ close: () => void }>;
 }
 
-export const FEATURES: MiniFeature[] = [profileFeature, grammarFeature, readingFeature, placementFeature, inputFeature];
+export const FEATURES: MiniFeature[] = [profileFeature, grammarFeature, grammarHistoryFeature, readingFeature, placementFeature, inputFeature];
