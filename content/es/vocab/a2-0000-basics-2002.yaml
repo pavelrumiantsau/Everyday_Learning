@@ -1,0 +1,600 @@
+# Generated from scripts/batches/es-a2-basics-2002.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-2002
+  type: word
+  cefr: A1
+  text: "alto"
+  pos: adj
+  meaning: { en: "tall; high; loud" }
+  note: { en: "en voz alta = aloud" }
+  examples:
+    - { text: "No soy tan alto como tú.", translation: "I'm not as tall as you.", source: "tatoeba:346293" }
+- id: es-w-2003
+  type: word
+  cefr: A1
+  text: "bajo"
+  pos: adj
+  meaning: { en: "short (person); low; quiet" }
+  note: { en: "also a preposition: under (bajo la lluvia = in the rain)" }
+  examples:
+    - { text: "Es más bajo que su padre.", translation: "He's shorter than his father.", source: "tatoeba:435073" }
+- id: es-w-2004
+  type: word
+  cefr: A1
+  text: "largo"
+  pos: adj
+  meaning: { en: "long" }
+  note: { en: "false friend: long, not \"large\" (= grande); a lo largo de = along" }
+  examples:
+    - { text: "Su cabello es largo y hermoso.", translation: "Her hair is long and beautiful.", source: "tatoeba:952669" }
+- id: es-w-2005
+  type: word
+  cefr: A2
+  text: "estrecho"
+  pos: adj
+  meaning: { en: "narrow; tight (clothes)" }
+  note: { en: "opposite: ancho" }
+  examples:
+    - { text: "La calle es muy estrecha.", translation: "The street is very narrow.", source: "tatoeba:569581" }
+- id: es-w-2006
+  type: word
+  cefr: A1
+  text: "rico"
+  pos: adj
+  meaning: { en: "rich; tasty, delicious" }
+  note: { en: "of food: ¡qué rico! = delicious!" }
+  examples:
+    - { text: "Está claro que él es rico.", translation: "It's clear that he's rich.", source: "tatoeba:340019" }
+- id: es-w-2007
+  type: word
+  cefr: A1
+  text: "pobre"
+  pos: adj
+  meaning: { en: "poor" }
+  note: { en: "before a noun = unfortunate: ¡pobre Tom! = poor Tom!" }
+  examples:
+    - { text: "Ella es pobre, pero es feliz.", translation: "She is poor, but she is happy.", source: "tatoeba:475735" }
+- id: es-w-2008
+  type: word
+  cefr: A1
+  text: "abierto"
+  pos: adj
+  meaning: { en: "open" }
+  note: { en: "past participle of abrir" }
+  examples:
+    - { text: "Me he dejado la puerta abierta.", translation: "I left the door open.", source: "tatoeba:818711" }
+- id: es-w-2009
+  type: word
+  cefr: A2
+  text: "duro"
+  pos: adj
+  meaning: { en: "hard; tough, harsh" }
+  note: { en: "trabajar duro = to work hard; opposite: blando" }
+  examples:
+    - { text: "No seas tan duro contigo mismo.", translation: "Don't be so hard on yourself.", source: "tatoeba:578230" }
+- id: es-w-2010
+  type: word
+  cefr: A1
+  text: "caliente"
+  pos: adj
+  meaning: { en: "hot (to the touch)" }
+  note: { en: "for weather and how you feel: hace calor, tengo calor" }
+  examples:
+    - { text: "¡Ay, el café está muy caliente!", translation: "Ow, the coffee is very hot!", source: "tatoeba:456586" }
+- id: es-w-2011
+  type: word
+  cefr: A2
+  text: "salado"
+  pos: adj
+  meaning: { en: "salty" }
+  examples:
+    - { text: "La sopa está demasiado salada.", translation: "The soup is too salty.", source: "tatoeba:431993" }
+- id: es-w-2012
+  type: word
+  cefr: A1
+  text: "simpático"
+  pos: adj
+  meaning: { en: "nice, friendly" }
+  note: { en: "false friend: \"sympathetic\" = comprensivo; opposite: antipático" }
+  examples:
+    - { text: "Él es un tipo muy simpático.", translation: "He's a very nice guy.", source: "tatoeba:3238069" }
+- id: es-w-2013
+  type: word
+  cefr: A2
+  text: "vago"
+  pos: adj
+  meaning: { en: "lazy; vague" }
+  examples:
+    - { text: "Tom es un chico muy vago.", translation: "Tom is a very lazy boy.", source: "tatoeba:1172776" }
+- id: es-w-2014
+  type: word
+  cefr: A2
+  text: "listo"
+  pos: adj
+  meaning: { en: "clever; ready" }
+  note: { en: "ser listo = to be clever; estar listo = to be ready" }
+  examples:
+    - { text: "John es más listo que Bill.", translation: "John is cleverer than Bill.", source: "tatoeba:610646" }
+- id: es-w-2015
+  type: word
+  cefr: A1
+  text: "inteligente"
+  pos: adj
+  meaning: { en: "intelligent, smart" }
+  examples:
+    - { text: "Ella es tan inteligente como él.", translation: "She is as intelligent as he.", source: "tatoeba:623874" }
+- id: es-w-2016
+  type: word
+  cefr: A2
+  text: "tonto"
+  pos: adj
+  meaning: { en: "silly, stupid" }
+  note: { en: "hacer el tonto = to fool around" }
+  examples:
+    - { text: "Fui tan tonto que le creí.", translation: "I was foolish enough to believe him.", source: "tatoeba:347354" }
+- id: es-w-2017
+  type: word
+  cefr: A1
+  text: "divertido"
+  pos: adj
+  meaning: { en: "fun, funny, amusing" }
+  note: { en: "false friend: not \"diverted\"" }
+  examples:
+    - { text: "Aprender un idioma extranjero es divertido.", translation: "Learning a foreign language is fun.", source: "tatoeba:637374" }
+- id: es-w-2018
+  type: word
+  cefr: A2
+  text: "gracioso"
+  pos: adj
+  meaning: { en: "funny" }
+  examples:
+    - { text: "No es una historia muy graciosa.", translation: "It's not a very funny story.", source: "tatoeba:2253464" }
+- id: es-w-2019
+  type: word
+  cefr: A2
+  text: "raro"
+  pos: adj
+  meaning: { en: "strange, weird; rare" }
+  note: { en: "rara vez = rarely" }
+  examples:
+    - { text: "Lo que ella dijo suena raro.", translation: "What she said sounds strange.", source: "tatoeba:1559604" }
+- id: es-w-2020
+  type: word
+  cefr: A2
+  text: "extraño"
+  pos: adj
+  meaning: { en: "strange, odd" }
+  note: { en: "un extraño = a stranger; extrañar = to miss (Latin America)" }
+  examples:
+    - { text: "Es extraño que nadie nos conozca.", translation: "It's strange that nobody knows us.", source: "tatoeba:456244" }
+- id: es-w-2021
+  type: word
+  cefr: A1
+  text: "normal"
+  pos: adj
+  meaning: { en: "normal, ordinary" }
+  examples:
+    - { text: "Yo nunca sueño. ¿Acaso es normal?", translation: "I never dream. Is that normal?", source: "tatoeba:2769308" }
+- id: es-w-2022
+  type: word
+  cefr: A2
+  text: "necesario"
+  pos: adj
+  meaning: { en: "necessary" }
+  note: { en: "es necesario que + subjunctive" }
+  examples:
+    - { text: "La sal es necesaria para cocinar.", translation: "Salt is necessary for cooking.", source: "tatoeba:853964" }
+- id: es-w-2023
+  type: word
+  cefr: A2
+  text: "imposible"
+  pos: adj
+  meaning: { en: "impossible" }
+  examples:
+    - { text: "Los terremotos son imposibles de predecir.", translation: "It's impossible to predict earthquakes.", source: "tatoeba:742173" }
+- id: es-w-2024
+  type: word
+  cefr: B1
+  text: "ruidoso"
+  pos: adj
+  meaning: { en: "noisy" }
+  note: { en: "el ruido = noise" }
+  examples:
+    - { text: "Son demasiado ruidosos, no puedo concentrarme.", translation: "They're too noisy; I can't concentrate.", source: "tatoeba:1266260" }
+- id: es-w-2025
+  type: word
+  cefr: A1
+  text: "blanco"
+  pos: adj
+  meaning: { en: "white" }
+  examples:
+    - { text: "Ese edificio blanco es un hospital.", translation: "That white building is a hospital.", source: "tatoeba:638696" }
+- id: es-w-2026
+  type: word
+  cefr: A1
+  text: "negro"
+  pos: adj
+  meaning: { en: "black" }
+  examples:
+    - { text: "Ese chico tiene el pelo negro.", translation: "That boy has black hair.", source: "tatoeba:541287" }
+- id: es-w-2027
+  type: word
+  cefr: A2
+  text: "igual"
+  pos: adj
+  meaning: { en: "the same, equal; like" }
+  note: { en: "igual que = (just) like; me da igual = I don't mind" }
+  examples:
+    - { text: "Tom es exactamente igual que tú.", translation: "Tom is just like you.", source: "tatoeba:1622258" }
+- id: es-w-2028
+  type: word
+  cefr: A2
+  text: "loco"
+  pos: adj
+  meaning: { en: "mad, crazy" }
+  note: { en: "volver loco a alguien = to drive someone crazy; estar loco por = to be crazy about" }
+  examples:
+    - { text: "El ruido me está volviendo loco.", translation: "The noise is driving me crazy.", source: "tatoeba:635965" }
+- id: es-w-2029
+  type: word
+  cefr: A2
+  text: "diferente"
+  pos: adj
+  meaning: { en: "different" }
+  examples:
+    - { text: "¿Lo podría cambiar por otro diferente?", translation: "Could you exchange it with a different one?", source: "tatoeba:655045" }
+- id: es-w-2030
+  type: word
+  cefr: A2
+  text: "especial"
+  pos: adj
+  meaning: { en: "special" }
+  note: { en: "en especial = especially" }
+  examples:
+    - { text: "¿Tienen un menú especial para vegetarianos?", translation: "Do you have a special menu for vegetarians?", source: "tatoeba:2144817" }
+- id: es-w-2031
+  type: word
+  cefr: A2
+  text: "real"
+  pos: adj
+  meaning: { en: "real; royal" }
+  examples:
+    - { text: "Parece que el diamante es real.", translation: "It seems that the diamond is real.", source: "tatoeba:1202120" }
+- id: es-w-2032
+  type: word
+  cefr: A2
+  text: "verdadero"
+  pos: adj
+  meaning: { en: "real, true" }
+  examples:
+    - { text: "Yo no sé su verdadero nombre.", translation: "I don't know his real name.", source: "tatoeba:1343153" }
+- id: es-w-2033
+  type: word
+  cefr: A2
+  text: "humano"
+  pos: adj
+  meaning: { en: "human" }
+  note: { en: "el ser humano = human being" }
+  examples:
+    - { text: "Sólo los seres humanos pueden reír.", translation: "Only humans can laugh.", source: "tatoeba:1245046" }
+- id: es-w-2034
+  type: word
+  cefr: A1
+  text: "mayor"
+  pos: adj
+  meaning: { en: "older; bigger; elderly" }
+  note: { en: "mi hermano mayor = my older brother; la gente mayor = elderly people" }
+  examples:
+    - { text: "Te confundí con tu hermano mayor.", translation: "I mistook you for your older brother.", source: "tatoeba:345649" }
+- id: es-w-2035
+  type: word
+  cefr: A2
+  text: "menor"
+  pos: adj
+  meaning: { en: "younger; smaller, lesser" }
+  note: { en: "mi hermana menor = my younger sister; menor de edad = under age" }
+  examples:
+    - { text: "Soy cuatro años menor que él.", translation: "I am 4 years younger than him.", source: "tatoeba:1078844" }
+- id: es-w-2036
+  type: word
+  cefr: A1
+  text: "último"
+  pos: adj
+  meaning: { en: "last; latest" }
+  note: { en: "por último = finally" }
+  examples:
+    - { text: "El último examen fue muy difícil.", translation: "The last examination was very difficult.", source: "tatoeba:832434" }
+- id: es-w-2037
+  type: word
+  cefr: A1
+  text: "próximo"
+  pos: adj
+  meaning: { en: "next" }
+  note: { en: "la próxima vez = next time" }
+  examples:
+    - { text: "Quiero bajarme en la próxima parada.", translation: "I want to get off at the next stop.", source: "tatoeba:437040" }
+- id: es-w-2038
+  type: word
+  cefr: A2
+  text: "propio"
+  pos: adj
+  meaning: { en: "own" }
+  note: { en: "before the noun: mi propia casa = my own house" }
+  examples:
+    - { text: "Lo vi con mis propios ojos.", translation: "I saw it with my own eyes.", source: "tatoeba:356683" }
+- id: es-w-2039
+  type: word
+  cefr: A2
+  text: "entero"
+  pos: adj
+  meaning: { en: "whole, entire" }
+  examples:
+    - { text: "Él se comió la manzana entera.", translation: "He ate the whole apple.", source: "tatoeba:797248" }
+- id: es-w-2040
+  type: word
+  cefr: A2
+  text: "tanto"
+  pos: adj
+  meaning: { en: "so much, so many; as much" }
+  note: { en: "tanto… como = as much… as; tanto A como B = both A and B" }
+  examples:
+    - { text: "No tengo tanto dinero como crees.", translation: "I don't have as much money as you think.", source: "tatoeba:541826" }
+- id: es-w-2041
+  type: word
+  cefr: A2
+  text: "cualquier"
+  pos: adj
+  meaning: { en: "any (whichever)" }
+  note: { en: "before a noun; after a noun or alone: cualquiera" }
+  examples:
+    - { text: "Por tu amor, haría cualquier cosa.", translation: "For your love, I would do anything.", source: "tatoeba:434749" }
+- id: es-w-2042
+  type: word
+  cefr: A2
+  text: "alguno"
+  pos: adj
+  meaning: { en: "some, any" }
+  note: { en: "algún before a masc. sing. noun: algún día; ¿alguna vez? = ever?" }
+  examples:
+    - { text: "¿Alguna vez lo has visto nadar?", translation: "Have you ever seen him swimming?", source: "tatoeba:346407" }
+- id: es-w-2043
+  type: word
+  cefr: A2
+  text: "ninguno"
+  pos: adj
+  meaning: { en: "no, not any; none" }
+  note: { en: "ningún before a masc. sing. noun; needs no before the verb: no tengo ningún…" }
+  examples:
+    - { text: "Él no ha dejado ningún mensaje.", translation: "He hasn't left any message.", source: "tatoeba:529591" }
+- id: es-w-2044
+  type: word
+  cefr: A2
+  text: "varios"
+  pos: adj
+  meaning: { en: "several" }
+  examples:
+    - { text: "Él ha visitado Europa varias veces.", translation: "He has visited Europe several times.", source: "tatoeba:539221" }
+- id: es-w-2045
+  type: word
+  cefr: B1
+  text: "ambos"
+  pos: adj
+  meaning: { en: "both" }
+  note: { en: "= los dos" }
+  examples:
+    - { text: "Sostén la pelota con ambas manos.", translation: "Hold the ball in both hands.", source: "tatoeba:1406462" }
+- id: es-w-2046
+  type: word
+  cefr: A1
+  text: "medio"
+  pos: adj
+  meaning: { en: "half; middle" }
+  note: { en: "no article: media hora, medio kilo; las diez y media = half past ten" }
+  examples:
+    - { text: "Deberías haber salido media hora antes.", translation: "You should have left half an hour earlier.", source: "tatoeba:544411" }
+- id: es-w-2047
+  type: word
+  cefr: A2
+  text: "mitad"
+  pos: noun
+  gender: f
+  meaning: { en: "half" }
+  note: { en: "la mitad de = half of; por la mitad = in half" }
+  examples:
+    - { text: "Cortó la manzana por la mitad.", translation: "He cut the apple in half.", source: "tatoeba:1557436" }
+- id: es-w-2048
+  type: word
+  cefr: A2
+  text: "contra"
+  pos: prep
+  meaning: { en: "against" }
+  note: { en: "estar en contra de = to be against" }
+  examples:
+    - { text: "Estoy en contra de este proyecto.", translation: "I am against this project.", source: "tatoeba:862701" }
+- id: es-w-2049
+  type: word
+  cefr: A2
+  text: "adelante"
+  pos: adv
+  meaning: { en: "forward; ahead" }
+  note: { en: "¡adelante! = go ahead! / come in!; más adelante = later on" }
+  examples:
+    - { text: "\"¿Puedo usar tu coche?\" \"Seguro. Adelante.\"", translation: "\"Can I use your car?\" \"Sure. Go ahead.\"", source: "tatoeba:2010895" }
+- id: es-w-2050
+  type: word
+  cefr: A2
+  text: "atrás"
+  pos: adv
+  meaning: { en: "back, backwards; behind" }
+  note: { en: "quedarse atrás = to fall behind" }
+  examples:
+    - { text: "Él nunca más miró hacia atrás.", translation: "He never looked back again.", source: "tatoeba:728907" }
+- id: es-w-2051
+  type: word
+  cefr: A2
+  text: "alegría"
+  pos: noun
+  gender: f
+  meaning: { en: "joy, happiness" }
+  examples:
+    - { text: "Su corazón estaba lleno de alegría.", translation: "Her heart was full of joy.", source: "tatoeba:1936892" }
+- id: es-w-2052
+  type: word
+  cefr: A2
+  text: "vergüenza"
+  pos: noun
+  gender: f
+  meaning: { en: "shame; embarrassment" }
+  note: { en: "me da vergüenza = I'm embarrassed / ashamed" }
+  examples:
+    - { text: "¿No te da vergüenza hablar así?", translation: "Aren't you ashamed to talk like that?", source: "tatoeba:998397" }
+- id: es-w-2053
+  type: word
+  cefr: A2
+  text: "sorpresa"
+  pos: noun
+  gender: f
+  meaning: { en: "surprise" }
+  examples:
+    - { text: "¡Qué sorpresa tan agradable verte aquí!", translation: "What a pleasant surprise to see you here!", source: "tatoeba:854280" }
+- id: es-w-2054
+  type: word
+  cefr: A2
+  text: "esperanza"
+  pos: noun
+  gender: f
+  meaning: { en: "hope" }
+  examples:
+    - { text: "No hay que perder la esperanza.", translation: "Don't give up hope.", source: "tatoeba:345171" }
+- id: es-w-2055
+  type: word
+  cefr: B1
+  text: "celoso"
+  pos: adj
+  meaning: { en: "jealous" }
+  note: { en: "los celos = jealousy (always plural): tener celos de" }
+  examples:
+    - { text: "¿Por qué estás celoso de mí?", translation: "Why are you jealous of me?", source: "tatoeba:4788963" }
+- id: es-w-2056
+  type: word
+  cefr: B1
+  text: "emocionado"
+  pos: adj
+  meaning: { en: "excited; moved, touched" }
+  examples:
+    - { text: "Estoy emocionado por volver a Boston.", translation: "I'm excited about going back to Boston.", source: "tatoeba:10449967" }
+- id: es-w-2057
+  type: word
+  cefr: B1
+  text: "decepcionado"
+  pos: adj
+  meaning: { en: "disappointed" }
+  examples:
+    - { text: "No estoy enfadado contigo; simplemente decepcionado.", translation: "I'm not mad at you. I'm just disappointed.", source: "tatoeba:7008668" }
+- id: es-w-2058
+  type: word
+  cefr: B1
+  text: "harto"
+  pos: adj
+  meaning: { en: "fed up" }
+  note: { en: "estar harto de = to be fed up with" }
+  examples:
+    - { text: "Estoy harto de todas sus mentiras.", translation: "I'm fed up with all their lies.", source: "tatoeba:518101" }
+- id: es-w-2059
+  type: word
+  cefr: A2
+  text: "sorprendido"
+  pos: adj
+  meaning: { en: "surprised" }
+  examples:
+    - { text: "Todos estaban sorprendidos de verme allí.", translation: "They were all surprised to see me there.", source: "tatoeba:531444" }
+- id: es-w-2060
+  type: word
+  cefr: A2
+  text: "casarse"
+  pos: verb
+  meaning: { en: "to get married" }
+  note: { en: "casarse con alguien = to marry someone; casado = married" }
+  examples:
+    - { text: "Ellos se casaron el otoño pasado.", translation: "They got married last fall.", source: "tatoeba:520554" }
+- id: es-w-2061
+  type: word
+  cefr: B1
+  text: "divorciarse"
+  pos: verb
+  meaning: { en: "to get divorced" }
+  note: { en: "divorciarse de alguien" }
+  examples:
+    - { text: "Creo que se divorciará de él.", translation: "I think she will divorce him.", source: "tatoeba:1610838" }
+- id: es-w-2062
+  type: word
+  cefr: A2
+  text: "quejarse"
+  pos: verb
+  meaning: { en: "to complain" }
+  note: { en: "quejarse de = to complain about" }
+  examples:
+    - { text: "Siempre te quejas de tu esposo.", translation: "You're always complaining about your husband.", source: "tatoeba:931811" }
+- id: es-w-2063
+  type: word
+  cefr: A2
+  text: "reírse"
+  pos: verb
+  meaning: { en: "to laugh" }
+  note: { en: "me río, se ríe; reírse de = to laugh at" }
+  examples:
+    - { text: "No deberías reírte de sus errores.", translation: "You shouldn't laugh at his mistakes.", source: "tatoeba:971489" }
+- id: es-w-2064
+  type: word
+  cefr: A2
+  text: "divertirse"
+  pos: verb
+  meaning: { en: "to have fun, to enjoy yourself" }
+  note: { en: "e → ie: me divierto; ¡que te diviertas! = have fun!" }
+  examples:
+    - { text: "El tiempo vuela cuando te diviertes.", translation: "Time flies when you're having fun.", source: "tatoeba:2688695" }
+- id: es-w-2065
+  type: word
+  cefr: A2
+  text: "aburrirse"
+  pos: verb
+  meaning: { en: "to get bored" }
+  note: { en: "aburrido: estar aburrido = to be bored, ser aburrido = to be boring" }
+  examples:
+    - { text: "¿No te aburres cuando estás solo?", translation: "Don't you get bored when you're alone?", source: "tatoeba:693781" }
+- id: es-w-2066
+  type: word
+  cefr: A2
+  text: "enfadarse"
+  pos: verb
+  meaning: { en: "to get angry" }
+  note: { en: "enfadarse con alguien; Latin America: enojarse" }
+  examples:
+    - { text: "Tom se enfadó con los niños.", translation: "Tom got angry at the children.", source: "tatoeba:638357" }
+- id: es-w-2067
+  type: word
+  cefr: A2
+  text: "acordarse"
+  pos: verb
+  meaning: { en: "to remember" }
+  note: { en: "o → ue: me acuerdo; acordarse de = recordar" }
+  examples:
+    - { text: "Me acuerdo de lo que dijo.", translation: "I remember what he said.", source: "tatoeba:742488" }
+- id: es-w-2068
+  type: word
+  cefr: A1
+  text: "ducharse"
+  pos: verb
+  meaning: { en: "to (have a) shower" }
+  examples:
+    - { text: "Me ducho casi todos los días.", translation: "I take a shower almost every day.", source: "tatoeba:5097721" }
+- id: es-w-2069
+  type: word
+  cefr: A2
+  text: "ponerse"
+  pos: verb
+  meaning: { en: "to put on (clothes); to become (a feeling)" }
+  note: { en: "ponerse el abrigo; ponerse triste / nervioso = to get sad / nervous" }
+  examples:
+    - { text: "De pronto me puse muy triste.", translation: "I suddenly became very sad.", source: "tatoeba:945565" }
