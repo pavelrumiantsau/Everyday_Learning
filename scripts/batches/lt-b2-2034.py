@@ -29,7 +29,7 @@ w|susijaudinti|verb||B1|разволноваться|10832175||susijaudina, susi
 w|peršalimas|noun|m|B1|простуда|10253415||peršalimo
 w|susierzinęs|adj||B2|раздражённый|||
 w|žaizda|noun|f|B1|рана|9442426||žaizdos
-w|pavyduliauti|verb||B2|ревновать|13503640|pavyduliauti ką / dėl ko|pavyduliauja, pavydulavo
+w|pavyduliauti|verb||B2|ревновать|13503640||pavyduliauja, pavydulavo
 w|tabletė|noun|f|A2|таблетка|12865864||tabletės
 w|irzlus|adj||B2|раздражительный|13235314|
 w|mankšta|noun|f|B1|зарядка, гимнастика|12960018|daryti mankštą — делать зарядку|mankštos

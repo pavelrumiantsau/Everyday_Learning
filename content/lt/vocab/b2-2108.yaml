@@ -18,7 +18,6 @@
   pos: verb
   forms: { pres: "apmoka", past: "apmokėjo" }
   meaning: { ru: "оплатить" }
-  note: { ru: "apmokėti sąskaitą — оплатить счёт" }
   examples:
     - { text: "Ji apmokės viską.", translation: "Она оплатит всё.", source: "tatoeba:13044028" }
 - id: lt-w-2110
@@ -608,7 +607,7 @@
   pos: noun
   gender: f
   gen: "seniūnijos"
-  meaning: { ru: "староство (часть района в Литве)" }
+  meaning: { ru: "староство (мелкая административная единица в Литве)" }
 - id: lt-w-2170
   type: word
   cefr: B2

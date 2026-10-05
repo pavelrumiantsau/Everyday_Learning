@@ -247,7 +247,6 @@
   pos: verb
   forms: { pres: "pavyduliauja", past: "pavydulavo" }
   meaning: { ru: "ревновать" }
-  note: { ru: "pavyduliauti ką / dėl ko" }
   examples:
     - { text: "Jis turbūt pavyduliauja.", translation: "Он, наверное, ревнует.", source: "tatoeba:13503640" }
 - id: lt-w-2060

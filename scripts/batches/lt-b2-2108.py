@@ -5,7 +5,7 @@
 PLURAL_ONLY = ["viršvalandžiai", "pareigos", "palūkanos", "santaupos", "sąnaudos"]
 ROWS = """
 w|darbdavys|noun|m|B1|работодатель|3692193||darbdavio
-w|apmokėti|verb||B1|оплатить|13044028|apmokėti sąskaitą — оплатить счёт|apmoka, apmokėjo
+w|apmokėti|verb||B1|оплатить|13044028||apmoka, apmokėjo
 w|etatas|noun|m|B2|ставка, штатная должность||dirbti visu etatu / puse etato — работать на полную ставку / на полставки|etato
 w|viršvalandžiai|noun|m|B2|сверхурочные (часы)|9845053|dirbti viršvalandžius — работать сверхурочно|viršvalandžių
 w|pareigos|noun|f|B1|должность; обязанности|13008441|eiti pareigas — занимать должность; ср. pareiga — долг|pareigų
@@ -65,7 +65,7 @@ w|pilietybė|noun|f|B2|гражданство|13725756||pilietybės
 w|atsarginis|adj||B1|запасной|10724334|
 w|savivaldybė|noun|f|B2|самоуправление, муниципалитет|13296677||savivaldybės
 w|užsitarnauti|verb||B2|заслужить|13196884||užsitarnauja, užsitarnavo
-w|seniūnija|noun|f|B2|староство (часть района в Литве)|||seniūnijos
+w|seniūnija|noun|f|B2|староство (мелкая административная единица в Литве)|||seniūnijos
 w|pareiškimas|noun|m|B2|заявление|12894417||pareiškimo
 w|įgaliojimas|noun|m|B2|доверенность; полномочие|13770059||įgaliojimo
 w|pelnyti|verb||B2|заслужить, завоевать (доверие, награду)|13384552|pelnyti pasitikėjimą — завоевать доверие; pelnas — прибыль|pelno, pelnė
