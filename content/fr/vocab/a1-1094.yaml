@@ -1,0 +1,497 @@
+# Generated from scripts/batches/fr-a1-1094.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: fr-w-1094
+  type: word
+  cefr: A1
+  text: "voyage"
+  pos: noun
+  gender: m
+  meaning: { en: "trip, journey" }
+  note: { en: "bon voyage !; voyager = to travel" }
+  examples:
+    - { text: "Qui a organisé ce voyage ?", translation: "Who planned that trip?", source: "tatoeba:488551" }
+- id: fr-w-1095
+  type: word
+  cefr: A1
+  text: "valise"
+  pos: noun
+  gender: f
+  meaning: { en: "suitcase" }
+  note: { en: "faire sa valise = to pack" }
+  examples:
+    - { text: "Je ne trouve pas ma valise.", translation: "I can't find my suitcase.", source: "tatoeba:10471530" }
+- id: fr-w-1096
+  type: word
+  cefr: A1
+  text: "passeport"
+  pos: noun
+  gender: m
+  meaning: { en: "passport" }
+  examples:
+    - { text: "As-tu ton passeport sur toi ?", translation: "Do you have your passport with you?", source: "tatoeba:11531036" }
+- id: fr-w-1097
+  type: word
+  cefr: A1
+  text: "touriste"
+  pos: noun
+  gender: mf
+  meaning: { en: "tourist" }
+  note: { en: "un / une touriste" }
+  examples:
+    - { text: "Il y a trop de touristes.", translation: "There are too many tourists.", source: "tatoeba:8557411" }
+- id: fr-w-1098
+  type: word
+  cefr: A2
+  text: "vol"
+  pos: noun
+  gender: m
+  meaning: { en: "flight; theft" }
+  note: { en: "from voler = to fly / to steal" }
+  examples:
+    - { text: "Le vol a duré deux heures.", translation: "The flight lasted two hours.", source: "tatoeba:8490518" }
+- id: fr-w-1099
+  type: word
+  cefr: A2
+  text: "quai"
+  pos: noun
+  gender: m
+  meaning: { en: "platform; quay" }
+  examples:
+    - { text: "Votre train part du quai 10.", translation: "Your train leaves from Platform 10.", source: "tatoeba:338101" }
+- id: fr-w-1100
+  type: word
+  cefr: A2
+  text: "départ"
+  pos: noun
+  gender: m
+  meaning: { en: "departure" }
+  examples:
+    - { text: "Quelle est l'heure du départ ?", translation: "What is the departure time?", source: "tatoeba:10890042" }
+- id: fr-w-1101
+  type: word
+  cefr: A2
+  text: "arrivée"
+  pos: noun
+  gender: f
+  meaning: { en: "arrival" }
+  examples:
+    - { text: "Il m'a attendu jusqu'à mon arrivée.", translation: "He waited for me until I arrived.", source: "tatoeba:8046" }
+- id: fr-w-1102
+  type: word
+  cefr: A2
+  text: "bagages"
+  pos: noun
+  gender: m
+  meaning: { en: "luggage" }
+  note: { en: "usually plural; un bagage = one bag" }
+  examples:
+    - { text: "Je ne trouve pas mes bagages.", translation: "I can't find my luggage.", source: "tatoeba:451176" }
+- id: fr-w-1103
+  type: word
+  cefr: A2
+  text: "réservation"
+  pos: noun
+  gender: f
+  meaning: { en: "booking, reservation" }
+  examples:
+    - { text: "J'ai une réservation pour ce soir.", translation: "I have a reservation for tonight.", source: "tatoeba:11461373" }
+- id: fr-w-1104
+  type: word
+  cefr: B1
+  text: "location"
+  pos: noun
+  gender: f
+  meaning: { en: "renting, rental" }
+  note: { en: "false friend: a location = un endroit; louer = to rent" }
+  examples:
+    - { text: "C'est une voiture de location.", translation: "It's a rented car.", source: "tatoeba:1229367" }
+- id: fr-w-1105
+  type: word
+  cefr: A2
+  text: "plan"
+  pos: noun
+  gender: m
+  meaning: { en: "(street) map; plan" }
+  note: { en: "un plan de la ville; a map of a country = une carte" }
+  examples:
+    - { text: "Je voudrais un plan de la ville.", translation: "I'd like a city map.", source: "tatoeba:139756" }
+- id: fr-w-1106
+  type: word
+  cefr: A2
+  text: "poste"
+  pos: noun
+  gender: f
+  meaning: { en: "post office" }
+  note: { en: "le poste (m) = job, position" }
+  examples:
+    - { text: "Où se trouve la poste ?", translation: "Where is the post office?", source: "tatoeba:1335977" }
+- id: fr-w-1107
+  type: word
+  cefr: A2
+  text: "mairie"
+  pos: noun
+  gender: f
+  meaning: { en: "town hall" }
+  examples:
+    - { text: "La mairie n'est pas loin d'ici.", translation: "The city hall isn't far from here.", source: "tatoeba:6880310" }
+- id: fr-w-1108
+  type: word
+  cefr: A2
+  text: "trottoir"
+  pos: noun
+  gender: m
+  meaning: { en: "pavement, sidewalk" }
+  examples:
+    - { text: "Fais attention. Le trottoir est glissant.", translation: "Careful! The pavement is slippery.", source: "tatoeba:3008432" }
+- id: fr-w-1109
+  type: word
+  cefr: A2
+  text: "carrefour"
+  pos: noun
+  gender: m
+  meaning: { en: "crossroads, junction" }
+  examples:
+    - { text: "Tourne à droite au prochain carrefour.", translation: "Turn right at the next crossing.", source: "tatoeba:658087" }
+- id: fr-w-1110
+  type: word
+  cefr: A2
+  text: "coin"
+  pos: noun
+  gender: m
+  meaning: { en: "corner" }
+  note: { en: "du coin = local; dans le coin = around here" }
+  examples:
+    - { text: "Au coin de la rue !", translation: "Right around the corner!", source: "tatoeba:785705" }
+- id: fr-w-1111
+  type: word
+  cefr: A1
+  text: "centre-ville"
+  pos: noun
+  gender: m
+  meaning: { en: "town centre" }
+  examples:
+    - { text: "Le parc se situe au centre-ville.", translation: "The park is in the center of the city.", source: "tatoeba:1452003" }
+- id: fr-w-1112
+  type: word
+  cefr: A2
+  text: "stade"
+  pos: noun
+  gender: m
+  meaning: { en: "stadium" }
+  examples:
+    - { text: "Comment puis-je me rendre au stade ?", translation: "How can I get to the stadium?", source: "tatoeba:805699" }
+- id: fr-w-1113
+  type: word
+  cefr: A2
+  text: "port"
+  pos: noun
+  gender: m
+  meaning: { en: "port, harbour" }
+  examples:
+    - { text: "Où se trouve le port ?", translation: "Where is the harbour?", source: "tatoeba:6809284" }
+- id: fr-w-1114
+  type: word
+  cefr: A2
+  text: "lycée"
+  pos: noun
+  gender: m
+  meaning: { en: "secondary school (ages 15–18)" }
+  note: { en: "ages 11–15: le collège (false friend)" }
+  examples:
+    - { text: "Mon fils est entré au lycée.", translation: "My son entered high school.", source: "tatoeba:355140" }
+- id: fr-w-1115
+  type: word
+  cefr: B1
+  text: "banlieue"
+  pos: noun
+  gender: f
+  meaning: { en: "suburbs" }
+  note: { en: "en banlieue = in the suburbs" }
+  examples:
+    - { text: "Sa maison est en banlieue.", translation: "Her home is in the suburbs.", source: "tatoeba:133742" }
+- id: fr-w-1116
+  type: word
+  cefr: A1
+  text: "arrêt"
+  pos: noun
+  gender: m
+  meaning: { en: "stop" }
+  note: { en: "arrêt de bus = bus stop" }
+  examples:
+    - { text: "Il attend à l'arrêt de bus.", translation: "He's waiting at the bus stop.", source: "tatoeba:131306" }
+- id: fr-w-1117
+  type: word
+  cefr: A2
+  text: "monnaie"
+  pos: noun
+  gender: f
+  meaning: { en: "change, coins; currency" }
+  examples:
+    - { text: "Avez-vous un peu de monnaie ?", translation: "Can you spare some change?", source: "tatoeba:2185819" }
+- id: fr-w-1118
+  type: word
+  cefr: A1
+  text: "euro"
+  pos: noun
+  gender: m
+  meaning: { en: "euro" }
+  note: { en: "dans les trente euros = about thirty euros" }
+  examples:
+    - { text: "Ça coûte dans les trente euros.", translation: "It costs around thirty Euros.", source: "tatoeba:1008756" }
+- id: fr-w-1119
+  type: word
+  cefr: A2
+  text: "vendeur"
+  pos: noun
+  gender: m
+  meaning: { en: "shop assistant, salesperson" }
+  note: { en: "vendeuse (f); vendre = to sell" }
+  examples:
+    - { text: "Il est vendeur de voitures.", translation: "He's a car salesman.", source: "tatoeba:4718681" }
+- id: fr-w-1120
+  type: word
+  cefr: A2
+  text: "caisse"
+  pos: noun
+  gender: f
+  meaning: { en: "till, checkout" }
+  note: { en: "also a box, crate" }
+  examples:
+    - { text: "Vous payez à la caisse.", translation: "You pay at the till.", source: "tatoeba:9953308" }
+- id: fr-w-1121
+  type: word
+  cefr: B1
+  text: "soldes"
+  pos: noun
+  gender: m
+  meaning: { en: "sales" }
+  note: { en: "masculine plural: les soldes d'hiver = winter sales" }
+  examples:
+    - { text: "J'adore les soldes, un point c'est tout.", translation: "I just love bargain sales.", source: "tatoeba:2565685" }
+- id: fr-w-1122
+  type: word
+  cefr: A1
+  text: "grand-père"
+  pos: noun
+  gender: m
+  meaning: { en: "grandfather" }
+  examples:
+    - { text: "Quel âge a ton grand-père ?", translation: "How old is your grandpa?", source: "tatoeba:10259" }
+- id: fr-w-1123
+  type: word
+  cefr: A1
+  text: "grand-mère"
+  pos: noun
+  gender: f
+  meaning: { en: "grandmother" }
+  note: { en: "avoir la main verte = to have green fingers" }
+  examples:
+    - { text: "Ma grand-mère a la main verte.", translation: "My grandmother has a green thumb.", source: "tatoeba:1176495" }
+- id: fr-w-1124
+  type: word
+  cefr: A1
+  text: "grands-parents"
+  pos: noun
+  gender: m
+  meaning: { en: "grandparents" }
+  examples:
+    - { text: "C'est la maison de mes grands-parents.", translation: "This is my grandparents' house.", source: "tatoeba:3083910" }
+- id: fr-w-1125
+  type: word
+  cefr: A2
+  text: "neveu"
+  pos: noun
+  gender: m
+  meaning: { en: "nephew" }
+  note: { en: "plural neveux" }
+  examples:
+    - { text: "Le fils de ma sœur est mon neveu.", translation: "My sister's son is my nephew.", source: "tatoeba:11069476" }
+- id: fr-w-1126
+  type: word
+  cefr: A2
+  text: "nièce"
+  pos: noun
+  gender: f
+  meaning: { en: "niece" }
+  examples:
+    - { text: "Comment s'appelle ta nièce ?", translation: "What's your niece's name?", source: "tatoeba:7793898" }
+- id: fr-w-1127
+  type: word
+  cefr: A2
+  text: "réunion"
+  pos: noun
+  gender: f
+  meaning: { en: "meeting" }
+  examples:
+    - { text: "La réunion a eu lieu hier.", translation: "The meeting took place yesterday.", source: "tatoeba:968178" }
+- id: fr-w-1128
+  type: word
+  cefr: A2
+  text: "salaire"
+  pos: noun
+  gender: m
+  meaning: { en: "salary, pay" }
+  examples:
+    - { text: "Je suis content de mon salaire.", translation: "I'm happy with my salary.", source: "tatoeba:867123" }
+- id: fr-w-1129
+  type: word
+  cefr: B1
+  text: "chômage"
+  pos: noun
+  gender: m
+  meaning: { en: "unemployment" }
+  note: { en: "être au chômage = to be unemployed" }
+  examples:
+    - { text: "Je suis un professeur au chômage.", translation: "I'm an unemployed teacher.", source: "tatoeba:7526043" }
+- id: fr-w-1130
+  type: word
+  cefr: B1
+  text: "entretien"
+  pos: noun
+  gender: m
+  meaning: { en: "interview; maintenance" }
+  note: { en: "entretien d'embauche = job interview" }
+  examples:
+    - { text: "J'ai un entretien d'embauche ce matin.", translation: "I have a job interview this morning.", source: "tatoeba:10627086" }
+- id: fr-w-1131
+  type: word
+  cefr: B1
+  text: "stage"
+  pos: noun
+  gender: m
+  meaning: { en: "internship; (short) course" }
+  note: { en: "false friend: a theatre stage = la scène" }
+  examples:
+    - { text: "Je vais faire un stage dans une entreprise locale.", translation: "I'm going to do an internship at a local company.", source: "tatoeba:1054251" }
+- id: fr-w-1132
+  type: word
+  cefr: A2
+  text: "équipe"
+  pos: noun
+  gender: f
+  meaning: { en: "team" }
+  examples:
+    - { text: "Je te veux dans mon équipe.", translation: "I want you on my team.", source: "tatoeba:11928448" }
+- id: fr-w-1133
+  type: word
+  cefr: A1
+  text: "cours"
+  pos: noun
+  gender: m
+  meaning: { en: "class, lesson; course" }
+  note: { en: "same form in the plural" }
+  examples:
+    - { text: "Je prends un cours de danse.", translation: "I am taking a dance class.", source: "tatoeba:5291004" }
+- id: fr-w-1134
+  type: word
+  cefr: A1
+  text: "devoirs"
+  pos: noun
+  gender: m
+  meaning: { en: "homework" }
+  note: { en: "plural; un devoir = a duty" }
+  examples:
+    - { text: "Tu as fait tes devoirs ?", translation: "Have you done your homework?", source: "tatoeba:419353" }
+- id: fr-w-1135
+  type: word
+  cefr: A2
+  text: "note"
+  pos: noun
+  gender: f
+  meaning: { en: "mark, grade; note" }
+  examples:
+    - { text: "J'ai eu une bonne note.", translation: "I got a good grade.", source: "tatoeba:9087161" }
+- id: fr-w-1136
+  type: word
+  cefr: A2
+  text: "diplôme"
+  pos: noun
+  gender: m
+  meaning: { en: "degree, diploma" }
+  examples:
+    - { text: "Dans deux ans, j'aurai mon diplôme.", translation: "In two years, I will graduate.", source: "tatoeba:8705626" }
+- id: fr-w-1137
+  type: word
+  cefr: A2
+  text: "grippe"
+  pos: noun
+  gender: f
+  meaning: { en: "flu" }
+  examples:
+    - { text: "J'étais au lit avec la grippe.", translation: "I was in bed with the flu.", source: "tatoeba:1204282" }
+- id: fr-w-1138
+  type: word
+  cefr: A2
+  text: "rendez-vous"
+  pos: noun
+  gender: m
+  meaning: { en: "appointment; date" }
+  note: { en: "prendre rendez-vous = to make an appointment" }
+  examples:
+    - { text: "J'ai un rendez-vous à 8 heures.", translation: "I have an appointment at 8 o'clock.", source: "tatoeba:5029587" }
+- id: fr-w-1139
+  type: word
+  cefr: A1
+  text: "dentiste"
+  pos: noun
+  gender: mf
+  meaning: { en: "dentist" }
+  note: { en: "aller chez le dentiste" }
+  examples:
+    - { text: "Je vais chez le dentiste demain.", translation: "I'm going to see the dentist tomorrow.", source: "tatoeba:135384" }
+- id: fr-w-1140
+  type: word
+  cefr: B1
+  text: "ordonnance"
+  pos: noun
+  gender: f
+  meaning: { en: "prescription" }
+  examples:
+    - { text: "Je vous délivrerai une ordonnance.", translation: "I'll give you a prescription.", source: "tatoeba:128413" }
+- id: fr-w-1141
+  type: word
+  cefr: A2
+  text: "météo"
+  pos: noun
+  gender: f
+  meaning: { en: "weather forecast" }
+  examples:
+    - { text: "Espérons que la météo sera bonne.", translation: "Hopefully, the weather will be good.", source: "tatoeba:5288947" }
+- id: fr-w-1142
+  type: word
+  cefr: A2
+  text: "température"
+  pos: noun
+  gender: f
+  meaning: { en: "temperature" }
+  note: { en: "avoir de la température = to have a fever" }
+  examples:
+    - { text: "La température a baissé de trois degrés.", translation: "The temperature went down three degrees.", source: "tatoeba:12037087" }
+- id: fr-w-1143
+  type: word
+  cefr: A2
+  text: "degré"
+  pos: noun
+  gender: m
+  meaning: { en: "degree" }
+  examples:
+    - { text: "L'eau bout à 100 degrés Celsius.", translation: "Water boils at 100 degrees Celsius.", source: "tatoeba:8576751" }
+- id: fr-w-1144
+  type: word
+  cefr: A2
+  text: "climat"
+  pos: noun
+  gender: m
+  meaning: { en: "climate" }
+  examples:
+    - { text: "Le Canada a un climat froid.", translation: "Canada has a cold climate.", source: "tatoeba:378286" }
+- id: fr-w-1145
+  type: word
+  cefr: A2
+  text: "brouillard"
+  pos: noun
+  gender: m
+  meaning: { en: "fog" }
+  examples:
+    - { text: "Dehors il y a du brouillard.", translation: "It is foggy outside.", source: "tatoeba:11813724" }
