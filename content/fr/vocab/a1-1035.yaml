@@ -1,0 +1,560 @@
+# Generated from scripts/batches/fr-a1-1035.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: fr-w-1035
+  type: word
+  cefr: A2
+  text: "huile"
+  pos: noun
+  gender: f
+  meaning: { en: "oil" }
+  note: { en: "huile d'olive = olive oil" }
+  examples:
+    - { text: "Tu as de l'huile d'olive ?", translation: "Do you have olive oil?", source: "tatoeba:10511621" }
+- id: fr-w-1036
+  type: word
+  cefr: A2
+  text: "poivre"
+  pos: noun
+  gender: m
+  meaning: { en: "pepper (spice)" }
+  note: { en: "le sel et le poivre; the vegetable is un poivron" }
+  examples:
+    - { text: "Passe-moi le poivre, s'il te plaît.", translation: "Please pass me the pepper.", source: "tatoeba:7099117" }
+- id: fr-w-1037
+  type: word
+  cefr: A1
+  text: "pomme de terre"
+  pos: noun
+  gender: f
+  meaning: { en: "potato" }
+  note: { en: "plural pommes de terre; informal: une patate" }
+  examples:
+    - { text: "Il déteste les pommes de terre.", translation: "He hates potatoes.", source: "tatoeba:12077513" }
+- id: fr-w-1038
+  type: word
+  cefr: A1
+  text: "carotte"
+  pos: noun
+  gender: f
+  meaning: { en: "carrot" }
+  examples:
+    - { text: "Coupe les carottes, s'il te plaît.", translation: "Please cut the carrots.", source: "tatoeba:10505436" }
+- id: fr-w-1039
+  type: word
+  cefr: A2
+  text: "oignon"
+  pos: noun
+  gender: m
+  meaning: { en: "onion" }
+  note: { en: "the oi sounds like o; ce ne sont pas tes oignons = none of your business (informal)" }
+  examples:
+    - { text: "Cette soupe a un goût d'oignon.", translation: "This soup tastes of onions.", source: "tatoeba:2811001" }
+- id: fr-w-1040
+  type: word
+  cefr: A2
+  text: "ail"
+  pos: noun
+  gender: m
+  meaning: { en: "garlic" }
+  examples:
+    - { text: "L'ail est bon pour la santé.", translation: "Garlic is good for one's health.", source: "tatoeba:5309404" }
+- id: fr-w-1041
+  type: word
+  cefr: A1
+  text: "citron"
+  pos: noun
+  gender: m
+  meaning: { en: "lemon" }
+  examples:
+    - { text: "Je bois du thé au citron.", translation: "I drink tea with lemon.", source: "tatoeba:11142014" }
+- id: fr-w-1042
+  type: word
+  cefr: A1
+  text: "fraise"
+  pos: noun
+  gender: f
+  meaning: { en: "strawberry" }
+  examples:
+    - { text: "Les fraises sont chères en hiver.", translation: "Strawberries are expensive in the winter.", source: "tatoeba:7698056" }
+- id: fr-w-1043
+  type: word
+  cefr: A1
+  text: "cerise"
+  pos: noun
+  gender: f
+  meaning: { en: "cherry" }
+  examples:
+    - { text: "Où as-tu acheté ces cerises ?", translation: "Where did you buy these cherries?", source: "tatoeba:6965997" }
+- id: fr-w-1044
+  type: word
+  cefr: A2
+  text: "pêche"
+  pos: noun
+  gender: f
+  meaning: { en: "peach; fishing" }
+  note: { en: "aller à la pêche = to go fishing" }
+  examples:
+    - { text: "Les pêches ont un goût sucré.", translation: "Peaches taste sweet.", source: "tatoeba:817543" }
+- id: fr-w-1045
+  type: word
+  cefr: A2
+  text: "raisin"
+  pos: noun
+  gender: m
+  meaning: { en: "grapes" }
+  note: { en: "false friend: a raisin = un raisin sec" }
+  examples:
+    - { text: "En septembre, le raisin est mûr.", translation: "In September the grapes are ripe.", source: "tatoeba:3259488" }
+- id: fr-w-1046
+  type: word
+  cefr: A1
+  text: "jambon"
+  pos: noun
+  gender: m
+  meaning: { en: "ham" }
+  examples:
+    - { text: "Est-ce qu'il reste du jambon ?", translation: "Is there any ham left?", source: "tatoeba:6934463" }
+- id: fr-w-1047
+  type: word
+  cefr: A2
+  text: "saucisse"
+  pos: noun
+  gender: f
+  meaning: { en: "sausage" }
+  examples:
+    - { text: "Voulez-vous du bacon ou de la saucisse ?", translation: "Would you like bacon or sausage?", source: "tatoeba:390981" }
+- id: fr-w-1048
+  type: word
+  cefr: A2
+  text: "bœuf"
+  pos: noun
+  gender: m
+  meaning: { en: "beef; ox" }
+  note: { en: "the f is pronounced in the singular, silent in the plural (bœufs)" }
+  examples:
+    - { text: "Je ne mange pas de bœuf.", translation: "I don't eat beef.", source: "tatoeba:13931543" }
+- id: fr-w-1049
+  type: word
+  cefr: A2
+  text: "porc"
+  pos: noun
+  gender: m
+  meaning: { en: "pork; pig" }
+  examples:
+    - { text: "Le porc ne me réussit pas.", translation: "Pork doesn't agree with me.", source: "tatoeba:1579723" }
+- id: fr-w-1050
+  type: word
+  cefr: A1
+  text: "yaourt"
+  pos: noun
+  gender: m
+  meaning: { en: "yogurt" }
+  examples:
+    - { text: "Ce yaourt a un goût bizarre.", translation: "This yogurt tastes strange.", source: "tatoeba:570420" }
+- id: fr-w-1051
+  type: word
+  cefr: A2
+  text: "confiture"
+  pos: noun
+  gender: f
+  meaning: { en: "jam" }
+  examples:
+    - { text: "Sers-toi de la confiture de fraise.", translation: "Help yourself to the strawberry jam.", source: "tatoeba:5963171" }
+- id: fr-w-1052
+  type: word
+  cefr: A2
+  text: "farine"
+  pos: noun
+  gender: f
+  meaning: { en: "flour" }
+  examples:
+    - { text: "Mélange la farine avec le lait.", translation: "Mix the flour with the milk.", source: "tatoeba:13808669" }
+- id: fr-w-1053
+  type: word
+  cefr: A2
+  text: "miel"
+  pos: noun
+  gender: m
+  meaning: { en: "honey" }
+  note: { en: "lune de miel = honeymoon" }
+  examples:
+    - { text: "Les abeilles nous fournissent du miel.", translation: "Bees provide honey for us.", source: "tatoeba:13489" }
+- id: fr-w-1054
+  type: word
+  cefr: A1
+  text: "petit-déjeuner"
+  pos: noun
+  gender: m
+  meaning: { en: "breakfast" }
+  note: { en: "also written petit déjeuner" }
+  examples:
+    - { text: "Tu as pris un petit-déjeuner ?", translation: "Did you have any breakfast?", source: "tatoeba:12466484" }
+- id: fr-w-1055
+  type: word
+  cefr: A1
+  text: "dessert"
+  pos: noun
+  gender: m
+  meaning: { en: "dessert" }
+  examples:
+    - { text: "Quel est ton dessert préféré ?", translation: "What's your favorite dessert?", source: "tatoeba:1986865" }
+- id: fr-w-1056
+  type: word
+  cefr: A1
+  text: "sandwich"
+  pos: noun
+  gender: m
+  meaning: { en: "sandwich" }
+  examples:
+    - { text: "Je vais me faire un sandwich.", translation: "I'll make myself a sandwich.", source: "tatoeba:11448175" }
+- id: fr-w-1057
+  type: word
+  cefr: A1
+  text: "boisson"
+  pos: noun
+  gender: f
+  meaning: { en: "drink" }
+  examples:
+    - { text: "Il lui a payé une boisson.", translation: "He bought her a drink.", source: "tatoeba:3278748" }
+- id: fr-w-1058
+  type: word
+  cefr: A2
+  text: "recette"
+  pos: noun
+  gender: f
+  meaning: { en: "recipe" }
+  examples:
+    - { text: "Peux-tu me donner la recette ?", translation: "Can you give me the recipe?", source: "tatoeba:1590982" }
+- id: fr-w-1059
+  type: word
+  cefr: A2
+  text: "four"
+  pos: noun
+  gender: m
+  meaning: { en: "oven" }
+  note: { en: "four à micro-ondes = microwave" }
+  examples:
+    - { text: "J'ai un gâteau dans le four.", translation: "I've got a cake in the oven.", source: "tatoeba:8349694" }
+- id: fr-w-1060
+  type: word
+  cefr: A1
+  text: "frigo"
+  pos: noun
+  gender: m
+  meaning: { en: "fridge" }
+  note: { en: "informal; formal: le réfrigérateur" }
+  examples:
+    - { text: "Qu'y a-t-il dans le frigo ?", translation: "What's in the fridge?", source: "tatoeba:8328556" }
+- id: fr-w-1061
+  type: word
+  cefr: A2
+  text: "casserole"
+  pos: noun
+  gender: f
+  meaning: { en: "saucepan, pot" }
+  note: { en: "false friend: not a casserole dish" }
+  examples:
+    - { text: "Mets les carottes dans la casserole.", translation: "Put the carrots in the pot.", source: "tatoeba:12657629" }
+- id: fr-w-1062
+  type: word
+  cefr: A2
+  text: "poêle"
+  pos: noun
+  gender: f
+  meaning: { en: "frying pan" }
+  note: { en: "le poêle (m) = stove" }
+  examples:
+    - { text: "As-tu mis de l'huile dans la poêle ?", translation: "Did you put oil in the pan?", source: "tatoeba:9108785" }
+- id: fr-w-1063
+  type: word
+  cefr: B1
+  text: "évier"
+  pos: noun
+  gender: m
+  meaning: { en: "(kitchen) sink" }
+  note: { en: "a bathroom sink is un lavabo" }
+  examples:
+    - { text: "Les assiettes s'accumulent dans l'évier.", translation: "The dishes are piling up in the sink.", source: "tatoeba:1007486" }
+- id: fr-w-1064
+  type: word
+  cefr: B1
+  text: "nappe"
+  pos: noun
+  gender: f
+  meaning: { en: "tablecloth" }
+  examples:
+    - { text: "Il y a une tache sur la nappe.", translation: "There's a stain on the tablecloth.", source: "tatoeba:8606436" }
+- id: fr-w-1065
+  type: word
+  cefr: A1
+  text: "douche"
+  pos: noun
+  gender: f
+  meaning: { en: "shower" }
+  note: { en: "prendre une douche = to have a shower" }
+  examples:
+    - { text: "Je peux prendre une douche ?", translation: "Can I take a shower?", source: "tatoeba:6096451" }
+- id: fr-w-1066
+  type: word
+  cefr: A1
+  text: "salle de bains"
+  pos: noun
+  gender: f
+  meaning: { en: "bathroom" }
+  note: { en: "also spelled salle de bain; the toilet is les toilettes" }
+  examples:
+    - { text: "Va dans la salle de bains.", translation: "Get in the bathroom.", source: "tatoeba:6376064" }
+- id: fr-w-1067
+  type: word
+  cefr: A1
+  text: "lampe"
+  pos: noun
+  gender: f
+  meaning: { en: "lamp" }
+  note: { en: "lampe de poche = torch, flashlight" }
+  examples:
+    - { text: "Combien coûte cette lampe ?", translation: "How much does that lamp cost?", source: "tatoeba:10288356" }
+- id: fr-w-1068
+  type: word
+  cefr: A2
+  text: "armoire"
+  pos: noun
+  gender: f
+  meaning: { en: "wardrobe, cupboard" }
+  examples:
+    - { text: "L'armoire est utilisée pour les vêtements.", translation: "The wardrobe is used for clothes.", source: "tatoeba:11250914" }
+- id: fr-w-1069
+  type: word
+  cefr: A2
+  text: "miroir"
+  pos: noun
+  gender: m
+  meaning: { en: "mirror" }
+  examples:
+    - { text: "Je me regarde dans le miroir.", translation: "I look at myself in the mirror.", source: "tatoeba:11519865" }
+- id: fr-w-1070
+  type: word
+  cefr: A2
+  text: "tapis"
+  pos: noun
+  gender: m
+  meaning: { en: "rug, carpet" }
+  examples:
+    - { text: "Ce tapis a un joli motif.", translation: "This rug has a nice pattern.", source: "tatoeba:8641378" }
+- id: fr-w-1071
+  type: word
+  cefr: A2
+  text: "rideau"
+  pos: noun
+  gender: m
+  meaning: { en: "curtain" }
+  note: { en: "plural rideaux" }
+  examples:
+    - { text: "Ferme les rideaux, s'il te plaît.", translation: "Please close the curtains.", source: "tatoeba:6545597" }
+- id: fr-w-1072
+  type: word
+  cefr: A2
+  text: "plafond"
+  pos: noun
+  gender: m
+  meaning: { en: "ceiling" }
+  examples:
+    - { text: "Je peux presque toucher le plafond.", translation: "I can almost touch the ceiling.", source: "tatoeba:8314967" }
+- id: fr-w-1073
+  type: word
+  cefr: A2
+  text: "meuble"
+  pos: noun
+  gender: m
+  meaning: { en: "piece of furniture" }
+  note: { en: "les meubles = furniture; meublé = furnished" }
+  examples:
+    - { text: "Qui a déplacé les meubles ?", translation: "Who moved the furniture?", source: "tatoeba:2048843" }
+- id: fr-w-1074
+  type: word
+  cefr: A2
+  text: "poubelle"
+  pos: noun
+  gender: f
+  meaning: { en: "bin, rubbish bin" }
+  note: { en: "sortir la poubelle = to take out the rubbish" }
+  examples:
+    - { text: "N'oublie pas de sortir la poubelle.", translation: "Don't forget to take out the garbage.", source: "tatoeba:11658375" }
+- id: fr-w-1075
+  type: word
+  cefr: A2
+  text: "oreiller"
+  pos: noun
+  gender: m
+  meaning: { en: "pillow" }
+  examples:
+    - { text: "Mon oreiller est si moelleux !", translation: "My pillow is so soft!", source: "tatoeba:960127" }
+- id: fr-w-1076
+  type: word
+  cefr: A2
+  text: "couverture"
+  pos: noun
+  gender: f
+  meaning: { en: "blanket; cover" }
+  examples:
+    - { text: "Tu veux une autre couverture ?", translation: "Do you want another blanket?", source: "tatoeba:13210162" }
+- id: fr-w-1077
+  type: word
+  cefr: B1
+  text: "drap"
+  pos: noun
+  gender: m
+  meaning: { en: "(bed) sheet" }
+  examples:
+    - { text: "Les draps ont été changés hier.", translation: "The sheets were changed yesterday.", source: "tatoeba:4342833" }
+- id: fr-w-1078
+  type: word
+  cefr: A2
+  text: "chauffage"
+  pos: noun
+  gender: m
+  meaning: { en: "heating" }
+  examples:
+    - { text: "Le chauffage ne fonctionne pas.", translation: "The heater doesn't work.", source: "tatoeba:1085558" }
+- id: fr-w-1079
+  type: word
+  cefr: A1
+  text: "pyjama"
+  pos: noun
+  gender: m
+  meaning: { en: "pyjamas" }
+  note: { en: "singular in French: un pyjama" }
+  examples:
+    - { text: "Mets ton pyjama et va au lit.", translation: "Put your pajamas on and go to bed.", source: "tatoeba:6821252" }
+- id: fr-w-1080
+  type: word
+  cefr: A2
+  text: "épaule"
+  pos: noun
+  gender: f
+  meaning: { en: "shoulder" }
+  examples:
+    - { text: "Mon épaule droite me fait mal.", translation: "My right shoulder hurts.", source: "tatoeba:1087644" }
+- id: fr-w-1081
+  type: word
+  cefr: A2
+  text: "cou"
+  pos: noun
+  gender: m
+  meaning: { en: "neck" }
+  examples:
+    - { text: "J'ai un peu mal au cou.", translation: "My neck hurts a little.", source: "tatoeba:11972579" }
+- id: fr-w-1082
+  type: word
+  cefr: A2
+  text: "gorge"
+  pos: noun
+  gender: f
+  meaning: { en: "throat" }
+  note: { en: "j'ai mal à la gorge = I have a sore throat" }
+  examples:
+    - { text: "Ma gorge est un peu sèche.", translation: "My throat is a bit dry.", source: "tatoeba:5783184" }
+- id: fr-w-1083
+  type: word
+  cefr: A2
+  text: "estomac"
+  pos: noun
+  gender: m
+  meaning: { en: "stomach" }
+  note: { en: "the final c is silent" }
+  examples:
+    - { text: "Nous avons tous mal à l'estomac.", translation: "We all have stomachaches.", source: "tatoeba:3258829" }
+- id: fr-w-1084
+  type: word
+  cefr: A2
+  text: "peau"
+  pos: noun
+  gender: f
+  meaning: { en: "skin" }
+  examples:
+    - { text: "Il a une peau très claire.", translation: "He has very fair skin.", source: "tatoeba:8899813" }
+- id: fr-w-1085
+  type: word
+  cefr: A2
+  text: "lèvre"
+  pos: noun
+  gender: f
+  meaning: { en: "lip" }
+  examples:
+    - { text: "Il m'a embrassé sur les lèvres.", translation: "He kissed me on the lips.", source: "tatoeba:4956908" }
+- id: fr-w-1086
+  type: word
+  cefr: A2
+  text: "cerveau"
+  pos: noun
+  gender: m
+  meaning: { en: "brain" }
+  note: { en: "plural cerveaux" }
+  examples:
+    - { text: "Le cerveau a une structure complexe.", translation: "The brain has a complex structure.", source: "tatoeba:4546512" }
+- id: fr-w-1087
+  type: word
+  cefr: A1
+  text: "pull"
+  pos: noun
+  gender: m
+  meaning: { en: "jumper, sweater" }
+  note: { en: "short for pull-over" }
+  examples:
+    - { text: "Ce pull rouge te va bien.", translation: "You look nice in that red sweater.", source: "tatoeba:7701787" }
+- id: fr-w-1088
+  type: word
+  cefr: A2
+  text: "ceinture"
+  pos: noun
+  gender: f
+  meaning: { en: "belt; seat belt" }
+  examples:
+    - { text: "Tu as attaché ta ceinture ?", translation: "Are you strapped in?", source: "tatoeba:9853940" }
+- id: fr-w-1089
+  type: word
+  cefr: A2
+  text: "botte"
+  pos: noun
+  gender: f
+  meaning: { en: "boot" }
+  examples:
+    - { text: "Ces bottes sont faites en cuir.", translation: "These boots are made of leather.", source: "tatoeba:820132" }
+- id: fr-w-1090
+  type: word
+  cefr: A2
+  text: "écharpe"
+  pos: noun
+  gender: f
+  meaning: { en: "scarf" }
+  examples:
+    - { text: "Où avait-elle acheté cette écharpe ?", translation: "Where did she buy that scarf?", source: "tatoeba:7498196" }
+- id: fr-w-1091
+  type: word
+  cefr: A2
+  text: "gant"
+  pos: noun
+  gender: m
+  meaning: { en: "glove" }
+  examples:
+    - { text: "Je ne retrouve pas mes gants.", translation: "I can't find my gloves.", source: "tatoeba:1490862" }
+- id: fr-w-1092
+  type: word
+  cefr: A2
+  text: "cravate"
+  pos: noun
+  gender: f
+  meaning: { en: "tie" }
+  examples:
+    - { text: "Il ne met jamais de cravate.", translation: "He never wears a tie.", source: "tatoeba:3359872" }
+- id: fr-w-1093
+  type: word
+  cefr: A1
+  text: "jean"
+  pos: noun
+  gender: m
+  meaning: { en: "jeans" }
+  note: { en: "singular: un jean = a pair of jeans" }
+  examples:
+    - { text: "Mon frère m'a donné un jean.", translation: "My brother gave me a pair of jeans.", source: "tatoeba:8898" }
