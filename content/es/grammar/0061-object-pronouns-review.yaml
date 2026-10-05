@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0061
+cefr: A2
+order: 61
+title: "Lo, le, se lo: object pronouns — a review"
+explanation:
+  en: |
+    **Two sets of pronouns** (lessons 11 and 15):
+    - **direct** — *what / whom*: me, te, ***lo / la***, nos, os, ***los / las*** — *¿El libro? **Lo** compré.* *¿Ana? **La** conozco.*
+    - **indirect** — *to / for whom*: me, te, ***le***, nos, os, ***les*** — ***Le** di mi dirección.* (to him / to her / to you, usted)
+
+    **Both together:** indirect first — *me lo, te la, nos los*. And ***le / les* + lo / la / los / las → *se***: *Se lo dije a Tom* (never ~~le lo~~).
+
+    **Doubling:** Spanish often keeps *le* even when the person is named: ***Le** di el libro **a Ana**.* If the object comes first, the pronoun is required: ***A mi hermano le** regalé un reloj.* *Las fotos **las** tengo yo.*
+
+    **Where they go** (lesson 40):
+    - before a conjugated verb or a negative command: ***Te lo** dije.* *No **me lo** digas.*
+    - glued to an affirmative command: ***Dámelo.*** *Pruébatelo.*
+    - with an infinitive or a gerund — before the first verb or glued to the end: ***Te lo** voy a decir* = *Voy a **decírtelo***; ***Lo** estoy leyendo* = *Estoy **leyéndolo***
+
+    **Accent:** glued pronouns add syllables, so the stressed vowel gets a written accent: *da → **dá**melo, probar → pro**bár**melo, lavando → la**ván**dolos*.
+comparison:
+  en: |
+    Russian marks the same difference with cases: *lo / la* ≈ «его / её» (винительный), *le* ≈ «ему / ей» (дательный). Typical mistakes: ~~le lo~~ (→ *se lo*), forgetting the pronoun after a fronted object, and *le* for "her" as a direct object (*la vi*, not ~~le vi~~). In Spain you will also hear *le* for "him" (*le conozco*) — that is accepted there, but *lo* is always correct.
+examples:
+  - { text: "Le di mi dirección.", translation: "I gave him my address.", source: "tatoeba:959513" }
+  - { text: "Te lo dije.", translation: "I told you.", source: "tatoeba:9998558" }
+  - { text: "Se lo dije a Tom.", translation: "I told Tom.", source: "tatoeba:2624559" }
+  - { text: "¿Puedo probármelo?", translation: "Can I try it on?", source: "tatoeba:1852328" }
+  - { text: "No puedo dártelos.", translation: "I can't give those to you.", source: "tatoeba:2880071" }
+exercises:
+  - type: cloze
+    text: "¿Has visto a María? — Sí, ___ vi ayer."
+    answer: "la"
+    hint: "María → direct object"
+    translation: "Have you seen María? — Yes, I saw her yesterday."
+  - type: cloze
+    text: "A mi hermano ___ regalé un reloj."
+    answer: "le"
+    hint: "to my brother → indirect object"
+    translation: "I gave my brother a watch."
+  - type: cloze
+    text: "¿El reloj? Se ___ regalé a mi hermano."
+    answer: "lo"
+    hint: "el reloj → direct object"
+    translation: "The watch? I gave it to my brother."
+  - type: cloze
+    text: "¿Las llaves? ¿Me ___ puedes dar?"
+    answer: "las"
+    hint: "las llaves → direct object"
+    translation: "The keys? Can you give them to me?"
+  - type: cloze
+    text: "¿Las llaves? ¿Puedes ___?"
+    answer: "dármelas"
+    hint: "dar + me + las (add an accent)"
+    translation: "The keys? Can you give them to me?"
+  - type: cloze
+    text: "¿Les has contado la noticia a tus padres? — Sí, ya ___ la he contado."
+    answer: "se"
+    hint: "les + la → ?"
+    translation: "Have you told your parents the news? — Yes, I've already told them."
+  - type: cloze
+    text: "¿Los platos? Estoy ___ ahora."
+    answer: "lavándolos"
+    hint: "lavando + los (add an accent)"
+    translation: "The dishes? I'm washing them now."
+  - type: cloze
+    text: "¿Te gusta este vestido? ___, a ver cómo te queda."
+    answer: "Pruébatelo"
+    hint: "probarse (tú command) + lo"
+    translation: "Do you like this dress? Try it on, let's see how it looks on you."
