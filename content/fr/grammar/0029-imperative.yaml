@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0029
+cefr: A2
+order: 119
+title: "The imperative: parle, venez, allons-y, aide-moi"
+explanation:
+  en: |
+    The imperative has three forms — ***tu***, ***nous*** (let's), ***vous*** — taken from the present tense **without the subject**:
+    - *tu viens → **Viens !***, *nous partons → **Partons !***, *vous écoutez → **Écoutez !***
+    - **-er verbs and *aller* drop the *-s* of the *tu* form:** *tu parles → **Parle** plus fort ! tu vas → **Va** à l'école !*
+    - other verbs keep it: ***Finis**, **Prends**, **Fais**, **Viens***
+
+    **Four irregular ones:**
+    - **être**: *sois, soyons, soyez* — *Sois sage !*
+    - **avoir**: *aie, ayons, ayez* — *N'aie pas peur !*
+    - **savoir**: *sache, sachons, sachez*
+    - **vouloir**: ***veuillez*** + infinitive = "please" in formal writing: *Veuillez patienter.*
+
+    **Pronouns:**
+    - affirmative → **after** the verb, with a hyphen; *me, te* become ***moi, toi***: *Aide-**moi**. Lève-**toi** ! Prends-**le**.*
+    - two pronouns: *le / la / les* first: *Donne-**le-moi**.*
+    - negative → the usual place, **before** the verb: *Ne **le** fais pas ! Ne **te** lève pas.*
+
+    With *y* and *en* the *-s* comes back for the sound: ***Vas-y !***
+comparison:
+  en: |
+    Spanish works the same way — pronouns attach to an affirmative command and go in front of a negative one (*ayúdame* / *no me ayudes*). But French keeps the normal present form in the negative (*ne parle pas*), with no special subjunctive form like Spanish *no hables*.
+examples:
+  - { text: "Parle plus fort !", translation: "Speak louder!", source: "tatoeba:504430" }
+  - { text: "Aide-moi.", translation: "Help me.", source: "tatoeba:428130" }
+  - { text: "Ne le fais pas !", translation: "Don't do it!", source: "tatoeba:1111977" }
+  - { text: "Sois sage.", translation: "Behave yourself.", source: "tatoeba:13481471" }
+  - { text: "Allons-y !", translation: "Let's go!", source: "tatoeba:139646" }
+exercises:
+  - type: cloze
+    text: "___ la fenêtre, s'il te plaît."
+    answer: "Ferme"
+    hint: "fermer, tu — no -s"
+    translation: "Close the window, please."
+  - type: cloze
+    text: "___ tes devoirs !"
+    answer: "Fais"
+    hint: "faire, tu"
+    translation: "Do your homework!"
+  - type: cloze
+    text: "___ patients, s'il vous plaît."
+    answer: "Soyez"
+    hint: "être, vous"
+    translation: "Please be patient."
+  - type: cloze
+    text: "N'___ pas peur !"
+    answer: "aie"
+    hint: "avoir, tu"
+    translation: "Don't be afraid!"
+  - type: cloze
+    text: "Lève-___ ! Il est déjà huit heures."
+    answer: "toi"
+    hint: "se lever, tu — te after the verb"
+    translation: "Get up! It's already eight o'clock."
+  - type: cloze
+    text: "Ce livre est super, lis-___ !"
+    answer: "le"
+    hint: "it (ce livre)"
+    translation: "This book is great — read it!"
+  - type: cloze
+    text: "Il fait beau : ___ au parc !"
+    answer: "allons"
+    hint: "aller — let's"
+    translation: "The weather is nice: let's go to the park!"
+  - type: cloze
+    text: "Ne ___ dérange pas, je travaille."
+    answer: "me"
+    hint: "me — negative, before the verb"
+    translation: "Don't disturb me, I'm working."
