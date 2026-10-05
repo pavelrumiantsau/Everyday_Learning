@@ -1,0 +1,403 @@
+# Generated from scripts/batches/es-a2-basics-2120.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: es-w-2120
+  type: word
+  cefr: A1
+  text: "centro"
+  pos: noun
+  gender: m
+  meaning: { en: "centre; town centre" }
+  note: { en: "el centro comercial = shopping centre" }
+  examples:
+    - { text: "¿Puedes decirme cómo llegar al centro?", translation: "Can you tell me how to get to the town centre?", source: "tatoeba:1526202" }
+- id: es-w-2121
+  type: word
+  cefr: A2
+  text: "espacio"
+  pos: noun
+  gender: m
+  meaning: { en: "space; room" }
+  examples:
+    - { text: "Hay suficiente espacio en el ático.", translation: "There's ample room in the attic.", source: "tatoeba:728708" }
+- id: es-w-2122
+  type: word
+  cefr: B1
+  text: "valor"
+  pos: noun
+  gender: m
+  meaning: { en: "value; courage" }
+  examples:
+    - { text: "Este reloj es de gran valor.", translation: "This watch is of great value.", source: "tatoeba:609731" }
+- id: es-w-2123
+  type: word
+  cefr: B1
+  text: "orden"
+  pos: noun
+  gender: m
+  meaning: { en: "order (sequence, tidiness)" }
+  note: { en: "la orden = an order, a command" }
+  examples:
+    - { text: "Los nombres están en orden alfabético.", translation: "The names are in alphabetical order.", source: "tatoeba:2571592" }
+- id: es-w-2124
+  type: word
+  cefr: A2
+  text: "resto"
+  pos: noun
+  gender: m
+  meaning: { en: "rest, remainder" }
+  note: { en: "el resto de = the rest of" }
+  examples:
+    - { text: "Escuchemos el resto de la historia.", translation: "Let's hear the rest of the story.", source: "tatoeba:1481559" }
+- id: es-w-2125
+  type: word
+  cefr: A2
+  text: "final"
+  pos: noun
+  gender: m
+  meaning: { en: "end, ending" }
+  note: { en: "al final = in the end; also adj.: final" }
+  examples:
+    - { text: "Oh, no me gustó el final.", translation: "Oh, I didn't like the ending.", source: "tatoeba:496827" }
+- id: es-w-2126
+  type: word
+  cefr: A2
+  text: "prueba"
+  pos: noun
+  gender: f
+  meaning: { en: "test; proof" }
+  note: { en: "from probar" }
+  examples:
+    - { text: "Por supuesto que pasó la prueba.", translation: "Of course she passed the test.", source: "tatoeba:1425183" }
+- id: es-w-2127
+  type: word
+  cefr: B1
+  text: "asunto"
+  pos: noun
+  gender: m
+  meaning: { en: "matter, affair; subject (of an e-mail)" }
+  examples:
+    - { text: "¿Cómo vamos a tratar este asunto?", translation: "How shall we deal with this matter?", source: "tatoeba:720055" }
+- id: es-w-2128
+  type: word
+  cefr: A2
+  text: "atención"
+  pos: noun
+  gender: f
+  meaning: { en: "attention" }
+  note: { en: "prestar atención = to pay attention; llamar la atención = to attract attention" }
+  examples:
+    - { text: "Presta más atención a tu trabajo.", translation: "Pay more attention to your work.", source: "tatoeba:1080457" }
+- id: es-w-2129
+  type: word
+  cefr: B1
+  text: "daño"
+  pos: noun
+  gender: m
+  meaning: { en: "harm, damage" }
+  note: { en: "hacer daño = to hurt" }
+  examples:
+    - { text: "No era mi intención hacerte daño.", translation: "I didn't mean to hurt you.", source: "tatoeba:1214506" }
+- id: es-w-2130
+  type: word
+  cefr: A2
+  text: "pena"
+  pos: noun
+  gender: f
+  meaning: { en: "pity; sorrow; penalty" }
+  note: { en: "¡qué pena! = what a pity!; vale la pena = it's worth it" }
+  examples:
+    - { text: "Vale la pena visitar el museo.", translation: "It is worthwhile visiting the museum.", source: "tatoeba:728494" }
+- id: es-w-2131
+  type: word
+  cefr: A2
+  text: "vista"
+  pos: noun
+  gender: f
+  meaning: { en: "sight, eyesight; view" }
+  note: { en: "hasta la vista = see you; perder de vista = to lose sight of" }
+  examples:
+    - { text: "Mi hermana tiene una vista perfecta.", translation: "My sister has perfect vision.", source: "tatoeba:1401098" }
+- id: es-w-2132
+  type: word
+  cefr: A2
+  text: "sala"
+  pos: noun
+  gender: f
+  meaning: { en: "room, hall; living room" }
+  note: { en: "sala de espera = waiting room" }
+  examples:
+    - { text: "Espere en la sala de espera.", translation: "Wait in the waiting room.", source: "tatoeba:449785" }
+- id: es-w-2133
+  type: word
+  cefr: A2
+  text: "prisa"
+  pos: noun
+  gender: f
+  meaning: { en: "hurry, rush" }
+  note: { en: "tener prisa = to be in a hurry; ¡date prisa! = hurry up! (Spain; Latin America: ¡apúrate!)" }
+  examples:
+    - { text: "Date prisa o perderás el tren.", translation: "Hurry up, or you'll miss the train.", source: "tatoeba:491232" }
+- id: es-w-2134
+  type: word
+  cefr: A2
+  text: "cámara"
+  pos: noun
+  gender: f
+  meaning: { en: "camera" }
+  examples:
+    - { text: "El otro día compré una cámara.", translation: "I bought a camera the other day.", source: "tatoeba:1192067" }
+- id: es-w-2135
+  type: word
+  cefr: A2
+  text: "principio"
+  pos: noun
+  gender: m
+  meaning: { en: "beginning; principle" }
+  note: { en: "al principio = at first" }
+  examples:
+    - { text: "Al principio no entendí qué decía.", translation: "At first I didn't understand what it said.", source: "tatoeba:1703073" }
+- id: es-w-2136
+  type: word
+  cefr: B1
+  text: "deseo"
+  pos: noun
+  gender: m
+  meaning: { en: "wish, desire" }
+  note: { en: "also: deseo = I wish (desear)" }
+  examples:
+    - { text: "Tu deseo se ha vuelto realidad.", translation: "Your wish has come true.", source: "tatoeba:1125637" }
+- id: es-w-2137
+  type: word
+  cefr: A2
+  text: "permiso"
+  pos: noun
+  gender: m
+  meaning: { en: "permission; permit, licence" }
+  note: { en: "permiso de conducir = driving licence; con permiso = excuse me (to pass)" }
+  examples:
+    - { text: "¿Puedo ver su permiso de conducir?", translation: "Could I see your driver's license?", source: "tatoeba:1670097" }
+- id: es-w-2138
+  type: word
+  cefr: A1
+  text: "maestro"
+  pos: noun
+  gender: m
+  meaning: { en: "(primary school) teacher; master" }
+  note: { en: "la maestra; no article after ser: es maestro" }
+  examples:
+    - { text: "Él es maestro y yo también.", translation: "He's a teacher and so am I.", source: "tatoeba:488839" }
+- id: es-w-2139
+  type: word
+  cefr: B1
+  text: "mayoría"
+  pos: noun
+  gender: f
+  meaning: { en: "majority, most" }
+  note: { en: "la mayoría de = most (of)" }
+  examples:
+    - { text: "La mayoría de ellos son canadienses.", translation: "Most of them are Canadians.", source: "tatoeba:5755668" }
+- id: es-w-2140
+  type: word
+  cefr: B1
+  text: "causa"
+  pos: noun
+  gender: f
+  meaning: { en: "cause" }
+  note: { en: "a causa de = because of" }
+  examples:
+    - { text: "La causa del incendio era desconocida.", translation: "The cause of the fire was unknown.", source: "tatoeba:758077" }
+- id: es-w-2141
+  type: word
+  cefr: B1
+  text: "destino"
+  pos: noun
+  gender: m
+  meaning: { en: "destination; fate" }
+  note: { en: "con destino a = bound for" }
+  examples:
+    - { text: "Por fin llegamos a nuestro destino.", translation: "At last, we reached our destination.", source: "tatoeba:765567" }
+- id: es-w-2142
+  type: word
+  cefr: B1
+  text: "fondo"
+  pos: noun
+  gender: m
+  meaning: { en: "bottom; back; background" }
+  note: { en: "al fondo = at the back / at the end; a fondo = thoroughly" }
+  examples:
+    - { text: "Tenemos que llegar al fondo del misterio.", translation: "We must get to the bottom of this mystery.", source: "tatoeba:842115" }
+- id: es-w-2143
+  type: word
+  cefr: B1
+  text: "respeto"
+  pos: noun
+  gender: m
+  meaning: { en: "respect" }
+  note: { en: "respetar = to respect" }
+  examples:
+    - { text: "Ten más respeto hacia tus mayores.", translation: "Have more respect for your elders.", source: "tatoeba:7996147" }
+- id: es-w-2144
+  type: word
+  cefr: A1
+  text: "entrada"
+  pos: noun
+  gender: f
+  meaning: { en: "entrance; ticket" }
+  note: { en: "opposite: salida" }
+  examples:
+    - { text: "¿Dónde está la entrada del museo?", translation: "Where's the entrance to the museum?", source: "tatoeba:575331" }
+- id: es-w-2145
+  type: word
+  cefr: A1
+  text: "salida"
+  pos: noun
+  gender: f
+  meaning: { en: "exit; departure" }
+  note: { en: "false friend for éxito (= success); salida de emergencia = emergency exit" }
+  examples:
+    - { text: "¿Dónde está la salida de emergencia?", translation: "Where's the emergency exit?", source: "tatoeba:344086" }
+- id: es-w-2146
+  type: word
+  cefr: A2
+  text: "máquina"
+  pos: noun
+  gender: f
+  meaning: { en: "machine" }
+  examples:
+    - { text: "¿Podrías explicar cómo funciona esta máquina?", translation: "Can you explain how this machine works?", source: "tatoeba:347366" }
+- id: es-w-2147
+  type: word
+  cefr: A2
+  text: "fuego"
+  pos: noun
+  gender: m
+  meaning: { en: "fire" }
+  note: { en: "a fire in a building: un incendio" }
+  examples:
+    - { text: "Trabajaron juntos para apagar el fuego.", translation: "They worked together to put out the fire.", source: "tatoeba:589780" }
+- id: es-w-2148
+  type: word
+  cefr: A2
+  text: "sangre"
+  pos: noun
+  gender: f
+  meaning: { en: "blood" }
+  examples:
+    - { text: "Tom recibió una transfusión de sangre.", translation: "Tom was given a blood transfusion.", source: "tatoeba:1406275" }
+- id: es-w-2149
+  type: word
+  cefr: A1
+  text: "pueblo"
+  pos: noun
+  gender: m
+  meaning: { en: "village, small town; people (nation)" }
+  note: { en: "mi pueblo = my home village" }
+  examples:
+    - { text: "Esta primavera volví a mi pueblo.", translation: "I went back to my village this spring.", source: "tatoeba:360238" }
+- id: es-w-2150
+  type: word
+  cefr: A1
+  text: "cielo"
+  pos: noun
+  gender: m
+  meaning: { en: "sky; heaven" }
+  examples:
+    - { text: "¿Por qué es azul el cielo?", translation: "Why is the sky blue?", source: "tatoeba:644628" }
+- id: es-w-2151
+  type: word
+  cefr: A1
+  text: "luna"
+  pos: noun
+  gender: f
+  meaning: { en: "moon" }
+  examples:
+    - { text: "La luna está bonita esta noche.", translation: "The moon is nice tonight.", source: "tatoeba:1135947" }
+- id: es-w-2152
+  type: word
+  cefr: A1
+  text: "estrella"
+  pos: noun
+  gender: f
+  meaning: { en: "star" }
+  note: { en: "estrella fugaz = shooting star" }
+  examples:
+    - { text: "Acabo de ver una estrella fugaz.", translation: "I just saw a shooting star.", source: "tatoeba:983094" }
+- id: es-w-2153
+  type: word
+  cefr: A1
+  text: "edificio"
+  pos: noun
+  gender: m
+  meaning: { en: "building" }
+  examples:
+    - { text: "El edificio es viejo pero sólido.", translation: "The building is old but solid.", source: "tatoeba:462621" }
+- id: es-w-2154
+  type: word
+  cefr: A2
+  text: "enfermedad"
+  pos: noun
+  gender: f
+  meaning: { en: "illness, disease" }
+  note: { en: "enfermo = ill" }
+  examples:
+    - { text: "Ningún remedio puede curar esta enfermedad.", translation: "No medicine can cure this disease.", source: "tatoeba:958644" }
+- id: es-w-2155
+  type: word
+  cefr: A2
+  text: "basura"
+  pos: noun
+  gender: f
+  meaning: { en: "rubbish, trash" }
+  note: { en: "sacar la basura = to take out the rubbish; comida basura = junk food" }
+  examples:
+    - { text: "Tom quiere que saques la basura.", translation: "Tom wants you to take the garbage out.", source: "tatoeba:2088874" }
+- id: es-w-2156
+  type: word
+  cefr: A2
+  text: "puente"
+  pos: noun
+  gender: m
+  meaning: { en: "bridge" }
+  note: { en: "also: a long weekend (hacer puente)" }
+  examples:
+    - { text: "El puente une las dos ciudades.", translation: "The bridge connects the two cities.", source: "tatoeba:1053882" }
+- id: es-w-2157
+  type: word
+  cefr: A2
+  text: "tierra"
+  pos: noun
+  gender: f
+  meaning: { en: "earth; land; soil" }
+  note: { en: "la Tierra = the Earth (planet)" }
+  examples:
+    - { text: "La Tierra es un bello planeta.", translation: "Earth is a beautiful planet.", source: "tatoeba:342880" }
+- id: es-w-2158
+  type: word
+  cefr: A2
+  text: "campo"
+  pos: noun
+  gender: m
+  meaning: { en: "countryside; field" }
+  note: { en: "vivir en el campo = to live in the country" }
+  examples:
+    - { text: "Mi abuela vive en el campo.", translation: "My grandmother lives in the country.", source: "tatoeba:663861" }
+- id: es-w-2159
+  type: word
+  cefr: A2
+  text: "naturaleza"
+  pos: noun
+  gender: f
+  meaning: { en: "nature" }
+  note: { en: "por naturaleza = by nature" }
+  examples:
+    - { text: "La naturaleza está llena de misterio.", translation: "Nature is full of mystery.", source: "tatoeba:1216395" }
+- id: es-w-2160
+  type: word
+  cefr: A2
+  text: "semáforo"
+  pos: noun
+  gender: m
+  meaning: { en: "traffic light" }
+  examples:
+    - { text: "El semáforo se puso en rojo.", translation: "The traffic light changed to red.", source: "tatoeba:1415315" }
