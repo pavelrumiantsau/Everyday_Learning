@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0105
+cefr: B1
+order: 105
+title: "Знать: žinoti, pažinti, mokėti, išmanyti; узнать: sužinoti, atpažinti"
+explanation:
+  ru: |
+    Русское «знать» — четыре литовских глагола:
+
+    - ***žinoti*** (žino, žinojo) — знать **факт, информацию**: *Žinau, kur jis gyvena.* · *Ar žinai, kiek valandų?*
+    - ***pažinti*** (pažįsta, pažino) — знать **человека или место** (быть знакомым): *Pažįstu jį seniai.* · *Gerai pažįstu Vilnių.*
+      - ***susipažinti*** su kuo — познакомиться: *Malonu susipažinti!*
+    - ***mokėti*** — знать **язык**, уметь: *Moku tris kalbas.*
+    - ***išmanyti*** + вин. — **разбираться**: *Jis išmano kompiuterius.*
+
+    «Узнать» — тоже по-разному:
+    - ***sužinoti*** — узнать **новость**: *Sužinojau, kad…*
+    - ***atpažinti*** — узнать **в лицо**: *Neatpažinau tavęs!*
+comparison:
+  ru: |
+    «Я его знаю» = *Aš jį **pažįstu*** (не *žinau*). «Знаю английский» = *Moku anglų kalbą*. «Не узнал тебя» = *Neatpažinau tavęs*, а «узнал, что…» = *Sužinojau, kad…*.
+examples:
+  - { text: "Aš ją pažįstu.", translation: "Я её знаю.", source: "tatoeba:9233631" }
+  - { text: "Aš abu pažįstu.", translation: "Я знаю обоих.", source: "tatoeba:12195928" }
+  - { text: "Ką tu žinai?", translation: "Что ты знаешь?", source: "tatoeba:2728961" }
+  - { text: "Ji jau žino.", translation: "Она уже знает.", source: "tatoeba:12202073" }
+exercises:
+  - type: cloze
+    text: "Ar ___, kur yra stotis?"
+    answer: "žinai"
+    hint: "факт → ты"
+    translation: "Ты знаешь, где вокзал?"
+  - type: cloze
+    text: "Aš ___ tavo brolį – mes kartu mokėmės."
+    answer: "pažįstu"
+    hint: "человека → я"
+    translation: "Я знаю твоего брата — мы вместе учились."
+  - type: cloze
+    text: "Ji ___ keturias kalbas."
+    answer: "moka"
+    hint: "язык → она"
+    translation: "Она знает четыре языка."
+  - type: cloze
+    text: "Malonu ___!"
+    answer: "susipažinti"
+    hint: "познакомиться"
+    translation: "Приятно познакомиться!"
+  - type: cloze
+    text: "Vakar ___, kad jis išvažiavo."
+    answer: "sužinojau"
+    hint: "sužinoti → я"
+    translation: "Вчера я узнал, что он уехал."
+  - type: cloze
+    text: "Po tiek metų jo net ___."
+    answer: "neatpažinau"
+    hint: "atpažinti → я, отриц."
+    translation: "Спустя столько лет я его даже не узнал."
+  - type: cloze
+    text: "Mano tėtis gerai ___ automobilius."
+    answer: "išmano"
+    hint: "разбирается"
+    translation: "Мой папа хорошо разбирается в машинах."
+  - type: cloze
+    text: "Ar gerai ___ Kauną?"
+    answer: "pažįsti"
+    hint: "место → ты"
+    translation: "Ты хорошо знаешь Каунас?"

@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0111
+cefr: B1
+order: 111
+title: "Говорить, сказать, рассказать: kalbėti, sakyti, pasakoti, šnekėti"
+explanation:
+  ru: |
+    - ***kalbėti*** (kalba, kalbėjo) — говорить (процесс, язык, разговор): *kalbėti **lietuviškai***, *kalbėti **su** draugu*, *kalbėti **apie** darbą*
+    - ***sakyti / pasakyti*** (sako, sakė / pasako, pasakė) — сказать **что-то** (слова, содержание): *Ką jis pasakė?* · *Sakė, kad ateis.* · *sakyti tiesą*
+    - ***pasakoti / papasakoti*** (pasakoja, pasakojo) — рассказывать (историю, события): *Papasakok, kaip sekėsi.*
+    - ***šnekėti*** (šneka, šnekėjo) — говорить, болтать (разговорное): *Žmonės šneka.*
+    - ***tarti / ištarti*** — произнести: *neištarė nė žodžio*
+
+    «Говорят, что…» — ***Sako, kad…*** или книжно ***Kalbama, kad…***
+comparison:
+  ru: |
+    Различие как у «говорить» и «сказать»: процесс — *kalbėti*, содержание — *sakyti*. «Говорить правду» — *sakyti tiesą*, а «говорить по-литовски» — *kalbėti lietuviškai*.
+examples:
+  - { text: "Ką jis pasakė?", translation: "Что он сказал?", source: "tatoeba:8023811" }
+  - { text: "Kas jai papasakojo?", translation: "Кто ей рассказал?", source: "tatoeba:11293620" }
+  - { text: "Jie pasakoja istoriją.", translation: "Они рассказывают историю.", source: "tatoeba:13681560" }
+  - { text: "Ji kalba rusiškai.", translation: "Она говорит по-русски.", source: "tatoeba:1663645" }
+  - { text: "Žmonės šneka.", translation: "Люди говорят.", source: "tatoeba:11900099" }
+exercises:
+  - type: cloze
+    text: "Ar tu ___ lietuviškai?"
+    answer: "kalbi"
+    hint: "говоришь (язык)"
+    translation: "Ты говоришь по-литовски?"
+  - type: cloze
+    text: "Ką jis tau ___?"
+    answer: "pasakė"
+    hint: "сказал"
+    translation: "Что он тебе сказал?"
+  - type: cloze
+    text: "___, kaip praėjo atostogos!"
+    answer: "Papasakok"
+    hint: "расскажи"
+    translation: "Расскажи, как прошёл отпуск!"
+  - type: cloze
+    text: "Visada ___ tiesą."
+    answer: "sakyk"
+    hint: "говори (содержание)"
+    translation: "Всегда говори правду."
+  - type: cloze
+    text: "Su kuo tu ___ telefonu?"
+    answer: "kalbėjai"
+    hint: "говорил (разговор)"
+    translation: "С кем ты говорил по телефону?"
+  - type: cloze
+    text: "Vaikystėje senelė mums ___ pasakas."
+    answer: "pasakodavo"
+    hint: "pasakoti → бывало"
+    translation: "В детстве бабушка рассказывала нам сказки."
+  - type: cloze
+    text: "___, kad rytoj lis."
+    answer: "Sako"
+    hint: "говорят"
+    translation: "Говорят, что завтра будет дождь."
+  - type: cloze
+    text: "Jis negalėjo ___ nė žodžio."
+    answer: "ištarti"
+    hint: "произнести"
+    translation: "Он не мог произнести ни слова."

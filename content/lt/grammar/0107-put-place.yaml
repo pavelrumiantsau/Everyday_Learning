@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0107
+cefr: B1
+order: 107
+title: "Положить, поставить, повесить: dėti, statyti, kabinti — guli, stovi, kabo"
+explanation:
+  ru: |
+    Как в русском, есть глаголы **действия** («положить») и **положения** («лежит»).
+
+    **Действие** (куда? — *ant* + род., *į* + вин.):
+    - ***dėti / padėti*** (deda, dėjo / padeda, padėjo) — класть, положить; часто и «поставить» чашку, тарелку: *Padėk raktus **ant stalo**.* · *Sudėk lėkštes **į spintelę**.*
+    - ***statyti / pastatyti*** — ставить (вертикально); ещё и «строить»: *Pastatyk dėžę į vietą.*
+    - ***kabinti / pakabinti*** — вешать: *Pakabink paltą į spintą.*
+
+    **Положение** (где?):
+    - ***gulėti*** (guli) — лежать · ***stovėti*** (stovi) — стоять · ***kabėti*** (kabo) — висеть · ***sėdėti*** (sėdi) — сидеть
+
+    ⚠️ *padėti* + **дательный** — это «помочь»: *Padėk **man**.*
+comparison:
+  ru: |
+    Литовцы чаще, чем русские, говорят *padėti* там, где мы «ставим»: *padėjo taurę ant stalo* — поставил бокал на стол. А часы, картина «висят» — *kabo*.
+examples:
+  - { text: "Tomas padėjo taurę ant stalo.", translation: "Том поставил бокал на стол.", source: "tatoeba:3153343" }
+  - { text: "Tomas padėjo knygas ant stalo.", translation: "Том положил книги на стол.", source: "tatoeba:4785613" }
+  - { text: "Dėžutę pastatyk į vietą.", translation: "Поставь коробку на место.", source: "tatoeba:12853322" }
+  - { text: "Žemėlapis kabo ant sienos.", translation: "Карта висит на стене.", source: "tatoeba:10667761" }
+  - { text: "Ji guli ant žemės.", translation: "Она лежит на земле.", source: "tatoeba:12292741" }
+exercises:
+  - type: cloze
+    text: "___ raktus ant stalo."
+    answer: "Padėk"
+    hint: "положи"
+    translation: "Положи ключи на стол."
+  - type: cloze
+    text: "Raktai ___ ant stalo."
+    answer: "guli"
+    hint: "лежат"
+    translation: "Ключи лежат на столе."
+  - type: cloze
+    text: "Pakabink paltą į ___."
+    answer: "spintą"
+    hint: "spinta → вин. п."
+    translation: "Повесь пальто в шкаф."
+  - type: cloze
+    text: "Ant sienos ___ senas laikrodis."
+    answer: "kabo"
+    hint: "висит"
+    translation: "На стене висят старые часы."
+  - type: cloze
+    text: "___ vazą ant palangės."
+    answer: "Pastatyk"
+    also: ["Padėk"]
+    hint: "поставь"
+    translation: "Поставь вазу на подоконник."
+  - type: cloze
+    text: "Prie durų ___ dviratis."
+    answer: "stovi"
+    hint: "стоит"
+    translation: "У двери стоит велосипед."
+  - type: cloze
+    text: "Kur ___ mano telefoną?"
+    answer: "padėjai"
+    hint: "положил (ты)"
+    translation: "Куда ты положил мой телефон?"
+  - type: cloze
+    text: "Paveikslą ___ virš sofos."
+    answer: "pakabinome"
+    hint: "pakabinti → мы"
+    translation: "Картину мы повесили над диваном."

@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0112
+cefr: A2
+order: 112
+title: "Тоже и также: irgi, taip pat, ir; aš irgi ne"
+explanation:
+  ru: |
+    - ***irgi*** — тоже (разговорное): *Aš **irgi** noriu.*
+    - ***taip pat*** — тоже, также (нейтральное, письменное): *Ji **taip pat** graži.* · *Laiške taip pat buvo nuotrauka.*
+    - ***ir*** — «и» в значении «тоже, даже»: ***Ir** aš!* · *Kur tu, ten **ir** aš.* · *Kviečiame **ir** jūsų šeimą.*
+
+    **С отрицанием** — так же, как в русском «я тоже не»:
+    - *Aš **irgi** nežinau.* · *Jos **taip pat** nėra.* · коротко: ***Ir aš ne.***
+
+    *irgi* и *taip pat* обычно стоят **сразу после** слова, к которому относятся: *Aš irgi…*, *Tomas taip pat…*
+comparison:
+  ru: |
+    В русском «тоже» с отрицанием иногда меняют на «тоже не» / «и я нет»; в литовском так же: *Aš irgi ne.* = *Ir aš ne.* Не путайте *taip pat* (тоже) с *taip* (так) и *pat* (самый, как раз): *tas pats*.
+examples:
+  - { text: "Taip, aš irgi.", translation: "Да, я тоже.", source: "tatoeba:12773627" }
+  - { text: "Aš irgi noriu!", translation: "Я тоже хочу!", source: "tatoeba:13719479" }
+  - { text: "Ji irgi nežino.", translation: "Она тоже не знает.", source: "tatoeba:8409755" }
+  - { text: "Ji taip pat graži.", translation: "Она тоже красивая.", source: "tatoeba:11965506" }
+  - { text: "Kur tu eisi, ten ir aš.", translation: "Куда ты пойдёшь, туда и я.", source: "tatoeba:13451899" }
+exercises:
+  - type: cloze
+    text: "– Aš alkanas. – Aš ___."
+    answer: "irgi"
+    also: ["taip pat"]
+    hint: "тоже"
+    translation: "— Я голоден. — Я тоже."
+  - type: cloze
+    text: "Jos ___ nėra namie."
+    answer: "irgi"
+    also: ["taip pat"]
+    hint: "тоже"
+    translation: "Её тоже нет дома."
+  - type: cloze
+    text: "Jei tu eisi, eisiu ___ aš."
+    answer: "ir"
+    hint: "и (тоже)"
+    translation: "Если ты пойдёшь, пойду и я."
+  - type: cloze
+    text: "– Aš to nežinau. – Aš ___ nežinau."
+    answer: "irgi"
+    also: ["taip pat"]
+    hint: "тоже не"
+    translation: "— Я этого не знаю. — Я тоже не знаю."
+  - type: cloze
+    text: "Laiške ___ pat buvo nuotrauka."
+    answer: "taip"
+    hint: "также"
+    translation: "В письме также была фотография."
+  - type: cloze
+    text: "– Nenoriu eiti. – ___ aš ne."
+    answer: "Ir"
+    hint: "и я нет"
+    translation: "— Не хочу идти. — И я нет."
+  - type: cloze
+    text: "Mano brolis ___ gyvena Kaune."
+    answer: "irgi"
+    also: ["taip pat"]
+    hint: "тоже"
+    translation: "Мой брат тоже живёт в Каунасе."
+  - type: cloze
+    text: "Kviečiame ___ jūsų šeimą."
+    answer: "ir"
+    hint: "и (тоже)"
+    translation: "Приглашаем и вашу семью."

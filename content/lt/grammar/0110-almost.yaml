@@ -1,0 +1,64 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0110
+cefr: B1
+order: 110
+title: "Почти, едва, чуть не: beveik, vos, vos ne-, kone, vos tik"
+explanation:
+  ru: |
+    - ***beveik*** — почти: *Beveik baigiau.* · *beveik visi*
+    - ***vos*** — едва, еле: *Vos girdžiu.* · *Vos spėjome.*
+    - ***vos ne-*** + глагол — **чуть не** (*ne* пишется слитно с глаголом): *Vos **ne**pavėlavau.* — чуть не опоздал
+    - ***kone*** — почти, чуть ли не (книжнее): *kone kasdien*
+    - ***vos tik*** — как только: *Vos tik atėjau, pradėjo lyti.*
+comparison:
+  ru: |
+    «Чуть не упал» — *vos **ne**pargriuvau*: отрицание при глаголе, ровно как в русском «чуть **не** упал». А «едва успели» — *vos spėjome*, без *ne*.
+examples:
+  - { text: "Jis vos nežuvo.", translation: "Он чуть не погиб.", source: "tatoeba:13051909" }
+  - { text: "Tomas vos nemirė.", translation: "Том чуть не умер.", source: "tatoeba:10474503" }
+  - { text: "Jis beveik užmigo.", translation: "Он почти уснул.", source: "tatoeba:1501614" }
+  - { text: "Tai beveik veikia.", translation: "Это почти работает.", source: "tatoeba:8990793" }
+exercises:
+  - type: cloze
+    text: "Darbą jau ___ baigiau."
+    answer: "beveik"
+    hint: "почти"
+    translation: "Я уже почти закончил работу."
+  - type: cloze
+    text: "Buvo taip tamsu, kad ___ mačiau kelią."
+    answer: "vos"
+    hint: "едва"
+    translation: "Было так темно, что я едва видел дорогу."
+  - type: cloze
+    text: "Paslydau ir vos ___."
+    answer: "nepargriuvau"
+    hint: "pargriūti → чуть не (я)"
+    translation: "Я поскользнулся и чуть не упал."
+  - type: cloze
+    text: "___ visi studentai išlaikė egzaminą."
+    answer: "Beveik"
+    hint: "почти"
+    translation: "Почти все студенты сдали экзамен."
+  - type: cloze
+    text: "___ tik grįžau namo, paskambino mama."
+    answer: "Vos"
+    hint: "как только"
+    translation: "Как только я вернулся домой, позвонила мама."
+  - type: cloze
+    text: "Jis ___ kasdien skambina tėvams."
+    answer: "kone"
+    also: ["beveik"]
+    hint: "чуть ли не"
+    translation: "Он чуть ли не каждый день звонит родителям."
+  - type: cloze
+    text: "Traukinys jau išvažiuoja – ___ spėjome!"
+    answer: "vos"
+    hint: "едва"
+    translation: "Поезд уже отправляется — едва успели!"
+  - type: cloze
+    text: "Iš juoko vos ___."
+    answer: "neapsiverkiau"
+    hint: "apsiverkti → чуть не (я)"
+    translation: "Я чуть не расплакался от смеха."

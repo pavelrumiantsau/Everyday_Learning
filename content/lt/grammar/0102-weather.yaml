@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0102
+cefr: B1
+order: 102
+title: "Погода: lyja, sninga, šąla, pučia vėjas, saulėta"
+explanation:
+  ru: |
+    О погоде говорят **безлично** — одним глаголом, без подлежащего:
+    - ***lyti*** (lyja, lijo, lis) — идёт дождь: *Lyja. Vakar lijo. Rytoj lis.*
+    - ***snigti*** (sninga, snigo, snigs) — идёт снег
+    - ***šalti*** (šąla, šalo) — морозит; и «мёрзнуть»: *Man šąla rankos.* — у меня мёрзнут руки
+    - ***temti*** (temsta) — темнеет · ***švisti*** (švinta) — светает
+    - ***griaudžia*** — гремит гром · ***žaibuoja*** — сверкает молния
+
+    **Ветер** — с подлежащим: *Pučia stiprus vėjas.* (*pūsti* — pučia, pūtė)
+
+    **Прилагательное в среднем роде:** *šilta, šalta, karšta, vėsu, drėgna, **saulėta, debesuota, vėjuota***: *Šiandien saulėta.*
+
+    **Градусы:** *penki laipsniai **šilumos*** (+5), *dešimt laipsnių **šalčio*** (−10).
+comparison:
+  ru: |
+    «Идёт дождь» — одно слово ***lyja***; *eina lietus* — русизм. «Мороз» в смысле «морозит» — тоже глагол: *Lauke šąla.*
+examples:
+  - { text: "Lauke šąla.", translation: "На улице мороз.", source: "tatoeba:13612957" }
+  - { text: "Naktį snigo.", translation: "Ночью шёл снег.", source: "tatoeba:13599880" }
+  - { text: "Šiandien lis.", translation: "Сегодня пойдёт дождь.", source: "tatoeba:12941139" }
+  - { text: "Vis dar lyja!", translation: "Дождь так и идёт!", source: "tatoeba:13056115" }
+exercises:
+  - type: cloze
+    text: "Pasiimk skėtį – lauke ___."
+    answer: "lyja"
+    hint: "идёт дождь"
+    translation: "Возьми зонт — на улице дождь."
+  - type: cloze
+    text: "Visą naktį ___, dabar viskas balta."
+    answer: "snigo"
+    hint: "snigti → прош."
+    translation: "Всю ночь шёл снег, теперь всё белое."
+  - type: cloze
+    text: "Rytoj ___ – taip sako orų prognozė."
+    answer: "lis"
+    hint: "lyti → буд."
+    translation: "Завтра будет дождь — так говорит прогноз погоды."
+  - type: cloze
+    text: "Prie jūros visada ___ stiprus vėjas."
+    answer: "pučia"
+    hint: "pūsti → наст."
+    translation: "У моря всегда дует сильный ветер."
+  - type: cloze
+    text: "Šiandien ___ – danguje nė debesėlio."
+    answer: "saulėta"
+    hint: "солнечно"
+    translation: "Сегодня солнечно — на небе ни облачка."
+  - type: cloze
+    text: "Kur mano pirštinės? Man ___ rankos."
+    answer: "šąla"
+    hint: "мёрзнут"
+    translation: "Где мои перчатки? У меня мёрзнут руки."
+  - type: cloze
+    text: "Lauke dešimt laipsnių ___."
+    answer: "šalčio"
+    hint: "мороза"
+    translation: "На улице десять градусов мороза."
+  - type: cloze
+    text: "Žiemą anksti ___."
+    answer: "temsta"
+    hint: "темнеет"
+    translation: "Зимой рано темнеет."

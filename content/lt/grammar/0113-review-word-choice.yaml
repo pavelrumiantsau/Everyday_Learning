@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0113
+cefr: B1
+order: 113
+title: "Повторение: выбери слово — žinoti / pažinti, žiūrėti / matyti, patinka / mėgstu, dėti / kabinti"
+explanation:
+  ru: |
+    Смешанная тренировка пар, где русское слово одно, а литовских несколько.
+
+    - **знать:** *žinoti* (факт) · *pažinti* (человека, место) · *mokėti* (язык)
+    - **смотреть / видеть:** *žiūrėti* (į ką) · *matyti / pamatyti*
+    - **слушать / слышать:** *klausytis* (ko) · *girdėti / išgirsti*
+    - **любить:** *mėgti* (вкусы, занятия) · *mylėti* (людей) · *patikti* (кому — нравиться)
+    - **положить / повесить:** *padėti, sudėti* · *pastatyti* · *pakabinti*; где — *guli, stovi, kabo*
+    - **говорить:** *kalbėti* (процесс, язык) · *sakyti* (содержание) · *pasakoti* (историю)
+    - **погода и цены:** *lyja, sninga*; *kainuoja du eurus, dešimt eurų*
+comparison:
+  ru: |
+    Хорошая проверка: можно ли по-русски заменить «знаю» на «знаком с»? Если да — *pažįstu*. «Смотрю» с «на» — *žiūriu į*, а «вижу» — *matau*. «Люблю» еду и занятия — *mėgstu*, людей — *myliu*.
+examples:
+  - { text: "Tu ją pažįsti.", translation: "Ты её знаешь.", source: "tatoeba:12178359" }
+  - { text: "Ar jis žino?", translation: "Он знает?", source: "tatoeba:12203628" }
+  - { text: "Jis į jį žiūri.", translation: "Он смотрит на него.", source: "tatoeba:12325781" }
+  - { text: "Jis mėgsta kavą.", translation: "Он любит кофе.", source: "tatoeba:6018259" }
+  - { text: "Tau ji patinka.", translation: "Она тебе нравится.", source: "tatoeba:14035318" }
+exercises:
+  - type: cloze
+    text: "Ar ___ tą žmogų?"
+    answer: "pažįsti"
+    hint: "знаешь (человека)"
+    translation: "Ты знаешь этого человека?"
+  - type: cloze
+    text: "Ar ___, kiek dabar valandų?"
+    answer: "žinai"
+    hint: "знаешь (факт)"
+    translation: "Ты знаешь, который сейчас час?"
+  - type: cloze
+    text: "Žiūriu pro langą, bet nieko ___."
+    answer: "nematau"
+    hint: "не вижу"
+    translation: "Смотрю в окно, но ничего не вижу."
+  - type: cloze
+    text: "Vaikai labai ___ ledus."
+    answer: "mėgsta"
+    hint: "любят (еду)"
+    translation: "Дети очень любят мороженое."
+  - type: cloze
+    text: "Man ___ tavo nauja šukuosena."
+    answer: "patinka"
+    hint: "нравится"
+    translation: "Мне нравится твоя новая причёска."
+  - type: cloze
+    text: "Lėkštes ___ į spintelę."
+    answer: "sudėk"
+    also: ["padėk", "dėk"]
+    hint: "положи / поставь"
+    translation: "Поставь тарелки в шкафчик."
+  - type: cloze
+    text: "Kiek ___ bilietas į teatrą?"
+    answer: "kainuoja"
+    hint: "стоит"
+    translation: "Сколько стоит билет в театр?"
+  - type: cloze
+    text: "Vakar visą dieną ___."
+    answer: "lijo"
+    hint: "lyti → прош."
+    translation: "Вчера весь день шёл дождь."

@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0109
+cefr: B1
+order: 109
+title: "Вежливые просьбы: ar galėtumėte, gal galėtum, norėčiau, būkite malonūs"
+explanation:
+  ru: |
+    Как и в русском («не могли бы вы…»), вежливость дают **сослагательное наклонение** и маленькие слова.
+
+    - ***Ar galėtumėte*** *…?* — Не могли бы вы…? *Ar galėtumėte man padėti?*
+    - ***Gal galėtum*** *…?* — Может, ты мог бы…? (мягче, по-дружески)
+    - ***Norėčiau*** *…* — Я хотел бы… *Norėčiau užsisakyti stalelį.*
+    - ***Prašau*** + инфинитив или род. п.: *Prašau atsisėsti.* · *Prašau kavos.*
+    - ***Būkite malonūs*** + повелительное — будьте добры: *Būkite malonūs, uždarykite duris.*
+    - ***Ar nebūtų sunku*** *…?* — не трудно ли было бы…?
+
+    Ответы: ***Žinoma!*** · ***Mielai!*** (с удовольствием) · *Atsiprašau, bet negaliu.*
+comparison:
+  ru: |
+    Почти дословно как в русском: «не могли бы вы» = *ar galėtumėte*, «я бы хотел» = *norėčiau*. Только «пожалуйста» в просьбе — ***prašau***, а «пожалуйста» в ответ на спасибо — ***prašom*** / *nėra už ką*.
+examples:
+  - { text: "Gal galėtum uždaryti duris?", translation: "Ты не могла бы закрыть дверь?", source: "tatoeba:8157973" }
+  - { text: "Gal tu galėtum atidaryti langą?", translation: "Ты не мог бы открыть окно?", source: "tatoeba:13505135" }
+  - { text: "Gal jūs galėtumėte tai parašyti?", translation: "Вы не могли бы это написать?", source: "tatoeba:13311347" }
+  - { text: "Ar galėtum ateiti rytoj pas mane?", translation: "Мог бы ты завтра прийти ко мне?", source: "tatoeba:6018275" }
+  - { text: "Aš norėčiau eiti.", translation: "Я хотел бы пойти.", source: "tatoeba:12781600" }
+exercises:
+  - type: cloze
+    text: "Ar ___ man padėti?"
+    answer: "galėtumėte"
+    also: ["galėtum"]
+    hint: "не могли бы (вы)"
+    translation: "Не могли бы вы мне помочь?"
+  - type: cloze
+    text: "Gal ___ šiek tiek palaukti?"
+    answer: "galėtumėte"
+    also: ["galėtum"]
+    hint: "не могли бы"
+    translation: "Не могли бы вы немного подождать?"
+  - type: cloze
+    text: "___ užsisakyti stalelį dviem."
+    answer: "Norėčiau"
+    hint: "я хотел бы"
+    translation: "Я хотел бы заказать столик на двоих."
+  - type: cloze
+    text: "___, atsisėskite."
+    answer: "Prašau"
+    hint: "пожалуйста"
+    translation: "Пожалуйста, садитесь."
+  - type: cloze
+    text: "Būkite ___, nerūkykite čia."
+    answer: "malonūs"
+    hint: "будьте добры"
+    translation: "Будьте добры, не курите здесь."
+  - type: cloze
+    text: "– Gal padėsi? – ___!"
+    answer: "Mielai"
+    also: ["Žinoma"]
+    hint: "с удовольствием"
+    translation: "— Поможешь? — С удовольствием!"
+  - type: cloze
+    text: "Ar ___ sunku man paskambinti vakare?"
+    answer: "nebūtų"
+    hint: "не было бы"
+    translation: "Вам не трудно было бы позвонить мне вечером?"
+  - type: cloze
+    text: "Norėčiau ___ kavos su pienu."
+    answer: "puodelio"
+    hint: "puodelis → род. п."
+    translation: "Я хотел бы чашку кофе с молоком."

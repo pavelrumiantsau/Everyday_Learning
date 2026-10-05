@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0103
+cefr: B1
+order: 103
+title: "Цены и деньги: kainuoja du eurus, mokėti kortele, išleisti, skolinti"
+explanation:
+  ru: |
+    **kainuoti** (kainuoja, kainavo) + **винительный**: ***Kiek kainuoja?*** — *Kainuoja **eurą** / du **eurus** / penkis **eurus**.*
+    - 10–20 и десятки, сотни → **род. мн.**: *dešimt **eurų**, šimtą **eurų***
+    - так же *centas*: *penkiasdešimt centų*
+
+    **mokėti** (moka, mokėjo):
+    - за что — ***už*** + вин.: *mokėti **už** butą*
+    - чем — творительный: *mokėti **kortele** / **grynaisiais*** (картой / наличными)
+
+    **Ещё полезные глаголы:**
+    - ***išleisti*** — потратить: *Išleidau visus pinigus.* · ***uždirbti*** — заработать
+    - ***skolinti / paskolinti*** — одолжить (дать) кому: *Paskolink man…* · ***skolintis*** — занять (взять): *skolintis iš draugo*
+    - ***brangu / pigu*** — дорого / дёшево · ***nuolaida*** — скидка · ***grąža*** — сдача
+comparison:
+  ru: |
+    «Стоит два евро» — винительный, как в русском «стоит рубль»: *kainuoja **du eurus***. «Заплатить картой» — творительный без предлога, как в русском: *mokėti **kortele***.
+examples:
+  - { text: "Kiek kainuoja?", translation: "Сколько стоит?", source: "tatoeba:3589725" }
+  - { text: "Kiek kainuoja duona?", translation: "Сколько стоит хлеб?", source: "tatoeba:5989009" }
+  - { text: "Tai kainuoja du eurus.", translation: "Это стоит два евро.", source: "tatoeba:12325828" }
+  - { text: "Aš išleidau šimtą eurų.", translation: "Я потратил сто евро.", source: "tatoeba:13736063" }
+  - { text: "Paskolink man dvidešimt eurų.", translation: "Одолжи мне двадцать евро.", source: "tatoeba:9945794" }
+exercises:
+  - type: cloze
+    text: "Kiek ___ šie batai?"
+    answer: "kainuoja"
+    hint: "стоят"
+    translation: "Сколько стоят эти туфли?"
+  - type: cloze
+    text: "Kava kainuoja tris ___."
+    answer: "eurus"
+    hint: "euras → вин. мн."
+    translation: "Кофе стоит три евро."
+  - type: cloze
+    text: "Bilietas kainavo dvidešimt ___."
+    answer: "eurų"
+    hint: "20 → род. мн."
+    translation: "Билет стоил двадцать евро."
+  - type: cloze
+    text: "Ar galiu mokėti ___?"
+    answer: "kortele"
+    hint: "kortelė → тв. п."
+    translation: "Можно заплатить картой?"
+  - type: cloze
+    text: "Kiek mokate ___ butą?"
+    answer: "už"
+    hint: "за"
+    translation: "Сколько вы платите за квартиру?"
+  - type: cloze
+    text: "Vakar ___ visus pinigus drabužiams."
+    answer: "išleidau"
+    hint: "išleisti → я"
+    translation: "Вчера я потратил все деньги на одежду."
+  - type: cloze
+    text: "Gal gali man ___ penkiasdešimt eurų?"
+    answer: "paskolinti"
+    hint: "одолжить (дать)"
+    translation: "Можешь одолжить мне пятьдесят евро?"
+  - type: cloze
+    text: "Šiandien visoms prekėms taikoma ___."
+    answer: "nuolaida"
+    hint: "скидка"
+    translation: "Сегодня на все товары действует скидка."

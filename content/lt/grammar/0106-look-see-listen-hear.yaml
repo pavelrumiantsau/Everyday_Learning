@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0106
+cefr: B1
+order: 106
+title: "Смотреть и видеть, слушать и слышать: žiūrėti, matyti, klausytis, girdėti"
+explanation:
+  ru: |
+    **Смотреть / видеть**
+    - ***žiūrėti*** (žiūri, žiūrėjo) — смотреть (намеренно): на кого — ***į*** + вин.: *žiūri **į** mane*; фильм, телевизор — вин. без предлога: *žiūrėti filmą*
+    - ***matyti*** (mato, matė) — видеть (способность, результат); ***pamatyti*** — увидеть: *Nieko nematau.*
+    - ***stebėti*** — наблюдать
+
+    **Слушать / слышать**
+    - ***klausytis*** (klausosi, klausėsi) + **род. п.** — слушать: *klausausi **muzikos**, **radijo***
+    - ***klausyti*** + род. п. (без *-si*) — **слушаться**: *Klausyk **mamos**!*
+    - ***girdėti*** (girdi, girdėjo) — слышать; ***išgirsti*** — услышать: *Ar girdi?*
+comparison:
+  ru: |
+    «Смотрю на тебя» — *žiūriu **į** tave* (с предлогом). «Слушаю музыку» — *klausau**si** **muzikos*** (родительный и *-si*); без *-si* — «слушаться»: *klausyti tėvų* — слушаться родителей.
+examples:
+  - { text: "Aš tik žiūriu.", translation: "Я только смотрю.", source: "tatoeba:2606266" }
+  - { text: "Ji į ją žiūri.", translation: "Она на неё смотрит.", source: "tatoeba:12325788" }
+  - { text: "Po pietų aš klausausi radijo.", translation: "После обеда я слушаю радио.", source: "tatoeba:13266127" }
+  - { text: "Ar girdi balsą?", translation: "Ты слышишь голос?", source: "tatoeba:3596273" }
+  - { text: "Ar tu mus girdi?", translation: "Ты нас слышишь?", source: "tatoeba:12770063" }
+exercises:
+  - type: cloze
+    text: "Kodėl taip ___ į mane?"
+    answer: "žiūri"
+    hint: "смотришь"
+    translation: "Почему ты так смотришь на меня?"
+  - type: cloze
+    text: "Vakare ___ filmą."
+    answer: "žiūrėjome"
+    hint: "žiūrėti → мы, прош."
+    translation: "Вечером мы смотрели фильм."
+  - type: cloze
+    text: "Be akinių nieko ___."
+    answer: "nematau"
+    hint: "не вижу"
+    translation: "Без очков я ничего не вижу."
+  - type: cloze
+    text: "Mėgstu ___ muzikos dirbdamas."
+    answer: "klausytis"
+    hint: "слушать (музыку)"
+    translation: "Люблю слушать музыку, когда работаю."
+  - type: cloze
+    text: "Kalbėk garsiau, aš tavęs ___."
+    answer: "negirdžiu"
+    hint: "не слышу"
+    translation: "Говори громче, я тебя не слышу."
+  - type: cloze
+    text: "Vaikai, ___ mokytojos!"
+    answer: "klausykite"
+    hint: "слушайтесь (вы)"
+    translation: "Дети, слушайтесь учительницу!"
+  - type: cloze
+    text: "Netikėtai gatvėje ___ seną draugą."
+    answer: "pamačiau"
+    hint: "увидел"
+    translation: "Неожиданно на улице я увидел старого друга."
+  - type: cloze
+    text: "Ar ___ naujieną?"
+    answer: "girdėjai"
+    hint: "слышал (ты)"
+    translation: "Ты слышал новость?"

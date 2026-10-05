@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0108
+cefr: B1
+order: 108
+title: "Нравиться и любить: patinka, mėgstu, myliu, norėčiau, labiau"
+explanation:
+  ru: |
+    - ***patikti*** (patinka, patiko) — нравиться: кому — **дательный**, что — именительный: *Man **patinka** šis miestas.* · «Понравилось» — ***patiko***.
+    - ***mėgti*** (mėgsta, mėgo) + **винительный** — любить (еду, занятия): *Mėgstu kavą.* · *Mėgstu skaityti.*
+      - с отрицанием — родительный: *Nemėgstu **kavos**.*
+    - ***mylėti*** (myli, mylėjo) — любить (людей, родину — глубоко): *Myliu tave.*
+    - ***norėti*** — хотеть; вежливо ***norėčiau*** + род. п.: *Norėčiau **arbatos**.*
+
+    **Предпочтение:** ***labiau*** *mėgstu / man labiau patinka* — больше нравится: *Man labiau patinka vasara nei žiema.*
+comparison:
+  ru: |
+    «Люблю кофе» — *mėgstu kavą*; *myliu kavą* звучит как признание в любви. «Мне нравится» — как в русском, дательный: *man patinka*.
+examples:
+  - { text: "Ji mėgsta kavą.", translation: "Она любит кофе.", source: "tatoeba:10711641" }
+  - { text: "Ką tu mėgsti?", translation: "Что ты любишь?", source: "tatoeba:11419398" }
+  - { text: "Ar tau patinka?", translation: "Как тебе нравится?", source: "tatoeba:12140337" }
+  - { text: "Jam ten patiko.", translation: "Ему там понравилось.", source: "tatoeba:13741256" }
+  - { text: "Aš ją myliu.", translation: "Я люблю её.", source: "tatoeba:624345" }
+exercises:
+  - type: cloze
+    text: "Man labai ___ šis filmas."
+    answer: "patinka"
+    hint: "нравится"
+    translation: "Мне очень нравится этот фильм."
+  - type: cloze
+    text: "Ar tau ___ koncertas?"
+    answer: "patiko"
+    hint: "понравился"
+    translation: "Тебе понравился концерт?"
+  - type: cloze
+    text: "Aš ___ skaityti prieš miegą."
+    answer: "mėgstu"
+    hint: "люблю (занятие)"
+    translation: "Я люблю читать перед сном."
+  - type: cloze
+    text: "Ji ___ savo vaikus labiau už viską."
+    answer: "myli"
+    hint: "любит (людей)"
+    translation: "Она любит своих детей больше всего на свете."
+  - type: cloze
+    text: "Nemėgstu ___."
+    answer: "pieno"
+    hint: "pienas → род. п. (отрицание)"
+    translation: "Я не люблю молоко."
+  - type: cloze
+    text: "___ arbatos, jei galima."
+    answer: "Norėčiau"
+    hint: "хотел бы"
+    translation: "Я бы хотел чаю, если можно."
+  - type: cloze
+    text: "Man ___ patinka vasara nei žiema."
+    answer: "labiau"
+    hint: "больше"
+    translation: "Мне больше нравится лето, чем зима."
+  - type: cloze
+    text: "Mano senelis ___ žvejoti."
+    answer: "mėgsta"
+    hint: "любит (занятие)"
+    translation: "Мой дедушка любит рыбачить."

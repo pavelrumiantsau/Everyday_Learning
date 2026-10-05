@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0104
+cefr: B1
+order: 104
+title: "Где именно: šalia, priešais, tarp, aplink, pro, palei, virš"
+explanation:
+  ru: |
+    Предлоги места, которых не было в уроках о *į, pas, prie, už, po*:
+
+    - ***šalia*** + род. — рядом с: *šalia **stoties***
+    - ***priešais*** + вин. — напротив: *priešais **bažnyčią***
+    - ***tarp*** + род. — между, среди: *tarp **medžių**, tarp **mūsų***
+    - ***aplink*** + вин. — вокруг: *aplink **ežerą***
+    - ***pro*** + вин. — через, сквозь, мимо: *žiūrėti **pro langą*** (в окно), *praeiti **pro** mane* (мимо меня)
+    - ***palei*** + вин. — вдоль: *palei **upę***
+    - ***virš*** + род. — над: *virš **stalo*** (а «под» — *po stalu*, тв. п.)
+comparison:
+  ru: |
+    «Смотреть в окно» — ***pro*** *langą* (сквозь окно), а не *į langą* (это «смотреть на само окно»). «Мимо» — тоже *pro*: *praėjo pro šalį* — прошёл мимо.
+examples:
+  - { text: "Aš šalia stoties.", translation: "Я рядом со станцией.", source: "tatoeba:13520580" }
+  - { text: "Aš tarp jūsų.", translation: "Я среди вас.", source: "tatoeba:12710450" }
+  - { text: "Aš ėjau palei upę.", translation: "Я шёл вдоль реки.", source: "tatoeba:9837567" }
+  - { text: "Ką matai pro langą?", translation: "Что ты видишь из окна?", source: "tatoeba:3571493" }
+  - { text: "Virš upės kabojo rūkas.", translation: "Над рекой висел туман.", source: "tatoeba:12186850" }
+exercises:
+  - type: cloze
+    text: "Mano namas – ___ parko."
+    answer: "šalia"
+    hint: "рядом с"
+    translation: "Мой дом — рядом с парком."
+  - type: cloze
+    text: "Kavinė yra ___ bažnyčią."
+    answer: "priešais"
+    hint: "напротив"
+    translation: "Кафе находится напротив церкви."
+  - type: cloze
+    text: "Vaikai bėgiojo ___ ežerą."
+    answer: "aplink"
+    hint: "вокруг"
+    translation: "Дети бегали вокруг озера."
+  - type: cloze
+    text: "Pažiūrėk ___ langą – sninga!"
+    answer: "pro"
+    hint: "в окно (сквозь)"
+    translation: "Посмотри в окно — идёт снег!"
+  - type: cloze
+    text: "Ėjome ___ upę iki tilto."
+    answer: "palei"
+    hint: "вдоль"
+    translation: "Мы шли вдоль реки до моста."
+  - type: cloze
+    text: "___ medžių stovėjo maža sodyba."
+    answer: "Tarp"
+    hint: "среди"
+    translation: "Среди деревьев стоял маленький хутор."
+  - type: cloze
+    text: "Lempa kabo ___ stalo."
+    answer: "virš"
+    hint: "над"
+    translation: "Лампа висит над столом."
+  - type: cloze
+    text: "Jis praėjo ___ mane ir nepasisveikino."
+    answer: "pro"
+    hint: "мимо"
+    translation: "Он прошёл мимо меня и не поздоровался."
