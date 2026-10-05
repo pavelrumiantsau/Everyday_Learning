@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0072
+cefr: B1
+order: 72
+title: "La llegada, el hecho de que, lo que: nouns instead of verbs in formal Spanish"
+explanation:
+  en: |
+    News, notices and official letters prefer **nouns** where speech uses **verbs**:
+    - speech: *Cuando llegó a la estación, llamó un taxi.* → written: ***A su llegada** a la estación, llamó un taxi.*
+    - speech: *Han subido los precios.* → written: ***La subida de** los precios…*
+
+    **Common verb → noun pairs:**
+    - *llegar → **la llegada**, salir → **la salida**, subir → **la subida**, bajar → **la bajada***
+    - *comprar → **la compra**, vender → **la venta**, cerrar → **el cierre**, aumentar → **el aumento***
+    - *decidir → **la decisión**, reducir → **la reducción**, construir → **la construcción**, mejorar → **la mejora***
+    - Who or what goes after ***de*** or becomes ***su***: *la llegada **del** vuelo, **su** salida*.
+
+    ***el hecho de que*** = the fact that — at the start of a sentence usually with the **subjunctive**: *El hecho de que **sea** caro no significa…*
+
+    ***lo que*** = what, the thing that: ***Lo que** dijo no es verdad.*
+
+    **Formal connectors:** *debido a* (= por, because of), *con el fin de* (= para), *a pesar de* (= aunque), *realizar / llevar a cabo* (= hacer).
+comparison:
+  en: |
+    English often uses "-ing" here ("selling cigarettes", "his leaving"); Spanish uses a real noun: *la venta de cigarrillos, su salida* — never ~~el vendiendo~~. Russian official style works the same way («по прибытии», «повышение цен», «продажа алкоголя»), so the Russian noun is often a good guide.
+examples:
+  - { text: "A su llegada a la estación, él llamó un taxi.", translation: "On his arrival at the station, he called a taxi.", source: "tatoeba:1108136" }
+  - { text: "¿A qué hora está prevista la llegada del vuelo?", translation: "What time is the flight expected to arrive?", source: "tatoeba:865491" }
+  - { text: "Debería estar prohibida la venta de cigarrillos.", translation: "Selling cigarettes shouldn't be allowed.", source: "tatoeba:1010869" }
+  - { text: "El hecho de que sea caro no significa que sea bueno.", translation: "The fact that it's expensive doesn't mean that it's any good.", source: "tatoeba:2014842" }
+  - { text: "Lo que dijo no es verdad.", translation: "What he said is not true.", source: "tatoeba:637581" }
+exercises:
+  - type: cloze
+    text: "La ___ del tren está prevista a las diez."
+    answer: "llegada"
+    hint: "llegar → noun"
+    translation: "The train is due to arrive at ten."
+  - type: cloze
+    text: "La ___ de los precios preocupa a todos."
+    answer: "subida"
+    hint: "subir → noun"
+    translation: "The rise in prices worries everyone."
+  - type: cloze
+    text: "___ hecho de que no llame es muy raro."
+    answer: "El"
+    hint: "the fact that"
+    translation: "The fact that he doesn't call is very strange."
+  - type: cloze
+    text: "El hecho de que ___ joven no significa que no tenga experiencia."
+    answer: "sea"
+    also: ["es"]
+    hint: "ser — usually subjunctive here"
+    translation: "The fact that she's young doesn't mean she has no experience."
+  - type: cloze
+    text: "___ que más me gusta de Madrid es la gente."
+    answer: "Lo"
+    hint: "what = the thing that"
+    translation: "What I like most about Madrid is the people."
+  - type: cloze
+    text: "Tras el ___ de la fábrica, muchos trabajadores se quedaron sin empleo."
+    answer: "cierre"
+    hint: "cerrar → noun"
+    translation: "After the factory closed, many workers lost their jobs."
+  - type: cloze
+    text: "Se prohíbe la ___ de alcohol a menores."
+    answer: "venta"
+    hint: "vender → noun"
+    translation: "The sale of alcohol to minors is prohibited."
+  - type: cloze
+    text: "Las clases se suspendieron ___ a la nieve."
+    answer: "debido"
+    hint: "because of — formal"
+    translation: "Classes were cancelled because of the snow."
