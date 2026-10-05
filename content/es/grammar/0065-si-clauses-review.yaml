@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0065
+cefr: B1
+order: 65
+title: "Si llueve, si lloviera, si hubiera llovido: if-sentences — a review"
+explanation:
+  en: |
+    **1. Real, possible:** *si* + **present** → present, future or a command
+    - *Si llueve, me **quedaré** en casa.* *Si tienes tiempo, **llámame**.*
+
+    **2. Unreal now, or unlikely:** *si* + **imperfect subjunctive** → **conditional** (lesson 30)
+    - *Si **fuera** tú, le **preguntaría**.* *Si **tuviera** dinero, **viajaría** más.*
+
+    **3. Unreal past** (it didn't happen): *si* + **pluperfect subjunctive** → ***habría*** + participle (lesson 54)
+    - *Si **hubiera sabido** su dirección, le **habría escrito**.* In speech the result is often *hubiera* too: *te lo **hubiera dicho***.
+
+    **Mixed:** a past condition with a result now — *Si **hubiera comprado** la pintura entonces, ahora **sería** rico.*
+
+    **Never after *si*** (meaning "if"): the future, the conditional or the present subjunctive — not ~~si lloverá~~, ~~si tendría~~, ~~si tenga~~. (When *si* means "whether", the future is fine: *No sé si **vendrá**.*)
+comparison:
+  en: |
+    Types 1–3 match English: "if it rains, I'll…", "if I were…, I would…", "if I had known, I would have…". Russian uses «если бы» for both 2 and 3; Spanish separates them by tense: *si supiera* (now) vs *si hubiera sabido* (then). As in English, never put "would" (the conditional) in the *si* part.
+examples:
+  - { text: "Si llueve, me quedaré en casa.", translation: "If it rains, I'll stay at home.", source: "tatoeba:1148679" }
+  - { text: "Si tienes miedo, cómprate un perro.", translation: "If you're scared, buy yourself a dog.", source: "tatoeba:10888550" }
+  - { text: "Si fuera tú, le preguntaría.", translation: "If I were you, I'd ask him.", source: "tatoeba:1775308" }
+  - { text: "Si hubiera sabido su dirección, le habría escrito.", translation: "If I had known his address, I would have written.", source: "tatoeba:1712108" }
+  - { text: "Si hubiera comprado la pintura entonces, ahora sería rico.", translation: "If I had bought the painting then, I would be rich now.", source: "tatoeba:855349" }
+exercises:
+  - type: cloze
+    text: "Si ___ tiempo esta tarde, te llamo."
+    answer: "tengo"
+    hint: "tener, yo — a real possibility"
+    translation: "If I have time this afternoon, I'll call you."
+  - type: cloze
+    text: "Si ves a Ana, ___ que me llame."
+    answer: "dile"
+    hint: "decir (tú command) + le"
+    translation: "If you see Ana, tell her to call me."
+  - type: cloze
+    text: "Si ___ más dinero, me compraría una casa en la playa."
+    answer: "tuviera"
+    also: ["tuviese"]
+    hint: "tener, yo — unreal now"
+    translation: "If I had more money, I'd buy a house at the beach."
+  - type: cloze
+    text: "Si yo fuera tú, no ___ ese trabajo."
+    answer: "aceptaría"
+    hint: "aceptar, yo"
+    translation: "If I were you, I wouldn't take that job."
+  - type: cloze
+    text: "Si no ___ tan tarde, iríamos al cine."
+    answer: "fuera"
+    also: ["fuese"]
+    hint: "ser — unreal now"
+    translation: "If it weren't so late, we'd go to the cinema."
+  - type: cloze
+    text: "Si me lo ___ dicho antes, te habría ayudado."
+    answer: "hubieras"
+    also: ["hubieses"]
+    hint: "haber, tú — unreal past"
+    translation: "If you had told me earlier, I would have helped you."
+  - type: cloze
+    text: "Si hubiéramos salido antes, no ___ perdido el tren."
+    answer: "habríamos"
+    also: ["hubiéramos"]
+    hint: "haber, nosotros — result in the past"
+    translation: "If we had left earlier, we wouldn't have missed the train."
+  - type: cloze
+    text: "Si hubiera estudiado medicina, ahora ___ médico."
+    answer: "sería"
+    hint: "ser, yo — result now"
+    translation: "If I had studied medicine, I would be a doctor now."
