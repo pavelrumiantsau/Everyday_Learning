@@ -1,0 +1,43 @@
+id: lt-r-0104
+cefr: C1
+title: "Pusė istorijos"
+topic: "женщины в истории Литвы"
+source: generated
+text: |
+  Mokykliniuose vadovėliuose Lietuvos istorija ilgai buvo pasakojama kaip kunigaikščių, karvedžių ir politikų istorija. Moterys juose pasirodydavo nebent kaip žmonos ar motinos: Birutė – kaip Kęstučio žmona ir Vytauto motina, Barbora Radvilaitė – kaip tragiškos meilės istorijos herojė. Tokiame pasakojime moteris tarsi stovi šalia istorijos, o ne ją kuria.
+
+  Tačiau įdėmiau pažvelgus vaizdas pasirodo kur kas sudėtingesnis. Spaudos draudimo metais būtent motinos, sėdėdamos prie verpimo ratelio, dažnai mokydavo vaikus skaityti iš draudžiamų lietuviškų knygų. Žemaitė, pradėjusi rašyti jau būdama brandaus amžiaus, savo apsakymuose negailestingai atskleidė kaimo moters dalią. Rašytoja ir visuomenininkė Gabrielė Petkevičaitė-Bitė, būdama vyriausia Steigiamojo Seimo narė, pirmininkavo pirmajam jo posėdžiui.
+
+  Verta priminti, kad Lietuvos moterys balsavimo teisę gavo kartu su valstybės atkūrimu – kur kas anksčiau nei, pavyzdžiui, prancūzės ar šveicarės. Vis dėlto formali lygybė ne visada virsdavo tikra: tarpukariu politikoje moterų buvo vos kelios, o sovietmečiu deklaruota lygybė dažniausiai reiškė, kad moteris turėjo dirbti ir gamykloje, ir namie.
+
+  Šiandien moteris prezidentė ar premjerė Lietuvoje jau niekam nebekelia nuostabos. Tačiau istorikai vis dar atranda pamirštų vardų – gydytojų, mokytojų, partizanų ryšininkių, moterų, per Holokaustą gelbėjusių žydus. Jų biografijų sugrąžinimas į bendrą pasakojimą – ne madingas politinio korektiškumo gestas, o paprasčiausias teisingumas. Istorija, kurioje nematyti pusės visuomenės, yra ne neutrali, o tiesiog neišsami.
+glossary:
+  - { word: "karvedžių", lemma: "karvedys", pos: noun, gender: m, gen: "karvedžio", meaning: "полководец", note: "род. п. мн. ч." }
+  - { word: "pasirodydavo", lemma: "pasirodyti", pos: verb, forms: { pres: "pasirodo", past: "pasirodė" }, meaning: "появляться, оказываться", note: "прош. многократное" }
+  - { word: "nebent", lemma: "nebent", pos: part, meaning: "разве что, разве только" }
+  - { word: "įdėmiau", lemma: "įdėmiai", pos: adv, meaning: "внимательно", note: "сравн. ст." }
+  - { word: "pažvelgus", lemma: "pažvelgti", pos: verb, forms: { pres: "pažvelgia", past: "pažvelgė" }, meaning: "взглянуть", note: "деепр.: įdėmiau pažvelgus — если присмотреться" }
+  - { word: "draudimo", lemma: "draudimas", pos: noun, gender: m, gen: "draudimo", meaning: "запрет; страхование", note: "spaudos draudimas — запрет латинской печати (1864–1904)" }
+  - { word: "ratelio", lemma: "ratelis", pos: noun, gender: m, gen: "ratelio", meaning: "колёсико", note: "verpimo ratelis — прялка" }
+  - { word: "brandaus", lemma: "brandus", pos: adj, meaning: "зрелый", note: "род. п." }
+  - { word: "negailestingai", lemma: "negailestingai", pos: adv, meaning: "беспощадно" }
+  - { word: "dalią", lemma: "dalia", pos: noun, gender: f, gen: "dalios", meaning: "доля, участь", note: "вин. п." }
+  - { word: "visuomenininkė", lemma: "visuomenininkė", pos: noun, gender: f, gen: "visuomenininkės", meaning: "общественная деятельница" }
+  - { word: "Steigiamojo", lemma: "steigiamasis", pos: adj, meaning: "учредительный", note: "Steigiamasis Seimas — Учредительный сейм (1920)" }
+  - { word: "pirmininkavo", lemma: "pirmininkauti", pos: verb, forms: { pres: "pirmininkauja", past: "pirmininkavo" }, meaning: "председательствовать", note: "+ дат. п." }
+  - { word: "tarpukariu", lemma: "tarpukaris", pos: noun, gender: m, gen: "tarpukario", meaning: "межвоенный период", note: "тв. п. в значении времени: в межвоенный период" }
+  - { word: "deklaruota", lemma: "deklaruoti", pos: verb, forms: { pres: "deklaruoja", past: "deklaravo" }, meaning: "декларировать, провозглашать", note: "пассивное прич., ж. р." }
+  - { word: "nuostabos", lemma: "nuostaba", pos: noun, gender: f, gen: "nuostabos", meaning: "удивление", note: "kelti nuostabą — вызывать удивление" }
+  - { word: "ryšininkių", lemma: "ryšininkė", pos: noun, gender: f, gen: "ryšininkės", meaning: "связная", note: "род. п. мн. ч." }
+  - { word: "korektiškumo", lemma: "korektiškumas", pos: noun, gender: m, gen: "korektiškumo", meaning: "корректность", note: "politinis korektiškumas — политкорректность" }
+  - { word: "neišsami", lemma: "neišsamus", pos: adj, meaning: "неполный", note: "ж. р." }
+questions:
+  - q: "Kaip moterys ilgai buvo vaizduojamos mokykliniuose istorijos vadovėliuose?"
+    options: ["Daugiausia kaip žmonos ar motinos, stovinčios šalia istorijos", "Kaip svarbiausios valstybės kūrėjos", "Jos vadovėliuose buvo vaizduojamos taip pat kaip vyrai"]
+    answer: 0
+  - q: "Ką, autoriaus manymu, sovietmečiu dažniausiai reiškė deklaruota lygybė?"
+    options: ["Kad moterys galėjo nedirbti", "Kad moteris turėjo dirbti ir gamykloje, ir namie", "Kad moterų politikoje buvo daugiau nei vyrų"]
+    answer: 1
+  - q: "Kodėl, autoriaus nuomone, svarbu sugrąžinti pamirštas moteris į istorijos pasakojimą?"
+    options: ["Nes tai madingas politinio korektiškumo gestas", "Nes to reikalauja vadovėlių leidėjai", "Nes istorija, kurioje nematyti pusės visuomenės, yra neišsami – tai teisingumo klausimas"]
+    answer: 2
