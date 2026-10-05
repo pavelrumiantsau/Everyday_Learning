@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0078
+cefr: A2
+order: 78
+title: "El problema, la mano, el agua fría: tricky noun genders"
+explanation:
+  en: |
+    Most nouns in ***-o*** are masculine and most in ***-a*** are feminine — but some very common ones are not.
+
+    **Masculine in -a:**
+    - many words in ***-ma*** (from Greek): ***el** problema, **el** tema, **el** sistema, **el** programa, **el** idioma, **el** clima*
+    - ***el** día, **el** mapa, **el** sofá, **el** planeta*
+
+    **Feminine in -o:** ***la** mano, **la** foto* (fotografía), ***la** moto* (motocicleta), ***la** radio*.
+
+    **El agua:** a feminine noun that starts with a **stressed a-** takes ***el*** and ***un*** in the singular, only for the sound — it stays feminine: ***el** agua **fría**, **un** aula **vacía**, **el** hambre*. In the plural: ***las** aguas, **las** aulas*. Other words: *el águila, el arma, el alma, el hacha*.
+
+    **Endings that tell you:** ***-ción, -sión, -dad, -tad, -tud, -umbre*** — feminine (*la canción, la ciudad, la salud, la costumbre*); ***-aje, -or*** — mostly masculine (*el viaje, el color*), but *la flor*.
+
+    **Same word, both genders** — the article shows who: ***el / la** estudiante, turista, cantante, policía, periodista*.
+
+    **Gender changes the meaning:** *el capital* (money) — *la capital* (city); *el orden* (order, tidiness) — *la orden* (command); *el cura* (priest) — *la cura* (cure).
+comparison:
+  en: |
+    Russian has the same kind of exceptions: «папа, дядя, мужчина» are masculine in -а. Spanish gender often differs from Russian: *el problema* (but «проблема» is feminine), *la leche* («молоко» — neuter), *el coche* vs «машина». Learn every noun with its article: not *problema* but ***el** problema*.
+examples:
+  - { text: "El agua está fría.", translation: "The water's cold.", source: "tatoeba:1987699" }
+  - { text: "Este problema es muy sencillo.", translation: "This problem is very simple.", source: "tatoeba:2992276" }
+  - { text: "Me duele la mano derecha.", translation: "My right hand hurts.", source: "tatoeba:6021022" }
+  - { text: "Es un día hermoso.", translation: "It's a beautiful day.", source: "tatoeba:1359807" }
+  - { text: "Madrid es la capital de España.", translation: "Madrid is the capital of Spain.", source: "tatoeba:456330" }
+exercises:
+  - type: cloze
+    text: "El agua del mar está muy ___."
+    answer: "fría"
+    hint: "cold"
+    translation: "The sea water is very cold."
+  - type: cloze
+    text: "Es ___ problema muy difícil."
+    answer: "un"
+    hint: "a"
+    translation: "It's a very difficult problem."
+  - type: cloze
+    text: "El español es un idioma muy ___."
+    answer: "bonito"
+    hint: "beautiful (bonito)"
+    translation: "Spanish is a very beautiful language."
+  - type: cloze
+    text: "Dame ___ mano."
+    answer: "la"
+    hint: "the"
+    translation: "Give me your hand."
+  - type: cloze
+    text: "Me encanta ___ foto que me mandaste."
+    answer: "la"
+    hint: "the"
+    translation: "I love the photo you sent me."
+  - type: cloze
+    text: "El aula ya está ___."
+    answer: "vacía"
+    hint: "empty"
+    translation: "The classroom is already empty."
+  - type: cloze
+    text: "¿Tienes ___ mapa de la ciudad?"
+    answer: "un"
+    hint: "a"
+    translation: "Do you have a map of the city?"
+  - type: cloze
+    text: "Mi prima es ___ cantante muy famosa."
+    answer: "una"
+    hint: "a"
+    translation: "My cousin is a very famous singer."
