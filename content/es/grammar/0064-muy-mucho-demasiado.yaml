@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0064
+cefr: A2
+order: 64
+title: "Muy or mucho? Demasiado, bastante, poco"
+explanation:
+  en: |
+    ***muy*** = very — only before an **adjective or adverb**, never changes: *muy caro, muy bien, muy tarde*.
+
+    ***mucho*** = a lot, much, many:
+    - before a **noun** it agrees: ***mucho** dinero, **mucha** gente, **muchos** libros, **muchas** veces*
+    - after a **verb** it doesn't change: *Trabaja **mucho**.*
+    - before *más, menos, mejor, peor, mayor, menor*: ***mucho** mejor* (not ~~muy mejor~~)
+    - alone as an answer: *¿Es caro? — Sí, **mucho**.* (*muy* can't stand alone)
+
+    **Trap:** with ***tener / hacer* + noun** Spanish says *mucho*, not *muy*: *Tengo **mucha** hambre*, ***mucho** frío*, ***mucho** miedo*. *Hace **mucho** calor.* (*hambre, sed* are feminine nouns → *mucha*.)
+
+    The same pattern for other quantity words:
+    - ***demasiado*** = too, too much / many — *demasiado caro*; *Come **demasiado**.*; ***demasiados** turistas*
+    - ***bastante*** = quite, fairly; enough — *bastante bueno*; *Tenemos **bastante**.*; plural ***bastantes** amigos* (no feminine form)
+    - ***poco*** = little, not much (negative) vs ***un poco*** = a bit — *Habla **poco**.* *Habla **un poco** de inglés.* *Hay **poca** gente.*
+comparison:
+  en: |
+    Russian splits it the same way: «очень» = *muy*, «много» = *mucho*. The difference is the noun after *tener*: Russian says «я **очень** голоден», Spanish says "I have **much** hunger" — *tengo **mucha** hambre*. And English "too" before an adjective is *demasiado*, not *muy*: *Es demasiado caro* = it's too expensive.
+examples:
+  - { text: "Es muy caro.", translation: "It's very expensive.", source: "tatoeba:456136" }
+  - { text: "Tengo mucha hambre.", translation: "I'm very hungry.", source: "tatoeba:825041" }
+  - { text: "Hay mucha gente.", translation: "There are a lot of people.", source: "tatoeba:1687675" }
+  - { text: "Hay demasiados turistas.", translation: "There are too many tourists.", source: "tatoeba:10124644" }
+  - { text: "Es bastante bueno.", translation: "It's pretty good.", source: "tatoeba:1402281" }
+exercises:
+  - type: cloze
+    text: "Este restaurante es ___ caro."
+    answer: "muy"
+    hint: "very"
+    translation: "This restaurant is very expensive."
+  - type: cloze
+    text: "Hoy hace ___ frío."
+    answer: "mucho"
+    hint: "very — but frío here is a noun"
+    translation: "It's very cold today."
+  - type: cloze
+    text: "Tengo ___ sed."
+    answer: "mucha"
+    hint: "very — la sed"
+    translation: "I'm very thirsty."
+  - type: cloze
+    text: "Hay ___ coches en esta calle."
+    answer: "demasiados"
+    hint: "too many"
+    translation: "There are too many cars on this street."
+  - type: cloze
+    text: "Mi hermano trabaja ___, nunca descansa."
+    answer: "demasiado"
+    hint: "too much"
+    translation: "My brother works too much, he never rests."
+  - type: cloze
+    text: "El libro es ___ mejor que la película."
+    answer: "mucho"
+    hint: "much — before mejor"
+    translation: "The book is much better than the film."
+  - type: cloze
+    text: "Habla español ___ bien."
+    answer: "muy"
+    hint: "very"
+    translation: "He speaks Spanish very well."
+  - type: cloze
+    text: "Tengo ___ amigos en Madrid."
+    answer: "bastantes"
+    hint: "quite a few"
+    translation: "I have quite a few friends in Madrid."
