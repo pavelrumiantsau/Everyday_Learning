@@ -1,0 +1,44 @@
+id: lt-r-0110
+cefr: C1
+title: "Puokštės, kuprinės ir pirmasis skambutis"
+topic: "начало учебного года (1 сентября)"
+source: generated
+text: |
+  Rugsėjo 1-ąją Lietuvos miestų gatvės tarsi pražysta. Nuo pat ryto į mokyklas skuba vaikai su puokštėmis, šalia jų – susijaudinę tėvai, o labiausiai išsipuošę, žinoma, pirmokai, kuriems ši diena – tikra naujo gyvenimo tarpsnio pradžia. Mokyklų kiemuose vyksta šventiniai renginiai, skamba kalbos ir dainos, o kai kur dar išlikęs paprotys: abiturientas ant pečių nešioja pirmokę, skambinančią varpeliu, – tai ir yra pirmasis mokslo metų skambutis.
+
+  Mokslo ir žinių diena – viena iš nedaugelio švenčių, kurias vienodai gerai prisimena kelios kartos. Dėl to apie ją kalbama ir su nostalgija, ir kritiškai. Kasmet įsiplieskia diskusijos apie gėles: mokytojai po šventės lieka su dešimtimis puokščių, kurios po kelių dienų nuvysta, o šeimoms tai – dar viena išlaidų eilutė. Todėl kai kurios mokyklos siūlo vietoj gėlių paaukoti labdarai ar padovanoti knygą mokyklos bibliotekai.
+
+  Išlaidos apskritai tampa vis jautresne tema. Kuprinės, sąsiuviniai, sportinė apranga, kartais ir uniforma – mokslo metų pradžia daugeliui šeimų reiškia rimtą smūgį biudžetui. Nemokamas švietimas, kaip ironizuoja kai kurie tėvai, kainuoja nemažai.
+
+  Vis dėlto būtų neteisinga šventę vertinti vien per išlaidų prizmę. Rugsėjo 1-oji – retas atvejis, kai visa visuomenė bent trumpam atsigręžia į mokyklą ir primena sau, kad švietimas yra bendras reikalas. Šventinėse kalbose kasmet netrūksta gražių žodžių mokytojams, tačiau pedagogų trūkumas daugelyje regionų niekur nedingsta. Tad klausimas tik vienas: ar šis dėmesys neišgaruoja jau kitą dieną – kartu su nuvytusiomis gėlėmis?
+glossary:
+  - { word: "pražysta", lemma: "pražysti", pos: verb, forms: { pres: "pražysta", past: "pražydo" }, meaning: "расцвести" }
+  - { word: "puokštėmis", lemma: "puokštė", pos: noun, gender: f, gen: "puokštės", meaning: "букет", note: "тв. п. мн. ч." }
+  - { word: "susijaudinę", lemma: "susijaudinęs", pos: adj, meaning: "взволнованный", note: "им. п. мн. ч." }
+  - { word: "išsipuošę", lemma: "išsipuošęs", pos: adj, meaning: "нарядный, принарядившийся", note: "им. п. мн. ч." }
+  - { word: "tarpsnio", lemma: "tarpsnis", pos: noun, gender: m, gen: "tarpsnio", meaning: "период, этап", note: "род. п." }
+  - { word: "paprotys", lemma: "paprotys", pos: noun, gender: m, gen: "papročio", meaning: "обычай" }
+  - { word: "abiturientas", lemma: "abiturientas", pos: noun, gender: m, gen: "abituriento", meaning: "выпускник (школы)" }
+  - { word: "pečių", lemma: "petys", pos: noun, gender: m, gen: "peties", meaning: "плечо", note: "род. п. мн. ч.: ant pečių — на плечах" }
+  - { word: "varpeliu", lemma: "varpelis", pos: noun, gender: m, gen: "varpelio", meaning: "колокольчик", note: "тв. п.: skambinti varpeliu — звонить в колокольчик" }
+  - { word: "įsiplieskia", lemma: "įsiplieksti", pos: verb, forms: { pres: "įsiplieskia", past: "įsiplieskė" }, meaning: "разгореться, вспыхнуть" }
+  - { word: "nuvysta", lemma: "nuvysti", pos: verb, forms: { pres: "nuvysta", past: "nuvyto" }, meaning: "увянуть" }
+  - { word: "eilutė", lemma: "eilutė", pos: noun, gender: f, gen: "eilutės", meaning: "строка; статья (расходов)" }
+  - { word: "paaukoti", lemma: "paaukoti", pos: verb, forms: { pres: "paaukoja", past: "paaukojo" }, meaning: "пожертвовать" }
+  - { word: "jautresne", lemma: "jautrus", pos: adj, meaning: "чувствительный, острый (о теме)", note: "сравн. ст., тв. п. ж. р." }
+  - { word: "sąsiuviniai", lemma: "sąsiuvinis", pos: noun, gender: m, gen: "sąsiuvinio", meaning: "тетрадь", note: "им. п. мн. ч." }
+  - { word: "apranga", lemma: "apranga", pos: noun, gender: f, gen: "aprangos", meaning: "одежда, экипировка" }
+  - { word: "ironizuoja", lemma: "ironizuoti", pos: verb, forms: { pres: "ironizuoja", past: "ironizavo" }, meaning: "иронизировать" }
+  - { word: "prizmę", lemma: "prizmė", pos: noun, gender: f, gen: "prizmės", meaning: "призма", note: "вин. п.: per išlaidų prizmę — через призму расходов" }
+  - { word: "atsigręžia", lemma: "atsigręžti", pos: verb, forms: { pres: "atsigręžia", past: "atsigręžė" }, meaning: "обернуться, повернуться (к чему-л.)" }
+  - { word: "neišgaruoja", lemma: "išgaruoti", pos: verb, forms: { pres: "išgaruoja", past: "išgaravo" }, meaning: "испариться", note: "с отрицанием" }
+questions:
+  - q: "Kas, pasak teksto, kai kur dar išlikęs kaip Rugsėjo 1-osios paprotys?"
+    options: ["Abiturientas ant pečių nešioja pirmokę, skambinančią varpeliu", "Mokiniai sodina medžius", "Pirmokai dovanoja gėles abiturientams"]
+    answer: 0
+  - q: "Kodėl kai kurios mokyklos siūlo vietoj gėlių paaukoti labdarai?"
+    options: ["Nes mokytojai nemėgsta gėlių", "Nes puokštės greitai nuvysta, o šeimoms tai papildomos išlaidos", "Nes gėlės mokyklose uždraustos"]
+    answer: 1
+  - q: "Kokią abejonę autorius išsako pabaigoje?"
+    options: ["Ar verta švęsti Rugsėjo 1-ąją", "Ar mokiniams reikia uniformų", "Ar visuomenės dėmesys švietimui neišnyksta jau kitą dieną po šventės"]
+    answer: 2
