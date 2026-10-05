@@ -22,7 +22,7 @@ explanation:
     (In Spain *vosotros* has its own form: *¡Venid!* — *¡No vengáis!*)
 comparison:
   en: |
-    English has one form for everyone ("come", "don't come"); Russian has two («иди / идите»). Spanish has four, and the **affirmative tú** form is the odd one out: *ven* — but *no vengas*, *venga*, *no venga*. Polite *usted* commands are what you hear from waiters, doctors and officials: *Pase. Siéntese. Firme aquí.*
+    English has one form for everyone ("come", "don't come"); Russian has two («иди / идите»). Spanish has more, and the **affirmative tú** form is the odd one out: *ven* — but *no vengas*, *venga*, *no venga*. Polite *usted* commands are what you hear from waiters, doctors and officials: *Pase. Siéntese. Firme aquí.*
 examples:
   - { text: "Sé puntual.", translation: "Be punctual.", source: "tatoeba:2117432" }
   - { text: "Ponte esto.", translation: "Put this on.", source: "tatoeba:4941017" }
