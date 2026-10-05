@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0082
+cefr: B1
+order: 82
+title: "Куда и к кому: į, pas, prie, ant, link"
+explanation:
+  ru: |
+    Русское «в / к / на» в литовском распределяется по пяти предлогам.
+
+    - ***į*** + вин. п. — **внутрь**, в место или учреждение: *į parduotuvę, į mokyklą, į Vilnių*
+    - ***pas*** + вин. п. — **к человеку** и **у человека**: *Einu **pas** gydytoją.* (к врачу) · *Esu **pas** draugą.* (у друга)
+    - ***prie*** + род. п. — **к / у / возле**: *Sėsk **prie** stalo.* · *Važiuojame **prie** jūros.* (на море) · *stovi **prie** durų*
+    - ***ant*** + род. п. — **на** поверхность / на поверхности: *Padėk **ant** stalo.* · *Užlipome **ant** kalno.*
+    - ***link*** + род. п. — **в сторону**, часто после слова: *ėjo **namų link*** или *link namų*
+
+    Удобно: *pas* и *prie* не меняются для «где?» и «куда?»: *pas draugą* = и «у друга», и «к другу».
+comparison:
+  ru: |
+    Типичный русизм — ***į*** с человеком: *eiti į gydytoją* ✗ → ***pas*** *gydytoją* ✓. И «на море, на озеро» — обычно ***prie*** *jūros, prie ežero* (к берегу), а не *ant*.
+examples:
+  - { text: "Ji pas gydytoją.", translation: "Она у врача.", source: "tatoeba:10346186" }
+  - { text: "Eikime pas mane!", translation: "Пойдемте ко мне!", source: "tatoeba:12178139" }
+  - { text: "Važiuokime prie ežero.", translation: "Давай съездим на озеро.", source: "tatoeba:11525993" }
+  - { text: "Sėskite prie stalo!", translation: "Садитесь за стол!", source: "tatoeba:12368445" }
+  - { text: "Ji stovi prie durų.", translation: "Она стоит у двери.", source: "tatoeba:13221398" }
+exercises:
+  - type: cloze
+    text: "Rytoj einu ___ dantistą."
+    answer: "pas"
+    hint: "к человеку"
+    translation: "Завтра иду к зубному врачу."
+  - type: cloze
+    text: "Vaikai eina ___ mokyklą."
+    answer: "į"
+    hint: "в учреждение"
+    translation: "Дети идут в школу."
+  - type: cloze
+    text: "Vasarą važiuosime ___ jūros."
+    answer: "prie"
+    hint: "на море"
+    translation: "Летом поедем на море."
+  - type: cloze
+    text: "Padėk knygą ___ stalo."
+    answer: "ant"
+    hint: "на (поверхность)"
+    translation: "Положи книгу на стол."
+  - type: cloze
+    text: "Savaitgalį buvau ___ tėvus."
+    answer: "pas"
+    hint: "у родителей"
+    translation: "На выходных я был у родителей."
+  - type: cloze
+    text: "Sėskis ___ lango, ten šviesiau."
+    answer: "prie"
+    hint: "у окна"
+    translation: "Садись у окна, там светлее."
+  - type: cloze
+    text: "Jis ėjo miesto ___."
+    answer: "link"
+    hint: "в сторону"
+    translation: "Он шёл в сторону города."
+  - type: cloze
+    text: "Užlipome ___ kalno."
+    answer: "ant"
+    hint: "на гору"
+    translation: "Мы поднялись на гору."

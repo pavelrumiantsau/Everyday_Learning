@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0079
+cefr: B2
+order: 79
+title: "Причастия как существительные: pradedantieji, nukentėjusieji, miegamasis, mylimoji"
+explanation:
+  ru: |
+    Как и в русском (*начинающие, пострадавшие, любимая*), причастия и прилагательные могут работать как существительные. В литовском для этого берут **местоименную (полную) форму** — ту же, что в *gerasis, geroji*.
+
+    **Окончания:** м. р. ***-ysis / -asis***, ж. р. ***-ji / -oji***; мн. ч. ***-ieji / -osios***.
+    - *pradedantysis* (начинающий) → мн. ч. ***pradedantieji***, дат. ***pradedantiesiems***
+    - *susirinkusieji* (собравшиеся), *nukentėjusieji* (пострадавшие), *išgyvenusieji* (выжившие), *besimokantieji* (учащиеся)
+    - *mylimasis / **mylimoji*** (любимый / любимая), тв. п. ***mylimąja***
+
+    **Комнаты и места:** ***miegamasis*** (спальня), ***valgomasis*** (столовая) — мест. п. *miegamajame, valgomajame*.
+
+    **Даты** — порядковое числительное в той же форме: *gegužės **pirmoji*** (первое мая), *kovo **vienuoliktoji***.
+
+    Тот же приём в выражении ***vadinamasis*** — «так называемый»: *vadinamasis žmogiškasis faktorius*.
+comparison:
+  ru: |
+    Ошибка — взять краткую форму: «начинающие» = ***pradedantieji***, а не *pradedantys*; «первое мая» = *gegužės **pirmoji***, а не *pirma*.
+examples:
+  - { text: "Mes pradedantieji.", translation: "Мы начинающие.", source: "tatoeba:11692183" }
+  - { text: "Mes išgyvenusieji.", translation: "Мы выжившие.", source: "tatoeba:3938148" }
+  - { text: "Čia yra miegamasis.", translation: "Здесь спальня.", source: "tatoeba:12337910" }
+  - { text: "Pabučiuok mane, mylimoji!", translation: "Поцелуй меня, любимая!", source: "tatoeba:10905340" }
+  - { text: "Balandžio pirmoji.", translation: "Первое апреля.", source: "tatoeba:12762133" }
+exercises:
+  - type: cloze
+    text: "Šis kursas skirtas ___."
+    answer: "pradedantiesiems"
+    hint: "pradedantieji → дат. п."
+    translation: "Этот курс предназначен для начинающих."
+  - type: cloze
+    text: "Visi ___ atsistojo."
+    answer: "susirinkusieji"
+    hint: "собравшиеся"
+    translation: "Все собравшиеся встали."
+  - type: cloze
+    text: "___ buvo nuvežti į ligoninę."
+    answer: "Nukentėjusieji"
+    hint: "пострадавшие"
+    translation: "Пострадавших отвезли в больницу."
+  - type: cloze
+    text: "Mūsų bute yra du ___."
+    answer: "miegamieji"
+    hint: "miegamasis → мн. ч."
+    translation: "В нашей квартире две спальни."
+  - type: cloze
+    text: "Pietausime ___."
+    answer: "valgomajame"
+    hint: "valgomasis → мест. п."
+    translation: "Обедать будем в столовой."
+  - type: cloze
+    text: "Gegužės ___ – Darbo diena."
+    answer: "pirmoji"
+    hint: "первое (мая)"
+    translation: "Первое мая — День труда."
+  - type: cloze
+    text: "Jis susitiko su savo ___."
+    answer: "mylimąja"
+    hint: "mylimoji → тв. п."
+    translation: "Он встретился со своей любимой."
+  - type: cloze
+    text: "Kovo ___ – Nepriklausomybės atkūrimo diena."
+    answer: "vienuoliktoji"
+    hint: "одиннадцатое (марта)"
+    translation: "Одиннадцатое марта — День восстановления независимости."

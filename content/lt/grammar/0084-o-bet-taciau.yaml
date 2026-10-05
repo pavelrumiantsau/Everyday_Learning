@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0084
+cefr: B1
+order: 84
+title: "«А» или «но»: o, bet, tačiau, o ne, vis dėlto"
+explanation:
+  ru: |
+    **o** = русское **«а»** — сопоставление или переход к другому:
+    - *Aš dirbu, **o** jis mokosi.* · *Aš noriu kavos, **o** tu?*
+    - ***ne …, o …*** — «не …, а …»: *Ne aš, **o** jis.*
+    - ***…, o ne …*** — «…, а не …»: *Reikia dirbti, **o ne** kalbėti.*
+
+    **bet** = **«но»** — противоречие, ожидание не сбылось:
+    - *Norėjau ateiti, **bet** susirgau.* · *Atleisk, **bet** negaliu.*
+
+    **tačiau** = **«однако»** — то же, что *bet*, но книжнее; может начинать предложение: *Planas geras. **Tačiau** jis per brangus.* Можно и в паре с *nors*: *Nors …, tačiau …*
+
+    **vis dėlto** = «всё-таки»: *Buvo sunku, bet **vis dėlto** pavyko.*
+comparison:
+  ru: |
+    Главная ошибка — переводить русское «а» как *bet*: «Я работаю, а он учится» = *Aš dirbu, **o** jis mokosi* (здесь нет противоречия). Проверка: если по-русски можно сказать «но» — *bet*; если только «а» — *o*.
+examples:
+  - { text: "Jūs žinote, o jis ne.", translation: "Вы знаете, а он нет.", source: "tatoeba:13380287" }
+  - { text: "Tu moki plaukti, o aš ne.", translation: "Ты умеешь плавать, а я нет.", source: "tatoeba:8304590" }
+  - { text: "Atleisk, bet aš negaliu.", translation: "Извини, но я не могу.", source: "tatoeba:3182346" }
+  - { text: "Pūtė stiprus vėjas, tačiau švietė saulė.", translation: "Дул сильный ветер, однако светило солнце.", source: "tatoeba:11551131" }
+  - { text: "Ji nors užaugo Japonijoje, tačiau laisvai kalba angliškai.", translation: "Она хоть и выросла в Японии, однако свободно говорит по-английски.", source: "tatoeba:13383636" }
+exercises:
+  - type: cloze
+    text: "Aš dirbu banke, ___ žmona – mokykloje."
+    answer: "o"
+    hint: "а"
+    translation: "Я работаю в банке, а жена — в школе."
+  - type: cloze
+    text: "Norėjau ateiti, ___ susirgau."
+    answer: "bet"
+    hint: "но"
+    translation: "Я хотел прийти, но заболел."
+  - type: cloze
+    text: "Ne aš kaltas, ___ jis."
+    answer: "o"
+    hint: "не …, а …"
+    translation: "Виноват не я, а он."
+  - type: cloze
+    text: "Reikia veikti, ___ ne kalbėti."
+    answer: "o"
+    hint: "а не"
+    translation: "Нужно действовать, а не говорить."
+  - type: cloze
+    text: "Planas geras. ___ jis per brangus."
+    answer: "Tačiau"
+    also: ["Bet"]
+    hint: "однако"
+    translation: "План хороший. Однако он слишком дорогой."
+  - type: cloze
+    text: "Aš geriu arbatą, ___ tu?"
+    answer: "o"
+    hint: "а ты?"
+    translation: "Я пью чай, а ты?"
+  - type: cloze
+    text: "Buvo sunku, bet ___ dėlto pavyko."
+    answer: "vis"
+    hint: "всё-таки"
+    translation: "Было трудно, но всё-таки получилось."
+  - type: cloze
+    text: "Jis turtingas, ___ nelaimingas."
+    answer: "bet"
+    also: ["tačiau"]
+    hint: "но"
+    translation: "Он богат, но несчастлив."

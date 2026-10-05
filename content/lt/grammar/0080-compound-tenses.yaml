@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0080
+cefr: B2
+order: 80
+title: "Сложные времена: esu buvęs, buvau išėjęs, būsiu padaręs"
+explanation:
+  ru: |
+    **būti + действительное причастие прошедшего времени** (*-ęs / -usi / -ę / -usios*) даёт три «сложных» времени.
+
+    **1. esu + -ęs** — опыт или результат («когда-нибудь, уже»), похоже на английский present perfect:
+    - *Esu **buvęs** Paryžiuje.* — Я бывал в Париже.
+    - *Ar esi **valgęs** cepelinų?* — Ты когда-нибудь ел цепелины?
+    - *Dar nesu **matęs** šito filmo.* — Я ещё не видел этого фильма.
+
+    **2. buvau + -ęs** — действие закончилось раньше другого в прошлом:
+    - *Kai atėjau, jis jau **buvo išėjęs**.* — Когда я пришёл, он уже ушёл.
+    - и состояние: *Ji buvo **pavargusi**.* — Она была уставшей.
+
+    **3. būsiu + -ęs** — будет закончено к моменту в будущем:
+    - *Iki vakaro **būsiu baigęs**.* — К вечеру я закончу.
+
+    Причастие согласуется с подлежащим: *jis buvęs, ji buvusi, jie buvę, jos buvusios*. Средний род *buvę* — «бывало»: *Ar tau taip yra buvę?*
+comparison:
+  ru: |
+    В русском таких времён нет — их передают словами «уже, когда-нибудь, бывал»: «Я бывал в Берлине» = *Esu buvęs Berlyne*. В разговоре литовцы тоже часто обходятся простым прошедшим, но в текстах эти формы встречаются постоянно.
+examples:
+  - { text: "Jūs jau esate buvę Berlyne.", translation: "Вы уже бывали в Берлине.", source: "tatoeba:2634239" }
+  - { text: "Ar tau taip yra buvę?", translation: "С тобой такое бывало?", source: "tatoeba:13395487" }
+  - { text: "Man taip irgi yra buvę.", translation: "Со мной так тоже было.", source: "tatoeba:4877954" }
+  - { text: "Aš buvau vedęs.", translation: "Я был женат.", source: "tatoeba:12420430" }
+  - { text: "Jie buvo susirgę.", translation: "Они были больны.", source: "tatoeba:3600210" }
+exercises:
+  - type: cloze
+    text: "Ar esi kada nors ___ Japonijoje?"
+    answer: "buvęs"
+    also: ["buvusi"]
+    hint: "būti → прич. прош. вр."
+    translation: "Ты когда-нибудь бывал в Японии?"
+  - type: cloze
+    text: "Aš niekada nesu ___ šito filmo."
+    answer: "matęs"
+    also: ["mačiusi"]
+    hint: "matyti → прич. прош. вр."
+    translation: "Я никогда не видел этого фильма."
+  - type: cloze
+    text: "Kai atėjome, traukinys jau buvo ___."
+    answer: "išvažiavęs"
+    hint: "išvažiuoti → м. р."
+    translation: "Когда мы пришли, поезд уже уехал."
+  - type: cloze
+    text: "Iki penktadienio ___ baigęs projektą."
+    answer: "būsiu"
+    hint: "būti → буд. вр., я"
+    translation: "К пятнице я закончу проект."
+  - type: cloze
+    text: "Mama jau buvo ___ vakarienę."
+    answer: "išvirusi"
+    hint: "išvirti → ж. р."
+    translation: "Мама уже приготовила ужин."
+  - type: cloze
+    text: "Mes esame ___ apie tai."
+    answer: "girdėję"
+    hint: "girdėti → мн. ч."
+    translation: "Мы слышали об этом."
+  - type: cloze
+    text: "Jie dar nėra ___ lietuviškų cepelinų."
+    answer: "ragavę"
+    hint: "ragauti → мн. ч."
+    translation: "Они ещё не пробовали литовских цепелинов."
+  - type: cloze
+    text: "Kai paskambinai, aš jau buvau ___."
+    answer: "užmigęs"
+    also: ["užmigusi"]
+    hint: "užmigti → прич. прош. вр."
+    translation: "Когда ты позвонил, я уже уснул."

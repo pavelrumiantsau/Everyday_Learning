@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0089
+cefr: B2
+order: 89
+title: "Повторение B2: падеж после глагола и предлога"
+explanation:
+  ru: |
+    Смешанная тренировка: какой падеж требует глагол или предлог. Короткая шпаргалка.
+
+    **Глаголы:**
+    - род. п.: *laukti, ieškoti, bijoti, klausti, atsiprašyti, norėti **ko***
+    - дат. п.: *padėti, dėkoti, skambinti, vadovauti, linkėti **kam***
+    - тв. п.: *domėtis, naudotis, rūpintis, tikėti, džiaugtis **kuo***
+    - **отрицание** → род. п.: *Neturiu **laiko**.*
+
+    **Предлог po — три падежа:**
+    - ***po*** + род. п. — после: *po **pietų***
+    - ***po*** + вин. п. — по (поверхности, пространству): *po **miestą***
+    - ***po*** + тв. п. — под: *po **stalu***
+
+    **Другие:** *dėl, be, prie, nuo, iki, iš* + род. п. · *į, apie, per, pas* + вин. п. · *su* + тв. п.
+comparison:
+  ru: |
+    Чаще всего ошибаются там, где русский падеж «подсказывает» неправильно: *laukiu **tavęs*** (жду тебя — вин. в русском), *dėkoju **tau*** (благодарю тебя), *naudojuosi **kompiuteriu*** (пользуюсь компьютером — совпадает, но *naudoti kompiuterį* — без *-si* и с вин. п.).
+examples:
+  - { text: "Tomas domisi botanika.", translation: "Том интересуется ботаникой.", source: "tatoeba:10546280" }
+  - { text: "Prašau, padėk man išspręsti šitą uždavinį.", translation: "Помоги мне, пожалуйста, решить эту задачу.", source: "tatoeba:13311478" }
+  - { text: "Tu naudojiesi mano silpnumu.", translation: "Ты пользуешься моей слабостью.", source: "tatoeba:10341478" }
+  - { text: "Nesiginčykime dėl to.", translation: "Давай не будем об этом спорить.", source: "tatoeba:9726838" }
+  - { text: "Visa tai dėl tavęs.", translation: "Всё это из-за тебя.", source: "tatoeba:12178331" }
+exercises:
+  - type: cloze
+    text: "Mano brolis domisi ___."
+    answer: "istorija"
+    hint: "istorija → domėtis kuo"
+    translation: "Мой брат интересуется историей."
+  - type: cloze
+    text: "Ilgai laukėme ___."
+    answer: "autobuso"
+    hint: "autobusas → laukti ko"
+    translation: "Мы долго ждали автобуса."
+  - type: cloze
+    text: "Ar galiu pasinaudoti tavo ___?"
+    answer: "kompiuteriu"
+    hint: "kompiuteris → naudotis kuo"
+    translation: "Можно воспользоваться твоим компьютером?"
+  - type: cloze
+    text: "Dėkoju ___ už pagalbą."
+    answer: "jums"
+    hint: "jūs → dėkoti kam"
+    translation: "Благодарю вас за помощь."
+  - type: cloze
+    text: "Po ___ eisime pasivaikščioti."
+    answer: "pietų"
+    hint: "pietūs → po + род. п. (после)"
+    translation: "После обеда пойдём гулять."
+  - type: cloze
+    text: "Vakare vaikščiojome po ___."
+    answer: "miestą"
+    hint: "miestas → po + вин. п. (по)"
+    translation: "Вечером мы гуляли по городу."
+  - type: cloze
+    text: "Katė miega po ___."
+    answer: "stalu"
+    hint: "stalas → po + тв. п. (под)"
+    translation: "Кошка спит под столом."
+  - type: cloze
+    text: "Neturiu ___ apie tai kalbėti."
+    answer: "noro"
+    hint: "noras → род. п. (отрицание)"
+    translation: "У меня нет желания об этом говорить."

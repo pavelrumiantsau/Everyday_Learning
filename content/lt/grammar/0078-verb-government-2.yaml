@@ -1,0 +1,79 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0078
+cefr: B2
+order: 78
+title: "Управление 2: klausti ko, atsiprašyti ko, vadovauti kam, tikėti kuo, juoktis iš ko"
+explanation:
+  ru: |
+    Продолжение урока об управлении — ещё глаголы, где падеж не совпадает с русским.
+
+    **Родительный (ko?)** — там, где по-русски «кого» или «перед кем»:
+    - ***klausti / paklausti ko*** — спросить кого: *Paklausk **mamos**.*
+    - ***atsiprašyti ko*** — извиниться перед кем: *Atsiprašiau **Tomo**.*
+    - ***mokyti ką ko*** — учить кого чему: *Ji moko vaikus **muzikos**.*
+    - ***pasiilgti ko*** — соскучиться по: *Pasiilgau **namų**.*
+
+    **Дательный (kam?)** — там, где по-русски «кем» или «кого»:
+    - ***vadovauti kam*** — руководить кем: *vadovauja **įmonei***
+    - ***atstovauti kam*** — представлять кого: *atstovauja **Lietuvai***
+    - ***pavydėti kam ko*** — завидовать кому (в чём): *Pavydžiu **tau** kantrybės.*
+
+    **Творительный (kuo?):**
+    - ***tikėti kuo*** — верить в: *tikiu **tavimi*** (в тебя); но ***tikėti kam*** — верить кому: *Tikiu **tau**.*
+    - ***stebėtis kuo*** — удивляться чему; ***žavėtis kuo*** — восхищаться
+
+    **С предлогом:**
+    - ***juoktis iš ko*** — смеяться над: *juokiasi **iš manęs***
+    - ***priklausyti nuo ko*** — зависеть от; ***priklausyti kam*** — принадлежать кому
+comparison:
+  ru: |
+    Самые частые ошибки: *paklausiau **jį*** (надо *jo*), *atsiprašau **tave*** (надо *tavęs*), *vadovauja **įmone*** (надо *įmonei*) и *juokiasi **ant manęs*** (надо *iš manęs*).
+examples:
+  - { text: "Aš paklausiau Tomo.", translation: "Я спросил Тома.", source: "tatoeba:2182511" }
+  - { text: "Aš jau atsiprašiau Tomo.", translation: "Я перед Томом уже извинился.", source: "tatoeba:10600452" }
+  - { text: "Tomas vadovauja laboratorijai.", translation: "Том возглавляет лабораторию.", source: "tatoeba:13045616" }
+  - { text: "Jis tiki jumis!", translation: "Он в вас верит!", source: "tatoeba:13439036" }
+  - { text: "Jie juokėsi iš jo klaidos.", translation: "Они смеялись над его ошибкой.", source: "tatoeba:3162929" }
+exercises:
+  - type: cloze
+    text: "Paklausk ___, kur jis buvo."
+    answer: "tėvo"
+    hint: "tėvas → klausti ko"
+    translation: "Спроси отца, где он был."
+  - type: cloze
+    text: "Aš jau atsiprašiau ___."
+    answer: "jos"
+    hint: "ji → atsiprašyti ko"
+    translation: "Я уже извинился перед ней."
+  - type: cloze
+    text: "Jis vadovauja didelei ___."
+    answer: "įmonei"
+    hint: "įmonė → vadovauti kam"
+    translation: "Он руководит большой компанией."
+  - type: cloze
+    text: "Aš tikiu ___ – tau pavyks!"
+    answer: "tavimi"
+    hint: "tu → tikėti kuo"
+    translation: "Я верю в тебя — у тебя получится!"
+  - type: cloze
+    text: "Vaikai juokėsi ___ manęs."
+    answer: "iš"
+    hint: "смеяться над"
+    translation: "Дети смеялись надо мной."
+  - type: cloze
+    text: "Ji moko vaikus ___."
+    answer: "muzikos"
+    hint: "muzika → mokyti ko"
+    translation: "Она учит детей музыке."
+  - type: cloze
+    text: "Viskas priklauso ___ oro."
+    answer: "nuo"
+    hint: "зависеть от"
+    translation: "Всё зависит от погоды."
+  - type: cloze
+    text: "Visi stebėjosi jo ___."
+    answer: "drąsa"
+    hint: "drąsa → stebėtis kuo"
+    translation: "Все удивлялись его смелости."

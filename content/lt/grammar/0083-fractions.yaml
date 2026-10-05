@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0083
+cefr: B1
+order: 83
+title: "Доли: pusė, pusantro, trečdalis, ketvirtis, procentai"
+explanation:
+  ru: |
+    После всех долей существительное стоит в **родительном** падеже.
+
+    **pusė** — половина: *pusė obuolio*; в вин. п. ***pusę***: *Palik man pusę.* · *laukiu pusę valandos* (полчаса)
+    - время: ***pusė trijų*** = половина третьего (2:30)
+
+    **pusantro / pusantros** — полтора / полторы:
+    - м. р.: ***pusantro*** *metro, kilometro, mėnesio*
+    - ж. р.: ***pusantros*** *valandos, dienos*
+    - с *metai* (только мн. ч.): ***pusantrų*** *metų*
+
+    **-dalis** — доли: ***trečdalis*** (треть), ***ketvirtis*** (четверть), *penktadalis, dešimtadalis*; мн. ч. *du trečdaliai, trys ketvirtadaliai*.
+
+    **Проценты и десятичные:** *dešimt **procentų*** (род. мн.), *šimtu procentų* (на сто процентов); *2,5* = *du **kablelis** penki* (запятая = *kablelis*).
+comparison:
+  ru: |
+    «Полтора» зависит от рода, как в русском (полтора / полторы): *pusantro metro*, но *pusantros valandos*. А «на десять процентов» — творительный без предлога: *pakilo **dešimčia** procentų*.
+examples:
+  - { text: "Man palik pusę.", translation: "Оставь мне половину.", source: "tatoeba:12161733" }
+  - { text: "Mano sūnui pusantrų metų.", translation: "Моему сыну полтора года.", source: "tatoeba:10321083" }
+  - { text: "Darbą aš pasiekiu per pusantros valandos.", translation: "Я добираюсь до работы за полтора часа.", source: "tatoeba:9146789" }
+  - { text: "Aš suvalgiau ketvirtį pyrago.", translation: "Я съел четверть пирога.", source: "tatoeba:2586470" }
+  - { text: "Devyniasdešimt procentų darbo atliko Tomas.", translation: "Девяносто процентов работы сделал Том.", source: "tatoeba:9131006" }
+exercises:
+  - type: cloze
+    text: "Palik man ___ pyrago."
+    answer: "pusę"
+    hint: "pusė → вин. п."
+    translation: "Оставь мне половину пирога."
+  - type: cloze
+    text: "Kelionė truko ___ valandos."
+    answer: "pusantros"
+    hint: "полтора (valanda — ж. р.)"
+    translation: "Поездка длилась полтора часа."
+  - type: cloze
+    text: "Iki stotelės – ___ kilometro."
+    answer: "pusantro"
+    hint: "полтора (kilometras — м. р.)"
+    translation: "До остановки — полтора километра."
+  - type: cloze
+    text: "___ gyventojų gyvena kaime."
+    answer: "Trečdalis"
+    hint: "треть"
+    translation: "Треть жителей живёт в деревне."
+  - type: cloze
+    text: "Suvalgiau tik ___ picos."
+    answer: "ketvirtį"
+    hint: "ketvirtis → вин. п."
+    translation: "Я съел только четверть пиццы."
+  - type: cloze
+    text: "Kainos pakilo dešimčia ___."
+    answer: "procentų"
+    hint: "procentas → род. мн."
+    translation: "Цены выросли на десять процентов."
+  - type: cloze
+    text: "Dabar ___ penkių."
+    answer: "pusė"
+    hint: "4:30"
+    translation: "Сейчас половина пятого."
+  - type: cloze
+    text: "Prieš ___ metų persikėlėme į Kauną."
+    answer: "pusantrų"
+    hint: "полтора (metai — мн. ч.)"
+    translation: "Полтора года назад мы переехали в Каунас."

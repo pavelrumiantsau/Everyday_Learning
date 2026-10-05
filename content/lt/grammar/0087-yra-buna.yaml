@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0087
+cefr: B1
+order: 87
+title: "Есть и бывает: yra – būna – buvo – būdavo"
+explanation:
+  ru: |
+    У глагола *būti* в настоящем времени **две формы**, и они различаются так же, как русские «есть» и «бывает».
+
+    - ***yra*** — есть, сейчас, конкретно: *Šiandien **yra** šalta.* · *Mieste **yra** daug žmonių.*
+    - ***būna*** — бывает, обычно, регулярно: *Žiemą **būna** šalta.* · *Kartais taip **būna**.*
+      - спрягается полностью: *būnu, būni, būna, būname, būnate*: *Kur **būni** vakarais?* — где ты обычно бываешь вечерами?
+
+    В прошедшем — так же пара:
+    - ***buvo*** — было (один раз, конкретно): *Vakar **buvo** šalta.*
+    - ***būdavo*** — бывало (повторялось): *Vaikystėje vasaros **būdavo** karštos.*
+comparison:
+  ru: |
+    Совпадает с русским «есть — бывает», «было — бывало». Ошибка — сказать *Žiemą yra šalta* о том, что повторяется каждый год: лучше ***būna***.
+examples:
+  - { text: "Kartais taip būna.", translation: "Иногда это так.", source: "tatoeba:11568231" }
+  - { text: "Tai ne dažnai būna.", translation: "Это не часто бывает.", source: "tatoeba:12958527" }
+  - { text: "Kokie orai būna žiemą?", translation: "Зимой какая бывает погода?", source: "tatoeba:2157653" }
+  - { text: "Rudenį tai dažnai būdavo.", translation: "Это часто бывало осенью.", source: "tatoeba:12480884" }
+  - { text: "Taip būdavo, ir ne sykį.", translation: "Такое бывало, и не раз.", source: "tatoeba:13036597" }
+exercises:
+  - type: cloze
+    text: "Žiemą čia dažnai ___ sniego."
+    answer: "būna"
+    hint: "бывает (обычно)"
+    translation: "Зимой здесь часто бывает снег."
+  - type: cloze
+    text: "Šiandien ___ penktadienis."
+    answer: "yra"
+    hint: "сейчас, конкретно"
+    translation: "Сегодня пятница."
+  - type: cloze
+    text: "Vaikystėje vasaros ___ karštesnės."
+    answer: "būdavo"
+    hint: "бывало (прош., повторялось)"
+    translation: "В детстве лето бывало жарче."
+  - type: cloze
+    text: "Taip ___ ne tik pas mus."
+    answer: "būna"
+    hint: "бывает"
+    translation: "Так бывает не только у нас."
+  - type: cloze
+    text: "Vakar ___ labai šalta."
+    answer: "buvo"
+    hint: "было (один раз)"
+    translation: "Вчера было очень холодно."
+  - type: cloze
+    text: "Kur tu ___ vakarais?"
+    answer: "būni"
+    hint: "būti → обычно, ты"
+    translation: "Где ты обычно бываешь по вечерам?"
+  - type: cloze
+    text: "Šiandien mieste ___ daug žmonių – šventė."
+    answer: "yra"
+    hint: "сейчас, конкретно"
+    translation: "Сегодня в городе много людей — праздник."
+  - type: cloze
+    text: "Senelis sekmadieniais ___ bažnyčioje."
+    answer: "būdavo"
+    hint: "бывал (регулярно в прошлом)"
+    translation: "Дедушка по воскресеньям бывал в церкви."

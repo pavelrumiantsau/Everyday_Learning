@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0088
+cefr: B1
+order: 88
+title: "Вопросительные слова в падежах: kas, ko, kam, kuo, kieno, koks, kuris"
+explanation:
+  ru: |
+    **kas** — и «кто», и «что»; рода и числа нет, только падежи:
+    - *kas* · ***ko*** · ***kam*** · ***ką*** · ***kuo*** · *kame* (чаще *kur*)
+    - падеж берётся из глагола: ***Ko** ieškai?* (ieškoti ko — что ищешь), ***Kam** skambini?* (кому), ***Kuo** domiesi?* (чем), *Su **kuo** kalbi?* (с кем)
+
+    **kieno** — чей, чья, чьё — **не склоняется**: ***Kieno** šita knyga?*
+
+    **koks / kokia** — какой (качество) — склоняется как прилагательное: ***Kokios** spalvos?* (какого цвета) · ***Kokį** filmą žiūrėjai?*
+
+    **kuris / kuri** — который (выбор из нескольких): ***Kurią** pasirinksi?*
+
+    **kiek** + род. п. — сколько: ***Kiek** kainuoja?* · *Kiek tau metų?*
+comparison:
+  ru: |
+    Ловушка — вопрос с родительным там, где по-русски винительный: «Что ты ищешь?» = ***Ko*** *ieškai?*, «Кого ждёшь?» = ***Ko*** *lauki?* А «чей» не меняется: *kieno namas, kieno mašina, kieno vaikai*.
+examples:
+  - { text: "Aš nežinau, kieno tai.", translation: "Я не знаю, чьё это.", source: "tatoeba:12187140" }
+  - { text: "Palauk, kieno dabar eilė?", translation: "Погоди, чья сейчас очередь?", source: "tatoeba:12347035" }
+  - { text: "Su kuo tu eini?", translation: "С кем ты идёшь?", source: "tatoeba:12368848" }
+  - { text: "O kam dabar lengva?", translation: "А кому сейчас легко?", source: "tatoeba:13527018" }
+  - { text: "Ji daug kuo domisi.", translation: "Она много чем интересуется.", source: "tatoeba:11682942" }
+exercises:
+  - type: cloze
+    text: "___ šitas telefonas?"
+    answer: "Kieno"
+    hint: "чей"
+    translation: "Чей это телефон?"
+  - type: cloze
+    text: "Su ___ tu vakar kalbėjai?"
+    answer: "kuo"
+    hint: "с кем"
+    translation: "С кем ты вчера разговаривал?"
+  - type: cloze
+    text: "___ ieškai?"
+    answer: "Ko"
+    hint: "ieškoti ko"
+    translation: "Что ты ищешь?"
+  - type: cloze
+    text: "___ paskambinai?"
+    answer: "Kam"
+    hint: "кому"
+    translation: "Кому ты позвонил?"
+  - type: cloze
+    text: "___ tu domiesi?"
+    answer: "Kuo"
+    hint: "domėtis kuo"
+    translation: "Чем ты интересуешься?"
+  - type: cloze
+    text: "___ spalvos tavo automobilis?"
+    answer: "Kokios"
+    hint: "koks → род. п. ж. р."
+    translation: "Какого цвета твоя машина?"
+  - type: cloze
+    text: "___ knygą pasirinksi – šitą ar aną?"
+    answer: "Kurią"
+    hint: "kuris → вин. п. ж. р."
+    translation: "Какую книгу выберешь — эту или ту?"
+  - type: cloze
+    text: "Apie ___ galvoji?"
+    answer: "ką"
+    hint: "apie + вин. п."
+    translation: "О чём ты думаешь?"

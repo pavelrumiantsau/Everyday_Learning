@@ -1,0 +1,66 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0085
+cefr: B1
+order: 85
+title: "Могу, умею, должен: galėti, mokėti, turėti, privalėti"
+explanation:
+  ru: |
+    - ***galėti*** (gali, galėjo) — **мочь**: возможность или разрешение: *Ar **galiu** įeiti?* · *Vakar **negalėjau** ateiti.*
+    - ***mokėti*** (moka, mokėjo) — **уметь** (навык): ***Moku** plaukti.* ⚠️ Тот же глагол значит «платить»: *mokėti už butą*.
+    - ***turėti*** + инфинитив — **должен** (надо, так запланировано): ***Turiu** eiti.*
+      - в прошедшем ещё и **«должно быть»** (догадка): *Jis **turėjo** pamiršti.* — Он, должно быть, забыл.
+    - ***privalėti*** (privalo, privalėjo) — **обязан** (сильнее, официально): *Vairuotojai **privalo** segėti diržus.*
+    - ***reikėti*** — **нужно** (безлично, кому — дательный): *Man **reikia** eiti.*
+    - ***tekti*** — **пришлось**: *Man **teko** laukti.*
+comparison:
+  ru: |
+    «Я умею плавать» = *Moku plaukti*, а не *galiu plaukti* (это «могу», например, вода тёплая). «Должен» чаще всего ***turiu*** — как английское *I have to*; ***privalau*** звучит как «обязан по правилам».
+examples:
+  - { text: "Jis moka šokti.", translation: "Он умеет танцевать.", source: "tatoeba:12161837" }
+  - { text: "Jis moka vairuoti.", translation: "Он умеет водить.", source: "tatoeba:1505192" }
+  - { text: "Aš turiu grįžti.", translation: "Я должен вернуться.", source: "tatoeba:11466748" }
+  - { text: "Mes privalome veikti.", translation: "Мы должны действовать.", source: "tatoeba:10715276" }
+  - { text: "Aš privalau žinoti.", translation: "Я должен знать.", source: "tatoeba:7022908" }
+exercises:
+  - type: cloze
+    text: "Ar ___ man padėti?"
+    answer: "gali"
+    hint: "galėti → ты"
+    translation: "Ты можешь мне помочь?"
+  - type: cloze
+    text: "Mano sūnus jau ___ skaityti."
+    answer: "moka"
+    hint: "уметь → он"
+    translation: "Мой сын уже умеет читать."
+  - type: cloze
+    text: "Atsiprašau, aš ___ eiti – vėluoju."
+    answer: "turiu"
+    hint: "должен → я"
+    translation: "Извините, я должен идти — опаздываю."
+  - type: cloze
+    text: "Visi keleiviai ___ turėti bilietus."
+    answer: "privalo"
+    hint: "обязаны"
+    translation: "Все пассажиры обязаны иметь билеты."
+  - type: cloze
+    text: "Jis dar neatėjo – jis ___ pamiršti."
+    answer: "turėjo"
+    hint: "должно быть (прош.)"
+    translation: "Он ещё не пришёл — должно быть, забыл."
+  - type: cloze
+    text: "Ar ___ vairuoti?"
+    answer: "moki"
+    hint: "уметь → ты"
+    translation: "Ты умеешь водить?"
+  - type: cloze
+    text: "Atsiprašau, vakar ___ ateiti."
+    answer: "negalėjau"
+    hint: "galėti → я, отриц., прош."
+    translation: "Извини, вчера я не смог прийти."
+  - type: cloze
+    text: "Už butą kas mėnesį ___ penkis šimtus eurų."
+    answer: "mokame"
+    hint: "mokėti (платить) → мы"
+    translation: "За квартиру мы каждый месяц платим пятьсот евро."

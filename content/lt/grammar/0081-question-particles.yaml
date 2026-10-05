@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0081
+cefr: B1
+order: 81
+title: "Вопросы: ar, ar ne?, argi, nejaugi, kažin ar"
+explanation:
+  ru: |
+    **ar** — вопрос «да или нет» (как русское «ли»): ***Ar** tu namie?* В разговоре *ar* часто опускают, оставляя интонацию: *Tu namie?*
+
+    То же ***ar*** в косвенном вопросе = «ли»: *Nežinau, **ar** jis ateis.* — Не знаю, придёт ли он.
+
+    **ar … ar** / **… ar …** — выбор («или» в вопросе): *Kava **ar** arbata?*
+
+    Хвостики «не так ли?, правда?»: ***ar ne?*** или ***argi ne?***: *Šalta, ar ne?*
+
+    Удивление и сомнение:
+    - ***argi*** — «разве»: ***Argi** tu nežinai?*
+    - ***nejaugi / nejau*** — «неужели»: ***Nejaugi** jau vakaras?*
+    - ***kažin ar*** — «вряд ли / интересно, … ли»: ***Kažin ar** jis ateis.*
+    - ***juk*** в вопросе — «ведь, же»: *Tu **juk** moki plaukti?*
+comparison:
+  ru: |
+    Русское «или» в вопросе — это ***ar***, а не *arba*: «Чай или кофе?» = *Arbata **ar** kava?* (*arba* — «или» в утверждении: *Ateisiu rytoj arba poryt.*)
+examples:
+  - { text: "Šįryt vėsu, ar ne?", translation: "Сегодня утром прохладно, не так ли?", source: "tatoeba:12131551" }
+  - { text: "Tu juokauji, ar ne?", translation: "Ты шутишь, не так ли?", source: "tatoeba:11532315" }
+  - { text: "Tai visai ne staigmėna, argi ne?", translation: "Это совсем не удивительно, не так ли?", source: "tatoeba:1587673" }
+  - { text: "Tu juk moki plaukti?", translation: "Ты же умеешь плавать?", source: "tatoeba:11505417" }
+exercises:
+  - type: cloze
+    text: "___ tu kalbi lietuviškai?"
+    answer: "Ar"
+    hint: "вопрос «да / нет»"
+    translation: "Ты говоришь по-литовски?"
+  - type: cloze
+    text: "Nežinau, ___ jis ateis."
+    answer: "ar"
+    hint: "ли"
+    translation: "Не знаю, придёт ли он."
+  - type: cloze
+    text: "Šiandien šalta, ar ___?"
+    answer: "ne"
+    hint: "не так ли?"
+    translation: "Сегодня холодно, не так ли?"
+  - type: cloze
+    text: "___ tu to nežinojai?"
+    answer: "Argi"
+    hint: "разве"
+    translation: "Разве ты этого не знал?"
+  - type: cloze
+    text: "___ jau Kalėdos? Kaip greitai bėga laikas!"
+    answer: "Nejaugi"
+    also: ["Nejau"]
+    hint: "неужели"
+    translation: "Неужели уже Рождество? Как быстро летит время!"
+  - type: cloze
+    text: "Ką gersi – kavą ___ arbatą?"
+    answer: "ar"
+    hint: "или (в вопросе)"
+    translation: "Что будешь пить — кофе или чай?"
+  - type: cloze
+    text: "Tu ___ moki vairuoti?"
+    answer: "juk"
+    hint: "ведь, же"
+    translation: "Ты же умеешь водить?"
+  - type: cloze
+    text: "Kažin ___ parduotuvė dar atidaryta."
+    answer: "ar"
+    hint: "интересно, … ли"
+    translation: "Интересно, открыт ли ещё магазин."

@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0086
+cefr: B1
+order: 86
+title: "Когда именно: ką tik, tuoj, netrukus, kol kas, iki šiol, pagaliau"
+explanation:
+  ru: |
+    Короткие наречия времени, которые постоянно звучат в речи:
+
+    - ***ką tik*** — только что: *Ji **ką tik** išėjo.*
+    - ***tuoj / tuojau*** — сейчас, сию минуту; ***tuoj pat*** — сейчас же, сразу: ***Tuoj** ateisiu.*
+    - ***iš karto*** — сразу: *Supratau **iš karto**.*
+    - ***netrukus*** — скоро, вскоре: *Jis **netrukus** ateis.*
+    - ***kol kas*** — пока (что): ***Kol kas** nežinau.*
+    - ***iki šiol*** — до сих пор: ***Iki šiol** prisimenu.*
+    - ***vis dar*** — всё ещё: *Jis **vis dar** miega.*
+    - ***seniai / neseniai*** — давно / недавно: ***Seniai** nesimatėme!*
+    - ***pagaliau*** — наконец (дождались); ***galiausiai*** — в конце концов, в итоге
+comparison:
+  ru: |
+    Русское «пока» — три разных слова: «пока не знаю» = ***kol kas***, «пока я работал» = ***kol*** *dirbau*, «пока!» (до свидания) = ***iki!***. А «наконец-то!» — ***pagaliau!***, не *galiausiai*.
+examples:
+  - { text: "Ji ką tik išėjo.", translation: "Она только вышла.", source: "tatoeba:2729361" }
+  - { text: "Atsakyk tuoj pat!", translation: "Отвечай сейчас!", source: "tatoeba:12968198" }
+  - { text: "Jis netrukus ateis.", translation: "Он скоро придёт.", source: "tatoeba:12206109" }
+  - { text: "Jie kol kas nežino.", translation: "Они пока не знают.", source: "tatoeba:13901827" }
+  - { text: "Jūs iki šiol kartu?", translation: "Вы до сих пор вместе?", source: "tatoeba:12237989" }
+exercises:
+  - type: cloze
+    text: "Traukinys ___ išvažiavo – pavėlavome."
+    answer: "ką tik"
+    hint: "только что"
+    translation: "Поезд только что ушёл — мы опоздали."
+  - type: cloze
+    text: "Palauk, ___ ateisiu."
+    answer: "tuoj"
+    also: ["tuojau"]
+    hint: "сейчас"
+    translation: "Подожди, сейчас приду."
+  - type: cloze
+    text: "___ nieko nežinome, pranešime vėliau."
+    answer: "Kol kas"
+    hint: "пока"
+    translation: "Пока мы ничего не знаем, сообщим позже."
+  - type: cloze
+    text: "Aš ___ prisimenu tą dieną."
+    answer: "iki šiol"
+    also: ["vis dar"]
+    hint: "до сих пор"
+    translation: "Я до сих пор помню тот день."
+  - type: cloze
+    text: "___ nesimatėme! Kaip gyveni?"
+    answer: "Seniai"
+    hint: "давно"
+    translation: "Давно не виделись! Как живёшь?"
+  - type: cloze
+    text: "___ baigėsi žiema!"
+    answer: "Pagaliau"
+    hint: "наконец"
+    translation: "Наконец закончилась зима!"
+  - type: cloze
+    text: "Svečiai ___ atvyks, ruoškis."
+    answer: "netrukus"
+    also: ["tuoj"]
+    hint: "скоро"
+    translation: "Гости скоро приедут, готовься."
+  - type: cloze
+    text: "Jis ___ miega, nors jau vidurdienis."
+    answer: "vis dar"
+    hint: "всё ещё"
+    translation: "Он всё ещё спит, хотя уже полдень."
