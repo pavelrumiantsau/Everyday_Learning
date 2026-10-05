@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0031
+cefr: A2
+order: 121
+title: "Y and en: j'y vais, j'en veux deux"
+explanation:
+  en: |
+    Two small pronouns with no exact English equivalent.
+
+    ***y*** = "there", or "about it / to it":
+    - a place (*à, en, chez, dans* + place): *Tu vas à Paris ? — Oui, j'**y** vais.*
+    - ***à** + thing* (*penser à, répondre à*): *Tu penses à l'examen ? — J'**y** pense.*
+    - for people use *à* + stressed pronoun: *Je pense **à elle**.*
+
+    ***en*** = "some / of it / of them":
+    - partitive or *des* + noun: *Tu veux du café ? — Oui, j'**en** veux.*
+    - a number or quantity — **keep the number at the end**: *J'ai deux frères. → J'**en** ai **deux**.* *Il y **en** a beaucoup.*
+    - ***de** + thing* (*avoir besoin de, parler de, avoir peur de*): *J'**en** ai besoin.*
+
+    **Place:** like *le / lui* — before the verb, before *avoir / être*, before an infinitive:
+    - *Je n'**y** vais pas. J'**y** suis allé. Je vais **y** aller.*
+    - *Je n'**en** veux pas. J'**en** ai mangé. Tu peux **en** prendre.*
+
+    Fixed phrases: ***il y a***, ***il y en a***, ***on y va***, ***allons-y***, ***vas-y***.
+comparison:
+  en: |
+    Spanish has no such pronouns and usually just drops the object: *¿Quieres café? — Sí, quiero.* / *Tengo dos.* French can't drop it: ~~Oui, je veux~~ → *Oui, j'**en** veux*; ~~J'ai deux~~ → *J'**en** ai deux*. Russian «у меня их два» is the closest feel for *j'en ai deux*.
+examples:
+  - { text: "J'y suis allé hier.", translation: "I went there yesterday.", source: "tatoeba:1358042" }
+  - { text: "J'y ai pensé.", translation: "I thought about it.", source: "tatoeba:6473204" }
+  - { text: "J'en veux deux.", translation: "I want two.", source: "tatoeba:1664096" }
+  - { text: "J'en ai un.", translation: "I have one.", source: "tatoeba:2433240" }
+  - { text: "J'en ai besoin.", translation: "I need it.", source: "tatoeba:2482624" }
+exercises:
+  - type: cloze
+    text: "Tu vas à la piscine ? — Oui, j'___ vais ce soir."
+    answer: "y"
+    hint: "there — à la piscine"
+    translation: "Are you going to the pool? — Yes, I'm going tonight."
+  - type: cloze
+    text: "Tu veux du café ? — Oui, j'___ veux bien."
+    answer: "en"
+    hint: "some — du café"
+    translation: "Would you like some coffee? — Yes, I'd love some."
+  - type: cloze
+    text: "Tu as des frères ? — Oui, j'___ ai deux."
+    answer: "en"
+    hint: "of them — with a number"
+    translation: "Do you have brothers? — Yes, I have two."
+  - type: cloze
+    text: "Tu penses à ton examen ? — Oui, j'___ pense tout le temps."
+    answer: "y"
+    hint: "penser à + thing"
+    translation: "Are you thinking about your exam? — Yes, I think about it all the time."
+  - type: cloze
+    text: "Elle a besoin de son ordinateur ? — Oui, elle ___ a besoin."
+    answer: "en"
+    hint: "avoir besoin de + thing"
+    translation: "Does she need her computer? — Yes, she needs it."
+  - type: cloze
+    text: "Rome ? Je n'___ suis jamais allé."
+    answer: "y"
+    hint: "there"
+    translation: "Rome? I've never been there."
+  - type: cloze
+    text: "Il reste du lait ? — Oui, il y ___ a."
+    answer: "en"
+    hint: "some — du lait"
+    translation: "Is there any milk left? — Yes, there is some."
+  - type: cloze
+    text: "On va au cinéma ? — D'accord, allons-___ !"
+    answer: "y"
+    hint: "let's go (there)"
+    translation: "Shall we go to the cinema? — OK, let's go!"
