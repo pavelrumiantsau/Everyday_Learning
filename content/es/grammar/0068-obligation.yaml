@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0068
+cefr: A2
+order: 68
+title: "Tener que, hay que, deber, hace falta: must, have to, need"
+explanation:
+  en: |
+    - ***tener que*** + infinitive — have to (a person's need): *Mañana **tengo que** trabajar.*
+    - ***hay que*** + infinitive — one has to, it's necessary (no subject): ***Hay que** hacerlo.* *Hay que reservar mesa.*
+    - ***deber*** + infinitive — must (duty, rules, a bit more formal): *Debes respetar las normas.* — and ***deberías*** = you should (advice): *Deberías comer más.*
+    - ***necesitar*** + infinitive or noun — need: *Necesito dormir.* *Necesito ayuda.*
+    - ***hace falta*** + infinitive / noun, or ***que*** + subjunctive — is needed: *Hace falta dinero.* *No hace falta que vengas.*
+
+    **The negative trap:**
+    - ***no tener que / no hace falta*** = don't have to, not necessary — *No tienes que darte prisa.*
+    - ***no deber*** = must not, it's forbidden — *No debes mentir.*
+
+    ***deber de*** + infinitive = probably, must be (a guess): *No contesta; **debe de** estar dormido.* In everyday speech people also say *debe estar*.
+comparison:
+  en: |
+    English has the same trap: "you don't have to" ≠ "you mustn't". Russian: *tener que* ≈ «мне надо / я должен», *hay que* ≈ «надо, нужно» (без лица), *deberías* ≈ «тебе следует», *no tienes que* ≈ «не нужно», *no debes* ≈ «нельзя».
+examples:
+  - { text: "Hay que hacerlo.", translation: "It has to be done.", source: "tatoeba:2267362" }
+  - { text: "Deberías comer más.", translation: "You should eat more.", source: "tatoeba:1337121" }
+  - { text: "No debes mentir.", translation: "You mustn't lie.", source: "tatoeba:532624" }
+  - { text: "No tienes que darte prisa.", translation: "You don't have to hurry.", source: "tatoeba:972911" }
+  - { text: "No hace falta que grites.", translation: "You don't need to shout.", source: "tatoeba:6861932" }
+exercises:
+  - type: cloze
+    text: "Mañana ___ que levantarme a las seis."
+    answer: "tengo"
+    hint: "tener, yo"
+    translation: "Tomorrow I have to get up at six."
+  - type: cloze
+    text: "Para entrar en el museo ___ que comprar la entrada por internet."
+    answer: "hay"
+    hint: "impersonal — one has to"
+    translation: "To get into the museum, you have to buy the ticket online."
+  - type: cloze
+    text: "Estás muy cansado. ___ descansar un poco."
+    answer: "Deberías"
+    hint: "deber, tú — advice (should)"
+    translation: "You're very tired. You should rest a bit."
+  - type: cloze
+    text: "No ___ conducir si has bebido."
+    answer: "debes"
+    hint: "deber, tú — must not"
+    translation: "You mustn't drive if you've been drinking."
+  - type: cloze
+    text: "Es gratis, no ___ que pagar nada."
+    answer: "tienes"
+    also: ["hay"]
+    hint: "tener, tú — don't have to"
+    translation: "It's free, you don't have to pay anything."
+  - type: cloze
+    text: "No hace falta que ___ tan temprano."
+    answer: "vengas"
+    hint: "venir, tú — que + subjunctive"
+    translation: "You don't need to come so early."
+  - type: cloze
+    text: "Para este trabajo ___ falta hablar inglés."
+    answer: "hace"
+    hint: "it's necessary"
+    translation: "For this job you need to speak English."
+  - type: cloze
+    text: "No contesta. ___ de estar dormido."
+    answer: "Debe"
+    hint: "deber — a guess (probably)"
+    translation: "He isn't answering. He must be asleep."
