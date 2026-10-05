@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0027
+cefr: A1
+order: 117
+title: "À Paris, en France, au Japon: places and origin"
+explanation:
+  en: |
+    French uses **one preposition for both "in" and "to"** a place: *J'habite **en** France. Je vais **en** France.* Which one depends on the kind of place and its gender.
+
+    **"in / to":**
+    - **cities** → ***à***: *à Paris, à Vilnius, à Londres*
+    - **feminine countries** (most end in *-e*: *la France, l'Espagne, la Lituanie*) → ***en***: *en France, en Espagne, en Lituanie*
+    - **masculine countries** (*le Japon, le Canada, le Portugal, le Brésil*) → ***au***: *au Japon, au Canada*
+    - **plural countries** (*les États-Unis, les Pays-Bas*) → ***aux***: *aux États-Unis*
+    - continents and most regions are feminine → ***en***: *en Europe, en Bretagne*
+
+    **"from"** — the same split with ***de***:
+    - cities and feminine countries → ***de / d'***: *de Paris, de France, d'Espagne, d'Italie*
+    - masculine countries → ***du***: *du Japon, du Canada*
+    - plural → ***des***: *des États-Unis*
+
+    Watch out:
+    - *le **Mexique*** is masculine despite the *-e*: *au Mexique, du Mexique*
+    - a masculine country starting with a vowel takes *en*: *en Iran, en Israël*
+    - with no preposition the article is back: ***La** France est belle.* — ~~France est belle~~
+comparison:
+  en: |
+    Spanish splits by meaning — *en* for "in", *a* for "to" (*vivo en Japón, voy a Japón*) — and uses no article before most countries. French does the opposite: "in" and "to" are the same, but the choice depends on the place's gender: think of *en* / *au* as the price of *la France* / *le Japon*.
+examples:
+  - { text: "Je vais à Londres.", translation: "I'm going to London.", source: "tatoeba:3353246" }
+  - { text: "J'habite en Espagne.", translation: "I live in Spain.", source: "tatoeba:13217392" }
+  - { text: "Je vis au Japon.", translation: "I live in Japan.", source: "tatoeba:373595" }
+  - { text: "Nous vivons aux États-Unis.", translation: "We live in the United States.", source: "tatoeba:605872" }
+  - { text: "Je viens du Canada.", translation: "I'm from Canada.", source: "tatoeba:10978" }
+exercises:
+  - type: cloze
+    text: "Mon frère habite ___ Lyon."
+    answer: "à"
+    hint: "a city"
+    translation: "My brother lives in Lyon."
+  - type: cloze
+    text: "Cet été, nous allons ___ Italie."
+    answer: "en"
+    hint: "l'Italie (f)"
+    translation: "This summer we're going to Italy."
+  - type: cloze
+    text: "Elle travaille ___ Canada."
+    answer: "au"
+    hint: "le Canada (m)"
+    translation: "She works in Canada."
+  - type: cloze
+    text: "Ils partent ___ États-Unis demain."
+    answer: "aux"
+    hint: "les États-Unis (pl)"
+    translation: "They're leaving for the United States tomorrow."
+  - type: cloze
+    text: "Je viens ___ Lituanie."
+    answer: "de"
+    hint: "from — la Lituanie (f)"
+    translation: "I'm from Lithuania."
+  - type: cloze
+    text: "Ce café vient ___ Brésil."
+    answer: "du"
+    hint: "from — le Brésil (m)"
+    translation: "This coffee comes from Brazil."
+  - type: cloze
+    text: "Mes amis viennent ___ Pays-Bas."
+    answer: "des"
+    hint: "from — les Pays-Bas (pl)"
+    translation: "My friends are from the Netherlands."
+  - type: cloze
+    text: "Il fait très chaud ___ Mexique."
+    answer: "au"
+    hint: "le Mexique — masculine despite the -e"
+    translation: "It's very hot in Mexico."
