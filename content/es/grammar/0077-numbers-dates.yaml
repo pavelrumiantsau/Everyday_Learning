@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0077
+cefr: A2
+order: 77
+title: "Cien, doscientas, el tercer piso, el 5 de mayo: numbers, ordinals and dates"
+explanation:
+  en: |
+    **Numbers that change:**
+    - ***uno*** → ***un*** before a masculine noun, ***una*** before a feminine one: *un libro, veintiún años, treinta y una personas*.
+    - ***cien*** — exactly 100 and before *mil, millones*: *cien euros, cien mil*. ***ciento*** + more: *ciento veinte* (120). No *un*: ~~un cien~~.
+    - **hundreds agree** with the noun: *dosc**ientos** euros*, *dosc**ientas** personas*. Irregular: ***quinientos*** (500), ***setecientos*** (700), ***novecientos*** (900).
+    - ***mil*** never changes: *dos mil, tres mil*. ***un millón, dos millones*** + ***de***: *un millón **de** personas*.
+    - ***y*** only between tens and units: *treinta **y** cinco*, but *ciento cinco, dos mil diez*.
+    - **Years** are read as a number: *1998 — mil novecientos noventa y ocho*, *2027 — dos mil veintisiete*.
+
+    **Ordinals:** *primero, segundo, tercero, cuarto, quinto, sexto, séptimo, octavo, noveno, décimo* — they agree (*la segunda vez*). ***primero, tercero*** lose **-o** before a masculine noun: ***el primer** día, **el tercer** piso*. After 10, ordinary numbers are normal: *el siglo veinte* (XX), *el piso doce*.
+
+    **Dates** use ordinary numbers, ***el*** and ***de***: *el 5 **de** mayo* (el cinco de mayo), *el 1 de enero* (*el uno*, in Latin America also *el primero*). Months have no capital letter. *¿Qué fecha es hoy?* — What's the date today? In writing the day comes first: *5/10/2026* = 5 October.
+comparison:
+  en: |
+    Unlike Russian «пятое мая» or English "the fifth of May", Spanish dates use the ordinary number: *el cinco de mayo*, not ~~el quinto de mayo~~. Hundreds agree like Russian «двести / две»: *doscientas personas*. And English "a hundred", "a thousand" have no *un* in Spanish: *cien, mil*.
+examples:
+  - { text: "Mi cumpleaños es el diez de noviembre.", translation: "My birthday is November 10th.", source: "tatoeba:456406" }
+  - { text: "Nuestra biblioteca está en el tercer piso.", translation: "Our library is on the third floor.", source: "tatoeba:1048511" }
+  - { text: "Gasté cien euros.", translation: "I spent a hundred euros.", source: "tatoeba:13736068" }
+  - { text: "Tengo más de doscientas recetas en aquel cuaderno.", translation: "I have more than two hundred recipes in that notebook.", source: "tatoeba:2351659" }
+  - { text: "Mi hermana tiene veintiún años y es universitaria.", translation: "My sister is twenty-one years old and a college student.", source: "tatoeba:855569" }
+exercises:
+  - type: cloze
+    text: "Hoy es el ___ día de mis vacaciones."
+    answer: "primer"
+    hint: "first — before a masculine noun"
+    translation: "Today is the first day of my holidays."
+  - type: cloze
+    text: "Es la ___ vez que vengo a Madrid."
+    answer: "segunda"
+    hint: "second"
+    translation: "It's the second time I've come to Madrid."
+  - type: cloze
+    text: "Este abrigo cuesta ___ euros."
+    answer: "cien"
+    hint: "100"
+    translation: "This coat costs a hundred euros."
+  - type: cloze
+    text: "En el concierto había ___ personas."
+    answer: "trescientas"
+    hint: "300"
+    translation: "There were three hundred people at the concert."
+  - type: cloze
+    text: "La boda es el doce ___ junio."
+    answer: "de"
+    hint: "a date: day … month"
+    translation: "The wedding is on the twelfth of June."
+  - type: cloze
+    text: "Mi abuela tiene ___ años."
+    answer: "noventa y un"
+    hint: "91"
+    translation: "My grandmother is ninety-one."
+  - type: cloze
+    text: "En la ciudad viven dos ___ de personas."
+    answer: "millones"
+    hint: "million"
+    translation: "Two million people live in the city."
+  - type: cloze
+    text: "Mi hija nació en mil ___ noventa y ocho."
+    answer: "novecientos"
+    hint: "1998"
+    translation: "My daughter was born in 1998."
