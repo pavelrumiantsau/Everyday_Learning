@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0084
+cefr: B1
+order: 84
+title: "Sin que, a menos que, en caso de que, como si: always the subjunctive"
+explanation:
+  en: |
+    Like *para que* (lesson 26) and *antes de que* (lesson 35), these connectors are **always** followed by the subjunctive:
+    - ***sin que*** — without (someone doing): *Se fue **sin que** nadie lo **viera**.* Same person → ***sin*** + infinitive: *Se fue sin **decir** nada.*
+    - ***a menos que / a no ser que*** — unless: *Iremos, **a menos que llueva**.*
+    - ***con tal de que*** — as long as, provided: *Te lo presto **con tal de que** me lo **devuelvas**.*
+    - ***en caso de que*** — in case: *Te dejo la llave **en caso de que llegues** antes.*
+
+    The tense follows the main verb: present → present subjunctive (*llueva*), past → imperfect subjunctive (*Se fue sin que lo **viéramos**.*, lesson 46).
+
+    ***como si*** — as if — takes only the **imperfect** subjunctive (or the pluperfect for an earlier action, lesson 54), even about the present: *Habla **como si fuera** el jefe.* — He talks as if he were the boss.
+
+    Careful: ***por si*** (just in case) takes the **indicative**: *Llévate el paraguas **por si llueve**.* = *…en caso de que **llueva**.*
+comparison:
+  en: |
+    Russian uses «чтобы» only for *para que*; here it has «без того чтобы / так, что никто не…» (*sin que*), «если только не» (*a menos que*), «лишь бы» (*con tal de que*), «на случай, если» (*en caso de que*), «как будто» (*como si*). English "as if he **were**" is the closest: *como si **fuera***. Never the present after *como si*: ~~como si es~~.
+examples:
+  - { text: "Ella se casó sin que sus padres lo supieran.", translation: "She married without her parents' knowledge.", source: "tatoeba:707765" }
+  - { text: "No tienes que ir a menos que quieras.", translation: "You don't have to go unless you want to.", source: "tatoeba:1143197" }
+  - { text: "No me importa, con tal de que seas feliz.", translation: "I don't care as long as you are happy.", source: "tatoeba:3581568" }
+  - { text: "Llévate un mapa en caso de que te pierdas.", translation: "Take a map with you in case you get lost.", source: "tatoeba:3272923" }
+  - { text: "Hablas como si fueras el jefe.", translation: "You talk as if you were the boss.", source: "tatoeba:1053851" }
+exercises:
+  - type: cloze
+    text: "Salimos de casa sin que los niños nos ___."
+    answer: "oyeran"
+    also: ["oyesen"]
+    hint: "oír — past, subjunctive"
+    translation: "We left the house without the children hearing us."
+  - type: cloze
+    text: "No compres nada sin ___ los precios."
+    answer: "comparar"
+    hint: "compare — the same person"
+    translation: "Don't buy anything without comparing prices."
+  - type: cloze
+    text: "No te llamaré a menos que ___ un problema."
+    answer: "haya"
+    hint: "haber — there is"
+    translation: "I won't call you unless there's a problem."
+  - type: cloze
+    text: "Puedes usar mi coche con tal de que me lo ___ limpio."
+    answer: "devuelvas"
+    hint: "devolver — tú"
+    translation: "You can use my car as long as you bring it back clean."
+  - type: cloze
+    text: "Te dejo mi número en caso de que ___ ayuda."
+    answer: "necesites"
+    hint: "necesitar — tú"
+    translation: "I'll leave you my number in case you need help."
+  - type: cloze
+    text: "Llévate una chaqueta por si ___ frío."
+    answer: "hace"
+    hint: "hacer — after por si"
+    translation: "Take a jacket in case it gets cold."
+  - type: cloze
+    text: "Me miró como si no me ___."
+    answer: "conociera"
+    also: ["conociese"]
+    hint: "conocer — él"
+    translation: "He looked at me as if he didn't know me."
+  - type: cloze
+    text: "Gasta dinero como si ___ millonario."
+    answer: "fuera"
+    also: ["fuese"]
+    hint: "ser — él"
+    translation: "He spends money as if he were a millionaire."
