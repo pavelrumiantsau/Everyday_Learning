@@ -1,0 +1,43 @@
+id: lt-r-0093
+cefr: C1
+title: "Nuo jūros iki jūros"
+topic: "Великое княжество Литовское и Витаутас"
+source: generated
+text: |
+  Mokyklose lietuviai mokosi, kad XV amžiaus pradžioje jų valstybė driekėsi nuo Baltijos iki Juodosios jūros. Didžioji Lietuvos Kunigaikštystė tuomet buvo viena didžiausių valstybių Europoje, o jos valdovas Vytautas Didysis iki šiol laikomas vienu ryškiausių tautos istorijos herojų.
+
+  Ryškiausias jo valdymo epizodas – 1410 metų Žalgirio mūšis, kuriame jungtinė Lietuvos ir Lenkijos kariuomenė, vadovaujama Vytauto ir jo pusbrolio Jogailos, sumušė Kryžiuočių ordiną. Šis mūšis sustabdė ordino plėtrą į rytus, ir lietuviai jį iki šiol mini su pasididžiavimu. Ne veltui Kauno krepšinio klubas pavadintas būtent „Žalgiriu“.
+
+  Tačiau istorikai primena, kad ši valstybė nebuvo „lietuviška“ šiuolaikine prasme. Didžiąją jos dalį sudarė rytų slavų žemės, o kanceliarijos kalba buvo ne lietuvių, o rusėnų. Todėl Kunigaikštystės paveldą savu laiko ir baltarusiai, ir ukrainiečiai, o kai kurie istorikai net siūlo ją vadinti daugiatautės valstybės pavyzdžiu, kuriame skirtingos tautos ir religijos gyveno greta.
+
+  Vytauto gyvenimo pabaiga buvo dramatiška. Jis siekė karūnos, kuri būtų įtvirtinusi Lietuvos savarankiškumą, tačiau lenkų didikai, nenorėdami to leisti, perėmė karūną gabenusius pasiuntinius. Vytautas mirė 1430 metais taip ir netapęs karaliumi.
+
+  Šiandien Vytautas – ir istorinė asmenybė, ir mitas. Tai, kaip lietuviai jį prisimena, pasako ne tik apie XV amžių, bet ir apie tai, kokios praeities mums reikia dabar: galingos, drąsios ir nepriklausomos.
+glossary:
+  - { word: "driekėsi", lemma: "driektis", pos: verb, forms: { pres: "driekiasi", past: "driekėsi" }, meaning: "простираться, тянуться" }
+  - { word: "Kunigaikštystė", lemma: "kunigaikštystė", pos: noun, gender: f, gen: "kunigaikštystės", meaning: "княжество", note: "Didžioji Lietuvos Kunigaikštystė — Великое княжество Литовское" }
+  - { word: "valdovas", lemma: "valdovas", pos: noun, gender: m, gen: "valdovo", meaning: "правитель" }
+  - { word: "mūšis", lemma: "mūšis", pos: noun, gender: m, gen: "mūšio", meaning: "битва", note: "Žalgirio mūšis — Грюнвальдская битва" }
+  - { word: "jungtinė", lemma: "jungtinis", pos: adj, meaning: "объединённый", note: "ж. р." }
+  - { word: "pusbrolio", lemma: "pusbrolis", pos: noun, gender: m, gen: "pusbrolio", meaning: "двоюродный брат", note: "род. п." }
+  - { word: "sumušė", lemma: "sumušti", pos: verb, forms: { pres: "sumuša", past: "sumušė" }, meaning: "разбить, победить" }
+  - { word: "plėtrą", lemma: "plėtra", pos: noun, gender: f, gen: "plėtros", meaning: "расширение, экспансия", note: "вин. п." }
+  - { word: "kanceliarijos", lemma: "kanceliarija", pos: noun, gender: f, gen: "kanceliarijos", meaning: "канцелярия", note: "kanceliarijos kalba — язык делопроизводства" }
+  - { word: "rusėnų", lemma: "rusėnai", pos: noun, gender: m, gen: "rusėnų", plural_only: true, meaning: "русины", note: "rusėnų kalba — старобелорусский / западнорусский язык" }
+  - { word: "daugiatautės", lemma: "daugiatautis", pos: adj, meaning: "многонациональный", note: "род. п. ж. р." }
+  - { word: "karūnos", lemma: "karūna", pos: noun, gender: f, gen: "karūnos", meaning: "корона", note: "род. п. после siekti" }
+  - { word: "įtvirtinusi", lemma: "įtvirtinti", pos: verb, forms: { pres: "įtvirtina", past: "įtvirtino" }, meaning: "закрепить", note: "būtų įtvirtinusi — закрепила бы (сослагат., ж. р.)" }
+  - { word: "savarankiškumą", lemma: "savarankiškumas", pos: noun, gender: m, gen: "savarankiškumo", meaning: "самостоятельность", note: "вин. п." }
+  - { word: "perėmė", lemma: "perimti", pos: verb, forms: { pres: "perima", past: "perėmė" }, meaning: "перехватить; перенять" }
+  - { word: "pasiuntinius", lemma: "pasiuntinys", pos: noun, gender: m, gen: "pasiuntinio", meaning: "посланник, гонец", note: "вин. п. мн. ч." }
+  - { word: "netapęs", lemma: "tapti", pos: verb, forms: { pres: "tampa", past: "tapo" }, meaning: "стать", note: "прич. прош. вр. с отрицанием: taip ir netapęs — так и не став" }
+questions:
+  - q: "Kodėl Žalgirio mūšis lietuviams toks svarbus?"
+    options: ["Jis sustabdė Kryžiuočių ordino plėtrą į rytus", "Jame Lietuva pralaimėjo Lenkijai", "Po jo Lietuva tapo karalyste"]
+    answer: 0
+  - q: "Kodėl istorikai sako, kad Kunigaikštystė nebuvo „lietuviška“ šiuolaikine prasme?"
+    options: ["Nes ji neturėjo kariuomenės", "Nes didžiąją jos dalį sudarė rytų slavų žemės, o raštvedybos kalba buvo rusėnų", "Nes ja valdė vokiečiai"]
+    answer: 1
+  - q: "Kodėl Vytautas netapo karaliumi?"
+    options: ["Jis pats atsisakė karūnos", "Karūna buvo pamesta kelyje", "Lenkų didikai perėmė karūną gabenusius pasiuntinius"]
+    answer: 2

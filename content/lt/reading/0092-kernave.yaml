@@ -1,0 +1,44 @@
+id: lt-r-0092
+cefr: C1
+title: "Paskutiniai Europos pagonys"
+topic: "Кернаве и языческое прошлое"
+source: generated
+text: |
+  Prie Neries, keliasdešimt kilometrų nuo Vilniaus, stūkso penki piliakalniai, iš kurių atsiveria vienas gražiausių Lietuvos vaizdų. Tai Kernavė – vieta, kurią istorikai laiko viena ankstyvųjų Lietuvos valstybės sostinių. XIII amžiuje čia stovėjo medinės pilys, o papėdėje šurmuliavo amatininkų ir pirklių miestas.
+
+  Lietuva buvo paskutinė pagoniška valstybė Europoje: krikštą ji oficialiai priėmė tik 1387 metais, o Žemaitija – dar vėliau. Ilgą laiką pagoniškas tikėjimas buvo ne tik religija, bet ir politinis pasirinkimas: krikštas grėsė priklausomybe nuo kaimynų, o Kryžiuočių ordinas karus su lietuviais pateisino misija atversti stabmeldžius. 1390 metais kryžiuočiai Kernavę sudegino, ir miestas nebeatsigavo.
+
+  Šiandien Kernavė įtraukta į UNESCO pasaulio paveldo sąrašą, o archeologai čia vis dar randa naujų radinių: papuošalų, įrankių, ginklų. Kasmet vasarą vyksta gyvosios archeologijos dienos, kai lankytojai gali pamatyti, kaip senovėje buvo kalamas metalas, audžiami audiniai ar kepama duona.
+
+  Pagonybės atgarsiai lietuvių kultūroje išliko iki šiol. Joninių naktį ieškoma paparčio žiedo, sutartinėse ir tautosakoje minimos senosios dievybės, o kai kurios bendruomenės bando atkurti senąjį baltų tikėjimą. Kritikai tokius bandymus vadina romantizuota rekonstrukcija, nes apie senuosius ritualus žinome nedaug.
+
+  Vis dėlto susidomėjimas pagonybe rodo, kad žmonės ieško šaknų, senesnių nei bet kuri valstybė ar bažnyčia. Galbūt kaip tik todėl stovint ant Kernavės piliakalnio apima jausmas, kad istorija čia ne užrašyta, o gyva.
+glossary:
+  - { word: "stūkso", lemma: "stūksoti", pos: verb, forms: { pres: "stūkso", past: "stūksojo" }, meaning: "возвышаться, торчать" }
+  - { word: "piliakalniai", lemma: "piliakalnis", pos: noun, gender: m, gen: "piliakalnio", meaning: "городище, холм замка", note: "им. п. мн. ч." }
+  - { word: "papėdėje", lemma: "papėdė", pos: noun, gender: f, gen: "papėdės", meaning: "подножие", note: "мест. п." }
+  - { word: "šurmuliavo", lemma: "šurmuliuoti", pos: verb, forms: { pres: "šurmuliuoja", past: "šurmuliavo" }, meaning: "шуметь, бурлить (о жизни)" }
+  - { word: "pagoniška", lemma: "pagoniškas", pos: adj, meaning: "языческий", note: "ж. р." }
+  - { word: "krikštą", lemma: "krikštas", pos: noun, gender: m, gen: "krikšto", meaning: "крещение", note: "вин. п." }
+  - { word: "grėsė", lemma: "grėsti", pos: verb, forms: { pres: "gresia", past: "grėsė" }, meaning: "грозить", note: "+ тв. п.: grėsė priklausomybe — грозило зависимостью" }
+  - { word: "pateisino", lemma: "pateisinti", pos: verb, forms: { pres: "pateisina", past: "pateisino" }, meaning: "оправдать" }
+  - { word: "atversti", lemma: "atversti", pos: verb, forms: { pres: "atverčia", past: "atvertė" }, meaning: "обратить (в веру); открыть (книгу)" }
+  - { word: "stabmeldžius", lemma: "stabmeldys", pos: noun, gender: m, gen: "stabmeldžio", meaning: "идолопоклонник, язычник", note: "вин. п. мн. ч." }
+  - { word: "nebeatsigavo", lemma: "atsigauti", pos: verb, forms: { pres: "atsigauna", past: "atsigavo" }, meaning: "оправиться, восстановиться", note: "nebe- — больше не" }
+  - { word: "papuošalų", lemma: "papuošalas", pos: noun, gender: m, gen: "papuošalo", meaning: "украшение", note: "род. п. мн. ч." }
+  - { word: "kalamas", lemma: "kalti", pos: verb, forms: { pres: "kala", past: "kalė" }, meaning: "ковать; бить", note: "пассивное прич. наст. вр., м. р." }
+  - { word: "audžiami", lemma: "austi", pos: verb, forms: { pres: "audžia", past: "audė" }, meaning: "ткать", note: "пассивное прич. наст. вр., мн. ч." }
+  - { word: "atgarsiai", lemma: "atgarsis", pos: noun, gender: m, gen: "atgarsio", meaning: "отголосок, эхо", note: "им. п. мн. ч." }
+  - { word: "paparčio", lemma: "papartis", pos: noun, gender: m, gen: "paparčio", meaning: "папоротник", note: "paparčio žiedas — цветок папоротника" }
+  - { word: "sutartinėse", lemma: "sutartinė", pos: noun, gender: f, gen: "sutartinės", meaning: "сутартине (многоголосная литовская песня)", note: "мест. п. мн. ч." }
+  - { word: "šaknų", lemma: "šaknis", pos: noun, gender: f, gen: "šaknies", meaning: "корень", note: "род. п. мн. ч." }
+questions:
+  - q: "Kodėl pagoniškas tikėjimas Lietuvoje buvo ir politinis pasirinkimas?"
+    options: ["Nes krikštas grėsė priklausomybe nuo kaimynų", "Nes pagonims nereikėjo mokėti mokesčių", "Nes Kryžiuočių ordinas buvo Lietuvos sąjungininkas"]
+    answer: 0
+  - q: "Kas nutiko Kernavei 1390 metais?"
+    options: ["Ji tapo UNESCO paveldu", "Kryžiuočiai ją sudegino, ir miestas nebeatsigavo", "Joje buvo pakrikštyta Lietuva"]
+    answer: 1
+  - q: "Kaip kritikai vertina bandymus atkurti senąjį baltų tikėjimą?"
+    options: ["Kaip tikslų senųjų ritualų atkūrimą", "Kaip valstybės projektą", "Kaip romantizuotą rekonstrukciją, nes apie ritualus žinoma nedaug"]
+    answer: 2

@@ -1,0 +1,42 @@
+id: lt-r-0095
+cefr: C1
+title: "Sąjūdis: kai tauta prabilo"
+topic: "Саюдис и путь к независимости"
+source: generated
+text: |
+  1988 metų birželio 3-iąją Mokslų akademijos salėje susirinko grupė mokslininkų, rašytojų, menininkų ir filosofų. Jie įkūrė Lietuvos persitvarkymo sąjūdį – judėjimą, kuris oficialiai turėjo remti Michailo Gorbačiovo reformas. Vargu ar kas nors tą vakarą galėjo numatyti, kad po mažiau nei dvejų metų Lietuva paskelbs nepriklausomybę.
+
+  Sąjūdis augo stulbinamu greičiu. Į mitingus Vingio parke ir Katedros aikštėje rinkosi šimtai tūkstančių žmonių. Pirmą kartą po kelių dešimtmečių viešai buvo kalbama apie tremtis, Molotovo–Ribentropo paktą, lietuvių kalbos teises. Rudenį ant Gedimino pilies bokšto vėl suplevėsavo trispalvė, o laikraščiai, kuriuos neseniai būtų uždraudusi cenzūra, buvo išperkami per kelias minutes.
+
+  Ypatinga Sąjūdžio savybė buvo jo taikumas. Lyderiai nuosekliai vengė smurto, rėmėsi teise ir derybomis, o žmonės savo valią reiškė dainomis, plakatais ir rinkimais. 1990 metais Sąjūdžio remiami kandidatai laimėjo rinkimus į Aukščiausiąją Tarybą, o kovo 11-ąją ši priėmė Nepriklausomybės atkūrimo aktą. Tarybos pirmininku tapo muzikologas Vytautas Landsbergis.
+
+  Vėliau judėjimas suskilo: buvę bendražygiai išsiskirstė į skirtingas partijas, o politika tapo kasdieniška ir dažnai nusivylimą kelianti. Kai kurie sąjūdiečiai su kartėliu sako, kad tuometinė vienybė buvo „trumpas stebuklas“.
+
+  Vis dėlto Sąjūdžio laikai paliko svarbią pamoką: net ir didžiausią galią turinti sistema gali sugriūti, kai pakankamai daug žmonių vienu metu nustoja bijoti.
+glossary:
+  - { word: "persitvarkymo", lemma: "persitvarkymas", pos: noun, gender: m, gen: "persitvarkymo", meaning: "перестройка", note: "Lietuvos persitvarkymo sąjūdis — Движение за перестройку Литвы" }
+  - { word: "sąjūdį", lemma: "sąjūdis", pos: noun, gender: m, gen: "sąjūdžio", meaning: "движение (общественное)", note: "вин. п." }
+  - { word: "Vargu", lemma: "vargu", pos: part, meaning: "вряд ли", note: "vargu ar — вряд ли" }
+  - { word: "stulbinamu", lemma: "stulbinamas", pos: adj, meaning: "поразительный", note: "тв. п." }
+  - { word: "mitingus", lemma: "mitingas", pos: noun, gender: m, gen: "mitingo", meaning: "митинг", note: "вин. п. мн. ч." }
+  - { word: "suplevėsavo", lemma: "suplevėsuoti", pos: verb, forms: { pres: "suplevėsuoja", past: "suplevėsavo" }, meaning: "затрепетать, взвиться (о флаге)" }
+  - { word: "trispalvė", lemma: "trispalvė", pos: noun, gender: f, gen: "trispalvės", meaning: "триколор" }
+  - { word: "taikumas", lemma: "taikumas", pos: noun, gender: m, gen: "taikumo", meaning: "миролюбие" }
+  - { word: "nuosekliai", lemma: "nuosekliai", pos: adv, meaning: "последовательно" }
+  - { word: "derybomis", lemma: "derybos", pos: noun, gender: f, gen: "derybų", plural_only: true, meaning: "переговоры", note: "тв. п." }
+  - { word: "valią", lemma: "valia", pos: noun, gender: f, gen: "valios", meaning: "воля", note: "вин. п." }
+  - { word: "suskilo", lemma: "suskilti", pos: verb, forms: { pres: "suskyla", past: "suskilo" }, meaning: "расколоться" }
+  - { word: "bendražygiai", lemma: "bendražygis", pos: noun, gender: m, gen: "bendražygio", meaning: "соратник", note: "им. п. мн. ч." }
+  - { word: "nusivylimą", lemma: "nusivylimas", pos: noun, gender: m, gen: "nusivylimo", meaning: "разочарование", note: "вин. п." }
+  - { word: "kartėliu", lemma: "kartėlis", pos: noun, gender: m, gen: "kartėlio", meaning: "горечь", note: "тв. п.: su kartėliu — с горечью" }
+  - { word: "stebuklas", lemma: "stebuklas", pos: noun, gender: m, gen: "stebuklo", meaning: "чудо" }
+questions:
+  - q: "Ką oficialiai turėjo daryti Sąjūdis jo įkūrimo metu?"
+    options: ["Remti Gorbačiovo reformas", "Paskelbti nepriklausomybę", "Organizuoti ginkluotą pasipriešinimą"]
+    answer: 0
+  - q: "Kuo ypatingas buvo Sąjūdis?"
+    options: ["Jis turėjo savo kariuomenę", "Jis buvo taikus ir rėmėsi teise, derybomis bei rinkimais", "Juo vadovavo kariškiai"]
+    answer: 1
+  - q: "Kokią pamoką, pasak autoriaus, paliko Sąjūdžio laikai?"
+    options: ["Kad politikai visada vieningi", "Kad reformos nieko nekeičia", "Kad net galinga sistema sugriūva, kai daug žmonių nustoja bijoti"]
+    answer: 2

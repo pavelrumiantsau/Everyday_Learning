@@ -1,0 +1,42 @@
+id: lt-r-0097
+cefr: C1
+title: "Vytauto atkelti"
+topic: "татары и караимы Литвы"
+source: generated
+text: |
+  Trakuose turistai dažniausiai lanko salos pilį, bet daugelis nė nenutuokia, kad aplink ją esančiose gatvelėse gyvena viena mažiausių Europos tautų – karaimai. XIV ir XV amžių sandūroje Vytautas iš Krymo atkėlė karaimų ir totorių, kurie tapo jo asmenine sargyba ir ištikimais valstybės gynėjais.
+
+  Karaimai išpažįsta savitą tikėjimą, kilusį iš judaizmo, tačiau kalba tiurkų kalba. Jų maldos namai – kenesa – iki šiol stovi Trakuose, o mediniai namai su trimis langais į gatvę tapo miesto simboliu. Šiandien Lietuvoje gyvena vos keli šimtai karaimų, ir jų kalba – viena labiausiai nykstančių pasaulyje.
+
+  Totoriai, išpažįstantys islamą, per šimtmečius beveik visiškai perėmė vietos kalbas, tačiau išsaugojo tikėjimą ir papročius. Keliuose Lietuvos kaimuose stovi medinės mečetės, o totorių kapinės su arabiškais užrašais – vienas savičiausių šalies paminklų. Nuo Vytauto laikų čia gyvenantys totoriai yra viena seniausių musulmonų bendruomenių Šiaurės Europoje.
+
+  Šių bendruomenių istorija paneigia mitą, kad Lietuva visada buvo vienalytė. Kartu ji rodo, kaip lengvai mažos tautos gali išnykti: užtenka kelių kartų, kurios nustoja kalbėti savo kalba. Karaimai bando to išvengti – organizuoja vasaros stovyklas vaikams, leidžia žodynus, kviečia jaunimą mokytis protėvių kalbos.
+
+  Galbūt kibinai, kuriuos turistai perka Trakuose, – geriausias priminimas, kad kultūra išlieka tol, kol kas nors ją puoselėja. Net ir tada, kai ją puoselėja vos keli šimtai žmonių.
+glossary:
+  - { word: "nenutuokia", lemma: "nutuokti", pos: verb, forms: { pres: "nutuokia", past: "nutuokė" }, meaning: "догадываться, иметь представление", note: "nė nenutuokia — даже не подозревает" }
+  - { word: "sandūroje", lemma: "sandūra", pos: noun, gender: f, gen: "sandūros", meaning: "стык, рубеж", note: "мест. п.: amžių sandūroje — на рубеже веков" }
+  - { word: "atkėlė", lemma: "atkelti", pos: verb, forms: { pres: "atkelia", past: "atkėlė" }, meaning: "переселить (сюда)" }
+  - { word: "sargyba", lemma: "sargyba", pos: noun, gender: f, gen: "sargybos", meaning: "охрана, стража", note: "тв. п.: tapo sargyba" }
+  - { word: "ištikimais", lemma: "ištikimas", pos: adj, meaning: "верный", note: "тв. п. мн. ч." }
+  - { word: "išpažįsta", lemma: "išpažinti", pos: verb, forms: { pres: "išpažįsta", past: "išpažino" }, meaning: "исповедовать (веру)" }
+  - { word: "tiurkų", lemma: "tiurkai", pos: noun, gender: m, gen: "tiurkų", plural_only: true, meaning: "тюрки", note: "tiurkų kalba — тюркский язык" }
+  - { word: "nykstančių", lemma: "nykti", pos: verb, forms: { pres: "nyksta", past: "nyko" }, meaning: "исчезать", note: "прич. наст. вр., род. п. мн. ч.: nykstančių kalbų — исчезающих языков" }
+  - { word: "mečetės", lemma: "mečetė", pos: noun, gender: f, gen: "mečetės", meaning: "мечеть", note: "им. п. мн. ч." }
+  - { word: "savičiausių", lemma: "savitas", pos: adj, meaning: "своеобразный", note: "превосх. ст., род. п. мн. ч." }
+  - { word: "musulmonų", lemma: "musulmonas", pos: noun, gender: m, gen: "musulmono", meaning: "мусульманин", note: "род. п. мн. ч." }
+  - { word: "paneigia", lemma: "paneigti", pos: verb, forms: { pres: "paneigia", past: "paneigė" }, meaning: "опровергать" }
+  - { word: "vienalytė", lemma: "vienalytis", pos: adj, meaning: "однородный", note: "ж. р." }
+  - { word: "stovyklas", lemma: "stovykla", pos: noun, gender: f, gen: "stovyklos", meaning: "лагерь", note: "вин. п. мн. ч." }
+  - { word: "protėvių", lemma: "protėvis", pos: noun, gender: m, gen: "protėvio", meaning: "предок", note: "род. п. мн. ч." }
+  - { word: "puoselėja", lemma: "puoselėti", pos: verb, forms: { pres: "puoselėja", past: "puoselėjo" }, meaning: "лелеять, бережно хранить" }
+questions:
+  - q: "Kokį vaidmenį Vytauto laikais atliko karaimai ir totoriai?"
+    options: ["Jie buvo jo asmeninė sargyba ir valstybės gynėjai", "Jie buvo pirkliai iš Venecijos", "Jie statė Trakų pilį"]
+    answer: 0
+  - q: "Kuo ypatingi karaimai?"
+    options: ["Jie kalba arabiškai ir išpažįsta islamą", "Jų tikėjimas kilęs iš judaizmo, o kalba – tiurkų", "Jie atvyko iš Skandinavijos"]
+    answer: 1
+  - q: "Ką, pasak teksto, rodo šių bendruomenių istorija?"
+    options: ["Kad Lietuva visada buvo vienalytė", "Kad mažos tautos niekada neišnyksta", "Kad Lietuva nebuvo vienalytė, o mažos tautos gali greitai išnykti"]
+    answer: 2

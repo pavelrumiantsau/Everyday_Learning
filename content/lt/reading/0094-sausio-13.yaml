@@ -1,0 +1,44 @@
+id: lt-r-0094
+cefr: C1
+title: "Naktis prie televizijos bokšto"
+topic: "события 13 января 1991 года"
+source: generated
+text: |
+  1991 metų sausio 13-osios naktį sovietų kariuomenės tankai ir desantininkai šturmavo Vilniaus televizijos bokštą bei Radijo ir televizijos komitetą. Prie jų budėjo tūkstančiai beginklių žmonių, kurie susikibę rankomis bandė apginti nepriklausomybę, paskelbtą vos prieš kelis mėnesius. Tą naktį žuvo keturiolika civilių, šimtai buvo sužeisti.
+
+  Smurtas nepasiekė tikslo. Žinia apie įvykius per kelias valandas apskriejo pasaulį, o prie Aukščiausiosios Tarybos rūmų susirinko dešimtys tūkstančių žmonių, pasiryžusių ginti parlamentą. Aplink pastatą iškilo barikados iš betono blokų, sunkvežimių ir smėlio maišų. Žmonės ištisas naktis budėjo prie laužų, giedojo, meldėsi ir nesiskirstė. Šturmas taip ir neįvyko.
+
+  Sausio įvykiai tapo lūžio tašku. Vakarų šalys, iki tol atsargiai vertinusios Lietuvos siekius, ėmė garsiau smerkti Maskvą, o po kelių savaičių Islandija pirmoji pripažino Lietuvos nepriklausomybę. Sovietų valdžiai neliko jokių moralinių argumentų.
+
+  Teisingumo teko laukti ilgai. Tik 2019 metais Lietuvos teismas už sausio įvykius nuteisė kelias dešimtis buvusių sovietų pareigūnų ir kariškių, tačiau dauguma jų teisti už akių ir bausmių taip ir neatliko.
+
+  Kasmet sausio 13-ąją languose dega žvakės, o žmonės prisega neužmirštuolės ženkliuką – mažą mėlyną gėlelę, tapusią atminimo simboliu. Ji primena paprastą, bet nepatogią tiesą: laisvė, kuri šiandien atrodo savaime suprantama, kadaise buvo apginta plikomis rankomis.
+glossary:
+  - { word: "desantininkai", lemma: "desantininkas", pos: noun, gender: m, gen: "desantininko", meaning: "десантник", note: "им. п. мн. ч." }
+  - { word: "šturmavo", lemma: "šturmuoti", pos: verb, forms: { pres: "šturmuoja", past: "šturmavo" }, meaning: "штурмовать" }
+  - { word: "beginklių", lemma: "beginklis", pos: adj, meaning: "безоружный", note: "род. п. мн. ч." }
+  - { word: "sužeisti", lemma: "sužeisti", pos: verb, forms: { pres: "sužeidžia", past: "sužeidė" }, meaning: "ранить", note: "здесь пассивное прич., мн. ч.: buvo sužeisti — были ранены" }
+  - { word: "Smurtas", lemma: "smurtas", pos: noun, gender: m, gen: "smurto", meaning: "насилие" }
+  - { word: "pasiryžusių", lemma: "pasiryžti", pos: verb, forms: { pres: "pasiryžta", past: "pasiryžo" }, meaning: "решиться", note: "прич. прош. вр., род. п. мн. ч.: pasiryžusių ginti — готовых защищать" }
+  - { word: "barikados", lemma: "barikada", pos: noun, gender: f, gen: "barikados", meaning: "баррикада", note: "им. п. мн. ч." }
+  - { word: "maišų", lemma: "maišas", pos: noun, gender: m, gen: "maišo", meaning: "мешок", note: "род. п. мн. ч." }
+  - { word: "laužų", lemma: "laužas", pos: noun, gender: m, gen: "laužo", meaning: "костёр", note: "род. п. мн. ч." }
+  - { word: "nesiskirstė", lemma: "skirstytis", pos: verb, forms: { pres: "skirstosi", past: "skirstėsi" }, meaning: "расходиться" }
+  - { word: "pripažino", lemma: "pripažinti", pos: verb, forms: { pres: "pripažįsta", past: "pripažino" }, meaning: "признать" }
+  - { word: "Teisingumo", lemma: "teisingumas", pos: noun, gender: m, gen: "teisingumo", meaning: "справедливость, правосудие", note: "род. п. после laukti" }
+  - { word: "nuteisė", lemma: "nuteisti", pos: verb, forms: { pres: "nuteisia", past: "nuteisė" }, meaning: "осудить (в суде)" }
+  - { word: "pareigūnų", lemma: "pareigūnas", pos: noun, gender: m, gen: "pareigūno", meaning: "должностное лицо, чиновник", note: "род. п. мн. ч." }
+  - { word: "akių", lemma: "akis", pos: noun, gender: f, gen: "akies", meaning: "глаз", note: "teisti už akių — судить заочно" }
+  - { word: "prisega", lemma: "prisegti", pos: verb, forms: { pres: "prisega", past: "prisegė" }, meaning: "прикалывать, пристёгивать" }
+  - { word: "neužmirštuolės", lemma: "neužmirštuolė", pos: noun, gender: f, gen: "neužmirštuolės", meaning: "незабудка", note: "род. п." }
+  - { word: "plikomis", lemma: "plikas", pos: adj, meaning: "голый, лысый", note: "plikomis rankomis — голыми руками" }
+questions:
+  - q: "Kas sausio 13-osios naktį gynė televizijos bokštą?"
+    options: ["Tūkstančiai beginklių žmonių", "Lietuvos kariuomenės tankai", "Užsienio kariai"]
+    answer: 0
+  - q: "Kaip sausio įvykiai paveikė Vakarų šalis?"
+    options: ["Jos nutraukė ryšius su Lietuva", "Jos ėmė garsiau smerkti Maskvą, o Islandija pirmoji pripažino Lietuvą", "Jos palaikė sovietų veiksmus"]
+    answer: 1
+  - q: "Ką simbolizuoja neužmirštuolė?"
+    options: ["Pavasario pradžią", "Lietuvos krepšinio pergales", "Atminimą apie tuos, kurie laisvę apgynė plikomis rankomis"]
+    answer: 2

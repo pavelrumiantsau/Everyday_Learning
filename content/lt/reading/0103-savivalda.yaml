@@ -1,0 +1,42 @@
+id: lt-r-0103
+cefr: C1
+title: "Politika prasideda kieme"
+topic: "местное самоуправление и мэры"
+source: generated
+text: |
+  Nuo 2015 metų Lietuvos gyventojai merus renka tiesiogiai. Iki tol merą rinkdavo savivaldybės taryba, todėl jis dažnai priklausydavo nuo partijų susitarimų. Reforma turėjo sustiprinti merų atsakomybę rinkėjams, ir iš dalies taip ir nutiko: merai tapo kur kas matomesni, o kai kurie – tikromis savo miestų žvaigždėmis.
+
+  Tačiau tiesioginiai rinkimai turi ir kitą pusę. Kai kuriose savivaldybėse tas pats meras valdo jau ne vieną kadenciją, o jo įtaka apima beveik viską – nuo vietos laikraščio iki didžiausių darbdavių. Kritikai tokius merus ironiškai vadina vietos kunigaikščiais ir perspėja, kad be stiprios opozicijos ir nepriklausomos žiniasklaidos kyla piktnaudžiavimo pavojus.
+
+  Savivaldos rinkimuose galima balsuoti ne tik už partijas, bet ir už visuomeninius rinkimų komitetus – vietos bendruomenių sukurtus judėjimus. Jie dažnai pelno rinkėjų simpatijas, nes atrodo artimesni žmonėms nei didžiosios partijos.
+
+  Vis dėlto rinkėjų aktyvumas savivaldos rinkimuose neretai nedidelis: balsuoja mažiau nei pusė tų, kurie turi teisę. Daugelis mano, kad nuo jų balso mažai kas priklauso. Paradoksalu, bet būtent savivaldybė sprendžia klausimus, kurie kasdien paliečia kiekvieną: mokyklų, viešojo transporto, gatvių apšvietimo, atliekų išvežimo.
+
+  Galbūt todėl pilietiškumas prasideda ne nuo didžiosios politikos, o nuo kiemo. Kas nors turi paklausti, kodėl neveikia žibintas ar kodėl autobusas nebevažiuoja, – ir pastebėti, kad atsakymas priklauso ir nuo to, už ką balsavome.
+glossary:
+  - { word: "merus", lemma: "meras", pos: noun, gender: m, gen: "mero", meaning: "мэр", note: "вин. п. мн. ч." }
+  - { word: "tiesiogiai", lemma: "tiesiogiai", pos: adv, meaning: "непосредственно, прямо" }
+  - { word: "taryba", lemma: "taryba", pos: noun, gender: f, gen: "tarybos", meaning: "совет", note: "savivaldybės taryba — муниципальный совет" }
+  - { word: "matomesni", lemma: "matomas", pos: adj, meaning: "заметный, видимый", note: "сравн. ст., мн. ч." }
+  - { word: "kadenciją", lemma: "kadencija", pos: noun, gender: f, gen: "kadencijos", meaning: "срок полномочий", note: "вин. п." }
+  - { word: "ironiškai", lemma: "ironiškai", pos: adv, meaning: "иронично" }
+  - { word: "opozicijos", lemma: "opozicija", pos: noun, gender: f, gen: "opozicijos", meaning: "оппозиция", note: "род. п." }
+  - { word: "piktnaudžiavimo", lemma: "piktnaudžiavimas", pos: noun, gender: m, gen: "piktnaudžiavimo", meaning: "злоупотребление", note: "род. п." }
+  - { word: "Savivaldos", lemma: "savivalda", pos: noun, gender: f, gen: "savivaldos", meaning: "самоуправление", note: "род. п." }
+  - { word: "komitetus", lemma: "komitetas", pos: noun, gender: m, gen: "komiteto", meaning: "комитет", note: "visuomeninis rinkimų komitetas — общественный избирательный комитет" }
+  - { word: "simpatijas", lemma: "simpatija", pos: noun, gender: f, gen: "simpatijos", meaning: "симпатия", note: "вин. п. мн. ч." }
+  - { word: "aktyvumas", lemma: "aktyvumas", pos: noun, gender: m, gen: "aktyvumo", meaning: "активность", note: "rinkėjų aktyvumas — явка избирателей" }
+  - { word: "paliečia", lemma: "paliesti", pos: verb, forms: { pres: "paliečia", past: "palietė" }, meaning: "затрагивать, касаться" }
+  - { word: "apšvietimo", lemma: "apšvietimas", pos: noun, gender: m, gen: "apšvietimo", meaning: "освещение", note: "род. п." }
+  - { word: "žibintas", lemma: "žibintas", pos: noun, gender: m, gen: "žibinto", meaning: "фонарь" }
+  - { word: "balsavome", lemma: "balsuoti", pos: verb, forms: { pres: "balsuoja", past: "balsavo" }, meaning: "голосовать", note: "1 л. мн. ч. прош. вр." }
+questions:
+  - q: "Ką turėjo pakeisti 2015 metų reforma?"
+    options: ["Sustiprinti merų atsakomybę rinkėjams, nes merus imta rinkti tiesiogiai", "Panaikinti savivaldybes", "Uždrausti rinkimų komitetus"]
+    answer: 0
+  - q: "Kodėl kritikai perspėja dėl merų, valdančių daug kadencijų?"
+    options: ["Nes jie per jauni", "Nes be stiprios opozicijos ir žiniasklaidos kyla piktnaudžiavimo pavojus", "Nes jie nemoka kalbėti viešai"]
+    answer: 1
+  - q: "Kokį paradoksą mini autorius?"
+    options: ["Kad komitetai laimi daugiau nei partijos", "Kad merai renkami per dažnai", "Kad žmonės mažai balsuoja, nors savivaldybė sprendžia jų kasdienius klausimus"]
+    answer: 2

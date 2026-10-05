@@ -1,0 +1,42 @@
+id: lt-r-0099
+cefr: C1
+title: "Ekologiška – vadinasi, geriau?"
+topic: "органическое земледелие"
+source: generated
+text: |
+  Dar prieš kelis dešimtmečius ekologiški produktai Lietuvoje buvo egzotika, kurią buvo galima rasti nebent specializuotose parduotuvėse. Šiandien juos siūlo beveik kiekvienas prekybos centras, o ekologiškai ūkininkaujama nemažoje šalies žemės ūkio naudmenų dalyje.
+
+  Ekologiškas ūkininkavimas reiškia, kad nenaudojamos sintetinės trąšos ir cheminiai pesticidai, o gyvuliams suteikiama daugiau erdvės. Šalininkai tvirtina, kad tokie produktai sveikesni, o ūkiai mažiau teršia dirvožemį ir vandenį. Europos Sąjunga ragina valstybes nares ekologiškų ūkių plotus gerokai padidinti.
+
+  Tačiau vaizdas nėra toks paprastas. Ekologiški produktai brangesni, todėl daugeliui pirkėjų jie lieka prabanga. Kai kurie ekspertai abejoja, ar jie iš tiesų maistingesni, nors pripažįsta, kad juose mažiau pesticidų likučių. Be to, ekologiškų ūkių derlingumas paprastai mažesnis, todėl, norint pagaminti tiek pat maisto, reikia daugiau žemės.
+
+  Lietuvoje kritikuojama ir tai, kad dalis ūkininkų ekologinius sertifikatus gauna daugiausia dėl išmokų: jų žemėje vyrauja pievos ir ganyklos, o rinkai pagaminama nedaug produkcijos. Tuo tarpu ekologiškų daržovių ar pieno augintojai skundžiasi, kad jiems sunku konkuruoti su pigiais importuotais produktais.
+
+  Galbūt svarbiausia ne etiketė, o atstumas tarp ūkio ir stalo. Vis daugiau pirkėjų perka tiesiogiai iš ūkininkų – turguose ar užsisakydami produktų dėžes – ir taip ne tik gauna šviežesnį maistą, bet ir sužino, kas jį užaugino.
+glossary:
+  - { word: "ūkininkaujama", lemma: "ūkininkauti", pos: verb, forms: { pres: "ūkininkauja", past: "ūkininkavo" }, meaning: "фермерствовать", note: "безличный пассив: ūkininkaujama — ведётся хозяйство" }
+  - { word: "naudmenų", lemma: "naudmenos", pos: noun, gender: f, gen: "naudmenų", plural_only: true, meaning: "угодья", note: "žemės ūkio naudmenos — сельхозугодья" }
+  - { word: "sintetinės", lemma: "sintetinis", pos: adj, meaning: "синтетический", note: "им. п. мн. ч. ж. р." }
+  - { word: "pesticidai", lemma: "pesticidas", pos: noun, gender: m, gen: "pesticido", meaning: "пестицид", note: "им. п. мн. ч." }
+  - { word: "dirvožemį", lemma: "dirvožemis", pos: noun, gender: m, gen: "dirvožemio", meaning: "почва", note: "вин. п." }
+  - { word: "plotus", lemma: "plotas", pos: noun, gender: m, gen: "ploto", meaning: "площадь", note: "вин. п. мн. ч." }
+  - { word: "prabanga", lemma: "prabanga", pos: noun, gender: f, gen: "prabangos", meaning: "роскошь" }
+  - { word: "maistingesni", lemma: "maistingas", pos: adj, meaning: "питательный", note: "сравн. ст., мн. ч." }
+  - { word: "derlingumas", lemma: "derlingumas", pos: noun, gender: m, gen: "derlingumo", meaning: "урожайность, плодородие" }
+  - { word: "sertifikatus", lemma: "sertifikatas", pos: noun, gender: m, gen: "sertifikato", meaning: "сертификат", note: "вин. п. мн. ч." }
+  - { word: "vyrauja", lemma: "vyrauti", pos: verb, forms: { pres: "vyrauja", past: "vyravo" }, meaning: "преобладать" }
+  - { word: "ganyklos", lemma: "ganykla", pos: noun, gender: f, gen: "ganyklos", meaning: "пастбище", note: "им. п. мн. ч." }
+  - { word: "augintojai", lemma: "augintojas", pos: noun, gender: m, gen: "augintojo", meaning: "производитель (выращивающий)", note: "им. п. мн. ч." }
+  - { word: "importuotais", lemma: "importuotas", pos: adj, meaning: "импортированный", note: "тв. п. мн. ч." }
+  - { word: "etiketė", lemma: "etiketė", pos: noun, gender: f, gen: "etiketės", meaning: "этикетка" }
+  - { word: "užsisakydami", lemma: "užsisakyti", pos: verb, forms: { pres: "užsisako", past: "užsisakė" }, meaning: "заказывать (себе)", note: "полупричастие, мн. ч.: užsisakydami — заказывая" }
+questions:
+  - q: "Ką reiškia ekologiškas ūkininkavimas?"
+    options: ["Nenaudojamos sintetinės trąšos ir cheminiai pesticidai, o gyvuliams suteikiama daugiau erdvės", "Ūkininkauja tik jauni žmonės", "Produktai parduodami tik užsienyje"]
+    answer: 0
+  - q: "Kodėl ekologiškiems ūkiams reikia daugiau žemės?"
+    options: ["Nes jie augina tik gėles", "Nes jų derlingumas paprastai mažesnis", "Nes įstatymas to reikalauja"]
+    answer: 1
+  - q: "Ką autorius laiko galbūt svarbiausiu dalyku?"
+    options: ["Ekologinį sertifikatą", "Mažiausią kainą", "Trumpą atstumą tarp ūkio ir stalo"]
+    answer: 2

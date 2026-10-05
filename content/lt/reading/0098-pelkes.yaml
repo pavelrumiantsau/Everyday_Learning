@@ -1,0 +1,43 @@
+id: lt-r-0098
+cefr: C1
+title: "Leisti vandeniui sugrįžti"
+topic: "болота и осушение"
+source: generated
+text: |
+  Dar prieš šimtmetį pelkės, šlapžemės ir užliejamos pievos dengė gerokai didesnę Lietuvos dalį nei šiandien. Sovietmečiu jos buvo laikomos nenaudinga žeme, kurią reikia „sutvarkyti“. Prasidėjo plataus masto melioracija: iškasti tūkstančiai kilometrų griovių, ištiesintos upelių vagos, o pelkės nusausintos ir paverstos dirbamais laukais.
+
+  Tik vėliau paaiškėjo, kiek daug kainavo šis sutvarkymas. Pelkės veikia kaip milžiniška kempinė: per liūtis sulaiko vandenį, o sausros metu jį atiduoda. Be to, durpėse sukaupti didžiuliai anglies kiekiai. Nusausintos pelkės ima irti ir išskirti anglies dvideginį, todėl iš klimato sąjungininkių virsta taršos šaltiniu.
+
+  Laimei, Lietuvoje išliko ir nepaliestų pelkių. Čepkelių rezervatas pietų Lietuvoje – viena didžiausių pelkių šalyje, kurioje gyvena retos paukščių ir augalų rūšys. Rudenį čia sustoja tūkstančiai migruojančių gervių.
+
+  Pastaraisiais metais gamtininkai ėmėsi pelkių atkūrimo projektų: užtveria melioracijos griovius, kad vanduo sugrįžtų į nusausintas teritorijas. Tačiau toks darbas kelia ginčų su žemės savininkais ir ūkininkais, kurie baiminasi prarasti dirbamą žemę ar pajamas.
+
+  Pelkių istorija – tai pamoka apie žmogaus santykį su gamta. Tai, kas vienai kartai atrodė nereikalinga, kitai gali tapti neįkainojama. Ir kartais protingiausia, ką galime padaryti, – tiesiog leisti vandeniui sugrįžti.
+glossary:
+  - { word: "pelkės", lemma: "pelkė", pos: noun, gender: f, gen: "pelkės", meaning: "болото", note: "им. п. мн. ч." }
+  - { word: "šlapžemės", lemma: "šlapžemė", pos: noun, gender: f, gen: "šlapžemės", meaning: "водно-болотное угодье", note: "им. п. мн. ч." }
+  - { word: "užliejamos", lemma: "užliejamas", pos: adj, meaning: "заливной, затопляемый", note: "им. п. мн. ч. ж. р." }
+  - { word: "melioracija", lemma: "melioracija", pos: noun, gender: f, gen: "melioracijos", meaning: "мелиорация, осушение" }
+  - { word: "griovių", lemma: "griovys", pos: noun, gender: m, gen: "griovio", meaning: "канава", note: "род. п. мн. ч." }
+  - { word: "ištiesintos", lemma: "ištiesinti", pos: verb, forms: { pres: "ištiesina", past: "ištiesino" }, meaning: "выпрямить", note: "пассивное прич., ж. р. мн. ч." }
+  - { word: "vagos", lemma: "vaga", pos: noun, gender: f, gen: "vagos", meaning: "русло; борозда", note: "им. п. мн. ч." }
+  - { word: "nusausintos", lemma: "nusausinti", pos: verb, forms: { pres: "nusausina", past: "nusausino" }, meaning: "осушить", note: "пассивное прич., ж. р. мн. ч." }
+  - { word: "kempinė", lemma: "kempinė", pos: noun, gender: f, gen: "kempinės", meaning: "губка" }
+  - { word: "liūtis", lemma: "liūtis", pos: noun, gender: f, gen: "liūties", meaning: "ливень", note: "здесь вин. п. мн. ч.: per liūtis — во время ливней" }
+  - { word: "durpėse", lemma: "durpės", pos: noun, gender: f, gen: "durpių", plural_only: true, meaning: "торф", note: "мест. п." }
+  - { word: "dvideginį", lemma: "dvideginis", pos: noun, gender: m, gen: "dvideginio", meaning: "диоксид", note: "anglies dvideginis — углекислый газ" }
+  - { word: "sąjungininkių", lemma: "sąjungininkė", pos: noun, gender: f, gen: "sąjungininkės", meaning: "союзница", note: "род. п. мн. ч." }
+  - { word: "nepaliestų", lemma: "nepaliestas", pos: adj, meaning: "нетронутый", note: "род. п. мн. ч." }
+  - { word: "rezervatas", lemma: "rezervatas", pos: noun, gender: m, gen: "rezervato", meaning: "заповедник" }
+  - { word: "gervių", lemma: "gervė", pos: noun, gender: f, gen: "gervės", meaning: "журавль", note: "род. п. мн. ч." }
+  - { word: "užtveria", lemma: "užtverti", pos: verb, forms: { pres: "užtveria", past: "užtvėrė" }, meaning: "перегородить" }
+questions:
+  - q: "Kodėl sovietmečiu pelkės buvo nusausinamos?"
+    options: ["Jos buvo laikomos nenaudinga žeme, kurią reikia paversti laukais", "Kad jose būtų galima statyti miestus", "Kad apsaugotų gerves"]
+    answer: 0
+  - q: "Kodėl nusausintos pelkės kenkia klimatui?"
+    options: ["Nes jose per daug vandens", "Nes durpės ima irti ir išskiria anglies dvideginį", "Nes jose nebelieka paukščių"]
+    answer: 1
+  - q: "Kodėl pelkių atkūrimo projektai kelia ginčų?"
+    options: ["Nes jie labai pigūs", "Nes gamtininkai jiems prieštarauja", "Nes žemės savininkai ir ūkininkai baiminasi prarasti žemę ar pajamas"]
+    answer: 2

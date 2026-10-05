@@ -1,0 +1,43 @@
+id: lt-r-0100
+cefr: C1
+title: "Daugiau nei garai"
+topic: "банная культура"
+source: generated
+text: |
+  Lietuviui pirtis – ne vien vieta nusiprausti. Tai ritualas, susitikimas su draugais, kartais net savotiška terapija. Kaimo sodybose pirtys dažnai statomos prie ežero ar upės, kad po karščio būtų galima šokti į šaltą vandenį, o žiemą – išsivolioti sniege.
+
+  Pirties tradicija Lietuvoje labai sena. Seniau ji buvo laikoma švaria, beveik šventa vieta: čia neretai gimdydavo moterys, gydydavo ligonius, o prieš dideles šventes visa šeima eidavo išsiperti. Pirtyje nederėdavo keiktis ar kalbėti apie blogus dalykus.
+
+  Svarbiausias pirties įrankis – vanta, surišta iš beržo, ąžuolo ar liepos šakų. Ja plakamasi, kad pagerėtų kraujotaka, o lapų kvapas primena vasarą net vidury žiemos. Pastaraisiais metais atgimė ir pirties ceremonijos: specialiai apmokyti pirtininkai, naudodami žolelių arbatas, eterinius aliejus ir garų bangas, veda kelių valandų procedūras, primenančias meditaciją.
+
+  Kai kurie į šią madą žiūri skeptiškai. Anot jų, paprasta senelių pirtis virto brangiu verslu su turistams sugalvotais ritualais. Kiti atsako, kad tradicija gyva tik tada, kai keičiasi, – juk ir mūsų protėviai pirtį kūrė pagal savo meto poreikius.
+
+  Gydytojai primena saiką. Nors pirtis gali padėti atsipalaiduoti, žmonėms, sergantiems širdies ligomis, ji gali būti pavojinga. O alkoholis ir pirtis – itin bloga kombinacija, nors būtent šis derinys, deja, kai kurių vis dar laikomas tikra lietuviška tradicija.
+glossary:
+  - { word: "pirtis", lemma: "pirtis", pos: noun, gender: f, gen: "pirties", meaning: "баня" }
+  - { word: "nusiprausti", lemma: "nusiprausti", pos: verb, forms: { pres: "nusiprausia", past: "nusiprausė" }, meaning: "помыться" }
+  - { word: "išsivolioti", lemma: "išsivolioti", pos: verb, forms: { pres: "išsivolioja", past: "išsivoliojo" }, meaning: "вываляться" }
+  - { word: "gimdydavo", lemma: "gimdyti", pos: verb, forms: { pres: "gimdo", past: "gimdė" }, meaning: "рожать", note: "прош. многократное" }
+  - { word: "išsiperti", lemma: "išsiperti", pos: verb, forms: { pres: "išsiperia", past: "išsipėrė" }, meaning: "попариться (в бане)" }
+  - { word: "nederėdavo", lemma: "derėti", pos: verb, forms: { pres: "dera", past: "derėjo" }, meaning: "подобать, следовать", note: "nederėdavo — не полагалось" }
+  - { word: "keiktis", lemma: "keiktis", pos: verb, forms: { pres: "keikiasi", past: "keikėsi" }, meaning: "ругаться (бранью)" }
+  - { word: "vanta", lemma: "vanta", pos: noun, gender: f, gen: "vantos", meaning: "веник (банный)" }
+  - { word: "liepos", lemma: "liepa", pos: noun, gender: f, gen: "liepos", meaning: "липа; июль", note: "род. п." }
+  - { word: "plakamasi", lemma: "plaktis", pos: verb, forms: { pres: "plakasi", past: "plakėsi" }, meaning: "хлестаться (веником)", note: "безличный пассив: ja plakamasi — им хлещутся" }
+  - { word: "kraujotaka", lemma: "kraujotaka", pos: noun, gender: f, gen: "kraujotakos", meaning: "кровообращение" }
+  - { word: "pirtininkai", lemma: "pirtininkas", pos: noun, gender: m, gen: "pirtininko", meaning: "банщик, мастер бани", note: "им. п. мн. ч." }
+  - { word: "eterinius", lemma: "eterinis", pos: adj, meaning: "эфирный", note: "вин. п. мн. ч." }
+  - { word: "garų", lemma: "garai", pos: noun, gender: m, gen: "garų", plural_only: true, meaning: "пар", note: "род. п." }
+  - { word: "saiką", lemma: "saikas", pos: noun, gender: m, gen: "saiko", meaning: "мера, умеренность", note: "вин. п." }
+  - { word: "atsipalaiduoti", lemma: "atsipalaiduoti", pos: verb, forms: { pres: "atsipalaiduoja", past: "atsipalaidavo" }, meaning: "расслабиться" }
+  - { word: "derinys", lemma: "derinys", pos: noun, gender: m, gen: "derinio", meaning: "сочетание, комбинация" }
+questions:
+  - q: "Kaip seniau buvo žiūrima į pirtį?"
+    options: ["Kaip į švarią, beveik šventą vietą", "Kaip į vietą tik vyrams", "Kaip į nereikalingą prabangą"]
+    answer: 0
+  - q: "Kaip skeptikai vertina šiuolaikines pirties ceremonijas?"
+    options: ["Kaip tikslų senųjų ritualų atkūrimą", "Kaip brangų verslą su turistams sugalvotais ritualais", "Kaip medicininę procedūrą"]
+    answer: 1
+  - q: "Ką gydytojai laiko itin bloga kombinacija?"
+    options: ["Pirtį ir šaltą vandenį", "Pirtį ir žolelių arbatą", "Pirtį ir alkoholį"]
+    answer: 2

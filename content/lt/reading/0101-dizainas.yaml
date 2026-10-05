@@ -1,0 +1,43 @@
+id: lt-r-0101
+cefr: C1
+title: "Lino ir medžio kalba"
+topic: "литовский дизайн"
+source: generated
+text: |
+  Jei paklaustumėte užsieniečio apie lietuvišką dizainą, jis greičiausiai nežinotų, ką atsakyti. Lietuva neturi tokio ryškaus įvaizdžio kaip skandinaviškas dizainas, tačiau per pastaruosius du dešimtmečius šalyje užaugo nauja dizainerių karta, kuri vis dažniau pastebima tarptautinėse parodose.
+
+  Daugelis jų semiasi įkvėpimo iš tradicijų. Linas, kadaise auginamas beveik kiekviename ūkyje, vėl tapo madingas: iš jo siuvami drabužiai, gaminama patalynė, staltiesės. Tautiniai raštai – juostų ornamentai, verbų spalvos – perkuriami šiuolaikiškai, kartais vos atpažįstamai.
+
+  Kita stipri kryptis – minimalizmas ir tvarumas. Jauni dizaineriai kuria baldus iš vietinės medienos, drabužius iš perdirbtų medžiagų, o mažos dirbtuvės gamina ribotais kiekiais, užuot konkuravusios su masine gamyba. Daugelis jų prekiauja internetu ir randa pirkėjų visame pasaulyje.
+
+  Vis dėlto kelias nelengvas. Lietuvos rinka maža, gamyba brangi, o pirkėjai, įpratę prie pigių tarptautinių tinklų, ne visada pasiruošę mokėti daugiau už vietinį produktą. Dizaineriai skundžiasi ir tuo, kad valstybė dizainą vis dar laiko greičiau kultūros, o ne ekonomikos sritimi, todėl jam skiriama mažai dėmesio.
+
+  Galbūt lietuviško dizaino tapatybė dar tik formuojasi. Tačiau jau dabar matyti jo bruožai: santūrumas, natūralios medžiagos ir pagarba rankų darbui. Tai, kas kadaise buvo nepritekliaus ženklas, šiandien tampa vertybe.
+glossary:
+  - { word: "įvaizdžio", lemma: "įvaizdis", pos: noun, gender: m, gen: "įvaizdžio", meaning: "имидж, образ", note: "род. п. после отрицания" }
+  - { word: "semiasi", lemma: "semtis", pos: verb, forms: { pres: "semiasi", past: "sėmėsi" }, meaning: "черпать (себе)", note: "semtis įkvėpimo — черпать вдохновение" }
+  - { word: "Linas", lemma: "linas", pos: noun, gender: m, gen: "lino", meaning: "лён" }
+  - { word: "siuvami", lemma: "siūti", pos: verb, forms: { pres: "siuva", past: "siuvo" }, meaning: "шить", note: "пассивное прич. наст. вр., мн. ч." }
+  - { word: "patalynė", lemma: "patalynė", pos: noun, gender: f, gen: "patalynės", meaning: "постельное бельё" }
+  - { word: "staltiesės", lemma: "staltiesė", pos: noun, gender: f, gen: "staltiesės", meaning: "скатерть", note: "им. п. мн. ч." }
+  - { word: "raštai", lemma: "raštas", pos: noun, gender: m, gen: "rašto", meaning: "узор; письмо", note: "им. п. мн. ч." }
+  - { word: "juostų", lemma: "juosta", pos: noun, gender: f, gen: "juostos", meaning: "пояс (тканый); лента", note: "род. п. мн. ч." }
+  - { word: "verbų", lemma: "verba", pos: noun, gender: f, gen: "verbos", meaning: "верба (вербное украшение)", note: "род. п. мн. ч." }
+  - { word: "perkuriami", lemma: "perkurti", pos: verb, forms: { pres: "perkuria", past: "perkūrė" }, meaning: "переосмыслить, создать заново", note: "пассивное прич. наст. вр., мн. ч." }
+  - { word: "tvarumas", lemma: "tvarumas", pos: noun, gender: m, gen: "tvarumo", meaning: "устойчивость (экологическая)" }
+  - { word: "medienos", lemma: "mediena", pos: noun, gender: f, gen: "medienos", meaning: "древесина", note: "род. п." }
+  - { word: "perdirbtų", lemma: "perdirbtas", pos: adj, meaning: "переработанный", note: "род. п. мн. ч." }
+  - { word: "konkuravusios", lemma: "konkuruoti", pos: verb, forms: { pres: "konkuruoja", past: "konkuravo" }, meaning: "конкурировать", note: "užuot konkuravusios — вместо того чтобы конкурировать (прич., ж. р. мн. ч.)" }
+  - { word: "masine", lemma: "masinis", pos: adj, meaning: "массовый", note: "тв. п. ж. р." }
+  - { word: "santūrumas", lemma: "santūrumas", pos: noun, gender: m, gen: "santūrumo", meaning: "сдержанность" }
+  - { word: "nepritekliaus", lemma: "nepriteklius", pos: noun, gender: m, gen: "nepritekliaus", meaning: "нужда, нехватка", note: "род. п." }
+questions:
+  - q: "Iš ko daugelis lietuvių dizainerių semiasi įkvėpimo?"
+    options: ["Iš tradicijų – lino, tautinių raštų", "Iš Holivudo filmų", "Iš sovietinės architektūros"]
+    answer: 0
+  - q: "Kodėl lietuviams dizaineriams sunku?"
+    options: ["Nes jie neturi idėjų", "Nes rinka maža, gamyba brangi, o pirkėjai įpratę prie pigių prekių", "Nes linas uždraustas"]
+    answer: 1
+  - q: "Ką reiškia teksto pabaigos mintis?"
+    options: ["Kad dizainas turi būti brangus", "Kad lietuviškas dizainas jau visiškai susiformavo", "Kad tai, kas anksčiau buvo nepritekliaus ženklas, dabar vertinama"]
+    answer: 2

@@ -1,0 +1,43 @@
+id: lt-r-0102
+cefr: C1
+title: "Kyšis, pažintys ir pasitikėjimas"
+topic: "коррупция и доверие к институтам"
+source: generated
+text: |
+  Apklausos kasmet rodo panašų vaizdą: lietuviai labiausiai pasitiki ugniagesiais, kariuomene ir gelbėtojais, o mažiausiai – Seimu ir politinėmis partijomis. Toks nepasitikėjimas turi gilias šaknis. Sovietmečiu valdžia buvo svetima ir priešiška, o kyšis gydytojui ar valdininkui – įprastas būdas ką nors pasiekti.
+
+  Po nepriklausomybės atkūrimo padėtis pamažu gerėjo. Daugybė paslaugų perkelta į internetą, todėl sumažėjo progų duoti kyšį: deklaraciją galima pateikti ar dokumentus užsisakyti nebendraujant su valdininku. Tarptautiniuose korupcijos suvokimo indeksuose Lietuva per pastaruosius dešimtmečius gerokai pakilo.
+
+  Vis dėlto skandalai nedingsta. 2019 metais visuomenę sukrėtė vadinamasis čekiukų skandalas: paaiškėjo, kad dalis savivaldybių tarybų narių išlaidų kompensavimui pateikdavo abejotinus čekius. Nors daugelis sumų buvo nedidelės, žala pasitikėjimui buvo didžiulė.
+
+  Ekspertai pabrėžia, kad korupcija – ne tik dideli kyšiai. Tai ir pažintys, kai darbas gaunamas per draugus, ir mažos dovanėlės, kurias daugelis laiko mandagumo ženklu. Kol visuomenė tokius dalykus toleruoja, vieni įstatymai pakeisti gali nedaug.
+
+  Pasitikėjimas institucijomis kuriamas lėtai, o prarandamas akimirksniu. Todėl kiekvienas skaidrus sprendimas, net ir mažas, yra investicija į ateitį – ne tik politikų, bet ir mūsų visų.
+glossary:
+  - { word: "Apklausos", lemma: "apklausa", pos: noun, gender: f, gen: "apklausos", meaning: "опрос", note: "им. п. мн. ч." }
+  - { word: "ugniagesiais", lemma: "ugniagesys", pos: noun, gender: m, gen: "ugniagesio", meaning: "пожарный", note: "тв. п. мн. ч. после pasitikėti" }
+  - { word: "gelbėtojais", lemma: "gelbėtojas", pos: noun, gender: m, gen: "gelbėtojo", meaning: "спасатель", note: "тв. п. мн. ч." }
+  - { word: "priešiška", lemma: "priešiškas", pos: adj, meaning: "враждебный", note: "ж. р." }
+  - { word: "kyšis", lemma: "kyšis", pos: noun, gender: m, gen: "kyšio", meaning: "взятка" }
+  - { word: "valdininkui", lemma: "valdininkas", pos: noun, gender: m, gen: "valdininko", meaning: "чиновник", note: "дат. п." }
+  - { word: "progų", lemma: "proga", pos: noun, gender: f, gen: "progos", meaning: "повод, возможность", note: "род. п. мн. ч." }
+  - { word: "nebendraujant", lemma: "bendrauti", pos: verb, forms: { pres: "bendrauja", past: "bendravo" }, meaning: "общаться", note: "деепр. с отрицанием: nebendraujant — не общаясь" }
+  - { word: "suvokimo", lemma: "suvokimas", pos: noun, gender: m, gen: "suvokimo", meaning: "восприятие", note: "korupcijos suvokimo indeksas — индекс восприятия коррупции" }
+  - { word: "sukrėtė", lemma: "sukrėsti", pos: verb, forms: { pres: "sukrečia", past: "sukrėtė" }, meaning: "потрясти" }
+  - { word: "čekiukų", lemma: "čekiukas", pos: noun, gender: m, gen: "čekiuko", meaning: "чек (кассовый)", note: "čekiukų skandalas — «скандал с чеками» (2019)" }
+  - { word: "kompensavimui", lemma: "kompensavimas", pos: noun, gender: m, gen: "kompensavimo", meaning: "компенсация, возмещение", note: "дат. п. цели" }
+  - { word: "abejotinus", lemma: "abejotinas", pos: adj, meaning: "сомнительный", note: "вин. п. мн. ч." }
+  - { word: "pažintys", lemma: "pažintis", pos: noun, gender: f, gen: "pažinties", meaning: "знакомство; связи", note: "им. п. мн. ч." }
+  - { word: "toleruoja", lemma: "toleruoti", pos: verb, forms: { pres: "toleruoja", past: "toleravo" }, meaning: "терпеть, мириться" }
+  - { word: "akimirksniu", lemma: "akimirksniu", pos: adv, meaning: "мгновенно" }
+  - { word: "skaidrus", lemma: "skaidrus", pos: adj, meaning: "прозрачный" }
+questions:
+  - q: "Kuo, pasak apklausų, lietuviai pasitiki mažiausiai?"
+    options: ["Seimu ir politinėmis partijomis", "Ugniagesiais", "Kariuomene"]
+    answer: 0
+  - q: "Kodėl paslaugų perkėlimas į internetą sumažino korupciją?"
+    options: ["Nes internete viskas nemokama", "Nes sumažėjo progų duoti kyšį, kai nereikia bendrauti su valdininku", "Nes valdininkų atlyginimai padidėjo"]
+    answer: 1
+  - q: "Ką ekspertai laiko korupcijos dalimi, net jei daugelis to taip nevadina?"
+    options: ["Mokesčių mokėjimą", "Balsavimą rinkimuose", "Pažintis ir mažas dovanėles"]
+    answer: 2

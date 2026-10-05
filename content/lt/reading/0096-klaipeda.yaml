@@ -1,0 +1,43 @@
+id: lt-r-0096
+cefr: C1
+title: "Miestas su dviem vardais"
+topic: "история Клайпеды"
+source: generated
+text: |
+  Klaipėda – vienintelis Lietuvos jūrų uostas ir kartu miestas, kurio istorija smarkiai skiriasi nuo likusios šalies. Beveik septynis šimtmečius jis vadinosi Memeliu ir priklausė vokiškam pasauliui: XIII amžiuje čia pilį pastatė Livonijos ordinas, vėliau miestas tapo Prūsijos, o nuo 1871 metų – Vokietijos imperijos dalimi.
+
+  Kartu tai buvo Mažosios Lietuvos dalis – krašto, kuriame gyveno ir lietuviškai kalbančių gyventojų. Būtent Prūsijoje buvo išspausdinta pirmoji lietuviška knyga, o Kristijonas Donelaitis parašė „Metus“ – pirmąją lietuvių grožinės literatūros poemą. Spaudos draudimo metais Mažojoje Lietuvoje spausdintos knygos slapta keliaudavo per sieną.
+
+  1923 metais, pasinaudojus po Pirmojo pasaulinio karo susidariusia tarptautine painiava, Klaipėdos kraštas buvo prijungtas prie Lietuvos. Tačiau 1939 metų kovą nacistinė Vokietija privertė Lietuvą jį atiduoti. Po Antrojo pasaulinio karo dauguma vokiečių pabėgo ar buvo iškeldinti, o miestą apgyvendino atvykėliai iš Lietuvos ir kitų Sovietų Sąjungos respublikų.
+
+  Dėl to Klaipėda iki šiol jaučiasi kitokia. Senamiestyje išlikę fachverkiniai namai primena vokišką praeitį, Teatro aikštėje stovi Taravos Anikės skulptūra, sukurta pagal čia gimusio poeto Simono Dacho eilėraštį, o gatvėse girdėti daugiau rusų kalbos nei daugelyje kitų Lietuvos miestų.
+
+  Ilgą laiką šis daugiasluoksnis paveldas buvo nutylimas: sovietmečiu vokiška praeitis buvo nepageidaujama, o po nepriklausomybės – nepatogi. Šiandien klaipėdiečiai vis drąsiau pripažįsta ją savo istorijos dalimi. Galbūt miesto tapatybė ir slypi šioje įvairovėje – kaip uosto, į kurį visada plaukdavo laivai iš skirtingų kraštų.
+glossary:
+  - { word: "uostas", lemma: "uostas", pos: noun, gender: m, gen: "uosto", meaning: "порт" }
+  - { word: "imperijos", lemma: "imperija", pos: noun, gender: f, gen: "imperijos", meaning: "империя", note: "род. п." }
+  - { word: "išspausdinta", lemma: "išspausdinti", pos: verb, forms: { pres: "išspausdina", past: "išspausdino" }, meaning: "напечатать", note: "пассивное прич., ж. р." }
+  - { word: "grožinės", lemma: "grožinis", pos: adj, meaning: "художественный", note: "grožinė literatūra — художественная литература" }
+  - { word: "poemą", lemma: "poema", pos: noun, gender: f, gen: "poemos", meaning: "поэма", note: "вин. п." }
+  - { word: "draudimo", lemma: "draudimas", pos: noun, gender: m, gen: "draudimo", meaning: "запрет; страхование", note: "spaudos draudimas — запрет печати (1864–1904)" }
+  - { word: "painiava", lemma: "painiava", pos: noun, gender: f, gen: "painiavos", meaning: "неразбериха, путаница", note: "здесь тв. п.: pasinaudojus painiava" }
+  - { word: "prijungtas", lemma: "prijungti", pos: verb, forms: { pres: "prijungia", past: "prijungė" }, meaning: "присоединить", note: "пассивное прич., м. р." }
+  - { word: "privertė", lemma: "priversti", pos: verb, forms: { pres: "priverčia", past: "privertė" }, meaning: "заставить, вынудить" }
+  - { word: "iškeldinti", lemma: "iškeldinti", pos: verb, forms: { pres: "iškeldina", past: "iškeldino" }, meaning: "выселить", note: "здесь пассивное прич., мн. ч." }
+  - { word: "apgyvendino", lemma: "apgyvendinti", pos: verb, forms: { pres: "apgyvendina", past: "apgyvendino" }, meaning: "заселить, поселить" }
+  - { word: "fachverkiniai", lemma: "fachverkinis", pos: adj, meaning: "фахверковый", note: "им. п. мн. ч." }
+  - { word: "eilėraštį", lemma: "eilėraštis", pos: noun, gender: m, gen: "eilėraščio", meaning: "стихотворение", note: "вин. п." }
+  - { word: "daugiasluoksnis", lemma: "daugiasluoksnis", pos: adj, meaning: "многослойный" }
+  - { word: "nutylimas", lemma: "nutylėti", pos: verb, forms: { pres: "nutyli", past: "nutylėjo" }, meaning: "умалчивать", note: "пассивное прич. наст. вр., м. р." }
+  - { word: "nepageidaujama", lemma: "nepageidaujamas", pos: adj, meaning: "нежелательный", note: "ж. р." }
+  - { word: "slypi", lemma: "slypėti", pos: verb, forms: { pres: "slypi", past: "slypėjo" }, meaning: "скрываться, таиться" }
+questions:
+  - q: "Kodėl Klaipėdos istorija skiriasi nuo likusios Lietuvos?"
+    options: ["Beveik septynis šimtmečius ji priklausė vokiškam pasauliui", "Ji visada buvo Lietuvos sostinė", "Ji įkurta tik XX amžiuje"]
+    answer: 0
+  - q: "Kas nutiko Klaipėdai 1939 metais?"
+    options: ["Ji tapo Lietuvos sostine", "Nacistinė Vokietija privertė Lietuvą ją atiduoti", "Ji buvo prijungta prie Latvijos"]
+    answer: 1
+  - q: "Kaip šiandien klaipėdiečiai žiūri į miesto vokišką praeitį?"
+    options: ["Jie ją visiškai neigia", "Jie ją slepia nuo turistų", "Jie vis drąsiau pripažįsta ją savo istorijos dalimi"]
+    answer: 2
