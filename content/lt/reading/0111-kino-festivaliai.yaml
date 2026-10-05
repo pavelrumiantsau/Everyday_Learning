@@ -1,0 +1,45 @@
+id: lt-r-0111
+cefr: C1
+title: "Kam reikia kino festivalių"
+topic: "кинофестивали в Литве («Kino pavasaris»)"
+source: generated
+text: |
+  Kiekvieną pavasarį Vilniuje nutinka kažkas keisto: žmonės, visus metus žiūrintys filmus namuose ant sofos, staiga ima stovėti eilėse prie kino teatrų, kad pamatytų iraniečių dramą ar korėjiečių trilerį su subtitrais. Tai „Kino pavasaris“ – didžiausias šalies kino festivalis, rengiamas nuo praėjusio amžiaus paskutinio dešimtmečio.
+
+  Festivalis seniai peraugo sostinės ribas: seansai vyksta Kaune, Klaipėdoje ir kituose miestuose, o dalį filmų galima pažiūrėti internetu. Šalia jo susiformavo ištisa festivalių sistema: rudenį vyksta „Scanorama“, pristatanti Europos kiną, nemažai dėmesio sulaukia dokumentinių ir žmogaus teisėms skirtų filmų festivaliai, pavyzdžiui, „Nepatogus kinas“.
+
+  Kyla klausimas, kam apskritai reikia festivalių tokiais laikais, kai beveik bet kurį filmą galima rasti per kelias minutes. Atsakymas, regis, slypi ne pačiuose filmuose, o patirtyje. Filmas, žiūrimas tamsioje salėje kartu su šimtais nepažįstamųjų, tampa bendru išgyvenimu, o ne dar vienu turiniu, kurį nuolat pertraukia telefono pranešimai. Diskusijos su režisieriais po seanso, ginčai kavinėje – tai festivalio dalis, kurios jokia platforma nepakeis.
+
+  Be to, festivaliai atlieka vartų į kitas kultūras vaidmenį. Žiūrovas, įpratęs prie algoritmų siūlomų holivudinių filmų, čia susiduria su kinu, kurio pats niekada nebūtų pasirinkęs. Tokie atradimai neretai būna nepatogūs, bet būtent jie plečia akiratį.
+
+  Žinoma, festivaliai turi ir silpnybių: jie gali virsti madingu socialiniu renginiu, kuriame svarbiau nusifotografuoti prie plakato nei įsigilinti į filmą. Bet net ir tada kas nors iš tos minios galbūt pirmą kartą supras, kad kinas gali būti ne vien pramoga.
+glossary:
+  - { word: "eilėse", lemma: "eilė", pos: noun, gender: f, gen: "eilės", meaning: "очередь; ряд", note: "мест. п. мн. ч." }
+  - { word: "subtitrais", lemma: "subtitras", pos: noun, gender: m, gen: "subtitro", meaning: "субтитр", note: "тв. п. мн. ч." }
+  - { word: "dešimtmečio", lemma: "dešimtmetis", pos: noun, gender: m, gen: "dešimtmečio", meaning: "десятилетие", note: "род. п." }
+  - { word: "peraugo", lemma: "peraugti", pos: verb, forms: { pres: "perauga", past: "peraugo" }, meaning: "перерасти" }
+  - { word: "seansai", lemma: "seansas", pos: noun, gender: m, gen: "seanso", meaning: "сеанс", note: "им. п. мн. ч." }
+  - { word: "ištisa", lemma: "ištisas", pos: adj, meaning: "целый, сплошной", note: "ж. р." }
+  - { word: "sulaukia", lemma: "sulaukti", pos: verb, forms: { pres: "sulaukia", past: "sulaukė" }, meaning: "дождаться, получить", note: "dėmesio sulaukti — привлечь внимание" }
+  - { word: "patirtyje", lemma: "patirtis", pos: noun, gender: f, gen: "patirties", meaning: "опыт, впечатление", note: "мест. п." }
+  - { word: "išgyvenimu", lemma: "išgyvenimas", pos: noun, gender: m, gen: "išgyvenimo", meaning: "переживание", note: "тв. п." }
+  - { word: "turiniu", lemma: "turinys", pos: noun, gender: m, gen: "turinio", meaning: "содержание, контент", note: "тв. п." }
+  - { word: "pertraukia", lemma: "pertraukti", pos: verb, forms: { pres: "pertraukia", past: "pertraukė" }, meaning: "прерывать" }
+  - { word: "režisieriais", lemma: "režisierius", pos: noun, gender: m, gen: "režisieriaus", meaning: "режиссёр", note: "тв. п. мн. ч." }
+  - { word: "vartų", lemma: "vartai", pos: noun, gender: m, gen: "vartų", plural_only: true, meaning: "ворота", note: "род. п." }
+  - { word: "įpratęs", lemma: "įprasti", pos: verb, forms: { pres: "įpranta", past: "įprato" }, meaning: "привыкнуть", note: "прич. прош. вр.: привыкший; įprasti prie — привыкнуть к" }
+  - { word: "akiratį", lemma: "akiratis", pos: noun, gender: m, gen: "akiračio", meaning: "кругозор", note: "вин. п." }
+  - { word: "plakato", lemma: "plakatas", pos: noun, gender: m, gen: "plakato", meaning: "плакат, афиша", note: "род. п." }
+  - { word: "įsigilinti", lemma: "įsigilinti", pos: verb, forms: { pres: "įsigilina", past: "įsigilino" }, meaning: "вникнуть, углубиться" }
+  - { word: "minios", lemma: "minia", pos: noun, gender: f, gen: "minios", meaning: "толпа", note: "род. п." }
+  - { word: "pramoga", lemma: "pramoga", pos: noun, gender: f, gen: "pramogos", meaning: "развлечение" }
+questions:
+  - q: "Kas, autoriaus nuomone, išskiria festivalį iš filmų žiūrėjimo namuose?"
+    options: ["Bendra patirtis salėje ir diskusijos po seanso", "Pigesni bilietai", "Galimybė pamatyti tik holivudinius filmus"]
+    answer: 0
+  - q: "Kodėl autorius festivalius vadina vartais į kitas kultūras?"
+    options: ["Nes juose rodomi tik lietuviški filmai", "Nes žiūrovas susiduria su kinu, kurio pats nebūtų pasirinkęs", "Nes festivaliai vyksta užsienyje"]
+    answer: 1
+  - q: "Kokią festivalių silpnybę mini autorius?"
+    options: ["Kad jie vyksta per retai", "Kad juose per mažai filmų", "Kad jie gali virsti madingu renginiu, kuriame svarbiau nusifotografuoti nei įsigilinti į filmą"]
+    answer: 2
