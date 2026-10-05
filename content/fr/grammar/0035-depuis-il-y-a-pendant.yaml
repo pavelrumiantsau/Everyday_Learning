@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# French A1 grammar (PLAN §3.5): order 101+ = picked only from FR_START (2027-04-01), alternate Fridays.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: fr-g-0035
+cefr: A2
+order: 125
+title: "Depuis, il y a, pendant, dans: for, ago, during, in"
+explanation:
+  en: |
+    English "for" has two French translations — check whether the action is **still going on**.
+
+    ***depuis*** — for / since, **still true now** → French uses the **present**:
+    - *J'habite ici **depuis** trois ans.* — I've been living here for three years (and still do).
+    - *depuis 2020, depuis lundi, depuis mon arrivée*
+    - *Depuis quand… ? / Depuis combien de temps… ?* — How long…?
+    - negative, with the passé composé: *Je ne l'ai pas vu **depuis** un mois.*
+
+    ***pendant*** — for / during, a **finished or limited** period:
+    - *J'ai dormi **pendant** trois heures.* (it's over) — *pendant* can be dropped: *J'ai dormi trois heures.*
+    - with a noun = during: ***pendant** les vacances, **pendant** le film*
+
+    ***il y a*** + time = **ago**, with a past tense: *Je suis arrivé **il y a** deux jours.*
+
+    ***dans*** + time = **in** (from now): *Je pars **dans** dix minutes.*
+    - not to be confused with ***en*** + time = how long something takes: *J'ai lu le livre **en** deux jours.*
+comparison:
+  en: |
+    Spanish works similarly: *vivo aquí desde hace tres años* = *j'habite ici depuis trois ans* (present tense in both — not ~~j'ai habité ici depuis~~); *hace dos días* = *il y a deux jours*; *dentro de diez minutos* = *dans dix minutes*. Russian is the same: «живу здесь три года» — present.
+examples:
+  - { text: "J'habite ici depuis trois ans.", translation: "I've been living here for three years.", source: "tatoeba:7305" }
+  - { text: "J'attends depuis deux heures.", translation: "I've been waiting for two hours.", source: "tatoeba:8185495" }
+  - { text: "Je l'ai vu il y a trois ans.", translation: "I saw him three years ago.", source: "tatoeba:348546" }
+  - { text: "J'ai dormi pendant trois heures.", translation: "I slept for three hours.", source: "tatoeba:8237517" }
+  - { text: "Je reviens dans deux heures.", translation: "I'll be back in two hours.", source: "tatoeba:10052" }
+exercises:
+  - type: cloze
+    text: "J'apprends le français ___ six mois."
+    answer: "depuis"
+    hint: "for — and still learning"
+    translation: "I've been learning French for six months."
+  - type: cloze
+    text: "Je suis arrivé à Paris ___ deux jours."
+    answer: "il y a"
+    hint: "ago"
+    translation: "I arrived in Paris two days ago."
+  - type: cloze
+    text: "Hier, nous avons marché ___ trois heures."
+    answer: "pendant"
+    hint: "for — a finished period"
+    translation: "Yesterday we walked for three hours."
+  - type: cloze
+    text: "Le train part ___ dix minutes."
+    answer: "dans"
+    hint: "in (from now)"
+    translation: "The train leaves in ten minutes."
+  - type: cloze
+    text: "Elle travaille dans cette entreprise ___ 2020."
+    answer: "depuis"
+    hint: "since"
+    translation: "She has worked at this company since 2020."
+  - type: cloze
+    text: "___ les vacances, j'ai beaucoup lu."
+    answer: "Pendant"
+    hint: "during"
+    translation: "During the holidays I read a lot."
+  - type: cloze
+    text: "Je ne l'ai pas vue ___ son mariage."
+    answer: "depuis"
+    hint: "since"
+    translation: "I haven't seen her since her wedding."
+  - type: cloze
+    text: "Nous nous sommes rencontrés ___ dix ans."
+    answer: "il y a"
+    hint: "ago"
+    translation: "We met ten years ago."
