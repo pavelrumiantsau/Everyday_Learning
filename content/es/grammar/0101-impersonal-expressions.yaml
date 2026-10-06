@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0101
+cefr: B1
+order: 101
+title: "Es importante dormir, es importante que duermas: impersonal expressions"
+explanation:
+  en: |
+    ***Es*** + adjective or noun (*importante, necesario, mejor, normal, raro, fácil, difícil, posible, una pena, una lástima*…) can go three ways:
+
+    **1. About people in general → infinitive:**
+    - *Es importante **dormir** bien.* — It's important to sleep well.
+    - *Es mejor no **decir** nada.*
+
+    **2. About a specific person or thing → *que* + subjunctive.** Judgements, need, possibility and feelings all take the subjunctive:
+    - *Es importante que **duermas** bien.* — It's important that you sleep well.
+    - *Es mejor que no **digas** nada.*
+    - *Es normal que **estés** cansado.* — the tiredness is a fact, but you're **judging** it, so subjunctive.
+
+    **3. Truth and certainty → *que* + indicative:** *es verdad, es cierto, es obvio, es evidente, es seguro, está claro*:
+    - *Es verdad que **hace** frío.*
+    - Negated, they switch to the subjunctive: *No es verdad que **haga** frío.* (lesson 43)
+
+    In the past the subjunctive moves back too: *Era importante que **llegáramos** pronto* (lesson 46).
+comparison:
+  en: |
+    English has the same split: "It's important **to sleep**" / "It's important **that you sleep**". In Russian «важно высыпаться» / «важно, **чтобы** ты высыпался» — «чтобы» points to the subjunctive. But «жаль, **что** ты не можешь прийти» and «нормально, что ты устал» have «что», and Spanish still wants the subjunctive: *Es una pena que no **puedas** venir*.
+examples:
+  - { text: "Es peligroso nadar aquí.", translation: "It's dangerous to swim here.", source: "tatoeba:672152" }
+  - { text: "Es importante que respondas.", translation: "It's important that you answer.", source: "tatoeba:9535592" }
+  - { text: "Es una pena que no puedas venir.", translation: "It's a pity that you can't come.", source: "tatoeba:330149" }
+  - { text: "Es verdad que ella enseña francés.", translation: "It is true that she teaches French.", source: "tatoeba:1430156" }
+  - { text: "No es verdad que sea japonés.", translation: "It's not true that he's Japanese.", source: "tatoeba:12406846" }
+exercises:
+  - type: cloze
+    text: "Cuando hace calor, es importante ___ mucha agua."
+    answer: "beber"
+    also: ["tomar"]
+    hint: "drink (people in general)"
+    translation: "When it's hot, it's important to drink a lot of water."
+  - type: cloze
+    text: "Es necesario que ___ el pasaporte antes del viaje."
+    answer: "renueves"
+    hint: "renovar, tú"
+    translation: "You need to renew your passport before the trip."
+  - type: cloze
+    text: "Es normal que ___ nervioso antes de un examen."
+    answer: "estés"
+    hint: "estar, tú"
+    translation: "It's normal for you to be nervous before an exam."
+  - type: cloze
+    text: "Es verdad que este restaurante ___ un poco caro, pero la comida es excelente."
+    answer: "es"
+    hint: "ser"
+    translation: "It's true that this restaurant is a bit expensive, but the food is excellent."
+  - type: cloze
+    text: "No es verdad que los españoles ___ siempre tarde."
+    answer: "lleguen"
+    hint: "llegar"
+    translation: "It isn't true that Spaniards always arrive late."
+  - type: cloze
+    text: "El último autobús ya ha salido; es mejor ___ un taxi."
+    answer: "coger"
+    also: ["tomar"]
+    hint: "take (infinitive)"
+    translation: "The last bus has already left; it's better to take a taxi."
+  - type: cloze
+    text: "Es una lástima que ___ tan mal tiempo este fin de semana."
+    answer: "haga"
+    hint: "hacer"
+    translation: "It's a pity the weather is so bad this weekend."
+  - type: cloze
+    text: "Es obvio que Marta ___ razón, pero nadie la escucha."
+    answer: "tiene"
+    hint: "tener"
+    translation: "It's obvious that Marta is right, but nobody listens to her."
