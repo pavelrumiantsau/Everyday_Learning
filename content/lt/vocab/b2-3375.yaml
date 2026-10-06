@@ -232,10 +232,8 @@
   text: "užduoti"
   pos: verb
   forms: { pres: "užduoda", past: "uždavė" }
-  meaning: { ru: "задать (вопрос, задание)" }
-  note: { ru: "užduoti klausimą — задать вопрос" }
-  examples:
-    - { text: "Tau daug klausimų užduos.", translation: "Тебе зададут много вопросов.", source: "tatoeba:10749379" }
+  meaning: { ru: "задать (задание)" }
+  note: { ru: "užduoti namų darbus — задать домашнее задание; «задать вопрос» — paklausti, pateikti klausimą (užduoti klausimą — калька)" }
 - id: lt-w-3400
   type: word
   cefr: B2

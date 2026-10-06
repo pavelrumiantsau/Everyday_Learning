@@ -29,7 +29,7 @@ w|padėjėjas|noun|m|B1|помощник|11284796||padėjėjo
 w|pasitaisyti|verb||B1|поправиться; исправиться|11931402||pasitaiso, pasitaisė
 w|tiesus|adj||B1|прямой||tiesiai — прямо|
 w|santrauka|noun|f|B2|краткое изложение, резюме|11597647||santraukos
-w|užduoti|verb||B1|задать (вопрос, задание)|10749379|užduoti klausimą — задать вопрос|užduoda, uždavė
+w|užduoti|verb||B1|задать (задание)||užduoti namų darbus — задать домашнее задание; «задать вопрос» — paklausti, pateikti klausimą (užduoti klausimą — калька)|užduoda, uždavė
 w|stambus|adj||B2|крупный; полный (о теле)|13612141||
 w|egzempliorius|noun|m|B2|экземпляр|13168550||egzemplioriaus
 w|užsikrėsti|verb||B1|заразиться|11163178|+ твор. п.: užsikrėsti gripu|užsikrečia, užsikrėtė

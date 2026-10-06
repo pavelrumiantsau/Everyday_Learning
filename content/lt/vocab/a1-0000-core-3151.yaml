@@ -149,7 +149,7 @@
   text: "kada"
   pos: adv
   meaning: { ru: "когда (в вопросе)" }
-  note: { ru: "В придаточном «когда» — kai: Kai grįši, paskambink." }
+  note: { ru: "В придаточном времени — kai: Kai grįši, paskambink." }
   examples:
     - { text: "Kada tu grįši?", translation: "Когда ты вернёшься?", source: "tatoeba:13754876" }
 - id: lt-w-3168
@@ -595,7 +595,7 @@
   text: "šis"
   pos: pron
   meaning: { ru: "этот" }
-  note: { ru: "Ж. р. ši; разг. šitas, šita" }
+  note: { ru: "Ж. р. ši; = šitas, šita" }
   examples:
     - { text: "Ši vieta laisva.", translation: "Это место свободно.", source: "tatoeba:2752402" }
 - id: lt-w-3219

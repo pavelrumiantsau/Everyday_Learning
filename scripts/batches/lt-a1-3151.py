@@ -21,7 +21,7 @@ w|prašom|phrase||A1|пожалуйста (в ответ на «спасибо»
 w|jis|pron||A1|он|7301490|Род. п. jo — его (и «его» = чей: jo namas — его дом), дат. п. jam, вин. п. jį|
 w|bet|conj||A1|но|12582356|Перед bet ставится запятая|
 w|mažai|adv||A1|мало|10719763|+ род. п.: mažai laiko — мало времени|
-w|kada|adv||A1|когда (в вопросе)|13754876|В придаточном «когда» — kai: Kai grįši, paskambink.|
+w|kada|adv||A1|когда (в вопросе)|13754876|В придаточном времени — kai: Kai grįši, paskambink.|
 w|su|prep||A1|с (кем, чем)|12295466|+ твор. п.: su draugu — с другом|
 w|prašau|phrase||A1|пожалуйста (при просьбе); прошу|2619037|1-е л. ед. ч. от prašyti — просить: prašau kavos — кофе, пожалуйста (+ род. п.)|
 w|ji|pron||A1|она|10505753|Род. п. jos — её (и «её» = чья: jos namas), дат. п. jai, вин. п. ją|
@@ -72,7 +72,7 @@ w|irgi|part||A1|тоже|13719479|= taip pat|
 w|viskas|pron||A1|всё|12209627|Вин. п. viską, род. п. visko|
 w|namie|adv||A1|дома|1666234|= namuose; namo — домой|
 p|iki pasimatymo|phrase||A1|до свидания|13845490|Разг. iki! — пока!|
-w|šis|pron||A1|этот|2752402|Ж. р. ši; разг. šitas, šita|
+w|šis|pron||A1|этот|2752402|Ж. р. ši; = šitas, šita|
 w|nors|conj||A2|хотя; хоть|12695199|kas nors — кто-нибудь, ką nors — что-нибудь|
 w|net|part||A1|даже|3945974|= netgi|
 w|lauke|adv||A1|на улице, снаружи|11458734|į lauką — на улицу|
