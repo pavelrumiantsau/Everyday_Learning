@@ -1,0 +1,737 @@
+# Generated from scripts/batches/lt-a1-3151.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-3151
+  type: word
+  cefr: A1
+  text: "labas"
+  pos: phrase
+  meaning: { ru: "привет; здравствуй(те)" }
+  note: { ru: "Нейтральное приветствие в любое время дня" }
+  examples:
+    - { text: "Labas, mano vardas Tina.", translation: "Здравствуйте, меня зовут Тина.", source: "tatoeba:12119401" }
+- id: lt-w-3152
+  type: word
+  cefr: A1
+  text: "aš"
+  pos: pron
+  meaning: { ru: "я" }
+  note: { ru: "Род. п. manęs, дат. п. man, вин. п. mane: man reikia — мне нужно" }
+  examples:
+    - { text: "Aš esu rusė.", translation: "Я русская.", source: "tatoeba:3117167" }
+- id: lt-w-3153
+  type: word
+  cefr: A1
+  text: "ir"
+  pos: conj
+  meaning: { ru: "и" }
+  note: { ru: "Также «и, тоже»: ir aš — и я тоже" }
+  examples:
+    - { text: "Maikas ir Kenas yra draugai.", translation: "Майк и Кен - друзья.", source: "tatoeba:12080683" }
+- id: lt-w-3154
+  type: word
+  cefr: A1
+  text: "labai"
+  pos: adv
+  meaning: { ru: "очень" }
+  examples:
+    - { text: "Ji labai graži.", translation: "Она очень красивая.", source: "tatoeba:7534300" }
+- id: lt-w-3155
+  type: word
+  cefr: A1
+  text: "kas"
+  pos: pron
+  meaning: { ru: "кто; что" }
+  note: { ru: "Род. п. ko, дат. п. kam, вин. п. ką: Ką tu darai? — Что ты делаешь?" }
+  examples:
+    - { text: "Kas čia yra?", translation: "Что это?", source: "tatoeba:5917250" }
+- id: lt-w-3156
+  type: word
+  cefr: A1
+  text: "ant"
+  pos: prep
+  meaning: { ru: "на (на поверхности)" }
+  note: { ru: "+ род. п.: ant stalo — на столе, на стол" }
+  examples:
+    - { text: "Katės ant stogo.", translation: "Кошки на крыше.", source: "tatoeba:12360888" }
+- id: lt-w-3157
+  type: word
+  cefr: A1
+  text: "ačiū"
+  pos: phrase
+  meaning: { ru: "спасибо" }
+  note: { ru: "ačiū už ką (+ вин. п.): ačiū už pagalbą; labai ačiū — большое спасибо" }
+  examples:
+    - { text: "Ačiū už dėmesį.", translation: "Благодарю за внимание.", source: "tatoeba:11715708" }
+- id: lt-w-3158
+  type: word
+  cefr: A1
+  text: "tu"
+  pos: pron
+  meaning: { ru: "ты" }
+  note: { ru: "Род. п. tavęs, дат. п. tau, вин. п. tave" }
+  examples:
+    - { text: "Ko tu nori?", translation: "Чего ты хочешь?", source: "tatoeba:8956764" }
+- id: lt-w-3159
+  type: word
+  cefr: A1
+  text: "o"
+  pos: conj
+  meaning: { ru: "а" }
+  examples:
+    - { text: "Aš nusprendžiau vykti į Ameriką, o ne į Europą.", translation: "Я решил поехать в Америку, а не в Европу.", source: "tatoeba:13660383" }
+- id: lt-w-3160
+  type: word
+  cefr: A1
+  text: "daug"
+  pos: adv
+  meaning: { ru: "много" }
+  note: { ru: "+ род. п.: daug žmonių — много людей" }
+  examples:
+    - { text: "Jis daug valgo.", translation: "Он много ест.", source: "tatoeba:1607196" }
+- id: lt-w-3161
+  type: word
+  cefr: A1
+  text: "kur"
+  pos: adv
+  meaning: { ru: "где; куда" }
+  note: { ru: "iš kur — откуда" }
+  examples:
+    - { text: "Kur tu eini?", translation: "Куда ты идёшь?", source: "tatoeba:732167" }
+- id: lt-w-3162
+  type: word
+  cefr: A1
+  text: "į"
+  pos: prep
+  meaning: { ru: "в, на (куда)" }
+  note: { ru: "+ вин. п.: į mokyklą — в школу, į darbą — на работу" }
+  examples:
+    - { text: "Eik į namą.", translation: "Иди в дом.", source: "tatoeba:13883468" }
+- id: lt-w-3163
+  type: word
+  cefr: A1
+  text: "prašom"
+  pos: phrase
+  meaning: { ru: "пожалуйста (в ответ на «спасибо»; приглашая)" }
+  note: { ru: "Prašom užeiti — заходите, пожалуйста" }
+  examples:
+    - { text: "\"Ačiū\". - \"Prašom\".", translation: "«Спасибо». — «Пожалуйста».", source: "tatoeba:9762695" }
+- id: lt-w-3164
+  type: word
+  cefr: A1
+  text: "jis"
+  pos: pron
+  meaning: { ru: "он" }
+  note: { ru: "Род. п. jo — его (и «его» = чей: jo namas — его дом), дат. п. jam, вин. п. jį" }
+  examples:
+    - { text: "Jis jau čia.", translation: "Он уже здесь.", source: "tatoeba:7301490" }
+- id: lt-w-3165
+  type: word
+  cefr: A1
+  text: "bet"
+  pos: conj
+  meaning: { ru: "но" }
+  note: { ru: "Перед bet ставится запятая" }
+  examples:
+    - { text: "Ji nori, bet negali.", translation: "Она хочет, но не может.", source: "tatoeba:12582356" }
+- id: lt-w-3166
+  type: word
+  cefr: A1
+  text: "mažai"
+  pos: adv
+  meaning: { ru: "мало" }
+  note: { ru: "+ род. п.: mažai laiko — мало времени" }
+  examples:
+    - { text: "Liko mažai vandens.", translation: "Осталось немного воды.", source: "tatoeba:10719763" }
+- id: lt-w-3167
+  type: word
+  cefr: A1
+  text: "kada"
+  pos: adv
+  meaning: { ru: "когда (в вопросе)" }
+  note: { ru: "В придаточном «когда» — kai: Kai grįši, paskambink." }
+  examples:
+    - { text: "Kada tu grįši?", translation: "Когда ты вернёшься?", source: "tatoeba:13754876" }
+- id: lt-w-3168
+  type: word
+  cefr: A1
+  text: "su"
+  pos: prep
+  meaning: { ru: "с (кем, чем)" }
+  note: { ru: "+ твор. п.: su draugu — с другом" }
+  examples:
+    - { text: "Eik su ja.", translation: "Иди с ней.", source: "tatoeba:12295466" }
+- id: lt-w-3169
+  type: word
+  cefr: A1
+  text: "prašau"
+  pos: phrase
+  meaning: { ru: "пожалуйста (при просьбе); прошу" }
+  note: { ru: "1-е л. ед. ч. от prašyti — просить: prašau kavos — кофе, пожалуйста (+ род. п.)" }
+  examples:
+    - { text: "Prašau, atsakyk man.", translation: "Пожалуйста, ответь мне.", source: "tatoeba:2619037" }
+- id: lt-w-3170
+  type: word
+  cefr: A1
+  text: "ji"
+  pos: pron
+  meaning: { ru: "она" }
+  note: { ru: "Род. п. jos — её (и «её» = чья: jos namas), дат. п. jai, вин. п. ją" }
+  examples:
+    - { text: "Kur ji yra?", translation: "Где она?", source: "tatoeba:10505753" }
+- id: lt-w-3171
+  type: word
+  cefr: A1
+  text: "arba"
+  pos: conj
+  meaning: { ru: "или" }
+  note: { ru: "arba… arba… — или… или…" }
+  examples:
+    - { text: "Mėsa arba žuvis?", translation: "Мясо или рыба?", source: "tatoeba:10672820" }
+- id: lt-w-3172
+  type: word
+  cefr: A1
+  text: "truputį"
+  pos: adv
+  meaning: { ru: "немного, чуть-чуть" }
+  note: { ru: "+ род. п.: truputį duonos — немного хлеба" }
+  examples:
+    - { text: "Aš truputį sušalau.", translation: "Я немного замёрз.", source: "tatoeba:2610006" }
+- id: lt-w-3173
+  type: word
+  cefr: A1
+  text: "kodėl"
+  pos: adv
+  meaning: { ru: "почему" }
+  examples:
+    - { text: "Kodėl ji nėjo?", translation: "Почему она не пошла?", source: "tatoeba:12190649" }
+- id: lt-w-3174
+  type: word
+  cefr: A1
+  text: "be"
+  pos: prep
+  meaning: { ru: "без" }
+  note: { ru: "+ род. п.: be cukraus — без сахара" }
+  examples:
+    - { text: "Eik be manęs.", translation: "Иди без меня.", source: "tatoeba:10754946" }
+- id: lt-w-3175
+  type: word
+  cefr: A1
+  text: "atsiprašau"
+  pos: phrase
+  meaning: { ru: "извините, простите" }
+  note: { ru: "От atsiprašyti — извиняться: atsiprašyti už ką (+ вин. п.)" }
+  examples:
+    - { text: "Atsiprašau, aš nežinojau.", translation: "Прости, я не знал.", source: "tatoeba:8915958" }
+- id: lt-w-3176
+  type: word
+  cefr: A1
+  text: "mes"
+  pos: pron
+  meaning: { ru: "мы" }
+  note: { ru: "Род. п. mūsų, дат. п. mums, вин. п. mus" }
+  examples:
+    - { text: "Mes ne namie.", translation: "Мы не дома.", source: "tatoeba:10756204" }
+- id: lt-w-3177
+  type: word
+  cefr: A1
+  text: "ar"
+  pos: part
+  meaning: { ru: "ли (общий вопрос); или" }
+  note: { ru: "Ar tu eisi? — Ты пойдёшь?; kava ar arbata? — кофе или чай?" }
+  examples:
+    - { text: "Ar tu eisi?", translation: "Ты пойдёшь?", source: "tatoeba:12164534" }
+- id: lt-w-3178
+  type: word
+  cefr: A1
+  text: "blogai"
+  pos: adv
+  meaning: { ru: "плохо" }
+  examples:
+    - { text: "Aš blogai miegu.", translation: "Я сплю плохо.", source: "tatoeba:12155257" }
+- id: lt-w-3179
+  type: word
+  cefr: A1
+  text: "kaip"
+  pos: adv
+  meaning: { ru: "как" }
+  note: { ru: "Kaip sekasi? — Как дела?" }
+  examples:
+    - { text: "Kaip tu manai?", translation: "Как ты думаешь?", source: "tatoeba:3945615" }
+- id: lt-w-3180
+  type: word
+  cefr: A1
+  text: "iš"
+  pos: prep
+  meaning: { ru: "из; от; с" }
+  note: { ru: "+ род. п.: iš Vilniaus — из Вильнюса" }
+  examples:
+    - { text: "Iš kur tu?", translation: "Откуда ты?", source: "tatoeba:2154410" }
+- id: lt-p-3181
+  type: phrase
+  cefr: A1
+  text: "viso gero"
+  pos: phrase
+  meaning: { ru: "до свидания, всего хорошего" }
+- id: lt-w-3182
+  type: word
+  cefr: A1
+  text: "jūs"
+  pos: pron
+  meaning: { ru: "вы; Вы" }
+  note: { ru: "Род. п. jūsų, дат. п. jums, вин. п. jus" }
+  examples:
+    - { text: "Iš kur jūs?", translation: "Откуда вы?", source: "tatoeba:10754925" }
+- id: lt-w-3183
+  type: word
+  cefr: A1
+  text: "kad"
+  pos: conj
+  meaning: { ru: "что; чтобы" }
+  note: { ru: "«Чтобы» — kad + сослагательное: kad galėtum — чтобы ты мог" }
+  examples:
+    - { text: "Ačiū, kad grįžai.", translation: "Спасибо, что вернулся.", source: "tatoeba:3136835" }
+- id: lt-w-3184
+  type: word
+  cefr: A1
+  text: "čia"
+  pos: adv
+  meaning: { ru: "здесь, тут; сюда" }
+  examples:
+    - { text: "Tu dar čia?", translation: "Ты ещё здесь?", source: "tatoeba:4786408" }
+- id: lt-w-3185
+  type: word
+  cefr: A1
+  text: "kiek"
+  pos: adv
+  meaning: { ru: "сколько" }
+  note: { ru: "+ род. п.: kiek laiko? — сколько времени?" }
+  examples:
+    - { text: "Kiek tau metų?", translation: "Сколько тебе лет?", source: "tatoeba:566996" }
+- id: lt-w-3186
+  type: word
+  cefr: A1
+  text: "tarp"
+  pos: prep
+  meaning: { ru: "между; среди" }
+  note: { ru: "+ род. п.: tarp mūsų — между нами" }
+  examples:
+    - { text: "Tai tiktai tarp mūsų.", translation: "Это только между нами.", source: "tatoeba:12380808" }
+- id: lt-w-3187
+  type: word
+  cefr: A1
+  text: "labanakt"
+  pos: phrase
+  meaning: { ru: "спокойной ночи" }
+  examples:
+    - { text: "Labanakt, saldžių sapnų!", translation: "Спокойной ночи, сладких снов!", source: "tatoeba:14043895" }
+- id: lt-w-3188
+  type: word
+  cefr: A1
+  text: "jie"
+  pos: pron
+  meaning: { ru: "они" }
+  note: { ru: "Ж. р. jos (если все — женщины); род. п. jų — их (и «их» = чей: jų namas)" }
+  examples:
+    - { text: "Ar jie išėjo?", translation: "Они ушли?", source: "tatoeba:7907865" }
+- id: lt-w-3189
+  type: word
+  cefr: A1
+  text: "kai"
+  pos: conj
+  meaning: { ru: "когда" }
+  note: { ru: "В вопросе — kada: Kada grįši?" }
+  examples:
+    - { text: "Kai baigsi, grąžink.", translation: "Верни это, когда закончишь.", source: "tatoeba:12195851" }
+- id: lt-w-3190
+  type: word
+  cefr: A1
+  text: "ten"
+  pos: adv
+  meaning: { ru: "там; туда" }
+  examples:
+    - { text: "Ar tu ten?", translation: "Ты там?", source: "tatoeba:11556371" }
+- id: lt-w-3191
+  type: word
+  cefr: A1
+  text: "kuris"
+  pos: pron
+  meaning: { ru: "который; какой (из)" }
+  note: { ru: "Ж. р. kuri; kuris iš jų — который из них" }
+  examples:
+    - { text: "Kuri knyga tavo?", translation: "Которая книга твоя?", source: "tatoeba:2168581" }
+- id: lt-w-3192
+  type: word
+  cefr: A1
+  text: "šalia"
+  pos: prep
+  meaning: { ru: "рядом с, возле" }
+  note: { ru: "+ род. п.: šalia upės — у реки" }
+  examples:
+    - { text: "Jo namas šalia upės.", translation: "Его дом около реки.", source: "tatoeba:12174041" }
+- id: lt-w-3193
+  type: word
+  cefr: A1
+  text: "sveiki"
+  pos: phrase
+  meaning: { ru: "здравствуйте; привет" }
+  note: { ru: "К одному на «ты»: sveikas (м.), sveika (ж.); sveiki atvykę — добро пожаловать" }
+  examples:
+    - { text: "Sveiki atvykę į Kanadą!", translation: "Добро пожаловать в Канаду!", source: "tatoeba:11974815" }
+- id: lt-w-3194
+  type: word
+  cefr: A1
+  text: "mano"
+  pos: pron
+  meaning: { ru: "мой" }
+  note: { ru: "Не склоняется: mano namas, mano mama, su mano draugu" }
+  examples:
+    - { text: "Tu mano laimė.", translation: "Ты моё счастье.", source: "tatoeba:10180586" }
+- id: lt-w-3195
+  type: word
+  cefr: A1
+  text: "jei"
+  pos: conj
+  meaning: { ru: "если" }
+  note: { ru: "= jeigu" }
+  examples:
+    - { text: "Padėk man, jei gali.", translation: "Помоги мне, если можешь.", source: "tatoeba:12920479" }
+- id: lt-w-3196
+  type: word
+  cefr: A1
+  text: "taip"
+  pos: part
+  meaning: { ru: "да; так" }
+  examples:
+    - { text: "Taip, aš noriu!", translation: "Да, я хочу!", source: "tatoeba:12188858" }
+- id: lt-w-3197
+  type: word
+  cefr: A1
+  text: "kieno"
+  pos: pron
+  meaning: { ru: "чей" }
+  note: { ru: "Не склоняется: kieno knyga, kieno namas" }
+  examples:
+    - { text: "Kieno ta knyga?", translation: "Чья это книга?", source: "tatoeba:12189607" }
+- id: lt-w-3198
+  type: word
+  cefr: A2
+  text: "virš"
+  pos: prep
+  meaning: { ru: "над" }
+  note: { ru: "+ род. п.: virš debesų — над облаками" }
+  examples:
+    - { text: "Aš skridau virš debesų.", translation: "Я летел над облаками.", source: "tatoeba:2277697" }
+- id: lt-p-3199
+  type: phrase
+  cefr: A1
+  text: "laba diena"
+  pos: phrase
+  meaning: { ru: "добрый день; здравствуйте" }
+  examples:
+    - { text: "Laba diena, Liza!", translation: "Добрый день, Лиза!", source: "tatoeba:13562326" }
+- id: lt-w-3200
+  type: word
+  cefr: A1
+  text: "tavo"
+  pos: pron
+  meaning: { ru: "твой" }
+  note: { ru: "Не склоняется" }
+  examples:
+    - { text: "Aš tavo sūnus.", translation: "Я твой сын.", source: "tatoeba:10355220" }
+- id: lt-w-3201
+  type: word
+  cefr: A1
+  text: "jeigu"
+  pos: conj
+  meaning: { ru: "если" }
+  note: { ru: "= jei" }
+  examples:
+    - { text: "Jeigu nori eiti, eik!", translation: "Если хочешь идти, иди!", source: "tatoeba:12327880" }
+- id: lt-w-3202
+  type: word
+  cefr: A1
+  text: "ne"
+  pos: part
+  meaning: { ru: "нет; не" }
+  note: { ru: "С глаголом пишется слитно: nežinau, neinu" }
+  examples:
+    - { text: "Ne, aš neinu.", translation: "Нет, я не иду.", source: "tatoeba:11502006" }
+- id: lt-w-3203
+  type: word
+  cefr: A1
+  text: "koks"
+  pos: pron
+  meaning: { ru: "какой" }
+  note: { ru: "Ж. р. kokia" }
+  examples:
+    - { text: "Koks jo vardas?", translation: "Как его зовут?", source: "tatoeba:9607098" }
+- id: lt-w-3204
+  type: word
+  cefr: A2
+  text: "link"
+  pos: prep
+  meaning: { ru: "к, по направлению к" }
+  note: { ru: "+ род. п., часто после слова: namo link — к дому" }
+  examples:
+    - { text: "Jis pasuko link namo.", translation: "Он направился к дому.", source: "tatoeba:12921008" }
+- id: lt-p-3205
+  type: phrase
+  cefr: A1
+  text: "labas rytas"
+  pos: phrase
+  meaning: { ru: "доброе утро" }
+  examples:
+    - { text: "Labas rytas, ponios ir ponai!", translation: "Доброе утро, дамы и господа!", source: "tatoeba:1625831" }
+- id: lt-w-3206
+  type: word
+  cefr: A1
+  text: "mūsų"
+  pos: pron
+  meaning: { ru: "наш" }
+  note: { ru: "Не склоняется (это род. п. от mes)" }
+  examples:
+    - { text: "Tai mūsų sūnus.", translation: "Это наш сын.", source: "tatoeba:11310088" }
+- id: lt-w-3207
+  type: word
+  cefr: A1
+  text: "nes"
+  pos: conj
+  meaning: { ru: "потому что" }
+  examples:
+    - { text: "Šuo miega, nes pavargo.", translation: "Собака спит, потому что устала.", source: "tatoeba:13787833" }
+- id: lt-w-3208
+  type: word
+  cefr: A1
+  text: "tik"
+  pos: part
+  meaning: { ru: "только" }
+  note: { ru: "ką tik — только что" }
+  examples:
+    - { text: "Aš tik žiūriu.", translation: "Я только смотрю.", source: "tatoeba:2606266" }
+- id: lt-w-3209
+  type: word
+  cefr: A1
+  text: "kelintas"
+  pos: num
+  meaning: { ru: "который (по счёту)" }
+  note: { ru: "Kelinta valanda? — Который час?; kelintą? — во сколько?" }
+  examples:
+    - { text: "Kelintą tu keliesi?", translation: "Во сколько ты встаёшь?", source: "tatoeba:3600278" }
+- id: lt-w-3210
+  type: word
+  cefr: A2
+  text: "pagal"
+  pos: prep
+  meaning: { ru: "по, согласно" }
+  note: { ru: "+ вин. п.: pagal planą — по плану" }
+  examples:
+    - { text: "Sustokite pagal ūgį.", translation: "Постройтесь по росту.", source: "tatoeba:10062694" }
+- id: lt-p-3211
+  type: phrase
+  cefr: A1
+  text: "labas vakaras"
+  pos: phrase
+  meaning: { ru: "добрый вечер" }
+  examples:
+    - { text: "Labas vakaras visiems.", translation: "Всем добрый вечер.", source: "tatoeba:3225671" }
+- id: lt-w-3212
+  type: word
+  cefr: A1
+  text: "jūsų"
+  pos: pron
+  meaning: { ru: "ваш; Ваш" }
+  note: { ru: "Не склоняется (это род. п. от jūs)" }
+  examples:
+    - { text: "Tai jūsų šuo.", translation: "Это ваша собака.", source: "tatoeba:3241174" }
+- id: lt-w-3213
+  type: word
+  cefr: A1
+  text: "todėl"
+  pos: adv
+  meaning: { ru: "поэтому" }
+  note: { ru: "todėl, kad — потому что" }
+  examples:
+    - { text: "Ji pyko ir todėl tylėjo.", translation: "Она злилась и поэтому молчала.", source: "tatoeba:13381691" }
+- id: lt-w-3214
+  type: word
+  cefr: A1
+  text: "irgi"
+  pos: part
+  meaning: { ru: "тоже" }
+  note: { ru: "= taip pat" }
+  examples:
+    - { text: "Aš irgi noriu!", translation: "Я тоже хочу!", source: "tatoeba:13719479" }
+- id: lt-w-3215
+  type: word
+  cefr: A1
+  text: "viskas"
+  pos: pron
+  meaning: { ru: "всё" }
+  note: { ru: "Вин. п. viską, род. п. visko" }
+  examples:
+    - { text: "Ačiū už viską.", translation: "Спасибо за всё.", source: "tatoeba:12209627" }
+- id: lt-w-3216
+  type: word
+  cefr: A1
+  text: "namie"
+  pos: adv
+  meaning: { ru: "дома" }
+  note: { ru: "= namuose; namo — домой" }
+  examples:
+    - { text: "Ar tu namie?", translation: "Ты дома?", source: "tatoeba:1666234" }
+- id: lt-p-3217
+  type: phrase
+  cefr: A1
+  text: "iki pasimatymo"
+  pos: phrase
+  meaning: { ru: "до свидания" }
+  note: { ru: "Разг. iki! — пока!" }
+  examples:
+    - { text: "Labai ačiū, iki pasimatymo!", translation: "Большое спасибо, до свидания!", source: "tatoeba:13845490" }
+- id: lt-w-3218
+  type: word
+  cefr: A1
+  text: "šis"
+  pos: pron
+  meaning: { ru: "этот" }
+  note: { ru: "Ж. р. ši; разг. šitas, šita" }
+  examples:
+    - { text: "Ši vieta laisva.", translation: "Это место свободно.", source: "tatoeba:2752402" }
+- id: lt-w-3219
+  type: word
+  cefr: A2
+  text: "nors"
+  pos: conj
+  meaning: { ru: "хотя; хоть" }
+  note: { ru: "kas nors — кто-нибудь, ką nors — что-нибудь" }
+  examples:
+    - { text: "Nors buvo šalta, jis neužkūrė ugnies.", translation: "Хотя было холодно, он не разжигал огонь.", source: "tatoeba:12695199" }
+- id: lt-w-3220
+  type: word
+  cefr: A1
+  text: "net"
+  pos: part
+  meaning: { ru: "даже" }
+  note: { ru: "= netgi" }
+  examples:
+    - { text: "Tu net nebandai.", translation: "Ты даже не пытаешься.", source: "tatoeba:3945974" }
+- id: lt-w-3221
+  type: word
+  cefr: A1
+  text: "lauke"
+  pos: adv
+  meaning: { ru: "на улице, снаружи" }
+  note: { ru: "į lauką — на улицу" }
+  examples:
+    - { text: "Ar lauke karšta?", translation: "На улице жарко?", source: "tatoeba:11458734" }
+- id: lt-w-3222
+  type: word
+  cefr: A2
+  text: "sudie"
+  pos: phrase
+  meaning: { ru: "прощай(те), до свидания" }
+  note: { ru: "Звучит несколько старомодно и торжественно" }
+- id: lt-w-3223
+  type: word
+  cefr: A1
+  text: "tas"
+  pos: pron
+  meaning: { ru: "тот; этот" }
+  note: { ru: "Ж. р. ta; tas pats — тот же самый" }
+  examples:
+    - { text: "Kas tas vyras?", translation: "Кто тот мужчина?", source: "tatoeba:3591106" }
+- id: lt-w-3224
+  type: word
+  cefr: A2
+  text: "kol"
+  pos: conj
+  meaning: { ru: "пока" }
+  note: { ru: "kol + отрицание: kol nesutems — пока не стемнеет" }
+  examples:
+    - { text: "Aš palauksiu, kol tu grįši.", translation: "Я подожду, пока ты вернёшься.", source: "tatoeba:8630963" }
+- id: lt-w-3225
+  type: word
+  cefr: A1
+  text: "gal"
+  pos: part
+  meaning: { ru: "может быть" }
+  note: { ru: "= galbūt" }
+  examples:
+    - { text: "Gal aš klystu.", translation: "Возможно, я ошибаюсь.", source: "tatoeba:10759462" }
+- id: lt-w-3226
+  type: word
+  cefr: A1
+  text: "viduje"
+  pos: adv
+  meaning: { ru: "внутри" }
+  note: { ru: "į vidų — внутрь" }
+  examples:
+    - { text: "Viduje yra daug vietos.", translation: "Внутри много места.", source: "tatoeba:12561260" }
+- id: lt-w-3227
+  type: word
+  cefr: A1
+  text: "žinoma"
+  pos: part
+  meaning: { ru: "конечно" }
+  note: { ru: "Вводное слово, выделяется запятыми" }
+  examples:
+    - { text: "Žinoma, jis žino.", translation: "Конечно, он знает.", source: "tatoeba:11030987" }
+- id: lt-w-3228
+  type: word
+  cefr: A1
+  text: "garsiai"
+  pos: adv
+  meaning: { ru: "громко; вслух" }
+  examples:
+    - { text: "Jis garsiai kalbėjo.", translation: "Он громко говорил.", source: "tatoeba:13850086" }
+- id: lt-w-3229
+  type: word
+  cefr: A1
+  text: "beveik"
+  pos: adv
+  meaning: { ru: "почти" }
+  examples:
+    - { text: "Beveik visi išėjo.", translation: "Почти все ушли.", source: "tatoeba:10724032" }
+- id: lt-w-3230
+  type: word
+  cefr: A1
+  text: "tyliai"
+  pos: adv
+  meaning: { ru: "тихо" }
+  examples:
+    - { text: "Jis tyliai eina.", translation: "Он идёт бесшумно.", source: "tatoeba:12506714" }
+- id: lt-w-3231
+  type: word
+  cefr: A1
+  text: "anksti"
+  pos: adv
+  meaning: { ru: "рано" }
+  examples:
+    - { text: "Aš anksti ateinu.", translation: "Я рано прихожу.", source: "tatoeba:12767150" }
+- id: lt-w-3232
+  type: word
+  cefr: A1
+  text: "vėlai"
+  pos: adv
+  meaning: { ru: "поздно" }
+  examples:
+    - { text: "Aš vėlai keliuosi.", translation: "Я встаю поздно.", source: "tatoeba:11831204" }
+- id: lt-w-3233
+  type: word
+  cefr: A1
+  text: "paskui"
+  pos: adv
+  meaning: { ru: "потом; следом (за)" }
+  note: { ru: "eiti paskui ką (+ вин. п.) — идти за кем" }
+  examples:
+    - { text: "O kas paskui?", translation: "А потом что?", source: "tatoeba:13892736" }
+- id: lt-w-3234
+  type: word
+  cefr: A1
+  text: "tuoj"
+  pos: adv
+  meaning: { ru: "сейчас, сию минуту" }
+  note: { ru: "tuoj pat — сейчас же, сразу" }
+  examples:
+    - { text: "Aš tuoj pat atėjau.", translation: "Я сразу пришёл.", source: "tatoeba:10196398" }
