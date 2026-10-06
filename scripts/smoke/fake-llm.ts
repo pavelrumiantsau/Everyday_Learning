@@ -16,11 +16,11 @@ const answer = (tag: string) =>
     mistakes: [{ original: "Aš eina", corrected: "Aš einu", explanation: "1-е лицо ед. ч.: einu" }],
     comment: "Хорошо!",
     // word_lookup (reading mode)
-    lemma: "butas",
+    lemma: "euras",
     pos: "noun",
     gender: "m",
-    gen: "buto",
-    meaning: "квартира",
+    gen: "euro",
+    meaning: "евро",
     // reading_questions (own texts)
     questions: [0, 1, 2].map((i) => ({ q: `Klausimas ${i + 1}?`, options: ["Taip", "Ne", "Nežinau"], answer: i })),
   });
