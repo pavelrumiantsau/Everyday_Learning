@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0107
+cefr: B1
+order: 107
+title: "Mañana trabajo, voy a trabajar, trabajaré: talking about the future — a review"
+explanation:
+  en: |
+    Spanish has three everyday ways to talk about the future:
+
+    **1. Present** — arrangements and timetables, and on-the-spot offers:
+    - *El lunes **empiezo** en mi nuevo trabajo.* *La película **empieza** a las nueve.*
+    - offers and decisions made right now: *¿Te **llevo** a casa?* — Shall I drive you home? *Ya **pago** yo.* — I'll get this.
+
+    **2. *ir a* + infinitive** (lesson 4) — plans and intentions; things you can see coming:
+    - *Este año **voy a aprender** a nadar.*
+    - *¡Cuidado, te **vas a caer**!*
+
+    **3. Simple future** (lesson 18) — predictions, promises, and the result in *si* sentences; it sounds a little more distant or formal:
+    - *Mañana **lloverá** en el norte.* (weather forecast)
+    - *Te lo **devolveré** el lunes.* — a promise
+    - *Si me llamas, **iré**.*
+
+    Also useful: ***pensar*** + infinitive = to plan, to intend: *¿Qué **piensas hacer** en verano?*
+
+    After ***cuando, en cuanto, hasta que*** the future becomes the **present subjunctive**: *Cuando **termine**, te llamo* (lesson 35).
+comparison:
+  en: |
+    Russian also uses the present for arrangements: «Завтра я работаю» = *Mañana trabajo*. The trap is English "I'll": an offer or quick decision is a **present** in Spanish — "I'll get the door!" = *¡Ya abro yo!*, "Shall I help you?" = *¿Te ayudo?* — not ~~¿Te ayudaré?~~.
+examples:
+  - { text: "Mañana trabajo.", translation: "I'm working tomorrow.", source: "tatoeba:1535506" }
+  - { text: "El tren sale a las seis.", translation: "The train leaves at six.", source: "tatoeba:1441731" }
+  - { text: "¿Te ayudo?", translation: "Would you like me to help you?", source: "tatoeba:1387853" }
+  - { text: "Si tengo tiempo, lo haré.", translation: "If I have time, I'll do it.", source: "tatoeba:1293060" }
+  - { text: "Pienso ir allí.", translation: "I plan to go there.", source: "tatoeba:988317" }
+exercises:
+  - type: cloze
+    text: "Nuestro vuelo ___ a las siete y diez, así que hay que estar en el aeropuerto a las cinco."
+    answer: "sale"
+    also: ["saldrá"]
+    hint: "salir (timetable)"
+    translation: "Our flight leaves at ten past seven, so we have to be at the airport at five."
+  - type: cloze
+    text: "Mira esas nubes negras: ___ a llover."
+    answer: "va"
+    hint: "ir a (you can see it coming)"
+    translation: "Look at those black clouds: it's going to rain."
+  - type: cloze
+    text: "—Llaman a la puerta. —Tranquila, ya ___ yo."
+    answer: "abro"
+    hint: "abrir (an offer right now)"
+    translation: "\"There's someone at the door.\" \"Don't worry, I'll get it.\""
+  - type: cloze
+    text: "Si mañana hace sol, ___ a la playa."
+    answer: "iremos"
+    hint: "ir, nosotros, future"
+    translation: "If it's sunny tomorrow, we'll go to the beach."
+  - type: cloze
+    text: "Te prometo que no se lo ___ a nadie."
+    answer: "diré"
+    hint: "decir, future (a promise)"
+    translation: "I promise I won't tell anyone."
+  - type: cloze
+    text: "Este verano ___ ir a Galicia con unos amigos."
+    answer: "pienso"
+    hint: "pensar (I intend)"
+    translation: "This summer I'm planning to go to Galicia with some friends."
+  - type: cloze
+    text: "Cuando ___ a Madrid, te mando un mensaje."
+    answer: "llegue"
+    hint: "llegar, yo (not the future!)"
+    translation: "When I get to Madrid, I'll send you a message."
+  - type: cloze
+    text: "Según los expertos, en 2050 ___ casi diez mil millones de personas en el mundo."
+    answer: "habrá"
+    hint: "haber, prediction"
+    translation: "According to experts, in 2050 there will be almost ten billion people in the world."
