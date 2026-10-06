@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0089
+cefr: B1
+order: 89
+title: "Espero que hayas dormido bien: the perfect subjunctive"
+explanation:
+  en: |
+    **Form:** ***haya, hayas, haya, hayamos, hayáis, hayan*** + participle (*hablado, comido, hecho, visto…*). It is the subjunctive of *he hablado* (lesson 19).
+
+    **Use:** after any subjunctive trigger in the **present** — *espero que, me alegro de que, no creo que, puede que, es posible que* (lessons 26, 29, 43, 60) — when the action **has already happened**:
+    - *Espero que **llegues** bien.* — I hope you get there safely (later).
+    - *Espero que **hayas llegado** bien.* — I hope you got there safely (already).
+    - *No creo que **haya llamado**.* — I don't think he has called.
+    - *Puede que **se haya perdido**.* — He may have got lost.
+
+    After ***cuando, en cuanto, hasta que*** (lesson 35) it stresses that a future action will be **finished** first: *Te llamo cuando **haya terminado**.* — when I've finished.
+
+    If the main verb is in the **past**, use the pluperfect subjunctive instead: *No creía que **hubiera llamado**.* (lesson 54)
+comparison:
+  en: |
+    Russian uses a plain past here: «Надеюсь, ты хорошо **спал**», «Не думаю, что он **пришёл**». After a present trigger, that past becomes *haya* + participle: *Espero que **hayas dormido** bien.* English often has "have" too: "He may **have got** lost" — *Puede que **se haya perdido***.
+examples:
+  - { text: "Espero que hayas dormido bien.", translation: "I hope you slept well.", source: "tatoeba:3037678" }
+  - { text: "No creo que haya llegado.", translation: "I don't think he's arrived.", source: "tatoeba:9011137" }
+  - { text: "Me alegro de que te haya gustado.", translation: "I'm happy you liked it.", source: "tatoeba:1619698" }
+  - { text: "Puede que le haya pasado algo.", translation: "Something may have happened to him.", source: "tatoeba:551894" }
+  - { text: "Llámame cuando hayas llegado.", translation: "Call me once you've arrived.", source: "tatoeba:1466280" }
+exercises:
+  - type: cloze
+    text: "Me alegro de que ___ a la fiesta."
+    answer: "hayas venido"
+    hint: "venir — tú, perfect"
+    translation: "I'm glad you came to the party."
+  - type: cloze
+    text: "No creo que Juan ___ el correo todavía."
+    answer: "haya leído"
+    hint: "leer — él, perfect"
+    translation: "I don't think Juan has read the email yet."
+  - type: cloze
+    text: "Espero que no ___ problemas en el viaje."
+    answer: "hayas tenido"
+    hint: "tener — tú, perfect"
+    translation: "I hope you didn't have any problems on the trip."
+  - type: cloze
+    text: "Puede que Ana ___ el autobús."
+    answer: "haya perdido"
+    hint: "perder — ella, perfect"
+    translation: "Ana may have missed the bus."
+  - type: cloze
+    text: "Avísame en cuanto ___ los resultados."
+    answer: "hayas recibido"
+    hint: "recibir — tú, perfect"
+    translation: "Let me know as soon as you've received the results."
+  - type: cloze
+    text: "Es una pena que no ___ ganar."
+    answer: "hayamos podido"
+    hint: "poder — nosotros, perfect"
+    translation: "It's a pity we weren't able to win."
+  - type: cloze
+    text: "Dudo que ellos ___ la verdad."
+    answer: "hayan dicho"
+    hint: "decir — ellos, perfect"
+    translation: "I doubt they have told the truth."
+  - type: cloze
+    text: "Es posible que el tren ya ___."
+    answer: "haya salido"
+    hint: "salir — perfect"
+    translation: "The train may have already left."
