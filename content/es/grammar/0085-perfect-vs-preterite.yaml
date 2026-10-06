@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0085
+cefr: A2
+order: 85
+title: "He comido or comí? Present perfect or preterite"
+explanation:
+  en: |
+    Both translate "I ate / I have eaten". In **Spain** the choice depends on the **time period**:
+
+    **Present perfect** (*he comido*, lesson 19) — the period **is not over yet**, or there is no time at all:
+    - ***hoy, esta mañana, esta semana, este año***: *Hoy **he comido** poco.*
+    - experience: ***alguna vez*** (ever), ***nunca***: *¿**Has estado** alguna vez en Cuba?*
+    - ***ya*** (already), ***todavía no*** (not yet), a result that matters now: *Ya **he terminado**.*
+
+    **Preterite** (*comí*, lessons 9–10) — a **finished** period or a point in the past:
+    - ***ayer, anoche, el lunes, la semana pasada, en 2020, hace dos años***: *Ayer **comí** poco.*
+    - a story, one event after another: *Llegué, cené y me acosté.*
+
+    Never the present perfect with a finished time: ~~ayer he comido~~ → *ayer **comí***.
+
+    In **Latin America** (and the Canary Islands) people use the **preterite** for almost every finished action, even with *hoy* and *ya*: *¿Ya **comiste**?* = Spain *¿Ya **has comido**?* The present perfect is kept mostly for things that continue up to now: *Siempre **he vivido** aquí.* Both are understood everywhere. The exercises follow the usage of Spain.
+comparison:
+  en: |
+    Russian has one past tense, so ask: **is the period finished?** «Сегодня я видел Боба» → *Hoy **he visto** a Bob*; «Вчера я видел Боба» → *Ayer **vi** a Bob*. English is close (*ever, already, not yet* → present perfect), but English says "I saw him this morning" even at noon; Spain says *Esta mañana lo **he visto**.*
+examples:
+  - { text: "Esta mañana he visto a Bob.", translation: "I saw Bob this morning.", source: "tatoeba:896998" }
+  - { text: "Anoche nevó mucho.", translation: "It snowed a lot last night.", source: "tatoeba:2246373" }
+  - { text: "¿Alguna vez has comido pavo?", translation: "Have you ever eaten turkey?", source: "tatoeba:10191873" }
+  - { text: "Ya he cenado.", translation: "I've already eaten dinner.", source: "tatoeba:1262283" }
+  - { text: "¿Ya comiste?", translation: "Have you eaten?", source: "tatoeba:1273986" }
+exercises:
+  - type: cloze
+    text: "Esta semana ___ mucho."
+    answer: "ha llovido"
+    hint: "llover"
+    translation: "It has rained a lot this week."
+  - type: cloze
+    text: "La semana pasada ___ a mis abuelos."
+    answer: "visité"
+    hint: "visitar — yo"
+    translation: "Last week I visited my grandparents."
+  - type: cloze
+    text: "¿___ alguna vez en México?"
+    answer: "Has estado"
+    hint: "estar — tú, experience"
+    translation: "Have you ever been to Mexico?"
+  - type: cloze
+    text: "Todavía no ___ el libro que me diste."
+    answer: "he leído"
+    hint: "leer — yo"
+    translation: "I haven't read the book you gave me yet."
+  - type: cloze
+    text: "En 2019 nos ___ a Valencia."
+    answer: "mudamos"
+    hint: "mudarse — nosotros"
+    translation: "In 2019 we moved to Valencia."
+  - type: cloze
+    text: "Hoy ___ tarde porque había mucho tráfico."
+    answer: "he llegado"
+    hint: "llegar — yo"
+    translation: "Today I arrived late because there was a lot of traffic."
+  - type: cloze
+    text: "Hace tres años ___ un accidente de coche."
+    answer: "tuve"
+    hint: "tener — yo"
+    translation: "Three years ago I had a car accident."
+  - type: cloze
+    text: "Este año ___ muchas películas españolas."
+    answer: "he visto"
+    hint: "ver — yo"
+    translation: "This year I've seen a lot of Spanish films."
