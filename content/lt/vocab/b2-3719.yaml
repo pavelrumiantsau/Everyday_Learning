@@ -270,8 +270,6 @@
   forms: { pres: "susikrauna", past: "susikrovė" }
   meaning: { ru: "сложить, собрать (свои вещи)" }
   note: { ru: "susikrauti daiktus — собрать вещи" }
-  examples:
-    - { text: "Per dešimt minučių susikrausi?", translation: "В десять минут уложишься?", source: "tatoeba:10455108" }
 - id: lt-w-3750
   type: word
   cefr: B2

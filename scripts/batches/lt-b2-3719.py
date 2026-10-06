@@ -36,7 +36,7 @@ w|pastarasis|adj||B2|последний (из названных); недавн�
 w|surišti|verb||B1|связать|12752113||suriša, surišo
 w|pakopa|noun|f|B2|ступень (уровень, этап)|||pakopos
 w|palankiai|adv||B2|благосклонно, доброжелательно||palankiai vertinti — относиться положительно|
-w|susikrauti|verb||B1|сложить, собрать (свои вещи)|10455108|susikrauti daiktus — собрать вещи|susikrauna, susikrovė
+w|susikrauti|verb||B1|сложить, собрать (свои вещи)||susikrauti daiktus — собрать вещи|susikrauna, susikrovė
 w|pirmenybė|noun|f|B2|предпочтение, приоритет|13554946|teikti pirmenybę kam — отдавать предпочтение кому/чему|pirmenybės
 w|apgaulingas|adj||B2|обманчивый|13584243||
 w|vaizduoti|verb||B2|изображать|||vaizduoja, vaizdavo
