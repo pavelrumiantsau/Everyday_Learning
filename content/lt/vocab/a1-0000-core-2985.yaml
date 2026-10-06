@@ -1,0 +1,755 @@
+# Generated from scripts/batches/lt-a1-2985.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2985
+  type: word
+  cefr: A1
+  text: "būti"
+  pos: verb
+  forms: { pres: "yra", past: "buvo" }
+  meaning: { ru: "быть" }
+  note: { ru: "Наст. вр.: esu, esi, yra, esame, esate; отрицание nėra (+ род. п.)" }
+  examples:
+    - { text: "Aš buvau toli.", translation: "Я был далеко.", source: "tatoeba:12368457" }
+- id: lt-w-2986
+  type: word
+  cefr: A1
+  text: "miestas"
+  pos: noun
+  gender: m
+  gen: "miesto"
+  meaning: { ru: "город" }
+  examples:
+    - { text: "Miestas yra mažas.", translation: "Город маленький.", source: "tatoeba:2752224" }
+- id: lt-w-2987
+  type: word
+  cefr: A1
+  text: "turėti"
+  pos: verb
+  forms: { pres: "turi", past: "turėjo" }
+  meaning: { ru: "иметь; быть должным" }
+  note: { ru: "turėti + инф.: Turiu eiti. — Мне надо идти." }
+  examples:
+    - { text: "Ji turi katę.", translation: "У неё есть кошка.", source: "tatoeba:12283197" }
+- id: lt-w-2988
+  type: word
+  cefr: A1
+  text: "kaimas"
+  pos: noun
+  gender: m
+  gen: "kaimo"
+  meaning: { ru: "деревня, село" }
+  examples:
+    - { text: "Jis gyvena kaime.", translation: "Он живёт в деревне.", source: "tatoeba:12871414" }
+- id: lt-w-2989
+  type: word
+  cefr: A1
+  text: "dirbti"
+  pos: verb
+  forms: { pres: "dirba", past: "dirbo" }
+  meaning: { ru: "работать" }
+  examples:
+    - { text: "Ji dirba banke.", translation: "Она работает в банке.", source: "tatoeba:1666155" }
+- id: lt-w-2990
+  type: word
+  cefr: A1
+  text: "gatvė"
+  pos: noun
+  gender: f
+  gen: "gatvės"
+  meaning: { ru: "улица" }
+  examples:
+    - { text: "Kokia čia gatvė?", translation: "Какая это улица?", source: "tatoeba:12209660" }
+- id: lt-w-2991
+  type: word
+  cefr: A1
+  text: "mokytis"
+  pos: verb
+  forms: { pres: "mokosi", past: "mokėsi" }
+  meaning: { ru: "учиться; учить (что-л.)" }
+  note: { ru: "mokytis lietuvių kalbos (+ род. п.)" }
+  examples:
+    - { text: "Kur ji mokosi?", translation: "Где она учится?", source: "tatoeba:6006547" }
+- id: lt-w-2992
+  type: word
+  cefr: A1
+  text: "upė"
+  pos: noun
+  gender: f
+  gen: "upės"
+  meaning: { ru: "река" }
+  examples:
+    - { text: "Upė teka į jūrą.", translation: "Река течёт в море.", source: "tatoeba:5988816" }
+- id: lt-w-2993
+  type: word
+  cefr: A1
+  text: "mokyti"
+  pos: verb
+  forms: { pres: "moko", past: "mokė" }
+  meaning: { ru: "учить, обучать (кого-л.)" }
+  examples:
+    - { text: "Aš mokiau jį plaukti.", translation: "Я научил его плавать.", source: "tatoeba:2666221" }
+- id: lt-w-2994
+  type: word
+  cefr: A1
+  text: "ežeras"
+  pos: noun
+  gender: m
+  gen: "ežero"
+  meaning: { ru: "озеро" }
+  examples:
+    - { text: "Mes maudėmės ežere.", translation: "Мы купались в озере.", source: "tatoeba:11789769" }
+- id: lt-w-2995
+  type: word
+  cefr: A1
+  text: "skaityti"
+  pos: verb
+  forms: { pres: "skaito", past: "skaitė" }
+  meaning: { ru: "читать" }
+  note: { ru: "perskaityti — прочитать (сов.)" }
+  examples:
+    - { text: "Aš skaitau knygą.", translation: "Я читаю книгу.", source: "tatoeba:3540062" }
+- id: lt-w-2996
+  type: word
+  cefr: A1
+  text: "jūra"
+  pos: noun
+  gender: f
+  gen: "jūros"
+  meaning: { ru: "море" }
+  examples:
+    - { text: "Jūra buvo rami.", translation: "Море было спокойным.", source: "tatoeba:12144514" }
+- id: lt-w-2997
+  type: word
+  cefr: A1
+  text: "rašyti"
+  pos: verb
+  forms: { pres: "rašo", past: "rašė" }
+  meaning: { ru: "писать" }
+  note: { ru: "parašyti — написать (сов.)" }
+  examples:
+    - { text: "Ar ji tau rašė?", translation: "Она тебе писала?", source: "tatoeba:12498862" }
+- id: lt-w-2998
+  type: word
+  cefr: A1
+  text: "miškas"
+  pos: noun
+  gender: m
+  gen: "miško"
+  meaning: { ru: "лес" }
+  examples:
+    - { text: "Aš ėjau per mišką.", translation: "Я шёл через лес.", source: "tatoeba:13393926" }
+- id: lt-w-2999
+  type: word
+  cefr: A1
+  text: "kalbėti"
+  pos: verb
+  forms: { pres: "kalba", past: "kalbėjo" }
+  meaning: { ru: "говорить, разговаривать" }
+  examples:
+    - { text: "Aš su ja kalbu.", translation: "Я с ней говорю.", source: "tatoeba:10911103" }
+- id: lt-w-3000
+  type: word
+  cefr: A1
+  text: "kalnas"
+  pos: noun
+  gender: m
+  gen: "kalno"
+  meaning: { ru: "гора" }
+  examples:
+    - { text: "Aš esu ant kalno.", translation: "Я на горе.", source: "tatoeba:11066540" }
+- id: lt-w-3001
+  type: word
+  cefr: A1
+  text: "sakyti"
+  pos: verb
+  forms: { pres: "sako", past: "sakė" }
+  meaning: { ru: "говорить, сказать" }
+  note: { ru: "pasakyti — сказать (сов.)" }
+  examples:
+    - { text: "Ji sako tiesą.", translation: "Она говорит правду.", source: "tatoeba:14038863" }
+- id: lt-w-3002
+  type: word
+  cefr: A1
+  text: "parduotuvė"
+  pos: noun
+  gender: f
+  gen: "parduotuvės"
+  meaning: { ru: "магазин" }
+  examples:
+    - { text: "Nueisiu į parduotuvę.", translation: "Пойду схожу в магазин.", source: "tatoeba:4796126" }
+- id: lt-w-3003
+  type: word
+  cefr: A1
+  text: "klausti"
+  pos: verb
+  forms: { pres: "klausia", past: "klausė" }
+  meaning: { ru: "спрашивать" }
+  note: { ru: "klausti ko (+ род. п.); paklausti — спросить" }
+  examples:
+    - { text: "Aš jo klausiu.", translation: "Я у него спрашиваю.", source: "tatoeba:12449697" }
+- id: lt-w-3004
+  type: word
+  cefr: A1
+  text: "mokykla"
+  pos: noun
+  gender: f
+  gen: "mokyklos"
+  meaning: { ru: "школа" }
+  examples:
+    - { text: "Tu eisi į mokyklą.", translation: "Ты пойдёшь в школу.", source: "tatoeba:557314" }
+- id: lt-w-3005
+  type: word
+  cefr: A1
+  text: "atsakyti"
+  pos: verb
+  forms: { pres: "atsako", past: "atsakė" }
+  meaning: { ru: "ответить, отвечать" }
+  note: { ru: "atsakyti į klausimą — ответить на вопрос" }
+  examples:
+    - { text: "Jis man atsakė.", translation: "Он мне ответил.", source: "tatoeba:13442506" }
+- id: lt-w-3006
+  type: word
+  cefr: A1
+  text: "kinas"
+  pos: noun
+  gender: m
+  gen: "kino"
+  meaning: { ru: "кино, кинотеатр" }
+  examples:
+    - { text: "Ar eisime į kiną?", translation: "Мы пойдем в кино?", source: "tatoeba:3143567" }
+- id: lt-w-3007
+  type: word
+  cefr: A1
+  text: "klausyti"
+  pos: verb
+  forms: { pres: "klauso", past: "klausė" }
+  meaning: { ru: "слушать; слушаться" }
+  note: { ru: "klausyti muzikos (+ род. п.)" }
+  examples:
+    - { text: "Aš jūsų klausau.", translation: "Я вас слушаю.", source: "tatoeba:1625843" }
+- id: lt-w-3008
+  type: word
+  cefr: A1
+  text: "biblioteka"
+  pos: noun
+  gender: f
+  gen: "bibliotekos"
+  meaning: { ru: "библиотека" }
+  examples:
+    - { text: "Aš einu į biblioteką.", translation: "Я иду в библиотеку.", source: "tatoeba:5988996" }
+- id: lt-w-3009
+  type: word
+  cefr: A1
+  text: "girdėti"
+  pos: verb
+  forms: { pres: "girdi", past: "girdėjo" }
+  meaning: { ru: "слышать" }
+  note: { ru: "išgirsti — услышать" }
+  examples:
+    - { text: "Ar girdi balsą?", translation: "Ты слышишь голос?", source: "tatoeba:3596273" }
+- id: lt-w-3010
+  type: word
+  cefr: A1
+  text: "viešbutis"
+  pos: noun
+  gender: m
+  gen: "viešbučio"
+  meaning: { ru: "гостиница" }
+  examples:
+    - { text: "Jis grįžo į viešbutį.", translation: "Он вернулся в отель.", source: "tatoeba:8319984" }
+- id: lt-w-3011
+  type: word
+  cefr: A1
+  text: "matyti"
+  pos: verb
+  forms: { pres: "mato", past: "matė" }
+  meaning: { ru: "видеть" }
+  note: { ru: "pamatyti — увидеть" }
+  examples:
+    - { text: "Aš jį matau.", translation: "Я его вижу.", source: "tatoeba:12203620" }
+- id: lt-p-3012
+  type: phrase
+  cefr: A1
+  text: "oro uostas"
+  pos: noun
+  gender: m
+  gen: "oro uosto"
+  meaning: { ru: "аэропорт" }
+  examples:
+    - { text: "Kaip toli iki oro uosto?", translation: "Как далеко до аэропорта?", source: "tatoeba:1626571" }
+- id: lt-w-3013
+  type: word
+  cefr: A1
+  text: "žiūrėti"
+  pos: verb
+  forms: { pres: "žiūri", past: "žiūrėjo" }
+  meaning: { ru: "смотреть" }
+  note: { ru: "pažiūrėti — посмотреть" }
+  examples:
+    - { text: "Žiūrėk į mane.", translation: "Смотри на меня.", source: "tatoeba:13733397" }
+- id: lt-w-3014
+  type: word
+  cefr: A1
+  text: "traukinys"
+  pos: noun
+  gender: m
+  gen: "traukinio"
+  meaning: { ru: "поезд" }
+  examples:
+    - { text: "Ji laukia traukinio.", translation: "Она ждёт поезд.", source: "tatoeba:12578419" }
+- id: lt-w-3015
+  type: word
+  cefr: A1
+  text: "žinoti"
+  pos: verb
+  forms: { pres: "žino", past: "žinojo" }
+  meaning: { ru: "знать" }
+  examples:
+    - { text: "Ką tu žinai?", translation: "Что ты знаешь?", source: "tatoeba:2728961" }
+- id: lt-w-3016
+  type: word
+  cefr: A1
+  text: "lėktuvas"
+  pos: noun
+  gender: m
+  gen: "lėktuvo"
+  meaning: { ru: "самолёт" }
+  examples:
+    - { text: "Aš esu lėktuve.", translation: "Я в самолёте.", source: "tatoeba:13743389" }
+- id: lt-w-3017
+  type: word
+  cefr: A1
+  text: "suprasti"
+  pos: verb
+  forms: { pres: "supranta", past: "suprato" }
+  meaning: { ru: "понять, понимать" }
+  examples:
+    - { text: "Tu mane supratai?", translation: "Ты меня понял?", source: "tatoeba:12163051" }
+- id: lt-w-3018
+  type: word
+  cefr: A1
+  text: "automobilis"
+  pos: noun
+  gender: m
+  gen: "automobilio"
+  meaning: { ru: "автомобиль" }
+  examples:
+    - { text: "Sėskime į automobilį.", translation: "Давай сядем в машину.", source: "tatoeba:12489984" }
+- id: lt-w-3019
+  type: word
+  cefr: A1
+  text: "galvoti"
+  pos: verb
+  forms: { pres: "galvoja", past: "galvojo" }
+  meaning: { ru: "думать" }
+  examples:
+    - { text: "Apie ką galvoji?", translation: "О чём думаешь?", source: "tatoeba:2151486" }
+- id: lt-w-3020
+  type: word
+  cefr: A1
+  text: "mašina"
+  pos: noun
+  gender: f
+  gen: "mašinos"
+  meaning: { ru: "машина (автомобиль; механизм)" }
+  examples:
+    - { text: "Ji miega mašinoje.", translation: "Она спит в машине.", source: "tatoeba:4798144" }
+- id: lt-w-3021
+  type: word
+  cefr: A1
+  text: "manyti"
+  pos: verb
+  forms: { pres: "mano", past: "manė" }
+  meaning: { ru: "думать, считать, полагать" }
+  note: { ru: "Manau, kad… — Я думаю, что… (не путать с mano — мой)" }
+  examples:
+    - { text: "Manau, kad ne.", translation: "Думаю, что нет.", source: "tatoeba:3985848" }
+- id: lt-w-3022
+  type: word
+  cefr: A1
+  text: "dviratis"
+  pos: noun
+  gender: m
+  gen: "dviračio"
+  meaning: { ru: "велосипед" }
+  examples:
+    - { text: "Kieno šis dviratis?", translation: "Чей это велосипед?", source: "tatoeba:4626919" }
+- id: lt-w-3023
+  type: word
+  cefr: A1
+  text: "norėti"
+  pos: verb
+  forms: { pres: "nori", past: "norėjo" }
+  meaning: { ru: "хотеть" }
+  note: { ru: "norėti ko (+ род. п.): noriu kavos" }
+  examples:
+    - { text: "Ko tu nori?", translation: "Чего ты хочешь?", source: "tatoeba:8956764" }
+- id: lt-w-3024
+  type: word
+  cefr: A1
+  text: "kelias"
+  pos: noun
+  gender: m
+  gen: "kelio"
+  meaning: { ru: "дорога, путь" }
+  examples:
+    - { text: "Ar žinai kelią?", translation: "Ты знаешь дорогу?", source: "tatoeba:1609655" }
+- id: lt-w-3025
+  type: word
+  cefr: A1
+  text: "galėti"
+  pos: verb
+  forms: { pres: "gali", past: "galėjo" }
+  meaning: { ru: "мочь" }
+  examples:
+    - { text: "Ar galiu eiti?", translation: "Можно идти?", source: "tatoeba:3117165" }
+- id: lt-w-3026
+  type: word
+  cefr: A1
+  text: "mėgti"
+  pos: verb
+  forms: { pres: "mėgsta", past: "mėgo" }
+  meaning: { ru: "любить (занятие, еду)" }
+  note: { ru: "mėgti ką (вин. п.); людей — mylėti" }
+  examples:
+    - { text: "Ar mėgsti kavą?", translation: "Любишь кофе?", source: "tatoeba:11661503" }
+- id: lt-w-3027
+  type: word
+  cefr: A1
+  text: "mylėti"
+  pos: verb
+  forms: { pres: "myli", past: "mylėjo" }
+  meaning: { ru: "любить" }
+  examples:
+    - { text: "Aš ją myliu.", translation: "Я люблю её.", source: "tatoeba:624345" }
+- id: lt-w-3028
+  type: word
+  cefr: A1
+  text: "patikti"
+  pos: verb
+  forms: { pres: "patinka", past: "patiko" }
+  meaning: { ru: "нравиться, понравиться" }
+  note: { ru: "Man patinka… — Мне нравится…" }
+  examples:
+    - { text: "Ar jam patiko?", translation: "Ему понравилось?", source: "tatoeba:12352077" }
+- id: lt-w-3029
+  type: word
+  cefr: A1
+  text: "duoti"
+  pos: verb
+  forms: { pres: "duoda", past: "davė" }
+  meaning: { ru: "давать, дать" }
+  examples:
+    - { text: "Duok man tai.", translation: "Дай мне это.", source: "tatoeba:3189240" }
+- id: lt-w-3030
+  type: word
+  cefr: A1
+  text: "imti"
+  pos: verb
+  forms: { pres: "ima", past: "ėmė" }
+  meaning: { ru: "брать; начинать" }
+  note: { ru: "Ėmė lyti. — Пошёл дождь." }
+  examples:
+    - { text: "Aš imu knygą.", translation: "Я беру книгу.", source: "tatoeba:12498212" }
+- id: lt-w-3031
+  type: word
+  cefr: A1
+  text: "paimti"
+  pos: verb
+  forms: { pres: "paima", past: "paėmė" }
+  meaning: { ru: "взять" }
+  examples:
+    - { text: "Paimk šitą dėžę.", translation: "Возьми этот ящик.", source: "tatoeba:10125100" }
+- id: lt-w-3032
+  type: word
+  cefr: A1
+  text: "pasiimti"
+  pos: verb
+  forms: { pres: "pasiima", past: "pasiėmė" }
+  meaning: { ru: "взять (себе, с собой)" }
+  examples:
+    - { text: "Pasiimk jį su savimi.", translation: "Возьми его с собой.", source: "tatoeba:9945882" }
+- id: lt-w-3033
+  type: word
+  cefr: A1
+  text: "gauti"
+  pos: verb
+  forms: { pres: "gauna", past: "gavo" }
+  meaning: { ru: "получать, получить" }
+  examples:
+    - { text: "Tu gavai laišką?", translation: "Ты получил письмо?", source: "tatoeba:3580185" }
+- id: lt-w-3034
+  type: word
+  cefr: A1
+  text: "siųsti"
+  pos: verb
+  forms: { pres: "siunčia", past: "siuntė" }
+  meaning: { ru: "посылать, отправлять" }
+  examples:
+    - { text: "Man įdomu, kas siuntė gėles.", translation: "Мне интересно, кто послал цветы.", source: "tatoeba:13032227" }
+- id: lt-w-3035
+  type: word
+  cefr: A1
+  text: "laukti"
+  pos: verb
+  forms: { pres: "laukia", past: "laukė" }
+  meaning: { ru: "ждать" }
+  note: { ru: "laukti ko (+ род. п.): laukiu autobuso" }
+  examples:
+    - { text: "Aš jo laukiu.", translation: "Я жду его.", source: "tatoeba:9134277" }
+- id: lt-w-3036
+  type: word
+  cefr: A1
+  text: "ieškoti"
+  pos: verb
+  forms: { pres: "ieško", past: "ieškojo" }
+  meaning: { ru: "искать" }
+  note: { ru: "ieškoti ko (+ род. п.)" }
+  examples:
+    - { text: "Ko ji ieško?", translation: "Что она ищет?", source: "tatoeba:10639592" }
+- id: lt-w-3037
+  type: word
+  cefr: A1
+  text: "rasti"
+  pos: verb
+  forms: { pres: "randa", past: "rado" }
+  meaning: { ru: "найти, находить" }
+  examples:
+    - { text: "Kas tą rado?", translation: "Кто это нашёл?", source: "tatoeba:12292803" }
+- id: lt-w-3038
+  type: word
+  cefr: A1
+  text: "pradėti"
+  pos: verb
+  forms: { pres: "pradeda", past: "pradėjo" }
+  meaning: { ru: "начать, начинать" }
+  examples:
+    - { text: "Kada nori pradėti?", translation: "Когда хочешь начать?", source: "tatoeba:12490316" }
+- id: lt-w-3039
+  type: word
+  cefr: A1
+  text: "baigti"
+  pos: verb
+  forms: { pres: "baigia", past: "baigė" }
+  meaning: { ru: "закончить, заканчивать" }
+  examples:
+    - { text: "Jis baigė darbą.", translation: "Он завершил работу.", source: "tatoeba:6361345" }
+- id: lt-w-3040
+  type: word
+  cefr: A1
+  text: "padėti"
+  pos: verb
+  forms: { pres: "padeda", past: "padėjo" }
+  meaning: { ru: "1) помочь, помогать; 2) положить" }
+  note: { ru: "padėti kam (+ дат. п.)" }
+  examples:
+    - { text: "Aš tau padėsiu.", translation: "Я тебе помогу.", source: "tatoeba:2162503" }
+- id: lt-w-3041
+  type: word
+  cefr: A1
+  text: "daryti"
+  pos: verb
+  forms: { pres: "daro", past: "darė" }
+  meaning: { ru: "делать" }
+  note: { ru: "padaryti — сделать (сов.)" }
+  examples:
+    - { text: "Ką man daryti?", translation: "Что мне делать?", source: "tatoeba:11008379" }
+- id: lt-w-3042
+  type: word
+  cefr: A1
+  text: "žaisti"
+  pos: verb
+  forms: { pres: "žaidžia", past: "žaidė" }
+  meaning: { ru: "играть" }
+  note: { ru: "Играть на инструменте — groti" }
+  examples:
+    - { text: "Aš parke žaidžiu.", translation: "Я играю в парке.", source: "tatoeba:12092266" }
+- id: lt-w-3043
+  type: word
+  cefr: A1
+  text: "dainuoti"
+  pos: verb
+  forms: { pres: "dainuoja", past: "dainavo" }
+  meaning: { ru: "петь" }
+  examples:
+    - { text: "Ar ji dainuoja?", translation: "Она поёт?", source: "tatoeba:10684920" }
+- id: lt-w-3044
+  type: word
+  cefr: A1
+  text: "šokti"
+  pos: verb
+  forms: { pres: "šoka", past: "šoko" }
+  meaning: { ru: "танцевать; прыгать" }
+  examples:
+    - { text: "Mes kartu šokame.", translation: "Мы вместе танцуем.", source: "tatoeba:11279985" }
+- id: lt-w-3045
+  type: word
+  cefr: A1
+  text: "juoktis"
+  pos: verb
+  forms: { pres: "juokiasi", past: "juokėsi" }
+  meaning: { ru: "смеяться" }
+  note: { ru: "juoktis iš ko — смеяться над кем-л." }
+  examples:
+    - { text: "Ko tu juokiesi?", translation: "Чего ты смеёшься?", source: "tatoeba:13714470" }
+- id: lt-w-3046
+  type: word
+  cefr: A1
+  text: "verkti"
+  pos: verb
+  forms: { pres: "verkia", past: "verkė" }
+  meaning: { ru: "плакать" }
+  examples:
+    - { text: "Kodėl tu verki?", translation: "Почему ты плачешь?", source: "tatoeba:1624445" }
+- id: lt-w-3047
+  type: word
+  cefr: A1
+  text: "gimti"
+  pos: verb
+  forms: { pres: "gimsta", past: "gimė" }
+  meaning: { ru: "родиться" }
+  examples:
+    - { text: "Kur tu gimei?", translation: "Ты где родился?", source: "tatoeba:13006083" }
+- id: lt-w-3048
+  type: word
+  cefr: A1
+  text: "mirti"
+  pos: verb
+  forms: { pres: "miršta", past: "mirė" }
+  meaning: { ru: "умереть" }
+  examples:
+    - { text: "Tomas jau mirė.", translation: "Том уже умер.", source: "tatoeba:11597934" }
+- id: lt-w-3049
+  type: word
+  cefr: A1
+  text: "ilsėtis"
+  pos: verb
+  forms: { pres: "ilsisi", past: "ilsėjosi" }
+  meaning: { ru: "отдыхать" }
+  note: { ru: "pailsėti — отдохнуть" }
+  examples:
+    - { text: "Jis ilsisi namuose.", translation: "Он отдыхает дома.", source: "tatoeba:11819238" }
+- id: lt-w-3050
+  type: word
+  cefr: A1
+  text: "skambinti"
+  pos: verb
+  forms: { pres: "skambina", past: "skambino" }
+  meaning: { ru: "звонить" }
+  note: { ru: "skambinti kam (+ дат. п.); paskambinti — позвонить" }
+  examples:
+    - { text: "Kam tu skambini?", translation: "Кому ты звонишь?", source: "tatoeba:12289511" }
+- id: lt-w-3051
+  type: word
+  cefr: A1
+  text: "susitikti"
+  pos: verb
+  forms: { pres: "susitinka", past: "susitiko" }
+  meaning: { ru: "встретиться" }
+  examples:
+    - { text: "Kur mums susitikti?", translation: "Где нам встретиться?", source: "tatoeba:10769062" }
+- id: lt-w-3052
+  type: word
+  cefr: A1
+  text: "sutikti"
+  pos: verb
+  forms: { pres: "sutinka", past: "sutiko" }
+  meaning: { ru: "1) встретить; 2) согласиться" }
+  examples:
+    - { text: "Aš irgi sutinku.", translation: "Я тоже согласен.", source: "tatoeba:12662832" }
+- id: lt-w-3053
+  type: word
+  cefr: A1
+  text: "pamiršti"
+  pos: verb
+  forms: { pres: "pamiršta", past: "pamiršo" }
+  meaning: { ru: "забыть" }
+  examples:
+    - { text: "Ar tu pamiršai?", translation: "Ты забыл?", source: "tatoeba:12327668" }
+- id: lt-w-3054
+  type: word
+  cefr: A1
+  text: "atsiminti"
+  pos: verb
+  forms: { pres: "atsimena", past: "atsiminė" }
+  meaning: { ru: "вспомнить; помнить" }
+  examples:
+    - { text: "Tu viską atsimeni?", translation: "Ты всё помнишь?", source: "tatoeba:10604837" }
+- id: lt-w-3055
+  type: word
+  cefr: A1
+  text: "bijoti"
+  pos: verb
+  forms: { pres: "bijo", past: "bijojo" }
+  meaning: { ru: "бояться" }
+  note: { ru: "bijoti ko (+ род. п.)" }
+  examples:
+    - { text: "Aš bijau šunų.", translation: "Я боюсь собак.", source: "tatoeba:1665785" }
+- id: lt-w-3056
+  type: word
+  cefr: A1
+  text: "rodyti"
+  pos: verb
+  forms: { pres: "rodo", past: "rodė" }
+  meaning: { ru: "показывать" }
+  note: { ru: "parodyti — показать" }
+  examples:
+    - { text: "Aš jiems rodau kelią.", translation: "Я показываю им дорогу.", source: "tatoeba:12694915" }
+- id: lt-w-3057
+  type: word
+  cefr: A1
+  text: "lankyti"
+  pos: verb
+  forms: { pres: "lanko", past: "lankė" }
+  meaning: { ru: "посещать, навещать" }
+  examples:
+    - { text: "Aš lankau draugus.", translation: "Я навещаю друзей.", source: "tatoeba:12118262" }
+- id: lt-w-3058
+  type: word
+  cefr: A1
+  text: "kviesti"
+  pos: verb
+  forms: { pres: "kviečia", past: "kvietė" }
+  meaning: { ru: "звать, приглашать" }
+  examples:
+    - { text: "Aš ją kviečiu.", translation: "Я её зову.", source: "tatoeba:12583342" }
+- id: lt-w-3059
+  type: word
+  cefr: A1
+  text: "prašyti"
+  pos: verb
+  forms: { pres: "prašo", past: "prašė" }
+  meaning: { ru: "просить" }
+  note: { ru: "prašyti ko (+ род. п.)" }
+  examples:
+    - { text: "Jis prašo pinigų.", translation: "Он просит денег.", source: "tatoeba:12730391" }
+- id: lt-w-3060
+  type: word
+  cefr: A1
+  text: "dėkoti"
+  pos: verb
+  forms: { pres: "dėkoja", past: "dėkojo" }
+  meaning: { ru: "благодарить" }
+  note: { ru: "dėkoti kam (+ дат. п.) už ką" }
+  examples:
+    - { text: "Labai jums dėkoju.", translation: "Большое вам спасибо.", source: "tatoeba:10987036" }
+- id: lt-w-3061
+  type: word
+  cefr: A1
+  text: "sveikinti"
+  pos: verb
+  forms: { pres: "sveikina", past: "sveikino" }
+  meaning: { ru: "поздравлять; приветствовать" }
+  note: { ru: "sveikinti su gimtadieniu — поздравлять с днём рождения" }
+  examples:
+    - { text: "Sveikinu su gimtadieniu.", translation: "Поздравляю с днём рождения.", source: "tatoeba:2226181" }
+- id: lt-w-3062
+  type: word
+  cefr: A1
+  text: "pavargti"
+  pos: verb
+  forms: { pres: "pavargsta", past: "pavargo" }
+  meaning: { ru: "устать" }
+  examples:
+    - { text: "Aš labai pavargau!", translation: "Я сильно устал!", source: "tatoeba:10841873" }
