@@ -1,0 +1,659 @@
+# Generated from scripts/batches/lt-b2-4592.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-4592
+  type: word
+  cefr: B2
+  text: "tyrinėjimas"
+  pos: noun
+  gender: m
+  gen: "tyrinėjimo"
+  meaning: { ru: "исследование" }
+  examples:
+    - { text: "Tomas yra užimtas savo tyrinėjimais.", translation: "Том занят своими исследованиями.", source: "tatoeba:10544689" }
+- id: lt-w-4593
+  type: word
+  cefr: B2
+  text: "girgždėti"
+  pos: verb
+  forms: { pres: "girgžda", past: "girgždėjo" }
+  meaning: { ru: "скрипеть" }
+  examples:
+    - { text: "Mano kambario durys siaubingai girgžda.", translation: "Дверь в мою комнату ужасно скрипит.", source: "tatoeba:13489725" }
+- id: lt-w-4594
+  type: word
+  cefr: B2
+  text: "pensinis"
+  pos: adj
+  meaning: { ru: "пенсионный" }
+  note: { ru: "pensinis amžius — пенсионный возраст" }
+- id: lt-w-4595
+  type: word
+  cefr: B2
+  text: "gedulas"
+  pos: noun
+  gender: m
+  gen: "gedulo"
+  meaning: { ru: "траур" }
+- id: lt-w-4596
+  type: word
+  cefr: B2
+  text: "apgaubti"
+  pos: verb
+  forms: { pres: "apgaubia", past: "apgaubė" }
+  meaning: { ru: "окутать, обволочь" }
+  examples:
+    - { text: "Rūkas apgaubė Londoną.", translation: "Лондон окутал туман.", source: "tatoeba:10789623" }
+- id: lt-w-4597
+  type: word
+  cefr: B2
+  text: "nusikalstamas"
+  pos: adj
+  meaning: { ru: "преступный" }
+  note: { ru: "nusikalstama grupuotė — преступная группировка" }
+  examples:
+    - { text: "Jo veiksmai yra nusikalstami.", translation: "Его действия преступны.", source: "tatoeba:12888264" }
+- id: lt-w-4598
+  type: word
+  cefr: B2
+  text: "paneigimas"
+  pos: noun
+  gender: m
+  gen: "paneigimo"
+  meaning: { ru: "опровержение" }
+- id: lt-w-4599
+  type: word
+  cefr: B2
+  text: "išpažinti"
+  pos: verb
+  forms: { pres: "išpažįsta", past: "išpažino" }
+  meaning: { ru: "исповедовать (веру); признать (вину)" }
+- id: lt-w-4600
+  type: word
+  cefr: B2
+  text: "pažintinis"
+  pos: adj
+  meaning: { ru: "познавательный" }
+  note: { ru: "pažintinis takas — познавательная (экологическая) тропа" }
+- id: lt-w-4601
+  type: word
+  cefr: B2
+  text: "siuntimas"
+  pos: noun
+  gender: m
+  gen: "siuntimo"
+  meaning: { ru: "направление (к врачу); отправка" }
+- id: lt-w-4602
+  type: word
+  cefr: B2
+  text: "nuvertėti"
+  pos: verb
+  forms: { pres: "nuvertėja", past: "nuvertėjo" }
+  meaning: { ru: "обесцениться" }
+- id: lt-w-4603
+  type: word
+  cefr: B2
+  text: "permainingas"
+  pos: adj
+  meaning: { ru: "переменчивый" }
+  examples:
+    - { text: "Oras Anglijoje yra permainingas.", translation: "Погода в Англии переменчивая.", source: "tatoeba:12158372" }
+- id: lt-w-4604
+  type: word
+  cefr: B2
+  text: "tarpsnis"
+  pos: noun
+  gender: m
+  gen: "tarpsnio"
+  meaning: { ru: "период, этап" }
+- id: lt-w-4605
+  type: word
+  cefr: B2
+  text: "užgožti"
+  pos: verb
+  forms: { pres: "užgožia", past: "užgožė" }
+  meaning: { ru: "заглушить, затмить" }
+  examples:
+    - { text: "Acto kvapas užgožia daugelį kitų kvapų.", translation: "Запах уксуса забивает большинство других.", source: "tatoeba:13252078" }
+- id: lt-w-4606
+  type: word
+  cefr: B2
+  text: "neatsiejamas"
+  pos: adj
+  meaning: { ru: "неотделимый, неотъемлемый" }
+  note: { ru: "neatsiejamas nuo ko — неотделимый от чего" }
+- id: lt-w-4607
+  type: word
+  cefr: B2
+  text: "laureatas"
+  pos: noun
+  gender: m
+  gen: "laureato"
+  meaning: { ru: "лауреат" }
+- id: lt-w-4608
+  type: word
+  cefr: B2
+  text: "painioti"
+  pos: verb
+  forms: { pres: "painioja", past: "painiojo" }
+  meaning: { ru: "путать" }
+  examples:
+    - { text: "Tu painioji Iraną ir Iraką.", translation: "Ты путаешь Иран и Ирак.", source: "tatoeba:13947806" }
+- id: lt-w-4609
+  type: word
+  cefr: B2
+  text: "kryptingas"
+  pos: adj
+  meaning: { ru: "целенаправленный" }
+- id: lt-w-4610
+  type: word
+  cefr: B2
+  text: "nuotekos"
+  pos: noun
+  gender: f
+  gen: "nuotekų"
+  plural_only: true
+  meaning: { ru: "сточные воды" }
+  note: { ru: "Только мн. ч.: nuotekos, род. п. nuotekų" }
+- id: lt-w-4611
+  type: word
+  cefr: B2
+  text: "peraugti"
+  pos: verb
+  forms: { pres: "perauga", past: "peraugo" }
+  meaning: { ru: "перерасти" }
+  note: { ru: "peraugti į ką — перерасти во что" }
+  examples:
+    - { text: "Žodinis konfliktas peraugo į muštynes.", translation: "Словесный конфликт перерос в драку.", source: "tatoeba:13217743" }
+- id: lt-w-4612
+  type: word
+  cefr: B2
+  text: "našus"
+  pos: adj
+  meaning: { ru: "продуктивный, производительный" }
+- id: lt-w-4613
+  type: word
+  cefr: B2
+  text: "atgimimas"
+  pos: noun
+  gender: m
+  gen: "atgimimo"
+  meaning: { ru: "возрождение" }
+  note: { ru: "Atgimimas — Возрождение (национальное движение конца 1980-х)" }
+- id: lt-w-4614
+  type: word
+  cefr: B2
+  text: "sustingti"
+  pos: verb
+  forms: { pres: "sustingsta", past: "sustingo" }
+  meaning: { ru: "застыть, оцепенеть" }
+  examples:
+    - { text: "Kraujas sustingo jo gyslose.", translation: "Кровь застыла у него в венах.", source: "tatoeba:10246509" }
+- id: lt-w-4615
+  type: word
+  cefr: B2
+  text: "giminiškas"
+  pos: adj
+  meaning: { ru: "родственный" }
+  examples:
+    - { text: "Ar visos kalbos yra giminiškos?", translation: "Все языки - родственники?", source: "tatoeba:13203011" }
+- id: lt-w-4616
+  type: word
+  cefr: B2
+  text: "branda"
+  pos: noun
+  gender: f
+  gen: "brandos"
+  meaning: { ru: "зрелость" }
+  note: { ru: "brandos egzaminai — выпускные экзамены" }
+  examples:
+    - { text: "Paprastumas yra brandos rezultatas.", translation: "Простота - результат зрелости.", source: "tatoeba:13080794" }
+- id: lt-w-4617
+  type: word
+  cefr: B2
+  text: "apdirbti"
+  pos: verb
+  forms: { pres: "apdirba", past: "apdirbo" }
+  meaning: { ru: "обработать" }
+  examples:
+    - { text: "Jie mokėjo geležį apdirbti.", translation: "Они умели обрабатывать железо.", source: "tatoeba:11796220" }
+- id: lt-w-4618
+  type: word
+  cefr: B2
+  text: "daugiatautis"
+  pos: adj
+  meaning: { ru: "многонациональный" }
+  examples:
+    - { text: "Vilnius visada buvo daugiatautis.", translation: "Вильнюс всегда был многонационален.", source: "tatoeba:3958041" }
+- id: lt-w-4619
+  type: word
+  cefr: B1
+  text: "linksnis"
+  pos: noun
+  gender: m
+  gen: "linksnio"
+  meaning: { ru: "падеж (грамм.)" }
+  examples:
+    - { text: "Šituose linksniuose labai lengva susipainioti.", translation: "В этих падежах очень легко запутаться.", source: "tatoeba:13350237" }
+- id: lt-w-4620
+  type: word
+  cefr: B2
+  text: "iškovoti"
+  pos: verb
+  forms: { pres: "iškovoja", past: "iškovojo" }
+  meaning: { ru: "завоевать (медаль, право)" }
+  note: { ru: "iškovoti medalį — завоевать медаль" }
+  examples:
+    - { text: "Ji iškovojo aukso medalį.", translation: "Она завоевала золотую медаль.", source: "tatoeba:11993408" }
+- id: lt-w-4621
+  type: word
+  cefr: B2
+  text: "jungtinis"
+  pos: adj
+  meaning: { ru: "объединённый, совместный" }
+  examples:
+    - { text: "Jungtinių Arabų Emyratų sostinė yra Abu Dabis.", translation: "Столица Объединённых Арабских Эмиратов - Абу-Даби.", source: "tatoeba:12901047" }
+- id: lt-w-4622
+  type: word
+  cefr: B2
+  text: "sovietmetis"
+  pos: noun
+  gender: m
+  gen: "sovietmečio"
+  meaning: { ru: "советское время" }
+  note: { ru: "sovietmečiu — в советское время" }
+- id: lt-w-4623
+  type: word
+  cefr: B2
+  text: "ištuštėti"
+  pos: verb
+  forms: { pres: "ištuštėja", past: "ištuštėjo" }
+  meaning: { ru: "опустеть" }
+  examples:
+    - { text: "Pamokos pasibaigė. Mokykla ištuštėjo.", translation: "Уроки закончились. Школа опустела.", source: "tatoeba:12747719" }
+- id: lt-w-4624
+  type: word
+  cefr: B2
+  text: "atvirkštinis"
+  pos: adj
+  meaning: { ru: "обратный" }
+- id: lt-w-4625
+  type: word
+  cefr: B2
+  text: "švaistymas"
+  pos: noun
+  gender: m
+  gen: "švaistymo"
+  meaning: { ru: "расточительство, пустая трата" }
+  note: { ru: "maisto švaistymas — выбрасывание еды" }
+  examples:
+    - { text: "Tai laiko ir pinigų švaistymas.", translation: "Это пустая трата времени и денег.", source: "tatoeba:7360099" }
+- id: lt-w-4626
+  type: word
+  cefr: B1
+  text: "kūrenti"
+  pos: verb
+  forms: { pres: "kūrena", past: "kūreno" }
+  meaning: { ru: "топить (печь), жечь (огонь)" }
+  examples:
+    - { text: "Ar tu moki kūrenti krosnį?", translation: "Ты умеешь топить печь?", source: "tatoeba:13081922" }
+- id: lt-w-4627
+  type: word
+  cefr: B2
+  text: "sintetinis"
+  pos: adj
+  meaning: { ru: "синтетический" }
+- id: lt-w-4628
+  type: word
+  cefr: B2
+  text: "sektorius"
+  pos: noun
+  gender: m
+  gen: "sektoriaus"
+  meaning: { ru: "сектор" }
+  note: { ru: "viešasis sektorius — государственный сектор" }
+- id: lt-w-4629
+  type: word
+  cefr: B2
+  text: "minti"
+  pos: verb
+  forms: { pres: "mina", past: "mynė" }
+  meaning: { ru: "давить ногами; крутить (педали)" }
+  note: { ru: "minti pedalus — крутить педали" }
+- id: lt-w-4630
+  type: word
+  cefr: B2
+  text: "totalitarinis"
+  pos: adj
+  meaning: { ru: "тоталитарный" }
+- id: lt-w-4631
+  type: word
+  cefr: B1
+  text: "spintelė"
+  pos: noun
+  gender: f
+  gen: "spintelės"
+  meaning: { ru: "шкафчик; тумбочка" }
+  examples:
+    - { text: "Kur tavo spintelė?", translation: "Где твой шкафчик?", source: "tatoeba:11096089" }
+- id: lt-w-4632
+  type: word
+  cefr: B2
+  text: "atitekti"
+  pos: verb
+  forms: { pres: "atitenka", past: "atiteko" }
+  meaning: { ru: "достаться, отойти (к кому)" }
+  examples:
+    - { text: "Jis mums atiteko beveik veltui.", translation: "Он нам достался почти даром.", source: "tatoeba:13772121" }
+- id: lt-w-4633
+  type: word
+  cefr: B2
+  text: "kaimietiškas"
+  pos: adj
+  meaning: { ru: "деревенский" }
+- id: lt-w-4634
+  type: word
+  cefr: B2
+  text: "grupuotė"
+  pos: noun
+  gender: f
+  gen: "grupuotės"
+  meaning: { ru: "группировка" }
+- id: lt-w-4635
+  type: word
+  cefr: B2
+  text: "atgaivinti"
+  pos: verb
+  forms: { pres: "atgaivina", past: "atgaivino" }
+  meaning: { ru: "оживить, возродить" }
+  examples:
+    - { text: "Lietus atgaivins šį medį.", translation: "Дождь оживит это дерево.", source: "tatoeba:2157811" }
+- id: lt-w-4636
+  type: word
+  cefr: B2
+  text: "įvairiaspalvis"
+  pos: adj
+  meaning: { ru: "разноцветный" }
+  examples:
+    - { text: "Moterims patinka įvairiaspalviai skėčiai.", translation: "Женщинам нравятся разноцветные зонтики.", source: "tatoeba:10526661" }
+- id: lt-w-4637
+  type: word
+  cefr: B2
+  text: "išpuolis"
+  pos: noun
+  gender: m
+  gen: "išpuolio"
+  meaning: { ru: "нападение, выпад" }
+  note: { ru: "teroristinis išpuolis — теракт" }
+- id: lt-w-4638
+  type: word
+  cefr: B2
+  text: "užtraukti"
+  pos: verb
+  forms: { pres: "užtraukia", past: "užtraukė" }
+  meaning: { ru: "задёрнуть, застегнуть; затянуть (песню); навлечь (позор)" }
+  note: { ru: "užtraukti dainą — запеть" }
+  examples:
+    - { text: "Tu užtraukei gėdą šeimai.", translation: "Ты опозорил семью.", source: "tatoeba:11929555" }
+- id: lt-w-4639
+  type: word
+  cefr: B2
+  text: "lanksčiai"
+  pos: adv
+  meaning: { ru: "гибко" }
+- id: lt-w-4640
+  type: word
+  cefr: B2
+  text: "išgyvenimas"
+  pos: noun
+  gender: m
+  gen: "išgyvenimo"
+  meaning: { ru: "выживание; переживание" }
+- id: lt-w-4641
+  type: word
+  cefr: B1
+  text: "repetuoti"
+  pos: verb
+  forms: { pres: "repetuoja", past: "repetavo" }
+  meaning: { ru: "репетировать" }
+  examples:
+    - { text: "Styginių kvartetas repetuoja gretimame kambaryje.", translation: "Струнный квартет репетирует в соседней комнате.", source: "tatoeba:10862740" }
+- id: lt-w-4642
+  type: word
+  cefr: B2
+  text: "pašnibždomis"
+  pos: adv
+  meaning: { ru: "шёпотом" }
+- id: lt-w-4643
+  type: word
+  cefr: B2
+  text: "finansavimas"
+  pos: noun
+  gender: m
+  gen: "finansavimo"
+  meaning: { ru: "финансирование" }
+- id: lt-w-4644
+  type: word
+  cefr: B2
+  text: "pirmauti"
+  pos: verb
+  forms: { pres: "pirmauja", past: "pirmavo" }
+  meaning: { ru: "лидировать, быть первым" }
+- id: lt-w-4645
+  type: word
+  cefr: B2
+  text: "vieningai"
+  pos: adv
+  meaning: { ru: "единодушно, сплочённо" }
+- id: lt-w-4646
+  type: word
+  cefr: B1
+  text: "amatas"
+  pos: noun
+  gender: m
+  gen: "amato"
+  meaning: { ru: "ремесло" }
+  examples:
+    - { text: "Tomas žino visas amato paslaptis.", translation: "Том знает все секреты профессии.", source: "tatoeba:13841465" }
+- id: lt-w-4647
+  type: word
+  cefr: B1
+  text: "patiekti"
+  pos: verb
+  forms: { pres: "patiekia", past: "patiekė" }
+  meaning: { ru: "подать (блюдо); представить (документы)" }
+  examples:
+    - { text: "Aš patiekiau sriubą.", translation: "Я подал суп.", source: "tatoeba:12926903" }
+- id: lt-w-4648
+  type: word
+  cefr: B1
+  text: "senolis"
+  pos: noun
+  gender: m
+  gen: "senolio"
+  meaning: { ru: "старик" }
+  note: { ru: "мн. ч. senoliai — старики; предки" }
+  examples:
+    - { text: "Taip kalba mūsų senoliai.", translation: "Так говорят наши предки.", source: "tatoeba:13227959" }
+- id: lt-w-4649
+  type: word
+  cefr: B1
+  text: "parsivežti"
+  pos: verb
+  forms: { pres: "parsiveža", past: "parsivežė" }
+  meaning: { ru: "привезти (с собой) домой" }
+- id: lt-w-4650
+  type: word
+  cefr: B2
+  text: "tremtis"
+  pos: noun
+  gender: f
+  gen: "tremties"
+  meaning: { ru: "ссылка, депортация" }
+  examples:
+    - { text: "Aš kenčiu tremtyje.", translation: "Я страдаю в изгнании.", source: "tatoeba:13530786" }
+- id: lt-w-4651
+  type: word
+  cefr: B1
+  text: "fotografuotis"
+  pos: verb
+  forms: { pres: "fotografuojasi", past: "fotografavosi" }
+  meaning: { ru: "фотографироваться" }
+- id: lt-w-4652
+  type: word
+  cefr: B2
+  text: "valstietis"
+  pos: noun
+  gender: m
+  gen: "valstiečio"
+  meaning: { ru: "крестьянин" }
+  examples:
+    - { text: "Valstietis eina per savo lauką.", translation: "Крестьянин идёт по своему полю.", source: "tatoeba:12731750" }
+- id: lt-w-4653
+  type: word
+  cefr: B1
+  text: "prijungti"
+  pos: verb
+  forms: { pres: "prijungia", past: "prijungė" }
+  meaning: { ru: "присоединить, подключить" }
+- id: lt-w-4654
+  type: word
+  cefr: B1
+  text: "terasa"
+  pos: noun
+  gender: f
+  gen: "terasos"
+  meaning: { ru: "терраса" }
+  examples:
+    - { text: "Rūkyti galima tiktai terasoje.", translation: "Курить можно только на террасе.", source: "tatoeba:13823738" }
+- id: lt-w-4655
+  type: word
+  cefr: B2
+  text: "slinkti"
+  pos: verb
+  forms: { pres: "slenka", past: "slinko" }
+  meaning: { ru: "ползти, медленно двигаться; сдвигаться" }
+  examples:
+    - { text: "Virš upės slinko rūkas.", translation: "Над рекой плыл туман.", source: "tatoeba:12186838" }
+- id: lt-w-4656
+  type: word
+  cefr: B1
+  text: "apsinuodijimas"
+  pos: noun
+  gender: m
+  gen: "apsinuodijimo"
+  meaning: { ru: "отравление" }
+  note: { ru: "apsinuodijimas maistu — пищевое отравление" }
+- id: lt-w-4657
+  type: word
+  cefr: B2
+  text: "įrodinėti"
+  pos: verb
+  forms: { pres: "įrodinėja", past: "įrodinėjo" }
+  meaning: { ru: "доказывать" }
+  examples:
+    - { text: "Ką dar reikia įrodinėti?", translation: "Что тут ещё надо доказывать?", source: "tatoeba:11037247" }
+- id: lt-w-4658
+  type: word
+  cefr: B2
+  text: "atitikmuo"
+  pos: noun
+  gender: m
+  gen: "atitikmens"
+  meaning: { ru: "эквивалент, соответствие" }
+- id: lt-w-4659
+  type: word
+  cefr: B2
+  text: "driektis"
+  pos: verb
+  forms: { pres: "driekiasi", past: "driekėsi" }
+  meaning: { ru: "тянуться, простираться" }
+  examples:
+    - { text: "Abiem upės krantais driekiasi žali ryžių laukai.", translation: "По обоим берегам реки простираются зелёные рисовые поля.", source: "tatoeba:13171233" }
+- id: lt-w-4660
+  type: word
+  cefr: B2
+  text: "bendrija"
+  pos: noun
+  gender: f
+  gen: "bendrijos"
+  meaning: { ru: "община, сообщество; товарищество" }
+- id: lt-w-4661
+  type: word
+  cefr: B2
+  text: "pasitelkti"
+  pos: verb
+  forms: { pres: "pasitelkia", past: "pasitelkė" }
+  meaning: { ru: "привлечь (на помощь), воспользоваться" }
+- id: lt-w-4662
+  type: word
+  cefr: B1
+  text: "dviratininkas"
+  pos: noun
+  gender: m
+  gen: "dviratininko"
+  meaning: { ru: "велосипедист" }
+- id: lt-w-4663
+  type: word
+  cefr: B2
+  text: "užtverti"
+  pos: verb
+  forms: { pres: "užtveria", past: "užtvėrė" }
+  meaning: { ru: "перегородить, преградить" }
+  examples:
+    - { text: "Jūs užtvėrėte kelią.", translation: "Вы перегородили дорогу.", source: "tatoeba:10715623" }
+- id: lt-w-4664
+  type: word
+  cefr: B1
+  text: "galūnė"
+  pos: noun
+  gender: f
+  gen: "galūnės"
+  meaning: { ru: "окончание (грамм.); конечность" }
+- id: lt-w-4665
+  type: word
+  cefr: B2
+  text: "sutraukti"
+  pos: verb
+  forms: { pres: "sutraukia", past: "sutraukė" }
+  meaning: { ru: "стянуть, затянуть (узел); собрать (людей)" }
+  examples:
+    - { text: "Tu turi sutraukti mazgą.", translation: "Ты должен затянуть узел.", source: "tatoeba:13102205" }
+- id: lt-w-4666
+  type: word
+  cefr: B2
+  text: "gyvenvietė"
+  pos: noun
+  gender: f
+  gen: "gyvenvietės"
+  meaning: { ru: "посёлок, поселение" }
+  examples:
+    - { text: "Gyvenvietėje matė vilkus.", translation: "В посёлке видели волков.", source: "tatoeba:10510034" }
+- id: lt-w-4667
+  type: word
+  cefr: B2
+  text: "ištremti"
+  pos: verb
+  forms: { pres: "ištremia", past: "ištrėmė" }
+  meaning: { ru: "сослать, выслать" }
+  examples:
+    - { text: "Jis buvo ištremtas iš savo šalies.", translation: "Он был изгнан из собственной страны.", source: "tatoeba:10714610" }
+- id: lt-w-4668
+  type: word
+  cefr: B1
+  text: "kepykla"
+  pos: noun
+  gender: f
+  gen: "kepyklos"
+  meaning: { ru: "пекарня" }
+  examples:
+    - { text: "Kur yra kepykla?", translation: "Где находится булочная?", source: "tatoeba:3188761" }
+- id: lt-w-4669
+  type: word
+  cefr: B2
+  text: "užsitęsti"
+  pos: verb
+  forms: { pres: "užsitęsia", past: "užsitęsė" }
+  meaning: { ru: "затянуться" }
+  examples:
+    - { text: "Kiek laiko tai užsitęs?", translation: "Сколько это продлится?", source: "tatoeba:8618189" }
