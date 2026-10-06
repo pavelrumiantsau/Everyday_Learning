@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0087
+cefr: A2
+order: 87
+title: "Bien or bueno? Rápidamente, con cuidado: adverbs"
+explanation:
+  en: |
+    ***bueno / malo*** are **adjectives**: they describe a **noun** and agree with it — *un libro **bueno**, una idea **mala***. Before a masculine singular noun they become ***buen, mal***: *un **buen** día*.
+
+    ***bien / mal*** are **adverbs**: they say **how** something is done and never change — *Canta **bien**.* *Lo hice **mal**.*
+    - *Es un **buen** cocinero.* = *Cocina **bien**.*
+    - With *estar*: *Estoy **bien**.* (I'm fine) *¿Está **bien** así?* (Is it OK like this?) *Está **mal**.* (It's wrong.) But food that tastes good: *La sopa está **buena**.*
+
+    **-mente** = English "-ly". Add it to the **feminine** form:
+    - *lento → lent**a**mente, claro → clar**a**mente, rápido → rápid**a**mente*
+    - no *-o*? Just add it: *fácil → fácilmente, normal → normalmente, feliz → felizmente*
+    - the written accent stays: *rápidamente, fácilmente*
+    - two in a row — only the **last** one takes *-mente*: *Habla **clara y lentamente**.*
+
+    Spanish often prefers a phrase: ***con cuidado*** (carefully), ***con frecuencia*** (often), ***de forma / de manera*** + adjective: *de forma clara*. In speech some adjectives work as adverbs: *hablar **claro**, ir **rápido**, trabajar **duro***.
+comparison:
+  en: |
+    Russian makes the same split: «хороший повар» = *buen cocinero*, «хорошо готовит» = *cocina bien*; and «быстро, медленно» = *rápidamente, lentamente*. English speech says "I'm good" — Spanish only *Estoy **bien***: ~~estoy bueno~~ means "I'm hot (attractive)" in colloquial Spanish.
+examples:
+  - { text: "Ella canta bien.", translation: "She sings well.", source: "tatoeba:1283021" }
+  - { text: "Él es un buen cantante.", translation: "He is a good singer.", source: "tatoeba:509749" }
+  - { text: "Hablas rápidamente.", translation: "You're talking fast.", source: "tatoeba:5455456" }
+  - { text: "Espero que podamos aclarar esto rápida y silenciosamente.", translation: "I hope we can clear this up quickly and quietly.", source: "tatoeba:8279492" }
+  - { text: "Conduce con cuidado.", translation: "Drive carefully.", source: "tatoeba:339012" }
+exercises:
+  - type: cloze
+    text: "Mi padre es un ___ conductor."
+    answer: "buen"
+    hint: "good"
+    translation: "My father is a good driver."
+  - type: cloze
+    text: "Tu hermana habla español muy ___."
+    answer: "bien"
+    hint: "well"
+    translation: "Your sister speaks Spanish very well."
+  - type: cloze
+    text: "Esta paella está muy ___."
+    answer: "buena"
+    hint: "good — taste"
+    translation: "This paella is very good."
+  - type: cloze
+    text: "Lo siento, lo he hecho ___."
+    answer: "mal"
+    hint: "badly"
+    translation: "Sorry, I've done it badly."
+  - type: cloze
+    text: "___ me levanto a las siete."
+    answer: "Normalmente"
+    hint: "normal → usually"
+    translation: "I usually get up at seven."
+  - type: cloze
+    text: "Encontramos la casa ___."
+    answer: "fácilmente"
+    hint: "fácil → -mente"
+    translation: "We found the house easily."
+  - type: cloze
+    text: "Abrió la puerta ___ para no despertar a nadie."
+    answer: "lentamente"
+    hint: "lento → -mente"
+    translation: "He opened the door slowly so as not to wake anyone."
+  - type: cloze
+    text: "El profesor explica todo lenta y ___."
+    answer: "claramente"
+    hint: "claro → -mente"
+    translation: "The teacher explains everything slowly and clearly."
