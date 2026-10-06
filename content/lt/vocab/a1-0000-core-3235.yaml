@@ -1,0 +1,441 @@
+# Generated from scripts/batches/lt-a1-3235.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-3235
+  type: word
+  cefr: A1
+  text: "vienas"
+  pos: num
+  meaning: { ru: "один; один (без других)" }
+  note: { ru: "Ж. р. viena; с существительным в ед. ч.: vienas euras, viena diena" }
+  examples:
+    - { text: "Tu čia vienas?", translation: "Ты здесь один?", source: "tatoeba:10593771" }
+- id: lt-w-3236
+  type: word
+  cefr: A1
+  text: "pirmadienis"
+  pos: noun
+  gender: m
+  gen: "pirmadienio"
+  meaning: { ru: "понедельник" }
+  note: { ru: "pirmadienį — в понедельник (вин. п.); pirmadieniais — по понедельникам" }
+  examples:
+    - { text: "Aš grįšiu pirmadienį.", translation: "Я вернусь в понедельник.", source: "tatoeba:11456940" }
+- id: lt-w-3237
+  type: word
+  cefr: A1
+  text: "pirmas"
+  pos: num
+  meaning: { ru: "первый" }
+  note: { ru: "Ж. р. pirma; pirmą valandą — в час" }
+  examples:
+    - { text: "Aš būsiu pirmas.", translation: "Я буду первым.", source: "tatoeba:11451072" }
+- id: lt-w-3238
+  type: word
+  cefr: A1
+  text: "du"
+  pos: num
+  meaning: { ru: "два" }
+  note: { ru: "Ж. р. dvi: dvi knygos; род. п. dviejų; существительное во мн. ч.: du vaikai" }
+  examples:
+    - { text: "Du vaikai sėdi ant tvoros.", translation: "Двое детей сидят на заборе.", source: "tatoeba:12734692" }
+- id: lt-w-3239
+  type: word
+  cefr: A1
+  text: "antradienis"
+  pos: noun
+  gender: m
+  gen: "antradienio"
+  meaning: { ru: "вторник" }
+  examples:
+    - { text: "Aš ateisiu antradienį.", translation: "Я приду во вторник.", source: "tatoeba:12348981" }
+- id: lt-w-3240
+  type: word
+  cefr: A1
+  text: "antras"
+  pos: num
+  meaning: { ru: "второй" }
+  note: { ru: "Ж. р. antra; antrą valandą — в два часа" }
+  examples:
+    - { text: "Antras atsakymas yra teisingas.", translation: "Второй ответ правильный.", source: "tatoeba:12727712" }
+- id: lt-w-3241
+  type: word
+  cefr: A1
+  text: "trys"
+  pos: num
+  meaning: { ru: "три" }
+  note: { ru: "Одна форма для обоих родов; вин. п. tris, род. п. trijų: trys vaikai, tris dienas" }
+  examples:
+    - { text: "Audra truko tris dienas.", translation: "Шторм продолжался три дня.", source: "tatoeba:12155450" }
+- id: lt-w-3242
+  type: word
+  cefr: A1
+  text: "trečiadienis"
+  pos: noun
+  gender: m
+  gen: "trečiadienio"
+  meaning: { ru: "среда" }
+  examples:
+    - { text: "Jie visi grįš trečiadienį trečią valandą.", translation: "Они все вернутся в среду в три часа дня.", source: "tatoeba:13772013" }
+- id: lt-w-3243
+  type: word
+  cefr: A1
+  text: "trečias"
+  pos: num
+  meaning: { ru: "третий" }
+  note: { ru: "Ж. р. trečia" }
+  examples:
+    - { text: "Aš trečias eilėje.", translation: "Я третий в очереди.", source: "tatoeba:12614961" }
+- id: lt-w-3244
+  type: word
+  cefr: A1
+  text: "keturi"
+  pos: num
+  meaning: { ru: "четыре" }
+  note: { ru: "Ж. р. keturios: keturios valandos; вин. п. keturis" }
+  examples:
+    - { text: "Du plius du yra keturi.", translation: "Два плюс два — четыре.", source: "tatoeba:13018130" }
+- id: lt-w-3245
+  type: word
+  cefr: A1
+  text: "ketvirtas"
+  pos: num
+  meaning: { ru: "четвёртый" }
+  note: { ru: "Ж. р. ketvirta" }
+  examples:
+    - { text: "Ketvirtas metų mėnuo yra balandis.", translation: "Четвёртый месяц года — апрель.", source: "tatoeba:13694798" }
+- id: lt-w-3246
+  type: word
+  cefr: A1
+  text: "penki"
+  pos: num
+  meaning: { ru: "пять" }
+  note: { ru: "Ж. р. penkios; вин. п. penkis; man penki metai — мне пять лет" }
+  examples:
+    - { text: "Man penki metai.", translation: "Мне пять лет.", source: "tatoeba:12118599" }
+- id: lt-w-3247
+  type: word
+  cefr: A1
+  text: "penktadienis"
+  pos: noun
+  gender: m
+  gen: "penktadienio"
+  meaning: { ru: "пятница" }
+  examples:
+    - { text: "Aš ateisiu penktadienį.", translation: "Я приду в пятницу.", source: "tatoeba:12752867" }
+- id: lt-w-3248
+  type: word
+  cefr: A1
+  text: "penktas"
+  pos: num
+  meaning: { ru: "пятый" }
+  note: { ru: "Ж. р. penkta" }
+  examples:
+    - { text: "Penktas metų mėnuo yra gegužė.", translation: "Пятый месяц года — май.", source: "tatoeba:13694796" }
+- id: lt-w-3249
+  type: word
+  cefr: A1
+  text: "šeši"
+  pos: num
+  meaning: { ru: "шесть" }
+  note: { ru: "Ж. р. šešios; вин. п. šešis" }
+  examples:
+    - { text: "Man šeši metai.", translation: "Мне шесть лет.", source: "tatoeba:12118598" }
+- id: lt-w-3250
+  type: word
+  cefr: A1
+  text: "šeštadienis"
+  pos: noun
+  gender: m
+  gen: "šeštadienio"
+  meaning: { ru: "суббота" }
+  examples:
+    - { text: "Susitikimas įvyks šeštadienį.", translation: "Встреча состоится в субботу.", source: "tatoeba:10629443" }
+- id: lt-w-3251
+  type: word
+  cefr: A1
+  text: "šeštas"
+  pos: num
+  meaning: { ru: "шестой" }
+  note: { ru: "Ж. р. šešta" }
+  examples:
+    - { text: "Aš grįšiu šeštą valandą.", translation: "Я вернусь в шесть часов.", source: "tatoeba:12092539" }
+- id: lt-w-3252
+  type: word
+  cefr: A1
+  text: "septyni"
+  pos: num
+  meaning: { ru: "семь" }
+  note: { ru: "Ж. р. septynios; вин. п. septynis" }
+  examples:
+    - { text: "Tu turi septynis vaikus.", translation: "У тебя семеро детей.", source: "tatoeba:10218652" }
+- id: lt-w-3253
+  type: word
+  cefr: A1
+  text: "sekmadienis"
+  pos: noun
+  gender: m
+  gen: "sekmadienio"
+  meaning: { ru: "воскресенье" }
+  examples:
+    - { text: "Aš sekmadienį nedirbu.", translation: "Я в воскресенье не работаю.", source: "tatoeba:12327604" }
+- id: lt-w-3254
+  type: word
+  cefr: A1
+  text: "septintas"
+  pos: num
+  meaning: { ru: "седьмой" }
+  note: { ru: "Ж. р. septinta" }
+  examples:
+    - { text: "Parduotuvė užsidaro septintą.", translation: "Магазин закрывается в семь.", source: "tatoeba:4796106" }
+- id: lt-w-3255
+  type: word
+  cefr: A1
+  text: "aštuoni"
+  pos: num
+  meaning: { ru: "восемь" }
+  note: { ru: "Ж. р. aštuonios; вин. п. aštuonis" }
+  examples:
+    - { text: "Praėjo aštuonios valandos.", translation: "Прошло восемь часов.", source: "tatoeba:12298854" }
+- id: lt-w-3256
+  type: word
+  cefr: A1
+  text: "pusvalandis"
+  pos: noun
+  gender: m
+  gen: "pusvalandžio"
+  meaning: { ru: "полчаса" }
+  note: { ru: "po pusvalandžio — через полчаса" }
+  examples:
+    - { text: "Aš grįšiu po pusvalandžio.", translation: "Я вернусь через полчаса.", source: "tatoeba:12725192" }
+- id: lt-w-3257
+  type: word
+  cefr: A1
+  text: "aštuntas"
+  pos: num
+  meaning: { ru: "восьмой" }
+  note: { ru: "Ж. р. aštunta" }
+  examples:
+    - { text: "Spektaklis aštuntą valandą.", translation: "Спектакль в восемь часов.", source: "tatoeba:11008351" }
+- id: lt-w-3258
+  type: word
+  cefr: A1
+  text: "devyni"
+  pos: num
+  meaning: { ru: "девять" }
+  note: { ru: "Ж. р. devynios; вин. п. devynis" }
+  examples:
+    - { text: "Jau devynios valandos.", translation: "Уже девять часов.", source: "tatoeba:13764147" }
+- id: lt-w-3259
+  type: word
+  cefr: A1
+  text: "data"
+  pos: noun
+  gender: f
+  gen: "datos"
+  meaning: { ru: "дата" }
+  examples:
+    - { text: "Aš patikrinau datą.", translation: "Я проверил дату.", source: "tatoeba:12926827" }
+- id: lt-w-3260
+  type: word
+  cefr: A1
+  text: "devintas"
+  pos: num
+  meaning: { ru: "девятый" }
+  note: { ru: "Ж. р. devinta" }
+  examples:
+    - { text: "Aš norėčiau ateiti devintą.", translation: "Я хотел бы прийти в девять.", source: "tatoeba:10905541" }
+- id: lt-w-3261
+  type: word
+  cefr: A1
+  text: "dešimt"
+  pos: num
+  meaning: { ru: "десять" }
+  note: { ru: "Не склоняется; + род. п. мн. ч.: dešimt metų, dešimt eurų" }
+  examples:
+    - { text: "Man dešimt metų.", translation: "Мне десять лет.", source: "tatoeba:12118594" }
+- id: lt-w-3262
+  type: word
+  cefr: A1
+  text: "pradžia"
+  pos: noun
+  gender: f
+  gen: "pradžios"
+  meaning: { ru: "начало" }
+  note: { ru: "iš pradžių — сначала, вначале" }
+  examples:
+    - { text: "Tai gera pradžia!", translation: "Это хорошее начало!", source: "tatoeba:11490538" }
+- id: lt-w-3263
+  type: word
+  cefr: A1
+  text: "dešimtas"
+  pos: num
+  meaning: { ru: "десятый" }
+  note: { ru: "Ж. р. dešimta" }
+  examples:
+    - { text: "Ateisi dešimtą ryto.", translation: "Придёшь в десять утра.", source: "tatoeba:12582186" }
+- id: lt-w-3264
+  type: word
+  cefr: A1
+  text: "vienuolika"
+  pos: num
+  meaning: { ru: "одиннадцать" }
+  note: { ru: "11–19 оканчиваются на -lika (dvylika, trylika…) и требуют род. п. мн. ч.: vienuolika metų" }
+  examples:
+    - { text: "Dabar vienuolika valandų.", translation: "Сейчас одиннадцать часов.", source: "tatoeba:13343941" }
+- id: lt-w-3265
+  type: word
+  cefr: A1
+  text: "pabaiga"
+  pos: noun
+  gender: f
+  gen: "pabaigos"
+  meaning: { ru: "конец, окончание" }
+  note: { ru: "metų pabaigoje — в конце года" }
+  examples:
+    - { text: "Artėja metų pabaiga.", translation: "Приближается конец года.", source: "tatoeba:13542751" }
+- id: lt-w-3266
+  type: word
+  cefr: A1
+  text: "dvylika"
+  pos: num
+  meaning: { ru: "двенадцать" }
+  note: { ru: "+ род. п. мн. ч.: dvylika mėnesių" }
+  examples:
+    - { text: "Metuose yra dvylika mėnesių.", translation: "В году двенадцать месяцев.", source: "tatoeba:2723769" }
+- id: lt-w-3267
+  type: word
+  cefr: A1
+  text: "vidurys"
+  pos: noun
+  gender: m
+  gen: "vidurio"
+  meaning: { ru: "середина, центр" }
+  note: { ru: "viduryje — посередине: kambario viduryje — посреди комнаты" }
+  examples:
+    - { text: "Tomas stovi viduryje kambario.", translation: "Том стоит в центре комнаты.", source: "tatoeba:9630312" }
+- id: lt-w-3268
+  type: word
+  cefr: A1
+  text: "dvidešimt"
+  pos: num
+  meaning: { ru: "двадцать" }
+  note: { ru: "+ род. п. мн. ч.: dvidešimt metų; но dvidešimt penki metai — согласуется последнее слово" }
+  examples:
+    - { text: "Jam dvidešimt metų.", translation: "Ему двадцать лет.", source: "tatoeba:12202271" }
+- id: lt-w-3269
+  type: word
+  cefr: A1
+  text: "galas"
+  pos: noun
+  gender: m
+  gen: "galo"
+  meaning: { ru: "конец (край, предел)" }
+  note: { ru: "galų gale — в конце концов" }
+  examples:
+    - { text: "Viskam yra galas.", translation: "У всего есть конец.", source: "tatoeba:13208087" }
+- id: lt-w-3270
+  type: word
+  cefr: A1
+  text: "šimtas"
+  pos: num
+  meaning: { ru: "сто" }
+  note: { ru: "Склоняется как сущ. м. р.: род. п. šimto, du šimtai; + род. п. мн. ч.: šimtas eurų" }
+  examples:
+    - { text: "Aš išleidau šimtą eurų.", translation: "Я потратил сто евро.", source: "tatoeba:13736063" }
+- id: lt-w-3271
+  type: word
+  cefr: A1
+  text: "kairė"
+  pos: noun
+  gender: f
+  gen: "kairės"
+  meaning: { ru: "левая сторона, лево" }
+  note: { ru: "į kairę, kairėn — налево; kairėje — слева" }
+  examples:
+    - { text: "Pasuk į kairę!", translation: "Поверни налево!", source: "tatoeba:12294153" }
+- id: lt-w-3272
+  type: word
+  cefr: A1
+  text: "tūkstantis"
+  pos: num
+  meaning: { ru: "тысяча" }
+  note: { ru: "Мужской род: род. п. tūkstančio, du tūkstančiai; + род. п. мн. ч.: tūkstantis eurų" }
+  examples:
+    - { text: "Ji turi du tūkstančius knygų.", translation: "У неё есть две тысячи книг.", source: "tatoeba:579269" }
+- id: lt-w-3273
+  type: word
+  cefr: A1
+  text: "dešinė"
+  pos: noun
+  gender: f
+  gen: "dešinės"
+  meaning: { ru: "правая сторона, право" }
+  note: { ru: "į dešinę, dešinėn — направо; dešinėje — справа" }
+  examples:
+    - { text: "Pasuk raktą į dešinę.", translation: "Поверни ключ вправо.", source: "tatoeba:8208137" }
+- id: lt-w-3274
+  type: word
+  cefr: A1
+  text: "metras"
+  pos: noun
+  gender: m
+  gen: "metro"
+  meaning: { ru: "метр" }
+  examples:
+    - { text: "Stalo plotis yra vienas metras.", translation: "Ширина стола - один метр.", source: "tatoeba:13352374" }
+- id: lt-w-3275
+  type: word
+  cefr: A1
+  text: "kilometras"
+  pos: noun
+  gender: m
+  gen: "kilometro"
+  meaning: { ru: "километр" }
+  examples:
+    - { text: "Tai maždaug trys kilometrai.", translation: "Это около трёх километров.", source: "tatoeba:12939947" }
+- id: lt-w-3276
+  type: word
+  cefr: A1
+  text: "kilogramas"
+  pos: noun
+  gender: m
+  gen: "kilogramo"
+  meaning: { ru: "килограмм" }
+  examples:
+    - { text: "Kiek už pusę kilogramo?", translation: "Сколько за полкило?", source: "tatoeba:13310516" }
+- id: lt-w-3277
+  type: word
+  cefr: A1
+  text: "Kalėdos"
+  pos: noun
+  gender: f
+  gen: "Kalėdų"
+  plural_only: true
+  meaning: { ru: "Рождество" }
+  note: { ru: "Только мн. ч.: Kalėdos, род. п. Kalėdų; per Kalėdas — на Рождество; Kūčios — сочельник" }
+  examples:
+    - { text: "Pasimatysime per Kalėdas.", translation: "Увидимся на Рождество.", source: "tatoeba:4737989" }
+- id: lt-w-3278
+  type: word
+  cefr: A1
+  text: "Velykos"
+  pos: noun
+  gender: f
+  gen: "Velykų"
+  plural_only: true
+  meaning: { ru: "Пасха" }
+  note: { ru: "Только мн. ч.: Velykos, род. п. Velykų" }
+  examples:
+    - { text: "Tarp Velykų ir Sekminių yra daug švenčių.", translation: "Между Пасхой и Троицей много праздников.", source: "tatoeba:12797949" }
+- id: lt-w-3279
+  type: word
+  cefr: A1
+  text: "gimtadienis"
+  pos: noun
+  gender: m
+  gen: "gimtadienio"
+  meaning: { ru: "день рождения" }
+  note: { ru: "Su gimtadieniu! — С днём рождения!" }
+  examples:
+    - { text: "Rytoj jo gimtadienis.", translation: "Завтра его день рождения.", source: "tatoeba:12289525" }
