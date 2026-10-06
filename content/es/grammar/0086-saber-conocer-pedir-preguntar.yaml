@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0086
+cefr: A2
+order: 86
+title: "Saber or conocer, pedir or preguntar, jugar or tocar"
+explanation:
+  en: |
+    Three English verbs — "know", "ask", "play" — are two verbs each in Spanish.
+
+    **know**
+    - ***saber*** — a **fact**, information: *Sé que tienes razón.* *¿Sabes dónde vive?* And **how to do** something (+ infinitive): *Sé nadar.* — I can swim.
+    - ***conocer*** — be **familiar with** a person, place or thing: *Conozco **a** tu hermano* (personal *a*, lesson 34), *¿Conoces Madrid?* Preterite *conocí* = I **met** (lesson 55).
+
+    **ask**
+    - ***pedir*** (e → i: *pido, pidió*) — ask **for** something, or ask someone **to do** something: *pedir ayuda, pedir un café, pedir perdón*; *Te pido que vengas* (+ subjunctive, lesson 26).
+    - ***preguntar*** — ask a **question**: *Me preguntó la hora / si estaba bien / dónde vivía.* ***preguntar por*** — ask about someone: *Preguntó por ti.*
+
+    **play**
+    - ***jugar a*** (u → ue: *juego*) — games and sports: *jugar **al** tenis, **a las** cartas*.
+    - ***tocar*** — an instrument: *tocar el piano*. *Tocar* also means "to touch" and "to be someone's turn": *Te toca a ti.*
+comparison:
+  en: |
+    Russian splits two of them the same way: «просить» = *pedir*, «спрашивать» = *preguntar*; «играть **в** теннис» = *jugar **al** tenis*, «играть **на** пианино» = *tocar el piano*. «Знать» is the trap: *conocer* ≈ «быть знакомым, знать (человека, город)», *saber* ≈ «знать (что-то), уметь». English "I can swim" (a skill) is *sé nadar*; *puedo nadar* means it's possible or allowed right now.
+examples:
+  - { text: "No sé nadar.", translation: "I can't swim.", source: "tatoeba:573705" }
+  - { text: "¿Conoces a Tom?", translation: "Do you know Tom?", source: "tatoeba:2194528" }
+  - { text: "Ella me pidió ayuda.", translation: "She asked me for help.", source: "tatoeba:841350" }
+  - { text: "Le preguntó dónde vivía.", translation: "She asked him where he lived.", source: "tatoeba:5238001" }
+  - { text: "Ella toca el piano.", translation: "She plays the piano.", source: "tatoeba:853627" }
+exercises:
+  - type: cloze
+    text: "¿___ dónde está la estación?"
+    answer: "Sabes"
+    hint: "know — tú"
+    translation: "Do you know where the station is?"
+  - type: cloze
+    text: "No ___ a nadie en esta ciudad."
+    answer: "conozco"
+    hint: "know — yo"
+    translation: "I don't know anyone in this city."
+  - type: cloze
+    text: "Mi hija ya ___ leer."
+    answer: "sabe"
+    hint: "know how — ella"
+    translation: "My daughter can already read."
+  - type: cloze
+    text: "Voy a ___ la cuenta al camarero."
+    answer: "pedir"
+    hint: "ask for"
+    translation: "I'm going to ask the waiter for the bill."
+  - type: cloze
+    text: "Si no entiendes algo, ___ al profesor."
+    answer: "pregúntale"
+    also: ["pregunta"]
+    hint: "ask — tú, command"
+    translation: "If you don't understand something, ask the teacher."
+  - type: cloze
+    text: "Mi madre siempre me ___ que la llame."
+    answer: "pide"
+    hint: "ask (to do) — ella"
+    translation: "My mother always asks me to call her."
+  - type: cloze
+    text: "Los domingos ___ al fútbol con mis amigos."
+    answer: "juego"
+    hint: "play — yo"
+    translation: "On Sundays I play football with my friends."
+  - type: cloze
+    text: "Mi hermano ___ la guitarra en un grupo."
+    answer: "toca"
+    hint: "play — él"
+    translation: "My brother plays the guitar in a band."
