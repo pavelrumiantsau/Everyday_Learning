@@ -1,0 +1,79 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0088
+cefr: A2
+order: 88
+title: "¿Por qué? Porque, como, por culpa de, gracias a: giving reasons"
+explanation:
+  en: |
+    **Four spellings, four meanings:**
+    - ***¿por qué?*** — why (also in indirect questions: *No sé **por qué**.*)
+    - ***porque*** — because: *Porque tiene sueño.*
+    - ***el porqué*** — the reason (a noun): *No entiendo **el porqué**.*
+    - ***por que*** — rare: *por* + relative *que* = *por el que*: *la razón **por (la) que** se fue*
+
+    **"Because" + a clause:**
+    - ***porque*** — after the main clause: *No fui **porque** estaba enfermo.*
+    - ***como*** — at the **start** (lesson 39): ***Como** estaba enfermo, no fui.*
+    - ***ya que, puesto que*** — since, as (a known reason, a bit more formal)
+    - ***es que*** — in conversation, to excuse yourself: *—¿No vienes? —**Es que** tengo mucho trabajo.*
+
+    **"Because of" + a noun or an infinitive:**
+    - ***por***: *Lo hizo **por** amor.* *Perdón **por** llegar tarde.*
+    - ***a causa de, debido a*** — because of, due to (neutral, formal)
+    - ***por culpa de*** — because of something **bad** (someone's fault)
+    - ***gracias a*** — thanks to something **good**
+
+    Not ~~porque la lluvia~~: before a noun use *por, a causa de*… — *Llegué tarde **por** la lluvia.*
+comparison:
+  en: |
+    «почему» = *por qué*, «потому что» = *porque*, «так как» at the start = *como*, «из-за» = *por culpa de / a causa de*, «благодаря» = *gracias a*. Like «из-за» and «благодаря», *por culpa de* and *gracias a* show whether the result was bad or good. English "because of" is never ~~porque de~~.
+examples:
+  - { text: "¿Por qué llora? Porque tiene sueño.", translation: "Why is he crying? Because he is sleepy.", source: "tatoeba:6591348" }
+  - { text: "Como estaba cansado, me fui a la cama.", translation: "Since I was tired, I went to bed.", source: "tatoeba:1165911" }
+  - { text: "Llegué tarde a causa de la lluvia.", translation: "I was late because of the rain.", source: "tatoeba:511420" }
+  - { text: "Hemos ganado gracias a ti.", translation: "We won, thanks to you.", source: "tatoeba:10873852" }
+  - { text: "Creo que sé el porqué.", translation: "I think I know why.", source: "tatoeba:2924540" }
+exercises:
+  - type: cloze
+    text: "¿___ no me llamaste ayer?"
+    answer: "Por qué"
+    hint: "why"
+    translation: "Why didn't you call me yesterday?"
+  - type: cloze
+    text: "No te llamé ___ no tenía batería."
+    answer: "porque"
+    hint: "because"
+    translation: "I didn't call you because my phone battery was dead."
+  - type: cloze
+    text: "___ no había autobuses, fuimos a pie."
+    answer: "Como"
+    also: ["Ya que", "Puesto que"]
+    hint: "since — at the start"
+    translation: "Since there were no buses, we walked."
+  - type: cloze
+    text: "Nadie sabe el ___ de su decisión."
+    answer: "porqué"
+    hint: "the reason"
+    translation: "Nobody knows the reason for her decision."
+  - type: cloze
+    text: "Perdimos el tren por ___ de mi hermano."
+    answer: "culpa"
+    hint: "fault"
+    translation: "We missed the train because of my brother."
+  - type: cloze
+    text: "Aprobé el examen ___ a tu ayuda."
+    answer: "gracias"
+    hint: "thanks"
+    translation: "I passed the exam thanks to your help."
+  - type: cloze
+    text: "Cerraron el aeropuerto a ___ de la niebla."
+    answer: "causa"
+    hint: "cause"
+    translation: "They closed the airport because of the fog."
+  - type: cloze
+    text: "Lo despidieron ___ llegar tarde todos los días."
+    answer: "por"
+    hint: "for — + infinitive"
+    translation: "He was fired for being late every day."
