@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0097
+cefr: A2
+order: 97
+title: "Había, hubo, habrá, ha habido: \"there is\" in every tense"
+explanation:
+  en: |
+    ***Hay*** is a form of the verb *haber*, and "there is / there are" exists in every tense:
+    - present — ***hay***: *hay un problema*
+    - imperfect — ***había***: there was / were (a description, a scene)
+    - preterite — ***hubo***: there was / were (something **happened**)
+    - present perfect — ***ha habido***: there has been
+    - future — ***habrá***, conditional — ***habría***
+    - subjunctive — ***haya*** (*No creo que haya…*), ***hubiera***
+    - after another verb — the infinitive ***haber***: *va a haber, tiene que haber, puede haber*
+
+    **Always singular**, even with a plural noun: *había dos coches*, *hubo muchos problemas*, *habrá cambios*. ~~Habían muchas personas~~ and ~~hubieron problemas~~ are heard in speech but count as mistakes.
+
+    ***había*** or ***hubo***? The same choice as imperfect / preterite (lesson 14): *Había una fiesta en el jardín* — a party was going on (background); *Hubo una fiesta* — a party took place (an event). Accidents, earthquakes, storms and fights usually take ***hubo***.
+
+    Don't mix this up with *haber* as a helper verb — there it agrees as usual: *Ellos **habían** llegado.* — They had arrived.
+comparison:
+  en: |
+    English switches between "there was" and "there were"; Spanish never does: *había un libro / había dos libros*. Russian works the same way as Spanish in «было много людей» — the verb stays neuter singular: *había mucha gente*. «Будет трудно / будут проблемы» → *habrá problemas*, always one form.
+examples:
+  - { text: "Había dos puentes.", translation: "There were two bridges.", source: "tatoeba:1388298" }
+  - { text: "Hubo un terremoto ayer.", translation: "There was an earthquake yesterday.", source: "tatoeba:941401" }
+  - { text: "Ha habido un accidente.", translation: "There's been an accident.", source: "tatoeba:463077" }
+  - { text: "Habrá dificultades.", translation: "There will be difficulties.", source: "tatoeba:4769156" }
+  - { text: "Tiene que haber una razón.", translation: "There has to be a reason.", source: "tatoeba:2884015" }
+exercises:
+  - type: cloze
+    text: "Anoche ___ una tormenta muy fuerte en la costa."
+    answer: "hubo"
+    hint: "haber, preterite (an event)"
+    translation: "Last night there was a very strong storm on the coast."
+  - type: cloze
+    text: "Cuando yo era niño, en mi pueblo no ___ cine."
+    answer: "había"
+    hint: "haber, imperfect (description)"
+    translation: "When I was a child, there was no cinema in my village."
+  - type: cloze
+    text: "En la reunión ___ muchas personas que yo no conocía."
+    answer: "había"
+    hint: "haber, imperfect"
+    translation: "At the meeting there were lots of people I didn't know."
+  - type: cloze
+    text: "Mañana ___ mucho tráfico por la huelga."
+    answer: "habrá"
+    hint: "haber, future"
+    translation: "There will be a lot of traffic tomorrow because of the strike."
+  - type: cloze
+    text: "Este año ya ___ tres accidentes en esta carretera."
+    answer: "ha habido"
+    hint: "haber, present perfect"
+    translation: "There have already been three accidents on this road this year."
+  - type: cloze
+    text: "No creo que ___ problemas con el vuelo."
+    answer: "haya"
+    hint: "haber, subjunctive"
+    translation: "I don't think there will be any problems with the flight."
+  - type: cloze
+    text: "Si no lloviera, ___ más gente en la calle."
+    answer: "habría"
+    hint: "haber, conditional"
+    translation: "If it weren't raining, there would be more people in the street."
+  - type: cloze
+    text: "El sábado va a ___ una fiesta en casa de Laura."
+    answer: "haber"
+    hint: "haber, infinitive"
+    translation: "On Saturday there's going to be a party at Laura's."
