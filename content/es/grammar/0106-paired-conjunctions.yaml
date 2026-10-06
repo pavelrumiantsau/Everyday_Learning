@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0106
+cefr: B1
+order: 106
+title: "Ni… ni, o… o, tanto… como; y → e, o → u: and, or, neither"
+explanation:
+  en: |
+    **Paired words:**
+    - ***tanto… como*** — both … and: *Me gustan **tanto** el té **como** el café.*
+    - ***o… o*** — either … or: ***O** te quedas **o** te vas.*
+    - ***ni… ni*** — neither … nor. After the verb it needs ***no*** in front: ***No** tengo **ni** hambre **ni** sed.* At the start of the sentence, no *no*, and the verb is usually plural: ***Ni** Ana **ni** Luis **saben** nada.*
+    - a single ***ni*** = "or" after a negative: *No como carne **ni** pescado.*
+    - ***ni siquiera*** — not even: *Ni siquiera me saludó.*
+    - *no solo… sino también* — not only … but also (lesson 69)
+
+    **y → e** before a word that starts with the sound **i** (*i-, hi-*): *padre **e** hijo*, *español **e** italiano*. Not before *hie-, hia-*, where the sound is "ye": *agua **y** hielo*.
+
+    **o → u** before the sound **o** (*o-, ho-*): *siete **u** ocho*, *mujeres **u** hombres*.
+comparison:
+  en: |
+    Russian «и… и», «или… или», «ни… ни» match the Spanish pairs, and «ни… ни» needs «не» with the verb just like Spanish: «У меня нет ни времени, ни денег» = *No tengo ni tiempo ni dinero*. The *y → e*, *o → u* change is only about sound — like Russian «о окне» becoming «об окне». English "both … and" is *tanto… como*, not ~~ambos… y~~.
+examples:
+  - { text: "No tengo ni tiempo ni dinero.", translation: "I have neither time nor money.", source: "tatoeba:473586" }
+  - { text: "Yo nunca pierdo. O gano o aprendo.", translation: "I never lose. I either win or learn.", source: "tatoeba:7784733" }
+  - { text: "Tom habla tanto francés como inglés.", translation: "Tom speaks both French and English.", source: "tatoeba:2482280" }
+  - { text: "Hablo ruso e inglés.", translation: "I speak Russian and English.", source: "tatoeba:12878326" }
+  - { text: "¿Es más difícil perdonar u olvidar?", translation: "Is it harder to forgive or to forget?", source: "tatoeba:1245251" }
+exercises:
+  - type: cloze
+    text: "___ mi hermano ni yo sabemos cocinar."
+    answer: "Ni"
+    hint: "neither"
+    translation: "Neither my brother nor I can cook."
+  - type: cloze
+    text: "___ me llamas tú o te llamo yo."
+    answer: "O"
+    hint: "either"
+    translation: "Either you call me or I call you."
+  - type: cloze
+    text: "Es un libro corto ___ interesante."
+    answer: "e"
+    hint: "and"
+    translation: "It's a short and interesting book."
+  - type: cloze
+    text: "Necesito siete ___ ocho sillas más para la fiesta."
+    answer: "u"
+    hint: "or"
+    translation: "I need seven or eight more chairs for the party."
+  - type: cloze
+    text: "Tanto los niños ___ los adultos lo pasaron muy bien."
+    answer: "como"
+    hint: "both … and"
+    translation: "Both the children and the adults had a great time."
+  - type: cloze
+    text: "Estaba tan cansado que ___ siquiera cené."
+    answer: "ni"
+    hint: "not even"
+    translation: "I was so tired that I didn't even have dinner."
+  - type: cloze
+    text: "Pon en el vaso agua ___ hielo."
+    answer: "y"
+    hint: "and"
+    translation: "Put water and ice in the glass."
+  - type: cloze
+    text: "Cuando me lo contó, no sabía si reír ___ llorar."
+    answer: "o"
+    hint: "or"
+    translation: "When she told me, I didn't know whether to laugh or cry."
