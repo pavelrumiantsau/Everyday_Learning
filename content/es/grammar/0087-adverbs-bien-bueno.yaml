@@ -66,7 +66,7 @@ exercises:
     hint: "lento → -mente"
     translation: "He opened the door slowly so as not to wake anyone."
   - type: cloze
-    text: "El profesor explica todo lenta y ___."
+    text: "El profesor lo explica todo lenta y ___."
     answer: "claramente"
     hint: "claro → -mente"
     translation: "The teacher explains everything slowly and clearly."
