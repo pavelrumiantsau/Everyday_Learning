@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0092
+cefr: B1
+order: 92
+title: "Tan cansado que…, tanto calor que…, cuanto más…, más…"
+explanation:
+  en: |
+    **"So … that"** = ***tan / tanto … que***:
+    - ***tan*** + adjective or adverb: *Es **tan** caro **que** nadie lo compra.* *Habla **tan** rápido **que** no lo entiendo.*
+    - ***tanto, tanta, tantos, tantas*** + noun — agrees with the noun: ***tanto** trabajo, **tanta** gente, **tantos** problemas*. With *tener* and *hacer* expressions: *tengo **tanta** hambre* (*hambre* is feminine), *hace **tanto** calor*.
+    - verb + ***tanto*** — never changes: *Comí **tanto que** me dolía el estómago.*
+
+    Without *que* they are simply "so, so much": *¡Estoy **tan** cansado!* *¡Te quiero **tanto**!*
+
+    Don't mix it up with comparison (lesson 16): *tan alto **como** yo* (as tall as me) — *tan alto **que** no cabe* (so tall that he doesn't fit).
+
+    **"The more …, the more …"** = ***cuanto más …, más …*** — no article: *Cuanto más leo, más entiendo.* With a noun *cuanto* agrees: ***Cuanta** más gente, mejor.* Also *cuanto menos…, menos…*. In Latin America also ***mientras más…, más…***.
+
+    ***cuanto antes*** — as soon as possible: *Llámame **cuanto antes**.*
+comparison:
+  en: |
+    «такой / так … что» = *tan … que*, «столько … что» = *tanto … que*. «Чем больше…, тем больше…» = *cuanto más…, más…*: Spanish has no word for «тем», just as English "the more…, the more…" never takes ~~el más~~ in Spanish.
+examples:
+  - { text: "Estaba tan cansado que no podía dormir.", translation: "I was so tired that I couldn't sleep.", source: "tatoeba:3197523" }
+  - { text: "Tenía tanta hambre que me lo comí.", translation: "I was so hungry that I ate it.", source: "tatoeba:3032791" }
+  - { text: "Hacía tanto calor que fuimos a nadar.", translation: "It was so hot that we went swimming.", source: "tatoeba:606048" }
+  - { text: "Caminé tanto que me duelen los pies.", translation: "I walked so much my feet hurt.", source: "tatoeba:8416876" }
+  - { text: "Cuanto más estudias, más sabes.", translation: "The more you study, the more you know.", source: "tatoeba:727973" }
+exercises:
+  - type: cloze
+    text: "La película era ___ aburrida que me dormí."
+    answer: "tan"
+    hint: "so"
+    translation: "The film was so boring that I fell asleep."
+  - type: cloze
+    text: "Había ___ gente que no pudimos entrar."
+    answer: "tanta"
+    hint: "so many"
+    translation: "There were so many people that we couldn't get in."
+  - type: cloze
+    text: "Tengo ___ libros que no sé dónde ponerlos."
+    answer: "tantos"
+    hint: "so many"
+    translation: "I have so many books that I don't know where to put them."
+  - type: cloze
+    text: "Hacía ___ frío que nos quedamos en casa."
+    answer: "tanto"
+    hint: "so (much)"
+    translation: "It was so cold that we stayed at home."
+  - type: cloze
+    text: "Llovió ___ que se inundó la calle."
+    answer: "tanto"
+    hint: "so much"
+    translation: "It rained so much that the street flooded."
+  - type: cloze
+    text: "El examen fue tan difícil ___ casi nadie aprobó."
+    answer: "que"
+    hint: "that"
+    translation: "The exam was so hard that almost nobody passed."
+  - type: cloze
+    text: "___ más practicas, mejor hablas."
+    answer: "Cuanto"
+    also: ["Mientras"]
+    hint: "the more"
+    translation: "The more you practise, the better you speak."
+  - type: cloze
+    text: "Necesito el informe ___ antes."
+    answer: "cuanto"
+    hint: "as soon as possible"
+    translation: "I need the report as soon as possible."
