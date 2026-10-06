@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0105
+cefr: B1
+order: 105
+title: "Pienso que, estoy seguro de que: que or de que?"
+explanation:
+  en: |
+    Keep the preposition the word normally takes. *Estar seguro **de** algo* → *estar seguro **de que**…*. A verb that takes a direct object (*pensar algo, decir algo*) → just ***que***.
+
+    **Just *que*** — *pensar, creer, decir, saber, ver, esperar, parecer*, and gustar-type verbs (*me gusta, me alegra, me preocupa que*):
+    - *Creo **que** va a llover.* — not ~~creo de que~~. This mistake has a name: *dequeísmo*.
+
+    ***de que*** — after words that take *de*:
+    - verbs: ***darse cuenta de que*** (realise), ***acordarse de que***, ***olvidarse de que***, ***alegrarse de que***, ***enterarse de que*** (find out)
+    - adjectives: ***estar seguro de que***, ***estar convencido de que***
+    - nouns: ***la idea de que, el hecho de que, tener miedo de que***
+    - conjunctions: ***antes de que, después de que, a pesar de que***
+
+    Dropping a needed *de* (~~estoy seguro que~~) is common in speech, but careful Spanish keeps it.
+
+    **Watch the pairs:** *Me **alegra** que…* (it makes me glad — no *de*) / *Me **alegro de** que…* (I'm glad); *Recuerdo que…* / *Me acuerdo **de** que…*. Other prepositions work the same: *insistir **en** que, confiar **en** que* (lesson 58).
+
+    **Test:** replace the clause with *eso*. *Estoy seguro **de** eso* → *de que*. *Creo eso* → *que*.
+comparison:
+  en: |
+    Russian gives a hint: where it says «в том, что / о том, что», Spanish usually needs a preposition: «я уверен в том, что…» = *estoy seguro de que…*; «думаю, что» = *pienso que*. English never puts a preposition before "that" ("I'm sure that…", "I realised that…"), so *de que* is easy to forget.
+examples:
+  - { text: "Pienso que tienes razón.", translation: "I think you're right.", source: "tatoeba:1009850" }
+  - { text: "Estoy seguro de que vendrá.", translation: "I'm sure he will come.", source: "tatoeba:558726" }
+  - { text: "No me di cuenta de que eras tú.", translation: "I didn't realize it was you.", source: "tatoeba:13903005" }
+  - { text: "Me alegro de que estés aquí.", translation: "I'm glad you're here.", source: "tatoeba:1476322" }
+  - { text: "Me alegra que Tom esté bien.", translation: "I'm glad Tom's OK.", source: "tatoeba:3562802" }
+exercises:
+  - type: cloze
+    text: "Estoy convencida ___ es la mejor opción."
+    answer: "de que"
+    hint: "que or de que?"
+    translation: "I'm convinced that it's the best option."
+  - type: cloze
+    text: "Creo ___ el museo cierra los lunes."
+    answer: "que"
+    hint: "que or de que?"
+    translation: "I think the museum is closed on Mondays."
+  - type: cloze
+    text: "Al llegar a la estación, me di cuenta ___ había olvidado el billete."
+    answer: "de que"
+    hint: "que or de que?"
+    translation: "When I got to the station, I realised I had forgotten my ticket."
+  - type: cloze
+    text: "Me alegro ___ hayas encontrado trabajo."
+    answer: "de que"
+    hint: "que or de que?"
+    translation: "I'm glad you've found a job."
+  - type: cloze
+    text: "A mis padres les preocupa ___ no duerma bien."
+    answer: "que"
+    hint: "que or de que?"
+    translation: "My parents are worried that I don't sleep well."
+  - type: cloze
+    text: "¿Te acuerdas ___ mañana es el cumpleaños de Pablo?"
+    answer: "de que"
+    hint: "que or de que?"
+    translation: "Do you remember that tomorrow is Pablo's birthday?"
+  - type: cloze
+    text: "Mi madre siempre insiste ___ comamos juntos los domingos."
+    answer: "en que"
+    hint: "insistir + ? + que"
+    translation: "My mother always insists that we have lunch together on Sundays."
+  - type: cloze
+    text: "Ana me dijo ___ llegaría un poco tarde."
+    answer: "que"
+    hint: "que or de que?"
+    translation: "Ana told me she would be a bit late."
