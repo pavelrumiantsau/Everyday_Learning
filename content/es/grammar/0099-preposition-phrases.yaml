@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0099
+cefr: A2
+order: 99
+title: "En tren, a pie, por la mañana, de memoria: prepositions in set phrases"
+explanation:
+  en: |
+    Many everyday phrases have a fixed preposition. Learn them as chunks — translating word by word often gives the wrong one.
+
+    **Getting around** — ***en*** + vehicle, but ***a*** on foot or horseback:
+    - *en coche, en tren, en avión, en autobús, en metro, en bici*
+    - ***a pie*** (on foot), ***a caballo*** (on horseback)
+
+    **Times of day:**
+    - ***por** la mañana / la tarde / la noche* — in the morning, in the afternoon, at night
+    - with a clock time ***de***: *a las ocho **de** la mañana*, *a las diez **de** la noche*
+    - ***de día / de noche*** — by day / at night, while it's light or dark: *Ya es de noche.*
+    - ***a** mediodía, **a** medianoche*
+
+    **How you do something:**
+    - ***a mano*** — by hand; ***de memoria*** — by heart
+    - ***en voz alta / en voz baja*** — aloud / quietly
+    - ***de pie*** — standing; ***de rodillas*** — kneeling
+    - ***a propósito*** — on purpose; ***por casualidad*** — by chance; ***en serio*** — seriously; ***de repente*** — suddenly
+
+    **Time and states:** ***a tiempo*** (in time, on time), ***en punto*** (sharp: *a las tres en punto*), ***de vacaciones, de viaje, de buen / mal humor***.
+comparison:
+  en: |
+    Russian has single words where Spanish has a phrase: «пешком» = *a pie*, «наизусть» = *de memoria*, «вслух» = *en voz alta*, «стоя» = *de pie*, «вручную» = *a mano*, «нарочно» = *a propósito*. English "by train" is *en tren* (not ~~por tren~~). "In the morning" in Spain is *por la mañana*; much of Latin America says *en la mañana*.
+examples:
+  - { text: "Fuimos a pie.", translation: "We went on foot.", source: "tatoeba:2255720" }
+  - { text: "Él vino en tren.", translation: "He came by train.", source: "tatoeba:2975918" }
+  - { text: "Yo trabajo de noche.", translation: "I work nights.", source: "tatoeba:1383775" }
+  - { text: "Me lo sé de memoria.", translation: "I know it by heart.", source: "tatoeba:854400" }
+  - { text: "Léelo en voz alta.", translation: "Read it aloud.", source: "tatoeba:632410" }
+exercises:
+  - type: cloze
+    text: "Mi oficina está cerca, así que voy ___ pie."
+    answer: "a"
+    hint: "on foot"
+    translation: "My office is close, so I walk there."
+  - type: cloze
+    text: "Este verano vamos a ir a Portugal ___ coche."
+    answer: "en"
+    hint: "by car"
+    translation: "This summer we're going to Portugal by car."
+  - type: cloze
+    text: "Los lunes tengo clase de inglés ___ la tarde."
+    answer: "por"
+    hint: "in the afternoon"
+    translation: "On Mondays I have an English class in the afternoon."
+  - type: cloze
+    text: "El tren sale a las siete ___ la mañana."
+    answer: "de"
+    hint: "7 a.m."
+    translation: "The train leaves at seven in the morning."
+  - type: cloze
+    text: "En el colegio teníamos que aprender poemas ___ memoria."
+    answer: "de"
+    hint: "by heart"
+    translation: "At school we had to learn poems by heart."
+  - type: cloze
+    text: "No había sillas, así que escuchamos el concierto ___ pie."
+    answer: "de"
+    hint: "standing"
+    translation: "There were no chairs, so we listened to the concert standing up."
+  - type: cloze
+    text: "Lo siento, no lo hice ___ propósito."
+    answer: "a"
+    hint: "on purpose"
+    translation: "I'm sorry, I didn't do it on purpose."
+  - type: cloze
+    text: "La reunión empieza a las diez ___ punto."
+    answer: "en"
+    hint: "sharp"
+    translation: "The meeting starts at ten sharp."
