@@ -584,7 +584,7 @@
   cefr: A2
   text: "nukristi"
   pos: verb
-  forms: { pres: "nukrenta", past: "nukrito" }
+  forms: { pres: "nukrinta", past: "nukrito" }
   meaning: { ru: "упасть" }
   examples:
     - { text: "Tavo raktas nukrito.", translation: "У тебя ключ упал.", source: "tatoeba:12865943" }
@@ -622,7 +622,7 @@
   text: "traukti"
   pos: verb
   forms: { pres: "traukia", past: "traukė" }
-  meaning: { ru: "тянуть, тащить" }
+  meaning: { ru: "тянуть, тащить; привлекать" }
   examples:
     - { text: "Vabzdžius traukia šviesa.", translation: "Насекомых привлекает свет.", source: "tatoeba:10294125" }
 - id: lt-w-4101

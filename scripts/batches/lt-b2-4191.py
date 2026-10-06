@@ -60,7 +60,7 @@ w|kristi|verb||B1|падать|12294078||krinta, krito
 w|bjaurus|adj||B1|гадкий, противный|10239737||
 w|patraukti|verb||B1|потянуть; привлечь; отодвинуть|10713621|patraukti pečiais — пожать плечами|patraukia, patraukė
 w|zona|noun|f|B1|зона|9763584||zonos
-w|derėti|verb||B2|подходить, идти (кому); следовало бы (derėtų)|12967284|derėtų + инф. — следовало бы: Tau derėtų pailsėti. — Тебе следовало бы отдохнуть.|dera, derėjo
+w|derėti|verb||B2|подходить, идти (кому); следовало бы|12967284|derėtų + инф. — следовало бы: Tau derėtų pailsėti. — Тебе следовало бы отдохнуть.|dera, derėjo
 w|rytojus|noun|m|B1|завтрашний день||rytojaus diena — завтрашний день|rytojaus
 w|griebti|verb||B1|хватать, схватить|||griebia, griebė
 w|pasidaryti|verb||B1|стать, сделаться; сделать себе|13186281|Pasidarė šalta. — Стало холодно.|pasidaro, pasidarė

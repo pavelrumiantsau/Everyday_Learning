@@ -529,7 +529,7 @@
   text: "derėti"
   pos: verb
   forms: { pres: "dera", past: "derėjo" }
-  meaning: { ru: "подходить, идти (кому); следовало бы (derėtų)" }
+  meaning: { ru: "подходить, идти (кому); следовало бы" }
   note: { ru: "derėtų + инф. — следовало бы: Tau derėtų pailsėti. — Тебе следовало бы отдохнуть." }
   examples:
     - { text: "Jie jums labai dera.", translation: "Они вам очень идут.", source: "tatoeba:12967284" }

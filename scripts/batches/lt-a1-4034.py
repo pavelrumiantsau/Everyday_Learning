@@ -67,11 +67,11 @@ w|karalienė|noun|f|A2|королева|13089591||karalienės
 w|niekaip|adv||A2|никак|13208106||
 w|kamuolys|noun|m|A2|мяч|10742322||kamuolio
 w|kvėpuoti|verb||A2|дышать|4690708||kvėpuoja, kvėpavo
-w|nukristi|verb||A2|упасть|12865943||nukrenta, nukrito
+w|nukristi|verb||A2|упасть|12865943||nukrinta, nukrito
 w|radijas|noun|m|A2|радио|12514584||radijo
 w|mažiausiai|adv||A2|меньше всего; по меньшей мере|13072411||
 w|pastatas|noun|m|A2|здание|11585560||pastato
-w|traukti|verb||A2|тянуть, тащить|10294125||traukia, traukė
+w|traukti|verb||A2|тянуть, тащить; привлекать|10294125||traukia, traukė
 w|šonas|noun|m|A2|бок, сторона|10636438||šono
 w|rusas|noun|m|A2|русский (человек)|3117168|ж. р. rusė|ruso
 w|programa|noun|f|A2|программа|13045731||programos
