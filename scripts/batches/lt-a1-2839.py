@@ -22,7 +22,7 @@ w|mėlynas|adj||A1|синий; голубой|11536422||
 w|sūnus|noun|m|A1|сын|12078331|род. п. sūnaus, мн. ч. sūnūs|sūnaus
 w|tvarkyti|verb||A1|убирать, приводить в порядок; улаживать|12848959||tvarko, tvarkė
 w|pilkas|adj||A1|серый|13524915||
-w|duktė|noun|f|A1|дочь|3188746|род. п. dukters, мн. ч. dukterys; разг. dukra (dukros)|dukters
+w|duktė|noun|f|A1|дочь|3188746|род. п. dukters, мн. ч. dukterys; также dukra (dukros)|dukters
 w|plauti|verb||A1|мыть|3590003|išplauti — вымыть (сов.)|plauna, plovė
 w|rožinis|adj||A1|розовый|11917356||
 w|vaikas|noun|m|A1|ребёнок|2657703|мн. ч. vaikai — дети|vaiko

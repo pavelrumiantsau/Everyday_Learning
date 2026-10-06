@@ -8,7 +8,7 @@
   pos: verb
   forms: { pres: "yra", past: "buvo" }
   meaning: { ru: "быть" }
-  note: { ru: "Наст. вр.: esu, esi, yra, esame, esate; отрицание nėra (+ род. п.)" }
+  note: { ru: "Наст. вр.: esu, esi, yra, esame, esate; «нет» — nėra (+ род. п.): Jo nėra." }
   examples:
     - { text: "Aš buvau toli.", translation: "Я был далеко.", source: "tatoeba:12368457" }
 - id: lt-w-2986

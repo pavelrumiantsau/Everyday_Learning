@@ -4,7 +4,7 @@
 # Columns: kind(w/p), text, pos, gender, cefr, meaning_ru, tatoeba_id, note_ru, forms (verbs: pres, past) / genitive (nouns)
 PLURAL_ONLY = []
 ROWS = """
-w|būti|verb||A1|быть|12368457|Наст. вр.: esu, esi, yra, esame, esate; отрицание nėra (+ род. п.)|yra, buvo
+w|būti|verb||A1|быть|12368457|Наст. вр.: esu, esi, yra, esame, esate; «нет» — nėra (+ род. п.): Jo nėra.|yra, buvo
 w|miestas|noun|m|A1|город|2752224||miesto
 w|turėti|verb||A1|иметь; быть должным|12283197|turėti + инф.: Turiu eiti. — Мне надо идти.|turi, turėjo
 w|kaimas|noun|m|A1|деревня, село|12871414||kaimo

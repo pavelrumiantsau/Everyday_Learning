@@ -179,7 +179,7 @@
   gender: f
   gen: "dukters"
   meaning: { ru: "дочь" }
-  note: { ru: "род. п. dukters, мн. ч. dukterys; разг. dukra (dukros)" }
+  note: { ru: "род. п. dukters, мн. ч. dukterys; также dukra (dukros)" }
   examples:
     - { text: "Tai mano duktė.", translation: "Это моя дочь.", source: "tatoeba:3188746" }
 - id: lt-w-2858
