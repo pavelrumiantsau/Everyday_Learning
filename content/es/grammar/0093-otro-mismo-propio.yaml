@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0093
+cefr: A2
+order: 93
+title: "Otro café, el mismo día, yo mismo, mi propia casa: another, same, -self, own"
+explanation:
+  en: |
+    ***otro, otra, otros, otras*** — another, other:
+    - **never** with *un / una*: ***otro** café* — another coffee (not ~~un otro café~~); ***otra vez*** — again
+    - with a number, *otro* goes **first**: ***otros dos** días* — two more days
+    - *el otro día* — the other day (recently)
+
+    ***los demás*** — the others, everyone else; ***lo demás*** — the rest: *Lo demás no importa.*
+
+    ***mismo, misma, mismos, mismas*** — agrees like any adjective:
+    - article + *mismo* + noun = the same: ***el mismo** día, **la misma** edad*
+    - ***lo mismo*** — the same (thing): *Me da **lo mismo**.* — I don't mind.
+    - after a pronoun = -self (for emphasis): *Lo hice **yo mismo**.* *Hazlo **tú misma**.*
+    - after an adverb = right: ***ahora mismo*** (right now), ***aquí mismo*** (right here)
+
+    ***propio*** — own, between a possessive and the noun: ***mi propia** casa, **sus propios** hijos*
+comparison:
+  en: |
+    English "**an**other" pushes learners to say ~~un otro~~; think of Russian «ещё один»: «ещё один кофе» = *otro café*, «ещё два дня» = *otros dos días*. «Тот же (самый)» = *el mismo*, «я сам» = *yo mismo*, «прямо сейчас» = *ahora mismo*, «собственный» = *propio*. *Mismo* never translates the reflexive «себя»: «он видит себя» = *se ve* (lesson 7).
+examples:
+  - { text: "Dame otra cerveza.", translation: "Give me another beer.", source: "tatoeba:9685169" }
+  - { text: "Nacimos el mismo día.", translation: "We were born on the same day.", source: "tatoeba:1122750" }
+  - { text: "Lo hice yo mismo.", translation: "I made it myself.", source: "tatoeba:726502" }
+  - { text: "Tengo mi propia habitación.", translation: "I have my own room.", source: "tatoeba:436678" }
+  - { text: "Sé amable con los demás.", translation: "Be kind to others.", source: "tatoeba:860411" }
+exercises:
+  - type: cloze
+    text: "¿Me pone ___ café, por favor?"
+    answer: "otro"
+    hint: "another"
+    translation: "Could I have another coffee, please?"
+  - type: cloze
+    text: "Tenemos que esperar ___ dos semanas."
+    answer: "otras"
+    hint: "two more"
+    translation: "We have to wait two more weeks."
+  - type: cloze
+    text: "¿Puedes explicarlo ___ vez?"
+    answer: "otra"
+    hint: "again"
+    translation: "Can you explain it again?"
+  - type: cloze
+    text: "Mi hermano y yo vamos a la ___ escuela."
+    answer: "misma"
+    hint: "same"
+    translation: "My brother and I go to the same school."
+  - type: cloze
+    text: "No te preocupes, lo arreglo yo ___."
+    answer: "mismo"
+    also: ["misma"]
+    hint: "myself"
+    translation: "Don't worry, I'll fix it myself."
+  - type: cloze
+    text: "Necesito hablar contigo ahora ___."
+    answer: "mismo"
+    hint: "right now"
+    translation: "I need to talk to you right now."
+  - type: cloze
+    text: "Cada uno de mis hijos tiene su ___ habitación."
+    answer: "propia"
+    hint: "own"
+    translation: "Each of my children has their own room."
+  - type: cloze
+    text: "Yo me quedo; los ___ pueden irse."
+    answer: "demás"
+    also: ["otros"]
+    hint: "the others"
+    translation: "I'm staying; the others can go."
