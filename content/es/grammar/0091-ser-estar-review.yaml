@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0091
+cefr: B1
+order: 91
+title: "La fiesta es en mi casa, estoy de vacaciones: ser or estar — a review"
+explanation:
+  en: |
+    Beyond the basics (lessons 2 and 41), a few cases surprise learners.
+
+    **Events → *ser*, places and things → *estar*.** A party, concert, meeting, wedding or class "takes place", so its place and time take *ser*:
+    - *La fiesta **es** en mi casa.* — but *Mi casa **está** en el centro.*
+    - *¿Dónde **es** el concierto?* — but *¿Dónde **está** el teatro?*
+
+    ***estar de*** + noun — a temporary situation:
+    - *estar **de vacaciones**, **de viaje**, **de pie** (standing), **de buen / mal humor**, **de acuerdo** (to agree)*
+    - with a job — working as, for now: *Es ingeniero, pero ahora **está de** camarero.*
+
+    ***estar muerto*** — being dead is the result of dying, so *estar*: *Está muerto*, not ~~es muerto~~. In Spain *estar casado* (married) is also the usual form.
+
+    **Time:** ***Es** tarde / pronto* (it's late / early), but ***Estamos** en primavera*, ***Estamos** a 5 de mayo* (the season or date we are at).
+
+    **Prices:** *¿Cuánto **es**?* — how much is it (to pay)? *¿A cuánto **están** los tomates?* — what are tomatoes today (prices that change)?
+comparison:
+  en: |
+    A test for events: if Russian could say «проходит, состоится», use *ser*: «Где будет вечеринка?» — *¿Dónde **es** la fiesta?*; if it's «находится», use *estar*. English "be on holiday", "be in a good mood", "agree" all become *estar de…*: «я согласен» = *estoy de acuerdo* (not ~~soy de acuerdo~~).
+examples:
+  - { text: "¿Dónde es la fiesta?", translation: "Where's the party?", source: "tatoeba:687687" }
+  - { text: "La fiesta es el lunes.", translation: "The party's on Monday.", source: "tatoeba:5970750" }
+  - { text: "Él está de vacaciones.", translation: "He is away on holiday.", source: "tatoeba:854525" }
+  - { text: "No estoy de acuerdo.", translation: "I don't agree.", source: "tatoeba:514850" }
+  - { text: "Tom está muerto.", translation: "Tom is dead.", source: "tatoeba:2073511" }
+exercises:
+  - type: cloze
+    text: "El concierto ___ en el estadio."
+    answer: "es"
+    hint: "ser or estar?"
+    translation: "The concert is (taking place) at the stadium."
+  - type: cloze
+    text: "El estadio ___ cerca del río."
+    answer: "está"
+    hint: "ser or estar?"
+    translation: "The stadium is near the river."
+  - type: cloze
+    text: "No puedo ir a la reunión: ___ de viaje hasta el lunes."
+    answer: "estoy"
+    hint: "ser or estar? — yo"
+    translation: "I can't go to the meeting: I'm away on a trip until Monday."
+  - type: cloze
+    text: "La boda de mi prima ___ en junio."
+    answer: "es"
+    also: ["será"]
+    hint: "ser or estar?"
+    translation: "My cousin's wedding is in June."
+  - type: cloze
+    text: "¿___ de acuerdo con nosotros?"
+    answer: "Estás"
+    hint: "ser or estar? — tú"
+    translation: "Do you agree with us?"
+  - type: cloze
+    text: "Es médico, pero ahora ___ de taxista."
+    answer: "está"
+    hint: "ser or estar?"
+    translation: "He's a doctor, but now he's working as a taxi driver."
+  - type: cloze
+    text: "Ya ___ muy tarde, me voy a casa."
+    answer: "es"
+    hint: "ser or estar?"
+    translation: "It's very late now, I'm going home."
+  - type: cloze
+    text: "¿A cuánto ___ las fresas hoy?"
+    answer: "están"
+    hint: "ser or estar?"
+    translation: "How much are the strawberries today?"
