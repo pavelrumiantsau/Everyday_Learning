@@ -219,7 +219,7 @@
   pos: part
   meaning: { ru: "видимо, по-видимому" }
   examples:
-    - { text: "Tomas matyt bijo.", translation: "Том, вероятно, боится.", source: "tatoeba:12781759" }
+    - { text: "Tomas, matyt, tą darė.", translation: "Том, видимо, занимался этим.", source: "tatoeba:9143569" }
 - id: lt-w-2710
   type: word
   cefr: B2

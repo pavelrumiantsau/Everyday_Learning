@@ -26,7 +26,7 @@ w|sueiti|verb||B2|сойтись, собраться; исполниться (о
 w|turbūt|adv||A2|наверное|10039204||
 w|sąžiningumas|noun|m|B2|честность|13223821|sąžiningas — честный|sąžiningumo
 w|prieiti|verb||B1|подойти|12055463|prieiti prie ko — подойти к кому|prieina, priėjo
-w|matyt|part||B1|видимо, по-видимому|12781759||
+w|matyt|part||B1|видимо, по-видимому|9143569||
 w|tuštybė|noun|f|B2|суета; тщеславие|10371581||tuštybės
 w|išbėgti|verb||B1|выбежать|12808706||išbėga, išbėgo
 w|regis|part||B2|кажется, вроде бы|11678898|= rodos|
