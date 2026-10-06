@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0098
+cefr: A2
+order: 98
+title: "Yo también, a mí tampoco, yo sí: agreeing and disagreeing"
+explanation:
+  en: |
+    Short replies to what someone says:
+    - agreeing with a **positive** statement — ***también***: —*Tengo sueño.* —*Yo **también**.*
+    - agreeing with a **negative** statement — ***tampoco***: —*No tengo sueño.* —*Yo **tampoco**.* (not ~~yo también no~~)
+    - disagreeing with a positive one — ***no***: —*Me voy.* —*Yo **no**.*
+    - disagreeing with a negative one — ***sí***: —*No fumo.* —*Yo **sí**.*
+
+    With ***gustar***-type verbs (*gustar, encantar, interesar, doler, pasar*…) the person is *a mí, a ti, a él*…, so the reply is ***a mí también, a mí tampoco, a mí sí, a mí no***: —*Me gusta el jazz.* —***A mí también.*** ~~Yo también~~ here is a classic mistake.
+
+    Inside one sentence ***sí*** and ***no*** stand for the whole verb, like English "but I don't / but she does":
+    - *Ella habla francés, pero yo **no**.*
+    - *Yo no tengo coche, pero Ana **sí**.*
+
+    With a full verb: *Yo **también** voy.* — and *tampoco* before the verb needs no *no*: *Yo **tampoco** voy* = *Yo **no** voy **tampoco***.
+comparison:
+  en: |
+    Russian «я тоже» works for both, even «я тоже не знаю»; Spanish must switch to ***tampoco*** after a negative: *yo tampoco lo sé*. For *gustar* Russian has the same logic — «мне тоже» = *a mí también*, «мне тоже нет» = *a mí tampoco*. English "so do I / neither do I / I do / I don't" = *yo también / yo tampoco / yo sí / yo no*.
+examples:
+  - { text: "Yo tampoco.", translation: "Me neither.", source: "tatoeba:456390" }
+  - { text: "A mí tampoco me gusta.", translation: "I don't like it, either.", source: "tatoeba:726560" }
+  - { text: "A mí también me gusta pintar.", translation: "I like painting, too.", source: "tatoeba:1468382" }
+  - { text: "Puedes nadar, pero yo no.", translation: "You can swim, but I can't.", source: "tatoeba:1142574" }
+  - { text: "Él no me gusta, pero ella sí.", translation: "I do not like him, but I like her.", source: "tatoeba:1072455" }
+exercises:
+  - type: cloze
+    text: "—Estoy muy cansado. —Yo ___. Vamos a casa."
+    answer: "también"
+    hint: "too"
+    translation: "\"I'm very tired.\" \"Me too. Let's go home.\""
+  - type: cloze
+    text: "—No me gustan las películas de terror. —A mí ___."
+    answer: "tampoco"
+    hint: "neither"
+    translation: "\"I don't like horror films.\" \"Neither do I.\""
+  - type: cloze
+    text: "—Me encanta esta canción. —¡___ también!"
+    answer: "A mí"
+    hint: "me (encantar)"
+    translation: "\"I love this song.\" \"So do I!\""
+  - type: cloze
+    text: "—No he visto esa película. —Yo ___, y es muy buena."
+    answer: "sí"
+    hint: "I have (disagreeing)"
+    translation: "\"I haven't seen that film.\" \"I have, and it's very good.\""
+  - type: cloze
+    text: "Mi hermano habla alemán, pero yo ___."
+    answer: "no"
+    hint: "I don't"
+    translation: "My brother speaks German, but I don't."
+  - type: cloze
+    text: "Yo no como carne, pero mi mujer ___."
+    answer: "sí"
+    hint: "she does"
+    translation: "I don't eat meat, but my wife does."
+  - type: cloze
+    text: "A Pedro no le gusta el fútbol, y a su padre ___."
+    answer: "tampoco"
+    hint: "neither"
+    translation: "Pedro doesn't like football, and neither does his father."
+  - type: cloze
+    text: "—Me duele la cabeza. —A mí ___. Será por el calor."
+    answer: "también"
+    hint: "too"
+    translation: "\"I've got a headache.\" \"Me too. It must be the heat.\""
