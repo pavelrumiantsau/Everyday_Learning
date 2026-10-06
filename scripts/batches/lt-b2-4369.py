@@ -12,7 +12,7 @@ w|kompanija|noun|f|B1|компания (фирма; круг друзей)|13243
 w|pamanyti|verb||B1|подумать (прийти к мысли)|||pamano, pamanė
 w|anas|pron||B2|тот (дальний)|9938899|ж. р. ana; anapus — по ту сторону|
 w|valstija|noun|f|B1|штат (США и др.)|13055443||valstijos
-w|dėtis|verb||B1|происходить; прикидываться (кем); класться|2162432|Kas čia dedasi? — Что здесь происходит?; dėtis kvailiu — прикидываться дураком (тв. п.)|dedasi, dėjosi
+w|dėtis|verb||B1|происходить; прикидываться (кем)|2162432|Kas čia dedasi? — Что здесь происходит?; dėtis kvailiu — прикидываться дураком (тв. п.)|dedasi, dėjosi
 w|byla|noun|f|B1|дело (судебное); файл|13876810||bylos
 w|būrys|noun|m|B2|группа, толпа; стая; отряд|2727244||būrio
 w|gelbėti|verb||B1|спасать|13004410|gelbėti ką nuo ko — спасать кого от чего; наст. вр. также gelbėja|gelbsti, gelbėjo

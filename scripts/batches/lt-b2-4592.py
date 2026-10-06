@@ -4,7 +4,7 @@
 # Columns: kind(w/p), text, pos, gender, cefr, meaning_ru, tatoeba_id, note_ru, forms (verbs: pres, past) / genitive (nouns)
 PLURAL_ONLY = ["nuotekos"]
 ROWS = """
-w|tyrinėjimas|noun|m|B2|исследование|10544689||tyrinėjimo
+w|tyrinėjimas|noun|m|B2|исследование|11496606||tyrinėjimo
 w|girgždėti|verb||B2|скрипеть|13489725||girgžda, girgždėjo
 w|pensinis|adj||B2|пенсионный||pensinis amžius — пенсионный возраст|
 w|gedulas|noun|m|B2|траур|||gedulo

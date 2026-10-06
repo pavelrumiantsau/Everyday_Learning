@@ -73,7 +73,7 @@
   text: "dėtis"
   pos: verb
   forms: { pres: "dedasi", past: "dėjosi" }
-  meaning: { ru: "происходить; прикидываться (кем); класться" }
+  meaning: { ru: "происходить; прикидываться (кем)" }
   note: { ru: "Kas čia dedasi? — Что здесь происходит?; dėtis kvailiu — прикидываться дураком (тв. п.)" }
   examples:
     - { text: "Kas ten apačioje dedasi?", translation: "Что происходит там, внизу?", source: "tatoeba:2162432" }

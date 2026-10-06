@@ -26,7 +26,7 @@
   pos: verb
   forms: { pres: "orientuojasi", past: "orientavosi" }
   meaning: { ru: "ориентироваться; разбираться (в чём)" }
-  note: { ru: "orientuotis kuo / kur (мест. п.) — разбираться в чём" }
+  note: { ru: "orientuotis kur (мест. п.) — разбираться в чём" }
   examples:
     - { text: "Tomui buvo sunku orientuotis.", translation: "Тому было трудно ориентироваться.", source: "tatoeba:12100659" }
 - id: lt-w-4673
@@ -450,8 +450,6 @@
   gen: "žolelės"
   meaning: { ru: "травка; травы (пряные, лечебные)" }
   note: { ru: "мн. ч. žolelės — травы" }
-  examples:
-    - { text: "Ji išmano apie gydomąsias žoleles.", translation: "Она разбирается в лекарственных растениях.", source: "tatoeba:3192476" }
 - id: lt-w-4721
   type: word
   cefr: B2

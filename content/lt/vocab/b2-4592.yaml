@@ -10,7 +10,7 @@
   gen: "tyrinėjimo"
   meaning: { ru: "исследование" }
   examples:
-    - { text: "Tomas yra užimtas savo tyrinėjimais.", translation: "Том занят своими исследованиями.", source: "tatoeba:10544689" }
+    - { text: "Jo tyrinėjimai pagaliau davė vaisius.", translation: "Его исследование наконец принесло свои плоды.", source: "tatoeba:11496606" }
 - id: lt-w-4593
   type: word
   cefr: B2

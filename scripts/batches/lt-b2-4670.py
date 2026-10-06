@@ -6,7 +6,7 @@ PLURAL_ONLY = ["įkurtuvės", "pratybos"]
 ROWS = """
 p|iš tikrųjų|phrase||B1|на самом деле, действительно|10602351||
 w|poliklinika|noun|f|B1|поликлиника|13453579||poliklinikos
-w|orientuotis|verb||B1|ориентироваться; разбираться (в чём)|12100659|orientuotis kuo / kur (мест. п.) — разбираться в чём|orientuojasi, orientavosi
+w|orientuotis|verb||B1|ориентироваться; разбираться (в чём)|12100659|orientuotis kur (мест. п.) — разбираться в чём|orientuojasi, orientavosi
 w|vasarnamis|noun|m|B1|дача, летний дом|||vasarnamio
 p|iš naujo|phrase||A2|заново, снова|10279257||
 w|moksleivis|noun|m|B1|школьник, учащийся|2762080|ж. р. moksleivė|moksleivio
@@ -54,7 +54,7 @@ w|spanguolė|noun|f|B1|клюква|||spanguolės
 w|nutiesti|verb||B2|проложить (дорогу, трубу)|11523692||nutiesia, nutiesė
 w|startuolis|noun|m|B2|стартап|||startuolio
 w|teigimas|noun|m|B2|утверждение||jo teigimu — по его словам|teigimo
-w|žolelė|noun|f|B1|травка; травы (пряные, лечебные)|3192476|мн. ч. žolelės — травы|žolelės
+w|žolelė|noun|f|B1|травка; травы (пряные, лечебные)||мн. ч. žolelės — травы|žolelės
 w|savanoriauti|verb||B2|быть волонтёром|13210264||savanoriauja, savanoriavo
 w|taikinys|noun|m|B2|мишень, цель|11647551||taikinio
 w|ožys|noun|m|B1|козёл|12752425|atpirkimo ožys — козёл отпущения|ožio
