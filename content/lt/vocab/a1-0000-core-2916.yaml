@@ -1,0 +1,667 @@
+# Generated from scripts/batches/lt-a1-2916.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2916
+  type: word
+  cefr: A1
+  text: "eiti"
+  pos: verb
+  forms: { pres: "eina", past: "ėjo" }
+  meaning: { ru: "идти" }
+  note: { ru: "Наст. вр.: einu, eini, eina" }
+  examples:
+    - { text: "Kur tu eini?", translation: "Куда ты идёшь?", source: "tatoeba:732167" }
+- id: lt-w-2917
+  type: word
+  cefr: A1
+  text: "diena"
+  pos: noun
+  gender: f
+  gen: "dienos"
+  meaning: { ru: "день" }
+  examples:
+    - { text: "Visą dieną lijo.", translation: "Дождь шёл весь день.", source: "tatoeba:13157699" }
+- id: lt-w-2918
+  type: word
+  cefr: A1
+  text: "šiandien"
+  pos: adv
+  meaning: { ru: "сегодня" }
+  examples:
+    - { text: "Aš šiandien skubu.", translation: "Я сегодня тороплюсь.", source: "tatoeba:13381128" }
+- id: lt-w-2919
+  type: word
+  cefr: A1
+  text: "važiuoti"
+  pos: verb
+  forms: { pres: "važiuoja", past: "važiavo" }
+  meaning: { ru: "ехать" }
+  note: { ru: "važiuoti autobusu — ехать на автобусе (твор. п.)" }
+  examples:
+    - { text: "Ji dabar važiuoja.", translation: "Она сейчас едет.", source: "tatoeba:13190418" }
+- id: lt-w-2920
+  type: word
+  cefr: A1
+  text: "naktis"
+  pos: noun
+  gender: f
+  gen: "nakties"
+  meaning: { ru: "ночь" }
+  note: { ru: "род. п. nakties; naktį — ночью" }
+  examples:
+    - { text: "Aš dirbu naktį.", translation: "Я работаю ночью.", source: "tatoeba:13191409" }
+- id: lt-w-2921
+  type: word
+  cefr: A1
+  text: "vakar"
+  pos: adv
+  meaning: { ru: "вчера" }
+  examples:
+    - { text: "Kur vakar buvai?", translation: "Где вчера был?", source: "tatoeba:12138069" }
+- id: lt-w-2922
+  type: word
+  cefr: A1
+  text: "ateiti"
+  pos: verb
+  forms: { pres: "ateina", past: "atėjo" }
+  meaning: { ru: "прийти, приходить" }
+  examples:
+    - { text: "Jis jau atėjo.", translation: "Он уже пришёл.", source: "tatoeba:12236769" }
+- id: lt-w-2923
+  type: word
+  cefr: A1
+  text: "rytas"
+  pos: noun
+  gender: m
+  gen: "ryto"
+  meaning: { ru: "утро" }
+  note: { ru: "ryte — утром" }
+  examples:
+    - { text: "Nuo ryto sninga.", translation: "С утра идёт снег.", source: "tatoeba:12625962" }
+- id: lt-w-2924
+  type: word
+  cefr: A1
+  text: "rytoj"
+  pos: adv
+  meaning: { ru: "завтра" }
+  examples:
+    - { text: "Jis grįžta rytoj.", translation: "Он возвращается завтра.", source: "tatoeba:6003204" }
+- id: lt-w-2925
+  type: word
+  cefr: A1
+  text: "išeiti"
+  pos: verb
+  forms: { pres: "išeina", past: "išėjo" }
+  meaning: { ru: "выйти, уйти" }
+  examples:
+    - { text: "Ji nori išeiti.", translation: "Она хочет уйти.", source: "tatoeba:12161499" }
+- id: lt-w-2926
+  type: word
+  cefr: A1
+  text: "vakaras"
+  pos: noun
+  gender: m
+  gen: "vakaro"
+  meaning: { ru: "вечер" }
+  note: { ru: "vakare — вечером" }
+  examples:
+    - { text: "Aš laukiu vakaro.", translation: "Я жду вечера.", source: "tatoeba:13225977" }
+- id: lt-w-2927
+  type: word
+  cefr: A1
+  text: "dabar"
+  pos: adv
+  meaning: { ru: "сейчас, теперь" }
+  examples:
+    - { text: "Kur jūs dabar?", translation: "Вы где сейчас?", source: "tatoeba:14042629" }
+- id: lt-w-2928
+  type: word
+  cefr: A1
+  text: "nueiti"
+  pos: verb
+  forms: { pres: "nueina", past: "nuėjo" }
+  meaning: { ru: "сходить, дойти (куда-л.)" }
+  examples:
+    - { text: "Visi nuėjo namo.", translation: "Все пошли домой.", source: "tatoeba:13720559" }
+- id: lt-w-2929
+  type: word
+  cefr: A2
+  text: "popietė"
+  pos: noun
+  gender: f
+  gen: "popietės"
+  meaning: { ru: "время после полудня" }
+  note: { ru: "popiet — после обеда, днём" }
+- id: lt-w-2930
+  type: word
+  cefr: A1
+  text: "tada"
+  pos: adv
+  meaning: { ru: "тогда; потом" }
+  examples:
+    - { text: "Aš tada pietavau.", translation: "Я тогда обедал.", source: "tatoeba:12545271" }
+- id: lt-w-2931
+  type: word
+  cefr: A1
+  text: "grįžti"
+  pos: verb
+  forms: { pres: "grįžta", past: "grįžo" }
+  meaning: { ru: "вернуться, возвращаться" }
+  examples:
+    - { text: "Aš tik grįžau.", translation: "Я только вернулся.", source: "tatoeba:4877950" }
+- id: lt-w-2932
+  type: word
+  cefr: A1
+  text: "savaitė"
+  pos: noun
+  gender: f
+  gen: "savaitės"
+  meaning: { ru: "неделя" }
+  examples:
+    - { text: "Užeik kitą savaitę.", translation: "Заходи на следующей неделе.", source: "tatoeba:13643767" }
+- id: lt-w-2933
+  type: word
+  cefr: A1
+  text: "vėliau"
+  pos: adv
+  meaning: { ru: "позже, потом" }
+  examples:
+    - { text: "Aš vėliau ateisiu.", translation: "Я попозже приду.", source: "tatoeba:13808467" }
+- id: lt-w-2934
+  type: word
+  cefr: A1
+  text: "atvažiuoti"
+  pos: verb
+  forms: { pres: "atvažiuoja", past: "atvažiavo" }
+  meaning: { ru: "приехать, приезжать" }
+  examples:
+    - { text: "Ji atvažiavo mašina.", translation: "Она приехала на машине.", source: "tatoeba:12730186" }
+- id: lt-w-2935
+  type: word
+  cefr: A1
+  text: "mėnuo"
+  pos: noun
+  gender: m
+  gen: "mėnesio"
+  meaning: { ru: "месяц" }
+  note: { ru: "род. п. mėnesio; луна — mėnulis" }
+  examples:
+    - { text: "Praėjo trys mėnesiai.", translation: "Прошло три месяца.", source: "tatoeba:13423627" }
+- id: lt-w-2936
+  type: word
+  cefr: A1
+  text: "anksčiau"
+  pos: adv
+  meaning: { ru: "раньше" }
+  examples:
+    - { text: "Ką tu anksčiau darei?", translation: "Что ты раньше делал?", source: "tatoeba:13642230" }
+- id: lt-w-2937
+  type: word
+  cefr: A1
+  text: "išvažiuoti"
+  pos: verb
+  forms: { pres: "išvažiuoja", past: "išvažiavo" }
+  meaning: { ru: "уехать, уезжать; выехать" }
+  examples:
+    - { text: "Tu irgi išvažiuoji?", translation: "Ты тоже уезжаешь?", source: "tatoeba:12290902" }
+- id: lt-w-2938
+  type: word
+  cefr: A1
+  text: "metai"
+  pos: noun
+  gender: m
+  gen: "metų"
+  plural_only: true
+  meaning: { ru: "год; годы" }
+  note: { ru: "Только мн. ч.: metai, род. п. metų; šiais metais — в этом году" }
+  examples:
+    - { text: "Kiek tau metų?", translation: "Сколько тебе лет?", source: "tatoeba:566996" }
+- id: lt-w-2939
+  type: word
+  cefr: A1
+  text: "kasdien"
+  pos: adv
+  meaning: { ru: "каждый день, ежедневно" }
+  examples:
+    - { text: "Aš kasdien mokausi.", translation: "Я каждый день занимаюсь.", source: "tatoeba:13713303" }
+- id: lt-w-2940
+  type: word
+  cefr: A1
+  text: "nuvažiuoti"
+  pos: verb
+  forms: { pres: "nuvažiuoja", past: "nuvažiavo" }
+  meaning: { ru: "съездить, доехать (куда-л.)" }
+  examples:
+    - { text: "Kaip jūs nuvažiavote?", translation: "Как вы доехали?", source: "tatoeba:12209752" }
+- id: lt-w-2941
+  type: word
+  cefr: A1
+  text: "valanda"
+  pos: noun
+  gender: f
+  gen: "valandos"
+  meaning: { ru: "час" }
+  note: { ru: "Kelinta valanda? — Который час?" }
+  examples:
+    - { text: "Grįšiu po valandos.", translation: "Я вернусь через час.", source: "tatoeba:1796073" }
+- id: lt-w-2942
+  type: word
+  cefr: A1
+  text: "niekada"
+  pos: adv
+  meaning: { ru: "никогда" }
+  note: { ru: "С отрицанием глагола: niekada nebuvau — никогда не был" }
+  examples:
+    - { text: "Jis niekada neklysta.", translation: "Он никогда не ошибается.", source: "tatoeba:4679875" }
+- id: lt-w-2943
+  type: word
+  cefr: A2
+  text: "parvažiuoti"
+  pos: verb
+  forms: { pres: "parvažiuoja", past: "parvažiavo" }
+  meaning: { ru: "приехать домой, вернуться (на транспорте)" }
+  note: { ru: "pareiti — прийти домой" }
+  examples:
+    - { text: "Mes vėlai parvažiavome namo.", translation: "Мы поздно приехали домой.", source: "tatoeba:11618888" }
+- id: lt-w-2944
+  type: word
+  cefr: A1
+  text: "minutė"
+  pos: noun
+  gender: f
+  gen: "minutės"
+  meaning: { ru: "минута" }
+  examples:
+    - { text: "Duok mums minutę.", translation: "Дай нам минуту.", source: "tatoeba:2634248" }
+- id: lt-w-2945
+  type: word
+  cefr: A1
+  text: "visada"
+  pos: adv
+  meaning: { ru: "всегда" }
+  examples:
+    - { text: "Tu visada skubi.", translation: "Ты всегда торопишься.", source: "tatoeba:13425360" }
+- id: lt-w-2946
+  type: word
+  cefr: A1
+  text: "nešti"
+  pos: verb
+  forms: { pres: "neša", past: "nešė" }
+  meaning: { ru: "нести" }
+  examples:
+    - { text: "Ką neša Tomas?", translation: "Что несёт Том?", source: "tatoeba:11534071" }
+- id: lt-w-2947
+  type: word
+  cefr: A1
+  text: "savaitgalis"
+  pos: noun
+  gender: m
+  gen: "savaitgalio"
+  meaning: { ru: "выходные, конец недели" }
+  examples:
+    - { text: "Kaip praėjo savaitgalis?", translation: "Как прошли твои выходные?", source: "tatoeba:12506691" }
+- id: lt-w-2948
+  type: word
+  cefr: A1
+  text: "jau"
+  pos: adv
+  meaning: { ru: "уже" }
+  note: { ru: "jau nebe… — уже не…" }
+  examples:
+    - { text: "Ji jau žino.", translation: "Она уже знает.", source: "tatoeba:12202073" }
+- id: lt-w-2949
+  type: word
+  cefr: A1
+  text: "atnešti"
+  pos: verb
+  forms: { pres: "atneša", past: "atnešė" }
+  meaning: { ru: "принести" }
+  examples:
+    - { text: "Ką tu atnešei?", translation: "Что ты принёс?", source: "tatoeba:10769241" }
+- id: lt-w-2950
+  type: word
+  cefr: A1
+  text: "pavasaris"
+  pos: noun
+  gender: m
+  gen: "pavasario"
+  meaning: { ru: "весна" }
+  note: { ru: "pavasarį — весной" }
+  examples:
+    - { text: "Obelys žydi pavasarį.", translation: "Яблони цветут весной.", source: "tatoeba:2724988" }
+- id: lt-w-2951
+  type: word
+  cefr: A1
+  text: "dar"
+  pos: adv
+  meaning: { ru: "ещё" }
+  note: { ru: "dar ne — ещё нет" }
+  examples:
+    - { text: "Tu dar čia?", translation: "Ты ещё здесь?", source: "tatoeba:4786408" }
+- id: lt-w-2952
+  type: word
+  cefr: A1
+  text: "vežti"
+  pos: verb
+  forms: { pres: "veža", past: "vežė" }
+  meaning: { ru: "везти, возить" }
+  examples:
+    - { text: "Ji juos veža į mokyklą.", translation: "Она везёт их в школу.", source: "tatoeba:1572265" }
+- id: lt-w-2953
+  type: word
+  cefr: A1
+  text: "vasara"
+  pos: noun
+  gender: f
+  gen: "vasaros"
+  meaning: { ru: "лето" }
+  note: { ru: "vasarą — летом" }
+  examples:
+    - { text: "Vasarą dienos ilgos.", translation: "Летом дни длинные.", source: "tatoeba:13505136" }
+- id: lt-w-2954
+  type: word
+  cefr: A1
+  text: "vėl"
+  pos: adv
+  meaning: { ru: "снова, опять" }
+  examples:
+    - { text: "Ir vėl lietus!", translation: "Опять дождь!", source: "tatoeba:12519444" }
+- id: lt-w-2955
+  type: word
+  cefr: A1
+  text: "skristi"
+  pos: verb
+  forms: { pres: "skrenda", past: "skrido" }
+  meaning: { ru: "лететь" }
+  examples:
+    - { text: "Aš skrisiu lėktuvu.", translation: "Я полечу самолётом.", source: "tatoeba:11117519" }
+- id: lt-w-2956
+  type: word
+  cefr: A1
+  text: "žiema"
+  pos: noun
+  gender: f
+  gen: "žiemos"
+  meaning: { ru: "зима" }
+  note: { ru: "žiemą — зимой" }
+  examples:
+    - { text: "Žiemą čia šalta.", translation: "Зимой здесь холодно.", source: "tatoeba:11860861" }
+- id: lt-w-2957
+  type: word
+  cefr: A1
+  text: "bėgti"
+  pos: verb
+  forms: { pres: "bėga", past: "bėgo" }
+  meaning: { ru: "бежать" }
+  examples:
+    - { text: "Kur tu bėgi?", translation: "Куда ты бежишь?", source: "tatoeba:13998409" }
+- id: lt-w-2958
+  type: word
+  cefr: A1
+  text: "sausis"
+  pos: noun
+  gender: m
+  gen: "sausio"
+  meaning: { ru: "январь" }
+  note: { ru: "Названия месяцев пишутся со строчной буквы" }
+  examples:
+    - { text: "Sausį čia labai šalta.", translation: "В январе здесь очень холодно.", source: "tatoeba:12331689" }
+- id: lt-w-2959
+  type: word
+  cefr: A1
+  text: "vaikščioti"
+  pos: verb
+  forms: { pres: "vaikščioja", past: "vaikščiojo" }
+  meaning: { ru: "ходить, гулять" }
+  examples:
+    - { text: "Kur tu vaikščiojai?", translation: "Где ты гулял?", source: "tatoeba:5917291" }
+- id: lt-w-2960
+  type: word
+  cefr: A1
+  text: "vasaris"
+  pos: noun
+  gender: m
+  gen: "vasario"
+  meaning: { ru: "февраль" }
+  examples:
+    - { text: "Antras metų mėnuo yra vasaris.", translation: "Второй месяц года — февраль.", source: "tatoeba:13694801" }
+- id: lt-w-2961
+  type: word
+  cefr: A1
+  text: "plaukti"
+  pos: verb
+  forms: { pres: "plaukia", past: "plaukė" }
+  meaning: { ru: "плыть, плавать" }
+  examples:
+    - { text: "Aš nemoku plaukti.", translation: "Я не умею плавать.", source: "tatoeba:5917281" }
+- id: lt-w-2962
+  type: word
+  cefr: A1
+  text: "kovas"
+  pos: noun
+  gender: m
+  gen: "kovo"
+  meaning: { ru: "март" }
+  note: { ru: "Также «грач»" }
+  examples:
+    - { text: "Kovą Tomui bus trisdešimt.", translation: "В марте Тому будет тридцать.", source: "tatoeba:13835202" }
+- id: lt-w-2963
+  type: word
+  cefr: A1
+  text: "sustoti"
+  pos: verb
+  forms: { pres: "sustoja", past: "sustojo" }
+  meaning: { ru: "остановиться" }
+  examples:
+    - { text: "Jis iškart sustojo.", translation: "Он сразу остановился.", source: "tatoeba:13586204" }
+- id: lt-w-2964
+  type: word
+  cefr: A1
+  text: "gegužė"
+  pos: noun
+  gender: f
+  gen: "gegužės"
+  meaning: { ru: "май" }
+  examples:
+    - { text: "Aš gimiau gegužę.", translation: "Я родился в мае.", source: "tatoeba:12157135" }
+- id: lt-w-2965
+  type: word
+  cefr: A2
+  text: "lipti"
+  pos: verb
+  forms: { pres: "lipa", past: "lipo" }
+  meaning: { ru: "лезть; подниматься или спускаться (по лестнице)" }
+  note: { ru: "lipti laiptais — идти по лестнице; išlipti — выйти (из транспорта)" }
+  examples:
+    - { text: "Ei tu! Lipk čia!", translation: "Эй ты! Поднимайся сюда!", source: "tatoeba:11984298" }
+- id: lt-w-2966
+  type: word
+  cefr: A1
+  text: "birželis"
+  pos: noun
+  gender: m
+  gen: "birželio"
+  meaning: { ru: "июнь" }
+  examples:
+    - { text: "Birželio mėnesį dažnai lyja.", translation: "В июне часто идут дожди.", source: "tatoeba:11255448" }
+- id: lt-w-2967
+  type: word
+  cefr: A2
+  text: "vykti"
+  pos: verb
+  forms: { pres: "vyksta", past: "vyko" }
+  meaning: { ru: "ехать, отправляться; происходить" }
+  note: { ru: "Kas vyksta? — Что происходит?" }
+  examples:
+    - { text: "Kur vyksta mugė?", translation: "Где проходит ярмарка?", source: "tatoeba:11647467" }
+- id: lt-w-2968
+  type: word
+  cefr: A1
+  text: "liepa"
+  pos: noun
+  gender: f
+  gen: "liepos"
+  meaning: { ru: "июль" }
+  note: { ru: "Также «липа»" }
+  examples:
+    - { text: "Atostogos prasideda liepą.", translation: "Каникулы начинаются в июле.", source: "tatoeba:12681217" }
+- id: lt-w-2969
+  type: word
+  cefr: A2
+  text: "atvykti"
+  pos: verb
+  forms: { pres: "atvyksta", past: "atvyko" }
+  meaning: { ru: "прибыть, приехать" }
+  examples:
+    - { text: "Jis atvyko laiku.", translation: "Он прибыл вовремя.", source: "tatoeba:12129446" }
+- id: lt-w-2970
+  type: word
+  cefr: A1
+  text: "rugpjūtis"
+  pos: noun
+  gender: m
+  gen: "rugpjūčio"
+  meaning: { ru: "август" }
+  examples:
+    - { text: "Pas mus dabar rugpjūtis.", translation: "У нас сейчас август.", source: "tatoeba:12763860" }
+- id: lt-w-2971
+  type: word
+  cefr: A1
+  text: "rugsėjis"
+  pos: noun
+  gender: m
+  gen: "rugsėjo"
+  meaning: { ru: "сентябрь" }
+  examples:
+    - { text: "Rytoj rugsėjo pirmoji.", translation: "Завтра первое сентября.", source: "tatoeba:13855950" }
+- id: lt-w-2972
+  type: word
+  cefr: A1
+  text: "gruodis"
+  pos: noun
+  gender: m
+  gen: "gruodžio"
+  meaning: { ru: "декабрь" }
+  examples:
+    - { text: "Gruodis yra paskutinis metų mėnuo.", translation: "Декабрь - последний месяц года.", source: "tatoeba:1660092" }
+- id: lt-w-2973
+  type: word
+  cefr: A1
+  text: "oras"
+  pos: noun
+  gender: m
+  gen: "oro"
+  meaning: { ru: "погода; воздух" }
+  examples:
+    - { text: "Koks dabar oras?", translation: "Какая сейчас погода?", source: "tatoeba:10698525" }
+- id: lt-w-2974
+  type: word
+  cefr: A1
+  text: "lyti"
+  pos: verb
+  forms: { pres: "lyja", past: "lijo" }
+  meaning: { ru: "идти (о дожде)" }
+  note: { ru: "Lyja. — Идёт дождь." }
+  examples:
+    - { text: "Čia retai lyja.", translation: "Здесь редко бывает дождь.", source: "tatoeba:11740495" }
+- id: lt-w-2975
+  type: word
+  cefr: A1
+  text: "saulė"
+  pos: noun
+  gender: f
+  gen: "saulės"
+  meaning: { ru: "солнце" }
+  examples:
+    - { text: "Saulė jau kyla.", translation: "Солнце уже встаёт.", source: "tatoeba:10752364" }
+- id: lt-w-2976
+  type: word
+  cefr: A1
+  text: "snigti"
+  pos: verb
+  forms: { pres: "sninga", past: "snigo" }
+  meaning: { ru: "идти (о снеге)" }
+  note: { ru: "Sninga. — Идёт снег." }
+  examples:
+    - { text: "Snigo visą naktį.", translation: "Шёл снег всю ночь.", source: "tatoeba:630615" }
+- id: lt-w-2977
+  type: word
+  cefr: A1
+  text: "lietus"
+  pos: noun
+  gender: m
+  gen: "lietaus"
+  meaning: { ru: "дождь" }
+  note: { ru: "род. п. lietaus" }
+  examples:
+    - { text: "Aš mėgstu lietų.", translation: "Я люблю дождь.", source: "tatoeba:8356827" }
+- id: lt-w-2978
+  type: word
+  cefr: A2
+  text: "šviesti"
+  pos: verb
+  forms: { pres: "šviečia", past: "švietė" }
+  meaning: { ru: "светить" }
+  examples:
+    - { text: "Vakar švietė saulė.", translation: "Вчера светило солнце.", source: "tatoeba:12118212" }
+- id: lt-w-2979
+  type: word
+  cefr: A1
+  text: "sniegas"
+  pos: noun
+  gender: m
+  gen: "sniego"
+  meaning: { ru: "снег" }
+  examples:
+    - { text: "Vėl krinta sniegas.", translation: "Снова падает снег.", source: "tatoeba:12294078" }
+- id: lt-w-2980
+  type: word
+  cefr: A2
+  text: "rūkas"
+  pos: noun
+  gender: m
+  gen: "rūko"
+  meaning: { ru: "туман" }
+  examples:
+    - { text: "Ar lauke rūkas?", translation: "На улице туман?", source: "tatoeba:10951800" }
+- id: lt-w-2981
+  type: word
+  cefr: A1
+  text: "šaltis"
+  pos: noun
+  gender: m
+  gen: "šalčio"
+  meaning: { ru: "холод; мороз" }
+  examples:
+    - { text: "Jis dreba nuo šalčio.", translation: "Он дрожит от холода.", source: "tatoeba:2993884" }
+- id: lt-w-2982
+  type: word
+  cefr: A1
+  text: "dangus"
+  pos: noun
+  gender: m
+  gen: "dangaus"
+  meaning: { ru: "небо" }
+  note: { ru: "Мужской род; род. п. dangaus" }
+  examples:
+    - { text: "Aš matau dangų.", translation: "Я вижу небо.", source: "tatoeba:13402983" }
+- id: lt-w-2983
+  type: word
+  cefr: A1
+  text: "žvaigždė"
+  pos: noun
+  gender: f
+  gen: "žvaigždės"
+  meaning: { ru: "звезда" }
+  examples:
+    - { text: "Aš matau žvaigždę.", translation: "Я вижу звезду.", source: "tatoeba:11284837" }
+- id: lt-w-2984
+  type: word
+  cefr: A1
+  text: "mėnulis"
+  pos: noun
+  gender: m
+  gen: "mėnulio"
+  meaning: { ru: "луна" }
+  examples:
+    - { text: "Mėnulis už debesų.", translation: "Луна за облаками.", source: "tatoeba:11931505" }
