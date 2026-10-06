@@ -1,0 +1,512 @@
+# Generated from scripts/batches/lt-b2-2631.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2631
+  type: word
+  cefr: B1
+  text: "sankryža"
+  pos: noun
+  gender: f
+  gen: "sankryžos"
+  meaning: { ru: "перекрёсток" }
+  examples:
+    - { text: "Sankryžoje pasukite į dešinę.", translation: "Поверните направо на перекрёстке.", source: "tatoeba:12341575" }
+- id: lt-w-2632
+  type: word
+  cefr: B1
+  text: "aplenkti"
+  pos: verb
+  forms: { pres: "aplenkia", past: "aplenkė" }
+  meaning: { ru: "обогнать; обойти стороной" }
+  examples:
+    - { text: "Žanas mus aplenkė.", translation: "Жан нас обогнал.", source: "tatoeba:13193783" }
+- id: lt-w-2633
+  type: word
+  cefr: B2
+  text: "ilgainiui"
+  pos: adv
+  meaning: { ru: "со временем" }
+  examples:
+    - { text: "Ilgainiui tu tą suprasi.", translation: "Ты поймёшь это со временем.", source: "tatoeba:12226193" }
+- id: lt-w-2634
+  type: word
+  cefr: B1
+  text: "šviesoforas"
+  pos: noun
+  gender: m
+  gen: "šviesoforo"
+  meaning: { ru: "светофор" }
+  examples:
+    - { text: "Prie šviesoforo pasuk į dešinę.", translation: "На светофоре поверни направо.", source: "tatoeba:12188923" }
+- id: lt-w-2635
+  type: word
+  cefr: B1
+  text: "apsisukti"
+  pos: verb
+  forms: { pres: "apsisuka", past: "apsisuko" }
+  meaning: { ru: "развернуться; обернуться" }
+  examples:
+    - { text: "Tomas apsisuko ir nuėjo prie išėjimo.", translation: "Том повернулся и пошёл к выходу.", source: "tatoeba:9998416" }
+- id: lt-w-2636
+  type: word
+  cefr: B1
+  text: "kadaise"
+  pos: adv
+  meaning: { ru: "когда-то, некогда" }
+  examples:
+    - { text: "Kadaise čia buvo namai.", translation: "Когда-то здесь были дома.", source: "tatoeba:12371754" }
+- id: lt-w-2637
+  type: word
+  cefr: B1
+  text: "padanga"
+  pos: noun
+  gender: f
+  gen: "padangos"
+  meaning: { ru: "шина" }
+  note: { ru: "pradurti padangą — проколоть шину" }
+  examples:
+    - { text: "Jai dviračio padangą pradūrė.", translation: "У неё колесо на велосипеде спустило.", source: "tatoeba:13840155" }
+- id: lt-w-2638
+  type: word
+  cefr: B2
+  text: "stabtelėti"
+  pos: verb
+  forms: { pres: "stabtelėja", past: "stabtelėjo" }
+  meaning: { ru: "ненадолго остановиться, задержаться" }
+  examples:
+    - { text: "Jis stabtelėjo, kad surūkytų cigaretę.", translation: "Он приостановился, чтобы выкурить сигарету.", source: "tatoeba:11613340" }
+- id: lt-w-2639
+  type: word
+  cefr: B2
+  text: "kartkartėmis"
+  pos: adv
+  meaning: { ru: "время от времени" }
+  examples:
+    - { text: "Kartkartėmis aš einu į kiną.", translation: "Время от времени я хожу в кино.", source: "tatoeba:10668088" }
+- id: lt-w-2640
+  type: word
+  cefr: B1
+  text: "užsakyti"
+  pos: verb
+  forms: { pres: "užsako", past: "užsakė" }
+  meaning: { ru: "заказать" }
+  note: { ru: "užsakymas — заказ" }
+  examples:
+    - { text: "Kas užsakė šitą picą?", translation: "Кто заказал эту пиццу?", source: "tatoeba:12473289" }
+- id: lt-w-2641
+  type: word
+  cefr: B2
+  text: "paryčiais"
+  pos: adv
+  meaning: { ru: "под утро" }
+  examples:
+    - { text: "Man tik paryčiais pavyko užmigti.", translation: "Мне удалось заснуть только под утро.", source: "tatoeba:10512482" }
+- id: lt-w-2642
+  type: word
+  cefr: B1
+  text: "kuras"
+  pos: noun
+  gender: m
+  gen: "kuro"
+  meaning: { ru: "топливо" }
+  note: { ru: "degalai — горючее (для машин)" }
+  examples:
+    - { text: "Anglys nėra pati ekologiškiausia kuro rūšis.", translation: "Уголь — не самый экологичный вид топлива.", source: "tatoeba:13743545" }
+- id: lt-w-2643
+  type: word
+  cefr: B1
+  text: "iškeisti"
+  pos: verb
+  forms: { pres: "iškeičia", past: "iškeitė" }
+  meaning: { ru: "обменять; разменять (деньги)" }
+  note: { ru: "iškeisti ką į ką — обменять что на что" }
+  examples:
+    - { text: "Gal jūs galėtumėte man iškeisti šimto dolerių kupiūrą?", translation: "Вы не могли бы разменять мне стодолларовую купюру?", source: "tatoeba:12109297" }
+- id: lt-w-2644
+  type: word
+  cefr: B2
+  text: "pavakare"
+  pos: adv
+  meaning: { ru: "под вечер, к вечеру" }
+  examples:
+    - { text: "Pavakare gatvės atgyja.", translation: "К вечеру улицы оживают.", source: "tatoeba:13769494" }
+- id: lt-w-2645
+  type: word
+  cefr: B1
+  text: "šaligatvis"
+  pos: noun
+  gender: m
+  gen: "šaligatvio"
+  meaning: { ru: "тротуар" }
+  examples:
+    - { text: "Šaligatvis buvo slidus.", translation: "Тротуар был скользкий.", source: "tatoeba:11915073" }
+- id: lt-w-2646
+  type: word
+  cefr: B2
+  text: "brangti"
+  pos: verb
+  forms: { pres: "brangsta", past: "brango" }
+  meaning: { ru: "дорожать" }
+- id: lt-w-2647
+  type: word
+  cefr: A2
+  text: "poryt"
+  pos: adv
+  meaning: { ru: "послезавтра" }
+  note: { ru: "užvakar — позавчера" }
+  examples:
+    - { text: "Ji poryt grįš.", translation: "Она вернётся послезавтра.", source: "tatoeba:13748643" }
+- id: lt-w-2648
+  type: word
+  cefr: B1
+  text: "kelkraštis"
+  pos: noun
+  gender: m
+  gen: "kelkraščio"
+  meaning: { ru: "обочина" }
+  examples:
+    - { text: "Jie eina kelkraščiu.", translation: "Они идут по обочине дороги.", source: "tatoeba:12731810" }
+- id: lt-w-2649
+  type: word
+  cefr: B2
+  text: "pigti"
+  pos: verb
+  forms: { pres: "pinga", past: "pigo" }
+  meaning: { ru: "дешеветь" }
+- id: lt-w-2650
+  type: word
+  cefr: B2
+  text: "užpernai"
+  pos: adv
+  meaning: { ru: "в позапрошлом году" }
+  note: { ru: "pernai — в прошлом году" }
+  examples:
+    - { text: "Aš ten buvau užpernai.", translation: "Я был там в позапрошлом году.", source: "tatoeba:12956809" }
+- id: lt-w-2651
+  type: word
+  cefr: B1
+  text: "greitkelis"
+  pos: noun
+  gender: m
+  gen: "greitkelio"
+  meaning: { ru: "шоссе, автомагистраль" }
+  examples:
+    - { text: "Tomui labai patinka Vokietijos greitkeliai.", translation: "Том обожает немецкие автобаны.", source: "tatoeba:13733520" }
+- id: lt-w-2652
+  type: word
+  cefr: B1
+  text: "pakuoti"
+  pos: verb
+  forms: { pres: "pakuoja", past: "pakavo" }
+  meaning: { ru: "упаковывать; собирать (вещи)" }
+  note: { ru: "susipakuoti — собрать вещи" }
+- id: lt-w-2653
+  type: word
+  cefr: B1
+  text: "kitąmet"
+  pos: adv
+  meaning: { ru: "в следующем году" }
+  examples:
+    - { text: "Rašytojas nusprendė savo knygą išleisti kitąmet.", translation: "Писатель решил опубликовать свою книгу в следующем году.", source: "tatoeba:12867520" }
+- id: lt-w-2654
+  type: word
+  cefr: B2
+  text: "susidūrimas"
+  pos: noun
+  gender: m
+  gen: "susidūrimo"
+  meaning: { ru: "столкновение" }
+  note: { ru: "susidurti — столкнуться" }
+  examples:
+    - { text: "Tai ir privedė prie susidūrimo.", translation: "Это и привело к столкновению.", source: "tatoeba:13816577" }
+- id: lt-w-2655
+  type: word
+  cefr: B1
+  text: "nuolat"
+  pos: adv
+  meaning: { ru: "постоянно" }
+  examples:
+    - { text: "Jis nuolat skaito.", translation: "Он постоянно читает.", source: "tatoeba:12334062" }
+- id: lt-w-2656
+  type: word
+  cefr: B1
+  text: "bagažinė"
+  pos: noun
+  gender: f
+  gen: "bagažinės"
+  meaning: { ru: "багажник" }
+  examples:
+    - { text: "Bagažinėje nieko nėra.", translation: "В багажнике ничего нет.", source: "tatoeba:9304772" }
+- id: lt-w-2657
+  type: word
+  cefr: B1
+  text: "tąkart"
+  pos: adv
+  meaning: { ru: "тогда, в тот раз" }
+  examples:
+    - { text: "Tąkart Tomas nežinojo tiesos.", translation: "Том тогда не знал правды.", source: "tatoeba:12689834" }
+- id: lt-w-2658
+  type: word
+  cefr: B1
+  text: "variklis"
+  pos: noun
+  gender: m
+  gen: "variklio"
+  meaning: { ru: "двигатель, мотор" }
+  examples:
+    - { text: "Su varikliu kažkas ne taip.", translation: "С двигателем что-то не так.", source: "tatoeba:12464287" }
+- id: lt-w-2659
+  type: word
+  cefr: B2
+  text: "ligi"
+  pos: prep
+  meaning: { ru: "до" }
+  note: { ru: "= iki; ligi šiol — до сих пор" }
+  examples:
+    - { text: "To ligi šiol nebuvo.", translation: "Такого ещё не было.", source: "tatoeba:12773174" }
+- id: lt-w-2660
+  type: word
+  cefr: B1
+  text: "vairas"
+  pos: noun
+  gender: m
+  gen: "vairo"
+  meaning: { ru: "руль" }
+  note: { ru: "sėsti už vairo — сесть за руль" }
+  examples:
+    - { text: "Kas sės už vairo?", translation: "Кто сядет за руль?", source: "tatoeba:8930405" }
+- id: lt-w-2661
+  type: word
+  cefr: B2
+  text: "tuometinis"
+  pos: adj
+  meaning: { ru: "тогдашний" }
+- id: lt-w-2662
+  type: word
+  cefr: B1
+  text: "sėdynė"
+  pos: noun
+  gender: f
+  gen: "sėdynės"
+  meaning: { ru: "сиденье" }
+  examples:
+    - { text: "Tomas paprastai sėdi ant užpakalinės sėdynės.", translation: "Том обычно сидит на заднем сиденье.", source: "tatoeba:14046139" }
+- id: lt-w-2663
+  type: word
+  cefr: B1
+  text: "kasdienis"
+  pos: adj
+  meaning: { ru: "повседневный, ежедневный" }
+- id: lt-w-2664
+  type: word
+  cefr: B1
+  text: "vairavimas"
+  pos: noun
+  gender: m
+  gen: "vairavimo"
+  meaning: { ru: "вождение" }
+  note: { ru: "vairavimo egzaminas — экзамен на права" }
+  examples:
+    - { text: "Jis iš pirmo karto išlaikė vairavimo egzaminą.", translation: "Он сдал на права с первой попытки.", source: "tatoeba:13536613" }
+- id: lt-p-2665
+  type: phrase
+  cefr: B1
+  text: "laikui bėgant"
+  pos: phrase
+  meaning: { ru: "со временем" }
+  examples:
+    - { text: "Laikui bėgant žaizdos gyja.", translation: "С течением времени раны заживают.", source: "tatoeba:10039774" }
+- id: lt-w-2666
+  type: word
+  cefr: B1
+  text: "stotelė"
+  pos: noun
+  gender: f
+  gen: "stotelės"
+  meaning: { ru: "остановка (автобуса)" }
+  examples:
+    - { text: "Kur autobusų stotelė?", translation: "Где автобусная остановка?", source: "tatoeba:12849028" }
+- id: lt-w-2667
+  type: word
+  cefr: B1
+  text: "peronas"
+  pos: noun
+  gender: m
+  gen: "perono"
+  meaning: { ru: "перрон, платформа" }
+  examples:
+    - { text: "Jis pirmyn ir atgal vaikščiojo po peroną.", translation: "Он взад-вперёд ходил по перрону.", source: "tatoeba:13311954" }
+- id: lt-w-2668
+  type: word
+  cefr: B1
+  text: "perėja"
+  pos: noun
+  gender: f
+  gen: "perėjos"
+  meaning: { ru: "переход" }
+  note: { ru: "pėsčiųjų perėja — пешеходный переход" }
+- id: lt-w-2669
+  type: word
+  cefr: B1
+  text: "kontrolierius"
+  pos: noun
+  gender: m
+  gen: "kontrolieriaus"
+  meaning: { ru: "контролёр" }
+- id: lt-w-2670
+  type: word
+  cefr: B2
+  text: "įlaipinimas"
+  pos: noun
+  gender: m
+  gen: "įlaipinimo"
+  meaning: { ru: "посадка (на самолёт, судно)" }
+- id: lt-w-2671
+  type: word
+  cefr: B1
+  text: "išpardavimas"
+  pos: noun
+  gender: m
+  gen: "išpardavimo"
+  meaning: { ru: "распродажа" }
+- id: lt-w-2672
+  type: word
+  cefr: B1
+  text: "akcija"
+  pos: noun
+  gender: f
+  gen: "akcijos"
+  meaning: { ru: "акция (скидка; кампания); акция (ценная бумага)" }
+  examples:
+    - { text: "Aš ją pirkau tik todėl, kad joms buvo akcija.", translation: "Я купил её только потому, что они были по акции.", source: "tatoeba:13813854" }
+- id: lt-w-2673
+  type: word
+  cefr: B1
+  text: "kasa"
+  pos: noun
+  gender: f
+  gen: "kasos"
+  meaning: { ru: "касса" }
+  examples:
+    - { text: "Prie kasos kilo nesklandumas, nes paaiškėjo, kad neužtenka pinigų.", translation: "У кассы возникла заминка, так как выяснилось, что денег не хватает.", source: "tatoeba:11581317" }
+- id: lt-w-2674
+  type: word
+  cefr: B1
+  text: "kasininkas"
+  pos: noun
+  gender: m
+  gen: "kasininko"
+  meaning: { ru: "кассир" }
+  examples:
+    - { text: "Tomas sumokėjo kasininkui.", translation: "Том заплатил кассиру.", source: "tatoeba:2724952" }
+- id: lt-w-2675
+  type: word
+  cefr: B1
+  text: "krepšelis"
+  pos: noun
+  gender: m
+  gen: "krepšelio"
+  meaning: { ru: "корзинка (в т. ч. в интернет-магазине)" }
+- id: lt-w-2676
+  type: word
+  cefr: B1
+  text: "vežimėlis"
+  pos: noun
+  gender: m
+  gen: "vežimėlio"
+  meaning: { ru: "тележка; детская коляска" }
+  examples:
+    - { text: "Jaunas tėvas stūmė vežimėlį.", translation: "Молодой отец катил коляску.", source: "tatoeba:12563146" }
+- id: lt-w-2677
+  type: word
+  cefr: B1
+  text: "kirpėjas"
+  pos: noun
+  gender: m
+  gen: "kirpėjo"
+  meaning: { ru: "парикмахер" }
+- id: lt-w-2678
+  type: word
+  cefr: B1
+  text: "siuvėjas"
+  pos: noun
+  gender: m
+  gen: "siuvėjo"
+  meaning: { ru: "портной" }
+- id: lt-w-2679
+  type: word
+  cefr: B2
+  text: "valykla"
+  pos: noun
+  gender: f
+  gen: "valyklos"
+  meaning: { ru: "химчистка" }
+- id: lt-w-2680
+  type: word
+  cefr: B2
+  text: "dirbtuvės"
+  pos: noun
+  gender: f
+  gen: "dirbtuvių"
+  plural_only: true
+  meaning: { ru: "мастерская" }
+  note: { ru: "Только мн. ч.: dirbtuvės, род. п. dirbtuvių" }
+- id: lt-w-2681
+  type: word
+  cefr: B1
+  text: "aptarnavimas"
+  pos: noun
+  gender: m
+  gen: "aptarnavimo"
+  meaning: { ru: "обслуживание" }
+- id: lt-w-2682
+  type: word
+  cefr: B1
+  text: "pakuotė"
+  pos: noun
+  gender: f
+  gen: "pakuotės"
+  meaning: { ru: "упаковка; пачка" }
+  examples:
+    - { text: "Pas juos naujas pakuotės dizainas.", translation: "У них новый дизайн упаковки.", source: "tatoeba:12968252" }
+- id: lt-w-2683
+  type: word
+  cefr: B2
+  text: "mainai"
+  pos: noun
+  gender: m
+  gen: "mainų"
+  plural_only: true
+  meaning: { ru: "обмен" }
+  note: { ru: "Только мн. ч.: mainai, род. п. mainų; mainais — взамен" }
+  examples:
+    - { text: "Jis man davė apelsiną mainais už pyrago gabalą.", translation: "Он дал мне апельсин в обмен на кусок пирога.", source: "tatoeba:10908481" }
+- id: lt-w-2684
+  type: word
+  cefr: B2
+  text: "dešimtmetis"
+  pos: noun
+  gender: m
+  gen: "dešimtmečio"
+  meaning: { ru: "десятилетие" }
+- id: lt-w-2685
+  type: word
+  cefr: B1
+  text: "šimtmetis"
+  pos: noun
+  gender: m
+  gen: "šimtmečio"
+  meaning: { ru: "столетие, век" }
+  examples:
+    - { text: "Krokuva šimtmečius buvo Lenkijos sostinė.", translation: "На протяжении столетий Краков был столицей Польши.", source: "tatoeba:14052639" }
+- id: lt-w-2686
+  type: word
+  cefr: B1
+  text: "ketvirtis"
+  pos: noun
+  gender: m
+  gen: "ketvirčio"
+  meaning: { ru: "четверть; квартал" }
+  note: { ru: "be ketvirčio septynios — без четверти семь" }
+  examples:
+    - { text: "Be ketvirčio septynios.", translation: "Без четверти семь.", source: "tatoeba:12781611" }
