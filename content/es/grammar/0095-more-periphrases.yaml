@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0095
+cefr: B1
+order: 95
+title: "Tardo una hora en…, llevo días sin…, va mejorando: more verb phrases"
+explanation:
+  en: |
+    Lesson 45 had *seguir, llevar, acabar de, volver a, dejar de, ponerse a*. A few more, very common in speech:
+
+    - ***tardar*** + time + ***en*** + infinitive — to take (time) to do: *Tardo media hora **en** llegar al trabajo.* *¿Cuánto **tardas en** ducharte?*
+    - ***llevar*** + time + ***sin*** + infinitive — not to have done for (time), the negative of *llevar* + gerund: ***Llevo** dos días **sin** dormir.*
+    - ***ir*** + gerund — gradually, little by little: *El niño **va aprendiendo**.* As a command — start doing it: ***Ve preparando** la mesa, ahora vengo.*
+    - ***echarse a*** + *reír, llorar, correr* — to burst out, suddenly start: *Se **echó a** llorar.*
+    - ***acabar / terminar*** + gerund — to end up doing: *Al final **acabé pagando** yo.*
+    - ***terminar de / acabar de*** + infinitive — to finish doing: *¿Has **terminado de** comer?* But in the present *acabo de* + infinitive usually means "I have just done" (lesson 45).
+comparison:
+  en: |
+    With *tardar* the **person** is the subject: *(Yo) tardo una hora* — English "it takes **me** an hour". *Llevo dos días sin dormir* ≈ «я уже два дня не сплю»; *ir* + gerund ≈ «постепенно»; *echarse a llorar* ≈ «расплакаться», *echarse a reír* ≈ «рассмеяться»; *acabar* + gerund ≈ «в итоге», "to end up -ing".
+examples:
+  - { text: "¿Cuánto tiempo tarda en llegar la carta?", translation: "How long will it take for the letter to arrive?", source: "tatoeba:687541" }
+  - { text: "Ella lleva una semana sin salir.", translation: "She hasn't been outside for a week.", source: "tatoeba:10065353" }
+  - { text: "Las cosas van empeorando.", translation: "Things are getting worse.", source: "tatoeba:3666622" }
+  - { text: "Todo el mundo se echó a reír.", translation: "Everyone burst into laughter.", source: "tatoeba:1608036" }
+  - { text: "¿Quién terminó pagando la cuenta?", translation: "Who ended up paying the bill?", source: "tatoeba:5056327" }
+exercises:
+  - type: cloze
+    text: "¿Cuánto ___ en llegar al aeropuerto?"
+    answer: "tardas"
+    hint: "tardar — tú"
+    translation: "How long does it take you to get to the airport?"
+  - type: cloze
+    text: "Tardé dos horas ___ arreglar la bici."
+    answer: "en"
+    hint: "preposition"
+    translation: "It took me two hours to fix the bike."
+  - type: cloze
+    text: "Llevo tres meses ___ fumar."
+    answer: "sin"
+    hint: "without"
+    translation: "I haven't smoked for three months."
+  - type: cloze
+    text: "Mis padres ___ un año sin ver a mi hermano."
+    answer: "llevan"
+    hint: "llevar — ellos"
+    translation: "My parents haven't seen my brother for a year."
+  - type: cloze
+    text: "Los precios van ___ cada año."
+    answer: "subiendo"
+    hint: "subir — gradually"
+    translation: "Prices keep going up every year."
+  - type: cloze
+    text: "Cuando leyó la carta, se echó ___ llorar."
+    answer: "a"
+    hint: "preposition"
+    translation: "When she read the letter, she burst into tears."
+  - type: cloze
+    text: "Al final ___ quedándonos en casa."
+    answer: "acabamos"
+    also: ["terminamos"]
+    hint: "end up — nosotros, past"
+    translation: "In the end we ended up staying at home."
+  - type: cloze
+    text: "Avísame cuando ___ de trabajar."
+    answer: "termines"
+    also: ["acabes"]
+    hint: "finish — tú"
+    translation: "Let me know when you finish work."
