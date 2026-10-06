@@ -1,0 +1,668 @@
+# Generated from scripts/batches/lt-b2-3877.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-3877
+  type: word
+  cefr: B2
+  text: "apsiriboti"
+  pos: verb
+  forms: { pres: "apsiriboja", past: "apsiribojo" }
+  meaning: { ru: "ограничиться" }
+  note: { ru: "+ твор. п.: apsiriboti keliais žodžiais — ограничиться парой слов" }
+- id: lt-w-3878
+  type: word
+  cefr: B2
+  text: "simpatija"
+  pos: noun
+  gender: f
+  gen: "simpatijos"
+  meaning: { ru: "симпатия" }
+  examples:
+    - { text: "Tarp mūsų atsirado abipusė simpatija.", translation: "Между нами возникла взаимная симпатия.", source: "tatoeba:13035051" }
+- id: lt-w-3879
+  type: word
+  cefr: B1
+  text: "vilnonis"
+  pos: adj
+  meaning: { ru: "шерстяной" }
+  examples:
+    - { text: "Jis vilki vilnonį megztinį.", translation: "Он носит шерстяной свитер.", source: "tatoeba:10546244" }
+- id: lt-w-3880
+  type: word
+  cefr: B1
+  text: "emigruoti"
+  pos: verb
+  forms: { pres: "emigruoja", past: "emigravo" }
+  meaning: { ru: "эмигрировать" }
+  examples:
+    - { text: "Tomas ir jo šeima emigravo į Australiją.", translation: "Том и его семья эмигрировали в Австралию.", source: "tatoeba:11588115" }
+- id: lt-w-3881
+  type: word
+  cefr: B2
+  text: "įkūrėjas"
+  pos: noun
+  gender: m
+  gen: "įkūrėjo"
+  meaning: { ru: "основатель" }
+- id: lt-w-3882
+  type: word
+  cefr: B1
+  text: "šventinis"
+  pos: adj
+  meaning: { ru: "праздничный" }
+  examples:
+    - { text: "Tarp Velykų ir Sekminių yra daug šventinių dienų.", translation: "Между Пасхой и Троицей много праздничных дней.", source: "tatoeba:12797960" }
+- id: lt-w-3883
+  type: word
+  cefr: B1
+  text: "išalkti"
+  pos: verb
+  forms: { pres: "išalksta", past: "išalko" }
+  meaning: { ru: "проголодаться" }
+  examples:
+    - { text: "Ar tu išalkai?", translation: "Ты проголодался?", source: "tatoeba:12312599" }
+- id: lt-w-3884
+  type: word
+  cefr: B1
+  text: "obelis"
+  pos: noun
+  gender: f
+  gen: "obels"
+  meaning: { ru: "яблоня" }
+  note: { ru: "Ж. р.: obelis, род. п. obels" }
+  examples:
+    - { text: "Tomas sėdėjo po obelimi.", translation: "Том сидел под яблоней.", source: "tatoeba:10830273" }
+- id: lt-w-3885
+  type: word
+  cefr: B2
+  text: "faktinis"
+  pos: adj
+  meaning: { ru: "фактический" }
+- id: lt-w-3886
+  type: word
+  cefr: B2
+  text: "išsiversti"
+  pos: verb
+  forms: { pres: "išsiverčia", past: "išsivertė" }
+  meaning: { ru: "обойтись" }
+  note: { ru: "išsiversti be ko — обойтись без чего" }
+  examples:
+    - { text: "Mes negalime išsiversti be Tomo.", translation: "Мы не можем обойтись без Тома.", source: "tatoeba:9054174" }
+- id: lt-w-3887
+  type: word
+  cefr: B2
+  text: "partnerystė"
+  pos: noun
+  gender: f
+  gen: "partnerystės"
+  meaning: { ru: "партнёрство" }
+- id: lt-w-3888
+  type: word
+  cefr: B1
+  text: "dryžuotas"
+  pos: adj
+  meaning: { ru: "полосатый" }
+- id: lt-w-3889
+  type: word
+  cefr: B1
+  text: "nuomoti"
+  pos: verb
+  forms: { pres: "nuomoja", past: "nuomojo" }
+  meaning: { ru: "сдавать в аренду, внаём" }
+- id: lt-w-3890
+  type: word
+  cefr: B1
+  text: "tešla"
+  pos: noun
+  gender: f
+  gen: "tešlos"
+  meaning: { ru: "тесто" }
+  examples:
+    - { text: "Iškočiokite tešlą plonu sluoksniu.", translation: "Раскатайте тесто потоньше.", source: "tatoeba:3088409" }
+- id: lt-w-3891
+  type: word
+  cefr: B2
+  text: "saikingai"
+  pos: adv
+  meaning: { ru: "умеренно" }
+- id: lt-w-3892
+  type: word
+  cefr: B1
+  text: "nuomotis"
+  pos: verb
+  forms: { pres: "nuomojasi", past: "nuomojosi" }
+  meaning: { ru: "снимать, арендовать" }
+  note: { ru: "nuomotis butą — снимать квартиру" }
+  examples:
+    - { text: "Jie nuomojasi butą.", translation: "Они снимают квартиру.", source: "tatoeba:13209269" }
+- id: lt-w-3893
+  type: word
+  cefr: B2
+  text: "vidurkis"
+  pos: noun
+  gender: m
+  gen: "vidurkio"
+  meaning: { ru: "среднее (значение); средний балл" }
+- id: lt-w-3894
+  type: word
+  cefr: B2
+  text: "vienur"
+  pos: adv
+  meaning: { ru: "в одном месте" }
+  note: { ru: "vienur kitur — кое-где; vienur…, kitur… — в одном месте…, в другом…" }
+  examples:
+    - { text: "Vienur kitur po medžiais dar yra sniego.", translation: "Кое-где под деревьями ещё лежит снег.", source: "tatoeba:13890821" }
+- id: lt-w-3895
+  type: word
+  cefr: B2
+  text: "nutolti"
+  pos: verb
+  forms: { pres: "nutolsta", past: "nutolo" }
+  meaning: { ru: "отдалиться" }
+- id: lt-w-3896
+  type: word
+  cefr: B2
+  text: "visuma"
+  pos: noun
+  gender: f
+  gen: "visumos"
+  meaning: { ru: "совокупность, целое" }
+- id: lt-w-3897
+  type: word
+  cefr: B2
+  text: "bene"
+  pos: part
+  meaning: { ru: "пожалуй, едва ли не" }
+  note: { ru: "bene geriausias — едва ли не лучший" }
+- id: lt-w-3898
+  type: word
+  cefr: B2
+  text: "pakisti"
+  pos: verb
+  forms: { pres: "pakinta", past: "pakito" }
+  meaning: { ru: "измениться" }
+  examples:
+    - { text: "Mano gyvenimas pakito.", translation: "Моя жизнь изменилась.", source: "tatoeba:12289505" }
+- id: lt-w-3899
+  type: word
+  cefr: B1
+  text: "ugniagesys"
+  pos: noun
+  gender: m
+  gen: "ugniagesio"
+  meaning: { ru: "пожарный" }
+  examples:
+    - { text: "Ugniagesiai padarė, ką galėjo.", translation: "Пожарные сделали, что могли.", source: "tatoeba:12615027" }
+- id: lt-w-3900
+  type: word
+  cefr: B1
+  text: "vilna"
+  pos: noun
+  gender: f
+  gen: "vilnos"
+  meaning: { ru: "шерсть" }
+  examples:
+    - { text: "Avys mums duoda vilną.", translation: "Овцы дают нам шерсть.", source: "tatoeba:4615252" }
+- id: lt-w-3901
+  type: word
+  cefr: B1
+  text: "papuošti"
+  pos: verb
+  forms: { pres: "papuošia", past: "papuošė" }
+  meaning: { ru: "украсить" }
+  examples:
+    - { text: "Mes jį papuošėme.", translation: "Мы его украсили.", source: "tatoeba:12352291" }
+- id: lt-w-3902
+  type: word
+  cefr: B1
+  text: "garai"
+  pos: noun
+  gender: m
+  gen: "garų"
+  plural_only: true
+  meaning: { ru: "пар" }
+  note: { ru: "Обычно мн. ч.: garai, род. п. garų" }
+- id: lt-w-3903
+  type: word
+  cefr: B1
+  text: "katalogas"
+  pos: noun
+  gender: m
+  gen: "katalogo"
+  meaning: { ru: "каталог" }
+  examples:
+    - { text: "Išsirink iš katalogo.", translation: "Выбери из каталога.", source: "tatoeba:12852868" }
+- id: lt-w-3904
+  type: word
+  cefr: B2
+  text: "pasikonsultuoti"
+  pos: verb
+  forms: { pres: "pasikonsultuoja", past: "pasikonsultavo" }
+  meaning: { ru: "проконсультироваться" }
+  note: { ru: "pasikonsultuoti su kuo — проконсультироваться с кем" }
+  examples:
+    - { text: "Tau geriau pasikonsultuoti su gydytoju.", translation: "Тебе лучше проконсультироваться с доктором.", source: "tatoeba:13076351" }
+- id: lt-w-3905
+  type: word
+  cefr: B2
+  text: "patikra"
+  pos: noun
+  gender: f
+  gen: "patikros"
+  meaning: { ru: "проверка, осмотр" }
+  note: { ru: "sveikatos patikra — медосмотр" }
+- id: lt-w-3906
+  type: word
+  cefr: B1
+  text: "galvosūkis"
+  pos: noun
+  gender: m
+  gen: "galvosūkio"
+  meaning: { ru: "головоломка" }
+  examples:
+    - { text: "Šitą galvosūkį lengva išspręsti.", translation: "Эту головоломку легко решить.", source: "tatoeba:12924750" }
+- id: lt-w-3907
+  type: word
+  cefr: B2
+  text: "plėtoti"
+  pos: verb
+  forms: { pres: "plėtoja", past: "plėtojo" }
+  meaning: { ru: "развивать" }
+  note: { ru: "plėtotis — развиваться" }
+  examples:
+    - { text: "Kalba plėtojasi, ir tai natūralus procesas.", translation: "Язык развивается, и это естественный процесс.", source: "tatoeba:13054623" }
+- id: lt-w-3908
+  type: word
+  cefr: B2
+  text: "kirtis"
+  pos: noun
+  gender: m
+  gen: "kirčio"
+  meaning: { ru: "ударение (в слове); удар" }
+  examples:
+    - { text: "Ar tu žinai, kad teisingas kirtis iš tikrųjų yra pirmame skiemenyje?", translation: "Ты знаешь, что правильное ударение на самом деле — на первый слог?", source: "tatoeba:13788169" }
+- id: lt-w-3909
+  type: word
+  cefr: B2
+  text: "priskirti"
+  pos: verb
+  forms: { pres: "priskiria", past: "priskyrė" }
+  meaning: { ru: "отнести (к чему-л.), причислить; приписать" }
+  note: { ru: "priskirti prie ko — относить к чему" }
+  examples:
+    - { text: "Ilgą laiką grybus priskyrė prie augalų.", translation: "Долгое время грибы относили к растениям.", source: "tatoeba:12585537" }
+- id: lt-w-3910
+  type: word
+  cefr: B2
+  text: "trąšos"
+  pos: noun
+  gender: f
+  gen: "trąšų"
+  plural_only: true
+  meaning: { ru: "удобрения" }
+  note: { ru: "Только мн. ч.: trąšos, род. п. trąšų" }
+- id: lt-w-3911
+  type: word
+  cefr: B1
+  text: "skiepytis"
+  pos: verb
+  forms: { pres: "skiepijasi", past: "skiepijosi" }
+  meaning: { ru: "прививаться, делать прививку" }
+- id: lt-w-3912
+  type: word
+  cefr: B2
+  text: "elektrinė"
+  pos: noun
+  gender: f
+  gen: "elektrinės"
+  meaning: { ru: "электростанция" }
+  examples:
+    - { text: "Jis dirba elektrinėje.", translation: "Он работает на электростанции.", source: "tatoeba:12201815" }
+- id: lt-w-3913
+  type: word
+  cefr: B2
+  text: "suformuluoti"
+  pos: verb
+  forms: { pres: "suformuluoja", past: "suformulavo" }
+  meaning: { ru: "сформулировать" }
+- id: lt-w-3914
+  type: word
+  cefr: B2
+  text: "perteklius"
+  pos: noun
+  gender: m
+  gen: "pertekliaus"
+  meaning: { ru: "избыток, излишек" }
+- id: lt-w-3915
+  type: word
+  cefr: B2
+  text: "sunaudoti"
+  pos: verb
+  forms: { pres: "sunaudoja", past: "sunaudojo" }
+  meaning: { ru: "израсходовать, потратить" }
+  examples:
+    - { text: "Aš tam sunaudojau visas savo santaupas.", translation: "Я потратил все свои сбережения на это.", source: "tatoeba:10661196" }
+- id: lt-w-3916
+  type: word
+  cefr: B1
+  text: "rašyba"
+  pos: noun
+  gender: f
+  gen: "rašybos"
+  meaning: { ru: "правописание, орфография" }
+  examples:
+    - { text: "Jo rašyba siaubinga.", translation: "У него ужасная орфография.", source: "tatoeba:13079079" }
+- id: lt-w-3917
+  type: word
+  cefr: B1
+  text: "užšalti"
+  pos: verb
+  forms: { pres: "užšąla", past: "užšalo" }
+  meaning: { ru: "замёрзнуть (о воде), покрыться льдом" }
+  examples:
+    - { text: "Vanduo butelyje užšalo.", translation: "Вода в бутылке замёрзла.", source: "tatoeba:13704765" }
+- id: lt-w-3918
+  type: word
+  cefr: B2
+  text: "savanorystė"
+  pos: noun
+  gender: f
+  gen: "savanorystės"
+  meaning: { ru: "волонтёрство" }
+- id: lt-w-3919
+  type: word
+  cefr: B2
+  text: "įsteigti"
+  pos: verb
+  forms: { pres: "įsteigia", past: "įsteigė" }
+  meaning: { ru: "учредить, основать" }
+  examples:
+    - { text: "Mes įsteigėme humanitarinę sąjungą.", translation: "Мы основали гуманитарную ассоциацию.", source: "tatoeba:12731732" }
+- id: lt-w-3920
+  type: word
+  cefr: B2
+  text: "atotrūkis"
+  pos: noun
+  gender: m
+  gen: "atotrūkio"
+  meaning: { ru: "разрыв, отрыв (между чем-л.)" }
+- id: lt-w-3921
+  type: word
+  cefr: B2
+  text: "nykti"
+  pos: verb
+  forms: { pres: "nyksta", past: "nyko" }
+  meaning: { ru: "исчезать, вымирать" }
+  examples:
+    - { text: "Jis palaipsniui nyksta.", translation: "Он постепенно угасает.", source: "tatoeba:11161448" }
+- id: lt-w-3922
+  type: word
+  cefr: B2
+  text: "atsparumas"
+  pos: noun
+  gender: m
+  gen: "atsparumo"
+  meaning: { ru: "устойчивость, сопротивляемость" }
+- id: lt-w-3923
+  type: word
+  cefr: B2
+  text: "jungtis"
+  pos: verb
+  forms: { pres: "jungiasi", past: "jungėsi" }
+  meaning: { ru: "присоединяться; подключаться" }
+  note: { ru: "jungtis prie ko — присоединяться к чему" }
+- id: lt-w-3924
+  type: word
+  cefr: B1
+  text: "kempinė"
+  pos: noun
+  gender: f
+  gen: "kempinės"
+  meaning: { ru: "губка" }
+- id: lt-w-3925
+  type: word
+  cefr: B2
+  text: "prigyti"
+  pos: verb
+  forms: { pres: "prigyja", past: "prigijo" }
+  meaning: { ru: "прижиться" }
+- id: lt-w-3926
+  type: word
+  cefr: B2
+  text: "nepasitikėjimas"
+  pos: noun
+  gender: m
+  gen: "nepasitikėjimo"
+  meaning: { ru: "недоверие" }
+  examples:
+    - { text: "Mes klausėmės su nepasitikėjimu.", translation: "Мы слушали с недоверием.", source: "tatoeba:13538138" }
+- id: lt-w-3927
+  type: word
+  cefr: B2
+  text: "puoselėti"
+  pos: verb
+  forms: { pres: "puoselėja", past: "puoselėjo" }
+  meaning: { ru: "лелеять, беречь; развивать (традиции)" }
+  examples:
+    - { text: "Mano puoselėjama svajonė pagaliau išsipildė.", translation: "Моя заветная мечта наконец осуществилась.", source: "tatoeba:12892788" }
+- id: lt-w-3928
+  type: word
+  cefr: B2
+  text: "nuostata"
+  pos: noun
+  gender: f
+  gen: "nuostatos"
+  meaning: { ru: "установка, убеждение; положение (закона)" }
+- id: lt-w-3929
+  type: word
+  cefr: B2
+  text: "stokoti"
+  pos: verb
+  forms: { pres: "stokoja", past: "stokojo" }
+  meaning: { ru: "испытывать нехватку, не хватать" }
+  note: { ru: "+ род. п.: stokoti patirties — не хватать опыта" }
+  examples:
+    - { text: "Jis stokoja pinigų.", translation: "Он нуждается в деньгах.", source: "tatoeba:11594977" }
+- id: lt-w-3930
+  type: word
+  cefr: B2
+  text: "paskata"
+  pos: noun
+  gender: f
+  gen: "paskatos"
+  meaning: { ru: "стимул, поощрение" }
+- id: lt-w-3931
+  type: word
+  cefr: B2
+  text: "įsigilinti"
+  pos: verb
+  forms: { pres: "įsigilina", past: "įsigilino" }
+  meaning: { ru: "вникнуть, углубиться" }
+  note: { ru: "įsigilinti į ką — вникнуть во что" }
+- id: lt-w-3932
+  type: word
+  cefr: B2
+  text: "pasaulėžiūra"
+  pos: noun
+  gender: f
+  gen: "pasaulėžiūros"
+  meaning: { ru: "мировоззрение" }
+- id: lt-w-3933
+  type: word
+  cefr: B2
+  text: "toleruoti"
+  pos: verb
+  forms: { pres: "toleruoja", past: "toleravo" }
+  meaning: { ru: "терпеть, мириться" }
+  examples:
+    - { text: "Aš negaliu to toleruoti.", translation: "Я терпеть этого не могу.", source: "tatoeba:10694731" }
+- id: lt-w-3934
+  type: word
+  cefr: B1
+  text: "patogumas"
+  pos: noun
+  gender: m
+  gen: "patogumo"
+  meaning: { ru: "удобство" }
+  note: { ru: "visi patogumai — все удобства" }
+  examples:
+    - { text: "Ji mėgsta patogumus.", translation: "Она любит комфорт.", source: "tatoeba:13597117" }
+- id: lt-w-3935
+  type: word
+  cefr: B1
+  text: "užleisti"
+  pos: verb
+  forms: { pres: "užleidžia", past: "užleido" }
+  meaning: { ru: "уступить" }
+  note: { ru: "užleisti vietą — уступить место" }
+  examples:
+    - { text: "Tomas užleido pozicijas.", translation: "Том сдал позиции.", source: "tatoeba:12926344" }
+- id: lt-w-3936
+  type: word
+  cefr: B1
+  text: "pavėsis"
+  pos: noun
+  gender: m
+  gen: "pavėsio"
+  meaning: { ru: "тень (укрытие от солнца)" }
+  note: { ru: "pavėsyje — в тени; ср. šešėlis — тень (отбрасываемая)" }
+  examples:
+    - { text: "Aš atsisėdau pavėsyje.", translation: "Я сел в тени.", source: "tatoeba:11954987" }
+- id: lt-w-3937
+  type: word
+  cefr: B1
+  text: "matuoti"
+  pos: verb
+  forms: { pres: "matuoja", past: "matavo" }
+  meaning: { ru: "измерять" }
+  note: { ru: "matuotis — примерять (одежду)" }
+  examples:
+    - { text: "Jis privalo kraujospūdį matuoti kasdien.", translation: "Он должен измерять кровяное давление каждый день.", source: "tatoeba:11993235" }
+- id: lt-w-3938
+  type: word
+  cefr: B2
+  text: "priekaištas"
+  pos: noun
+  gender: m
+  gen: "priekaišto"
+  meaning: { ru: "упрёк" }
+  examples:
+    - { text: "Tai pagrįstas priekaištas.", translation: "Это справедливый упрёк.", source: "tatoeba:10820299" }
+- id: lt-w-3939
+  type: word
+  cefr: B2
+  text: "rodiklis"
+  pos: noun
+  gender: m
+  gen: "rodiklio"
+  meaning: { ru: "показатель" }
+  examples:
+    - { text: "Du šimtai žodžių per minutę yra geras skaitymo greičio rodiklis.", translation: "Двести слов в минуту — хороший показатель скорости чтения.", source: "tatoeba:13747335" }
+- id: lt-w-3940
+  type: word
+  cefr: B2
+  text: "savivertė"
+  pos: noun
+  gender: f
+  gen: "savivertės"
+  meaning: { ru: "самооценка" }
+- id: lt-w-3941
+  type: word
+  cefr: B2
+  text: "spraga"
+  pos: noun
+  gender: f
+  gen: "spragos"
+  meaning: { ru: "пробел, брешь" }
+- id: lt-w-3942
+  type: word
+  cefr: B2
+  text: "veiksnys"
+  pos: noun
+  gender: m
+  gen: "veiksnio"
+  meaning: { ru: "фактор" }
+  examples:
+    - { text: "Sąžiningumas buvo svarbiausias jo pasisekimo veiksnys.", translation: "Честность была самым важным фактором его успеха.", source: "tatoeba:12726282" }
+- id: lt-w-3943
+  type: word
+  cefr: B1
+  text: "vėliava"
+  pos: noun
+  gender: f
+  gen: "vėliavos"
+  meaning: { ru: "флаг" }
+  examples:
+    - { text: "Vėliava labai graži.", translation: "Флаг очень красивый.", source: "tatoeba:11595619" }
+- id: lt-w-3944
+  type: word
+  cefr: B1
+  text: "komedija"
+  pos: noun
+  gender: f
+  gen: "komedijos"
+  meaning: { ru: "комедия" }
+  examples:
+    - { text: "Vietoje tragedijos aš labiau mėgstu komediją.", translation: "Вместо трагедии я предпочитаю комедию.", source: "tatoeba:11993387" }
+- id: lt-w-3945
+  type: word
+  cefr: B1
+  text: "mitas"
+  pos: noun
+  gender: m
+  gen: "mito"
+  meaning: { ru: "миф" }
+  examples:
+    - { text: "Ar tai tiesa, ar mitas?", translation: "Это правда или миф?", source: "tatoeba:13054439" }
+- id: lt-w-3946
+  type: word
+  cefr: B1
+  text: "jubiliejus"
+  pos: noun
+  gender: m
+  gen: "jubiliejaus"
+  meaning: { ru: "юбилей" }
+  examples:
+    - { text: "Į poeto jubiliejaus šventę susirinko daugybė jo palikuonių.", translation: "На праздновании юбилея поэта собрались его многочисленные потомки.", source: "tatoeba:12527432" }
+- id: lt-w-3947
+  type: word
+  cefr: B1
+  text: "lęšiai"
+  pos: noun
+  gender: m
+  gen: "lęšių"
+  plural_only: true
+  meaning: { ru: "чечевица" }
+  note: { ru: "Обычно мн. ч.: lęšiai, род. п. lęšių (lęšis — также линза)" }
+  examples:
+    - { text: "Lęšiai yra geras baltymų šaltinis.", translation: "Чечевица - хороший источник белка.", source: "tatoeba:13329028" }
+- id: lt-w-3948
+  type: word
+  cefr: B1
+  text: "žirniai"
+  pos: noun
+  gender: m
+  gen: "žirnių"
+  plural_only: true
+  meaning: { ru: "горох" }
+  note: { ru: "Обычно мн. ч.: žirniai, род. п. žirnių (žirnis — горошина)" }
+- id: lt-w-3949
+  type: word
+  cefr: B1
+  text: "plunksna"
+  pos: noun
+  gender: f
+  gen: "plunksnos"
+  meaning: { ru: "перо (птичье)" }
+  examples:
+    - { text: "Olegas žolėje rado erelio plunksną.", translation: "Олег нашёл на траве орлиное перо.", source: "tatoeba:13091320" }
+- id: lt-w-3950
+  type: word
+  cefr: B1
+  text: "viela"
+  pos: noun
+  gender: f
+  gen: "vielos"
+  meaning: { ru: "проволока" }
+  examples:
+    - { text: "Laukas aptvertas spygliuota viela.", translation: "Поле окружено колючей проволокой.", source: "tatoeba:13529081" }
