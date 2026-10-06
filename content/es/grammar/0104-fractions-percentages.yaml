@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0104
+cefr: A2
+order: 104
+title: "La mitad, media hora, el doble, el 20 %, 3,5: halves, fractions, percentages"
+explanation:
+  en: |
+    **Half:**
+    - ***la mitad*** — a noun: *la mitad **del** dinero*, *la mitad de los alumnos*
+    - ***medio / media*** — an adjective, with no *un* in front: *medio kilo*, *media hora* (not ~~un medio kilo~~)
+    - "and a half" goes after the noun: *una hora **y media***, *dos kilos **y medio***
+
+    **Fractions:** ***un tercio*** (⅓), ***un cuarto*** (¼), ***tres cuartos*** (¾); also ***la tercera parte, la cuarta parte***. *Un cuarto de hora* — a quarter of an hour.
+
+    **Multiples:** ***el doble*** (twice as much), ***el triple***: *Cuesta **el doble**.* *Gana **el doble que** yo.* *Tengo **el doble de** trabajo.*
+
+    **Percentages** take an article: ***el** 20 % de la gente* — read "el veinte **por ciento**". For a rise or fall, usually ***un***: *Los precios han subido **un** 5 %.*
+
+    **Decimals:** Spain uses a **comma** — *3,5* is read "tres **coma** cinco"; thousands are grouped with a point or a space: *10.000* or *10 000*. (Mexico and some other countries use a decimal point, as in English.)
+
+    **Prices:** *2,50 €* — "dos euros **con** cincuenta" or just "dos cincuenta".
+comparison:
+  en: |
+    Russian helps: «половина» = *la mitad*, «полчаса» = *media hora*, «полтора часа» = *una hora y media*, «вдвое больше» = *el doble*, «треть» = *un tercio*, and the decimal comma is the same: *3,5*. English "half **an** hour", "**a** quarter" have an article; Spanish *media hora* has none, but *un cuarto de hora* does.
+examples:
+  - { text: "Tres es la mitad de seis.", translation: "Three is half of six.", source: "tatoeba:1245260" }
+  - { text: "Deme medio kilo de tomates.", translation: "Give me half a kilo of tomatoes.", source: "tatoeba:980431" }
+  - { text: "Yo tengo el doble de tu edad.", translation: "I'm twice your age.", source: "tatoeba:1359224" }
+  - { text: "De los seis miembros, un tercio son mujeres.", translation: "Out of the 6 members, a third are women.", source: "tatoeba:2061930" }
+  - { text: "Cada mes intento ahorrar el 10% de mi sueldo.", translation: "I try to save 10% of my wages each month.", source: "tatoeba:709321" }
+exercises:
+  - type: cloze
+    text: "Solo he leído la ___ del libro, pero me está gustando mucho."
+    answer: "mitad"
+    hint: "half"
+    translation: "I've only read half of the book, but I'm really enjoying it."
+  - type: cloze
+    text: "El autobús pasa cada ___ hora."
+    answer: "media"
+    hint: "half"
+    translation: "The bus comes every half hour."
+  - type: cloze
+    text: "Este piso es más grande, pero cuesta el ___ que el otro."
+    answer: "doble"
+    hint: "twice as much"
+    translation: "This flat is bigger, but it costs twice as much as the other one."
+  - type: cloze
+    text: "Más ___ 60 % de la población vive en ciudades."
+    answer: "del"
+    hint: "de + el"
+    translation: "More than 60% of the population lives in cities."
+  - type: cloze
+    text: "En España, 2,5 se lee «dos ___ cinco»."
+    answer: "coma"
+    hint: "decimal comma"
+    translation: "In Spain, 2.5 is read \"two point five\"."
+  - type: cloze
+    text: "Solo un ___ de los invitados llegó a tiempo; los otros dos tercios llegaron tarde."
+    answer: "tercio"
+    hint: "⅓"
+    translation: "Only a third of the guests arrived on time; the other two thirds were late."
+  - type: cloze
+    text: "Te espero un ___ de hora, ni un minuto más."
+    answer: "cuarto"
+    hint: "quarter"
+    translation: "I'll wait for you a quarter of an hour, not a minute longer."
+  - type: cloze
+    text: "El café cuesta un euro ___ veinte."
+    answer: "con"
+    hint: "price: euros … cents"
+    translation: "The coffee costs one euro twenty."
