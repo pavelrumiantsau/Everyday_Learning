@@ -178,6 +178,14 @@
 - id: lt-w-2783
   type: word
   cefr: A1
+  text: "pilnas"
+  pos: adj
+  meaning: { ru: "полный" }
+  examples:
+    - { text: "Dėžė pilna knygų.", translation: "В коробке полно книг.", source: "tatoeba:13524276" }
+- id: lt-w-2784
+  type: word
+  cefr: A1
   text: "mokėti"
   pos: verb
   forms: { pres: "moka", past: "mokėjo" }
@@ -185,14 +193,6 @@
   note: { ru: "mokėti plaukti — уметь плавать" }
   examples:
     - { text: "Tu moki plaukti.", translation: "Ты умеешь плавать.", source: "tatoeba:12144576" }
-- id: lt-w-2784
-  type: word
-  cefr: A1
-  text: "pilnas"
-  pos: adj
-  meaning: { ru: "полный" }
-  examples:
-    - { text: "Dėžė pilna knygų.", translation: "В коробке полно книг.", source: "tatoeba:13524276" }
 - id: lt-w-2785
   type: word
   cefr: A1

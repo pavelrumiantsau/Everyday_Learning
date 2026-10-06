@@ -24,8 +24,8 @@ w|košė|noun|f|A1|каша|12773749||košės
 w|kainuoti|verb||A1|стоить|5989009||kainuoja, kainavo
 w|šiltas|adj||A1|тёплый|13602061||
 w|pomidoras|noun|m|A1|помидор|13562464||pomidoro
-w|mokėti|verb||A1|1) платить; 2) уметь|12144576|mokėti plaukti — уметь плавать|moka, mokėjo
 w|pilnas|adj||A1|полный|13524276||
+w|mokėti|verb||A1|1) платить; 2) уметь|12144576|mokėti plaukti — уметь плавать|moka, mokėjo
 w|agurkas|noun|m|A1|огурец|575050||agurko
 w|brangus|adj||A1|дорогой (о цене); дорогой, милый|12932326||
 w|kopūstas|noun|m|A1|капуста|13674893||kopūsto

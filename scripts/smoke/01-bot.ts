@@ -16,7 +16,7 @@ export default async function (t: Smoke) {
   await post(msg("/lesson"));
   const polls = calls.filter((c) => c.method === "sendPoll");
   const lesson = calls.find((c) => c.method === "sendMessage");
-  check(plain(String(lesson?.body.text ?? "")).includes("laikas"), "morning lesson lists the first Lithuanian word");
+  check(plain(String(lesson?.body.text ?? "")).includes("mėsa"), "morning lesson lists the first Lithuanian word");
   check(polls.length === 8, `8 quiz polls for 15 new words (max_new_polls), got ${polls.length}`);
   check(polls.every((p) => p.body.type === "quiz" && p.body.is_anonymous === false), "polls are non-anonymous quizzes");
 
@@ -38,7 +38,7 @@ export default async function (t: Smoke) {
   calls.length = 0;
   await post(msg("/lesson"));
   const lesson2 = calls.find((c) => c.method === "sendMessage")?.body.text ?? "";
-  check(plain(lesson2).includes("skubėti") && !plain(lesson2).includes("<b>laikas</b>"), "a second lesson brings the next words (skubėti…), not the same ones");
+  check(plain(lesson2).includes("sriuba") && !plain(lesson2).includes("<b>mėsa</b>"), "a second lesson brings the next words (sriuba…), not the same ones");
 
   calls.length = 0;
   await post(msg("/today"));

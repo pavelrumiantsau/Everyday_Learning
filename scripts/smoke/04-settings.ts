@@ -25,13 +25,13 @@ export default async function (t: Smoke) {
   check(st.last30.length === 30 && st.minAnswers === 15 && typeof st.streak === "number", "stats API returns streak and 30 days");
 
   // Reverse cards appear once the meaning card is known (two correct answers, in review).
-  const recogId = "lt-w-0001:recog";
+  const recogId = "lt-w-2764:recog";
   const rev = (rating: number) => ({ id: crypto.randomUUID(), cardId: recogId, rating, reviewedAt: Date.now() });
   await api("/reviews", me, { method: "POST", body: JSON.stringify({ reviews: [rev(4)] }) });
   await api("/reviews", me, { method: "POST", body: JSON.stringify({ reviews: [rev(4)] }) });
   const q = (await (await api("/queue", me)).json()) as { cards: { cardId: string; kind: string }[] };
-  check(q.cards.some((c) => c.cardId === "lt-w-0001:prod" && c.kind === "prod"), "a known word gets a reverse card (meaning → word)");
-  check(!q.cards.some((c) => c.cardId === "lt-w-0002:prod"), "words not yet known get no reverse card");
+  check(q.cards.some((c) => c.cardId === "lt-w-2764:prod" && c.kind === "prod"), "a known word gets a reverse card (meaning → word)");
+  check(!q.cards.some((c) => c.cardId === "lt-w-2766:prod"), "words not yet known get no reverse card");
 
   // Pause: no lessons or reminders, /today says so; /pause off resumes.
   calls.length = 0;
