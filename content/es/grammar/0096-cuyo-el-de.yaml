@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0096
+cefr: B1
+order: 96
+title: "Cuyo, el de Tom, lo de ayer: whose, Tom's, the business about"
+explanation:
+  en: |
+    ***cuyo, cuya, cuyos, cuyas*** — "whose" inside a sentence (not in questions). It agrees with the **thing owned** — the noun after it — not with the owner:
+    - *un amigo **cuya** madre es médica* — *cuya* because *madre* is feminine
+    - *la mujer **cuyos** hijos conoces* — *cuyos* because of *hijos*
+    - no article after it: ~~cuyo el padre~~; a preposition goes before it: *el autor **de cuyo** libro te hablé*
+
+    *Cuyo* sounds rather written. In speech people often rephrase: *un amigo **que tiene** un padre médico*. Avoid ~~un amigo que su padre…~~ — it's a common mistake. In questions "whose" is *¿de quién?* (lesson 74).
+
+    ***el de, la de, los de, las de*** — Spanish has no 's, so the article stands for the noun:
+    - *Mi coche es más nuevo que **el de** Tom.* — than Tom's
+    - *No es mi chaqueta, es **la de** Ana.* — it's Ana's
+    - also "the one with / from": ***el de** la derecha* (the one on the right), ***la de** rojo* (the one in red)
+
+    ***lo de*** — "that business about, what happened with": *Siento **lo de** ayer.* *¿Sabes **lo de** Juan?* — Have you heard about Juan?
+comparison:
+  en: |
+    *Cuyo* = Russian «чей» in a relative clause, and it agrees the same way: «друг, **чья** мать…» = *un amigo **cuya** madre…*; Russian more often says «у которого»: «друг, у которого отец врач». English "Tom's" has no Spanish ending: *el de Tom* is like «тот, что у Тома».
+examples:
+  - { text: "Tengo un amigo cuyo padre es mago.", translation: "I have a friend whose father is a magician.", source: "tatoeba:1762527" }
+  - { text: "Este es el hombre cuya hija conociste ayer.", translation: "This is the man whose daughter you met yesterday.", source: "tatoeba:2268947" }
+  - { text: "Mi coche es más nuevo que el de Tom.", translation: "My car is newer than Tom's.", source: "tatoeba:7917556" }
+  - { text: "Es su palabra contra la de él.", translation: "It's her word against his.", source: "tatoeba:1147918" }
+  - { text: "Siento lo de ayer.", translation: "I'm sorry about yesterday.", source: "tatoeba:2045418" }
+exercises:
+  - type: cloze
+    text: "Es una escritora ___ libros se leen en todo el mundo."
+    answer: "cuyos"
+    hint: "whose"
+    translation: "She's a writer whose books are read all over the world."
+  - type: cloze
+    text: "Tengo una vecina ___ perro ladra toda la noche."
+    answer: "cuyo"
+    hint: "whose"
+    translation: "I have a neighbour whose dog barks all night."
+  - type: cloze
+    text: "Vivimos en una ciudad ___ calles son muy estrechas."
+    answer: "cuyas"
+    hint: "whose"
+    translation: "We live in a city whose streets are very narrow."
+  - type: cloze
+    text: "Hablé con la chica ___ maleta se perdió."
+    answer: "cuya"
+    hint: "whose"
+    translation: "I spoke to the girl whose suitcase got lost."
+  - type: cloze
+    text: "Mi teléfono no funciona, así que usé ___ de mi hermana."
+    answer: "el"
+    hint: "the one (teléfono)"
+    translation: "My phone isn't working, so I used my sister's."
+  - type: cloze
+    text: "Estas no son mis llaves, son ___ de Pedro."
+    answer: "las"
+    hint: "the ones"
+    translation: "These aren't my keys, they're Pedro's."
+  - type: cloze
+    text: "¿Qué camisa prefieres, la azul o ___ de rayas?"
+    answer: "la"
+    hint: "the one"
+    translation: "Which shirt do you prefer, the blue one or the striped one?"
+  - type: cloze
+    text: "¿Te has enterado de ___ de Marta? Se va a vivir a Chile."
+    answer: "lo"
+    hint: "the business about"
+    translation: "Have you heard about Marta? She's moving to Chile."
