@@ -1,0 +1,750 @@
+# Generated from scripts/batches/lt-a1-2764.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-2764
+  type: word
+  cefr: A1
+  text: "mėsa"
+  pos: noun
+  gender: f
+  gen: "mėsos"
+  meaning: { ru: "мясо" }
+  examples:
+    - { text: "Šita mėsa skani.", translation: "Это мясо вкусное.", source: "tatoeba:8347629" }
+- id: lt-w-2765
+  type: word
+  cefr: A1
+  text: "valgyti"
+  pos: verb
+  forms: { pres: "valgo", past: "valgė" }
+  meaning: { ru: "есть, кушать" }
+  examples:
+    - { text: "Ar ji valgo?", translation: "Она ест?", source: "tatoeba:13417229" }
+- id: lt-w-2766
+  type: word
+  cefr: A1
+  text: "skanus"
+  pos: adj
+  meaning: { ru: "вкусный" }
+  examples:
+    - { text: "Aš kepu skanią duoną.", translation: "Я пеку вкусный хлеб.", source: "tatoeba:8728422" }
+- id: lt-w-2767
+  type: word
+  cefr: A1
+  text: "žuvis"
+  pos: noun
+  gender: f
+  gen: "žuvies"
+  meaning: { ru: "рыба" }
+  examples:
+    - { text: "Jie valgo žuvį.", translation: "Они едят рыбу.", source: "tatoeba:5889812" }
+- id: lt-w-2768
+  type: word
+  cefr: A1
+  text: "gerti"
+  pos: verb
+  forms: { pres: "geria", past: "gėrė" }
+  meaning: { ru: "пить" }
+  examples:
+    - { text: "Tu geri kavą?", translation: "Ты пьёшь кофе?", source: "tatoeba:2209257" }
+- id: lt-w-2769
+  type: word
+  cefr: A1
+  text: "saldus"
+  pos: adj
+  meaning: { ru: "сладкий" }
+  examples:
+    - { text: "Kava per saldi.", translation: "Кофе слишком сладкий.", source: "tatoeba:13750821" }
+- id: lt-w-2770
+  type: word
+  cefr: A1
+  text: "pienas"
+  pos: noun
+  gender: m
+  gen: "pieno"
+  meaning: { ru: "молоко" }
+  examples:
+    - { text: "Jis nori pieno.", translation: "Он хочет молока.", source: "tatoeba:12760449" }
+- id: lt-w-2771
+  type: word
+  cefr: A1
+  text: "gaminti"
+  pos: verb
+  forms: { pres: "gamina", past: "gamino" }
+  meaning: { ru: "готовить (еду); производить" }
+  examples:
+    - { text: "Aš gaminu maistą.", translation: "Я готовлю еду.", source: "tatoeba:10984748" }
+- id: lt-w-2772
+  type: word
+  cefr: A1
+  text: "alkanas"
+  pos: adj
+  meaning: { ru: "голодный" }
+  examples:
+    - { text: "Ar tu alkanas?", translation: "Ты голоден?", source: "tatoeba:1678125" }
+- id: lt-w-2773
+  type: word
+  cefr: A1
+  text: "sūris"
+  pos: noun
+  gender: m
+  gen: "sūrio"
+  meaning: { ru: "сыр" }
+  examples:
+    - { text: "Sūris yra šaldytuve.", translation: "Сыр в холодильнике.", source: "tatoeba:13031778" }
+- id: lt-w-2774
+  type: word
+  cefr: A1
+  text: "virti"
+  pos: verb
+  forms: { pres: "verda", past: "virė" }
+  meaning: { ru: "варить; кипеть" }
+  note: { ru: "išvirti — сварить (сов.)" }
+  examples:
+    - { text: "Aš verdu bulves.", translation: "Я варю картошку.", source: "tatoeba:12158477" }
+- id: lt-w-2775
+  type: word
+  cefr: A1
+  text: "karštas"
+  pos: adj
+  meaning: { ru: "горячий; жаркий" }
+  examples:
+    - { text: "Jį valgo karštą.", translation: "Его едят горячим.", source: "tatoeba:12932303" }
+- id: lt-w-2776
+  type: word
+  cefr: A1
+  text: "sriuba"
+  pos: noun
+  gender: f
+  gen: "sriubos"
+  meaning: { ru: "суп" }
+  examples:
+    - { text: "Ar nori sriubos?", translation: "Хочешь супа?", source: "tatoeba:13676228" }
+- id: lt-w-2777
+  type: word
+  cefr: A1
+  text: "pirkti"
+  pos: verb
+  forms: { pres: "perka", past: "pirko" }
+  meaning: { ru: "покупать" }
+  note: { ru: "nupirkti — купить (сов.)" }
+  examples:
+    - { text: "Jie perka duoną.", translation: "Они покупают хлеб.", source: "tatoeba:3934203" }
+- id: lt-w-2778
+  type: word
+  cefr: A1
+  text: "šaltas"
+  pos: adj
+  meaning: { ru: "холодный" }
+  examples:
+    - { text: "Ar arbata šalta?", translation: "Чай холодный?", source: "tatoeba:13565354" }
+- id: lt-w-2779
+  type: word
+  cefr: A1
+  text: "košė"
+  pos: noun
+  gender: f
+  gen: "košės"
+  meaning: { ru: "каша" }
+  examples:
+    - { text: "Tomas valgo košę.", translation: "Том ест кашу.", source: "tatoeba:12773749" }
+- id: lt-w-2780
+  type: word
+  cefr: A1
+  text: "kainuoti"
+  pos: verb
+  forms: { pres: "kainuoja", past: "kainavo" }
+  meaning: { ru: "стоить" }
+  examples:
+    - { text: "Kiek kainuoja duona?", translation: "Сколько стоит хлеб?", source: "tatoeba:5989009" }
+- id: lt-w-2781
+  type: word
+  cefr: A1
+  text: "šiltas"
+  pos: adj
+  meaning: { ru: "тёплый" }
+  examples:
+    - { text: "Ar vanduo šiltas?", translation: "Вода тёплая?", source: "tatoeba:13602061" }
+- id: lt-w-2782
+  type: word
+  cefr: A1
+  text: "pomidoras"
+  pos: noun
+  gender: m
+  gen: "pomidoro"
+  meaning: { ru: "помидор" }
+  examples:
+    - { text: "Jis valgo pomidorą.", translation: "Он ест помидор.", source: "tatoeba:13562464" }
+- id: lt-w-2783
+  type: word
+  cefr: A1
+  text: "mokėti"
+  pos: verb
+  forms: { pres: "moka", past: "mokėjo" }
+  meaning: { ru: "1) платить; 2) уметь" }
+  note: { ru: "mokėti plaukti — уметь плавать" }
+  examples:
+    - { text: "Tu moki plaukti.", translation: "Ты умеешь плавать.", source: "tatoeba:12144576" }
+- id: lt-w-2784
+  type: word
+  cefr: A1
+  text: "pilnas"
+  pos: adj
+  meaning: { ru: "полный" }
+  examples:
+    - { text: "Dėžė pilna knygų.", translation: "В коробке полно книг.", source: "tatoeba:13524276" }
+- id: lt-w-2785
+  type: word
+  cefr: A1
+  text: "agurkas"
+  pos: noun
+  gender: m
+  gen: "agurko"
+  meaning: { ru: "огурец" }
+  examples:
+    - { text: "Koks ilgas agurkas!", translation: "Какой длинный огурец!", source: "tatoeba:575050" }
+- id: lt-w-2786
+  type: word
+  cefr: A1
+  text: "brangus"
+  pos: adj
+  meaning: { ru: "дорогой (о цене); дорогой, милый" }
+  examples:
+    - { text: "Dabar mėsa brangi.", translation: "Мясо сейчас дорогое.", source: "tatoeba:12932326" }
+- id: lt-w-2787
+  type: word
+  cefr: A1
+  text: "kopūstas"
+  pos: noun
+  gender: m
+  gen: "kopūsto"
+  meaning: { ru: "капуста" }
+  examples:
+    - { text: "Aš mėgstu kopūstus.", translation: "Я обожаю капусту.", source: "tatoeba:13674893" }
+- id: lt-w-2788
+  type: word
+  cefr: A1
+  text: "pigus"
+  pos: adj
+  meaning: { ru: "дешёвый" }
+  examples:
+    - { text: "Šitos prekės pigios.", translation: "Этот товар дешёвый.", source: "tatoeba:10528059" }
+- id: lt-w-2789
+  type: word
+  cefr: A1
+  text: "česnakas"
+  pos: noun
+  gender: m
+  gen: "česnako"
+  meaning: { ru: "чеснок" }
+  examples:
+    - { text: "Ar tu valgei česnaką?", translation: "Ты ел чеснок?", source: "tatoeba:12767019" }
+- id: lt-w-2790
+  type: word
+  cefr: A1
+  text: "salotos"
+  pos: noun
+  gender: f
+  gen: "salotų"
+  plural_only: true
+  meaning: { ru: "салат" }
+  note: { ru: "Обычно во мн. ч.: salotos, род. п. salotų" }
+  examples:
+    - { text: "Jie gamina salotas.", translation: "Они готовят салат.", source: "tatoeba:12160166" }
+- id: lt-w-2791
+  type: word
+  cefr: A1
+  text: "druska"
+  pos: noun
+  gender: f
+  gen: "druskos"
+  meaning: { ru: "соль" }
+  examples:
+    - { text: "Ji verda be druskos.", translation: "Она готовит без соли.", source: "tatoeba:10200999" }
+- id: lt-w-2792
+  type: word
+  cefr: A1
+  text: "kriaušė"
+  pos: noun
+  gender: f
+  gen: "kriaušės"
+  meaning: { ru: "груша" }
+  examples:
+    - { text: "Kriaušė labai skani.", translation: "Груша очень вкусная.", source: "tatoeba:12320272" }
+- id: lt-w-2793
+  type: word
+  cefr: A1
+  text: "vyšnia"
+  pos: noun
+  gender: f
+  gen: "vyšnios"
+  meaning: { ru: "вишня" }
+  examples:
+    - { text: "Šita vyšnia yra tamsiai raudona.", translation: "Эта вишня тёмно-красная.", source: "tatoeba:13275636" }
+- id: lt-w-2794
+  type: word
+  cefr: A1
+  text: "vynuogė"
+  pos: noun
+  gender: f
+  gen: "vynuogės"
+  meaning: { ru: "виноград (ягода)" }
+  note: { ru: "Обычно во мн. ч.: vynuogės — виноград" }
+  examples:
+    - { text: "Aš turiu vynuogių.", translation: "У меня есть виноград.", source: "tatoeba:12189148" }
+- id: lt-w-2795
+  type: word
+  cefr: A1
+  text: "uoga"
+  pos: noun
+  gender: f
+  gen: "uogos"
+  meaning: { ru: "ягода" }
+  examples:
+    - { text: "Uogos yra labai rūgščios.", translation: "Ягоды очень кислые.", source: "tatoeba:12941131" }
+- id: lt-w-2796
+  type: word
+  cefr: A1
+  text: "pyragas"
+  pos: noun
+  gender: m
+  gen: "pyrago"
+  meaning: { ru: "пирог" }
+  examples:
+    - { text: "Aš kepu pyragą.", translation: "Я пеку пирог.", source: "tatoeba:9715986" }
+- id: lt-w-2797
+  type: word
+  cefr: A1
+  text: "pyragaitis"
+  pos: noun
+  gender: m
+  gen: "pyragaičio"
+  meaning: { ru: "пирожное" }
+  examples:
+    - { text: "Mama labai mėgsta pyragaičius.", translation: "Мама обожает пирожные.", source: "tatoeba:11501844" }
+- id: lt-w-2798
+  type: word
+  cefr: A1
+  text: "ledai"
+  pos: noun
+  gender: m
+  gen: "ledų"
+  plural_only: true
+  meaning: { ru: "мороженое" }
+  note: { ru: "Только мн. ч.: ledai, род. п. ledų (ledas — лёд)" }
+  examples:
+    - { text: "Ar nori ledų?", translation: "Хочешь мороженого?", source: "tatoeba:10762041" }
+- id: lt-w-2799
+  type: word
+  cefr: A1
+  text: "kava"
+  pos: noun
+  gender: f
+  gen: "kavos"
+  meaning: { ru: "кофе" }
+  note: { ru: "Женский род, в отличие от русского: juoda kava" }
+  examples:
+    - { text: "Aš noriu kavos.", translation: "Я хочу кофе.", source: "tatoeba:8391792" }
+- id: lt-w-2800
+  type: word
+  cefr: A1
+  text: "arbata"
+  pos: noun
+  gender: f
+  gen: "arbatos"
+  meaning: { ru: "чай" }
+  examples:
+    - { text: "Aš gėriau arbatą.", translation: "Я пил чай.", source: "tatoeba:13375551" }
+- id: lt-w-2801
+  type: word
+  cefr: A1
+  text: "alus"
+  pos: noun
+  gender: m
+  gen: "alaus"
+  meaning: { ru: "пиво" }
+  note: { ru: "род. п. alaus" }
+  examples:
+    - { text: "Jis mėgsta alų.", translation: "Он любит пиво.", source: "tatoeba:12925127" }
+- id: lt-w-2802
+  type: word
+  cefr: A1
+  text: "vanduo"
+  pos: noun
+  gender: m
+  gen: "vandens"
+  meaning: { ru: "вода" }
+  note: { ru: "Мужской род; род. п. vandens" }
+  examples:
+    - { text: "Jie nori vandens.", translation: "Они хотят воды.", source: "tatoeba:11555604" }
+- id: lt-w-2803
+  type: word
+  cefr: A1
+  text: "vynas"
+  pos: noun
+  gender: m
+  gen: "vyno"
+  meaning: { ru: "вино" }
+  examples:
+    - { text: "Tu turi vyno.", translation: "У тебя есть вино.", source: "tatoeba:9107320" }
+- id: lt-w-2804
+  type: word
+  cefr: A1
+  text: "gėrimas"
+  pos: noun
+  gender: m
+  gen: "gėrimo"
+  meaning: { ru: "напиток" }
+  examples:
+    - { text: "Vanduo yra geras gėrimas.", translation: "Вода – хороший напиток.", source: "tatoeba:12481169" }
+- id: lt-w-2805
+  type: word
+  cefr: A1
+  text: "maistas"
+  pos: noun
+  gender: m
+  gen: "maisto"
+  meaning: { ru: "еда, пища, продукты" }
+  examples:
+    - { text: "Aš atnešiu maisto.", translation: "Я принесу еду.", source: "tatoeba:12201912" }
+- id: lt-w-2806
+  type: word
+  cefr: A1
+  text: "pietūs"
+  pos: noun
+  gender: m
+  gen: "pietų"
+  plural_only: true
+  meaning: { ru: "обед" }
+  note: { ru: "Только мн. ч.: pietūs, род. п. pietų; pietūs — также «юг»" }
+  examples:
+    - { text: "Ko tu nori pietums?", translation: "Что ты хочешь на обед?", source: "tatoeba:10513494" }
+- id: lt-w-2807
+  type: word
+  cefr: A1
+  text: "vakarienė"
+  pos: noun
+  gender: f
+  gen: "vakarienės"
+  meaning: { ru: "ужин" }
+  examples:
+    - { text: "Ačiū už vakarienę.", translation: "Спасибо за ужин.", source: "tatoeba:1620804" }
+- id: lt-w-2808
+  type: word
+  cefr: A1
+  text: "kavinė"
+  pos: noun
+  gender: f
+  gen: "kavinės"
+  meaning: { ru: "кафе" }
+  examples:
+    - { text: "Aš sėdžiu kavinėje.", translation: "Я сижу в кафе.", source: "tatoeba:13745368" }
+- id: lt-w-2809
+  type: word
+  cefr: A1
+  text: "peilis"
+  pos: noun
+  gender: m
+  gen: "peilio"
+  meaning: { ru: "нож" }
+  examples:
+    - { text: "Man reikia peilio.", translation: "Мне нужен нож.", source: "tatoeba:2757766" }
+- id: lt-w-2810
+  type: word
+  cefr: A1
+  text: "šakutė"
+  pos: noun
+  gender: f
+  gen: "šakutės"
+  meaning: { ru: "вилка" }
+  examples:
+    - { text: "Trūksta vienos šakutės.", translation: "Не хватает одной вилки.", source: "tatoeba:7273557" }
+- id: lt-w-2811
+  type: word
+  cefr: A1
+  text: "stiklinė"
+  pos: noun
+  gender: f
+  gen: "stiklinės"
+  meaning: { ru: "стакан" }
+  examples:
+    - { text: "Stiklinė yra švari.", translation: "Стакан чистый.", source: "tatoeba:12178316" }
+- id: lt-w-2812
+  type: word
+  cefr: A1
+  text: "butelis"
+  pos: noun
+  gender: m
+  gen: "butelio"
+  meaning: { ru: "бутылка" }
+  examples:
+    - { text: "Duok man butelį vyno.", translation: "Дай мне бутылку вина.", source: "tatoeba:6997188" }
+- id: lt-w-2813
+  type: word
+  cefr: A1
+  text: "galva"
+  pos: noun
+  gender: f
+  gen: "galvos"
+  meaning: { ru: "голова" }
+  examples:
+    - { text: "Man skauda galvą.", translation: "Голова у меня болит.", source: "tatoeba:2153648" }
+- id: lt-w-2814
+  type: word
+  cefr: A1
+  text: "veidas"
+  pos: noun
+  gender: m
+  gen: "veido"
+  meaning: { ru: "лицо" }
+  examples:
+    - { text: "Jo veidas pabalo.", translation: "Его лицо побледнело.", source: "tatoeba:1624448" }
+- id: lt-w-2815
+  type: word
+  cefr: A1
+  text: "akis"
+  pos: noun
+  gender: f
+  gen: "akies"
+  meaning: { ru: "глаз" }
+  note: { ru: "Женский род; род. п. akies, мн. ч. akys" }
+  examples:
+    - { text: "Jo akys rusvos.", translation: "У него карие глаза.", source: "tatoeba:13037678" }
+- id: lt-w-2816
+  type: word
+  cefr: A1
+  text: "ausis"
+  pos: noun
+  gender: f
+  gen: "ausies"
+  meaning: { ru: "ухо" }
+  note: { ru: "род. п. ausies" }
+  examples:
+    - { text: "Man skauda ausis.", translation: "У меня болят уши.", source: "tatoeba:10667069" }
+- id: lt-w-2817
+  type: word
+  cefr: A1
+  text: "nosis"
+  pos: noun
+  gender: f
+  gen: "nosies"
+  meaning: { ru: "нос" }
+  note: { ru: "Женский род; род. п. nosies" }
+  examples:
+    - { text: "Tomas pasikasė nosį.", translation: "Том почесал нос.", source: "tatoeba:3118709" }
+- id: lt-w-2818
+  type: word
+  cefr: A1
+  text: "burna"
+  pos: noun
+  gender: f
+  gen: "burnos"
+  meaning: { ru: "рот" }
+  examples:
+    - { text: "Nekalbėk pilna burna!", translation: "Не говори с полным ртом!", source: "tatoeba:13395569" }
+- id: lt-w-2819
+  type: word
+  cefr: A1
+  text: "lūpa"
+  pos: noun
+  gender: f
+  gen: "lūpos"
+  meaning: { ru: "губа" }
+  examples:
+    - { text: "Man lūpa ištino.", translation: "У меня губа распухла.", source: "tatoeba:13801649" }
+- id: lt-w-2820
+  type: word
+  cefr: A1
+  text: "dantis"
+  pos: noun
+  gender: m
+  gen: "danties"
+  meaning: { ru: "зуб" }
+  note: { ru: "Мужской род; род. п. danties, мн. ч. dantys" }
+  examples:
+    - { text: "Man skauda dantį.", translation: "У меня зуб болит.", source: "tatoeba:11334849" }
+- id: lt-w-2821
+  type: word
+  cefr: A1
+  text: "plaukai"
+  pos: noun
+  gender: m
+  gen: "plaukų"
+  plural_only: true
+  meaning: { ru: "волосы" }
+  note: { ru: "Во мн. ч. (plaukas — волос, волосок); род. п. plaukų" }
+  examples:
+    - { text: "Jų plaukai ilgi.", translation: "У них длинные волосы.", source: "tatoeba:13398144" }
+- id: lt-w-2822
+  type: word
+  cefr: A1
+  text: "kaklas"
+  pos: noun
+  gender: m
+  gen: "kaklo"
+  meaning: { ru: "шея" }
+  examples:
+    - { text: "Dar skauda kaklą.", translation: "Шея ещё болит.", source: "tatoeba:13721332" }
+- id: lt-w-2823
+  type: word
+  cefr: A1
+  text: "petys"
+  pos: noun
+  gender: m
+  gen: "peties"
+  meaning: { ru: "плечо" }
+  note: { ru: "род. п. peties, мн. ч. pečiai" }
+  examples:
+    - { text: "Jo platūs pečiai.", translation: "У него широкие плечи.", source: "tatoeba:10686036" }
+- id: lt-w-2824
+  type: word
+  cefr: A1
+  text: "ranka"
+  pos: noun
+  gender: f
+  gen: "rankos"
+  meaning: { ru: "рука" }
+  examples:
+    - { text: "Ar rankas plovei?", translation: "Руки мыл?", source: "tatoeba:12160197" }
+- id: lt-w-2825
+  type: word
+  cefr: A1
+  text: "pirštas"
+  pos: noun
+  gender: m
+  gen: "piršto"
+  meaning: { ru: "палец" }
+  examples:
+    - { text: "Pirštas yra rankos dalis.", translation: "Палец является частью руки.", source: "tatoeba:11452994" }
+- id: lt-w-2826
+  type: word
+  cefr: A1
+  text: "koja"
+  pos: noun
+  gender: f
+  gen: "kojos"
+  meaning: { ru: "нога" }
+  examples:
+    - { text: "Man skauda koją.", translation: "У меня болит нога.", source: "tatoeba:10752129" }
+- id: lt-w-2827
+  type: word
+  cefr: A1
+  text: "kelis"
+  pos: noun
+  gender: m
+  gen: "kelio"
+  meaning: { ru: "колено" }
+  note: { ru: "род. п. kelio (как у kelias — дорога)" }
+  examples:
+    - { text: "Man skauda kelius, aš negaliu bėgti.", translation: "У меня колени болят, я не могу бежать.", source: "tatoeba:12511918" }
+- id: lt-w-2828
+  type: word
+  cefr: A2
+  text: "pėda"
+  pos: noun
+  gender: f
+  gen: "pėdos"
+  meaning: { ru: "стопа, ступня" }
+- id: lt-w-2829
+  type: word
+  cefr: A1
+  text: "pilvas"
+  pos: noun
+  gender: m
+  gen: "pilvo"
+  meaning: { ru: "живот" }
+  examples:
+    - { text: "Man skauda pilvą.", translation: "У меня болит живот.", source: "tatoeba:2191866" }
+- id: lt-w-2830
+  type: word
+  cefr: A1
+  text: "nugara"
+  pos: noun
+  gender: f
+  gen: "nugaros"
+  meaning: { ru: "спина" }
+  examples:
+    - { text: "Man skauda nugarą.", translation: "У меня болит спина.", source: "tatoeba:12225856" }
+- id: lt-w-2831
+  type: word
+  cefr: A2
+  text: "krūtinė"
+  pos: noun
+  gender: f
+  gen: "krūtinės"
+  meaning: { ru: "грудь, грудная клетка" }
+  examples:
+    - { text: "Tomas sukryžiavo rankas ant krūtinės.", translation: "Том скрестил руки на груди.", source: "tatoeba:3990476" }
+- id: lt-w-2832
+  type: word
+  cefr: A1
+  text: "širdis"
+  pos: noun
+  gender: f
+  gen: "širdies"
+  meaning: { ru: "сердце" }
+  note: { ru: "Женский род; род. п. širdies" }
+  examples:
+    - { text: "Jo širdis plaka.", translation: "У него бьётся сердце.", source: "tatoeba:13688297" }
+- id: lt-w-2833
+  type: word
+  cefr: A2
+  text: "kraujas"
+  pos: noun
+  gender: m
+  gen: "kraujo"
+  meaning: { ru: "кровь" }
+  note: { ru: "Мужской род" }
+  examples:
+    - { text: "Ar tai kraujas?", translation: "Это кровь?", source: "tatoeba:4627853" }
+- id: lt-w-2834
+  type: word
+  cefr: A2
+  text: "oda"
+  pos: noun
+  gender: f
+  gen: "odos"
+  meaning: { ru: "кожа" }
+  examples:
+    - { text: "Jo balta oda.", translation: "У него белая кожа.", source: "tatoeba:14024777" }
+- id: lt-w-2835
+  type: word
+  cefr: A1
+  text: "kūnas"
+  pos: noun
+  gender: m
+  gen: "kūno"
+  meaning: { ru: "тело" }
+  examples:
+    - { text: "Man skauda visą kūną.", translation: "У меня болит всё тело.", source: "tatoeba:1660615" }
+- id: lt-w-2836
+  type: word
+  cefr: A2
+  text: "liežuvis"
+  pos: noun
+  gender: m
+  gen: "liežuvio"
+  meaning: { ru: "язык (орган)" }
+  note: { ru: "Язык как речь — kalba" }
+  examples:
+    - { text: "Tomas iškišo liežuvį.", translation: "Том высунул язык.", source: "tatoeba:12360660" }
+- id: lt-w-2837
+  type: word
+  cefr: A2
+  text: "kakta"
+  pos: noun
+  gender: f
+  gen: "kaktos"
+  meaning: { ru: "лоб" }
+  examples:
+    - { text: "Aš jį pabučiavau į kaktą.", translation: "Я поцеловала его в лоб.", source: "tatoeba:14049023" }
+- id: lt-w-2838
+  type: word
+  cefr: A2
+  text: "smakras"
+  pos: noun
+  gender: m
+  gen: "smakro"
+  meaning: { ru: "подбородок" }
+  examples:
+    - { text: "Ji turi dvigubą smakrą.", translation: "У неё двойной подбородок.", source: "tatoeba:3149682" }
