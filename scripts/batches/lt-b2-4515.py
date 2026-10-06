@@ -21,7 +21,7 @@ w|išlįsti|verb||B1|вылезти|4142997||išlenda, išlindo
 w|gausu|adv||B2|много, в изобилии|13352311|+ род. п.: čia gausu grybų — здесь много грибов|
 w|rinktinė|noun|f|B1|сборная (команда)|||rinktinės
 w|išvysti|verb||B2|увидеть (книжн.)|12206274||išvysta, išvydo
-w|savižudybė|noun|f|B2|самоубийство|10191690||savižudybės
+w|savižudybė|noun|f|B2|самоубийство|||savižudybės
 w|susijaudinęs|adj||B1|взволнованный|10832175|ж. р. susijaudinusi (причастие от susijaudinti)|
 w|nubėgti|verb||B1|убежать; сбегать (куда-то)|11795082||nubėga, nubėgo
 w|artimieji|noun|m|B1|близкие, родные||Только мн. ч.: artimieji, род. п. artimųjų (от artimas — близкий)|artimųjų
@@ -62,7 +62,7 @@ w|sumalti|verb||B2|смолоть|||sumala, sumalė
 w|ruginis|adj||B1|ржаной||ruginė duona — ржаной хлеб|
 w|raumuo|noun|m|B1|мышца||род. п. raumens, мн. ч. raumenys|raumens
 w|apgyvendinti|verb||B2|поселить, расселить; населить|11547829||apgyvendina, apgyvendino
-w|reikiamas|adj||B2|нужный, необходимый|12981825||
+w|reikiamas|adj||B2|нужный, необходимый|||
 w|radinys|noun|m|B2|находка|13775410||radinio
 w|nusakyti|verb||B2|описать, выразить (словами)|||nusako, nusakė
 w|stulbinamas|adj||B2|поразительный|||

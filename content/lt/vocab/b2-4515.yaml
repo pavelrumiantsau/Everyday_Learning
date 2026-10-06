@@ -165,8 +165,6 @@
   gender: f
   gen: "savižudybės"
   meaning: { ru: "самоубийство" }
-  examples:
-    - { text: "Tomas baigė gyvenimą savižudybe.", translation: "Том покончил жизнь самоубийством.", source: "tatoeba:10191690" }
 - id: lt-w-4533
   type: word
   cefr: B1
@@ -502,8 +500,6 @@
   text: "reikiamas"
   pos: adj
   meaning: { ru: "нужный, необходимый" }
-  examples:
-    - { text: "Rytoj imsimės reikiamų žingsnių.", translation: "Завтра мы предпримем необходимые шаги.", source: "tatoeba:12981825" }
 - id: lt-w-4574
   type: word
   cefr: B2
