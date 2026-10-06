@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0103
+cefr: B1
+order: 103
+title: "Me hizo reír, déjame pensar: hacer and dejar + infinitive"
+explanation:
+  en: |
+    ***hacer*** + infinitive — to make someone do something, to cause it:
+    - *Esta canción me **hace** pensar en ti.*
+    - *Nos **hizo** esperar una hora.* — He kept us waiting an hour.
+    - ***hacer sentir***: *Me **haces** sentir joven.*
+
+    ***dejar*** + infinitive — to let, to allow:
+    - *Mi jefe no me **deja** trabajar desde casa.*
+    - ***Déjame** ver.* — Let me see. ***Déjame** ayudarte.* — Let me help you.
+
+    The person is an object pronoun in front of the main verb: ***me, te, nos***, and ***lo / la, los / las*** (often ***le / les*** in Spain): *La hizo llorar.* *No **lo** dejan entrar.*
+
+    The same with a full clause — ***hacer que / dejar que*** + subjunctive:
+    - *El calor **hace que** todo el mundo **esté** de mal humor.*
+    - *No **dejes que** se **enfríe** la sopa.* — Don't let the soup get cold.
+    - after a past verb, imperfect subjunctive: *La noticia **hizo que** todos se **rieran**.*
+
+    Don't confuse with ***dejar de*** + infinitive = to stop doing (lesson 45): *Dejé de fumar.*
+comparison:
+  en: |
+    English works the same: "make me laugh" = *hacerme reír*, "let me think" = *déjame pensar*, with no "to" in either language. Russian often has one verb for it: «рассмешить» = *hacer reír*, «довести до слёз» = *hacer llorar*, «заставить ждать» = *hacer esperar*, «пусти меня» = *déjame entrar*.
+examples:
+  - { text: "Eso me hizo reír.", translation: "That made me laugh.", source: "tatoeba:1688059" }
+  - { text: "¿Cómo te hace sentir eso?", translation: "How does that make you feel?", source: "tatoeba:3527497" }
+  - { text: "Mi padre me hizo lavar el coche.", translation: "My father made me wash the car.", source: "tatoeba:580190" }
+  - { text: "Mis padres me dejan ir allí.", translation: "My parents let me go there.", source: "tatoeba:1392321" }
+  - { text: "No dejes que se vaya.", translation: "Don't let him go.", source: "tatoeba:1778402" }
+exercises:
+  - type: cloze
+    text: "Esta película siempre me ___ llorar."
+    answer: "hace"
+    hint: "hacer, present"
+    translation: "This film always makes me cry."
+  - type: cloze
+    text: "El profesor nos ___ repetir el ejercicio tres veces."
+    answer: "hizo"
+    hint: "hacer, preterite"
+    translation: "The teacher made us repeat the exercise three times."
+  - type: cloze
+    text: "Cuando tenía quince años, mis padres no me ___ salir por la noche."
+    answer: "dejaban"
+    hint: "dejar, imperfect"
+    translation: "When I was fifteen, my parents didn't let me go out at night."
+  - type: cloze
+    text: "___ pensar un momento, por favor."
+    answer: "Déjame"
+    hint: "let me (tú)"
+    translation: "Let me think for a moment, please."
+  - type: cloze
+    text: "Ayer tus palabras me ___ sentir mucho mejor."
+    answer: "hicieron"
+    hint: "hacer, preterite"
+    translation: "Yesterday your words made me feel much better."
+  - type: cloze
+    text: "El ruido de la calle no me ___ dormir."
+    answer: "deja"
+    hint: "dejar, present"
+    translation: "The noise from the street doesn't let me sleep."
+  - type: cloze
+    text: "No ___ que los niños jueguen con fuego."
+    answer: "dejes"
+    hint: "dejar, tú (negative command)"
+    translation: "Don't let the children play with fire."
+  - type: cloze
+    text: "La lluvia hizo que el partido ___ una hora tarde."
+    answer: "empezara"
+    also: ["empezase"]
+    hint: "empezar"
+    translation: "The rain made the match start an hour late."
