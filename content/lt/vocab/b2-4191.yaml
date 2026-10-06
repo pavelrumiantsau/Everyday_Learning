@@ -680,8 +680,6 @@
   gender: m
   gen: "tikėjimo"
   meaning: { ru: "вера" }
-  examples:
-    - { text: "Žmogus be tikėjimo, tai kaip žuvis be dviračio.", translation: "Человек без веры как рыба без велосипеда.", source: "tatoeba:13271763" }
 - id: lt-w-4263
   type: word
   cefr: B1

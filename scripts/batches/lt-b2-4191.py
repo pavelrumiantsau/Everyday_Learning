@@ -76,7 +76,7 @@ w|atimti|verb||B1|отнять|12570849||atima, atėmė
 w|mėginti|verb||B1|пытаться, пробовать|12319196|= bandyti|mėgina, mėgino
 w|kontrolė|noun|f|B1|контроль|||kontrolės
 w|antraip|adv||B2|иначе, в противном случае|||
-w|tikėjimas|noun|m|B1|вера|13271763||tikėjimo
+w|tikėjimas|noun|m|B1|вера|||tikėjimo
 w|laukan|adv||B1|наружу, вон|13520693|Eik laukan! — Выйди вон!; ср. lauke — на улице|
 w|prisiekti|verb||B1|поклясться|13878240||prisiekia, prisiekė
 w|pavogti|verb||B1|украсть|12292999||pavagia, pavogė
