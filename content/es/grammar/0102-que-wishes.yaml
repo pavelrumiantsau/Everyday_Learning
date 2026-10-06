@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0102
+cefr: B1
+order: 102
+title: "¡Que aproveche!, ¡que te mejores!, que pase: wishes and requests with que"
+explanation:
+  en: |
+    ***Que*** + present subjunctive at the start of a sentence is a wish or a request — a shortened *Espero que… / Quiero que…*.
+
+    **Everyday wishes:**
+    - ***¡Que aproveche!*** — Enjoy your meal (said to people who are eating)
+    - ***¡Que te mejores!*** — Get well soon
+    - ***¡Que lo pases bien!*** — Have a good time
+    - ***¡Que descanses!*** — Have a good rest / Sleep well
+    - ***¡Que te vaya bien!*** — All the best
+    - ***¡Que cumplas muchos más!*** — Many happy returns (on a birthday)
+
+    The verb follows the person you speak to: *¡Que **tengas** buen viaje!* (tú), *¡Que **tenga** buen viaje!* (usted), *¡Que lo **paséis** bien!* (vosotros).
+
+    **"Let him / let them"** — a command for someone else: *¡Que **espere**!* — Let him wait. *Que lo **diga** ella.* — Let her say it.
+
+    **Passing on a message:** —*¿Qué dice papá?* —*Que **vengas**.* — He says you should come (a request → subjunctive). But —*Que **viene**.* — He says he's coming (news → indicative).
+comparison:
+  en: |
+    Russian uses «пусть» for the third person: «Пусть подождёт» = *¡Que espere!* Russian and English wishes are often imperatives or nouns — «Выздоравливай!», «Приятного аппетита!», "Get well soon!" — where Spanish prefers *que* + subjunctive: *¡Que te mejores!*, *¡Que aproveche!* A plain command (*¡Diviértete!*) also exists, but the *que* form is the usual friendly wish.
+examples:
+  - { text: "¡Que te mejores!", translation: "Get well soon!", source: "tatoeba:645709" }
+  - { text: "Que tengas un buen día.", translation: "Have a nice day.", source: "tatoeba:336528" }
+  - { text: "¡Que te diviertas!", translation: "Have fun!", source: "tatoeba:466699" }
+  - { text: "Que lo haga otro, por favor.", translation: "Please have someone else do it.", source: "tatoeba:1665547" }
+  - { text: "Que no se te olvide el paraguas.", translation: "Don't forget your umbrella.", source: "tatoeba:1813119" }
+exercises:
+  - type: cloze
+    text: "—Mañana tengo el examen de conducir. —¡Que ___ suerte!"
+    answer: "tengas"
+    hint: "tener, tú"
+    translation: "\"Tomorrow I have my driving test.\" \"Good luck!\""
+  - type: cloze
+    text: "¡Feliz cumpleaños, abuela! Que ___ muchos más."
+    answer: "cumplas"
+    hint: "cumplir, tú"
+    translation: "Happy birthday, Grandma! Many happy returns."
+  - type: cloze
+    text: "¡Buen viaje, chicos! Que lo ___ muy bien en Mallorca."
+    answer: "paséis"
+    hint: "pasar, vosotros"
+    translation: "Have a good trip, guys! Have a great time in Mallorca."
+  - type: cloze
+    text: "Gracias por todo, señora. Que ___ un buen fin de semana."
+    answer: "tenga"
+    hint: "tener, usted"
+    translation: "Thank you for everything, madam. Have a nice weekend."
+  - type: cloze
+    text: "—Ha llegado el señor García. —Muy bien, que ___."
+    answer: "pase"
+    hint: "pasar (let him come in)"
+    translation: "\"Mr García has arrived.\" \"Very good, show him in.\""
+  - type: cloze
+    text: "Yo hoy no tengo tiempo; que lo ___ tu hermano."
+    answer: "haga"
+    hint: "hacer"
+    translation: "I haven't got time today; let your brother do it."
+  - type: cloze
+    text: "—¿Qué te ha dicho tu madre? —Que ___ a casa antes de las diez."
+    answer: "vuelva"
+    hint: "volver, yo (a request)"
+    translation: "\"What did your mother tell you?\" \"To be home before ten.\""
+  - type: cloze
+    text: "—¿Qué dice Ana en el mensaje? —Que ___ tarde, que hay mucho tráfico."
+    answer: "llega"
+    also: ["llegará"]
+    hint: "llegar, ella (news)"
+    translation: "\"What does Ana say in the message?\" \"That she'll be late, there's a lot of traffic.\""
