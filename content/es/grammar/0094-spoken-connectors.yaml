@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0094
+cefr: B1
+order: 94
+title: "Es que…, o sea, pues, bueno, a ver: small words of spoken Spanish"
+explanation:
+  en: |
+    These little words make speech sound natural — and give you a second to think:
+    - ***es que***, ***lo que pasa es que*** — "it's just that", "the thing is": an explanation or excuse. *—¿Vienes? —No puedo, **es que** tengo que trabajar.*
+    - ***o sea*** — I mean, in other words, so: *Llega el día 3, **o sea**, el lunes.* *¿**O sea que** no vienes?*
+    - ***pues*** — well, then (starting an answer or a reaction): *—¿Qué hacemos? —**Pues** no sé.*
+    - ***bueno*** — well, OK (accepting, changing the topic, correcting yourself): ***Bueno**, me voy.* *Son diez… **bueno**, once.*
+    - ***a ver*** — let's see: ***A ver**, ¿qué pasa aquí?*
+    - ***vale*** — OK (Spain); in Latin America *de acuerdo, está bien*, and in many countries *dale*
+    - ***oye, mira*** — hey, look (to get attention); with *usted*: *oiga, mire*
+    - ***¿no?, ¿verdad?*** — at the end, "right?": *Eres de Vilna, **¿no?***
+comparison:
+  en: |
+    Rough Russian matches: *es que* ≈ «просто…, дело в том, что», *o sea* ≈ «то есть», *pues* ≈ «ну», *bueno* ≈ «ладно, ну», *a ver* ≈ «так, посмотрим», *vale* ≈ «ок, договорились», *¿no?* ≈ «да?». Like English "like", *o sea* sounds sloppy if it's in every sentence — use these words, but not all the time.
+examples:
+  - { text: "Lo que pasa es que no me gusta.", translation: "It's just that I don't like it.", source: "tatoeba:4687473" }
+  - { text: "¿O sea que no le dijiste nada?", translation: "You mean you didn't tell him anything?", source: "tatoeba:1467868" }
+  - { text: "A ver qué pasa.", translation: "Let's see what happens.", source: "tatoeba:1654707" }
+  - { text: "Pues vámonos.", translation: "Well, let's go.", source: "tatoeba:764739" }
+  - { text: "Eres Tom, ¿no?", translation: "You're Tom, right?", source: "tatoeba:9969845" }
+exercises:
+  - type: cloze
+    text: "—¿Por qué no comes? —___ que no tengo hambre."
+    answer: "Es"
+    hint: "it's just that"
+    translation: "—Why aren't you eating? —It's just that I'm not hungry."
+  - type: cloze
+    text: "Lo que ___ es que no tengo tiempo."
+    answer: "pasa"
+    hint: "the thing is"
+    translation: "The thing is, I don't have time."
+  - type: cloze
+    text: "Vuelve el día 15, o ___, dentro de dos semanas."
+    answer: "sea"
+    hint: "I mean"
+    translation: "He's back on the 15th, I mean, in two weeks."
+  - type: cloze
+    text: "—¿Qué quieres cenar? —___ no sé, algo ligero."
+    answer: "Pues"
+    hint: "well"
+    translation: "—What do you want for dinner? —Well, I don't know, something light."
+  - type: cloze
+    text: "—Nos vemos a las ocho. —___, hasta luego."
+    answer: "Vale"
+    also: ["Bueno"]
+    hint: "OK — Spain"
+    translation: "—See you at eight. —OK, see you later."
+  - type: cloze
+    text: "A ___, déjame pensar."
+    answer: "ver"
+    hint: "let's see"
+    translation: "Let's see, let me think."
+  - type: cloze
+    text: "___, ¿tienes un momento?"
+    answer: "Oye"
+    hint: "hey — tú"
+    translation: "Hey, have you got a moment?"
+  - type: cloze
+    text: "Vives en Madrid, ¿___?"
+    answer: "no"
+    also: ["verdad"]
+    hint: "right?"
+    translation: "You live in Madrid, right?"
