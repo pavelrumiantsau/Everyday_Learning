@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0090
+cefr: B1
+order: 90
+title: "Llegué, llovía, ya se había ido: past tenses in a story — a review"
+explanation:
+  en: |
+    A story in the past uses three tenses together:
+    - **preterite** (*llegué, vi*) — the **events**, what happened next. Also a closed period or a counted number of times: *Viví allí dos años.* *Fui tres veces.*
+    - **imperfect** (*llovía, era*) — the **background**: time, weather, age, description, feelings, what was going on, habits: *Era de noche. Llovía. Tenía diez años.*
+    - **pluperfect** (*había salido*, lesson 33) — one step **further back**, before the moment of the story: *Cuando llegué, la clase ya **había empezado**.*
+
+    Three quick questions:
+    - Does it answer "and then what happened?" → preterite.
+    - Is it the scene, a state, "was …-ing" or "used to"? → imperfect.
+    - Did it happen **before** another past event? → pluperfect.
+
+    Typical words: preterite — *de repente, entonces, ayer, una vez*; imperfect — *siempre, a menudo, todos los días, mientras*; pluperfect — *ya, todavía no, nunca antes*.
+comparison:
+  en: |
+    Russian aspect helps only half the way: «вдруг **позвонил**» = *de repente **llamó***, «шёл дождь» = *llovía*. But a counted or closed past is preterite even when Russian says «он три раза **ездил** в Париж» — *fue tres veces*. Russian has no pluperfect: in a past story «он **уже ушёл**» = *ya **se había ido***. English is closer: "had left" = *había salido*.
+examples:
+  - { text: "Estaba almorzando cuando sonó el teléfono.", translation: "I was having my lunch when the phone rang.", source: "tatoeba:625818" }
+  - { text: "Era de noche cuando se fue.", translation: "It was night when he left.", source: "tatoeba:1300248" }
+  - { text: "Cuando era joven, a veces jugaba al fútbol.", translation: "When he was young, he sometimes played soccer.", source: "tatoeba:1021795" }
+  - { text: "Cuando era niño, él fue a París tres veces.", translation: "As a child, he went to Paris three times.", source: "tatoeba:853659" }
+  - { text: "Cuando llegué a la estación, el tren ya se había ido.", translation: "When I arrived at the station, the train had already left.", source: "tatoeba:1834330" }
+exercises:
+  - type: cloze
+    text: "Cuando ___ pequeño, vivíamos en el campo."
+    answer: "era"
+    hint: "ser — yo"
+    translation: "When I was little, we lived in the country."
+  - type: cloze
+    text: "Una noche ___ un ruido extraño en la cocina."
+    answer: "oí"
+    hint: "oír — yo"
+    translation: "One night I heard a strange noise in the kitchen."
+  - type: cloze
+    text: "___ las dos de la mañana y todo estaba oscuro."
+    answer: "Eran"
+    hint: "ser"
+    translation: "It was two in the morning and everything was dark."
+  - type: cloze
+    text: "Mi padre ___ a la cocina y encendió la luz."
+    answer: "bajó"
+    hint: "bajar — él"
+    translation: "My father went down to the kitchen and turned on the light."
+  - type: cloze
+    text: "Alguien ___ la ventana abierta."
+    answer: "había dejado"
+    hint: "dejar — before that"
+    translation: "Someone had left the window open."
+  - type: cloze
+    text: "Mientras yo ___, alguien entró en mi habitación."
+    answer: "dormía"
+    also: ["estaba durmiendo"]
+    hint: "dormir — yo"
+    translation: "While I was sleeping, someone came into my room."
+  - type: cloze
+    text: "El verano pasado ___ a Italia dos veces."
+    answer: "fuimos"
+    hint: "ir — nosotros"
+    translation: "Last summer we went to Italy twice."
+  - type: cloze
+    text: "___ en Madrid cinco años, de 2010 a 2015."
+    answer: "Viví"
+    hint: "vivir — yo"
+    translation: "I lived in Madrid for five years, from 2010 to 2015."
