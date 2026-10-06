@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0108
+cefr: B1
+order: 108
+title: "Tenía, tendría, tuviera: imperfect, conditional, subjunctive — a review"
+explanation:
+  en: |
+    Three forms that look alike and are easy to mix up:
+
+    - **imperfect** (lesson 13) — *-aba* for -ar verbs, *-ía* for -er / -ir: *hablaba, comía, vivía*. Past habits and descriptions: "used to, was doing".
+    - **conditional** (lesson 24) — the whole infinitive + *-ía*: *hablaría, comería, viviría*. "Would". The ***r*** before *-ía* is the sign. Same irregular stems as the future: *tendría, haría, diría, podría, vendría*.
+    - **imperfect subjunctive** (lesson 30) — the *ellos* preterite without *-ron* + *-ra*: *hablara, comiera, viviera, tuviera, fuera, hiciera*. After *si*, *quería que*, *me gustaría que*, *como si*.
+
+    Side by side:
+    - *tenía / tendría / tuviera*
+    - *era / sería / fuera*
+    - *hacía / haría / hiciera*
+    - *podía / podría / pudiera*
+
+    The classic mistake: the conditional after ***si***. *Si **tuviera** tiempo, te **ayudaría**.* — not ~~si tendría~~.
+
+    In reported speech all three appear: *Dijo que **tenía** hambre* (he was hungry), *Dijo que **vendría*** (he would come), *Me dijo que **viniera*** (he told me to come).
+comparison:
+  en: |
+    English: imperfect = "used to / was …ing", conditional = "would", imperfect subjunctive = the past form after "if" or "wish" ("if I **had**", "I wish you **were**"). Russian has one form for the last two — «бы» + past: «если бы у меня **было** время, я **бы помог**» = *si **tuviera** tiempo, **ayudaría***. The *si* half takes *-ra*, the other half takes *-ría*.
+examples:
+  - { text: "Cuando era pequeña, me encantaba leer.", translation: "I loved reading when I was a child.", source: "tatoeba:1388695" }
+  - { text: "Él dijo que tenía hambre.", translation: "He said that he was hungry.", source: "tatoeba:401416" }
+  - { text: "Él dijo que vendría.", translation: "He said he would come.", source: "tatoeba:640414" }
+  - { text: "Si tuviera tiempo, podría ayudarte.", translation: "If I had time, I could help you.", source: "tatoeba:521119" }
+  - { text: "Me gustaría que dejara de hacer eso.", translation: "I wish you'd stop doing that.", source: "tatoeba:2270418" }
+exercises:
+  - type: cloze
+    text: "De niña, ___ en un pueblo cerca del mar."
+    answer: "vivía"
+    hint: "vivir, yo (used to)"
+    translation: "As a girl, I lived in a village near the sea."
+  - type: cloze
+    text: "Si ___ más dinero, me compraría una casa en el campo."
+    answer: "tuviera"
+    also: ["tuviese"]
+    hint: "tener, yo"
+    translation: "If I had more money, I'd buy a house in the country."
+  - type: cloze
+    text: "Si tuviera más tiempo libre, ___ a tocar la guitarra."
+    answer: "aprendería"
+    hint: "aprender, yo (would)"
+    translation: "If I had more free time, I'd learn to play the guitar."
+  - type: cloze
+    text: "Mi abuelo siempre nos ___ cuentos antes de dormir."
+    answer: "contaba"
+    hint: "contar, él (used to)"
+    translation: "My grandfather always used to tell us stories before bed."
+  - type: cloze
+    text: "Me dijo que ___ el informe al día siguiente."
+    answer: "terminaría"
+    hint: "terminar, él (would)"
+    translation: "He told me he would finish the report the next day."
+  - type: cloze
+    text: "Le pedí a mi hermano que me ___ con la mudanza."
+    answer: "ayudara"
+    also: ["ayudase"]
+    hint: "ayudar, él"
+    translation: "I asked my brother to help me with the move."
+  - type: cloze
+    text: "Yo que tú, no le ___ nada."
+    answer: "diría"
+    hint: "decir, yo (would)"
+    translation: "If I were you, I wouldn't tell him anything."
+  - type: cloze
+    text: "Me miró como si no me ___."
+    answer: "conociera"
+    also: ["conociese"]
+    hint: "conocer, él (as if)"
+    translation: "He looked at me as if he didn't know me."
