@@ -1,0 +1,193 @@
+# Generated from scripts/batches/lt-a1-4349.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-4349
+  type: word
+  cefr: A2
+  text: "keisti"
+  pos: verb
+  forms: { pres: "keičia", past: "keitė" }
+  meaning: { ru: "менять, изменять" }
+  note: { ru: "keisti ką į ką — менять что на что" }
+  examples:
+    - { text: "Jie viską keičia.", translation: "Они меняют всё.", source: "tatoeba:12174011" }
+- id: lt-w-4350
+  type: word
+  cefr: A2
+  text: "drabužis"
+  pos: noun
+  gender: m
+  gen: "drabužio"
+  meaning: { ru: "предмет одежды; одежда (мн. ч.)" }
+  note: { ru: "мн. ч. drabužiai — одежда" }
+  examples:
+    - { text: "Kur tu perki drabužius?", translation: "Где ты покупаешь одежду?", source: "tatoeba:13712264" }
+- id: lt-w-4351
+  type: word
+  cefr: A2
+  text: "aiškiai"
+  pos: adv
+  meaning: { ru: "ясно, чётко; явно" }
+  examples:
+    - { text: "Tomas aiškiai pyksta.", translation: "Том явно злится.", source: "tatoeba:12690690" }
+- id: lt-w-4352
+  type: word
+  cefr: A2
+  text: "dėti"
+  pos: verb
+  forms: { pres: "deda", past: "dėjo" }
+  meaning: { ru: "класть, ставить" }
+  note: { ru: "dėti ką į ką — класть что во что; dėti viltis į ką — возлагать надежды на кого" }
+  examples:
+    - { text: "Aš pinigus dedu į kapšą.", translation: "Я кладу деньги в кошелёк.", source: "tatoeba:10678348" }
+- id: lt-w-4353
+  type: word
+  cefr: A2
+  text: "taškas"
+  pos: noun
+  gender: m
+  gen: "taško"
+  meaning: { ru: "точка; пункт" }
+  examples:
+    - { text: "Šitame sakinyje trūksta taško.", translation: "В этом предложении не хватает точки.", source: "tatoeba:12155094" }
+- id: lt-w-4354
+  type: word
+  cefr: A2
+  text: "pavargęs"
+  pos: adj
+  meaning: { ru: "уставший" }
+  note: { ru: "ж. р. pavargusi (причастие от pavargti)" }
+  examples:
+    - { text: "Aš dabar esu pavargęs.", translation: "Я сейчас уставший.", source: "tatoeba:13731034" }
+- id: lt-w-4355
+  type: word
+  cefr: A2
+  text: "vadintis"
+  pos: verb
+  forms: { pres: "vadinasi", past: "vadinosi" }
+  meaning: { ru: "называться" }
+  note: { ru: "Kaip tai vadinasi? — Как это называется?; вводное vadinasi — значит" }
+  examples:
+    - { text: "Kaip tavo gatvė vadinasi?", translation: "Как называется твоя улица?", source: "tatoeba:11388350" }
+- id: lt-w-4356
+  type: word
+  cefr: A2
+  text: "įėjimas"
+  pos: noun
+  gender: m
+  gen: "įėjimo"
+  meaning: { ru: "вход" }
+  examples:
+    - { text: "Ar yra kitas įėjimas?", translation: "Есть другой вход?", source: "tatoeba:10959955" }
+- id: lt-w-4357
+  type: word
+  cefr: A2
+  text: "kažkada"
+  pos: adv
+  meaning: { ru: "когда-то, однажды" }
+  examples:
+    - { text: "Aš čia kažkada gyvenau.", translation: "Я здесь когда-то жил.", source: "tatoeba:13016849" }
+- id: lt-w-4358
+  type: word
+  cefr: A2
+  text: "pasibaigti"
+  pos: verb
+  forms: { pres: "pasibaigia", past: "pasibaigė" }
+  meaning: { ru: "закончиться" }
+  examples:
+    - { text: "Jo kantrybė pasibaigė.", translation: "Его терпение кончилось.", source: "tatoeba:13200581" }
+- id: lt-w-4359
+  type: word
+  cefr: A1
+  text: "pica"
+  pos: noun
+  gender: f
+  gen: "picos"
+  meaning: { ru: "пицца" }
+  examples:
+    - { text: "Aš noriu picos.", translation: "Мне хочется пиццы.", source: "tatoeba:10518210" }
+- id: lt-w-4360
+  type: word
+  cefr: A2
+  text: "dešinėn"
+  pos: adv
+  meaning: { ru: "направо, вправо" }
+  note: { ru: "= į dešinę" }
+  examples:
+    - { text: "Prie pirmo kampo suk dešinėn.", translation: "На первом углу поверни направо.", source: "tatoeba:11589449" }
+- id: lt-w-4361
+  type: word
+  cefr: A2
+  text: "išvalyti"
+  pos: verb
+  forms: { pres: "išvalo", past: "išvalė" }
+  meaning: { ru: "вычистить, почистить; убрать" }
+  examples:
+    - { text: "Gerai išvalyk dantis.", translation: "Хорошо почисть зубы.", source: "tatoeba:565246" }
+- id: lt-w-4362
+  type: word
+  cefr: A2
+  text: "sesutė"
+  pos: noun
+  gender: f
+  gen: "sesutės"
+  meaning: { ru: "сестрёнка" }
+  note: { ru: "уменьш. от sesuo" }
+  examples:
+    - { text: "Aš turiu broliuką ir sesutę.", translation: "У меня есть братик и сестрёнка.", source: "tatoeba:8601232" }
+- id: lt-w-4363
+  type: word
+  cefr: A2
+  text: "kairėn"
+  pos: adv
+  meaning: { ru: "налево, влево" }
+  note: { ru: "= į kairę" }
+  examples:
+    - { text: "Čia pasukite kairėn.", translation: "Здесь поверните налево.", source: "tatoeba:12160042" }
+- id: lt-w-4364
+  type: word
+  cefr: A2
+  text: "paruošti"
+  pos: verb
+  forms: { pres: "paruošia", past: "paruošė" }
+  meaning: { ru: "подготовить, приготовить" }
+  examples:
+    - { text: "Tomas paruošė kavą.", translation: "Том приготовил кофе.", source: "tatoeba:6452314" }
+- id: lt-w-4365
+  type: word
+  cefr: A2
+  text: "dukrelė"
+  pos: noun
+  gender: f
+  gen: "dukrelės"
+  meaning: { ru: "дочка, доченька" }
+  note: { ru: "уменьш. от dukra" }
+  examples:
+    - { text: "Marija pagimdė dukrelę.", translation: "Мэри родила дочку.", source: "tatoeba:12347118" }
+- id: lt-w-4366
+  type: word
+  cefr: A2
+  text: "auksinis"
+  pos: adj
+  meaning: { ru: "золотой" }
+  examples:
+    - { text: "Tai auksinė moneta.", translation: "Это золотая монета.", source: "tatoeba:10834587" }
+- id: lt-w-4367
+  type: word
+  cefr: A2
+  text: "šeimininkė"
+  pos: noun
+  gender: f
+  gen: "šeimininkės"
+  meaning: { ru: "хозяйка" }
+  examples:
+    - { text: "Tai buto šeimininkė.", translation: "Это хозяйка квартиры.", source: "tatoeba:10636629" }
+- id: lt-w-4368
+  type: word
+  cefr: A2
+  text: "savęs"
+  pos: pron
+  meaning: { ru: "себя" }
+  note: { ru: "возвратное местоимение, род. п.; вин. save, дат. sau, тв. savimi, мест. savyje" }
+  examples:
+    - { text: "Tomas pyko ant savęs.", translation: "Том злился на себя.", source: "tatoeba:12095583" }
