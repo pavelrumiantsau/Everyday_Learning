@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: es-g-0100
+cefr: A2
+order: 100
+title: "Desde, hasta, hacia, entre, sobre, contra, según: more prepositions"
+explanation:
+  en: |
+    - ***desde*** — from (a starting point in space or time); ***desde… hasta*** — from … to: *desde Madrid hasta Sevilla*, *desde las nueve hasta las cinco*. *De… a* means the same and is more common in short phrases: *de nueve a cinco*. *Desde* is also "since" (lesson 23).
+    - ***hasta*** — until, as far as: *hasta mañana*, *Fuimos hasta el río.* Also "even": *Hasta mi abuela tiene móvil.*
+    - ***hacia*** — towards (a direction, not a destination): *Caminó hacia la puerta.* With time — "around": *hacia las tres*.
+    - ***entre*** — between, among: *entre la farmacia y el banco*, *entre amigos*; *entre tú y yo* (lesson 75).
+    - ***sobre*** — on (a surface), and about (a topic): *sobre la mesa*, *un libro sobre arte*. With times — "around": *sobre las ocho*.
+    - ***contra*** — against: *contra la pared*. To be against something: ***estar en contra de***: *Estoy en contra de la idea.*
+    - ***según*** — according to; it takes *yo, tú* (not *mí, ti*): *según tú*. Also "depending on": *según el día*.
+    - ***durante*** — during, for (a period): *durante la cena*, *durante dos horas*.
+
+    "Under" is usually ***debajo de***: *debajo de la cama*; ***bajo*** is more for fixed or figurative uses: *bajo cero*, *bajo la lluvia*.
+comparison:
+  en: |
+    Roughly: *desde* «с, от», *hasta* «до», *hacia* «к, по направлению к», *entre* «между, среди», *sobre* «на» or «о, про», *contra* «против», *según* «по словам, согласно», *durante* «во время, в течение». "About a topic" is *sobre* or *de*: *hablar de / sobre política*. English "until" is only one meaning of *hasta*: it is also "as far as" and "even".
+examples:
+  - { text: "Nevó desde el lunes hasta el viernes.", translation: "It snowed from Monday to Friday.", source: "tatoeba:345500" }
+  - { text: "Caminó hacia ella.", translation: "He walked towards her.", source: "tatoeba:8322211" }
+  - { text: "Tuve que escoger entre los dos.", translation: "I had to choose between the two.", source: "tatoeba:1425774" }
+  - { text: "Escribí un libro sobre China.", translation: "I wrote a book about China.", source: "tatoeba:8970649" }
+  - { text: "Según él, ella es honesta.", translation: "According to him, she is honest.", source: "tatoeba:952795" }
+exercises:
+  - type: cloze
+    text: "El museo está abierto ___ las diez hasta las seis."
+    answer: "desde"
+    hint: "from"
+    translation: "The museum is open from ten to six."
+  - type: cloze
+    text: "Te espero aquí ___ las cinco; si no vienes, me voy."
+    answer: "hasta"
+    hint: "until"
+    translation: "I'll wait for you here until five; if you don't come, I'm leaving."
+  - type: cloze
+    text: "Cuando vio a su madre, el niño corrió ___ ella."
+    answer: "hacia"
+    hint: "towards"
+    translation: "When he saw his mother, the boy ran towards her."
+  - type: cloze
+    text: "El banco está ___ la farmacia y el supermercado."
+    answer: "entre"
+    hint: "between"
+    translation: "The bank is between the chemist's and the supermarket."
+  - type: cloze
+    text: "Estamos leyendo un artículo ___ el cambio climático."
+    answer: "sobre"
+    hint: "about"
+    translation: "We're reading an article about climate change."
+  - type: cloze
+    text: "Mucha gente está en ___ de la nueva ley."
+    answer: "contra"
+    hint: "against"
+    translation: "Many people are against the new law."
+  - type: cloze
+    text: "___ el médico, tengo que descansar una semana."
+    answer: "Según"
+    hint: "according to"
+    translation: "According to the doctor, I have to rest for a week."
+  - type: cloze
+    text: "No dijo ni una palabra ___ toda la película."
+    answer: "durante"
+    hint: "during"
+    translation: "He didn't say a word during the whole film."
