@@ -1,7 +1,7 @@
 // Minimal Telegram Bot API client — only the calls we use.
 
 export interface TgUser { id: number }
-export interface TgMessage { message_id: number; from?: TgUser; chat: { id: number }; text?: string; voice?: TgVoice }
+export interface TgMessage { message_id: number; from?: TgUser; chat: { id: number; type?: "private" | "group" | "supergroup" | "channel" }; text?: string; voice?: TgVoice }
 export interface TgVoice { file_id: string; file_unique_id?: string; duration: number; mime_type?: string; file_size?: number }
 export interface TgFile { file_id: string; file_path?: string; file_size?: number }
 export interface TgPollAnswer { poll_id: string; user?: TgUser; option_ids: number[] }

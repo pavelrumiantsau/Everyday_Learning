@@ -43,7 +43,17 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      # A colleague's personal copy deploys to its own Cloudflare account (docs/EXTENSION-PLAN.md §3.4).
+      # Skipped in the original repository, so its deploy is exactly as before.
+      - name: Personal copy — Cloudflare account, database and address
+        id: copy
+        if: github.repository != 'pavelrumiantsau/Everyday_Learning'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: pnpm exec tsx scripts/ci/copy.ts configure
       - name: Apply new database migrations
+        if: steps.copy.outputs.skip != 'true'
         run: pnpm db:migrate
       - name: Deploy the Worker
+        if: steps.copy.outputs.skip != 'true'
         run: pnpm deploy:worker

@@ -9,6 +9,7 @@ on:
 
 jobs:
   backup:
+    if: github.repository == 'pavelrumiantsau/Everyday_Learning' # copies use backup-copy.yml
     runs-on: ubuntu-latest
     concurrency: backup
     env:

@@ -112,10 +112,12 @@ Re-running it is safe (idempotent) and never wipes the database.
 - **Owner, one-time:** tick «Template repository» in the GitHub settings of this repo. This doesn't affect the owner's bot.
 
 ### 3.4 The owner's deployment path stays the same
-CI compares the account id of `CLOUDFLARE_API_TOKEN` with the one committed in `wrangler.toml`. If they match (the owner's
-repo), it deploys with the committed file **exactly as today**. Otherwise (a copy), `scripts/ci/copy-config.ts` writes the
-copy's account id, D1 id, name and URL into a temporary config before deploying. The owner-only workflows
-(`content-batch.yml`, the backup into `Everyday_Learning-data`) run only in the owner's repo; copies have their own backup job.
+Copy steps run only when `github.repository` is not `pavelrumiantsau/Everyday_Learning`, so in the owner's repo they are
+skipped and the deploy is **exactly as today**. In a copy, `scripts/ci/copy.ts configure` finds the account, registers a
+workers.dev subdomain if needed, finds or creates the D1 database and writes their ids into `wrangler.toml` in the CI
+workspace only (never committed). The owner-only workflows (`backup.yml` into `Everyday_Learning-data`,
+`content-batch.yml`) run only in the owner's repo; copies use `setup.yml`, `update.yml` and `backup-copy.yml`, which do
+nothing in the owner's repo.
 
 ---
 
@@ -431,7 +433,7 @@ A beginner on Normal pace needs ~3–4 months for A1, so A2 and the exam stage a
 |---|---|
 | Plan v2 | ✅ 2026-10-08 |
 | A. Safety net | ✅ 2026-10-08, branch `feat/colleagues-a-safety-net`: frozen copies `packages/core/test/legacy/` (grammar, reading, planner, weekly) and `packages/llm/test/legacy/learner.ts`; `legacy-baseline.test.ts` in both packages (checked: changing `FR_START` by a week fails 2 tests); `scripts/ci/untouched.sh` + PR step in `ci.yml`; recipe `prompts/content/lt-foundation.md`. The staging copy comes with phase B |
-| B. Copies | **next**: start with the spike (template repo + Setup/Update workflows on a fresh Cloudflare account) |
+| B. Copies | ⏳ built 2026-10-08, branch `feat/colleagues-b-copies`: owner binding (`apps/worker/src/owner.ts`: claim code, strangers get one line, groups ignored, unclaimed copy does nothing); `scripts/ci/copy.ts` (configure / secrets / menus / reset-owner, `--self-test`); `scripts/ci/update-from-upstream.sh` (tested on temp repos, with and without workflow files); workflows `setup.yml`, `update.yml`, `backup-copy.yml`; copy deploy step in `ci.yml`; owner-only guards on `backup.yml`, `content-batch.yml`; guide `docs/SETUP-COPY.md`; smoke `14-copy-owner.ts` (second Worker in copy mode, 16 checks). **Left:** the real end-to-end run on a fresh Cloudflare + GitHub account (staging copy, needs the owner or a test account), owner ticks «Template repository» |
 | C–K | not started |
 
 **How to start the next session:** read `CLAUDE.md` → this file (§3, §4, §8) → merge `feat/colleagues-a-safety-net` into `main` (tests, docs and a PR-only CI step: no runtime change), then branch `feat/colleagues-b-copies`.

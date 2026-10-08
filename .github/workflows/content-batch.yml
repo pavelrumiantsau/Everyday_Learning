@@ -24,6 +24,7 @@ concurrency: content-batch
 
 jobs:
   batch:
+    if: github.repository == 'pavelrumiantsau/Everyday_Learning'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:

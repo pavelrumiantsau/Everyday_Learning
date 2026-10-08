@@ -7,13 +7,13 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { signInitData } from "../packages/core/src/index.ts";
-import type { Smoke } from "./smoke/context.ts";
-import { CHECKS } from "./smoke/index.ts";
+import { COPY_CLAIM, type Smoke } from "./smoke/context.ts";
+import { CHECKS, COPY_CHECKS } from "./smoke/index.ts";
 import { createFakeLlm, fakeLlmVars } from "./smoke/fake-llm.ts";
 
 const workerDir = fileURLToPath(new URL("../apps/worker", import.meta.url));
-const persist = mkdtempSync(join(tmpdir(), "el-smoke-"));
 const OWNER = "42", SECRET = "smoke-secret", PORT = 8788, TG_PORT = 8799;
+const COPY_OWNER = "77";
 
 // --- fake Telegram ---
 const calls: { method: string; body: any }[] = [];
@@ -40,56 +40,77 @@ const check = (ok: boolean, label: string) => {
   if (!ok) failures++;
 };
 
-execFileSync("pnpm", ["exec", "wrangler", "d1", "migrations", "apply", "everyday-learning", "--local", "--persist-to", persist], {
-  cwd: workerDir,
-  stdio: "ignore",
-  env: { ...process.env, CI: "1" },
-});
-
-const vars = { TELEGRAM_BOT_TOKEN: "test", TELEGRAM_USER_ID: OWNER, TELEGRAM_WEBHOOK_SECRET: SECRET, TELEGRAM_API_BASE: `http://127.0.0.1:${TG_PORT}`, ...fakeLlmVars(TG_PORT) };
-const dev = spawn(
-  "pnpm",
-  ["exec", "wrangler", "dev", "--port", String(PORT), "--persist-to", persist, "--test-scheduled",
-   ...Object.entries(vars).flatMap(([k, v]) => ["--var", `${k}:${v}`])],
-  { cwd: workerDir, stdio: ["ignore", "pipe", "pipe"] },
-);
 let devLog = "";
-dev.stdout.on("data", (d) => (devLog += d));
-dev.stderr.on("data", (d) => (devLog += d));
 
-const base = `http://127.0.0.1:${PORT}`;
-const post = (update: object, secret = SECRET) =>
-  fetch(`${base}/tg/webhook`, {
-    method: "POST",
-    headers: { "content-type": "application/json", "x-telegram-bot-api-secret-token": secret },
-    body: JSON.stringify(update),
+/** Runs `run` against a fresh local D1 + `wrangler dev` with these vars, then stops the Worker. */
+async function withWorker(port: number, vars: Record<string, string>, run: (base: string) => Promise<void>) {
+  const persist = mkdtempSync(join(tmpdir(), "el-smoke-"));
+  execFileSync("pnpm", ["exec", "wrangler", "d1", "migrations", "apply", "everyday-learning", "--local", "--persist-to", persist], {
+    cwd: workerDir,
+    stdio: "ignore",
+    env: { ...process.env, CI: "1" },
   });
-const msg = (text: string, from = Number(OWNER)) => ({ update_id: Date.now(), message: { message_id: 1, from: { id: from }, chat: { id: from }, text } });
-
-try {
-  for (let i = 0; ; i++) {
-    try { if ((await fetch(`${base}/health`)).ok) break; } catch {}
-    if (i > 60) throw new Error("wrangler dev did not start:\n" + devLog);
-    await new Promise((r) => setTimeout(r, 500));
+  const dev = spawn(
+    "pnpm",
+    ["exec", "wrangler", "dev", "--port", String(port), "--persist-to", persist, "--test-scheduled",
+     ...Object.entries(vars).flatMap(([k, v]) => ["--var", `${k}:${v}`])],
+    { cwd: workerDir, stdio: ["ignore", "pipe", "pipe"] },
+  );
+  dev.stdout.on("data", (d) => (devLog += d));
+  dev.stderr.on("data", (d) => (devLog += d));
+  const base = `http://127.0.0.1:${port}`;
+  try {
+    for (let i = 0; ; i++) {
+      try { if ((await fetch(`${base}/health`)).ok) break; } catch {}
+      if (i > 60) throw new Error("wrangler dev did not start:\n" + devLog);
+      await new Promise((r) => setTimeout(r, 500));
+    }
+    await run(base);
+  } finally {
+    dev.kill();
+    await new Promise((r) => dev.once("exit", r));
+    rmSync(persist, { recursive: true, force: true });
   }
+}
 
-  const initData = async (userId: number, token = "test") =>
-    signInitData({ user: JSON.stringify({ id: userId, first_name: "T" }), auth_date: String(Math.floor(Date.now() / 1000)) }, token);
+const common = { TELEGRAM_BOT_TOKEN: "test", TELEGRAM_WEBHOOK_SECRET: SECRET, TELEGRAM_API_BASE: `http://127.0.0.1:${TG_PORT}`, ...fakeLlmVars(TG_PORT) };
+const initData = async (userId: number, token = "test") =>
+  signInitData({ user: JSON.stringify({ id: userId, first_name: "T" }), auth_date: String(Math.floor(Date.now() / 1000)) }, token);
+function context(base: string, owner: string): Omit<Smoke, "me"> {
+  const post = (update: object, secret = SECRET) =>
+    fetch(`${base}/tg/webhook`, {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-telegram-bot-api-secret-token": secret },
+      body: JSON.stringify(update),
+    });
+  const msg = (text: string, from = Number(owner)) => ({ update_id: Date.now(), message: { message_id: 1, from: { id: from }, chat: { id: from, type: "private" }, text } });
   const api = async (path: string, auth: string | null, init: RequestInit = {}) =>
     fetch(`${base}/api${path}`, { ...init, headers: { "content-type": "application/json", ...(auth !== null && { authorization: `tma ${auth}` }) } });
-  const t: Smoke = { OWNER, base, calls, check, post, msg, initData, api, me: await initData(Number(OWNER)), state: {}, fakeResults, llm };
+  return { OWNER: owner, base, calls, check, post, msg, initData, api, state: {}, fakeResults, llm };
+}
 
-  for (const c of CHECKS) {
-    console.log(`— ${c.name}`);
-    await c.run(t);
-  }
+try {
+  // The owner's deployment: TELEGRAM_USER_ID set (all feature checks).
+  await withWorker(PORT, { ...common, TELEGRAM_USER_ID: OWNER }, async (base) => {
+    const t: Smoke = { ...context(base, OWNER), me: await initData(Number(OWNER)) };
+    for (const c of CHECKS) {
+      console.log(`— ${c.name}`);
+      await c.run(t);
+    }
+    const cron = await fetch(`${base}/__scheduled?cron=*/15+*+*+*+*`);
+    check(cron.ok, "cron handler runs");
+  });
 
-  const cron = await fetch(`${base}/__scheduled?cron=*/15+*+*+*+*`);
-  check(cron.ok, "cron handler runs");
+  // A colleague's personal copy: no TELEGRAM_USER_ID, owner bound by the claim code (docs/EXTENSION-PLAN.md §3.1).
+  // TELEGRAM_USER_ID is set empty: wrangler dev would otherwise take it from a local apps/worker/.dev.vars.
+  await withWorker(PORT + 2, { ...common, TELEGRAM_USER_ID: "", CLAIM_CODE: COPY_CLAIM }, async (base) => {
+    for (const c of COPY_CHECKS) {
+      console.log(`— ${c.name}`);
+      await c.run({ ...context(base, COPY_OWNER), me: await initData(Number(COPY_OWNER)) });
+    }
+  });
 } finally {
-  dev.kill();
   tg.close();
-  rmSync(persist, { recursive: true, force: true });
 }
 if (failures) {
   console.error(`\n${failures} check(s) failed. Worker log:\n${devLog.slice(-3000)}`);

@@ -33,3 +33,6 @@ export interface FakeLlmState {
 
 /** Message text without Lithuanian stress marks (cards show e.g. skubė́ti once content/lt/stress.yaml has it). */
 export const plain = (s: string) => s.normalize("NFD").replace(/[\u0300\u0301\u0303]/g, "").normalize("NFC");
+
+/** CLAIM_CODE of the personal-copy Worker in the smoke run (scripts/smoke/14-copy-owner.ts). */
+export const COPY_CLAIM = "smoke-claim-code";

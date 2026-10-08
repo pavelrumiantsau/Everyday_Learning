@@ -14,6 +14,9 @@ Personal copies of the app for colleagues + a Lithuanian course from zero to the
 content is `track: foundation` and never reaches the owner, Spanish/French materials are untouched
 (`scripts/ci/untouched.sh`), work on `feat/colleagues-*` / `content/lt-foundation-*` branches. Foundation content recipe:
 `prompts/content/lt-foundation.md` (Russian only, no Ukrainian/Belarusian comparisons).
+Personal copies: no `TELEGRAM_USER_ID` → owner bound by claim code (`apps/worker/src/owner.ts`); CI for copies in
+`scripts/ci/` + `setup.yml` / `update.yml` / `backup-copy.yml` (skipped in this repo); guide `docs/SETUP-COPY.md`.
+Smoke runs a second Worker in copy mode (`COPY_CHECKS`).
 
 ## Conventions that matter
 - **Explanation language:** Lithuanian → **Russian**; Spanish/French → **English**. **Bot and Mini App UI strings: Russian.**
@@ -36,7 +39,7 @@ content is `track: foundation` and never reaches the owner, Spanish/French mater
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
 - `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.
 - `scripts/` — content build/validate, sources, candidates, batches (`scripts/batches/*.py`), audio (`tts.py`), smoke test
-  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **14**), setup scripts.
+  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **15**), setup scripts.
 
 ## Commands
 ```bash

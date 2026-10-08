@@ -1,0 +1,64 @@
+name: Update
+
+# Personal copy: every Monday (or by hand) take the newest version of the original repository, check it, deploy it.
+# Settings and progress live in the copy's own database, so nothing local is lost. Does nothing in the original repository.
+# Workflow files are only updated when the optional WORKFLOWS_TOKEN secret exists (docs/SETUP-COPY.md, «Обновление workflows»).
+on:
+  schedule:
+    - cron: "23 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: deploy
+
+jobs:
+  update:
+    if: github.repository != 'pavelrumiantsau/Everyday_Learning'
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      INCLUDE_WORKFLOWS: ${{ secrets.WORKFLOWS_TOKEN != '' }}
+      CI: "1"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.WORKFLOWS_TOKEN || github.token }}
+      - name: Take the newest version
+        id: update
+        run: bash scripts/ci/update-from-upstream.sh
+      - if: steps.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: pnpm/action-setup@v6
+      - if: steps.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Check the new version (content, types, tests, smoke)
+        if: steps.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm content:validate
+          pnpm build
+          pnpm typecheck
+          pnpm test
+          pnpm smoke
+      - name: Cloudflare account, database and address
+        id: copy
+        if: steps.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: pnpm exec tsx scripts/ci/copy.ts configure
+      - name: Deploy
+        if: (steps.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch') && steps.copy.outputs.skip != 'true'
+        run: |
+          pnpm db:migrate
+          pnpm deploy:worker
+          pnpm exec tsx scripts/ci/copy.ts menus
+      - name: Save the update in the repository
+        if: steps.update.outputs.changed == 'true' && steps.copy.outputs.skip != 'true'
+        run: |
+          git checkout -- apps/worker/wrangler.toml
+          git push -q origin HEAD:${{ github.ref_name }}

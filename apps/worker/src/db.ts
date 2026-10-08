@@ -141,6 +141,11 @@ export class Db {
     return v === null ? null : (JSON.parse(v) as T);
   }
 
+  /** Sets a setting only if it doesn't exist yet (first writer wins). */
+  claimSetting(key: string, value: unknown) {
+    return this.d1.prepare("INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO NOTHING").bind(key, JSON.stringify(value)).run();
+  }
+
   setSetting(key: string, value: unknown) {
     return this.d1
       .prepare("INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value")

@@ -1,0 +1,55 @@
+name: Backup
+
+# Personal copy: nightly copy of the database into the `backup` branch of this (private) repository.
+# One file, overwritten each night: the branch history keeps every daily version. Does nothing in the original repository
+# (it has its own backup.yml). Restoring: docs/SETUP-COPY.md, «Восстановление из резервной копии».
+on:
+  schedule:
+    - cron: "41 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: backup
+
+jobs:
+  backup:
+    if: github.repository != 'pavelrumiantsau/Everyday_Learning'
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CI: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Cloudflare account and database
+        id: copy
+        run: pnpm exec tsx scripts/ci/copy.ts configure
+      - name: Export the database (never printed to the log)
+        if: steps.copy.outputs.skip != 'true'
+        run: pnpm wrangler d1 export everyday-learning --remote --output "$RUNNER_TEMP/everyday-learning.sql" > /dev/null
+      - name: Commit to the backup branch
+        if: steps.copy.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          cd "$RUNNER_TEMP"
+          if ! git clone -q --depth 1 --branch backup "$remote" data 2>/dev/null; then
+            git init -q data && git -C data checkout -q --orphan backup && git -C data remote add origin "$remote"
+          fi
+          cd data
+          mkdir -p d1
+          cp "$RUNNER_TEMP/everyday-learning.sql" d1/everyday-learning.sql
+          git add d1
+          if git diff --cached --quiet; then echo "No changes since the last backup."; exit 0; fi
+          git -c user.name="backup-bot" -c user.email="backup-bot@users.noreply.github.com" commit -q -m "D1 backup $(date -u +%Y-%m-%d)"
+          git push -q origin backup
+          echo "Backup saved ($(wc -c < d1/everyday-learning.sql) bytes)."

@@ -4,14 +4,15 @@ import { handleUpdate } from "./bot";
 import { tick } from "./daily";
 import { Db } from "./db";
 import type { BotContext } from "./feature";
+import { handleUnclaimed, resolveOwner } from "./owner";
 import { Telegram, type TgUpdate } from "./telegram";
 
-function botContext(env: Env, waitUntil: (p: Promise<unknown>) => void): BotContext {
+function botContext(env: Env, ownerId: string, waitUntil: (p: Promise<unknown>) => void): BotContext {
   return {
     env,
     db: new Db(env.DB),
     tg: new Telegram(env.TELEGRAM_BOT_TOKEN, env.TELEGRAM_API_BASE),
-    ownerId: env.TELEGRAM_USER_ID,
+    ownerId,
     webAppUrl: env.WEBAPP_URL,
     now: new Date(),
     waitUntil,
@@ -29,7 +30,16 @@ app.post("/tg/webhook", async (c) => {
   }
   const update = await c.req.json<TgUpdate>();
   try {
-    await handleUpdate(update, botContext(c.env, (p) => c.executionCtx.waitUntil(p)));
+    const db = new Db(c.env.DB);
+    let owner = await resolveOwner(c.env, db);
+    if (!owner) {
+      // A copy nobody has claimed yet (src/owner.ts). The claiming `/start <code>` then runs as a normal /start.
+      if ((await handleUnclaimed(update, c.env, db, new Telegram(c.env.TELEGRAM_BOT_TOKEN, c.env.TELEGRAM_API_BASE))) !== "claimed") {
+        return c.text("ok");
+      }
+      owner = (await resolveOwner(c.env, db))!;
+    }
+    await handleUpdate(update, botContext(c.env, owner, (p) => c.executionCtx.waitUntil(p)));
   } catch (err) {
     // Log and still return 200, otherwise Telegram retries the same update over and over.
     console.error("update failed", update.update_id, err);
@@ -40,6 +50,8 @@ app.post("/tg/webhook", async (c) => {
 export default {
   fetch: app.fetch,
   async scheduled(_event, env, ctx) {
-    ctx.waitUntil(tick(botContext(env, (p) => ctx.waitUntil(p))).then((r) => console.log("tick:", r)));
+    const owner = await resolveOwner(env, new Db(env.DB));
+    if (!owner) return console.log("tick: no owner yet (copy not claimed)");
+    ctx.waitUntil(tick(botContext(env, owner, (p) => ctx.waitUntil(p))).then((r) => console.log("tick:", r)));
   },
 } satisfies ExportedHandler<Env>;

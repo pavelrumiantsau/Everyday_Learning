@@ -12,6 +12,7 @@ import mistakes from "./11-mistakes.ts";
 import reading from "./10-reading.ts";
 import french from "./12-french.ts";
 import more from "./13-more.ts";
+import copyOwner from "./14-copy-owner.ts";
 import type { Smoke } from "./context.ts";
 
 export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
@@ -28,4 +29,9 @@ export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "reading", run: reading },
   { name: "french", run: french },
   { name: "more", run: more },
+];
+
+/** Run against a second Worker + database configured as a colleague's personal copy (no TELEGRAM_USER_ID). */
+export const COPY_CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
+  { name: "personal copy: owner binding", run: copyOwner },
 ];

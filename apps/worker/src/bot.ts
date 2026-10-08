@@ -4,12 +4,15 @@ import { SCHEDULE } from "./content";
 import type { Db } from "./db";
 import type { BotContext } from "./feature";
 import { COMMANDS, FEATURES, helpText } from "./features";
+import { answerStranger, isCopy } from "./owner";
 import type { TgUpdate } from "./telegram";
 
 export async function handleUpdate(update: TgUpdate, ctx: BotContext) {
-  // Ignore everyone except the owner.
+  // Ignore everyone except the owner (a copy tells strangers how to get their own bot: src/owner.ts).
   const fromId = update.message?.from?.id ?? update.poll_answer?.user?.id;
-  if (String(fromId) !== ctx.ownerId) return;
+  if (String(fromId) !== ctx.ownerId) return isCopy(ctx.env) ? answerStranger(update, ctx.tg) : undefined;
+  // A copy works only in its owner's private chat: groups and channels are ignored.
+  if (isCopy(ctx.env) && update.message && update.message.chat.type !== "private") return;
 
   if (update.poll_answer) {
     const { poll_id, option_ids } = update.poll_answer;
