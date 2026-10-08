@@ -3,7 +3,7 @@
 // The words are introduced as cards straight away (to learn in «Учить новые слова»); the next morning simply continues after them.
 import { formatNewItem, pickNewItems, type Item, type Lang } from "@el/core";
 import { Hono } from "hono";
-import { ITEMS } from "../content";
+import { learnerItems } from "../profile";
 import { introduceItems, newWordsButton } from "../daily";
 import { Db } from "../db";
 import type { Feature } from "../feature";
@@ -32,7 +32,7 @@ export async function introduceMore(db: Db, now: Date, opts: { lang?: Lang; n?: 
     const n = opts.n ?? (daily || (opts.lang ? DEFAULT_WHEN_OFF : 0));
     if (n > 0) counts[lang] = Math.min(n, MAX_PER_LANG);
   }
-  const fresh = pickNewItems(ITEMS, introduced, counts);
+  const fresh = pickNewItems(learnerItems(), introduced, counts);
   await introduceItems(db, fresh, now);
   return fresh;
 }

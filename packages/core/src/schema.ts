@@ -24,6 +24,8 @@ export const Item = z
     id: z.string().regex(/^(lt|es|fr)-(w|p)-\d{4}$/, "id must look like lt-w-0001 or es-p-0001"),
     type: z.enum(["word", "phrase"]),
     cefr: z.enum(["A1", "A2", "B1", "B2", "C1"]),
+    /** Colleagues' Lithuanian A0 → A2 course only (docs/EXTENSION-PLAN.md §4.2): never shown to the original plan. */
+    track: z.literal("foundation").optional(),
     text: z.string().min(1),
     stress: z.string().min(1).optional(),
     pos: z.enum(POS).optional(),
@@ -88,6 +90,8 @@ export const Lesson = z
   .object({
     id: z.string().regex(/^(lt|es|fr)-g-\d{4}$/, "id must look like lt-g-0001"),
     cefr: z.enum(["A1", "A2", "B1", "B2", "C1"]),
+    /** Colleagues' Lithuanian A0 → A2 course only (docs/EXTENSION-PLAN.md §4.2): never shown to the original plan. */
+    track: z.literal("foundation").optional(),
     /** Position in the language's sequence; lessons come in this order. */
     order: z.number().int().positive(),
     /** In the explanation language (RU for Lithuanian, EN for Spanish/French). */
@@ -159,6 +163,8 @@ export const ReadingText = z
   .object({
     id: z.string().regex(/^(lt|es|fr)-r-\d{4}$/, "id must look like lt-r-0001"),
     cefr: z.enum(["A1", "A2", "B1", "B2", "C1"]),
+    /** Colleagues' Lithuanian A0 → A2 course only (docs/EXTENSION-PLAN.md §4.2): never shown to the original plan. */
+    track: z.literal("foundation").optional(),
     /** In the target language. */
     title: z.string().trim().min(1),
     /** Short topic in the explanation language ("переезд", "a day in the city"). */

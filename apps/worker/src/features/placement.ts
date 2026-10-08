@@ -1,7 +1,8 @@
 // Placement test: mark upcoming items you already know, so lessons skip them.
 import { LANGS, langOf, newCard, reviewCard, type Lang } from "@el/core";
 import { Hono } from "hono";
-import { ITEM_BY_ID, ITEMS } from "../content";
+import { ITEM_BY_ID } from "../content";
+import { learnerItems } from "../profile";
 import { cardIdFor, cardsForItem } from "../daily";
 import { Db } from "../db";
 import type { Feature } from "../feature";
@@ -14,7 +15,7 @@ api.get("/placement", async (c) => {
   if (!LANGS.includes(lang)) return c.json({ error: "unknown language" }, 400);
   const db = new Db(c.env.DB);
   const [introduced, placed, stats] = await Promise.all([db.introducedItemIds(), db.placedItemIds(), db.placementStats()]);
-  const upcoming = ITEMS.filter((i) => langOf(i) === lang && !introduced.has(i.id) && !placed.has(i.id));
+  const upcoming = learnerItems().filter((i) => langOf(i) === lang && !introduced.has(i.id) && !placed.has(i.id));
   return c.json({ items: upcoming.slice(0, PLACEMENT_BATCH), remaining: upcoming.length, stats });
 });
 

@@ -1,11 +1,10 @@
 // Streak on the home screen; stats (30-day calendar, retention) and settings (new words, reminders, reverse cards).
 import { useEffect, useState } from "react";
-import { getSettings, getStats, saveSettings, type Lang, type Prefs, type Stats } from "../api";
+import { activeLangs, getSettings, getStats, saveSettings, type Lang, type Prefs, type Stats } from "../api";
 import type { MiniFeature } from "../features";
 import { FLAG } from "../flags";
 import { haptic } from "../telegram";
 
-const LANGS: Lang[] = ["lt", "es", "fr"];
 const LANG_NAME: Record<Lang, string> = { lt: "Литовский", es: "Испанский", fr: "Французский" };
 
 function HomeEntry({ open }: { open: () => void }) {
@@ -81,7 +80,7 @@ function Screen({ close }: { close: () => void }) {
             она спасает серию в пропущенный день.
           </p>
           <p className="hint">
-            Слов в работе: {LANGS.filter((l) => stats.known[l]).map((l) => `${FLAG[l]} ${stats.known[l]}`).join("   ") || "пока нет"}
+            Слов в работе: {activeLangs().filter((l) => stats.known[l]).map((l) => `${FLAG[l]} ${stats.known[l]}`).join("   ") || "пока нет"}
           </p>
         </>
       ) : (
@@ -91,7 +90,7 @@ function Screen({ close }: { close: () => void }) {
       <h2>Настройки</h2>
       {prefs ? (
         <section className="settings">
-          {LANGS.map((l) => (
+          {activeLangs().map((l) => (
             <div className="setting" key={l}>
               <span>
                 {FLAG[l]} {LANG_NAME[l]}: новых в день
@@ -99,7 +98,7 @@ function Screen({ close }: { close: () => void }) {
               <Stepper value={prefs.new_per_day[l] ?? 0} min={0} max={30} onChange={(v) => void save({ new_per_day: { [l]: v } })} />
             </div>
           ))}
-          {LANGS.map((l) => (
+          {activeLangs().map((l) => (
             <label className="setting" key={`r-${l}`}>
               <span>
                 {FLAG[l]} Обратные карточки <span className="hint small">(значение → слово)</span>

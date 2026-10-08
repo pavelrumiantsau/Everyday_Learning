@@ -1,13 +1,13 @@
 // AI features: /tutor chat (LT/ES/FR), writing feedback on any target-language text, voice messages (Whisper → tutor/feedback).
 // Slow AI calls run in ctx.waitUntil so the webhook answers Telegram at once; "typing…" shows meanwhile.
 import { localClock } from "@el/core";
-import { detectLang, feedbackMessages, isTargetLang, langFromWhisper, PROFILES, tutorMessages, TutorReply, WritingFeedback, type TargetLang } from "@el/llm";
-import { SCHEDULE } from "../content";
+import { detectLang, feedbackMessages, isTargetLang, langFromWhisper, tutorMessages, TutorReply, WritingFeedback, type TargetLang } from "@el/llm";
 import type { BotContext, Feature } from "../feature";
 import type { TgVoice } from "../telegram";
 import { esc, formatFeedback, formatTutor } from "./ai/format";
 import { llmRouter, PROMPTS } from "./ai/llm";
 import { AiStore, type TutorSession } from "./ai/store";
+import { aiProfile, timezone } from "../profile";
 
 const MAX_TEXT = 2000; // characters sent to the model per message
 const MAX_VOICE_SECONDS = 300;
@@ -31,7 +31,7 @@ const typing = (ctx: BotContext) => ctx.tg.sendChatAction(ctx.ownerId, "typing")
 /** One tutor turn: the reply in the target language + corrections of `userText` (none for the opening turn). */
 async function tutorTurn(ctx: BotContext, store: AiStore, session: TutorSession, userText: string | undefined, source: Source) {
   await typing(ctx);
-  const profile = PROFILES[session.lang];
+  const profile = aiProfile(session.lang);
   const history = await store.recentTurns(session.id);
   const text = userText?.slice(0, MAX_TEXT);
   const t0 = Date.now();
@@ -43,7 +43,7 @@ async function tutorTurn(ctx: BotContext, store: AiStore, session: TutorSession,
   console.log(`tutor ${session.lang}: ${text?.length ?? 0} chars → ${r.provider}/${r.model} in ${Date.now() - t0} ms, ${r.output.corrections.length} corrections`);
 
   const now = Date.now();
-  const day = localClock(new Date(now), SCHEDULE.timezone).day;
+  const day = localClock(new Date(now), timezone()).day;
   await store.batch([
     ...(text !== undefined ? [store.addTurn(session.id, "user", text, now)] : []),
     store.addTurn(session.id, "assistant", r.output.reply, now + 1),
@@ -56,14 +56,14 @@ async function tutorTurn(ctx: BotContext, store: AiStore, session: TutorSession,
 /** Writing feedback outside a tutor session: corrected text + explanations; mistakes are saved. */
 async function feedback(ctx: BotContext, store: AiStore, lang: TargetLang, userText: string, source: Source) {
   await typing(ctx);
-  const profile = PROFILES[lang];
+  const profile = aiProfile(lang);
   const text = userText.slice(0, MAX_TEXT);
   const t0 = Date.now();
   const r = await llmRouter(ctx.env, store).json("writing_feedback", { messages: feedbackMessages(PROMPTS, profile, text), temperature: 0.2, maxTokens: 2500 }, WritingFeedback);
   console.log(`feedback ${lang}: ${text.length} chars → ${r.provider}/${r.model} in ${Date.now() - t0} ms, ${r.output.mistakes.length} mistakes`);
   if (r.output.is_target_language && r.output.mistakes.length) {
     const now = Date.now();
-    const day = localClock(new Date(now), SCHEDULE.timezone).day;
+    const day = localClock(new Date(now), timezone()).day;
     await store.batch(r.output.mistakes.map((m) => store.addMistake(lang, m, source === "voice" ? "voice" : "writing", day, now)));
   }
   await ctx.tg.sendMessage(ctx.ownerId, formatFeedback(profile, r.output));
@@ -129,7 +129,7 @@ export const tutor: Feature = {
         const store = new AiStore(ctx.env.DB);
         const { lang, topic } = parseTutorArgs(args);
         const session = await store.startSession(lang, topic, Date.now());
-        const p = PROFILES[lang];
+        const p = aiProfile(lang);
         await ctx.tg.sendMessage(
           ctx.ownerId,
           `${p.flag} <b>Тьютор: ${LANG_NAME_RU[lang]}</b>${topic ? ` — тема: ${esc(topic)}` : ""}\n` +

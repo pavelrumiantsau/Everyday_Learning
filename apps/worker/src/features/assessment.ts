@@ -1,9 +1,10 @@
 // Quarterly self-check (instead of official exams): on the last Sunday of each quarter the bot sends a checklist poll
 // per active language with that quarter's can-do goals (config/milestones.yaml), plus a writing and a speaking task.
 import { inWindow, localClock, type Lang } from "@el/core";
-import { MILESTONES, SCHEDULE } from "../content";
+import { MILESTONES } from "../content";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs } from "../prefs";
+import { currentProfile, timezone } from "../profile";
 
 const FLAG: Record<Lang, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
 const SEND_AT = "11:00";
@@ -26,7 +27,12 @@ export function checkDay(q: { end: string }): string {
 }
 
 async function sendCheck(c: BotContext, quarterId?: string): Promise<number> {
-  const { day } = localClock(c.now, SCHEDULE.timezone);
+  // config/milestones.yaml holds the original plan's quarterly goals; copies get course milestones later (EXTENSION-PLAN §8, phase D).
+  if (currentProfile()) {
+    await c.tg.sendMessage(c.ownerId, "Самопроверка по целям появится вместе с курсом (в ближайших обновлениях).");
+    return 0;
+  }
+  const { day } = localClock(c.now, timezone());
   const q = quarterId ? MILESTONES.quarters.find((x) => x.id === quarterId) : quarterOf(day);
   if (!q) {
     await c.tg.sendMessage(c.ownerId, "Для этой даты целей нет (config/milestones.yaml).");
@@ -71,7 +77,8 @@ export const assessment: Feature = {
     return true;
   },
   async onTick(c) {
-    const { day, hhmm } = localClock(c.now, SCHEDULE.timezone);
+    if (currentProfile()) return; // the quarterly goals belong to the original plan
+    const { day, hhmm } = localClock(c.now, timezone());
     const q = quarterOf(day);
     if (!q || day !== checkDay(q) || !inWindow(hhmm, SEND_AT, 240)) return;
     const claimed = await c.env.DB.prepare("INSERT OR IGNORE INTO settings (key, value) VALUES (?, '1')").bind(`check_sent:${q.id}`).run();

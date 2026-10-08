@@ -5,6 +5,7 @@ import { checkAnswer, clozeParts, exerciseCardId, parseExerciseCardId, type Answ
 import type { Exercise, Lesson } from "@el/core";
 import { Fragment, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import {
+  activeLangs,
   getGrammarHistory,
   getGrammarToday,
   getLesson,
@@ -272,7 +273,7 @@ function NextRule({ onPick }: { onPick: (lesson: Lesson) => void }) {
       </button>
       <p className="hint small center-text">
         или язык:{" "}
-        {(["lt", "es", "fr"] as const).map((l) => (
+        {activeLangs().map((l) => (
           <button key={l} className="link" onClick={() => void pick(l)} disabled={busy}>
             {FLAG[l]}
           </button>

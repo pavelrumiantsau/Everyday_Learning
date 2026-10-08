@@ -3,7 +3,8 @@ import { tg } from "./telegram";
 
 export type Lang = "lt" | "es" | "fr";
 /** `learning`: new words not learned yet («Учить новые слова»); they are not part of `due`. */
-export interface Session { day: string; reviewsToday: number; newToday: number; due: number; learning: number; known: Partial<Record<Lang, number>> }
+/** `langs`: the languages this learner studies; `needsSetup`: a personal copy whose setup wizard isn't answered yet. */
+export interface Session { day: string; reviewsToday: number; newToday: number; due: number; learning: number; known: Partial<Record<Lang, number>>; langs: Lang[]; needsSetup: boolean }
 export interface WordCard { cardId: string; kind: "recog" | "forms" | "prod"; lang: Lang; item: Item }
 /** Grammar exercise card (lt-g-0001:cloze1), created when a lesson is marked done. */
 export interface ClozeCard { cardId: string; kind: "cloze"; lang: Lang; lessonId: string; lessonTitle: string; exercise: Exercise }
@@ -22,7 +23,14 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   return res.json() as Promise<T>;
 }
 
-export const getSession = () => call<Session>("/session");
+let langs: Lang[] = ["lt", "es", "fr"];
+/** The learner's languages (from the last session load): screens offer only these. */
+export const activeLangs = (): Lang[] => langs;
+export const getSession = () =>
+  call<Session>("/session").then((s) => {
+    langs = s.langs?.length ? s.langs : langs;
+    return s;
+  });
 export const getQueue = (limit = 100) => call<{ cards: QueueCard[] }>(`/queue?limit=${limit}`).then((r) => r.cards);
 /** The next new words to learn (meaning cards, oldest first) and how many are waiting in total. */
 export const getLearn = (limit = 5) => call<{ cards: WordCard[]; total: number }>(`/learn?limit=${limit}`);
@@ -161,3 +169,20 @@ export const lookupWord = (b: { lang: Lang; word: string; sentence: string; text
   call<WordInfo>("/reading/lookup", { method: "POST", body: JSON.stringify(b) });
 export const addWordToCards = (b: Omit<WordInfo, "source" | "added"> & { lang: Lang; example: string }) =>
   call<{ added: true; itemId: string }>("/reading/cards", { method: "POST", body: JSON.stringify(b) });
+
+// --- setup wizard (personal copies) ---
+export type Level = "A0" | "A1" | "A2" | "B1" | "B2";
+export type Pace = "light" | "normal" | "intensive";
+export interface LanguagePlan { course: "foundation" | "continuing" | "standard"; level: Level; exam?: { level: "A2"; date?: string } }
+export interface LearnerProfile { version: 1; timezone: string; main: Lang; pace: Pace; languages: Partial<Record<Lang, LanguagePlan>>; created: string }
+export interface PaceInfo { main: number; other: number; lessonsPerWeek: number; minutes: number }
+export interface ProfileState {
+  copy: boolean;
+  profile: LearnerProfile | null;
+  rhythm: { morning: string; evening: string; min_day_answers: number };
+  timezone: string;
+  paces: Record<Pace, PaceInfo>;
+}
+export const getProfile = () => call<ProfileState>("/profile");
+export const saveProfile = (answers: { profile: LearnerProfile; morning: string; evening: string; min_day_answers: number }) =>
+  call<{ ok: true }>("/profile", { method: "POST", body: JSON.stringify(answers) });

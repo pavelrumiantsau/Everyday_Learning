@@ -1,22 +1,25 @@
 // Mini App flashcards: session numbers, due queue, new words to learn, answers (server-side FSRS, idempotent by review id).
-import { langOf, localClock, reviewCard } from "@el/core";
+import { chosenLangs, langOf, LANGS, localClock, reviewCard } from "@el/core";
 import { Hono } from "hono";
-import { ITEM_BY_ID, SCHEDULE } from "../content";
+import { ITEM_BY_ID } from "../content";
 import { ensureCards } from "../daily";
 import { Db, type CardRow } from "../db";
 import type { Feature } from "../feature";
 import { grammarQueueCard } from "./grammar";
 import { ensureMistakeCards, mistakeQueueCards } from "./mistakes";
 import { learnerItems } from "./reading";
+import { currentProfile, needsSetup, timezone } from "../profile";
 
 const api = new Hono<{ Bindings: Env }>();
 
 api.get("/session", async (c) => {
   const db = new Db(c.env.DB);
   const now = new Date();
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   const [today, due, learning, known] = await Promise.all([db.getDay(day), db.countDue(now.getTime()), db.countLearning(), db.countCards()]);
-  return c.json({ day, reviewsToday: today.reviews, newToday: today.new_cards, due, learning, known });
+  const p = currentProfile();
+  // langs: the languages this learner studies (all three in the original plan); needsSetup: a copy before the wizard.
+  return c.json({ day, reviewsToday: today.reviews, newToday: today.new_cards, due, learning, known, langs: p ? chosenLangs(p) : LANGS, needsSetup: needsSetup(c.env) });
 });
 
 const QUEUE_MAX = 200;
@@ -78,7 +81,7 @@ api.post("/reviews", async (c) => {
     await db.batch([
       db.updateCard(r.cardId, next),
       db.logReview(r.cardId, r.rating, at, "miniapp", r.id),
-      db.bumpDay(localClock(new Date(at), SCHEDULE.timezone).day, "reviews"),
+      db.bumpDay(localClock(new Date(at), timezone()).day, "reviews"),
     ]);
     applied++;
   }

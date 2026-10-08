@@ -1,9 +1,11 @@
 // Reading mode: graded texts (content/<lang>/reading), tap a word → glossary or AI lookup (cached) → add it to cards.
 // Thursday is Lithuanian reading day (PLAN §3.6): a "📖 Текст дня" message in the learner's morning window; /read any time.
+// A colleague's copy reads in its main language on the day its week plan says (packages/core/src/profile.ts).
 import {
+  chosenLangs,
   escapeHtml,
+  firstReadingLevel,
   inWindow,
-  isReadingDay,
   learnerItemId,
   localClock,
   newCard,
@@ -13,6 +15,8 @@ import {
   parseLearnerItemId,
   parseOwnTextId,
   pickText,
+  readingLangForDay,
+  visibleTo,
   READING_RATINGS,
   wordsOf,
   type ReadingRating,
@@ -20,16 +24,22 @@ import {
   type Lang,
   type ReadingText,
 } from "@el/core";
-import { PROFILES, type TargetLang } from "@el/llm";
+import { type TargetLang } from "@el/llm";
 import { Hono } from "hono";
 import { z } from "zod";
-import { ITEM_BY_ID, ITEMS, SCHEDULE, TEXT_BY_ID, TEXTS } from "../content";
+import { ITEM_BY_ID, ITEMS, TEXT_BY_ID, TEXTS } from "../content";
 import { cardIdFor, cardsForItem } from "../daily";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs } from "../prefs";
 import { llmRouter, PROMPTS } from "./ai/llm";
 import { AiStore } from "./ai/store";
+import { aiProfile, currentProfile, learnerItems as courseItems, timezone } from "../profile";
+
+/** Course texts this learner can get (foundation texts only on that course). */
+const texts = () => visibleTo(TEXTS, currentProfile());
+/** The language of «Текст дня» and /read: Lithuanian in the original plan, else the main language. */
+const mainLang = (): Lang => currentProfile()?.main ?? "lt";
 
 const LANGS: Lang[] = ["lt", "es", "fr"];
 const FLAG: Record<Lang, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
@@ -52,7 +62,7 @@ async function readIds(d1: D1Database): Promise<Set<string>> {
 }
 
 /** A content word with this dictionary form, if the course already has it. */
-const contentItem = (lang: Lang, lemma: string) => ITEMS.find((i) => i.id.startsWith(`${lang}-`) && normalizeWord(i.text) === normalizeWord(lemma));
+const contentItem = (lang: Lang, lemma: string) => courseItems().find((i) => i.id.startsWith(`${lang}-`) && normalizeWord(i.text) === normalizeWord(lemma));
 
 async function learnerItemByLemma(d1: D1Database, lang: Lang, lemma: string) {
   return d1.prepare("SELECT n FROM learner_item WHERE lang = ? AND lemma = ?").bind(lang, normalizeWord(lemma)).first<{ n: number }>();
@@ -123,7 +133,7 @@ function ownText(r: OwnRow): OwnText {
 /** 3 questions for an own text: generated once by the AI and stored; [] if the AI is unavailable (the quiz is skipped). */
 async function ensureQuestions(env: Env, r: OwnRow): Promise<OwnRow> {
   if (r.questions) return r;
-  const p = PROFILES[r.lang as TargetLang];
+  const p = aiProfile(r.lang as TargetLang);
   const system = (PROMPTS["feedback/reading-questions"] ?? "").replaceAll("{{lang_name}}", p.name).replaceAll("{{level}}", p.level);
   try {
     const res = await llmRouter(env, new AiStore(env.DB)).json(
@@ -148,11 +158,11 @@ async function targetLevel(d1: D1Database, lang: Lang) {
     .all<{ text_id: string; rating: ReadingRating }>();
   const last = results[0];
   const t = last && TEXT_BY_ID.get(last.text_id);
-  return nextReadingLevel(t ? { cefr: t.cefr, rating: last.rating } : null, lang);
+  return t ? nextReadingLevel({ cefr: t.cefr, rating: last.rating }, lang) : firstReadingLevel(lang, currentProfile());
 }
 
 async function nextText(d1: D1Database, lang: Lang) {
-  return pickText(TEXTS, await readIds(d1), lang, await targetLevel(d1, lang));
+  return pickText(texts(), await readIds(d1), lang, await targetLevel(d1, lang));
 }
 
 const summary = (t: Pick<ReadingText, "id" | "title" | "topic" | "text"> & { cefr: string | null }, read: Set<string>) => ({
@@ -179,12 +189,13 @@ const api = new Hono<{ Bindings: Env }>();
 
 api.get("/reading", async (c) => {
   const read = await readIds(c.env.DB);
-  const list = [...TEXTS].sort((a, b) => LANGS.indexOf(a.id.slice(0, 2) as Lang) - LANGS.indexOf(b.id.slice(0, 2) as Lang) || a.id.localeCompare(b.id));
+  const p = currentProfile();
+  const list = texts().filter((t) => !p || chosenLangs(p).includes(t.id.slice(0, 2) as Lang)).sort((a, b) => LANGS.indexOf(a.id.slice(0, 2) as Lang) - LANGS.indexOf(b.id.slice(0, 2) as Lang) || a.id.localeCompare(b.id));
   const { results } = await c.env.DB.prepare("SELECT n, lang, title, text, source_url, NULL AS questions, created_at FROM own_text ORDER BY n DESC").all<OwnRow>();
   const own = results.map((r) => ({ ...summary(ownText(r), read), lang: r.lang, own: true }));
-  // The level the next Lithuanian "Текст дня" will have, and that text (so the list can start with it).
-  const level = await targetLevel(c.env.DB, "lt");
-  const next = pickText(TEXTS, read, "lt", level);
+  // The level the next "Текст дня" will have, and that text (so the list can start with it).
+  const level = await targetLevel(c.env.DB, mainLang());
+  const next = pickText(texts(), read, mainLang(), level);
   return c.json({ texts: list.map((t) => summary(t, read)), own, level, nextId: next?.id ?? null });
 });
 
@@ -262,7 +273,7 @@ api.post("/reading/lookup", async (c) => {
     return c.json({ source: "cache", ...r, added: await isAdded(db, c.env.DB, lang, r.lemma) });
   }
   // 3) AI
-  const p = PROFILES[lang as TargetLang];
+  const p = aiProfile(lang as TargetLang);
   const system = (PROMPTS["feedback/lookup"] ?? "")
     .replaceAll("{{lang_name}}", p.name)
     .replaceAll("{{explain_lang}}", p.explainIn)
@@ -337,16 +348,17 @@ export const reading: Feature = {
       name: "read",
       description: "Текст для чтения",
       run: async (c) => {
-        const t = (await nextText(c.env.DB, "lt")) ?? pickText(TEXTS, await readIds(c.env.DB));
+        const t = (await nextText(c.env.DB, mainLang())) ?? pickText(texts(), await readIds(c.env.DB));
         return t ? sendText(c, t) : c.tg.sendMessage(c.ownerId, "📖 Все тексты прочитаны — новые придут со следующей партией.");
       },
     },
   ],
   api,
   async onTick(c) {
-    const { day, hhmm } = localClock(c.now, SCHEDULE.timezone);
-    if (!isReadingDay(day) || !inWindow(hhmm, (await getPrefs(c.db)).morning, MORNING_WINDOW_MIN)) return;
-    const t = await nextText(c.env.DB, "lt");
+    const { day, hhmm } = localClock(c.now, timezone());
+    const lang = readingLangForDay(day, currentProfile());
+    if (!lang || !inWindow(hhmm, (await getPrefs(c.db)).morning, MORNING_WINDOW_MIN)) return;
+    const t = await nextText(c.env.DB, lang);
     if (!t) return;
     const claimed = await c.env.DB.prepare("INSERT OR IGNORE INTO reading_day (day, text_id, sent_at) VALUES (?, ?, ?)").bind(day, t.id, Date.now()).run();
     if (claimed.meta.changes !== 1) return;

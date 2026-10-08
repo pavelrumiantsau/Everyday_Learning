@@ -19,6 +19,7 @@ export interface Command {
   name: string; // without the slash
   description: string; // Russian, shown in /help and in Telegram's command menu
   menu?: boolean; // show in Telegram's command menu (default true)
+  copyOnly?: boolean; // only listed in personal copies (help and menu); the original bot's lists stay as they were
   run(ctx: BotContext, args: string): Promise<unknown>;
 }
 

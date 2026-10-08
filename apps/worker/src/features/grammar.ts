@@ -1,10 +1,11 @@
 // Grammar lessons: rule of the day (weekday rotation), /rule, Mini App lesson API, exercises → cloze review cards.
-import { exerciseCardId, grammarLangsForDay, inWindow, localClock, newCard, parseExerciseCardId, pickLesson, type Exercise, type Lang, type Lesson } from "@el/core";
+import { chosenLangs, exerciseCardId, holdsFrenchGrammar, inWindow, ruleLangsForDay, visibleTo, localClock, newCard, parseExerciseCardId, pickLesson, type Exercise, type Lang, type Lesson } from "@el/core";
 import { Hono } from "hono";
-import { LESSON_BY_ID, LESSONS, SCHEDULE } from "../content";
+import { LESSON_BY_ID, LESSONS } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs } from "../prefs";
+import { currentProfile, timezone } from "../profile";
 
 const MORNING_WINDOW_MIN = 180; // same window as the morning lesson (daily.ts)
 const FLAG: Record<string, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
@@ -38,14 +39,16 @@ async function claimSent(d1: D1Database, day: string, at: number): Promise<boole
  * `anyDay`: on a day without a rule (Sunday) still pick one (the next Lithuanian lesson) — used by /rule.
  */
 export async function todayLesson(d1: D1Database, now: Date, anyDay = false): Promise<{ day: string; lesson: Lesson | null }> {
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   const stored = await dayLessonId(d1, day);
   if (stored) return { day, lesson: LESSON_BY_ID.get(stored) ?? null };
-  const langs = grammarLangsForDay(day);
-  if (!langs.length && anyDay) langs.push("lt");
+  const p = currentProfile();
+  const langs = ruleLangsForDay(day, p);
+  if (!langs.length && anyDay) langs.push(p?.main ?? "lt");
   if (!langs.length) return { day, lesson: null };
   const done = await doneLessonIds(d1);
-  const lesson = langs.map((lang) => pickLesson(LESSONS, lang, done, day)).find((l) => l) ?? null;
+  const lessons = visibleTo(LESSONS, p);
+  const lesson = langs.map((lang) => pickLesson(lessons, lang, done, holdsFrenchGrammar(p) ? day : undefined)).find((l) => l) ?? null;
   if (!lesson) return { day, lesson: null };
   await d1.prepare("INSERT OR IGNORE INTO grammar_day (day, lesson_id) VALUES (?, ?)").bind(day, lesson.id).run();
   const id = await dayLessonId(d1, day); // another request may have picked first
@@ -57,11 +60,13 @@ export async function todayLesson(d1: D1Database, now: Date, anyDay = false): Pr
  * the language; without it: today's language(s) first, then LT, ES, FR. French grammar still waits for FR_START.
  */
 export async function nextLesson(d1: D1Database, now: Date, lang?: Lang): Promise<Lesson | null> {
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   const [done, today] = await Promise.all([doneLessonIds(d1), dayLessonId(d1, day)]);
   if (today) done.add(today); // today's rule has its own entry
-  const langs = lang ? [lang] : [...new Set<Lang>([...grammarLangsForDay(day), "lt", "es", "fr"])];
-  return langs.map((l) => pickLesson(LESSONS, l, done, day)).find((l) => l) ?? null;
+  const p = currentProfile();
+  const langs = lang ? [lang] : [...new Set<Lang>([...ruleLangsForDay(day, p), ...(p ? chosenLangs(p) : (["lt", "es", "fr"] as const))])];
+  const lessons = visibleTo(LESSONS, p);
+  return langs.map((l) => pickLesson(lessons, l, done, holdsFrenchGrammar(p) ? day : undefined)).find((l) => l) ?? null;
 }
 
 // --- bot ---
@@ -103,7 +108,7 @@ async function ruleCommand(ctx: BotContext, args: string) {
 }
 
 async function onTick(ctx: BotContext): Promise<string | void> {
-  const { hhmm } = localClock(ctx.now, SCHEDULE.timezone);
+  const { hhmm } = localClock(ctx.now, timezone());
   if (!inWindow(hhmm, (await getPrefs(ctx.db)).morning, MORNING_WINDOW_MIN)) return; // the learner's morning time (⚙️)
   const { day, lesson } = await todayLesson(ctx.env.DB, ctx.now);
   if (!lesson || !(await claimSent(ctx.env.DB, day, ctx.now.getTime()))) return;
@@ -157,7 +162,7 @@ api.get("/grammar/lessons/:id", async (c) => {
  * and placement) — newest first, to read again and redo the exercises. `day`: when it was the rule of the day or done.
  */
 api.get("/grammar/history", async (c) => {
-  const { day: today } = localClock(new Date(), SCHEDULE.timezone);
+  const { day: today } = localClock(new Date(), timezone());
   const [sent, done] = await Promise.all([
     c.env.DB.prepare("SELECT lesson_id, MAX(day) AS day FROM grammar_day WHERE sent_at IS NOT NULL OR day < ? GROUP BY lesson_id")
       .bind(today)
@@ -167,7 +172,7 @@ api.get("/grammar/history", async (c) => {
   const seen = new Map<string, { day: string; done: boolean }>();
   for (const r of sent.results) seen.set(r.lesson_id, { day: r.day, done: false });
   for (const r of done.results) {
-    const day = localClock(new Date(r.done_at), SCHEDULE.timezone).day;
+    const day = localClock(new Date(r.done_at), timezone()).day;
     const prev = seen.get(r.lesson_id);
     seen.set(r.lesson_id, { day: prev && prev.day > day ? prev.day : day, done: true });
   }

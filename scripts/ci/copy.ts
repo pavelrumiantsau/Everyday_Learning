@@ -181,7 +181,7 @@ async function secrets() {
   console.log(`✓ Worker secrets: ${Object.keys(values).join(", ")}`);
 
   await setWebhook(call, url, webhookSecret);
-  await setMenus(call, url);
+  await setMenus(call, url, true);
   console.log(`✓ Telegram: webhook, commands and ▶ button for @${me.username}`);
 
   summary(
@@ -204,7 +204,7 @@ async function secrets() {
 async function menus() {
   refuseOwnerRepo();
   const token = needBotToken();
-  await setMenus(telegram(token), urlFromToml());
+  await setMenus(telegram(token), urlFromToml(), true);
   console.log("✓ Telegram command menu and ▶ button updated");
 }
 

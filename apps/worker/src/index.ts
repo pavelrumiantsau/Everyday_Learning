@@ -5,6 +5,7 @@ import { tick } from "./daily";
 import { Db } from "./db";
 import type { BotContext } from "./feature";
 import { handleUnclaimed, resolveOwner } from "./owner";
+import { loadProfile, needsSetup } from "./profile";
 import { Telegram, type TgUpdate } from "./telegram";
 
 function botContext(env: Env, ownerId: string, waitUntil: (p: Promise<unknown>) => void): BotContext {
@@ -39,6 +40,7 @@ app.post("/tg/webhook", async (c) => {
       }
       owner = (await resolveOwner(c.env, db))!;
     }
+    await loadProfile(db);
     await handleUpdate(update, botContext(c.env, owner, (p) => c.executionCtx.waitUntil(p)));
   } catch (err) {
     // Log and still return 200, otherwise Telegram retries the same update over and over.
@@ -50,8 +52,11 @@ app.post("/tg/webhook", async (c) => {
 export default {
   fetch: app.fetch,
   async scheduled(_event, env, ctx) {
-    const owner = await resolveOwner(env, new Db(env.DB));
+    const db = new Db(env.DB);
+    const owner = await resolveOwner(env, db);
     if (!owner) return console.log("tick: no owner yet (copy not claimed)");
+    await loadProfile(db);
+    if (needsSetup(env)) return console.log("tick: waiting for the setup wizard");
     ctx.waitUntil(tick(botContext(env, owner, (p) => ctx.waitUntil(p))).then((r) => console.log("tick:", r)));
   },
 } satisfies ExportedHandler<Env>;

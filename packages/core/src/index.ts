@@ -12,3 +12,4 @@ export * from "./audio";
 export * from "./grammar";
 export * from "./diff";
 export * from "./reading";
+export * from "./profile";

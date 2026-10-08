@@ -51,6 +51,40 @@ export const PROFILES: Record<TargetLang, LearnerProfile> = {
   },
 };
 
+/** CEFR level of a colleague's copy (packages/core Profile); null = the owner's original profiles above. */
+export type LearnerLevel = "A0" | "A1" | "A2" | "B1" | "B2";
+
+const LEVEL_NAME: Record<LearnerLevel, string> = {
+  A0: "A0 absolute beginner",
+  A1: "A1 beginner",
+  A2: "A2 elementary",
+  B1: "B1 intermediate",
+  B2: "B2 upper intermediate",
+};
+
+/**
+ * The AI profile for a language: the owner's original one without a level, else built for the level of a colleague's
+ * copy (docs/EXTENSION-PLAN.md §5.4). Colleagues are native Russian speakers; Ukrainian/Belarusian are not assumed.
+ */
+export function learnerProfileFor(lang: TargetLang, level: LearnerLevel | null): LearnerProfile {
+  const base = PROFILES[lang];
+  if (level === null) return base;
+  const name = base.name;
+  const style: Record<LearnerLevel, string> = {
+    A0: `Keep your ${name} VERY simple: 1–2 very short sentences, present tense, the most common words; add the meaning of every new word in parentheses (in ${base.explainIn}).`,
+    A1: `Keep your ${name} simple: 1–3 short sentences (at most ~8 words each), present tense and the most common words; if you use a word a beginner may not know, add its meaning in parentheses (in ${base.explainIn}).`,
+    A2: `Write simple ${name}: 2–3 short sentences, everyday vocabulary, present, past and future tenses; no participles or long clauses.`,
+    B1: `Write natural B1-level ${name}: 2–4 short sentences, everyday vocabulary, occasionally a useful B1–B2 construction.`,
+    B2: `Write natural B2-level ${name}: 2–4 sentences, varied vocabulary and constructions, as a native speaker would in a relaxed chat.`,
+  };
+  return {
+    ...base,
+    level: `${LEVEL_NAME[level]}. Native Russian speaker`,
+    style: style[level],
+    defaultTopic: level === "A0" || level === "A1" ? "introductions, family, food, the day" : base.defaultTopic,
+  };
+}
+
 export const isTargetLang = (s: string): s is TargetLang => s === "lt" || s === "es" || s === "fr";
 
 const Mistake = z.object({

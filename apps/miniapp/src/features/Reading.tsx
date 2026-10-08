@@ -4,6 +4,7 @@ import { grammarLabel } from "@el/core/labels";
 import { paragraphs, sentenceAt, tokenize } from "@el/core/reading";
 import { useEffect, useMemo, useState } from "react";
 import {
+  activeLangs,
   addOwnText,
   addWordToCards,
   deleteOwnText,
@@ -151,7 +152,7 @@ function AddOwn({ onCancel, onSaved }: { onCancel: () => void; onSaved: (id: str
       <h1>Свой текст</h1>
       <p className="hint small">Скопируй текст статьи (например, с lrt.lt) и вставь сюда. Незнакомые слова объяснит ИИ, вопросы на понимание он тоже составит.</p>
       <div className="chips">
-        {LANGS.map((l) => (
+        {activeLangs().map((l) => (
           <button key={l} className={`chip ${lang === l ? "on" : ""}`} onClick={() => setLang(l)}>{FLAG[l]}</button>
         ))}
       </div>

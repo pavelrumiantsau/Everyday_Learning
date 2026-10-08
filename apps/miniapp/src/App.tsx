@@ -6,7 +6,8 @@ import { LearnNew } from "./screens/Learn";
 import { Review } from "./screens/Review";
 import { haptic, tg } from "./telegram";
 
-const BOT = "pavel_rumiantsau_learning_bot";
+/** The original deployment's bot; a personal copy opened outside Telegram just says to open it from Telegram. */
+const BOT = location.hostname === "everyday-learning.p-rumiantsau.workers.dev" ? "pavel_rumiantsau_learning_bot" : null;
 
 export function App() {
   if (!tg) {
@@ -14,7 +15,7 @@ export function App() {
       <main className="screen center">
         <h1>Everyday Learning</h1>
         <p className="hint">Это приложение открывается из Telegram.</p>
-        <a className="button" href={`https://t.me/${BOT}`}>Открыть бота</a>
+        {BOT && <a className="button" href={`https://t.me/${BOT}`}>Открыть бота</a>}
       </main>
     );
   }
@@ -75,6 +76,11 @@ function Learn() {
         <button className="button" onClick={() => void refresh()}>Повторить</button>
       </main>
     );
+  }
+  // A personal copy shows only the setup wizard until it is answered.
+  if (session?.needsSetup) {
+    const setup = FEATURES.find((f) => f.id === "setup")!;
+    return setup.Screen ? <setup.Screen close={goHome} /> : null;
   }
   if (openFeature === "learn") return <LearnNew onDone={goHome} />;
   const feature = FEATURES.find((f) => f.id === openFeature);

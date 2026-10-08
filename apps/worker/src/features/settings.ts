@@ -1,10 +1,10 @@
 // Settings, stats, streaks and holiday mode: /stats, /pause, /new; Mini App /api/settings and /api/stats.
 import { computeStreak, LANGS, localClock, type Lang } from "@el/core";
 import { Hono } from "hono";
-import { SCHEDULE } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs, updatePrefs } from "../prefs";
+import { timezone } from "../profile";
 
 const FLAG: Record<Lang, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
 const DAY_MS = 86_400_000;
@@ -16,7 +16,7 @@ const shiftDay = (day: string, n: number) => {
 };
 
 export async function stats(db: Db, now: Date) {
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   const [prefs, history, known, retention] = await Promise.all([
     getPrefs(db),
     db.activityHistory(shiftDay(day, -400)),
@@ -61,7 +61,7 @@ async function statsText({ db, now }: BotContext): Promise<string> {
 }
 
 async function pause(c: BotContext, args: string) {
-  const { day } = localClock(c.now, SCHEDULE.timezone);
+  const { day } = localClock(c.now, timezone());
   if (/^(off|stop|0|нет|стоп)$/i.test(args)) {
     await c.db.clearPausedFrom(day).run();
     return c.tg.sendMessage(c.ownerId, "▶️ Пауза снята, уроки снова приходят.");
@@ -89,7 +89,7 @@ async function setNew(c: BotContext, args: string) {
 
 const api = new Hono<{ Bindings: Env }>();
 
-api.get("/settings", async (c) => c.json({ prefs: await getPrefs(new Db(c.env.DB)), timezone: SCHEDULE.timezone }));
+api.get("/settings", async (c) => c.json({ prefs: await getPrefs(new Db(c.env.DB)), timezone: timezone() }));
 
 api.put("/settings", async (c) => {
   const r = await updatePrefs(new Db(c.env.DB), await c.req.json().catch(() => null));

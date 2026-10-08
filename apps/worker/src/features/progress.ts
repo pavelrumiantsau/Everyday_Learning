@@ -1,11 +1,12 @@
 // Passive input log (/input, Mini App) and the Sunday weekly report with automatic adjustment of new words/day.
 import { adjustNewPerDay, escapeHtml, inWindow, LANGS, localClock, LT_INPUT_TARGET_MIN, verdict, type Lang, type WeekSummary } from "@el/core";
 import { Hono } from "hono";
-import { SCHEDULE, SOURCES } from "../content";
+import { SOURCES } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs, updatePrefs } from "../prefs";
 import { sendWritingReview } from "./mistakes";
+import { currentProfile, timezone } from "../profile";
 
 const FLAG: Record<Lang, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
 const KINDS = ["podcast", "video", "radio", "reading", "conversation", "other"] as const;
@@ -48,7 +49,7 @@ function parseInput(args: string): { minutes: number; lang: Lang; kind: (typeof 
 }
 
 export async function weekSummary(db: Db, d1: D1Database, now: Date): Promise<WeekSummary & { newWords: number; from: string; to: string }> {
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   const from = shiftDay(day, -6);
   const [prefs, history, ret, due, input] = await Promise.all([
     getPrefs(db),
@@ -93,7 +94,8 @@ export async function sendWeekly(c: BotContext, adjust: boolean) {
     `🎧 Аудирование/чтение: ${LANGS.filter((l) => w.inputMinutes[l]).map((l) => `${FLAG[l]} ${hours(w.inputMinutes[l]!)}`).join(", ") || "не отмечено"}`,
   ];
   const lt = w.inputMinutes.lt ?? 0;
-  if (lt < LT_INPUT_TARGET_MIN) {
+  const p = currentProfile();
+  if (lt < LT_INPUT_TARGET_MIN && (!p || p.languages.lt)) {
     lines.push(`   🇱🇹 цель — 3 ч в неделю (LRT, подкасты, сериалы). Отмечай: /input 30 lt podcast`);
     const tip = suggestion("lt", w.to);
     if (tip) lines.push(`   💡 Попробуй: <a href="${tip.url}">${escapeHtml(tip.title)}</a> — ${escapeHtml(tip.note)}`);
@@ -116,7 +118,7 @@ api.post("/input", async (c) => {
   const b = await c.req.json<{ lang?: string; minutes?: number; kind?: string; title?: string }>().catch(() => ({}) as Record<string, never>);
   const parsed = parseInput(`${b.minutes ?? ""} ${b.lang ?? ""} ${b.kind ?? ""} ${b.title ?? ""}`.trim());
   if (!parsed) return c.json({ error: "minutes 1–600, lang lt|es|fr" }, 400);
-  const { day } = localClock(new Date(), SCHEDULE.timezone);
+  const { day } = localClock(new Date(), timezone());
   await logInput(c.env.DB, day, parsed.lang, parsed.minutes, parsed.kind, parsed.title);
   return c.json({ week: await inputSince(c.env.DB, shiftDay(day, -6)) });
 });
@@ -124,7 +126,7 @@ api.post("/input", async (c) => {
 api.get("/input/sources", (c) => c.json({ sources: SOURCES }));
 
 api.get("/input/week", async (c) => {
-  const { day } = localClock(new Date(), SCHEDULE.timezone);
+  const { day } = localClock(new Date(), timezone());
   return c.json({ week: await inputSince(c.env.DB, shiftDay(day, -6)), targetLt: LT_INPUT_TARGET_MIN });
 });
 
@@ -142,7 +144,7 @@ export const progress: Feature = {
             `Формат: /input <минуты> <язык> [тип] [название]\nНапример: /input 30 lt podcast LRT\nТипы: ${KINDS.join(", ")}`,
           );
         }
-        const { day } = localClock(c.now, SCHEDULE.timezone);
+        const { day } = localClock(c.now, timezone());
         await logInput(c.env.DB, day, p.lang, p.minutes, p.kind, p.title);
         const week = await inputSince(c.env.DB, shiftDay(day, -6));
         return c.tg.sendMessage(c.ownerId, `✅ ${FLAG[p.lang]} ${p.minutes} мин (${KIND_RU[p.kind]}). За 7 дней: ${hours(week[p.lang] ?? 0)}`);
@@ -152,7 +154,7 @@ export const progress: Feature = {
   ],
   api,
   async onTick(c) {
-    const { day, hhmm } = localClock(c.now, SCHEDULE.timezone);
+    const { day, hhmm } = localClock(c.now, timezone());
     if (weekday(day) !== WEEKLY_DAY || !inWindow(hhmm, WEEKLY_AT, 180)) return;
     const claimed = await c.env.DB.prepare("INSERT OR IGNORE INTO settings (key, value) VALUES (?, '1')").bind(`weekly_sent:${day}`).run();
     if (claimed.meta.changes !== 1) return;

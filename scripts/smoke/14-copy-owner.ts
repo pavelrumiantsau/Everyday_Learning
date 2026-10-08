@@ -26,7 +26,8 @@ export default async function (t: Smoke) {
   // The claim.
   calls.length = 0;
   await post(msg(`/start ${COPY_CLAIM}`));
-  check(sent().some((c) => String(c.body.chat_id) === OWNER && c.body.text.includes("Привет")), "the claim link binds the bot and greets its owner");
+  check(sent().some((c) => String(c.body.chat_id) === OWNER && c.body.text.includes("Привет") && c.body.reply_markup?.inline_keyboard?.[0]?.[0]?.web_app?.url?.includes("screen=setup")),
+    "the claim link binds the bot, greets its owner and opens the setup wizard");
   check((await api("/session", t.me)).status === 200, "the owner can use the Mini App");
 
   // Somebody else, even with the same link: one line, nothing else.
@@ -43,10 +44,10 @@ export default async function (t: Smoke) {
   check(calls.length === 0, "a stranger's poll answer is ignored");
   check((await api("/session", await initData(STRANGER))).status === 403, "a stranger's Mini App → 403");
 
-  // The owner: works in the private chat, groups are ignored.
+  // The owner: before the wizard every command leads to it; groups are ignored.
   calls.length = 0;
   await post(msg("/today"));
-  check(sent().some((c) => String(c.body.chat_id) === OWNER && c.body.text.includes("К повторению")), "/today works for the owner after the claim");
+  check(sent().length === 1 && sent()[0]!.body.text.includes("Сначала настроим"), "before the setup wizard /today asks for the setup");
   calls.length = 0;
   await post(groupMsg("/today", Number(OWNER)));
   check(calls.length === 0, "the owner's messages in a group are ignored");

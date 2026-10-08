@@ -1,6 +1,6 @@
 // Passive input (podcasts, radio, series, reading): this week's minutes and quick logging.
 import { useEffect, useState } from "react";
-import { getInputSources, getInputWeek, logInput, type InputSource, type Lang } from "../api";
+import { activeLangs, getInputSources, getInputWeek, logInput, type InputSource, type Lang } from "../api";
 import type { MiniFeature } from "../features";
 import { FLAG } from "../flags";
 import { haptic, openLink } from "../telegram";
@@ -64,7 +64,7 @@ function Screen({ close }: { close: () => void }) {
       <h1>Аудирование и чтение</h1>
       <p className="hint small">Всё, что слушал или читал вне приложения: подкасты, LRT, сериалы, книги. Цель для литовского — 3 часа в неделю.</p>
       <div className="chips">
-        {LANGS.map((l) => (
+        {activeLangs().map((l) => (
           <button key={l} className={`chip ${lang === l ? "on" : ""}`} onClick={() => setLang(l)}>{FLAG[l]}</button>
         ))}
       </div>

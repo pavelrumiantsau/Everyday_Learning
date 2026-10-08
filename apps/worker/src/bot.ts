@@ -1,10 +1,11 @@
 // Telegram update routing: owner check → quiz answers → commands → feature message handlers → help.
 import { localClock, reviewQuiz, Rating } from "@el/core";
-import { SCHEDULE } from "./content";
 import type { Db } from "./db";
 import type { BotContext } from "./feature";
 import { COMMANDS, FEATURES, helpText } from "./features";
 import { answerStranger, isCopy } from "./owner";
+import { askForSetup } from "./features/setup";
+import { needsSetup, timezone } from "./profile";
 import type { TgUpdate } from "./telegram";
 
 export async function handleUpdate(update: TgUpdate, ctx: BotContext) {
@@ -13,6 +14,12 @@ export async function handleUpdate(update: TgUpdate, ctx: BotContext) {
   if (String(fromId) !== ctx.ownerId) return isCopy(ctx.env) ? answerStranger(update, ctx.tg) : undefined;
   // A copy works only in its owner's private chat: groups and channels are ignored.
   if (isCopy(ctx.env) && update.message && update.message.chat.type !== "private") return;
+  // A copy teaches nothing until the setup wizard is answered (only /setup and /help work meanwhile).
+  if (needsSetup(ctx.env)) {
+    const name = /^\/(\w+)/.exec(update.message?.text?.trim() ?? "")?.[1]?.toLowerCase();
+    if (name === "setup" || name === "help") return COMMANDS.find((c) => c.name === name)!.run(ctx, "");
+    return update.message ? askForSetup(ctx) : undefined;
+  }
 
   if (update.poll_answer) {
     const { poll_id, option_ids } = update.poll_answer;
@@ -30,7 +37,7 @@ export async function handleUpdate(update: TgUpdate, ctx: BotContext) {
   } else {
     for (const f of FEATURES) if (f.onMessage && (await f.onMessage(ctx, message))) return;
   }
-  return ctx.tg.sendMessage(ctx.ownerId, "Не понял. " + helpText());
+  return ctx.tg.sendMessage(ctx.ownerId, "Не понял. " + helpText(isCopy(ctx.env)));
 }
 
 async function handlePollAnswer(pollId: string, optionIds: number[], db: Db, now: Date) {
@@ -41,7 +48,7 @@ async function handlePollAnswer(pollId: string, optionIds: number[], db: Db, now
   if (!row) return;
   const correct = optionIds[0] === poll.correct_option;
   const next = reviewQuiz(JSON.parse(row.fsrs), now, correct);
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   await db.batch([
     db.updateCard(row.card_id, next),
     db.logReview(row.card_id, correct ? Rating.Good : Rating.Again, now.getTime(), "poll"),

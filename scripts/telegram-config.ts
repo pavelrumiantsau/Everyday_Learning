@@ -1,6 +1,6 @@
 // Telegram Bot API calls that connect a bot to its Worker. Used by `pnpm setup:telegram` (the owner's Mac) and by
 // scripts/ci/copy.ts (the Setup / Update workflows of colleagues' copies).
-import { COMMANDS } from "../apps/worker/src/features/index.ts";
+import { listedCommands } from "../apps/worker/src/features/index.ts";
 
 export function telegram(token: string, apiBase = "https://api.telegram.org") {
   return async function call<T = unknown>(method: string, body: object = {}): Promise<T> {
@@ -15,10 +15,10 @@ export function telegram(token: string, apiBase = "https://api.telegram.org") {
   };
 }
 
-/** Command menu and the ▶ Learn button that opens the Mini App at `url`. */
-export async function setMenus(call: ReturnType<typeof telegram>, url: string) {
+/** Command menu and the ▶ Learn button that opens the Mini App at `url`. `copy`: a personal copy (adds copy-only commands). */
+export async function setMenus(call: ReturnType<typeof telegram>, url: string, copy = false) {
   await call("setMyCommands", {
-    commands: COMMANDS.filter((c) => c.menu !== false).map((c) => ({ command: c.name, description: c.description })),
+    commands: listedCommands(copy).filter((c) => c.menu !== false).map((c) => ({ command: c.name, description: c.description })),
   });
   await call("setChatMenuButton", { menu_button: { type: "web_app", text: "▶ Learn", web_app: { url: `${url}/` } } });
 }

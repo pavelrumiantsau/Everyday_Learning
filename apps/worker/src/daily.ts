@@ -1,9 +1,10 @@
 import { buildQuiz, formatNewItem, inWindow, langOf, localClock, newCard, pickNewItems, type CardJson, type Item } from "@el/core";
-import { ITEM_BY_ID, ITEMS, SCHEDULE } from "./content";
+import { ITEM_BY_ID } from "./content";
 import { getPrefs } from "./prefs";
 import type { Db } from "./db";
 import type { BotContext } from "./feature";
 import type { Telegram } from "./telegram";
+import { learnerItems, timezone } from "./profile";
 
 const MORNING_WINDOW_MIN = 180; // if the morning cron is missed, still send until 3 h later
 const EVENING_WINDOW_MIN = 120;
@@ -19,7 +20,7 @@ export function cardsForItem(item: Item): CardKind[] {
 /** Creates the cards of new items (due now) and counts them as today's new cards. Used by the morning lesson and /more. */
 export async function introduceItems(db: Db, items: readonly Item[], now: Date): Promise<void> {
   if (!items.length) return;
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   const at = now.getTime();
   await db.batch([
     ...items.flatMap((item) => cardsForItem(item).map((k) => db.insertCard(cardIdFor(item.id, k), item.id, langOf(item), newCard(now), at))),
@@ -75,7 +76,7 @@ export async function tick(ctx: BotContext): Promise<string> {
 }
 
 async function coreTick(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now: Date): Promise<string> {
-  const { day, hhmm } = localClock(now, SCHEDULE.timezone);
+  const { day, hhmm } = localClock(now, timezone());
   const [prefs, today] = await Promise.all([getPrefs(db), db.getDay(day)]);
   if (today.paused) return "paused";
 
@@ -104,7 +105,7 @@ export const newWordsButton = (url: string) => ({ text: "🆕 Учить нов�
 
 export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUrl: string, now = new Date()): Promise<void> {
   const [introduced, prefs] = await Promise.all([db.introducedItemIds(), getPrefs(db)]);
-  const fresh = pickNewItems(ITEMS, introduced, prefs.new_per_day);
+  const fresh = pickNewItems(learnerItems(), introduced, prefs.new_per_day);
   await ensureCards(db, now);
   const due = await db.dueCards(now.getTime(), prefs.max_review_polls, "recog"); // polls test meanings only
   const dueTotal = await db.countDue(now.getTime());
@@ -122,7 +123,7 @@ export async function sendMorning(db: Db, tg: Telegram, chatId: string, webAppUr
   for (const cardId of new Set(quizCards)) {
     const item = ITEM_BY_ID.get(cardId.split(":")[0]!);
     if (!item) continue; // item removed from content
-    const quiz = buildQuiz(item, ITEMS);
+    const quiz = buildQuiz(item, learnerItems());
     if (quiz.options.length < 2) continue;
     const sent = await tg.sendQuiz(chatId, quiz);
     await db.mapPoll(sent.poll.id, cardId, quiz.correctIndex, Date.now()).run();

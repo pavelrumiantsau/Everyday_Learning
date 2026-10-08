@@ -1,13 +1,14 @@
 // Core bot commands: /start, /help, /today, /lesson.
 import { localClock } from "@el/core";
-import { SCHEDULE } from "../content";
 import { learnButton, newWordsButton, sendMorning } from "../daily";
 import { getPrefs } from "../prefs";
 import type { BotContext, Feature } from "../feature";
+import { isCopy } from "../owner";
 import { helpText } from "./index";
+import { timezone } from "../profile";
 
 async function todayText({ db, now }: BotContext): Promise<{ text: string; learning: number }> {
-  const { day } = localClock(now, SCHEDULE.timezone);
+  const { day } = localClock(now, timezone());
   const [today, due, learning, known, prefs] = await Promise.all([
     db.getDay(day),
     db.countDue(now.getTime()),
@@ -38,7 +39,7 @@ export const core: Feature = {
       description: "Начать",
       menu: false,
       run: async (c) =>
-        c.tg.sendMessage(c.ownerId, `👋 Привет! Я буду присылать урок каждое утро в ${(await getPrefs(c.db)).morning}.\n\n${helpText()}`),
+        c.tg.sendMessage(c.ownerId, `👋 Привет! Я буду присылать урок каждое утро в ${(await getPrefs(c.db)).morning}.\n\n${helpText(isCopy(c.env))}`),
     },
     {
       name: "today",
@@ -53,10 +54,10 @@ export const core: Feature = {
       description: "Урок прямо сейчас",
       run: async (c) => {
         // Counts as today's morning lesson, so the scheduled one doesn't arrive as well.
-        await c.db.claimDayFlag(localClock(c.now, SCHEDULE.timezone).day, "morning_sent");
+        await c.db.claimDayFlag(localClock(c.now, timezone()).day, "morning_sent");
         return sendMorning(c.db, c.tg, c.ownerId, c.webAppUrl, c.now);
       },
     },
-    { name: "help", description: "Справка", run: (c) => c.tg.sendMessage(c.ownerId, helpText()) },
+    { name: "help", description: "Справка", run: (c) => c.tg.sendMessage(c.ownerId, helpText(isCopy(c.env))) },
   ],
 };

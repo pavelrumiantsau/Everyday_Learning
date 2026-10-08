@@ -1,8 +1,9 @@
 // The learner's own mistakes (saved by the AI tutor/feedback) become review cards ("✏️ Как правильно?"),
 // and once a week the AI writes a short review of recurring mistakes with practice sentences (/review, Sunday).
 import { escapeHtml, newCard, sameIgnoringPunctuation, type Lang } from "@el/core";
-import { PROFILES, render, type TargetLang } from "@el/llm";
+import { render, type TargetLang } from "@el/llm";
 import type { Db } from "../db";
+import { aiProfile } from "../profile";
 import type { BotContext, Feature } from "../feature";
 import { llmRouter, PROMPTS } from "./ai/llm";
 import { AiStore } from "./ai/store";
@@ -56,7 +57,7 @@ export async function sendWritingReview(c: BotContext, onlyIfEnough = true): Pro
   for (const lang of ["lt", "es", "fr"] as const) {
     const list = results.filter((m) => m.lang === lang && !sameIgnoringPunctuation(m.original, m.corrected)).slice(0, 80);
     if (list.length < (onlyIfEnough ? 3 : 1)) continue;
-    const p = PROFILES[lang as TargetLang];
+    const p = aiProfile(lang as TargetLang);
     const system = render(PROMPTS["feedback/weekly"] ?? "", { lang_name: p.name, explain_lang: p.explainIn, level: p.level });
     const user = list.map((m) => `${m.original} → ${m.corrected}${m.explanation ? ` (${m.explanation})` : ""}`).join("\n");
     const r = await llmRouter(c.env, new AiStore(c.env.DB)).chat("weekly_review", {
