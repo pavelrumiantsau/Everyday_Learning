@@ -16,6 +16,10 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      # Colleagues extension branches must leave Spanish/French materials as they are (docs/EXTENSION-PLAN.md §4.4).
+      - name: Spanish/French materials untouched
+        if: github.event_name == 'pull_request'
+        run: git fetch --no-tags --unshallow origin && bash scripts/ci/untouched.sh
       - run: pnpm content:validate
       - run: pnpm build
       - run: pnpm typecheck

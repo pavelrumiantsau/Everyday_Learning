@@ -7,6 +7,14 @@ Spanish beginner, French starts April 2027.
 **Start here:** `docs/PLAN.md` → "Status" (what is done, what is left, content supply and next ids). Setup and secrets:
 `docs/SETUP.md`. Everything else follows from those two files.
 
+## Colleagues extension (in progress since Oct 2026)
+Personal copies of the app for colleagues + a Lithuanian course from zero to the A2 exam: **`docs/EXTENSION-PLAN.md`**
+(requirements, work plan, status, reserved ids). Hard rules: the owner's bot behaves exactly as before (legacy profile;
+`packages/*/test/legacy-baseline.test.ts` compares with frozen copies in `test/legacy/` — never edit those copies), A-level
+content is `track: foundation` and never reaches the owner, Spanish/French materials are untouched
+(`scripts/ci/untouched.sh`), work on `feat/colleagues-*` / `content/lt-foundation-*` branches. Foundation content recipe:
+`prompts/content/lt-foundation.md` (Russian only, no Ukrainian/Belarusian comparisons).
+
 ## Conventions that matter
 - **Explanation language:** Lithuanian → **Russian**; Spanish/French → **English**. **Bot and Mini App UI strings: Russian.**
 - **Accuracy over volume** for all learning content. Every form, translation and rule is learned as correct by a real person.
