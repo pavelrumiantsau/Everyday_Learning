@@ -129,6 +129,9 @@ async function configure() {
     return;
   }
   const account = await accountId();
+  // The committed wrangler.toml names the original bot's account: a copy must never deploy over it (same Worker and D1 names).
+  const original = /^account_id\s*=\s*"([^"]+)"/m.exec(readFileSync(tomlPath, "utf8"))?.[1];
+  if (account === original) fail("Этот токен Cloudflare — от аккаунта исходного бота. Для копии нужен свой аккаунт Cloudflare (шаг 3 инструкции).");
   const subdomain = await ensureSubdomain(account);
   const databaseId = await ensureDatabase(account);
   const url = workerUrl(subdomain);
