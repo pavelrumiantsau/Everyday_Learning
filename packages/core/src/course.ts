@@ -22,6 +22,8 @@ export const CourseUnit = z.object({
   tasks: z.array(z.string().regex(/^lt-(t|s)-\d{4}$/)).default([]),
   /** Listening dialogues and announcements (lt-l-…), content/lt/listening. Optional for completing the unit. */
   listening: z.array(z.string().regex(/^lt-l-\d{4}$/)).default([]),
+  /** Mock exams (lt-x-…), content/lt/exams. Passing one at its level completes the unit. */
+  exams: z.array(z.string().regex(/^lt-x-\d{4}$/)).default([]),
   /** «Я могу…» statements in Russian. */
   can_do: z.array(z.string().trim().min(3).max(120)).max(8).default([]),
 });
@@ -38,7 +40,7 @@ export const Course = z
     c.units.forEach((u, i) => {
       if (ids.has(u.id)) ctx.addIssue({ code: "custom", path: ["units", i, "id"], message: `duplicate unit ${u.id}` });
       ids.add(u.id);
-      for (const id of [...u.words, ...u.phrases, ...u.lessons, ...u.texts, ...u.tasks, ...u.listening]) {
+      for (const id of [...u.words, ...u.phrases, ...u.lessons, ...u.texts, ...u.tasks, ...u.listening, ...u.exams]) {
         const other = where.get(id);
         if (other) ctx.addIssue({ code: "custom", path: ["units", i], message: `${id} is in ${other} and ${u.id}` });
         where.set(id, u.id);
@@ -80,6 +82,8 @@ export interface UnitState {
   textsRead: ReadonlySet<string>;
   /** Best unit-check score in % by unit id. */
   checks: ReadonlyMap<string, number>;
+  /** Mock exams passed at their level (A1 exam with A1, A2 exam with A2). */
+  examsPassed: ReadonlySet<string>;
 }
 
 export interface UnitProgress {
@@ -87,8 +91,9 @@ export interface UnitProgress {
   words: { total: number; learned: number; introduced: number };
   lessons: { total: number; done: number };
   texts: { total: number; read: number };
+  exams: { total: number; passed: number };
   check: number | null;
-  /** 0–100: learned words, done lessons and read texts together. */
+  /** 0–100: learned words, done lessons, read texts and passed mock exams together. */
   percent: number;
   /** Everything learned, done and read, or a unit check ≥ PASS_PERCENT. */
   complete: boolean;
@@ -102,14 +107,15 @@ export function unitProgress(u: CourseUnit, s: UnitState): UnitProgress {
   const words = { total: items.length, learned: items.filter((id) => s.learned.has(id)).length, introduced: items.filter((id) => s.introduced.has(id)).length };
   const lessons = { total: u.lessons.length, done: u.lessons.filter((id) => s.lessonsDone.has(id)).length };
   const texts = { total: u.texts.length, read: u.texts.filter((id) => s.textsRead.has(id)).length };
-  const parts = words.total + lessons.total + texts.total;
-  const doneParts = words.learned + lessons.done + texts.read;
+  const exams = { total: u.exams.length, passed: u.exams.filter((id) => s.examsPassed.has(id)).length };
+  const parts = words.total + lessons.total + texts.total + exams.total;
+  const doneParts = words.learned + lessons.done + texts.read + exams.passed;
   const percent = parts ? Math.round((doneParts / parts) * 100) : 0;
   const check = s.checks.get(u.id) ?? null;
-  return { id: u.id, words, lessons, texts, check, percent, complete: (parts > 0 && doneParts === parts) || (check ?? 0) >= PASS_PERCENT };
+  return { id: u.id, words, lessons, texts, exams, check, percent, complete: (parts > 0 && doneParts === parts) || (check ?? 0) >= PASS_PERCENT };
 }
 
-const hasContent = (p: UnitProgress) => p.words.total + p.lessons.total + p.texts.total > 0;
+const hasContent = (p: UnitProgress) => p.words.total + p.lessons.total + p.texts.total + p.exams.total > 0;
 
 /** The unit to work on: the first one with content that isn't complete (units still without content are skipped). */
 export function currentUnit(progress: readonly UnitProgress[]): string | null {

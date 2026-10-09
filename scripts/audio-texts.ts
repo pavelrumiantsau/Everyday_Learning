@@ -3,7 +3,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { audioTexts, lessonAudioTexts, listeningSpeech, type Item, type Lesson, type Listening } from "../packages/core/src/index.ts";
+import { audioTexts, examListeningId, examListeningSpeech, lessonAudioTexts, listeningSpeech, type Exam, type Item, type Lesson, type Listening } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const out = process.argv[2] ?? join(root, ".cache/audio-texts.json");
@@ -16,9 +16,11 @@ const reginute = new Set([
   ...lessons.filter((l) => l.track === "foundation").flatMap((l) => lessonAudioTexts(l).map((t) => t.id)),
 ]);
 const listening = JSON.parse(readFileSync(join(root, "apps/worker/src/generated/listening.json"), "utf8")) as Listening[];
+const exams = JSON.parse(readFileSync(join(root, "apps/worker/src/generated/exams.json"), "utf8")) as Exam[];
 const texts = [
   ...[...items.map(audioTexts), ...lessons.flatMap(lessonAudioTexts)].map((t) => (reginute.has(t.id) ? { ...t, voice: "reginute" } : t)),
   ...listening.map((l) => ({ id: l.id, word: listeningSpeech(l), voice: "reginute" })),
+  ...exams.flatMap((e) => e.listening.map((t, i) => ({ id: examListeningId(e.id, i), word: examListeningSpeech(t), voice: "reginute" }))),
 ];
 mkdirSync(dirname(out), { recursive: true });
 writeFileSync(out, JSON.stringify(texts, null, 1));

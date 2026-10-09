@@ -1,0 +1,65 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit e01): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+# Exam facts: NŠA, checked 2026-10-08 (EXTENSION-PLAN §6.1) — re-check before relying on them.
+id: lt-g-0260
+cefr: A2
+order: 260
+track: foundation
+title: "Экзамен A1–A2: части, баллы и как готовиться"
+explanation:
+  ru: |
+    **Экзамен по государственному языку** базовой и I категории (A1–A2) проводит NŠA. Один экзамен даёт **A1 или A2**. Регистрация — на eksternams.nsa.smm.lt не позже чем за 7 дней; цену и даты проверьте там же.
+
+    **Три части:**
+    - **Чтение и письмо** (на компьютере): задания 1–4 — уровень A1 (22 балла), задания 5–9 — A2 (28 баллов)
+    - **Аудирование**: задания 1–2 — A1 (10 баллов), 3–4 — A2 (10 баллов); каждая запись звучит **два раза**
+    - **Говорение**: беседа с экзаменатором, 3 ситуации по 0–3 балла + 0–1 балл за беседу (всего 10)
+
+    **Сколько нужно:** в каждой части — **60 %**. Чтение и письмо: A1 — от 13 из 22, A2 — от 17 из 28 (и A1 в этой же части). Аудирование: от 6 из 10 для каждого уровня. Говорение: A1 — от 5 баллов, и хотя бы две ситуации на 2; A2 — от 6 баллов, и две ситуации вместе на 5 (например, 3 + 2). **Итог A2 — только если все три части сданы на A2.**
+
+    **Как готовиться в приложении:**
+    - **Чтение:** сначала прочитайте вопросы, потом ищите ответ в тексте. Незнакомое слово часто не мешает ответить.
+    - **Письмо:** выполните **каждый пункт задания** и держитесь нужного числа слов. Пишите простыми фразами, которые вы точно знаете. Буквы *ą, č, ę, ė, į, š, ų, ū, ž* обязательны.
+    - **Аудирование:** в первый раз слушайте общий смысл, во второй — проверяйте ответы.
+    - **Говорение:** отвечайте полными фразами. Не поняли — переспросите по-литовски, это нормально и не снижает оценку.
+
+    Ниже — фразы, чтобы переспросить экзаменатора. Потом — три пробных экзамена: **A1** и два **A2**.
+examples:
+  - { text: "Pakartokite, prašau.", translation: "Повторите, пожалуйста.", source: "tatoeba:6018121" }
+  - { text: "Prašau, kalbėk lėčiau.", translation: "Говори медленнее, пожалуйста.", source: "tatoeba:10877109" }
+  - { text: "Nesupratau.", translation: "Не понял.", source: "tatoeba:3221159" }
+  - { text: "Ką tai reiškia?", translation: "Что это значит?", source: "tatoeba:1600766" }
+  - { text: "Sėkmės egzamine!", translation: "Удачи на экзамене!", source: "tatoeba:1673815" }
+exercises:
+  - type: cloze
+    text: "___, prašau."
+    answer: "Pakartokite"
+    hint: "повторите"
+    translation: "Повторите, пожалуйста."
+  - type: cloze
+    text: "Ar galite kalbėti ___?"
+    answer: "lėčiau"
+    hint: "медленнее"
+    translation: "Вы можете говорить медленнее?"
+  - type: cloze
+    text: "Atsiprašau, ___."
+    answer: "nesupratau"
+    hint: "не понял(а)"
+    translation: "Извините, я не понял(а)."
+  - type: cloze
+    text: "Ką ___ šis žodis?"
+    answer: "reiškia"
+    hint: "значит"
+    translation: "Что значит это слово?"
+  - type: cloze
+    text: "Ar galite ___ dar kartą?"
+    answer: "pakartoti"
+    hint: "повторить"
+    translation: "Вы можете повторить ещё раз?"
+  - type: cloze
+    text: "Aš ___ egzaminą!"
+    answer: "išlaikiau"
+    hint: "сдал(а)"
+    translation: "Я сдал(а) экзамен!"

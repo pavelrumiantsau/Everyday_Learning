@@ -17,6 +17,7 @@ import setupWizard, { ownerSide as setupOwnerSide } from "./15-setup.ts";
 import courseChecks, { ownerSide as courseOwnerSide } from "./16-course.ts";
 import taskChecks, { ownerSide as taskOwnerSide } from "./17-tasks.ts";
 import listeningChecks, { ownerSide as listeningOwnerSide } from "./18-listening.ts";
+import examChecks, { ownerSide as examOwnerSide } from "./19-exams.ts";
 import type { Smoke } from "./context.ts";
 
 export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
@@ -37,6 +38,7 @@ export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "course: original bot unchanged", run: courseOwnerSide },
   { name: "tasks: original bot unchanged", run: taskOwnerSide },
   { name: "listening: original bot unchanged", run: listeningOwnerSide },
+  { name: "exams: original bot unchanged", run: examOwnerSide },
 ];
 
 /** Run against a second Worker + database configured as a colleague's personal copy (no TELEGRAM_USER_ID). */
@@ -46,4 +48,5 @@ export const COPY_CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] =
   { name: "personal copy: foundation course", run: courseChecks },
   { name: "personal copy: writing and speaking tasks", run: taskChecks },
   { name: "personal copy: listening", run: listeningChecks },
+  { name: "personal copy: mock exams", run: examChecks },
 ];

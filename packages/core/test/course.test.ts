@@ -5,7 +5,7 @@ const course = (units: object[]) => Course.parse({ id: "lt-foundation", units })
 const u1 = { id: "u01", stage: "A1", title: "Знакомство", words: ["lt-w-0003", "lt-w-0001"], phrases: ["lt-p-0009"], lessons: ["lt-g-0205"], texts: ["lt-r-0201"] };
 const u2 = { id: "u02", stage: "A1", title: "Кафе", words: ["lt-w-0002"], lessons: ["lt-g-0201"] };
 const state = (over: Partial<UnitState> = {}): UnitState => ({
-  introduced: new Set(), learned: new Set(), lessonsDone: new Set(), textsRead: new Set(), checks: new Map(), ...over,
+  introduced: new Set(), learned: new Set(), lessonsDone: new Set(), textsRead: new Set(), checks: new Map(), examsPassed: new Set(), ...over,
 });
 
 describe("course schema", () => {

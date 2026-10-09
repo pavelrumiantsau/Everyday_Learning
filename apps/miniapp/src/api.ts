@@ -197,6 +197,7 @@ export interface UnitProgress {
   words: { total: number; learned: number; introduced: number };
   lessons: { total: number; done: number };
   texts: { total: number; read: number };
+  exams: { total: number; passed: number };
   check: number | null;
   percent: number;
   complete: boolean;
@@ -211,6 +212,7 @@ export interface UnitDetail {
   /** Writing tasks and speaking situations; `best` = best score 0–3 or null. */
   tasks: { id: string; kind: "writing" | "speaking"; title: string; best: number | null }[];
   listening: { id: string; kind: string; title: string }[];
+  exams: { id: string; level: ExamLevel; title: string; passed: boolean }[];
   progress: UnitProgress;
 }
 export interface ListeningItem {
@@ -228,4 +230,41 @@ export const saveUnitCheck = (id: string, correct: number, total: number) =>
   call<{ score: number; passed: boolean }>(`/course/units/${id}/check`, { method: "POST", body: JSON.stringify({ correct, total }) });
 /** Sends the task to the bot chat; the learner answers there. */
 export const startTask = (id: string) => call<{ ok: true }>(`/tasks/${id}/start`, { method: "POST" });
+// --- mock exams (foundation course) ---
+export type ExamLevel = "A1" | "A2";
+export interface ExamQuestion { q: string; options: string[] }
+export type ExamRwTask =
+  | { kind: "reading" | "gaps"; cefr: ExamLevel; instruction: string; text: string; questions: ExamQuestion[] }
+  | { kind: "writing"; cefr: ExamLevel; id: string; title: string; situation: string; prompt: string; words?: [number, number]; checklist: string[] };
+export interface ExamContent {
+  id: string;
+  level: ExamLevel;
+  title: string;
+  points: { rw: Partial<Record<ExamLevel, number>>; listening: Partial<Record<ExamLevel, number>>; speaking: number };
+  pass: { rw: Record<ExamLevel, number>; listening: Record<ExamLevel, number> };
+  rw: ExamRwTask[];
+  listening: { cefr: ExamLevel; instruction: string; audio: string; questions: ExamQuestion[] }[];
+  speaking: { id: string; title: string; situation: string; prompt: string }[];
+}
+export interface ExamResult { rw: ExamLevel | null; listening: ExamLevel | null; speaking: ExamLevel | null; overall: ExamLevel | null; complete: boolean }
+export interface WritingFeedback { score: number; checklist: boolean[]; corrected: string; mistakes: { original: string; corrected: string; explanation: string }[]; comment: string }
+export interface ExamAttemptView {
+  id: number;
+  startedAt: number;
+  finishedAt: number | null;
+  rw: { points: Record<ExamLevel, number>; answers: (number | null)[][]; correct: number[][]; writing: { text: string; feedback: WritingFeedback; example: string }[] } | null;
+  listening: { points: Record<ExamLevel, number>; answers: (number | null)[][]; correct: number[][]; transcripts: { speaker: string; text: string }[][] } | null;
+  speaking: { scores: number[] } | null;
+  result: ExamResult;
+}
+export interface ExamState { exam: ExamContent; attempt: ExamAttemptView | null }
+export const getExam = (id: string) => call<ExamState>(`/exams/${id}`);
+export const startExam = (id: string) => call<ExamState>(`/exams/${id}/start`, { method: "POST" });
+export const submitExamRw = (id: string, answers: (number | null)[][], writing: string[]) =>
+  call<ExamState>(`/exams/${id}/rw`, { method: "POST", body: JSON.stringify({ answers, writing }) });
+export const submitExamListening = (id: string, answers: (number | null)[][]) =>
+  call<ExamState>(`/exams/${id}/listening`, { method: "POST", body: JSON.stringify({ answers }) });
+/** Sends the speaking situations to the bot chat one by one; the learner answers by voice. */
+export const startExamSpeaking = (id: string) => call<{ ok: true }>(`/exams/${id}/speaking`, { method: "POST" });
+
 export const markUnitKnown = (id: string) => call<{ progress: UnitProgress }>(`/course/units/${id}/known`, { method: "POST" });

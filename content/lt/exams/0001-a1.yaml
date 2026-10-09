@@ -1,0 +1,126 @@
+# Mock exam 1 of the Lithuanian foundation course: NŠA Basic–I category exam format (docs/EXTENSION-PLAN.md §6.1).
+# Format: packages/core/src/exam.ts → Exam. Written with Claude Code, modelled on the exam formats (not copied); source: generated.
+# Listening audio: /audio/lt/<id>-l<n>.mp3, voiced by Reginutė (scripts/tts_reginute.py). track: foundation.
+id: lt-x-0001
+level: A1
+track: foundation
+title: "Пробный экзамен A1"
+rw:
+  - kind: reading
+    cefr: A1
+    instruction: "Прочитайте объявления и выберите правильный ответ на каждый вопрос."
+    text: "1. Parduodu dviratį. Dviratis mėlynas, beveik naujas. Kaina – 80 eurų. Tel. 8 612 34567, Marius.\n2. Ieškau auklės dviem vaikams. Darbas nuo pirmadienio iki penktadienio, nuo 15 iki 19 valandos. Rašykite: rasa@pastas.lt\n3. Kavinė „Saulė“ ieško padavėjo. Darbas savaitgaliais. Reikia kalbėti lietuviškai ir angliškai.\n4. Nuomojamas vieno kambario butas Kaune, netoli centro. Kaina – 350 eurų per mėnesį."
+    questions:
+      - q: "Kokios spalvos dviratis?"
+        options: ["Mėlynas", "Juodas", "Raudonas"]
+        answer: 0
+      - q: "Kiek kainuoja dviratis?"
+        options: ["80 eurų", "18 eurų", "800 eurų"]
+        answer: 0
+      - q: "Kada dirbs auklė?"
+        options: ["Tik penktadienį", "Nuo pirmadienio iki penktadienio", "Savaitgaliais"]
+        answer: 1
+      - q: "Kokias kalbas turi mokėti padavėjas?"
+        options: ["Lietuvių ir rusų", "Tik lietuvių", "Lietuvių ir anglų"]
+        answer: 2
+      - q: "Kur yra butas?"
+        options: ["Klaipėdoje", "Vilniuje", "Kaune"]
+        answer: 2
+  - kind: reading
+    cefr: A1
+    instruction: "Прочитайте сообщения и выберите правильный ответ на каждый вопрос."
+    text: "Ona → Tomui: Labas! Šiandien negaliu ateiti į treniruotę, nes sergu. Gal galime susitikti šeštadienį?\nTomas → Onai: Gaila! Pasveik! Šeštadienį dirbu iki trijų, bet vakare esu laisvas.\nOna → Tomui: Gerai, tada šeštadienį šeštą valandą prie kino teatro. Bilietus perku aš.\nMama → Lukui: Lukai, nupirk duonos ir pieno. Pinigai yra ant stalo. Šiandien dirbu iki vėlumos."
+    questions:
+      - q: "Kodėl Ona negali ateiti į treniruotę?"
+        options: ["Ji dirba", "Ji keliauja", "Ji serga"]
+        answer: 2
+      - q: "Iki kada šeštadienį dirba Tomas?"
+        options: ["Iki šešių", "Iki trijų", "Iki vakaro"]
+        answer: 1
+      - q: "Kada susitinka Ona ir Tomas?"
+        options: ["Šeštadienį šeštą valandą", "Sekmadienį šeštą valandą", "Šeštadienį trečią valandą"]
+        answer: 0
+      - q: "Kur jie susitinka?"
+        options: ["Prie kino teatro", "Prie kavinės", "Prie parduotuvės"]
+        answer: 0
+      - q: "Ką turi nupirkti Lukas?"
+        options: ["Mėsos ir sūrio", "Duonos ir pieno", "Vandens"]
+        answer: 1
+      - q: "Kur yra pinigai?"
+        options: ["Piniginėje", "Spintoje", "Ant stalo"]
+        answer: 2
+  - kind: gaps
+    cefr: A1
+    instruction: "Выберите правильную форму слова для каждого пропуска."
+    text: "Labas, Egle! Aš dabar gyvenu (1). Mano butas mažas, bet gražus. Kiekvieną rytą važiuoju į darbą (2). Dirbu (3) – esu mokytoja. Vakare aš (4) knygas. Savaitgalį atvažiuok pas (5)! Tavo Rasa"
+    questions:
+      - q: ""
+        options: ["Vilnių", "Vilnius", "Vilniuje"]
+        answer: 2
+      - q: ""
+        options: ["autobusas", "autobusu", "autobuse"]
+        answer: 1
+      - q: ""
+        options: ["mokykla", "mokyklą", "mokykloje"]
+        answer: 2
+      - q: ""
+        options: ["skaitau", "skaito", "skaitome"]
+        answer: 0
+      - q: ""
+        options: ["aš", "mane", "man"]
+        answer: 1
+  - kind: writing
+    cefr: A1
+    task: lt-t-0101
+listening:
+  - cefr: A1
+    instruction: "Послушайте разговор в магазине. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Pardavėja", text: "Laba diena! Ko norėtumėte?" }
+      - { speaker: "Pirkėjas", text: "Laba diena. Prašau duonos ir litrą pieno." }
+      - { speaker: "Pardavėja", text: "Baltos ar juodos duonos?" }
+      - { speaker: "Pirkėjas", text: "Juodos. Ir dar dešimt kiaušinių." }
+      - { speaker: "Pardavėja", text: "Kiaušinių šiandien nėra, bus rytoj." }
+      - { speaker: "Pirkėjas", text: "Gaila. Tada dar kilogramą obuolių." }
+      - { speaker: "Pardavėja", text: "Viskas kainuoja šešis eurus." }
+      - { speaker: "Pirkėjas", text: "Prašom, štai dešimt eurų." }
+      - { speaker: "Pardavėja", text: "Ačiū. Štai jūsų keturi eurai." }
+    questions:
+      - q: "Kokios duonos nori pirkėjas?"
+        options: ["Baltos", "Batono", "Juodos"]
+        answer: 2
+      - q: "Kiek pieno perka pirkėjas?"
+        options: ["Butelį", "Litrą", "Du litrus"]
+        answer: 1
+      - q: "Kodėl pirkėjas neperka kiaušinių?"
+        options: ["Jų šiandien nėra", "Jie per brangūs", "Jis jų nenori"]
+        answer: 0
+      - q: "Kiek obuolių jis perka?"
+        options: ["Du kilogramus", "Vieną kilogramą", "Penkis obuolius"]
+        answer: 1
+      - q: "Kiek kainuoja viskas?"
+        options: ["Šešis eurus", "Dešimt eurų", "Keturis eurus"]
+        answer: 0
+  - cefr: A1
+    instruction: "Послушайте три коротких сообщения. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Pranešėjas", text: "Pirmas pranešimas. Gerbiami keleiviai, autobusas į Trakus išvyksta dešimtą valandą iš penkto perono." }
+      - { speaker: "Jonas", text: "Antras pranešimas. Labas, čia Jonas. Šiandien vakare aš dirbu. Paskambink man rytoj ryte." }
+      - { speaker: "Pranešėja", text: "Trečias pranešimas. Mūsų parduotuvė sekmadienį dirba nuo devintos iki penkioliktos valandos." }
+    questions:
+      - q: "Kur važiuoja autobusas?"
+        options: ["Į Kauną", "Į Trakus", "Į Vilnių"]
+        answer: 1
+      - q: "Kada išvyksta autobusas?"
+        options: ["Penktą valandą", "Dešimtą valandą", "Devintą valandą"]
+        answer: 1
+      - q: "Ką šiandien vakare veikia Jonas?"
+        options: ["Dirba", "Ilsisi", "Sportuoja"]
+        answer: 0
+      - q: "Kada reikia paskambinti Jonui?"
+        options: ["Rytoj vakare", "Šiandien vakare", "Rytoj ryte"]
+        answer: 2
+      - q: "Iki kada sekmadienį dirba parduotuvė?"
+        options: ["Iki dvyliktos valandos", "Iki penkioliktos valandos", "Iki dvidešimtos valandos"]
+        answer: 1
+speaking: [lt-s-0101, lt-s-0102, lt-s-0103]

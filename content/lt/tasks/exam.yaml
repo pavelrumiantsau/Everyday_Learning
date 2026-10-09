@@ -1,0 +1,187 @@
+# Writing tasks and speaking situations of the mock exams (content/lt/exams; docs/EXTENSION-PLAN.md §6.5).
+# Format: packages/core/src/tasks.ts → Task. Each is used by one mock exam only and in no course unit (build-content checks).
+# Written with Claude Code, modelled on the A1–A2 exam task types (not copied). track: foundation.
+- id: lt-t-0101
+  kind: writing
+  cefr: A1
+  track: foundation
+  title: "Записка подруге: не получится прийти"
+  situation: "Вы договорились встретиться с подругой Ингой в субботу, но не сможете прийти. Напишите ей записку: почему не можете прийти и когда можете встретиться."
+  prompt: "Parašykite raštelį draugei Ingai."
+  words: [20, 35]
+  checklist:
+    - "Обращение и подпись"
+    - "Почему вы не можете прийти"
+    - "Когда можете встретиться"
+  example: "Labas, Inga! Atsiprašau, šeštadienį negaliu ateiti, nes dirbu. Gal galime susitikti sekmadienį, trečią valandą, kavinėje prie parko? Parašyk man. Tavo Olga"
+- id: lt-t-0102
+  kind: writing
+  cefr: A1
+  track: foundation
+  title: "Поздравление коллеге с днём рождения"
+  situation: "У вашего коллеги Томаса день рождения. Напишите ему короткое поздравление: поздравьте и пожелайте чего-нибудь."
+  prompt: "Parašykite sveikinimą kolegai Tomui."
+  words: [20, 35]
+  checklist:
+    - "Обращение"
+    - "Поздравление с днём рождения"
+    - "Пожелание (1–2)"
+    - "Подпись"
+  example: "Mielas Tomai, sveikinu su gimtadieniu! Linkiu daug sveikatos, laimės ir gerų draugų. Tegul darbe viskas sekasi! Tavo kolegė Anna"
+- id: lt-t-0103
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Письмо другу о поездке"
+  situation: "Вы вернулись из поездки. Напишите письмо другу Йонасу: где вы были, с кем, что делали и что вам понравилось или не понравилось."
+  prompt: "Parašykite laišką draugui Jonui apie savo kelionę."
+  words: [40, 60]
+  checklist:
+    - "Где и с кем вы были"
+    - "Что вы там делали"
+    - "Что понравилось или не понравилось"
+    - "Обращение и подпись"
+  example: "Labas, Jonai! Praėjusią savaitę su šeima buvau Nidoje. Kiekvieną dieną vaikščiojome prie jūros, maudėmės ir važinėjome dviračiais. Labai patiko kopos ir šviežia žuvis. Tik oras buvo vėsus ir dažnai lijo. Kitą vasarą norėčiau ten grįžti. Kaip tau sekasi? Iki, Sergejus"
+- id: lt-t-0104
+  kind: writing
+  cefr: A1
+  track: foundation
+  title: "Сообщение: вы опаздываете"
+  situation: "У вас встреча с коллегой Ритой в десять часов, но вы опаздываете. Напишите ей сообщение: извинитесь, почему опаздываете и когда будете."
+  prompt: "Parašykite žinutę kolegei Ritai."
+  words: [20, 35]
+  checklist:
+    - "Извинение"
+    - "Почему опаздываете"
+    - "Когда будете на месте"
+  example: "Labas, Rita! Atsiprašau, aš vėluoju, nes autobusas sugedo. Būsiu apie pusę vienuoliktos. Gal galite palaukti kavinėje? Iki greito, Igoris"
+- id: lt-t-0105
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Письмо хозяину квартиры о поломке"
+  situation: "В квартире, которую вы снимаете, сломалась стиральная машина. Напишите хозяину квартиры письмо: что сломалось и когда, о чём вы просите, когда вы бываете дома."
+  prompt: "Parašykite laišką buto savininkui."
+  words: [40, 60]
+  checklist:
+    - "Обращение"
+    - "Что сломалось и когда"
+    - "Просьба (что нужно сделать)"
+    - "Когда вы бываете дома"
+    - "Вежливое окончание и подпись"
+  example: "Laba diena, pone Petrai, rašau dėl skalbimo mašinos. Vakar ji sugedo: neišleidžia vandens. Gal galėtumėte atsiųsti meistrą šią savaitę? Darbo dienomis būnu namie po šeštos valandos, o šeštadienį – visą dieną. Iš anksto dėkoju. Pagarbiai, Natalija"
+- id: lt-s-0101
+  kind: speaking
+  cefr: A1
+  track: foundation
+  title: "Знакомство с экзаменатором"
+  situation: "Экзаменатор просит рассказать о себе: как вас зовут, откуда вы, где живёте, чем занимаетесь."
+  prompt: "Papasakokite apie save."
+  checklist:
+    - "Имя"
+    - "Откуда вы"
+    - "Где живёте"
+    - "Работа или учёба"
+  example: "Mano vardas Anna Ivanova. Aš esu iš Rusijos, bet dabar gyvenu Vilniuje. Dirbu IT įmonėje, esu analitikė. Lietuvių kalbos mokausi metus."
+- id: lt-s-0102
+  kind: speaking
+  cefr: A1
+  track: foundation
+  title: "Мой обычный день"
+  situation: "Расскажите, как проходит ваш обычный день: когда встаёте, что делаете днём и вечером."
+  prompt: "Papasakokite apie savo dieną."
+  checklist:
+    - "Когда встаёте"
+    - "Работа или учёба днём"
+    - "Что делаете вечером"
+  example: "Aš keliuosi septintą valandą. Pusryčiams geriu kavą ir valgau košę. Aštuntą valandą važiuoju į darbą autobusu. Dirbu iki penktos. Vakare gaminu vakarienę, skaitau arba žiūriu filmą."
+- id: lt-s-0103
+  kind: speaking
+  cefr: A1
+  track: foundation
+  title: "В магазине: спросите продавца"
+  situation: "Вы в магазине одежды. Экзаменатор — продавец. Задайте ему 4 вопроса: сколько стоит куртка, есть ли другой размер, можно ли примерить, можно ли заплатить картой."
+  prompt: "Paklauskite pardavėjo."
+  checklist:
+    - "Вопрос о цене"
+    - "Вопрос о размере"
+    - "Можно ли примерить"
+    - "Можно ли заплатить картой"
+  example: "Laba diena. Kiek kainuoja ši striukė? Ar turite didesnį dydį? Ar galiu pasimatuoti? Ar galiu sumokėti kortele?"
+- id: lt-s-0104
+  kind: speaking
+  cefr: A1
+  track: foundation
+  title: "Ваша семья"
+  situation: "Расскажите экзаменатору о своей семье: кто в ней есть, сколько им лет, где они живут и чем занимаются."
+  prompt: "Papasakokite apie savo šeimą."
+  checklist:
+    - "Кто есть в семье"
+    - "Возраст"
+    - "Где живут"
+    - "Чем занимаются"
+  example: "Mano šeima nedidelė. Turiu vyrą ir dukterį. Vyrui trisdešimt penkeri metai, jis inžinierius. Dukrai septyneri, ji eina į mokyklą. Mano tėvai gyvena Minske, mama yra mokytoja."
+- id: lt-s-0105
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Выходные: прошлые и следующие"
+  situation: "Расскажите, что вы делали в прошлые выходные и что планируете на следующие."
+  prompt: "Papasakokite, ką veikėte praėjusį savaitgalį ir ką veiksite kitą savaitgalį."
+  checklist:
+    - "Что делали в прошлые выходные (прошедшее время)"
+    - "С кем, где"
+    - "Планы на следующие выходные (будущее время)"
+  example: "Praėjusį savaitgalį su draugais buvau Trakuose. Vaikščiojome aplink ežerą, valgėme kibinų ir aplankėme pilį. Kitą savaitgalį liksiu namie, nes reikės sutvarkyti butą. Sekmadienį vakare eisiu į kiną."
+- id: lt-s-0106
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Спросите экзаменатора о работе"
+  situation: "Узнайте у экзаменатора о его работе: задайте 5 вопросов (где работает, кем, сколько часов, нравится ли, что делает после работы)."
+  prompt: "Paklauskite egzaminuotojo apie jo darbą."
+  checklist:
+    - "Где работает"
+    - "Кем работает"
+    - "Сколько работает / рабочее время"
+    - "Нравится ли работа"
+    - "Что делает после работы"
+  example: "Kur jūs dirbate? Kuo dirbate? Kiek valandų per dieną dirbate? Ar jums patinka jūsų darbas? Ką veikiate po darbo?"
+- id: lt-s-0107
+  kind: speaking
+  cefr: A1
+  track: foundation
+  title: "Ваш дом"
+  situation: "Расскажите экзаменатору, где вы живёте: дом или квартира, какая она, какие комнаты, что есть рядом."
+  prompt: "Papasakokite apie savo namus."
+  checklist:
+    - "Дом или квартира, где"
+    - "Какая она (комнаты, этаж)"
+    - "Что есть рядом"
+  example: "Gyvenu bute Kaune, netoli centro. Butas yra antrame aukšte. Jis nedidelis: du kambariai, virtuvė ir balkonas. Netoli yra parduotuvė, parkas ir autobusų stotelė."
+- id: lt-s-0108
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Здоровье"
+  situation: "Расскажите, как вы заботитесь о здоровье и что вы делаете, когда болеете. Что бы вы посоветовали другу, который часто болеет?"
+  prompt: "Papasakokite, kaip rūpinatės savo sveikata."
+  checklist:
+    - "Что делаете для здоровья"
+    - "Что делаете, когда болеете"
+    - "Совет другу (условное наклонение или «reikia»)"
+  example: "Stengiuosi sveikai maitintis ir daug vaikščioti. Du kartus per savaitę einu į baseiną. Kai sergu, geriu arbatą su medumi ir daug miegu. Jeigu reikia, einu pas gydytoją. Draugui patarčiau daugiau sportuoti ir anksčiau eiti miegoti."
+- id: lt-s-0109
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Спросите экзаменатора о поездке"
+  situation: "Экзаменатор недавно путешествовал. Задайте ему 5 вопросов о поездке: куда ездил, когда, с кем, на чём, что понравилось."
+  prompt: "Paklauskite egzaminuotojo apie jo kelionę."
+  checklist:
+    - "Куда"
+    - "Когда"
+    - "С кем"
+    - "На чём (транспорт)"
+    - "Что понравилось"
+  example: "Kur jūs keliavote? Kada ten buvote? Su kuo važiavote? Kuo keliavote – lėktuvu ar automobiliu? Kas jums labiausiai patiko?"

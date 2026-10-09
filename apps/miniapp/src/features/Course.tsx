@@ -1,10 +1,11 @@
 // «Курс»: the Lithuanian foundation course of a personal copy (docs/EXTENSION-PLAN.md §6.3) — units with progress,
-// a unit page (can-do list, words, lessons, texts), a 10-question unit check and «Я это знаю» to skip a unit.
+// a unit page (can-do list, words, lessons, texts, listening, tasks, mock exams), a 10-question unit check and «Я это знаю».
 // Hidden when the learner isn't on the foundation course (GET /api/course → 404), e.g. on the original bot.
 import { useEffect, useMemo, useState } from "react";
 import { getCourse, getListening, getUnit, markUnitKnown, saveUnitCheck, startTask, type CourseOverview, type ListeningItem, type UnitDetail } from "../api";
 import type { MiniFeature } from "../features";
 import { haptic, tg } from "../telegram";
+import { ExamScreen } from "./Exam";
 
 const STAGE: Record<string, string> = { sounds: "Звуки и буквы", A1: "Уровень A1", A2: "Уровень A2", exam: "Экзамен" };
 
@@ -51,8 +52,8 @@ function Screen({ close }: { close: () => void }) {
             <button key={u.id} className={`secondary ${u.id === course.current ? "active" : ""}`} onClick={() => { haptic("tap"); setUnitId(u.id); }}>
               <span>{u.progress.complete ? "✅ " : u.id === course.current ? "▶ " : ""}{u.title}</span>
               <span className="hint small">
-                {u.progress.words.total + u.progress.lessons.total + u.progress.texts.total > 0
-                  ? `${u.progress.percent}% · слов ${u.progress.words.learned}/${u.progress.words.total}${u.progress.check !== null ? ` · проверка ${u.progress.check}%` : ""}`
+                {u.progress.words.total + u.progress.lessons.total + u.progress.texts.total + u.progress.exams.total > 0
+                  ? u.progress.exams.total > 0 && u.progress.words.total === 0 ? (u.progress.exams.passed ? "сдан" : "пробный экзамен") : `${u.progress.percent}% · слов ${u.progress.words.learned}/${u.progress.words.total}${u.progress.check !== null ? ` · проверка ${u.progress.check}%` : ""}`
                   : "материалы готовятся"}
               </span>
               <span className="progress unit-bar"><span className="bar" style={{ width: `${u.progress.percent}%` }} /></span>
@@ -68,12 +69,14 @@ function UnitScreen({ id, passPercent, checkSize, back }: { id: string; passPerc
   const [unit, setUnit] = useState<UnitDetail | null>(null);
   const [mode, setMode] = useState<"view" | "check">("view");
   const [listeningId, setListeningId] = useState<string | null>(null);
+  const [examId, setExamId] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const reload = () => getUnit(id).then(setUnit, () => undefined);
   useEffect(() => void reload(), [id]);
 
   if (!unit) return <main className="screen center hint">Загрузка…</main>;
   if (listeningId) return <ListeningScreen id={listeningId} back={() => setListeningId(null)} />;
+  if (examId) return <ExamScreen id={examId} back={() => { setExamId(null); void reload(); }} />;
   if (mode === "check") return <UnitCheck unit={unit} size={checkSize} passPercent={passPercent} done={() => { setMode("view"); void reload(); }} />;
 
   const known = async () => {
@@ -117,6 +120,17 @@ function UnitScreen({ id, passPercent, checkSize, back }: { id: string; passPerc
           <ul className="summary-list">{unit.texts.map((t) => <li key={t.id}>{t.read ? "✅ " : ""}{t.title}</li>)}</ul>
         </section>
       )}
+      {unit.exams.length > 0 && (
+        <section className="settings-block">
+          <h2>Пробный экзамен</h2>
+          {unit.exams.map((e) => (
+            <button key={e.id} className="secondary row" onClick={() => { haptic("tap"); setExamId(e.id); }}>
+              <span>🎓 {e.title}{e.passed ? " ✅" : ""}</span>
+              <span className="hint small">3 части, как на экзамене NŠA ›</span>
+            </button>
+          ))}
+        </section>
+      )}
       {unit.listening.length > 0 && (
         <section className="settings-block">
           <h2>Аудирование</h2>
@@ -152,9 +166,9 @@ function UnitScreen({ id, passPercent, checkSize, back }: { id: string; passPerc
           </ul>
           <p className="hint small">Новые слова приходят каждое утро по порядку юнитов; ✅ — выучено, 🆕 — учится сейчас.</p>
         </section>
-      ) : (
+      ) : unit.lessons.length + unit.texts.length + unit.exams.length === 0 ? (
         <p className="hint">Материалы этого юнита готовятся — они появятся с обновлением.</p>
-      )}
+      ) : null}
       <div className="spacer" />
       {unit.words.length >= 4 && (
         <button className="button big" onClick={() => { haptic("tap"); setMode("check"); }}>

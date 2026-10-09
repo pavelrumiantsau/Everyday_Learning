@@ -5,7 +5,8 @@
 import { localClock, TASK_MAX_SCORE, type Task } from "@el/core";
 import { TaskFeedback, taskFeedbackMessages } from "@el/llm";
 import { Hono } from "hono";
-import { COURSE, TASK_BY_ID } from "../content";
+import { COURSE, EXAM_BY_ID, TASK_BY_ID } from "../content";
+import { attemptResult, savePart } from "../exam-attempts";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { onFoundation, aiProfile, timezone } from "../profile";
@@ -20,7 +21,8 @@ const PENDING_MS = 6 * 3600_000; // an answer counts for the task sent in the la
 const MAX_ANSWER = 2000;
 const MAX_VOICE_SECONDS = 180;
 
-interface Pending { taskId: string; at: number }
+/** `exam`: the speaking part of a mock exam — situations still to do and the scores so far. */
+interface Pending { taskId: string; at: number; exam?: { attempt: number; examId: string; rest: string[]; scores: number[] } }
 
 /** Best score per task. */
 export async function bestScores(d1: D1Database): Promise<Map<string, number>> {
@@ -49,18 +51,28 @@ function taskMessage(t: Task): string {
   ].join("\n");
 }
 
-async function sendTask(db: Db, tg: Telegram, chatId: string, t: Task, now: number) {
-  await db.setSetting(PENDING_KEY, { taskId: t.id, at: now } satisfies Pending).run();
+async function sendTask(db: Db, tg: Telegram, chatId: string, t: Task, now: number, exam?: Pending["exam"]) {
+  await db.setSetting(PENDING_KEY, { taskId: t.id, at: now, exam } satisfies Pending).run();
   await tg.sendMessage(chatId, taskMessage(t));
 }
 
-async function pendingTask(db: Db, now: number): Promise<Task | null> {
-  const p = await db.getSetting<Pending>(PENDING_KEY);
-  if (!p || now - p.at > PENDING_MS) return null;
-  return TASK_BY_ID.get(p.taskId) ?? null;
+/** Mock exam, speaking part: the situations are sent one after another; each voice answer is scored 0–3. */
+export async function startExamSpeaking(db: Db, tg: Telegram, chatId: string, examId: string, attempt: number, now: number) {
+  const ids = EXAM_BY_ID.get(examId)!.speaking;
+  await tg.sendMessage(chatId, `🎓 <b>Пробный экзамен: говорение</b>\n\n${ids.length} ситуации, на каждую — голосовое сообщение (1–2 минуты). Оценка каждой — 0–3, как на экзамене.`);
+  await sendTask(db, tg, chatId, TASK_BY_ID.get(ids[0]!)!, now, { attempt, examId, rest: ids.slice(1), scores: [] });
 }
 
-function formatResult(t: Task, f: TaskFeedback): string {
+async function pendingTask(db: Db, now: number): Promise<{ task: Task; pending: Pending } | null> {
+  const p = await db.getSetting<Pending>(PENDING_KEY);
+  if (!p || now - p.at > PENDING_MS) return null;
+  const task = TASK_BY_ID.get(p.taskId);
+  return task ? { task, pending: p } : null;
+}
+
+const LEVEL_TEXT = (l: string | null) => (l ? `<b>${l}</b>` : "не сдано");
+
+function formatResult(t: Task, f: TaskFeedback, footer = "Следующее задание: /task"): string {
   const lines = [`📊 <b>Оценка: ${f.score}/${TASK_MAX_SCORE}</b>`, ""];
   t.checklist.forEach((c, i) => lines.push(`${f.checklist[i] ? "✅" : "❌"} ${esc(c)}`));
   if (f.mistakes.length) {
@@ -68,28 +80,45 @@ function formatResult(t: Task, f: TaskFeedback): string {
     for (const m of f.mistakes.slice(0, 8)) lines.push(`• <s>${esc(m.original)}</s> → <b>${esc(m.corrected)}</b> — ${esc(m.explanation)}`);
   }
   if (f.comment) lines.push("", esc(f.comment));
-  lines.push("", "💡 <b>Пример ответа</b>", `<i>${esc(t.example)}</i>`, "", "Следующее задание: /task");
+  lines.push("", "💡 <b>Пример ответа</b>", `<i>${esc(t.example)}</i>`, ...(footer ? ["", footer] : []));
   return lines.join("\n");
 }
 
-/** Scores an answer and replies; the attempt and the mistakes («Как правильно?» cards) are saved. */
-async function evaluate(ctx: BotContext, t: Task, answer: string) {
-  await ctx.tg.sendChatAction(ctx.ownerId, "typing").catch(() => {});
-  const store = new AiStore(ctx.env.DB);
-  const r = await llmRouter(ctx.env, store).json(
+/** Scores an answer with the AI; the attempt and the mistakes («Как правильно?» cards) are saved. */
+export async function scoreTask(env: Env, t: Task, answer: string, now: number): Promise<TaskFeedback> {
+  const store = new AiStore(env.DB);
+  const r = await llmRouter(env, store).json(
     "task_feedback",
     { messages: taskFeedbackMessages(PROMPTS, aiProfile("lt"), t, answer.slice(0, MAX_ANSWER)), temperature: 0.2, maxTokens: 2500 },
     TaskFeedback,
   );
-  const now = Date.now();
   const day = localClock(new Date(now), timezone()).day;
   await store.batch([
-    ctx.env.DB.prepare("INSERT INTO task_attempt (task_id, score, created_at) VALUES (?, ?, ?)").bind(t.id, r.output.score, now),
-    ctx.env.DB.prepare("DELETE FROM settings WHERE key = ?").bind(PENDING_KEY),
+    env.DB.prepare("INSERT INTO task_attempt (task_id, score, created_at) VALUES (?, ?, ?)").bind(t.id, r.output.score, now),
     ...r.output.mistakes.map((m) => store.addMistake("lt", m, t.kind === "speaking" ? "voice" : "writing", day, now)),
   ]);
   console.log(`task ${t.id}: ${answer.length} chars → ${r.provider}/${r.model}, score ${r.output.score}`);
-  await ctx.tg.sendMessage(ctx.ownerId, formatResult(t, r.output));
+  return r.output;
+}
+
+/** Scores an answer and replies; in a mock exam, sends the next situation or the exam's speaking result. */
+async function evaluate(ctx: BotContext, t: Task, answer: string, p: Pending) {
+  await ctx.tg.sendChatAction(ctx.ownerId, "typing").catch(() => {});
+  const now = Date.now();
+  const f = await scoreTask(ctx.env, t, answer, now);
+  await ctx.env.DB.prepare("DELETE FROM settings WHERE key = ?").bind(PENDING_KEY).run();
+  if (!p.exam) return void (await ctx.tg.sendMessage(ctx.ownerId, formatResult(t, f)));
+  const exam = { ...p.exam, scores: [...p.exam.scores, f.score] };
+  const next = exam.rest[0] ? TASK_BY_ID.get(exam.rest[0]) : undefined;
+  await ctx.tg.sendMessage(ctx.ownerId, formatResult(t, f, next ? "Следующая ситуация ниже." : ""));
+  if (next) return sendTask(ctx.db, ctx.tg, ctx.ownerId, next, now, { ...exam, rest: exam.rest.slice(1) });
+  const a = await savePart(ctx.env.DB, exam.attempt, "speaking", { scores: exam.scores }, now);
+  const level = EXAM_BY_ID.get(exam.examId)!.level;
+  const r = attemptResult(level, a);
+  const lines = [`🎓 <b>Говорение: ${exam.scores.join(" + ")}</b> — ${LEVEL_TEXT(r.speaking)}`];
+  if (r.complete) lines.push("", `Чтение и письмо: ${LEVEL_TEXT(r.rw)} · Аудирование: ${LEVEL_TEXT(r.listening)} · Говорение: ${LEVEL_TEXT(r.speaking)}`, `<b>Итог экзамена: ${r.overall ?? "не сдан"}</b>`);
+  else lines.push("", "Остальные части — в Mini App: «Курс» → «Пробный экзамен».");
+  await ctx.tg.sendMessage(ctx.ownerId, lines.join("\n"));
 }
 
 async function transcribe(ctx: BotContext, v: TgVoice): Promise<string> {
@@ -144,8 +173,9 @@ export const tasks: Feature = {
   api,
   async onMessage(ctx, message) {
     if (!onFoundation()) return false;
-    const t = await pendingTask(ctx.db, Date.now());
-    if (!t) return false;
+    const pt = await pendingTask(ctx.db, Date.now());
+    if (!pt) return false;
+    const { task: t, pending } = pt;
     if (t.kind === "speaking" && message.voice) {
       if (message.voice.duration > MAX_VOICE_SECONDS) {
         await ctx.tg.sendMessage(ctx.ownerId, `🎙 Слишком длинно — до ${MAX_VOICE_SECONDS / 60} минут, как на экзамене.`);
@@ -156,13 +186,13 @@ export const tasks: Feature = {
         const text = await transcribe(ctx, v);
         if (!text) return void (await ctx.tg.sendMessage(ctx.ownerId, "🎙 Не расслышал ни слова. Попробуйте ещё раз, поближе к микрофону."));
         await ctx.tg.sendMessage(ctx.ownerId, `🎙 Я услышал: <i>${esc(text.slice(0, 1500))}</i>`);
-        await evaluate(ctx, t, text);
+        await evaluate(ctx, t, text, pending);
       });
       return true;
     }
     if (t.kind === "writing" && message.text?.trim()) {
       const text = message.text.trim();
-      background(ctx, () => evaluate(ctx, t, text));
+      background(ctx, () => evaluate(ctx, t, text, pending));
       return true;
     }
     if (t.kind === "speaking" && message.text?.trim()) {

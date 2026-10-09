@@ -8,20 +8,22 @@
 //                                        the unit counted as passed
 import { currentUnit, PASS_PERCENT, UNIT_CHECK_SIZE, unitProgress, type CourseUnit, type UnitState } from "@el/core";
 import { Hono } from "hono";
-import { COURSE, ITEM_BY_ID, LESSON_BY_ID, LISTENING_BY_ID, TASK_BY_ID, TEXT_BY_ID } from "../content";
+import { COURSE, EXAM_BY_ID, ITEM_BY_ID, LESSON_BY_ID, LISTENING_BY_ID, TASK_BY_ID, TEXT_BY_ID } from "../content";
 import { Db } from "../db";
 import type { Feature } from "../feature";
 import { onFoundation } from "../profile";
 import { savePlacement } from "./placement";
+import { examsPassed } from "./exams";
 import { bestScores } from "./tasks";
 
 async function unitState(db: Db, d1: D1Database): Promise<UnitState> {
-  const [introduced, learned, lessons, texts, checks] = await Promise.all([
+  const [introduced, learned, lessons, texts, checks, passed] = await Promise.all([
     db.introducedItemIds(),
     db.learnedItemIds(),
     d1.prepare("SELECT lesson_id FROM grammar_done").all<{ lesson_id: string }>(),
     d1.prepare("SELECT DISTINCT text_id FROM reading_done").all<{ text_id: string }>(),
     d1.prepare("SELECT unit_id, best FROM course_check").all<{ unit_id: string; best: number }>(),
+    examsPassed(d1),
   ]);
   return {
     introduced,
@@ -29,6 +31,7 @@ async function unitState(db: Db, d1: D1Database): Promise<UnitState> {
     lessonsDone: new Set(lessons.results.map((r) => r.lesson_id)),
     textsRead: new Set(texts.results.map((r) => r.text_id)),
     checks: new Map(checks.results.map((r) => [r.unit_id, r.best])),
+    examsPassed: passed,
   };
 }
 
@@ -64,7 +67,11 @@ api.get("/course/units/:id", async (c) => {
     const l = LISTENING_BY_ID.get(id);
     return l ? [{ id, kind: l.kind, title: l.title }] : [];
   });
-  return c.json({ unit: { id: u.id, stage: u.stage, title: u.title, can_do: u.can_do }, words, lessons, texts, tasks, listening, progress: unitProgress(u, state) });
+  const exams = u.exams.flatMap((id) => {
+    const e = EXAM_BY_ID.get(id);
+    return e ? [{ id, level: e.level, title: e.title, passed: state.examsPassed.has(id) }] : [];
+  });
+  return c.json({ unit: { id: u.id, stage: u.stage, title: u.title, can_do: u.can_do }, words, lessons, texts, tasks, listening, exams, progress: unitProgress(u, state) });
 });
 
 /** One listening item: situation, lines (shown after answering), questions; audio at /audio/lt/<id>.mp3. */

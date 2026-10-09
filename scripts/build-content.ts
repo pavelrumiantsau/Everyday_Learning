@@ -5,7 +5,7 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { Course, ItemFile, Lesson, ListeningFile, Milestones, ReadingText, Schedule, Sources, TaskFile, type Item, type Listening, type Task } from "../packages/core/src/index.ts";
+import { Course, Exam, ItemFile, Lesson, ListeningFile, Milestones, ReadingText, Schedule, Sources, TaskFile, type Exam as ExamT, type Item, type Listening, type Task } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
@@ -38,11 +38,12 @@ const isReading = (rel: string) => /^content\/[a-z]{2}\/reading\//.test(rel);
 const isCourse = (rel: string) => /^content\/[a-z]{2}\/course\//.test(rel);
 const isTasks = (rel: string) => /^content\/[a-z]{2}\/tasks\//.test(rel);
 const isListening = (rel: string) => /^content\/[a-z]{2}\/listening\//.test(rel);
+const isExam = (rel: string) => /^content\/[a-z]{2}\/exams\//.test(rel);
 const STRESS_FILE = "content/lt/stress.yaml";
 
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (isGrammar(rel) || isReading(rel) || isCourse(rel) || isTasks(rel) || isListening(rel) || rel === STRESS_FILE) continue; // see below
+  if (isGrammar(rel) || isReading(rel) || isCourse(rel) || isTasks(rel) || isListening(rel) || isExam(rel) || rel === STRESS_FILE) continue; // see below
   const result = ItemFile.safeParse(parse(readFileSync(file, "utf8")));
   if (!result.success) {
     for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
@@ -163,9 +164,38 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
   }
 }
 
+// Mock exams (foundation course): content/lt/exams/<nnnn>-<slug>.yaml, one per file. Writing tasks and speaking
+// situations are tasks of content/lt/tasks with the exam's level or lower, used by one exam only and in no course unit.
+const exams: ExamT[] = [];
+const examTaskUse = new Map<string, string>();
+for (const file of yamlFiles(join(root, "content")).sort()) {
+  const rel = relative(root, file);
+  if (!isExam(rel)) continue;
+  const result = Exam.safeParse(parse(readFileSync(file, "utf8")));
+  if (!result.success) {
+    for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
+    continue;
+  }
+  const e = result.data;
+  const dup = seen.get(e.id);
+  if (dup) errors.push(`${rel}: duplicate id ${e.id} (also in ${dup})`);
+  seen.set(e.id, rel);
+  const refs = [...e.rw.flatMap((t) => (t.kind === "writing" ? [{ id: t.task, kind: "writing", cefr: t.cefr }] : [])), ...e.speaking.map((id) => ({ id, kind: "speaking", cefr: undefined }))];
+  for (const r of refs) {
+    const t = tasks.find((x) => x.id === r.id);
+    if (!t) errors.push(`${rel}: unknown task ${r.id}`);
+    else if (t.kind !== r.kind) errors.push(`${rel}: ${r.id} is not a ${r.kind} task`);
+    else if ((r.cefr && t.cefr !== r.cefr) || (e.level === "A1" && t.cefr !== "A1")) errors.push(`${rel}: ${r.id} is ${t.cefr}, doesn't fit here`);
+    const other = examTaskUse.get(r.id);
+    if (other) errors.push(`${rel}: ${r.id} is also used by ${other}`);
+    examTaskUse.set(r.id, e.id);
+  }
+  exams.push(e);
+}
+
 // Foundation course (docs/EXTENSION-PLAN.md §6.8): explained in Russian only — colleagues may not know Ukrainian or Belarusian.
 const NOT_FOR_FOUNDATION = /украин|белорус|ukrain|belarus/i;
-for (const x of [...items, ...lessons, ...texts, ...tasks, ...listening] as { id: string; track?: string }[]) {
+for (const x of [...items, ...lessons, ...texts, ...tasks, ...listening, ...exams] as { id: string; track?: string }[]) {
   if (x.track === "foundation" && NOT_FOR_FOUNDATION.test(JSON.stringify(x))) {
     errors.push(`${x.id}: foundation content mentions Ukrainian/Belarusian (Russian-only comparisons, EXTENSION-PLAN §6.8)`);
   }
@@ -210,6 +240,8 @@ try {
       for (const id of u.texts) if (!textIds.has(id)) errors.push(`${COURSE_FILE}: ${u.id}: unknown text ${id}`);
       for (const id of u.tasks) if (!tasks.some((t) => t.id === id)) errors.push(`${COURSE_FILE}: ${u.id}: unknown task ${id}`);
       for (const id of u.listening) if (!listening.some((l) => l.id === id)) errors.push(`${COURSE_FILE}: ${u.id}: unknown listening ${id}`);
+      for (const id of u.exams) if (!exams.some((e) => e.id === id)) errors.push(`${COURSE_FILE}: ${u.id}: unknown exam ${id}`);
+      for (const id of u.tasks) if (examTaskUse.has(id)) errors.push(`${COURSE_FILE}: ${u.id}: ${id} belongs to the mock exam ${examTaskUse.get(id)}`);
     }
     const words = course.units.reduce((n, u) => n + u.words.length, 0);
     // Stress marks are required for every course word once phase E is done (EXTENSION-PLAN §6.6); until then: a count.
@@ -250,7 +282,7 @@ const counts = Object.entries(
 )
   .map(([l, n]) => `${l}: ${n}`)
   .join(", ");
-console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, ${texts.length} reading texts, ${tasks.length} tasks, ${listening.length} listening${courseNote}, schedule OK`);
+console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, ${texts.length} reading texts, ${tasks.length} tasks, ${listening.length} listening, ${exams.length} mock exams${courseNote}, schedule OK`);
 
 if (!checkOnly) {
   const out = join(root, "apps/worker/src/generated");
@@ -264,5 +296,6 @@ if (!checkOnly) {
   writeFileSync(join(out, "course.json"), JSON.stringify(course));
   writeFileSync(join(out, "tasks.json"), JSON.stringify(tasks));
   writeFileSync(join(out, "listening.json"), JSON.stringify(listening));
-  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course,tasks,listening}.json`);
+  writeFileSync(join(out, "exams.json"), JSON.stringify(exams));
+  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course,tasks,listening,exams}.json`);
 }

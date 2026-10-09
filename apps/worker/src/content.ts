@@ -30,3 +30,8 @@ import type { Listening } from "@el/core";
 /** Listening dialogues and announcements of the foundation course (content/lt/listening). */
 export const LISTENING = listeningJson as unknown as Listening[];
 export const LISTENING_BY_ID = new Map(LISTENING.map((l) => [l.id, l]));
+import examsJson from "./generated/exams.json";
+import type { Exam } from "@el/core";
+/** Mock exams of the foundation course (content/lt/exams). */
+export const EXAMS = examsJson as unknown as Exam[];
+export const EXAM_BY_ID = new Map(EXAMS.map((e) => [e.id, e]));

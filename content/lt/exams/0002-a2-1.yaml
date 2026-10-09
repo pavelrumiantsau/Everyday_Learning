@@ -1,0 +1,265 @@
+# Mock exam 2 of the Lithuanian foundation course: NŠA Basic–I category exam format (docs/EXTENSION-PLAN.md §6.1).
+# Format: packages/core/src/exam.ts → Exam. Written with Claude Code, modelled on the exam formats (not copied); source: generated.
+# Listening audio: /audio/lt/<id>-l<n>.mp3, voiced by Reginutė (scripts/tts_reginute.py). track: foundation.
+id: lt-x-0002
+level: A2
+track: foundation
+title: "Пробный экзамен A2 — 1"
+rw:
+  - kind: reading
+    cefr: A1
+    instruction: "Прочитайте афишу и выберите правильный ответ на каждый вопрос."
+    text: "VILNIAUS MIESTO ŠVENTĖ\nRugsėjo 5–7 dienomis Katedros aikštėje.\nPenktadienį 18.00 – koncertas.\nŠeštadienį 10.00–16.00 – mugė: lietuviškas maistas, rankdarbiai.\nSekmadienį 12.00 – vaikų šventė.\nĮėjimas nemokamas."
+    questions:
+      - q: "Kur vyksta šventė?"
+        options: ["Vingio parke", "Rotušės aikštėje", "Katedros aikštėje"]
+        answer: 2
+      - q: "Kada vyksta koncertas?"
+        options: ["Penktadienį vakare", "Sekmadienį", "Šeštadienį ryte"]
+        answer: 0
+      - q: "Ką galima nusipirkti šeštadienį?"
+        options: ["Bilietų į teatrą", "Lietuviško maisto", "Knygų"]
+        answer: 1
+      - q: "Kam skirta sekmadienio šventė?"
+        options: ["Vaikams", "Senjorams", "Studentams"]
+        answer: 0
+      - q: "Kiek kainuoja įėjimas?"
+        options: ["Dešimt eurų", "Nieko, jis nemokamas", "Penkis eurus"]
+        answer: 1
+  - kind: reading
+    cefr: A1
+    instruction: "Прочитайте меню и выберите правильный ответ на каждый вопрос."
+    text: "KAVINĖ „LIEPA“ – DIENOS PIETŪS (11.00–15.00)\nSriubos: burokėlių sriuba – 3 €, vištienos sriuba – 3,50 €\nAntri patiekalai: cepelinai – 7 €, kepta žuvis su bulvėmis – 8 €, daržovių troškinys – 6 €\nDesertas: obuolių pyragas – 2,50 €\nGėrimai: kava – 2 €, arbata – 1,50 €\nDienos pietūs (sriuba + antras patiekalas + arbata) – 9 €"
+    questions:
+      - q: "Iki kada galima užsisakyti dienos pietus?"
+        options: ["Iki vakaro", "Iki vienuoliktos valandos", "Iki penkioliktos valandos"]
+        answer: 2
+      - q: "Kuris patiekalas be mėsos ir žuvies?"
+        options: ["Vištienos sriuba", "Cepelinai", "Daržovių troškinys"]
+        answer: 2
+      - q: "Kiek kainuoja kepta žuvis?"
+        options: ["6 €", "7 €", "8 €"]
+        answer: 2
+      - q: "Kas įeina į dienos pietus?"
+        options: ["Sriuba, antras patiekalas ir arbata", "Sriuba ir kava", "Antras patiekalas ir desertas"]
+        answer: 0
+      - q: "Kiek kainuoja kava?"
+        options: ["2,50 €", "1,50 €", "2 €"]
+        answer: 2
+      - q: "Kokį desertą siūlo kavinė?"
+        options: ["Tortą", "Ledus", "Obuolių pyragą"]
+        answer: 2
+  - kind: gaps
+    cefr: A1
+    instruction: "Выберите правильную форму слова для каждого пропуска."
+    text: "Sveikas, Pauliau! Ačiū už (1) laišką. Mano šeima gyvena (2) name prie ežero. Turiu du (3) ir vieną seserį. Mano (4) dvidešimt metų. Atvažiuok pas mus (5)! Tavo Andrius"
+    questions:
+      - q: ""
+        options: ["tau", "tavo", "tave"]
+        answer: 1
+      - q: ""
+        options: ["dideliame", "didelis", "didelį"]
+        answer: 0
+      - q: ""
+        options: ["broliai", "brolius", "brolis"]
+        answer: 1
+      - q: ""
+        options: ["seserį", "sesuo", "seseriai"]
+        answer: 2
+      - q: ""
+        options: ["šeštadienį", "šeštadienio", "šeštadienis"]
+        answer: 0
+  - kind: writing
+    cefr: A1
+    task: lt-t-0102
+  - kind: reading
+    cefr: A2
+    instruction: "Прочитайте статью и выберите правильный ответ на каждый вопрос."
+    text: "Rūta Mikalauskienė – žinoma lietuvių dailininkė. Ji gimė 1975 metais Panevėžyje. Vaikystėje Rūta daug piešdavo ir lankė dailės mokyklą. Po mokyklos ji studijavo Vilniaus dailės akademijoje. Studijų metais Rūta metus gyveno Italijoje, kur susipažino su savo vyru Marku. 2002 metais jie grįžo į Lietuvą ir apsigyveno Klaipėdoje. Dabar dailininkė gyvena prie jūros, piešia jūrą ir žvejų laivus. Jos paveikslų parodos vyko Lietuvoje, Latvijoje ir Vokietijoje. Laisvalaikiu Rūta moko vaikus piešti, o vasarą su šeima keliauja dviračiais."
+    questions:
+      - q: "Kur gimė Rūta?"
+        options: ["Klaipėdoje", "Panevėžyje", "Vilniuje"]
+        answer: 1
+      - q: "Ką Rūta mėgo daryti vaikystėje?"
+        options: ["Plaukti", "Piešti", "Dainuoti"]
+        answer: 1
+      - q: "Kur ji studijavo?"
+        options: ["Klaipėdos universitete", "Italijoje", "Vilniaus dailės akademijoje"]
+        answer: 2
+      - q: "Kur Rūta susipažino su vyru?"
+        options: ["Panevėžyje", "Italijoje", "Klaipėdoje"]
+        answer: 1
+      - q: "Ką dabar piešia dailininkė?"
+        options: ["Žmones", "Miestus", "Jūrą ir laivus"]
+        answer: 2
+      - q: "Ką Rūta veikia laisvalaikiu?"
+        options: ["Dirba muziejuje", "Rašo knygas", "Moko vaikus piešti"]
+        answer: 2
+  - kind: reading
+    cefr: A2
+    instruction: "Прочитайте объявление для жильцов и выберите правильный ответ на каждый вопрос."
+    text: "Gerbiami namo gyventojai,\nnuo kovo 10 iki kovo 14 dienos name keisime vamzdžius. Šiomis dienomis nuo 9 iki 17 valandos nebus karšto vandens. Šaltas vanduo bus visą laiką. Kovo 12 dieną, trečiadienį, darbininkai turės užeiti į kiekvieną butą. Jeigu tą dieną nebūsite namie, prašome palikti raktą namo administratorei (1 butas) arba paskambinti tel. 8 600 12345 ir susitarti dėl kito laiko. Atsiprašome už nepatogumus ir dėkojame už supratimą.\nNamo administracija"
+    questions:
+      - q: "Kiek dienų vyks darbai?"
+        options: ["Dvi savaites", "Vieną dieną", "Penkias dienas"]
+        answer: 2
+      - q: "Ko nebus nuo 9 iki 17 valandos?"
+        options: ["Karšto vandens", "Šalto vandens", "Elektros"]
+        answer: 0
+      - q: "Kada darbininkai užeis į butus?"
+        options: ["Kovo 14 dieną", "Kovo 10 dieną", "Kovo 12 dieną"]
+        answer: 2
+      - q: "Ką daryti, jeigu kovo 12 dieną nebūsite namie?"
+        options: ["Parašyti laišką kaimynui", "Nieko nedaryti", "Palikti raktą administratorei arba paskambinti"]
+        answer: 2
+      - q: "Kur gyvena administratorė?"
+        options: ["Pirmame bute", "Penktame bute", "Kitame name"]
+        answer: 0
+      - q: "Kas parašė šį pranešimą?"
+        options: ["Namo administracija", "Darbininkai", "Kaimynas"]
+        answer: 0
+  - kind: gaps
+    cefr: A2
+    instruction: "Выберите правильную форму слова для каждого пропуска."
+    text: "Kai buvau vaikas, kiekvieną vasarą (1) pas močiutę į kaimą. Ten mes (2) ežere ir rinkdavome uogas. Kitais metais aš vėl (3) į tą kaimą su savo vaikais. Labai norėčiau, kad jie (4) kaimo gyvenimą. Mano vaikai domisi (5) ir gamta. Močiutei jau aštuoniasdešimt metų, bet ji vis dar dirba (6)."
+    questions:
+      - q: ""
+        options: ["važiuočiau", "važiuosiu", "važiuodavau"]
+        answer: 2
+      - q: ""
+        options: ["maudysimės", "maudydavomės", "maudytumėmės"]
+        answer: 1
+      - q: ""
+        options: ["važiuodavau", "važiuosiu", "važiavau"]
+        answer: 1
+      - q: ""
+        options: ["pamato", "pamatė", "pamatytų"]
+        answer: 2
+      - q: ""
+        options: ["gyvūnais", "gyvūnus", "gyvūnai"]
+        answer: 0
+      - q: ""
+        options: ["sodą", "sode", "sodas"]
+        answer: 1
+  - kind: gaps
+    cefr: A2
+    instruction: "Выберите правильную форму слова для каждого пропуска."
+    text: "DINGO ŠUO! Spalio 3 dieną (1) parke dingo mūsų šuo Reksas. Jis mažas, rudas, su mėlynu (2). Reksas labai draugiškas, (3) nebijo. Jeigu jį matėte, prašome (4) telefonu 8 611 22334. Atlyginsime!"
+    questions:
+      - q: ""
+        options: ["Vingio", "Vingiu", "Vingis"]
+        answer: 0
+      - q: ""
+        options: ["antkaklis", "antkaklio", "antkakliu"]
+        answer: 2
+      - q: ""
+        options: ["žmonėms", "žmonių", "žmonės"]
+        answer: 1
+      - q: ""
+        options: ["skambinti", "skambinkite", "skambino"]
+        answer: 0
+  - kind: writing
+    cefr: A2
+    task: lt-t-0103
+listening:
+  - cefr: A1
+    instruction: "Послушайте телефонный разговор. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Registratorė", text: "Poliklinika, klausau." }
+      - { speaker: "Pacientas", text: "Laba diena. Norėčiau užsiregistruoti pas gydytoją." }
+      - { speaker: "Registratorė", text: "Pas kokį gydytoją?" }
+      - { speaker: "Pacientas", text: "Pas šeimos gydytoją. Man skauda ausį." }
+      - { speaker: "Registratorė", text: "Galiu pasiūlyti ketvirtadienį, dešimtą valandą." }
+      - { speaker: "Pacientas", text: "Ketvirtadienį dirbu. Gal penktadienį?" }
+      - { speaker: "Registratorė", text: "Penktadienį yra laiko po pietų, antrą valandą." }
+      - { speaker: "Pacientas", text: "Puiku. Mano pavardė Petrovas." }
+      - { speaker: "Registratorė", text: "Gerai, pone Petrovai. Penktadienį, antrą valandą, dvyliktas kabinetas." }
+    questions:
+      - q: "Kur skambina vyras?"
+        options: ["Į vaistinę", "Į ligoninę", "Į polikliniką"]
+        answer: 2
+      - q: "Kas jam skauda?"
+        options: ["Dantį", "Ausį", "Galvą"]
+        answer: 1
+      - q: "Kodėl jis negali ateiti ketvirtadienį?"
+        options: ["Jis keliauja", "Jis dirba", "Jis serga"]
+        answer: 1
+      - q: "Kada jis eis pas gydytoją?"
+        options: ["Penktadienį antrą valandą", "Ketvirtadienį dešimtą valandą", "Penktadienį dešimtą valandą"]
+        answer: 0
+      - q: "Kuriame kabinete priima gydytojas?"
+        options: ["Antrame", "Dvyliktame", "Dešimtame"]
+        answer: 1
+  - cefr: A1
+    instruction: "Послушайте объявление по радио. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Pranešėja", text: "Šį savaitgalį Kaune vyksta knygų mugė. Ji prasideda penktadienį dešimtą valandą ir baigiasi sekmadienį šeštą valandą vakaro. Bilietas suaugusiems kainuoja penkis eurus, vaikams iki dvylikos metų įėjimas nemokamas. Šeštadienį vyks susitikimai su rašytojais. Mugė vyksta parodų centre, netoli autobusų stoties. Atvažiuokite!" }
+    questions:
+      - q: "Kas vyksta šį savaitgalį?"
+        options: ["Koncertas", "Knygų mugė", "Maisto šventė"]
+        answer: 1
+      - q: "Kada mugė baigiasi?"
+        options: ["Sekmadienį vakare", "Šeštadienį", "Penktadienį"]
+        answer: 0
+      - q: "Kiek kainuoja bilietas suaugusiems?"
+        options: ["Dvylika eurų", "Penkis eurus", "Nieko"]
+        answer: 1
+      - q: "Kas vyksta šeštadienį?"
+        options: ["Susitikimai su rašytojais", "Koncertas vaikams", "Kino filmas"]
+        answer: 0
+      - q: "Kur vyksta mugė?"
+        options: ["Parodų centre", "Universitete", "Bibliotekoje"]
+        answer: 0
+  - cefr: A2
+    instruction: "Послушайте разговор двух друзей. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Lina", text: "Ar jau žinai, ką veiksi per atostogas?" }
+      - { speaker: "Marius", text: "Dar nežinau. Norėčiau važiuoti prie jūros, bet viešbučiai labai brangūs." }
+      - { speaker: "Lina", text: "O gal važiuotume kartu į Nidą? Mano teta ten nuomoja kambarius, mums būtų pigiau." }
+      - { speaker: "Marius", text: "Puiki mintis! Kada galėtume važiuoti?" }
+      - { speaker: "Lina", text: "Liepos pradžioje. Rugpjūtį aš dirbsiu." }
+      - { speaker: "Marius", text: "Man tinka. Ar važiuosime traukiniu?" }
+      - { speaker: "Lina", text: "Į Nidą traukiniai nevažiuoja. Važiuosime autobusu iki Klaipėdos, paskui plauksime keltu ir vėl važiuosime autobusu." }
+      - { speaker: "Marius", text: "Gerai, tada aš nupirksiu bilietus." }
+    questions:
+      - q: "Kodėl Marius dar nežino, kur važiuos?"
+        options: ["Viešbučiai prie jūros brangūs", "Jis serga", "Jis neturi atostogų"]
+        answer: 0
+      - q: "Kas Nidoje nuomoja kambarius?"
+        options: ["Linos teta", "Linos draugė", "Mariaus brolis"]
+        answer: 0
+      - q: "Kada jie važiuos į Nidą?"
+        options: ["Rugpjūtį", "Liepos pradžioje", "Birželio pabaigoje"]
+        answer: 1
+      - q: "Kodėl jie nevažiuos traukiniu?"
+        options: ["Traukinys per brangus", "Marius nemėgsta traukinių", "Į Nidą traukiniai nevažiuoja"]
+        answer: 2
+      - q: "Ką padarys Marius?"
+        options: ["Užsakys viešbutį", "Paskambins tetai", "Nupirks bilietus"]
+        answer: 2
+  - cefr: A2
+    instruction: "Послушайте интервью по радио. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Vedėja", text: "Šiandien mūsų svečias – Tomas, kuris prieš penkerius metus atidarė kepyklėlę Užupyje. Tomai, kodėl nusprendėte kepti duoną?" }
+      - { speaker: "Tomas", text: "Anksčiau dirbau banke, bet darbas man buvo nuobodus. Mano senelė visada kepdavo duoną namie, ir aš nuo vaikystės mėgau jai padėti." }
+      - { speaker: "Vedėja", text: "Ar sunku turėti savo verslą?" }
+      - { speaker: "Tomas", text: "Sunku. Keliuosi ketvirtą valandą ryto ir dirbu net savaitgaliais. Bet man labai patinka, kai žmonės ateina ir sako, kad duona skani." }
+      - { speaker: "Vedėja", text: "Kokie jūsų planai?" }
+      - { speaker: "Tomas", text: "Kitais metais norėtume atidaryti antrą kepyklėlę Kaune." }
+    questions:
+      - q: "Kur Tomas dirbo anksčiau?"
+        options: ["Banke", "Mokykloje", "Kepykloje"]
+        answer: 0
+      - q: "Koks buvo Tomo ankstesnis darbas?"
+        options: ["Per sunkus", "Labai įdomus", "Nuobodus"]
+        answer: 2
+      - q: "Kas namie kepdavo duoną?"
+        options: ["Tomo senelė", "Tomo kaimynas", "Tomo mama"]
+        answer: 0
+      - q: "Kada Tomas keliasi?"
+        options: ["Šeštą valandą ryto", "Septintą valandą ryto", "Ketvirtą valandą ryto"]
+        answer: 2
+      - q: "Ką Tomas planuoja daryti kitais metais?"
+        options: ["Atidaryti kepyklėlę Kaune", "Keliauti po pasaulį", "Grįžti dirbti į banką"]
+        answer: 0
+speaking: [lt-s-0104, lt-s-0105, lt-s-0106]

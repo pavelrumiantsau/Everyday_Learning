@@ -1,0 +1,260 @@
+# Mock exam 3 of the Lithuanian foundation course: NŠA Basic–I category exam format (docs/EXTENSION-PLAN.md §6.1).
+# Format: packages/core/src/exam.ts → Exam. Written with Claude Code, modelled on the exam formats (not copied); source: generated.
+# Listening audio: /audio/lt/<id>-l<n>.mp3, voiced by Reginutė (scripts/tts_reginute.py). track: foundation.
+id: lt-x-0003
+level: A2
+track: foundation
+title: "Пробный экзамен A2 — 2"
+rw:
+  - kind: reading
+    cefr: A1
+    instruction: "Прочитайте расписание поездов и выберите правильный ответ на каждый вопрос."
+    text: "TRAUKINIAI VILNIUS – KAUNAS\nIšvyksta 06.40 – atvyksta 07.55\nIšvyksta 09.15 – atvyksta 10.20 (greitasis traukinys)\nIšvyksta 13.30 – atvyksta 14.45\nIšvyksta 18.05 – atvyksta 19.20\nBilieto kaina – 7,20 €. Studentams ir senjorams – 50 % nuolaida.\nBilietą galima nusipirkti kasoje, internetu arba traukinyje (+1 €)."
+    questions:
+      - q: "Kuris traukinys važiuoja greičiausiai?"
+        options: ["18.05", "09.15", "06.40"]
+        answer: 1
+      - q: "Kada į Kauną atvyksta traukinys, kuris išvyksta 13.30?"
+        options: ["13.55", "15.30", "14.45"]
+        answer: 2
+      - q: "Kiek kainuoja bilietas studentui?"
+        options: ["1 €", "3,60 €", "7,20 €"]
+        answer: 1
+      - q: "Kur galima nusipirkti bilietą?"
+        options: ["Tik kasoje", "Kasoje, internetu ir traukinyje", "Tik internetu"]
+        answer: 1
+      - q: "Kiek reikia primokėti, jeigu bilietą perki traukinyje?"
+        options: ["Nieko", "Vieną eurą", "Du eurus"]
+        answer: 1
+  - kind: reading
+    cefr: A1
+    instruction: "Прочитайте, что люди пишут о своей работе, и выберите правильный ответ на каждый вопрос."
+    text: "Andrius: Aš dirbu ligoninėje. Mano darbas prasideda septintą valandą ryto. Padedu ligoniams.\nEglė: Dirbu mokykloje. Mokau vaikus matematikos.\nPaulius: Esu vairuotojas. Kiekvieną dieną vairuoju autobusą Vilniuje. Mėgstu savo darbą, nes matau daug žmonių.\nIeva: Dirbu namie, prie kompiuterio. Esu vertėja: verčiu tekstus iš anglų kalbos į lietuvių kalbą."
+    questions:
+      - q: "Kas dirba ligoninėje?"
+        options: ["Paulius", "Andrius", "Eglė"]
+        answer: 1
+      - q: "Ką dirba Eglė?"
+        options: ["Ji gydytoja", "Ji vertėja", "Ji mokytoja"]
+        answer: 2
+      - q: "Kada prasideda Andriaus darbas?"
+        options: ["Septintą valandą ryto", "Devintą valandą ryto", "Aštuntą valandą ryto"]
+        answer: 0
+      - q: "Kodėl Paulius mėgsta savo darbą?"
+        options: ["Mato daug žmonių", "Daug keliauja", "Dirba namie"]
+        answer: 0
+      - q: "Kur dirba Ieva?"
+        options: ["Biure", "Namie", "Mokykloje"]
+        answer: 1
+      - q: "Iš kokios kalbos verčia Ieva?"
+        options: ["Iš lietuvių", "Iš vokiečių", "Iš anglų"]
+        answer: 2
+  - kind: gaps
+    cefr: A1
+    instruction: "Выберите правильную форму слова для каждого пропуска."
+    text: "Mano vardas Anna. Aš esu iš (1). Dabar gyvenu Kaune su (2) ir dviem vaikais. Mano vyras dirba (3). Aš mokausi lietuvių (4). Mūsų butas yra (5) aukšte."
+    questions:
+      - q: ""
+        options: ["Lenkija", "Lenkijos", "Lenkijoje"]
+        answer: 1
+      - q: ""
+        options: ["vyras", "vyrą", "vyru"]
+        answer: 2
+      - q: ""
+        options: ["gydytoju", "gydytoją", "gydytojas"]
+        answer: 0
+      - q: ""
+        options: ["kalbos", "kalbą", "kalba"]
+        answer: 0
+      - q: ""
+        options: ["trečiame", "trečias", "trečią"]
+        answer: 0
+  - kind: writing
+    cefr: A1
+    task: lt-t-0104
+  - kind: reading
+    cefr: A2
+    instruction: "Прочитайте письмо и выберите правильный ответ на каждый вопрос."
+    text: "Labas, Ieva!\nJau mėnuo, kaip gyvenu Kopenhagoje. Iš pradžių buvo sunku: nemokėjau kalbos, neturėjau draugų, o oras buvo šaltas ir vėjuotas. Dabar jau pripratau. Darbas man labai patinka: kolegos draugiški, o darbo diena baigiasi jau ketvirtą valandą. Butą nuomojuosi kartu su drauge iš Ispanijos. Butas nedidelis, bet šviesus ir netoli centro. Į darbą važiuoju dviračiu, kaip ir dauguma danų. Savaitgaliais lankau danų kalbos kursus. Labai pasiilgau lietuviškos duonos ir tavęs! Gal atvažiuotum pas mane rugsėjį?\nBučiuoju,\nAgnė"
+    questions:
+      - q: "Kiek laiko Agnė gyvena Kopenhagoje?"
+        options: ["Mėnesį", "Metus", "Savaitę"]
+        answer: 0
+      - q: "Kodėl iš pradžių buvo sunku?"
+        options: ["Neturėjo darbo", "Neturėjo buto", "Nemokėjo kalbos ir neturėjo draugų"]
+        answer: 2
+      - q: "Ką Agnė rašo apie darbą?"
+        options: ["Jis per sunkus", "Darbo diena per ilga", "Jai labai patinka"]
+        answer: 2
+      - q: "Su kuo gyvena Agnė?"
+        options: ["Viena", "Su drauge iš Ispanijos", "Su seserimi"]
+        answer: 1
+      - q: "Kaip Agnė važiuoja į darbą?"
+        options: ["Dviračiu", "Metro", "Autobusu"]
+        answer: 0
+      - q: "Ko Agnė prašo Ievos?"
+        options: ["Atsiųsti duonos", "Atvažiuoti rugsėjį", "Parašyti laišką"]
+        answer: 1
+  - kind: reading
+    cefr: A2
+    instruction: "Прочитайте рецепт и выберите правильный ответ на каждый вопрос."
+    text: "ŠALTIBARŠČIAI (4 porcijos)\nReikės: 1 litro kefyro, 3 virtų burokėlių, 2 agurkų, 2 kiaušinių, krapų, svogūnų laiškų, druskos.\nBurokėlius sutarkuokite, agurkus supjaustykite. Krapus ir svogūnų laiškus smulkiai supjaustykite. Viską sudėkite į puodą, užpilkite šaltu kefyru, įberkite druskos ir išmaišykite. Kiaušinius išvirkite ir supjaustykite. Šaltibarščius patiekite šaltus, su kiaušiniu ir karštomis virtomis bulvėmis. Skanaus!"
+    questions:
+      - q: "Kiek porcijų išeina iš šio recepto?"
+        options: ["Keturios", "Šešios", "Dvi"]
+        answer: 0
+      - q: "Kiek reikia kefyro?"
+        options: ["Pusės litro", "Vieno litro", "Dviejų litrų"]
+        answer: 1
+      - q: "Ką reikia daryti su burokėliais?"
+        options: ["Užšaldyti", "Iškepti", "Sutarkuoti"]
+        answer: 2
+      - q: "Koks turi būti kefyras?"
+        options: ["Šaltas", "Šiltas", "Karštas"]
+        answer: 0
+      - q: "Su kuo patiekiami šaltibarščiai?"
+        options: ["Su kiaušiniu ir karštomis bulvėmis", "Su ryžiais", "Su duona ir sūriu"]
+        answer: 0
+      - q: "Ko reikia įberti?"
+        options: ["Pipirų", "Druskos", "Cukraus"]
+        answer: 1
+  - kind: gaps
+    cefr: A2
+    instruction: "Выберите правильную форму слова для каждого пропуска."
+    text: "Mieli kolegos, kitą penktadienį (1) savo gimtadienį. Norėčiau (2) pakviesti į restoraną „Senoji trobelė“. Restoranas yra (3) gatvėje, netoli Katedros. Susitiksime (4) valandą prie įėjimo. Jeigu negalėsite atvykti, (5) man iki trečiadienio. Būtų labai smagu, jeigu visi (6)! Jūsų Eglė"
+    questions:
+      - q: ""
+        options: ["švenčiau", "švęsdavau", "švęsiu"]
+        answer: 2
+      - q: ""
+        options: ["jus", "jums", "jūs"]
+        answer: 0
+      - q: ""
+        options: ["Pilimi", "Pilies", "Pilis"]
+        answer: 1
+      - q: ""
+        options: ["šešta", "šeštą", "šeštos"]
+        answer: 1
+      - q: ""
+        options: ["rašėte", "parašėte", "parašykite"]
+        answer: 2
+      - q: ""
+        options: ["atėjo", "ateitų", "ateina"]
+        answer: 1
+  - kind: gaps
+    cefr: A2
+    instruction: "Выберите правильную форму слова для каждого пропуска."
+    text: "RASTA PINIGINĖ! Vakar, birželio 2 dieną, (1) autobuse radau juodą piniginę. Joje yra pinigų ir (2) kortelė. Piniginę galite atsiimti pas (3) – skambinkite vakare tel. 8 622 55667. Prašau pasakyti, (4) spalvos yra kortelė."
+    questions:
+      - q: ""
+        options: ["dešimtas", "dešimtąjį", "dešimtame"]
+        answer: 2
+      - q: ""
+        options: ["banko", "bankas", "banku"]
+        answer: 0
+      - q: ""
+        options: ["mane", "man", "aš"]
+        answer: 0
+      - q: ""
+        options: ["kokią", "kokios", "kokia"]
+        answer: 1
+  - kind: writing
+    cefr: A2
+    task: lt-t-0105
+listening:
+  - cefr: A1
+    instruction: "Послушайте разговор в гостинице. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Administratorė", text: "Laba diena! Kuo galiu padėti?" }
+      - { speaker: "Svečias", text: "Laba diena. Aš užsakiau kambarį. Mano pavardė Novak." }
+      - { speaker: "Administratorė", text: "Taip, vienvietis kambarys, dvi naktys. Jūsų kambarys yra ketvirtame aukšte, numeris keturi šimtai dvylika." }
+      - { speaker: "Svečias", text: "Ačiū. Kada būna pusryčiai?" }
+      - { speaker: "Administratorė", text: "Pusryčiai nuo septintos iki dešimtos valandos, pirmame aukšte." }
+      - { speaker: "Svečias", text: "Ar kambaryje yra internetas?" }
+      - { speaker: "Administratorė", text: "Taip, slaptažodis yra ant kortelės. Ir dar: išsiregistruoti reikia iki dvyliktos valandos." }
+    questions:
+      - q: "Kiek naktų svečias bus viešbutyje?"
+        options: ["Tris", "Vieną", "Dvi"]
+        answer: 2
+      - q: "Kuriame aukšte yra kambarys?"
+        options: ["Ketvirtame", "Pirmame", "Dvyliktame"]
+        answer: 0
+      - q: "Kada būna pusryčiai?"
+        options: ["Nuo septintos iki dešimtos", "Visą dieną", "Nuo šeštos iki devintos"]
+        answer: 0
+      - q: "Kur yra slaptažodis?"
+        options: ["Ant kortelės", "Ant stalo", "Pas administratorę"]
+        answer: 0
+      - q: "Iki kada reikia išsiregistruoti?"
+        options: ["Iki dvyliktos", "Iki pirmos", "Iki dešimtos"]
+        answer: 0
+  - cefr: A1
+    instruction: "Послушайте три коротких сообщения. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Pranešėja", text: "Pirmas pranešimas. Dėmesio! Lėktuvas į Londoną vėluoja vieną valandą. Naujas išvykimo laikas – penkiolika valandų trisdešimt minučių." }
+      - { speaker: "Registratorė", text: "Antras pranešimas. Sveiki, čia odontologo kabinetas. Primename, kad rytoj, antradienį, pusę dešimtos laukiame jūsų vizito." }
+      - { speaker: "Ieva", text: "Trečias pranešimas. Labas, čia Ieva. Aš jau stotyje, bet tavęs nematau. Laukiu prie kasos. Paskambink!" }
+    questions:
+      - q: "Kiek vėluoja lėktuvas?"
+        options: ["Valandą", "Dvi valandas", "Pusvalandį"]
+        answer: 0
+      - q: "Kada dabar išvyks lėktuvas?"
+        options: ["14.30", "15.30", "16.00"]
+        answer: 1
+      - q: "Kada vizitas pas odontologą?"
+        options: ["Rytoj 10.30", "Šiandien 9.30", "Rytoj 9.30"]
+        answer: 2
+      - q: "Kur yra Ieva?"
+        options: ["Namie", "Oro uoste", "Stotyje"]
+        answer: 2
+      - q: "Kur laukia Ieva?"
+        options: ["Kavinėje", "Prie įėjimo", "Prie kasos"]
+        answer: 2
+  - cefr: A2
+    instruction: "Послушайте разговор двух знакомых. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Rasa", text: "Girdėjau, kad pakeitei darbą. Kaip sekasi?" }
+      - { speaker: "Darius", text: "Ačiū, gerai. Dabar dirbu IT įmonėje, programuotoju. Anksčiau dirbdavau iki vėlumos, o dabar darbo diena baigiasi penktą." }
+      - { speaker: "Rasa", text: "O ar toli važiuoti?" }
+      - { speaker: "Darius", text: "Ne, biuras visai netoli namų, einu pėsčiomis penkiolika minučių. Be to, du kartus per savaitę galiu dirbti iš namų." }
+      - { speaker: "Rasa", text: "Puiku! O kolegos?" }
+      - { speaker: "Darius", text: "Kolegos jauni ir draugiški. Penktadieniais kartu žaidžiame krepšinį. Vienintelė problema – reikia daug kalbėti angliškai, o mano anglų kalba nelabai gera." }
+      - { speaker: "Rasa", text: "Tai gal eitum į kursus? Mano sesuo dėsto anglų kalbą, galėčiau tave su ja supažindinti." }
+      - { speaker: "Darius", text: "Būtų puiku!" }
+    questions:
+      - q: "Kuo dabar dirba Darius?"
+        options: ["Vairuotoju", "Programuotoju", "Mokytoju"]
+        answer: 1
+      - q: "Kaip Darius nueina į darbą?"
+        options: ["Automobiliu", "Autobusu", "Pėsčiomis"]
+        answer: 2
+      - q: "Kiek dienų per savaitę jis gali dirbti iš namų?"
+        options: ["Dvi", "Vieną", "Tris"]
+        answer: 0
+      - q: "Ką kolegos veikia penktadieniais?"
+        options: ["Mokosi anglų kalbos", "Žaidžia krepšinį", "Eina į kavinę"]
+        answer: 1
+      - q: "Kaip Rasa gali padėti Dariui?"
+        options: ["Supažindinti su seserimi, kuri dėsto anglų kalbą", "Rasti naują darbą", "Nupirkti anglų kalbos knygą"]
+        answer: 0
+  - cefr: A2
+    instruction: "Послушайте новости по радио. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
+    lines:
+      - { speaker: "Diktorius", text: "Vilniaus savivaldybė praneša, kad nuo kitos savaitės pirmadienio Gedimino prospektas bus uždarytas automobiliams. Ten vyks gatvės remontas, kuris truks du mėnesius. Autobusai važiuos kitomis gatvėmis, todėl kai kurios stotelės bus perkeltos. Naujas stoteles galima rasti savivaldybės interneto svetainėje. Savivaldybė prašo gyventojų važiuoti dviračiais arba vaikščioti pėsčiomis. Remonto metu miesto dviračiais bus galima naudotis nemokamai." }
+    questions:
+      - q: "Kas bus uždaryta automobiliams?"
+        options: ["Visas senamiestis", "Pilies gatvė", "Gedimino prospektas"]
+        answer: 2
+      - q: "Kiek laiko truks remontas?"
+        options: ["Du mėnesius", "Pusę metų", "Dvi savaites"]
+        answer: 0
+      - q: "Kur galima rasti naujas stoteles?"
+        options: ["Autobusų stotyje", "Laikraštyje", "Savivaldybės interneto svetainėje"]
+        answer: 2
+      - q: "Ko savivaldybė prašo gyventojų?"
+        options: ["Važiuoti taksi", "Likti namie", "Važiuoti dviračiais arba vaikščioti pėsčiomis"]
+        answer: 2
+      - q: "Kuo bus galima naudotis nemokamai?"
+        options: ["Autobusais", "Taksi", "Miesto dviračiais"]
+        answer: 2
+speaking: [lt-s-0107, lt-s-0108, lt-s-0109]

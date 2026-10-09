@@ -16,3 +16,4 @@ export * from "./profile";
 export * from "./course";
 export * from "./tasks";
 export * from "./listening";
+export * from "./exam";
