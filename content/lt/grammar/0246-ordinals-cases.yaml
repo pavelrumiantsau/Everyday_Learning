@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u21): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0246
+cefr: A2
+order: 246
+track: foundation
+title: "Порядковые числительные в падежах: pirmame aukšte, antrą kartą"
+explanation:
+  ru: |
+    Порядковые числительные (*pirmas, antras, trečias…*) склоняются как прилагательные на *-as / -a*:
+    - **где?** (мест.): *pirmame aukšte* — на первом этаже, *trečioje klasėje* — в третьем классе, *ketvirtame kurse* — на четвёртом курсе
+    - **который раз?** (вин.): *pirmą kartą* — в первый раз, *antrą kartą*
+    - **до какого часа?** (род., ж. р.): *iki šeštos valandos*
+    - **во сколько?** (вин., ж. р.): *penktą valandą*
+
+    Формы мест. п.: м. р. **-ame** (*pirmame, antrame, trečiame*), ж. р. **-oje** (*pirmoje, antroje, trečioje*).
+
+    *Klasė, eilė, valanda* — женского рода, *aukštas, kursas, kartas* — мужского.
+comparison:
+  ru: |
+    Как русские «на первом этаже», «в первый раз»: порядковое число согласуется с существительным. Только «в первый раз» по-литовски без предлога: *pirmą kartą*.
+examples:
+  - { text: "Ji pirmame aukšte.", translation: "Она на первом этаже.", source: "tatoeba:11031912" }
+  - { text: "Aš gyvenau trečiame aukšte.", translation: "Я жил на третьем этаже.", source: "tatoeba:13417862" }
+  - { text: "Tu pirmą kartą vėluoji.", translation: "Ты впервые опаздываешь.", source: "tatoeba:13176832" }
+  - { text: "Aš čia jau ne pirmą kartą.", translation: "Я здесь уже не в первый раз.", source: "tatoeba:9850811" }
+  - { text: "Ar tau tai pirmą kartą?", translation: "У тебя такое впервой?", source: "tatoeba:11059584" }
+exercises:
+  - type: cloze
+    text: "Gyvenu ___ aukšte."
+    answer: "antrame"
+    hint: "2"
+    translation: "Живу на втором этаже."
+  - type: cloze
+    text: "Esu Lietuvoje ___ kartą."
+    answer: "pirmą"
+    hint: "1"
+    translation: "Я в Литве в первый раз."
+  - type: cloze
+    text: "Mano sūnus mokosi ___ klasėje."
+    answer: "trečioje"
+    hint: "3"
+    translation: "Мой сын учится в третьем классе."
+  - type: cloze
+    text: "Jis studijuoja ___ kurse."
+    answer: "ketvirtame"
+    hint: "4"
+    translation: "Он учится на четвёртом курсе."
+  - type: cloze
+    text: "Dirbu iki ___ valandos."
+    answer: "šeštos"
+    hint: "6"
+    translation: "Работаю до шести часов."
+  - type: cloze
+    text: "Mūsų butas ___ aukšte."
+    answer: "penktame"
+    hint: "5"
+    translation: "Наша квартира на пятом этаже."
+  - type: cloze
+    text: "Sėdime ___ eilėje."
+    answer: "pirmoje"
+    hint: "1 (eilė — ж. р.)"
+    translation: "Сидим в первом ряду."
+  - type: cloze
+    text: "Tai jau ___ kartas!"
+    answer: "trečias"
+    hint: "3"
+    translation: "Это уже третий раз!"

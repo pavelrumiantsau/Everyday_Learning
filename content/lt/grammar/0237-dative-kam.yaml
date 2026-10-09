@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u17): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0237
+cefr: A2
+order: 237
+track: foundation
+title: "Кому? Дательный падеж: draugui, mamai, vaikams; dėkoju jums"
+explanation:
+  ru: |
+    **Дательный падеж** (*naudininkas*) отвечает на вопрос **kam?** — кому?
+
+    Окончания в единственном числе:
+    - *-as* → **-ui**: draugas → draug**ui**; *-is, -ys* → **-iui**: brolis → brol**iui**
+    - *-us* → **-ui**: sūnus → sūn**ui**
+    - *-a* → **-ai**: mama → mam**ai**; *-ė* → **-ei**: Eglė → Egl**ei**
+    - *sesuo* → **seseriai**, *duktė* → **dukteriai**, *šuo* → **šuniui**
+    - мн. ч.: **-ams / -iams / -oms / -ėms**: draugams, broliams, mamoms, Eglėms
+
+    Кому нужно дательный:
+    - **давать, дарить, писать, звонить, помогать, говорить** кому: *duoti, dovanoti, rašyti, skambinti, padėti, sakyti*
+    - **возраст, нравится, нужно**: *Man 30 metų. Mamai patinka gėlės. Broliui reikia pagalbos.*
+    - **ловушка:** *dėkoti* + **дательный** — *Dėkoju **jums**!* (по-русски «благодарю **вас**» — винительный)
+comparison:
+  ru: |
+    Почти как в русском: «дать другу», «позвонить маме». Ловушка — *dėkoti kam*: «благодарить **кого**» по-литовски «благодарить **кому**»: *dėkoju tau*.
+examples:
+  - { text: "Vėl paskambink man.", translation: "Перезвони мне.", source: "tatoeba:11497190" }
+  - { text: "Prašau, duok man meniu.", translation: "Пожалуйста, дайте мне меню.", source: "tatoeba:11588146" }
+  - { text: "Prašau padėkite man.", translation: "Пожалуйста, помогите мне.", source: "tatoeba:2225624" }
+  - { text: "Kiek metų jūsų tėvams?", translation: "Сколько лет вашим родителям?", source: "tatoeba:10718284" }
+  - { text: "Mūsų tėvams ji patiko.", translation: "Нашим родителям она нравилась.", source: "tatoeba:12582910" }
+exercises:
+  - type: cloze
+    text: "Aš skambinu ___."
+    answer: "mamai"
+    hint: "mama"
+    translation: "Я звоню маме."
+  - type: cloze
+    text: "Padėk ___!"
+    answer: "draugui"
+    hint: "draugas"
+    translation: "Помоги другу!"
+  - type: cloze
+    text: "Dovanoju ___ knygą."
+    answer: "broliui"
+    hint: "brolis"
+    translation: "Дарю брату книгу."
+  - type: cloze
+    text: "Labai ___ dėkoju!"
+    answer: "jums"
+    hint: "jūs"
+    translation: "Большое вам спасибо!"
+  - type: cloze
+    text: "Parašyk ___ laišką."
+    answer: "seseriai"
+    hint: "sesuo"
+    translation: "Напиши сестре письмо."
+  - type: cloze
+    text: "Ką tu dovanoji ___?"
+    answer: "vaikams"
+    hint: "vaikai"
+    translation: "Что ты даришь детям?"
+  - type: cloze
+    text: "Duok ___ vandens."
+    answer: "šuniui"
+    hint: "šuo"
+    translation: "Дай собаке воды."
+  - type: cloze
+    text: "___ patinka gėlės."
+    answer: "Eglei"
+    hint: "Eglė"
+    translation: "Эгле нравятся цветы."

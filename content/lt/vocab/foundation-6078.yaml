@@ -1,0 +1,112 @@
+# Generated from scripts/batches/lt-f-6078.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-6078
+  type: word
+  cefr: A2
+  track: foundation
+  text: "jaunystė"
+  pos: noun
+  gender: f
+  gen: "jaunystės"
+  meaning: { ru: "молодость, юность" }
+  note: { ru: "jaunystėje — в молодости" }
+  examples:
+    - { text: "Tai mano jaunystės dainos.", translation: "Это песни моей юности.", source: "tatoeba:12111279" }
+- id: lt-w-6079
+  type: word
+  cefr: A2
+  track: foundation
+  text: "šluoti"
+  pos: verb
+  forms: { pres: "šluoja", past: "šlavė" }
+  meaning: { ru: "подметать" }
+  examples:
+    - { text: "Aš šluoju grindis.", translation: "Я подметаю пол.", source: "tatoeba:10686038" }
+- id: lt-w-6080
+  type: word
+  cefr: A2
+  track: foundation
+  text: "saulėta"
+  pos: adv
+  meaning: { ru: "солнечно" }
+  note: { ru: "Šiandien saulėta. — Сегодня солнечно." }
+  examples:
+    - { text: "Šį rytą saulėta.", translation: "Сегодня утром солнечно.", source: "tatoeba:13395524" }
+- id: lt-w-6081
+  type: word
+  cefr: A2
+  track: foundation
+  text: "pajūris"
+  pos: noun
+  gender: m
+  gen: "pajūrio"
+  meaning: { ru: "побережье, взморье" }
+  note: { ru: "važiuoti į pajūrį — ехать на море" }
+  examples:
+    - { text: "Vasarą mes važiuojame į pajūrį.", translation: "Летом мы ездим на море.", source: "tatoeba:10239785" }
+- id: lt-w-6082
+  type: word
+  cefr: A2
+  track: foundation
+  text: "skustis"
+  pos: verb
+  forms: { pres: "skutasi", past: "skutosi" }
+  meaning: { ru: "бриться" }
+  examples:
+    - { text: "Tomas nustojo skustis.", translation: "Том перестал бриться.", source: "tatoeba:11912240" }
+- id: lt-w-6083
+  type: word
+  cefr: A2
+  track: foundation
+  text: "sveikinimas"
+  pos: noun
+  gender: m
+  gen: "sveikinimo"
+  meaning: { ru: "поздравление; привет" }
+  examples:
+    - { text: "Jai sveikinimas nuo manęs.", translation: "Привет ей от меня.", source: "tatoeba:13773006" }
+- id: lt-w-6084
+  type: word
+  cefr: A2
+  track: foundation
+  text: "padėka"
+  pos: noun
+  gender: f
+  gen: "padėkos"
+  meaning: { ru: "благодарность" }
+  note: { ru: "padėkos raštas — благодарственное письмо" }
+- id: lt-w-6085
+  type: word
+  cefr: A2
+  track: foundation
+  text: "higiena"
+  pos: noun
+  gender: f
+  gen: "higienos"
+  meaning: { ru: "гигиена" }
+  examples:
+    - { text: "Nedera nepaisyti higienos taisyklių.", translation: "Не следует пренебрегать правилами гигиены.", source: "tatoeba:13502594" }
+- id: lt-w-6086
+  type: word
+  cefr: A2
+  track: foundation
+  text: "pleistras"
+  pos: noun
+  gender: m
+  gen: "pleistro"
+  meaning: { ru: "пластырь" }
+- id: lt-w-6087
+  type: word
+  cefr: A2
+  track: foundation
+  text: "teisingai"
+  pos: adv
+  meaning: { ru: "правильно" }
+  note: { ru: "neteisingai — неправильно" }
+- id: lt-p-6088
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "skalbimo mašina"
+  meaning: { ru: "стиральная машина" }

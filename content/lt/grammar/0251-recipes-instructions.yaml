@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u23): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0251
+cefr: A2
+order: 251
+track: foundation
+title: "Рецепты и инструкции: supjaustykite, išvirkite, įdėkite"
+explanation:
+  ru: |
+    В рецептах и инструкциях пишут **повелительным на «вы»** (*-kite*) или просто **инфинитивом**:
+    - *Supjaustykite svogūną.* = *Supjaustyti svogūną.* — Нарезать лук.
+
+    Частые глаголы:
+    - **supjaustyti** — нарезать, **išvirti** — сварить, **iškepti** — испечь, пожарить
+    - **įdėti** — положить, **įpilti** — налить, **sumaišyti** — смешать
+    - **įkaitinti** — разогреть (*orkaitę* — духовку), **pasūdyti** — посолить
+
+    Меры: *šaukštas* — столовая ложка, *šaukštelis* — чайная ложка, *stiklinė* — стакан, *žiupsnelis* — щепотка, *gramas*.
+    После меры — родительный: *du šaukštai cukraus, stiklinė pieno, žiupsnelis druskos*. Время: *kepti 20 minučių*.
+comparison:
+  ru: |
+    Как в русских рецептах: «нарезать, посолить, варить 20 минут» — по-литовски тот же инфинитив (*supjaustyti, pasūdyti*) или вежливое «вы» (*supjaustykite*).
+examples:
+  - { text: "Supjaustykite mėsą.", translation: "Порежьте мясо.", source: "tatoeba:13205725" }
+  - { text: "Supjaustyk mėsą.", translation: "Порежь мясо.", source: "tatoeba:13205726" }
+  - { text: "Įpilk vyno iš butelio.", translation: "Налей вина из бутылки.", source: "tatoeba:13529113" }
+  - { text: "Supjaustyk pyragą gabalėliais.", translation: "Разрежь пирог на части.", source: "tatoeba:2586451" }
+  - { text: "Sumaišyk raudonus ir mėlynus dažus.", translation: "Смешай красную и синюю краски.", source: "tatoeba:11338328" }
+exercises:
+  - type: cloze
+    text: "___ bulves."
+    answer: "išvirkite"
+    hint: "išvirti, на «вы»"
+    translation: "Сварите картофель."
+  - type: cloze
+    text: "___ svogūną."
+    answer: "supjaustykite"
+    hint: "supjaustyti, на «вы»"
+    translation: "Нарежьте лук."
+  - type: cloze
+    text: "___ šiek tiek druskos."
+    answer: "įdėkite"
+    hint: "įdėti, на «вы»"
+    translation: "Положите немного соли."
+  - type: cloze
+    text: "___ stiklinę pieno."
+    answer: "įpilkite"
+    hint: "įpilti, на «вы»"
+    translation: "Налейте стакан молока."
+  - type: cloze
+    text: "Viską gerai ___."
+    answer: "sumaišykite"
+    hint: "sumaišyti, на «вы»"
+    translation: "Всё хорошо перемешайте."
+  - type: cloze
+    text: "Kepti 20 ___."
+    answer: "minučių"
+    hint: "minutės"
+    translation: "Печь 20 минут."
+  - type: cloze
+    text: "Įdėti du ___ cukraus."
+    answer: "šaukštus"
+    hint: "šaukštai, вин."
+    translation: "Положить две ложки сахара."
+  - type: cloze
+    text: "___ orkaitę iki 180 laipsnių."
+    answer: "įkaitinkite"
+    hint: "įkaitinti, на «вы»"
+    translation: "Разогрейте духовку до 180 градусов."

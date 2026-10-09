@@ -1,0 +1,63 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u21): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0245
+cefr: A2
+order: 245
+track: foundation
+title: "Сложные предложения: kad, nes, jeigu, kai, nors, kuris"
+explanation:
+  ru: |
+    Союзы, которые соединяют части предложения (перед ними всегда **запятая**):
+    - **kad** — что, чтобы: *Manau, kad jis teisus.*
+    - **nes** — потому что: *Liksiu namie, nes sergu.*
+    - **jeigu / jei** — если: *Jeigu lis, eisime į kiną.* (о будущем — будущее время в обеих частях)
+    - **kai** — когда: *Paskambink, kai grįši.*
+    - **nors** — хотя: *Jis atėjo, nors buvo vėlu.*
+    - **kuris / kuri** — который, которая (род как у слова, к которому относится): *Tai mano draugas, **kuris** gyvena Kaune.* *Tai knyga, **kuri** man patinka.*
+
+    Если часть с союзом стоит первой, запятая — после неё: *Jei turėsi laiko, paskambink.*
+comparison:
+  ru: |
+    Почти один к одному с русским: *kad* — «что / чтобы», *nes* — «потому что», *jeigu* — «если», *kai* — «когда», *nors* — «хотя», *kuris* — «который». Запятые — тоже как в русском.
+examples:
+  - { text: "Jei nori, gali rūkyti.", translation: "Если хочешь, можешь курить.", source: "tatoeba:12599070" }
+  - { text: "Jei paklysi, skambink.", translation: "Если заблудишься, звони.", source: "tatoeba:13791864" }
+  - { text: "Jis išėjo, nors buvo šalta.", translation: "Хотя было холодно, он вышел.", source: "tatoeba:13739544" }
+  - { text: "Aš valgau sūrį, nors jo ir nemėgstu.", translation: "Я ем сыр, хотя и не люблю его.", source: "tatoeba:12645729" }
+exercises:
+  - type: cloze
+    text: "Liksiu namie, ___ sergu."
+    answer: "nes"
+    translation: "Останусь дома, потому что болею."
+  - type: cloze
+    text: "___ lis, eisime į kiną."
+    answer: "jeigu"
+    also: ["jei"]
+    translation: "Если будет дождь, пойдём в кино."
+  - type: cloze
+    text: "Jis atėjo, ___ buvo vėlu."
+    answer: "nors"
+    translation: "Он пришёл, хотя было поздно."
+  - type: cloze
+    text: "Paskambink, ___ grįši."
+    answer: "kai"
+    translation: "Позвони, когда вернёшься."
+  - type: cloze
+    text: "Manau, ___ jis teisus."
+    answer: "kad"
+    translation: "Думаю, что он прав."
+  - type: cloze
+    text: "Tai mano draugas, ___ gyvena Kaune."
+    answer: "kuris"
+    translation: "Это мой друг, который живёт в Каунасе."
+  - type: cloze
+    text: "Tai knyga, ___ man labai patinka."
+    answer: "kuri"
+    translation: "Это книга, которая мне очень нравится."
+  - type: cloze
+    text: "Jei turėsi laiko, ___ man."
+    answer: "paskambink"
+    hint: "paskambinti, на «ты»"
+    translation: "Если будет время, позвони мне."

@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u13): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0229
+cefr: A2
+order: 229
+track: foundation
+title: "Семейное положение: vedęs, ištekėjusi, išsiskyręs; gimęs, gimusi"
+explanation:
+  ru: |
+    В анкетах и биографиях нужны слова-причастия. На A2 их учим **как отдельные слова**, по роду и числу:
+
+    |---|---|---|---|
+    - **женат / замужем:** *vedęs* (о мужчине) — *ištekėjusi* (о женщине) — *vedę* (о паре: *Jie vedę.*)
+    - **не женат / не замужем:** *nevedęs* — *netekėjusi*
+    - **разведён(-а):** *išsiskyręs* — *išsiskyrusi*
+    - **вдовец / вдова:** *našlys* — *našlė* (это существительные)
+
+    **Родился / родилась:** *gimęs* — *gimusi*: *Esu gimęs Kaune.* (мужчина) — *Esu gimusi Vilniuje.* (женщина). Так же часто говорят *Gimiau Kaune.*
+
+    В анкете: ***Šeiminė padėtis:*** *vedęs / ištekėjusi / nevedęs / netekėjusi / išsiskyręs (-usi)*.
+comparison:
+  ru: |
+    Как русские «женат» и «замужем», но окончание показывает род: *vedęs* — о мужчине, *ištekėjusi* — о женщине.
+examples:
+  - { text: "Taip, aš vedęs.", translation: "Да, я женат.", source: "tatoeba:9937260" }
+  - { text: "Ar Tomas vedęs?", translation: "Том женат?", source: "tatoeba:11633069" }
+  - { text: "Aš esu išsiskyręs.", translation: "Я разведён.", source: "tatoeba:10698647" }
+  - { text: "Aš buvau vedęs.", translation: "Я был женат.", source: "tatoeba:12420430" }
+  - { text: "Deja, jis vedęs.", translation: "Увы, он женат.", source: "tatoeba:13292666" }
+exercises:
+  - type: cloze
+    text: "Ar tu ___, Tomai?"
+    answer: "vedęs"
+    hint: "женат"
+    translation: "Ты женат, Том?"
+  - type: cloze
+    text: "Mano sesuo ___."
+    answer: "ištekėjusi"
+    hint: "замужем"
+    translation: "Моя сестра замужем."
+  - type: cloze
+    text: "Jis ___, neturi žmonos."
+    answer: "nevedęs"
+    hint: "не женат"
+    translation: "Он не женат, у него нет жены."
+  - type: cloze
+    text: "Ji ___, jos buvęs vyras gyvena Kaune."
+    answer: "išsiskyrusi"
+    hint: "разведена"
+    translation: "Она разведена, её бывший муж живёт в Каунасе."
+  - type: cloze
+    text: "Aš esu ___ Kaune."
+    answer: "gimęs"
+    hint: "родился (мужчина)"
+    translation: "Я родился в Каунасе."
+  - type: cloze
+    text: "Ji yra ___ Vilniuje."
+    answer: "gimusi"
+    hint: "родилась"
+    translation: "Она родилась в Вильнюсе."
+  - type: cloze
+    text: "Mano tėvai ___ jau trisdešimt metų."
+    answer: "vedę"
+    hint: "женаты (о паре)"
+    translation: "Мои родители женаты уже тридцать лет."
+  - type: cloze
+    text: "Mano senelė yra ___."
+    answer: "našlė"
+    hint: "вдова"
+    translation: "Моя бабушка — вдова."

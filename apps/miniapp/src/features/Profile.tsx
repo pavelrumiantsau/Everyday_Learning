@@ -132,9 +132,25 @@ function Screen({ close }: { close: () => void }) {
         <p className="hint">Загрузка…</p>
       )}
       {saved && <div className="toast">{saved}</div>}
+      <Sources />
       <div className="spacer" />
       <button className="secondary center-text" onClick={close}>На главную</button>
     </main>
+  );
+}
+
+/** Attribution required by the licences of the material (NOTICE.md in the repository). */
+function Sources() {
+  return (
+    <details className="sources">
+      <summary className="hint small">Источники и лицензии</summary>
+      <ul className="hint small">
+        <li>Примеры предложений и их переводы — <a href="https://tatoeba.org" target="_blank" rel="noreferrer">Tatoeba</a>, CC BY 2.0 FR.</li>
+        <li>Ударения в литовских словах — <a href="https://en.wiktionary.org" target="_blank" rel="noreferrer">English Wiktionary</a>, CC BY-SA 4.0.</li>
+        <li>Подбор слов — частотные списки FrequencyWords (Hermit Dave), CC BY-SA 4.0.</li>
+        <li>Объяснения, упражнения и тексты — Everyday Learning, CC BY-SA 4.0; код — MIT.</li>
+      </ul>
+    </details>
   );
 }
 

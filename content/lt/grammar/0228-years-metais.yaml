@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u13): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0228
+cefr: A2
+order: 228
+track: foundation
+title: "Годы: 1990 metais, devyniasdešimtaisiais; šiais, kitais metais, pernai"
+explanation:
+  ru: |
+    **На письме** год пишут цифрами: *1990 m.* (= *metais* — в 1990 году). В анкетах, письмах и на экзамене — так.
+
+    **Вслух** последнее число года — **порядковое**, в особой форме на **-aisiais** (как русское «в девяносто втором»):
+    - 1990 → tūkstantis devyni šimtai **devyniasdešimtaisiais** (metais)
+    - 1992 → tūkstantis devyni šimtai devyniasdešimt **antraisiais**
+    - 2026 → du tūkstančiai dvidešimt **šeštaisiais**
+    - окончания: pirm**aisiais**, antr**aisiais**, treči**aisiais**, ketvirt**aisiais**, penkt**aisiais**, šešt**aisiais**, septint**aisiais**, aštunt**aisiais**, devint**aisiais**, dešimt**aisiais**… dvidešimt**aisiais**, trisdešimt**aisiais**
+
+    Говорить так сложно и самим литовцам — достаточно **узнавать** на слух. Сами пишите цифрами.
+
+    **Без чисел:**
+    - **šiais metais** — в этом году, **kitais metais** — в следующем году, **pernai** — в прошлом году
+    - **kiekvienais metais** — каждый год
+comparison:
+  ru: |
+    Как в русском: «в девяносто втором году» — последнее слово порядковое. По-литовски оно ещё и в «определённой» форме: *antraisiais*, а не *antrais*.
+examples:
+  - { text: "Mano senelis gimė 1920 metais.", translation: "Мой дед родился в 1920 году.", source: "tatoeba:13443498" }
+  - { text: "Džonas Lenonas gimė 1940 metais.", translation: "Джон Леннон родился в 1940 году.", source: "tatoeba:13846359" }
+  - { text: "Tai buvo aštuoniasdešimtaisiais.", translation: "Это было в восьмидесятые.", source: "tatoeba:13850154" }
+  - { text: "Šiais metais aš nenoriu švęsti savo gimtadienio.", translation: "В этом году я не хочу праздновать свой день рождения.", source: "tatoeba:12371924" }
+  - { text: "Ji kiekvienais metais šventė savo gimtadienį.", translation: "Она каждый год праздновала свой день рождения.", source: "tatoeba:12788360" }
+exercises:
+  - type: cloze
+    text: "Mano senelis gimė 1950 ___."
+    answer: "metais"
+    translation: "Мой дед родился в 1950 году."
+  - type: cloze
+    text: "Gimiau tūkstantis devyni šimtai devyniasdešimt ___."
+    answer: "antraisiais"
+    hint: "2"
+    translation: "Я родился в 1992 году."
+  - type: cloze
+    text: "Mes susipažinome du tūkstančiai ___."
+    answer: "dešimtaisiais"
+    hint: "2010"
+    translation: "Мы познакомились в 2010 году."
+  - type: cloze
+    text: "Jis gimė tūkstantis devyni šimtai aštuoniasdešimt ___."
+    answer: "penktaisiais"
+    hint: "1985"
+    translation: "Он родился в 1985 году."
+  - type: cloze
+    text: "___ metais aš važiuoju į Ispaniją."
+    answer: "šiais"
+    hint: "в этом году"
+    translation: "В этом году я еду в Испанию."
+  - type: cloze
+    text: "___ metais noriu laikyti egzaminą."
+    answer: "kitais"
+    hint: "в следующем году"
+    translation: "В следующем году хочу сдать экзамен."
+  - type: cloze
+    text: "___ aš buvau Paryžiuje."
+    answer: "pernai"
+    hint: "в прошлом году"
+    translation: "В прошлом году я был в Париже."
+  - type: cloze
+    text: "___ metais mes važiuojame prie jūros."
+    answer: "kiekvienais"
+    hint: "каждый год"
+    translation: "Каждый год мы ездим на море."

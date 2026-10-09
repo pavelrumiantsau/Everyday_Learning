@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u15): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0233
+cefr: A2
+order: 233
+track: foundation
+title: "Будущее время: būsiu, dirbsiu, eisiu, grįšiu"
+explanation:
+  ru: |
+    Будущее время строится просто: от инфинитива убираем *-ti*, добавляем **-s-** и окончание:
+    - aš **-siu**, tu **-si**, jis/ji **-s**, mes **-sime**, jūs **-site**, jie/jos **-s**
+    - dirbti → dirb**siu**, dirb**si**, dirb**s**, dirb**sime**, dirb**site**, dirb**s**
+    - eiti → **eisiu**, eisi, eis; važiuoti → **važiuosiu**; rašyti → **rašysiu**
+
+    **Исключения:**
+    - *būti* → būsiu, būsi, но **bus** (он будет — короткое *u*)
+    - если основа кончается на *ž* или *š*, *s* сливается в **š**: grįžti → **grįšiu**, grįš; nešti → **nešiu**, neš
+    - погода: *lyti* → **lis** (будет дождь), *snigti* → **snigs**
+
+    **Возвратные:** *-siuosi, -siesi, -sis*: *mokytis → mokysiuosi*, *keltis → kelsiuosi*.
+
+    Как и по-русски, о ближайших планах можно говорить и настоящим временем: *Rytoj einu į kiną.*
+comparison:
+  ru: |
+    Русское «буду работать» / «пойду» — одно слово: *dirbsiu, eisiu*. «Будет дождь» — тоже одним словом: *lis*.
+examples:
+  - { text: "Rytoj eisiu į mokyklą.", translation: "Завтра я пойду в школу.", source: "tatoeba:1501577" }
+  - { text: "Rytoj aš būsiu užimtas.", translation: "Завтра я буду занят.", source: "tatoeba:11531821" }
+  - { text: "Vakare lis.", translation: "Вечером дождь будет.", source: "tatoeba:13743754" }
+  - { text: "Tai bus.", translation: "Это будет.", source: "tatoeba:12599662" }
+  - { text: "Vakare aš mokysiuosi.", translation: "Вечером я буду заниматься.", source: "tatoeba:10767888" }
+exercises:
+  - type: cloze
+    text: "Rytoj aš ___ namie."
+    answer: "būsiu"
+    hint: "būti"
+    translation: "Завтра я буду дома."
+  - type: cloze
+    text: "Kitais metais mes ___ į Ispaniją."
+    answer: "važiuosime"
+    also: ["važiuosim"]
+    hint: "važiuoti"
+    translation: "В следующем году мы поедем в Испанию."
+  - type: cloze
+    text: "Jis ___ vėlai."
+    answer: "grįš"
+    hint: "grįžti"
+    translation: "Он вернётся поздно."
+  - type: cloze
+    text: "Vakare ___."
+    answer: "lis"
+    hint: "lyti"
+    translation: "Вечером будет дождь."
+  - type: cloze
+    text: "Ar tu ___ rytoj?"
+    answer: "dirbsi"
+    hint: "dirbti"
+    translation: "Ты будешь работать завтра?"
+  - type: cloze
+    text: "Aš tau ___ vakare."
+    answer: "skambinsiu"
+    hint: "skambinti"
+    translation: "Я позвоню тебе вечером."
+  - type: cloze
+    text: "Ar jūs ___ egzaminą birželį?"
+    answer: "laikysite"
+    hint: "laikyti"
+    translation: "Вы будете сдавать экзамен в июне?"
+  - type: cloze
+    text: "Tai ___ gerai."
+    answer: "bus"
+    hint: "būti"
+    translation: "Это будет хорошо."

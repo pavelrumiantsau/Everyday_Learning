@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u22): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0248
+cefr: A2
+order: 248
+track: foundation
+title: "Прилагательные во всех падежах: naujame name, su geru draugu"
+explanation:
+  ru: |
+    Прилагательное стоит в том же роде, числе и падеже, что и существительное. Образцы (им. — род. — дат. — вин. — твор. — мест.):
+
+    **geras** (м. р.): gero — geram — gerą — geru — gerame; мн. ч.: geri — gerų — geriems — gerus — gerais — geruose
+    **gera** (ж. р.): geros — gerai — gerą — gera — geroje; мн. ч.: geros — gerų — geroms — geras — geromis — gerose
+
+    **gražus**: gražaus — gražiam — gražų — gražiu — gražiame; **graži**: gražios — gražiai — gražią — gražia — gražioje
+    **didelis**: didelio — dideliam — didelį — dideliu — dideliame; **didelė**: didelės — didelei — didelę — didele — didelėje
+
+    Ориентир: окончание прилагательного часто «рифмуется» с существительным: *naujame name, didelėje parduotuvėje, su naujais batais*.
+comparison:
+  ru: |
+    Как в русском: «в новом доме», «с хорошим другом» — прилагательное повторяет падеж. Окончания отличаются, но система та же.
+examples:
+  - { text: "Aš turiu naują knygą.", translation: "У меня есть новая книга.", source: "tatoeba:12901043" }
+  - { text: "Aš su naujais batais.", translation: "Я в новых ботинках.", source: "tatoeba:12792458" }
+  - { text: "Aš tapau nauju žmogumi.", translation: "Я стал новым человеком.", source: "tatoeba:10674111" }
+  - { text: "Aš išmokau naują žodį.", translation: "Я выучил новое слово.", source: "tatoeba:13336155" }
+exercises:
+  - type: cloze
+    text: "Gyvenu ___ name."
+    answer: "naujame"
+    hint: "naujas"
+    translation: "Живу в новом доме."
+  - type: cloze
+    text: "Ji dirba ___ parduotuvėje."
+    answer: "didelėje"
+    hint: "didelis, ж. р."
+    translation: "Она работает в большом магазине."
+  - type: cloze
+    text: "Einu į kiną su ___ draugu."
+    answer: "geru"
+    hint: "geras"
+    translation: "Иду в кино с хорошим другом."
+  - type: cloze
+    text: "Nusipirkau ___ suknelę."
+    answer: "gražią"
+    hint: "gražus, ж. р."
+    translation: "Я купила красивое платье."
+  - type: cloze
+    text: "Tai dovana ___ draugui."
+    answer: "geram"
+    hint: "geras"
+    translation: "Это подарок хорошему другу."
+  - type: cloze
+    text: "Nėra ___ duonos."
+    answer: "šviežios"
+    hint: "šviežias, ж. р."
+    translation: "Нет свежего хлеба."
+  - type: cloze
+    text: "Mes gyvename ___ miestuose."
+    answer: "dideliuose"
+    hint: "didelis, мн. ч."
+    translation: "Мы живём в больших городах."
+  - type: cloze
+    text: "Kalbu su ___ žmonėmis."
+    answer: "maloniais"
+    hint: "malonus, мн. ч."
+    translation: "Говорю с приятными людьми."

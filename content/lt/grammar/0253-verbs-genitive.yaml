@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u24): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0253
+cefr: A2
+order: 253
+track: foundation
+title: "Глаголы с родительным падежом: laukti, ieškoti, bijoti, klausti, prašyti"
+explanation:
+  ru: |
+    Некоторые глаголы требуют **родительного падежа**, даже без отрицания. Для русскоязычных это ловушка: по-русски часто винительный.
+
+    - **laukti** — ждать: *laukiu autobuso, laukiu tavęs*
+    - **ieškoti** — искать: *ieškau darbo* (по-русски «ищу работу»)
+    - **bijoti** — бояться: *bijau šunų*
+    - **klausti** — спрашивать кого: *paklausk mokytojo* (по-русски «спроси учителя»)
+    - **prašyti** — просить чего / у кого: *prašau pagalbos, paprašė jo pinigų*
+    - **mokytis** — учить (язык, предмет): *mokausi lietuvių kalbos*
+    - **reikėti** — быть нужным: *man reikia pagalbos*
+    - **trūkti** — не хватать: *man trūksta laiko*
+    - **linkėti** — желать: *linkiu sėkmės*
+
+    Вопрос к ним — ***Ko?*** — *Ko lauki? Ko ieškai? Ko bijai?*
+comparison:
+  ru: |
+    Совпадает с русским только частично («жду автобуса», «боюсь собак»). Запомните отличия: *ieškoti darbo* («искать работу»), *klausti mokytojo* («спросить учителя»), *mokytis kalbos* («учить язык»).
+examples:
+  - { text: "Aš laukiu jos.", translation: "Я жду её.", source: "tatoeba:12289295" }
+  - { text: "Ar ieškai darbo?", translation: "Ищешь работу?", source: "tatoeba:12525631" }
+  - { text: "Aš bijau vorų.", translation: "Я боюсь пауков.", source: "tatoeba:1665778" }
+  - { text: "Ji paprašė jo pagalbos.", translation: "Она попросила его о помощи.", source: "tatoeba:12740774" }
+  - { text: "Tomas ieško paso.", translation: "Том ищет паспорт.", source: "tatoeba:12171367" }
+exercises:
+  - type: cloze
+    text: "Aš laukiu ___."
+    answer: "autobuso"
+    hint: "autobusas"
+    translation: "Я жду автобус."
+  - type: cloze
+    text: "Ji ieško ___."
+    answer: "darbo"
+    hint: "darbas"
+    translation: "Она ищет работу."
+  - type: cloze
+    text: "Vaikas bijo ___."
+    answer: "šuns"
+    hint: "šuo"
+    translation: "Ребёнок боится собаки."
+  - type: cloze
+    text: "Paklausk ___, kur stotis."
+    answer: "mokytojo"
+    hint: "mokytojas"
+    translation: "Спроси учителя, где вокзал."
+  - type: cloze
+    text: "Jis paprašė ___."
+    answer: "pagalbos"
+    hint: "pagalba"
+    translation: "Он попросил помощи."
+  - type: cloze
+    text: "Mokausi lietuvių ___."
+    answer: "kalbos"
+    hint: "kalba"
+    translation: "Учу литовский язык."
+  - type: cloze
+    text: "Man trūksta ___."
+    answer: "laiko"
+    hint: "laikas"
+    translation: "Мне не хватает времени."
+  - type: cloze
+    text: "Ko tu ___?"
+    answer: "ieškai"
+    hint: "ieškoti, ты"
+    translation: "Что ты ищешь?"

@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u20): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0243
+cefr: A2
+order: 243
+track: foundation
+title: "Чтобы: noriu, kad tu ateitum; patariu, kad…"
+explanation:
+  ru: |
+    **Kad** значит и «что», и «чтобы». Разницу показывает глагол:
+    - **kad + обычное время** = «что»: *Žinau, kad tu grįši.* — Знаю, что ты вернёшься.
+    - **kad + условное наклонение** = «чтобы»: *Noriu, kad tu ateitum.* — Хочу, чтобы ты пришёл.
+
+    После слов «хочу, прошу, советую, желаю» — условное:
+    - *Prašau, kad paskambintumėte rytoj.* — Прошу, чтобы вы позвонили завтра.
+    - *Gydytojas pataria, kad daugiau vaikščiočiau.* — Врач советует, чтобы я больше ходил пешком.
+    - *Linkiu, kad greitai pasveiktum.* — Желаю, чтобы ты быстро выздоровел.
+
+    **Цель** («чтобы»): *Einu į parduotuvę, kad nupirkčiau duonos.* Если лицо то же, проще с инфинитивом: *Einu į parduotuvę nupirkti duonos.*
+comparison:
+  ru: |
+    Как русское «чтобы» + прошедшее время («чтобы ты пришёл»): по-литовски *kad* + условное наклонение — *kad tu ateitum*.
+examples:
+  - { text: "Nenoriu, kad tu ateitum.", translation: "Я не хочу, чтобы ты приходила.", source: "tatoeba:3946397" }
+  - { text: "Aš norėčiau, kad tu būtum čia.", translation: "Я хотел бы, чтобы ты была здесь.", source: "tatoeba:9626169" }
+  - { text: "Aš žinau, kad tu grįši.", translation: "Я знаю, что ты вернёшься.", source: "tatoeba:10752901" }
+  - { text: "Aš žinau, kad jis išeis.", translation: "Я знаю, что он уйдёт.", source: "tatoeba:10723099" }
+exercises:
+  - type: cloze
+    text: "Noriu, kad tu ___."
+    answer: "ateitum"
+    hint: "ateiti"
+    translation: "Хочу, чтобы ты пришёл."
+  - type: cloze
+    text: "Gydytojas pataria, kad aš daugiau ___."
+    answer: "vaikščiočiau"
+    hint: "vaikščioti"
+    translation: "Врач советует, чтобы я больше ходил пешком."
+  - type: cloze
+    text: "Prašau, kad jūs ___ rytoj."
+    answer: "paskambintumėte"
+    hint: "paskambinti"
+    translation: "Прошу, чтобы вы позвонили завтра."
+  - type: cloze
+    text: "Mama nori, kad vaikai anksti ___."
+    answer: "gultų"
+    hint: "gulti"
+    translation: "Мама хочет, чтобы дети рано ложились спать."
+  - type: cloze
+    text: "Žinau, ___ tu grįši."
+    answer: "kad"
+    translation: "Знаю, что ты вернёшься."
+  - type: cloze
+    text: "Linkiu, kad greitai ___."
+    answer: "pasveiktum"
+    hint: "pasveikti, ты"
+    translation: "Желаю, чтобы ты быстро выздоровел."
+  - type: cloze
+    text: "Einu į parduotuvę, kad ___ duonos."
+    answer: "nupirkčiau"
+    hint: "nupirkti, я"
+    translation: "Иду в магазин, чтобы купить хлеба."
+  - type: cloze
+    text: "Norėčiau, kad tu ___ čia."
+    answer: "būtum"
+    hint: "būti"
+    translation: "Я хотел бы, чтобы ты был здесь."

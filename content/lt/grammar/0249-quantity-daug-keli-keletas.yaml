@@ -1,0 +1,69 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u23): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0249
+cefr: A2
+order: 249
+track: foundation
+title: "Сколько: daug, mažai, kiek, keli, keletas; kilogramas obuolių"
+explanation:
+  ru: |
+    После слов количества — **родительный падеж**:
+    - **daug** — много, **mažai** — мало, **kiek?** — сколько?, **šiek tiek / truputį** — немного, **per daug** — слишком много, **daugiau** — больше
+    - считаемое — мн. ч.: *daug žmonių, mažai knygų*; несчитаемое — ед. ч.: *daug laiko, šiek tiek cukraus*
+    - меры: *kilogramas obuolių, litras pieno, pakelis arbatos, butelis vandens, gabalas pyrago*
+
+    **Ловушка — keli и keletas** (несколько):
+    - **keli / kelios** — как прилагательное, в том же падеже: *keli draugai*, *kelios knygos*, *su keliais draugais*
+    - **keletas** — как существительное + родительный: *keletas žmonių*, вин. п.: *turiu **keletą** klausimų*
+comparison:
+  ru: |
+    Как в русском «много людей», «литр молока». Особенность — *keli*: по-русски «несколько друзей» (род. п.), а по-литовски *keli draugai* (им. п.).
+examples:
+  - { text: "Parke daug žmonių.", translation: "В парке много людей.", source: "tatoeba:3263602" }
+  - { text: "Aš turiu daug knygų.", translation: "У меня много книг.", source: "tatoeba:3955023" }
+  - { text: "Tai daug laiko atima.", translation: "Это отнимает много времени.", source: "tatoeba:12570849" }
+  - { text: "Ar per daug pinigų?", translation: "Слишком много денег?", source: "tatoeba:11582181" }
+  - { text: "Jį daug kartų įspėjo.", translation: "Его много раз предупреждали.", source: "tatoeba:13098663" }
+exercises:
+  - type: cloze
+    text: "Parke daug ___."
+    answer: "žmonių"
+    hint: "žmonės"
+    translation: "В парке много людей."
+  - type: cloze
+    text: "Aš turiu mažai ___."
+    answer: "laiko"
+    hint: "laikas"
+    translation: "У меня мало времени."
+  - type: cloze
+    text: "Nupirk kilogramą ___."
+    answer: "obuolių"
+    hint: "obuoliai"
+    translation: "Купи килограмм яблок."
+  - type: cloze
+    text: "Kiek ___ tu turi?"
+    answer: "brolių"
+    hint: "broliai"
+    translation: "Сколько у тебя братьев?"
+  - type: cloze
+    text: "Įdėk šiek tiek ___."
+    answer: "cukraus"
+    hint: "cukrus"
+    translation: "Положи немного сахара."
+  - type: cloze
+    text: "Atėjo ___ draugai."
+    answer: "keli"
+    hint: "несколько, м. р."
+    translation: "Пришли несколько друзей."
+  - type: cloze
+    text: "Turiu ___ klausimų."
+    answer: "keletą"
+    hint: "keletas, вин."
+    translation: "У меня есть несколько вопросов."
+  - type: cloze
+    text: "Čia per daug ___."
+    answer: "triukšmo"
+    hint: "triukšmas"
+    translation: "Здесь слишком много шума."

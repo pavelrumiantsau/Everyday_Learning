@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u22): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0247
+cefr: A2
+order: 247
+track: foundation
+title: "Числа в падежах: dviejų, dviem, trims; dveji marškiniai, treji metai"
+explanation:
+  ru: |
+    **Числа 2–9 склоняются**, и существительное стоит в том же падеже:
+    - **du / dvi**: dviejų — dviem — du / dvi — dviem — dviejuose / dviejose: *dviejų vaikų tėvas, su dviem draugais*
+    - **trys**: trijų — trims — tris — trimis — trijuose: *iš trijų miestų, trims dienoms*
+    - **keturi / keturios**: keturių — keturiems / keturioms — keturis / keturias — keturiais / keturiomis
+    - так же *penki, šeši… devyni*: penkių, penkiems, penkis…
+
+    С **10 и больше** существительное — в родительном мн. ч.: *dešimt eurų, dvidešimt minučių*. Сами *dešimt, dvidešimt…* в других падежах тоже меняются (*su dvidešimčia žmonių*), но на A2 нужны в основном именительный и винительный: *Kainuoja dvidešimt eurų.*
+
+    **Собирательные числительные** — для слов только во множественном числе (*metai, marškiniai, kelnės, durys*):
+    - **vieneri, dveji, treji, ketveri, penkeri, šešeri, septyneri, aštuoneri, devyneri** (ж. р. *vienerios, dvejos, trejos…*)
+    - *dveji marškiniai, trejos durys, penkeri metai*; вин. п.: *nusipirkau dvejus marškinius, gyvenu čia trejus metus*
+    - для возраста можно и так, и обычными числами: *Man penkeri metai = Man penki metai.*
+comparison:
+  ru: |
+    Как русские «двух, двум, двумя»: *dviejų, dviem*. Собирательные похожи на русские «двое, трое», но обязательны для слов без единственного числа: «двое брюк» — *dvejos kelnės*.
+examples:
+  - { text: "Jis dviejų sūnų tėvas.", translation: "Он отец двоих сыновей.", source: "tatoeba:13562317" }
+  - { text: "Jis dviejų vaikų tėvas.", translation: "Он отец двоих детей.", source: "tatoeba:11983256" }
+  - { text: "Užteks trims dienoms.", translation: "Хватит на три дня.", source: "tatoeba:11852335" }
+  - { text: "Aš čia jau beveik treji metai.", translation: "Я здесь уже почти три года.", source: "tatoeba:10214460" }
+  - { text: "Man šešiasdešimt vieneri metai.", translation: "Мне шестьдесят один год.", source: "tatoeba:10323241" }
+exercises:
+  - type: cloze
+    text: "Jis ___ vaikų tėvas."
+    answer: "dviejų"
+    hint: "du, род."
+    translation: "Он отец двоих детей."
+  - type: cloze
+    text: "Susitikau su ___ draugais."
+    answer: "dviem"
+    hint: "du, твор."
+    translation: "Я встретился с двумя друзьями."
+  - type: cloze
+    text: "Jis gyveno ___ miestuose."
+    answer: "trijuose"
+    hint: "trys, мест."
+    translation: "Он жил в трёх городах."
+  - type: cloze
+    text: "Duok saldainių ___ vaikams."
+    answer: "keturiems"
+    hint: "keturi, дат."
+    translation: "Дай конфет четырём детям."
+  - type: cloze
+    text: "Nusipirkau ___ marškinius."
+    answer: "dvejus"
+    hint: "2, собир., вин."
+    translation: "Я купил две рубашки."
+  - type: cloze
+    text: "Aš čia gyvenu jau ___ metus."
+    answer: "trejus"
+    hint: "3, собир., вин."
+    translation: "Я живу здесь уже три года."
+  - type: cloze
+    text: "Man trisdešimt ___ metai."
+    answer: "vieneri"
+    hint: "1"
+    translation: "Мне тридцать один год."
+  - type: cloze
+    text: "Bilietas kainuoja dvidešimt ___."
+    answer: "eurų"
+    hint: "euras"
+    translation: "Билет стоит двадцать евро."

@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u19): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0241
+cefr: A2
+order: 241
+track: foundation
+title: "Личные местоимения во всех падежах: manęs, man, mane, manimi"
+explanation:
+  ru: |
+    Полная таблица (им. — род. — дат. — вин. — твор. — мест.):
+    - **aš**: manęs — man — mane — manimi — manyje
+    - **tu**: tavęs — tau — tave — tavimi — tavyje
+    - **jis**: jo — jam — jį — juo — jame; **ji**: jos — jai — ją — ja — joje
+    - **mes**: mūsų — mums — mus — mumis — mumyse
+    - **jūs**: jūsų — jums — jus — jumis — jumyse
+    - **jie**: jų — jiems — juos — jais — juose; **jos**: jų — joms — jas — jomis — jose
+
+    С предлогами:
+    - **be** + род.: *be manęs* — без меня
+    - **pas** + вин.: *pas mane* — ко мне, у меня
+    - **apie** + вин.: *apie tave* — о тебе
+    - **su** + твор.: *su manimi, su juo, su ja* — со мной, с ним, с ней
+
+    Не путайте: «мой, твой» — *mano, tavo* (не меняются), а «меня, тебя» в родительном — *manęs, tavęs*.
+comparison:
+  ru: |
+    Почти как русские «меня, мне, мной»: *manęs, man, manimi*. «Со мной» — *su manimi*, «ко мне» — *pas mane* (винительный, как «к» + «меня»).
+examples:
+  - { text: "Eik be manęs.", translation: "Иди без меня.", source: "tatoeba:10754946" }
+  - { text: "Tu apie mane?", translation: "Ты обо мне?", source: "tatoeba:10876878" }
+  - { text: "Tai pas mane.", translation: "Это ко мне.", source: "tatoeba:13332606" }
+  - { text: "Mes su tavimi.", translation: "Мы с тобой.", source: "tatoeba:10761017" }
+  - { text: "Šok su juo!", translation: "Танцуй с ним!", source: "tatoeba:10847372" }
+exercises:
+  - type: cloze
+    text: "Eik su ___."
+    answer: "manimi"
+    hint: "aš"
+    translation: "Иди со мной."
+  - type: cloze
+    text: "Ar galiu ateiti pas ___?"
+    answer: "tave"
+    hint: "tu"
+    translation: "Можно прийти к тебе?"
+  - type: cloze
+    text: "Mes kalbame apie ___."
+    answer: "jį"
+    hint: "jis"
+    translation: "Мы говорим о нём."
+  - type: cloze
+    text: "Jis gyvena su ___."
+    answer: "ja"
+    hint: "ji"
+    translation: "Он живёт с ней."
+  - type: cloze
+    text: "Be ___ negaliu."
+    answer: "tavęs"
+    hint: "tu"
+    translation: "Без тебя не могу."
+  - type: cloze
+    text: "Ar eisite su ___?"
+    answer: "mumis"
+    hint: "mes"
+    translation: "Вы пойдёте с нами?"
+  - type: cloze
+    text: "Aš galvoju apie ___."
+    answer: "juos"
+    hint: "jie"
+    translation: "Я думаю о них."
+  - type: cloze
+    text: "Ačiū ___!"
+    answer: "jums"
+    hint: "jūs"
+    translation: "Спасибо вам!"

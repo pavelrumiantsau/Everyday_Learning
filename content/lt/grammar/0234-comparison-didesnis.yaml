@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u15): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0234
+cefr: A2
+order: 234
+track: foundation
+title: "Сравнение: didesnis, geriausias; už mane, negu aš; geriau, šilčiau"
+explanation:
+  ru: |
+    **Больше, лучше** — прилагательное на **-esnis** (м. р.) / **-esnė** (ж. р.):
+    - didelis → **didesnis**, geras → **geresnis**, gražus → **gražesnis**, jaunas → **jaunesnis**
+    - о возрасте людей: **vyresnis** — старше, **jaunesnis** — моложе
+
+    **Самый** — **-iausias** / **-iausia**, часто с *pats / pati*:
+    - geras → **geriausias**, gražus → **gražiausias**
+    - *t → č, d → dž*: aukštas → **aukščiausias**, didelis → **didžiausias**
+    - *pats geriausias* — самый лучший
+
+    **Чем кто-то:**
+    - **už** + винительный: *vyresnis **už mane***, *didesnis už Kauną*
+    - или **negu / nei** + именительный: *vyresnis **negu aš***
+
+    **Наречия:** gerai → **geriau** → geriausiai; daug → **daugiau**; mažai → **mažiau**; šilta → **šilčiau** (*Šiandien šilčiau nei vakar.*)
+comparison:
+  ru: |
+    Похоже на русское «-ее» и «-ейший»: *didesnis* — «больший», *didžiausias* — «величайший». Новое — *už + вин. п.*: *vyresnis už mane* = «старше меня».
+examples:
+  - { text: "Aš jaunesnis už jus.", translation: "Я моложе вас.", source: "tatoeba:10539642" }
+  - { text: "Tu vyresnis už Tomą?", translation: "Ты старше Тома?", source: "tatoeba:11974908" }
+  - { text: "Tai geriausias alus.", translation: "Это лучшее пиво.", source: "tatoeba:13089720" }
+  - { text: "Kuris pats geriausias?", translation: "Который самый лучший?", source: "tatoeba:11918100" }
+  - { text: "Koks yra geresnis?", translation: "Какой лучше?", source: "tatoeba:12285955" }
+exercises:
+  - type: cloze
+    text: "Mano brolis ___ už mane."
+    answer: "jaunesnis"
+    hint: "jaunas, сравн."
+    translation: "Мой брат моложе меня."
+  - type: cloze
+    text: "Vilnius ___ už Kauną."
+    answer: "didesnis"
+    hint: "didelis, сравн."
+    translation: "Вильнюс больше Каунаса."
+  - type: cloze
+    text: "Tai ___ kavinė mieste."
+    answer: "geriausia"
+    hint: "geras, превосх., ж. р."
+    translation: "Это лучшее кафе в городе."
+  - type: cloze
+    text: "Šiandien ___ nei vakar."
+    answer: "šilčiau"
+    hint: "šilta, сравн."
+    translation: "Сегодня теплее, чем вчера."
+  - type: cloze
+    text: "Jis kalba lietuviškai ___ už mane."
+    answer: "geriau"
+    hint: "gerai, сравн."
+    translation: "Он говорит по-литовски лучше меня."
+  - type: cloze
+    text: "Ši suknelė ___ negu ta."
+    answer: "gražesnė"
+    hint: "gražus, сравн., ж. р."
+    translation: "Это платье красивее, чем то."
+  - type: cloze
+    text: "Everestas – ___ kalnas pasaulyje."
+    answer: "aukščiausias"
+    hint: "aukštas, превосх."
+    translation: "Эверест — самая высокая гора в мире."
+  - type: cloze
+    text: "Ji jaunesnė ___ savo brolį."
+    answer: "už"
+    translation: "Она моложе своего брата."

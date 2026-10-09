@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u16): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0235
+cefr: A2
+order: 235
+track: foundation
+title: "Бывало, обычно раньше: dirbdavau, būdavo, eidavome"
+explanation:
+  ru: |
+    Когда в прошлом что-то **повторялось регулярно** («обычно», «бывало», «каждое лето»), литовцы используют особое время — **прошедшее многократное**.
+
+    Строится от инфинитива без *-ti* + **-davau, -davai, -davo, -davome, -davote, -davo**:
+    - dirbti → dirb**davau**, dirb**davai**, dirb**davo**, dirb**davome**, dirb**davote**
+    - būti → **būdavau**, būdavo; eiti → **eidavau**; važiuoti → **važiuodavome**
+
+    **Исключений нет** — форма всегда от инфинитива.
+
+    Сравните:
+    - *Vakar dirbau iki vėlumos.* — Вчера я работал допоздна (один раз).
+    - *Anksčiau dirb**davau** iki vėlumos.* — Раньше я (обычно) работал допоздна.
+
+    Рядом часто стоят: *anksčiau* (раньше), *vaikystėje* (в детстве), *dažnai* (часто), *kiekvieną vasarą* (каждое лето). Очень частое слово: ***būdavo*** — бывало.
+comparison:
+  ru: |
+    По-русски это «бывало», «обычно» + прошедшее время. По-литовски — одна форма: *eidavau* = «я, бывало, ходил / обычно ходил».
+examples:
+  - { text: "Anksčiau aš į studijas eidavau pėsčias.", translation: "Раньше я ходил на учёбу пешком.", source: "tatoeba:12568554" }
+  - { text: "Brolis grįždavo vėlai.", translation: "Брат возвращался поздно.", source: "tatoeba:6003245" }
+  - { text: "Žiemą aš dažnai išvažiuodavau slidinėti.", translation: "Зимой я часто уезжал кататься на лыжах.", source: "tatoeba:11331517" }
+  - { text: "Rudenį tai dažnai būdavo.", translation: "Это часто бывало осенью.", source: "tatoeba:12480884" }
+  - { text: "Taip būdavo, ir ne kartą.", translation: "Такое бывало, и не раз.", source: "tatoeba:13036594" }
+exercises:
+  - type: cloze
+    text: "Vaikystėje aš dažnai ___ pas senelius."
+    answer: "būdavau"
+    hint: "būti"
+    translation: "В детстве я часто бывал у бабушки с дедушкой."
+  - type: cloze
+    text: "Kiekvieną vasarą mes ___ prie jūros."
+    answer: "važiuodavome"
+    also: ["važiuodavom"]
+    hint: "važiuoti"
+    translation: "Каждое лето мы ездили на море."
+  - type: cloze
+    text: "Tėtis ___ vėlai."
+    answer: "grįždavo"
+    hint: "grįžti"
+    translation: "Папа (обычно) возвращался поздно."
+  - type: cloze
+    text: "Anksčiau aš ___ daug knygų."
+    answer: "skaitydavau"
+    hint: "skaityti"
+    translation: "Раньше я читал много книг."
+  - type: cloze
+    text: "Studentai ___ krepšinį."
+    answer: "žaisdavo"
+    hint: "žaisti"
+    translation: "Студенты (бывало) играли в баскетбол."
+  - type: cloze
+    text: "Ar tu ___ į kiną?"
+    answer: "eidavai"
+    hint: "eiti"
+    translation: "Ты (раньше) ходил в кино?"
+  - type: cloze
+    text: "Mes ___ kartu."
+    answer: "dirbdavome"
+    also: ["dirbdavom"]
+    hint: "dirbti"
+    translation: "Мы (бывало) работали вместе."
+  - type: cloze
+    text: "Senelė ___ pyragus."
+    answer: "kepdavo"
+    hint: "kepti"
+    translation: "Бабушка (обычно) пекла пироги."

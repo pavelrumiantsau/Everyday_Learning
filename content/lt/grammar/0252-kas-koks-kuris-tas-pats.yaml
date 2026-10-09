@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u24): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0252
+cefr: A2
+order: 252
+track: foundation
+title: "Kas, koks, kuris, tas, pats в падежах: ko, kam, su kuo; tą patį"
+explanation:
+  ru: |
+    **Kas?** (кто? что?) во всех падежах: **ko** — **kam** — **ką** — **kuo** — **kame**:
+    - *Ko tu nori? Kam skambini? Ką veiki? Su kuo eini? Apie ką kalbate?*
+
+    **Koks / kokia** (какой) и **kuris / kuri** (который) склоняются как прилагательные:
+    - koks: kokio — kokiam — kokį — kokiu — kokiame; kokia: kokios — kokiai — kokią — kokia — kokioje
+    - kuris: kurio — kuriam — kurį — kuriuo — kuriame; kuri: kurios — kuriai — kurią — kuria — kurioje
+    - *Kokią knygą skaitai? Kokiu autobusu važiuoji? Kuriame aukšte gyveni?*
+
+    **Tas / ta** (тот, та): to — tam — tą — tuo — tame; tos — tai — tą — ta — toje.
+    **Tas pats / ta pati** — тот же самый: *Mes darome tą patį.* — Мы делаем то же самое.
+    **Pats / pati** — сам, сама: *Daryk pats!*
+comparison:
+  ru: |
+    Как русские «кого, кому, с кем, о чём»: *ko, kam, su kuo, apie ką*. *Tas pats* — «тот же», *pats* — «сам», как в русском.
+examples:
+  - { text: "Ko tu nori?", translation: "Чего ты хочешь?", source: "tatoeba:8956764" }
+  - { text: "Mes darome tą patį.", translation: "Мы делаем то же самое.", source: "tatoeba:13374707" }
+  - { text: "Deja, visur tas pats.", translation: "К сожалению, везде одно и то же.", source: "tatoeba:14057443" }
+  - { text: "Kokią tu renkiesi?", translation: "Какую ты выбираешь?", source: "tatoeba:11945484" }
+  - { text: "Daryk pats.", translation: "Делай сам.", source: "tatoeba:10470341" }
+exercises:
+  - type: cloze
+    text: "___ tu skambini?"
+    answer: "kam"
+    hint: "кому"
+    translation: "Кому ты звонишь?"
+  - type: cloze
+    text: "Su ___ tu eini į kiną?"
+    answer: "kuo"
+    hint: "с кем"
+    translation: "С кем ты идёшь в кино?"
+  - type: cloze
+    text: "Apie ___ jūs kalbate?"
+    answer: "ką"
+    hint: "о чём"
+    translation: "О чём вы говорите?"
+  - type: cloze
+    text: "___ knygą skaitai?"
+    answer: "kokią"
+    hint: "какую"
+    translation: "Какую книгу читаешь?"
+  - type: cloze
+    text: "___ aukšte gyveni?"
+    answer: "kuriame"
+    hint: "на котором"
+    translation: "На каком этаже живёшь?"
+  - type: cloze
+    text: "Mes darome ___ patį."
+    answer: "tą"
+    hint: "то же самое"
+    translation: "Мы делаем то же самое."
+  - type: cloze
+    text: "Daryk ___!"
+    answer: "pats"
+    hint: "сам"
+    translation: "Делай сам!"
+  - type: cloze
+    text: "___ autobusu važiuoji?"
+    answer: "kokiu"
+    hint: "каким"
+    translation: "На каком автобусе едешь?"

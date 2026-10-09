@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u14): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0232
+cefr: A2
+order: 232
+track: foundation
+title: "Повелительное наклонение: eik, eikite, eikime; nedaryk; nesijaudink"
+explanation:
+  ru: |
+    Повторим: от инфинитива убираем *-ti* и добавляем:
+    - **-k** — ты: *eik, važiuok, uždaryk*
+    - **-kite** — вы: *eikite, važiuokite, uždarykite*
+    - **-kime** — давай(те), мы: *eikime, važiuokime, valgykime* (в разговоре коротко: *einam!*)
+
+    **Запрет** — *ne-* слитно: *nedaryk, neikite, nevažiuokime*.
+
+    **Возвратные** глаголы: *-kis* (ты), *-kitės* (вы): *praustis → prauskis, prauskitės*; *atsisėsti → atsisėsk, atsisėskite*. С отрицанием *-si-* уходит вперёд: *jaudintis → **nesijaudink*** — не волнуйся.
+
+    **Вежливо** — *prašom* / *prašau* + инфинитив: *Prašom užeiti.* — Заходите, пожалуйста. *Prašau palaukti.* — Подождите, пожалуйста.
+
+    Исключения: *būk, duok, bėk*.
+comparison:
+  ru: |
+    Форма *-kime* — как русское «пойдём(те)», «давайте поедем»: *eikime, važiuokime*. Запрет как в русском: *nedaryk* — «не делай».
+examples:
+  - { text: "Eikime namo!", translation: "Пошли домой!", source: "tatoeba:11992651" }
+  - { text: "Nekalbėk.", translation: "Помалкивай.", source: "tatoeba:6742562" }
+  - { text: "Nekalbėkite.", translation: "Помалкивайте.", source: "tatoeba:10255066" }
+  - { text: "Neik viena.", translation: "Не выходи одна.", source: "tatoeba:11847980" }
+  - { text: "Būk šalia.", translation: "Будь рядом.", source: "tatoeba:12141309" }
+exercises:
+  - type: cloze
+    text: "___ namo!"
+    answer: "eikime"
+    hint: "eiti, мы"
+    translation: "Пойдём домой!"
+  - type: cloze
+    text: "___ lėčiau!"
+    answer: "važiuok"
+    hint: "važiuoti, ты"
+    translation: "Езжай медленнее!"
+  - type: cloze
+    text: "___, prašau!"
+    answer: "atsisėskite"
+    hint: "atsisėsti, вы"
+    translation: "Садитесь, пожалуйста!"
+  - type: cloze
+    text: "___, viskas gerai!"
+    answer: "nesijaudink"
+    hint: "jaudintis, ты, с отрицанием"
+    translation: "Не волнуйся, всё хорошо!"
+  - type: cloze
+    text: "___ langą, šalta."
+    answer: "uždaryk"
+    hint: "uždaryti, ты"
+    translation: "Закрой окно, холодно."
+  - type: cloze
+    text: "___ kartu!"
+    answer: "valgykime"
+    hint: "valgyti, мы"
+    translation: "Давайте поедим вместе!"
+  - type: cloze
+    text: "Prašom ___."
+    answer: "užeiti"
+    hint: "užeiti"
+    translation: "Заходите, пожалуйста."
+  - type: cloze
+    text: "___ ten, ten pavojinga!"
+    answer: "neikite"
+    hint: "eiti, вы, с отрицанием"
+    translation: "Не ходите туда, там опасно!"

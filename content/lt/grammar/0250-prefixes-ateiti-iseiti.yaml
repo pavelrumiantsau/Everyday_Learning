@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u18): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0250
+cefr: A2
+order: 250
+track: foundation
+title: "Приставки: ateiti, išeiti, įeiti, nueiti, pereiti; padaryti, nupirkti"
+explanation:
+  ru: |
+    Приставки меняют смысл глагола, как в русском. **С глаголами движения** (*eiti, važiuoti, bėgti…*):
+    - **at-** — при-: *ateiti* — прийти, *atvažiuoti* — приехать
+    - **iš-** — вы-, у-: *išeiti* — выйти, уйти, *išvažiuoti* — уехать
+    - **į-** — в-: *įeiti* — войти
+    - **nu-** — до-, с-, от-: *nueiti* — сходить, дойти
+    - **per-** — пере-: *pereiti* gatvę — перейти улицу
+    - **už-** — за-: *užeiti* — зайти (ненадолго)
+    - **par-** — домой: *pareiti* — вернуться домой
+    - **pra-** — про-, мимо: *praeiti* — пройти (мимо)
+
+    **Сделать до конца** (совершенный вид) — тоже приставка, часто **pa-**: *daryti → padaryti, rašyti → parašyti, valgyti → pavalgyti*; иногда другая: *pirkti → nupirkti, gerti → išgerti*.
+
+    Все формы как у основного глагола: *ateiti — ateina — atėjo; išeisiu, išėjau*.
+comparison:
+  ru: |
+    Почти как русские приставки: *at-* = «при-», *iš-* = «вы-», *per-* = «пере-», *už-* = «за-». *Parašyti* — «написать», *pavalgyti* — «поесть»: та же разница видов.
+examples:
+  - { text: "Ji atėjo.", translation: "Она пришла.", source: "tatoeba:7695323" }
+  - { text: "Jis įėjo.", translation: "Он вошёл.", source: "tatoeba:12287939" }
+  - { text: "Visi nuėjo namo.", translation: "Все пошли домой.", source: "tatoeba:13720559" }
+  - { text: "Ji išėjo iš mūsų.", translation: "Она ушла от нас.", source: "tatoeba:6872247" }
+exercises:
+  - type: cloze
+    text: "Prašom ___!"
+    answer: "įeiti"
+    hint: "įeiti"
+    translation: "Входите, пожалуйста!"
+  - type: cloze
+    text: "Jis ___ iš namų septintą."
+    answer: "išėjo"
+    hint: "išeiti, прош."
+    translation: "Он вышел из дома в семь."
+  - type: cloze
+    text: "Rytoj ___ pas tave."
+    answer: "ateisiu"
+    hint: "ateiti, буд., я"
+    translation: "Завтра приду к тебе."
+  - type: cloze
+    text: "___ gatvę, kai šviesa žalia."
+    answer: "pereik"
+    hint: "pereiti, на «ты»"
+    translation: "Переходи улицу, когда свет зелёный."
+  - type: cloze
+    text: "Vakar aš ___ laišką."
+    answer: "parašiau"
+    hint: "parašyti, прош."
+    translation: "Вчера я написал письмо."
+  - type: cloze
+    text: "Ar jau ___?"
+    answer: "pavalgei"
+    hint: "pavalgyti, прош., ты"
+    translation: "Ты уже поел?"
+  - type: cloze
+    text: "Pakeliui ___ į parduotuvę."
+    answer: "užeisiu"
+    hint: "užeiti, буд., я"
+    translation: "По дороге зайду в магазин."
+  - type: cloze
+    text: "Mama ___ duonos."
+    answer: "nupirko"
+    hint: "nupirkti, прош."
+    translation: "Мама купила хлеба."

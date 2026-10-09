@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u18): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0239
+cefr: A2
+order: 239
+track: foundation
+title: "Творительный падеж: su draugu, su mama; dirbu mokytoju"
+explanation:
+  ru: |
+    **Творительный падеж** (*įnagininkas*) — вопрос **kuo? su kuo?** (кем? чем? с кем?).
+
+    Окончания в единственном числе:
+    - *-as* → **-u**: draugas → draug**u**; *-is, -ys* → **-iu**: brolis → brol**iu**
+    - *-us* → **-umi**: sūnus → sūn**umi**
+    - *-a* → **-a**: mama → mam**a** (на письме как именительный); *-ė* → **-e**: draugė → draug**e**
+    - *sesuo* → **seserimi**, *duktė* → **dukterimi**
+    - мн. ч.: **-ais / -iais / -omis / -ėmis**: su draugais, su knygomis
+
+    Когда нужен:
+    - **su** + твор. — с кем, с чем: *su draugu, su mama, kava su pienu*
+    - **кем работаю, кем стать**: *dirbu mokytoju, noriu tapti gydytoju*
+    - **на чём еду, на каком языке**: *autobusu, lietuvių kalba*
+
+    Но «я — учитель» в настоящем времени — именительный: *Aš esu mokytojas.*
+comparison:
+  ru: |
+    Как русский творительный: «с другом», «работаю учителем». Только «с» здесь — *su*, а у *mama* форма на письме не меняется: *su mama*.
+examples:
+  - { text: "Aš kalbu su drauge.", translation: "Я говорю с подругой.", source: "tatoeba:12321148" }
+  - { text: "Mes likome su mama.", translation: "Мы остались с мамой.", source: "tatoeba:12892748" }
+  - { text: "Aš valgau su broliu.", translation: "Я ем с братом.", source: "tatoeba:12499740" }
+  - { text: "Aš dirbu mokytoju valstybinėje mokykloje.", translation: "Я работаю учителем в государственной школе.", source: "tatoeba:11523575" }
+  - { text: "Jis keturiasdešimt metų dirbo gydytoju.", translation: "Он сорок лет проработал врачом.", source: "tatoeba:10164056" }
+exercises:
+  - type: cloze
+    text: "Aš einu į kiną su ___."
+    answer: "draugu"
+    hint: "draugas"
+    translation: "Я иду в кино с другом."
+  - type: cloze
+    text: "Ji gyvena su ___."
+    answer: "mama"
+    hint: "mama"
+    translation: "Она живёт с мамой."
+  - type: cloze
+    text: "Kalbu su ___."
+    answer: "broliu"
+    hint: "brolis"
+    translation: "Говорю с братом."
+  - type: cloze
+    text: "Jis dirba ___."
+    answer: "vairuotoju"
+    hint: "vairuotojas"
+    translation: "Он работает водителем."
+  - type: cloze
+    text: "Ji dirba ___."
+    answer: "mokytoja"
+    hint: "mokytoja"
+    translation: "Она работает учительницей."
+  - type: cloze
+    text: "Atėjau su ___."
+    answer: "seserimi"
+    hint: "sesuo"
+    translation: "Я пришёл с сестрой."
+  - type: cloze
+    text: "Noriu tapti ___."
+    answer: "gydytoju"
+    hint: "gydytojas"
+    translation: "Хочу стать врачом."
+  - type: cloze
+    text: "Ar kalbate rusų ___?"
+    answer: "kalba"
+    hint: "kalba"
+    translation: "Вы говорите на русском языке?"

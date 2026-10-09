@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u14): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0230
+cefr: A2
+order: 230
+track: foundation
+title: "Множественное число во всех падежах: draugų, draugams, draugais, drauguose"
+explanation:
+  ru: |
+    Четыре образца — по ним склоняется большинство существительных во множественном числе:
+
+    - **draugas** (м. р., -as): draugai — draug**ų** — draug**ams** — draug**us** — draug**ais** — draug**uose**
+    - **brolis** (м. р., -is): broliai — brol**ių** — brol**iams** — brol**ius** — brol**iais** — brol**iuose**
+    - **knyga** (ж. р., -a): knygos — knyg**ų** — knyg**oms** — knyg**as** — knyg**omis** — knyg**ose**
+    - **kėdė** (ж. р., -ė): kėdės — kėdž**ių** — kėd**ėms** — kėd**es** — kėd**ėmis** — kėd**ėse**
+
+    Порядок падежей: кто? (им.) — кого? чего? (род.) — кому? (дат.) — кого? что? (вин.) — кем? чем? (твор.) — где? (мест.).
+
+    Полезно запомнить:
+    - **родительный мн. ч. всегда на -ų** (*draugų, knygų, kėdžių*) — после *daug, nėra, kiek*: *daug knygų*
+    - **твор. мн. ч.**: *su draugais, su knygomis*
+    - **мест. мн. ч.**: *miestuose, parduotuvėse, namuose*
+    - в *kėdė → kėdžių* снова *d → dž* перед *-ių*
+comparison:
+  ru: |
+    Падежей столько же, сколько в русском (плюс звательный), и вопросы те же. Удобно: родительный множественного числа у всех слов кончается на *-ų*, как будто русское «-ов / -ей» стало одним окончанием.
+examples:
+  - { text: "Aš gyvenu su tėvais.", translation: "Я живу с родителями.", source: "tatoeba:12209589" }
+  - { text: "Tai filmas vaikams.", translation: "Это фильм для детей.", source: "tatoeba:12895862" }
+  - { text: "Kiek metų tavo tėvams?", translation: "Сколько лет твоим родителям?", source: "tatoeba:10718285" }
+  - { text: "Jis naršė senose knygose.", translation: "Он рылся в старых книгах.", source: "tatoeba:13260353" }
+  - { text: "Ar turi vaikų?", translation: "У тебя дети есть?", source: "tatoeba:2657703" }
+exercises:
+  - type: cloze
+    text: "Aš gyvenu su ___."
+    answer: "tėvais"
+    hint: "tėvai"
+    translation: "Я живу с родителями."
+  - type: cloze
+    text: "Tai dovana ___."
+    answer: "vaikams"
+    hint: "vaikai"
+    translation: "Это подарок детям."
+  - type: cloze
+    text: "Čia daug ___."
+    answer: "knygų"
+    hint: "knygos"
+    translation: "Здесь много книг."
+  - type: cloze
+    text: "Aš laukiu ___."
+    answer: "draugų"
+    hint: "draugai (laukti + род. п.)"
+    translation: "Я жду друзей."
+  - type: cloze
+    text: "Vakar mačiau ___."
+    answer: "draugus"
+    hint: "draugai"
+    translation: "Вчера я видел друзей."
+  - type: cloze
+    text: "Jie gyvena dideliuose ___."
+    answer: "miestuose"
+    hint: "miestai"
+    translation: "Они живут в больших городах."
+  - type: cloze
+    text: "Nėra laisvų ___."
+    answer: "kėdžių"
+    hint: "kėdės"
+    translation: "Нет свободных стульев."
+  - type: cloze
+    text: "Knygos yra ___."
+    answer: "lentynose"
+    hint: "lentynos"
+    translation: "Книги на полках."

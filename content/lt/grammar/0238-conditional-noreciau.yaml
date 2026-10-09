@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u17): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0238
+cefr: A2
+order: 238
+track: foundation
+title: "Условное наклонение: norėčiau, galėtume, būtų; jeigu turėčiau…"
+explanation:
+  ru: |
+    «Бы» по-литовски — особые окончания глагола (*tariamoji nuosaka*). От инфинитива без *-ti*:
+    - aš **-čiau**, tu **-tum**, jis/ji **-tų**, mes **-tume**, jūs **-tumėte**, jie/jos **-tų** (вместо *-ti*)
+    - norėti → norė**čiau**, norė**tum**, norė**tų**, norė**tume**, norė**tumėte**
+    - būti → **būčiau**, būtum, **būtų**; galėti → **galėčiau**, galėtume; eiti → **eičiau**
+
+    Когда нужно:
+    - **вежливо**: *Norėčiau kavos. Ar galėtumėte padėti?*
+    - **желание, совет**: *Būtų gerai pailsėti.* — Хорошо бы отдохнуть.
+    - **нереальное условие** с *jeigu / jei*: *Jeigu **turėčiau** laiko, **važiuočiau** prie jūros.* — Если бы у меня было время, я бы поехал на море.
+
+    Например: *važiuoti → važiuočiau, važiuotume*; *matyti → matyčiau*.
+comparison:
+  ru: |
+    Русское «бы» — отдельное слово, литовское «бы» спрятано в окончании: *norėčiau* = «я хотел бы». В условии «бы» стоит в обеих частях: *jeigu turėčiau…, važiuočiau…*
+examples:
+  - { text: "Tai būtų puiku.", translation: "Это было бы прекрасно.", source: "tatoeba:11932071" }
+  - { text: "Tai būtų gerai.", translation: "Это было бы хорошо.", source: "tatoeba:12092501" }
+  - { text: "Kuo norėtum būti?", translation: "Кем бы ты хотел стать?", source: "tatoeba:4923406" }
+  - { text: "O kur tu norėtum?", translation: "А куда бы ты хотел?", source: "tatoeba:13730144" }
+  - { text: "Ar tu norėtum šuns?", translation: "Ты бы хотел собаку?", source: "tatoeba:11815491" }
+exercises:
+  - type: cloze
+    text: "Aš ___ kavos."
+    answer: "norėčiau"
+    hint: "norėti"
+    translation: "Я бы хотел кофе."
+  - type: cloze
+    text: "Ar jūs ___ padėti?"
+    answer: "galėtumėte"
+    hint: "galėti"
+    translation: "Не могли бы вы помочь?"
+  - type: cloze
+    text: "Tai ___ puiku."
+    answer: "būtų"
+    hint: "būti"
+    translation: "Это было бы прекрасно."
+  - type: cloze
+    text: "Jeigu turėčiau laiko, ___ į kiną."
+    answer: "eičiau"
+    hint: "eiti"
+    translation: "Если бы у меня было время, я бы пошёл в кино."
+  - type: cloze
+    text: "Ką tu ___ valgyti?"
+    answer: "norėtum"
+    hint: "norėti"
+    translation: "Что бы ты хотел поесть?"
+  - type: cloze
+    text: "Mes ___ susitikti rytoj."
+    answer: "galėtume"
+    hint: "galėti"
+    translation: "Мы могли бы встретиться завтра."
+  - type: cloze
+    text: "Jeigu ___ pinigų, pirkčiau mašiną."
+    answer: "turėčiau"
+    hint: "turėti"
+    translation: "Если бы у меня были деньги, я купил бы машину."
+  - type: cloze
+    text: "Jis ___ ateiti, bet serga."
+    answer: "norėtų"
+    hint: "norėti"
+    translation: "Он хотел бы прийти, но болеет."

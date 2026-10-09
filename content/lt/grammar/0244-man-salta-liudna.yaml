@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u20): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0244
+cefr: A2
+order: 244
+track: foundation
+title: "Как мне: man šalta, liūdna, nuobodu, gaila, baisu"
+explanation:
+  ru: |
+    Состояние человека — как в русском: **кому** (дательный) + слово на **-a** (средний род):
+    - *Man šalta.* — Мне холодно. *Man karšta.* — Мне жарко.
+    - *Man liūdna.* — Мне грустно. *Man linksma.* — Мне весело.
+    - *Man nuobodu.* — Мне скучно. *Man baisu.* — Мне страшно.
+    - *Man gera.* — Мне хорошо. *Man bloga.* — Мне плохо (нехорошо, тошнит).
+    - *Man gaila.* — Мне жаль. *Man gėda.* — Мне стыдно.
+
+    Время показывает *būti*: *Man **buvo** šalta.* — Мне было холодно. *Rytoj **bus** šilta.* — Завтра будет тепло.
+
+    Погода — так же, только без «кому»: *Šalta. Šilta. Karšta.*
+comparison:
+  ru: |
+    Устроено так же, как русское «мне холодно, мне скучно». Слова тоже похожи по смыслу один к одному: *man liūdna* — «мне грустно».
+examples:
+  - { text: "Man šalta.", translation: "Мне холодно.", source: "tatoeba:9872712" }
+  - { text: "Man karšta.", translation: "Мне жарко.", source: "tatoeba:2167238" }
+  - { text: "Man baisu.", translation: "Мне страшно.", source: "tatoeba:11851523" }
+  - { text: "Man nuobodu.", translation: "Мне скучно.", source: "tatoeba:3571488" }
+  - { text: "Tau baisu?", translation: "Тебе страшно?", source: "tatoeba:10770753" }
+exercises:
+  - type: cloze
+    text: "Uždaryk langą, man ___."
+    answer: "šalta"
+    hint: "холодно"
+    translation: "Закрой окно, мне холодно."
+  - type: cloze
+    text: "Atidaryk langą, man ___."
+    answer: "karšta"
+    hint: "жарко"
+    translation: "Открой окно, мне жарко."
+  - type: cloze
+    text: "Vakar man buvo labai ___."
+    answer: "nuobodu"
+    hint: "скучно"
+    translation: "Вчера мне было очень скучно."
+  - type: cloze
+    text: "Man ___, kad tu negali ateiti."
+    answer: "gaila"
+    hint: "жаль"
+    translation: "Мне жаль, что ты не можешь прийти."
+  - type: cloze
+    text: "Vaikui ___ tamsoje."
+    answer: "baisu"
+    hint: "страшно"
+    translation: "Ребёнку страшно в темноте."
+  - type: cloze
+    text: "Kaip tau čia? — Man ___!"
+    answer: "gera"
+    hint: "хорошо"
+    translation: "Как тебе здесь? — Мне хорошо!"
+  - type: cloze
+    text: "Jai ___, ji verkia."
+    answer: "liūdna"
+    hint: "грустно"
+    translation: "Ей грустно, она плачет."
+  - type: cloze
+    text: "Rytoj ___ šilta."
+    answer: "bus"
+    hint: "būti, буд."
+    translation: "Завтра будет тепло."

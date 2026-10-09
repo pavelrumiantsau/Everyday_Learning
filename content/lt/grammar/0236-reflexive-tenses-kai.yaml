@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u16): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0236
+cefr: A2
+order: 236
+track: foundation
+title: "Возвратные глаголы во всех временах; когда: kai"
+explanation:
+  ru: |
+    *-si* есть во всех временах:
+    - **настоящее:** keliuosi, keliesi, keliasi, keliamės, keliatės
+    - **прошедшее:** kėliausi, kėleisi, kėlėsi, kėlėmės, kėlėtės (*keltis — keliasi — kėlėsi*)
+    - **будущее:** kelsiuosi, kelsiesi, kelsis, kelsimės, kelsitės
+    - **многократное:** keldavausi, keldavosi
+    - *mokytis*: mokausi — mokiausi — mokysiuosi
+
+    С *ne-* и приставкой *-si-* по-прежнему уходит вперёд: *nesikėliau, atsikėliau*.
+
+    **Kai** — «когда» в середине предложения: *Kai buvau mažas, gyvenau kaime.* — Когда я был маленьким, я жил в деревне.
+    О будущем после *kai* — будущее время, как в русском: *Kai grįšiu, paskambinsiu.* — Когда вернусь, позвоню.
+comparison:
+  ru: |
+    Как в русском «встаю — вставал — буду вставать», только «-ся» никогда не теряется: *keliuosi — kėliausi — kelsiuosi*. *Kai* — как русское «когда» в сложном предложении.
+examples:
+  - { text: "Jie rūpinosi manimi, kai aš buvau mažas.", translation: "Они заботились обо мне, когда я был маленьким.", source: "tatoeba:13554751" }
+  - { text: "Aš šitą knygą perskaičiau, kai buvau universitete.", translation: "Я прочёл эту книгу, будучи в университете.", source: "tatoeba:13403905" }
+  - { text: "Aš mokiausi šitoje mokykloje.", translation: "Я учился в этой школе.", source: "tatoeba:11851413" }
+  - { text: "Vakare aš mokysiuosi.", translation: "Вечером я буду заниматься.", source: "tatoeba:10767888" }
+  - { text: "Prašau, paskambink man, kai užbaigsi.", translation: "Позвони мне, пожалуйста, когда закончишь.", source: "tatoeba:13623211" }
+exercises:
+  - type: cloze
+    text: "Vakar aš ___ septintą valandą."
+    answer: "kėliausi"
+    hint: "keltis, прош."
+    translation: "Вчера я встал в семь часов."
+  - type: cloze
+    text: "Rytoj aš ___ anksti."
+    answer: "kelsiuosi"
+    hint: "keltis, буд."
+    translation: "Завтра я встану рано."
+  - type: cloze
+    text: "Ji ___ universitete Kaune."
+    answer: "mokėsi"
+    hint: "mokytis, прош."
+    translation: "Она училась в университете в Каунасе."
+  - type: cloze
+    text: "___ buvau mažas, gyvenau kaime."
+    answer: "kai"
+    translation: "Когда я был маленьким, я жил в деревне."
+  - type: cloze
+    text: "Kai ___ namo, paskambinsiu."
+    answer: "grįšiu"
+    hint: "grįžti, буд."
+    translation: "Когда вернусь домой, позвоню."
+  - type: cloze
+    text: "Kitais metais mes ___ ispanų kalbos."
+    answer: "mokysimės"
+    hint: "mokytis, буд."
+    translation: "В следующем году мы будем учить испанский."
+  - type: cloze
+    text: "Kada tu ___?"
+    answer: "keliesi"
+    hint: "keltis, наст."
+    translation: "Когда ты встаёшь?"
+  - type: cloze
+    text: "Vakar aš ___ septintą, nes sirgau."
+    answer: "nesikėliau"
+    hint: "keltis, прош., с отрицанием"
+    translation: "Вчера я не встал в семь, потому что болел."

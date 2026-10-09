@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u14): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0231
+cefr: A2
+order: 231
+track: foundation
+title: "Где именно: ant stalo, po stalu, prie lango, šalia, už, tarp"
+explanation:
+  ru: |
+    Предлоги места. Почти все — с **родительным** падежом:
+    - **ant** + род. — на: *ant stalo* — на столе
+    - **prie** + род. — у, возле: *prie lango* — у окна, *prie durų* — у двери
+    - **šalia** + род. — рядом с: *šalia stoties* — рядом с вокзалом
+    - **už** + род. — за: *už namo* — за домом
+    - **tarp** + род. — между, среди: *tarp banko ir pašto* — между банком и почтой
+    - **virš** + род. — над: *virš stalo* — над столом
+
+    Исключения:
+    - **po** + **творительный** — под: *po stalu, po lova* (на письме *lova* не меняется)
+    - **priešais** + **винительный** — напротив: *priešais bažnyčią*
+
+    *Kur yra raktas? — Ant stalo.* Ответ часто без глагола.
+comparison:
+  ru: |
+    Как русские «на, у, рядом с, за, между». Только падеж почти всегда один — родительный: *ant stalo* («на стол**а**», хотя по-русски «на стол**е**»).
+examples:
+  - { text: "Raktas ant stalo.", translation: "Ключ на столе.", source: "tatoeba:13840261" }
+  - { text: "Krepšys po stalu.", translation: "Корзина под столом.", source: "tatoeba:10665592" }
+  - { text: "Ji stovi prie durų.", translation: "Она стоит у двери.", source: "tatoeba:13221398" }
+  - { text: "Aš šalia stoties.", translation: "Я рядом со станцией.", source: "tatoeba:13520580" }
+  - { text: "Jis slepiasi už durų.", translation: "Он прячется за дверью.", source: "tatoeba:13358904" }
+exercises:
+  - type: cloze
+    text: "Telefonas yra ant ___."
+    answer: "stalo"
+    hint: "stalas"
+    translation: "Телефон на столе."
+  - type: cloze
+    text: "Katė miega po ___."
+    answer: "lova"
+    hint: "lova"
+    translation: "Кошка спит под кроватью."
+  - type: cloze
+    text: "Aš sėdžiu prie ___."
+    answer: "lango"
+    hint: "langas"
+    translation: "Я сижу у окна."
+  - type: cloze
+    text: "Mano namas yra šalia ___."
+    answer: "parko"
+    hint: "parkas"
+    translation: "Мой дом рядом с парком."
+  - type: cloze
+    text: "Mašina stovi už ___."
+    answer: "namo"
+    hint: "namas"
+    translation: "Машина стоит за домом."
+  - type: cloze
+    text: "Kavinė yra tarp banko ir ___."
+    answer: "vaistinės"
+    hint: "vaistinė"
+    translation: "Кафе находится между банком и аптекой."
+  - type: cloze
+    text: "Lempa kabo virš ___."
+    answer: "lovos"
+    hint: "lova"
+    translation: "Лампа висит над кроватью."
+  - type: cloze
+    text: "Paštas yra ___ bažnyčią."
+    answer: "priešais"
+    hint: "напротив"
+    translation: "Почта напротив церкви."

@@ -9,3 +9,4 @@ and [CLAUDE.md](CLAUDE.md) for how to work on the repo (commands, structure, con
   Each example cites its sentence as `source: "tatoeba:<id>"` (see `https://tatoeba.org/en/sentences/show/<id>`).
 - Word selection uses frequency rankings from Hermit Dave's **[FrequencyWords](https://github.com/hermitdave/FrequencyWords)** (OpenSubtitles 2018), licensed CC-BY-SA 4.0.
 - Meanings and grammar notes are written with Claude Code and reviewed over time. Report mistakes in the bot.
+- Licences: code [MIT](LICENSE), own learning content [CC BY-SA 4.0](content/LICENSE.md), third-party material in [NOTICE.md](NOTICE.md).

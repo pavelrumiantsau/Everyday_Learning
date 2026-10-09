@@ -243,3 +243,7 @@ textarea.own-text { min-height: 40vh; resize: vertical; line-height: 1.4; }
 .word-list li { display: flex; justify-content: space-between; gap: 12px; background: var(--bg2); border-radius: 10px; padding: 8px 12px; }
 .secondary.right { outline: 2px solid var(--good); }
 .secondary.wrong-pick { outline: 2px solid var(--again); }
+
+/* «Источники и лицензии» (features/Profile.tsx) */
+.sources ul { margin: 6px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; }
+.sources a { color: inherit; }

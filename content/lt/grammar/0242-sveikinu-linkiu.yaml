@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u19): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0242
+cefr: A2
+order: 242
+track: foundation
+title: "Поздравления: sveikinu su gimtadieniu; linkiu sėkmės"
+explanation:
+  ru: |
+    **Поздравляю с…** — *Sveikinu* (*Sveikiname*) **su** + творительный:
+    - *su gimtadieniu* — с днём рождения, *su Kalėdomis* — с Рождеством
+    - *su Naujaisiais metais* — с Новым годом, *su vestuvėmis* — со свадьбой
+    - коротко, без глагола: ***Su gimtadieniu!***
+
+    **Желаю…** — *Linkiu* (*Linkime*) + **кому** (дат.) + **чего** (родительный):
+    - *Linkiu tau sėkmės.* — Желаю тебе удачи.
+    - *Linkime jums sveikatos ir laimės.* — Желаем вам здоровья и счастья.
+    - *Linkiu ramių švenčių.* — Желаю спокойных праздников.
+
+    **Открытка или письмо:**
+    - начало: *Mielas Jonai,* / *Mieloji Rasa,* (друзьям); *Gerbiamas pone Jonai,* (официально)
+    - конец: *Su meile* (с любовью), *Su pagarba* (с уважением), *Tavo / Jūsų Olga*
+comparison:
+  ru: |
+    Как в русском: «поздравляю **с** днём рождения» — творительный, «желаю удачи» — родительный. Конструкции совпадают, нужно только знать формы: *su gimtadieniu, sėkmės*.
+examples:
+  - { text: "Sveikinu su gimtadieniu.", translation: "Поздравляю с днём рождения.", source: "tatoeba:2226181" }
+  - { text: "Linkiu laimės!", translation: "Желаю счастья!", source: "tatoeba:13103090" }
+  - { text: "Linkiu tau sėkmės.", translation: "Желаю удачи.", source: "tatoeba:1673808" }
+  - { text: "Linkiu Tomui sėkmės.", translation: "Желаю Тому удачи.", source: "tatoeba:8347605" }
+  - { text: "Sveikinu su jūsų jubiliejumi.", translation: "Поздравляю с вашей годовщиной.", source: "tatoeba:2226182" }
+exercises:
+  - type: cloze
+    text: "Sveikinu su ___!"
+    answer: "gimtadieniu"
+    hint: "gimtadienis"
+    translation: "Поздравляю с днём рождения!"
+  - type: cloze
+    text: "Linkiu tau ___!"
+    answer: "sėkmės"
+    hint: "sėkmė"
+    translation: "Желаю тебе удачи!"
+  - type: cloze
+    text: "Linkime jums ___ ir laimės!"
+    answer: "sveikatos"
+    hint: "sveikata"
+    translation: "Желаем вам здоровья и счастья!"
+  - type: cloze
+    text: "Sveikiname su ___ metais!"
+    answer: "Naujaisiais"
+    hint: "Naujieji metai"
+    translation: "Поздравляем с Новым годом!"
+  - type: cloze
+    text: "Sveikinu su ___!"
+    answer: "Kalėdomis"
+    hint: "Kalėdos"
+    translation: "Поздравляю с Рождеством!"
+  - type: cloze
+    text: "Linkiu ___ švenčių!"
+    answer: "ramių"
+    hint: "ramios (род. п. мн. ч.)"
+    translation: "Желаю спокойных праздников!"
+  - type: cloze
+    text: "___ Jonai, sveikinu tave su gimtadieniu!"
+    answer: "mielas"
+    hint: "дорогой (начало письма)"
+    translation: "Дорогой Йонас, поздравляю тебя с днём рождения!"
+  - type: cloze
+    text: "Su ___, Rūta Jonaitienė"
+    answer: "pagarba"
+    hint: "pagarba"
+    translation: "С уважением, Рута Йонайтене"

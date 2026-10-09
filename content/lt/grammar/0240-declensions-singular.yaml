@@ -1,0 +1,82 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u18): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0240
+cefr: A2
+order: 240
+track: foundation
+title: "Пять склонений: все падежи единственного числа"
+explanation:
+  ru: |
+    Справочная таблица: по этим образцам склоняется почти любое существительное. Падежи: им. — род. — дат. — вин. — твор. — мест. — зват.
+
+    **1. -as, -is, -ys** (мужской род):
+    - vyras — vyro — vyrui — vyrą — vyru — vyre — vyre
+    - brolis — brolio — broliui — brolį — broliu — brolyje — broli
+    - kambarys — kambario — kambariui — kambarį — kambariu — kambaryje — kambary
+
+    **2. -a, -ė** (женский род):
+    - mama — mamos — mamai — mamą — mama — mamoje — mama
+    - Eglė — Eglės — Eglei — Eglę — Egle — Eglėje — Egle
+
+    **3. -is** (почти все — женский род):
+    - naktis — nakties — nakčiai — naktį — naktimi — naktyje — naktie (*t → č* перед *-iai*)
+
+    **4. -us** (мужской род):
+    - sūnus — sūnaus — sūnui — sūnų — sūnumi — sūnuje — sūnau
+
+    **5. -uo, а также duktė**:
+    - sesuo — sesers — seseriai — seserį — seserimi — seseryje — seserie
+    - vanduo — vandens — vandeniui — vandenį — vandeniu — vandenyje — vandenie
+
+    Совет: учите слово с **родительным падежом** (он на каждой карточке) — по нему видно склонение.
+comparison:
+  ru: |
+    В русском три склонения, в литовском пять, но логика та же: окончание именительного и родительного подсказывает все остальные формы.
+examples:
+  - { text: "Aš atėjau su broliu.", translation: "Я пришёл с братом.", source: "tatoeba:12633542" }
+  - { text: "Mama, duok man šokolado!", translation: "Мам, дай мне шоколада!", source: "tatoeba:12097949" }
+  - { text: "Aš jaunesnis už Tomą.", translation: "Я моложе Тома.", source: "tatoeba:10661133" }
+  - { text: "Jis plepa su draugu.", translation: "Он болтает с приятелем.", source: "tatoeba:10132610" }
+exercises:
+  - type: cloze
+    text: "Aš neturiu ___."
+    answer: "sūnaus"
+    hint: "sūnus"
+    translation: "У меня нет сына."
+  - type: cloze
+    text: "Duok ___ vandens."
+    answer: "sūnui"
+    hint: "sūnus"
+    translation: "Дай сыну воды."
+  - type: cloze
+    text: "Ji kalba su ___."
+    answer: "dukterimi"
+    hint: "duktė"
+    translation: "Она говорит с дочерью."
+  - type: cloze
+    text: "Laukiu ___."
+    answer: "sesers"
+    hint: "sesuo (laukti + род. п.)"
+    translation: "Жду сестру."
+  - type: cloze
+    text: "Labanakt, ___!"
+    answer: "sūnau"
+    hint: "sūnus (зват.)"
+    translation: "Спокойной ночи, сынок!"
+  - type: cloze
+    text: "Skambinu ___."
+    answer: "dukteriai"
+    hint: "duktė"
+    translation: "Звоню дочери."
+  - type: cloze
+    text: "Vaikai žaidžia ___."
+    answer: "kieme"
+    hint: "kiemas"
+    translation: "Дети играют во дворе."
+  - type: cloze
+    text: "Man skauda ___."
+    answer: "akį"
+    hint: "akis"
+    translation: "У меня болит глаз."
