@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u02): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0204
+cefr: A1
+order: 204
+track: foundation
+title: "Винительный падеж: geriu kavą, valgau sriubą; Norėčiau kavos"
+explanation:
+  ru: |
+    После глаголов «пить, есть, хотеть, покупать, видеть…» предмет стоит в **винительном падеже** (*galininkas*, вопрос *ką?* — кого? что?): *Geriu **kavą**.* — «Пью кофе».
+
+    В единственном числе окончание меняется так:
+    - *-as* → **-ą**: pyragas → pyrag**ą**
+    - *-is, -ys* → **-į**: sūris → sūr**į**
+    - *-a* → **-ą**: kava → kav**ą**, sriuba → sriub**ą**
+    - *-ė* → **-ę**: vakarienė → vakarien**ę**
+    - запомнить: vanduo → **vandenį**
+
+    Буквы **ą, ę, į** на конце сегодня читаются просто как долгие *a, e, i*, но на письме **обязательны** — на экзамене слово без них считается ошибкой.
+
+    **Заказ в кафе.** Когда хотят «немного» еды или напитка, литовцы говорят не винительный, а **родительный падеж** — как русское «хочу воды»:
+    - *Norėčiau kavos.* — «Я бы хотел(а) кофе».
+    - *Noriu vandens.* — «Хочу воды».
+    - формы для заказа: *kava → kavos, arbata → arbatos, vanduo → vandens, alus → alaus*. Пока запомним их как готовые фразы; родительный падеж — в следующих юнитах.
+
+    **Norėčiau** — вежливое «я бы хотел(а)» (одна форма для мужчин и женщин). А с инфинитивом просто: *Noriu valgyti.* — «Хочу есть».
+comparison:
+  ru: |
+    Как в русском «пью воду, ем суп», предмет действия меняет окончание. Только в литовском меняются и слова мужского рода: *pyragas → pyragą* («ем пирог» — по-русски «пирог» не меняется).
+examples:
+  - { text: "Jis geria vandenį.", translation: "Он пьёт воду.", source: "tatoeba:10284209" }
+  - { text: "Ji valgo obuolį.", translation: "Она ест яблоко.", source: "tatoeba:1672641" }
+  - { text: "Tu geri arbatą.", translation: "Ты пьёшь чай.", source: "tatoeba:621283" }
+  - { text: "Aš noriu kavos.", translation: "Я хочу кофе.", source: "tatoeba:8391792" }
+  - { text: "Aš norėčiau alaus.", translation: "Я хотел бы выпить пива.", source: "tatoeba:13508922" }
+exercises:
+  - type: cloze
+    text: "Aš geriu ___."
+    answer: "kavą"
+    hint: "kava"
+    translation: "Я пью кофе."
+  - type: cloze
+    text: "Ji valgo ___."
+    answer: "sriubą"
+    hint: "sriuba"
+    translation: "Она ест суп."
+  - type: cloze
+    text: "Mes valgome ___."
+    answer: "pyragą"
+    hint: "pyragas"
+    translation: "Мы едим пирог."
+  - type: cloze
+    text: "Tu geri ___?"
+    answer: "vandenį"
+    hint: "vanduo"
+    translation: "Ты пьёшь воду?"
+  - type: cloze
+    text: "Jis valgo ___."
+    answer: "sūrį"
+    hint: "sūris"
+    translation: "Он ест сыр."
+  - type: cloze
+    text: "Jie valgo ___."
+    answer: "vakarienę"
+    hint: "vakarienė"
+    translation: "Они ужинают."
+  - type: cloze
+    text: "Norėčiau ___, prašau."
+    answer: "arbatos"
+    hint: "arbata (форма для заказа)"
+    translation: "Чай, пожалуйста."
+  - type: cloze
+    text: "Aš geriu ___."
+    answer: "pieną"
+    hint: "pienas"
+    translation: "Я пью молоко."

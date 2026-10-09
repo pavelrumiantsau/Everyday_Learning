@@ -1,0 +1,80 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u01): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0201
+cefr: A1
+order: 201
+track: foundation
+title: "Глагол būti: aš esu, tu esi, jis yra"
+explanation:
+  ru: |
+    **Būti** — «быть». В русском в настоящем времени этот глагол обычно не говорят: «я студент». В литовском его **говорят**: Aš **esu** studentas.
+
+    Формы настоящего времени:
+    - aš **esu** — я
+    - tu **esi** — ты
+    - jis, ji **yra** — он, она
+    - mes **esame** — мы
+    - jūs **esate** — вы (и вежливое «Вы»)
+    - jie, jos **yra** — они (*jie* — мужчины или смешанная группа, *jos* — только женщины)
+
+    Местоимение можно опустить — форма глагола и так показывает, кто: *Esu studentas.* В разговоре в третьем лице *yra* часто пропускают: *Ji lietuvė.* — «Она литовка».
+
+    **Отрицание:** *ne* пишется слитно: **nesu, nesi, nesame, nesate**. В третьем лице — **nėra**: *Jis nėra mokytojas.* — «Он не учитель».
+
+    **Вопрос** начинается со слова **ar** (как русское «ли», но всегда в начале): *Ar tu esi studentas?* — «Ты студент?» Ответ: *Taip, esu.* / *Ne, nesu.*
+
+    С незнакомыми и старшими говорят на «вы»: *Ar jūs esate mokytojas?*
+comparison:
+  ru: |
+    По-русски «я — студент», «он — врач» — без глагола. По-литовски глагол нужен: *Aš esu studentas. Jis yra gydytojas.* Вопрос с **ar** похож на русское «Студент ли ты?», только *ar* всегда стоит первым.
+examples:
+  - { text: "Aš esu rusas.", translation: "Я русский.", source: "tatoeba:3117168" }
+  - { text: "Jis yra mokytojas.", translation: "Он учитель.", source: "tatoeba:5989093" }
+  - { text: "Ji yra gydytoja.", translation: "Она врач.", source: "tatoeba:12368464" }
+  - { text: "Mes esame darbe.", translation: "Мы на работе.", source: "tatoeba:11450538" }
+  - { text: "Ar tu esi mokinys?", translation: "Ты ученик?", source: "tatoeba:13316488" }
+exercises:
+  - type: cloze
+    text: "Aš ___ studentas."
+    answer: "esu"
+    hint: "būti"
+    translation: "Я студент."
+  - type: cloze
+    text: "Tu ___ mokytoja."
+    answer: "esi"
+    hint: "būti"
+    translation: "Ты учительница."
+  - type: cloze
+    text: "Jis ___ gydytojas."
+    answer: "yra"
+    hint: "būti"
+    translation: "Он врач."
+  - type: cloze
+    text: "Mes ___ namie."
+    answer: "esame"
+    also: ["esam"]
+    hint: "būti"
+    translation: "Мы дома."
+  - type: cloze
+    text: "Ar jūs ___ mokytojas?"
+    answer: "esate"
+    also: ["esat"]
+    hint: "būti"
+    translation: "Вы учитель?"
+  - type: cloze
+    text: "Jie ___ darbe."
+    answer: "yra"
+    hint: "būti"
+    translation: "Они на работе."
+  - type: cloze
+    text: "Aš ___ lietuvis."
+    answer: "nesu"
+    hint: "būti, с отрицанием"
+    translation: "Я не литовец."
+  - type: cloze
+    text: "Jis ___ mokytojas."
+    answer: "nėra"
+    hint: "būti, с отрицанием"
+    translation: "Он не учитель."

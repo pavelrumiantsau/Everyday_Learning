@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u02): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0203
+cefr: A1
+order: 203
+track: foundation
+title: "Настоящее время: dirbu, geriu, valgau, noriu"
+explanation:
+  ru: |
+    Литовский глагол в настоящем времени меняет окончание по лицам, как русский. Ключ — **форма третьего лица** (*jis, ji, jie*): она есть на карточке каждого глагола (*dirbti — dirba — dirbo*). По её последней букве глаголы делятся на три группы: **-a, -i, -o**.
+
+    - **dirbti** «работать» (*dirba*): aš dirb**u**, tu dirb**i**, jis/ji dirb**a**, mes dirb**ame**, jūs dirb**ate**, jie/jos dirb**a**
+    - **gerti** «пить» (*geria*): aš ger**iu**, tu ger**i**, jis/ji ger**ia**, mes ger**iame**, jūs ger**iate**, jie/jos ger**ia**
+    - **norėti** «хотеть» (*nori*): aš nor**iu**, tu nor**i**, jis/ji nor**i**, mes nor**ime**, jūs nor**ite**, jie/jos nor**i**
+    - **valgyti** «есть» (*valgo*): aš valg**au**, tu valg**ai**, jis/ji valg**o**, mes valg**ome**, jūs valg**ote**, jie/jos valg**o**
+
+    Обратите внимание:
+    - **jis, ji и jie, jos — одна форма**: *jis dirba* и *jie dirba*.
+    - формы *mes* и *jūs* строятся от третьего лица: *dirba → dirbame, dirbate*; *valgo → valgome, valgote*; *nori → norime, norite*.
+    - в разговоре часто сокращают: *dirbam, dirbat, valgom*.
+
+    Отрицание — **ne** слитно: *nedirbu, negeriu, nenoriu*.
+comparison:
+  ru: |
+    Как в русском «работаю, работаешь, работает», окончание показывает лицо, поэтому *aš, tu* часто опускают: *Dirbu banke.* — «Работаю в банке». Но в литовском у «он» и «они» одна форма: *jis dirba — jie dirba*.
+examples:
+  - { text: "Aš geriu pieną.", translation: "Я пью молоко.", source: "tatoeba:3140520" }
+  - { text: "Tu geri kavą?", translation: "Ты пьёшь кофе?", source: "tatoeba:2209257" }
+  - { text: "Ji dirba banke.", translation: "Она работает в банке.", source: "tatoeba:1666155" }
+  - { text: "Aš valgau duoną.", translation: "Я ем хлеб.", source: "tatoeba:3934200" }
+  - { text: "Jie valgo žuvį.", translation: "Они едят рыбу.", source: "tatoeba:5889812" }
+exercises:
+  - type: cloze
+    text: "Aš ___ banke."
+    answer: "dirbu"
+    hint: "dirbti"
+    translation: "Я работаю в банке."
+  - type: cloze
+    text: "Tu ___ arbatą?"
+    answer: "geri"
+    hint: "gerti"
+    translation: "Ты пьёшь чай?"
+  - type: cloze
+    text: "Jis ___ sriubą."
+    answer: "valgo"
+    hint: "valgyti"
+    translation: "Он ест суп."
+  - type: cloze
+    text: "Mes ___ kavinėje."
+    answer: "dirbame"
+    also: ["dirbam"]
+    hint: "dirbti"
+    translation: "Мы работаем в кафе."
+  - type: cloze
+    text: "Ką jūs ___?"
+    answer: "geriate"
+    also: ["geriat"]
+    hint: "gerti"
+    translation: "Что вы пьёте?"
+  - type: cloze
+    text: "Aš ___ valgyti."
+    answer: "noriu"
+    hint: "norėti"
+    translation: "Я хочу есть."
+  - type: cloze
+    text: "Jie ___ pietus namie."
+    answer: "valgo"
+    hint: "valgyti"
+    translation: "Они обедают дома."
+  - type: cloze
+    text: "Mes ___ vandenį."
+    answer: "geriame"
+    also: ["geriam"]
+    hint: "gerti"
+    translation: "Мы пьём воду."

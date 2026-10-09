@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u01): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0202
+cefr: A1
+order: 202
+track: foundation
+title: "Род существительных: studentas — studentė; Kuo jūs vardu?"
+explanation:
+  ru: |
+    У литовских существительных **два рода**: мужской и женский. Среднего рода, как русское «окно», у существительных нет.
+
+    Род обычно видно по окончанию в **именительном падеже** (*vardininkas*, вопрос *kas?* — кто? что?):
+    - мужской род: **-as, -is, -ys, -us** — *studentas, vardas, telefonas, lietuvis*
+    - женский род: **-a, -ė** — *mokytoja, kava, lietuvė, pavardė*
+
+    Есть исключения: *naktis* («ночь») — женского рода, *vanduo* («вода») — мужского. Род таких слов запоминаем вместе со словом.
+
+    Профессии и национальности часто бывают парами:
+    - *studentas — studentė*
+    - *mokytojas — mokytoja*, *gydytojas — gydytoja*
+    - *lietuvis — lietuvė*, *rusas — rusė*
+
+    **Как познакомиться:**
+    - *Kuo jūs vardu?* (*Kuo tu vardu?*) — «Как вас (тебя) зовут?» Ответ: *Mano vardas Rasa.* или *Aš esu Rasa.*
+    - *Koks jūsų vardas?* — тоже «Как вас зовут?»: *vardas* мужского рода, поэтому **koks**; с женским родом — **kokia**: *Kokia jūsų pavardė?* — «Какая у вас фамилия?»
+    - *Iš kur jūs?* — «Откуда вы?» Ответ: *Aš iš Rusijos.* / *Aš iš Lietuvos.* (форму страны после *iš* пока запоминаем целиком)
+comparison:
+  ru: |
+    Как в русском, окончание показывает род: *studentas* — как «студент», *studentė* — как «студентка». Но бывают слова с другим родом, чем в русском: *vanduo* («вода») — мужского рода.
+examples:
+  - { text: "Aš esu rusė.", translation: "Я русская.", source: "tatoeba:3117167" }
+  - { text: "Ji lietuvė.", translation: "Она литовка.", source: "tatoeba:9754493" }
+  - { text: "Ar tu studentė?", translation: "Ты студентка?", source: "tatoeba:12548193" }
+  - { text: "Kuo jūs vardu?", translation: "Как вас зовут?", source: "tatoeba:5917262" }
+  - { text: "Iš kur jūs?", translation: "Откуда вы?", source: "tatoeba:10754925" }
+exercises:
+  - type: cloze
+    text: "Jonas yra ___."
+    answer: "studentas"
+    hint: "studentas / studentė"
+    translation: "Йонас — студент."
+  - type: cloze
+    text: "Rasa yra ___."
+    answer: "studentė"
+    hint: "studentas / studentė"
+    translation: "Раса — студентка."
+  - type: cloze
+    text: "Ji yra ___."
+    answer: "lietuvė"
+    hint: "lietuvis / lietuvė"
+    translation: "Она литовка."
+  - type: cloze
+    text: "Jis yra ___."
+    answer: "rusas"
+    hint: "rusas / rusė"
+    translation: "Он русский."
+  - type: cloze
+    text: "Mano mama yra ___."
+    answer: "gydytoja"
+    hint: "gydytojas / gydytoja"
+    translation: "Моя мама — врач."
+  - type: cloze
+    text: "___ tavo vardas?"
+    answer: "koks"
+    hint: "koks / kokia"
+    translation: "Как тебя зовут?"
+  - type: cloze
+    text: "___ jūsų pavardė?"
+    answer: "kokia"
+    hint: "koks / kokia"
+    translation: "Какая у вас фамилия?"
+  - type: cloze
+    text: "Kuo jūs ___?"
+    answer: "vardu"
+    translation: "Как вас зовут?"

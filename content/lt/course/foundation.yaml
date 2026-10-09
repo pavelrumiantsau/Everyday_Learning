@@ -3,7 +3,8 @@
 # Units point to existing ids; a word may appear in one unit only. Unit ids are stable (progress is stored by them).
 # Content per unit (phase E/H): 40–70 words, 6–8 phrases, 1–2 lessons, 2 texts, dialogues, a writing and two speaking tasks.
 # Gap words still to add (phase E, ids lt-w-6001+): u01 Lietuva, lietuvis, lietuvė, rusė, inžinierius, malonu, lietuviškai,
-#   rusiškai, viso gero; u02 euras.
+#   rusiškai, viso gero; u02 euras; u03 paprastai; u04 namai, aukštas «этаж» (the existing aukštas is «высокий»);
+#   u05 gramas, batai, prekybos centras; u06 oro uostas, sustojimas.
 id: lt-foundation
 units:
   # --- Stage 0: sounds (6 micro-lessons, alongside unit 1) ---
@@ -19,6 +20,7 @@ units:
     stage: A1
     topic: 1
     title: "Знакомство"
+    lessons: [lt-g-0201, lt-g-0202]
     words: [lt-w-3151, lt-w-3193, lt-w-3157, lt-w-3169, lt-w-3163, lt-w-3175, lt-w-3196, lt-w-3202, lt-w-3152, lt-w-3158, lt-w-3164, lt-w-3170, lt-w-3176, lt-w-3182, lt-w-3188, lt-w-2985, lt-w-3124, lt-w-3299, lt-w-3155, lt-w-3203, lt-w-3180, lt-w-3161, lt-w-2840, lt-w-3127, lt-w-4102, lt-w-3064, lt-w-2989, lt-w-3067, lt-w-0083, lt-w-3285, lt-w-4172, lt-w-3235, lt-w-3238, lt-w-3241, lt-w-3244, lt-w-3246, lt-w-3249, lt-w-3252, lt-w-3255, lt-w-3258, lt-w-3261, lt-w-4001, lt-w-3287, lt-w-4004, lt-w-4051, lt-w-3288, lt-w-3082, lt-w-2999, lt-w-4151, lt-w-2986]
     can_do:
       - "Здороваюсь, прощаюсь, благодарю и извиняюсь"
@@ -29,15 +31,36 @@ units:
     stage: A1
     topic: 11
     title: "Еда и кафе"
+    lessons: [lt-g-0203, lt-g-0204]
     words: [lt-w-2799, lt-w-2800, lt-w-2802, lt-w-2770, lt-w-0884, lt-w-2776, lt-w-2764, lt-w-2767, lt-w-2790, lt-w-2773, lt-w-0857, lt-w-0922, lt-w-1050, lt-w-2796, lt-w-2801, lt-w-2803, lt-w-1195, lt-w-2808, lt-w-3291, lt-w-2435, lt-w-0928, lt-w-2422, lt-w-2811, lt-w-0843, lt-w-2765, lt-w-2768, lt-w-3023, lt-w-2780, lt-w-2784, lt-w-0120, lt-w-3322, lt-w-1954, lt-w-2766, lt-w-2775, lt-w-2778, lt-w-0174, lt-w-2806, lt-w-2807]
     can_do:
       - "Заказываю еду и напитки в кафе: Norėčiau kavos"
       - "Спрашиваю цену и прошу счёт"
       - "Говорю, что люблю есть и пить на завтрак, обед и ужин"
-  - { id: u03, stage: A1, topic: 4, title: "Мой день: дни недели, время, распорядок", can_do: ["Называю дни недели и время", "Рассказываю, что делаю утром, днём и вечером"] }
-  - { id: u04, stage: A1, topic: 2, title: "Дом и квартира", can_do: ["Описываю квартиру и комнаты", "Называю адрес: улица, дом, квартира"] }
-  - { id: u05, stage: A1, topic: 10, title: "Магазин: цены, количество, цвета", can_do: ["Покупаю продукты и одежду в магазине", "Понимаю цены в евро"] }
-  - { id: u06, stage: A1, topic: 6, title: "Город и транспорт", can_do: ["Спрашиваю дорогу и понимаю ответ", "Покупаю билет на автобус или поезд"] }
+  - id: u03
+    stage: A1
+    topic: 4
+    title: "Мой день: дни недели, время, распорядок"
+    words: [lt-w-2917, lt-w-2932, lt-w-3236, lt-w-3239, lt-w-3242, lt-w-1017, lt-w-3247, lt-w-3250, lt-w-3253, lt-w-2923, lt-w-2926, lt-w-2920, lt-w-2941, lt-w-2944, lt-w-0001, lt-w-2918, lt-w-2924, lt-w-2921, lt-w-2927, lt-w-3167, lt-w-3232, lt-w-3231, lt-w-0013, lt-w-2945, lt-w-0014, lt-w-2942, lt-w-2846, lt-w-2849, lt-w-2887, lt-w-2916, lt-w-2843, lt-w-2931, lt-w-3038, lt-w-3039, lt-w-2991, lt-w-2995, lt-w-3013, lt-w-3307, lt-w-3071, lt-w-3089]
+    can_do: ["Называю дни недели и время", "Рассказываю, что делаю утром, днём и вечером"]
+  - id: u04
+    stage: A1
+    topic: 2
+    title: "Дом и квартира"
+    words: [lt-w-2894, lt-w-3979, lt-w-2895, lt-w-2896, lt-w-2897, lt-w-3325, lt-w-2085, lt-w-0899, lt-w-3326, lt-w-2898, lt-w-2899, lt-w-2900, lt-w-0573, lt-w-1299, lt-w-2902, lt-w-2903, lt-w-2904, lt-w-2905, lt-w-0863, lt-w-0859, lt-w-0936, lt-w-1155, lt-w-0920, lt-w-2906, lt-w-1293, lt-w-1175, lt-w-0095, lt-w-1868, lt-w-2083, lt-w-2990, lt-w-3324, lt-w-0171, lt-w-0567, lt-w-3063, lt-w-3066, lt-w-3075, lt-w-3078, lt-w-2865, lt-w-2868]
+    can_do: ["Описываю квартиру и комнаты", "Называю адрес: улица, дом, квартира"]
+  - id: u05
+    stage: A1
+    topic: 10
+    title: "Магазин: цены, количество, цвета"
+    words: [lt-w-3002, lt-w-2777, lt-w-0036, lt-w-0041, lt-w-2786, lt-w-2788, lt-w-3276, lt-w-1558, lt-w-2812, lt-w-1371, lt-w-3609, lt-w-2682, lt-w-3118, lt-w-2673, lt-w-2140, lt-w-2877, lt-w-2847, lt-w-2853, lt-w-2850, lt-w-0862, lt-w-2841, lt-w-2844, lt-w-2856, lt-w-1010, lt-w-1644, lt-w-2859, lt-w-2908, lt-w-1065, lt-w-2910, lt-w-2909, lt-w-1270, lt-w-1209, lt-w-1555, lt-w-2911, lt-w-0764, lt-w-1141]
+    can_do: ["Покупаю продукты и одежду в магазине", "Понимаю цены в евро"]
+  - id: u06
+    stage: A1
+    topic: 6
+    title: "Город и транспорт"
+    words: [lt-w-3293, lt-w-3014, lt-w-3328, lt-w-3330, lt-w-3018, lt-w-3020, lt-w-3022, lt-w-0164, lt-w-2666, lt-w-3295, lt-w-3024, lt-w-3145, lt-w-3271, lt-w-3273, lt-w-4363, lt-w-4360, lt-w-3139, lt-w-3143, lt-w-3319, lt-w-3303, lt-w-0146, lt-w-3320, lt-w-0927, lt-w-0841, lt-w-2919, lt-w-2251, lt-w-3016, lt-w-2247, lt-w-2631, lt-w-2634, lt-w-0426, lt-w-3179]
+    can_do: ["Спрашиваю дорогу и понимаю ответ", "Покупаю билет на автобус или поезд"]
   - { id: u07, stage: A1, topic: 7, title: "Семья, внешность, характер", can_do: ["Рассказываю о своей семье", "Описываю внешность и характер человека"] }
   - { id: u08, stage: A1, topic: 5, title: "Свободное время", can_do: ["Рассказываю о хобби: что мне нравится и что нет", "Предлагаю встретиться и договариваюсь о времени"] }
   - { id: u09, stage: A1, topic: 3, title: "Погода, времена года, месяцы", can_do: ["Говорю о погоде", "Называю дату и месяц своего дня рождения"] }
