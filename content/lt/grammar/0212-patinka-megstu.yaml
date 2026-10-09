@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u08): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0212
+cefr: A1
+order: 212
+track: foundation
+title: "Мне нравится: man patinka, aš mėgstu"
+explanation:
+  ru: |
+    **Man patinka** — «мне нравится». Кому — в **дательном падеже**:
+    - **man** — мне, **tau** — тебе, **jam** — ему, **jai** — ей
+    - **mums** — нам, **jums** — вам, **jiems / joms** — им
+
+    То, что нравится, — в именительном падеже: *Man patinka **muzika**.* *Jai patinka **obuoliai**.* Глагол *patinka* — один и для одного предмета, и для многих.
+    С инфинитивом: *Man patinka **skaityti**.* — Мне нравится читать.
+    Отрицание: *Man **ne**patinka sportas.*
+
+    **Mėgti** — «любить» (занятие, еду, вещи): aš **mėgstu**, tu **mėgsti**, jis/ji **mėgsta**, mes **mėgstame**, jūs **mėgstate**, jie **mėgsta**.
+    - после *mėgti* — винительный: *Mėgstu **kavą**.* или инфинитив: *Mėgstu **skaityti**.*
+    - с отрицанием — родительный: *Nemėgstu **kavos**.*
+
+    Людей «любят» другим глаголом — *mylėti*: *Aš tave myliu.*
+comparison:
+  ru: |
+    *Man patinka* устроено как русское «мне нравится»: «мне» и *man* — в дательном падеже, предмет — в именительном. *Mėgti* — как «любить» про еду и занятия, но не про людей.
+examples:
+  - { text: "Man patinka jūra.", translation: "Мне нравится море.", source: "tatoeba:13756863" }
+  - { text: "Tau patinka šokti?", translation: "Тебе нравится танцевать?", source: "tatoeba:10951750" }
+  - { text: "Jam patinka tigrai.", translation: "Он любит тигров.", source: "tatoeba:2630770" }
+  - { text: "Ji mėgsta kavą.", translation: "Она любит кофе.", source: "tatoeba:10711641" }
+  - { text: "Aš mėgstu lietų.", translation: "Я люблю дождь.", source: "tatoeba:8356827" }
+exercises:
+  - type: cloze
+    text: "___ patinka muzika."
+    answer: "man"
+    hint: "мне"
+    translation: "Мне нравится музыка."
+  - type: cloze
+    text: "Ar ___ patinka futbolas?"
+    answer: "tau"
+    hint: "тебе"
+    translation: "Тебе нравится футбол?"
+  - type: cloze
+    text: "___ patinka šokti."
+    answer: "jai"
+    hint: "ей"
+    translation: "Ей нравится танцевать."
+  - type: cloze
+    text: "Mums ___ šis filmas."
+    answer: "patinka"
+    hint: "patikti"
+    translation: "Нам нравится этот фильм."
+  - type: cloze
+    text: "Aš ___ skaityti."
+    answer: "mėgstu"
+    hint: "mėgti"
+    translation: "Я люблю читать."
+  - type: cloze
+    text: "Jis mėgsta ___."
+    answer: "krepšinį"
+    hint: "krepšinis"
+    translation: "Он любит баскетбол."
+  - type: cloze
+    text: "Aš nemėgstu ___."
+    answer: "arbatos"
+    hint: "arbata"
+    translation: "Я не люблю чай."
+  - type: cloze
+    text: "Ar jūs ___ keliauti?"
+    answer: "mėgstate"
+    hint: "mėgti"
+    translation: "Вы любите путешествовать?"

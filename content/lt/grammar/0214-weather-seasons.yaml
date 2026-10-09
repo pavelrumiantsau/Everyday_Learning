@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u09): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0214
+cefr: A1
+order: 214
+track: foundation
+title: "Погода и времена года: lyja, sninga, šalta; žiemą, vasarą"
+explanation:
+  ru: |
+    **Погода** — короткие предложения без подлежащего, как в русском:
+    - **Lyja.** — Идёт дождь. **Sninga.** — Идёт снег.
+    - **Šalta.** — Холодно. **Šilta.** — Тепло. **Karšta.** — Жарко.
+    - **Pučia vėjas.** — Дует ветер. **Šviečia saulė.** — Светит солнце.
+    - *Koks šiandien oras?* — Какая сегодня погода?
+
+    **Мне холодно:** *Man šalta.* — кому — в дательном падеже, как в *man patinka*.
+
+    **Когда? Времена года и месяцы** — в винительном падеже, без предлога:
+    - **žiemą** — зимой, **pavasarį** — весной, **vasarą** — летом, **rudenį** — осенью
+    - месяцы: *sausį, vasarį, kovą, balandį, gegužę, birželį, liepą, rugpjūtį, rugsėjį, spalį, lapkritį, gruodį* — в январе, в феврале…
+
+    Названия месяцев в литовском свои, не латинские: *sausis* — январь, *liepa* — июль (и «липа»).
+comparison:
+  ru: |
+    «Холодно», «жарко», «идёт снег» — так же безлично: *šalta, karšta, sninga*. А «зимой», «летом» — по-литовски тоже одно слово без предлога: *žiemą, vasarą*.
+examples:
+  - { text: "Sninga.", translation: "Идёт снег.", source: "tatoeba:1283320" }
+  - { text: "Lyja ir pučia vėjas.", translation: "Идёт дождь, и дует ветер.", source: "tatoeba:10973893" }
+  - { text: "Šalta.", translation: "Холодно.", source: "tatoeba:8978040" }
+  - { text: "Jis gimė žiemą.", translation: "Он родился зимой.", source: "tatoeba:11041205" }
+  - { text: "Aš mėgstu rudenį.", translation: "Я люблю осень.", source: "tatoeba:12112736" }
+exercises:
+  - type: cloze
+    text: "Šiandien ___, paimk skėtį."
+    answer: "lyja"
+    hint: "идёт дождь"
+    translation: "Сегодня идёт дождь, возьми зонт."
+  - type: cloze
+    text: "Žiemą Lietuvoje ___."
+    answer: "šalta"
+    hint: "холодно"
+    translation: "Зимой в Литве холодно."
+  - type: cloze
+    text: "___ mes važiuojame prie jūros."
+    answer: "vasarą"
+    hint: "vasara"
+    translation: "Летом мы ездим на море."
+  - type: cloze
+    text: "___ daug lyja."
+    answer: "rudenį"
+    hint: "ruduo"
+    translation: "Осенью много дождей."
+  - type: cloze
+    text: "Man ___."
+    answer: "šalta"
+    hint: "холодно"
+    translation: "Мне холодно."
+  - type: cloze
+    text: "Koks šiandien ___?"
+    answer: "oras"
+    translation: "Какая сегодня погода?"
+  - type: cloze
+    text: "Mano gimtadienis ___."
+    answer: "gegužę"
+    hint: "gegužė"
+    translation: "Мой день рождения в мае."
+  - type: cloze
+    text: "___ šviečia saulė."
+    answer: "pavasarį"
+    hint: "pavasaris"
+    translation: "Весной светит солнце."

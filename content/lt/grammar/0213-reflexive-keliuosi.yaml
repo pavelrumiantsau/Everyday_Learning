@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u08): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0213
+cefr: A1
+order: 213
+track: foundation
+title: "Возвратные глаголы: keliuosi, prausiuosi, mokausi"
+explanation:
+  ru: |
+    Русское «-ся» по-литовски — **-si** на конце инфинитива: *keltis* — вставать, *praustis* — умываться, *rengtis* — одеваться, *mokytis* — учиться.
+
+    В настоящем времени к обычным окончаниям добавляется *-si* / *-s*:
+    - **keltis** (*keliasi*): aš keli**uosi**, tu keli**esi**, jis/ji keli**asi**, mes keli**amės**, jūs keli**atės**, jie keli**asi**
+    - **mokytis** (*mokosi*): aš mok**ausi**, tu mok**aisi**, jis/ji mok**osi**, mes mok**omės**, jūs mok**otės**, jie mok**osi**
+    - так же: *prausiuosi, prausiesi, prausiasi*; *rengiuosi, rengiesi, rengiasi*
+
+    **Важно:** если перед глаголом стоит *ne-* или приставка, **-si-** переходит **внутрь**, сразу после них, а окончание становится обычным:
+    - *keliuosi* → ne**si**keliu — не встаю
+    - *keliuosi* → at**si**keliu — встаю (проснулся и встал)
+
+    *Mokytis* + родительный: *mokausi **lietuvių kalbos*** — учу литовский язык.
+comparison:
+  ru: |
+    Как русское «-ся»: *keltis* — «подниматься», *mokytis* — «учиться». Но в русском «-ся» всегда в конце («не умываюсь»), а в литовском с *ne-* оно прыгает внутрь: *nesiprausiu*.
+examples:
+  - { text: "Aš vėlai keliuosi.", translation: "Я встаю поздно.", source: "tatoeba:11831204" }
+  - { text: "Aš prausiuosi.", translation: "Я моюсь.", source: "tatoeba:11847386" }
+  - { text: "Aš mokausi.", translation: "Я учусь.", source: "tatoeba:10350947" }
+  - { text: "Kur ji mokosi?", translation: "Где она учится?", source: "tatoeba:6006547" }
+  - { text: "Aš mokausi šokti.", translation: "Я учусь танцевать.", source: "tatoeba:13713335" }
+exercises:
+  - type: cloze
+    text: "Aš ___ septintą valandą."
+    answer: "keliuosi"
+    hint: "keltis"
+    translation: "Я встаю в семь часов."
+  - type: cloze
+    text: "Ar tu ___ lietuvių kalbos?"
+    answer: "mokaisi"
+    hint: "mokytis"
+    translation: "Ты учишь литовский язык?"
+  - type: cloze
+    text: "Jis ___ vonioje."
+    answer: "prausiasi"
+    hint: "praustis"
+    translation: "Он умывается в ванной."
+  - type: cloze
+    text: "Mes ___ lietuvių kalbos."
+    answer: "mokomės"
+    hint: "mokytis"
+    translation: "Мы учим литовский язык."
+  - type: cloze
+    text: "Ji greitai ___."
+    answer: "rengiasi"
+    hint: "rengtis"
+    translation: "Она быстро одевается."
+  - type: cloze
+    text: "Aš ___ anksti."
+    answer: "nesikeliu"
+    hint: "keltis, с отрицанием"
+    translation: "Я не встаю рано."
+  - type: cloze
+    text: "Kada jūs ___?"
+    answer: "keliatės"
+    hint: "keltis"
+    translation: "Когда вы встаёте?"
+  - type: cloze
+    text: "Vaikai ___ mokykloje."
+    answer: "mokosi"
+    hint: "mokytis"
+    translation: "Дети учатся в школе."

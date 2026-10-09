@@ -1,0 +1,72 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u07): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0210
+cefr: A1
+order: 210
+track: foundation
+title: "У меня есть: turiu brolį; mano, tavo, jo, jos"
+explanation:
+  ru: |
+    «У меня есть» по-литовски — глагол **turėti** («иметь»): *Aš **turiu** brolį.* — У меня есть брат.
+    - aš **turiu**, tu **turi**, jis/ji **turi**, mes **turime**, jūs **turite**, jie/jos **turi**
+
+    После *turėti* — винительный падеж: *turiu brolį, seserį, sūnų, dukterį, katę, šunį*.
+    С отрицанием — родительный: *Aš **neturiu** brolio.* — У меня нет брата.
+
+    **Чей?** Притяжательные слова не меняются:
+    - **mano** — мой, моя; **tavo** — твой; **jo** — его; **jos** — её
+    - **mūsų** — наш; **jūsų** — ваш; **jų** — их
+
+    *Mano brolis, mano sesuo, mano vaikai* — одно и то же *mano*.
+comparison:
+  ru: |
+    По-русски «у меня есть», по-литовски «я имею»: *turiu*. А *mano, tavo, jo, jos* — как русские «его», «её»: не меняются ни по роду, ни по падежу.
+examples:
+  - { text: "Aš turiu seserį.", translation: "У меня есть сестра.", source: "tatoeba:12220383" }
+  - { text: "Aš turiu šunį ir katę.", translation: "У меня есть собака и кошка.", source: "tatoeba:13207217" }
+  - { text: "Aš neturiu brolio.", translation: "У меня нет брата.", source: "tatoeba:3954170" }
+  - { text: "Jis neturi automobilio.", translation: "У него нет машины.", source: "tatoeba:13070247" }
+  - { text: "Tavo duktė dirba?", translation: "Твоя дочь работает?", source: "tatoeba:9754299" }
+exercises:
+  - type: cloze
+    text: "Aš ___ brolį."
+    answer: "turiu"
+    hint: "turėti"
+    translation: "У меня есть брат."
+  - type: cloze
+    text: "Ar tu ___ seserį?"
+    answer: "turi"
+    hint: "turėti"
+    translation: "У тебя есть сестра?"
+  - type: cloze
+    text: "Mes turime ___."
+    answer: "sūnų"
+    hint: "sūnus"
+    translation: "У нас есть сын."
+  - type: cloze
+    text: "Jie neturi ___."
+    answer: "vaikų"
+    hint: "vaikai (мн. ч.)"
+    translation: "У них нет детей."
+  - type: cloze
+    text: "Aš neturiu ___."
+    answer: "brolio"
+    hint: "brolis"
+    translation: "У меня нет брата."
+  - type: cloze
+    text: "___ vardas Jonas."
+    answer: "mano"
+    hint: "мой"
+    translation: "Меня зовут Йонас."
+  - type: cloze
+    text: "Kur ___ mama?"
+    answer: "tavo"
+    hint: "твой"
+    translation: "Где твоя мама?"
+  - type: cloze
+    text: "Rasa yra ___ žmona."
+    answer: "jo"
+    hint: "его"
+    translation: "Раса — его жена."

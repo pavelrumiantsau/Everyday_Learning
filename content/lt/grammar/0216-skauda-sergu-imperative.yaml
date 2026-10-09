@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u10): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0216
+cefr: A1
+order: 216
+track: foundation
+title: "У меня болит: man skauda galvą; sergu; gerk, gerkite"
+explanation:
+  ru: |
+    **Что болит?** — *Man skauda* + **винительный падеж**:
+    - *Man skauda **galvą**.* — У меня болит голова.
+    - *Jam skauda **pilvą** / **gerklę** / **dantį** / **nugarą** / **koją**.*
+    - *Kas jums skauda?* — Что у вас болит?
+
+    **Болеть (быть больным)** — *sirgti*: aš **sergu**, tu **sergi**, jis/ji **serga**. *Aš sergu.* — Я болен (больна).
+
+    **Как я себя чувствую:** *Jaučiuosi gerai / blogai.* — Чувствую себя хорошо / плохо.
+
+    **Просьба, совет (повелительное наклонение):** от инфинитива убираем *-ti* и добавляем **-k** (на «ты») или **-kite** (на «вы»):
+    - gerti → **gerk**, **gerkite** — пей(те)
+    - valgyti → **valgyk**, **valgykite** — ешь(те)
+    - eiti → **eik**, **eikite** — иди(те)
+    - kalbėti → **kalbėk**, **kalbėkite** — говори(те)
+
+    Пожелание больному: ***Pasveik!*** / ***Pasveikite!*** — Выздоравливай(те)!
+comparison:
+  ru: |
+    По-русски «у меня болит голова» — голова в именительном. По-литовски — в винительном: *man skauda galv**ą***. Повелительное легко: всегда *-k / -kite*: *gerk — gerkite*.
+examples:
+  - { text: "Man skauda galvą.", translation: "Голова у меня болит.", source: "tatoeba:2153648" }
+  - { text: "Man skauda pilvą.", translation: "У меня болит живот.", source: "tatoeba:2191866" }
+  - { text: "Man skauda dantį.", translation: "У меня зуб болит.", source: "tatoeba:11334849" }
+  - { text: "Jis serga.", translation: "Он болен.", source: "tatoeba:1666712" }
+  - { text: "Valgyk!", translation: "Ешь!", source: "tatoeba:12403135" }
+exercises:
+  - type: cloze
+    text: "Man skauda ___."
+    answer: "galvą"
+    hint: "galva"
+    translation: "У меня болит голова."
+  - type: cloze
+    text: "Jai skauda ___."
+    answer: "gerklę"
+    hint: "gerklė"
+    translation: "У неё болит горло."
+  - type: cloze
+    text: "Vaikui skauda ___."
+    answer: "pilvą"
+    hint: "pilvas"
+    translation: "У ребёнка болит живот."
+  - type: cloze
+    text: "Aš ___, šiandien nedirbu."
+    answer: "sergu"
+    hint: "sirgti"
+    translation: "Я болею, сегодня не работаю."
+  - type: cloze
+    text: "___ daug vandens!"
+    answer: "gerk"
+    hint: "gerti, на «ты»"
+    translation: "Пей много воды!"
+  - type: cloze
+    text: "___ vaistus du kartus per dieną."
+    answer: "gerkite"
+    hint: "gerti, на «вы»"
+    translation: "Принимайте лекарство два раза в день."
+  - type: cloze
+    text: "___ namo ir pailsėk."
+    answer: "eik"
+    hint: "eiti, на «ты»"
+    translation: "Иди домой и отдохни."
+  - type: cloze
+    text: "Kas jums ___?"
+    answer: "skauda"
+    translation: "Что у вас болит?"

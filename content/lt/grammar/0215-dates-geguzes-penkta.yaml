@@ -1,0 +1,74 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u09): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0215
+cefr: A1
+order: 215
+track: foundation
+title: "Даты: Kada tavo gimtadienis? — Gegužės penktą dieną"
+explanation:
+  ru: |
+    «Пятого мая» по-литовски — три части:
+    1. **месяц в родительном падеже**: *gegužės*
+    2. **порядковое числительное** в винительном падеже женского рода (ведь *diena* — женского рода): *penktą*
+    3. **dieną**
+
+    → ***Gegužės penktą dieną.*** — Пятого мая.
+
+    **Месяцы в родительном падеже:** sausio, vasario, kovo, balandžio, gegužės, birželio, liepos, rugpjūčio, rugsėjo, spalio, lapkričio, gruodžio.
+
+    **Порядковые (винительный, ж. р.):** pirmą, antrą, trečią, ketvirtą, penktą, šeštą, septintą, aštuntą, devintą, dešimtą, vienuoliktą, dvyliktą… dvidešimtą, dvidešimt pirmą… trisdešimtą, trisdešimt pirmą.
+
+    **На письме** дату сокращают: *gegužės 5 d.* (*d.* = *dieną / diena*), с годом: *2026 m. gegužės 5 d.* — в анкетах и на экзамене дату пишут именно так.
+
+    - *Kada tavo gimtadienis?* — Когда у тебя день рождения?
+    - *Gimiau balandžio dvidešimtą dieną.* — Я родился(-лась) двадцатого апреля.
+comparison:
+  ru: |
+    Почти как русское «пятого мая»: месяц в родительном (*gegužės* — «мая»). Разница в порядке: литовцы говорят сначала месяц, потом число, и добавляют *dieną*.
+examples:
+  - { text: "Rytoj yra mano gimtadienis.", translation: "Завтра мой день рожденья.", source: "tatoeba:10592428" }
+  - { text: "Rytoj jos gimtadienis.", translation: "Завтра её день рождения.", source: "tatoeba:2169924" }
+  - { text: "Tomas gimė 2010 metais gegužės 5-ą dieną.", translation: "Том родился 5 мая 2010 года.", source: "tatoeba:11531745" }
+  - { text: "Šiandien yra 2016 m. lapkričio 23 d.", translation: "Сегодня 23 ноября 2016 года.", source: "tatoeba:12464224" }
+  - { text: "Ji gimė liepos septynioliktą dieną šeštą valandą ryto.", translation: "Она родилась семнадцатого июля в шесть часов утра.", source: "tatoeba:7787710" }
+exercises:
+  - type: cloze
+    text: "Mano gimtadienis ___ penktą dieną."
+    answer: "gegužės"
+    hint: "gegužė"
+    translation: "Мой день рождения пятого мая."
+  - type: cloze
+    text: "Gimiau ___ dešimtą dieną."
+    answer: "sausio"
+    hint: "sausis"
+    translation: "Я родился десятого января."
+  - type: cloze
+    text: "Egzaminas yra spalio ___ dieną."
+    answer: "antrą"
+    hint: "2"
+    translation: "Экзамен второго октября."
+  - type: cloze
+    text: "Kada tavo ___?"
+    answer: "gimtadienis"
+    translation: "Когда у тебя день рождения?"
+  - type: cloze
+    text: "Jis gimė ___ trečią dieną."
+    answer: "liepos"
+    hint: "liepa"
+    translation: "Он родился третьего июля."
+  - type: cloze
+    text: "Susitinkame birželio ___ dieną."
+    answer: "pirmą"
+    hint: "1"
+    translation: "Встречаемся первого июня."
+  - type: cloze
+    text: "Ji gimė ___ dvidešimtą dieną."
+    answer: "rugsėjo"
+    hint: "rugsėjis"
+    translation: "Она родилась двадцатого сентября."
+  - type: cloze
+    text: "Gimiau gruodžio dvyliktą ___."
+    answer: "dieną"
+    translation: "Я родился двенадцатого декабря."

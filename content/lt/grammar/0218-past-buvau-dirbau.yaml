@@ -1,0 +1,75 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u12): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0218
+cefr: A1
+order: 218
+track: foundation
+title: "Прошедшее время: buvau, dirbau, valgiau, mokiausi"
+explanation:
+  ru: |
+    Ключ к прошедшему времени — **третья форма на карточке глагола**: *dirbti — dirba — **dirbo***. По её окончанию — два типа: **-o** и **-ė**.
+
+    **Тип -o** (*dirbo, buvo, gyveno*):
+    - aš dirb**au**, tu dirb**ai**, jis/ji dirb**o**, mes dirb**ome**, jūs dirb**ote**, jie dirb**o**
+    - *būti*: **buvau**, buvai, buvo, buvome, buvote, buvo
+
+    **Тип -ė** (*valgė, gėrė*):
+    - aš valg**iau**, tu valg**ei**, jis/ji valg**ė**, mes valg**ėme**, jūs valg**ėte**, jie valg**ė**
+
+    **Возвратные:** *mokytis — mokėsi*: aš **mokiausi**, tu mokeisi, jis mokėsi, mes mokėmės, jūs mokėtės.
+
+    Отрицание — *ne-* слитно: *nebuvau, nedirbau*. В третьем лице «не было»: *Jo nebuvo namie.* — Его не было дома.
+
+    *Vakar buvau kine.* — Вчера я был(а) в кино. Род не важен: *buvau* говорит и мужчина, и женщина.
+comparison:
+  ru: |
+    В русском прошедшее время различает род: «был — была». В литовском нет: *buvau* — и «я был», и «я была». Зато есть лицо: *buvau, buvai, buvo*.
+examples:
+  - { text: "Vakar buvau kine.", translation: "Вчера я был в кино.", source: "tatoeba:6018266" }
+  - { text: "Ji dirbo viena.", translation: "Она работала одна.", source: "tatoeba:12290601" }
+  - { text: "Jis gyveno saloje.", translation: "Он жил на острове.", source: "tatoeba:10706036" }
+  - { text: "Tomas valgė žuvį.", translation: "Том ел рыбу.", source: "tatoeba:10781310" }
+  - { text: "Vakar aš sirgau.", translation: "Вчера я болел.", source: "tatoeba:12767140" }
+exercises:
+  - type: cloze
+    text: "Vakar aš ___ namie."
+    answer: "buvau"
+    hint: "būti"
+    translation: "Вчера я был дома."
+  - type: cloze
+    text: "Anksčiau jis ___ banke."
+    answer: "dirbo"
+    hint: "dirbti"
+    translation: "Раньше он работал в банке."
+  - type: cloze
+    text: "Mes ___ Kaune penkerius metus."
+    answer: "gyvenome"
+    hint: "gyventi (gyveno)"
+    translation: "Мы жили в Каунасе пять лет."
+  - type: cloze
+    text: "Ką tu ___ pusryčiams?"
+    answer: "valgei"
+    hint: "valgyti (valgė)"
+    translation: "Что ты ел на завтрак?"
+  - type: cloze
+    text: "Aš ___ universitete Maskvoje."
+    answer: "mokiausi"
+    hint: "mokytis (mokėsi)"
+    translation: "Я учился в университете в Москве."
+  - type: cloze
+    text: "Ar jūs ___ Lietuvoje?"
+    answer: "buvote"
+    hint: "būti"
+    translation: "Вы были в Литве?"
+  - type: cloze
+    text: "Vakar aš ___ kavos."
+    answer: "negėriau"
+    hint: "gerti (gėrė), с отрицанием"
+    translation: "Вчера я не пил кофе."
+  - type: cloze
+    text: "Jo ___ darbe."
+    answer: "nebuvo"
+    hint: "būti, с отрицанием"
+    translation: "Его не было на работе."

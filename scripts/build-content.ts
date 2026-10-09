@@ -125,6 +125,14 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
   texts.push(text);
 }
 
+// Foundation course (docs/EXTENSION-PLAN.md §6.8): explained in Russian only — colleagues may not know Ukrainian or Belarusian.
+const NOT_FOR_FOUNDATION = /украин|белорус|ukrain|belarus/i;
+for (const x of [...items, ...lessons, ...texts] as { id: string; track?: string }[]) {
+  if (x.track === "foundation" && NOT_FOR_FOUNDATION.test(JSON.stringify(x))) {
+    errors.push(`${x.id}: foundation content mentions Ukrainian/Belarusian (Russian-only comparisons, EXTENSION-PLAN §6.8)`);
+  }
+}
+
 // The same word must not be taught twice (e.g. two batches picking different forms of one lemma).
 const byText = new Map<string, string>();
 for (const item of items) {

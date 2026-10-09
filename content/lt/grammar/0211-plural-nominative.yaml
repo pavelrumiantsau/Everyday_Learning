@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u07): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0211
+cefr: A1
+order: 211
+track: foundation
+title: "Множественное число: broliai, draugai, knygos, seserys"
+explanation:
+  ru: |
+    **Именительный падеж множественного числа** (кто? что? — много):
+    - *-as* → **-ai**: draugas → draugai, vaikas → vaikai, tėvas → **tėvai** (это ещё и «родители»)
+    - *-is, -ys* → **-iai**: brolis → broliai, kambarys → kambariai
+    - *-us* → **-ūs**: sūnus → sūnūs
+    - *-a* → **-os**: mama → mamos, knyga → knygos
+    - *-ė* → **-ės**: lietuvė → lietuvės, kėdė → kėdės
+    - *-is* (женский род) → **-ys**: akis → akys, naktis → naktys
+    - запомнить: sesuo → **seserys**, duktė → **dukterys**
+
+    Глагол при *jie, jos* — та же форма, что при *jis, ji*: *Broliai dirba.* — Братья работают.
+
+    Есть слова только во множественном числе: *durys* (дверь), *kelnės* (брюки), *marškiniai* (рубашка), *pietūs* (обед).
+comparison:
+  ru: |
+    Как и в русском, «брюки» — только во множественном: *kelnės*. А вот «дверь» и «рубашка» по-литовски тоже множественные: *durys, marškiniai*.
+examples:
+  - { text: "Mes broliai.", translation: "Мы братья.", source: "tatoeba:3953627" }
+  - { text: "Jos seserys.", translation: "Они сёстры.", source: "tatoeba:12144571" }
+  - { text: "Tai draugai.", translation: "Это друзья.", source: "tatoeba:11555818" }
+  - { text: "Kur yra tėvai?", translation: "Где родители?", source: "tatoeba:12119876" }
+  - { text: "Jūs broliai?", translation: "Вы братья?", source: "tatoeba:3953626" }
+exercises:
+  - type: cloze
+    text: "Mano ___ gyvena Kaune."
+    answer: "draugai"
+    hint: "draugas → мн. ч."
+    translation: "Мои друзья живут в Каунасе."
+  - type: cloze
+    text: "Ar tavo ___ namie?"
+    answer: "tėvai"
+    hint: "tėvas → мн. ч. (родители)"
+    translation: "Твои родители дома?"
+  - type: cloze
+    text: "Jo ___ dirba banke."
+    answer: "broliai"
+    hint: "brolis → мн. ч."
+    translation: "Его братья работают в банке."
+  - type: cloze
+    text: "Mūsų ___ mokosi mokykloje."
+    answer: "vaikai"
+    hint: "vaikas → мн. ч."
+    translation: "Наши дети учатся в школе."
+  - type: cloze
+    text: "Čia yra ___."
+    answer: "knygos"
+    hint: "knyga → мн. ч."
+    translation: "Здесь книги."
+  - type: cloze
+    text: "Mano ___ yra studentės."
+    answer: "seserys"
+    hint: "sesuo → мн. ч."
+    translation: "Мои сёстры — студентки."
+  - type: cloze
+    text: "Jos ___ mėlynos."
+    answer: "akys"
+    hint: "akis → мн. ч."
+    translation: "У неё голубые глаза."
+  - type: cloze
+    text: "Kur mano ___?"
+    answer: "kelnės"
+    hint: "брюки"
+    translation: "Где мои брюки?"

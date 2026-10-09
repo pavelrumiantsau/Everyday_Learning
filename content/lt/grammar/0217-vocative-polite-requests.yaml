@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u11): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0217
+cefr: A1
+order: 217
+track: foundation
+title: "Обращение и вежливые просьбы: Jonai! Gal galėtumėte…?"
+explanation:
+  ru: |
+    **Звательная форма** (*šauksmininkas*) — когда обращаемся к человеку. Имена меняются:
+    - *-as* → **-ai**: Jonas → **Jonai**, Tomas → **Tomai**
+    - *-is* → **-i**: Kęstutis → **Kęstuti**
+    - *-ius* → **-iau**: Paulius → **Pauliau**
+    - *-ė* → **-e**: Eglė → **Egle**
+    - *-a* — без изменений: Rasa → **Rasa**
+    - *ponas* → **pone**: *Laba diena, pone Jonai!* — *ponia* не меняется: *ponia Rasa*
+
+    **Вежливая просьба:**
+    - ***Gal galėtumėte** padėti?* — Не могли бы вы помочь?
+    - *Ar negalėtumėte…?* — то же, ещё мягче
+
+    **Если не поняли** (на экзамене это нормально и даже нужно!):
+    - *Gal galėtumėte **pakartoti**?* — Не могли бы вы повторить?
+    - *Kalbėkite **lėčiau**, prašau.* — Говорите медленнее, пожалуйста.
+    - *Ką reiškia «…»?* — Что значит «…»?
+    - *Atsiprašau, nesupratau.* — Извините, я не понял(а).
+comparison:
+  ru: |
+    Звательная форма похожа на разговорное русское «Мам!», «Петь!», только в литовском она обязательна: к Йонасу обращаются *Jonai*, а не *Jonas*.
+examples:
+  - { text: "Ačiū, Tomai.", translation: "Спасибо, Том.", source: "tatoeba:10460678" }
+  - { text: "Ar jūs negalėtumėte padėti?", translation: "Не могли бы вы помочь?", source: "tatoeba:12621655" }
+  - { text: "Ar negalėtumėte kalbėti lėčiau?", translation: "Вы не могли бы говорить помедленнее?", source: "tatoeba:1501606" }
+  - { text: "Prašau, kalbėk lėčiau.", translation: "Говори медленнее, пожалуйста.", source: "tatoeba:10877109" }
+  - { text: "Palaukite!", translation: "Подождите!", source: "tatoeba:7946856" }
+exercises:
+  - type: cloze
+    text: "Labas, ___!"
+    answer: "Jonai"
+    hint: "Jonas"
+    translation: "Привет, Йонас!"
+  - type: cloze
+    text: "Ačiū, ___!"
+    answer: "Egle"
+    hint: "Eglė"
+    translation: "Спасибо, Эгле!"
+  - type: cloze
+    text: "Iki pasimatymo, ___!"
+    answer: "Pauliau"
+    hint: "Paulius"
+    translation: "До свидания, Паулюс!"
+  - type: cloze
+    text: "Labas rytas, ___!"
+    answer: "Rasa"
+    hint: "Rasa"
+    translation: "Доброе утро, Раса!"
+  - type: cloze
+    text: "Laba diena, ___ Petrai!"
+    answer: "pone"
+    hint: "ponas"
+    translation: "Добрый день, господин Пятрас!"
+  - type: cloze
+    text: "___ galėtumėte padėti?"
+    answer: "gal"
+    translation: "Не могли бы вы помочь?"
+  - type: cloze
+    text: "Gal galėtumėte ___?"
+    answer: "pakartoti"
+    hint: "повторить"
+    translation: "Не могли бы вы повторить?"
+  - type: cloze
+    text: "Kalbėkite ___, prašau."
+    answer: "lėčiau"
+    hint: "медленнее"
+    translation: "Говорите медленнее, пожалуйста."
