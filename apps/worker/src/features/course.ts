@@ -7,11 +7,12 @@
 //                                        the unit counted as passed
 import { currentUnit, PASS_PERCENT, UNIT_CHECK_SIZE, unitProgress, type CourseUnit, type UnitState } from "@el/core";
 import { Hono } from "hono";
-import { COURSE, ITEM_BY_ID, LESSON_BY_ID, TEXT_BY_ID } from "../content";
+import { COURSE, ITEM_BY_ID, LESSON_BY_ID, TASK_BY_ID, TEXT_BY_ID } from "../content";
 import { Db } from "../db";
 import type { Feature } from "../feature";
 import { onFoundation } from "../profile";
 import { savePlacement } from "./placement";
+import { bestScores } from "./tasks";
 
 async function unitState(db: Db, d1: D1Database): Promise<UnitState> {
   const [introduced, learned, lessons, texts, checks] = await Promise.all([
@@ -53,7 +54,12 @@ api.get("/course/units/:id", async (c) => {
   });
   const lessons = u.lessons.map((id) => ({ id, title: LESSON_BY_ID.get(id)?.title ?? id, done: state.lessonsDone.has(id) }));
   const texts = u.texts.map((id) => ({ id, title: TEXT_BY_ID.get(id)?.title ?? id, read: state.textsRead.has(id) }));
-  return c.json({ unit: { id: u.id, stage: u.stage, title: u.title, can_do: u.can_do }, words, lessons, texts, progress: unitProgress(u, state) });
+  const best = await bestScores(c.env.DB);
+  const tasks = u.tasks.flatMap((id) => {
+    const t = TASK_BY_ID.get(id);
+    return t ? [{ id, kind: t.kind, title: t.title, best: best.get(id) ?? null }] : [];
+  });
+  return c.json({ unit: { id: u.id, stage: u.stage, title: u.title, can_do: u.can_do }, words, lessons, texts, tasks, progress: unitProgress(u, state) });
 });
 
 api.post("/course/units/:id/check", async (c) => {

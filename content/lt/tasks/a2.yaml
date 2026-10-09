@@ -1,0 +1,322 @@
+# Writing tasks and speaking situations of the Lithuanian foundation course (docs/EXTENSION-PLAN.md §6.5).
+# Format: packages/core/src/tasks.ts → Task. Written with Claude Code, modelled on the A1–A2 exam task types (not copied).
+# The learner answers in the bot chat; the AI scores the answer 0–3 against the checklist. track: foundation.
+- id: lt-t-0013
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Краткая биография"
+  situation: "Для работы нужна ваша короткая биография. Напишите, где и когда вы родились, где учились, где работали и где работаете сейчас, о семье."
+  prompt: "Parašykite trumpą savo biografiją."
+  words: [40, 70]
+  checklist:
+    - "Где и когда родились"
+    - "Учёба"
+    - "Работа раньше и сейчас"
+    - "Семья"
+  example: "Esu gimęs 1988 metais Minske. Ten baigiau mokyklą ir studijavau informatiką. Nuo 2012 metų dirbau programuotoju Varšuvoje. 2020 metais su šeima atvažiavau į Lietuvą. Dabar dirbu IT įmonėje Vilniuje. Esu vedęs, turime dukterį."
+- id: lt-s-0013
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Ваша биография"
+  situation: "Расскажите экзаменатору о себе в прошлом: где вы родились, где учились, где жили и работали, когда приехали в Литву."
+  prompt: "Papasakokite savo biografiją."
+  checklist:
+    - "Где родились"
+    - "Учёба"
+    - "Работа"
+    - "Когда и почему приехали в Литву"
+  example: "Gimiau 1990 metais Kijeve. Ten mokiausi mokykloje ir universitete. Paskui dirbau banke. Prieš trejus metus atvažiavau į Lietuvą, nes mano vyras gavo darbą Vilniuje. Dabar dirbu ir mokausi lietuvių kalbos."
+- id: lt-t-0014
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Записка соседям"
+  situation: "Через неделю у вас ремонт. Напишите записку соседям: когда будет шумно, извинитесь, оставьте телефон."
+  prompt: "Parašykite raštelį kaimynams apie remontą."
+  words: [30, 60]
+  checklist:
+    - "Обращение"
+    - "Когда ремонт и когда шумно"
+    - "Извинение"
+    - "Контакт"
+  example: "Mieli kaimynai, kitą šeštadienį mūsų bute bus remontas. Nuo devintos iki šeštos valandos gali būti triukšminga. Atsiprašome už nepatogumus! Jeigu turite klausimų, skambinkite: +370 611 22333. Andrius ir Olga, 7 butas"
+- id: lt-s-0014
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Звонок хозяину квартиры"
+  situation: "У вас в съёмной квартире сломался холодильник и не работает отопление. Позвоните хозяину: объясните проблему, попросите прийти, договоритесь о времени."
+  prompt: "Paskambinkite buto savininkui."
+  checklist:
+    - "Приветствие, кто звонит"
+    - "Что сломалось"
+    - "Просьба прийти или прислать мастера"
+    - "Договориться о времени"
+  example: "Laba diena, čia Olga iš jūsų buto Žirmūnuose. Sugedo šaldytuvas, ir neveikia šildymas. Bute labai šalta. Gal galėtumėte atvažiuoti arba atsiųsti meistrą? Ar galite rytoj po pietų?"
+- id: lt-t-0015
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Письмо о поездке"
+  situation: "Вы были на выходных в другом городе Литвы. Напишите другу: где были, какая была погода, что видели, советуете ли поехать."
+  prompt: "Parašykite draugui laišką apie savo kelionę."
+  words: [40, 70]
+  checklist:
+    - "Где вы были"
+    - "Погода"
+    - "Что видели и делали"
+    - "Совет другу"
+  example: "Labas, Jonai! Praeitą savaitgalį buvau Klaipėdoje. Oras buvo saulėtas, bet pūtė stiprus vėjas. Vaikščiojau po senamiestį, buvau prie jūros ir Kuršių nerijoje. Klaipėda mažesnė už Vilnių, bet labai graži. Būtinai važiuok ten vasarą!"
+- id: lt-s-0015
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Город или деревня"
+  situation: "Сравните жизнь в городе и в деревне: где удобнее, где спокойнее, где бы вы хотели жить и почему."
+  prompt: "Palyginkite gyvenimą mieste ir kaime."
+  checklist:
+    - "Что лучше в городе"
+    - "Что лучше в деревне"
+    - "Сравнение (už, negu, -esnis)"
+    - "Где хотели бы жить и почему"
+  example: "Mieste gyventi patogiau, nes čia yra daugiau parduotuvių, darbo ir transporto. Kaime ramiau ir švariau negu mieste. Miestas triukšmingesnis už kaimą. Aš norėčiau gyventi kaime prie ežero, bet dirbti mieste."
+- id: lt-t-0016
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Раньше и сейчас"
+  situation: "Напишите, как изменилась ваша жизнь: что вы обычно делали раньше и что делаете сейчас."
+  prompt: "Parašykite, kaip pasikeitė jūsų gyvenimas."
+  words: [40, 70]
+  checklist:
+    - "Что вы обычно делали раньше (-davo)"
+    - "Что делаете сейчас"
+    - "Что лучше и почему"
+  example: "Anksčiau gyvendavau Maskvoje ir dirbdavau labai daug. Kiekvieną dieną važiuodavau į darbą metro valandą. Vakarais būdavau pavargęs. Dabar gyvenu Kaune, į darbą einu pėsčiomis. Turiu daugiau laiko šeimai ir sportui. Dabar gyvenu geriau."
+- id: lt-s-0016
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Детство"
+  situation: "Расскажите, что вы обычно делали в детстве: где проводили лето, во что играли, что делали вечерами."
+  prompt: "Papasakokite apie savo vaikystę."
+  checklist:
+    - "Где проводили время"
+    - "Во что играли"
+    - "Что делали вечером"
+    - "Многократное прошедшее (-davo)"
+  example: "Vaikystėje kiekvieną vasarą važiuodavau pas močiutę į kaimą. Su draugais žaisdavome futbolą ir maudydavomės upėje. Vakarais močiutė kepdavo blynus, o mes skaitydavome knygas."
+- id: lt-t-0017
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Приглашение на день рождения"
+  situation: "Пригласите друзей на свой день рождения: когда и где, что будет, что принести, до какого числа ответить."
+  prompt: "Pakvieskite draugus į savo gimtadienį."
+  words: [40, 70]
+  checklist:
+    - "Когда и где"
+    - "Что будет"
+    - "Что принести или не нужно"
+    - "До какого числа ответить"
+  example: "Mieli draugai, kviečiu jus į savo gimtadienį! Šventė bus šeštadienį, gegužės 20 d., 18 val. mūsų sode. Bus šašlykai, muzika ir tortas. Dovanų nereikia, bet galite atsinešti gerą nuotaiką. Prašau atsakyti iki gegužės 15 d. Rūta"
+- id: lt-s-0017
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Договоритесь о встрече"
+  situation: "Предложите другу пойти куда-нибудь на выходных. Предложите два варианта, договоритесь о времени и месте."
+  prompt: "Susitarkite su draugu susitikti savaitgalį."
+  checklist:
+    - "Предложение (gal galėtume / einam)"
+    - "Два варианта"
+    - "Время"
+    - "Место"
+  example: "Labas! Gal galėtume savaitgalį kur nors nueiti? Šeštadienį parke bus koncertas, o sekmadienį galime eiti į kiną. Kas tau labiau patiktų? Jeigu nori į koncertą, susitikime šeštą prie parko vartų."
+- id: lt-t-0018
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Бронирование гостиницы"
+  situation: "Напишите письмо в гостиницу: какие даты, какой номер, сколько человек, и задайте два вопроса (завтрак, парковка)."
+  prompt: "Parašykite laišką viešbučiui."
+  words: [40, 70]
+  checklist:
+    - "Даты"
+    - "Номер и сколько человек"
+    - "Два вопроса"
+    - "Вежливое начало и конец"
+  example: "Laba diena, norėčiau užsisakyti dviejų asmenų kambarį nuo liepos 5 iki 8 d. Ar kaina su pusryčiais? Ar viešbutyje yra automobilių stovėjimo aikštelė? Prašau atsakyti šiuo el. paštu. Su pagarba, Irina Sokolova"
+- id: lt-s-0018
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "На вокзале"
+  situation: "Вы покупаете билет на поезд в Клайпеду. Спросите, когда отправляется поезд, с какой платформы, сколько стоит билет и есть ли скидка."
+  prompt: "Nusipirkite traukinio bilietą."
+  checklist:
+    - "Куда и когда едете"
+    - "Время отправления"
+    - "Платформа"
+    - "Цена или скидка"
+  example: "Laba diena. Norėčiau bilieto į Klaipėdą rytoj ryte. Kada išvyksta traukinys? Iš kurio perono? Kiek kainuoja bilietas? Ar yra nuolaida studentams?"
+- id: lt-t-0019
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Поздравление"
+  situation: "Ваш коллега женится. Напишите поздравление: поздравьте, пожелайте, подпишитесь."
+  prompt: "Parašykite sveikinimą kolegai."
+  words: [30, 60]
+  checklist:
+    - "Обращение"
+    - "Поздравление (sveikinu su…)"
+    - "Пожелания (linkiu…)"
+    - "Подпись"
+  example: "Mielas Tomai, nuoširdžiai sveikinu Tave su vestuvėmis! Linkiu Jums daug meilės, laimės ir sveikatos. Tegul Jūsų namuose visada būna šilta ir linksma. Tavo kolega Andrejus"
+- id: lt-s-0019
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Как вы познакомились"
+  situation: "Расскажите о своём близком друге или подруге: как и когда вы познакомились, какой он человек, что вы делаете вместе."
+  prompt: "Papasakokite apie savo draugą."
+  checklist:
+    - "Как и когда познакомились"
+    - "Какой он (характер)"
+    - "Что делаете вместе"
+  example: "Mano geriausia draugė yra Lina. Mes susipažinome prieš penkerius metus darbe. Lina labai linksma ir draugiška. Savaitgaliais kartu einame į kiną arba vaikštome parke."
+- id: lt-t-0020
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Совет больному другу"
+  situation: "Друг пишет, что плохо себя чувствует и устаёт. Ответьте: посочувствуйте, дайте два-три совета."
+  prompt: "Parašykite draugui patarimų."
+  words: [40, 70]
+  checklist:
+    - "Сочувствие"
+    - "Два-три совета"
+    - "Конструкция patariu, kad… или reikia / turėtum"
+  example: "Labas, Andriau! Gaila, kad blogai jautiesi. Patariu, kad daugiau miegotum ir mažiau dirbtum vakarais. Reikia gerti daug vandens ir vaikščioti lauke. Jeigu nepasveiksi, būtinai eik pas gydytoją. Pasveik!"
+- id: lt-s-0020
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Совет другу"
+  situation: "Ваш друг плохо спит. Дайте ему советы, что делать и чего не делать."
+  prompt: "Patarkite draugui, kuris blogai miega."
+  checklist:
+    - "Что делать"
+    - "Чего не делать"
+    - "Условное наклонение или patariu, kad…"
+  example: "Patariu, kad vakare negertum kavos. Būtų gerai prieš miegą pasivaikščioti. Nežiūrėk telefono lovoje. Jeigu vis tiek blogai miegosi, reikia eiti pas gydytoją."
+- id: lt-t-0021
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Вопросы о курсах"
+  situation: "Вы видели объявление о курсах литовского. Напишите письмо: что вас интересует, задайте три вопроса (время, цена, уровень)."
+  prompt: "Parašykite laišką ir paklauskite apie kursus."
+  words: [40, 70]
+  checklist:
+    - "Откуда узнали и что интересует"
+    - "Вопрос о времени"
+    - "Вопрос о цене"
+    - "Вопрос об уровне или группе"
+  example: "Laba diena, mačiau jūsų skelbimą apie lietuvių kalbos kursus. Norėčiau mokytis A2 grupėje. Kada vyksta pamokos? Kiek kainuoja kursai? Ar reikia laikyti testą prieš kursus? Ačiū. Su pagarba, Pavel"
+- id: lt-s-0021
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Почему вы учите литовский"
+  situation: "Расскажите, почему вы учите литовский, как вы учитесь и какие у вас планы."
+  prompt: "Papasakokite, kodėl mokotės lietuvių kalbos."
+  checklist:
+    - "Почему (nes…)"
+    - "Как учитесь"
+    - "Планы (будущее время)"
+    - "Условие (jeigu…)"
+  example: "Mokausi lietuvių kalbos, nes gyvenu Lietuvoje ir noriu kalbėti su kaimynais. Kiekvieną dieną mokausi žodžių ir skaitau trumpus tekstus. Kitais metais laikysiu egzaminą. Jeigu išlaikysiu, toliau mokysiuosi B1 grupėje."
+- id: lt-t-0022
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Возврат товара"
+  situation: "Вы купили в интернете ботинки, но они не подошли и один порван. Напишите в магазин: что купили, какая проблема, чего вы хотите."
+  prompt: "Parašykite skundą parduotuvei."
+  words: [40, 70]
+  checklist:
+    - "Что и когда купили"
+    - "Какая проблема"
+    - "Чего хотите"
+    - "Вежливое начало и конец"
+  example: "Laba diena, prieš savaitę nusipirkau jūsų parduotuvėje batus. Deja, batai per maži, o vienas batas suplyšęs. Norėčiau juos grąžinti ir atgauti pinigus. Čekį siunčiu kartu. Su pagarba, Marija Ivanova"
+- id: lt-s-0022
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Вернуть товар в магазине"
+  situation: "Вы вернулись в магазин с рубашкой. Объясните, когда купили и что не так, и попросите поменять или вернуть деньги."
+  prompt: "Grąžinkite prekę parduotuvėje."
+  checklist:
+    - "Когда и что купили"
+    - "Что не так"
+    - "Просьба поменять или вернуть деньги"
+    - "Чек"
+  example: "Laba diena. Vakar čia nusipirkau marškinius, bet jie per dideli. Ar galiu juos pakeisti į mažesnius? Jeigu ne, norėčiau atgauti pinigus. Štai čekis."
+- id: lt-t-0023
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Рецепт"
+  situation: "Напишите рецепт простого блюда: что нужно и как приготовить (3–4 шага)."
+  prompt: "Parašykite savo mėgstamo patiekalo receptą."
+  words: [40, 70]
+  checklist:
+    - "Название блюда"
+    - "Что нужно (с количеством)"
+    - "3–4 шага (повелительное или инфинитив)"
+  example: "Blynai. Reikės: dviejų kiaušinių, puodelio pieno, puodelio miltų, šaukšto cukraus ir druskos. Sumaišykite kiaušinius su pienu ir cukrumi. Įdėkite miltų ir gerai išmaišykite. Kepkite blynus keptuvėje su aliejumi. Valgykite su uogiene!"
+- id: lt-s-0023
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "В ресторане"
+  situation: "Вы в ресторане. Спросите, что порекомендуют, скажите, что не едите мясо и у вас аллергия, сделайте заказ."
+  prompt: "Užsisakykite restorane."
+  checklist:
+    - "Вопрос, что порекомендуют"
+    - "Что не едите"
+    - "Аллергия"
+    - "Заказ еды и напитка"
+  example: "Laba diena. Ką rekomenduojate? Aš nevalgau mėsos, ir man alergija riešutams. Tada prašau žuvies su daržovėmis ir obuolių sulčių."
+- id: lt-t-0024
+  kind: writing
+  cefr: A2
+  track: foundation
+  title: "Объявление о потере"
+  situation: "Вы потеряли рюкзак в автобусе. Напишите объявление: что потеряли, где и когда, как он выглядит, как с вами связаться."
+  prompt: "Parašykite skelbimą apie pamestą daiktą."
+  words: [30, 60]
+  checklist:
+    - "Что потеряли"
+    - "Где и когда"
+    - "Как выглядит"
+    - "Контакт и благодарность"
+  example: "Pamesta kuprinė! Spalio 5 d. ryte 3 autobuse pamečiau juodą kuprinę. Joje yra knygos ir kompiuteris. Kas rado, prašau skambinti +370 600 55555. Atlygis!"
+- id: lt-s-0024
+  kind: speaking
+  cefr: A2
+  track: foundation
+  title: "Потерянная карта"
+  situation: "Позвоните в банк: вы потеряли банковскую карту. Объясните, что случилось, попросите заблокировать карту и спросите о новой."
+  prompt: "Paskambinkite į banką dėl pamestos kortelės."
+  checklist:
+    - "Что случилось"
+    - "Просьба заблокировать"
+    - "Вопрос о новой карте"
+    - "Благодарность"
+  example: "Laba diena. Vakar pamečiau piniginę su banko kortele. Norėčiau kortelę užblokuoti. Kada galėsiu gauti naują kortelę? Labai ačiū už pagalbą."

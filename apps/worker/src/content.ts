@@ -20,3 +20,8 @@ import courseJson from "./generated/course.json";
 import type { Course } from "@el/core";
 /** Lithuanian foundation course map (content/lt/course/foundation.yaml), or null before it exists. */
 export const COURSE = courseJson as unknown as Course | null;
+import tasksJson from "./generated/tasks.json";
+import type { Task } from "@el/core";
+/** Writing tasks and speaking situations of the foundation course (content/lt/tasks). */
+export const TASKS = tasksJson as unknown as Task[];
+export const TASK_BY_ID = new Map(TASKS.map((t) => [t.id, t]));

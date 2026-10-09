@@ -14,3 +14,4 @@ export * from "./diff";
 export * from "./reading";
 export * from "./profile";
 export * from "./course";
+export * from "./tasks";

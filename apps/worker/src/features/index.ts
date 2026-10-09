@@ -13,10 +13,11 @@ import { report } from "./report";
 import { review } from "./review";
 import { settings } from "./settings";
 import { setup } from "./setup";
+import { tasks } from "./tasks";
 import { tutor } from "./tutor";
 
 // tutor stays last: it takes plain text/voice messages, so features before it get the first chance.
-export const FEATURES: Feature[] = [core, setup, course, review, more, placement, grammar, settings, progress, report, assessment, mistakes, reading, tutor];
+export const FEATURES: Feature[] = [core, setup, course, review, more, placement, grammar, settings, progress, report, assessment, mistakes, reading, tasks, tutor];
 
 export const COMMANDS: Command[] = FEATURES.flatMap((f) => f.commands ?? []);
 

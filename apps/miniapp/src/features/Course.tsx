@@ -2,9 +2,9 @@
 // a unit page (can-do list, words, lessons, texts), a 10-question unit check and «Я это знаю» to skip a unit.
 // Hidden when the learner isn't on the foundation course (GET /api/course → 404), e.g. on the original bot.
 import { useEffect, useMemo, useState } from "react";
-import { getCourse, getUnit, markUnitKnown, saveUnitCheck, type CourseOverview, type UnitDetail } from "../api";
+import { getCourse, getUnit, markUnitKnown, saveUnitCheck, startTask, type CourseOverview, type UnitDetail } from "../api";
 import type { MiniFeature } from "../features";
-import { haptic } from "../telegram";
+import { haptic, tg } from "../telegram";
 
 const STAGE: Record<string, string> = { sounds: "Звуки и буквы", A1: "Уровень A1", A2: "Уровень A2", exam: "Экзамен" };
 
@@ -84,6 +84,11 @@ function UnitScreen({ id, passPercent, checkSize, back }: { id: string; passPerc
       setBusy(false);
     }
   };
+  const doTask = async (taskId: string) => {
+    haptic("tap");
+    await startTask(taskId);
+    tg?.close?.(); // the task is waiting in the chat with the bot
+  };
   const p = unit.progress;
   return (
     <main className="screen">
@@ -108,6 +113,17 @@ function UnitScreen({ id, passPercent, checkSize, back }: { id: string; passPerc
         <section className="settings-block">
           <h2>Тексты</h2>
           <ul className="summary-list">{unit.texts.map((t) => <li key={t.id}>{t.read ? "✅ " : ""}{t.title}</li>)}</ul>
+        </section>
+      )}
+      {unit.tasks.length > 0 && (
+        <section className="settings-block">
+          <h2>Задания как на экзамене</h2>
+          {unit.tasks.map((t) => (
+            <button key={t.id} className="secondary row" onClick={() => void doTask(t.id)}>
+              <span>{t.kind === "writing" ? "📝" : "🗣"} {t.title}</span>
+              <span className="hint small">{t.best !== null ? `лучший результат ${t.best}/3 · ` : ""}сделать в чате ›</span>
+            </button>
+          ))}
         </section>
       )}
       {unit.words.length > 0 ? (

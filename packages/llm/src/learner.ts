@@ -110,6 +110,39 @@ export const WritingFeedback = z.object({
 });
 export type WritingFeedback = z.infer<typeof WritingFeedback>;
 
+/** Feedback on a writing task or speaking situation (foundation course): exam score 0–3 + checklist + corrections. */
+export const TaskFeedback = z.object({
+  score: z.number().int().min(0).max(3).catch(0),
+  checklist: z.array(z.boolean()).default([]),
+  corrected: z.string().default(""),
+  mistakes: z.array(Mistake).default([]),
+  comment: z.string().default(""),
+});
+export type TaskFeedback = z.infer<typeof TaskFeedback>;
+
+export interface TaskForFeedback {
+  kind: "writing" | "speaking";
+  situation: string;
+  prompt: string;
+  checklist: string[];
+  words?: [number, number];
+}
+
+export function taskFeedbackMessages(prompts: Prompts, p: LearnerProfile, task: TaskForFeedback, answer: string): ChatMessage[] {
+  const speech = task.kind === "speaking";
+  const system = render(need(prompts, "feedback/task"), {
+    ...profileVars(p),
+    task_kind: speech ? "speaking (answered by a voice message)" : "writing",
+    situation: task.situation,
+    prompt: task.prompt,
+    checklist: task.checklist.map((c, i) => `${i + 1}. ${c}`).join("\n"),
+    words_line: task.words ? `Expected length: ${task.words[0]}–${task.words[1]} words.` : "",
+    speech_note: speech ? " (an automatic transcript of their speech)" : "",
+    speech_correct: speech ? "; ignore punctuation and capitalisation, they come from the transcript" : "",
+  });
+  return [{ role: "system", content: system }, { role: "user", content: answer }];
+}
+
 /** Prompt templates by name ("tutor/chat", "feedback/writing"), bundled from prompts/*.md at build time. */
 export type Prompts = Record<string, string>;
 

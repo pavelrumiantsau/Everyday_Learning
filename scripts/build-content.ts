@@ -5,7 +5,7 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { Course, ItemFile, Lesson, Milestones, ReadingText, Schedule, Sources, type Item } from "../packages/core/src/index.ts";
+import { Course, ItemFile, Lesson, Milestones, ReadingText, Schedule, Sources, TaskFile, type Item, type Task } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
@@ -36,11 +36,12 @@ for (const file of yamlFiles(join(root, "content"))) {
 const isGrammar = (rel: string) => /^content\/[a-z]{2}\/grammar\//.test(rel);
 const isReading = (rel: string) => /^content\/[a-z]{2}\/reading\//.test(rel);
 const isCourse = (rel: string) => /^content\/[a-z]{2}\/course\//.test(rel);
+const isTasks = (rel: string) => /^content\/[a-z]{2}\/tasks\//.test(rel);
 const STRESS_FILE = "content/lt/stress.yaml";
 
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (isGrammar(rel) || isReading(rel) || isCourse(rel) || rel === STRESS_FILE) continue; // lessons, texts, course, stress: see below
+  if (isGrammar(rel) || isReading(rel) || isCourse(rel) || isTasks(rel) || rel === STRESS_FILE) continue; // see below
   const result = ItemFile.safeParse(parse(readFileSync(file, "utf8")));
   if (!result.success) {
     for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
@@ -125,9 +126,27 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
   texts.push(text);
 }
 
+// Writing tasks and speaking situations (foundation course): content/lt/tasks/*.yaml, a list per file.
+const tasks: Task[] = [];
+for (const file of yamlFiles(join(root, "content")).sort()) {
+  const rel = relative(root, file);
+  if (!isTasks(rel)) continue;
+  const result = TaskFile.safeParse(parse(readFileSync(file, "utf8")));
+  if (!result.success) {
+    for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
+    continue;
+  }
+  for (const t of result.data) {
+    const dup = seen.get(t.id);
+    if (dup) errors.push(`${rel}: duplicate id ${t.id} (also in ${dup})`);
+    seen.set(t.id, rel);
+    tasks.push(t);
+  }
+}
+
 // Foundation course (docs/EXTENSION-PLAN.md §6.8): explained in Russian only — colleagues may not know Ukrainian or Belarusian.
 const NOT_FOR_FOUNDATION = /украин|белорус|ukrain|belarus/i;
-for (const x of [...items, ...lessons, ...texts] as { id: string; track?: string }[]) {
+for (const x of [...items, ...lessons, ...texts, ...tasks] as { id: string; track?: string }[]) {
   if (x.track === "foundation" && NOT_FOR_FOUNDATION.test(JSON.stringify(x))) {
     errors.push(`${x.id}: foundation content mentions Ukrainian/Belarusian (Russian-only comparisons, EXTENSION-PLAN §6.8)`);
   }
@@ -170,6 +189,7 @@ try {
       for (const id of u.phrases) if (itemById.get(id)?.type !== "phrase") errors.push(`${COURSE_FILE}: ${u.id}: unknown phrase ${id}`);
       for (const id of u.lessons) if (!lessonIds.has(id)) errors.push(`${COURSE_FILE}: ${u.id}: unknown lesson ${id}`);
       for (const id of u.texts) if (!textIds.has(id)) errors.push(`${COURSE_FILE}: ${u.id}: unknown text ${id}`);
+      for (const id of u.tasks) if (!tasks.some((t) => t.id === id)) errors.push(`${COURSE_FILE}: ${u.id}: unknown task ${id}`);
     }
     const words = course.units.reduce((n, u) => n + u.words.length, 0);
     // Stress marks are required for every course word once phase E is done (EXTENSION-PLAN §6.6); until then: a count.
@@ -210,7 +230,7 @@ const counts = Object.entries(
 )
   .map(([l, n]) => `${l}: ${n}`)
   .join(", ");
-console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, ${texts.length} reading texts${courseNote}, schedule OK`);
+console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, ${texts.length} reading texts, ${tasks.length} tasks${courseNote}, schedule OK`);
 
 if (!checkOnly) {
   const out = join(root, "apps/worker/src/generated");
@@ -222,5 +242,6 @@ if (!checkOnly) {
   writeFileSync(join(out, "reading.json"), JSON.stringify(texts));
   writeFileSync(join(out, "sources.json"), JSON.stringify(sources.data));
   writeFileSync(join(out, "course.json"), JSON.stringify(course));
-  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course}.json`);
+  writeFileSync(join(out, "tasks.json"), JSON.stringify(tasks));
+  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course,tasks}.json`);
 }

@@ -18,6 +18,8 @@ export const CourseUnit = z.object({
   phrases: z.array(z.string().regex(/^lt-p-\d{4}$/)).default([]),
   lessons: z.array(z.string().regex(/^lt-g-\d{4}$/)).default([]),
   texts: z.array(z.string().regex(/^lt-r-\d{4}$/)).default([]),
+  /** Writing tasks (lt-t-…) and speaking situations (lt-s-…), content/lt/tasks. Optional for completing the unit. */
+  tasks: z.array(z.string().regex(/^lt-(t|s)-\d{4}$/)).default([]),
   /** «Я могу…» statements in Russian. */
   can_do: z.array(z.string().trim().min(3).max(120)).max(8).default([]),
 });
@@ -34,7 +36,7 @@ export const Course = z
     c.units.forEach((u, i) => {
       if (ids.has(u.id)) ctx.addIssue({ code: "custom", path: ["units", i, "id"], message: `duplicate unit ${u.id}` });
       ids.add(u.id);
-      for (const id of [...u.words, ...u.phrases, ...u.lessons, ...u.texts]) {
+      for (const id of [...u.words, ...u.phrases, ...u.lessons, ...u.texts, ...u.tasks]) {
         const other = where.get(id);
         if (other) ctx.addIssue({ code: "custom", path: ["units", i], message: `${id} is in ${other} and ${u.id}` });
         where.set(id, u.id);

@@ -41,6 +41,8 @@ providers:
 tasks:
   tutor_chat:       [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
   writing_feedback: [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
+  # Foundation course (colleagues' copies): a writing task or speaking situation scored on the exam's 0–3 scale.
+  task_feedback:    [groq:openai/gpt-oss-120b, google:gemini-3.8-flash]
   answer_check:     [groq:openai/gpt-oss-20b, groq:openai/gpt-oss-120b]
   # Reading mode: tapping a word that isn't in the text's glossary (cached per word in D1).
   word_lookup:      [groq:openai/gpt-oss-120b, groq:openai/gpt-oss-20b, google:gemini-3.8-flash]

@@ -21,6 +21,9 @@ const answer = (tag: string) =>
     gender: "m",
     gen: "euro",
     meaning: "евро",
+    // task_feedback (foundation course tasks)
+    score: 2,
+    checklist: [true, true, false],
     // reading_questions (own texts)
     questions: [0, 1, 2].map((i) => ({ q: `Klausimas ${i + 1}?`, options: ["Taip", "Ne", "Nežinau"], answer: i })),
   });

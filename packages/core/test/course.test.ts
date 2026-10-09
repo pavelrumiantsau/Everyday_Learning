@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { checkAnswer, Course, courseItemOrder, courseLessonOrder, currentUnit, unitProgress, type UnitState } from "../src";
+import { checkAnswer, Course, courseItemOrder, courseLessonOrder, currentUnit, Task, unitProgress, type UnitState } from "../src";
 
 const course = (units: object[]) => Course.parse({ id: "lt-foundation", units });
 const u1 = { id: "u01", stage: "A1", title: "Знакомство", words: ["lt-w-0003", "lt-w-0001"], phrases: ["lt-p-0009"], lessons: ["lt-g-0205"], texts: ["lt-r-0201"] };
@@ -57,5 +57,21 @@ describe("strict letters (exam practice)", () => {
     expect(checkAnswer("dirbciau", ["dirbčiau"])).toBe("almost");
     expect(checkAnswer("dirbciau", ["dirbčiau"], true)).toBe("wrong");
     expect(checkAnswer("Dirbčiau.", ["dirbčiau"], true)).toBe("correct");
+  });
+});
+
+describe("tasks", () => {
+  const task = (over: object = {}) => ({
+    id: "lt-t-0001", kind: "writing", cefr: "A1", track: "foundation", title: "О себе", situation: "Напишите о себе на курсы.",
+    prompt: "Parašykite apie save.", words: [20, 35], checklist: ["Имя", "Откуда вы"], example: "Labas! Mano vardas Anna.", ...over,
+  });
+  it("accepts a writing task and a speaking situation", () => {
+    expect(Task.parse(task()).kind).toBe("writing");
+    expect(Task.parse(task({ id: "lt-s-0001", kind: "speaking", words: undefined })).kind).toBe("speaking");
+  });
+  it("checks id prefix, word range and checklist size", () => {
+    expect(() => Task.parse(task({ id: "lt-s-0001" }))).toThrow(/lt-t/);
+    expect(() => Task.parse(task({ words: undefined }))).toThrow(/word range/);
+    expect(() => Task.parse(task({ checklist: ["Одно"] }))).toThrow();
   });
 });

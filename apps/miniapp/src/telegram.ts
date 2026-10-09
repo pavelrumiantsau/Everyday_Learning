@@ -6,6 +6,7 @@ interface WebApp {
   expand(): void;
   BackButton: { show(): void; hide(): void; onClick(cb: () => void): void; offClick(cb: () => void): void };
   openLink?(url: string): void;
+  close?(): void;
   HapticFeedback?: { impactOccurred(style: "light" | "medium"): void; notificationOccurred(type: "success" | "warning" | "error"): void };
 }
 

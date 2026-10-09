@@ -208,10 +208,14 @@ export interface UnitDetail {
   words: { id: string; text: string; stress: string | null; meaning: string; introduced: boolean; learned: boolean }[];
   lessons: { id: string; title: string; done: boolean }[];
   texts: { id: string; title: string; read: boolean }[];
+  /** Writing tasks and speaking situations; `best` = best score 0–3 or null. */
+  tasks: { id: string; kind: "writing" | "speaking"; title: string; best: number | null }[];
   progress: UnitProgress;
 }
 export const getCourse = () => call<CourseOverview>("/course");
 export const getUnit = (id: string) => call<UnitDetail>(`/course/units/${id}`);
 export const saveUnitCheck = (id: string, correct: number, total: number) =>
   call<{ score: number; passed: boolean }>(`/course/units/${id}/check`, { method: "POST", body: JSON.stringify({ correct, total }) });
+/** Sends the task to the bot chat; the learner answers there. */
+export const startTask = (id: string) => call<{ ok: true }>(`/tasks/${id}/start`, { method: "POST" });
 export const markUnitKnown = (id: string) => call<{ progress: UnitProgress }>(`/course/units/${id}/known`, { method: "POST" });
