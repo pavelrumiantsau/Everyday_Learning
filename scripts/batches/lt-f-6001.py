@@ -20,7 +20,6 @@ w|gramas|noun|m|A2|грамм|10470493||gramo
 w|hobis|noun|m|A2|хобби|9788699||hobio
 w|koncertas|noun|m|A1|концерт|12144556||koncerto
 w|taisyti|verb||A2|исправлять; чинить, ремонтировать|12312838|pataisyti — исправить, починить (сов.)|taiso, taisė
-p|Viso gero!|||A1|Всего хорошего! До свидания!|12334137||
 p|Atleiskite.|||A1|Извините. Простите.|11096744|к одному человеку на «ты»: Atleisk.|
 p|prekybos centras|||A1|торговый центр|12377795||
 p|lietuvių kalba|||A1|литовский язык||Kalbu lietuviškai. — Я говорю по-литовски.|

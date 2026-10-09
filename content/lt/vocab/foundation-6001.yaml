@@ -167,20 +167,12 @@
   type: phrase
   cefr: A1
   track: foundation
-  text: "Viso gero!"
-  meaning: { ru: "Всего хорошего! До свидания!" }
-  examples:
-    - { text: "Viso gero!", translation: "Всего хорошего!", source: "tatoeba:12334137" }
-- id: lt-p-6017
-  type: phrase
-  cefr: A1
-  track: foundation
   text: "Atleiskite."
   meaning: { ru: "Извините. Простите." }
   note: { ru: "к одному человеку на «ты»: Atleisk." }
   examples:
     - { text: "Atleiskite.", translation: "Извините.", source: "tatoeba:11096744" }
-- id: lt-p-6018
+- id: lt-p-6017
   type: phrase
   cefr: A1
   track: foundation
@@ -188,14 +180,14 @@
   meaning: { ru: "торговый центр" }
   examples:
     - { text: "Kur yra prekybos centras?", translation: "Где находится торговый центр?", source: "tatoeba:12377795" }
-- id: lt-p-6019
+- id: lt-p-6018
   type: phrase
   cefr: A1
   track: foundation
   text: "lietuvių kalba"
   meaning: { ru: "литовский язык" }
   note: { ru: "Kalbu lietuviškai. — Я говорю по-литовски." }
-- id: lt-p-6020
+- id: lt-p-6019
   type: phrase
   cefr: A1
   track: foundation
@@ -203,7 +195,7 @@
   meaning: { ru: "английский язык" }
   examples:
     - { text: "Jis moka anglų kalbą.", translation: "Он владеет английским языком.", source: "tatoeba:10710050" }
-- id: lt-p-6021
+- id: lt-p-6020
   type: phrase
   cefr: A1
   track: foundation

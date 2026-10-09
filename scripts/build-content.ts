@@ -136,7 +136,10 @@ for (const x of [...items, ...lessons, ...texts] as { id: string; track?: string
 // The same word must not be taught twice (e.g. two batches picking different forms of one lemma).
 const byText = new Map<string, string>();
 for (const item of items) {
-  const key = `${item.id.slice(0, 2)}:${item.text.normalize("NFC").toLowerCase()}`;
+  // Lithuanian: end punctuation doesn't make a different item ("viso gero" = "Viso gero!"). Spanish/French keep the
+  // original rule (their phrasebook has e.g. "Santé !" next to the word "santé" on purpose).
+  const text = item.text.normalize("NFC").toLowerCase();
+  const key = `${item.id.slice(0, 2)}:${item.id.startsWith("lt-") ? text.replace(/[.!?…]+$/u, "").trim() : text}`;
   const other = byText.get(key);
   if (other) errors.push(`duplicate word "${item.text}": ${other} and ${item.id}`);
   else byText.set(key, item.id);
