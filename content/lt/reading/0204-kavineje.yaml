@@ -1,0 +1,40 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u02): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0204
+cefr: A1
+track: foundation
+kind: dialogue
+title: "Kavinėje"
+topic: "в кафе"
+source: generated
+text: |
+  Šeštadienis. Rasa ir Eglė sėdi kavinėje. Eglė labai nori valgyti, o Rasa nori tik gerti.
+
+  – Laba diena! Ką jums? – klausia padavėjas.
+  – Norėčiau sriubos ir arbatos, – sako Eglė.
+  – O aš norėčiau kavos su pienu, – sako Rasa.
+
+  Sriuba labai skani, o kava karšta. Po valandos Eglė sako:
+  – Prašau sąskaitą.
+
+  Pietūs kainuoja dvylika eurų. Rasa moka kortele.
+glossary:
+  - { word: "sėdi", lemma: "sėdėti", meaning: "сидеть", note: "наст. вр., они", item: lt-w-2867 }
+  - { word: "jums", lemma: "jūs", meaning: "вы", note: "дат. п.: Ką jums? — Что вам? (вопрос официанта)", item: lt-w-3182 }
+  - { word: "klausia", lemma: "klausti", meaning: "спрашивать", note: "наст. вр., он", item: lt-w-3003 }
+  - { word: "sako", lemma: "sakyti", meaning: "говорить, сказать", note: "наст. вр., он/она", item: lt-w-3001 }
+  - { word: "pienu", lemma: "pienas", meaning: "молоко", note: "твор. п.: kava su pienu — кофе с молоком", item: lt-w-2770 }
+  - { word: "Po", lemma: "po", meaning: "после", note: "po valandos — через час", item: lt-w-3071 }
+  - { word: "moka", lemma: "mokėti", meaning: "платить; уметь", note: "наст. вр., она", item: lt-w-2784 }
+  - { word: "kortele", lemma: "kortelė", meaning: "карточка, карта", note: "твор. п.: платить картой", item: lt-w-3322 }
+questions:
+  - q: "Ką nori Eglė?"
+    options: ["Tik kavos", "Sriubos ir arbatos", "Pyrago"]
+    answer: 1
+  - q: "Kokia yra sriuba?"
+    options: ["Labai skani", "Šalta", "Brangi"]
+    answer: 0
+  - q: "Kiek kainuoja pietūs?"
+    options: ["Dešimt eurų", "Dvylika eurų", "Penki eurai"]
+    answer: 1

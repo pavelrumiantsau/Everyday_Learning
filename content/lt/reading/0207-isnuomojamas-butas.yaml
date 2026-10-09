@@ -1,0 +1,35 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u04): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0207
+cefr: A1
+track: foundation
+kind: ad
+title: "Išnuomojamas butas"
+topic: "объявление: сдаётся квартира"
+source: generated
+text: |
+  Vilniuje, netoli centro, išnuomojamas dviejų kambarių butas. Butas yra trečiame aukšte, name yra liftas. Bute yra virtuvė, vonia, tualetas ir balkonas. Netoli yra parduotuvė, mokykla ir parkas.
+
+  Kaina – 650 € per mėnesį.
+
+  Skambinkite vakare: +370 600 12345, Rūta.
+glossary:
+  - { word: "netoli", lemma: "netoli", meaning: "недалеко, рядом", note: "netoli centro — недалеко от центра", item: lt-w-3141 }
+  - { word: "išnuomojamas", lemma: "išnuomojamas", meaning: "сдаётся (в аренду)" }
+  - { word: "dviejų", lemma: "du", meaning: "два", note: "dviejų kambarių butas — двухкомнатная квартира", item: lt-w-3238 }
+  - { word: "trečiame", lemma: "trečias", meaning: "третий", note: "мест. п.: trečiame aukšte — на третьем этаже", item: lt-w-3243 }
+  - { word: "aukšte", lemma: "aukštas", meaning: "этаж", note: "мест. п.", item: lt-w-3087 }
+  - { word: "name", lemma: "namas", meaning: "дом (здание)", note: "мест. п.: в доме", item: lt-w-2894 }
+  - { word: "per", lemma: "per", meaning: "в (за)", note: "650 € per mėnesį — 650 € в месяц", item: lt-w-3065 }
+  - { word: "Skambinkite", lemma: "skambinti", meaning: "звонить", note: "повелит., на «вы»", item: lt-w-3050 }
+questions:
+  - q: "Kiek kambarių yra bute?"
+    options: ["Vienas", "Du", "Trys"]
+    answer: 1
+  - q: "Kuriame aukšte yra butas?"
+    options: ["Pirmame", "Antrame", "Trečiame"]
+    answer: 2
+  - q: "Kada reikia skambinti?"
+    options: ["Ryte", "Vakare", "Naktį"]
+    answer: 1

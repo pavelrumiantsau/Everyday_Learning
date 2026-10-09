@@ -1,0 +1,39 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u05): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0210
+cefr: A1
+track: foundation
+kind: text
+title: "Naujas paltas"
+topic: "покупка пальто"
+source: generated
+text: |
+  Ruduo. Lauke jau šalta, todėl Eglė nori pirkti naują paltą. Šeštadienį ji eina į prekybos centrą.
+
+  Parduotuvėje yra daug paltų: juodi, pilki, rudi, mėlyni. Eglei patinka raudonas paltas.
+  – Ar galiu pasimatuoti? – klausia Eglė.
+  – Žinoma, – sako pardavėja.
+
+  Raudonas paltas gražus, bet labai brangus – du šimtai eurų. Kitas paltas pilkas ir pigesnis – šimtas eurų. Eglė perka pilką paltą ir dar mėlyną kepurę.
+glossary:
+  - { word: "Lauke", lemma: "laukas", meaning: "поле", note: "мест. п. lauke — на улице, снаружи", item: lt-w-3351 }
+  - { word: "todėl", lemma: "todėl", meaning: "поэтому", item: lt-w-3213 }
+  - { word: "paltų", lemma: "paltas", meaning: "пальто", note: "род. п. мн. ч.: daug paltų — много пальто", item: lt-w-1555 }
+  - { word: "Eglei", lemma: "Eglė", meaning: "Эгле (имя)", note: "дат. п.: Eglei patinka — Эгле нравится" }
+  - { word: "pasimatuoti", lemma: "pasimatuoti", meaning: "примерить", item: lt-w-2458 }
+  - { word: "Žinoma", lemma: "žinoma", meaning: "конечно", item: lt-w-3227 }
+  - { word: "pardavėja", lemma: "pardavėja", meaning: "продавщица" }
+  - { word: "šimtai", lemma: "šimtas", meaning: "сто", note: "du šimtai — двести", item: lt-w-3270 }
+  - { word: "pigesnis", lemma: "pigus", meaning: "дешёвый", note: "сравн. ст.: pigesnis — дешевле", item: lt-w-2788 }
+  - { word: "perka", lemma: "pirkti", meaning: "покупать", note: "наст. вр., она", item: lt-w-2777 }
+questions:
+  - q: "Kodėl Eglė nori pirkti paltą?"
+    options: ["Nes lauke šalta", "Nes ji turi daug pinigų", "Nes jai nepatinka raudona spalva"]
+    answer: 0
+  - q: "Kiek kainuoja raudonas paltas?"
+    options: ["Šimtą eurų", "Du šimtus eurų", "Penkiasdešimt eurų"]
+    answer: 1
+  - q: "Ką perka Eglė?"
+    options: ["Raudoną paltą", "Pilką paltą ir kepurę", "Tik kepurę"]
+    answer: 1

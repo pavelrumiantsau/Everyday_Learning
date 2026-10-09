@@ -3,7 +3,8 @@
 //   GET  /api/course                     units with progress and the current unit
 //   GET  /api/course/units/:id           one unit: words, lessons, texts with their state
 //   POST /api/course/units/:id/check     {correct, total} → unit-check score (best is kept)
-//   POST /api/course/units/:id/known     «Я это знаю»: words marked known (as in placement), lessons done without cards
+//   POST /api/course/units/:id/known     «Я это знаю»: words marked known (as in placement), lessons done without cards,
+//                                        the unit counted as passed
 import { currentUnit, PASS_PERCENT, UNIT_CHECK_SIZE, unitProgress, type CourseUnit, type UnitState } from "@el/core";
 import { Hono } from "hono";
 import { COURSE, ITEM_BY_ID, LESSON_BY_ID, TEXT_BY_ID } from "../content";
@@ -81,6 +82,12 @@ api.post("/course/units/:id/known", async (c) => {
   if (u.lessons.length) {
     await db.batch(u.lessons.map((id) => c.env.DB.prepare("INSERT OR IGNORE INTO grammar_done (lesson_id, done_at) VALUES (?, ?)").bind(id, now.getTime())));
   }
+  // «Я это знаю» counts as a passed unit check, so the unit is complete even if its texts weren't read.
+  await c.env.DB.prepare(
+    "INSERT INTO course_check (unit_id, best, last, checked_at) VALUES (?, 100, 100, ?) ON CONFLICT(unit_id) DO UPDATE SET best = 100, last = 100, checked_at = excluded.checked_at",
+  )
+    .bind(u.id, now.getTime())
+    .run();
   return c.json({ progress: unitProgress(u, await unitState(db, c.env.DB)) });
 });
 

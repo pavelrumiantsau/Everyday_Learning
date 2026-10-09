@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u12): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0223
+cefr: A1
+track: foundation
+kind: ad
+title: "Lietuvių kalbos kursai"
+topic: "объявление о курсах"
+source: generated
+text: |
+  Lietuvių kalbos kursai suaugusiems!
+
+  Kursai prasideda rugsėjo 15 d. Pamokos vyksta du kartus per savaitę: antradienį ir ketvirtadienį, nuo 18 iki 20 val. Grupėje – 8–10 žmonių.
+
+  Kursų trukmė – 3 mėnesiai. Kaina – 250 €.
+
+  Registracija: kursai@kalba.lt arba tel. +370 600 98765.
+glossary:
+  - { word: "suaugusiems", lemma: "suaugęs", meaning: "взрослый", note: "дат. п. мн. ч.: kursai suaugusiems — курсы для взрослых", item: lt-w-3388 }
+  - { word: "rugsėjo", lemma: "rugsėjis", meaning: "сентябрь", note: "род. п.: rugsėjo 15 d. — 15 сентября", item: lt-w-2971 }
+  - { word: "kartus", lemma: "kartas", meaning: "раз", note: "du kartus per savaitę — два раза в неделю", item: lt-w-3957 }
+  - { word: "savaitę", lemma: "savaitė", meaning: "неделя", note: "вин. п.", item: lt-w-2932 }
+  - { word: "Grupėje", lemma: "grupė", meaning: "группа", note: "мест. п.", item: lt-w-4039 }
+  - { word: "trukmė", lemma: "trukmė", meaning: "продолжительность", item: lt-w-1659 }
+  - { word: "mėnesiai", lemma: "mėnuo", meaning: "месяц", note: "мн. ч.", item: lt-w-2935 }
+  - { word: "Registracija", lemma: "registracija", meaning: "запись, регистрация", item: lt-w-1606 }
+  - { word: "tel", lemma: "telefonas", meaning: "телефон", note: "сокращение tel.", item: lt-w-3287 }
+questions:
+  - q: "Kada prasideda kursai?"
+    options: ["Rugsėjo 15 d.", "Rugpjūčio 15 d.", "Spalio 1 d."]
+    answer: 0
+  - q: "Kiek kartų per savaitę vyksta pamokos?"
+    options: ["Vieną kartą", "Du kartus", "Kasdien"]
+    answer: 1
+  - q: "Kiek žmonių yra grupėje?"
+    options: ["Trys", "Aštuoni–dešimt", "Dvidešimt"]
+    answer: 1

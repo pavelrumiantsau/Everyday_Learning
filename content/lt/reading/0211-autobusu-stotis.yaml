@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u06): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0211
+cefr: A1
+track: foundation
+kind: notice
+title: "Autobusų stotis informuoja"
+topic: "объявление автовокзала"
+source: generated
+text: |
+  Nuo spalio 1 d. autobusai į Kauną važiuoja kas valandą, nuo 6 iki 22 valandos. Kelionė trunka 1 valandą 30 minučių.
+
+  Bilietą galima nusipirkti stoties kasoje arba internete. Bilieto kaina – 7 €. Studentams ir senjorams – 3,50 €.
+
+  Autobusai į oro uostą išvyksta nuo stotelės Nr. 3.
+glossary:
+  - { word: "spalio", lemma: "spalis", meaning: "октябрь", note: "род. п.: nuo spalio 1 d. — с 1 октября", item: lt-w-1278 }
+  - { word: "kas", lemma: "kas", meaning: "каждый (о времени)", note: "kas valandą — каждый час", item: lt-w-3155 }
+  - { word: "Kelionė", lemma: "kelionė", meaning: "поездка", item: lt-w-0035 }
+  - { word: "trunka", lemma: "trukti", meaning: "длиться", note: "наст. вр.", item: lt-w-0415 }
+  - { word: "minučių", lemma: "minutė", meaning: "минута", note: "род. п. мн. ч.", item: lt-w-2944 }
+  - { word: "stoties", lemma: "stotis", meaning: "вокзал, станция", note: "род. п.: stoties kasa — касса вокзала", item: lt-w-0164 }
+  - { word: "internete", lemma: "internetas", meaning: "интернет", note: "мест. п.", item: lt-w-3309 }
+  - { word: "Studentams", lemma: "studentas", meaning: "студент", note: "дат. п. мн. ч.: для студентов", item: lt-w-3285 }
+  - { word: "senjorams", lemma: "senjoras", meaning: "пенсионер, пожилой человек", note: "дат. п. мн. ч." }
+  - { word: "išvyksta", lemma: "išvykti", meaning: "отправляться, уезжать", note: "наст. вр.", item: lt-w-0155 }
+questions:
+  - q: "Kaip dažnai autobusai važiuoja į Kauną?"
+    options: ["Kas valandą", "Kas dvi valandas", "Tik ryte"]
+    answer: 0
+  - q: "Kiek kainuoja bilietas studentui?"
+    options: ["7 €", "3,50 €", "1,30 €"]
+    answer: 1
+  - q: "Kur galima nusipirkti bilietą?"
+    options: ["Tik autobuse", "Kasoje arba internete", "Oro uoste"]
+    answer: 1

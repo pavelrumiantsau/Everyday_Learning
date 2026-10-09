@@ -1,0 +1,39 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u11): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0222
+cefr: A1
+track: foundation
+kind: dialogue
+title: "Skambutis į kirpyklą"
+topic: "звонок в парикмахерскую"
+source: generated
+text: |
+  – Kirpykla „Ona“, laba diena.
+  – Laba diena. Norėčiau užsiregistruoti kirpimui.
+  – Kada jums patogu?
+  – Gal ketvirtadienį po darbo?
+  – Ketvirtadienį turime laiko tik penktą valandą.
+  – Atsiprašau, nesupratau. Gal galite pakartoti?
+  – Penktą valandą, – lėčiau sako moteris.
+  – Puiku, tinka. Mano vardas Andrejus.
+  – Gerai, Andrejau, ketvirtadienį penktą valandą. Iki pasimatymo!
+glossary:
+  - { word: "užsiregistruoti", lemma: "užsiregistruoti", meaning: "записаться", item: lt-w-3827 }
+  - { word: "kirpimui", lemma: "kirpimas", meaning: "стрижка", note: "дат. п.: užsiregistruoti kirpimui — записаться на стрижку" }
+  - { word: "patogu", lemma: "patogu", meaning: "удобно" }
+  - { word: "laiko", lemma: "laikas", meaning: "время", note: "род. п.: turime laiko — у нас есть время", item: lt-w-0001 }
+  - { word: "lėčiau", lemma: "lėtai", meaning: "медленно", note: "сравн. ст.: медленнее", item: lt-w-3128 }
+  - { word: "Puiku", lemma: "puiku", meaning: "отлично" }
+  - { word: "tinka", lemma: "tikti", meaning: "подходить", note: "наст. вр.: tinka — подходит", item: lt-w-4005 }
+  - { word: "Andrejau", lemma: "Andrejus", meaning: "Андрей", note: "звательная форма" }
+questions:
+  - q: "Kur skambina Andrejus?"
+    options: ["Į banką", "Į kirpyklą", "Į paštą"]
+    answer: 1
+  - q: "Ko Andrejus nesuprato?"
+    options: ["Laiko", "Adreso", "Kainos"]
+    answer: 0
+  - q: "Kada Andrejus eina į kirpyklą?"
+    options: ["Ketvirtadienį penktą valandą", "Penktadienį ketvirtą valandą", "Šiandien"]
+    answer: 0

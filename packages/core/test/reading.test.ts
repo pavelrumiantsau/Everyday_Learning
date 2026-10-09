@@ -84,3 +84,18 @@ describe("ReadingText schema", () => {
     expect(ReadingText.safeParse({ ...base, text: "Per trumpas tekstas." }).success).toBe(false);
   });
 });
+
+describe("foundation reading texts", () => {
+  const text = (over: object) => ({
+    id: "lt-r-0201", cefr: "A1", title: "Meniu", topic: "меню", source: "generated",
+    text: "Kava du eurai. Arbata du eurai. Sriuba keturi eurai. Žuvis devyni eurai. Mėsa dešimt eurų. Pyragas trys eurai. Sultys trys eurai. Vanduo vienas euras. Ačiū!",
+    questions: [0, 1, 2].map((i) => ({ q: `Klausimas ${i}?`, options: ["Taip", "Ne"], answer: 0 })),
+    ...over,
+  });
+  it("may be short (25+ words) when they are foundation A1–A2 exam texts", () => {
+    expect(ReadingText.parse(text({ track: "foundation", kind: "menu" })).kind).toBe("menu");
+  });
+  it("other texts keep the old minimum", () => {
+    expect(() => ReadingText.parse(text({}))).toThrow(/60–150 words/);
+  });
+});

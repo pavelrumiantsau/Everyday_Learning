@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u07): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0214
+cefr: A1
+track: foundation
+kind: text
+title: "Mano draugė"
+topic: "описание человека"
+source: generated
+text: |
+  Mano geriausia draugė – Jurga. Mes pažįstame viena kitą jau dešimt metų.
+
+  Jurga aukšta, jos plaukai ilgi ir šviesūs, o akys mėlynos. Ji visada linksma ir draugiška. Jurga labai protinga: ji kalba keturiomis kalbomis. Ji yra gydytoja.
+
+  Jos vyras Darius žemas, jis turi barzdą ir nešioja akinius. Darius ramus, bet labai įdomus žmogus. Jie turi dvi dukteris.
+glossary:
+  - { word: "geriausia", lemma: "geras", meaning: "хороший", note: "превосх. ст., ж. р.: geriausia draugė — лучшая подруга", item: lt-w-3069 }
+  - { word: "pažįstame", lemma: "pažinti", meaning: "знать (человека)", note: "наст. вр., мы: pažįstame viena kitą — знаем друг друга", item: lt-w-0343 }
+  - { word: "šviesūs", lemma: "šviesus", meaning: "светлый", note: "мн. ч.", item: lt-w-2865 }
+  - { word: "keturiomis", lemma: "keturios", meaning: "четыре", note: "твор. п.: kalba keturiomis kalbomis — говорит на четырёх языках" }
+  - { word: "kalbomis", lemma: "kalba", meaning: "язык", note: "твор. п. мн. ч.", item: lt-w-3082 }
+  - { word: "nešioja", lemma: "nešioti", meaning: "носить", note: "nešioja akinius — носит очки", item: lt-w-0577 }
+  - { word: "dukteris", lemma: "duktė", meaning: "дочь", note: "вин. п. мн. ч.", item: lt-w-2857 }
+questions:
+  - q: "Kokie Jurgos plaukai?"
+    options: ["Trumpi ir tamsūs", "Ilgi ir šviesūs", "Ilgi ir tamsūs"]
+    answer: 1
+  - q: "Kas turi barzdą?"
+    options: ["Jurga", "Darius", "Jų duktė"]
+    answer: 1
+  - q: "Kiek vaikų turi Jurga ir Darius?"
+    options: ["Vieną dukterį", "Dvi dukteris", "Du sūnus"]
+    answer: 1

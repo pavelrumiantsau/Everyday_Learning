@@ -1,0 +1,41 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u08): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0215
+cefr: A1
+track: foundation
+kind: ad
+title: "Koncertas parke"
+topic: "афиша: концерт"
+source: generated
+text: |
+  Šeštadienį, birželio 14 d., 18 val. miesto parke – koncertas! Groja grupė „Saulė“ ir choras „Liepa“.
+
+  Įėjimas nemokamas. Prie scenos yra kavinė: kava, arbata, ledai.
+
+  Jei lyja, koncertas vyksta kultūros centre.
+
+  Informacija telefonu: +370 5 212 3456.
+glossary:
+  - { word: "birželio", lemma: "birželis", meaning: "июнь", note: "род. п.: birželio 14 d. — 14 июня", item: lt-w-2966 }
+  - { word: "val", lemma: "valanda", meaning: "час", note: "сокращение val.: 18 val. — в 18 часов", item: lt-w-2941 }
+  - { word: "Groja", lemma: "groti", meaning: "играть (на инструменте)", note: "наст. вр.", item: lt-w-3304 }
+  - { word: "grupė", lemma: "grupė", meaning: "группа", item: lt-w-4039 }
+  - { word: "choras", lemma: "choras", meaning: "хор", item: lt-w-2613 }
+  - { word: "Įėjimas", lemma: "įėjimas", meaning: "вход", item: lt-w-4356 }
+  - { word: "nemokamas", lemma: "nemokamas", meaning: "бесплатный", item: lt-w-0708 }
+  - { word: "scenos", lemma: "scena", meaning: "сцена", note: "род. п.: prie scenos — у сцены", item: lt-w-2602 }
+  - { word: "ledai", lemma: "ledai", meaning: "мороженое", note: "только мн. ч.", item: lt-w-2798 }
+  - { word: "Jei", lemma: "jei", meaning: "если", item: lt-w-3195 }
+  - { word: "kultūros", lemma: "kultūra", meaning: "культура", note: "род. п.: kultūros centras — дом культуры", item: lt-w-0444 }
+  - { word: "telefonu", lemma: "telefonas", meaning: "телефон", note: "твор. п.: по телефону", item: lt-w-3287 }
+questions:
+  - q: "Kada vyksta koncertas?"
+    options: ["Birželio 14 d., 18 val.", "Birželio 4 d., 8 val.", "Sekmadienį ryte"]
+    answer: 0
+  - q: "Kiek kainuoja įėjimas?"
+    options: ["5 €", "Nieko nekainuoja", "10 €"]
+    answer: 1
+  - q: "Kur vyksta koncertas, jei lyja?"
+    options: ["Parke", "Kultūros centre", "Kavinėje"]
+    answer: 1

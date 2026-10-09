@@ -1,0 +1,41 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u05): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0209
+cefr: A1
+track: foundation
+kind: notice
+title: "Šeštadienio turgus"
+topic: "объявление: рынок"
+source: generated
+text: |
+  Kiekvieną šeštadienį nuo 7 iki 14 valandos miesto aikštėje vyksta turgus. Čia galite nusipirkti šviežių daržovių, vaisių, duonos, sūrio ir mėsos.
+
+  Kainos:
+  obuoliai – 1,50 € už kilogramą
+  bulvės – 0,80 € už kilogramą
+  sūris – 9 € už kilogramą
+  pienas – 1,20 € už litrą
+  duona – 2 €
+
+  Atsiskaityti galima ir kortele.
+glossary:
+  - { word: "Kiekvieną", lemma: "kiekvienas", meaning: "каждый", note: "вин. п.: kiekvieną šeštadienį — каждую субботу", item: lt-w-3113 }
+  - { word: "miesto", lemma: "miestas", meaning: "город", note: "род. п.: miesto aikštė — городская площадь", item: lt-w-2986 }
+  - { word: "vyksta", lemma: "vykti", meaning: "проходить (о событии)", note: "наст. вр.", item: lt-w-2967 }
+  - { word: "nusipirkti", lemma: "nusipirkti", meaning: "купить (себе)", item: lt-w-0143 }
+  - { word: "šviežių", lemma: "šviežias", meaning: "свежий", note: "род. п. мн. ч.", item: lt-w-0893 }
+  - { word: "daržovių", lemma: "daržovė", meaning: "овощ", note: "род. п. мн. ч.", item: lt-w-1523 }
+  - { word: "vaisių", lemma: "vaisius", meaning: "фрукт", note: "род. п. мн. ч.", item: lt-w-1401 }
+  - { word: "bulvės", lemma: "bulvė", meaning: "картофель", note: "мн. ч.", item: lt-w-0997 }
+  - { word: "už", lemma: "už", meaning: "за", note: "1,50 € už kilogramą — 1,50 € за килограмм", item: lt-w-3077 }
+questions:
+  - q: "Kada vyksta turgus?"
+    options: ["Kiekvieną šeštadienį", "Kiekvieną dieną", "Sekmadienį"]
+    answer: 0
+  - q: "Kiek kainuoja kilogramas sūrio?"
+    options: ["1,50 €", "2 €", "9 €"]
+    answer: 2
+  - q: "Kur vyksta turgus?"
+    options: ["Parduotuvėje", "Miesto aikštėje", "Prie mokyklos"]
+    answer: 1

@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u10): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0220
+cefr: A1
+track: foundation
+kind: notice
+title: "Vaistai nuo peršalimo"
+topic: "инструкция к лекарству"
+source: generated
+text: |
+  Gerkite po vieną tabletę tris kartus per dieną, po valgio. Gerkite daug vandens.
+
+  Vaikams iki 12 metų šių vaistų gerti negalima.
+
+  Jei temperatūra aukšta ilgiau nei tris dienas, kreipkitės į gydytoją.
+
+  Laikykite vėsioje vietoje.
+glossary:
+  - { word: "po", lemma: "po", meaning: "по; после", note: "po vieną tabletę — по одной таблетке; po valgio — после еды", item: lt-w-3071 }
+  - { word: "kartus", lemma: "kartas", meaning: "раз", note: "вин. п. мн. ч.: tris kartus — три раза", item: lt-w-3957 }
+  - { word: "valgio", lemma: "valgis", meaning: "еда (приём пищи)", note: "род. п.", item: lt-w-0865 }
+  - { word: "šių", lemma: "šis", meaning: "этот", note: "род. п. мн. ч.: šių vaistų — этого лекарства", item: lt-w-3218 }
+  - { word: "aukšta", lemma: "aukštas", meaning: "высокий", note: "ж. р.", item: lt-w-3087 }
+  - { word: "ilgiau", lemma: "ilgai", meaning: "долго", note: "сравн. ст.: ilgiau nei — дольше, чем", item: lt-w-3967 }
+  - { word: "kreipkitės", lemma: "kreiptis", meaning: "обратиться", note: "повелит., на «вы»", item: lt-w-0208 }
+  - { word: "Laikykite", lemma: "laikyti", meaning: "держать, хранить", note: "повелит., на «вы»", item: lt-w-3990 }
+  - { word: "vėsioje", lemma: "vėsus", meaning: "прохладный", note: "мест. п.: vėsioje vietoje — в прохладном месте", item: lt-w-1944 }
+questions:
+  - q: "Kiek kartų per dieną reikia gerti vaistus?"
+    options: ["Vieną kartą", "Du kartus", "Tris kartus"]
+    answer: 2
+  - q: "Kada reikia gerti vaistus?"
+    options: ["Prieš valgį", "Po valgio", "Naktį"]
+    answer: 1
+  - q: "Kam šių vaistų gerti negalima?"
+    options: ["Vaikams iki 12 metų", "Studentams", "Senjorams"]
+    answer: 0

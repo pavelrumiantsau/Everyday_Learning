@@ -1,0 +1,36 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u11): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0221
+cefr: A1
+track: foundation
+kind: notice
+title: "Paštas"
+topic: "почта: часы работы и услуги"
+source: generated
+text: |
+  Paštas dirba pirmadienį–penktadienį nuo 8 iki 18 val., šeštadienį nuo 9 iki 14 val. Sekmadienį paštas nedirba.
+
+  Čia galite išsiųsti laišką arba siuntinį, sumokėti sąskaitas, nusipirkti vokų ir pašto ženklų.
+
+  Siuntinį galite atsiimti tik su pasu arba asmens tapatybės kortele.
+glossary:
+  - { word: "val", lemma: "valanda", meaning: "час", note: "сокращение val.", item: lt-w-2941 }
+  - { word: "išsiųsti", lemma: "išsiųsti", meaning: "отправить", item: lt-w-0205 }
+  - { word: "sumokėti", lemma: "sumokėti", meaning: "заплатить, оплатить", item: lt-w-0045 }
+  - { word: "vokų", lemma: "vokas", meaning: "конверт", note: "род. п. мн. ч." }
+  - { word: "ženklų", lemma: "ženklas", meaning: "знак", note: "pašto ženklas — почтовая марка; род. п. мн. ч.", item: lt-w-0294 }
+  - { word: "atsiimti", lemma: "atsiimti", meaning: "забрать, получить", item: lt-w-1828 }
+  - { word: "pasu", lemma: "pasas", meaning: "паспорт", note: "твор. п.: su pasu — с паспортом", item: lt-w-2163 }
+  - { word: "asmens", lemma: "asmuo", meaning: "лицо, личность", note: "asmens tapatybės kortelė — удостоверение личности (ID-карта)", item: lt-w-4255 }
+  - { word: "tapatybės", lemma: "tapatybė", meaning: "личность (удостоверение)", note: "род. п.", item: lt-w-3850 }
+questions:
+  - q: "Kada paštas nedirba?"
+    options: ["Šeštadienį", "Sekmadienį", "Pirmadienį"]
+    answer: 1
+  - q: "Iki kada paštas dirba šeštadienį?"
+    options: ["Iki 14 val.", "Iki 18 val.", "Iki 9 val."]
+    answer: 0
+  - q: "Ko reikia, kai atsiimate siuntinį?"
+    options: ["Paso arba asmens tapatybės kortelės", "Laiško", "Voko"]
+    answer: 0

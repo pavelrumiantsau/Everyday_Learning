@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u08): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0216
+cefr: A1
+track: foundation
+kind: dialogue
+title: "Ką veiki savaitgalį?"
+topic: "договариваемся пойти в кино"
+source: generated
+text: |
+  – Labas, Jonai! Ką veiki savaitgalį?
+  – Šeštadienį žaidžiu krepšinį su draugais. O ką?
+  – Sekmadienį einu į kiną. Rodo naują lietuvišką filmą. Gal nori kartu?
+  – Su malonumu! Man labai patinka lietuviški filmai. Kada?
+  – Filmas prasideda septintą valandą vakaro. Susitinkame prie kino teatro šeštą trisdešimt?
+  – Gerai! Po filmo galime eiti į kavinę.
+  – Puiki mintis! Iki sekmadienio!
+glossary:
+  - { word: "veiki", lemma: "veikti", meaning: "делать (чем заниматься)", note: "наст. вр., ты: Ką veiki? — Что делаешь?", item: lt-w-3566 }
+  - { word: "žaidžiu", lemma: "žaisti", meaning: "играть", note: "наст. вр., я", item: lt-w-3042 }
+  - { word: "draugais", lemma: "draugas", meaning: "друг", note: "твор. п. мн. ч.: su draugais — с друзьями", item: lt-w-2880 }
+  - { word: "Rodo", lemma: "rodyti", meaning: "показывать", note: "наст. вр.: rodo filmą — показывают фильм", item: lt-w-3056 }
+  - { word: "lietuvišką", lemma: "lietuviškas", meaning: "литовский", note: "вин. п." }
+  - { word: "kartu", lemma: "kartu", meaning: "вместе", item: lt-w-3133 }
+  - { word: "vakaro", lemma: "vakaras", meaning: "вечер", note: "род. п.: septintą valandą vakaro — в семь вечера", item: lt-w-2926 }
+  - { word: "teatro", lemma: "teatras", meaning: "театр", note: "kino teatras — кинотеатр; prie + род. п.", item: lt-w-3305 }
+questions:
+  - q: "Ką Jonas veikia šeštadienį?"
+    options: ["Eina į kiną", "Žaidžia krepšinį", "Dirba"]
+    answer: 1
+  - q: "Kada prasideda filmas?"
+    options: ["Šeštą trisdešimt", "Septintą valandą vakaro", "Aštuntą valandą"]
+    answer: 1
+  - q: "Ką jie nori daryti po filmo?"
+    options: ["Eiti į kavinę", "Žaisti krepšinį", "Eiti namo"]
+    answer: 0

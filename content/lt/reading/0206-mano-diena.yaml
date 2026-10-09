@@ -1,0 +1,35 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u03): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0206
+cefr: A1
+track: foundation
+kind: text
+title: "Mano diena"
+topic: "мой день"
+source: generated
+text: |
+  Mano vardas Jonas. Aš dirbu banke. Mano diena prasideda anksti. Ryte, septintą valandą, aš geriu kavą ir valgau pusryčius. Aštuntą valandą einu į darbą. Darbas prasideda devintą ir baigiasi penktą valandą.
+
+  Vakare aš esu namie. Aš žiūriu televizorių arba skaitau knygą. Pirmadienį ir trečiadienį vakare mokausi anglų kalbos.
+
+  Šeštadienį ir sekmadienį aš nedirbu. Miegu ilgai, o paskui einu į parką.
+glossary:
+  - { word: "prasideda", lemma: "prasidėti", meaning: "начинаться", note: "наст. вр.", item: lt-w-3572 }
+  - { word: "pusryčius", lemma: "pusryčiai", meaning: "завтрак", note: "вин. п.: valgyti pusryčius — завтракать", item: lt-w-0174 }
+  - { word: "baigiasi", lemma: "baigtis", meaning: "заканчиваться", note: "наст. вр.", item: lt-w-3991 }
+  - { word: "arba", lemma: "arba", meaning: "или", item: lt-w-3171 }
+  - { word: "skaitau", lemma: "skaityti", meaning: "читать", note: "наст. вр., я", item: lt-w-2995 }
+  - { word: "mokausi", lemma: "mokytis", meaning: "учиться, учить (язык)", note: "наст. вр., я: mokausi anglų kalbos — учу английский", item: lt-w-2991 }
+  - { word: "Miegu", lemma: "miegoti", meaning: "спать", note: "наст. вр., я", item: lt-w-2843 }
+  - { word: "paskui", lemma: "paskui", meaning: "потом", item: lt-w-3233 }
+questions:
+  - q: "Kur dirba Jonas?"
+    options: ["Banke", "Mokykloje", "Kavinėje"]
+    answer: 0
+  - q: "Kada prasideda Jono darbas?"
+    options: ["Septintą valandą", "Aštuntą valandą", "Devintą valandą"]
+    answer: 2
+  - q: "Ką Jonas daro pirmadienį vakare?"
+    options: ["Mokosi anglų kalbos", "Žiūri televizorių", "Eina į parką"]
+    answer: 0

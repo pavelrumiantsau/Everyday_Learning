@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u07): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0213
+cefr: A1
+track: foundation
+kind: note
+title: "Mano šeima"
+topic: "письмо о семье"
+source: generated
+text: |
+  Labas, Lina!
+
+  Ačiū už laišką. Tu klausi apie mano šeimą. Mūsų šeima nedidelė. Mano tėtis Petras yra inžinierius, jam penkiasdešimt metų. Mama Daiva dirba mokykloje, ji yra mokytoja.
+
+  Aš turiu brolį ir seserį. Brolis Lukas yra studentas, jam dvidešimt vieneri metai. Sesuo Ugnė dar maža, jai septyni metai. Dar mes turime šunį. Jo vardas Reksas.
+
+  O kokia tavo šeima? Ar turi brolių ar seserų? Rašyk!
+
+  Austėja
+glossary:
+  - { word: "už", lemma: "už", meaning: "за", note: "ačiū už laišką — спасибо за письмо", item: lt-w-3077 }
+  - { word: "klausi", lemma: "klausti", meaning: "спрашивать", note: "наст. вр., ты", item: lt-w-3003 }
+  - { word: "apie", lemma: "apie", meaning: "о, про", note: "apie + вин. п.: apie mano šeimą — о моей семье", item: lt-w-3092 }
+  - { word: "nedidelė", lemma: "nedidelis", meaning: "небольшой", note: "ж. р." }
+  - { word: "jam", lemma: "jis", meaning: "он", note: "дат. п.: jam 50 metų — ему 50 лет", item: lt-w-3164 }
+  - { word: "dar", lemma: "dar", meaning: "ещё", item: lt-w-2951 }
+  - { word: "Rašyk", lemma: "rašyti", meaning: "писать", note: "повелит., на «ты»: пиши!", item: lt-w-2997 }
+questions:
+  - q: "Kas dirba mokykloje?"
+    options: ["Tėtis", "Mama", "Brolis"]
+    answer: 1
+  - q: "Kiek metų Lukui?"
+    options: ["Septyni", "Dvidešimt vieneri", "Penkiasdešimt"]
+    answer: 1
+  - q: "Kuo vardu šuo?"
+    options: ["Lukas", "Petras", "Reksas"]
+    answer: 2

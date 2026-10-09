@@ -1,0 +1,36 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u06): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0212
+cefr: A1
+track: foundation
+kind: text
+title: "Į darbą"
+topic: "как я езжу на работу"
+source: generated
+text: |
+  Mano vardas Paulius. Aš gyvenu Vilniuje, o dirbu centre. Iki darbo – penki kilometrai.
+
+  Vasarą aš važiuoju į darbą dviračiu. Tai greita ir sveika. Žiemą dažnai sninga, todėl aš važiuoju autobusu. Autobusų stotelė yra netoli mano namų. Kelionė trunka dvidešimt minučių.
+
+  Kartais mano žmona važiuoja į darbą mašina, bet centre sunku rasti vietą. Todėl ji dažnai eina pėsčiomis.
+glossary:
+  - { word: "kilometrai", lemma: "kilometras", meaning: "километр", note: "мн. ч.", item: lt-w-3275 }
+  - { word: "greita", lemma: "greitas", meaning: "быстрый", note: "ср. р.: tai greita — это быстро", item: lt-w-3111 }
+  - { word: "sveika", lemma: "sveikas", meaning: "здоровый", note: "ср. р.: tai sveika — это полезно для здоровья", item: lt-w-3126 }
+  - { word: "namų", lemma: "namai", meaning: "дом, жилище", note: "род. п.: netoli mano namų — недалеко от моего дома", item: lt-w-6011 }
+  - { word: "trunka", lemma: "trukti", meaning: "длиться", note: "наст. вр.", item: lt-w-0415 }
+  - { word: "minučių", lemma: "minutė", meaning: "минута", note: "род. п. мн. ч.", item: lt-w-2944 }
+  - { word: "sunku", lemma: "sunku", meaning: "трудно" }
+  - { word: "rasti", lemma: "rasti", meaning: "найти", item: lt-w-3037 }
+  - { word: "vietą", lemma: "vieta", meaning: "место", note: "вин. п.", item: lt-w-3955 }
+questions:
+  - q: "Kaip Paulius važiuoja į darbą vasarą?"
+    options: ["Autobusu", "Dviračiu", "Mašina"]
+    answer: 1
+  - q: "Kiek laiko trunka kelionė autobusu?"
+    options: ["Penkias minutes", "Dvidešimt minučių", "Valandą"]
+    answer: 1
+  - q: "Kodėl žmona dažnai eina pėsčiomis?"
+    options: ["Nes centre sunku rasti vietą", "Nes ji neturi mašinos", "Nes autobusas brangus"]
+    answer: 0

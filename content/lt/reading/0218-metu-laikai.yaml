@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u09): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0218
+cefr: A1
+track: foundation
+kind: text
+title: "Mano metų laikai"
+topic: "времена года"
+source: generated
+text: |
+  Aš mėgstu rudenį. Rugsėjį ir spalį Lietuvoje dar šilta, o medžiai geltoni ir raudoni. Savaitgalį mes einame į mišką grybauti. Lapkritį dažnai lyja, dienos trumpos, bet man patinka vakare sėdėti namie ir skaityti.
+
+  Mano vyras mėgsta žiemą. Gruodį ir sausį sninga, ir jis slidinėja. Jo gimtadienis sausio penktą dieną, todėl žiema jam – šventė.
+
+  Vasarą mes važiuojame prie jūros. Liepą ir rugpjūtį ten karšta, o vanduo šiltas.
+glossary:
+  - { word: "medžiai", lemma: "medis", meaning: "дерево", note: "мн. ч.", item: lt-w-3109 }
+  - { word: "mišką", lemma: "miškas", meaning: "лес", note: "вин. п.: į mišką — в лес", item: lt-w-2998 }
+  - { word: "grybauti", lemma: "grybauti", meaning: "собирать грибы", item: lt-w-2580 }
+  - { word: "trumpos", lemma: "trumpas", meaning: "короткий", note: "ж. р. мн. ч.", item: lt-w-3096 }
+  - { word: "slidinėja", lemma: "slidinėti", meaning: "кататься на лыжах", note: "наст. вр.", item: lt-w-2568 }
+  - { word: "šventė", lemma: "šventė", meaning: "праздник", item: lt-w-0161 }
+  - { word: "jūros", lemma: "jūra", meaning: "море", note: "род. п.: prie jūros — на море", item: lt-w-2996 }
+questions:
+  - q: "Kurį metų laiką mėgsta autorė?"
+    options: ["Rudenį", "Žiemą", "Vasarą"]
+    answer: 0
+  - q: "Kada vyro gimtadienis?"
+    options: ["Sausio penktą dieną", "Gruodžio penktą dieną", "Liepos penktą dieną"]
+    answer: 0
+  - q: "Kur šeima važiuoja vasarą?"
+    options: ["Į mišką", "Prie jūros", "Į Vilnių"]
+    answer: 1

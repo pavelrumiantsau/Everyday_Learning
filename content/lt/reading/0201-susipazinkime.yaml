@@ -1,0 +1,33 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u01): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0201
+cefr: A1
+track: foundation
+kind: bio
+title: "Susipažinkime"
+topic: "знакомство: о себе"
+source: generated
+text: |
+  Labas! Mano vardas Anna, o mano pavardė – Petrova. Aš esu rusė, iš Maskvos. Dabar aš gyvenu Vilniuje. Aš esu inžinierė.
+
+  Mano vyras Ivanas yra gydytojas. Jis dirba ligoninėje. Mes turime sūnų. Jo vardas Maksimas, jis yra studentas.
+
+  Mes kalbame rusiškai ir angliškai. Lietuviškai aš kalbu tik truputį, bet aš mokausi. Malonu susipažinti!
+glossary:
+  - { word: "Maskvos", lemma: "Maskva", meaning: "Москва", note: "род. п.: iš Maskvos — из Москвы" }
+  - { word: "inžinierė", lemma: "inžinierė", meaning: "инженер (о женщине)", note: "м. р.: inžinierius" }
+  - { word: "ligoninėje", lemma: "ligoninė", meaning: "больница", note: "мест. п.: в больнице", item: lt-w-2050 }
+  - { word: "kalbame", lemma: "kalbėti", meaning: "говорить", note: "наст. вр., мы", item: lt-w-2999 }
+  - { word: "truputį", lemma: "truputį", meaning: "немного", item: lt-w-3172 }
+  - { word: "mokausi", lemma: "mokytis", meaning: "учиться", note: "наст. вр., я", item: lt-w-2991 }
+questions:
+  - q: "Iš kur yra Anna?"
+    options: ["Iš Vilniaus", "Iš Maskvos", "Iš Kauno"]
+    answer: 1
+  - q: "Kas yra Ivanas?"
+    options: ["Inžinierius", "Mokytojas", "Gydytojas"]
+    answer: 2
+  - q: "Kaip Anna kalba lietuviškai?"
+    options: ["Labai gerai", "Tik truputį", "Visai nekalba"]
+    answer: 1

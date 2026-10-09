@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u03): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0205
+cefr: A1
+track: foundation
+kind: sms
+title: "Žinutės"
+topic: "сообщения: договориться о встрече"
+source: generated
+text: |
+  Labas, Rasa! Šiandien dirbu iki šeštos valandos. Vakare einu į parduotuvę. Gal susitinkame septintą valandą kavinėje „Liepa“? Rytoj nedirbu, galime ilgai kalbėti. Tomas
+
+  Labas, Tomai! Septintą negaliu, nes dirbu iki aštuntos. Gal aštuntą trisdešimt? Rasa
+
+  Gerai, aštuntą trisdešimt. Iki! Tomas
+glossary:
+  - { word: "šeštos", lemma: "šešta", meaning: "шестая", note: "род. п.: iki šeštos valandos — до шести часов" }
+  - { word: "susitinkame", lemma: "susitikti", meaning: "встретиться", note: "наст. вр., мы: gal susitinkame? — может, встретимся?", item: lt-w-3051 }
+  - { word: "ilgai", lemma: "ilgai", meaning: "долго", item: lt-w-3967 }
+  - { word: "negaliu", lemma: "galėti", meaning: "мочь", note: "наст. вр., я, с отрицанием", item: lt-w-3025 }
+  - { word: "aštuntos", lemma: "aštunta", meaning: "восьмая", note: "род. п.: iki aštuntos — до восьми" }
+  - { word: "trisdešimt", lemma: "trisdešimt", meaning: "тридцать", note: "aštuntą trisdešimt — в восемь тридцать" }
+  - { word: "Iki", lemma: "iki", meaning: "до; пока!", note: "в разговоре: Iki! — Пока!", item: lt-w-3080 }
+questions:
+  - q: "Iki kada šiandien dirba Tomas?"
+    options: ["Iki šeštos", "Iki septintos", "Iki aštuntos"]
+    answer: 0
+  - q: "Kur Tomas nori susitikti?"
+    options: ["Parduotuvėje", "Kavinėje", "Namie"]
+    answer: 1
+  - q: "Kada Rasa gali susitikti?"
+    options: ["Septintą valandą", "Aštuntą trisdešimt", "Rytoj ryte"]
+    answer: 1

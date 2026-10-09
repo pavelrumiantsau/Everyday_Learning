@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u04): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0208
+cefr: A1
+track: foundation
+kind: text
+title: "Mūsų namai"
+topic: "наша квартира"
+source: generated
+text: |
+  Mes gyvename Kaune, naujame name. Mūsų butas nėra didelis, bet jis labai šviesus. Bute yra trys kambariai: svetainė, miegamasis ir vaikų kambarys. Virtuvė maža, bet patogi.
+
+  Svetainėje yra didelis langas, sofa, stalas ir kėdės. Vakare mes sėdime svetainėje ir kalbame. Vaikų kambaryje yra dvi lovos, nes mes turime du vaikus.
+
+  Mūsų kaimynai labai malonūs. Mums čia patinka.
+glossary:
+  - { word: "naujame", lemma: "naujas", meaning: "новый", note: "мест. п.: naujame name — в новом доме", item: lt-w-3075 }
+  - { word: "patogi", lemma: "patogus", meaning: "удобный", note: "ж. р.: patogi virtuvė", item: lt-w-0889 }
+  - { word: "sėdime", lemma: "sėdėti", meaning: "сидеть", note: "наст. вр., мы", item: lt-w-2867 }
+  - { word: "kalbame", lemma: "kalbėti", meaning: "говорить", note: "наст. вр., мы", item: lt-w-2999 }
+  - { word: "vaikų", lemma: "vaikas", meaning: "ребёнок", note: "род. п. мн. ч.: vaikų kambarys — детская", item: lt-w-2860 }
+  - { word: "malonūs", lemma: "malonus", meaning: "приятный", note: "мн. ч.", item: lt-w-0203 }
+  - { word: "Mums", lemma: "mes", meaning: "мы", note: "дат. п.: mums patinka — нам нравится", item: lt-w-3176 }
+questions:
+  - q: "Kur gyvena šeima?"
+    options: ["Vilniuje", "Kaune", "Klaipėdoje"]
+    answer: 1
+  - q: "Koks yra butas?"
+    options: ["Didelis ir tamsus", "Nedidelis, bet šviesus", "Senas ir mažas"]
+    answer: 1
+  - q: "Kiek vaikų turi šeima?"
+    options: ["Vieną", "Du", "Tris"]
+    answer: 1

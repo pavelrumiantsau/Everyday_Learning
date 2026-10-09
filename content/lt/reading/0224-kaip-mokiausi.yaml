@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u12): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0224
+cefr: A1
+track: foundation
+kind: bio
+title: "Kaip aš mokiausi lietuvių kalbos"
+topic: "как я учила литовский"
+source: generated
+text: |
+  Aš esu Olga. Į Lietuvą atvažiavau 2022 metais. Tada aš nekalbėjau lietuviškai, mokėjau tik žodžius „labas“ ir „ačiū“. Darbe visi kalbėjo lietuviškai, ir aš nieko nesupratau.
+
+  Todėl aš pradėjau mokytis. Pirmus metus lankiau kursus du kartus per savaitę. Namie skaičiau knygas vaikams ir žiūrėjau lietuviškus filmus. Buvo sunku, ypač gramatika: septyni linksniai!
+
+  Dabar aš kalbu lietuviškai gana gerai ir noriu laikyti egzaminą.
+glossary:
+  - { word: "atvažiavau", lemma: "atvažiuoti", meaning: "приехать", note: "прош. вр., я", item: lt-w-2934 }
+  - { word: "Tada", lemma: "tada", meaning: "тогда", item: lt-w-2930 }
+  - { word: "mokėjau", lemma: "mokėti", meaning: "уметь, знать", note: "прош. вр., я", item: lt-w-2784 }
+  - { word: "visi", lemma: "visas", meaning: "весь; все", note: "мн. ч.: visi — все", item: lt-w-3110 }
+  - { word: "pradėjau", lemma: "pradėti", meaning: "начать", note: "прош. вр., я", item: lt-w-3038 }
+  - { word: "Pirmus", lemma: "pirmas", meaning: "первый", note: "вин. п. мн. ч.: pirmus metus — первый год", item: lt-w-3237 }
+  - { word: "lankiau", lemma: "lankyti", meaning: "посещать", note: "прош. вр., я: lankiau kursus — ходила на курсы", item: lt-w-3057 }
+  - { word: "ypač", lemma: "ypač", meaning: "особенно", item: lt-w-2703 }
+  - { word: "linksniai", lemma: "linksnis", meaning: "падеж", note: "мн. ч.", item: lt-w-4619 }
+  - { word: "gana", lemma: "gana", meaning: "довольно", item: lt-w-3989 }
+  - { word: "laikyti", lemma: "laikyti", meaning: "держать; сдавать (экзамен)", note: "laikyti egzaminą — сдавать экзамен", item: lt-w-3990 }
+questions:
+  - q: "Kada Olga atvažiavo į Lietuvą?"
+    options: ["2020 metais", "2022 metais", "2024 metais"]
+    answer: 1
+  - q: "Ką Olga mokėjo, kai atvažiavo?"
+    options: ["Daug žodžių", "Tik „labas“ ir „ačiū“", "Gramatiką"]
+    answer: 1
+  - q: "Ką Olga nori daryti dabar?"
+    options: ["Laikyti egzaminą", "Mokytis anglų kalbos", "Važiuoti į Rusiją"]
+    answer: 0

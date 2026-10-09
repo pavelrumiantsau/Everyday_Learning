@@ -1,0 +1,35 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u09): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0217
+cefr: A1
+track: foundation
+kind: notice
+title: "Orai šiandien"
+topic: "прогноз погоды"
+source: generated
+text: |
+  Vilniuje ryte debesuota, dieną šviečia saulė. Temperatūra – nuo 12 iki 15 laipsnių šilumos.
+
+  Kaune ir Klaipėdoje lyja, pučia stiprus vėjas.
+
+  Vakare visoje Lietuvoje šalta, tik 5–7 laipsniai šilumos. Naktį gali būti šalnų.
+glossary:
+  - { word: "debesuota", lemma: "debesuota", meaning: "облачно" }
+  - { word: "laipsnių", lemma: "laipsnis", meaning: "градус", note: "род. п. мн. ч.: 15 laipsnių — 15 градусов", item: lt-w-0985 }
+  - { word: "šilumos", lemma: "šiluma", meaning: "тепло", note: "15 laipsnių šilumos — 15 градусов тепла" }
+  - { word: "stiprus", lemma: "stiprus", meaning: "сильный", item: lt-w-3136 }
+  - { word: "visoje", lemma: "visa", meaning: "вся", note: "мест. п.: visoje Lietuvoje — по всей Литве" }
+  - { word: "laipsniai", lemma: "laipsnis", meaning: "градус", note: "мн. ч.: 5–7 laipsniai", item: lt-w-0985 }
+  - { word: "gali", lemma: "galėti", meaning: "мочь", note: "gali būti — может быть", item: lt-w-3025 }
+  - { word: "šalnų", lemma: "šalna", meaning: "заморозок", note: "род. п. мн. ч." }
+questions:
+  - q: "Koks oras Vilniuje dieną?"
+    options: ["Lyja", "Šviečia saulė", "Sninga"]
+    answer: 1
+  - q: "Kur pučia stiprus vėjas?"
+    options: ["Vilniuje", "Kaune ir Klaipėdoje", "Visoje Lietuvoje"]
+    answer: 1
+  - q: "Kokia temperatūra vakare?"
+    options: ["5–7 laipsniai", "12–15 laipsnių", "20 laipsnių"]
+    answer: 0

@@ -1,0 +1,46 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u02): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0203
+cefr: A1
+track: foundation
+kind: menu
+title: "Kavinė „Liepa“"
+topic: "меню кафе"
+source: generated
+text: |
+  Pusryčiai (8.00–11.00)
+  Kava ir pyragas – 5 €
+  Košė su obuoliais – 4 €
+
+  Gėrimai
+  Kava – 2,50 €
+  Arbata – 2 €
+  Sultys – 3 €
+  Vanduo – 1,50 €
+
+  Pietūs (12.00–16.00)
+  Dienos sriuba – 4 €
+  Žuvis su salotomis – 9 €
+  Mėsa su bulvėmis – 10 €
+
+  Atsiskaityti galima kortele ir grynaisiais.
+glossary:
+  - { word: "Košė", lemma: "košė", meaning: "каша", item: lt-w-2779 }
+  - { word: "obuoliais", lemma: "obuolys", meaning: "яблоко", note: "твор. п. мн. ч.: su obuoliais — с яблоками", item: lt-w-1195 }
+  - { word: "Gėrimai", lemma: "gėrimas", meaning: "напиток", note: "мн. ч.", item: lt-w-2804 }
+  - { word: "Dienos", lemma: "diena", meaning: "день", note: "dienos sriuba — суп дня", item: lt-w-2917 }
+  - { word: "salotomis", lemma: "salotos", meaning: "салат", note: "твор. п.: su salotomis — с салатом", item: lt-w-2790 }
+  - { word: "bulvėmis", lemma: "bulvė", meaning: "картофель", note: "твор. п. мн. ч.: su bulvėmis — с картошкой", item: lt-w-0997 }
+  - { word: "Atsiskaityti", lemma: "atsiskaityti", meaning: "расплатиться", item: lt-w-3784 }
+  - { word: "grynaisiais", lemma: "grynieji", meaning: "наличные", note: "твор. п.: платить наличными", item: lt-w-1954 }
+questions:
+  - q: "Kiek kainuoja arbata?"
+    options: ["2 €", "3 €", "4 €"]
+    answer: 0
+  - q: "Kada kavinėje yra pusryčiai?"
+    options: ["Nuo 8 iki 11 valandos", "Nuo 12 iki 16 valandos", "Visą dieną"]
+    answer: 0
+  - q: "Kaip galima atsiskaityti?"
+    options: ["Tik grynaisiais", "Tik kortele", "Kortele ir grynaisiais"]
+    answer: 2

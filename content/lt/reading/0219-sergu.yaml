@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u10): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0219
+cefr: A1
+track: foundation
+kind: note
+title: "Sergu"
+topic: "письмо начальнику: я болею"
+source: generated
+text: |
+  Laba diena, pone Tomai,
+
+  šiandien negaliu ateiti į darbą, nes sergu. Man skauda galvą ir gerklę, temperatūra – 38 laipsniai. Šiandien dešimtą valandą einu pas gydytoją.
+
+  Atsiprašau.
+
+  Su pagarba,
+  Rūta Jonaitienė
+glossary:
+  - { word: "ateiti", lemma: "ateiti", meaning: "прийти", item: lt-w-2922 }
+  - { word: "laipsniai", lemma: "laipsnis", meaning: "градус", note: "мн. ч.", item: lt-w-0985 }
+  - { word: "pas", lemma: "pas", meaning: "к (человеку)", note: "pas + вин. п.: einu pas gydytoją — иду к врачу", item: lt-w-3068 }
+  - { word: "pagarba", lemma: "pagarba", meaning: "уважение", note: "su pagarba — с уважением (в конце письма)", item: lt-w-0410 }
+questions:
+  - q: "Kodėl Rūta neina į darbą?"
+    options: ["Nes ji serga", "Nes ji atostogauja", "Nes ji vėluoja"]
+    answer: 0
+  - q: "Kas Rūtai skauda?"
+    options: ["Pilvą", "Galvą ir gerklę", "Koją"]
+    answer: 1
+  - q: "Kada Rūta eina pas gydytoją?"
+    options: ["Šiandien dešimtą valandą", "Rytoj ryte", "Vakare"]
+    answer: 0

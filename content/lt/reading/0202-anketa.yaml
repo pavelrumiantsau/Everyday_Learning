@@ -1,0 +1,40 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u01): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0202
+cefr: A1
+track: foundation
+kind: form
+title: "Kalbos kursų anketa"
+topic: "анкета на курсы языка"
+source: generated
+text: |
+  Vardas: Tomas
+  Pavardė: Kazlauskas
+  Gimimo data: 1995 m. kovo 12 d.
+  Šalis: Lietuva
+  Miestas: Kaunas
+  Adresas: Laisvės al. 15–3
+  Telefonas: +370 612 34567
+  Profesija: mokytojas
+  Kalbos: lietuvių, anglų, šiek tiek rusų
+  Kokios kalbos norite mokytis? Vokiečių.
+glossary:
+  - { word: "Gimimo", lemma: "gimimas", meaning: "рождение", note: "gimimo data — дата рождения", item: lt-w-4398 }
+  - { word: "m", lemma: "metai", meaning: "год", note: "сокращение m. — metai: 1995 m. — 1995 год", item: lt-w-2938 }
+  - { word: "kovo", lemma: "kovas", meaning: "март", note: "род. п.: kovo 12 d. — 12 марта", item: lt-w-2962 }
+  - { word: "d", lemma: "diena", meaning: "день", note: "сокращение d. в датах: kovo 12 d. — 12 марта", item: lt-w-2917 }
+  - { word: "al", lemma: "alėja", meaning: "аллея", note: "сокращение al. в адресах: Laisvės al. — аллея Свободы", item: lt-w-1331 }
+  - { word: "Profesija", lemma: "profesija", meaning: "профессия", item: lt-w-0636 }
+  - { word: "mokytis", lemma: "mokytis", meaning: "учиться, учить (язык)", note: "mokytis + род. п.: kalbos", item: lt-w-2991 }
+  - { word: "Vokiečių", lemma: "vokiečių kalba", meaning: "немецкий язык", note: "vokiečių — род. п. мн. ч. от vokietis «немец»" }
+questions:
+  - q: "Kur gyvena Tomas?"
+    options: ["Vilniuje", "Kaune", "Klaipėdoje"]
+    answer: 1
+  - q: "Kokia Tomo profesija?"
+    options: ["Gydytojas", "Mokytojas", "Studentas"]
+    answer: 1
+  - q: "Kokios kalbos Tomas nori mokytis?"
+    options: ["Anglų", "Lietuvių", "Vokiečių"]
+    answer: 2

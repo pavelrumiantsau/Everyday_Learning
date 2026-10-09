@@ -157,6 +157,10 @@ export const READING_WORDS: Record<"A1" | "A2" | "B1" | "B2" | "C1", [number, nu
   C1: [120, 400],
 };
 
+/** Foundation course (docs/EXTENSION-PLAN.md §6.5): exam text types are short — a menu, an SMS, a form, an ad. */
+export const READING_KINDS = ["text", "note", "sms", "ad", "menu", "form", "notice", "bio", "dialogue"] as const;
+export const FOUNDATION_READING_WORDS: [number, number] = [25, 150];
+
 const CYRILLIC = /[а-яё]/i;
 
 export const ReadingText = z
@@ -165,6 +169,8 @@ export const ReadingText = z
     cefr: z.enum(["A1", "A2", "B1", "B2", "C1"]),
     /** Colleagues' Lithuanian A0 → A2 course only (docs/EXTENSION-PLAN.md §4.2): never shown to the original plan. */
     track: z.literal("foundation").optional(),
+    /** Exam text type (foundation course); plain prose when missing. */
+    kind: z.enum(READING_KINDS).optional(),
     /** In the target language. */
     title: z.string().trim().min(1),
     /** Short topic in the explanation language ("переезд", "a day in the city"). */
@@ -180,7 +186,8 @@ export const ReadingText = z
   .superRefine((t, ctx) => {
     const lang = t.id.slice(0, 2) as Lang;
     const words = wordsOf(t.text);
-    const [min, max] = READING_WORDS[t.cefr];
+    const shortOk = t.track === "foundation" && (t.cefr === "A1" || t.cefr === "A2");
+    const [min, max] = shortOk ? FOUNDATION_READING_WORDS : READING_WORDS[t.cefr];
     if (words.length < min || words.length > max) {
       ctx.addIssue({ code: "custom", path: ["text"], message: `${t.cefr} texts need ${min}–${max} words (has ${words.length})` });
     }
