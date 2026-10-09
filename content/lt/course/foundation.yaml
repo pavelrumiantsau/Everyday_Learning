@@ -1,0 +1,66 @@
+# Lithuanian foundation course: from zero to the A2 state exam (Basic–I category). Plan: docs/EXTENSION-PLAN.md §6.
+# Format: packages/core/src/course.ts → Course. Only learners with `lt.course: foundation` follow it; the original plan never does.
+# Units point to existing ids; a word may appear in one unit only. Unit ids are stable (progress is stored by them).
+# Content per unit (phase E/H): 40–70 words, 6–8 phrases, 1–2 lessons, 2 texts, dialogues, a writing and two speaking tasks.
+# Gap words still to add (phase E, ids lt-w-6001+): u01 Lietuva, lietuvis, lietuvė, rusė, inžinierius, malonu, lietuviškai,
+#   rusiškai, viso gero; u02 euras.
+id: lt-foundation
+units:
+  # --- Stage 0: sounds (6 micro-lessons, alongside unit 1) ---
+  - { id: s01, stage: sounds, title: "Алфавит и как назвать своё имя по буквам", can_do: ["Называю буквы литовского алфавита", "Произношу своё имя и фамилию по буквам"] }
+  - { id: s02, stage: sounds, title: "Долгие и краткие гласные: a/ą, e/ę/ė, i/į/y, u/ų/ū", can_do: ["Слышу разницу между долгими и краткими гласными"] }
+  - { id: s03, stage: sounds, title: "ie, uo и дифтонги ai, ei, au, ui", can_do: ["Правильно читаю ie, uo, ai, ei, au, ui"] }
+  - { id: s04, stage: sounds, title: "č, š, ž, c, dz, dž, ch", can_do: ["Читаю и пишу č, š, ž, c, dz, dž, ch"] }
+  - { id: s05, stage: sounds, title: "Мягкие согласные: буква i после согласной", can_do: ["Читаю мягкие согласные: lietus, geriau"] }
+  - { id: s06, stage: sounds, title: "Ударение и литовские буквы на клавиатуре", can_do: ["Знаю, что ударение подвижное, и вижу его в словах", "Набираю ą č ę ė į š ų ū ž на телефоне и компьютере"] }
+
+  # --- Stage A1: 12 units, one per official topic ---
+  - id: u01
+    stage: A1
+    topic: 1
+    title: "Знакомство"
+    words: [lt-w-3151, lt-w-3193, lt-w-3157, lt-w-3169, lt-w-3163, lt-w-3175, lt-w-3196, lt-w-3202, lt-w-3152, lt-w-3158, lt-w-3164, lt-w-3170, lt-w-3176, lt-w-3182, lt-w-3188, lt-w-2985, lt-w-3124, lt-w-3299, lt-w-3155, lt-w-3203, lt-w-3180, lt-w-3161, lt-w-2840, lt-w-3127, lt-w-4102, lt-w-3064, lt-w-2989, lt-w-3067, lt-w-0083, lt-w-3285, lt-w-4172, lt-w-3235, lt-w-3238, lt-w-3241, lt-w-3244, lt-w-3246, lt-w-3249, lt-w-3252, lt-w-3255, lt-w-3258, lt-w-3261, lt-w-4001, lt-w-3287, lt-w-4004, lt-w-4051, lt-w-3288, lt-w-3082, lt-w-2999, lt-w-4151, lt-w-2986]
+    can_do:
+      - "Здороваюсь, прощаюсь, благодарю и извиняюсь"
+      - "Называю имя, фамилию, страну и профессию"
+      - "Спрашиваю: Kas jūs? Iš kur jūs? Kur gyvenate?"
+      - "Диктую номер телефона цифрами 0–10"
+  - id: u02
+    stage: A1
+    topic: 11
+    title: "Еда и кафе"
+    words: [lt-w-2799, lt-w-2800, lt-w-2802, lt-w-2770, lt-w-0884, lt-w-2776, lt-w-2764, lt-w-2767, lt-w-2790, lt-w-2773, lt-w-0857, lt-w-0922, lt-w-1050, lt-w-2796, lt-w-2801, lt-w-2803, lt-w-1195, lt-w-2808, lt-w-3291, lt-w-2435, lt-w-0928, lt-w-2422, lt-w-2811, lt-w-0843, lt-w-2765, lt-w-2768, lt-w-3023, lt-w-2780, lt-w-2784, lt-w-0120, lt-w-3322, lt-w-1954, lt-w-2766, lt-w-2775, lt-w-2778, lt-w-0174, lt-w-2806, lt-w-2807]
+    can_do:
+      - "Заказываю еду и напитки в кафе: Norėčiau kavos"
+      - "Спрашиваю цену и прошу счёт"
+      - "Говорю, что люблю есть и пить на завтрак, обед и ужин"
+  - { id: u03, stage: A1, topic: 4, title: "Мой день: дни недели, время, распорядок", can_do: ["Называю дни недели и время", "Рассказываю, что делаю утром, днём и вечером"] }
+  - { id: u04, stage: A1, topic: 2, title: "Дом и квартира", can_do: ["Описываю квартиру и комнаты", "Называю адрес: улица, дом, квартира"] }
+  - { id: u05, stage: A1, topic: 10, title: "Магазин: цены, количество, цвета", can_do: ["Покупаю продукты и одежду в магазине", "Понимаю цены в евро"] }
+  - { id: u06, stage: A1, topic: 6, title: "Город и транспорт", can_do: ["Спрашиваю дорогу и понимаю ответ", "Покупаю билет на автобус или поезд"] }
+  - { id: u07, stage: A1, topic: 7, title: "Семья, внешность, характер", can_do: ["Рассказываю о своей семье", "Описываю внешность и характер человека"] }
+  - { id: u08, stage: A1, topic: 5, title: "Свободное время", can_do: ["Рассказываю о хобби: что мне нравится и что нет", "Предлагаю встретиться и договариваюсь о времени"] }
+  - { id: u09, stage: A1, topic: 3, title: "Погода, времена года, месяцы", can_do: ["Говорю о погоде", "Называю дату и месяц своего дня рождения"] }
+  - { id: u10, stage: A1, topic: 8, title: "Здоровье и аптека", can_do: ["Говорю, что болит", "Покупаю лекарство в аптеке"] }
+  - { id: u11, stage: A1, topic: 12, title: "Услуги: почта, банк, телефон", can_do: ["Вежливо прошу о помощи: Gal galėtumėte…?", "Обращаюсь к человеку по имени (Jonai, Rasa)"] }
+  - { id: u12, stage: A1, topic: 9, title: "Учёба и языки", can_do: ["Рассказываю, какие языки знаю и где учился", "Говорю о прошлом: buvau, mokiausi, dirbau"] }
+
+  # --- Stage A2: the same topics, deeper ---
+  - { id: u13, stage: A2, topic: 1, title: "Биография и анкеты", can_do: ["Рассказываю свою биографию с датами", "Заполняю простую анкету"] }
+  - { id: u14, stage: A2, topic: 2, title: "Квартира и быт, записка соседям", can_do: ["Снимаю квартиру и говорю о ремонте", "Пишу короткую записку соседям"] }
+  - { id: u15, stage: A2, topic: 3, title: "Регион и природа, прогноз погоды", can_do: ["Рассказываю о поездке по Литве", "Понимаю прогноз погоды и сравниваю: šilčiau, šalčiausia"] }
+  - { id: u16, stage: A2, topic: 4, title: "Будни и привычки", can_do: ["Рассказываю о привычках: dirbdavau, eidavau", "Говорю, что делаю, когда…"] }
+  - { id: u17, stage: A2, topic: 5, title: "Досуг и праздники, приглашения", can_do: ["Приглашаю и отвечаю на приглашение", "Понимаю афишу и программу мероприятия"] }
+  - { id: u18, stage: A2, topic: 6, title: "Поездки: билеты, расписание, гостиница", can_do: ["Читаю расписание и покупаю билет", "Бронирую номер в гостинице"] }
+  - { id: u19, stage: A2, topic: 7, title: "Люди и отношения, поздравления", can_do: ["Пишу поздравление с днём рождения и праздником", "Говорю о друзьях и знакомых"] }
+  - { id: u20, stage: A2, topic: 8, title: "Здоровье и гигиена, советы", can_do: ["Объясняю врачу, что случилось", "Даю и понимаю простые советы: reikia, galima, negalima"] }
+  - { id: u21, stage: A2, topic: 9, title: "Учёба и наука, объявления", can_do: ["Понимаю объявление о курсах", "Объясняю причину: nes, todėl kad"] }
+  - { id: u22, stage: A2, topic: 10, title: "Покупки: размеры, возврат, жалоба", can_do: ["Спрашиваю размер и цену, возвращаю товар", "Понимаю числа с существительными: du eurai, penki eurai, dvidešimt eurų"] }
+  - { id: u23, stage: A2, topic: 11, title: "Еда и напитки: меню и рецепты", can_do: ["Читаю меню и рецепт", "Объясняю, как приготовить простое блюдо"] }
+  - { id: u24, stage: A2, topic: 12, title: "Услуги: объявление о потере, звонки", can_do: ["Пишу объявление: потерял / нашёл", "Звоню в сервис и объясняю проблему"] }
+
+  # --- Exam stage ---
+  - { id: e01, stage: exam, title: "Экзамен A2: формат, время, стратегия", can_do: ["Знаю части экзамена и сколько баллов нужно"] }
+  - { id: e02, stage: exam, title: "Пробный экзамен A1", can_do: ["Сдаю пробный экзамен A1 на 60%+ в каждой части"] }
+  - { id: e03, stage: exam, title: "Пробный экзамен A2 — 1", can_do: ["Сдаю пробный экзамен A2 на 60%+ в каждой части"] }
+  - { id: e04, stage: exam, title: "Пробный экзамен A2 — 2", can_do: ["Уверенно сдаю все три части на A2"] }

@@ -82,12 +82,13 @@ export type AnswerResult = "correct" | "almost" | "wrong";
 /**
  * Compares a typed answer with the accepted ones, ignoring case, punctuation and extra spaces.
  * "almost" = right except for diacritics (dirbciau for dirbčiau, esta for está).
+ * `strict` (exam practice, docs/EXTENSION-PLAN.md §6.5): a missing or wrong diacritic is "wrong", as in the A2 exam.
  */
-export function checkAnswer(input: string, accepted: readonly string[]): AnswerResult {
+export function checkAnswer(input: string, accepted: readonly string[], strict = false): AnswerResult {
   const got = normalize(input);
   if (!got) return "wrong";
   const want = accepted.map(normalize);
   if (want.includes(got)) return "correct";
   const bare = stripMarks(got);
-  return want.some((w) => stripMarks(w) === bare) ? "almost" : "wrong";
+  return !strict && want.some((w) => stripMarks(w) === bare) ? "almost" : "wrong";
 }

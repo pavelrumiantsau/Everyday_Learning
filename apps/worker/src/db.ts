@@ -24,6 +24,14 @@ export class Db {
     return results;
   }
 
+  /** Items whose meaning card is past the learning steps (FSRS state Review or Relearning). */
+  async learnedItemIds(): Promise<Set<string>> {
+    const { results } = await this.d1
+      .prepare("SELECT item_id FROM card_state WHERE card_id LIKE '%:recog' AND json_extract(fsrs, '$.state') IN (2, 3)")
+      .all<{ item_id: string }>();
+    return new Set(results.map((r) => r.item_id));
+  }
+
   async cardIds(): Promise<Set<string>> {
     const { results } = await this.d1.prepare("SELECT card_id FROM card_state").all<{ card_id: string }>();
     return new Set(results.map((r) => r.card_id));

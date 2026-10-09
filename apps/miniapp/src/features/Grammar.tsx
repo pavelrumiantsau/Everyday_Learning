@@ -17,6 +17,7 @@ import {
   type Lang,
   type Rating,
   type SeenLesson,
+  strictLetters,
 } from "../api";
 import type { MiniFeature } from "../features";
 import { Play } from "../Audio";
@@ -86,7 +87,7 @@ export function useClozeInput(ex: Exercise) {
   const [result, setResult] = useState<AnswerResult | null>(null);
   const check = () => {
     if (result || !value.trim()) return;
-    const r = checkAnswer(value, accepted(ex));
+    const r = checkAnswer(value, accepted(ex), strictLetters());
     haptic(r === "correct" ? "done" : "tap");
     setResult(r);
   };
@@ -125,6 +126,9 @@ export function ClozeBody({ ex, value, setValue, result, check, audioId, audioFi
           {result === "correct" && <b>✓ Верно</b>}
           {result === "almost" && <b>≈ Почти — проверь надстрочные знаки</b>}
           {result === "wrong" && <b>✗ Не совсем</b>}
+          {result === "wrong" && strictLetters() && checkAnswer(value, accepted(ex)) === "almost" && (
+            <span className="hint small">На экзамене буквы ą č ę ė į š ų ū ž обязательны — без них ответ не засчитают.</span>
+          )}
           {result !== "correct" && (
             <span>
               Твой ответ: <s>{value.trim()}</s> · правильно: <b>{ex.answer}</b>

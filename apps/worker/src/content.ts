@@ -16,3 +16,7 @@ export const TEXTS = readingJson as unknown as ReadingText[];
 export const TEXT_BY_ID = new Map(TEXTS.map((t) => [t.id, t]));
 import sourcesJson from "./generated/sources.json";
 export const SOURCES = (sourcesJson as unknown as Sources).sources;
+import courseJson from "./generated/course.json";
+import type { Course } from "@el/core";
+/** Lithuanian foundation course map (content/lt/course/foundation.yaml), or null before it exists. */
+export const COURSE = courseJson as unknown as Course | null;

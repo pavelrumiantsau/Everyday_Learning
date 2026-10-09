@@ -18,7 +18,7 @@ export type Level = (typeof LEVELS)[number];
 
 /** foundation = Lithuanian A0 → A2-exam course; continuing = today's B1+ path; standard = ES/FR content as it is. */
 export const COURSES = ["foundation", "continuing", "standard"] as const;
-export type Course = (typeof COURSES)[number];
+export type CourseKind = (typeof COURSES)[number];
 
 const Day = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const Hhmm = z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/);

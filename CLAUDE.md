@@ -17,7 +17,9 @@ content is `track: foundation` and never reaches the owner, Spanish/French mater
 Personal copies: no `TELEGRAM_USER_ID` → owner bound by claim code (`apps/worker/src/owner.ts`); CI for copies in
 `scripts/ci/` + `setup.yml` / `update.yml` / `backup-copy.yml` (skipped in this repo); guide `docs/SETUP-COPY.md`.
 Smoke runs a second Worker in copy mode (`COPY_CHECKS`). Learner profile (copies only; none = original plan):
-`packages/core/src/profile.ts` + Worker `src/profile.ts` (`currentProfile()`, `timezone()` — use these, never `SCHEDULE.timezone`).
+`packages/core/src/profile.ts` + Worker `src/profile.ts` (`currentProfile()`, `timezone()` — use these, never `SCHEDULE.timezone`;
+`learnerItems()` / `learnerLessons()` instead of `ITEMS` / `LESSONS` when picking what to teach). Course map:
+`content/lt/course/foundation.yaml` (`packages/core/src/course.ts`), Mini App «Курс».
 
 ## Conventions that matter
 - **Explanation language:** Lithuanian → **Russian**; Spanish/French → **English**. **Bot and Mini App UI strings: Russian.**
@@ -35,12 +37,12 @@ Smoke runs a second Worker in copy mode (`COPY_CHECKS`). Learner profile (copies
 - `packages/llm` — provider router (Groq main, Gemini fallback, Anthropic off), adapters, prompts rendering; tests in `packages/llm/test`.
 - `apps/worker` — Cloudflare Worker (Hono + D1). **Features plug in** via `src/features/<name>.ts` (`Feature`: commands, onMessage,
   onPollAnswer, api, onTick) and one line in `src/features/index.ts` (**`tutor` must stay last**: it takes plain text). Migrations in
-  `migrations/` (next: **0011**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
+  `migrations/` (next: **0012**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
 - `apps/miniapp` — React 19 + Vite. Features in `src/features/*.tsx` (`HomeEntry` + `Screen`), listed in `src/features.tsx`;
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
 - `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.
 - `scripts/` — content build/validate, sources, candidates, batches (`scripts/batches/*.py`), audio (`tts.py`), smoke test
-  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **16**), setup scripts.
+  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **17**), setup scripts.
 
 ## Commands
 ```bash

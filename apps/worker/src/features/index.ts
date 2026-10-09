@@ -2,6 +2,7 @@
 import type { Command, Feature } from "../feature";
 import { assessment } from "./assessment";
 import { core } from "./core";
+import { course } from "./course";
 import { grammar } from "./grammar";
 import { mistakes } from "./mistakes";
 import { more } from "./more";
@@ -15,7 +16,7 @@ import { setup } from "./setup";
 import { tutor } from "./tutor";
 
 // tutor stays last: it takes plain text/voice messages, so features before it get the first chance.
-export const FEATURES: Feature[] = [core, setup, review, more, placement, grammar, settings, progress, report, assessment, mistakes, reading, tutor];
+export const FEATURES: Feature[] = [core, setup, course, review, more, placement, grammar, settings, progress, report, assessment, mistakes, reading, tutor];
 
 export const COMMANDS: Command[] = FEATURES.flatMap((f) => f.commands ?? []);
 

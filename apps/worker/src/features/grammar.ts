@@ -1,11 +1,11 @@
 // Grammar lessons: rule of the day (weekday rotation), /rule, Mini App lesson API, exercises → cloze review cards.
-import { chosenLangs, exerciseCardId, holdsFrenchGrammar, inWindow, ruleLangsForDay, visibleTo, localClock, newCard, parseExerciseCardId, pickLesson, type Exercise, type Lang, type Lesson } from "@el/core";
+import { chosenLangs, exerciseCardId, holdsFrenchGrammar, inWindow, ruleLangsForDay, localClock, newCard, parseExerciseCardId, pickLesson, type Exercise, type Lang, type Lesson } from "@el/core";
 import { Hono } from "hono";
 import { LESSON_BY_ID, LESSONS } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs } from "../prefs";
-import { currentProfile, timezone } from "../profile";
+import { currentProfile, learnerLessons, timezone } from "../profile";
 
 const MORNING_WINDOW_MIN = 180; // same window as the morning lesson (daily.ts)
 const FLAG: Record<string, string> = { lt: "🇱🇹", es: "🇪🇸", fr: "🇫🇷" };
@@ -47,7 +47,7 @@ export async function todayLesson(d1: D1Database, now: Date, anyDay = false): Pr
   if (!langs.length && anyDay) langs.push(p?.main ?? "lt");
   if (!langs.length) return { day, lesson: null };
   const done = await doneLessonIds(d1);
-  const lessons = visibleTo(LESSONS, p);
+  const lessons = learnerLessons();
   const lesson = langs.map((lang) => pickLesson(lessons, lang, done, holdsFrenchGrammar(p) ? day : undefined)).find((l) => l) ?? null;
   if (!lesson) return { day, lesson: null };
   await d1.prepare("INSERT OR IGNORE INTO grammar_day (day, lesson_id) VALUES (?, ?)").bind(day, lesson.id).run();
@@ -65,7 +65,7 @@ export async function nextLesson(d1: D1Database, now: Date, lang?: Lang): Promis
   if (today) done.add(today); // today's rule has its own entry
   const p = currentProfile();
   const langs = lang ? [lang] : [...new Set<Lang>([...ruleLangsForDay(day, p), ...(p ? chosenLangs(p) : (["lt", "es", "fr"] as const))])];
-  const lessons = visibleTo(LESSONS, p);
+  const lessons = learnerLessons();
   return langs.map((l) => pickLesson(lessons, l, done, holdsFrenchGrammar(p) ? day : undefined)).find((l) => l) ?? null;
 }
 

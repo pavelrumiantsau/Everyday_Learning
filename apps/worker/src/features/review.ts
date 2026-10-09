@@ -8,7 +8,7 @@ import type { Feature } from "../feature";
 import { grammarQueueCard } from "./grammar";
 import { ensureMistakeCards, mistakeQueueCards } from "./mistakes";
 import { learnerItems } from "./reading";
-import { currentProfile, needsSetup, timezone } from "../profile";
+import { currentProfile, needsSetup, onFoundation, timezone } from "../profile";
 
 const api = new Hono<{ Bindings: Env }>();
 
@@ -19,7 +19,9 @@ api.get("/session", async (c) => {
   const [today, due, learning, known] = await Promise.all([db.getDay(day), db.countDue(now.getTime()), db.countLearning(), db.countCards()]);
   const p = currentProfile();
   // langs: the languages this learner studies (all three in the original plan); needsSetup: a copy before the wizard.
-  return c.json({ day, reviewsToday: today.reviews, newToday: today.new_cards, due, learning, known, langs: p ? chosenLangs(p) : LANGS, needsSetup: needsSetup(c.env) });
+  return c.json({ day, reviewsToday: today.reviews, newToday: today.new_cards, due, learning, known, langs: p ? chosenLangs(p) : LANGS, needsSetup: needsSetup(c.env),
+    // course: the Lithuanian foundation course is on; strictLetters: exam practice (a for ą is wrong), with an A2 exam goal.
+    course: onFoundation(), strictLetters: onFoundation() && !!p?.languages.lt?.exam });
 });
 
 const QUEUE_MAX = 200;

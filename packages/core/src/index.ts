@@ -13,3 +13,4 @@ export * from "./grammar";
 export * from "./diff";
 export * from "./reading";
 export * from "./profile";
+export * from "./course";

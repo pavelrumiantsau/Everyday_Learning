@@ -4,7 +4,7 @@ import { tg } from "./telegram";
 export type Lang = "lt" | "es" | "fr";
 /** `learning`: new words not learned yet («Учить новые слова»); they are not part of `due`. */
 /** `langs`: the languages this learner studies; `needsSetup`: a personal copy whose setup wizard isn't answered yet. */
-export interface Session { day: string; reviewsToday: number; newToday: number; due: number; learning: number; known: Partial<Record<Lang, number>>; langs: Lang[]; needsSetup: boolean }
+export interface Session { day: string; reviewsToday: number; newToday: number; due: number; learning: number; known: Partial<Record<Lang, number>>; langs: Lang[]; needsSetup: boolean; course: boolean; strictLetters: boolean }
 export interface WordCard { cardId: string; kind: "recog" | "forms" | "prod"; lang: Lang; item: Item }
 /** Grammar exercise card (lt-g-0001:cloze1), created when a lesson is marked done. */
 export interface ClozeCard { cardId: string; kind: "cloze"; lang: Lang; lessonId: string; lessonTitle: string; exercise: Exercise }
@@ -24,11 +24,15 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 let langs: Lang[] = ["lt", "es", "fr"];
+let strict = false;
+/** Exam practice: an answer with a missing Lithuanian letter (a for ą) counts as wrong. */
+export const strictLetters = () => strict;
 /** The learner's languages (from the last session load): screens offer only these. */
 export const activeLangs = (): Lang[] => langs;
 export const getSession = () =>
   call<Session>("/session").then((s) => {
     langs = s.langs?.length ? s.langs : langs;
+    strict = !!s.strictLetters;
     return s;
   });
 export const getQueue = (limit = 100) => call<{ cards: QueueCard[] }>(`/queue?limit=${limit}`).then((r) => r.cards);
@@ -186,3 +190,28 @@ export interface ProfileState {
 export const getProfile = () => call<ProfileState>("/profile");
 export const saveProfile = (answers: { profile: LearnerProfile; morning: string; evening: string; min_day_answers: number }) =>
   call<{ ok: true }>("/profile", { method: "POST", body: JSON.stringify(answers) });
+
+// --- Lithuanian foundation course (personal copies) ---
+export interface UnitProgress {
+  id: string;
+  words: { total: number; learned: number; introduced: number };
+  lessons: { total: number; done: number };
+  texts: { total: number; read: number };
+  check: number | null;
+  percent: number;
+  complete: boolean;
+}
+export interface CourseUnitSummary { id: string; stage: "sounds" | "A1" | "A2" | "exam"; title: string; topic: number | null; can_do: string[]; progress: UnitProgress }
+export interface CourseOverview { units: CourseUnitSummary[]; current: string | null; passPercent: number; checkSize: number }
+export interface UnitDetail {
+  unit: { id: string; stage: string; title: string; can_do: string[] };
+  words: { id: string; text: string; stress: string | null; meaning: string; introduced: boolean; learned: boolean }[];
+  lessons: { id: string; title: string; done: boolean }[];
+  texts: { id: string; title: string; read: boolean }[];
+  progress: UnitProgress;
+}
+export const getCourse = () => call<CourseOverview>("/course");
+export const getUnit = (id: string) => call<UnitDetail>(`/course/units/${id}`);
+export const saveUnitCheck = (id: string, correct: number, total: number) =>
+  call<{ score: number; passed: boolean }>(`/course/units/${id}/check`, { method: "POST", body: JSON.stringify({ correct, total }) });
+export const markUnitKnown = (id: string) => call<{ progress: UnitProgress }>(`/course/units/${id}/known`, { method: "POST" });

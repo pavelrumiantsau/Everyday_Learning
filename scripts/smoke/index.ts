@@ -14,6 +14,7 @@ import french from "./12-french.ts";
 import more from "./13-more.ts";
 import copyOwner from "./14-copy-owner.ts";
 import setupWizard, { ownerSide as setupOwnerSide } from "./15-setup.ts";
+import courseChecks, { ownerSide as courseOwnerSide } from "./16-course.ts";
 import type { Smoke } from "./context.ts";
 
 export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
@@ -31,10 +32,12 @@ export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "french", run: french },
   { name: "more", run: more },
   { name: "setup wizard: original bot unchanged", run: setupOwnerSide },
+  { name: "course: original bot unchanged", run: courseOwnerSide },
 ];
 
 /** Run against a second Worker + database configured as a colleague's personal copy (no TELEGRAM_USER_ID). */
 export const COPY_CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "personal copy: owner binding", run: copyOwner },
   { name: "personal copy: setup wizard", run: setupWizard },
+  { name: "personal copy: foundation course", run: courseChecks },
 ];

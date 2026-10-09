@@ -22,11 +22,16 @@ api.get("/placement", async (c) => {
 api.post("/placement", async (c) => {
   const body = await c.req.json<{ results?: { itemId: string; known: boolean }[] }>().catch(() => ({}) as { results?: never[] });
   const db = new Db(c.env.DB);
-  const now = new Date();
+  const saved = await savePlacement(db, (body.results ?? []).slice(0, 200), new Date());
+  return c.json({ saved, stats: await db.placementStats() });
+});
+
+/** Saves placement answers; a known word gets its cards with an «Easy» first answer (also used by «Я знаю этот юнит»). */
+export async function savePlacement(db: Db, results: { itemId: string; known: boolean }[], now: Date): Promise<boolean> {
   const at = now.getTime();
   const introduced = await db.introducedItemIds();
   const stmts: D1PreparedStatement[] = [];
-  for (const r of (body.results ?? []).slice(0, 200)) {
+  for (const r of results) {
     const item = ITEM_BY_ID.get(r.itemId);
     if (!item || typeof r.known !== "boolean") continue;
     stmts.push(db.savePlacement(item.id, r.known, at));
@@ -40,7 +45,7 @@ api.post("/placement", async (c) => {
     }
   }
   if (stmts.length) await db.batch(stmts);
-  return c.json({ saved: stmts.length > 0, stats: await db.placementStats() });
-});
+  return stmts.length > 0;
+}
 
 export const placement: Feature = { id: "placement", api };
