@@ -57,3 +57,13 @@ exercises:
     answer: "šalta"
     hint: "холодно"
     translation: "На улице холодно."
+  - type: cloze
+    text: "Aš ___ kavinėje ir laukiu draugo."
+    answer: "sėdžiu"
+    hint: "сижу"
+    translation: "Я сижу в кафе и жду друга."
+  - type: cloze
+    text: "Ar čia yra ___?"
+    answer: "bažnyčia"
+    hint: "церковь"
+    translation: "Здесь есть церковь?"

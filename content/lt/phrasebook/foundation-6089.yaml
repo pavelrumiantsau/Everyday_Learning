@@ -303,9 +303,9 @@
   type: phrase
   cefr: A2
   track: foundation
-  text: "Man alergija riešutams."
+  text: "Turiu alergiją riešutams."
   meaning: { ru: "У меня аллергия на орехи." }
-  note: { ru: "alergija kam (дат. п.)" }
+  note: { ru: "alergija kam (дат. п.); в разговоре и: Man alergija riešutams." }
   examples:
     - { text: "Tomas neturi jokios alergijos.", translation: "У Тома нет ни на что аллергии.", source: "tatoeba:12197956" }
 - id: lt-p-6133

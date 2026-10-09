@@ -54,3 +54,13 @@ exercises:
     answer: "Šilta"
     hint: "тёплый"
     translation: "Тёплый суп очень вкусный."
+  - type: cloze
+    text: "Aš ___ kavą be cukraus."
+    answer: "geriu"
+    hint: "пью"
+    translation: "Я пью кофе без сахара."
+  - type: cloze
+    text: "Aš tave ___."
+    answer: "myliu"
+    hint: "люблю"
+    translation: "Я тебя люблю."

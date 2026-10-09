@@ -11,7 +11,7 @@ p|Malonu susipažinti.|||A1|Приятно познакомиться.|||
 p|Kuo tu vardu?|||A1|Как тебя зовут?||на «вы»: Kuo jūs vardu?|
 p|Mano vardas …|||A1|Меня зовут …|12114384||
 p|Norėčiau kavos.|||A1|Я бы хотел(а) кофе.||после norėčiau — родительный: arbatos, vandens, alaus|
-p|Prašau sąskaitą.|||A1|Счёт, пожалуйста.|||
+p|Prašau sąskaitos.|||A1|Счёт, пожалуйста.||после prašau — родительный (prašyti ko); в разговоре говорят и: Prašau sąskaitą.|
 p|Ar galiu sumokėti kortele?|||A1|Можно оплатить картой?|13200519||
 p|Skanaus!|||A1|Приятного аппетита!|||
 p|Į sveikatą!|||A1|За здоровье! (тост); Будьте здоровы! (когда чихают)|||

@@ -292,7 +292,7 @@
     - "Что не едите"
     - "Аллергия"
     - "Заказ еды и напитка"
-  example: "Laba diena. Ką rekomenduojate? Aš nevalgau mėsos, ir man alergija riešutams. Tada prašau žuvies su daržovėmis ir obuolių sulčių."
+  example: "Laba diena. Ką rekomenduojate? Aš nevalgau mėsos ir turiu alergiją riešutams. Tada prašau žuvies su daržovėmis ir obuolių sulčių."
 - id: lt-t-0024
   kind: writing
   cefr: A2

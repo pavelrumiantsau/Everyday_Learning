@@ -20,7 +20,7 @@ explanation:
 
     Букв **q, w, x** нет — они бывают только в иностранных именах.
 
-    **Имя по буквам** (*pasakyti paraidžiui*) — частая просьба в банке, на почте и на экзамене: *Kaip rašoma jūsų pavardė?* — Как пишется ваша фамилия? Отвечают буквами: *P, e, t, r, o, v, a.* Названия особых букв: *če, eš, žė, nosinė a, ilgoji i (y), ilgoji u (ū)*.
+    **Имя по буквам** (*pasakyti paraidžiui*) — частая просьба в банке, на почте и на экзамене: *Kaip rašoma jūsų pavardė?* — Как пишется ваша фамилия? Отвечают буквами: *P, e, t, r, o, v, a.* Названия особых букв: *č* — *čė*, *š* — *eš*, *ž* — *žė*, *ą* — *a nosinė*, *į* — *i nosinė*, *y* — *i ilgoji*, *ū* — *u ilgoji*.
 
     Нажмите 🔊 у упражнений: вы слышите всё предложение и пишете пропущенное слово.
 comparison:
@@ -61,3 +61,13 @@ exercises:
     answer: "Vilniuje"
     hint: "в Вильнюсе"
     translation: "Я живу в Вильнюсе."
+  - type: cloze
+    text: "Kaip ___ jūsų pavardė?"
+    answer: "rašoma"
+    hint: "пишется"
+    translation: "Как пишется ваша фамилия?"
+  - type: cloze
+    text: "Kaip rašoma jūsų ___? — P, e, t, r, o, v, a."
+    answer: "pavardė"
+    hint: "фамилия"
+    translation: "Как пишется ваша фамилия? — П, е, т, р, о, в, а."

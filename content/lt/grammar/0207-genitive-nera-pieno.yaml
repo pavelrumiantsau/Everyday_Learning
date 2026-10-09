@@ -47,7 +47,7 @@ exercises:
     hint: "kava"
     translation: "Я не пью кофе."
   - type: cloze
-    text: "Prašau butelį ___."
+    text: "Prašau butelio ___."
     answer: "vandens"
     hint: "vanduo"
     translation: "Бутылку воды, пожалуйста."

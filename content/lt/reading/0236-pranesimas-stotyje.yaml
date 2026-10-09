@@ -11,7 +11,7 @@ source: generated
 text: |
   Dėmesio! Traukinys Vilnius–Klaipėda, kuris turėjo išvykti 14.20, vėluoja 30 minučių. Traukinys išvyks 14.50 iš antrojo perono.
 
-  Keleiviai, kurie važiuoja į Šiaulius, turi persėsti Radviliškyje.
+  Keleiviai su dviračiais turi sėsti į penktą vagoną.
 
   Bilietus galima nusipirkti stoties kasose, bilietų automatuose arba internete. Atsiprašome už nepatogumus. Linkime geros kelionės!
 glossary:
@@ -20,7 +20,9 @@ glossary:
   - { word: "vėluoja", lemma: "vėluoti", meaning: "опаздывать", item: lt-w-0005 }
   - { word: "antrojo", lemma: "antrasis", meaning: "второй", note: "род. п.: iš antrojo perono — со второй платформы" }
   - { word: "perono", lemma: "peronas", meaning: "платформа (перрон)", note: "род. п.", item: lt-w-2667 }
-  - { word: "persėsti", lemma: "persėsti", meaning: "пересесть", item: lt-w-2215 }
+  - { word: "dviračiais", lemma: "dviratis", meaning: "велосипед", note: "твор. п. мн. ч.: su dviračiais — с велосипедами", item: lt-w-3022 }
+  - { word: "sėsti", lemma: "sėsti", meaning: "садиться", note: "sėsti į vagoną — садиться в вагон", item: lt-w-4125 }
+  - { word: "vagoną", lemma: "vagonas", meaning: "вагон", note: "вин. п.: į penktą vagoną — в пятый вагон", item: lt-w-1695 }
   - { word: "automatuose", lemma: "automatas", meaning: "автомат", note: "мест. п. мн. ч.", item: lt-w-1427 }
 questions:
   - q: "Kiek vėluoja traukinys?"
@@ -29,6 +31,6 @@ questions:
   - q: "Iš kurio perono išvyks traukinys?"
     options: ["Iš pirmojo", "Iš antrojo", "Iš trečiojo"]
     answer: 1
-  - q: "Kur turi persėsti keleiviai į Šiaulius?"
-    options: ["Kaune", "Radviliškyje", "Klaipėdoje"]
-    answer: 1
+  - q: "Į kurį vagoną turi sėsti keleiviai su dviračiais?"
+    options: ["Į pirmą", "Į trečią", "Į penktą"]
+    answer: 2

@@ -62,3 +62,8 @@ exercises:
     answer: "vakaras"
     hint: "вечер"
     translation: "Добрый вечер!"
+  - type: cloze
+    text: "Tai mano ___."
+    answer: "dėdė"
+    hint: "дядя"
+    translation: "Это мой дядя."

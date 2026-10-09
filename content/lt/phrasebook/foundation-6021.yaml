@@ -48,8 +48,9 @@
   type: phrase
   cefr: A1
   track: foundation
-  text: "Prašau sąskaitą."
+  text: "Prašau sąskaitos."
   meaning: { ru: "Счёт, пожалуйста." }
+  note: { ru: "после prašau — родительный (prašyti ko); в разговоре говорят и: Prašau sąskaitą." }
 - id: lt-p-6028
   type: phrase
   cefr: A1

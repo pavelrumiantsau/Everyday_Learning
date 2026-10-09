@@ -1,6 +1,9 @@
 # Everyday_Learning
 Platform with the goal to teach me something new every day.
 
+> **Хотите такого же бота для себя?** Литовский с нуля до экзамена A2, ~25 минут, всё в браузере, бесплатно:
+> **[docs/SETUP-COPY.md](docs/SETUP-COPY.md)**. (docs/SETUP.md ниже — для разработки, вам он не нужен.)
+
 Current focus: a personal language-learning system (Lithuanian first, then Spanish and French) built on Telegram, a Cloudflare Worker and GitHub. See [docs/PLAN.md](docs/PLAN.md) for the plan and current status, [docs/SETUP.md](docs/SETUP.md) for step-by-step setup,
 and [CLAUDE.md](CLAUDE.md) for how to work on the repo (commands, structure, content rules).
 

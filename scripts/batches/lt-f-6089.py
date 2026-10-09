@@ -46,7 +46,7 @@ p|Ar yra nuolaida?|||A2|Есть скидка?|11526090||
 p|Prašom čekį.|||A2|Ваш чек, пожалуйста.|||
 p|Ką rekomenduojate?|||A2|Что вы порекомендуете?|12311447||
 p|Aš nevalgau mėsos.|||A2|Я не ем мясо.||после отрицания — род. п.|
-p|Man alergija riešutams.|||A2|У меня аллергия на орехи.|12197956|alergija kam (дат. п.)|
+p|Turiu alergiją riešutams.|||A2|У меня аллергия на орехи.|12197956|alergija kam (дат. п.); в разговоре и: Man alergija riešutams.|
 p|Ar galima dar?|||A2|Можно добавки?|||
 p|Pamečiau piniginę.|||A2|Я потерял кошелёк.|||
 p|Ar netoliese yra bankomatas?|||A2|Здесь поблизости есть банкомат?|||

@@ -57,7 +57,7 @@
     - "Заказ напитка"
     - "Вопрос о цене"
     - "Просьба о счёте"
-  example: "Laba diena. Norėčiau sriubos ir žuvies su salotomis. Ir arbatos, prašau. Kiek tai kainuoja? Ačiū. Prašau sąskaitą."
+  example: "Laba diena. Norėčiau sriubos ir žuvies su salotomis. Ir arbatos, prašau. Kiek tai kainuoja? Ačiū. Prašau sąskaitos."
 - id: lt-t-0003
   kind: writing
   cefr: A1
@@ -235,7 +235,7 @@
     - "Погода"
     - "Что вы делаете"
     - "Прощание"
-  example: "Labas, Eglė! Dabar esu Palangoje. Čia šilta, šviečia saulė. Kiekvieną dieną plaukiu jūroje ir valgau ledus. Iki pasimatymo! Rasa"
+  example: "Labas, Eglė! Dabar esu Palangoje. Čia šilta, šviečia saulė. Kiekvieną dieną maudausi jūroje ir valgau ledus. Iki pasimatymo! Rasa"
 - id: lt-s-0009
   kind: speaking
   cefr: A1

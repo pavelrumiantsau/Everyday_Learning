@@ -15,7 +15,7 @@ explanation:
     **Koks / kokia** (какой) и **kuris / kuri** (который) склоняются как прилагательные:
     - koks: kokio — kokiam — kokį — kokiu — kokiame; kokia: kokios — kokiai — kokią — kokia — kokioje
     - kuris: kurio — kuriam — kurį — kuriuo — kuriame; kuri: kurios — kuriai — kurią — kuria — kurioje
-    - *Kokią knygą skaitai? Kokiu autobusu važiuoji? Kuriame aukšte gyveni?*
+    - *Kokią knygą skaitai? Kuriuo autobusu važiuoji? (каким номером) Kuriame aukšte gyveni?*
 
     **Tas / ta** (тот, та): to — tam — tą — tuo — tame; tos — tai — tą — ta — toje.
     **Tas pats / ta pati** — тот же самый: *Mes darome tą patį.* — Мы делаем то же самое.
@@ -67,6 +67,7 @@ exercises:
     translation: "Делай сам!"
   - type: cloze
     text: "___ autobusu važiuoji?"
-    answer: "kokiu"
-    hint: "каким"
+    answer: "kuriuo"
+    also: ["kokiu"]
+    hint: "каким (номером)"
     translation: "На каком автобусе едешь?"

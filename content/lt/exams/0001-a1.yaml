@@ -77,7 +77,7 @@ listening:
     instruction: "Послушайте разговор в магазине. Запись звучит два раза. Выберите правильный ответ на каждый вопрос."
     lines:
       - { speaker: "Pardavėja", text: "Laba diena! Ko norėtumėte?" }
-      - { speaker: "Pirkėjas", text: "Laba diena. Prašau duonos ir litrą pieno." }
+      - { speaker: "Pirkėjas", text: "Laba diena. Prašau duonos ir litro pieno." }
       - { speaker: "Pardavėja", text: "Baltos ar juodos duonos?" }
       - { speaker: "Pirkėjas", text: "Juodos. Ir dar dešimt kiaušinių." }
       - { speaker: "Pardavėja", text: "Kiaušinių šiandien nėra, bus rytoj." }
