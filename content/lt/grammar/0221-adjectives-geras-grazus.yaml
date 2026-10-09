@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u05): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0221
+cefr: A1
+order: 221
+track: foundation
+title: "Прилагательные: geras – gera, gražus – graži, didelis – didelė; gerai"
+explanation:
+  ru: |
+    Прилагательное согласуется с существительным в роде и числе, как в русском. Три типа окончаний:
+
+    - **-as / -a**: geras draugas — gera draugė; naujas, senas, mažas, raudonas
+    - **-us / -i**: gražus miestas — **graži** gatvė; brangus – brangi, pigus – pigi, skanus – skani
+    - **-is / -ė**: didelis namas — didelė virtuvė
+
+    **Множественное число** (им. п.):
+    - geras → **geri** (м. р.), gera → **geros** (ж. р.)
+    - gražus → **gražūs**, graži → **gražios**
+    - didelis → **dideli**, didelė → **didelės**
+
+    Внимание: женская форма от *-us* — **-i** (*graži*), а не *-a*. Это частая ошибка.
+
+    **Наречие «как?»** — от прилагательного на **-ai / -iai**: geras → **gerai**, blogas → blogai, gražus → **gražiai**, greitas → greitai.
+    - *Jis geras.* — Он хороший. *Jis kalba gerai.* — Он говорит хорошо.
+comparison:
+  ru: |
+    Согласование как в русском: «хороший друг — хорошая подруга». Но тип *-us / -i* в русском не похож ни на что: *gražus — graži* («красивый — красивая»). Наречие на *-ai* — как русское «-о»: «хорошо» — *gerai*.
+examples:
+  - { text: "Jis geras.", translation: "Он хороший.", source: "tatoeba:12714004" }
+  - { text: "Ji didelė.", translation: "Она большая.", source: "tatoeba:11366730" }
+  - { text: "Jis naujas.", translation: "Он новый.", source: "tatoeba:12517277" }
+  - { text: "Moterys gražios.", translation: "Женщины красивы.", source: "tatoeba:4851849" }
+  - { text: "Jos akys didelės.", translation: "У неё большие глаза.", source: "tatoeba:12157143" }
+exercises:
+  - type: cloze
+    text: "Tai ___ knyga."
+    answer: "gera"
+    hint: "geras"
+    translation: "Это хорошая книга."
+  - type: cloze
+    text: "Mano virtuvė ___."
+    answer: "didelė"
+    hint: "didelis"
+    translation: "Моя кухня большая."
+  - type: cloze
+    text: "Kava labai ___."
+    answer: "skani"
+    hint: "skanus"
+    translation: "Кофе очень вкусный."
+  - type: cloze
+    text: "Vilnius yra ___ miestas."
+    answer: "gražus"
+    hint: "gražus"
+    translation: "Вильнюс — красивый город."
+  - type: cloze
+    text: "Šie batai labai ___."
+    answer: "brangūs"
+    hint: "brangus (мн. ч.)"
+    translation: "Эти ботинки очень дорогие."
+  - type: cloze
+    text: "Mano draugai ___."
+    answer: "geri"
+    hint: "geras (мн. ч.)"
+    translation: "Мои друзья хорошие."
+  - type: cloze
+    text: "Gatvės čia ___."
+    answer: "senos"
+    hint: "senas (мн. ч.)"
+    translation: "Улицы здесь старые."
+  - type: cloze
+    text: "Jis kalba lietuviškai ___."
+    answer: "gerai"
+    hint: "geras → как?"
+    translation: "Он хорошо говорит по-литовски."

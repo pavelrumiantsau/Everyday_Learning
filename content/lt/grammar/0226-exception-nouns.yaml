@@ -1,0 +1,80 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u07): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0226
+cefr: A1
+order: 226
+track: foundation
+title: "Исключения: šuo, sesuo, duktė, vanduo, dantis, žmonės"
+explanation:
+  ru: |
+    Некоторые частые слова склоняются не по общим правилам. Их формы учим вместе со словом (на карточке стоит родительный падеж — по нему видно исключение).
+
+    **Слова на -uo** — в других формах появляется *-en-, -er-, -es-* или *-n-*:
+    - **vanduo** — vandens — vandenį (вода; мужской род!)
+    - **šuo** — šuns — šunį; мн. ч. *šunys* (собака)
+    - **sesuo** — sesers — seserį; мн. ч. *seserys* (сестра)
+    - **ruduo** — rudens — rudenį (осень)
+    - **mėnuo** — mėnesio — mėnesį (месяц)
+
+    **Duktė** (дочь) — dukters — dukterį; мн. ч. *dukterys*.
+
+    **Слова на -is** бывают двух родов:
+    - мужской (большинство) — род. п. **-io**: brolis — brolio, sūris — sūrio
+    - женский — род. п. **-ies**: akis — akies, naktis — nakties, širdis — širdies, žuvis — žuvies
+    - **dantis** (зуб) — мужского рода, но склоняется как женские: danties, dantį
+
+    **Žmogus** (человек) — мн. ч. **žmonės** (люди), как русское «человек — люди».
+
+    **Только мн. ч.:** *metai* (год), *durys* (дверь), *kelnės* (брюки), *marškiniai* (рубашка), *pietūs* (обед).
+comparison:
+  ru: |
+    Похоже на русские «мать — матери», «дочь — дочери», «время — времени»: в литовском *duktė — dukters*, *sesuo — sesers* устроены так же. А «человек — люди» — один в один: *žmogus — žmonės*.
+examples:
+  - { text: "Matau šunį.", translation: "Вижу собаку.", source: "tatoeba:10905702" }
+  - { text: "Ar jūs turite dukterį?", translation: "У вас есть дочь?", source: "tatoeba:12157158" }
+  - { text: "Tai buvo sesers balsas.", translation: "Это был голос сестры.", source: "tatoeba:12142277" }
+  - { text: "Čia žmonės mieli.", translation: "Люди здесь приятные.", source: "tatoeba:13746945" }
+  - { text: "Jūs ne šunys.", translation: "Вы не собаки.", source: "tatoeba:10639577" }
+exercises:
+  - type: cloze
+    text: "Aš turiu ___."
+    answer: "šunį"
+    hint: "šuo"
+    translation: "У меня есть собака."
+  - type: cloze
+    text: "Ar turite ___?"
+    answer: "dukterį"
+    hint: "duktė"
+    translation: "У вас есть дочь?"
+  - type: cloze
+    text: "Tai mano ___ namas."
+    answer: "sesers"
+    hint: "sesuo (чей?)"
+    translation: "Это дом моей сестры."
+  - type: cloze
+    text: "Čia ___ draugiški."
+    answer: "žmonės"
+    hint: "žmogus (мн. ч.)"
+    translation: "Люди здесь дружелюбные."
+  - type: cloze
+    text: "Man skauda ___."
+    answer: "dantį"
+    hint: "dantis"
+    translation: "У меня болит зуб."
+  - type: cloze
+    text: "Namie nėra ___."
+    answer: "vandens"
+    hint: "vanduo"
+    translation: "Дома нет воды."
+  - type: cloze
+    text: "Kitą ___ važiuoju į Kauną."
+    answer: "mėnesį"
+    hint: "mėnuo"
+    translation: "В следующем месяце еду в Каунас."
+  - type: cloze
+    text: "Jis neturi ___."
+    answer: "šuns"
+    hint: "šuo"
+    translation: "У него нет собаки."

@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u12): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0227
+cefr: A1
+order: 227
+track: foundation
+title: "Исключения в глаголах: три формы; t → č, d → dž (mačiau, girdžiu)"
+explanation:
+  ru: |
+    **Три формы глагола** — инфинитив, настоящее (он), прошедшее (он) — у многих частых глаголов не выводятся одна из другой. Их учим вместе (они на каждой карточке):
+    - būti — **yra** — buvo · eiti — eina — **ėjo** · imti — ima — **ėmė**
+    - duoti — **duoda** — **davė** · gauti — **gauna** — gavo · pirkti — **perka** — pirko
+    - mėgti — **mėgsta** — mėgo · galėti — gali — galėjo · žinoti — žino — žinojo
+    - matyti — mato — matė · gerti — geria — gėrė · kalbėti — **kalba** — kalbėjo
+
+    **t → č, d → dž** перед окончаниями на *-iu, -iau, -ia*:
+    - настоящее: girdėti → **girdžiu** (girdi), sėdėti → **sėdžiu** (sėdi)
+    - прошедшее: matyti (matė) → **mačiau**, skaityti (skaitė) → **skaičiau**
+    - и в существительных: dviratis → dvira**č**iu (на велосипеде)
+
+    **Повелительное** — исключения: būti → **būk**, duoti → **duok**, bėgti → **bėk** (*g* перед *k* выпадает).
+comparison:
+  ru: |
+    Чередование похоже на русское «видеть — вижу», «сидеть — сижу»: в литовском *sėdėti — sėdžiu*, *matyti — mačiau*. А *eiti — ėjo* — как «идти — шёл»: формы просто запоминаем.
+examples:
+  - { text: "Aš mačiau šunį.", translation: "Я видела собаку.", source: "tatoeba:2710728" }
+  - { text: "Aš gerai girdžiu.", translation: "Я хорошо слышу.", source: "tatoeba:13090065" }
+  - { text: "Aš sėdžiu kavinėje.", translation: "Я сижу в кафе.", source: "tatoeba:13745368" }
+  - { text: "Jis ėjo namo.", translation: "Он шёл домой.", source: "tatoeba:4647043" }
+  - { text: "Aš perku knygą.", translation: "Я покупаю книгу.", source: "tatoeba:12498213" }
+exercises:
+  - type: cloze
+    text: "Vakar aš ___ filmą."
+    answer: "mačiau"
+    hint: "matyti (matė)"
+    translation: "Вчера я посмотрел фильм."
+  - type: cloze
+    text: "Aš gerai ___."
+    answer: "girdžiu"
+    hint: "girdėti (girdi)"
+    translation: "Я хорошо слышу."
+  - type: cloze
+    text: "Aš ___ kavinėje."
+    answer: "sėdžiu"
+    hint: "sėdėti (sėdi)"
+    translation: "Я сижу в кафе."
+  - type: cloze
+    text: "Vakar mes ___ į parką."
+    answer: "ėjome"
+    hint: "eiti (ėjo)"
+    translation: "Вчера мы ходили в парк."
+  - type: cloze
+    text: "Aš ___ duoną."
+    answer: "perku"
+    hint: "pirkti (perka)"
+    translation: "Я покупаю хлеб."
+  - type: cloze
+    text: "Ji ___ man knygą."
+    answer: "davė"
+    hint: "duoti (davė)"
+    translation: "Она дала мне книгу."
+  - type: cloze
+    text: "___ ramus!"
+    answer: "būk"
+    hint: "būti, на «ты»"
+    translation: "Будь спокоен!"
+  - type: cloze
+    text: "Vakar aš ___ laišką."
+    answer: "skaičiau"
+    hint: "skaityti (skaitė)"
+    translation: "Вчера я читал письмо."

@@ -1,0 +1,62 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u12): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0224
+cefr: A1
+order: 224
+track: foundation
+title: "Связываем предложения: ir, o, bet, arba, nes, todėl"
+explanation:
+  ru: |
+    Чтобы написать записку или рассказать о себе, нужны короткие связки:
+    - **ir** — и: *Mano brolis ir sesuo gyvena Kaune.*
+    - **o** — а (сравнение, противопоставление): *Aš geriu kavą, o ji geria arbatą.* *Ne aš, o tu.*
+    - **bet** — но: *Noriu ateiti, bet negaliu.*
+    - **arba** — или: *Kava arba arbata?*
+    - **nes** — потому что: *Nedirbu, nes sergu.*
+    - **todėl** — поэтому: *Sergu, todėl nedirbu.*
+
+    **Запятая** — как в русском: перед *o, bet, nes*; перед *ir* и *arba*, соединяющими два слова, запятой нет.
+comparison:
+  ru: |
+    Почти один к одному: *ir* — «и», *o* — «а», *bet* — «но», *nes* — «потому что», *todėl* — «поэтому». Литовское *o* так же различает «а» и «но», как русское.
+examples:
+  - { text: "Ji nori, bet negali.", translation: "Она хочет, но не может.", source: "tatoeba:12582356" }
+  - { text: "Tomo nėra, nes jis serga.", translation: "Тома нет, потому что он болен.", source: "tatoeba:13403961" }
+  - { text: "Atleisk, bet aš negaliu.", translation: "Извини, но я не могу.", source: "tatoeba:3182346" }
+  - { text: "Sveiki, o kas tu?", translation: "Привет, а ты кто?", source: "tatoeba:10828087" }
+  - { text: "Tu todėl išeini?", translation: "Ты поэтому уходишь?", source: "tatoeba:12498820" }
+exercises:
+  - type: cloze
+    text: "Aš geriu kavą, ___ ji geria arbatą."
+    answer: "o"
+    translation: "Я пью кофе, а она пьёт чай."
+  - type: cloze
+    text: "Noriu ateiti, ___ negaliu."
+    answer: "bet"
+    translation: "Хочу прийти, но не могу."
+  - type: cloze
+    text: "Šiandien nedirbu, ___ sergu."
+    answer: "nes"
+    translation: "Сегодня не работаю, потому что болею."
+  - type: cloze
+    text: "Sergu, ___ nedirbu."
+    answer: "todėl"
+    translation: "Болею, поэтому не работаю."
+  - type: cloze
+    text: "Mano brolis ___ sesuo gyvena Kaune."
+    answer: "ir"
+    translation: "Мой брат и сестра живут в Каунасе."
+  - type: cloze
+    text: "Kava ___ arbata?"
+    answer: "arba"
+    translation: "Кофе или чай?"
+  - type: cloze
+    text: "Lyja, ___ einame namo."
+    answer: "todėl"
+    translation: "Идёт дождь, поэтому идём домой."
+  - type: cloze
+    text: "Jis ne lietuvis, ___ rusas."
+    answer: "o"
+    translation: "Он не литовец, а русский."

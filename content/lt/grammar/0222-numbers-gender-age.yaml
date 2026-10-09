@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u07): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0222
+cefr: A1
+order: 222
+track: foundation
+title: "Числа 1–9 и род: du broliai – dvi seserys; Kiek tau metų?"
+explanation:
+  ru: |
+    **Числа 1–9 меняются по роду** — не только «один / одна», «два / две», как в русском, но и до девяти:
+    - м. р.: vienas, **du**, trys, **keturi**, **penki**, šeši, septyni, aštuoni, devyni
+    - ж. р.: viena, **dvi**, trys, **keturios**, **penkios**, šešios, septynios, aštuonios, devynios
+    - *du broliai — dvi seserys*, *penki eurai — penkios valandos* (*valanda* — ж. р.)
+    - *trys* — одна форма для обоих родов
+
+    **Возраст** — *Kiek tau metų?* (*Kiek jums metų?*) — Сколько тебе (вам) лет? Ответ — кому (дательный) + число + *metai*:
+    - 2–9 (и 22–29, 32–39…): **metai** — *Man penki metai. Jam dvidešimt trys metai.*
+    - 10–20, десятки: **metų** — *Man dvylika metų. Man trisdešimt metų.*
+    - 1 (и 21, 31…): **vieneri metai** — *Man dvidešimt vieneri metai.* (у *metai* нет единственного числа, поэтому не *vienas*)
+
+    С *metai* говорят и так: *penkeri, dveji, treji metai* — это тоже правильно, вы это услышите.
+comparison:
+  ru: |
+    По-русски род меняют только «один / одна» и «два / две». По-литовски — все числа от 1 до 9, кроме *trys*: *penki broliai*, но *penkios seserys*.
+examples:
+  - { text: "Man penki metai.", translation: "Мне пять лет.", source: "tatoeba:12118599" }
+  - { text: "Man dvylika metų.", translation: "Мне двенадцать лет.", source: "tatoeba:10752749" }
+  - { text: "Jam tik trys metai.", translation: "Ему всего три года.", source: "tatoeba:10706040" }
+  - { text: "Yra dvi seserys, ir abi gyvena Kiote.", translation: "Есть две сестры, и обе живут в Киото.", source: "tatoeba:12782176" }
+  - { text: "Dabar penkios valandos.", translation: "Сейчас пять часов.", source: "tatoeba:12289283" }
+exercises:
+  - type: cloze
+    text: "Aš turiu ___ seseris."
+    answer: "dvi"
+    hint: "2"
+    translation: "У меня две сестры."
+  - type: cloze
+    text: "Jis turi ___ brolius."
+    answer: "du"
+    hint: "2"
+    translation: "У него два брата."
+  - type: cloze
+    text: "Dabar ___ valandos."
+    answer: "keturios"
+    hint: "4"
+    translation: "Сейчас четыре часа."
+  - type: cloze
+    text: "Man trisdešimt ___."
+    answer: "metų"
+    hint: "metai"
+    translation: "Мне тридцать лет."
+  - type: cloze
+    text: "Jai septyni ___."
+    answer: "metai"
+    hint: "metai"
+    translation: "Ей семь лет."
+  - type: cloze
+    text: "Kiek tau ___?"
+    answer: "metų"
+    translation: "Сколько тебе лет?"
+  - type: cloze
+    text: "Man dvidešimt ___ metai."
+    answer: "vieneri"
+    hint: "1"
+    translation: "Мне двадцать один год."
+  - type: cloze
+    text: "Mūsų sūnui ___ metai."
+    answer: "trys"
+    also: ["treji"]
+    hint: "3"
+    translation: "Нашему сыну три года."

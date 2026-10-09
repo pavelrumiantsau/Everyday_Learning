@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u08): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0225
+cefr: A1
+order: 225
+track: foundation
+title: "Меня, тебя, его: mane, tave, jį, ją; Aš tavęs nesuprantu"
+explanation:
+  ru: |
+    **Кого?** — личные местоимения в винительном падеже:
+    - aš → **mane**, tu → **tave**, jis → **jį**, ji → **ją**
+    - mes → **mus**, jūs → **jus**, jie → **juos**, jos → **jas**
+    - *Aš tave myliu.* — Я тебя люблю. *Ar tu mane supranti?* — Ты меня понимаешь?
+
+    **С отрицанием** — родительный падеж (то же правило, что *negeriu kavos*):
+    - aš → **manęs**, tu → **tavęs**, jis → **jo**, ji → **jos**, mes → **mūsų**, jūs → **jūsų**, jie/jos → **jų**
+    - *Aš **tavęs** nesuprantu.* — Я тебя не понимаю. *Jis **manęs** nemato.* — Он меня не видит.
+
+    Напоминание: **кому?** — *man, tau, jam, jai, mums, jums, jiems, joms* (*Man patinka…, Man reikia…*).
+comparison:
+  ru: |
+    Как «меня, тебя, его, её» в русском. Ловушка — отрицание: по-русски «не понимаю **тебя**», по-литовски форма меняется: *nesuprantu **tavęs***.
+examples:
+  - { text: "Aš tave myliu.", translation: "Я тебя люблю.", source: "tatoeba:624348" }
+  - { text: "Aš jį matau.", translation: "Я его вижу.", source: "tatoeba:12203620" }
+  - { text: "Aš ją myliu.", translation: "Я люблю её.", source: "tatoeba:624345" }
+  - { text: "Aš jus myliu.", translation: "Я вас люблю.", source: "tatoeba:12299941" }
+  - { text: "Aš girdžiu tik tave.", translation: "Я слышу только тебя.", source: "tatoeba:3990864" }
+exercises:
+  - type: cloze
+    text: "Aš ___ myliu."
+    answer: "tave"
+    hint: "tu"
+    translation: "Я тебя люблю."
+  - type: cloze
+    text: "Ar tu ___ supranti?"
+    answer: "mane"
+    hint: "aš"
+    translation: "Ты меня понимаешь?"
+  - type: cloze
+    text: "Aš ___ matau."
+    answer: "jį"
+    hint: "jis"
+    translation: "Я его вижу."
+  - type: cloze
+    text: "Mes ___ pažįstame."
+    answer: "ją"
+    hint: "ji"
+    translation: "Мы её знаем."
+  - type: cloze
+    text: "Jie ___ kviečia į svečius."
+    answer: "mus"
+    hint: "mes"
+    translation: "Они приглашают нас в гости."
+  - type: cloze
+    text: "Aš ___ nesuprantu."
+    answer: "tavęs"
+    hint: "tu, с отрицанием"
+    translation: "Я тебя не понимаю."
+  - type: cloze
+    text: "Ar jūs ___ girdite?"
+    answer: "juos"
+    hint: "jie"
+    translation: "Вы их слышите?"
+  - type: cloze
+    text: "Jis ___ nemato."
+    answer: "manęs"
+    hint: "aš, с отрицанием"
+    translation: "Он меня не видит."

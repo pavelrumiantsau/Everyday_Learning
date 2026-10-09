@@ -1,0 +1,71 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u01): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0219
+cefr: A1
+order: 219
+track: foundation
+title: "Kas tai? Tai… ; šis, ši, tas, ta; Ar čia yra…?"
+explanation:
+  ru: |
+    **Tai** — «это». Слово не меняется:
+    - *Kas tai?* — Что это? Кто это?
+    - *Tai mano duktė.* — Это моя дочь. *Tai mano kava?* — Это мой кофе?
+
+    **Этот, эта, тот, та** — меняются по роду и числу:
+    - **šis** (м. р.), **ši** (ж. р.) — этот, эта (близко): *šis namas, ši gatvė*
+    - **tas** (м. р.), **ta** (ж. р.) — тот, та (дальше): *tas namas, ta gatvė*
+    - мн. ч.: *šie, šios*; *tie, tos*
+
+    **Есть ли здесь…?** — *Ar čia yra…?* Ответ: *Taip, yra.* / *Ne, nėra.*
+    - *Ar čia yra taksi?* — Здесь есть такси?
+    - Отрицание с родительным падежом: *Čia nėra **banko**.* — Здесь нет банка.
+
+    **Где…?** — *Kur yra paštas?* — Где почта?
+comparison:
+  ru: |
+    *Tai* — как русское «это» в «это мой брат»: не меняется. А *šis / ši* различают род, как «этот / эта».
+examples:
+  - { text: "Kas tai?", translation: "Что это?", source: "tatoeba:1666684" }
+  - { text: "Tai mano duktė.", translation: "Это моя дочь.", source: "tatoeba:3188746" }
+  - { text: "Tai mano kava?", translation: "Это мой кофе?", source: "tatoeba:8215103" }
+  - { text: "Ši lova nepatogi.", translation: "Эта кровать неудобная.", source: "tatoeba:4905287" }
+  - { text: "Ar čia yra taksi?", translation: "Здесь есть такси?", source: "tatoeba:12423211" }
+exercises:
+  - type: cloze
+    text: "___ tai? — Tai mano brolis."
+    answer: "kas"
+    translation: "Кто это? — Это мой брат."
+  - type: cloze
+    text: "___ mano telefonas."
+    answer: "tai"
+    hint: "это"
+    translation: "Это мой телефон."
+  - type: cloze
+    text: "___ kėdė laisva?"
+    answer: "ši"
+    hint: "этот (kėdė — ж. р.)"
+    translation: "Этот стул свободен?"
+  - type: cloze
+    text: "___ namas labai didelis."
+    answer: "šis"
+    hint: "этот (м. р.)"
+    translation: "Этот дом очень большой."
+  - type: cloze
+    text: "Ar čia ___ parduotuvė?"
+    answer: "yra"
+    translation: "Здесь есть магазин?"
+  - type: cloze
+    text: "Ne, čia ___ banko."
+    answer: "nėra"
+    translation: "Нет, здесь нет банка."
+  - type: cloze
+    text: "___ yra paštas?"
+    answer: "kur"
+    translation: "Где почта?"
+  - type: cloze
+    text: "___ knyga yra mano."
+    answer: "ta"
+    hint: "та (ж. р.)"
+    translation: "Та книга моя."

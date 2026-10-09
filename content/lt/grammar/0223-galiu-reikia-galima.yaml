@@ -1,0 +1,73 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u06): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0223
+cefr: A1
+order: 223
+track: foundation
+title: "Могу, нужно, можно: galiu, moku, reikia, galima, turiu"
+explanation:
+  ru: |
+    Все эти слова соединяются с **инфинитивом**: *galiu padėti, reikia eiti, galima įeiti*.
+
+    **Galėti** — мочь: aš **galiu**, tu **gali**, jis/ji **gali**, mes **galime**, jūs **galite**. *Negaliu ateiti.* — Не могу прийти.
+
+    **Mokėti** — уметь: aš **moku**, tu **moki**, jis/ji **moka**. *Moku plaukti.* — Умею плавать. *Ar moki lietuviškai?* — Ты говоришь (умеешь) по-литовски?
+
+    **Reikia** — нужно, надо. Кому — в дательном (*man, tau, jam…*):
+    - + инфинитив: *Man reikia eiti.* — Мне надо идти.
+    - + **родительный падеж**: *Man reikia **paso**.* — Мне нужен паспорт. *Mums reikia **buto**.* — Нам нужна квартира.
+
+    **Galima / negalima** — можно / нельзя: *Ar galima įeiti?* — Можно войти? *Čia negalima rūkyti.* — Здесь нельзя курить.
+
+    **Turiu + инфинитив** — должен: *Turiu grįžti namo.* — Я должен вернуться домой.
+comparison:
+  ru: |
+    Ловушка: по-русски «мне нужен паспорт» — паспорт в именительном. По-литовски после *reikia* — родительный: *man reikia pas**o***. *Galėti* и *mokėti* — как «мочь» и «уметь».
+examples:
+  - { text: "Aš galiu kalbėti.", translation: "Я могу говорить.", source: "tatoeba:12231711" }
+  - { text: "Man reikia paso.", translation: "Мне нужен паспорт.", source: "tatoeba:13031870" }
+  - { text: "Man reikia eiti.", translation: "Мне надо идти.", source: "tatoeba:12311846" }
+  - { text: "Ar galima įeiti?", translation: "Можно войти?", source: "tatoeba:5989045" }
+  - { text: "Čia negalima rūkyti!", translation: "Здесь курить нельзя!", source: "tatoeba:12200310" }
+exercises:
+  - type: cloze
+    text: "Aš ___ padėti."
+    answer: "galiu"
+    hint: "galėti"
+    translation: "Я могу помочь."
+  - type: cloze
+    text: "Ar tu ___ ateiti rytoj?"
+    answer: "gali"
+    hint: "galėti"
+    translation: "Ты можешь прийти завтра?"
+  - type: cloze
+    text: "Man reikia ___."
+    answer: "bilieto"
+    hint: "bilietas"
+    translation: "Мне нужен билет."
+  - type: cloze
+    text: "Mums reikia ___."
+    answer: "vandens"
+    hint: "vanduo"
+    translation: "Нам нужна вода."
+  - type: cloze
+    text: "Čia ___ rūkyti."
+    answer: "negalima"
+    hint: "нельзя"
+    translation: "Здесь нельзя курить."
+  - type: cloze
+    text: "___ galima įeiti?"
+    answer: "ar"
+    translation: "Можно войти?"
+  - type: cloze
+    text: "Aš ___ plaukti."
+    answer: "moku"
+    hint: "mokėti (уметь)"
+    translation: "Я умею плавать."
+  - type: cloze
+    text: "Atsiprašau, aš ___ eiti."
+    answer: "turiu"
+    hint: "turėti (должен)"
+    translation: "Извините, я должен идти."

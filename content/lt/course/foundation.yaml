@@ -19,7 +19,7 @@ units:
     stage: A1
     topic: 1
     title: "Знакомство"
-    lessons: [lt-g-0201, lt-g-0202]
+    lessons: [lt-g-0201, lt-g-0202, lt-g-0219]
     phrases: [lt-p-6016, lt-p-6017]
     words: [lt-w-3151, lt-w-3193, lt-w-3157, lt-w-3169, lt-w-3163, lt-w-3175, lt-w-3196, lt-w-3202, lt-w-3152, lt-w-3158, lt-w-3164, lt-w-3170, lt-w-3176, lt-w-3182, lt-w-3188, lt-w-2985, lt-w-3124, lt-w-3299, lt-w-3155, lt-w-3203, lt-w-3180, lt-w-3161, lt-w-2840, lt-w-3127, lt-w-4102, lt-w-3064, lt-w-2989, lt-w-3067, lt-w-0083, lt-w-3285, lt-w-4172, lt-w-3235, lt-w-3238, lt-w-3241, lt-w-3244, lt-w-3246, lt-w-3249, lt-w-3252, lt-w-3255, lt-w-3258, lt-w-3261, lt-w-4001, lt-w-3287, lt-w-4004, lt-w-4051, lt-w-3288, lt-w-3082, lt-w-2999, lt-w-4151, lt-w-2986, lt-w-6001, lt-w-6002, lt-w-6003, lt-w-6004, lt-w-6005, lt-w-6006, lt-w-6007, lt-w-6008]
     can_do:
@@ -31,7 +31,7 @@ units:
     stage: A1
     topic: 11
     title: "Еда и кафе"
-    lessons: [lt-g-0203, lt-g-0204]
+    lessons: [lt-g-0203, lt-g-0204, lt-g-0220]
     words: [lt-w-2799, lt-w-2800, lt-w-2802, lt-w-2770, lt-w-0884, lt-w-2776, lt-w-2764, lt-w-2767, lt-w-2790, lt-w-2773, lt-w-0857, lt-w-0922, lt-w-1050, lt-w-2796, lt-w-2801, lt-w-2803, lt-w-1195, lt-w-2808, lt-w-3291, lt-w-2435, lt-w-0928, lt-w-2422, lt-w-2811, lt-w-0843, lt-w-2765, lt-w-2768, lt-w-3023, lt-w-2780, lt-w-2784, lt-w-0120, lt-w-3322, lt-w-1954, lt-w-2766, lt-w-2775, lt-w-2778, lt-w-0174, lt-w-2806, lt-w-2807]
     can_do:
       - "Заказываю еду и напитки в кафе: Norėčiau kavos"
@@ -55,7 +55,7 @@ units:
     stage: A1
     topic: 10
     title: "Магазин: цены, количество, цвета"
-    lessons: [lt-g-0207, lt-g-0208]
+    lessons: [lt-g-0207, lt-g-0208, lt-g-0221]
     phrases: [lt-p-6018]
     words: [lt-w-3002, lt-w-2777, lt-w-0036, lt-w-0041, lt-w-2786, lt-w-2788, lt-w-3276, lt-w-1558, lt-w-2812, lt-w-1371, lt-w-3609, lt-w-2682, lt-w-3118, lt-w-2673, lt-w-2140, lt-w-2877, lt-w-2847, lt-w-2853, lt-w-2850, lt-w-0862, lt-w-2841, lt-w-2844, lt-w-2856, lt-w-1010, lt-w-1644, lt-w-2859, lt-w-2908, lt-w-1065, lt-w-2910, lt-w-2909, lt-w-1270, lt-w-1209, lt-w-1555, lt-w-2911, lt-w-0764, lt-w-1141, lt-w-6009, lt-w-6012, lt-w-0949]
     can_do: ["Покупаю продукты и одежду в магазине", "Понимаю цены в евро"]
@@ -63,7 +63,7 @@ units:
     stage: A1
     topic: 6
     title: "Город и транспорт"
-    lessons: [lt-g-0209]
+    lessons: [lt-g-0209, lt-g-0223]
     phrases: [lt-p-3012]
     words: [lt-w-3293, lt-w-3014, lt-w-3328, lt-w-3330, lt-w-3018, lt-w-3020, lt-w-3022, lt-w-0164, lt-w-2666, lt-w-3295, lt-w-3024, lt-w-3145, lt-w-3271, lt-w-3273, lt-w-4363, lt-w-4360, lt-w-3139, lt-w-3143, lt-w-3319, lt-w-3303, lt-w-0146, lt-w-3320, lt-w-0927, lt-w-0841, lt-w-2919, lt-w-2251, lt-w-3016, lt-w-2247, lt-w-2631, lt-w-2634, lt-w-0426, lt-w-3179]
     can_do: ["Спрашиваю дорогу и понимаю ответ", "Покупаю билет на автобус или поезд"]
@@ -71,14 +71,14 @@ units:
     stage: A1
     topic: 7
     title: "Семья, внешность, характер"
-    lessons: [lt-g-0210, lt-g-0211]
+    lessons: [lt-g-0210, lt-g-0211, lt-g-0222, lt-g-0226]
     words: [lt-w-2839, lt-w-2845, lt-w-3283, lt-w-2842, lt-w-3280, lt-w-2875, lt-w-2878, lt-w-2860, lt-w-2854, lt-w-2857, lt-w-2848, lt-w-2851, lt-w-2863, lt-w-2866, lt-w-2872, lt-w-2869, lt-w-2502, lt-w-1343, lt-w-0861, lt-w-2504, lt-w-2987, lt-w-3087, lt-w-3090, lt-w-3084, lt-w-3081, lt-w-2821, lt-w-2815, lt-w-1224, lt-w-3505, lt-w-0611, lt-w-3069, lt-w-0459, lt-w-3117, lt-w-0203, lt-w-3142, lt-w-3140, lt-w-1324, lt-w-2310, lt-w-3129, lt-w-3282]
     can_do: ["Рассказываю о своей семье", "Описываю внешность и характер человека"]
   - id: u08
     stage: A1
     topic: 5
     title: "Свободное время"
-    lessons: [lt-g-0212, lt-g-0213]
+    lessons: [lt-g-0212, lt-g-0213, lt-g-0225]
     words: [lt-w-1697, lt-w-3028, lt-w-3026, lt-w-3042, lt-w-3317, lt-w-3318, lt-w-3315, lt-w-2086, lt-w-4542, lt-w-2961, lt-w-3044, lt-w-3043, lt-w-3311, lt-w-3313, lt-w-3006, lt-w-3305, lt-w-3073, lt-w-1137, lt-w-2578, lt-w-0157, lt-w-3051, lt-w-2880, lt-w-2882, lt-w-3133, lt-w-3134, lt-w-6013, lt-w-6014]
     can_do: ["Рассказываю о хобби: что мне нравится и что нет", "Предлагаю встретиться и договариваюсь о времени"]
   - id: u09
@@ -107,7 +107,7 @@ units:
     topic: 9
     title: "Учёба и языки"
     phrases: [lt-p-6019, lt-p-6020, lt-p-6021]
-    lessons: [lt-g-0218]
+    lessons: [lt-g-0218, lt-g-0227, lt-g-0224]
     words: [lt-w-3004, lt-w-3297, lt-w-3383, lt-w-3076, lt-w-1238, lt-w-3079, lt-w-3301, lt-w-3085, lt-w-0162, lt-w-0816, lt-w-1516, lt-w-1309, lt-w-2997, lt-w-3284, lt-w-3015, lt-w-3108, lt-w-3105]
     can_do: ["Рассказываю, какие языки знаю и где учился", "Говорю о прошлом: buvau, mokiausi, dirbau"]
 

@@ -1,0 +1,68 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u02): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0220
+cefr: A1
+order: 220
+track: foundation
+title: "Вопросы и отрицание: kur, kada, kodėl, kiek; niekas, nieko, niekada"
+explanation:
+  ru: |
+    **Вопросительные слова** (стоят в начале вопроса):
+    - **kas?** — кто? что? · **ką?** — кого? что? (вин. п.: *Ką tu valgai?*) · **ko?** — кого? чего?
+    - **kur?** — где? куда? · **iš kur?** — откуда? · **kada?** — когда?
+    - **kodėl?** — почему? (ответ: **nes** — потому что) · **kiek?** — сколько? · **kaip?** — как?
+    - **koks? kokia?** — какой? какая? · **kuris? kuri?** — который? которая? · **kieno?** — чей?
+    - без вопросительного слова — **ar** в начале: *Ar tu dirbi?*
+
+    **Отрицание:**
+    - с глаголом *ne-* пишется **слитно**: *nedirbu, nesuprantu, nėra*
+    - с другими словами — **отдельно**: *ne aš, ne šiandien*
+
+    **Никто, ничего, никогда** — и с ними глагол тоже с *ne-* (двойное отрицание, как в русском):
+    - **niekas** — никто: *Niekas nežino.* — Никто не знает.
+    - **nieko** — ничего **и** никого: *Aš nieko nematau.* — Я ничего не вижу. *Namie nieko nėra.* — Дома никого нет.
+    - **niekada** — никогда, **niekur** — нигде, никуда
+comparison:
+  ru: |
+    Двойное отрицание как в русском: «я **ни**чего **не** вижу» — *aš **nie**ko **ne**matau*. Но *nieko* значит и «ничего», и «никого» — понятно из ситуации.
+examples:
+  - { text: "Kur tu eini?", translation: "Куда ты идёшь?", source: "tatoeba:732167" }
+  - { text: "Ką tu žinai?", translation: "Что ты знаешь?", source: "tatoeba:2728961" }
+  - { text: "Aš nieko nematau.", translation: "Я ничего не вижу.", source: "tatoeba:9868203" }
+  - { text: "Namie nieko nėra.", translation: "Дома никого нет.", source: "tatoeba:4662509" }
+  - { text: "Aš ne, o tu?", translation: "Я нет, а ты?", source: "tatoeba:10067194" }
+exercises:
+  - type: cloze
+    text: "___ tu gyveni? — Vilniuje."
+    answer: "kur"
+    translation: "Где ты живёшь? — В Вильнюсе."
+  - type: cloze
+    text: "___ prasideda pamoka? — Devintą valandą."
+    answer: "kada"
+    translation: "Когда начинается урок? — В девять часов."
+  - type: cloze
+    text: "___ kainuoja kava? — Du eurus."
+    answer: "kiek"
+    translation: "Сколько стоит кофе? — Два евро."
+  - type: cloze
+    text: "___ tu nedirbi? — Nes sergu."
+    answer: "kodėl"
+    translation: "Почему ты не работаешь? — Потому что болею."
+  - type: cloze
+    text: "___ tu valgai? — Sriubą."
+    answer: "ką"
+    translation: "Что ты ешь? — Суп."
+  - type: cloze
+    text: "Aš ___ nematau."
+    answer: "nieko"
+    translation: "Я ничего не вижу."
+  - type: cloze
+    text: "___ nežino."
+    answer: "niekas"
+    translation: "Никто не знает."
+  - type: cloze
+    text: "Aš ___ nevalgau mėsos."
+    answer: "niekada"
+    translation: "Я никогда не ем мясо."
