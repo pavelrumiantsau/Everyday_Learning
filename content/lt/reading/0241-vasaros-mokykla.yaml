@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u21): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0241
+cefr: A2
+track: foundation
+kind: ad
+title: "Vasaros lietuvių kalbos mokykla"
+topic: "объявление о летней школе"
+source: generated
+text: |
+  Liepos 1–26 d. Vilniaus universitete vyks intensyvūs lietuvių kalbos kursai. Pamokos – kiekvieną darbo dieną nuo 9 iki 13 val. Po pietų – ekskursijos po Vilnių ir kino vakarai.
+
+  Grupės: A1, A2 ir B1. Prieš kursus visi dalyviai laiko testą, kad galėtume juos suskirstyti į grupes.
+
+  Kaina – 600 € (be gyvenimo bendrabutyje). Bendrabutyje – 15 € už naktį.
+
+  Registracija iki birželio 1 d. universiteto svetainėje.
+glossary:
+  - { word: "intensyvūs", lemma: "intensyvus", meaning: "интенсивный", note: "мн. ч." }
+  - { word: "ekskursijos", lemma: "ekskursija", meaning: "экскурсия", note: "мн. ч.", item: lt-w-1055 }
+  - { word: "dalyviai", lemma: "dalyvis", meaning: "участник", note: "мн. ч." }
+  - { word: "testą", lemma: "testas", meaning: "тест", note: "вин. п.", item: lt-w-4434 }
+  - { word: "suskirstyti", lemma: "suskirstyti", meaning: "распределить" }
+  - { word: "gyvenimo", lemma: "gyvenimas", meaning: "жизнь; проживание", note: "род. п.", item: lt-w-3952 }
+  - { word: "bendrabutyje", lemma: "bendrabutis", meaning: "общежитие", note: "мест. п.", item: lt-w-2532 }
+  - { word: "svetainėje", lemma: "svetainė", meaning: "сайт; гостиная", note: "мест. п.: на сайте", item: lt-w-0899 }
+questions:
+  - q: "Kiek laiko trunka pamokos kasdien?"
+    options: ["Dvi valandas", "Keturias valandas", "Visą dieną"]
+    answer: 1
+  - q: "Kodėl dalyviai laiko testą?"
+    options: ["Kad būtų suskirstyti į grupes", "Kad gautų diplomą", "Kad galėtų gyventi bendrabutyje"]
+    answer: 0
+  - q: "Kiek kainuoja naktis bendrabutyje?"
+    options: ["15 €", "60 €", "600 €"]
+    answer: 0

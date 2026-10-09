@@ -1,0 +1,33 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u14): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0228
+cefr: A2
+track: foundation
+kind: text
+title: "Išnuomotas butas"
+topic: "съёмная квартира и поломки"
+source: generated
+text: |
+  Prieš mėnesį išsinuomojome butą Vilniaus centre. Butas gražus ir šviesus, bet senas. Jau pirmą savaitę sugedo šaldytuvas, o virtuvėje neveikė viena lempa. Paskambinau savininkui. Jis buvo labai malonus ir kitą dieną atvažiavo su meistru. Meistras greitai sutaisė šaldytuvą ir pakeitė lempą.
+
+  Kitas mūsų rūpestis – šildymas. Lapkritį bute buvo šalta, todėl nusipirkome šildytuvą. Savininkas pažadėjo, kad žiemą viskas bus gerai. Nuoma nedidelė – 500 eurų per mėnesį, todėl mes čia norime gyventi ilgai.
+glossary:
+  - { word: "išsinuomojome", lemma: "išsinuomoti", meaning: "снять (в аренду)", note: "прош. вр., мы", item: lt-w-0012 }
+  - { word: "neveikė", lemma: "veikti", meaning: "работать (о приборе)", note: "прош. вр., с отрицанием", item: lt-w-3566 }
+  - { word: "meistru", lemma: "meistras", meaning: "мастер", note: "твор. п.: su meistru — с мастером", item: lt-w-1459 }
+  - { word: "sutaisė", lemma: "sutaisyti", meaning: "починить", note: "прош. вр.", item: lt-w-0440 }
+  - { word: "pakeitė", lemma: "pakeisti", meaning: "поменять", note: "прош. вр.", item: lt-w-4075 }
+  - { word: "rūpestis", lemma: "rūpestis", meaning: "забота, проблема", item: lt-w-0195 }
+  - { word: "šildytuvą", lemma: "šildytuvas", meaning: "обогреватель", note: "вин. п.", item: lt-w-2094 }
+  - { word: "pažadėjo", lemma: "pažadėti", meaning: "пообещать", note: "прош. вр.", item: lt-w-0298 }
+questions:
+  - q: "Kas sugedo pirmą savaitę?"
+    options: ["Šaldytuvas", "Šildytuvas", "Liftas"]
+    answer: 0
+  - q: "Kas sutaisė šaldytuvą?"
+    options: ["Savininkas", "Meistras", "Kaimynas"]
+    answer: 1
+  - q: "Kiek kainuoja nuoma?"
+    options: ["500 eurų per mėnesį", "650 eurų per mėnesį", "300 eurų per mėnesį"]
+    answer: 0

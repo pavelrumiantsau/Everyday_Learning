@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u16): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0231
+cefr: A2
+track: foundation
+kind: text
+title: "Kai buvau vaikas"
+topic: "детские воспоминания"
+source: generated
+text: |
+  Kai buvau vaikas, kiekvieną vasarą važiuodavau pas senelius į kaimą. Senelis keldavosi labai anksti ir eidavo į lauką dirbti. Senelė kepdavo duoną ir virdavo skanias sriubas.
+
+  Aš su broliu žaisdavau kieme, o vakare eidavome maudytis į upę. Kartais senelis pasiimdavo mus žvejoti. Televizoriaus seneliai neturėjo, todėl vakarais skaitydavome knygas arba klausydavomės senelės pasakų.
+
+  Dabar seneliai jau seniai negyvena kaime, bet aš dažnai prisimenu tas vasaras.
+glossary:
+  - { word: "keldavosi", lemma: "keltis", meaning: "вставать", note: "многократное прош. вр.", item: lt-w-2846 }
+  - { word: "virdavo", lemma: "virti", meaning: "варить", note: "многократное прош. вр.", item: lt-w-2774 }
+  - { word: "maudytis", lemma: "maudytis", meaning: "купаться" }
+  - { word: "pasiimdavo", lemma: "pasiimti", meaning: "брать с собой", note: "многократное прош. вр.", item: lt-w-3032 }
+  - { word: "žvejoti", lemma: "žvejoti", meaning: "ловить рыбу", item: lt-w-2582 }
+  - { word: "vakarais", lemma: "vakaras", meaning: "вечер", note: "твор. п. мн. ч.: vakarais — по вечерам", item: lt-w-2926 }
+  - { word: "klausydavomės", lemma: "klausytis", meaning: "слушать", note: "многократное прош. вр., мы", item: lt-w-3284 }
+  - { word: "pasakų", lemma: "pasaka", meaning: "сказка", note: "род. п. мн. ч.", item: lt-w-0933 }
+  - { word: "seniai", lemma: "seniai", meaning: "давно", item: lt-w-3553 }
+  - { word: "prisimenu", lemma: "prisiminti", meaning: "вспоминать", note: "наст. вр., я", item: lt-w-0030 }
+questions:
+  - q: "Kur vaikas leisdavo vasaras?"
+    options: ["Mieste", "Pas senelius kaime", "Prie jūros"]
+    answer: 1
+  - q: "Ką darydavo senelė?"
+    options: ["Kepdavo duoną", "Žvejodavo", "Dirbdavo lauke"]
+    answer: 0
+  - q: "Ką jie darydavo vakarais?"
+    options: ["Žiūrėdavo televizorių", "Skaitydavo knygas ir klausydavosi pasakų", "Eidavo į kiną"]
+    answer: 1

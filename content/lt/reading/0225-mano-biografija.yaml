@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u13): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0225
+cefr: A2
+track: foundation
+kind: bio
+title: "Mano biografija"
+topic: "биография"
+source: generated
+text: |
+  Mano vardas Marija Jankauskienė. Esu gimusi 1985 metais Panevėžyje. Vaikystėje gyvenau su tėvais ir broliu nedideliame name prie upės. Mokykloje labai mėgdavau matematiką ir sportą.
+
+  Kai baigiau mokyklą, išvažiavau studijuoti į Vilnių. Vilniaus universitete studijavau ekonomiką. 2010 metais ištekėjau, o po dvejų metų gimė mūsų sūnus Jonas.
+
+  Dabar dirbu banke ir gyvenu Kaune. Laisvalaikiu mėgstu keliauti ir skaityti istorines knygas.
+glossary:
+  - { word: "nedideliame", lemma: "nedidelis", meaning: "небольшой", note: "мест. п." }
+  - { word: "mėgdavau", lemma: "mėgti", meaning: "любить", note: "многократное прош. вр.: обычно любила", item: lt-w-3026 }
+  - { word: "ekonomiką", lemma: "ekonomika", meaning: "экономика", note: "вин. п.", item: lt-w-0653 }
+  - { word: "ištekėjau", lemma: "ištekėti", meaning: "выйти замуж", note: "прош. вр., я", item: lt-w-0637 }
+  - { word: "dvejų", lemma: "dveji", meaning: "два (собират.)", note: "po dvejų metų — через два года", item: lt-w-4397 }
+  - { word: "Laisvalaikiu", lemma: "laisvalaikis", meaning: "свободное время", note: "твор. п.: в свободное время", item: lt-w-1697 }
+  - { word: "istorines", lemma: "istorinis", meaning: "исторический", note: "вин. п. мн. ч." }
+questions:
+  - q: "Kur gimė Marija?"
+    options: ["Vilniuje", "Panevėžyje", "Kaune"]
+    answer: 1
+  - q: "Ką Marija studijavo?"
+    options: ["Matematiką", "Ekonomiką", "Istoriją"]
+    answer: 1
+  - q: "Kada Marija ištekėjo?"
+    options: ["1985 metais", "2010 metais", "2012 metais"]
+    answer: 1

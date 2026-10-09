@@ -1,0 +1,35 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u16): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0232
+cefr: A2
+track: foundation
+kind: sms
+title: "Žinutė auklei"
+topic: "сообщение няне: распорядок дня"
+source: generated
+text: |
+  Labas, Ona! Rytoj mūsų dienotvarkė tokia:
+  7.30 – vaikai keliasi, prausiasi ir rengiasi.
+  8.00 – pusryčiai (košė ir arbata).
+  8.30 – Lukas eina į mokyklą, o Ugnė – į darželį.
+  13.00 – reikia pasiimti Ugnę iš darželio.
+  16.00 – Luko krepšinio treniruotė.
+  Vakare aš grįšiu apie septintą. Jeigu kas nors atsitiktų, skambink man. Ačiū! Daiva
+glossary:
+  - { word: "dienotvarkė", lemma: "dienotvarkė", meaning: "распорядок дня" }
+  - { word: "darželį", lemma: "darželis", meaning: "детский сад", note: "вин. п.", item: lt-w-3617 }
+  - { word: "pasiimti", lemma: "pasiimti", meaning: "забрать", item: lt-w-3032 }
+  - { word: "treniruotė", lemma: "treniruotė", meaning: "тренировка", item: lt-w-2555 }
+  - { word: "apie", lemma: "apie", meaning: "около", note: "apie septintą — около семи", item: lt-w-3092 }
+  - { word: "atsitiktų", lemma: "atsitikti", meaning: "случиться", note: "услов. накл.: jeigu kas nors atsitiktų — если что-нибудь случится", item: lt-w-3970 }
+questions:
+  - q: "Kada vaikai keliasi?"
+    options: ["7.30", "8.00", "8.30"]
+    answer: 0
+  - q: "Kur eina Ugnė?"
+    options: ["Į mokyklą", "Į darželį", "Į treniruotę"]
+    answer: 1
+  - q: "Kada grįš Daiva?"
+    options: ["Apie penktą", "Apie septintą", "Apie aštuntą"]
+    answer: 1

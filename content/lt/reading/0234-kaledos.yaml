@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u17): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0234
+cefr: A2
+track: foundation
+kind: text
+title: "Kalėdos mūsų šeimoje"
+topic: "Рождество в семье"
+source: generated
+text: |
+  Mūsų šeimoje Kūčios – svarbiausias metų vakaras. Gruodžio 24 dieną visa šeima susirenka pas senelius. Ant stalo būna dvylika patiekalų, bet mėsos nevalgome. Vaikai labiausiai laukia kūčiukų su aguonų pienu.
+
+  Kalėdų rytą visi dovanoja vieni kitiems dovanas. Šiais metais mamai padovanojau šiltą šaliką, o tėčiui – knygą apie Lietuvos istoriją. Mano mažasis brolis norėtų gauti šunį, bet tėvai sako, kad jis dar per mažas.
+
+  Man labai patinka šios šventės, nes visa šeima būna kartu.
+glossary:
+  - { word: "Kūčios", lemma: "Kūčios", meaning: "Сочельник (24 декабря)", note: "только мн. ч." }
+  - { word: "svarbiausias", lemma: "svarbus", meaning: "важный", note: "превосх. ст.", item: lt-w-3132 }
+  - { word: "susirenka", lemma: "susirinkti", meaning: "собираться", note: "наст. вр.", item: lt-w-0959 }
+  - { word: "patiekalų", lemma: "patiekalas", meaning: "блюдо", note: "род. п. мн. ч.", item: lt-w-3633 }
+  - { word: "labiausiai", lemma: "labiausiai", meaning: "больше всего", item: lt-w-4133 }
+  - { word: "kūčiukų", lemma: "kūčiukas", meaning: "кучюкай (печенье к Сочельнику)", note: "род. п. мн. ч." }
+  - { word: "aguonų", lemma: "aguona", meaning: "мак", note: "род. п. мн. ч.: aguonų pienas — маковое молоко" }
+  - { word: "kitiems", lemma: "vienas kitam", meaning: "друг другу", note: "vieni kitiems — друг другу" }
+  - { word: "šaliką", lemma: "šalikas", meaning: "шарф", note: "вин. п.", item: lt-w-2912 }
+  - { word: "mažasis", lemma: "mažas", meaning: "маленький", note: "mažasis brolis — младший брат", item: lt-w-3066 }
+questions:
+  - q: "Kur susirenka šeima per Kūčias?"
+    options: ["Pas senelius", "Restorane", "Pas draugus"]
+    answer: 0
+  - q: "Ką autorius padovanojo mamai?"
+    options: ["Knygą", "Šiltą šaliką", "Šunį"]
+    answer: 1
+  - q: "Ko norėtų brolis?"
+    options: ["Šuns", "Knygos", "Kūčiukų"]
+    answer: 0

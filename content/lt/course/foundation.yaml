@@ -137,6 +137,8 @@ units:
     topic: 1
     title: "Биография и анкеты"
     lessons: [lt-g-0228, lt-g-0229]
+    phrases: [lt-p-6089, lt-p-6090, lt-p-6091, lt-p-6092, lt-p-6093]
+    texts: [lt-r-0225, lt-r-0226]
     words: [lt-w-3955, lt-w-2165, lt-w-0600, lt-w-2198, lt-w-0661, lt-w-2121, lt-w-2161, lt-w-0149, lt-w-0719, lt-w-1795, lt-w-0948, lt-w-2163, lt-w-4398, lt-w-4110, lt-w-0615, lt-w-1156, lt-w-2969, lt-w-0397, lt-w-3048, lt-w-2514, lt-w-0260, lt-w-3437, lt-w-0224, lt-w-1781, lt-w-6078]
     can_do: ["Рассказываю свою биографию с датами", "Заполняю простую анкету"]
   - id: u14
@@ -144,7 +146,8 @@ units:
     topic: 2
     title: "Квартира и быт, записка соседям"
     lessons: [lt-g-0230, lt-g-0231, lt-g-0232]
-    phrases: [lt-p-6088]
+    phrases: [lt-p-6088, lt-p-6094, lt-p-6095, lt-p-6096, lt-p-6097]
+    texts: [lt-r-0227, lt-r-0228]
     words: [lt-w-3889, lt-w-0012, lt-w-1832, lt-w-4254, lt-w-3659, lt-w-2852, lt-w-2855, lt-w-2858, lt-w-2861, lt-w-3594, lt-w-3579, lt-w-1682, lt-w-0924, lt-w-1889, lt-w-0265, lt-w-0759, lt-w-1007, lt-w-2463, lt-w-1363, lt-w-1683, lt-w-0898, lt-w-3564, lt-w-1035, lt-w-0952, lt-w-1383, lt-w-6079, lt-w-0757]
     can_do: ["Снимаю квартиру и говорю о ремонте", "Пишу короткую записку соседям"]
   - id: u15
@@ -152,6 +155,8 @@ units:
     topic: 3
     title: "Регион и природа, прогноз погоды"
     lessons: [lt-g-0233, lt-g-0234]
+    phrases: [lt-p-6098, lt-p-6099, lt-p-6100]
+    texts: [lt-r-0229, lt-r-0230]
     words: [lt-w-2998, lt-w-2992, lt-w-2994, lt-w-2996, lt-w-3000, lt-w-2232, lt-w-3351, lt-w-0412, lt-w-3106, lt-w-3103, lt-w-3109, lt-w-0160, lt-w-3112, lt-w-0985, lt-w-0838, lt-w-1190, lt-w-2988, lt-w-3582, lt-w-0987, lt-w-3323, lt-w-0204, lt-w-0882, lt-w-1023, lt-w-6080, lt-w-6081]
     can_do: ["Рассказываю о поездке по Литве", "Понимаю прогноз погоды и сравниваю: šilčiau, šalčiausia"]
   - id: u16
@@ -159,6 +164,8 @@ units:
     topic: 4
     title: "Будни и привычки"
     lessons: [lt-g-0235, lt-g-0236]
+    phrases: [lt-p-6101, lt-p-6102, lt-p-6103]
+    texts: [lt-r-0231, lt-r-0232]
     words: [lt-w-2939, lt-w-0022, lt-w-1522, lt-w-1091, lt-w-3292, lt-w-1925, lt-w-3296, lt-w-2959, lt-w-0011, lt-w-0005, lt-w-3049, lt-w-0117, lt-w-3462, lt-w-2464, lt-w-2889, lt-w-2891, lt-w-1780, lt-w-1434, lt-w-3300, lt-w-2947, lt-w-6082]
     can_do: ["Рассказываю о привычках: dirbdavau, eidavau", "Говорю, что делаю, когда…"]
   - id: u17
@@ -166,6 +173,8 @@ units:
     topic: 5
     title: "Досуг и праздники, приглашения"
     lessons: [lt-g-0237, lt-g-0238]
+    phrases: [lt-p-6104, lt-p-6105, lt-p-6106, lt-p-6107, lt-p-6108]
+    texts: [lt-r-0233, lt-r-0234]
     words: [lt-w-0161, lt-w-3277, lt-w-3278, lt-w-0166, lt-w-4157, lt-w-3061, lt-w-3058, lt-w-0425, lt-w-0110, lt-w-4046, lt-w-0659, lt-w-2600, lt-w-0767, lt-w-1707, lt-w-0597, lt-w-3341, lt-w-0831, lt-w-1541, lt-w-1347]
     can_do: ["Приглашаю и отвечаю на приглашение", "Понимаю афишу и программу мероприятия"]
   - id: u18
@@ -173,6 +182,8 @@ units:
     topic: 6
     title: "Поездки: билеты, расписание, гостиница"
     lessons: [lt-g-0239, lt-g-0240, lt-g-0250]
+    phrases: [lt-p-6109, lt-p-6110, lt-p-6111, lt-p-6112]
+    texts: [lt-r-0235, lt-r-0236]
     words: [lt-w-0035, lt-w-0212, lt-w-3010, lt-w-2222, lt-w-2640, lt-w-0945, lt-w-1205, lt-w-0155, lt-w-2667, lt-w-0246, lt-w-1061, lt-w-1055, lt-w-1112, lt-w-0237, lt-w-0625, lt-w-1695, lt-w-2662, lt-w-0925]
     can_do: ["Читаю расписание и покупаю билет", "Бронирую номер в гостинице"]
   - id: u19
@@ -180,6 +191,8 @@ units:
     topic: 7
     title: "Люди и отношения, поздравления"
     lessons: [lt-g-0241, lt-g-0242]
+    phrases: [lt-p-6113, lt-p-6114, lt-p-6115, lt-p-6116, lt-p-6117]
+    texts: [lt-r-0237, lt-r-0238]
     words: [lt-w-0470, lt-w-0673, lt-w-0414, lt-w-2890, lt-w-2888, lt-w-4021, lt-w-1188, lt-w-0551, lt-w-3027, lt-w-0306, lt-w-1449, lt-w-0219, lt-w-3632, lt-w-0059, lt-w-0267, lt-w-0145, lt-w-0107, lt-w-6083, lt-w-6084]
     can_do: ["Пишу поздравление с днём рождения и праздником", "Говорю о друзьях и знакомых"]
   - id: u20
@@ -187,6 +200,8 @@ units:
     topic: 8
     title: "Здоровье и гигиена, советы"
     lessons: [lt-g-0243, lt-g-0244]
+    phrases: [lt-p-6118, lt-p-6119, lt-p-6120, lt-p-6121]
+    texts: [lt-r-0239, lt-r-0240]
     words: [lt-w-1314, lt-w-1634, lt-w-4145, lt-w-0148, lt-w-0607, lt-w-0822, lt-w-4232, lt-w-0167, lt-w-2833, lt-w-1990, lt-w-2056, lt-w-1308, lt-w-2069, lt-w-2072, lt-w-0445, lt-w-2011, lt-w-4683, lt-w-6085, lt-w-6086]
     can_do: ["Объясняю врачу, что случилось", "Даю и понимаю простые советы: reikia, galima, negalima"]
   - id: u21
@@ -194,6 +209,8 @@ units:
     topic: 9
     title: "Учёба и наука, объявления"
     lessons: [lt-g-0245, lt-g-0246]
+    phrases: [lt-p-6122, lt-p-6123, lt-p-6124, lt-p-6125]
+    texts: [lt-r-0241, lt-r-0242]
     words: [lt-w-0622, lt-w-3070, lt-w-3332, lt-w-0026, lt-w-1600, lt-w-2492, lt-w-0287, lt-w-0321, lt-w-2530, lt-w-2531, lt-w-3008, lt-w-1805, lt-w-3333, lt-w-0115, lt-w-0072, lt-w-0065, lt-w-3916, lt-w-6087]
     can_do: ["Понимаю объявление о курсах", "Объясняю причину: nes, todėl kad"]
   - id: u22
@@ -201,6 +218,8 @@ units:
     topic: 10
     title: "Покупки: размеры, возврат, жалоба"
     lessons: [lt-g-0247, lt-g-0248]
+    phrases: [lt-p-6126, lt-p-6127, lt-p-6128, lt-p-6129]
+    texts: [lt-r-0243, lt-r-0244]
     words: [lt-w-2157, lt-w-0441, lt-w-2144, lt-w-0762, lt-w-2672, lt-w-4005, lt-w-4349, lt-w-0121, lt-w-0900, lt-w-0580, lt-w-1127, lt-w-0940, lt-w-2675, lt-w-2676]
     can_do: ["Спрашиваю размер и цену, возвращаю товар", "Понимаю числа с существительными: du eurai, penki eurai, dvidešimt eurų"]
   - id: u23
@@ -208,6 +227,8 @@ units:
     topic: 11
     title: "Еда и напитки: меню и рецепты"
     lessons: [lt-g-0249, lt-g-0251]
+    phrases: [lt-p-6130, lt-p-6131, lt-p-6132, lt-p-6133]
+    texts: [lt-r-0245, lt-r-0246]
     words: [lt-w-1523, lt-w-1401, lt-w-0997, lt-w-1638, lt-w-0835, lt-w-2785, lt-w-2782, lt-w-2787, lt-w-0902, lt-w-2792, lt-w-1234, lt-w-0905, lt-w-0886, lt-w-0874, lt-w-1059, lt-w-0913, lt-w-2791, lt-w-1249, lt-w-0894, lt-w-1773, lt-w-1177, lt-w-2432, lt-w-1068, lt-w-2409, lt-w-2406, lt-w-2403, lt-w-2774, lt-w-1122]
     can_do: ["Читаю меню и рецепт", "Объясняю, как приготовить простое блюдо"]
   - id: u24
@@ -215,6 +236,8 @@ units:
     topic: 12
     title: "Услуги: объявление о потере, звонки"
     lessons: [lt-g-0252, lt-g-0253]
+    phrases: [lt-p-6134, lt-p-6135, lt-p-6136, lt-p-6137, lt-p-6138]
+    texts: [lt-r-0247, lt-r-0248]
     words: [lt-w-4010, lt-w-3899, lt-w-2240, lt-w-0800, lt-w-3037, lt-w-4574, lt-w-1894, lt-w-3827, lt-w-0104, lt-w-0126, lt-w-0199, lt-w-3982, lt-w-0249, lt-w-0291, lt-w-0208, lt-w-4032]
     can_do: ["Пишу объявление: потерял / нашёл", "Звоню в сервис и объясняю проблему"]
 

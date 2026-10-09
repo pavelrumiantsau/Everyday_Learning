@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u18): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0236
+cefr: A2
+track: foundation
+kind: notice
+title: "Pranešimas stotyje"
+topic: "объявление на вокзале"
+source: generated
+text: |
+  Dėmesio! Traukinys Vilnius–Klaipėda, kuris turėjo išvykti 14.20, vėluoja 30 minučių. Traukinys išvyks 14.50 iš antrojo perono.
+
+  Keleiviai, kurie važiuoja į Šiaulius, turi persėsti Radviliškyje.
+
+  Bilietus galima nusipirkti stoties kasose, bilietų automatuose arba internete. Atsiprašome už nepatogumus. Linkime geros kelionės!
+glossary:
+  - { word: "Dėmesio", lemma: "dėmesys", meaning: "внимание", note: "Dėmesio! — Внимание!", item: lt-w-4203 }
+  - { word: "turėjo", lemma: "turėti", meaning: "иметь; должен", note: "прош. вр.: turėjo išvykti — должен был отправиться", item: lt-w-2987 }
+  - { word: "vėluoja", lemma: "vėluoti", meaning: "опаздывать", item: lt-w-0005 }
+  - { word: "antrojo", lemma: "antrasis", meaning: "второй", note: "род. п.: iš antrojo perono — со второй платформы" }
+  - { word: "perono", lemma: "peronas", meaning: "платформа (перрон)", note: "род. п.", item: lt-w-2667 }
+  - { word: "persėsti", lemma: "persėsti", meaning: "пересесть", item: lt-w-2215 }
+  - { word: "automatuose", lemma: "automatas", meaning: "автомат", note: "мест. п. мн. ч.", item: lt-w-1427 }
+questions:
+  - q: "Kiek vėluoja traukinys?"
+    options: ["Penkiolika minučių", "Trisdešimt minučių", "Valandą"]
+    answer: 1
+  - q: "Iš kurio perono išvyks traukinys?"
+    options: ["Iš pirmojo", "Iš antrojo", "Iš trečiojo"]
+    answer: 1
+  - q: "Kur turi persėsti keleiviai į Šiaulius?"
+    options: ["Kaune", "Radviliškyje", "Klaipėdoje"]
+    answer: 1

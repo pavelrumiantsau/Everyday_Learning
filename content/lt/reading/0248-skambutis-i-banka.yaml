@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u24): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0248
+cefr: A2
+track: foundation
+kind: dialogue
+title: "Skambutis į banką"
+topic: "звонок в банк: потерянная карта"
+source: generated
+text: |
+  – Laba diena, banko klientų aptarnavimo centras. Kuo galiu padėti?
+  – Laba diena. Vakar pamečiau piniginę su banko kortele. Norėčiau ją užblokuoti.
+  – Gerai. Pasakykite, prašau, savo vardą, pavardę ir asmens kodą.
+  – Nadežda Kozlova, asmens kodas 48501011234.
+  – Ačiū. Kortelė jau užblokuota. Naują kortelę galėsite atsiimti mūsų skyriuje po penkių darbo dienų. Nepamirškite atsinešti paso.
+  – Ar galėčiau gauti kortelę paštu?
+  – Deja, ne. Kortelę reikia atsiimti asmeniškai.
+  – Supratau. Labai ačiū už pagalbą!
+glossary:
+  - { word: "klientų", lemma: "klientas", meaning: "клиент", note: "род. п. мн. ч.", item: lt-w-0358 }
+  - { word: "aptarnavimo", lemma: "aptarnavimas", meaning: "обслуживание", note: "klientų aptarnavimo centras — служба поддержки клиентов", item: lt-w-2681 }
+  - { word: "pamečiau", lemma: "pamesti", meaning: "потерять", note: "прош. вр., я", item: lt-w-0800 }
+  - { word: "užblokuoti", lemma: "užblokuoti", meaning: "заблокировать" }
+  - { word: "kodą", lemma: "asmens kodas", meaning: "личный код", note: "вин. п.: asmens kodas — литовский личный идентификационный номер" }
+  - { word: "užblokuota", lemma: "užblokuotas", meaning: "заблокированный", note: "ж. р." }
+  - { word: "skyriuje", lemma: "skyrius", meaning: "отделение", note: "мест. п.", item: lt-w-3621 }
+  - { word: "asmeniškai", lemma: "asmeniškai", meaning: "лично", item: lt-w-4288 }
+questions:
+  - q: "Ką pametė Nadežda?"
+    options: ["Pasą", "Piniginę su banko kortele", "Telefoną"]
+    answer: 1
+  - q: "Kada ji galės atsiimti naują kortelę?"
+    options: ["Rytoj", "Po penkių darbo dienų", "Po mėnesio"]
+    answer: 1
+  - q: "Ar galima gauti kortelę paštu?"
+    options: ["Taip", "Ne, tik asmeniškai skyriuje", "Tik už papildomą mokestį"]
+    answer: 1

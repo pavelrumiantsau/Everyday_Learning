@@ -1,0 +1,36 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u24): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0247
+cefr: A2
+track: foundation
+kind: notice
+title: "Pamestas šuo!"
+topic: "объявление о пропаже собаки"
+source: generated
+text: |
+  Spalio 3 d. vakare Antakalnio parke pabėgo mūsų šuo Bimas. Jis mažas, rudas, su balta dėme ant krūtinės ir raudonu antkakliu. Bimas draugiškas, bet bijo svetimų žmonių.
+
+  Jeigu jį matėte arba radote, prašome skambinti bet kuriuo metu: +370 699 11122 (Inga).
+
+  Tam, kas ras šunį, – piniginis atlygis!
+glossary:
+  - { word: "pabėgo", lemma: "pabėgti", meaning: "убежать", note: "прош. вр.", item: lt-w-2717 }
+  - { word: "dėme", lemma: "dėmė", meaning: "пятно", note: "твор. п.: su balta dėme — с белым пятном", item: lt-w-1322 }
+  - { word: "krūtinės", lemma: "krūtinė", meaning: "грудь", note: "род. п.", item: lt-w-2831 }
+  - { word: "antkakliu", lemma: "antkaklis", meaning: "ошейник", note: "твор. п." }
+  - { word: "svetimų", lemma: "svetimas", meaning: "чужой", note: "род. п. мн. ч.", item: lt-w-0663 }
+  - { word: "kuriuo", lemma: "bet kuriuo metu", meaning: "в любое время", note: "bet kuriuo metu — в любое время" }
+  - { word: "ras", lemma: "rasti", meaning: "найти", note: "буд. вр.", item: lt-w-3037 }
+  - { word: "piniginis", lemma: "piniginis", meaning: "денежный" }
+  - { word: "atlygis", lemma: "atlygis", meaning: "вознаграждение", item: lt-w-3819 }
+questions:
+  - q: "Kur pabėgo šuo?"
+    options: ["Antakalnio parke", "Prie upės", "Senamiestyje"]
+    answer: 0
+  - q: "Koks yra šuo?"
+    options: ["Didelis ir juodas", "Mažas, rudas, su balta dėme", "Visas baltas"]
+    answer: 1
+  - q: "Ką gaus tas, kas ras šunį?"
+    options: ["Pinigų", "Šuniuką", "Bilietų"]
+    answer: 0

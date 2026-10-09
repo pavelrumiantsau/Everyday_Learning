@@ -1,0 +1,41 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u23): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0246
+cefr: A2
+track: foundation
+kind: dialogue
+title: "Restorane"
+topic: "заказ в ресторане"
+source: generated
+text: |
+  – Laba diena! Ar jau išsirinkote?
+  – Dar ne. Ką rekomenduojate?
+  – Šiandien labai skanūs cepelinai ir šviežia žuvis su daržovėmis.
+  – Aš nevalgau mėsos. Ar cepelinai su mėsa?
+  – Taip, bet turime ir su varške.
+  – Puiku, prašau cepelinų su varške. O mano draugui – žuvies su daržovėmis.
+  – Ką gersite?
+  – Dvi stiklines obuolių sulčių, prašau. Ir ar galima vandens be dujų?
+  – Žinoma. Desertui siūlau tinginį – tai tradicinis lietuviškas pyragas.
+  – Gerai, paragausime!
+glossary:
+  - { word: "išsirinkote", lemma: "išsirinkti", meaning: "выбрать", note: "прош. вр., вы", item: lt-w-3842 }
+  - { word: "cepelinai", lemma: "cepelinas", meaning: "цеппелин (картофельное блюдо)", note: "мн. ч." }
+  - { word: "varške", lemma: "varškė", meaning: "творог", note: "твор. п.: su varške — с творогом", item: lt-w-1809 }
+  - { word: "gersite", lemma: "gerti", meaning: "пить", note: "буд. вр., вы", item: lt-w-2768 }
+  - { word: "dujų", lemma: "dujos", meaning: "газ", note: "vanduo be dujų — вода без газа", item: lt-w-4187 }
+  - { word: "Desertui", lemma: "desertas", meaning: "десерт", note: "дат. п.: на десерт", item: lt-w-1068 }
+  - { word: "siūlau", lemma: "siūlyti", meaning: "предлагать", note: "наст. вр., я", item: lt-w-4143 }
+  - { word: "tinginį", lemma: "tinginys", meaning: "лентяй; «тингинис» (торт из печенья и какао)", note: "вин. п.", item: lt-w-1324 }
+  - { word: "paragausime", lemma: "paragauti", meaning: "попробовать", note: "буд. вр., мы", item: lt-w-1906 }
+questions:
+  - q: "Kodėl autorius nenori cepelinų su mėsa?"
+    options: ["Nes jis nevalgo mėsos", "Nes jie per brangūs", "Nes jie šalti"]
+    answer: 0
+  - q: "Ką užsisako draugas?"
+    options: ["Cepelinų", "Žuvies su daržovėmis", "Sriubos"]
+    answer: 1
+  - q: "Kas yra tinginys?"
+    options: ["Gėrimas", "Lietuviškas pyragas", "Salotos"]
+    answer: 1

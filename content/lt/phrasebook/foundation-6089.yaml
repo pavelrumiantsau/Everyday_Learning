@@ -1,0 +1,347 @@
+# Generated from scripts/batches/lt-f-6089.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-p-6089
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kur jūs gimėte?"
+  meaning: { ru: "Где вы родились?" }
+  note: { ru: "на «ты»: Kur tu gimei?" }
+- id: lt-p-6090
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Aš esu kilęs iš …"
+  meaning: { ru: "Я родом из …" }
+  note: { ru: "женщина: Aš esu kilusi iš …" }
+  examples:
+    - { text: "Aš esu kilęs iš Indijos.", translation: "Я родом из Индии.", source: "tatoeba:13693611" }
+- id: lt-p-6091
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Užpildykite anketą."
+  meaning: { ru: "Заполните анкету." }
+  examples:
+    - { text: "Užpildykite žemiau esančią formą.", translation: "Заполните форму ниже.", source: "tatoeba:12905494" }
+- id: lt-p-6092
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Pasirašykite čia."
+  meaning: { ru: "Распишитесь здесь." }
+- id: lt-p-6093
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kuo jūs dirbate?"
+  meaning: { ru: "Кем вы работаете?" }
+  note: { ru: "ответ — твор. п.: Dirbu mokytoju." }
+- id: lt-p-6094
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kiek kainuoja nuoma?"
+  meaning: { ru: "Сколько стоит аренда?" }
+- id: lt-p-6095
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Neveikia šildymas."
+  meaning: { ru: "Не работает отопление." }
+  examples:
+    - { text: "Šildytuvas neveikia.", translation: "Обогреватель не работает.", source: "tatoeba:9733270" }
+- id: lt-p-6096
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Sugedo šaldytuvas."
+  meaning: { ru: "Сломался холодильник." }
+  examples:
+    - { text: "Mūsų autobusas sugedo.", translation: "Наш автобус сломался.", source: "tatoeba:13747386" }
+- id: lt-p-6097
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kada galiu atsikraustyti?"
+  meaning: { ru: "Когда я могу въехать?" }
+- id: lt-p-6098
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Koks gražus vaizdas!"
+  meaning: { ru: "Какой красивый вид!" }
+- id: lt-p-6099
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar toli iki jūros?"
+  meaning: { ru: "Далеко ли до моря?" }
+  note: { ru: "iki + род. п." }
+- id: lt-p-6100
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kokia rytoj bus oro prognozė?"
+  meaning: { ru: "Какой прогноз погоды на завтра?" }
+- id: lt-p-6101
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Neturiu laiko."
+  meaning: { ru: "У меня нет времени." }
+  note: { ru: "после отрицания — род. п.: laiko" }
+- id: lt-p-6102
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Skubu."
+  meaning: { ru: "Я спешу." }
+- id: lt-p-6103
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kaip praleidai savaitgalį?"
+  meaning: { ru: "Как ты провёл выходные?" }
+- id: lt-p-6104
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kviečiu tave į gimtadienį."
+  meaning: { ru: "Приглашаю тебя на день рождения." }
+  note: { ru: "kviesti į + вин. п." }
+- id: lt-p-6105
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ačiū už kvietimą!"
+  meaning: { ru: "Спасибо за приглашение!" }
+  examples:
+    - { text: "Ačiū už pagalbą!", translation: "Спасибо за помощь!", source: "tatoeba:12530666" }
+- id: lt-p-6106
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Deja, negaliu."
+  meaning: { ru: "К сожалению, не могу." }
+- id: lt-p-6107
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Linksmų Kalėdų!"
+  meaning: { ru: "Счастливого Рождества!" }
+  note: { ru: "пожелание — род. п." }
+- id: lt-p-6108
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Gero savaitgalio!"
+  meaning: { ru: "Хороших выходных!" }
+  examples:
+    - { text: "Geros dienos!", translation: "Хорошего дня!", source: "tatoeba:12710320" }
+- id: lt-p-6109
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Norėčiau užsisakyti kambarį."
+  meaning: { ru: "Я хотел бы забронировать номер." }
+- id: lt-p-6110
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar yra laisvų kambarių?"
+  meaning: { ru: "Есть свободные номера?" }
+- id: lt-p-6111
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Iš kurio perono išvyksta traukinys?"
+  meaning: { ru: "С какой платформы отправляется поезд?" }
+- id: lt-p-6112
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Geros kelionės!"
+  meaning: { ru: "Счастливого пути!" }
+- id: lt-p-6113
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kaip gaila!"
+  meaning: { ru: "Как жаль!" }
+  examples:
+    - { text: "Kaip gaila, kad ji anksčiau man nepasakė.", translation: "Как жаль, что она не сказала мне раньше.", source: "tatoeba:11588142" }
+- id: lt-p-6114
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Nieko tokio."
+  meaning: { ru: "Ничего страшного." }
+- id: lt-p-6115
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Atsiprašau, kad vėluoju."
+  meaning: { ru: "Извините, что опаздываю." }
+- id: lt-p-6116
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ačiū už pagalbą!"
+  meaning: { ru: "Спасибо за помощь!" }
+  examples:
+    - { text: "Ačiū tau už pagalbą!", translation: "Спасибо тебе за помощь!", source: "tatoeba:12530664" }
+- id: lt-p-6117
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Perduok linkėjimų!"
+  meaning: { ru: "Передавай привет!" }
+  note: { ru: "кому — дат. п.: Perduok linkėjimų mamai!" }
+  examples:
+    - { text: "Tūkstantis linkėjimų!", translation: "Тысяча приветов!", source: "tatoeba:12203301" }
+- id: lt-p-6118
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Užsiregistravau pas gydytoją."
+  meaning: { ru: "Я записался к врачу." }
+- id: lt-p-6119
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar turite receptą?"
+  meaning: { ru: "У вас есть рецепт?" }
+  note: { ru: "в аптеке: рецепт на лекарство" }
+- id: lt-p-6120
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Gerkite daug skysčių."
+  meaning: { ru: "Пейте много жидкости." }
+- id: lt-p-6121
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Sveikatos!"
+  meaning: { ru: "Будьте здоровы! (желание здоровья)" }
+  note: { ru: "пожелание — род. п." }
+- id: lt-p-6122
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar galite paaiškinti?"
+  meaning: { ru: "Вы можете объяснить?" }
+  examples:
+    - { text: "Gal galėtum man kai ką paaiškinti?", translation: "Можешь мне кое-что объяснить?", source: "tatoeba:3950454" }
+- id: lt-p-6123
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kaip tai pasakyti lietuviškai?"
+  meaning: { ru: "Как это сказать по-литовски?" }
+- id: lt-p-6124
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Išlaikiau egzaminą!"
+  meaning: { ru: "Я сдал экзамен!" }
+  note: { ru: "laikyti egzaminą — сдавать, išlaikyti — сдать" }
+- id: lt-p-6125
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Sėkmės egzamine!"
+  meaning: { ru: "Удачи на экзамене!" }
+  examples:
+    - { text: "Sėkmės!", translation: "Удачи!", source: "tatoeba:4152449" }
+- id: lt-p-6126
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar galiu grąžinti?"
+  meaning: { ru: "Можно вернуть (товар)?" }
+  examples:
+    - { text: "Ar galima šitą susigrąžinti?", translation: "Можно это вернуть?", source: "tatoeba:11584173" }
+- id: lt-p-6127
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar turite didesnį dydį?"
+  meaning: { ru: "У вас есть размер побольше?" }
+- id: lt-p-6128
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar yra nuolaida?"
+  meaning: { ru: "Есть скидка?" }
+  examples:
+    - { text: "Šitą dviratį aš pirkau su nuolaida.", translation: "Я купил этот велосипед со скидкой.", source: "tatoeba:11526090" }
+- id: lt-p-6129
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Prašom čekį."
+  meaning: { ru: "Ваш чек, пожалуйста." }
+- id: lt-p-6130
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ką rekomenduojate?"
+  meaning: { ru: "Что вы порекомендуете?" }
+  examples:
+    - { text: "Ką tu rekomenduoji?", translation: "Что ты рекомендуешь?", source: "tatoeba:12311447" }
+- id: lt-p-6131
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Aš nevalgau mėsos."
+  meaning: { ru: "Я не ем мясо." }
+  note: { ru: "после отрицания — род. п." }
+- id: lt-p-6132
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Man alergija riešutams."
+  meaning: { ru: "У меня аллергия на орехи." }
+  note: { ru: "alergija kam (дат. п.)" }
+  examples:
+    - { text: "Tomas neturi jokios alergijos.", translation: "У Тома нет ни на что аллергии.", source: "tatoeba:12197956" }
+- id: lt-p-6133
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar galima dar?"
+  meaning: { ru: "Можно добавки?" }
+- id: lt-p-6134
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Pamečiau piniginę."
+  meaning: { ru: "Я потерял кошелёк." }
+- id: lt-p-6135
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar netoliese yra bankomatas?"
+  meaning: { ru: "Здесь поблизости есть банкомат?" }
+- id: lt-p-6136
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Padėkite!"
+  meaning: { ru: "Помогите!" }
+- id: lt-p-6137
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Ar galiu palikti žinutę?"
+  meaning: { ru: "Можно оставить сообщение?" }
+- id: lt-p-6138
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Kreipkitės į informaciją."
+  meaning: { ru: "Обратитесь в справочную." }
+  note: { ru: "kreiptis į + вин. п." }

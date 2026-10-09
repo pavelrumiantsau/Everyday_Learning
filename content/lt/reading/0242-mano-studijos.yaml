@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u21): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0242
+cefr: A2
+track: foundation
+kind: text
+title: "Mano studijos"
+topic: "как я выбирала профессию"
+source: generated
+text: |
+  Kai baigiau mokyklą, nežinojau, ką noriu studijuoti. Tėvai norėjo, kad studijuočiau mediciną, nes mano mama yra gydytoja. Bet man labiau patiko kalbos.
+
+  Todėl įstojau į universitetą studijuoti anglų filologijos. Pirmame kurse buvo sunku, nors aš daug mokiausi. Ypač sunkūs buvo egzaminai, kuriuos laikėme žiemą ir vasarą.
+
+  Trečiame kurse vienus metus studijavau Airijoje. Ten pagerinau savo anglų kalbą ir susiradau draugų iš viso pasaulio. Dabar dirbu vertėja ir esu labai patenkinta, kad pasirinkau kalbas.
+glossary:
+  - { word: "studijuočiau", lemma: "studijuoti", meaning: "учиться (в вузе)", note: "услов. накл., я: kad studijuočiau — чтобы я изучала", item: lt-w-1238 }
+  - { word: "mediciną", lemma: "medicina", meaning: "медицина", note: "вин. п.", item: lt-w-4277 }
+  - { word: "įstojau", lemma: "įstoti", meaning: "поступить", note: "прош. вр., я", item: lt-w-0803 }
+  - { word: "filologijos", lemma: "filologija", meaning: "филология", note: "род. п." }
+  - { word: "kuriuos", lemma: "kuris", meaning: "который", note: "вин. п. мн. ч.", item: lt-w-3191 }
+  - { word: "pagerinau", lemma: "pagerinti", meaning: "улучшить", note: "прош. вр., я", item: lt-w-3855 }
+  - { word: "susiradau", lemma: "susirasti", meaning: "найти себе", note: "прош. вр., я", item: lt-w-4251 }
+  - { word: "pasaulio", lemma: "pasaulis", meaning: "мир", note: "род. п.: iš viso pasaulio — со всего мира", item: lt-w-3959 }
+  - { word: "vertėja", lemma: "vertėja", meaning: "переводчица" }
+  - { word: "patenkinta", lemma: "patenkintas", meaning: "довольный", note: "ж. р.", item: lt-w-0052 }
+  - { word: "pasirinkau", lemma: "pasirinkti", meaning: "выбрать", note: "прош. вр., я", item: lt-w-1172 }
+questions:
+  - q: "Ko norėjo tėvai?"
+    options: ["Kad autorė studijuotų mediciną", "Kad ji dirbtų mokytoja", "Kad ji gyventų Airijoje"]
+    answer: 0
+  - q: "Kur autorė studijavo trečiame kurse?"
+    options: ["Anglijoje", "Airijoje", "Lietuvoje"]
+    answer: 1
+  - q: "Kuo dabar dirba autorė?"
+    options: ["Gydytoja", "Vertėja", "Mokytoja"]
+    answer: 1

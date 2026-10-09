@@ -1,0 +1,43 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u13): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0226
+cefr: A2
+track: foundation
+kind: form
+title: "Darbo anketa"
+topic: "анкета для работы"
+source: generated
+text: |
+  Vardas, pavardė: Andrius Petrauskas
+  Gimimo data ir vieta: 1990 m. birželio 3 d., Šiauliai
+  Pilietybė: Lietuvos
+  Šeiminė padėtis: vedęs, du vaikai
+  Išsilavinimas: aukštasis (Kauno technologijos universitetas, 2013 m.)
+  Darbo patirtis: 2013–2020 m. – inžinierius statybos įmonėje; nuo 2020 m. – projektų vadovas
+  Kalbos: lietuvių (gimtoji), anglų (gerai), rusų (vidutiniškai)
+  Kodėl norite dirbti mūsų įmonėje? Noriu naujų iššūkių ir noriu dirbti tarptautinėje komandoje.
+glossary:
+  - { word: "Pilietybė", lemma: "pilietybė", meaning: "гражданство", item: lt-w-2165 }
+  - { word: "Šeiminė", lemma: "šeiminis", meaning: "семейный", note: "šeiminė padėtis — семейное положение" }
+  - { word: "padėtis", lemma: "padėtis", meaning: "положение", item: lt-w-0053 }
+  - { word: "Išsilavinimas", lemma: "išsilavinimas", meaning: "образование", item: lt-w-0661 }
+  - { word: "aukštasis", lemma: "aukštasis", meaning: "высшее", note: "aukštasis išsilavinimas — высшее образование" }
+  - { word: "patirtis", lemma: "patirtis", meaning: "опыт", note: "darbo patirtis — опыт работы", item: lt-w-0009 }
+  - { word: "statybos", lemma: "statyba", meaning: "строительство", note: "род. п.", item: lt-w-0953 }
+  - { word: "įmonėje", lemma: "įmonė", meaning: "предприятие, фирма", note: "мест. п.", item: lt-w-0616 }
+  - { word: "vadovas", lemma: "vadovas", meaning: "руководитель", note: "projektų vadovas — руководитель проектов", item: lt-w-0128 }
+  - { word: "gimtoji", lemma: "gimtasis", meaning: "родной", note: "gimtoji kalba — родной язык" }
+  - { word: "vidutiniškai", lemma: "vidutiniškai", meaning: "средне" }
+  - { word: "iššūkių", lemma: "iššūkis", meaning: "вызов (задача)", note: "род. п. мн. ч.", item: lt-w-0676 }
+  - { word: "tarptautinėje", lemma: "tarptautinis", meaning: "международный", note: "мест. п.", item: lt-w-0966 }
+questions:
+  - q: "Kokia Andriaus šeiminė padėtis?"
+    options: ["Nevedęs", "Vedęs, turi du vaikus", "Išsiskyręs"]
+    answer: 1
+  - q: "Kur Andrius studijavo?"
+    options: ["Vilniuje", "Kaune", "Šiauliuose"]
+    answer: 1
+  - q: "Kaip Andrius moka rusų kalbą?"
+    options: ["Gerai", "Vidutiniškai", "Visai nemoka"]
+    answer: 1

@@ -1,0 +1,40 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u14): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0227
+cefr: A2
+track: foundation
+kind: note
+title: "Raštelis kaimynams"
+topic: "записка соседям"
+source: generated
+text: |
+  Mieli kaimynai,
+
+  šeštadienį, gegužės 18 d., mūsų bute (Nr. 12) vyks remontas. Nuo 9 iki 17 valandos gali būti triukšminga. Atsiprašome už nepatogumus!
+
+  Jeigu turite klausimų, skambinkite: +370 611 22333.
+
+  Taip pat primename: šiukšles prašome mesti į konteinerius kieme, o ne laiptinėje.
+
+  Ačiū už supratimą!
+  Rūta ir Tomas iš 12 buto
+glossary:
+  - { word: "Mieli", lemma: "mielas", meaning: "милый, дорогой", note: "мн. ч., обращение", item: lt-w-3286 }
+  - { word: "vyks", lemma: "vykti", meaning: "проходить (о событии)", note: "буд. вр.", item: lt-w-2967 }
+  - { word: "triukšminga", lemma: "triukšmingas", meaning: "шумный", note: "ср. р.: bus triukšminga — будет шумно" }
+  - { word: "nepatogumus", lemma: "nepatogumas", meaning: "неудобство", note: "вин. п. мн. ч." }
+  - { word: "primename", lemma: "priminti", meaning: "напомнить", note: "наст. вр., мы", item: lt-w-0216 }
+  - { word: "mesti", lemma: "mesti", meaning: "бросать, выбрасывать", item: lt-w-4007 }
+  - { word: "konteinerius", lemma: "konteineris", meaning: "контейнер", note: "вин. п. мн. ч." }
+  - { word: "supratimą", lemma: "supratimas", meaning: "понимание", note: "вин. п.", item: lt-w-0706 }
+questions:
+  - q: "Kada bus remontas?"
+    options: ["Gegužės 18 d.", "Gegužės 12 d.", "Kiekvieną šeštadienį"]
+    answer: 0
+  - q: "Kodėl kaimynai atsiprašo?"
+    options: ["Nes bus triukšminga", "Nes neveikia liftas", "Nes nėra vandens"]
+    answer: 0
+  - q: "Kur reikia mesti šiukšles?"
+    options: ["Laiptinėje", "Į konteinerius kieme", "Prie durų"]
+    answer: 1

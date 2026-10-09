@@ -1,0 +1,41 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u20): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0239
+cefr: A2
+track: foundation
+kind: notice
+title: "Poliklinikos skelbimas"
+topic: "объявление поликлиники"
+source: generated
+text: |
+  Gerbiami pacientai,
+
+  nuo lapkričio 1 d. pas šeimos gydytoją galima užsiregistruoti telefonu 1824 arba internete. Registratūra dirba darbo dienomis nuo 7 iki 19 val.
+
+  Jeigu turite aukštą temperatūrą arba kosulį, prašome neateiti į polikliniką be registracijos – pirmiausia paskambinkite gydytojui.
+
+  Nepamirškite atsinešti asmens dokumento.
+
+  Sveikatos!
+  Poliklinikos administracija
+glossary:
+  - { word: "Gerbiami", lemma: "gerbiamas", meaning: "уважаемый", note: "мн. ч., обращение" }
+  - { word: "pacientai", lemma: "pacientas", meaning: "пациент", note: "мн. ч.", item: lt-w-0403 }
+  - { word: "šeimos", lemma: "šeima", meaning: "семья", note: "šeimos gydytojas — семейный врач", item: lt-w-2839 }
+  - { word: "Registratūra", lemma: "registratūra", meaning: "регистратура" }
+  - { word: "dienomis", lemma: "diena", meaning: "день", note: "твор. п. мн. ч.: darbo dienomis — по рабочим дням", item: lt-w-2917 }
+  - { word: "pirmiausia", lemma: "pirmiausia", meaning: "сначала, прежде всего", item: lt-w-2298 }
+  - { word: "Nepamirškite", lemma: "pamiršti", meaning: "забыть", note: "повелит., вы, с отрицанием", item: lt-w-3053 }
+  - { word: "atsinešti", lemma: "atsinešti", meaning: "принести с собой" }
+  - { word: "administracija", lemma: "administracija", meaning: "администрация" }
+questions:
+  - q: "Kaip galima užsiregistruoti pas gydytoją?"
+    options: ["Telefonu arba internete", "Tik poliklinikoje", "Paštu"]
+    answer: 0
+  - q: "Ką reikia daryti, jeigu turite aukštą temperatūrą?"
+    options: ["Ateiti be registracijos", "Pirmiausia paskambinti gydytojui", "Važiuoti į ligoninę"]
+    answer: 1
+  - q: "Ką reikia atsinešti?"
+    options: ["Asmens dokumentą", "Receptą", "Pinigų"]
+    answer: 0

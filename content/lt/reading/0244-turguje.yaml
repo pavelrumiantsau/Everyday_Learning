@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u22): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0244
+cefr: A2
+track: foundation
+kind: text
+title: "Šeštadienis turguje"
+topic: "покупки на рынке"
+source: generated
+text: |
+  Šeštadienio rytą su mama einame į Halės turgų. Čia viskas šviežia ir dažnai pigiau negu prekybos centre.
+
+  Pirmiausia perkame daržovių: du kilogramus bulvių, kelis agurkus ir tris didelius pomidorus. Paskui mama ieško gero sūrio. Ji visada perka sūrį iš tos pačios moters, kuri atvažiuoja iš kaimo. Pas ją sūris kainuoja aštuonis eurus už kilogramą.
+
+  Aš labiausiai mėgstu vaisių eilę. Vasarą čia galima nusipirkti lietuviškų braškių ir vyšnių. Grįžtame namo su dviem sunkiais krepšiais, bet labai patenkinti.
+glossary:
+  - { word: "Halės", lemma: "Halė", meaning: "Халес (рынок в Вильнюсе)", note: "Halės turgus — рынок Халес" }
+  - { word: "šviežia", lemma: "šviežias", meaning: "свежий", note: "ср. р.", item: lt-w-0893 }
+  - { word: "pigiau", lemma: "pigiai", meaning: "дёшево", note: "сравн. ст.: дешевле" }
+  - { word: "kelis", lemma: "keli", meaning: "несколько", note: "вин. п." }
+  - { word: "moters", lemma: "moteris", meaning: "женщина", note: "род. п.", item: lt-w-2893 }
+  - { word: "eilę", lemma: "eilė", meaning: "ряд", note: "вин. п.: vaisių eilė — фруктовый ряд", item: lt-w-0077 }
+  - { word: "vyšnių", lemma: "vyšnia", meaning: "вишня", note: "род. п. мн. ч.", item: lt-w-2793 }
+  - { word: "dviem", lemma: "du", meaning: "два", note: "твор. п.: su dviem krepšiais — с двумя сумками", item: lt-w-3238 }
+  - { word: "sunkiais", lemma: "sunkus", meaning: "тяжёлый", note: "твор. п. мн. ч.", item: lt-w-3105 }
+  - { word: "krepšiais", lemma: "krepšys", meaning: "сумка, корзина", note: "твор. п. мн. ч.", item: lt-w-3631 }
+questions:
+  - q: "Kodėl jie eina į turgų?"
+    options: ["Nes viskas šviežia ir pigiau", "Nes prekybos centras uždarytas", "Nes ten dirba mama"]
+    answer: 0
+  - q: "Kiek kainuoja kilogramas sūrio?"
+    options: ["Šeši eurai", "Aštuoni eurai", "Dešimt eurų"]
+    answer: 1
+  - q: "Ką čia galima nusipirkti vasarą?"
+    options: ["Braškių ir vyšnių", "Tik bulvių", "Kalėdinių eglučių"]
+    answer: 0

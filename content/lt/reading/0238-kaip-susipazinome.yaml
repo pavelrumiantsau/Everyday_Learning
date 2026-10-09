@@ -1,0 +1,34 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u19): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0238
+cefr: A2
+track: foundation
+kind: text
+title: "Kaip mes susipažinome"
+topic: "история знакомства"
+source: generated
+text: |
+  Su savo vyru Jonu susipažinau prieš dešimt metų. Tada abu dirbome toje pačioje įmonėje, bet skirtinguose skyriuose. Vieną dieną valgykloje nebuvo laisvų vietų, ir Jonas paklausė, ar gali atsisėsti šalia manęs. Mes ilgai kalbėjomės apie darbą, keliones ir knygas.
+
+  Po savaitės jis pakvietė mane į kiną. Filmas buvo nuobodus, bet po jo mes dar dvi valandas sėdėjome kavinėje. Po dvejų metų susituokėme. Dabar turime dvi dukteris ir šunį.
+glossary:
+  - { word: "abu", lemma: "abu", meaning: "оба", item: lt-w-3995 }
+  - { word: "pačioje", lemma: "pats", meaning: "тот же самый", note: "мест. п.: toje pačioje įmonėje — на той же фирме", item: lt-w-3954 }
+  - { word: "skirtinguose", lemma: "skirtingas", meaning: "разный", note: "мест. п. мн. ч.", item: lt-w-0436 }
+  - { word: "skyriuose", lemma: "skyrius", meaning: "отдел", note: "мест. п. мн. ч.", item: lt-w-3621 }
+  - { word: "valgykloje", lemma: "valgykla", meaning: "столовая", note: "мест. п.", item: lt-w-1313 }
+  - { word: "atsisėsti", lemma: "atsisėsti", meaning: "сесть", item: lt-w-2876 }
+  - { word: "kalbėjomės", lemma: "kalbėtis", meaning: "разговаривать", note: "прош. вр., мы", item: lt-w-3602 }
+  - { word: "pakvietė", lemma: "pakviesti", meaning: "пригласить", note: "прош. вр.", item: lt-w-0425 }
+  - { word: "susituokėme", lemma: "susituokti", meaning: "пожениться", note: "прош. вр., мы", item: lt-w-1188 }
+questions:
+  - q: "Kur dirbo autorė ir Jonas?"
+    options: ["Toje pačioje įmonėje", "Valgykloje", "Kavinėje"]
+    answer: 0
+  - q: "Kur Jonas pakvietė autorę?"
+    options: ["Į teatrą", "Į kiną", "Į restoraną"]
+    answer: 1
+  - q: "Kada jie susituokė?"
+    options: ["Po savaitės", "Po dvejų metų", "Po dešimties metų"]
+    answer: 1

@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u20): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0240
+cefr: A2
+track: foundation
+kind: dialogue
+title: "Pas gydytoją"
+topic: "приём у врача"
+source: generated
+text: |
+  – Laba diena. Kas jums skauda?
+  – Jau tris dienas skauda gerklę ir galvą. Vakar vakare buvo 38 laipsniai.
+  – Ar kosite?
+  – Taip, ypač naktį.
+  – Pažiūrėsiu jūsų gerklę… Tai peršalimas, ne gripas. Išrašysiu jums vaistų. Gerkite po vieną tabletę tris kartus per dieną. Ir patariu, kad gertumėte daug šiltos arbatos ir daugiau ilsėtumėtės.
+  – Ar galiu eiti į darbą?
+  – Ne, geriau tris dienas pabūkite namie. Jeigu po savaitės nepasveiksite, ateikite dar kartą.
+  – Ačiū, gydytoja.
+glossary:
+  - { word: "kosite", lemma: "kosėti", meaning: "кашлять", note: "наст. вр., вы", item: lt-w-2069 }
+  - { word: "Pažiūrėsiu", lemma: "pažiūrėti", meaning: "посмотреть", note: "буд. вр., я", item: lt-w-3962 }
+  - { word: "Išrašysiu", lemma: "išrašyti", meaning: "выписать", note: "буд. вр., я", item: lt-w-3849 }
+  - { word: "gertumėte", lemma: "gerti", meaning: "пить", note: "услов. накл., вы: kad gertumėte — чтобы вы пили", item: lt-w-2768 }
+  - { word: "ilsėtumėtės", lemma: "ilsėtis", meaning: "отдыхать", note: "услов. накл., вы", item: lt-w-3049 }
+  - { word: "pabūkite", lemma: "pabūti", meaning: "побыть", note: "повелит., вы", item: lt-w-3635 }
+  - { word: "nepasveiksite", lemma: "pasveikti", meaning: "выздороветь", note: "буд. вр., вы, с отрицанием", item: lt-w-0445 }
+  - { word: "ateikite", lemma: "ateiti", meaning: "прийти", note: "повелит., вы", item: lt-w-2922 }
+questions:
+  - q: "Kiek dienų pacientui skauda gerklę?"
+    options: ["Dvi", "Tris", "Savaitę"]
+    answer: 1
+  - q: "Ką sako gydytoja?"
+    options: ["Tai gripas", "Tai peršalimas", "Reikia operacijos"]
+    answer: 1
+  - q: "Ar pacientas gali eiti į darbą?"
+    options: ["Taip", "Ne, geriau pabūti namie", "Tik po pietų"]
+    answer: 1

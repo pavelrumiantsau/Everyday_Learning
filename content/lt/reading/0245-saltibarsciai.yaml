@@ -1,0 +1,42 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u23): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0245
+cefr: A2
+track: foundation
+kind: menu
+title: "Šaltibarščiai"
+topic: "рецепт холодного борща"
+source: generated
+text: |
+  Šaltibarščiai (4 porcijoms)
+
+  Reikės: 3 virtų burokėlių, 2 agurkų, 1 litro kefyro, 4 kiaušinių, krapų ir svogūnų laiškų, druskos.
+
+  1. Kiaušinius išvirkite ir atvėsinkite.
+  2. Burokėlius ir agurkus supjaustykite šiaudeliais.
+  3. Supjaustykite krapus ir svogūnų laiškus.
+  4. Viską sudėkite į puodą, įpilkite kefyro ir gerai išmaišykite. Pasūdykite.
+  5. Sriubą patiekite šaltą su karštomis bulvėmis ir kiaušiniais.
+glossary:
+  - { word: "Šaltibarščiai", lemma: "šaltibarščiai", meaning: "холодный борщ (свекольник на кефире)", note: "только мн. ч." }
+  - { word: "porcijoms", lemma: "porcija", meaning: "порция", note: "дат. п. мн. ч.: на 4 порции", item: lt-w-2440 }
+  - { word: "Reikės", lemma: "reikėti", meaning: "быть нужным", note: "буд. вр.: reikės + род. п. — понадобится", item: lt-w-3281 }
+  - { word: "burokėlių", lemma: "burokėlis", meaning: "свёкла", note: "род. п. мн. ч.", item: lt-w-2455 }
+  - { word: "kefyro", lemma: "kefyras", meaning: "кефир", note: "род. п.", item: lt-w-1705 }
+  - { word: "krapų", lemma: "krapai", meaning: "укроп", note: "только мн. ч.", item: lt-w-2447 }
+  - { word: "laiškų", lemma: "laiškas", meaning: "перо (зелёного лука); письмо", note: "svogūnų laiškai — зелёный лук", item: lt-w-3088 }
+  - { word: "atvėsinkite", lemma: "atvėsinti", meaning: "остудить", note: "повелит., вы" }
+  - { word: "šiaudeliais", lemma: "šiaudelis", meaning: "соломка", note: "твор. п.: нарезать соломкой", item: lt-w-2018 }
+  - { word: "puodą", lemma: "puodas", meaning: "кастрюля", note: "вин. п.", item: lt-w-2404 }
+  - { word: "patiekite", lemma: "patiekti", meaning: "подать (блюдо)", note: "повелит., вы", item: lt-w-4647 }
+questions:
+  - q: "Kiek kiaušinių reikia?"
+    options: ["Dviejų", "Keturių", "Trijų"]
+    answer: 1
+  - q: "Ką reikia įpilti į puodą?"
+    options: ["Pieno", "Kefyro", "Vandens"]
+    answer: 1
+  - q: "Su kuo patiekiama sriuba?"
+    options: ["Su karštomis bulvėmis", "Su duona", "Su ryžiais"]
+    answer: 0

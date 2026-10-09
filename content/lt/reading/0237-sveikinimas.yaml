@@ -1,0 +1,41 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u19): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0237
+cefr: A2
+track: foundation
+kind: note
+title: "Sveikinimas"
+topic: "поздравление подруге"
+source: generated
+text: |
+  Mieloji Rasa,
+
+  sveikinu Tave su gimtadieniu! Linkiu Tau daug sveikatos, laimės ir meilės. Tegul visi Tavo norai išsipildo!
+
+  Ačiū, kad visada esi šalia, kai man reikia pagalbos. Esi geriausia draugė, kokią tik galima turėti.
+
+  Iki susitikimo šeštadienį!
+
+  Apkabinu,
+  Tavo Jurga
+glossary:
+  - { word: "Mieloji", lemma: "mielas", meaning: "милый, дорогой", note: "ж. р., обращение: Mieloji Rasa — Дорогая Раса", item: lt-w-3286 }
+  - { word: "Tave", lemma: "tu", meaning: "ты", note: "в письмах Tu, Tave, Tau часто пишут с большой буквы", item: lt-w-3158 }
+  - { word: "meilės", lemma: "meilė", meaning: "любовь", note: "род. п.: linkiu meilės", item: lt-w-3965 }
+  - { word: "Tegul", lemma: "tegul", meaning: "пусть", item: lt-w-4201 }
+  - { word: "norai", lemma: "noras", meaning: "желание", note: "мн. ч.", item: lt-w-0165 }
+  - { word: "išsipildo", lemma: "išsipildyti", meaning: "сбыться, исполниться", note: "наст. вр." }
+  - { word: "kokią", lemma: "koks", meaning: "какой", note: "вин. п., ж. р.", item: lt-w-3203 }
+  - { word: "susitikimo", lemma: "susitikimas", meaning: "встреча", note: "iki susitikimo — до встречи", item: lt-w-0002 }
+  - { word: "Apkabinu", lemma: "apkabinti", meaning: "обнять", note: "наст. вр., я: обнимаю", item: lt-w-2483 }
+questions:
+  - q: "Su kuo Jurga sveikina Rasą?"
+    options: ["Su Kalėdomis", "Su gimtadieniu", "Su vestuvėmis"]
+    answer: 1
+  - q: "Ko Jurga linki Rasai?"
+    options: ["Sveikatos, laimės ir meilės", "Pinigų", "Naujo darbo"]
+    answer: 0
+  - q: "Kada draugės susitiks?"
+    options: ["Šeštadienį", "Rytoj", "Kitą mėnesį"]
+    answer: 0

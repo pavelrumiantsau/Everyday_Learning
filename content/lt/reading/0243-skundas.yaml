@@ -1,0 +1,42 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u22): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0243
+cefr: A2
+track: foundation
+kind: note
+title: "Skundas internetinei parduotuvei"
+topic: "жалоба в интернет-магазин"
+source: generated
+text: |
+  Laba diena,
+
+  prieš savaitę jūsų internetinėje parduotuvėje nusipirkau striukę (užsakymo Nr. 4521). Deja, striukė per maža – užsakiau M dydį, bet atsiuntėte S. Be to, viena kišenė yra suplyšusi.
+
+  Norėčiau grąžinti striukę ir atgauti pinigus arba gauti naują M dydžio striukę. Čekį ir nuotraukas siunčiu kartu su šiuo laišku.
+
+  Prašau atsakyti kuo greičiau.
+
+  Su pagarba,
+  Olga Ivanova
+glossary:
+  - { word: "internetinėje", lemma: "internetinis", meaning: "интернет-", note: "мест. п.: internetinė parduotuvė — интернет-магазин" }
+  - { word: "užsakymo", lemma: "užsakymas", meaning: "заказ", note: "род. п.", item: lt-w-0730 }
+  - { word: "atsiuntėte", lemma: "atsiųsti", meaning: "прислать", note: "прош. вр., вы", item: lt-w-4048 }
+  - { word: "to", lemma: "be to", meaning: "кроме того", note: "be to — кроме того", item: lt-w-2315 }
+  - { word: "kišenė", lemma: "kišenė", meaning: "карман", item: lt-w-0557 }
+  - { word: "suplyšusi", lemma: "suplyšęs", meaning: "порванный", note: "ж. р." }
+  - { word: "atgauti", lemma: "atgauti", meaning: "получить обратно", item: lt-w-0180 }
+  - { word: "nuotraukas", lemma: "nuotrauka", meaning: "фотография", note: "вин. п. мн. ч.", item: lt-w-3100 }
+  - { word: "siunčiu", lemma: "siųsti", meaning: "отправлять", note: "наст. вр., я", item: lt-w-3034 }
+  - { word: "greičiau", lemma: "greitai", meaning: "быстро", note: "kuo greičiau — как можно скорее", item: lt-w-3125 }
+questions:
+  - q: "Ką nusipirko Olga?"
+    options: ["Striukę", "Batus", "Kelnes"]
+    answer: 0
+  - q: "Kokia problema su striuke?"
+    options: ["Ji per brangi", "Ji per maža ir suplyšusi", "Ji ne tos spalvos"]
+    answer: 1
+  - q: "Ko nori Olga?"
+    options: ["Grąžinti striukę arba gauti naują", "Pirkti dar vieną striukę", "Tik nuolaidos"]
+    answer: 0

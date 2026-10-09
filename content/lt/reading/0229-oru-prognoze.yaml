@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u15): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0229
+cefr: A2
+track: foundation
+kind: notice
+title: "Orų prognozė savaitgaliui"
+topic: "прогноз погоды на выходные"
+source: generated
+text: |
+  Šeštadienį visoje Lietuvoje bus saulėta ir šilta. Dieną temperatūra pakils iki 22–25 laipsnių. Pajūryje pūs silpnas vėjas.
+
+  Sekmadienį oras pasikeis. Ryte Vakarų Lietuvoje pradės lyti, o vakare lis visoje šalyje. Bus vėsiau – 15–18 laipsnių šilumos. Naktį temperatūra nukris iki 8 laipsnių.
+
+  Patariame sekmadienį pasiimti skėtį.
+glossary:
+  - { word: "pakils", lemma: "pakilti", meaning: "подняться", note: "буд. вр.", item: lt-w-4280 }
+  - { word: "pūs", lemma: "pūsti", meaning: "дуть", note: "буд. вр.: pūs vėjas — будет дуть ветер", item: lt-w-3314 }
+  - { word: "silpnas", lemma: "silpnas", meaning: "слабый", item: lt-w-3138 }
+  - { word: "pasikeis", lemma: "pasikeisti", meaning: "измениться", note: "буд. вр.", item: lt-w-0275 }
+  - { word: "Vakarų", lemma: "vakarai", meaning: "запад", note: "Vakarų Lietuva — Западная Литва" }
+  - { word: "šalyje", lemma: "šalis", meaning: "страна", note: "мест. п.", item: lt-w-3127 }
+  - { word: "vėsiau", lemma: "vėsus", meaning: "прохладный", note: "сравн. ст.: vėsiau — прохладнее", item: lt-w-1944 }
+  - { word: "nukris", lemma: "nukristi", meaning: "упасть, опуститься", note: "буд. вр.", item: lt-w-4096 }
+  - { word: "pasiimti", lemma: "pasiimti", meaning: "взять с собой", item: lt-w-3032 }
+  - { word: "skėtį", lemma: "skėtis", meaning: "зонт", note: "вин. п.", item: lt-w-1468 }
+questions:
+  - q: "Koks oras bus šeštadienį?"
+    options: ["Saulėta ir šilta", "Lis visą dieną", "Bus šalta"]
+    answer: 0
+  - q: "Kur sekmadienį pirmiausia pradės lyti?"
+    options: ["Rytų Lietuvoje", "Vakarų Lietuvoje", "Vilniuje"]
+    answer: 1
+  - q: "Ką patariama pasiimti sekmadienį?"
+    options: ["Skėtį", "Akinius nuo saulės", "Šiltą kepurę"]
+    answer: 0

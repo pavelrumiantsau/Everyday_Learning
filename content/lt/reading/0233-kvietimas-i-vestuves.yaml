@@ -1,0 +1,39 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u17): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0233
+cefr: A2
+track: foundation
+kind: ad
+title: "Kvietimas"
+topic: "приглашение на свадьбу"
+source: generated
+text: |
+  Mieli draugai!
+
+  Kviečiame jus į mūsų vestuves, kurios vyks 2027 m. liepos 10 d. 15 val. Trakų pilies kieme. Po ceremonijos – vakarienė ir šokiai restorane „Ežeras“.
+
+  Prašome iki birželio 1 d. atsakyti, ar galėsite atvykti. Jeigu norite mums ką nors padovanoti, geriausia dovana – jūsų buvimas kartu su mumis!
+
+  Laukiame jūsų!
+  Eglė ir Paulius
+  Tel. +370 655 44321
+glossary:
+  - { word: "Kviečiame", lemma: "kviesti", meaning: "приглашать", note: "наст. вр., мы", item: lt-w-3058 }
+  - { word: "kurios", lemma: "kuris", meaning: "который", note: "ж. р. мн. ч.: vestuvės, kurios vyks — свадьба, которая пройдёт", item: lt-w-3191 }
+  - { word: "ceremonijos", lemma: "ceremonija", meaning: "церемония", note: "род. п.: po ceremonijos — после церемонии" }
+  - { word: "šokiai", lemma: "šokis", meaning: "танец", note: "мн. ч.", item: lt-w-4091 }
+  - { word: "galėsite", lemma: "galėti", meaning: "мочь", note: "буд. вр., вы", item: lt-w-3025 }
+  - { word: "atvykti", lemma: "atvykti", meaning: "прибыть, приехать", item: lt-w-2969 }
+  - { word: "buvimas", lemma: "buvimas", meaning: "присутствие, пребывание", item: lt-w-4432 }
+  - { word: "mumis", lemma: "mes", meaning: "мы", note: "твор. п.: su mumis — с нами", item: lt-w-3176 }
+questions:
+  - q: "Kur vyks ceremonija?"
+    options: ["Trakų pilies kieme", "Restorane", "Bažnyčioje"]
+    answer: 0
+  - q: "Iki kada reikia atsakyti?"
+    options: ["Iki birželio 1 d.", "Iki liepos 10 d.", "Iki gegužės 1 d."]
+    answer: 0
+  - q: "Ką Eglė ir Paulius sako apie dovanas?"
+    options: ["Geriausia dovana – svečių buvimas", "Reikia pinigų", "Dovanų reikia iki birželio"]
+    answer: 0

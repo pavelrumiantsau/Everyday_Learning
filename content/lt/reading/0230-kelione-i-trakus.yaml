@@ -1,0 +1,37 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u15): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0230
+cefr: A2
+track: foundation
+kind: text
+title: "Kelionė į Trakus"
+topic: "поездка в Тракай"
+source: generated
+text: |
+  Praeitą savaitgalį mes su draugais važiavome į Trakus. Trakai yra mažesni už Vilnių, bet labai gražūs. Čia yra daug ežerų, o didžiausias ir garsiausias – Galvės ežeras. Ant salos stovi senoji Trakų pilis.
+
+  Diena buvo saulėta ir šilta. Mes plaukiojome valtimi, vaikščiojome aplink ežerą ir valgėme kibinus. Mano draugė sakė, kad Trakų kibinai skanesni negu Vilniuje.
+
+  Trakai – viena gražiausių vietų Lietuvoje. Kitą vasarą būtinai važiuosime ten dar kartą.
+glossary:
+  - { word: "Praeitą", lemma: "praeitas", meaning: "прошлый", note: "вин. п.: praeitą savaitgalį — в прошлые выходные", item: lt-w-4144 }
+  - { word: "mažesni", lemma: "mažas", meaning: "маленький", note: "сравн. ст., мн. ч.", item: lt-w-3066 }
+  - { word: "garsiausias", lemma: "garsus", meaning: "известный", note: "превосх. ст.", item: lt-w-3148 }
+  - { word: "salos", lemma: "sala", meaning: "остров", note: "род. п.: ant salos — на острове", item: lt-w-1023 }
+  - { word: "pilis", lemma: "pilis", meaning: "замок", item: lt-w-3625 }
+  - { word: "plaukiojome", lemma: "plaukioti", meaning: "плавать (кататься)", note: "прош. вр., мы" }
+  - { word: "valtimi", lemma: "valtis", meaning: "лодка", note: "твор. п.: на лодке", item: lt-w-3591 }
+  - { word: "aplink", lemma: "aplink", meaning: "вокруг", note: "aplink + вин. п.", item: lt-w-4027 }
+  - { word: "kibinus", lemma: "kibinas", meaning: "кибин (пирожок с мясом)", note: "вин. п. мн. ч." }
+  - { word: "būtinai", lemma: "būtinai", meaning: "обязательно" }
+questions:
+  - q: "Koks didžiausias ežeras Trakuose?"
+    options: ["Galvės ežeras", "Platelių ežeras", "Baltijos jūra"]
+    answer: 0
+  - q: "Ką draugai valgė?"
+    options: ["Cepelinus", "Kibinus", "Picą"]
+    answer: 1
+  - q: "Ką jie darys kitą vasarą?"
+    options: ["Važiuos į Trakus dar kartą", "Važiuos prie jūros", "Liks Vilniuje"]
+    answer: 0

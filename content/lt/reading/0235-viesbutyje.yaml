@@ -1,0 +1,38 @@
+# Reading text (one per file). Format: packages/core/src/schema.ts → ReadingText; see docs/PLAN.md §6.6.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u18): track: foundation — never shown to the original plan.
+# Written with Claude Code (source: generated), modelled on A2-exam text types, not copied from exam materials.
+id: lt-r-0235
+cefr: A2
+track: foundation
+kind: dialogue
+title: "Viešbutyje"
+topic: "бронирование гостиницы"
+source: generated
+text: |
+  – Laba diena. Norėčiau užsisakyti kambarį dviem naktims.
+  – Laba diena. Kada atvyksite?
+  – Penktadienį vakare. Ar yra laisvų kambarių?
+  – Taip, turime dviejų asmenų kambarį su vaizdu į jūrą. Kaina – 90 eurų už naktį su pusryčiais.
+  – Puiku. Ar viešbutyje yra automobilių stovėjimo aikštelė?
+  – Taip, ji nemokama. Pusryčiai būna nuo 7 iki 10 valandos.
+  – Gerai, užsisakau. Mano pavardė Kovalenko.
+  – Ačiū, ponia Kovalenko. Laukiame jūsų penktadienį!
+glossary:
+  - { word: "užsisakyti", lemma: "užsisakyti", meaning: "заказать, забронировать", item: lt-w-0584 }
+  - { word: "naktims", lemma: "naktis", meaning: "ночь", note: "дат. п. мн. ч.: dviem naktims — на две ночи", item: lt-w-2920 }
+  - { word: "atvyksite", lemma: "atvykti", meaning: "прибыть", note: "буд. вр., вы", item: lt-w-2969 }
+  - { word: "asmenų", lemma: "asmuo", meaning: "человек, лицо", note: "род. п. мн. ч.: dviejų asmenų kambarys — двухместный номер", item: lt-w-4255 }
+  - { word: "vaizdu", lemma: "vaizdas", meaning: "вид", note: "твор. п.: su vaizdu į jūrą — с видом на море", item: lt-w-0138 }
+  - { word: "stovėjimo", lemma: "stovėjimas", meaning: "стоянка", note: "automobilių stovėjimo aikštelė — парковка", item: lt-w-4724 }
+  - { word: "aikštelė", lemma: "aikštelė", meaning: "площадка", item: lt-w-2589 }
+  - { word: "užsisakau", lemma: "užsisakyti", meaning: "заказать", note: "наст. вр., я", item: lt-w-0584 }
+questions:
+  - q: "Kiek naktų ponia nori gyventi viešbutyje?"
+    options: ["Vieną", "Dvi", "Tris"]
+    answer: 1
+  - q: "Kiek kainuoja kambarys?"
+    options: ["90 eurų už naktį", "90 eurų už dvi naktis", "9 eurai"]
+    answer: 0
+  - q: "Kada būna pusryčiai?"
+    options: ["Nuo 7 iki 10 val.", "Nuo 8 iki 11 val.", "Visą dieną"]
+    answer: 0
