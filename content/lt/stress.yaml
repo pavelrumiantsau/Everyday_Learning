@@ -19,6 +19,7 @@
 "aikštelė": "aikštẽlė"
 "aikštė": "aikštė̃"
 "aiškiai": "áiškiai"
+"aišku": "áišku"  # mentions: tapti
 "akademinis": "akadèminis"
 "akcentas": "akceñtas"
 "akcija": "ãkcija"
@@ -91,6 +92,7 @@
 "arbatpinigiai": "arbãtpinigiai"
 "arbūzas": "arbū̃zas"
 "architektūra": "architektūrà"
+"argi": "ar̃gi"  # mentions: ar
 "arklys": "arklỹs"
 "armija": "ármija"
 "arti": "artì"
@@ -108,6 +110,8 @@
 "atidaryti": "atidarýti"
 "atiduoti": "atidúoti"
 "atidus": "atidùs"
+"atidžiai": "atidžiaĩ"  # mentions: atidus
+"atimti": "atim̃ti"  # mentions: atiduoti
 "atkeliauti": "atkeliáuti"
 "atleisti": "atléisti"
 "atlikti": "atlìkti"
@@ -147,6 +151,7 @@
 "aukoti": "aukóti"
 "auksas": "áuksas"
 "auksinis": "auksìnis"
+"aukštyn": "aukštỹn"  # mentions: aukščiau
 "ausis": "ausìs"
 "auskaras": "aũskaras"
 "autobusas": "autobùsas"
@@ -364,6 +369,7 @@
 "dugnas": "dùgnas"
 "dujos": "dùjos"
 "dukra": "dukrà"
+"dukrelė": "dukrẽlė"  # mentions: dukra
 "duktė": "duktė̃"
 "duobė": "duobė̃"
 "duoklė": "dúoklė"  # mentions: kontribucija
@@ -465,6 +471,7 @@
 "gamykla": "gamyklà"
 "garai": "garaĩ"
 "garantija": "garántija"
+"garantuoti": "garantúoti"  # mentions: garantija
 "garažas": "garãžas"
 "garbinti": "gárbinti"
 "garbė": "garbė̃"
@@ -501,6 +508,7 @@
 "gimti": "gìmti"
 "gimtinė": "gimtìnė"
 "ginklas": "giñklas"
+"ginkluotas": "ginklúotas"  # mentions: ginklakalys
 "ginčas": "giñčas"
 "girdėti": "girdė́ti"
 "girgždėti": "girgždė́ti"
@@ -592,6 +600,7 @@
 "išgyventi": "išgyvénti"
 "išimtis": "išimtìs"
 "išjungti": "išjùngti"
+"iškart": "iškar̃t"  # mentions: iš karto
 "išlaikyti": "išlaikýti"
 "išleisti": "išléisti"  # mentions: leisti, prarasti
 "išlikimas": "išlikìmas"
@@ -636,8 +645,10 @@
 "jungti": "jùngti"
 "jungtinis": "jungtìnis"
 "juodas": "júodas"
+"juodraštis": "júodraštis"  # mentions: scratch paper
 "juokas": "juõkas"
 "juokauti": "juokáuti"
+"juokingas": "juokìngas"  # mentions: juokauti
 "juoktis": "juõktis"
 "juosta": "júosta"
 "jėga": "jėgà"
@@ -717,6 +728,7 @@
 "kefyras": "kefỹras"
 "keistas": "keĩstas"
 "keisti": "keĩsti"
+"keistuolis": "keistuõlis"  # mentions: keistas
 "keleivis": "keleĩvis"
 "kelias": "kẽlias"
 "keliauti": "keliáuti"
@@ -809,6 +821,7 @@
 "krantas": "krañtas"
 "kraujas": "kraũjas"
 "kraujavimas": "kraujãvimas"  # mentions: kraujagyslė
+"kraujotaka": "kraujótaka"  # mentions: kraujagyslė
 "kraujuoti": "kraujúoti"
 "kraštas": "krãštas"
 "kraštovaizdis": "kraštóvaizdis"
@@ -924,6 +937,7 @@
 "likti": "lìkti"
 "likutis": "likùtis"
 "linija": "lìnija"
+"lininis": "linìnis"  # mentions: linas
 "linksnis": "liñksnis"
 "linkti": "liñkti"
 "linkėjimas": "linkė́jimas"
@@ -965,6 +979,7 @@
 "malonus": "malonùs"
 "malūnas": "malū̃nas"
 "mama": "mamà"
+"mamytė": "mamýtė"  # mentions: mama
 "mandagus": "mandagùs"
 "mano": "màno"  # mentions: laikas
 "manyti": "manýti"
@@ -1027,6 +1042,7 @@
 "mokestis": "mókestis"
 "mokinys": "mokinỹs"
 "mokslas": "mókslas"
+"moksleivis": "moksleĩvis"  # mentions: mokslininkas, pamoka
 "mokslininkas": "mókslininkas"
 "mokslinis": "mókslinis"
 "mokykla": "mokyklà"
@@ -1078,7 +1094,11 @@
 "našumas": "našùmas"
 "neaiškus": "neáiškus"  # mentions: miglotas
 "nedarbas": "nedárbas"
+"negu": "negù"  # mentions: -gu
+"nei": "neĩ"  # mentions: negu
 "neišvengiamas": "neišvéngiamas"
+"nejau": "nejaũ"  # mentions: ar
+"nejaugi": "nejaũgi"  # mentions: ar
 "nekęsti": "nekę̃sti"
 "nelaimė": "neláimė"
 "nemirtingas": "nemirtìngas"
@@ -1097,6 +1117,7 @@
 "netrukus": "netrùkus"
 "netvarka": "netvarkà"
 "netvarkingas": "netvarkìngas"
+"netyčia": "netýčia"  # mentions: tyčia
 "neįprastas": "neį̃prastas"
 "nešti": "nèšti"
 "niekada": "niekadà"  # mentions: niekuomet
@@ -1136,6 +1157,7 @@
 "nurodyti": "nuródyti"
 "nusikaltimas": "nusikaltìmas"
 "nusikaltėlis": "nusikal̃tėlis"
+"nusileisti": "nusiléisti"  # mentions: leisti
 "nusiraminti": "nusiramìnti"
 "nustatyti": "nustatýti"
 "nustoti": "nustóti"
@@ -1150,6 +1172,7 @@
 "objektas": "objèktas"
 "obuolys": "obuolỹs"
 "oda": "óda"
+"odontologas": "odontològas"  # mentions: dantistas
 "oficialus": "oficialùs"
 "oranžinis": "oránžinis"
 "oras": "óras"
@@ -1181,6 +1204,7 @@
 "paieška": "paieškà"
 "paimti": "paim̃ti"  # mentions: atiduoti
 "pajamos": "pãjamos"
+"pajuokauti": "pajuokáuti"  # mentions: juokauti
 "pajūris": "pajū́ris"
 "pakakti": "pakàkti"  # mentions: kakti
 "pakalbėti": "pakalbė́ti"
@@ -1193,6 +1217,7 @@
 "palaikyti": "palaikýti"
 "palapinė": "palapìnė"
 "palaukti": "paláukti"
+"paleisti": "paléisti"  # mentions: leisti
 "paliesti": "paliẽsti"  # mentions: liesti
 "palikimas": "palikìmas"
 "palikti": "palìkti"
@@ -1245,6 +1270,7 @@
 "paslaptis": "paslaptìs"
 "paslauga": "paslaugà"
 "paslaugus": "paslaugùs"  # mentions: paslauga
+"paslėpti": "paslė̃pti"  # mentions: slėpti
 "pastaba": "pastabà"
 "pastatas": "pãstatas"
 "pastatyti": "pastatýti"
@@ -1275,6 +1301,7 @@
 "pavargęs": "pavar̃gęs"
 "pavasaris": "pavãsaris"
 "paveikslas": "pavéikslas"
+"pavogti": "pavõgti"  # mentions: ketinti
 "pavojingas": "pavojìngas"
 "pavojus": "pavõjus"
 "pavydas": "pavỹdas"  # mentions: envy, rodyti
@@ -1282,6 +1309,7 @@
 "pavydėti": "pavydė́ti"
 "pavyzdys": "pavyzdỹs"
 "pavėluoti": "pavėlúoti"
+"pašalinti": "pašãlinti"  # mentions: nulipdyti
 "paštas": "pãštas"
 "pažadas": "pãžadas"
 "pažanga": "pažangà"  # mentions: progress
@@ -1451,6 +1479,7 @@
 "pulti": "pùlti"
 "puodas": "púodas"
 "puokštė": "púokštė"
+"puolimas": "puolìmas"  # mentions: pulti
 "pupelė": "pupẽlė"
 "pusbrolis": "pùsbrolis"
 "pusiasalis": "pusiãsalis"
@@ -1533,6 +1562,7 @@
 "rytas": "rýtas"
 "rytinis": "rytìnis"
 "rytoj": "rytój"
+"rytojus": "rytójus"  # mentions: rytdiena
 "ryškus": "ryškùs"
 "ryšys": "ryšỹs"
 "rėkti": "rė̃kti"
@@ -1568,6 +1598,7 @@
 "sausis": "saũsis"
 "savaitgalis": "saváitgalis"
 "savaitė": "saváitė"
+"savanoriauti": "savanoriáuti"  # mentions: savanoris
 "savanoris": "savanõris"
 "savanoriškas": "savanõriškas"
 "savanorystė": "savanorỹstė"  # mentions: savanoris
@@ -1755,9 +1786,11 @@
 "sultys": "sùltys"
 "suma": "sumà"
 "sumuštinis": "sumuštìnis"
+"sunaikinti": "sunaikìnti"  # mentions: naikinti
 "sunkus": "sunkùs"
 "sunkvežimis": "suñkvežimis"
 "suprasti": "supràsti"
+"supūti": "supū́ti"  # mentions: pūti
 "surasti": "suràsti"
 "susijęs": "susìjęs"
 "susitikimas": "susitikìmas"
@@ -1803,6 +1836,7 @@
 "sūnus": "sūnùs"
 "sūnėnas": "sūnė́nas"  # mentions: posūnis
 "tabakas": "tabãkas"
+"tai": "taĩ"  # mentions: būti, dzin, ketinti
 "taika": "taikà"  # mentions: taikdarys
 "taikus": "taikùs"  # mentions: taikdarys
 "taip": "taĩp"  # mentions: šiaip taip
@@ -1833,6 +1867,8 @@
 "tavo": "tàvo"  # mentions: jog, your
 "taškas": "tãškas"
 "teatras": "teãtras"
+"tegul": "tegùl"  # mentions: tegu
+"teigimas": "teigìmas"  # mentions: teigti
 "teiginys": "teiginỹs"
 "teigti": "teĩgti"
 "teikti": "teĩkti"
@@ -1861,6 +1897,7 @@
 "terminas": "ter̃minas"
 "testamentas": "testaméntas"
 "teta": "tetà"
+"tiek": "tíek"  # mentions: vis tiek
 "tiekėjas": "tiekė́jas"
 "tiesa": "tiesà"
 "tiesiog": "tiesióg"
@@ -1887,6 +1924,7 @@
 "tobulas": "tóbulas"
 "todėl": "todė̃l"
 "toks": "tóks"  # mentions: niaukti
+"tol": "tõl"  # mentions: kol
 "toliau": "toliaũ"
 "tolimas": "tólimas"
 "tortas": "tòrtas"
@@ -1942,6 +1980,7 @@
 "tyrėjas": "tyrė́jas"  # mentions: tirti
 "tyčia": "týčia"
 "tėvas": "tė́vas"
+"tėvelis": "tėvẽlis"  # mentions: tėvas
 "tėvynė": "tėvỹnė"
 "ugdymas": "ùgdymas"
 "ugniagesys": "ugniagesỹs"
@@ -1975,6 +2014,7 @@
 "užsiimti": "užsiim̃ti"
 "užsimerkti": "užsimérkti"
 "užsiregistruoti": "užsiregistrúoti"
+"užstrigti": "užstrìgti"  # mentions: strigti
 "užtarti": "užtar̃ti"
 "užtekti": "užtèkti"
 "užtemimas": "užtemìmas"
@@ -2038,6 +2078,7 @@
 "varis": "vãris"
 "varlė": "varlė̃"
 "varpas": "var̃pas"
+"varpelis": "varpẽlis"  # mentions: varpininkas
 "vartai": "var̃tai"
 "vartoti": "vartóti"
 "vartotojas": "vartótojas"
@@ -2084,6 +2125,7 @@
 "vidurys": "vidurỹs"
 "vidutinis": "vidutìnis"
 "viela": "vielà"
+"vien": "víen"  # mentions: žodis
 "vienas": "víenas"  # mentions: likti, tai, vienas velnias
 "vienatvė": "vienãtvė"
 "vienetas": "víenetas"
@@ -2093,6 +2135,7 @@
 "vienuolynas": "vienuolýnas"
 "vieta": "vietà"
 "vietinis": "viẽtinis"  # mentions: vietovardis
+"vietoj": "viẽtoj"  # mentions: vietovardis
 "vietovė": "vietóvė"  # mentions: vietovardis
 "viešas": "viẽšas"
 "viešbutis": "viẽšbutis"
@@ -2214,6 +2257,7 @@
 "šauksmas": "šaũksmas"  # mentions: šauktukas
 "šaukti": "šaũkti"
 "šaukštas": "šáukštas"
+"šaunus": "šaunùs"  # mentions: mudrus
 "šedevras": "šedèvras"
 "šeima": "šeimà"
 "šeimininkas": "šeiminiñkas"
@@ -2281,12 +2325,14 @@
 "žalias": "žãlias"
 "žavingas": "žavìngas"  # mentions: žavus
 "žemas": "žẽmas"
+"žemyn": "žemỹn"  # mentions: žemiau
 "žemynas": "žemýnas"
 "žemė": "žẽmė"
 "žemėlapis": "žemė́lapis"
 "žengti": "žeñgti"
 "ženklas": "žénklas"
 "žentas": "žéntas"
+"žiaurumas": "žiaurùmas"  # mentions: žiaurus
 "žiaurus": "žiaurùs"
 "žibintas": "žibiñtas"
 "žiebtuvėlis": "žiebtuvė̃lis"
