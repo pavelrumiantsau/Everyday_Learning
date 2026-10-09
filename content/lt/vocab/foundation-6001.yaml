@@ -1,0 +1,213 @@
+# Generated from scripts/batches/lt-f-6001.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-6001
+  type: word
+  cefr: A1
+  track: foundation
+  text: "Lietuva"
+  pos: noun
+  gender: f
+  gen: "Lietuvos"
+  meaning: { ru: "Литва" }
+  note: { ru: "iš Lietuvos — из Литвы, Lietuvoje — в Литве, į Lietuvą — в Литву" }
+  examples:
+    - { text: "Lietuva - svetinga šalis.", translation: "Литва - гостеприимная страна.", source: "tatoeba:3296623" }
+- id: lt-w-6002
+  type: word
+  cefr: A1
+  track: foundation
+  text: "lietuvis"
+  pos: noun
+  gender: m
+  gen: "lietuvio"
+  meaning: { ru: "литовец" }
+  note: { ru: "женщина — lietuvė" }
+- id: lt-w-6003
+  type: word
+  cefr: A1
+  track: foundation
+  text: "lietuvė"
+  pos: noun
+  gender: f
+  gen: "lietuvės"
+  meaning: { ru: "литовка" }
+  examples:
+    - { text: "Ji lietuvė.", translation: "Она литовка.", source: "tatoeba:9754493" }
+- id: lt-w-6004
+  type: word
+  cefr: A1
+  track: foundation
+  text: "rusė"
+  pos: noun
+  gender: f
+  gen: "rusės"
+  meaning: { ru: "русская (женщина)" }
+  note: { ru: "мужчина — rusas" }
+  examples:
+    - { text: "\"Tu rusė?\" — \"Taip\".", translation: "«Ты русская?» — «Да».", source: "tatoeba:13350164" }
+- id: lt-w-6005
+  type: word
+  cefr: A2
+  track: foundation
+  text: "inžinierius"
+  pos: noun
+  gender: m
+  gen: "inžinieriaus"
+  meaning: { ru: "инженер" }
+  examples:
+    - { text: "Tomas yra inžinierius.", translation: "Том — инженер.", source: "tatoeba:13364296" }
+- id: lt-w-6006
+  type: word
+  cefr: A1
+  track: foundation
+  text: "malonu"
+  pos: adv
+  meaning: { ru: "приятно" }
+  note: { ru: "Labai malonu! — Очень приятно! (при знакомстве)" }
+  examples:
+    - { text: "Labai malonu.", translation: "Очень приятно.", source: "tatoeba:12559981" }
+- id: lt-w-6007
+  type: word
+  cefr: A1
+  track: foundation
+  text: "lietuviškai"
+  pos: adv
+  meaning: { ru: "по-литовски" }
+  examples:
+    - { text: "Ar tu kalbi lietuviškai?", translation: "Ты говоришь по-литовски?", source: "tatoeba:9935017" }
+- id: lt-w-6008
+  type: word
+  cefr: A1
+  track: foundation
+  text: "rusiškai"
+  pos: adv
+  meaning: { ru: "по-русски" }
+  examples:
+    - { text: "Ji kalba rusiškai.", translation: "Она говорит по-русски.", source: "tatoeba:1663645" }
+- id: lt-w-6009
+  type: word
+  cefr: A1
+  track: foundation
+  text: "euras"
+  pos: noun
+  gender: m
+  gen: "euro"
+  meaning: { ru: "евро" }
+  note: { ru: "vienas euras, du eurai, dešimt eurų" }
+  examples:
+    - { text: "Euras yra Europos valiuta.", translation: "Евро - европейская валюта.", source: "tatoeba:12774137" }
+- id: lt-w-6010
+  type: word
+  cefr: A1
+  track: foundation
+  text: "paprastai"
+  pos: adv
+  meaning: { ru: "обычно" }
+  examples:
+    - { text: "Aš paprastai to nedarau.", translation: "Я обычно этого не делаю.", source: "tatoeba:12234544" }
+- id: lt-w-6011
+  type: word
+  cefr: A1
+  track: foundation
+  text: "namai"
+  pos: noun
+  gender: m
+  gen: "namų"
+  plural_only: true
+  meaning: { ru: "дом, жилище (мн. ч.)" }
+  note: { ru: "namie — дома, namo — домой" }
+  examples:
+    - { text: "Tomo namai toli.", translation: "Дом Тома далеко.", source: "tatoeba:11047531" }
+- id: lt-w-6012
+  type: word
+  cefr: A2
+  track: foundation
+  text: "gramas"
+  pos: noun
+  gender: m
+  gen: "gramo"
+  meaning: { ru: "грамм" }
+  examples:
+    - { text: "Dubuo ryžių sveria apie šimtą aštuoniasdešimt gramų.", translation: "Чашка риса весит около ста восьмидесяти граммов.", source: "tatoeba:10470493" }
+- id: lt-w-6013
+  type: word
+  cefr: A2
+  track: foundation
+  text: "hobis"
+  pos: noun
+  gender: m
+  gen: "hobio"
+  meaning: { ru: "хобби" }
+  examples:
+    - { text: "Mano hobis yra sportas.", translation: "Спорт — моё хобби.", source: "tatoeba:9788699" }
+- id: lt-w-6014
+  type: word
+  cefr: A1
+  track: foundation
+  text: "koncertas"
+  pos: noun
+  gender: m
+  gen: "koncerto"
+  meaning: { ru: "концерт" }
+  examples:
+    - { text: "Jis eina į koncertą.", translation: "Он идёт на концерт.", source: "tatoeba:12144556" }
+- id: lt-w-6015
+  type: word
+  cefr: A2
+  track: foundation
+  text: "taisyti"
+  pos: verb
+  forms: { pres: "taiso", past: "taisė" }
+  meaning: { ru: "исправлять; чинить, ремонтировать" }
+  note: { ru: "pataisyti — исправить, починить (сов.)" }
+  examples:
+    - { text: "Aš taisau savo klaidas.", translation: "Я исправляю свои ошибки.", source: "tatoeba:12312838" }
+- id: lt-p-6016
+  type: phrase
+  cefr: A1
+  track: foundation
+  text: "Viso gero!"
+  meaning: { ru: "Всего хорошего! До свидания!" }
+  examples:
+    - { text: "Viso gero!", translation: "Всего хорошего!", source: "tatoeba:12334137" }
+- id: lt-p-6017
+  type: phrase
+  cefr: A1
+  track: foundation
+  text: "Atleiskite."
+  meaning: { ru: "Извините. Простите." }
+  note: { ru: "к одному человеку на «ты»: Atleisk." }
+  examples:
+    - { text: "Atleiskite.", translation: "Извините.", source: "tatoeba:11096744" }
+- id: lt-p-6018
+  type: phrase
+  cefr: A1
+  track: foundation
+  text: "prekybos centras"
+  meaning: { ru: "торговый центр" }
+  examples:
+    - { text: "Kur yra prekybos centras?", translation: "Где находится торговый центр?", source: "tatoeba:12377795" }
+- id: lt-p-6019
+  type: phrase
+  cefr: A1
+  track: foundation
+  text: "lietuvių kalba"
+  meaning: { ru: "литовский язык" }
+  note: { ru: "Kalbu lietuviškai. — Я говорю по-литовски." }
+- id: lt-p-6020
+  type: phrase
+  cefr: A1
+  track: foundation
+  text: "anglų kalba"
+  meaning: { ru: "английский язык" }
+  examples:
+    - { text: "Jis moka anglų kalbą.", translation: "Он владеет английским языком.", source: "tatoeba:10710050" }
+- id: lt-p-6021
+  type: phrase
+  cefr: A1
+  track: foundation
+  text: "rusų kalba"
+  meaning: { ru: "русский язык" }
+  examples:
+    - { text: "Jis kalba rusų kalba.", translation: "Он говорит на русском языке.", source: "tatoeba:12713564" }

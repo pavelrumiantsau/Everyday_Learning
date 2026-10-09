@@ -1,0 +1,76 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u03): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0205
+cefr: A1
+order: 205
+track: foundation
+title: "Когда? pirmadienį, ryte, vakare; Kelinta valanda?"
+explanation:
+  ru: |
+    **Дни недели.** На вопрос «когда?» день недели стоит в винительном падеже: окончание *-is* → **-į**.
+    - pirmadienis → **pirmadienį** — в понедельник
+    - antradienį, trečiadienį, ketvirtadienį, penktadienį, šeštadienį, **sekmadienį**
+    - так же: *kiekvieną dieną* — каждый день
+
+    **Части дня:**
+    - **ryte** — утром, **dieną** — днём, **vakare** — вечером, **naktį** — ночью
+    - и слова без изменений: *šiandien* — сегодня, *rytoj* — завтра, *vakar* — вчера, *dabar* — сейчас
+
+    **Который час?** Часы называют **порядковыми числительными женского рода** (*valanda* — женского рода):
+    - *Kelinta dabar valanda?* — Который сейчас час? — *Dabar **trečia** valanda.* — Сейчас три часа.
+    - 1–12: pirma, antra, trečia, ketvirta, penkta, šešta, septinta, aštunta, devinta, dešimta, vienuolikta, dvylikta
+
+    **Во сколько?** — то же в винительном падеже: *Kelintą valandą?* — ***Trečią** valandą.* — В три часа.
+
+    Половина — как по-русски «полтретьего»: *pusė trečios* — половина третьего (2:30).
+comparison:
+  ru: |
+    По-русски «в понедельник» — с предлогом, по-литовски предлога нет: просто *pirmadienį*. А «половина третьего» устроено одинаково: *pusė trečios*.
+examples:
+  - { text: "Aš sekmadienį nedirbu.", translation: "Я в воскресенье не работаю.", source: "tatoeba:12327604" }
+  - { text: "Jūs sekmadienį dirbate?", translation: "Вы в воскресенье работаете?", source: "tatoeba:12157250" }
+  - { text: "Aš dirbu naktį.", translation: "Я работаю ночью.", source: "tatoeba:13191409" }
+  - { text: "Kelinta dabar valanda?", translation: "Сколько сейчас времени?", source: "tatoeba:9107223" }
+  - { text: "Kelintą valandą atvyksti?", translation: "Во сколько ты будешь?", source: "tatoeba:3138027" }
+exercises:
+  - type: cloze
+    text: "Aš dirbu ___."
+    answer: "pirmadienį"
+    hint: "pirmadienis"
+    translation: "Я работаю в понедельник."
+  - type: cloze
+    text: "Mes nedirbame ___."
+    answer: "sekmadienį"
+    hint: "sekmadienis"
+    translation: "Мы не работаем в воскресенье."
+  - type: cloze
+    text: "___ aš geriu kavą."
+    answer: "ryte"
+    hint: "rytas"
+    translation: "Утром я пью кофе."
+  - type: cloze
+    text: "Jis grįžta namo ___."
+    answer: "vakare"
+    hint: "vakaras"
+    translation: "Он возвращается домой вечером."
+  - type: cloze
+    text: "Kelinta dabar ___?"
+    answer: "valanda"
+    translation: "Который сейчас час?"
+  - type: cloze
+    text: "Dabar ___ valanda."
+    answer: "trečia"
+    hint: "3"
+    translation: "Сейчас три часа."
+  - type: cloze
+    text: "Pamoka prasideda ___ valandą."
+    answer: "devintą"
+    hint: "9"
+    translation: "Урок начинается в девять часов."
+  - type: cloze
+    text: "Aš miegu ___."
+    answer: "naktį"
+    hint: "naktis"
+    translation: "Я сплю ночью."

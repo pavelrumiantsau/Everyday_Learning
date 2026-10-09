@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u05): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0207
+cefr: A1
+order: 207
+track: foundation
+title: "Родительный падеж: nėra pieno, negeriu kavos, butelis vandens"
+explanation:
+  ru: |
+    **Родительный падеж** (*kilmininkas*, вопрос *ko?* — кого? чего?) — один из самых частых в литовском.
+
+    Окончания в единственном числе:
+    - *-as* → **-o**: pienas → pieno, vynas → vyno, darbas → darbo
+    - *-is, -ys* (мужской род) → **-io**: sūris → sūrio, kambarys → kambario
+    - *-us* → **-aus**: alus → alaus
+    - *-a* → **-os**: kava → kavos, duona → duonos, mėsa → mėsos
+    - *-ė* → **-ės**: kavinė → kavinės, vakarienė → vakarienės
+    - *-is* (женский род) → **-ies**: žuvis → žuvies, naktis → nakties
+    - запомнить: vanduo → **vandens**
+
+    Когда нужен:
+    - после **nėra** — «нет»: *Nėra pieno.* — Нет молока.
+    - **при отрицании** вместо винительного: *Geriu kavą.* → *Negeriu **kavos**.* — Не пью кофе.
+    - **количество**: *butelis vandens, litras pieno, kilogramas sūrio, puodelis kavos*
+
+    Правило с отрицанием строгое — ошибка *negeriu kavą* сразу заметна, и на экзамене это ошибка.
+comparison:
+  ru: |
+    Почти как в русском: «нет молока», «бутылка воды», «литр молока». Разница в отрицании: по-русски можно сказать и «не пью кофе», и «не пью чая», а по-литовски после *ne-* — **только** родительный: *negeriu kavos, nevalgau mėsos*.
+examples:
+  - { text: "Ar čia nėra vandens?", translation: "Здесь нет воды?", source: "tatoeba:13003313" }
+  - { text: "Tai yra stiklinė vandens.", translation: "Это стакан воды.", source: "tatoeba:2749400" }
+  - { text: "Kiek kainuoja litras pieno?", translation: "Сколько стоит литр молока?", source: "tatoeba:5989127" }
+  - { text: "Ar norite puodelį kavos?", translation: "Хотите чашку кофе?", source: "tatoeba:12377860" }
+  - { text: "Tam nėra laiko.", translation: "На это нет времени.", source: "tatoeba:12344475" }
+exercises:
+  - type: cloze
+    text: "Šiandien nėra ___."
+    answer: "pieno"
+    hint: "pienas"
+    translation: "Сегодня нет молока."
+  - type: cloze
+    text: "Aš negeriu ___."
+    answer: "kavos"
+    hint: "kava"
+    translation: "Я не пью кофе."
+  - type: cloze
+    text: "Prašau butelį ___."
+    answer: "vandens"
+    hint: "vanduo"
+    translation: "Бутылку воды, пожалуйста."
+  - type: cloze
+    text: "Kiek kainuoja kilogramas ___?"
+    answer: "sūrio"
+    hint: "sūris"
+    translation: "Сколько стоит килограмм сыра?"
+  - type: cloze
+    text: "Namie nėra ___."
+    answer: "duonos"
+    hint: "duona"
+    translation: "Дома нет хлеба."
+  - type: cloze
+    text: "Jis nevalgo ___."
+    answer: "mėsos"
+    hint: "mėsa"
+    translation: "Он не ест мясо."
+  - type: cloze
+    text: "Norėčiau ___."
+    answer: "alaus"
+    hint: "alus"
+    translation: "Я бы хотел пива."
+  - type: cloze
+    text: "Aš nevalgau ___."
+    answer: "žuvies"
+    hint: "žuvis"
+    translation: "Я не ем рыбу."

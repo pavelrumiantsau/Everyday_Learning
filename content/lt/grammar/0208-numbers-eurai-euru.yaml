@@ -1,0 +1,77 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u05): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0208
+cefr: A1
+order: 208
+track: foundation
+title: "Kiek kainuoja? Числа и деньги: du eurai, dešimt eurų"
+explanation:
+  ru: |
+    **Числа 11–100:**
+    - 11–19: vienuolika, dvylika, trylika, keturiolika, penkiolika, šešiolika, septyniolika, aštuoniolika, devyniolika
+    - десятки: dvidešimt, trisdešimt, keturiasdešimt, penkiasdešimt, šešiasdešimt, septyniasdešimt, aštuoniasdešimt, devyniasdešimt, **šimtas** (100)
+    - составные — как по-русски: *dvidešimt trys* (23)
+
+    **Какая форма слова после числа** (как по-русски «один евро — два евро — пять евро», только по-литовски окончания видны):
+    - **1** (и 21, 31…): единственное число — *vienas euras*
+    - **2–9** (и 22–29…): множественное число — *du eurai, trys eurai, penki eurai*
+    - **10–20, десятки, 100**: родительный падеж множественного числа — *dešimt eurų, penkiolika eurų, dvidešimt eurų, šimtas eurų*
+
+    **Сколько стоит?** — *Kiek kainuoja?* После *kainuoja* число и слово стоят в **винительном падеже**:
+    - *vieną eurą, du eurus, tris eurus, keturis eurus, penkis eurus*
+    - с 10 и больше ничего не меняется: *dešimt eurų*
+
+    Короткий ответ без глагола — в именительном: *— Kiek kainuoja? — **Trys eurai.***
+
+    Мелочь: *centas — centai — centų* (так же, как *euras*).
+comparison:
+  ru: |
+    Логика как в русском: «один евро, два рубля, пять рублей». Граница только другая: в литовском «много» начинается с **10**, а 5–9 ещё идут как 2–4: *penki eurai*, но *dešimt eurų*.
+examples:
+  - { text: "Kiek kainuoja?", translation: "Сколько стоит?", source: "tatoeba:3589725" }
+  - { text: "Kiek kainuoja duona?", translation: "Сколько стоит хлеб?", source: "tatoeba:5989009" }
+  - { text: "Tai kainuoja du eurus.", translation: "Это стоит два евро.", source: "tatoeba:12325828" }
+  - { text: "Pas mane liko trys eurai.", translation: "У меня осталось три евро.", source: "tatoeba:13371856" }
+  - { text: "Paskolink man dvidešimt eurų.", translation: "Одолжи мне двадцать евро.", source: "tatoeba:9945794" }
+exercises:
+  - type: cloze
+    text: "Kava kainuoja du ___."
+    answer: "eurus"
+    hint: "euras"
+    translation: "Кофе стоит два евро."
+  - type: cloze
+    text: "Pyragas kainuoja ___ eurą."
+    answer: "vieną"
+    hint: "1"
+    translation: "Пирог стоит один евро."
+  - type: cloze
+    text: "Sūris kainuoja penkis ___."
+    answer: "eurus"
+    hint: "euras"
+    translation: "Сыр стоит пять евро."
+  - type: cloze
+    text: "Vynas kainuoja dešimt ___."
+    answer: "eurų"
+    hint: "euras"
+    translation: "Вино стоит десять евро."
+  - type: cloze
+    text: "Bilietas kainuoja dvidešimt ___."
+    answer: "eurų"
+    hint: "euras"
+    translation: "Билет стоит двадцать евро."
+  - type: cloze
+    text: "— Kiek kainuoja? — Trys ___."
+    answer: "eurai"
+    hint: "euras"
+    translation: "— Сколько стоит? — Три евро."
+  - type: cloze
+    text: "Duona kainuoja ___ eurus."
+    answer: "keturis"
+    hint: "4"
+    translation: "Хлеб стоит четыре евро."
+  - type: cloze
+    text: "___ kainuoja obuoliai?"
+    answer: "kiek"
+    translation: "Сколько стоят яблоки?"

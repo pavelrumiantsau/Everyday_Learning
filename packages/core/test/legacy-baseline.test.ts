@@ -15,6 +15,7 @@ import {
   pickNewItems,
   pickText,
   verdict,
+  visibleTo,
   type Item,
   type WeekSummary,
 } from "../src";
@@ -96,6 +97,15 @@ describe.skipIf(!built)("legacy baseline: content pickers (built content)", () =
       expect(now, `round ${round}`).toEqual(legacyPlanner.pickNewItems(items, introduced, perLang).map((i) => i.id));
       if (!now.length) break;
       for (const id of now) introduced.add(id);
+    }
+  });
+
+  it("the original plan never sees foundation content (words, lessons, texts)", () => {
+    for (const name of ["content", "grammar", "reading"]) {
+      const all = load<{ id: string; track?: "foundation" }[]>(name);
+      const seen = visibleTo(all, null);
+      expect(seen.some((x) => x.track === "foundation"), name).toBe(false);
+      expect(seen.length, name).toBe(all.filter((x) => !x.track).length);
     }
   });
 

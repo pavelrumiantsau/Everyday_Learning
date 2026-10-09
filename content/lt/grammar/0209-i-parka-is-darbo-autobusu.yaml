@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u06): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0209
+cefr: A1
+order: 209
+track: foundation
+title: "Куда, откуда, на чём: į parką, iš darbo, važiuoju autobusu"
+explanation:
+  ru: |
+    **Идти и ехать:**
+    - **eiti** — идти (пешком): einu, eini, eina, einame, einate, eina
+    - **važiuoti** — ехать: važiuoju, važiuoji, važiuoja, važiuojame, važiuojate, važiuoja
+
+    **Куда?** — **į** + винительный падеж: *į parką, į mokyklą, į darbą, į Vilnių*. Одно *į* — и «в», и «на»: *į darbą* — на работу.
+
+    **Откуда?** — **iš** + родительный падеж: *iš darbo, iš mokyklos, iš Vilniaus, iš Lietuvos*.
+
+    Особые слова: **namo** — домой, **namie** — дома.
+
+    **На чём?** — творительный падеж **без предлога**:
+    - *-as* → **-u**: autobusas → autobus**u**
+    - *-ys, -is* → **-iu**: traukinys → traukin**iu**, dviratis → dvirač**iu** (t перед *i* → č)
+    - *mašina* → mašin**a** (на письме так же, как именительный)
+    - пешком — **pėsčiomis**
+
+    *Aš važiuoju į darbą autobusu.* — Я еду на работу на автобусе.
+comparison:
+  ru: |
+    По-русски «на автобусе» — с предлогом. По-литовски предлога нет, только окончание: *autobusu* — как русское «автобусом» («ехать автобусом» тоже говорят и по-русски).
+examples:
+  - { text: "Ji eina į parką.", translation: "Она идёт в парк.", source: "tatoeba:11485184" }
+  - { text: "Jis važiuoja į darbą.", translation: "Он едет на работу.", source: "tatoeba:13016824" }
+  - { text: "Aš važiuoju autobusu.", translation: "Я еду на автобусе.", source: "tatoeba:12144560" }
+  - { text: "Tu važiuoji traukiniu?", translation: "Ты едешь на поезде?", source: "tatoeba:9991491" }
+  - { text: "Jis grįžta iš teatro.", translation: "Он возвращается из театра.", source: "tatoeba:13829205" }
+exercises:
+  - type: cloze
+    text: "Aš einu į ___."
+    answer: "parką"
+    hint: "parkas"
+    translation: "Я иду в парк."
+  - type: cloze
+    text: "Ji važiuoja į ___."
+    answer: "mokyklą"
+    hint: "mokykla"
+    translation: "Она едет в школу."
+  - type: cloze
+    text: "Mes važiuojame ___."
+    answer: "autobusu"
+    hint: "autobusas"
+    translation: "Мы едем на автобусе."
+  - type: cloze
+    text: "Jis grįžta iš ___."
+    answer: "darbo"
+    hint: "darbas"
+    translation: "Он возвращается с работы."
+  - type: cloze
+    text: "Tu ___ į darbą?"
+    answer: "važiuoji"
+    hint: "važiuoti"
+    translation: "Ты едешь на работу?"
+  - type: cloze
+    text: "Aš ___ namo."
+    answer: "einu"
+    hint: "eiti"
+    translation: "Я иду домой."
+  - type: cloze
+    text: "Jie važiuoja ___."
+    answer: "traukiniu"
+    hint: "traukinys"
+    translation: "Они едут на поезде."
+  - type: cloze
+    text: "Mes esame iš ___."
+    answer: "Lietuvos"
+    hint: "Lietuva"
+    translation: "Мы из Литвы."

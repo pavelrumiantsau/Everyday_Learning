@@ -1,0 +1,78 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit u04): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0206
+cefr: A1
+order: 206
+track: foundation
+title: "Где? Местный падеж: mieste, virtuvėje, Lietuvoje"
+explanation:
+  ru: |
+    На вопрос **kur?** — «где?» — литовцы отвечают **местным падежом** (*vietininkas*). Предлог не нужен: одно окончание значит «в» или «на».
+
+    Окончания в единственном числе:
+    - *-as* → **-e**: miestas → mieste, butas → bute, parkas → parke, kaimas → kaime
+    - *-ys, -is* → **-yje**: kambarys → kambaryje
+    - *-ius* → **-iuje**: Vilnius → Vilniuje
+    - *-a* → **-oje**: mokykla → mokykloje, Lietuva → Lietuvoje
+    - *-ė* → **-ėje**: virtuvė → virtuvėje, kavinė → kavinėje, parduotuvė → parduotuvėje
+
+    Запомнить:
+    - **namie** или **namuose** — дома
+    - **darbe** — на работе
+
+    Вопрос *Kur tu gyveni?* — «Где ты живёшь?» — *Gyvenu Vilniuje.*
+
+    А «куда?» — другой вопрос и другой падеж: *į* + винительный (*einu į parką*), это в юните «Город и транспорт».
+comparison:
+  ru: |
+    По-русски «в городе», «на работе», «на кухне» — нужен предлог, и он бывает разный. По-литовски предлога нет, «в» и «на» одинаково передаёт окончание: *mieste, darbe, virtuvėje*.
+examples:
+  - { text: "Ji virtuvėje.", translation: "Она на кухне.", source: "tatoeba:3627151" }
+  - { text: "Aš esu mieste.", translation: "Я в городе.", source: "tatoeba:13412456" }
+  - { text: "Aš esu kavinėje.", translation: "Я в кафе.", source: "tatoeba:12161895" }
+  - { text: "Kur jūs gyvenate?", translation: "Где вы живёте?", source: "tatoeba:6006469" }
+  - { text: "Jis gyvena kaime.", translation: "Он живёт в деревне.", source: "tatoeba:12871414" }
+exercises:
+  - type: cloze
+    text: "Mama yra ___."
+    answer: "virtuvėje"
+    hint: "virtuvė"
+    translation: "Мама на кухне."
+  - type: cloze
+    text: "Aš gyvenu ___."
+    answer: "Vilniuje"
+    hint: "Vilnius"
+    translation: "Я живу в Вильнюсе."
+  - type: cloze
+    text: "Mes esame ___."
+    answer: "parke"
+    hint: "parkas"
+    translation: "Мы в парке."
+  - type: cloze
+    text: "Jis dirba ___."
+    answer: "mokykloje"
+    hint: "mokykla"
+    translation: "Он работает в школе."
+  - type: cloze
+    text: "Vaikai yra ___."
+    answer: "kambaryje"
+    hint: "kambarys"
+    translation: "Дети в комнате."
+  - type: cloze
+    text: "Ji dirba ___."
+    answer: "parduotuvėje"
+    hint: "parduotuvė"
+    translation: "Она работает в магазине."
+  - type: cloze
+    text: "Mes gyvename ___."
+    answer: "Lietuvoje"
+    hint: "Lietuva"
+    translation: "Мы живём в Литве."
+  - type: cloze
+    text: "Ar tu esi ___?"
+    answer: "namie"
+    also: ["namuose"]
+    hint: "дома"
+    translation: "Ты дома?"

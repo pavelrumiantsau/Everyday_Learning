@@ -17,7 +17,8 @@ export default async function (t: Smoke) {
 
   const u01 = await get<{ words: { id: string; introduced: boolean }[]; progress: Progress }>("/course/units/u01");
   const introduced = u01.words.filter((w) => w.introduced).map((w) => w.id);
-  check(introduced.length === 8 && introduced[0] === "lt-w-3151", `the first lesson's 8 words are unit 1's first words (labas…), got ${introduced.join(",")}`);
+  const firstEight = u01.words.slice(0, 8).map((w) => w.id).join(",");
+  check(introduced.length === 8 && introduced.join(",") === firstEight, `the first lesson brings unit 1's first 8 items in course order (phrases, then words), got ${introduced.join(",")}`);
 
   check((await api("/course/units/u01/check", me, json({ correct: 11, total: 10 }))).status === 400, "unit check: impossible score → 400");
   const low = (await (await api("/course/units/u01/check", me, json({ correct: 7, total: 10 }))).json()) as { score: number; passed: boolean };

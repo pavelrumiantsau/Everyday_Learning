@@ -6,6 +6,8 @@ cfg = {"lt": ("lit_sentences.tsv", "rus_sentences.tsv", "lit-rus_links.tsv", "ru
        "es": ("spa_sentences.tsv", "eng_sentences.tsv", "spa-eng_links.tsv", "en"),
        "fr": ("fra_sentences.tsv", "eng_sentences.tsv", "fra-eng_links.tsv", "en")}[lang]
 PLURAL_ONLY = set(runpy.run_path(batch).get("PLURAL_ONLY", []))
+# TRACK = "foundation" in a batch: colleagues' Lithuanian A0 → A2 course only (docs/EXTENSION-PLAN.md §4.2).
+TRACK = runpy.run_path(batch).get("TRACK")
 rows = [(r.split("|") + [""])[:9] for r in runpy.run_path(batch)["ROWS"].strip().splitlines()]
 want = {r[6] for r in rows if r[6]}  # an empty id = no example (allowed, e.g. rare LT words)
 def load(f, ids=None):
@@ -29,7 +31,7 @@ for n, (kind, text, pos, gender, cefr, meaning, tid, note, forms) in enumerate(r
     assert text not in seen, f"duplicate {text}"; seen.add(text)
     assert not tid or tid in src, f"{text}: tatoeba {tid} not found"
     iid = f"{lang}-{kind}-{start + n:04d}"
-    out_lines += [f"- id: {iid}", f"  type: {'word' if kind == 'w' else 'phrase'}", f"  cefr: {cefr}", f"  text: {q(text)}"]
+    out_lines += [f"- id: {iid}", f"  type: {'word' if kind == 'w' else 'phrase'}", f"  cefr: {cefr}"] + ([f"  track: {TRACK}"] if TRACK else []) + [f"  text: {q(text)}"]
     if pos: out_lines.append(f"  pos: {pos}")
     if gender: out_lines.append(f"  gender: {gender}")
     if forms and pos == "noun":

@@ -2,9 +2,8 @@
 # Format: packages/core/src/course.ts → Course. Only learners with `lt.course: foundation` follow it; the original plan never does.
 # Units point to existing ids; a word may appear in one unit only. Unit ids are stable (progress is stored by them).
 # Content per unit (phase E/H): 40–70 words, 6–8 phrases, 1–2 lessons, 2 texts, dialogues, a writing and two speaking tasks.
-# Gap words still to add (phase E, ids lt-w-6001+): u01 Lietuva, lietuvis, lietuvė, rusė, inžinierius, malonu, lietuviškai,
-#   rusiškai, viso gero; u02 euras; u03 paprastai; u04 namai, aukštas «этаж» (the existing aukštas is «высокий»);
-#   u05 gramas, batai, prekybos centras; u06 oro uostas, sustojimas.
+# Gap words: added as content/lt/vocab/foundation-6001.yaml (lt-*-6001…6021, track: foundation) for u01–u12.
+# Still missing: «этаж» (the only aukštas item means «высокий»; a second aukštas would be a duplicate word).
 id: lt-foundation
 units:
   # --- Stage 0: sounds (6 micro-lessons, alongside unit 1) ---
@@ -21,7 +20,8 @@ units:
     topic: 1
     title: "Знакомство"
     lessons: [lt-g-0201, lt-g-0202]
-    words: [lt-w-3151, lt-w-3193, lt-w-3157, lt-w-3169, lt-w-3163, lt-w-3175, lt-w-3196, lt-w-3202, lt-w-3152, lt-w-3158, lt-w-3164, lt-w-3170, lt-w-3176, lt-w-3182, lt-w-3188, lt-w-2985, lt-w-3124, lt-w-3299, lt-w-3155, lt-w-3203, lt-w-3180, lt-w-3161, lt-w-2840, lt-w-3127, lt-w-4102, lt-w-3064, lt-w-2989, lt-w-3067, lt-w-0083, lt-w-3285, lt-w-4172, lt-w-3235, lt-w-3238, lt-w-3241, lt-w-3244, lt-w-3246, lt-w-3249, lt-w-3252, lt-w-3255, lt-w-3258, lt-w-3261, lt-w-4001, lt-w-3287, lt-w-4004, lt-w-4051, lt-w-3288, lt-w-3082, lt-w-2999, lt-w-4151, lt-w-2986]
+    phrases: [lt-p-6016, lt-p-6017]
+    words: [lt-w-3151, lt-w-3193, lt-w-3157, lt-w-3169, lt-w-3163, lt-w-3175, lt-w-3196, lt-w-3202, lt-w-3152, lt-w-3158, lt-w-3164, lt-w-3170, lt-w-3176, lt-w-3182, lt-w-3188, lt-w-2985, lt-w-3124, lt-w-3299, lt-w-3155, lt-w-3203, lt-w-3180, lt-w-3161, lt-w-2840, lt-w-3127, lt-w-4102, lt-w-3064, lt-w-2989, lt-w-3067, lt-w-0083, lt-w-3285, lt-w-4172, lt-w-3235, lt-w-3238, lt-w-3241, lt-w-3244, lt-w-3246, lt-w-3249, lt-w-3252, lt-w-3255, lt-w-3258, lt-w-3261, lt-w-4001, lt-w-3287, lt-w-4004, lt-w-4051, lt-w-3288, lt-w-3082, lt-w-2999, lt-w-4151, lt-w-2986, lt-w-6001, lt-w-6002, lt-w-6003, lt-w-6004, lt-w-6005, lt-w-6006, lt-w-6007, lt-w-6008]
     can_do:
       - "Здороваюсь, прощаюсь, благодарю и извиняюсь"
       - "Называю имя, фамилию, страну и профессию"
@@ -41,32 +41,69 @@ units:
     stage: A1
     topic: 4
     title: "Мой день: дни недели, время, распорядок"
-    words: [lt-w-2917, lt-w-2932, lt-w-3236, lt-w-3239, lt-w-3242, lt-w-1017, lt-w-3247, lt-w-3250, lt-w-3253, lt-w-2923, lt-w-2926, lt-w-2920, lt-w-2941, lt-w-2944, lt-w-0001, lt-w-2918, lt-w-2924, lt-w-2921, lt-w-2927, lt-w-3167, lt-w-3232, lt-w-3231, lt-w-0013, lt-w-2945, lt-w-0014, lt-w-2942, lt-w-2846, lt-w-2849, lt-w-2887, lt-w-2916, lt-w-2843, lt-w-2931, lt-w-3038, lt-w-3039, lt-w-2991, lt-w-2995, lt-w-3013, lt-w-3307, lt-w-3071, lt-w-3089]
+    lessons: [lt-g-0205]
+    words: [lt-w-2917, lt-w-2932, lt-w-3236, lt-w-3239, lt-w-3242, lt-w-1017, lt-w-3247, lt-w-3250, lt-w-3253, lt-w-2923, lt-w-2926, lt-w-2920, lt-w-2941, lt-w-2944, lt-w-0001, lt-w-2918, lt-w-2924, lt-w-2921, lt-w-2927, lt-w-3167, lt-w-3232, lt-w-3231, lt-w-0013, lt-w-2945, lt-w-0014, lt-w-2942, lt-w-2846, lt-w-2849, lt-w-2887, lt-w-2916, lt-w-2843, lt-w-2931, lt-w-3038, lt-w-3039, lt-w-2991, lt-w-2995, lt-w-3013, lt-w-3307, lt-w-3071, lt-w-3089, lt-w-6010]
     can_do: ["Называю дни недели и время", "Рассказываю, что делаю утром, днём и вечером"]
   - id: u04
     stage: A1
     topic: 2
     title: "Дом и квартира"
-    words: [lt-w-2894, lt-w-3979, lt-w-2895, lt-w-2896, lt-w-2897, lt-w-3325, lt-w-2085, lt-w-0899, lt-w-3326, lt-w-2898, lt-w-2899, lt-w-2900, lt-w-0573, lt-w-1299, lt-w-2902, lt-w-2903, lt-w-2904, lt-w-2905, lt-w-0863, lt-w-0859, lt-w-0936, lt-w-1155, lt-w-0920, lt-w-2906, lt-w-1293, lt-w-1175, lt-w-0095, lt-w-1868, lt-w-2083, lt-w-2990, lt-w-3324, lt-w-0171, lt-w-0567, lt-w-3063, lt-w-3066, lt-w-3075, lt-w-3078, lt-w-2865, lt-w-2868]
+    lessons: [lt-g-0206]
+    words: [lt-w-2894, lt-w-3979, lt-w-2895, lt-w-2896, lt-w-2897, lt-w-3325, lt-w-2085, lt-w-0899, lt-w-3326, lt-w-2898, lt-w-2899, lt-w-2900, lt-w-0573, lt-w-1299, lt-w-2902, lt-w-2903, lt-w-2904, lt-w-2905, lt-w-0863, lt-w-0859, lt-w-0936, lt-w-1155, lt-w-0920, lt-w-2906, lt-w-1293, lt-w-1175, lt-w-0095, lt-w-1868, lt-w-2083, lt-w-2990, lt-w-3324, lt-w-0171, lt-w-0567, lt-w-3063, lt-w-3066, lt-w-3075, lt-w-3078, lt-w-2865, lt-w-2868, lt-w-6011]
     can_do: ["Описываю квартиру и комнаты", "Называю адрес: улица, дом, квартира"]
   - id: u05
     stage: A1
     topic: 10
     title: "Магазин: цены, количество, цвета"
-    words: [lt-w-3002, lt-w-2777, lt-w-0036, lt-w-0041, lt-w-2786, lt-w-2788, lt-w-3276, lt-w-1558, lt-w-2812, lt-w-1371, lt-w-3609, lt-w-2682, lt-w-3118, lt-w-2673, lt-w-2140, lt-w-2877, lt-w-2847, lt-w-2853, lt-w-2850, lt-w-0862, lt-w-2841, lt-w-2844, lt-w-2856, lt-w-1010, lt-w-1644, lt-w-2859, lt-w-2908, lt-w-1065, lt-w-2910, lt-w-2909, lt-w-1270, lt-w-1209, lt-w-1555, lt-w-2911, lt-w-0764, lt-w-1141]
+    lessons: [lt-g-0207, lt-g-0208]
+    phrases: [lt-p-6018]
+    words: [lt-w-3002, lt-w-2777, lt-w-0036, lt-w-0041, lt-w-2786, lt-w-2788, lt-w-3276, lt-w-1558, lt-w-2812, lt-w-1371, lt-w-3609, lt-w-2682, lt-w-3118, lt-w-2673, lt-w-2140, lt-w-2877, lt-w-2847, lt-w-2853, lt-w-2850, lt-w-0862, lt-w-2841, lt-w-2844, lt-w-2856, lt-w-1010, lt-w-1644, lt-w-2859, lt-w-2908, lt-w-1065, lt-w-2910, lt-w-2909, lt-w-1270, lt-w-1209, lt-w-1555, lt-w-2911, lt-w-0764, lt-w-1141, lt-w-6009, lt-w-6012, lt-w-0949]
     can_do: ["Покупаю продукты и одежду в магазине", "Понимаю цены в евро"]
   - id: u06
     stage: A1
     topic: 6
     title: "Город и транспорт"
+    lessons: [lt-g-0209]
+    phrases: [lt-p-3012]
     words: [lt-w-3293, lt-w-3014, lt-w-3328, lt-w-3330, lt-w-3018, lt-w-3020, lt-w-3022, lt-w-0164, lt-w-2666, lt-w-3295, lt-w-3024, lt-w-3145, lt-w-3271, lt-w-3273, lt-w-4363, lt-w-4360, lt-w-3139, lt-w-3143, lt-w-3319, lt-w-3303, lt-w-0146, lt-w-3320, lt-w-0927, lt-w-0841, lt-w-2919, lt-w-2251, lt-w-3016, lt-w-2247, lt-w-2631, lt-w-2634, lt-w-0426, lt-w-3179]
     can_do: ["Спрашиваю дорогу и понимаю ответ", "Покупаю билет на автобус или поезд"]
-  - { id: u07, stage: A1, topic: 7, title: "Семья, внешность, характер", can_do: ["Рассказываю о своей семье", "Описываю внешность и характер человека"] }
-  - { id: u08, stage: A1, topic: 5, title: "Свободное время", can_do: ["Рассказываю о хобби: что мне нравится и что нет", "Предлагаю встретиться и договариваюсь о времени"] }
-  - { id: u09, stage: A1, topic: 3, title: "Погода, времена года, месяцы", can_do: ["Говорю о погоде", "Называю дату и месяц своего дня рождения"] }
-  - { id: u10, stage: A1, topic: 8, title: "Здоровье и аптека", can_do: ["Говорю, что болит", "Покупаю лекарство в аптеке"] }
-  - { id: u11, stage: A1, topic: 12, title: "Услуги: почта, банк, телефон", can_do: ["Вежливо прошу о помощи: Gal galėtumėte…?", "Обращаюсь к человеку по имени (Jonai, Rasa)"] }
-  - { id: u12, stage: A1, topic: 9, title: "Учёба и языки", can_do: ["Рассказываю, какие языки знаю и где учился", "Говорю о прошлом: buvau, mokiausi, dirbau"] }
+  - id: u07
+    stage: A1
+    topic: 7
+    title: "Семья, внешность, характер"
+    words: [lt-w-2839, lt-w-2845, lt-w-3283, lt-w-2842, lt-w-3280, lt-w-2875, lt-w-2878, lt-w-2860, lt-w-2854, lt-w-2857, lt-w-2848, lt-w-2851, lt-w-2863, lt-w-2866, lt-w-2872, lt-w-2869, lt-w-2502, lt-w-1343, lt-w-0861, lt-w-2504, lt-w-2987, lt-w-3087, lt-w-3090, lt-w-3084, lt-w-3081, lt-w-2821, lt-w-2815, lt-w-1224, lt-w-3505, lt-w-0611, lt-w-3069, lt-w-0459, lt-w-3117, lt-w-0203, lt-w-3142, lt-w-3140, lt-w-1324, lt-w-2310, lt-w-3129, lt-w-3282]
+    can_do: ["Рассказываю о своей семье", "Описываю внешность и характер человека"]
+  - id: u08
+    stage: A1
+    topic: 5
+    title: "Свободное время"
+    words: [lt-w-1697, lt-w-3028, lt-w-3026, lt-w-3042, lt-w-3317, lt-w-3318, lt-w-3315, lt-w-2086, lt-w-4542, lt-w-2961, lt-w-3044, lt-w-3043, lt-w-3311, lt-w-3313, lt-w-3006, lt-w-3305, lt-w-3073, lt-w-1137, lt-w-2578, lt-w-0157, lt-w-3051, lt-w-2880, lt-w-2882, lt-w-3133, lt-w-3134, lt-w-6013, lt-w-6014]
+    can_do: ["Рассказываю о хобби: что мне нравится и что нет", "Предлагаю встретиться и договариваюсь о времени"]
+  - id: u09
+    stage: A1
+    topic: 3
+    title: "Погода, времена года, месяцы"
+    words: [lt-w-2973, lt-w-2975, lt-w-2977, lt-w-2979, lt-w-0118, lt-w-0853, lt-w-2974, lt-w-2976, lt-w-2950, lt-w-2953, lt-w-1304, lt-w-2956, lt-w-2935, lt-w-2938, lt-w-2958, lt-w-2960, lt-w-2962, lt-w-0896, lt-w-2964, lt-w-2966, lt-w-2968, lt-w-2970, lt-w-2971, lt-w-1278, lt-w-1341, lt-w-2972, lt-w-3279, lt-w-3259, lt-w-3047]
+    can_do: ["Говорю о погоде", "Называю дату и месяц своего дня рождения"]
+  - id: u10
+    stage: A1
+    topic: 8
+    title: "Здоровье и аптека"
+    words: [lt-w-0156, lt-w-3126, lt-w-2559, lt-w-0152, lt-w-0901, lt-w-2813, lt-w-2829, lt-w-1070, lt-w-2824, lt-w-2826, lt-w-2820, lt-w-2830, lt-w-2816, lt-w-2832, lt-w-0914, lt-w-3121, lt-w-2060, lt-w-1094, lt-w-1933, lt-w-2054, lt-w-2050, lt-w-4671, lt-w-4354, lt-w-3178, lt-w-3131, lt-w-0069]
+    can_do: ["Говорю, что болит", "Покупаю лекарство в аптеке"]
+  - id: u11
+    stage: A1
+    topic: 12
+    title: "Услуги: почта, банк, телефон"
+    words: [lt-w-2006, lt-w-3088, lt-w-0720, lt-w-3321, lt-w-3050, lt-w-2104, lt-w-0807, lt-w-0578, lt-w-3040, lt-w-3003, lt-w-3005, lt-w-3059, lt-w-3951, lt-w-3628, lt-w-3017, lt-w-3128, lt-w-3228, lt-w-6015]
+    can_do: ["Вежливо прошу о помощи: Gal galėtumėte…?", "Обращаюсь к человеку по имени (Jonai, Rasa)"]
+  - id: u12
+    stage: A1
+    topic: 9
+    title: "Учёба и языки"
+    phrases: [lt-p-6019, lt-p-6020, lt-p-6021]
+    words: [lt-w-3004, lt-w-3297, lt-w-3383, lt-w-3076, lt-w-1238, lt-w-3079, lt-w-3301, lt-w-3085, lt-w-0162, lt-w-0816, lt-w-1516, lt-w-1309, lt-w-2997, lt-w-3284, lt-w-3015, lt-w-3108, lt-w-3105]
+    can_do: ["Рассказываю, какие языки знаю и где учился", "Говорю о прошлом: buvau, mokiausi, dirbau"]
 
   # --- Stage A2: the same topics, deeper ---
   - { id: u13, stage: A2, topic: 1, title: "Биография и анкеты", can_do: ["Рассказываю свою биографию с датами", "Заполняю простую анкету"] }
