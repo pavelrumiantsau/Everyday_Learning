@@ -1,0 +1,59 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit s04): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0257
+cefr: A1
+order: 257
+track: foundation
+title: "Согласные: č, š, ž, c, dz, dž, ch, h"
+explanation:
+  ru: |
+    - **č** — «ч», но твёрже: *čia* (здесь), *ačiū*
+    - **š** — «ш»: *šuo, šalta*
+    - **ž** — «ж»: *žmona, žiema*
+    - **c** — «ц»: *cukrus, centras*
+    - **dz** — «дз» одним звуком: *dzūkai* (жители юга Литвы)
+    - **dž** — «дж» одним звуком: *džiaugiuosi* (радуюсь), *džinsai*
+    - **ch** — «х» (в заимствованиях): *chemija, choras*
+    - **h** — мягкий выдох, как в английском *hello*: *humoras*
+
+    Буква без «галочки» — другой звук и другое слово: **s**/**š**, **z**/**ž**, **c**/**č**. Пишите галочки всегда.
+comparison:
+  ru: |
+    *č, š, ž* — это русские «ч, ш, ж», только литовские *š* и *ž* чуть мягче русских «ш», «ж». *h* — не русское «х»: это лёгкий выдох.
+examples:
+  - { text: "Čia retai lyja.", translation: "Здесь редко бывает дождь.", source: "tatoeba:11740495" }
+  - { text: "Aš labai džiaugiuosi.", translation: "Я очень рад.", source: "tatoeba:11537386" }
+  - { text: "Aš ne šuo.", translation: "Я не собака.", source: "tatoeba:13296616" }
+exercises:
+  - type: cloze
+    text: "___ yra mano namas."
+    answer: "Čia"
+    hint: "здесь"
+    translation: "Здесь мой дом."
+  - type: cloze
+    text: "Mano ___ dirba mokykloje."
+    answer: "žmona"
+    hint: "жена"
+    translation: "Моя жена работает в школе."
+  - type: cloze
+    text: "Įdėk ___."
+    answer: "cukraus"
+    hint: "сахара"
+    translation: "Положи сахара."
+  - type: cloze
+    text: "Ji mėgsta ___."
+    answer: "džinsus"
+    hint: "джинсы"
+    translation: "Она любит джинсы."
+  - type: cloze
+    text: "Mano draugas studijuoja ___."
+    answer: "chemiją"
+    hint: "химию"
+    translation: "Мой друг изучает химию."
+  - type: cloze
+    text: "Lauke ___."
+    answer: "šalta"
+    hint: "холодно"
+    translation: "На улице холодно."

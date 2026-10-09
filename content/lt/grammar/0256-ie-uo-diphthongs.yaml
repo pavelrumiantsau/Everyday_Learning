@@ -1,0 +1,70 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit s03): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0256
+cefr: A1
+order: 256
+track: foundation
+title: "ie, uo и дифтонги ai, ei, au, ui"
+explanation:
+  ru: |
+    Некоторые пары гласных читаются **одним слогом**:
+
+    - **ie** — как «иэ» слитно: *pienas, diena, šiandien*
+    - **uo** — как «уо» слитно: *duona, ruduo, šuo*
+    - **ai** — «ай»: *laikas, gerai*
+    - **ei** — «эй»: *eiti, eik*
+    - **au** — «ау»: *Kaunas, laukas*
+    - **ui** — «уй»: *muilas* (мыло)
+
+    Не разбивайте их на два слога: *die-na*, а не *di-e-na*.
+comparison:
+  ru: |
+    *ai, ei, au* похожи на русские «ай, эй, ау» в «чай, эй, мяу». *ie* и *uo* — новые звуки: начните с «и» / «у» и плавно перейдите к «э» / «о», не останавливаясь.
+examples:
+  - { text: "Kur pienas?", translation: "Где молоко?", source: "tatoeba:3931784" }
+  - { text: "Vėl ruduo.", translation: "Опять осень.", source: "tatoeba:10752837" }
+  - { text: "Tai šuo!", translation: "Это собака!", source: "tatoeba:13401994" }
+  - { text: "Gali eiti.", translation: "Можешь идти.", source: "tatoeba:12509972" }
+exercises:
+  - type: cloze
+    text: "Šiandien graži ___."
+    answer: "diena"
+    hint: "день"
+    translation: "Сегодня хороший день."
+  - type: cloze
+    text: "Prašau ___."
+    answer: "duonos"
+    hint: "хлеба"
+    translation: "Хлеба, пожалуйста."
+  - type: cloze
+    text: "Aš geriu ___."
+    answer: "pieną"
+    hint: "молоко"
+    translation: "Я пью молоко."
+  - type: cloze
+    text: "Ar turi ___?"
+    answer: "laiko"
+    hint: "время"
+    translation: "У тебя есть время?"
+  - type: cloze
+    text: "Mes gyvename ___."
+    answer: "Kaune"
+    hint: "в Каунасе"
+    translation: "Мы живём в Каунасе."
+  - type: cloze
+    text: "Kur yra ___?"
+    answer: "muilas"
+    hint: "мыло"
+    translation: "Где мыло?"
+  - type: cloze
+    text: "Noriu ___ namo."
+    answer: "eiti"
+    hint: "идти"
+    translation: "Хочу идти домой."
+  - type: cloze
+    text: "Mano ___ didelis."
+    answer: "šuo"
+    hint: "собака"
+    translation: "Моя собака большая."

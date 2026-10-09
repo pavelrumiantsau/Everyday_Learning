@@ -25,3 +25,8 @@ import type { Task } from "@el/core";
 /** Writing tasks and speaking situations of the foundation course (content/lt/tasks). */
 export const TASKS = tasksJson as unknown as Task[];
 export const TASK_BY_ID = new Map(TASKS.map((t) => [t.id, t]));
+import listeningJson from "./generated/listening.json";
+import type { Listening } from "@el/core";
+/** Listening dialogues and announcements of the foundation course (content/lt/listening). */
+export const LISTENING = listeningJson as unknown as Listening[];
+export const LISTENING_BY_ID = new Map(LISTENING.map((l) => [l.id, l]));

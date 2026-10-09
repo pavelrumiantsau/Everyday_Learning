@@ -1,0 +1,56 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit s05): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0258
+cefr: A1
+order: 258
+track: foundation
+title: "Мягкие согласные: šiandien, geriau, žiūri"
+explanation:
+  ru: |
+    Перед **e, ę, ė, i, į, y** согласные звучат **мягко** сами собой: *lietus, gerai, kitas*.
+
+    Перед **a, o, u, ą, ų, ū** мягкость показывает буква **i** — она **не читается** отдельно, а только смягчает согласную (как русские «я, ё, ю»):
+    - *šiandien* — «шян-», *geriau* — «-ряу», *kiaušinis* — «кяу-»
+    - *žiūri* — «жю-», *dviračiu* — «-чю»
+
+    Значит, *ia* после согласной ≈ «я», *iu* ≈ «ю», *io* ≈ «ё».
+comparison:
+  ru: |
+    Это та же система, что в русском «ня — на»: русское «я» после согласной делает её мягкой. Литовский пишет то же самое двумя буквами: *ia*.
+examples:
+  - { text: "Tu žiūri?", translation: "Ты смотришь?", source: "tatoeba:12189208" }
+  - { text: "Visi žiūri.", translation: "Все наблюдают.", source: "tatoeba:9711200" }
+  - { text: "Jūsų geriau.", translation: "Ваше лучше.", source: "tatoeba:10883020" }
+exercises:
+  - type: cloze
+    text: "___ lyja."
+    answer: "Šiandien"
+    hint: "сегодня"
+    translation: "Сегодня идёт дождь."
+  - type: cloze
+    text: "Jis kalba ___ už mane."
+    answer: "geriau"
+    hint: "лучше"
+    translation: "Он говорит лучше меня."
+  - type: cloze
+    text: "Aš ___ televizorių."
+    answer: "žiūriu"
+    hint: "смотрю"
+    translation: "Я смотрю телевизор."
+  - type: cloze
+    text: "Pusryčiams valgau ___."
+    answer: "kiaušinį"
+    hint: "яйцо"
+    translation: "На завтрак я ем яйцо."
+  - type: cloze
+    text: "Mes važiuojame ___."
+    answer: "dviračiu"
+    hint: "на велосипеде"
+    translation: "Мы едем на велосипеде."
+  - type: cloze
+    text: "___ sriuba labai skani."
+    answer: "Šilta"
+    hint: "тёплый"
+    translation: "Тёплый суп очень вкусный."

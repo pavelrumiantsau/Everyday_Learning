@@ -2,7 +2,7 @@
 // a unit page (can-do list, words, lessons, texts), a 10-question unit check and «Я это знаю» to skip a unit.
 // Hidden when the learner isn't on the foundation course (GET /api/course → 404), e.g. on the original bot.
 import { useEffect, useMemo, useState } from "react";
-import { getCourse, getUnit, markUnitKnown, saveUnitCheck, startTask, type CourseOverview, type UnitDetail } from "../api";
+import { getCourse, getListening, getUnit, markUnitKnown, saveUnitCheck, startTask, type CourseOverview, type ListeningItem, type UnitDetail } from "../api";
 import type { MiniFeature } from "../features";
 import { haptic, tg } from "../telegram";
 
@@ -67,11 +67,13 @@ function Screen({ close }: { close: () => void }) {
 function UnitScreen({ id, passPercent, checkSize, back }: { id: string; passPercent: number; checkSize: number; back: () => void }) {
   const [unit, setUnit] = useState<UnitDetail | null>(null);
   const [mode, setMode] = useState<"view" | "check">("view");
+  const [listeningId, setListeningId] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const reload = () => getUnit(id).then(setUnit, () => undefined);
   useEffect(() => void reload(), [id]);
 
   if (!unit) return <main className="screen center hint">Загрузка…</main>;
+  if (listeningId) return <ListeningScreen id={listeningId} back={() => setListeningId(null)} />;
   if (mode === "check") return <UnitCheck unit={unit} size={checkSize} passPercent={passPercent} done={() => { setMode("view"); void reload(); }} />;
 
   const known = async () => {
@@ -113,6 +115,17 @@ function UnitScreen({ id, passPercent, checkSize, back }: { id: string; passPerc
         <section className="settings-block">
           <h2>Тексты</h2>
           <ul className="summary-list">{unit.texts.map((t) => <li key={t.id}>{t.read ? "✅ " : ""}{t.title}</li>)}</ul>
+        </section>
+      )}
+      {unit.listening.length > 0 && (
+        <section className="settings-block">
+          <h2>Аудирование</h2>
+          {unit.listening.map((l) => (
+            <button key={l.id} className="secondary row" onClick={() => { haptic("tap"); setListeningId(l.id); }}>
+              <span>🎧 {l.title}</span>
+              <span className="hint small">послушать и ответить ›</span>
+            </button>
+          ))}
         </section>
       )}
       {unit.tasks.length > 0 && (
@@ -222,6 +235,72 @@ function UnitCheck({ unit, size, passPercent, done }: { unit: UnitDetail; size: 
           </button>
         ))}
       </div>
+    </main>
+  );
+}
+
+const MAX_PLAYS = 2; // as on the exam
+
+/** Listening as on the exam: read the situation, play the recording (twice at most), answer, then see the transcript. */
+function ListeningScreen({ id, back }: { id: string; back: () => void }) {
+  const [item, setItem] = useState<ListeningItem | null>(null);
+  const [plays, setPlays] = useState(0);
+  const [answers, setAnswers] = useState<(number | null)[]>([null, null, null]);
+  const [playing, setPlaying] = useState<HTMLAudioElement | null>(null);
+  useEffect(() => {
+    getListening(id).then(setItem, () => undefined);
+    return () => playing?.pause();
+  }, [id]);
+  if (!item) return <main className="screen center hint">Загрузка…</main>;
+  const done = answers.every((a) => a !== null);
+  const correct = item.questions.filter((q, i) => answers[i] === q.answer).length;
+  const play = () => {
+    if (plays >= MAX_PLAYS) return;
+    haptic("tap");
+    playing?.pause();
+    const a = new Audio(`/audio/lt/${item.id}.mp3`);
+    a.play().catch(() => undefined);
+    setPlaying(a);
+    setPlays(plays + 1);
+  };
+  return (
+    <main className="screen">
+      <div className="top-line">
+        <button className="link" onClick={back}>‹ К юниту</button>
+        <span className="hint small">прослушиваний: {plays} из {MAX_PLAYS}</span>
+      </div>
+      <h1>🎧 {item.title}</h1>
+      <p className="hint">{item.situation}</p>
+      <button className="button big" disabled={plays >= MAX_PLAYS} onClick={play}>
+        {plays === 0 ? "▶ Слушать" : plays < MAX_PLAYS ? "▶ Послушать ещё раз" : "Прослушано 2 раза"}
+      </button>
+      {item.questions.map((q, i) => (
+        <section key={i} className="settings-block">
+          <p><b>{i + 1}.</b> {q.q}</p>
+          <div className="answer">
+            {q.options.map((o, j) => (
+              <button
+                key={j}
+                className={`secondary center-text ${answers[i] === null ? "" : j === q.answer ? "right" : answers[i] === j ? "wrong-pick" : ""}`}
+                disabled={answers[i] !== null}
+                onClick={() => { haptic("tap"); setAnswers(answers.map((a, k) => (k === i ? j : a))); }}
+              >
+                {o}
+              </button>
+            ))}
+          </div>
+        </section>
+      ))}
+      {done && (
+        <section className="settings-block">
+          <h2>{correct} из {item.questions.length} верно</h2>
+          <div className="lesson-text">
+            {item.lines.map((l, i) => (
+              <p key={i}><b>{l.speaker}:</b> {l.text}</p>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 }

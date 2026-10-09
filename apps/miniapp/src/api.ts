@@ -210,8 +210,18 @@ export interface UnitDetail {
   texts: { id: string; title: string; read: boolean }[];
   /** Writing tasks and speaking situations; `best` = best score 0–3 or null. */
   tasks: { id: string; kind: "writing" | "speaking"; title: string; best: number | null }[];
+  listening: { id: string; kind: string; title: string }[];
   progress: UnitProgress;
 }
+export interface ListeningItem {
+  id: string;
+  kind: string;
+  title: string;
+  situation: string;
+  lines: { speaker: string; text: string }[];
+  questions: { q: string; options: string[]; answer: number }[];
+}
+export const getListening = (id: string) => call<ListeningItem>(`/course/listening/${id}`);
 export const getCourse = () => call<CourseOverview>("/course");
 export const getUnit = (id: string) => call<UnitDetail>(`/course/units/${id}`);
 export const saveUnitCheck = (id: string, correct: number, total: number) =>

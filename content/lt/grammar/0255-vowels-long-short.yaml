@@ -1,0 +1,64 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit s02): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0255
+cefr: A1
+order: 255
+track: foundation
+title: "Долгие и краткие гласные: a/ą, e/ę/ė, i/į/y, u/ų/ū, o"
+explanation:
+  ru: |
+    В литовском гласные бывают **краткими** и **долгими**, и от этого может меняться смысл. На письме долготу часто показывает буква:
+
+    - **i** — краткий «и»; **y** и **į** — **долгий** «и»: *lis* (будет дождь) — ***lyja*** (идёт дождь)
+    - **u** — краткий «у»; **ū** и **ų** — **долгий** «у»: *būti* (быть), *sūnus* (сын)
+    - **a** — «а», в ударном слоге часто долгий; **ą** — всегда долгий «а»: *mėsą*
+    - **e** — открытый «э» (почти «я» без й); **ę** — долгий открытый «э»; **ė** — долгий **закрытый** «э»: *dėdė, mėsa*
+    - **o** — в литовских словах почти всегда **долгий** «о»: *namo, oras*
+
+    Сначала главное — **слышать и писать правильную букву**: *y* или *i*, *ū* или *u*, *ė* или *e*. На экзамене *lija* вместо *lyja* — ошибка.
+comparison:
+  ru: |
+    В русском долгих гласных нет, поэтому разницу *i — y* или *u — ū* сначала трудно услышать. Совет: долгий звук тяните примерно вдвое дольше: *lyyyja*, *būūūti*.
+examples:
+  - { text: "Ar lyja?", translation: "Идет дождь?", source: "tatoeba:11853128" }
+  - { text: "Vėl lyja.", translation: "Снова идёт дождь.", source: "tatoeba:12519440" }
+  - { text: "Negali būti.", translation: "Не может быть.", source: "tatoeba:7977388" }
+  - { text: "Bravo vyras.", translation: "Молодец.", source: "tatoeba:11096891" }
+exercises:
+  - type: cloze
+    text: "Šiandien ___."
+    answer: "lyja"
+    hint: "идёт дождь"
+    translation: "Сегодня идёт дождь."
+  - type: cloze
+    text: "Mano ___ dirba banke."
+    answer: "vyras"
+    hint: "муж"
+    translation: "Мой муж работает в банке."
+  - type: cloze
+    text: "Aš noriu ___ mokytoju."
+    answer: "būti"
+    hint: "быть"
+    translation: "Я хочу быть учителем."
+  - type: cloze
+    text: "Mūsų ___ mokosi mokykloje."
+    answer: "sūnus"
+    hint: "сын"
+    translation: "Наш сын учится в школе."
+  - type: cloze
+    text: "Aš nevalgau ___."
+    answer: "mėsos"
+    hint: "мяса"
+    translation: "Я не ем мясо."
+  - type: cloze
+    text: "___ yra šalta."
+    answer: "Žiemą"
+    hint: "зимой"
+    translation: "Зимой холодно."
+  - type: cloze
+    text: "Labas ___!"
+    answer: "vakaras"
+    hint: "вечер"
+    translation: "Добрый вечер!"

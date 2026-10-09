@@ -1,0 +1,250 @@
+# Listening practice of the Lithuanian foundation course (docs/EXTENSION-PLAN.md §6.5). Format: packages/core/src/listening.ts.
+# Written with Claude Code, modelled on A1–A2 exam listening (dialogues, announcements, voice messages), not copied.
+# Audio: one file per item, voiced by Reginutė (scripts/tts_reginute.py). track: foundation.
+- id: lt-l-0013
+  kind: dialogue
+  cefr: A2
+  track: foundation
+  title: "Pokalbis dėl darbo"
+  situation: "Собеседование на работу."
+  lines:
+    - { speaker: "Darbdavė", text: "Papasakokite apie save." }
+    - { speaker: "Pavelas", text: "Esu Pavelas, gimiau 1990 metais Rygoje. Baigiau universitetą, studijavau inžineriją." }
+    - { speaker: "Darbdavė", text: "Kur dirbote anksčiau?" }
+    - { speaker: "Pavelas", text: "Penkerius metus dirbau statybos įmonėje Rygoje, o pernai atvažiavau į Vilnių." }
+    - { speaker: "Darbdavė", text: "Kokias kalbas mokate?" }
+    - { speaker: "Pavelas", text: "Rusų, latvių ir anglų. Lietuvių kalbos mokausi jau metus." }
+    - { speaker: "Darbdavė", text: "Kodėl norite dirbti pas mus?" }
+    - { speaker: "Pavelas", text: "Noriu dirbti tarptautinėje komandoje ir gyventi Vilniuje." }
+  questions:
+    - q: "Kur gimė Pavelas?"
+      options: ["Vilniuje", "Rygoje", "Minske"]
+      answer: 1
+    - q: "Kiek metų jis dirbo statybos įmonėje?"
+      options: ["Metus", "Penkerius metus", "Dešimt metų"]
+      answer: 1
+    - q: "Kiek laiko jis mokosi lietuvių kalbos?"
+      options: ["Metus", "Penkerius metus", "Pusę metų"]
+      answer: 0
+- id: lt-l-0014
+  kind: message
+  cefr: A2
+  track: foundation
+  title: "Žinutė iš buto savininko"
+  situation: "Голосовое сообщение от хозяина квартиры."
+  lines:
+    - { speaker: "Jonas", text: "Laba diena, čia buto savininkas Jonas. Gavau jūsų žinutę apie šildymą. Rytoj, antradienį, dešimtą valandą atvažiuos meistras. Jeigu tuo metu jūsų nebus namie, palikite raktą kaimynei iš penkto buto. Atsiprašau už nepatogumus. Jeigu turite klausimų, skambinkite man vakare." }
+  questions:
+    - q: "Kas neveikia bute?"
+      options: ["Šaldytuvas", "Šildymas", "Lempa"]
+      answer: 1
+    - q: "Kada atvažiuos meistras?"
+      options: ["Rytoj dešimtą valandą", "Šiandien vakare", "Penktadienį"]
+      answer: 0
+    - q: "Kam reikia palikti raktą?"
+      options: ["Kaimynei", "Savininkui", "Meistrui"]
+      answer: 0
+- id: lt-l-0015
+  kind: announcement
+  cefr: A2
+  track: foundation
+  title: "Orų prognozė"
+  situation: "Прогноз погоды на завтра и послезавтра."
+  lines:
+    - { speaker: "Diktorė", text: "Rytoj visoje Lietuvoje bus šilta ir saulėta. Dieną temperatūra pakils iki dvidešimt penkių laipsnių. Pajūryje bus vėsiau – apie dvidešimt laipsnių, pūs vakarų vėjas. Poryt orai pasikeis: rytinėje Lietuvos dalyje lis, temperatūra nukris iki penkiolikos laipsnių." }
+  questions:
+    - q: "Koks oras bus rytoj?"
+      options: ["Šilta ir saulėta", "Lis", "Snigs"]
+      answer: 0
+    - q: "Kur rytoj bus vėsiau?"
+      options: ["Vilniuje", "Pajūryje", "Kaune"]
+      answer: 1
+    - q: "Kas bus poryt?"
+      options: ["Pakils temperatūra", "Rytinėje Lietuvoje lis", "Bus labai karšta"]
+      answer: 1
+- id: lt-l-0016
+  kind: dialogue
+  cefr: A2
+  track: foundation
+  title: "Vaikystės vasaros"
+  situation: "Друзья вспоминают детство."
+  lines:
+    - { speaker: "Ona", text: "Ką veikdavai vasarą, kai buvai mažas?" }
+    - { speaker: "Lukas", text: "Kiekvieną vasarą važiuodavau pas senelius į kaimą. Ten maudydavausi ežere ir padėdavau seneliui." }
+    - { speaker: "Ona", text: "Ar turėdavai draugų kaime?" }
+    - { speaker: "Lukas", text: "Taip, su kaimynų vaikais žaisdavome futbolą iki vėlumos." }
+    - { speaker: "Ona", text: "Ar dabar ten važiuoji?" }
+    - { speaker: "Lukas", text: "Retai. Seneliai dabar gyvena mieste, pas mano tėvus." }
+  questions:
+    - q: "Kur vaikystėje vasaras leisdavo Lukas?"
+      options: ["Prie jūros", "Pas senelius kaime", "Mieste"]
+      answer: 1
+    - q: "Su kuo jis žaisdavo futbolą?"
+      options: ["Su kaimynų vaikais", "Su seneliu", "Su broliu"]
+      answer: 0
+    - q: "Kur dabar gyvena seneliai?"
+      options: ["Kaime", "Mieste pas tėvus", "Užsienyje"]
+      answer: 1
+- id: lt-l-0017
+  kind: message
+  cefr: A2
+  track: foundation
+  title: "Kvietimas"
+  situation: "Голосовое приглашение на день рождения."
+  lines:
+    - { speaker: "Rūta", text: "Labas, Andriau! Čia Rūta. Šeštadienį švenčiu gimtadienį ir norėčiau tave pakviesti. Šventė bus mano sode, prasidės šeštą valandą vakaro. Bus muzikos, šašlykų ir torto. Dovanų nereikia! Tik prašau iki ketvirtadienio pasakyti, ar galėsi atvykti. Būtų labai smagu tave matyti!" }
+  questions:
+    - q: "Kodėl skambina Rūta?"
+      options: ["Kviečia į gimtadienį", "Prašo pagalbos", "Atsiprašo"]
+      answer: 0
+    - q: "Kur bus šventė?"
+      options: ["Restorane", "Sode", "Kavinėje"]
+      answer: 1
+    - q: "Iki kada reikia atsakyti?"
+      options: ["Iki ketvirtadienio", "Iki šeštadienio", "Iki penktadienio"]
+      answer: 0
+- id: lt-l-0018
+  kind: announcement
+  cefr: A2
+  track: foundation
+  title: "Pranešimas stotyje"
+  situation: "Объявление на вокзале."
+  lines:
+    - { speaker: "Pranešėja", text: "Dėmesio! Traukinys į Kauną, kuris turėjo išvykti šešioliktą valandą dešimt minučių, vėluoja dvidešimt minučių. Jis išvyks iš trečiojo perono. Traukinys į Klaipėdą išvyksta laiku iš antrojo perono. Atsiprašome už nepatogumus." }
+  questions:
+    - q: "Kiek vėluoja traukinys į Kauną?"
+      options: ["Dešimt minučių", "Dvidešimt minučių", "Valandą"]
+      answer: 1
+    - q: "Iš kurio perono išvyks traukinys į Kauną?"
+      options: ["Iš pirmojo", "Iš antrojo", "Iš trečiojo"]
+      answer: 2
+    - q: "Ar traukinys į Klaipėdą vėluoja?"
+      options: ["Taip", "Ne, išvyksta laiku", "Jo šiandien nėra"]
+      answer: 1
+- id: lt-l-0019
+  kind: dialogue
+  cefr: A2
+  track: foundation
+  title: "Draugės"
+  situation: "Женщина рассказывает о подруге."
+  lines:
+    - { speaker: "Tomas", text: "Kaip tu susipažinai su Lina?" }
+    - { speaker: "Olga", text: "Mes susipažinome prieš trejus metus lietuvių kalbos kursuose. Sėdėjome šalia ir padėdavome viena kitai." }
+    - { speaker: "Tomas", text: "Ar dažnai susitinkate?" }
+    - { speaker: "Olga", text: "Kiekvieną savaitę. Penktadieniais einame į kavinę, o vasarą kartu keliaujame." }
+    - { speaker: "Tomas", text: "Smagu turėti tokią draugę!" }
+  questions:
+    - q: "Kur susipažino draugės?"
+      options: ["Darbe", "Kalbos kursuose", "Universitete"]
+      answer: 1
+    - q: "Kada jos susipažino?"
+      options: ["Prieš trejus metus", "Pernai", "Prieš savaitę"]
+      answer: 0
+    - q: "Ką jos daro penktadieniais?"
+      options: ["Eina į kavinę", "Keliauja", "Mokosi"]
+      answer: 0
+- id: lt-l-0020
+  kind: dialogue
+  cefr: A2
+  track: foundation
+  title: "Gydytojo patarimas"
+  situation: "Приём у врача."
+  lines:
+    - { speaker: "Gydytojas", text: "Kas jus vargina?" }
+    - { speaker: "Pacientė", text: "Jau savaitę blogai miegu ir labai pavargstu." }
+    - { speaker: "Gydytojas", text: "Ar daug dirbate?" }
+    - { speaker: "Pacientė", text: "Taip, dažnai dirbu iki vėlumos ir vakare geriu daug kavos." }
+    - { speaker: "Gydytojas", text: "Patariu, kad po šeštos valandos negertumėte kavos ir daugiau vaikščiotumėte lauke. Jeigu po dviejų savaičių nebus geriau, ateikite dar kartą." }
+  questions:
+    - q: "Kokia pacientės problema?"
+      options: ["Skauda galvą", "Blogai miega ir pavargsta", "Skauda koją"]
+      answer: 1
+    - q: "Ko gydytojas pataria negerti po šeštos?"
+      options: ["Kavos", "Arbatos", "Vandens"]
+      answer: 0
+    - q: "Kada reikia ateiti dar kartą, jeigu nebus geriau?"
+      options: ["Po savaitės", "Po dviejų savaičių", "Po mėnesio"]
+      answer: 1
+- id: lt-l-0021
+  kind: announcement
+  cefr: A2
+  track: foundation
+  title: "Universitete"
+  situation: "Объявление для студентов."
+  lines:
+    - { speaker: "Dėstytoja", text: "Dėmesio, studentai! Lietuvių kalbos egzaminas vyks ne pirmadienį, o antradienį, birželio dešimtą dieną, devintą valandą, dvidešimtoje auditorijoje. Nepamirškite atsinešti studento pažymėjimo. Jeigu sergate, būtinai praneškite man iki egzamino." }
+  questions:
+    - q: "Kada vyks egzaminas?"
+      options: ["Pirmadienį", "Antradienį, birželio dešimtą", "Birželio devintą"]
+      answer: 1
+    - q: "Ką reikia atsinešti?"
+      options: ["Studento pažymėjimą", "Pasą", "Knygą"]
+      answer: 0
+    - q: "Ką daryti, jeigu sergate?"
+      options: ["Pranešti dėstytojai", "Ateiti vėliau", "Nieko"]
+      answer: 0
+- id: lt-l-0022
+  kind: dialogue
+  cefr: A2
+  track: foundation
+  title: "Grąžinti suknelę"
+  situation: "Магазин одежды. Покупательница возвращает платье."
+  lines:
+    - { speaker: "Pirkėja", text: "Laba diena. Vakar čia nusipirkau suknelę, bet ji per maža. Ar galiu ją pakeisti?" }
+    - { speaker: "Pardavėja", text: "Žinoma. Ar turite čekį?" }
+    - { speaker: "Pirkėja", text: "Taip, štai." }
+    - { speaker: "Pardavėja", text: "Kokio dydžio jums reikia?" }
+    - { speaker: "Pirkėja", text: "M dydžio, tos pačios spalvos – mėlynos." }
+    - { speaker: "Pardavėja", text: "Deja, mėlynos M neturime. Yra žalia arba juoda." }
+    - { speaker: "Pirkėja", text: "Tada norėčiau atgauti pinigus." }
+  questions:
+    - q: "Kodėl pirkėja grįžo?"
+      options: ["Suknelė per maža", "Suknelė per brangi", "Suknelė suplyšusi"]
+      answer: 0
+    - q: "Kokios spalvos suknelė?"
+      options: ["Žalia", "Mėlyna", "Juoda"]
+      answer: 1
+    - q: "Ko galiausiai nori pirkėja?"
+      options: ["Žalios suknelės", "Atgauti pinigus", "Juodos suknelės"]
+      answer: 1
+- id: lt-l-0023
+  kind: dialogue
+  cefr: A2
+  track: foundation
+  title: "Restorane"
+  situation: "Ресторан. Гость делает заказ."
+  lines:
+    - { speaker: "Padavėjas", text: "Ar jau išsirinkote?" }
+    - { speaker: "Svečias", text: "Ką rekomenduojate? Aš nevalgau mėsos." }
+    - { speaker: "Padavėjas", text: "Siūlau šaltibarščius ir cepelinus su varške." }
+    - { speaker: "Svečias", text: "Puiku. O ar desertas su riešutais? Man alergija riešutams." }
+    - { speaker: "Padavėjas", text: "Tinginys be riešutų, galite valgyti." }
+    - { speaker: "Svečias", text: "Tada prašau tinginio ir arbatos." }
+  questions:
+    - q: "Ko nevalgo svečias?"
+      options: ["Žuvies", "Mėsos", "Daržovių"]
+      answer: 1
+    - q: "Kam svečiui alergija?"
+      options: ["Riešutams", "Pienui", "Kiaušiniams"]
+      answer: 0
+    - q: "Ką svečias užsisako desertui?"
+      options: ["Tinginį", "Ledus", "Pyragą su riešutais"]
+      answer: 0
+- id: lt-l-0024
+  kind: message
+  cefr: A2
+  track: foundation
+  title: "Banko pranešimas"
+  situation: "Голосовое сообщение из банка."
+  lines:
+    - { speaker: "Banko darbuotoja", text: "Laba diena, čia banko klientų aptarnavimo centras. Jūsų nauja banko kortelė jau paruošta. Ją galite atsiimti mūsų skyriuje Gedimino prospekte nuo pirmadienio iki penktadienio, nuo devintos iki aštuonioliktos valandos. Nepamirškite atsinešti paso arba asmens tapatybės kortelės. Kortelę reikia atsiimti per trisdešimt dienų." }
+  questions:
+    - q: "Kas jau paruošta?"
+      options: ["Nauja banko kortelė", "Pasas", "Sąskaita"]
+      answer: 0
+    - q: "Kada dirba skyrius?"
+      options: ["Kasdien", "Nuo pirmadienio iki penktadienio", "Tik šeštadienį"]
+      answer: 1
+    - q: "Per kiek dienų reikia atsiimti kortelę?"
+      options: ["Per septynias", "Per trisdešimt", "Per šimtą"]
+      answer: 1

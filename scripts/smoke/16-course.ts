@@ -13,7 +13,10 @@ export default async function (t: Smoke) {
 
   const course = await get<{ units: { id: string; stage: string; progress: Progress }[]; current: string }>("/course");
   check(course.units.length >= 30 && course.units[0]!.stage === "sounds", `GET /api/course: ${course.units.length} units, sounds first`);
-  check(course.current === "u01", `the current unit is u01 (units without content are skipped), got ${course.current}`);
+  check(course.current === "s01", `a beginner starts with the sounds lessons (s01), got ${course.current}`);
+  for (const u of course.units.filter((x) => x.stage === "sounds")) await api(`/course/units/${u.id}/known`, me, { method: "POST" });
+  const next = await get<{ current: string }>("/course");
+  check(next.current === "u01", `after the sounds units («Я это знаю») the current unit is u01, got ${next.current}`);
 
   const u01 = await get<{ words: { id: string; introduced: boolean }[]; progress: Progress }>("/course/units/u01");
   const introduced = u01.words.filter((w) => w.introduced).map((w) => w.id);

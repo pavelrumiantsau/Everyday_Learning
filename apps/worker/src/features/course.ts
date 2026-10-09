@@ -3,11 +3,12 @@
 //   GET  /api/course                     units with progress and the current unit
 //   GET  /api/course/units/:id           one unit: words, lessons, texts with their state
 //   POST /api/course/units/:id/check     {correct, total} → unit-check score (best is kept)
+//   GET  /api/course/listening/:id       a listening dialogue or announcement (audio /audio/lt/<id>.mp3)
 //   POST /api/course/units/:id/known     «Я это знаю»: words marked known (as in placement), lessons done without cards,
 //                                        the unit counted as passed
 import { currentUnit, PASS_PERCENT, UNIT_CHECK_SIZE, unitProgress, type CourseUnit, type UnitState } from "@el/core";
 import { Hono } from "hono";
-import { COURSE, ITEM_BY_ID, LESSON_BY_ID, TASK_BY_ID, TEXT_BY_ID } from "../content";
+import { COURSE, ITEM_BY_ID, LESSON_BY_ID, LISTENING_BY_ID, TASK_BY_ID, TEXT_BY_ID } from "../content";
 import { Db } from "../db";
 import type { Feature } from "../feature";
 import { onFoundation } from "../profile";
@@ -59,7 +60,17 @@ api.get("/course/units/:id", async (c) => {
     const t = TASK_BY_ID.get(id);
     return t ? [{ id, kind: t.kind, title: t.title, best: best.get(id) ?? null }] : [];
   });
-  return c.json({ unit: { id: u.id, stage: u.stage, title: u.title, can_do: u.can_do }, words, lessons, texts, tasks, progress: unitProgress(u, state) });
+  const listening = u.listening.flatMap((id) => {
+    const l = LISTENING_BY_ID.get(id);
+    return l ? [{ id, kind: l.kind, title: l.title }] : [];
+  });
+  return c.json({ unit: { id: u.id, stage: u.stage, title: u.title, can_do: u.can_do }, words, lessons, texts, tasks, listening, progress: unitProgress(u, state) });
+});
+
+/** One listening item: situation, lines (shown after answering), questions; audio at /audio/lt/<id>.mp3. */
+api.get("/course/listening/:id", (c) => {
+  const l = LISTENING_BY_ID.get(c.req.param("id"));
+  return l ? c.json(l) : c.json({ error: "unknown listening" }, 404);
 });
 
 api.post("/course/units/:id/check", async (c) => {

@@ -147,6 +147,7 @@ function Sources() {
       <ul className="hint small">
         <li>Примеры предложений и их переводы — <a href="https://tatoeba.org" target="_blank" rel="noreferrer">Tatoeba</a>, CC BY 2.0 FR.</li>
         <li>Ударения в литовских словах — <a href="https://en.wiktionary.org" target="_blank" rel="noreferrer">English Wiktionary</a>, CC BY-SA 4.0.</li>
+        <li>Озвучка курса литовского с нуля — голос «Reginutė» (Piper, Robertas Tarasevičius; корпус LIEPA, Вильнюсский университет), <a href="https://github.com/kubataba/sayfable-models/releases/tag/piper-lt-v1" target="_blank" rel="noreferrer">CC BY 4.0</a>.</li>
         <li>Подбор слов — частотные списки FrequencyWords (Hermit Dave), CC BY-SA 4.0.</li>
         <li>Объяснения, упражнения и тексты — Everyday Learning, CC BY-SA 4.0; код — MIT.</li>
       </ul>

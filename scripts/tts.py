@@ -49,6 +49,11 @@ def plan(texts: list[dict], manifest: dict) -> tuple[dict, list[tuple[str, str, 
     wanted: dict[str, dict[str, str]] = {}
     jobs: list[tuple[str, str, str, str]] = []
     for t in texts:
+        if t.get("voice") == "reginute":
+            # Foundation course audio is made by scripts/tts_reginute.py: keep its files, never regenerate or delete them.
+            if t["id"] in manifest:
+                wanted[t["id"]] = dict(manifest[t["id"]])
+            continue
         voice = VOICES.get(lang_of(t["id"]))
         if not voice:
             continue
@@ -184,6 +189,11 @@ def self_test() -> int:
     # Example removed → its file is deleted.
     _, _, stale4 = plan([{"id": "lt-w-0001", "word": "laikas, laiko"}, texts[1]], wanted)
     assert stale4 == ["lt/lt-w-0001-ex.mp3"], stale4
+
+    # Reginutė entries (foundation course): kept as they are, never regenerated or deleted here.
+    rg = [{"id": "lt-w-6001", "word": "Lietuva", "voice": "reginute"}]
+    w5, j5, s5 = plan(rg, {"lt-w-6001": {"word": "abc"}})
+    assert j5 == [] and s5 == [] and w5 == {"lt-w-6001": {"word": "abc"}}, (w5, j5, s5)
 
     assert file_name("lt-w-0001", "ex") == "lt-w-0001-ex.mp3" and file_name("lt-w-0001", "word") == "lt-w-0001.mp3"
     assert text_hash("a", "v") != text_hash("a", "w") != text_hash("b", "w")

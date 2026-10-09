@@ -7,12 +7,12 @@
 id: lt-foundation
 units:
   # --- Stage 0: sounds (6 micro-lessons, alongside unit 1) ---
-  - { id: s01, stage: sounds, title: "Алфавит и как назвать своё имя по буквам", can_do: ["Называю буквы литовского алфавита", "Произношу своё имя и фамилию по буквам"] }
-  - { id: s02, stage: sounds, title: "Долгие и краткие гласные: a/ą, e/ę/ė, i/į/y, u/ų/ū", can_do: ["Слышу разницу между долгими и краткими гласными"] }
-  - { id: s03, stage: sounds, title: "ie, uo и дифтонги ai, ei, au, ui", can_do: ["Правильно читаю ie, uo, ai, ei, au, ui"] }
-  - { id: s04, stage: sounds, title: "č, š, ž, c, dz, dž, ch", can_do: ["Читаю и пишу č, š, ž, c, dz, dž, ch"] }
-  - { id: s05, stage: sounds, title: "Мягкие согласные: буква i после согласной", can_do: ["Читаю мягкие согласные: lietus, geriau"] }
-  - { id: s06, stage: sounds, title: "Ударение и литовские буквы на клавиатуре", can_do: ["Знаю, что ударение подвижное, и вижу его в словах", "Набираю ą č ę ė į š ų ū ž на телефоне и компьютере"] }
+  - { id: s01, stage: sounds, lessons: [lt-g-0254], title: "Алфавит и как назвать своё имя по буквам", can_do: ["Называю буквы литовского алфавита", "Произношу своё имя и фамилию по буквам"] }
+  - { id: s02, stage: sounds, lessons: [lt-g-0255], title: "Долгие и краткие гласные: a/ą, e/ę/ė, i/į/y, u/ų/ū", can_do: ["Слышу разницу между долгими и краткими гласными"] }
+  - { id: s03, stage: sounds, lessons: [lt-g-0256], title: "ie, uo и дифтонги ai, ei, au, ui", can_do: ["Правильно читаю ie, uo, ai, ei, au, ui"] }
+  - { id: s04, stage: sounds, lessons: [lt-g-0257], title: "č, š, ž, c, dz, dž, ch", can_do: ["Читаю и пишу č, š, ž, c, dz, dž, ch"] }
+  - { id: s05, stage: sounds, lessons: [lt-g-0258], title: "Мягкие согласные: буква i после согласной", can_do: ["Читаю мягкие согласные: lietus, geriau"] }
+  - { id: s06, stage: sounds, lessons: [lt-g-0259], title: "Ударение и литовские буквы на клавиатуре", can_do: ["Знаю, что ударение подвижное, и вижу его в словах", "Набираю ą č ę ė į š ų ū ž на телефоне и компьютере"] }
 
   # --- Stage A1: 12 units, one per official topic ---
   - id: u01
@@ -23,6 +23,7 @@ units:
     phrases: [lt-p-3181, lt-p-6016, lt-p-3199, lt-p-3205, lt-p-3211, lt-p-3217, lt-p-6021, lt-p-6022, lt-p-6023, lt-p-6024, lt-p-6025]
     texts: [lt-r-0201, lt-r-0202]
     tasks: [lt-t-0001, lt-s-0001]
+    listening: [lt-l-0001]
     words: [lt-w-3151, lt-w-3193, lt-w-3157, lt-w-3169, lt-w-3163, lt-w-3175, lt-w-3196, lt-w-3202, lt-w-3152, lt-w-3158, lt-w-3164, lt-w-3170, lt-w-3176, lt-w-3182, lt-w-3188, lt-w-2985, lt-w-3124, lt-w-3299, lt-w-3155, lt-w-3203, lt-w-3180, lt-w-3161, lt-w-2840, lt-w-3127, lt-w-4102, lt-w-3064, lt-w-2989, lt-w-3067, lt-w-0083, lt-w-3285, lt-w-4172, lt-w-3235, lt-w-3238, lt-w-3241, lt-w-3244, lt-w-3246, lt-w-3249, lt-w-3252, lt-w-3255, lt-w-3258, lt-w-3261, lt-w-4001, lt-w-3287, lt-w-4004, lt-w-4051, lt-w-3288, lt-w-3082, lt-w-2999, lt-w-4151, lt-w-2986, lt-w-6001, lt-w-6002, lt-w-6003, lt-w-6004, lt-w-6005, lt-w-6006, lt-w-6007, lt-w-6008]
     can_do:
       - "Здороваюсь, прощаюсь, благодарю и извиняюсь"
@@ -37,6 +38,7 @@ units:
     phrases: [lt-p-6026, lt-p-6027, lt-p-6028, lt-p-6029, lt-p-6030, lt-p-6031]
     texts: [lt-r-0203, lt-r-0204]
     tasks: [lt-t-0002, lt-s-0002]
+    listening: [lt-l-0002]
     words: [lt-w-2799, lt-w-2800, lt-w-2802, lt-w-2770, lt-w-0884, lt-w-2776, lt-w-2764, lt-w-2767, lt-w-2790, lt-w-2773, lt-w-0857, lt-w-0922, lt-w-1050, lt-w-2796, lt-w-2801, lt-w-2803, lt-w-1195, lt-w-2808, lt-w-3291, lt-w-2435, lt-w-0928, lt-w-2422, lt-w-2811, lt-w-0843, lt-w-2765, lt-w-2768, lt-w-3023, lt-w-2780, lt-w-2784, lt-w-0120, lt-w-3322, lt-w-1954, lt-w-2766, lt-w-2775, lt-w-2778, lt-w-0174, lt-w-2806, lt-w-2807]
     can_do:
       - "Заказываю еду и напитки в кафе: Norėčiau kavos"
@@ -50,6 +52,7 @@ units:
     phrases: [lt-p-6032, lt-p-6033, lt-p-6034, lt-p-6035]
     texts: [lt-r-0205, lt-r-0206]
     tasks: [lt-t-0003, lt-s-0003]
+    listening: [lt-l-0003]
     words: [lt-w-2917, lt-w-2932, lt-w-3236, lt-w-3239, lt-w-3242, lt-w-1017, lt-w-3247, lt-w-3250, lt-w-3253, lt-w-2923, lt-w-2926, lt-w-2920, lt-w-2941, lt-w-2944, lt-w-0001, lt-w-2918, lt-w-2924, lt-w-2921, lt-w-2927, lt-w-3167, lt-w-3232, lt-w-3231, lt-w-0013, lt-w-2945, lt-w-0014, lt-w-2942, lt-w-2846, lt-w-2849, lt-w-2887, lt-w-2916, lt-w-2843, lt-w-2931, lt-w-3038, lt-w-3039, lt-w-2991, lt-w-2995, lt-w-3013, lt-w-3307, lt-w-3071, lt-w-3089, lt-w-6010, lt-w-3187]
     can_do: ["Называю дни недели и время", "Рассказываю, что делаю утром, днём и вечером"]
   - id: u04
@@ -60,6 +63,7 @@ units:
     phrases: [lt-p-6036, lt-p-6037, lt-p-6038, lt-p-6039]
     texts: [lt-r-0207, lt-r-0208]
     tasks: [lt-t-0004, lt-s-0004]
+    listening: [lt-l-0004]
     words: [lt-w-2894, lt-w-3979, lt-w-2895, lt-w-2896, lt-w-2897, lt-w-3325, lt-w-2085, lt-w-0899, lt-w-3326, lt-w-2898, lt-w-2899, lt-w-2900, lt-w-0573, lt-w-1299, lt-w-2902, lt-w-2903, lt-w-2904, lt-w-2905, lt-w-0863, lt-w-0859, lt-w-0936, lt-w-1155, lt-w-0920, lt-w-2906, lt-w-1293, lt-w-1175, lt-w-0095, lt-w-1868, lt-w-2083, lt-w-2990, lt-w-3324, lt-w-0171, lt-w-0567, lt-w-3063, lt-w-3066, lt-w-3075, lt-w-3078, lt-w-2865, lt-w-2868, lt-w-6011]
     can_do: ["Описываю квартиру и комнаты", "Называю адрес: улица, дом, квартира"]
   - id: u05
@@ -70,6 +74,7 @@ units:
     phrases: [lt-p-6017, lt-p-4156, lt-p-6040, lt-p-6041, lt-p-6042, lt-p-6043, lt-p-6044]
     texts: [lt-r-0209, lt-r-0210]
     tasks: [lt-t-0005, lt-s-0005]
+    listening: [lt-l-0005]
     words: [lt-w-3002, lt-w-2777, lt-w-0036, lt-w-0041, lt-w-2786, lt-w-2788, lt-w-3276, lt-w-1558, lt-w-2812, lt-w-1371, lt-w-3609, lt-w-2682, lt-w-3118, lt-w-2673, lt-w-2140, lt-w-2877, lt-w-2847, lt-w-2853, lt-w-2850, lt-w-0862, lt-w-2841, lt-w-2844, lt-w-2856, lt-w-1010, lt-w-1644, lt-w-2859, lt-w-2908, lt-w-1065, lt-w-2910, lt-w-2909, lt-w-1270, lt-w-1209, lt-w-1555, lt-w-2911, lt-w-0764, lt-w-1141, lt-w-6009, lt-w-6012, lt-w-0949]
     can_do: ["Покупаю продукты и одежду в магазине", "Понимаю цены в евро"]
   - id: u06
@@ -80,6 +85,7 @@ units:
     phrases: [lt-p-3012, lt-p-6045, lt-p-6046, lt-p-6047, lt-p-6048, lt-p-6049]
     texts: [lt-r-0211, lt-r-0212]
     tasks: [lt-t-0006, lt-s-0006]
+    listening: [lt-l-0006]
     words: [lt-w-3293, lt-w-3014, lt-w-3328, lt-w-3330, lt-w-3018, lt-w-3020, lt-w-3022, lt-w-0164, lt-w-2666, lt-w-3295, lt-w-3024, lt-w-3145, lt-w-3271, lt-w-3273, lt-w-4363, lt-w-4360, lt-w-3139, lt-w-3143, lt-w-3319, lt-w-3303, lt-w-0146, lt-w-3320, lt-w-0927, lt-w-0841, lt-w-2919, lt-w-2251, lt-w-3016, lt-w-2247, lt-w-2631, lt-w-2634, lt-w-0426, lt-w-3179]
     can_do: ["Спрашиваю дорогу и понимаю ответ", "Покупаю билет на автобус или поезд"]
   - id: u07
@@ -90,6 +96,7 @@ units:
     phrases: [lt-p-6050, lt-p-6051, lt-p-6052, lt-p-6053, lt-p-6054]
     texts: [lt-r-0213, lt-r-0214]
     tasks: [lt-t-0007, lt-s-0007]
+    listening: [lt-l-0007]
     words: [lt-w-2839, lt-w-2845, lt-w-3283, lt-w-2842, lt-w-3280, lt-w-2875, lt-w-2878, lt-w-2860, lt-w-2854, lt-w-2857, lt-w-2848, lt-w-2851, lt-w-2863, lt-w-2866, lt-w-2872, lt-w-2869, lt-w-2502, lt-w-1343, lt-w-0861, lt-w-2504, lt-w-2987, lt-w-3087, lt-w-3090, lt-w-3084, lt-w-3081, lt-w-2821, lt-w-2815, lt-w-1224, lt-w-3505, lt-w-0611, lt-w-3069, lt-w-0459, lt-w-3117, lt-w-0203, lt-w-3142, lt-w-3140, lt-w-1324, lt-w-2310, lt-w-3129, lt-w-3282]
     can_do: ["Рассказываю о своей семье", "Описываю внешность и характер человека"]
   - id: u08
@@ -100,6 +107,7 @@ units:
     phrases: [lt-p-6055, lt-p-6056, lt-p-6057, lt-p-6058, lt-p-6059]
     texts: [lt-r-0215, lt-r-0216]
     tasks: [lt-t-0008, lt-s-0008]
+    listening: [lt-l-0008]
     words: [lt-w-1697, lt-w-3028, lt-w-3026, lt-w-3042, lt-w-3317, lt-w-3318, lt-w-3315, lt-w-2086, lt-w-4542, lt-w-2961, lt-w-3044, lt-w-3043, lt-w-3311, lt-w-3313, lt-w-3006, lt-w-3305, lt-w-3073, lt-w-1137, lt-w-2578, lt-w-0157, lt-w-3051, lt-w-2880, lt-w-2882, lt-w-3133, lt-w-3134, lt-w-6013, lt-w-6014]
     can_do: ["Рассказываю о хобби: что мне нравится и что нет", "Предлагаю встретиться и договариваюсь о времени"]
   - id: u09
@@ -110,6 +118,7 @@ units:
     phrases: [lt-p-6060, lt-p-6061, lt-p-6062]
     texts: [lt-r-0217, lt-r-0218]
     tasks: [lt-t-0009, lt-s-0009]
+    listening: [lt-l-0009]
     words: [lt-w-2973, lt-w-2975, lt-w-2977, lt-w-2979, lt-w-0118, lt-w-0853, lt-w-2974, lt-w-2976, lt-w-2950, lt-w-2953, lt-w-1304, lt-w-2956, lt-w-2935, lt-w-2938, lt-w-2958, lt-w-2960, lt-w-2962, lt-w-0896, lt-w-2964, lt-w-2966, lt-w-2968, lt-w-2970, lt-w-2971, lt-w-1278, lt-w-1341, lt-w-2972, lt-w-3279, lt-w-3259, lt-w-3047]
     can_do: ["Говорю о погоде", "Называю дату и месяц своего дня рождения"]
   - id: u10
@@ -120,6 +129,7 @@ units:
     phrases: [lt-p-6063, lt-p-6064, lt-p-6065, lt-p-6066, lt-p-6067]
     texts: [lt-r-0219, lt-r-0220]
     tasks: [lt-t-0010, lt-s-0010]
+    listening: [lt-l-0010]
     words: [lt-w-0156, lt-w-3126, lt-w-2559, lt-w-0152, lt-w-0901, lt-w-2813, lt-w-2829, lt-w-1070, lt-w-2824, lt-w-2826, lt-w-2820, lt-w-2830, lt-w-2816, lt-w-2832, lt-w-0914, lt-w-3121, lt-w-2060, lt-w-1094, lt-w-1933, lt-w-2054, lt-w-2050, lt-w-4671, lt-w-4354, lt-w-3178, lt-w-3131, lt-w-0069]
     can_do: ["Говорю, что болит", "Покупаю лекарство в аптеке"]
   - id: u11
@@ -130,6 +140,7 @@ units:
     phrases: [lt-p-6068, lt-p-6069, lt-p-6070, lt-p-6071, lt-p-6072, lt-p-6073, lt-p-6074]
     texts: [lt-r-0221, lt-r-0222]
     tasks: [lt-t-0011, lt-s-0011]
+    listening: [lt-l-0011]
     words: [lt-w-2006, lt-w-3088, lt-w-0720, lt-w-3321, lt-w-3050, lt-w-2104, lt-w-0807, lt-w-0578, lt-w-3040, lt-w-3003, lt-w-3005, lt-w-3059, lt-w-3951, lt-w-3628, lt-w-3017, lt-w-3128, lt-w-3228, lt-w-6015]
     can_do: ["Вежливо прошу о помощи: Gal galėtumėte…?", "Обращаюсь к человеку по имени (Jonai, Rasa)"]
   - id: u12
@@ -140,6 +151,7 @@ units:
     lessons: [lt-g-0218, lt-g-0227, lt-g-0224]
     texts: [lt-r-0223, lt-r-0224]
     tasks: [lt-t-0012, lt-s-0012]
+    listening: [lt-l-0012]
     words: [lt-w-3004, lt-w-3297, lt-w-3383, lt-w-3076, lt-w-1238, lt-w-3079, lt-w-3301, lt-w-3085, lt-w-0162, lt-w-0816, lt-w-1516, lt-w-1309, lt-w-2997, lt-w-3284, lt-w-3015, lt-w-3108, lt-w-3105]
     can_do: ["Рассказываю, какие языки знаю и где учился", "Говорю о прошлом: buvau, mokiausi, dirbau"]
 
@@ -152,6 +164,7 @@ units:
     phrases: [lt-p-6089, lt-p-6090, lt-p-6091, lt-p-6092, lt-p-6093]
     texts: [lt-r-0225, lt-r-0226]
     tasks: [lt-t-0013, lt-s-0013]
+    listening: [lt-l-0013]
     words: [lt-w-3955, lt-w-2165, lt-w-0600, lt-w-2198, lt-w-0661, lt-w-2121, lt-w-2161, lt-w-0149, lt-w-0719, lt-w-1795, lt-w-0948, lt-w-2163, lt-w-4398, lt-w-4110, lt-w-0615, lt-w-1156, lt-w-2969, lt-w-0397, lt-w-3048, lt-w-2514, lt-w-0260, lt-w-3437, lt-w-0224, lt-w-1781, lt-w-6078]
     can_do: ["Рассказываю свою биографию с датами", "Заполняю простую анкету"]
   - id: u14
@@ -162,6 +175,7 @@ units:
     phrases: [lt-p-6088, lt-p-6094, lt-p-6095, lt-p-6096, lt-p-6097]
     texts: [lt-r-0227, lt-r-0228]
     tasks: [lt-t-0014, lt-s-0014]
+    listening: [lt-l-0014]
     words: [lt-w-3889, lt-w-0012, lt-w-1832, lt-w-4254, lt-w-3659, lt-w-2852, lt-w-2855, lt-w-2858, lt-w-2861, lt-w-3594, lt-w-3579, lt-w-1682, lt-w-0924, lt-w-1889, lt-w-0265, lt-w-0759, lt-w-1007, lt-w-2463, lt-w-1363, lt-w-1683, lt-w-0898, lt-w-3564, lt-w-1035, lt-w-0952, lt-w-1383, lt-w-6079, lt-w-0757]
     can_do: ["Снимаю квартиру и говорю о ремонте", "Пишу короткую записку соседям"]
   - id: u15
@@ -172,6 +186,7 @@ units:
     phrases: [lt-p-6098, lt-p-6099, lt-p-6100]
     texts: [lt-r-0229, lt-r-0230]
     tasks: [lt-t-0015, lt-s-0015]
+    listening: [lt-l-0015]
     words: [lt-w-2998, lt-w-2992, lt-w-2994, lt-w-2996, lt-w-3000, lt-w-2232, lt-w-3351, lt-w-0412, lt-w-3106, lt-w-3103, lt-w-3109, lt-w-0160, lt-w-3112, lt-w-0985, lt-w-0838, lt-w-1190, lt-w-2988, lt-w-3582, lt-w-0987, lt-w-3323, lt-w-0204, lt-w-0882, lt-w-1023, lt-w-6080, lt-w-6081]
     can_do: ["Рассказываю о поездке по Литве", "Понимаю прогноз погоды и сравниваю: šilčiau, šalčiausia"]
   - id: u16
@@ -182,6 +197,7 @@ units:
     phrases: [lt-p-6101, lt-p-6102, lt-p-6103]
     texts: [lt-r-0231, lt-r-0232]
     tasks: [lt-t-0016, lt-s-0016]
+    listening: [lt-l-0016]
     words: [lt-w-2939, lt-w-0022, lt-w-1522, lt-w-1091, lt-w-3292, lt-w-1925, lt-w-3296, lt-w-2959, lt-w-0011, lt-w-0005, lt-w-3049, lt-w-0117, lt-w-3462, lt-w-2464, lt-w-2889, lt-w-2891, lt-w-1780, lt-w-1434, lt-w-3300, lt-w-2947, lt-w-6082]
     can_do: ["Рассказываю о привычках: dirbdavau, eidavau", "Говорю, что делаю, когда…"]
   - id: u17
@@ -192,6 +208,7 @@ units:
     phrases: [lt-p-6104, lt-p-6105, lt-p-6106, lt-p-6107, lt-p-6108]
     texts: [lt-r-0233, lt-r-0234]
     tasks: [lt-t-0017, lt-s-0017]
+    listening: [lt-l-0017]
     words: [lt-w-0161, lt-w-3277, lt-w-3278, lt-w-0166, lt-w-4157, lt-w-3061, lt-w-3058, lt-w-0425, lt-w-0110, lt-w-4046, lt-w-0659, lt-w-2600, lt-w-0767, lt-w-1707, lt-w-0597, lt-w-3341, lt-w-0831, lt-w-1541, lt-w-1347]
     can_do: ["Приглашаю и отвечаю на приглашение", "Понимаю афишу и программу мероприятия"]
   - id: u18
@@ -202,6 +219,7 @@ units:
     phrases: [lt-p-6109, lt-p-6110, lt-p-6111, lt-p-6112]
     texts: [lt-r-0235, lt-r-0236]
     tasks: [lt-t-0018, lt-s-0018]
+    listening: [lt-l-0018]
     words: [lt-w-0035, lt-w-0212, lt-w-3010, lt-w-2222, lt-w-2640, lt-w-0945, lt-w-1205, lt-w-0155, lt-w-2667, lt-w-0246, lt-w-1061, lt-w-1055, lt-w-1112, lt-w-0237, lt-w-0625, lt-w-1695, lt-w-2662, lt-w-0925]
     can_do: ["Читаю расписание и покупаю билет", "Бронирую номер в гостинице"]
   - id: u19
@@ -212,6 +230,7 @@ units:
     phrases: [lt-p-6113, lt-p-6114, lt-p-6115, lt-p-6116, lt-p-6117]
     texts: [lt-r-0237, lt-r-0238]
     tasks: [lt-t-0019, lt-s-0019]
+    listening: [lt-l-0019]
     words: [lt-w-0470, lt-w-0673, lt-w-0414, lt-w-2890, lt-w-2888, lt-w-4021, lt-w-1188, lt-w-0551, lt-w-3027, lt-w-0306, lt-w-1449, lt-w-0219, lt-w-3632, lt-w-0059, lt-w-0267, lt-w-0145, lt-w-0107, lt-w-6083, lt-w-6084]
     can_do: ["Пишу поздравление с днём рождения и праздником", "Говорю о друзьях и знакомых"]
   - id: u20
@@ -222,6 +241,7 @@ units:
     phrases: [lt-p-6118, lt-p-6119, lt-p-6120, lt-p-6121]
     texts: [lt-r-0239, lt-r-0240]
     tasks: [lt-t-0020, lt-s-0020]
+    listening: [lt-l-0020]
     words: [lt-w-1314, lt-w-1634, lt-w-4145, lt-w-0148, lt-w-0607, lt-w-0822, lt-w-4232, lt-w-0167, lt-w-2833, lt-w-1990, lt-w-2056, lt-w-1308, lt-w-2069, lt-w-2072, lt-w-0445, lt-w-2011, lt-w-4683, lt-w-6085, lt-w-6086]
     can_do: ["Объясняю врачу, что случилось", "Даю и понимаю простые советы: reikia, galima, negalima"]
   - id: u21
@@ -232,6 +252,7 @@ units:
     phrases: [lt-p-6122, lt-p-6123, lt-p-6124, lt-p-6125]
     texts: [lt-r-0241, lt-r-0242]
     tasks: [lt-t-0021, lt-s-0021]
+    listening: [lt-l-0021]
     words: [lt-w-0622, lt-w-3070, lt-w-3332, lt-w-0026, lt-w-1600, lt-w-2492, lt-w-0287, lt-w-0321, lt-w-2530, lt-w-2531, lt-w-3008, lt-w-1805, lt-w-3333, lt-w-0115, lt-w-0072, lt-w-0065, lt-w-3916, lt-w-6087]
     can_do: ["Понимаю объявление о курсах", "Объясняю причину: nes, todėl kad"]
   - id: u22
@@ -242,6 +263,7 @@ units:
     phrases: [lt-p-6126, lt-p-6127, lt-p-6128, lt-p-6129]
     texts: [lt-r-0243, lt-r-0244]
     tasks: [lt-t-0022, lt-s-0022]
+    listening: [lt-l-0022]
     words: [lt-w-2157, lt-w-0441, lt-w-2144, lt-w-0762, lt-w-2672, lt-w-4005, lt-w-4349, lt-w-0121, lt-w-0900, lt-w-0580, lt-w-1127, lt-w-0940, lt-w-2675, lt-w-2676]
     can_do: ["Спрашиваю размер и цену, возвращаю товар", "Понимаю числа с существительными: du eurai, penki eurai, dvidešimt eurų"]
   - id: u23
@@ -252,6 +274,7 @@ units:
     phrases: [lt-p-6130, lt-p-6131, lt-p-6132, lt-p-6133]
     texts: [lt-r-0245, lt-r-0246]
     tasks: [lt-t-0023, lt-s-0023]
+    listening: [lt-l-0023]
     words: [lt-w-1523, lt-w-1401, lt-w-0997, lt-w-1638, lt-w-0835, lt-w-2785, lt-w-2782, lt-w-2787, lt-w-0902, lt-w-2792, lt-w-1234, lt-w-0905, lt-w-0886, lt-w-0874, lt-w-1059, lt-w-0913, lt-w-2791, lt-w-1249, lt-w-0894, lt-w-1773, lt-w-1177, lt-w-2432, lt-w-1068, lt-w-2409, lt-w-2406, lt-w-2403, lt-w-2774, lt-w-1122]
     can_do: ["Читаю меню и рецепт", "Объясняю, как приготовить простое блюдо"]
   - id: u24
@@ -262,6 +285,7 @@ units:
     phrases: [lt-p-6134, lt-p-6135, lt-p-6136, lt-p-6137, lt-p-6138]
     texts: [lt-r-0247, lt-r-0248]
     tasks: [lt-t-0024, lt-s-0024]
+    listening: [lt-l-0024]
     words: [lt-w-4010, lt-w-3899, lt-w-2240, lt-w-0800, lt-w-3037, lt-w-4574, lt-w-1894, lt-w-3827, lt-w-0104, lt-w-0126, lt-w-0199, lt-w-3982, lt-w-0249, lt-w-0291, lt-w-0208, lt-w-4032]
     can_do: ["Пишу объявление: потерял / нашёл", "Звоню в сервис и объясняю проблему"]
 

@@ -1,0 +1,56 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit s06): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0259
+cefr: A1
+order: 259
+track: foundation
+title: "Ударение и литовские буквы на клавиатуре"
+explanation:
+  ru: |
+    **Ударение** в литовском может стоять на любом слоге и **меняться** в разных формах слова. Иногда только оно различает слова: ***nãmo*** — «дома» (род. п. от *namas*), ***namõ*** — «домой». На карточках слов ударный слог отмечен знаком (*nãmas, gerà, kalbė́ti*); три вида знаков показывают ещё и тон, но сначала достаточно запомнить, **какой слог ударный**. Слушайте 🔊 и повторяйте вслух.
+
+    **Литовские буквы на клавиатуре** — экзамен пишут на компьютере, поэтому научитесь набирать их сразу:
+    - **телефон**: долгое нажатие на букву (*a → ą*, *s → š*, *e → ę, ė*) или литовская раскладка
+    - **компьютер**: добавьте раскладку **Lithuanian** (macOS: Настройки → Клавиатура → Источники ввода; Windows: Параметры → Язык). В стандартной литовской раскладке буквы стоят в ряду цифр: 1 **ą**, 2 **č**, 3 **ę**, 4 **ė**, 5 **į**, 6 **š**, 7 **ų**, 8 **ū**, а **ž** — на клавише «=».
+
+    В упражнениях курса ответ без «хвостиков» и «галочек» засчитывается как ошибка — как на экзамене.
+comparison:
+  ru: |
+    В русском ударение тоже подвижное («рука — руки»), но буквы его не показывают. Литовские знаки ударения есть только в словарях и учебниках, в обычных текстах их нет.
+examples:
+  - { text: "Eik namo!", translation: "Иди домой!", source: "tatoeba:10793988" }
+  - { text: "Grįžk namo.", translation: "Возвращайся домой.", source: "tatoeba:5207321" }
+  - { text: "Grįžti namo.", translation: "Вернуться домой.", source: "tatoeba:11648123" }
+exercises:
+  - type: cloze
+    text: "___, gerai."
+    answer: "Ačiū"
+    hint: "спасибо"
+    translation: "Спасибо, хорошо."
+  - type: cloze
+    text: "Prašau ___ vandens."
+    answer: "stiklinę"
+    hint: "стакан"
+    translation: "Стакан воды, пожалуйста."
+  - type: cloze
+    text: "Aš valgau ___."
+    answer: "žuvį"
+    hint: "рыбу"
+    translation: "Я ем рыбу."
+  - type: cloze
+    text: "Ar tu kalbi ___?"
+    answer: "lietuviškai"
+    hint: "по-литовски"
+    translation: "Ты говоришь по-литовски?"
+  - type: cloze
+    text: "Man skauda ___."
+    answer: "gerklę"
+    hint: "горло"
+    translation: "У меня болит горло."
+  - type: cloze
+    text: "Mes ___ namo."
+    answer: "grįžtame"
+    hint: "возвращаемся"
+    translation: "Мы возвращаемся домой."

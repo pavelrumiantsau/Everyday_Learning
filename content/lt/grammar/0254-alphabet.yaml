@@ -1,0 +1,63 @@
+# Grammar lesson (one per file). Format: packages/core/src/schema.ts → Lesson; see docs/PLAN.md §6.5.
+# Foundation course (docs/EXTENSION-PLAN.md §6, unit s01): track: foundation — never shown to the original plan.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Explanation and exercises: written with Claude Code; exercises are append-only (card ids use their position).
+id: lt-g-0254
+cefr: A1
+order: 254
+track: foundation
+title: "Алфавит: 32 буквы; имя по буквам"
+explanation:
+  ru: |
+    В литовском алфавите **32 буквы**, и почти все читаются **так, как пишутся**:
+
+    a, **ą**, b, c, **č**, d, e, **ę**, **ė**, f, g, h, i, **į**, **y**, j, k, l, m, n, o, p, r, s, **š**, t, u, **ų**, **ū**, v, z, **ž**
+
+    Особые буквы:
+    - **č, š, ž** — «ч», «ш», «ж»
+    - **ą, ę, į, ų** (с «хвостиком», *nosinės*) — сегодня это просто **долгие** a, e, i, u
+    - **ė** — долгий закрытый «э»; **y** — долгий «и» (как *į*); **ū** — долгий «у» (как *ų*)
+
+    Букв **q, w, x** нет — они бывают только в иностранных именах.
+
+    **Имя по буквам** (*pasakyti paraidžiui*) — частая просьба в банке, на почте и на экзамене: *Kaip rašoma jūsų pavardė?* — Как пишется ваша фамилия? Отвечают буквами: *P, e, t, r, o, v, a.* Названия особых букв: *če, eš, žė, nosinė a, ilgoji i (y), ilgoji u (ū)*.
+
+    Нажмите 🔊 у упражнений: вы слышите всё предложение и пишете пропущенное слово.
+comparison:
+  ru: |
+    Почти каждой литовской букве соответствует один звук, как в русском. Непривычны только знаки над и под буквами — они меняют звук или долготу, поэтому их нельзя пропускать.
+examples:
+  - { text: "Mano vardas Tomas.", translation: "Меня зовут Томом.", source: "tatoeba:12114384" }
+  - { text: "Kuo tu vardu?", translation: "Как тебя зовут?", source: "tatoeba:566995" }
+  - { text: "Tai mano brolis.", translation: "Это мой брат.", source: "tatoeba:3953646" }
+exercises:
+  - type: cloze
+    text: "Mano ___ Anna."
+    answer: "vardas"
+    hint: "имя"
+    translation: "Меня зовут Анна."
+  - type: cloze
+    text: "Aš esu ___."
+    answer: "studentas"
+    hint: "студент"
+    translation: "Я студент."
+  - type: cloze
+    text: "Tai mano ___."
+    answer: "sesuo"
+    hint: "сестра"
+    translation: "Это моя сестра."
+  - type: cloze
+    text: "Labas ___!"
+    answer: "rytas"
+    hint: "утро"
+    translation: "Доброе утро!"
+  - type: cloze
+    text: "Ačiū, ___."
+    answer: "gerai"
+    hint: "хорошо"
+    translation: "Спасибо, хорошо."
+  - type: cloze
+    text: "Aš gyvenu ___."
+    answer: "Vilniuje"
+    hint: "в Вильнюсе"
+    translation: "Я живу в Вильнюсе."
