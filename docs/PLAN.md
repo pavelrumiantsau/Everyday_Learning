@@ -69,8 +69,8 @@
 
 **Next steps (as of 2026-10-06): content supply reaches Dec 2027 in every area** (sessions 2026-10-05/06, see the table above).
 What is left: (1) **LT stress marks** for the words Wiktionary doesn't cover (by hand from lkz.lt / ekalba — their sites have no
-public API); (2) the learner's **placement test** — ~850 A1–A2 Lithuanian core words were added and now come first: clear the
-known ones with «Проверить, что я уже знаю», then re-plan LT vocabulary from the real skip rate; (3) optional extras only:
+public API); (2) ~~placement test for the A1–A2 core~~ — superseded 2026-10-19: this bot no longer gets Lithuanian A1–A2 words as new
+cards (see "Real-use fixes"); new LT words start at B1; (3) optional extras only:
 LT C1 reading `lt-r-0116+` (C1: essay/opinion register, impersonal passives, participle and gerund clauses, abstract vocabulary;
 questions on the author's view and inference), ES grammar `es-g-0109+`, French grammar `fr-g-0036+`. **No new LT grammar for now**
 (learner, 2026-10-05: focus on Spanish and French; C1 grammar maybe later).
