@@ -1,0 +1,499 @@
+# Generated from scripts/batches/lt-f-6139.py by scripts/batch-to-yaml.py.
+# Examples: Tatoeba (tatoeba.org), CC-BY 2.0 FR — text and translation copied verbatim by sentence id.
+# Meanings and notes: written with Claude Code; stress marks to be added after checking lkz.lt.
+- id: lt-w-6139
+  type: word
+  cefr: A1
+  track: foundation
+  text: "Rusija"
+  pos: noun
+  gender: f
+  gen: "Rusijos"
+  meaning: { ru: "Россия" }
+  note: { ru: "iš Rusijos — из России, Rusijoje — в России" }
+  examples:
+    - { text: "Aš iš Rusijos.", translation: "Я из России.", source: "tatoeba:1601898" }
+- id: lt-w-6140
+  type: word
+  cefr: A1
+  track: foundation
+  text: "Lenkija"
+  pos: noun
+  gender: f
+  gen: "Lenkijos"
+  meaning: { ru: "Польша" }
+  note: { ru: "iš Lenkijos — из Польши" }
+  examples:
+    - { text: "Aš esu iš Lenkijos.", translation: "Я из Польши.", source: "tatoeba:11335525" }
+- id: lt-w-6141
+  type: word
+  cefr: A1
+  track: foundation
+  text: "Latvija"
+  pos: noun
+  gender: f
+  gen: "Latvijos"
+  meaning: { ru: "Латвия" }
+  note: { ru: "Latvijoje — в Латвии" }
+- id: lt-w-6142
+  type: word
+  cefr: A1
+  track: foundation
+  text: "Vokietija"
+  pos: noun
+  gender: f
+  gen: "Vokietijos"
+  meaning: { ru: "Германия" }
+  note: { ru: "Vokietijoje — в Германии" }
+  examples:
+    - { text: "Koks oras Vokietijoje?", translation: "Какая погода в Германии?", source: "tatoeba:13012545" }
+- id: lt-w-6143
+  type: word
+  cefr: A1
+  track: foundation
+  text: "Anglija"
+  pos: noun
+  gender: f
+  gen: "Anglijos"
+  meaning: { ru: "Англия" }
+  examples:
+    - { text: "Ar ji iš Anglijos?", translation: "Она из Англии?", source: "tatoeba:12746258" }
+- id: lt-w-6144
+  type: word
+  cefr: A1
+  track: foundation
+  text: "Estija"
+  pos: noun
+  gender: f
+  gen: "Estijos"
+  meaning: { ru: "Эстония" }
+  examples:
+    - { text: "Talinas yra Estijos sostinė.", translation: "Таллин - столица Эстонии.", source: "tatoeba:12092345" }
+- id: lt-w-6145
+  type: word
+  cefr: A1
+  track: foundation
+  text: "lenkas"
+  pos: noun
+  gender: m
+  gen: "lenko"
+  meaning: { ru: "поляк" }
+  note: { ru: "ж. р. lenkė; lenkų kalba — польский язык" }
+- id: lt-w-6146
+  type: word
+  cefr: A1
+  track: foundation
+  text: "latvis"
+  pos: noun
+  gender: m
+  gen: "latvio"
+  meaning: { ru: "латыш" }
+  note: { ru: "ж. р. latvė; latvių kalba — латышский язык" }
+- id: lt-w-6147
+  type: word
+  cefr: A1
+  track: foundation
+  text: "anglas"
+  pos: noun
+  gender: m
+  gen: "anglo"
+  meaning: { ru: "англичанин" }
+  note: { ru: "ж. р. anglė; anglų kalba — английский язык" }
+  examples:
+    - { text: "Ar jūs anglai?", translation: "Вы англичане?", source: "tatoeba:13039897" }
+- id: lt-w-6148
+  type: word
+  cefr: A2
+  track: foundation
+  text: "blynas"
+  pos: noun
+  gender: m
+  gen: "blyno"
+  meaning: { ru: "блин" }
+  note: { ru: "обычно мн. ч.: blynai — блины" }
+- id: lt-w-6149
+  type: word
+  cefr: A2
+  track: foundation
+  text: "cepelinas"
+  pos: noun
+  gender: m
+  gen: "cepelino"
+  meaning: { ru: "цеппелин (картофельная клёцка с начинкой)" }
+  note: { ru: "обычно мн. ч.: cepelinai — литовское национальное блюдо" }
+- id: lt-w-6150
+  type: word
+  cefr: A2
+  track: foundation
+  text: "kotletas"
+  pos: noun
+  gender: m
+  gen: "kotleto"
+  meaning: { ru: "котлета" }
+- id: lt-w-6151
+  type: word
+  cefr: A2
+  track: foundation
+  text: "žadintuvas"
+  pos: noun
+  gender: m
+  gen: "žadintuvo"
+  meaning: { ru: "будильник" }
+  examples:
+    - { text: "Aš pamiršau nustatyti žadintuvą.", translation: "Я забыл поставить будильник.", source: "tatoeba:11262534" }
+- id: lt-w-6152
+  type: word
+  cefr: A2
+  track: foundation
+  text: "prieškambaris"
+  pos: noun
+  gender: m
+  gen: "prieškambario"
+  meaning: { ru: "прихожая" }
+- id: lt-w-6153
+  type: word
+  cefr: A2
+  track: foundation
+  text: "sportbatis"
+  pos: noun
+  gender: m
+  gen: "sportbačio"
+  meaning: { ru: "кроссовка" }
+  note: { ru: "обычно мн. ч.: sportbačiai — кроссовки" }
+  examples:
+    - { text: "Tomas užvarstė sportbačius", translation: "Том зашнуровал кроссовки.", source: "tatoeba:12720104" }
+- id: lt-w-6154
+  type: word
+  cefr: A2
+  track: foundation
+  text: "rotušė"
+  pos: noun
+  gender: f
+  gen: "rotušės"
+  meaning: { ru: "ратуша" }
+  examples:
+    - { text: "Rotušė čia netoli.", translation: "Ратуша тут недалеко.", source: "tatoeba:13774642" }
+- id: lt-w-6155
+  type: word
+  cefr: A2
+  track: foundation
+  text: "anūkė"
+  pos: noun
+  gender: f
+  gen: "anūkės"
+  meaning: { ru: "внучка" }
+  note: { ru: "anūkas — внук; anūkai — внуки" }
+- id: lt-w-6156
+  type: word
+  cefr: A2
+  track: foundation
+  text: "gitara"
+  pos: noun
+  gender: f
+  gen: "gitaros"
+  meaning: { ru: "гитара" }
+  note: { ru: "groti gitara — играть на гитаре (твор. п.)" }
+  examples:
+    - { text: "Aš groju gitara.", translation: "Я играю на гитаре.", source: "tatoeba:4730809" }
+- id: lt-w-6157
+  type: word
+  cefr: A2
+  track: foundation
+  text: "uogauti"
+  pos: verb
+  forms: { pres: "uogauja", past: "uogavo" }
+  meaning: { ru: "собирать ягоды" }
+  note: { ru: "как grybauti — собирать грибы" }
+- id: lt-w-6158
+  type: word
+  cefr: A2
+  track: foundation
+  text: "debesuota"
+  pos: adv
+  meaning: { ru: "облачно" }
+  note: { ru: "Rytoj bus debesuota. — Завтра будет облачно." }
+  examples:
+    - { text: "Rytoj bus debesuota.", translation: "Завтра будет облачно.", source: "tatoeba:12335583" }
+- id: lt-w-6159
+  type: word
+  cefr: A2
+  track: foundation
+  text: "lietingas"
+  pos: adj
+  meaning: { ru: "дождливый" }
+  note: { ru: "ж. р. lietinga; Bus lietinga. — Будет дождливо." }
+  examples:
+    - { text: "Rytoj bus lietinga.", translation: "Завтра будет дождливо.", source: "tatoeba:13776476" }
+- id: lt-w-6160
+  type: word
+  cefr: A2
+  track: foundation
+  text: "šalna"
+  pos: noun
+  gender: f
+  gen: "šalnos"
+  meaning: { ru: "заморозок" }
+  note: { ru: "обычно мн. ч.: šalnos — заморозки" }
+- id: lt-w-6161
+  type: word
+  cefr: A2
+  track: foundation
+  text: "lašas"
+  pos: noun
+  gender: m
+  gen: "lašo"
+  meaning: { ru: "капля" }
+  note: { ru: "lašai — капли (и лекарство): akių lašai — глазные капли" }
+- id: lt-w-6162
+  type: word
+  cefr: A2
+  track: foundation
+  text: "tepalas"
+  pos: noun
+  gender: m
+  gen: "tepalo"
+  meaning: { ru: "мазь" }
+  note: { ru: "также «смазка»" }
+- id: lt-w-6163
+  type: word
+  cefr: A2
+  track: foundation
+  text: "vokas"
+  pos: noun
+  gender: m
+  gen: "voko"
+  meaning: { ru: "конверт" }
+- id: lt-w-6164
+  type: word
+  cefr: A2
+  track: foundation
+  text: "gramatika"
+  pos: noun
+  gender: f
+  gen: "gramatikos"
+  meaning: { ru: "грамматика" }
+  examples:
+    - { text: "Gramatika labai sudėtinga.", translation: "Грамматика очень сложная.", source: "tatoeba:3610685" }
+- id: lt-w-6165
+  type: word
+  cefr: A2
+  track: foundation
+  text: "tarimas"
+  pos: noun
+  gender: m
+  gen: "tarimo"
+  meaning: { ru: "произношение" }
+  examples:
+    - { text: "Jo tarimas toli nuo tobulumo.", translation: "Его произношение далеко от совершенства.", source: "tatoeba:8333886" }
+- id: lt-w-6166
+  type: word
+  cefr: A2
+  track: foundation
+  text: "lenta"
+  pos: noun
+  gender: f
+  gen: "lentos"
+  meaning: { ru: "доска (школьная); доска" }
+  examples:
+    - { text: "Pažiūrėk į lentą.", translation: "Посмотри на доску.", source: "tatoeba:12773681" }
+- id: lt-w-6167
+  type: word
+  cefr: A2
+  track: foundation
+  text: "direktorius"
+  pos: noun
+  gender: m
+  gen: "direktoriaus"
+  meaning: { ru: "директор" }
+  note: { ru: "ж. р. direktorė" }
+  examples:
+    - { text: "Visi bijo direktoriaus.", translation: "Все боятся директора.", source: "tatoeba:13916731" }
+- id: lt-w-6168
+  type: word
+  cefr: A2
+  track: foundation
+  text: "firma"
+  pos: noun
+  gender: f
+  gen: "firmos"
+  meaning: { ru: "фирма" }
+  examples:
+    - { text: "Tomas dirba italų firmoje.", translation: "Том работает в итальянской фирме.", source: "tatoeba:12097420" }
+- id: lt-w-6169
+  type: word
+  cefr: A2
+  track: foundation
+  text: "rytai"
+  pos: noun
+  gender: m
+  gen: "rytų"
+  plural_only: true
+  meaning: { ru: "восток" }
+  note: { ru: "rytuose — на востоке; не путать: rytais — по утрам" }
+- id: lt-w-6170
+  type: word
+  cefr: A2
+  track: foundation
+  text: "vakarai"
+  pos: noun
+  gender: m
+  gen: "vakarų"
+  plural_only: true
+  meaning: { ru: "запад" }
+  note: { ru: "vakaruose — на западе; Vakarų Lietuva — Западная Литва; не путать: vakarais — по вечерам" }
+- id: lt-w-6171
+  type: word
+  cefr: A2
+  track: foundation
+  text: "pasivaikščioti"
+  pos: verb
+  forms: { pres: "pasivaikščioja", past: "pasivaikščiojo" }
+  meaning: { ru: "прогуляться" }
+  note: { ru: "eiti pasivaikščioti — пойти погулять" }
+  examples:
+    - { text: "Aš eisiu pasivaikščioti.", translation: "Я пойду прогуляюсь.", source: "tatoeba:11991734" }
+- id: lt-w-6172
+  type: word
+  cefr: A2
+  track: foundation
+  text: "Joninės"
+  pos: noun
+  gender: f
+  gen: "Joninių"
+  plural_only: true
+  meaning: { ru: "Йонинес, праздник летнего солнцестояния (24 июня)" }
+  note: { ru: "per Jonines — на Йонинес" }
+- id: lt-w-6173
+  type: word
+  cefr: A2
+  track: foundation
+  text: "Užgavėnės"
+  pos: noun
+  gender: f
+  gen: "Užgavėnių"
+  plural_only: true
+  meaning: { ru: "Масленица (Ужгавенес)" }
+  note: { ru: "per Užgavėnes — на Масленицу; едят blynai" }
+- id: lt-w-6174
+  type: word
+  cefr: A2
+  track: foundation
+  text: "vardadienis"
+  pos: noun
+  gender: m
+  gen: "vardadienio"
+  meaning: { ru: "именины" }
+  note: { ru: "Su vardadieniu! — С именинами!" }
+- id: lt-w-6175
+  type: word
+  cefr: A2
+  track: foundation
+  text: "registratūra"
+  pos: noun
+  gender: f
+  gen: "registratūros"
+  meaning: { ru: "регистратура" }
+- id: lt-w-6176
+  type: word
+  cefr: A2
+  track: foundation
+  text: "šukos"
+  pos: noun
+  gender: f
+  gen: "šukų"
+  plural_only: true
+  meaning: { ru: "расчёска" }
+  note: { ru: "только мн. ч.: šukos, род. п. šukų" }
+- id: lt-w-6177
+  type: word
+  cefr: A2
+  track: foundation
+  text: "kremas"
+  pos: noun
+  gender: m
+  gen: "kremo"
+  meaning: { ru: "крем" }
+- id: lt-w-6178
+  type: word
+  cefr: A2
+  track: foundation
+  text: "dalyvis"
+  pos: noun
+  gender: m
+  gen: "dalyvio"
+  meaning: { ru: "участник" }
+  note: { ru: "ж. р. dalyvė" }
+- id: lt-w-6179
+  type: word
+  cefr: A2
+  track: foundation
+  text: "supjaustyti"
+  pos: verb
+  forms: { pres: "supjausto", past: "supjaustė" }
+  meaning: { ru: "нарезать" }
+  note: { ru: "pjaustyti — резать, нарезать (несов.)" }
+  examples:
+    - { text: "Supjaustyk pyragą gabalėliais.", translation: "Разрежь пирог на части.", source: "tatoeba:2586451" }
+- id: lt-p-6180
+  type: phrase
+  cefr: A1
+  track: foundation
+  text: "antrame aukšte"
+  meaning: { ru: "на втором этаже" }
+  note: { ru: "aukštas — этаж: Kuriame aukšte gyveni? — На каком этаже ты живёшь?" }
+- id: lt-p-6181
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "mineralinis vanduo"
+  meaning: { ru: "минеральная вода" }
+  note: { ru: "vanduo su dujomis / be dujų — вода с газом / без газа" }
+- id: lt-p-6182
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "greitoji pagalba"
+  meaning: { ru: "скорая помощь" }
+  note: { ru: "Iškvieskite greitąją! — Вызовите скорую! Телефон 112" }
+- id: lt-p-6183
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "el. paštas"
+  meaning: { ru: "электронная почта, e-mail" }
+  note: { ru: "полностью: elektroninis paštas; el. pašto adresas — адрес почты" }
+- id: lt-p-6184
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "mobilusis telefonas"
+  meaning: { ru: "мобильный телефон" }
+  note: { ru: "разг. mobilusis" }
+- id: lt-p-6185
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "namų darbai"
+  meaning: { ru: "домашнее задание" }
+  note: { ru: "только мн. ч.: daryti namų darbus — делать домашнее задание" }
+- id: lt-p-6186
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "Naujieji metai"
+  meaning: { ru: "Новый год" }
+  note: { ru: "Su Naujaisiais metais! — С Новым годом!" }
+- id: lt-p-6187
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "vienvietis kambarys"
+  meaning: { ru: "одноместный номер" }
+  note: { ru: "dvivietis kambarys — двухместный номер" }
+- id: lt-p-6188
+  type: phrase
+  cefr: A2
+  track: foundation
+  text: "dantų pasta"
+  meaning: { ru: "зубная паста" }
+  note: { ru: "dantų šepetėlis — зубная щётка" }
