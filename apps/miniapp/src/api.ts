@@ -14,13 +14,35 @@ export type QueueCard = WordCard | ClozeCard | FixCard;
 export type Rating = 1 | 2 | 3 | 4;
 interface PendingReview { id: string; cardId: string; rating: Rating; reviewedAt: number }
 
-async function call<T>(path: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(`/api${path}`, {
-    ...init,
-    headers: { "content-type": "application/json", authorization: `tma ${tg?.initData ?? ""}`, ...init?.headers },
-  });
-  if (!res.ok) throw new Error(`${res.status} ${(await res.text()).slice(0, 200)}`);
-  return res.json() as Promise<T>;
+/** A failed API call: `status` 0 = no answer (offline or timed out); 401 + "expired" = the app was open for over 24 h. */
+export class ApiError extends Error {
+  constructor(readonly status: number, message: string) {
+    super(message);
+  }
+  get expired() {
+    return this.status === 401 && this.message.includes("expired");
+  }
+}
+
+// A request that never answers (a dropped connection in the Telegram web view) would otherwise freeze the screen
+// waiting for it — and the review queue behind it — so every call gives up after `timeoutMs`.
+async function call<T>(path: string, init?: RequestInit, timeoutMs = 60_000): Promise<T> {
+  const abort = new AbortController();
+  const timer = setTimeout(() => abort.abort(), timeoutMs);
+  try {
+    const res = await fetch(`/api${path}`, {
+      ...init,
+      signal: abort.signal,
+      headers: { "content-type": "application/json", authorization: `tma ${tg?.initData ?? ""}`, ...init?.headers },
+    });
+    if (!res.ok) throw new ApiError(res.status, `${res.status} ${(await res.text()).slice(0, 200)}`);
+    return (await res.json()) as T;
+  } catch (e) {
+    if (e instanceof ApiError) throw e;
+    throw new ApiError(0, abort.signal.aborted ? "timeout" : String(e));
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 let langs: Lang[] = ["lt", "es", "fr"];
@@ -164,8 +186,48 @@ export interface WordInfo {
 }
 export const getReading = () => call<ReadingList>("/reading");
 export const getText = (id: string) => call<{ text: ReadingTextFull; read: boolean }>(`/reading/texts/${encodeURIComponent(id)}`);
-export const markTextRead = (id: string, correct: number, total: number, rating?: ReadingRating) =>
-  call<{ ok: true; nextLevel: string }>(`/reading/texts/${encodeURIComponent(id)}/done`, { method: "POST", body: JSON.stringify({ correct, total, rating }) });
+const markTextReadNow = (r: ReadResult) =>
+  call<{ ok: true; nextLevel: string }>(`/reading/texts/${encodeURIComponent(r.id)}/done`, { method: "POST", body: JSON.stringify(r) }, 15_000);
+
+// A finished text is kept on the device until the server confirms it (like review answers): a failed save is sent again
+// on the next start of the reading screen. The server stores it with INSERT OR REPLACE, so sending twice is harmless.
+export interface ReadResult { id: string; correct: number; total: number; rating?: ReadingRating }
+const READ_KEY = "el.reading-pending.v1";
+const readPendingTexts = (): ReadResult[] => {
+  try {
+    return JSON.parse(localStorage.getItem(READ_KEY) ?? "[]") as ReadResult[];
+  } catch {
+    return [];
+  }
+};
+const writePendingTexts = (xs: ReadResult[]) => {
+  try {
+    if (xs.length) localStorage.setItem(READ_KEY, JSON.stringify(xs));
+    else localStorage.removeItem(READ_KEY);
+  } catch {
+    // storage unavailable: the result is only sent right away
+  }
+};
+
+/** Saves a finished text; on failure it stays queued on the device and the error is thrown for the screen to show. */
+export async function markTextRead(r: ReadResult): Promise<void> {
+  writePendingTexts([...readPendingTexts().filter((x) => x.id !== r.id), r]);
+  await markTextReadNow(r);
+  writePendingTexts(readPendingTexts().filter((x) => x.id !== r.id));
+}
+
+/** Sends finished texts that didn't reach the server before; returns how many are still waiting. */
+export async function flushReadTexts(): Promise<number> {
+  for (const r of readPendingTexts()) {
+    try {
+      await markTextReadNow(r);
+      writePendingTexts(readPendingTexts().filter((x) => x.id !== r.id));
+    } catch {
+      break;
+    }
+  }
+  return readPendingTexts().length;
+}
 export const addOwnText = (b: { lang: Lang; title?: string; url?: string; text: string }) =>
   call<{ id: string; words: number }>("/reading/own", { method: "POST", body: JSON.stringify(b) });
 export const deleteOwnText = (id: string) => call<{ ok: true }>(`/reading/own/${encodeURIComponent(id)}`, { method: "DELETE" });
@@ -268,3 +330,8 @@ export const submitExamListening = (id: string, answers: (number | null)[][]) =>
 export const startExamSpeaking = (id: string) => call<{ ok: true }>(`/exams/${id}/speaking`, { method: "POST" });
 
 export const markUnitKnown = (id: string) => call<{ progress: UnitProgress }>(`/course/units/${id}/known`, { method: "POST" });
+
+// --- «Мои слова» ---
+/** `due`: next review (epoch ms), null = moved out of reviews; `fromReading`: added from a text. */
+export interface MyWord { id: string; text: string; stress: string | null; meaning: string; learned: boolean; due: number | null; fromReading: boolean }
+export const getWords = (lang: Lang) => call<{ words: MyWord[] }>(`/words?lang=${lang}`).then((r) => r.words);

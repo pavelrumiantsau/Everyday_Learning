@@ -47,6 +47,26 @@
 **Colleagues extension (2026-10-08):** personal copies for colleagues and a Lithuanian A0 → A2-exam course are planned in
 [EXTENSION-PLAN.md](EXTENSION-PLAN.md). This bot keeps its current behaviour; its A-level material is separate (`track: foundation`).
 
+**Real-use fixes (done 2026-10-19, branch `feat/owner-fixes-2026-10`; smoke `20-words.ts`, no migration):**
+1. **Reading result not saved** — Mini App `Reading.tsx` `Quiz.finish` awaits `markTextRead` with no timeout, no «Сохраняю…»
+   state and `.catch(() => undefined)`, so a hung or failed request (e.g. initData older than 24 h after the app stayed open in
+   Telegram → 401 `expired`) either freezes the button or silently loses the result. Live data: 10 texts saved on 2026-10-16
+   (lt-r-0042…0051), nothing after. Fix: `call()` in `api.ts` gets a timeout (AbortController, ~15 s); the button shows
+   «Сохраняю…» and is disabled; on failure a message + «Повторить»; on 401 `expired` «Закрой и открой приложение заново»; the
+   pending result is kept in localStorage and re-sent on the next start (the endpoint is idempotent: `INSERT OR REPLACE`).
+2. **Hide read texts** — «Все тексты курса» shows unread texts only; read ones under a collapsed «Прочитанные (N)».
+3. **A-level Lithuanian words in this bot** — not the extension: `vocab/a1-0000-core-*.yaml` (2026-10-06, 1,016 A1–A2 items
+   without a track) sort first by design. Live: 147 already became cards, 41 marked known by placement, 867 still queued (~3 months
+   at 10/day). Fix: the original plan (profile null) and copies with LT level B1+ skip LT A1–A2 items as *new* cards
+   (`learnerItems()`); cards already introduced stay. `legacy-baseline` keeps the frozen copy and asserts the new order = the old
+   order minus LT A1–A2 (`newItemsFor` / `skipsEasyLithuanian` in `packages/core/src/profile.ts`). The 147 A-level cards
+   already made were all answered without «Again»: the owner chose to retire them — a one-off `UPDATE card_state SET due =
+   4102444800000` for those items, run by the owner (sessions can't write to the live DB); they show as «отложено» in «Мои
+   слова», and the FSRS JSON keeps the real due date, so it can be undone.
+4. **«Мои слова»** — a Mini App screen (`features/Words.tsx`) + `GET /api/words?lang=`: every introduced item of a language
+   (incl. words added from reading), search, filter «учу / выучено» (`learnedItemIds()` rule), word with stress, meaning, next
+   review, tap → audio. Russian UI; ES/FR meanings in English as in the cards.
+
 **Next steps (as of 2026-10-06): content supply reaches Dec 2027 in every area** (sessions 2026-10-05/06, see the table above).
 What is left: (1) **LT stress marks** for the words Wiktionary doesn't cover (by hand from lkz.lt / ekalba — their sites have no
 public API); (2) the learner's **placement test** — ~850 A1–A2 Lithuanian core words were added and now come first: clear the

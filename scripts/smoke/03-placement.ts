@@ -6,9 +6,9 @@ export default async function (t: Smoke) {
   // --- Placement ---
   type Placement = { items: { id: string; text: string }[]; remaining: number; stats: { known: number; unknown: number } };
   const pl1 = (await (await api("/placement?lang=lt", me)).json()) as Placement;
-  check(pl1.items.length === 30 && pl1.items[0]!.id === "lt-w-2784", `placement starts at the next unseen word (${pl1.items[0]?.text})`);
-  const knownVerb = pl1.items[0]!; // mokėti (a verb)
-  const unknownWord = pl1.items[1]!;
+  check(pl1.items.length === 30 && pl1.items[0]!.id === "lt-w-0029", `placement starts at the next unseen word (${pl1.items[0]?.text})`);
+  const knownVerb = pl1.items[1]!; // prisiminti (a verb)
+  const unknownWord = pl1.items[0]!; // priežastis
   await api("/placement", me, { method: "POST", body: JSON.stringify({ results: [{ itemId: knownVerb.id, known: true }, { itemId: unknownWord.id, known: false }] }) });
   const pl2 = (await (await api("/placement?lang=lt", me)).json()) as Placement;
   check(pl2.remaining === pl1.remaining - 2 && pl2.stats.known === 1 && pl2.stats.unknown === 1, "placement answers are saved and not asked again");
@@ -18,6 +18,6 @@ export default async function (t: Smoke) {
   calls.length = 0;
   await post(msg("/lesson"));
   const lesson3 = calls.find((c) => c.method === "sendMessage")?.body.text ?? "";
-  check(!plain(lesson3).includes("sriuba") && plain(lesson3).includes(unknownWord.text), "lessons skip known words and keep unknown ones");
+  check(!plain(lesson3).includes(knownVerb.text) && plain(lesson3).includes(unknownWord.text), "lessons skip known words and keep unknown ones");
 
 }

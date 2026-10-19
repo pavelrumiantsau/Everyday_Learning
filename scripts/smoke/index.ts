@@ -18,6 +18,7 @@ import courseChecks, { ownerSide as courseOwnerSide } from "./16-course.ts";
 import taskChecks, { ownerSide as taskOwnerSide } from "./17-tasks.ts";
 import listeningChecks, { ownerSide as listeningOwnerSide } from "./18-listening.ts";
 import examChecks, { ownerSide as examOwnerSide } from "./19-exams.ts";
+import myWords from "./20-words.ts";
 import type { Smoke } from "./context.ts";
 
 export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
@@ -34,6 +35,7 @@ export const CHECKS: { name: string; run: (t: Smoke) => Promise<void> }[] = [
   { name: "reading", run: reading },
   { name: "french", run: french },
   { name: "more", run: more },
+  { name: "my words", run: myWords },
   { name: "setup wizard: original bot unchanged", run: setupOwnerSide },
   { name: "course: original bot unchanged", run: courseOwnerSide },
   { name: "tasks: original bot unchanged", run: taskOwnerSide },

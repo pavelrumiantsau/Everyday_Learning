@@ -7,7 +7,9 @@ import {
   activeLangs,
   addOwnText,
   addWordToCards,
+  ApiError,
   deleteOwnText,
+  flushReadTexts,
   getReading,
   getText,
   lookupWord,
@@ -59,8 +61,10 @@ function Screen({ close }: { close: () => void }) {
   const [list, setList] = useState<ReadingList | null>(null);
   const [openId, setOpenId] = useState<string | null>(null);
   const [adding, setAdding] = useState(false);
+  const [showRead, setShowRead] = useState(false);
   const reload = () => getReading().then(setList, () => setList({ texts: [], own: [], level: "B1", nextId: null }));
-  useEffect(() => void reload(), []);
+  // A text finished while the connection failed is still on the device: send it first, so the list shows it as read.
+  useEffect(() => void flushReadTexts().finally(reload), []);
 
   if (adding) {
     return (
@@ -87,7 +91,8 @@ function Screen({ close }: { close: () => void }) {
     );
   }
   const next = list?.texts.find((t) => t.id === list.nextId);
-  const rest = list?.texts.filter((t) => t.id !== list.nextId) ?? [];
+  const rest = list?.texts.filter((t) => t.id !== list.nextId && !t.read) ?? [];
+  const read = list?.texts.filter((t) => t.read) ?? [];
   return (
     <main className="screen">
       <h1>Чтение</h1>
@@ -113,6 +118,15 @@ function Screen({ close }: { close: () => void }) {
           {rest.map((t) => (
             <TextButton key={t.id} t={t} onOpen={() => setOpenId(t.id)} />
           ))}
+          {read.length > 0 && (
+            <button className="secondary center-text" onClick={() => setShowRead((v) => !v)}>
+              {showRead ? "Скрыть прочитанные" : `Прочитанные (${read.length})`}
+            </button>
+          )}
+          {showRead &&
+            read.map((t) => (
+              <TextButton key={t.id} t={t} onOpen={() => setOpenId(t.id)} />
+            ))}
         </>
       )}
       <div className="spacer" />
@@ -297,10 +311,25 @@ function Quiz({ text, onDone }: { text: ReadingTextFull; onDone: () => void }) {
   const all = answers.every((a) => a !== null);
   const correct = answers.filter((a, i) => a === text.questions[i]!.answer).length;
 
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
   const finish = async () => {
-    haptic("done");
-    await markTextRead(text.id, correct, text.questions.length, rating ?? undefined).catch(() => undefined);
-    onDone();
+    haptic("tap");
+    setSaving(true);
+    setError(null);
+    try {
+      await markTextRead({ id: text.id, correct, total: text.questions.length, rating: rating ?? undefined });
+      haptic("done");
+      onDone();
+    } catch (e) {
+      setSaving(false);
+      setError(
+        e instanceof ApiError && e.expired
+          ? "Приложение было открыто больше суток — закрой его и открой заново. Результат сохранён на телефоне и отправится сам."
+          : "Не получилось сохранить — проверь интернет и нажми ещё раз. Результат сохранён на телефоне и отправится при следующем открытии.",
+      );
+    }
   };
 
   return (
@@ -346,8 +375,14 @@ function Quiz({ text, onDone }: { text: ReadingTextFull; onDone: () => void }) {
           {!text.own && <p className="hint small">По оценке подберу уровень следующего текста.</p>}
         </section>
       )}
+      {error && <p className="hint">{error}</p>}
       <div className="spacer" />
-      <button className="button big" disabled={!all} onClick={() => void finish()}>Прочитано ✓</button>
+      <button className="button big" disabled={!all || saving} onClick={() => void finish()}>
+        {saving ? "Сохраняю…" : error ? "Повторить" : "Прочитано ✓"}
+      </button>
+      {error && (
+        <button className="secondary center-text" onClick={onDone}>К списку текстов</button>
+      )}
     </main>
   );
 }

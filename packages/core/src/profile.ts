@@ -138,3 +138,18 @@ export function visibleTo<T extends { track?: "foundation" }>(items: readonly T[
   const foundation = p?.languages.lt?.course === "foundation";
   return foundation ? [...items] : items.filter((i) => i.track !== "foundation");
 }
+
+/**
+ * Lithuanian A1–A2 words don't come as new cards to a learner past A2: the original plan (the owner is B1+; the A1–A2 core
+ * `vocab/a1-0000-core-*.yaml` sorted first, decided 2026-10-19) and copies on the B1+ path. Cards already made stay.
+ */
+export function skipsEasyLithuanian(p: Profile | null): boolean {
+  const lt = p ? p.languages.lt : null;
+  return p === null || (!!lt && lt.course !== "foundation" && (lt.level === "B1" || lt.level === "B2"));
+}
+
+/** Items that may come as new cards: without Lithuanian A1–A2 when `skipsEasyLithuanian`. */
+export function newItemsFor<T extends { id: string; cefr: string }>(items: readonly T[], p: Profile | null): T[] {
+  if (!skipsEasyLithuanian(p)) return [...items];
+  return items.filter((i) => !(i.id.startsWith("lt-") && (i.cefr === "A1" || i.cefr === "A2")));
+}

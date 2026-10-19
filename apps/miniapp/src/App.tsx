@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { addMoreWords, flushReviews, getQueue, getSession, type QueueCard, type Session } from "./api";
+import { addMoreWords, flushReadTexts, flushReviews, getQueue, getSession, type QueueCard, type Session } from "./api";
 import { FEATURES } from "./features";
 import { FLAG } from "./flags";
 import { LearnNew } from "./screens/Learn";
@@ -32,6 +32,7 @@ function Learn() {
   const refresh = useCallback(async () => {
     try {
       await flushReviews();
+      await flushReadTexts(); // a finished text that didn't reach the server (a failure here is retried next time)
       setSession(await getSession());
       setHomeKey((k) => k + 1);
       setError(null);

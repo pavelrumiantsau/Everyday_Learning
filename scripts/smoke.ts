@@ -62,13 +62,16 @@ async function withWorker(port: number, vars: Record<string, string>, run: (base
   try {
     for (let i = 0; ; i++) {
       try { if ((await fetch(`${base}/health`)).ok) break; } catch {}
-      if (i > 60) throw new Error("wrangler dev did not start:\n" + devLog);
+      if (i > 60 || dev.exitCode !== null) throw new Error("wrangler dev did not start:\n" + devLog.slice(-3000));
       await new Promise((r) => setTimeout(r, 500));
     }
     await run(base);
   } finally {
-    dev.kill();
-    await new Promise((r) => dev.once("exit", r));
+    // A Worker that died at startup has already exited: waiting for "exit" again would hang the run.
+    if (dev.exitCode === null && dev.signalCode === null) {
+      dev.kill();
+      await new Promise((r) => dev.once("exit", r));
+    }
     rmSync(persist, { recursive: true, force: true });
   }
 }

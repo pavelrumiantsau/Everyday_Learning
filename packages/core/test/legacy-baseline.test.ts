@@ -10,6 +10,7 @@ import {
   DEFAULT_READING_LEVEL,
   grammarLangsForDay,
   isReadingDay,
+  newItemsFor,
   nextReadingLevel,
   pickLesson,
   pickNewItems,
@@ -97,6 +98,22 @@ describe.skipIf(!built)("legacy baseline: content pickers (built content)", () =
       expect(now, `round ${round}`).toEqual(legacyPlanner.pickNewItems(items, introduced, perLang).map((i) => i.id));
       if (!now.length) break;
       for (const id of now) introduced.add(id);
+    }
+  });
+
+  // The one intended change (owner, 2026-10-19): no Lithuanian A1–A2 as new cards; everything else keeps the old order.
+  it("new words of the original plan = the old order without Lithuanian A1–A2", () => {
+    const items = visibleTo(load<Item[]>("content"), null);
+    const easy = (i: Item) => i.id.startsWith("lt-") && (i.cefr === "A1" || i.cefr === "A2");
+    const introduced = new Set<string>(items.filter(easy).map((i) => i.id)); // as if all were already cards
+    const legacyIntroduced = new Set(introduced);
+    for (let round = 0; round < 400; round++) {
+      const perLang = { lt: 10, es: 5, fr: round % 2 ? 4 : 0 };
+      const now = pickNewItems(newItemsFor(items, null), new Set(introduced), perLang).map((i) => i.id);
+      const old = legacyPlanner.pickNewItems(items, legacyIntroduced, perLang).map((i) => i.id);
+      expect(now, `round ${round}`).toEqual(old);
+      if (!now.length) break;
+      for (const id of now) introduced.add(id), legacyIntroduced.add(id);
     }
   });
 

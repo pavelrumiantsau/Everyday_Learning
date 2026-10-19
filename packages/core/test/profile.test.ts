@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { visibleTo, firstReadingLevel, grammarLangsForDay, isReadingDay, newPerDayFor, Profile, readingLangForDay, ruleLangsForDay, weekPlan } from "../src";
+import { visibleTo, firstReadingLevel, newItemsFor, skipsEasyLithuanian, grammarLangsForDay, isReadingDay, newPerDayFor, Profile, readingLangForDay, ruleLangsForDay, weekPlan } from "../src";
 
 const ltOnly = (over: object = {}) =>
   Profile.parse({ version: 1, timezone: "Europe/Vilnius", main: "lt", pace: "normal", languages: { lt: { course: "foundation", level: "A0" } }, created: "2026-11-02", ...over });
@@ -70,5 +70,25 @@ describe("foundation content", () => {
   });
   it("is visible on the Lithuanian foundation course", () => {
     expect(visibleTo(items, ltOnly()).map((i) => i.id)).toEqual(["a", "b"]);
+  });
+});
+
+describe("Lithuanian A1–A2 as new cards", () => {
+  const items = [
+    { id: "lt-w-0001", cefr: "A1" },
+    { id: "lt-w-0002", cefr: "A2" },
+    { id: "lt-w-0003", cefr: "B1" },
+    { id: "es-w-0001", cefr: "A1" },
+  ];
+  const continuing = (level: string) => ltOnly({ languages: { lt: { course: "continuing", level } } });
+  it("are skipped in the original plan and on the B1+ path", () => {
+    expect(newItemsFor(items, null).map((i) => i.id)).toEqual(["lt-w-0003", "es-w-0001"]);
+    expect(skipsEasyLithuanian(continuing("B1"))).toBe(true);
+    expect(skipsEasyLithuanian(continuing("B2"))).toBe(true);
+  });
+  it("still come on the foundation course and below B1", () => {
+    expect(newItemsFor(items, ltOnly())).toEqual(items);
+    expect(skipsEasyLithuanian(continuing("A2"))).toBe(false);
+    expect(skipsEasyLithuanian(ltOnly({ main: "es", languages: { es: { course: "standard", level: "A0" } } }))).toBe(false);
   });
 });

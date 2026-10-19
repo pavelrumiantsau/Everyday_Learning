@@ -42,7 +42,7 @@ Smoke runs a second Worker in copy mode (`COPY_CHECKS`). Learner profile (copies
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
 - `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.
 - `scripts/` — content build/validate, sources, candidates, batches (`scripts/batches/*.py`), audio (`tts.py`), smoke test
-  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **20**), setup scripts.
+  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **21**), setup scripts.
 
 ## Commands
 ```bash
@@ -74,7 +74,8 @@ pnpm setup:telegram   # re-run after adding/changing bot commands (updates the c
 - Current state and the next steps are in `docs/PLAN.md` → "Status" (content table + "Next steps" + "How content is made").
 - LT stress marks live in `content/lt/stress.yaml` (merged at build); smoke checks compare bot text with `plain()` (accents stripped).
 - Wiktionary: use the batched API (50 titles per request) — one-page-per-request gets rate-limited to a crawl.
-- Gate pushes on `pnpm smoke`'s exit code. Commit only the files of the batch you made (`git add <paths>`), not `-A`, when other
+- Gate pushes on `pnpm smoke`'s exit code. If `wrangler dev` dies locally (`spawn EBADF`, seen 2026-10-19), push the branch and open a
+  PR: CI runs the same smoke on pull requests without deploying. Commit only the files of the batch you made (`git add <paths>`), not `-A`, when other
   work is in progress.
 - The learner finds B1 and B2 texts too easy: new Lithuanian reading is C1 (Oct 2026); the app picks levels from the learner's easy/hard ratings.
 
