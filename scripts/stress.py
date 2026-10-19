@@ -23,7 +23,7 @@ kirčiuoklis (automatic, not a dictionary).
 
 Results are merged into content/lt/stress.yaml (existing entries are kept); skipped words are listed for manual work.
 
-Usage: pnpm build:content && python3 scripts/stress.py [--limit N] [--no-mentions]
+Usage: pnpm build:content && python3 scripts/stress.py [--limit N] [--no-mentions] [--course]
 """
 from __future__ import annotations
 
@@ -128,6 +128,9 @@ def fetch(word: str) -> str:
     return text
 
 
+GENERIC_POS = {"noun": "noun", "verb": "verb", "adjective": "adj", "adverb": "adv", "pronoun": "pron", "numeral": "num"}
+
+
 def heads(wikitext: str, pos: str) -> set[str]:
     """Stressed headwords of the Lithuanian section for one part of speech."""
     i = wikitext.find("==Lithuanian==")
@@ -143,8 +146,10 @@ def heads(wikitext: str, pos: str) -> set[str]:
             continue
         has_pos = True
         m = re.search(r"head=([^|}]+)", args)
-        if m:
+        if m and accent_count(clean(m.group(1))):  # an unaccented head= (head=kopūstas) says nothing about stress
             found.add(clean(m.group(1)))
+    # Generic headword template {{head|lt|noun}} (e.g. plural-only ledai): no stress itself, but it names the part of speech.
+    has_pos = has_pos or any(GENERIC_POS.get(k) == pos for k in re.findall(r"\{\{head\|lt\|([a-z ]+)", section))
     if not found and has_pos:
         # Fallback: the pronunciation template {{lt-pr|ti̇̀kslas}}, only if the page has exactly one.
         prs = {clean(p.split("|")[0]) for p in re.findall(r"\{\{lt-pr\|([^}]*)\}\}", section)}
@@ -153,9 +158,21 @@ def heads(wikitext: str, pos: str) -> set[str]:
     return found
 
 
+def pronunciations(wikitext: str) -> set[str]:
+    """Every stressed form in the {{lt-pr|…}} templates of the Lithuanian section (variants split on commas)."""
+    i = wikitext.find("==Lithuanian==")
+    if i < 0:
+        return set()
+    section = wikitext[i:]
+    j = re.search(r"\n==[^=]", section[2:])
+    if j:
+        section = section[: j.start() + 2]
+    return {clean(f) for args in re.findall(r"\{\{lt-pr\|([^}]*)\}\}", section) for f in args.split("|")[0].split(",")}
+
+
 def clean(s: str) -> str:
-    """NFC, and drop the dot some sources write over an accented i (i̇̀ → ì)."""
-    d = unicodedata.normalize("NFD", s.strip())
+    """NFC, drop template modifiers (trỹs<audio:…> → trỹs) and the dot some sources write over an accented i (i̇̀ → ì)."""
+    d = unicodedata.normalize("NFD", re.sub(r"<[^>]*>", "", s).strip())
     d = re.sub(r"([iI])̇(?=[̀́̃])", r"\1", d)
     return unicodedata.normalize("NFC", d)
 
@@ -367,6 +384,10 @@ def main() -> int:
     items = json.loads((ROOT / "apps/worker/src/generated/content.json").read_text())
     existing = load_existing()
     todo = [i for i in items if i["id"].startswith("lt-w-") and not i.get("stress") and i["text"] not in existing and i.get("pos")]
+    if "--course" in sys.argv:  # only words of the foundation course map (content/lt/course/foundation.yaml)
+        course = json.loads((ROOT / "apps/worker/src/generated/course.json").read_text())
+        in_course = {i for u in course["units"] for i in u.get("words", []) + u.get("phrases", [])}
+        todo = [i for i in todo if i["id"] in in_course]
     if limit:
         todo = todo[:limit]
     prefetch([i["text"] for i in todo])
@@ -375,9 +396,17 @@ def main() -> int:
     pos_of = {i["text"]: i["pos"] for i in todo}
     for n, item in enumerate(todo, 1):
         word, pos = item["text"], item["pos"]
-        found = {h for h in heads(fetch(word), pos) if strip_accents(h) == word and h != word}
+        text = fetch(word)
+        found = {h for h in heads(text, pos) if strip_accents(h) == word and h != word}
+        note = ""
+        if not found:
+            # Parts of speech without a headword template here (prepositions, conjunctions, phrases, proper nouns…):
+            # the page's pronunciation, only if it is the page's one and only stressed form. Never another POS's headword.
+            prs = {f for f in pronunciations(text) if accent_count(f)}
+            if len(prs) == 1 and strip_accents(next(iter(prs))) == word:
+                found, note = prs, "pronunciation"
         if len(found) == 1:
-            added[word] = (found.pop(), "")
+            added[word] = (found.pop(), note)
         else:
             skipped[word] = "not found" if not found else "ambiguous " + ", ".join(sorted(found))
         if n % 50 == 0:
@@ -398,6 +427,9 @@ def main() -> int:
         "# Stress marks for Lithuanian course words (merged into the items by scripts/build-content.ts).",
         "# Source: English Wiktionary (https://en.wiktionary.org), CC BY-SA 4.0, collected by scripts/stress.py.",
         "# Plain entries: the word's own entry (headword with the same part of speech, unambiguous).",
+        "# `# pronunciation`: the word's own entry has no headword for its part of speech; its only {{lt-pr}} form is used.",
+        "# `# homograph: …` / `# variant: …`: chosen by hand from the entry — the sense matching the course meaning, or one of",
+        "# two accepted stress variants (both are in the entry; the other is named).",
         "# `# mentions: …` entries: the word has no entry of its own; every stressed mention of it on the pages named",
         "# (translation tables, derived terms, synonyms) agrees. Fix or add entries by hand as needed.",
     ]

@@ -1,13 +1,24 @@
 # Stress marks for Lithuanian course words (merged into the items by scripts/build-content.ts).
 # Source: English Wiktionary (https://en.wiktionary.org), CC BY-SA 4.0, collected by scripts/stress.py.
 # Plain entries: the word's own entry (headword with the same part of speech, unambiguous).
+# `# pronunciation`: the word's own entry has no headword for its part of speech; its only {{lt-pr}} form is used.
+# `# homograph: …` / `# variant: …`: chosen by hand from the entry — the sense matching the course meaning, or one of
+# two accepted stress variants (both are in the entry; the other is named).
 # `# mentions: …` entries: the word has no entry of its own; every stressed mention of it on the pages named
 # (translation tables, derived terms, synonyms) agrees. Fix or add entries by hand as needed.
+"Anglija": "Ánglija"  # mentions: Didžioji Britanija, Jungtinė Karalystė, Velsas +5
+"Estija": "Èstija"  # mentions: Estijos Respublika
+"Latvija": "Lãtvija"  # mentions: Latvijos Respublika
+"Lenkija": "Lénkija"  # mentions: lenkakalbis
+"Lietuva": "Lietuvà"  # pronunciation
+"Rusija": "Rùsija"  # mentions: Rusijos Federacija
+"Velykos": "Velýkos"  # pronunciation
 "abejingas": "abejìngas"
 "abejingumas": "abejingùmas"
 "abejonė": "abejõnė"
 "abejoti": "abejóti"
 "abiturientas": "abiturieñtas"
+"abu": "abù"  # pronunciation
 "abėcėlė": "abėcė̃lė"
 "adata": "ãdata"
 "administratorius": "administrãtorius"
@@ -20,6 +31,7 @@
 "aikštė": "aikštė̃"
 "aiškiai": "áiškiai"
 "aišku": "áišku"  # mentions: tapti
+"aiškus": "áiškus"  # variant: first listed (or aiškùs)
 "akademinis": "akadèminis"
 "akcentas": "akceñtas"
 "akcija": "ãkcija"
@@ -34,6 +46,7 @@
 "aktorius": "ãktorius"
 "aktyvumas": "aktyvùmas"  # mentions: activity
 "akvariumas": "akvãriumas"
+"alergija": "aler̃gija"  # variant: first listed (or alèrgija)
 "alga": "algà"
 "aliejus": "aliẽjus"
 "alkanas": "álkanas"
@@ -51,12 +64,15 @@
 "amžius": "ámžius"
 "analizuoti": "analizúoti"
 "angelas": "ángelas"
+"anglas": "ánglas"
 "angliškai": "ángliškai"
 "anketa": "anketà"
 "anksti": "ankstì"
 "ankstyvas": "ankstývas"  # mentions: anksti, ankstus
+"anksčiau": "anksčiaũ"  # pronunciation
 "ant": "añt"  # mentions: gulti, gulėti, mušti +4
 "antibiotikas": "antibiòtikas"  # mentions: antibiotinis
+"antis": "ántis"  # homograph: ántis «duck» (añtis «bosom»)
 "antklodė": "añtklodė"
 "antradienis": "antrãdienis"
 "antraip": "antraĩp"
@@ -66,6 +82,7 @@
 "aparatas": "aparãtas"
 "apelsinas": "apelsìnas"
 "apetitas": "apetìtas"
+"apgailestauti": "apgailestáuti"
 "apgauti": "apgáuti"
 "apgavystė": "apgavỹstė"
 "apie": "apiẽ"  # mentions: ir, kol, šokti
@@ -88,6 +105,7 @@
 "apygarda": "apýgarda"
 "apylinkė": "apýlinkė"
 "apžiūrėti": "apžiūrė́ti"
+"arba": "arbà"  # pronunciation
 "arbata": "arbatà"
 "arbatpinigiai": "arbãtpinigiai"
 "arbūzas": "arbū̃zas"
@@ -107,6 +125,7 @@
 "ateiti": "ateĩti"
 "ateitis": "ateitìs"
 "ateivis": "ateĩvis"
+"atgal": "atgal̃"  # pronunciation
 "atidaryti": "atidarýti"
 "atiduoti": "atidúoti"
 "atidus": "atidùs"
@@ -163,8 +182,11 @@
 "aviena": "avíena"
 "avietė": "aviẽtė"
 "avis": "avìs"
+"ačiū": "ãčiū"  # pronunciation
 "aš": "àš"  # mentions: gulėti, jog, ketinti +6
 "ašara": "ãšara"
+"aštrus": "aštrùs"
+"aštuoni": "aštuonì"
 "badas": "bãdas"
 "bagažas": "bagãžas"
 "baigti": "baĩgti"
@@ -204,6 +226,7 @@
 "bebaimis": "bebaĩmis"
 "bedarbis": "bedar̃bis"
 "begalinis": "begalìnis"
+"bendrabutis": "bendrãbutis"
 "bendradarbiauti": "bendradarbiáuti"
 "bendradarbiavimas": "bendradarbiãvimas"
 "bendras": "beñdras"
@@ -218,6 +241,7 @@
 "beprotybė": "beprotýbė"
 "berniukas": "berniùkas"
 "berti": "ber̃ti"
+"bet": "bèt"  # pronunciation
 "beveik": "bevéik"
 "bevertis": "bever̃tis"
 "beždžionė": "beždžiõnė"
@@ -263,10 +287,12 @@
 "būklė": "bū́klė"
 "būrys": "būrỹs"
 "būti": "bū́ti"
+"būtinas": "bū́tinas"  # pronunciation
 "centas": "ceñtas"
 "centras": "ceñtras"
 "centrinis": "centrìnis"
 "cenzūra": "cenzūrà"
+"cepelinas": "cepelìnas"
 "chalatas": "chalãtas"
 "charakteris": "charãkteris"
 "chemija": "chèmija"
@@ -291,6 +317,7 @@
 "dalis": "dalìs"
 "dalykas": "dalỹkas"
 "dalyvauti": "dalyváuti"
+"dalyvis": "dalỹvis"
 "dama": "damà"
 "dangus": "dangùs"
 "dantis": "dantìs"
@@ -303,16 +330,19 @@
 "daržas": "dar̃žas"  # mentions: daržininkystė, daržovė
 "daržovė": "daržóvė"
 "daug": "daũg"
+"daugiau": "daugiaũ"  # pronunciation
 "dauguma": "daugumà"
 "daugybė": "daugýbė"
 "dažai": "dažaĩ"
 "dažnai": "dažnaĩ"
 "dažnas": "dãžnas"
+"dažniausiai": "dažniáusiai"  # pronunciation
 "debesis": "debesìs"
 "degti": "dègti"
 "degtinė": "degtìnė"
 "degtukas": "degtùkas"
 "deguonis": "deguõnis"
+"deja": "dejà"  # pronunciation
 "dejuoti": "dejúoti"
 "deklaruoti": "deklarúoti"
 "delnas": "délnas"
@@ -322,6 +352,8 @@
 "derėti": "derė́ti"
 "detalė": "detãlė"
 "detektyvas": "detektỹvas"
+"devyni": "devynì"
+"dešimt": "dẽšimt"
 "dešimtmetis": "dešim̃tmetis"
 "dešinė": "dešinė̃"
 "dešra": "dešrà"
@@ -338,6 +370,7 @@
 "dinozauras": "dinozáuras"
 "dirbti": "dìrbti"
 "dirbtinis": "dirbtìnis"
+"direktorius": "dirèktorius"
 "dirva": "dirvà"
 "diržas": "dir̃žas"
 "diskas": "dìskas"
@@ -353,6 +386,7 @@
 "draudimas": "draudìmas"
 "draugas": "draũgas"
 "draugystė": "draugỹstė"
+"draugė": "draũgė"  # homograph: draũgė «female friend» (draugė̃ «community»)
 "drausmė": "drausmė̃"
 "drebėjimas": "drebė́jimas"  # mentions: drebėti
 "driežas": "dríežas"
@@ -380,6 +414,7 @@
 "dušas": "dùšas"
 "dvaras": "dvãras"
 "dvasia": "dvasià"
+"dvidešimt": "dvìdešimt"
 "dviratininkas": "dvìratininkas"
 "dviratis": "dvìratis"
 "dvokti": "dvõkti"
@@ -388,6 +423,7 @@
 "dykuma": "dykumà"
 "dėdė": "dė̃dė"
 "dėkoti": "dėkóti"
+"dėl": "dė̃l"  # pronunciation
 "dėmesingas": "dėmesìngas"  # mentions: atidus
 "dėmesys": "dėmesỹs"
 "dėmė": "dėmė̃"
@@ -413,6 +449,7 @@
 "elektra": "elektrà"
 "elektroninis": "elektròninis"
 "elgesys": "elgesỹs"
+"elgeta": "el̃geta"
 "elgtis": "el̃gtis"
 "elnias": "élnias"
 "emigracija": "emigrãcija"
@@ -437,6 +474,7 @@
 "finansavimas": "finansãvimas"
 "finansinis": "finánsinis"
 "finansuoti": "finansúoti"
+"firma": "fìrma"  # mentions: susijęs
 "fizika": "fìzika"
 "fizinis": "fìzinis"
 "forma": "fòrma"
@@ -452,10 +490,12 @@
 "gabus": "gabùs"
 "gaidys": "gaidỹs"
 "gaisras": "gaĩsras"
+"gaisrininkas": "gaĩsrininkas"  # variant: pronunciation (or gaisriniñkas)
 "gaišti": "gaĩšti"  # mentions: geibti
 "gal": "gál"  # mentions: ar, tai
 "galaktika": "galãktika"
 "galas": "gãlas"
+"galbūt": "galbū́t"  # pronunciation
 "galia": "galià"
 "galiausiai": "galiáusiai"
 "galimybė": "galimýbė"
@@ -469,6 +509,7 @@
 "gamta": "gamtà"
 "gamyba": "gamýba"
 "gamykla": "gamyklà"
+"gana": "ganà"
 "garai": "garaĩ"
 "garantija": "garántija"
 "garantuoti": "garantúoti"  # mentions: garantija
@@ -481,6 +522,7 @@
 "gatvė": "gãtvė"
 "gausybė": "gausýbė"  # mentions: marios
 "gauti": "gáuti"
+"gegužė": "gegužė̃"  # variant: first listed (or gegùžė)
 "gelbėjimas": "gélbėjimas"
 "gelbėtojas": "gélbėtojas"
 "geležis": "geležìs"
@@ -513,8 +555,11 @@
 "girdėti": "girdė́ti"
 "girgždėti": "girgždė́ti"
 "girtas": "gìrtas"
+"gitara": "gitarà"
 "globa": "globà"
 "gramas": "grãmas"
+"gramatika": "gramãtika"
+"grandinė": "grandìnė"
 "gražus": "gražùs"
 "greit": "greĩt"
 "greitai": "greĩtai"
@@ -539,6 +584,7 @@
 "grąžinti": "grąžìnti"
 "grįžti": "grį̃žti"
 "grūdas": "grū́das"
+"gudrus": "gudrùs"
 "gulbė": "gul̃bė"
 "gulti": "gul̃ti"
 "gulėti": "gulė́ti"
@@ -561,6 +607,7 @@
 "gąsdinti": "gą̃sdinti"
 "gėda": "gė́da"
 "gėlė": "gėlė̃"
+"gėrimas": "gė́rimas"  # homograph: gė́rimas «beverage» (gėrìmas «drinking»)
 "hobis": "hòbis"
 "horizontas": "horizòntas"
 "idėja": "idė́ja"
@@ -583,6 +630,7 @@
 "interviu": "interviù"
 "inžinierius": "inžiniẽrius"
 "ir": "ir̃"  # mentions: arti, bei, dumti +8
+"irgi": "ir̃gi"  # pronunciation
 "isterija": "istèrija"
 "istorija": "istòrija"
 "italas": "itãlas"
@@ -691,6 +739,7 @@
 "kantrus": "kantrùs"
 "kantrybė": "kantrýbė"
 "kapas": "kãpas"
+"karalienė": "karalíenė"
 "karalius": "karãlius"
 "karalystė": "karalỹstė"
 "karas": "kãras"
@@ -728,8 +777,10 @@
 "kefyras": "kefỹras"
 "keistas": "keĩstas"
 "keisti": "keĩsti"
+"keistis": "keĩstis"
 "keistuolis": "keistuõlis"  # mentions: keistas
 "keleivis": "keleĩvis"
+"keletas": "kẽletas"  # pronunciation
 "kelias": "kẽlias"
 "keliauti": "keliáuti"
 "keliautojas": "keliáutojas"
@@ -739,6 +790,7 @@
 "keltas": "kéltas"  # mentions: kelti
 "kelti": "kélti"
 "keltis": "kéltis"
+"kenksmingas": "kenksmìngas"  # pronunciation
 "kepti": "kèpti"
 "kepurė": "kepùrė"
 "kepykla": "kepyklà"
@@ -753,6 +805,7 @@
 "kiekis": "kiẽkis"
 "kiemas": "kiẽmas"
 "kietas": "kíetas"
+"kilimas": "kìlimas"  # homograph: kìlimas «carpet» (kilìmas «rise»)
 "kilmė": "kilmė̃"
 "kilnus": "kilnùs"
 "kilogramas": "kilogrãmas"
@@ -766,6 +819,7 @@
 "kitaip": "kitaĩp"
 "kitas": "kìtas"  # mentions: keisti, tai
 "kitur": "kitur̃"
+"kitąmet": "kìtąmet"
 "kišenė": "kišẽnė"
 "kiškis": "kìškis"
 "klaida": "klaidà"
@@ -799,6 +853,7 @@
 "kompanija": "kompãnija"
 "kompiuteris": "kompiùteris"
 "kompozitorius": "kompozìtorius"
+"koncertas": "koncèrtas"  # variant: first listed (or koncer̃tas)
 "konjakas": "konjãkas"
 "konkrečiai": "konkrečiaĩ"
 "konkursas": "konkùrsas"
@@ -809,6 +864,7 @@
 "kopija": "kòpija"
 "koplyčia": "koplyčià"
 "kopėčios": "kópėčios"
+"kopūstas": "kopū̃stas"
 "koridorius": "korìdorius"
 "korupcija": "korùpcija"
 "kosmosas": "kòsmosas"
@@ -823,6 +879,7 @@
 "kraujavimas": "kraujãvimas"  # mentions: kraujagyslė
 "kraujotaka": "kraujótaka"  # mentions: kraujagyslė
 "kraujuoti": "kraujúoti"
+"krautuvė": "kráutuvė"  # variant: first listed (or krautùvė)
 "kraštas": "krãštas"
 "kraštovaizdis": "kraštóvaizdis"
 "krepšelis": "krepšẽlis"  # mentions: krepšinis
@@ -851,6 +908,7 @@
 "kunigas": "kùnigas"
 "kuprinė": "kuprìnė"
 "kur": "kur̃"  # mentions: dingti, kada, tai +1
+"kuris": "kurìs"
 "kurmis": "kùrmis"
 "kurortas": "kuròrtas"
 "kurti": "kùrti"
@@ -869,6 +927,8 @@
 "kūrėjas": "kūrė́jas"
 "labai": "labaĩ"
 "labdara": "labdarà"
+"labiau": "labiaũ"  # pronunciation
+"labiausiai": "labiáusiai"  # pronunciation
 "laboratorija": "laboratòrija"
 "lagaminas": "lagamìnas"
 "laikas": "laĩkas"
@@ -899,10 +959,14 @@
 "lapas": "lãpas"
 "lapkritis": "lãpkritis"
 "lapė": "lãpė"
+"latvis": "lãtvis"
+"laukan": "laukañ"
 "laukas": "laũkas"
 "laukti": "láukti"
 "laužas": "láužas"
 "lazda": "lazdà"
+"lašas": "lãšas"
+"ledai": "ledaĩ"
 "ledas": "lẽdas"
 "ledynas": "ledýnas"
 "leidimas": "leidìmas"  # mentions: leidinys, leidykla
@@ -914,7 +978,9 @@
 "lemputė": "lempùtė"  # mentions: lempa
 "lemti": "lémti"
 "lengvas": "leñgvas"
+"lenkas": "lénkas"
 "lenktynės": "lenktỹnės"
+"lenta": "lentà"
 "lentyna": "lentýna"
 "liaudis": "liáudis"
 "licencija": "licèncija"
@@ -975,6 +1041,8 @@
 "maistas": "maĩstas"
 "maišas": "maĩšas"
 "maišyti": "maišýti"
+"makaronai": "makarõnai"  # pronunciation
+"malonu": "malonù"  # pronunciation
 "malonumas": "malonùmas"
 "malonus": "malonùs"
 "malūnas": "malū̃nas"
@@ -1077,9 +1145,13 @@
 "mėnuo": "mė́nuo"
 "mėsa": "mėsà"
 "mįslė": "mįslė̃"
+"mūsų": "mū́sų"
+"mūšis": "mū̃šis"
 "nafta": "naftà"
 "nagas": "nãgas"
 "naktis": "naktìs"
+"nakvynė": "nakvýnė"  # variant: pronunciation (or nakvỹnė)
+"namai": "namaĩ"  # pronunciation
 "namas": "nãmas"
 "namie": "namiẽ"  # mentions: at home
 "narvas": "nar̃vas"
@@ -1092,6 +1164,7 @@
 "naujas": "naũjas"
 "naujiena": "naujíena"
 "našumas": "našùmas"
+"ne": "nè"  # pronunciation
 "neaiškus": "neáiškus"  # mentions: miglotas
 "nedarbas": "nedárbas"
 "negu": "negù"  # mentions: -gu
@@ -1106,6 +1179,7 @@
 "neramus": "neramùs"
 "nerimas": "nẽrimas"
 "nervingas": "nervìngas"
+"nes": "nès"  # pronunciation
 "neseniai": "neseniaĩ"
 "nesąmonė": "nesą́monė"
 "nesėkmė": "nesėkmė̃"
@@ -1121,9 +1195,12 @@
 "neįprastas": "neį̃prastas"
 "nešti": "nèšti"
 "niekada": "niekadà"  # mentions: niekuomet
+"niekaip": "niẽkaip"  # pronunciation
+"niekas": "niẽkas"
 "niekuomet": "niekuomèt"
 "niekur": "niekur̃"
 "noras": "nóras"
+"nors": "nórs"  # pronunciation
 "norėti": "norė́ti"
 "nosinė": "nósinė"
 "nosis": "nósis"
@@ -1135,6 +1212,7 @@
 "nulis": "nùlis"
 "numatyti": "numatýti"
 "numeris": "nùmeris"
+"nuo": "nuõ"  # pronunciation
 "nuobodus": "nuobodùs"
 "nuodingas": "nuodìngas"
 "nuogas": "núogas"
@@ -1183,6 +1261,7 @@
 "ožka": "ožkà"
 "ožys": "ožỹs"
 "pabaiga": "pabaigà"
+"pabandyti": "pabandýti"
 "pabusti": "pabùsti"  # mentions: busti
 "pabučiuoti": "pabučiúoti"
 "pabūti": "pabū́ti"
@@ -1260,6 +1339,7 @@
 "pasirodyti": "pasiródyti"
 "pasiteisinimas": "pasitéisinimas"  # mentions: justification
 "pasitraukti": "pasitráukti"  # mentions: prarasti
+"pasivaikščioti": "pasiváikščioti"
 "pasiūlymas": "pasiū́lymas"
 "paskaita": "paskaità"
 "paskui": "paskuĩ"
@@ -1291,6 +1371,7 @@
 "patogus": "patogùs"
 "patrauklus": "patrauklùs"
 "patriotas": "patriòtas"
+"pats": "pàts"
 "patvirtinti": "patvìrtinti"
 "patylėti": "patylė́ti"
 "paukštis": "paũkštis"
@@ -1308,6 +1389,7 @@
 "pavydus": "pavydùs"
 "pavydėti": "pavydė́ti"
 "pavyzdys": "pavyzdỹs"
+"pavyzdžiui": "pãvyzdžiui"  # pronunciation
 "pavėluoti": "pavėlúoti"
 "pašalinti": "pašãlinti"  # mentions: nulipdyti
 "paštas": "pãštas"
@@ -1322,6 +1404,7 @@
 "pelnas": "pel̃nas"
 "pelė": "pelė̃"
 "pelėda": "pelė́da"
+"penki": "penkì"
 "penktadienis": "penktãdienis"
 "pensija": "peñsija"
 "pensinis": "peñsinis"
@@ -1355,6 +1438,7 @@
 "pilietinis": "piliẽtinis"
 "pilietis": "piliẽtis"
 "pilietybė": "pilietýbė"
+"pilis": "pilìs"  # variant: pronunciation (or pìlis)
 "pilkas": "pìlkas"
 "pilnas": "pìlnas"
 "pilnatis": "pìlnatis"
@@ -1377,6 +1461,7 @@
 "planeta": "planetà"
 "planuoti": "planúoti"
 "platus": "platùs"
+"plaukai": "plaukaĩ"  # pronunciation
 "plaukimas": "plaukìmas"
 "plaukti": "plaũkti"
 "plauti": "pláuti"
@@ -1410,6 +1495,7 @@
 "prabusti": "prabùsti"  # mentions: busti
 "pradėti": "pradė́ti"
 "pradžia": "pradžià"
+"praeitas": "pràeitas"  # pronunciation
 "praeiti": "praeĩti"
 "praeitis": "praeitìs"  # mentions: rytdiena
 "pragaras": "prãgaras"
@@ -1423,6 +1509,7 @@
 "prastas": "prãstas"
 "prašau": "prašaũ"  # mentions: prašom
 "prašmatnus": "prašmatnùs"  # mentions: mudrus
+"prašom": "prãšom"  # pronunciation
 "prašymas": "prãšymas"
 "prašyti": "prašýti"
 "prekiautojas": "prekiáutojas"  # mentions: odininkas
@@ -1443,6 +1530,7 @@
 "prieš": "priẽš"  # mentions: priešais
 "priešas": "príešas"
 "priešininkas": "príešininkas"  # mentions: priešas
+"prieštarauti": "prieštaráuti"
 "prieštaringas": "prieštarìngas"
 "priežastis": "priežastìs"
 "priežiūra": "príežiūra"
@@ -1478,6 +1566,7 @@
 "puikus": "puikùs"
 "pulti": "pùlti"
 "puodas": "púodas"
+"puodelis": "puodẽlis"  # pronunciation
 "puokštė": "púokštė"
 "puolimas": "puolìmas"  # mentions: pulti
 "pupelė": "pupẽlė"
@@ -1504,6 +1593,7 @@
 "raidė": "raĩdė"
 "rajonas": "rajònas"
 "raktas": "rãktas"
+"ramus": "ramùs"
 "ramybė": "ramýbė"
 "ranka": "rankà"
 "rankovė": "rankóvė"
@@ -1550,6 +1640,7 @@
 "rinkėjas": "rinkė́jas"
 "rodyklė": "rodỹklė"
 "rodyti": "ródyti"
+"rojus": "rõjus"
 "romanas": "romãnas"
 "rožė": "rõžė"
 "rudas": "rùdas"
@@ -1559,6 +1650,7 @@
 "ruoštis": "ruõštis"
 "rusas": "rùsas"
 "rusiškai": "rùsiškai"
+"rytai": "rytaĩ"
 "rytas": "rýtas"
 "rytinis": "rytìnis"
 "rytoj": "rytój"
@@ -1580,6 +1672,7 @@
 "sala": "salà"
 "saldainis": "saldaĩnis"
 "saldus": "saldùs"
+"salė": "sãlė"  # homograph: sãlė «hall» (salė̃ «island»)
 "samdyti": "samdýti"
 "sankryža": "sánkryža"
 "santechnikas": "santèchnikas"
@@ -1610,6 +1703,7 @@
 "savižudybė": "savižudýbė"
 "savo": "sàvo"  # mentions: mano, mausti, tarpas +1
 "savybė": "savýbė"
+"savęs": "savę̃s"
 "sekmadienis": "sekmãdienis"
 "sekti": "sèkti"
 "sektorius": "sèktorius"
@@ -1624,6 +1718,7 @@
 "seniūnija": "seniūnijà"
 "senovė": "senóvė"  # mentions: sentikis
 "senti": "sénti"
+"septyni": "septynì"
 "sertifikatas": "sertifikãtas"
 "servetėlė": "servetė̃lė"
 "sesuo": "sesuõ"
@@ -1681,6 +1776,7 @@
 "skundas": "skuñdas"
 "skylė": "skylė̃"
 "skyrybos": "skyrýbos"  # mentions: skyryba
+"skystas": "skýstas"
 "skėtis": "skė̃tis"
 "slaptas": "slãptas"
 "slaptažodis": "slaptãžodis"
@@ -1693,6 +1789,7 @@
 "slėpti": "slė̃pti"
 "slėptis": "slė̃ptis"
 "smagus": "smagùs"
+"smakras": "smãkras"
 "smalsus": "smalsùs"
 "smarkus": "smarkùs"
 "smegenys": "smẽgenys"
@@ -1746,6 +1843,7 @@
 "sriuba": "sriubà"
 "stabdyti": "stabdýti"  # mentions: stabas
 "stadionas": "stadiònas"
+"staiga": "staigà"
 "stalas": "stãlas"
 "statyba": "statýba"
 "statyti": "statýti"
@@ -1773,6 +1871,7 @@
 "su": "sù"  # mentions: be, pradžioje, susijęs +2
 "suaugęs": "suáugęs"
 "sudaryti": "sudarýti"
+"sudie": "sudiẽ"  # pronunciation
 "sugalvoti": "sugalvóti"  # mentions: prarasti
 "sugebėti": "sugebė́ti"
 "sujungti": "sujùngti"  # mentions: sulipdyti
@@ -1785,6 +1884,7 @@
 "sulaukti": "suláukti"
 "sultys": "sùltys"
 "suma": "sumà"
+"sumokėti": "sumokė́ti"  # pronunciation
 "sumuštinis": "sumuštìnis"
 "sunaikinti": "sunaikìnti"  # mentions: naikinti
 "sunkus": "sunkùs"
@@ -1800,6 +1900,7 @@
 "sutartis": "sutartìs"
 "sutikti": "sutìkti"
 "sutrikimas": "sutrikìmas"
+"sutuoktinis": "sutuoktìnis"
 "suvalgyti": "suválgyti"
 "suvenyras": "suvenỹras"
 "suvokti": "suvókti"
@@ -1835,7 +1936,9 @@
 "sėsti": "sė́sti"
 "sūnus": "sūnùs"
 "sūnėnas": "sūnė́nas"  # mentions: posūnis
+"sūris": "sū́ris"  # homograph: sū́ris «cheese» (sū̃ris «saltiness»)
 "tabakas": "tabãkas"
+"tada": "tadà"
 "tai": "taĩ"  # mentions: būti, dzin, ketinti
 "taika": "taikà"  # mentions: taikdarys
 "taikus": "taikùs"  # mentions: taikdarys
@@ -1851,6 +1954,7 @@
 "tamsa": "tamsà"
 "tamsus": "tamsùs"
 "tapti": "tàpti"
+"tarimas": "tarìmas"
 "tarnauti": "tarnáuti"
 "tarnautojas": "tarnáutojas"
 "tarnyba": "tarnýba"
@@ -1951,6 +2055,7 @@
 "trumpalaikis": "trumpalaĩkis"
 "trumpas": "trum̃pas"
 "trupinys": "trupinỹs"  # mentions: lustas
+"trys": "trỹs"
 "trūkumas": "trū́kumas"  # mentions: vaina
 "tu": "tù"  # mentions: ketinti, kol, tavo +1
 "tualetas": "tualètas"
@@ -1982,14 +2087,17 @@
 "tėvas": "tė́vas"
 "tėvelis": "tėvẽlis"  # mentions: tėvas
 "tėvynė": "tėvỹnė"
+"tūkstantis": "tū́kstantis"  # pronunciation
 "ugdymas": "ùgdymas"
 "ugniagesys": "ugniagesỹs"
 "ugnikalnis": "ugnìkalnis"
+"ugnis": "ugnìs"  # variant: pronunciation (or ùgnis)
 "unikalus": "unikalùs"
 "universitetas": "universitètas"
 "uodas": "úodas"
 "uodega": "uodegà"
 "uoga": "úoga"
+"uogauti": "uogáuti"
 "uogienė": "uogiẽnė"
 "uola": "uolà"
 "uostas": "úostas"
@@ -2043,6 +2151,7 @@
 "vairuoti": "vairúoti"
 "vairuotojas": "vairúotojas"
 "vaisius": "vaĩsius"
+"vaistas": "váistas"  # variant: first listed (or vaĩstas)
 "vaistinė": "váistinė"
 "vaivorykštė": "vaivórykštė"
 "vaizdas": "vaĩzdas"
@@ -2050,6 +2159,7 @@
 "vaizduotė": "vaizduõtė"
 "vaišės": "váišės"
 "vakar": "vãkar"
+"vakarai": "vakaraĩ"
 "vakaras": "vãkaras"
 "vakarieniauti": "vakarieniáuti"
 "vakarienė": "vakariẽnė"
@@ -2070,6 +2180,7 @@
 "vandentiekis": "vandéntiekis"  # mentions: vanduo
 "vandenynas": "vandenýnas"
 "vanduo": "vanduõ"
+"vardadienis": "vardãdienis"
 "vardas": "var̃das"
 "vargas": "var̃gas"
 "vargšas": "var̃gšas"
@@ -2141,6 +2252,8 @@
 "viešbutis": "viẽšbutis"
 "vikrus": "vikrùs"
 "vilkas": "vil̃kas"
+"vilkolakis": "vilkólakis"
+"vilna": "vìlna"
 "viltis": "viltìs"
 "vinis": "vinìs"
 "violetinis": "violètinis"
@@ -2151,9 +2264,11 @@
 "virvė": "vir̃vė"
 "viryklė": "virỹklė"
 "virėjas": "virė́jas"
+"virš": "vir̃š"  # pronunciation
 "viršininkas": "vir̃šininkas"
 "viršus": "viršùs"
 "viršūnė": "viršū́nė"
+"visada": "visadà"  # pronunciation
 "visiškai": "vìsiškai"
 "visiškas": "vìsiškas"
 "viskas": "vìskas"  # mentions: tapti
@@ -2166,6 +2281,7 @@
 "vištiena": "vištíena"
 "viščiukas": "viščiùkas"
 "vogti": "võgti"
+"vokas": "vókas"
 "vokietis": "vókietis"
 "vonia": "vonià"
 "voras": "vóras"
@@ -2188,6 +2304,7 @@
 "vėliava": "vė̃liava"
 "vėluoti": "vėlúoti"
 "vėsus": "vėsùs"
+"vėžlys": "vėžlỹs"
 "yda": "ýda"
 "ypatingas": "ypatìngas"
 "ypač": "ýpač"
@@ -2234,18 +2351,23 @@
 "įtarti": "įtar̃ti"
 "įteikti": "įteĩkti"  # mentions: atiduoti
 "įvairus": "įvairùs"
+"įvertinti": "įvértinti"
 "įvykis": "į́vykis"
 "įvykti": "įvỹkti"
 "įėjimas": "įėjìmas"
+"įžeidinėti": "įžeidinė́ti"
 "šachmatai": "šachmãtai"
 "šaka": "šakà"
 "šaknis": "šaknìs"
+"šakutė": "šakùtė"
 "šaldyti": "šáldyti"  # mentions: šalti
 "šaldytuvas": "šaldytùvas"
+"šalia": "šalià"  # pronunciation
 "šaligatvis": "šalìgatvis"
 "šalikas": "šãlikas"
 "šalin": "šaliñ"
 "šalis": "šalìs"
+"šalna": "šalnà"
 "šaltas": "šáltas"
 "šalti": "šálti"
 "šaltinis": "šaltìnis"
@@ -2262,6 +2384,7 @@
 "šeima": "šeimà"
 "šeimininkas": "šeiminiñkas"
 "šepetys": "šepetỹs"
+"šeši": "šešì"
 "šeštadienis": "šeštãdienis"
 "šeštas": "šẽštas"  # mentions: Šeštinės
 "šešėlis": "šešė́lis"
@@ -2291,6 +2414,7 @@
 "šokėjas": "šokė́jas"
 "šonas": "šónas"
 "šonkaulis": "šónkaulis"
+"štai": "štaĩ"  # pronunciation
 "šulinys": "šulinỹs"
 "šuo": "šuõ"
 "švarus": "švarùs"
@@ -2305,6 +2429,7 @@
 "švilpukas": "švilpùkas"
 "švyturys": "švyturỹs"
 "švytėti": "švytė́ti"  # mentions: švyturininkas, švyturys
+"šykštus": "šykštùs"
 "šypsena": "šỹpsena"
 "šypsotis": "šypsótis"
 "šįryt": "šį̃ryt"
