@@ -258,9 +258,11 @@ try {
 // Ukrainian grammar blocks: content/uk/blocks/<part>/<id>-<slug>.yaml, one block per file (docs/UK-GRAMMAR-PLAN.md §5).
 const ukBlocks: UkBlock[] = [];
 const UK_CHEATSHEET_FILE = "content/uk/cheatsheet.yaml";
+/** Checked exceptions for scripts/uk-vesum.py (not bundled). */
+const UK_VESUM_ALLOW_FILE = "content/uk/vesum-allow.yaml";
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (!isUk(rel) || rel === UK_CHEATSHEET_FILE) continue;
+  if (!isUk(rel) || rel === UK_CHEATSHEET_FILE || rel === UK_VESUM_ALLOW_FILE) continue;
   if (!/^content\/uk\/blocks\/\d{2}\/uk-b-\d{4}-[a-z0-9-]+\.yaml$/.test(rel)) {
     errors.push(`${rel}: Ukrainian blocks live in content/uk/blocks/<part>/<id>-<slug>.yaml`);
     continue;
