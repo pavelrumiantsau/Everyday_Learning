@@ -1,0 +1,79 @@
+# Pictures for content/es/vocab/a1-0063.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+es-w-0063: "A smiling person relaxing in an armchair in a cozy living room with a plant"   # vivir
+es-w-0064: "A man in a suit sitting behind a big desk, pointing a finger like a manager"   # jefe
+es-w-0065: "A tiny mouse standing next to a big teacup"   # pequeño
+es-w-0066: "One open human hand, palm up, with five fingers spread"   # mano
+es-w-0067: "A person eating a plate of spaghetti with a fork, smiling"   # comer
+es-w-0068: "A blue family car parked on a street"   # coche
+es-w-0069: "A huge elephant standing next to a tiny person"   # grande
+es-w-0070: "Close-up of one open human eye with eyelashes and a blue iris"   # ojo
+es-w-0071: "A person sleeping in a bed under a blanket, eyes closed, with a small moon at the window"   # dormir
+es-w-0072: "Front view of a smiling person's face with eyes, nose and mouth"   # cara
+es-w-0073: "A child easily lifting a very light feather with one finger, smiling"   # fácil
+es-w-0074: "A person sitting at a desk typing on a laptop"   # trabajar
+es-w-0075: "A teacher at a blackboard with pupils sitting at desks"   # clase
+es-w-0076: "A sweating person struggling to push a huge boulder up a steep hill"   # difícil
+es-w-0077: "A person at a market stall handing coins to a seller and taking a bag of fruit"   # comprar
+es-w-0078: "A table set with a plate of rice, chicken and salad"   # comida
+es-w-0079: "A cheerful teenager with a skateboard"   # joven
+es-w-0080: "A person at a shop counter holding out a credit card to a seller"   # pagar
+es-w-0081: "A smartphone with a blank bright screen"   # teléfono
+es-w-0082: "A very old man with white hair and a long white beard, wrinkles and a walking stick"   # viejo
+es-w-0083: "A person looking around the room with a magnifying glass, searching"   # buscar
+es-w-0084: "A school building with a flag and children walking in with backpacks"   # escuela
+es-w-0085: ~   # ayer
+es-w-0086: "A person holding a phone to their ear and speaking"   # llamar
+es-w-0087: "People dancing at a party with balloons and a disco ball"   # fiesta
+es-w-0088: "A tiny house on a hilltop seen very far away at the end of a long road"   # lejos
+es-w-0089: "Two people meeting for the first time and shaking hands"   # conocer
+es-w-0090: "A tidy bedroom with a bed, a bedside lamp and a window"   # habitación
+es-w-0091: "A pretty young woman with a flower in her hair, smiling"   # bonito
+es-w-0092: "A person with a thought bubble containing a question mark above their head"   # pensar
+es-w-0093: "A mother and her grown son standing together, the son waving"   # hijo
+es-w-0094: "A muscular man flexing his arm muscle"   # fuerte
+es-w-0095: "A runner in a ready crouching position at a starting line"   # empezar
+es-w-0096: "A father carrying his small child on his shoulders"   # padre
+es-w-0097: "A bird flying out of an open cage into the blue sky"   # libre
+es-w-0098: "Two children playing with a ball in a garden"   # jugar
+es-w-0099: "Two girls, an older sister with her arm around a younger sister, smiling"   # hermana
+es-w-0100: "A calm lake with a quiet rowboat in the morning mist"   # tranquilo
+es-w-0101: "A person walking while carrying a heavy shopping bag in each hand"   # llevar
+es-w-0102: "A hand held up showing three fingers"   # número
+es-w-0103: "A wide-eyed child looking with fascination at a glowing globe"   # interesante
+es-w-0104: "A hand placing a cup down on a table"   # poner
+es-w-0105: "A modern office with a desk, a computer and a chair"   # oficina
+es-w-0106: "A sad child with tears on the cheeks sitting alone"   # triste
+es-w-0107: "A person handing a wrapped gift to another person"   # dar
+es-w-0108: "A bed with a pillow and a blanket"   # cama
+es-w-0109: "A perfectly shaped golden star with sparkles around it"   # perfecto
+es-w-0110: "A person at an empty railway platform looking at a train leaving into the distance"   # perder
+es-w-0111: "A quiet city street with houses on both sides and a streetlamp"   # calle
+es-w-0112: "A person holding a shirt, standing in front of a mirror and putting on a different shirt"   # cambiar
+es-w-0113: "One closed hardcover book with a red cover"   # libro
+es-w-0114: "A person holding a ladder steady for another person who is picking apples"   # ayudar
+es-w-0115: "A white cup of steaming black coffee on a saucer"   # café
+es-w-0116: "A runner crossing the finish line with arms raised"   # terminar
+es-w-0117: "A friendly brown dog with floppy ears sitting and wagging its tail"   # perro
+es-w-0118: "A person with headphones on, eyes closed, enjoying the music"   # escuchar
+es-w-0119: "A traveler with a backpack on a mountain road with a car packed for a journey"   # viaje
+es-w-0120: "A wardrobe with shirts, trousers and a dress on hangers"   # ropa
+es-w-0121: "A film clapperboard and a film reel"   # película
+es-w-0122: "A man reading a newspaper with a surprised face"   # noticia
+es-w-0123: "A person looking at a wristwatch while waiting for a friend at a cafe table"   # cita
+es-w-0124: "A birthday cake with a few candles and a smiling grandmother"   # edad
+es-w-0125: "A small house with a mailbox and a signpost pointing to a street"   # dirección
+es-w-0126: "A small shop front with an awning and goods displayed in the window"   # tienda
+es-w-0127: "A wooden dining table with four chairs around it"   # mesa
+es-w-0128: "A family eating dinner at a table by candlelight in the evening"   # cena
+es-w-0129: "A child about to blow out candles on a birthday cake with balloons around"   # cumpleaños
+es-w-0130: "Four colleagues sitting around a meeting table with a presentation screen"   # reunión
+es-w-0131: "A gift box wrapped in colorful paper with a ribbon bow"   # regalo
+es-w-0132: "A passenger train on rails coming through the countryside"   # tren
+es-w-0133: "A kitchen with a stove, a pot, a frying pan and cupboards"   # cocina
+es-w-0134: "A doctor in a white coat with a stethoscope around the neck, smiling"   # médico
+es-w-0135: "A healthy person jogging in a park with a bright smile and an apple in hand"   # salud
+es-w-0136: "A shivering person in a scarf and hat with snowflakes falling and breath clouds"   # frío
+es-w-0137: "A hungry child holding an empty bowl and a spoon, hand on a rumbling belly"   # hambre
+es-w-0138: "A person playing an acoustic guitar with musical notes floating around"   # música

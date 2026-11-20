@@ -1,0 +1,59 @@
+name: images
+
+# Draws the next word pictures from scripts/images/*.yaml with Cloudflare Workers AI and keeps ONE pull request
+# (branch images/daily) up to date. Nothing goes live until you merge it; merging deploys like any other change.
+# The free allowance (10,000 neurons) renews at 00:00 UTC, so the job runs just after it and stops cleanly when it
+# is used up. Needs the secrets CLOUDFLARE_AI_TOKEN (Workers AI permission) and CLOUDFLARE_AI_ACCOUNT_ID (the account
+# whose Workers AI page issued the token; it can differ from the deploy account). Prompts for new words are added to
+# scripts/images/ in a normal PR; this job only draws what has a prompt and no picture yet.
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency: images
+
+jobs:
+  draw:
+    if: github.repository == 'pavelrumiantsau/Everyday_Learning'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_AI_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_AI_ACCOUNT_ID }}
+      BRANCH: images/daily
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Continue the open branch, or start from main
+        run: |
+          git config user.name "Pavel Rumiantsau"
+          git config user.email "p.rumiantsau@gmail.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null; then
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+            git merge --no-edit origin/main
+          else
+            git checkout -b "$BRANCH"
+          fi
+      - run: python3 -m pip install -q pyyaml requests pillow
+      - run: python3 scripts/images.py --self-test
+      - name: Draw
+        run: python3 scripts/images.py
+      - name: Commit and open or update the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add apps/miniapp/public/img
+          if git diff --cached --quiet; then echo "Nothing new to push."; exit 0; fi
+          n=$(git diff --cached --name-only -- 'apps/miniapp/public/img/*.webp' | wc -l)
+          git commit -m "Word pictures: $n more (Workers AI)"
+          git push origin "$BRANCH"
+          if [ -z "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')" ]; then
+            gh pr create --base main --head "$BRANCH" --title "Word pictures (daily batch)" \
+              --body "Pictures drawn by scripts/images.py. Check them in the contact sheet (python3 scripts/images.py --sheet), then merge; the deploy runs on merge. Bad ones: add the id to --redo."
+          fi
