@@ -56,6 +56,10 @@ pnpm content:sources  # download frequency lists + Tatoeba into .cache/ (once)
 pnpm content:candidates lt <fromRank> <count>   # also es, fr
 python3 scripts/batch-to-yaml.py scripts/batches/<file>.py <lang> <firstId> content/<lang>/vocab/<file>.yaml
 pnpm content:audio    # PAUSED for new content (asset file limit, see PLAN "Inputs…" 5); needs .cache/venv with edge-tts
+pnpm content:images   # word pictures (pilot, Nov 2026) in apps/miniapp/public/img: hand-drawn <lang>/<id>.svg (79 Spanish ones so far)
+                      # win; the rest is generated from scripts/images/*.yaml (id → scene, or ~ for none) by Workers AI, which needs
+                      # CLOUDFLARE_API_TOKEN. After adding SVG files: `python3 scripts/images.py --local` (manifest only); check by eye
+                      # with `--sheet`
 python3 scripts/tatoeba.py lt 'regex'   # find Tatoeba examples (also es/fr; --words w1 w2 to auto-pick per word)
 pnpm content:stress   # LT stress marks from Wiktionary → content/lt/stress.yaml (cached, ~1 req/s); run after new LT words
 pnpm content:reports  # open "report a mistake" entries from the live DB

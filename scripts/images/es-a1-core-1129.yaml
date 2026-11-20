@@ -1,0 +1,207 @@
+# Pictures for content/es/vocab/a1-0000-core-1129.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-1129: "A smiling person pointing at themselves with their thumb"   # yo
+es-w-1130: "A friendly person pointing a finger straight at the viewer"   # tú
+es-w-1131: ~   # ser
+es-w-1132: ~   # estar
+es-w-1133: ~   # él
+es-w-1134: ~   # ella
+es-w-1135: ~   # usted
+es-w-1136: "Three friends standing close together with arms around each other's shoulders, smiling at the viewer"   # nosotros
+es-w-1137: ~   # ellos
+es-w-1138: ~   # qué
+es-w-1139: ~   # quién
+es-w-1140: ~   # dónde
+es-w-1141: ~   # cuándo
+es-w-1142: ~   # cómo
+es-w-1143: ~   # cuánto
+es-w-1144: ~   # cuál
+es-p-1145: ~   # por qué
+es-w-1146: ~   # porque
+es-w-1147: ~   # y
+es-w-1148: ~   # o
+es-w-1149: ~   # pero
+es-w-1150: ~   # si
+es-p-1151: "A grateful person with both hands on their heart, bowing slightly to someone who gave them a gift"   # gracias
+es-p-1152: "A cheerful person waving hello with a raised hand at an open front door"   # hola
+es-w-1153: "One single red apple"   # uno
+es-w-1154: "Two red apples side by side"   # dos
+es-w-1155: "Three red apples in a row"   # tres
+es-w-1156: "Four red apples arranged in a square"   # cuatro
+es-w-1157: ~   # cinco
+es-w-1158: ~   # seis
+es-w-1159: ~   # siete
+es-w-1160: ~   # ocho
+es-w-1161: ~   # nueve
+es-w-1162: ~   # diez
+es-w-1163: ~   # once
+es-w-1164: ~   # doce
+es-w-1165: ~   # quince
+es-w-1166: ~   # veinte
+es-w-1167: ~   # mil
+es-w-1168: "A shiny gold medal on a blue ribbon"   # primero
+es-w-1169: ~   # segundo
+es-w-1170: ~   # tercero
+es-w-1171: "A mother tenderly holding her baby in her arms"   # madre
+es-w-1172: "A smiling father and mother standing side by side, holding hands"   # padres
+es-w-1173: "Two brothers, an older boy with his arm around his younger brother"   # hermano
+es-w-1174: "A father holding the hand of his little daughter in a dress"   # hija
+es-w-1175: "A grandfather with white hair, glasses and a walking stick, smiling"   # abuelo
+es-w-1176: "A grandmother with grey hair in a bun, knitting in an armchair"   # abuela
+es-w-1177: ~   # tío
+es-w-1178: ~   # tía
+es-w-1179: ~   # marido
+es-w-1180: "Portrait of an adult woman, smiling"   # mujer
+es-w-1181: ~   # esposa
+es-w-1182: "A groom in a dark suit with a flower on his lapel, waiting at a wedding arch"   # novio
+es-w-1183: "A bride in a white wedding dress and veil holding a bouquet"   # novia
+es-w-1184: "Portrait of an adult man with a short beard, smiling"   # hombre
+es-w-1185: "One simple human figure standing alone, plain and neutral"   # persona
+es-w-1186: "A little boy sitting on the floor playing with a toy car"   # niño
+es-w-1187: "A cheerful young boy about ten years old in a t-shirt, waving at the viewer"   # chico
+es-w-1188: "A teenage girl with a ponytail and a backpack"   # chica
+es-w-1189: "A smiling child giving a big thumbs up"   # bueno
+es-w-1190: "A frowning person giving a thumbs down"   # malo
+es-w-1191: ~   # muy
+es-w-1192: ~   # también
+es-w-1193: ~   # tampoco
+es-w-1194: ~   # más
+es-w-1195: ~   # menos
+es-w-1196: "An enormous pile of books, much taller than the small person standing next to it"   # mucho
+es-w-1197: "A large white plate with only one tiny green pea on it"   # poco
+es-w-1198: ~   # todo
+es-w-1199: "An open cardboard box that is completely empty, seen from above"   # nada
+es-w-1200: ~   # algo
+es-w-1201: ~   # alguien
+es-w-1202: "An empty classroom with rows of empty chairs and no people"   # nadie
+es-w-1203: ~   # cada
+es-w-1204: ~   # otro
+es-w-1205: "Identical twin sisters wearing exactly the same dress and the same hairstyle"   # mismo
+es-w-1206: ~   # con
+es-w-1207: ~   # sin
+es-w-1208: ~   # para
+es-w-1209: ~   # por
+es-w-1210: ~   # hasta
+es-w-1211: ~   # desde
+es-w-1212: ~   # sobre
+es-w-1213: "A small cat sitting between two big dogs"   # entre
+es-w-1214: ~   # bien
+es-w-1215: ~   # mal
+es-w-1216: ~   # ya
+es-w-1217: ~   # entonces
+es-w-1218: ~   # casi
+es-w-1219: "One person sitting alone on a bench in an empty park"   # solo
+es-w-1220: ~   # tan
+es-w-1221: "A big red location pin stuck in a map right in the foreground"   # aquí
+es-w-1222: "A hiker pointing at a small house far away on a distant hill"   # allí
+es-w-1223: "The stages of life in a row: a baby, a child, an adult and an old person"   # vida
+es-w-1224: ~   # cosa
+es-w-1225: ~   # pasar
+es-w-1226: "Planet Earth as a globe seen from space"   # mundo
+es-w-1227: ~   # momento
+es-w-1228: ~   # deber
+es-w-1229: ~   # lugar
+es-w-1230: ~   # vez
+es-w-1231: ~   # parecer
+es-w-1232: "A round pizza with one slice pulled away from the rest"   # parte
+es-w-1233: "A blank name badge pinned to a shirt"   # nombre
+es-w-1234: ~   # quedar
+es-w-1235: "A couple hugging with a red heart floating above them"   # amor
+es-w-1236: "A person with a glowing light bulb above their head"   # idea
+es-w-1237: ~   # dejar
+es-w-1238: ~   # razón
+es-w-1239: ~   # lado
+es-w-1240: "Three ducklings following their mother duck in a line"   # seguir
+es-w-1241: "A winding dirt path leading through green hills"   # camino
+es-w-1242: "An open storybook with a castle and a dragon rising out of its pages"   # historia
+es-w-1243: ~   # sentir
+es-w-1244: "A green four-leaf clover and a golden horseshoe"   # suerte
+es-w-1245: "A frightened child hiding under a blanket from a big dark shadow on the wall"   # miedo
+es-w-1246: "A person stepping in through the open front door of a house, seen from outside"   # entrar
+es-w-1247: "A stopwatch"   # minuto
+es-w-1248: ~   # mes
+es-w-1249: ~   # mayo
+es-w-1250: "A human head in side view, bald, from the neck up"   # cabeza
+es-w-1251: "Close-up of a smiling open mouth with lips and teeth"   # boca
+es-w-1252: "A woman combing her very long flowing hair"   # pelo
+es-w-1253: "One bare human foot, side view"   # pie
+es-w-1254: "A person seen from behind, showing their bare back"   # espalda
+es-w-1255: "A big red heart"   # corazón
+es-w-1256: "A person holding their belly with both hands, the stomach organ highlighted inside"   # estómago
+es-w-1257: "Close-up of a person's neck and shoulders, a hand touching the neck"   # cuello
+es-w-1258: "A very happy person jumping for joy with arms in the air"   # feliz
+es-w-1259: "An angry man with a red face, crossed arms and steam coming out of his ears"   # enfadado
+es-w-1260: "A nervous person biting their nails, sweat drops on the forehead"   # nervioso
+es-w-1261: "A worried woman with a hand on her forehead, looking at her phone"   # preocupado
+es-w-1262: "A glass of red wine next to a wine bottle"   # vino
+es-w-1263: "A raw red steak on a wooden cutting board"   # carne
+es-w-1264: "One yellow banana"   # plátano
+es-w-1265: "Assorted fresh vegetables: carrot, broccoli, tomato, pepper and lettuce"   # verdura
+es-w-1266: "A salt shaker tipped over with white salt spilling out"   # sal
+es-w-1267: "A cutaway of an apartment building showing one cozy small flat inside"   # piso
+es-w-1268: "A bathroom with a bathtub, a sink and a mirror"   # baño
+es-w-1269: "A living room with a sofa, a coffee table, a rug and a floor lamp"   # salón
+es-w-1270: "A closed wooden front door with a round handle"   # puerta
+es-w-1271: "A shiny wooden floor being cleaned with a mop"   # suelo
+es-w-1272: "A pair of blue trousers"   # pantalón
+es-w-1273: "A hospital building with a red cross and an ambulance in front"   # hospital
+es-w-1274: "A pharmacy shop front with a green cross above the door"   # farmacia
+es-w-1275: "A university building with columns and students in graduation caps in front"   # universidad
+es-w-1276: "A small church with a bell tower"   # iglesia
+es-w-1277: "A hotel entrance with a bellhop in uniform pushing a luggage cart"   # hotel
+es-w-1278: "A passenger plane flying among clouds"   # avión
+es-w-1279: "A boat sailing on a calm blue sea"   # barco
+es-w-1280: ~   # derecha
+es-w-1281: "A perfectly straight road going to the horizon, seen from the middle of the road"   # recto
+es-w-1282: ~   # delante
+es-w-1283: "A child hiding behind a big tree, peeking out"   # detrás
+es-w-1284: "A cat sitting on top of a tall stack of books"   # encima
+es-w-1285: "A cat hiding underneath a chair"   # debajo
+es-w-1286: "A hand holding banknotes and coins"   # efectivo
+es-w-1287: "A shiny golden and silver euro coin lying on euro banknotes"   # euro
+es-w-1288: "A waiter handing over a restaurant bill on a small tray"   # cuenta
+es-w-1289: "A person holding their head in pain, red lightning bolts around the head"   # dolor
+es-w-1290: "A teacher standing at a blackboard, pointing with a pointer in front of pupils"   # profesor
+es-w-1291: "A male nurse in blue scrubs with a stethoscope, holding a clipboard"   # enfermero
+es-w-1292: "A lawyer in a suit in a courtroom next to the scales of justice"   # abogado
+es-w-1293: "A police officer in uniform and cap"   # policía
+es-w-1294: "A thermometer with a red column, a sun on one side and a snowflake on the other"   # temperatura
+es-w-1295: ~   # cierto
+es-w-1296: ~   # claro
+es-w-1297: ~   # seguro
+es-w-1298: "A man in a suit with a very serious face, not smiling"   # serio
+es-w-1299: "One red tulip standing out in a field of white tulips"   # único
+es-w-1300: ~   # suficiente
+es-w-1301: ~   # posible
+es-w-1302: ~   # peor
+es-w-1303: ~   # ocurrir
+es-w-1304: ~   # permitir
+es-w-1305: "A white rabbit appearing out of a magician's black top hat"   # aparecer
+es-w-1306: ~   # conseguir
+es-w-1307: "Runners crouching at the starting line, a starter raising a flag"   # comenzar
+es-w-1308: "A waiter carrying a tray with a plate of food and a glass, walking toward a table"   # servir
+es-w-1309: ~   # mantener
+es-w-1310: "A person tripping over a stone and falling forward onto the sidewalk"   # caer
+es-w-1311: "A sculptor shaping a statue out of clay"   # crear
+es-w-1312: "A hand placing the last piece into an almost finished jigsaw puzzle"   # acabar
+es-w-1313: "An athlete on the top step of a podium lifting a golden trophy"   # ganar
+es-w-1314: "A gravestone with flowers in a quiet cemetery"   # morir
+es-w-1315: "Two people shaking hands and smiling"   # aceptar
+es-w-1316: ~   # comprender
+es-w-1317: ~   # reconocer
+es-w-1318: "A person holding out a plate of cookies to a guest with both hands"   # ofrecer
+es-w-1319: "An explorer with a magnifying glass finding a treasure chest in a cave"   # descubrir
+es-w-1320: "A person lifting a heavy cardboard box up from the floor with both hands"   # levantar
+es-w-1321: ~   # intentar
+es-w-1322: ~   # usar
+es-w-1323: "A child holding up a colorful drawing in both hands toward the viewer"   # mostrar
+es-w-1324: "A person pushing a heavy wooden wardrobe across the floor"   # mover
+es-w-1325: "Heavy rain falling on a person with an umbrella"   # llover
+es-w-1326: "Snow falling on a small village with a snowman in front"   # nevar
+es-w-1327: "Three geometric shapes: a circle, a square and a triangle"   # forma
+es-w-1328: ~   # caso
+es-w-1329: "A football team in matching jerseys in a huddle"   # equipo
+es-w-1330: "One big black dot in the middle of a white sheet of paper, a pencil next to it"   # punto
+es-w-1331: ~   # realidad

@@ -5,6 +5,7 @@ import { Play } from "../Audio";
 import { ClozeReview } from "../features/Grammar";
 import { FixReview } from "./FixReview";
 import { FLAG } from "../flags";
+import { Picture } from "../Picture";
 import { ReportButton } from "../ReportButton";
 import { haptic } from "../telegram";
 
@@ -92,6 +93,7 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
             <span className="answer">
               <span className="meaning">{forms ?? (item.gen ? `${head}, ${item.gen}` : head)}</span>
               <Play id={item.id} kind="word" />
+              <Picture id={item.id} />
               {note && <span className="note">💡 {note}</span>}
               {example && (
                 <span className="example">
@@ -115,6 +117,7 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
           <span className="answer">
             {isForms ? <span className="forms big">{forms}</span> : <span className="meaning">{meaning}</span>}
             {isForms ? <span className="hint">{meaning}</span> : forms && <span className="forms">{forms}</span>}
+            <Picture id={item.id} />
             {note && <span className="note">💡 {note}</span>}
             {example && (
               <span className="example">
