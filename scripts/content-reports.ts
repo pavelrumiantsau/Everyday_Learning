@@ -36,7 +36,11 @@ for (const r of rows) {
   const item = r.item_id ? items.get(String(r.item_id)) : undefined;
   console.log(
     `• ${new Date(Number(r.created_at)).toISOString().slice(0, 16)}  ${r.id}\n` +
-      (item ? `  ${item.id} ${item.text} — ${Object.values(item.meaning).join(" / ")} (card ${r.card_id})\n` : "") +
+      (item
+        ? `  ${item.id} ${item.text} — ${Object.values(item.meaning).join(" / ")} (card ${r.card_id})\n`
+        : r.item_id || r.card_id
+          ? `  ${r.item_id ?? ""} (card ${r.card_id ?? "—"})\n` // e.g. a Ukrainian block + exercise
+          : "") +
       (r.text ? `  "${r.text}"\n` : ""),
   );
 }

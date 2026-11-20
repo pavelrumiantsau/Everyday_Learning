@@ -330,7 +330,8 @@ function BlockScreen({ id, onBack, onRun }: { id: string; onBack: () => void; on
   const [detail, setDetail] = useState<UkBlockDetail | null>(null);
   const [tab, setTab] = useState<"rule" | "mistakes">("rule");
   const [error, setError] = useState<string | null>(null);
-  const load = useCallback(() => getUkBlock(id).then(setDetail, (e) => setError(String(e))), [id]);
+  // Answers still on the device go first, so progress, «Мои ошибки» and the next session include them.
+  const load = useCallback(() => flushUkAnswers().then(() => getUkBlock(id)).then(setDetail, (e) => setError(String(e))), [id]);
   useEffect(() => void load(), [load]);
 
   if (error) return <Failure error={error} onBack={onBack} />;
@@ -344,8 +345,12 @@ function BlockScreen({ id, onBack, onRun }: { id: string; onBack: () => void; on
   };
   const known = async () => {
     haptic("tap");
-    await markUkBlockKnown(block.id);
-    onBack();
+    try {
+      await markUkBlockKnown(block.id);
+      onBack();
+    } catch (e) {
+      setError(String(e));
+    }
   };
   const share = progress.recent === null ? "" : ` · верно ${Math.round(progress.recent * 100)} % из последних`;
   return (

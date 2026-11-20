@@ -1,7 +1,7 @@
 // Grammar lessons: rule of the day (weekday rotation), /rule, Mini App lesson API, exercises → cloze review cards.
-import { chosenLangs, exerciseCardId, holdsFrenchGrammar, inWindow, ruleLangsForDay, localClock, newCard, parseExerciseCardId, pickLesson, type Exercise, type Lang, type Lesson } from "@el/core";
+import { chosenLangs, exerciseCardId, holdsFrenchGrammar, inWindow, ruleLangsForDay, localClock, newCard, parseExerciseCardId, pickLesson, visibleTo, type Exercise, type Lang, type Lesson } from "@el/core";
 import { Hono } from "hono";
-import { LESSON_BY_ID, LESSONS } from "../content";
+import { LESSON_BY_ID } from "../content";
 import { Db } from "../db";
 import type { BotContext, Feature } from "../feature";
 import { getPrefs } from "../prefs";
@@ -191,7 +191,8 @@ api.get("/grammar/history", async (c) => {
 api.get("/grammar/diagnostic", async (c) => {
   const lang = c.req.query("lang") ?? "lt";
   const done = await doneLessonIds(c.env.DB);
-  const lessons = LESSONS.filter((l) => langOfLesson(l) === lang && !done.has(l.id))
+  const lessons = learnerLessons()
+    .filter((l) => langOfLesson(l) === lang && !done.has(l.id))
     .sort((a, b) => a.order - b.order)
     .map((l) => ({ id: l.id, title: l.title, cefr: l.cefr, exercises: [l.exercises[0]!, l.exercises.at(-1)!] }));
   return c.json({ lessons });
@@ -199,7 +200,8 @@ api.get("/grammar/diagnostic", async (c) => {
 
 api.post("/grammar/lessons/:id/done", async (c) => {
   const lesson = LESSON_BY_ID.get(c.req.param("id"));
-  if (!lesson) return c.json({ error: "unknown lesson" }, 404);
+  // Only this learner's lessons (A-level foundation lessons never reach the owner).
+  if (!lesson || !visibleTo([lesson], currentProfile()).length) return c.json({ error: "unknown lesson" }, 404);
   // Already known (placement diagnostic): { cards: false } marks it done without adding its exercises to reviews.
   const body = await c.req.json<{ cards?: boolean }>().catch(() => ({}) as { cards?: boolean });
   const db = new Db(c.env.DB);

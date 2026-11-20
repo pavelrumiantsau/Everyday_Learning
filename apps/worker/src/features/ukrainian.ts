@@ -190,11 +190,15 @@ api.post("/uk/answers", async (c) => {
   const d1 = c.env.DB;
   const now = Date.now();
   let saved = 0;
+  let rejected = 0;
   for (const raw of body.answers as { id?: unknown; exercise?: unknown; correct?: unknown; mode?: unknown; at?: unknown }[]) {
-    const ref = typeof raw.exercise === "string" ? parseUkExerciseId(raw.exercise) : null;
+    const ref = typeof raw?.exercise === "string" ? parseUkExerciseId(raw.exercise) : null;
     const block = ref && UK_BLOCK_BY_ID.get(ref.blockId);
     if (!ref || !block?.exercises[ref.index] || typeof raw.id !== "string" || !raw.id || typeof raw.correct !== "boolean" || !MODES.includes(raw.mode as Mode)) {
-      return c.json({ error: "bad answer", answer: raw }, 400);
+      // Dropped, not a 400: the device resends the whole batch until it is accepted, so one stale answer
+      // (exercise removed, old Mini App) would otherwise block every answer after it.
+      rejected++;
+      continue;
     }
     const at = typeof raw.at === "number" && raw.at > 0 && raw.at <= now ? raw.at : now;
     const exerciseId = ukExerciseId(block.id, ref.index);
@@ -217,7 +221,7 @@ api.post("/uk/answers", async (c) => {
         .run();
     }
   }
-  return c.json({ saved });
+  return c.json({ saved, rejected });
 });
 
 /**

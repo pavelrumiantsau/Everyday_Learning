@@ -46,7 +46,8 @@ const deviceTimezone = () => {
   }
 };
 
-const today = () => new Date().toISOString().slice(0, 10);
+// The device's local date (toISOString would give yesterday's date just after midnight east of UTC).
+const today = () => new Date().toLocaleDateString("en-CA");
 
 function HomeEntry({ open }: { open: () => void }) {
   const [copy, setCopy] = useState(false);

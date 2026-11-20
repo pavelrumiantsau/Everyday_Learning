@@ -30,7 +30,10 @@ export default async function (t: Smoke) {
   const saved = (await (await api("/uk/answers", me, json({ answers }))).json()) as { saved: number };
   const again = (await (await api("/uk/answers", me, json({ answers }))).json()) as { saved: number };
   check(saved.saved === 10 && again.saved === 0, "10 answers saved; sending them again changes nothing");
-  check((await api("/uk/answers", me, json({ answers: [{ id: "x", exercise: "uk-b-0410:x999", correct: true, mode: "learn" }] }))).status === 400, "an unknown exercise → 400");
+  const stale = (await (
+    await api("/uk/answers", me, json({ answers: [{ id: "x", exercise: "uk-b-0410:x999", correct: true, mode: "learn" }, { id: "smoke-uk-ok", exercise: `uk-b-0410:x${first.session[1]! + 1}`, correct: true, mode: "learn" }] }))
+  ).json()) as { saved: number; rejected: number };
+  check(stale.saved === 1 && stale.rejected === 1, "an unknown exercise is dropped without blocking the rest of the batch");
 
   const after = await get<Detail>("/uk/blocks/uk-b-0410");
   check(after.progress.answered === 10 && after.wrong.join() === "0", "progress: 10 answered, exercise 1 in «Мои ошибки»");
