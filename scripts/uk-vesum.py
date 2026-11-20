@@ -19,10 +19,10 @@ import re
 import sys
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT / ".cache" / "pylib"))
+sys.path.insert(0, str(ROOT / ".cache" / "pylib"))  # before any third-party import: CI installs pyyaml there too
+import yaml  # noqa: E402
+
 try:
     import pymorphy3
 except ImportError:
