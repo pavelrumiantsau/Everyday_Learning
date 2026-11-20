@@ -32,6 +32,8 @@ IGNORED = {
     "PUNCTUATION_PARAGRAPH_END",
     # «дві третіх» is the current Правопис form; this rule only argues it should be «треті».
     "consistency_numeric_fractional",
+    # «незважаючи на» is in the dictionaries and the current Правопис (the rule says so itself); it only suggests «попри».
+    "nezvazhayuchi_na",
 }
 
 
