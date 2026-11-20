@@ -1,0 +1,56 @@
+# Pictures for content/es/vocab/a2-0000-basics-2161.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-2161: "A frying pan with a fried egg on a stove"   # sartén
+es-w-2162: "A kitchen knife lying on a wooden board"   # cuchillo
+es-w-2163: "A fork with pasta twisted on it"   # tenedor
+es-w-2164: ~   # copa
+es-w-2165: ~   # servilleta
+es-w-2166: "A kitchen tap with water running into a sink"   # grifo
+es-w-2167: "A pot of boiling water with bubbles and steam"   # hervir
+es-w-2168: ~   # freír
+es-w-2169: "A person peeling a potato with a peeler"   # pelar
+es-w-2170: "A person whisking eggs in a bowl"   # mezclar
+es-w-2171: ~   # calentar
+es-w-2172: "A ripe red strawberry with green leaves"   # fresa
+es-w-2173: "A bunch of purple grapes"   # uva
+es-w-2174: "A green pear with a stem"   # pera
+es-w-2175: "A ripe peach with fuzzy skin"   # melocotón
+es-w-2176: "A slice of watermelon with black seeds"   # sandía
+es-w-2177: "A whole pineapple with its leafy crown"   # piña
+es-w-2178: "An avocado cut in half showing the pit"   # aguacate
+es-w-2179: "Two orange carrots with green tops"   # zanahoria
+es-w-2180: "A head of green lettuce"   # lechuga
+es-w-2181: "A green cucumber with a few slices cut"   # pepino
+es-w-2182: "A red bell pepper"   # pimiento
+es-w-2183: ~   # merienda
+es-w-2184: ~   # desayunar
+es-w-2185: ~   # preparar
+es-w-2186: "A long bread roll sandwich with ham and cheese"   # bocadillo
+es-w-2187: "A round Spanish omelette with a slice cut out"   # tortilla
+es-w-2188: "A jar of red jam with a spoon and a slice of bread"   # mermelada
+es-w-2189: "A cup of white yoghurt with a spoon"   # yogur
+es-w-2190: ~   # marisco
+es-w-2191: "A pink cooked prawn"   # gamba
+es-w-2192: ~   # refresco
+es-w-2193: "An open fridge with milk and vegetables inside, light glowing"   # frigorífico
+es-w-2194: "A microwave oven with a plate inside"   # microondas
+es-w-2195: "A wooden bookshelf filled with books"   # estantería
+es-w-2196: ~   # sábana
+es-w-2197: "A smiling person with soap foam on their hair"   # champú
+es-w-2198: "A person brushing long hair with a hairbrush"   # cepillo
+es-w-2199: "A plastic comb with teeth"   # peine
+es-w-2200: "A wall socket with a plug being pushed in"   # enchufe
+es-w-2201: "A radiator under a window with a person warming their hands"   # calefacción
+es-w-2202: ~   # bombilla
+es-w-2203: "A pair of scissors cutting paper"   # tijeras
+es-w-2204: "A person sweeping the floor with a broom"   # barrer
+es-w-2205: "A person washing dishes at a sink"   # fregar
+es-w-2206: "A person vacuuming a carpet"   # aspiradora
+es-w-2207: "A washing machine with clothes spinning in the round window"   # lavadora
+es-w-2208: "A person ironing a shirt on an ironing board"   # planchar
+es-w-2209: ~   # reciclar
+es-w-2210: "A person filling a bucket from a tap"   # llenar
+es-w-2211: "A person emptying a bottle upside down with water pouring out"   # vaciar
+es-w-2212: "A shirt hanging on a clothesline in the sun"   # secar

@@ -1,0 +1,53 @@
+# Pictures for content/es/vocab/a2-0000-basics-2264.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-2264: ~   # colega
+es-w-2265: ~   # contrato
+es-w-2266: "An elderly person relaxing with a fishing rod at a lake"   # jubilarse
+es-w-2267: ~   # paro
+es-w-2268: ~   # nota
+es-w-2269: ~   # deberes
+es-w-2270: ~   # diccionario
+es-w-2271: ~   # computadora
+es-w-2272: ~   # celular
+es-w-2273: ~   # internet
+es-w-2274: "A printer producing a sheet of paper"   # impresora
+es-w-2275: ~   # descargar
+es-w-2276: ~   # madrugada
+es-w-2277: "A decorated Christmas tree with lights and presents"   # Navidad
+es-w-2278: "Fireworks bursting over a city at night"   # Nochevieja
+es-w-2279: ~   # Año Nuevo
+es-p-2280: ~   # fin de semana
+es-p-2281: ~   # pasado mañana
+es-w-2282: ~   # anteayer
+es-p-2283: ~   # por la mañana
+es-p-2284: ~   # ahora mismo
+es-p-2285: ~   # hoy en día
+es-p-2286: ~   # de vez en cuando
+es-p-2287: ~   # a menudo
+es-p-2288: ~   # otra vez
+es-w-2289: ~   # mente
+es-w-2290: ~   # tras
+es-w-2291: ~   # ante
+es-w-2292: ~   # exactamente
+es-w-2293: ~   # solamente
+es-p-2294: ~   # ojalá
+es-p-2295: ~   # buenos días
+es-p-2296: ~   # buenas tardes
+es-p-2297: ~   # buenas noches
+es-p-2298: ~   # adiós
+es-p-2299: ~   # por favor
+es-p-2300: ~   # de nada
+es-p-2301: ~   # lo siento
+es-p-2302: ~   # vale
+es-w-2303: ~   # bienvenido
+es-p-2304: ~   # felicidades
+es-w-2305: ~   # cuarenta
+es-w-2306: ~   # sesenta
+es-w-2307: ~   # setenta
+es-w-2308: ~   # ochenta
+es-w-2309: ~   # noventa
+es-w-2310: ~   # millón
+es-w-2311: ~   # cuarto
+es-w-2312: ~   # quinto

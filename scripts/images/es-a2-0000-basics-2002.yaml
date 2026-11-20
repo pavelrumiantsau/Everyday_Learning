@@ -1,0 +1,72 @@
+# Pictures for content/es/vocab/a2-0000-basics-2002.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-2002: "A tall tower rising high into the sky"   # alto
+es-w-2003: ~   # bajo
+es-w-2004: ~   # largo
+es-w-2005: "A very narrow alley between two tall walls"   # estrecho
+es-w-2006: ~   # rico
+es-w-2007: "A poor person in ragged clothes sitting with an empty bowl"   # pobre
+es-w-2008: ~   # abierto
+es-w-2009: ~   # duro
+es-w-2010: ~   # caliente
+es-w-2011: ~   # salado
+es-w-2012: ~   # simpático
+es-w-2013: ~   # vago
+es-w-2014: ~   # listo
+es-w-2015: ~   # inteligente
+es-w-2016: ~   # tonto
+es-w-2017: ~   # divertido
+es-w-2018: "A clown juggling balls"   # gracioso
+es-w-2019: ~   # raro
+es-w-2020: ~   # extraño
+es-w-2021: ~   # normal
+es-w-2022: ~   # necesario
+es-w-2023: ~   # imposible
+es-w-2024: "A person covering their ears next to a loud drill"   # ruidoso
+es-w-2025: "A white dove with spread wings"   # blanco
+es-w-2026: "A black umbrella standing open"   # negro
+es-w-2027: ~   # igual
+es-w-2028: ~   # loco
+es-w-2029: ~   # diferente
+es-w-2030: ~   # especial
+es-w-2031: ~   # real
+es-w-2032: ~   # verdadero
+es-w-2033: ~   # humano
+es-w-2034: ~   # mayor
+es-w-2035: ~   # menor
+es-w-2036: ~   # último
+es-w-2037: ~   # próximo
+es-w-2038: ~   # propio
+es-w-2039: ~   # entero
+es-w-2040: ~   # tanto
+es-w-2041: ~   # cualquier
+es-w-2042: ~   # alguno
+es-w-2043: ~   # ninguno
+es-w-2044: ~   # varios
+es-w-2045: ~   # ambos
+es-w-2046: ~   # medio
+es-w-2047: "An apple cut in half"   # mitad
+es-w-2048: ~   # contra
+es-w-2049: ~   # adelante
+es-w-2050: ~   # atrás
+es-w-2051: ~   # alegría
+es-w-2052: "A person blushing and covering their face with both hands"   # vergüenza
+es-w-2053: "A person opening a gift box with a jack-in-the-box springing out"   # sorpresa
+es-w-2054: ~   # esperanza
+es-w-2055: ~   # celoso
+es-w-2056: ~   # emocionado
+es-w-2057: "A child looking sadly at a dropped ice cream cone on the ground"   # decepcionado
+es-w-2058: ~   # harto
+es-w-2059: ~   # sorprendido
+es-w-2060: ~   # casarse
+es-w-2061: ~   # divorciarse
+es-w-2062: ~   # quejarse
+es-w-2063: "A person laughing out loud with tears of joy"   # reírse
+es-w-2064: ~   # divertirse
+es-w-2065: ~   # aburrirse
+es-w-2066: ~   # enfadarse
+es-w-2067: ~   # acordarse
+es-w-2068: ~   # ducharse
+es-w-2069: ~   # ponerse

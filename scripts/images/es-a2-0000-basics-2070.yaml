@@ -1,0 +1,54 @@
+# Pictures for content/es/vocab/a2-0000-basics-2070.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-2070: ~   # señor
+es-w-2071: "An elegant older lady with a handbag"   # señora
+es-w-2072: ~   # esposo
+es-w-2073: "A baby sitting and laughing, holding a rattle"   # bebé
+es-w-2074: ~   # pregunta
+es-w-2075: ~   # respuesta
+es-w-2076: ~   # mentira
+es-w-2077: ~   # manera
+es-w-2078: ~   # tipo
+es-w-2079: ~   # lista
+es-w-2080: ~   # papel
+es-w-2081: ~   # mensaje
+es-w-2082: "Two children playing with building blocks"   # juego
+es-w-2083: ~   # canción
+es-w-2084: ~   # foto
+es-w-2085: ~   # sueño
+es-w-2086: ~   # luz
+es-w-2087: ~   # paz
+es-w-2088: ~   # cuerpo
+es-w-2089: ~   # culpa
+es-w-2090: ~   # país
+es-w-2091: ~   # cuidado
+es-w-2092: ~   # error
+es-w-2093: ~   # futuro
+es-w-2094: ~   # secreto
+es-w-2095: ~   # fuerza
+es-w-2096: ~   # aire
+es-w-2097: ~   # gusto
+es-w-2098: ~   # negocio
+es-w-2099: ~   # situación
+es-w-2100: ~   # relación
+es-w-2101: "Two cars that have bumped into each other with dented bumpers"   # accidente
+es-w-2102: ~   # placer
+es-w-2103: ~   # servicio
+es-w-2104: ~   # decisión
+es-w-2105: "A person holding a finger to their lips in a quiet room"   # silencio
+es-w-2106: ~   # gobierno
+es-w-2107: ~   # libertad
+es-w-2108: ~   # peligro
+es-w-2109: ~   # rato
+es-w-2110: ~   # éxito
+es-w-2111: ~   # diferencia
+es-w-2112: ~   # nivel
+es-w-2113: ~   # grupo
+es-w-2114: ~   # información
+es-w-2115: ~   # llamada
+es-w-2116: ~   # sentido
+es-w-2117: ~   # plan
+es-w-2118: ~   # paso
+es-w-2119: ~   # perdón

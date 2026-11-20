@@ -1,0 +1,52 @@
+# Pictures for content/es/vocab/a2-0000-basics-2313.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-2313: "A person crying with tears on their cheeks, wiping their eyes"   # llorar
+es-w-2314: ~   # abrazar
+es-w-2315: ~   # soler
+es-w-2316: ~   # acompañar
+es-w-2317: ~   # acercarse
+es-w-2318: ~   # confiar
+es-w-2319: ~   # depender
+es-w-2320: ~   # engordar
+es-w-2321: ~   # adelgazar
+es-w-2322: ~   # enamorarse
+es-w-2323: ~   # entregar
+es-w-2324: ~   # evitar
+es-w-2325: ~   # existir
+es-w-2326: ~   # funcionar
+es-w-2327: "A person with closed eyes and a thought bubble showing a castle"   # imaginar
+es-w-2328: ~   # merecer
+es-w-2329: "A person holding an umbrella over a child in the rain"   # proteger
+es-w-2330: "A person finishing a jigsaw puzzle by placing the last piece"   # resolver
+es-w-2331: ~   # sonar
+es-w-2332: ~   # tardar
+es-w-2333: ~   # valer
+es-w-2334: ~   # levantarse
+es-w-2335: ~   # sentarse
+es-w-2336: ~   # quedarse
+es-w-2337: ~   # irse
+es-w-2338: ~   # sentirse
+es-w-2339: ~   # coger
+es-w-2340: ~   # meter
+es-w-2341: ~   # tirar
+es-w-2342: ~   # prohibir
+es-w-2343: ~   # despierto
+es-w-2344: ~   # dormido
+es-w-2345: ~   # roto
+es-w-2346: ~   # encendido
+es-w-2347: ~   # apagado
+es-w-2348: ~   # moreno
+es-w-2349: ~   # liso
+es-w-2350: "A person lounging on a sofa with a pizza box, sleepy"   # perezoso
+es-w-2351: ~   # cariñoso
+es-w-2352: ~   # responsable
+es-w-2353: ~   # puntual
+es-w-2354: "A whole round pizza"   # redondo
+es-w-2355: ~   # actual
+es-w-2356: ~   # amargo
+es-w-2357: "Two identical twin children in matching clothes"   # gemelo
+es-w-2358: ~   # suegro
+es-w-2359: ~   # mascota
+es-w-2360: "A potted green plant on a windowsill"   # planta
