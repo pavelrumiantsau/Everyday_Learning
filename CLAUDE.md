@@ -25,7 +25,8 @@ Smoke runs a second Worker in copy mode (`COPY_CHECKS`). Learner profile (copies
 A separate Mini App section for the owner only (copies get 404): blocks from the learner's course PDF, opened on demand.
 **`docs/UK-GRAMMAR-PLAN.md`** (status, block map, decisions), recipe `prompts/content/uk-grammar.md`, errata
 `docs/UK-GRAMMAR-ERRATA.md`. Content `content/uk/blocks/<part>/uk-b-PPNN-*.yaml` (`UkBlock` in `packages/core/src/uk-schema.ts`);
-sentences are written, not from Tatoeba (exception for `content/uk/` only); check with `python3 scripts/uk-check.py`.
+sentences are written, not from Tatoeba (exception for `content/uk/` only); check with `python3 scripts/uk-check.py`
+(LanguageTool) and `python3 scripts/uk-vesum.py` (dictionary; also in CI).
 `uk` is **not** in `LANGS`: own tables (`uk_*`, migrations 0014–0015), own Worker feature (`features/ukrainian.ts`, API only) —
 never write to `card_state` / `activity_day` from it.
 

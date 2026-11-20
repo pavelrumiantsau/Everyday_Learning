@@ -31,7 +31,11 @@ Exercises target **contrast and typical mistakes**, not first exposure.
 2. `python3 scripts/uk-check.py content/uk/blocks/<PP>/<file>.yaml`: LanguageTool. **No "✗"** (a right sentence flagged)
    — fix the content or, if LanguageTool is wrong, double-check in a dictionary and note it in the PR. The "?" lines are
    intentionally wrong sentences LanguageTool can't see (euphony, vocative, stress): read each one yourself.
-3. `pnpm test`, `pnpm smoke` before pushing.
-4. List anything uncertain in the PR description for the learner to read.
+3. `python3 scripts/uk-vesum.py`: every word of every correct answer must be in the dictionary (VESUM-based
+   pymorphy3-dicts-uk; setup line in the script). A word it lacks but that is right (an uninflected particle, an
+   interjection, an abbreviation) goes into `content/uk/vesum-allow.yaml` with a note — after a dictionary check.
+   Also run it with `--hints` and read the list: answers that aren't a form of a one-word hint. CI runs the check.
+4. `pnpm test`, `pnpm smoke` before pushing.
+5. List anything uncertain in the PR description for the learner to read.
 
 Commit after every block (`git add` only the block's file).
