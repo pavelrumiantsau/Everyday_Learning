@@ -21,6 +21,7 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [answered, setAnswered] = useState(0);
+  const [next, setNext] = useState<QueueCard[]>([]); // the next batch, offered on the done screen
   const card = cards[index];
 
   const answer = async (rating: Rating) => {
@@ -32,16 +33,18 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
       setIndex(index + 1);
       return;
     }
-    // End of the list: cards answered "Снова" come back after a few minutes, so check again.
+    // End of the batch: look for the next one (cards answered "Снова" come back after a few minutes) and let the learner choose.
     await flushReviews();
-    const more = await getQueue().catch(() => []);
-    if (more.length) {
-      setCards(more);
-      setIndex(0);
-    } else {
-      haptic("done");
-      setCards([]);
-    }
+    setNext(await getQueue().catch(() => []));
+    haptic("done");
+    setCards([]);
+  };
+
+  const goOn = () => {
+    haptic("tap");
+    setCards(next);
+    setNext([]);
+    setIndex(0);
   };
 
   if (!card) {
@@ -49,7 +52,8 @@ export function Review({ initial, onDone }: { initial: QueueCard[]; onDone: () =
       <main className="screen center">
         <h1>Готово! 🎉</h1>
         <p className="hint">Ответов за сессию: {answered}</p>
-        <button className="button" onClick={onDone}>На главную</button>
+        {next.length > 0 && <button className="button" onClick={goOn}>Ещё {next.length}</button>}
+        <button className={next.length > 0 ? "secondary" : "button"} onClick={onDone}>На главную</button>
       </main>
     );
   }

@@ -57,7 +57,9 @@ export const getSession = () =>
     strict = !!s.strictLetters;
     return s;
   });
-export const getQueue = (limit = 100) => call<{ cards: QueueCard[] }>(`/queue?limit=${limit}`).then((r) => r.cards);
+/** «Повторить» works in short batches; after each one the learner chooses to go on or stop. */
+export const REVIEW_BATCH = 10;
+export const getQueue = (limit = REVIEW_BATCH) => call<{ cards: QueueCard[] }>(`/queue?limit=${limit}`).then((r) => r.cards);
 /** The next new words to learn (meaning cards, oldest first) and how many are waiting in total. */
 export const getLearn = (limit = 5) => call<{ cards: WordCard[]; total: number }>(`/learn?limit=${limit}`);
 
@@ -335,6 +337,9 @@ export const markUnitKnown = (id: string) => call<{ progress: UnitProgress }>(`/
 /** `due`: next review (epoch ms), null = moved out of reviews; `fromReading`: added from a text. */
 export interface MyWord { id: string; text: string; stress: string | null; meaning: string; learned: boolean; due: number | null; fromReading: boolean }
 export const getWords = (lang: Lang) => call<{ words: MyWord[] }>(`/words?lang=${lang}`).then((r) => r.words);
+/** A learned word back into «Повторить»: "relearn" = «Плохо помню» (intervals start again), "now" = due now, schedule kept. */
+export const wordAgain = (id: string, mode: "relearn" | "now") =>
+  call<{ updated: number }>("/words/again", { method: "POST", body: JSON.stringify({ id, mode }) });
 
 // --- Ukrainian grammar section (docs/UK-GRAMMAR-PLAN.md; owner's bot only: 404 in personal copies) ---
 export type UkStatus = "closed" | "known" | "open" | "mastered";

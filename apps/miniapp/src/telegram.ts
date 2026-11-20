@@ -8,6 +8,11 @@ interface WebApp {
   openLink?(url: string): void;
   close?(): void;
   HapticFeedback?: { impactOccurred(style: "light" | "medium"): void; notificationOccurred(type: "success" | "warning" | "error"): void };
+  platform?: string; // "android", "ios", "tdesktop", "weba", …
+  isVersionAtLeast?(version: string): boolean;
+  /** Bot API 8.0+: a home screen shortcut that opens the Mini App directly (Android; "unsupported" elsewhere). */
+  addToHomeScreen?(): void;
+  checkHomeScreenStatus?(cb: (status: "unsupported" | "unknown" | "added" | "missed") => void): void;
 }
 
 declare global {

@@ -1,6 +1,7 @@
 // «Мои слова»: every word you have as cards, per language — search, learning / learned, next review, pronunciation.
 import { useEffect, useMemo, useState } from "react";
-import { activeLangs, getWords, type Lang, type MyWord } from "../api";
+import { activeLangs, getWords, wordAgain, type Lang, type MyWord } from "../api";
+import { haptic } from "../telegram";
 import { Play } from "../Audio";
 import type { MiniFeature } from "../features";
 import { FLAG } from "../flags";
@@ -45,13 +46,31 @@ function Screen({ close }: { close: () => void }) {
   const [onlyPictures, setOnlyPictures] = useState(false);
   const [zoom, setZoom] = useState<string | null>(null);
   const pictures = usePictures();
+  const [open, setOpen] = useState<string | null>(null); // the learned word whose actions are shown
+  const [busy, setBusy] = useState(false);
 
   useEffect(() => {
     setWords(null);
     setError(false);
     setShown(PAGE);
+    setOpen(null);
     getWords(lang).then(setWords, () => setError(true));
   }, [lang]);
+
+  const again = async (id: string, mode: "relearn" | "now") => {
+    haptic("tap");
+    setBusy(true);
+    try {
+      await wordAgain(id, mode);
+      setWords(await getWords(lang)); // new "повтор …" label
+      setOpen(null);
+      haptic("done");
+    } catch {
+      // keep the actions open; the learner can try again
+    } finally {
+      setBusy(false);
+    }
+  };
 
   const list = useMemo(() => {
     const q = plain(query.trim());
@@ -88,20 +107,35 @@ function Screen({ close }: { close: () => void }) {
       ) : (
         <>
           <p className="hint small">
-            Всего {words.length} · выучено {learned} · найдено {list.length}. Новые сверху; ✅ — выучено, 🆕 — учится сейчас, 📖 — из текста.
+            Всего {words.length} · выучено {learned} · найдено {list.length}. Новые сверху; ✅ — выучено, 🆕 — учится сейчас, 📖 — из текста. Нажми на выученное слово, чтобы вернуть его в повторение.
           </p>
           <ul className="word-list">
             {list.slice(0, shown).map((w) => (
-              <li key={w.id}>
-                <Thumb id={w.id} onOpen={setZoom} />
-                <span className="grow">
-                  {w.learned ? "✅" : "🆕"} <b>{w.stress ?? w.text}</b> {w.fromReading && "📖"} <Play id={w.id} kind="word" small />
-                </span>
-                <span className="hint">
-                  {w.meaning}
-                  <br />
-                  <small>{dueLabel(w.due)}</small>
-                </span>
+              <li key={w.id} className="word-row">
+                <div className="word-line" onClick={(e) => {
+                  if ((e.target as HTMLElement).closest("button")) return; // the picture and ▶ keep their own taps
+                  if (w.learned && w.due !== null) setOpen(open === w.id ? null : w.id);
+                }}>
+                  <Thumb id={w.id} onOpen={setZoom} />
+                  <span className="grow">
+                    {w.learned ? "✅" : "🆕"} <b>{w.stress ?? w.text}</b> {w.fromReading && "📖"} <Play id={w.id} kind="word" small />
+                  </span>
+                  <span className="hint">
+                    {w.meaning}
+                    <br />
+                    <small>{dueLabel(w.due)}</small>
+                  </span>
+                </div>
+                {open === w.id && (
+                  <div className="word-actions">
+                    <button className="chip" disabled={busy} onClick={() => void again(w.id, "relearn")}>🤔 Плохо помню</button>
+                    <button className="chip" disabled={busy} onClick={() => void again(w.id, "now")}>🔁 Повторить сейчас</button>
+                    <span className="hint small">
+                      «Плохо помню» — слово начнёт интервалы заново: через несколько минут, потом через день, дальше реже.
+                      «Повторить сейчас» — придёт в ближайшем «Повторить», расписание не сбрасывается.
+                    </span>
+                  </div>
+                )}
               </li>
             ))}
           </ul>
