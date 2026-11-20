@@ -1,0 +1,55 @@
+# Pictures for content/es/vocab/a1-0011.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+es-w-0011: "A person holding a red heart in both hands and smiling warmly at it"   # querer
+es-w-0012: "A cozy small house with a red roof, a chimney and a garden gate"   # casa
+es-w-0013: "A bright morning sun above a house, a calendar page torn off and held up by a hand"   # hoy
+es-w-0014: "A smiling person happily holding a big gift box in both hands"   # tener
+es-w-0015: "A large round wall clock with hands and a small sun and cloud icon beside it"   # tiempo
+es-w-0016: "A sunrise over a hill with a rooster crowing at dawn"   # mañana
+es-w-0017: "A strong person lifting a heavy barbell above their head, confident smile"   # poder
+es-w-0018: "A person in a hard hat working with a hammer on a building site"   # trabajo
+es-w-0019: ~   # ahora
+es-w-0020: "A thirsty person holding an empty glass and looking at a water jug out of reach"   # necesitar
+es-w-0021: "A stack of gold coins and a pile of banknotes"   # dinero
+es-w-0022: ~   # siempre
+es-w-0023: "A person with a glowing light bulb above their head, pointing confidently at a book"   # saber
+es-w-0024: "A bright yellow sun high in a blue sky over green fields"   # día
+es-w-0025: ~   # nunca
+es-w-0026: "A person with a thought bubble above their head, chin resting on one hand"   # creer
+es-w-0027: "A dark night sky with a crescent moon and many stars over rooftops"   # noche
+es-w-0028: ~   # pronto
+es-w-0029: "A student smiling with a surprised look as a light bulb turns on above their head"   # entender
+es-w-0030: "A wall calendar page with a grid of days, one row circled with a red marker"   # semana
+es-w-0031: "A sunset over the sea with an orange sky and a person walking home"   # tarde
+es-w-0032: "A woman standing at a bus stop looking down the road, waiting"   # esperar
+es-w-0033: "A birthday cake with a single candle next to a wall calendar"   # año
+es-w-0034: "A small house seen right next to a person, only a few steps away"   # cerca
+es-w-0035: "A child smiling and hugging a puppy with a small heart floating above"   # gustar
+es-w-0036: "A round alarm clock with a big clear face"   # hora
+es-w-0037: "Two friends walking along a path, smiling at each other"   # juntos
+es-w-0038: "A person talking with an open mouth and a speech bubble above their head"   # hablar
+es-w-0039: "A clear glass of water being filled from a tap"   # agua
+es-w-0040: ~   # mejor
+es-w-0041: "A person walking along a road with a suitcase towards a town in the distance"   # ir
+es-w-0042: "A city skyline with tall buildings and a church tower at sunset"   # ciudad
+es-w-0043: "A brand new shiny red bicycle with a ribbon tied on it"   # nuevo
+es-w-0044: "A baker kneading dough and shaping it on a floured table"   # hacer
+es-w-0045: "A family of four standing together in front of their house: father, mother, boy and girl"   # familia
+es-w-0046: "A big red exclamation mark on a yellow warning sign"   # importante
+es-w-0047: "A person looking through binoculars at a distant mountain"   # ver
+es-w-0048: "Two smiling friends with their arms around each other's shoulders"   # amigo
+es-w-0049: "A cheetah running at full speed across the savannah"   # rápido
+es-w-0050: "A person speaking to a friend, a speech bubble coming out of their mouth"   # decir
+es-w-0051: "A worried person scratching their head in front of a tangled knot of rope"   # problema
+es-w-0052: "A glass overflowing with water that spills over the rim onto the table"   # demasiado
+es-w-0053: "A person in a coat walking out through a front door, closing it behind them"   # salir
+es-w-0054: "One person pulling another person up a steep hill by the hand"   # ayuda
+es-w-0055: ~   # todavía
+es-w-0056: "A traveler with a suitcase walking back up the path to their own front door"   # volver
+es-w-0057: "A child with a clear honest face, hand on heart"   # verdad
+es-w-0058: ~   # bastante
+es-w-0059: "A smiling person walking towards the viewer along a path, waving"   # venir
+es-w-0060: "A child lifting a stone and finding a small shiny key under it"   # encontrar
+es-w-0061: "A person holding a cup of coffee and taking a sip"   # tomar
+es-w-0062: "A traveler stepping off a train onto a station platform with a suitcase"   # llegar

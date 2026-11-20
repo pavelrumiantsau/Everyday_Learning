@@ -1,0 +1,114 @@
+# Pictures for content/es/vocab/a1-0139.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+es-w-0139: "A person drinking from a tall glass of water, head tilted back"   # beber
+es-w-0140: "A person sitting in an armchair reading an open book"   # leer
+es-w-0141: "A hand writing with a pen on a sheet of paper"   # escribir
+es-w-0142: "A student at a desk studying from a thick textbook with a notebook"   # aprender
+es-w-0143: "A person opening a wooden door wide, light coming through"   # abrir
+es-w-0144: "A person watching a small bird on a branch with curious eyes"   # mirar
+es-w-0145: "A person cupping a hand behind their ear to listen"   # oír
+es-w-0146: "A customer at a restaurant table raising a hand to a waiter holding a notepad"   # pedir
+es-w-0147: "A child raising a hand in class with a question mark above their head"   # preguntar
+es-w-0148: "A traveler with a suitcase walking back toward a house on a country road"   # regresar
+es-w-0149: "A waiter carrying a tray with two cups of coffee toward a table"   # traer
+es-w-0150: "A fruit seller at a market stall handing a bag of oranges to a customer"   # vender
+es-w-0151: "A woman in a flowing red dress dancing with her arms raised"   # bailar
+es-w-0152: "A person singing into a microphone with eyes closed"   # cantar
+es-w-0153: "A person running along a park path in sportswear"   # correr
+es-w-0154: "A person walking along a country road with a walking stick"   # caminar
+es-w-0155: "A person sitting behind the steering wheel of a car, hands on the wheel, seen through the windshield"   # conducir
+es-w-0156: "A couple eating dinner at a candlelit table in the evening"   # cenar
+es-w-0157: "A red octagon stop sign beside a road"   # parar
+es-w-0158: "A person with a thought bubble showing a happy memory, looking at an old photograph"   # recordar
+es-w-0159: "A person tasting a spoonful of soup from a pot with a pleased face"   # probar
+es-w-0160: "A child counting on the fingers of one hand"   # contar
+es-w-0161: "A person playing a piano with both hands on the keys"   # tocar
+es-w-0162: "A person pulling a book out of a bookshelf"   # sacar
+es-w-0163: "A person climbing up a flight of stairs"   # subir
+es-w-0164: "A person walking down a flight of stairs"   # bajar
+es-w-0165: ~   # izquierda
+es-w-0166: "A compass with a red needle pointing up to the top of the dial"   # norte
+es-w-0167: "A compass with the needle pointing down to the bottom of the dial"   # sur
+es-w-0168: "A person with a speech bubble containing a thumbs up, speaking confidently"   # opinión
+es-w-0169: "A tall glass of golden beer with white foam"   # cerveza
+es-w-0170: ~   # tema
+es-w-0171: "Two colleagues sitting side by side at desks, smiling at each other"   # compañero
+es-w-0172: "A wooden park bench under a tree"   # banco
+es-w-0173: "A map of a town with one area shaded in color"   # zona
+es-w-0174: "A customer at a shop counter handing over money to a shopkeeper"   # cliente
+es-w-0175: "A cup of hot tea with a teabag string and a slice of lemon"   # té
+es-w-0176: "One old brass key on a keyring"   # llave
+es-w-0177: "A window with open shutters and a view of blue sky and a flowerpot on the sill"   # ventana
+es-w-0178: "A teacher pointing to a drawing on a blackboard that shows an apple and a pear"   # ejemplo
+es-w-0179: "A railway station with a platform, a train and a big station clock"   # estación
+es-w-0180: "A smiling old sailor with a captain's hat holding a ship's wheel"   # experiencia
+es-w-0181: "One brown leather shoe with laces"   # zapato
+es-w-0182: "A painter's palette with blobs of red, yellow and blue paint and a brush"   # color
+es-w-0183: "A yellow handbag with a short strap"   # bolsa
+es-w-0184: "A painter in front of an easel painting a landscape"   # arte
+es-w-0185: "A price tag attached to a red jacket on a hanger"   # precio
+es-w-0186: "A small bright apartment room with a sofa and a window"   # apartamento
+es-w-0187: "A sealed envelope with a stamp"   # carta
+es-w-0188: "A passenger plane taking off from a runway into the sky"   # vuelo
+es-w-0189: "A beach with a bright hot sun, a beach umbrella and a sandcastle"   # verano
+es-w-0190: "A plastic bank card with a magnetic stripe and a chip"   # tarjeta
+es-w-0191: "One red rose with a green stem and leaves"   # flor
+es-w-0192: "A small island with a palm tree surrounded by blue sea"   # isla
+es-w-0193: "Close-up of a person's forearm skin with a hand stroking it"   # piel
+es-w-0194: "A person raising one bare arm up with the muscles showing"   # brazo
+es-w-0195: "A person kicking a football with one bare leg, in shorts"   # pierna
+es-w-0196: "A sweating man in a hot desert, a blazing sun above him, fanning himself"   # calor
+es-w-0197: "A dense green forest with tall pine trees and a narrow path"   # bosque
+es-w-0198: "A family with suitcases and sunhats walking happily towards a seaside resort"   # vacaciones
+es-w-0199: "A cinema building with a movie screen and popcorn"   # cine
+es-w-0200: ~   # pantalones
+es-w-0201: ~   # inglés
+es-w-0202: "A tall glass office building with a flag on the roof and people in suits walking in"   # empresa
+es-w-0203: "A glass of white milk next to a milk carton"   # leche
+es-w-0204: "A restaurant table with a tablecloth, plates, wine glasses and a waiter standing by"   # restaurante
+es-w-0205: "A yellow taxi car with a lit sign on its roof"   # taxi
+es-w-0206: "One big green tree with a thick brown trunk"   # árbol
+es-w-0207: "One white tooth with a toothbrush and toothpaste"   # diente
+es-w-0208: "A wristwatch with a leather strap"   # reloj
+es-w-0209: "A grey cat sitting and looking at the viewer with big eyes"   # gato
+es-w-0210: ~   # colegio
+es-w-0211: "A round loaf of crusty bread on a wooden board"   # pan
+es-w-0212: "A pile of clear ice cubes in a glass"   # hielo
+es-w-0213: "A television on a stand showing a colorful picture"   # televisión
+es-w-0214: "One simple wooden chair"   # silla
+es-w-0215: "A brick wall with a framed picture hanging on it"   # pared
+es-w-0216: "A sandy beach with gentle waves and a beach ball"   # playa
+es-w-0217: "A green park with a pond, trees and a path"   # parque
+es-w-0218: "A clear plastic bottle of water with a blue cap"   # botella
+es-w-0219: "Strong wind bending trees and blowing a person's hat and scarf away"   # viento
+es-w-0220: "Close-up of a human nose, front view"   # nariz
+es-w-0221: "A city bus at a bus stop with passengers waiting"   # autobús
+es-w-0222: "One white egg in a small egg cup"   # huevo
+es-w-0223: "A couple strolling in a park, holding hands, on a sunny day"   # paseo
+es-w-0224: ~   # viernes
+es-w-0225: "One human hand with the index finger pointing up"   # dedo
+es-w-0226: "A friendly lion, a giraffe and a monkey together in a green meadow"   # animal
+es-w-0227: "A brown horse standing in a meadow"   # caballo
+es-w-0228: "A crowd of people of different ages walking on a city square"   # gente
+es-w-0229: "A big smiling yellow sun with rays in a blue sky"   # sol
+es-w-0230: "Rain falling from grey clouds on a street with puddles"   # lluvia
+es-w-0231: "The open blue sea with waves and a sailboat on the horizon"   # mar
+es-w-0232: "A dictionary lying open with a magnifying glass on a page"   # palabra
+es-w-0233: ~   # frase
+es-w-0234: "A beautiful sunset over a mountain lake with pink clouds"   # hermoso
+es-w-0235: "A single plain white circle on a clean table"   # simple
+es-w-0236: "A crocodile with an open mouth full of teeth and a warning sign next to it"   # peligroso
+es-w-0237: "A gold medal with a star and a smiling child holding it with both hands"   # excelente
+es-w-0238: "A glass filled to the brim with orange juice"   # lleno
+es-w-0239: "A sick person in bed with a thermometer in the mouth and a cold compress on the forehead"   # enfermo
+es-w-0240: "An office worker with stacks of papers on the desk and a phone in each hand, stressed"   # ocupado
+es-w-0241: "A tired person yawning and slumping at a desk with heavy eyelids"   # cansado
+es-w-0242: "A smiling couple with matching gold rings on their fingers"   # casado
+es-w-0243: "A clear blue sky and a bright blue ball"   # azul
+es-w-0244: "A bright red apple and a red tomato"   # rojo
+es-w-0245: "A green leaf and a green frog on grass"   # verde
+es-w-0246: "A shopper smiling at a very low price tag on a shirt, with a small coin"   # barato
+es-w-0247: "A shocked shopper looking at a diamond necklace in a jeweler's shop window"   # caro
+es-w-0248: "A shop door closed with the blinds down and a padlock on it at night"   # cerrado
+es-w-0249: "A person yawning in pajamas at dawn, a rooster crowing outside the window, the sun just rising"   # temprano
