@@ -12,7 +12,7 @@
 | 0 Fact-check, recipe, tools | ✅ `UK-GRAMMAR-ERRATA.md` (first pass; 🔎 rows are checked when their block is written), `prompts/content/uk-grammar.md`, `scripts/uk-check.py` (LanguageTool, cached in `.cache/uk-check/`). ⏳ VESUM check (word forms exist) not built yet |
 | 1 Engine + pilot | ✅ `packages/core/src/uk.ts` + `uk-schema.ts` (+ tests), `build-content.ts` → `generated/uk.json`, migration **0014**, Worker `features/ukrainian.ts` (API only, 404 in copies), Mini App `features/Ukrainian.tsx` (map, block: rule / tables / mistakes, practice with a retry of wrong ones, all 6 exercise types), smoke **21**. Pilot blocks: `uk-b-0106` stress, `0206` у/в, `0410` vocative, `1201` calques ① (112 exercises) |
 | 2 Diagnostic, review, part tests, cheat sheet | ✅ diagnostic per part, ✅ own FSRS mistakes queue («Повторить ошибки»); ⏳ part tests, cheat sheet (Appendix A), search; ⏳ mastered blocks coming back now and then |
-| 3 Content | ⏳ 25 of 95 blocks (635 exercises): **Parts 1–3 complete** (`0101…0106`, `0201…0209`, `0301…0308`), `0410`, `1201`. Next: Part 4 (`0401…0409`, `0411`, `0412`). Size: `uk.json` 171 KB for 25 blocks (≈ 650 KB for all 95, next to 4.5 MB of other generated content) — watch the Worker bundle; fallback in §3 |
+| 3 Content | ⏳ 36 of 95 blocks (911 exercises): **Parts 1–4 complete** (`0101…0106`, `0201…0209`, `0301…0308`, `0401…0412`), `1201`. Next: Part 5 (`0501…0506`), Part 6 (`0601…0606`). Size: `uk.json` 171 KB for 25 blocks (≈ 650 KB for all 95, next to 4.5 MB of other generated content) — watch the Worker bundle; fallback in §3 |
 
 Also in this branch: `build-content.ts` normalises paths to "/" so `content:validate` works on Windows too.
 
