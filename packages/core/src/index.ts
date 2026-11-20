@@ -9,6 +9,7 @@ export * from "./labels";
 export * from "./streak";
 export * from "./weekly";
 export * from "./audio";
+export * from "./image";
 export * from "./grammar";
 export * from "./diff";
 export * from "./reading";

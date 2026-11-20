@@ -167,6 +167,8 @@ h2 { margin: 8px 0 0; font-size: 20px; }
 }
 .play:active { transform: scale(0.92); }
 .play.ex, .play.small { width: 30px; height: 30px; font-size: 14px; vertical-align: middle; margin-left: 4px; }
+/* Picture of a word (Picture.tsx) */
+.picture { width: min(200px, 60%); height: auto; aspect-ratio: 1; border-radius: 14px; align-self: center; background: var(--bg); }
 /* Grammar lessons (features/Grammar.tsx) */
 h2 { margin: 8px 0 0; font-size: 18px; }
 .lesson-text p, .compare p { margin: 0 0 10px; }

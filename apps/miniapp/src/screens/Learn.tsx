@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { flushReviews, getLearn, recordReview, type WordCard } from "../api";
 import { Play } from "../Audio";
 import { FLAG } from "../flags";
+import { Picture } from "../Picture";
 import { ReportButton } from "../ReportButton";
 import { haptic } from "../telegram";
 
@@ -212,6 +213,7 @@ function WordDetails({ card, hideMeaning }: { card: WordCard; hideMeaning?: bool
   const example = item.examples[0];
   return (
     <span className="answer">
+      <Picture id={item.id} />
       {!hideMeaning && <span className="meaning">{meaning}</span>}
       {note && <span className="note">💡 {note}</span>}
       {example && (
