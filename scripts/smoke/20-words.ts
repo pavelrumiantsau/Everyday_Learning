@@ -19,7 +19,7 @@ export default async function (t: Smoke) {
 
   // «Плохо помню» / «Повторить сейчас» on a learned word: its cards come back in «Повторить» (now or within minutes).
   const post = (body: object) => api("/words/again", me, { method: "POST", body: JSON.stringify(body) });
-  const learned = words.find((w) => w.learned && w.due !== null && w.due > Date.now());
+  const learned = words.find((w) => w.learned && w.due !== null);
   if (learned) {
     check((await post({ id: learned.id, mode: "now" })).ok, "my words: «Повторить сейчас» on a learned word");
     const queue = (await (await api("/queue?limit=300", me)).json()) as { cards: { cardId: string }[] };
