@@ -4,6 +4,7 @@ import { activeLangs, getWords, type Lang, type MyWord } from "../api";
 import { Play } from "../Audio";
 import type { MiniFeature } from "../features";
 import { FLAG } from "../flags";
+import { Picture, Thumb, usePictures } from "../Picture";
 
 function HomeEntry({ open }: { open: () => void }) {
   return (
@@ -41,6 +42,9 @@ function Screen({ close }: { close: () => void }) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
   const [shown, setShown] = useState(PAGE);
+  const [onlyPictures, setOnlyPictures] = useState(false);
+  const [zoom, setZoom] = useState<string | null>(null);
+  const pictures = usePictures();
 
   useEffect(() => {
     setWords(null);
@@ -54,9 +58,10 @@ function Screen({ close }: { close: () => void }) {
     return (words ?? []).filter(
       (w) =>
         (filter === "all" || (filter === "learned") === w.learned) &&
+        (!onlyPictures || !!pictures?.[w.id]) &&
         (!q || plain(w.text).includes(q) || w.meaning.toLowerCase().includes(q)),
     );
-  }, [words, query, filter]);
+  }, [words, query, filter, onlyPictures, pictures]);
   const learned = words?.filter((w) => w.learned).length ?? 0;
 
   return (
@@ -74,6 +79,7 @@ function Screen({ close }: { close: () => void }) {
         {FILTERS.map((f) => (
           <button key={f.id} className={`chip ${filter === f.id ? "on" : ""}`} onClick={() => setFilter(f.id)}>{f.label}</button>
         ))}
+        <button className={`chip ${onlyPictures ? "on" : ""}`} onClick={() => setOnlyPictures((v) => !v)}>🖼 С картинкой</button>
       </div>
       {error ? (
         <p className="hint">Не получилось загрузить слова — попробуй ещё раз позже.</p>
@@ -87,7 +93,8 @@ function Screen({ close }: { close: () => void }) {
           <ul className="word-list">
             {list.slice(0, shown).map((w) => (
               <li key={w.id}>
-                <span>
+                <Thumb id={w.id} onOpen={setZoom} />
+                <span className="grow">
                   {w.learned ? "✅" : "🆕"} <b>{w.stress ?? w.text}</b> {w.fromReading && "📖"} <Play id={w.id} kind="word" small />
                 </span>
                 <span className="hint">
@@ -107,6 +114,13 @@ function Screen({ close }: { close: () => void }) {
       )}
       <div className="spacer" />
       <button className="secondary center-text" onClick={close}>На главную</button>
+      {zoom && (
+        <div className="zoom" onClick={() => setZoom(null)}>
+          <Picture id={zoom} />
+          <b>{words?.find((w) => w.id === zoom)?.text}</b>
+          <span className="hint">{words?.find((w) => w.id === zoom)?.meaning}</span>
+        </div>
+      )}
     </main>
   );
 }
