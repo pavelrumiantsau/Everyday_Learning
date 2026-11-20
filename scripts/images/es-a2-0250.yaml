@@ -1,0 +1,142 @@
+# Pictures for content/es/vocab/a2-0250.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-0250: ~   # mercado
+es-w-0251: "A smiling person taking a wrapped package from a delivery man at the front door"   # recibir
+es-w-0252: "A person with a big happy smile and cheerful bright eyes"   # contento
+es-w-0253: "A sunny garden with colourful flower beds and a green lawn"   # jardín
+es-w-0254: "A person closing the lid of a laptop"   # cerrar
+es-w-0255: "A spotless white shirt hanging on a hanger with small sparkles around it"   # limpio
+es-w-0256: "A breakfast table with orange juice, toast and a boiled egg in morning light"   # desayuno
+es-w-0257: "A person slapping their forehead in surprise, an umbrella left behind on a chair"   # olvidar
+es-w-0258: "A handsome smiling man with neat hair wearing a stylish jacket"   # guapo
+es-w-0259: "A person eating a plate of pasta at a table at midday, sun outside the window"   # almuerzo
+es-w-0260: "A person wiping a table with a cloth and a spray bottle"   # limpiar
+es-w-0261: "A person slumped with chin in hand, staring blankly and yawning"   # aburrido
+es-w-0262: "A roasted whole chicken on a plate with potatoes"   # pollo
+es-w-0263: "A teacher drawing a simple diagram of circles and arrows on a board for a student"   # explicar
+es-w-0264: "A child with a mud-covered face and muddy clothes"   # sucio
+es-w-0265: "A wedge of yellow cheese with holes next to a knife"   # queso
+es-w-0266: ~   # estudiar
+es-w-0267: "A person with wide eyes and hands over their mouth, frightened in the dark"   # asustado
+es-w-0268: "A grilled fish on a plate with a lemon slice"   # pescado
+es-w-0269: "Two children sharing an orange, each holding half"   # compartir
+es-w-0270: ~   # enojado
+es-w-0271: "A hand holding an ice cream cone with two scoops"   # helado
+es-w-0272: ~   # decidir
+es-w-0273: "A tired person failing to lift a small dumbbell, arms shaking"   # débil
+es-w-0274: "A steaming bowl of soup with a spoon"   # sopa
+es-w-0275: ~   # responder
+es-w-0276: "A firefighter in a helmet carrying a child in his arms out of a building"   # valiente
+es-w-0277: "A layered chocolate cake with one slice cut out and a strawberry on top"   # pastel
+es-w-0278: "A builder laying bricks to build a wall"   # construir
+es-w-0279: "A celebrity waving on a red carpet while camera flashes go off"   # famoso
+es-w-0280: "A bar of chocolate with a few squares broken off"   # chocolate
+es-w-0281: "A person cutting a tomato on a board with a knife"   # cortar
+es-w-0282: "A big tangled mess of many cables"   # complicado
+es-w-0283: "A bowl of white sugar with a spoon and sugar cubes"   # azúcar
+es-w-0284: "A person standing in a meadow with closed eyes taking a deep breath of fresh air"   # respirar
+es-w-0285: ~   # falso
+es-w-0286: "A bottle, a can and a glass of cold drink on a table"   # bebida
+es-w-0287: "A child jumping high in the air with arms up on a lawn"   # saltar
+es-w-0288: ~   # útil
+es-w-0289: "A white mug of hot coffee with steam rising"   # taza
+es-w-0290: ~   # fumar
+es-w-0291: ~   # honesto
+es-w-0292: ~   # vaso
+es-w-0293: ~   # robar
+es-w-0294: "A person with a dreamy look and hearts floating around their head"   # enamorado
+es-w-0295: "An empty round white plate on a table"   # plato
+es-w-0296: "A person picking up toys from the floor and putting them in a basket"   # recoger
+es-w-0297: "An old stone building with crumbling columns and ivy"   # antiguo
+es-w-0298: ~   # mapa
+es-w-0299: "A person holding two halves of a broken plate over the floor"   # romper
+es-w-0300: "A deep well seen from above with water far down at the bottom"   # profundo
+es-w-0301: ~   # chaqueta
+es-w-0302: ~   # costar
+es-w-0303: "A short pencil lying next to a very long pencil"   # corto
+es-w-0304: "A long warm winter coat with a fur collar on a hanger"   # abrigo
+es-w-0305: ~   # continuar
+es-w-0306: "A cheerful round man patting his big belly"   # gordo
+es-w-0307: "A white button-up shirt on a hanger"   # camisa
+es-w-0308: ~   # cumplir
+es-w-0309: ~   # gratis
+es-w-0310: "A wide-brimmed straw hat on a table"   # sombrero
+es-w-0311: ~   # normalmente
+es-w-0312: ~   # deprisa
+es-w-0313: ~   # despacio
+es-w-0314: ~   # directamente
+es-w-0315: ~   # cien
+es-w-0316: ~   # oeste
+es-w-0317: "A smooth grey stone lying on grass"   # piedra
+es-w-0318: "A kitchen scale with an apple on it"   # peso
+es-w-0319: "A bottle of medicine with a spoon beside it"   # medicina
+es-w-0320: ~   # felicidad
+es-w-0321: "A postman putting letters into a mailbox"   # correo
+es-w-0322: "A theatre stage with red curtains and a spotlight, audience seen from behind"   # teatro
+es-w-0323: ~   # enfermera
+es-w-0324: ~   # diario
+es-w-0325: "A long straight road crossing open countryside with hills behind"   # carretera
+es-w-0326: "A person placing a hand on their chest"   # pecho
+es-w-0327: "A person reading a folded newspaper at a cafe table"   # periódico
+es-w-0328: ~   # primo
+es-w-0329: ~   # kilómetro
+es-w-0330: "A golden trophy cup on a pedestal with confetti falling"   # premio
+es-w-0331: ~   # domingo
+es-w-0332: ~   # sábado
+es-w-0333: ~   # lunes
+es-w-0334: "A person sticking their tongue out playfully"   # lengua
+es-w-0335: "A masked thief tiptoeing away with a sack over his shoulder"   # ladrón
+es-w-0336: "A student writing on a test paper at a desk in a quiet classroom"   # examen
+es-w-0337: "A tall snow-capped mountain above a green valley"   # montaña
+es-w-0338: "A person kicking a soccer ball on a grass pitch"   # fútbol
+es-w-0339: "A small box standing in front of a very big box"   # tamaño
+es-w-0340: "A host opening a door to a smiling guest holding flowers"   # invitado
+es-w-0341: "An airport terminal hall with travellers pulling suitcases"   # aeropuerto
+es-w-0342: "A house with a red tiled roof seen from the front"   # techo
+es-w-0343: ~   # francés
+es-w-0344: ~   # rosa
+es-w-0345: "A street corner where two streets meet at a building"   # esquina
+es-w-0346: "Dark storm clouds with lightning over a field and heavy rain"   # tormenta
+es-w-0347: "A person with closed eyes smelling a yellow flower"   # olor
+es-w-0348: "A scientist in a lab coat looking at a glass flask"   # ciencia
+es-w-0349: ~   # lago
+es-w-0350: "Two people sitting across a desk, one asking questions and the other answering"   # entrevista
+es-w-0351: "A painter with a brush painting on a canvas on an easel"   # pintura
+es-w-0352: ~   # tarea
+es-w-0353: "A hand holding a smartphone"   # móvil
+es-w-0354: "A young student with a backpack and books walking on a campus"   # estudiante
+es-w-0355: "A snowy field with falling snowflakes and a snowman"   # nieve
+es-w-0356: ~   # fecha
+es-w-0357: ~   # siglo
+es-w-0358: "A quiet residential street with small houses, trees and a corner shop"   # barrio
+es-w-0359: "A red barn with chickens in a farmyard"   # granja
+es-w-0360: "A sweating person pushing a heavy boulder up a hill"   # esfuerzo
+es-w-0361: ~   # empleo
+es-w-0362: "A brown leather handbag on a table"   # bolso
+es-w-0363: "Two friends laughing together with arms around each other"   # amistad
+es-w-0364: ~   # página
+es-w-0365: "A cardboard parcel tied with string"   # paquete
+es-w-0366: "A stone castle with towers on a hill"   # castillo
+es-w-0367: ~   # venta
+es-w-0368: "Two people hooking their little fingers together"   # promesa
+es-w-0369: "A teacher pointing at a blackboard in front of students at desks"   # lección
+es-w-0370: "A person pulling a coin out of a jeans pocket"   # bolsillo
+es-w-0371: ~   # artículo
+es-w-0372: "A red rubber ball lying on sand"   # pelota
+es-w-0373: "A close-up of a face with a wide smile showing teeth"   # sonrisa
+es-w-0374: "Two neighbours chatting over a garden fence"   # vecino
+es-w-0375: "A factory building with a sawtooth roof and a tall chimney"   # fábrica
+es-w-0376: ~   # educación
+es-w-0377: "A stack of wooden logs"   # madera
+es-w-0378: ~   # escalera
+es-w-0379: ~   # traducción
+es-w-0380: "An open wooden wardrobe with clothes hanging inside"   # armario
+es-w-0381: "A street full of cars stuck in a traffic jam"   # tráfico
+es-w-0382: ~   # invierno
+es-w-0383: "A person looking at their reflection in a wall mirror"   # espejo
+es-w-0384: "A dim cellar with stone steps going down and shelves of jars"   # sótano
+es-w-0385: "A bus driver holding the steering wheel and smiling"   # conductor
+es-w-0386: "A hand stroking a soft fluffy ball of wool"   # suave
+es-w-0387: "A pink pig standing in a farmyard"   # cerdo

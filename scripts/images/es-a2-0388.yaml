@@ -1,0 +1,201 @@
+# Pictures for content/es/vocab/a2-0388.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-0388: "A jar of golden honey with a wooden honey dipper"   # miel
+es-w-0389: ~   # mentir
+es-w-0390: ~   # sencillo
+es-w-0391: ~   # alemán
+es-w-0392: "A person shouting with hands cupped around the mouth on a mountain top"   # gritar
+es-w-0393: "A person relaxing in a soft armchair under a blanket with a smile"   # cómodo
+es-w-0394: "A tall fence with a barrier gate across a road"   # frontera
+es-w-0395: ~   # firmar
+es-w-0396: ~   # cruel
+es-w-0397: ~   # ventaja
+es-w-0398: "A person tucking a blanket around a sleeping child"   # cuidar
+es-w-0399: "A plate of colourful candies and a lollipop"   # dulce
+es-w-0400: "A blue swimming pool with a ladder and sunlight on the water"   # piscina
+es-w-0401: ~   # presentar
+es-w-0402: ~   # fresco
+es-w-0403: ~   # comportamiento
+es-w-0404: "A person raising a glass with confetti falling and balloons around"   # celebrar
+es-w-0405: ~   # privado
+es-w-0406: ~   # señal
+es-w-0407: ~   # lograr
+es-w-0408: "A person with dark glasses and a white cane walking on the pavement"   # ciego
+es-w-0409: "A glossy magazine with a smiling model on the cover"   # revista
+es-w-0410: ~   # desaparecer
+es-w-0411: ~   # feo
+es-w-0412: ~   # imagen
+es-w-0413: ~   # visitar
+es-w-0414: ~   # popular
+es-w-0415: "A narrow canal with a small boat between old houses"   # canal
+es-w-0416: ~   # abandonar
+es-w-0417: "A person on a roller coaster with arms up and mouth open, thrilled"   # emocionante
+es-w-0418: ~   # paciencia
+es-w-0419: "A tiny green sprout growing out of the soil"   # crecer
+es-w-0420: ~   # crisis
+es-w-0421: "A person in an apron stirring a pot on a stove"   # cocinar
+es-w-0422: ~   # adecuado
+es-w-0423: "Sand dunes with a lone cactus under a hot sun"   # desierto
+es-w-0424: "A person swimming freestyle in the sea"   # nadar
+es-w-0425: "One red apple among many green apples"   # distinto
+es-w-0426: "A thick coiled rope on a wooden dock"   # cuerda
+es-w-0427: ~   # admitir
+es-w-0428: "A cat peeking into a cardboard box with wide eyes"   # curioso
+es-w-0429: "A brown bear standing in a forest"   # oso
+es-w-0430: "A person crossing a street on a pedestrian crossing"   # cruzar
+es-w-0431: "A snail slowly crawling on a leaf"   # lento
+es-w-0432: ~   # curiosidad
+es-w-0433: ~   # enseñar
+es-w-0434: "A person with closed eyes happily tasting a bite of food, hand on cheek"   # delicioso
+es-w-0435: ~   # impresión
+es-w-0436: ~   # sufrir
+es-w-0437: ~   # disponible
+es-w-0438: "A colourful fish swimming in clear water with bubbles"   # pez
+es-w-0439: ~   # renunciar
+es-w-0440: ~   # sincero
+es-w-0441: "A long hallway with doors along both sides"   # pasillo
+es-w-0442: ~   # disfrutar
+es-w-0443: "A couple having a candlelit dinner at a small table"   # romántico
+es-w-0444: "A stack of papers held together with a paper clip"   # documento
+es-w-0445: ~   # mejorar
+es-w-0446: ~   # alegre
+es-w-0447: ~   # apuesta
+es-w-0448: ~   # comprobar
+es-w-0449: ~   # sensible
+es-w-0450: "A cartoon round germ with spikes and an angry face"   # virus
+es-w-0451: "A person stretching in bed, waking up with sunshine coming through the window"   # despertar
+es-w-0452: ~   # fácilmente
+es-w-0453: "An alarm clock ringing on a bedside table"   # alarma
+es-w-0454: ~   # utilizar
+es-w-0455: ~   # ilegal
+es-w-0456: ~   # opción
+es-w-0457: ~   # urgente
+es-w-0458: "A person putting a folded sweater into a drawer"   # guardar
+es-w-0459: ~   # orgullo
+es-w-0460: "A filing cabinet with an open drawer full of folders"   # archivo
+es-w-0461: "A building with flames and thick smoke coming out of the windows"   # incendio
+es-w-0462: "A singer with a guitar on a stage in front of a cheering crowd seen from behind"   # concierto
+es-w-0463: ~   # casualidad
+es-w-0464: ~   # excusa
+es-w-0465: "A person bending a leg and pointing to the knee"   # rodilla
+es-w-0466: ~   # sofá
+es-w-0467: "A person's long shadow stretching across the ground at sunset"   # sombra
+es-w-0468: "A wooden desk with a lamp and a laptop"   # escritorio
+es-w-0469: "A rag doll with braids sitting on a bed"   # muñeca
+es-w-0470: "A bird flying with spread wings in a blue sky"   # pájaro
+es-w-0471: "A shower head spraying water"   # ducha
+es-w-0472: ~   # condición
+es-w-0473: ~   # actitud
+es-w-0474: "A bowl of red tomato sauce with a spoon"   # salsa
+es-w-0475: ~   # personaje
+es-w-0476: ~   # duda
+es-w-0477: "A hand dropping a paper into a ballot box"   # voto
+es-w-0478: ~   # poderoso
+es-w-0479: ~   # jueves
+es-w-0480: ~   # pensamiento
+es-w-0481: "A clock showing twelve in a dark night with a full moon"   # medianoche
+es-w-0482: "A person holding a hand to their sore throat"   # garganta
+es-w-0483: "A meadow with blooming flowers and butterflies"   # primavera
+es-w-0484: ~   # martes
+es-w-0485: ~   # límite
+es-w-0486: "A single straight black line drawn on white paper next to a ruler"   # línea
+es-w-0487: "A basketball player jumping to shoot at a hoop"   # jugador
+es-w-0488: "Grey smoke rising from a chimney on a house roof"   # humo
+es-w-0489: ~   # explicación
+es-w-0490: "Tall shelves full of books in a quiet library with a person reading"   # biblioteca
+es-w-0491: "A detective with a magnifying glass in a dark foggy street"   # misterio
+es-w-0492: "A runner crossing a finish ribbon with arms raised"   # ganador
+es-w-0493: "A harbour with fishing boats tied to a quay"   # puerto
+es-w-0494: ~   # julio
+es-w-0495: ~   # pánico
+es-w-0496: ~   # identidad
+es-w-0497: ~   # altura
+es-w-0498: ~   # ambiente
+es-w-0499: ~   # impuesto
+es-w-0500: ~   # caja
+es-w-0501: ~   # océano
+es-w-0502: "A close-up of an eye with a single tear on the cheek"   # lágrima
+es-w-0503: ~   # meta
+es-w-0504: ~   # despedida
+es-w-0505: ~   # cristal
+es-w-0506: "A person taking a photo with a camera"   # fotografía
+es-w-0507: ~   # desafío
+es-w-0508: ~   # experto
+es-w-0509: "A sick person in bed with a thermometer in the mouth"   # fiebre
+es-w-0510: ~   # anuncio
+es-w-0511: ~   # deuda
+es-w-0512: ~   # habilidad
+es-w-0513: "A museum hall with a dinosaur skeleton"   # museo
+es-w-0514: ~   # piano
+es-w-0515: "A computer monitor on a desk showing a colourful picture"   # pantalla
+es-w-0516: "A person filling a car with fuel at a petrol pump"   # gasolina
+es-w-0517: ~   # guía
+es-w-0518: "A plate of round chocolate-chip cookies"   # galleta
+es-w-0519: ~   # objeto
+es-w-0520: "A single bicycle wheel standing alone"   # rueda
+es-w-0521: ~   # práctica
+es-w-0522: "A few white pills in the palm of a hand"   # pastilla
+es-w-0523: ~   # nacimiento
+es-w-0524: ~   # alquiler
+es-w-0525: "A laptop open on a desk"   # ordenador
+es-w-0526: ~   # maleta
+es-w-0527: "A subway train arriving at an underground platform"   # metro
+es-w-0528: ~   # kilo
+es-w-0529: ~   # español
+es-w-0530: ~   # reacción
+es-w-0531: ~   # amanecer
+es-w-0532: ~   # treinta
+es-w-0533: ~   # cigarrillo
+es-w-0534: "A pile of shiny metal gears"   # metal
+es-w-0535: "A shirt with a round button seen close up"   # botón
+es-w-0536: ~   # detalle
+es-w-0537: "A tube of cream with a dollop on a hand"   # crema
+es-w-0538: ~   # cultura
+es-w-0539: "A person touching their shoulder with a hand"   # hombro
+es-w-0540: ~   # adulto
+es-w-0541: "A green snake coiled on a rock"   # serpiente
+es-w-0542: "A person riding a bicycle on a path"   # bicicleta
+es-w-0543: ~   # concurso
+es-w-0544: "A police car parked in front of a small police station"   # comisaría
+es-w-0545: ~   # sabor
+es-w-0546: ~   # calidad
+es-w-0547: "A glass bottle of olive oil beside a few olives"   # aceite
+es-w-0548: "A brown leather belt coiled up"   # cinturón
+es-w-0549: ~   # chiste
+es-w-0550: ~   # consecuencia
+es-w-0551: "A black and white cow grazing in a meadow"   # vaca
+es-w-0552: ~   # apellido
+es-w-0553: ~   # dormitorio
+es-w-0554: ~   # discusión
+es-w-0555: ~   # manzana
+es-w-0556: "A person with tongue out under a hot sun looking at a water bottle"   # sed
+es-w-0557: "A bowl of steaming white rice"   # arroz
+es-w-0558: "A flag waving on a tall pole"   # bandera
+es-w-0559: "A sunny town square with benches, cafe tables and a church tower"   # plaza
+es-w-0560: "A brown leather wallet with a few banknotes sticking out"   # cartera
+es-w-0561: "A reporter holding a microphone speaking in front of a camera operator"   # periodista
+es-w-0562: "An open elevator with a person stepping in"   # ascensor
+es-w-0563: ~   # limpieza
+es-w-0564: "A person doing push-ups on a mat"   # ejercicio
+es-w-0565: "A hand holding a decorated party invitation card"   # invitación
+es-w-0566: ~   # costumbre
+es-w-0567: "A gym with dumbbells and a treadmill"   # gimnasio
+es-w-0568: "A car parked in a garage with the door open"   # garaje
+es-w-0569: "A lion with a big mane"   # león
+es-w-0570: ~   # miércoles
+es-w-0571: "A writer at a desk typing on a typewriter"   # escritor
+es-w-0572: ~   # aniversario
+es-w-0573: "A pair of round glasses lying on a book"   # gafas
+es-w-0574: "Two people hugging warmly"   # abrazo
+es-w-0575: ~   # sobrino
+es-w-0576: ~   # elecciones
+es-w-0577: "A construction site with a crane and a half-built building"   # construcción
+es-w-0578: "A woman in an elegant dress smiling in front of a film camera"   # actriz
+es-w-0579: ~   # gerente
+es-w-0580: ~   # moneda
+es-w-0581: ~   # juventud
+es-w-0582: ~   # religión
+es-w-0583: ~   # clima
+es-w-0584: "A wooden acoustic guitar leaning against a chair"   # guitarra

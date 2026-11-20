@@ -1,0 +1,70 @@
+# Pictures for content/es/vocab/a2-0000-basics-1936.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-1936: ~   # además
+es-w-1937: ~   # aunque
+es-w-1938: ~   # pues
+es-w-1939: ~   # luego
+es-w-1940: ~   # después
+es-w-1941: ~   # antes
+es-w-1942: ~   # mientras
+es-w-1943: ~   # incluso
+es-w-1944: ~   # sino
+es-w-1945: ~   # así
+es-w-1946: ~   # enseguida
+es-w-1947: ~   # aún
+es-w-1948: ~   # apenas
+es-w-1949: ~   # quizás
+es-w-1950: ~   # jamás
+es-w-1951: ~   # anoche
+es-w-1952: ~   # ahí
+es-w-1953: ~   # allá
+es-w-1954: ~   # dentro
+es-w-1955: ~   # fuera
+es-w-1956: ~   # arriba
+es-w-1957: ~   # abajo
+es-w-1958: ~   # alrededor
+es-w-1959: ~   # según
+es-w-1960: ~   # hacia
+es-w-1961: ~   # durante
+es-w-1962: ~   # actualmente
+es-w-1963: ~   # finalmente
+es-w-1964: ~   # realmente
+es-w-1965: ~   # probablemente
+es-w-1966: ~   # seguramente
+es-p-1967: ~   # sin embargo
+es-p-1968: ~   # por eso
+es-p-1969: ~   # por lo tanto
+es-p-1970: ~   # es decir
+es-p-1971: ~   # o sea
+es-p-1972: ~   # en cambio
+es-p-1973: ~   # a pesar de
+es-p-1974: ~   # al final
+es-p-1975: ~   # por fin
+es-p-1976: ~   # de repente
+es-p-1977: ~   # tal vez
+es-p-1978: ~   # a veces
+es-w-1979: "A person with a backpack and a camera in a train window seat looking at scenery"   # viajar
+es-w-1980: ~   # andar
+es-w-1981: "A person pressing send on a phone while a paper airplane flies out of the screen"   # enviar
+es-w-1982: "A person choosing between two shirts on hangers"   # elegir
+es-w-1983: ~   # tratar
+es-w-1984: "A repairman with a toolbox fixing a broken chair"   # arreglar
+es-w-1985: ~   # regalar
+es-w-1986: ~   # opinar
+es-w-1987: ~   # encantar
+es-w-1988: ~   # odiar
+es-w-1989: ~   # preferir
+es-w-1990: "A person lying in a hammock between two trees"   # descansar
+es-w-1991: "A person putting books neatly on a shelf in a tidy room"   # ordenar
+es-w-1992: ~   # traducir
+es-w-1993: ~   # manejar
+es-w-1994: "A car reversing into a parking space between two other cars"   # aparcar
+es-w-1995: ~   # reservar
+es-w-1996: ~   # faltar
+es-w-1997: ~   # importar
+es-w-1998: ~   # molestar
+es-w-1999: ~   # doler
+es-w-2000: ~   # interesar
+es-w-2001: ~   # apetecer

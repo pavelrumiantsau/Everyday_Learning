@@ -1,0 +1,45 @@
+# Pictures for content/es/vocab/a2-0000-basics-2120.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-2120: ~   # centro
+es-w-2121: ~   # espacio
+es-w-2122: ~   # valor
+es-w-2123: ~   # orden
+es-w-2124: ~   # resto
+es-w-2125: ~   # final
+es-w-2126: ~   # prueba
+es-w-2127: ~   # asunto
+es-w-2128: ~   # atención
+es-w-2129: ~   # daño
+es-w-2130: ~   # pena
+es-w-2131: ~   # vista
+es-w-2132: ~   # sala
+es-w-2133: ~   # prisa
+es-w-2134: ~   # cámara
+es-w-2135: ~   # principio
+es-w-2136: "A child tossing a coin into a fountain"   # deseo
+es-w-2137: ~   # permiso
+es-w-2138: ~   # maestro
+es-w-2139: ~   # mayoría
+es-w-2140: ~   # causa
+es-w-2141: ~   # destino
+es-w-2142: ~   # fondo
+es-w-2143: ~   # respeto
+es-w-2144: ~   # entrada
+es-w-2145: ~   # salida
+es-w-2146: ~   # máquina
+es-w-2147: "A campfire burning with orange flames"   # fuego
+es-w-2148: ~   # sangre
+es-w-2149: "A small village with white houses on a hill"   # pueblo
+es-w-2150: ~   # cielo
+es-w-2151: ~   # luna
+es-w-2152: ~   # estrella
+es-w-2153: "A tall apartment building with many windows"   # edificio
+es-w-2154: ~   # enfermedad
+es-w-2155: "A person dropping a bag into a trash bin"   # basura
+es-w-2156: "A stone bridge over a river"   # puente
+es-w-2157: "A hand holding a handful of dark soil"   # tierra
+es-w-2158: "A wheat field under a blue sky with a path"   # campo
+es-w-2159: ~   # naturaleza
+es-w-2160: "A traffic light showing red"   # semáforo

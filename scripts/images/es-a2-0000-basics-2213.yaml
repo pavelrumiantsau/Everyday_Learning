@@ -1,0 +1,55 @@
+# Pictures for content/es/vocab/a2-0000-basics-2213.yaml (scripts/images.py): item id → what to draw, or ~ for no picture.
+# Rules: one concrete scene per word, nothing that needs writing in the picture, no left/right and no counts above four
+# (the model gets them wrong). Words that share a scene with another word, and function words, get no picture.
+# A word with a hand-drawn apps/miniapp/public/img/es/<id>.svg uses that file; its line here is then ignored.
+es-w-2213: "A close-up of red lips"   # labio
+es-w-2214: "A person measuring their waist with a tape measure"   # cintura
+es-w-2215: "A white dog bone"   # hueso
+es-w-2216: "A pink brain cartoon"   # cerebro
+es-w-2217: "A person touching their forehead"   # frente
+es-w-2218: ~   # ceja
+es-w-2219: ~   # oído
+es-w-2220: "A woolly knitted sweater"   # jersey
+es-w-2221: "A leather boot"   # bota
+es-w-2222: "A long red scarf"   # bufanda
+es-w-2223: "A woolly hat with a pom-pom"   # gorro
+es-w-2224: "A dark business suit and tie on a hanger"   # traje
+es-w-2225: ~   # talla
+es-w-2226: "A gold ring with a small diamond"   # anillo
+es-w-2227: "A pair of dangling earrings"   # pendiente
+es-w-2228: "Swimming trunks lying on a beach towel"   # bañador
+es-w-2229: "A bus stopped at a bus stop shelter with a person waiting"   # parada
+es-w-2230: ~   # andén
+es-w-2231: ~   # aduana
+es-w-2232: "A person riding a motorbike on a road"   # moto
+es-w-2233: "A person walking on a sidewalk beside a street"   # acera
+es-w-2234: ~   # oficina de correos
+es-w-2235: "A baker holding a tray of fresh bread loaves"   # panadería
+es-w-2236: ~   # librería
+es-w-2237: "A hairdresser cutting a customer's hair"   # peluquería
+es-w-2238: "A stone fountain with water spraying in the middle"   # fuente
+es-p-2239: ~   # ida y vuelta
+es-p-2240: ~   # todo recto
+es-w-2241: ~   # enfrente
+es-p-2242: ~   # al lado de
+es-w-2243: ~   # rebajas
+es-w-2244: ~   # oferta
+es-w-2245: ~   # recibo
+es-w-2246: "Four people standing in a line at a shop counter"   # cola
+es-w-2247: "A shop assistant behind a counter handing a bag to a customer"   # dependiente
+es-w-2248: ~   # cambio
+es-w-2249: ~   # herida
+es-w-2250: "A person sneezing near flowers with a tissue"   # alergia
+es-w-2251: "A person coughing into their fist"   # toser
+es-w-2252: ~   # mareado
+es-w-2253: ~   # urgencias
+es-w-2254: "An ambulance with flashing lights"   # ambulancia
+es-w-2255: "A pregnant woman with hands on her belly"   # embarazada
+es-w-2256: "A doctor giving an injection in a child's arm"   # vacuna
+es-w-2257: ~   # medicamento
+es-w-2258: "A plaster on a finger"   # tirita
+es-w-2259: "A grey cloudy sky over a field"   # nublado
+es-w-2260: ~   # soleado
+es-w-2261: ~   # trueno
+es-w-2262: ~   # relámpago
+es-w-2263: "A weather forecaster pointing at a map with sun icons"   # pronóstico
