@@ -15,6 +15,7 @@ Status: ✅ = confirmed and handled in content · 🔎 = to check in a dictionar
 | 3.4 | «привідчинити» as the example of при- | LanguageTool: wrong word (→ *прочинити, прохилити*) | *прикрити* (incomplete action) | ✅ uk-b-0304 |
 | 3.4 | — | LanguageTool marks *безкоштовний* as not recommended (*безплатний*) | *безплатний* in exercises | ✅ uk-b-0304 |
 | 3.6 | «исключение — контр-адмірал» | LanguageTool: the hyphenated form is not the current spelling | not used; check Правопис 2019 §35 | 🔎 |
+| 7.2, 7.4 | «книга, котру я читаю», «я люблю моє місто» as mistakes | style, not grammar: LanguageTool accepts both | kept as «typical mistakes», explained as «лучше який / свій» | ✅ uk-b-0702, 0703, 0706 |
 | 2.5 | «зависть — зависливий» | not Ukrainian (заздрість — заздрісний; *стн → сн* does not apply) | another example: *користь — корисний*, *щастя — щасливий* | 🔎 when writing uk-b-0205 |
 | 2.6 | у / в table | the case «consonant + vowel» (*брат в Одесі?*) is not covered | check Правопис 2019 §23 before writing such exercises | 🔎 (avoided in uk-b-0206) |
 | 8.12, 10.1 | «сміятися над ним» listed as wrong | dictionaries prefer *сміятися з*, but *над* is not an error | treat as a variant: never a «wrong» answer | 🔎 when writing Part 8/10 |
