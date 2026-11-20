@@ -51,6 +51,23 @@ export default async function (t: Smoke) {
   check(blockIn(map2, "uk-b-0106")!.status === "known", "«Я это знаю» → known");
   check(map2.mistakes === 1, "one exercise in the Ukrainian mistakes queue");
 
+  // Part test, cheat sheet, search.
+  const test = await get<{ items: { id: string }[] }>("/uk/parts/4/test");
+  check(test.items.length === 20 && new Set(test.items.map((i) => i.id)).size === 20, "part test: 20 different exercises");
+  check(test.items.every((i) => i.id.startsWith("uk-b-04")), "part test of part 4: only part 4 blocks");
+  check((await api("/uk/parts/99/test", me)).status === 404, "part test: unknown part → 404");
+  check((await api("/uk/parts/4/test", me, json({ correct: 21, total: 20 }))).status === 400, "part test: impossible score → 400");
+  const low = (await (await api("/uk/parts/4/test", me, json({ correct: 15, total: 20 }))).json()) as { score: number; passed: boolean };
+  const high = (await (await api("/uk/parts/4/test", me, json({ correct: 18, total: 20 }))).json()) as { passed: boolean };
+  await api("/uk/parts/4/test", me, json({ correct: 10, total: 20 }));
+  const map3 = await get<Map & { parts: { part: number; test: { best: number; passed: boolean } | null }[] }>("/uk");
+  const p4 = map3.parts.find((p) => p.part === 4)!.test;
+  check(low.score === 75 && !low.passed && high.passed && p4?.best === 90 && p4.passed, "part test: 75 % fails, 90 % passes; best score and pass are kept");
+  const cheat = await get<{ rules: { blocks: { id: string; title: string }[] }[] }>("/uk/cheatsheet");
+  check(cheat.rules.length === 15 && cheat.rules.every((r) => r.blocks.length > 0 && r.blocks.every((b) => b.title)), "cheat sheet: 15 rules, each linked to blocks");
+  const found = await get<{ blocks: { id: string }[] }>(`/uk/search?q=${encodeURIComponent("кличний")}`);
+  check(found.blocks.some((b) => b.id === "uk-b-0410"), "search «кличний» finds the vocative block");
+
   // The original flow is untouched.
   const s = await get<Session>("/session");
   const st = await get<Stats>("/stats");

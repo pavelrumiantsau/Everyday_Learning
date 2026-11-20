@@ -26,7 +26,7 @@ A separate Mini App section for the owner only (copies get 404): blocks from the
 **`docs/UK-GRAMMAR-PLAN.md`** (status, block map, decisions), recipe `prompts/content/uk-grammar.md`, errata
 `docs/UK-GRAMMAR-ERRATA.md`. Content `content/uk/blocks/<part>/uk-b-PPNN-*.yaml` (`UkBlock` in `packages/core/src/uk-schema.ts`);
 sentences are written, not from Tatoeba (exception for `content/uk/` only); check with `python3 scripts/uk-check.py`.
-`uk` is **not** in `LANGS`: own tables (`uk_*`, migration 0014), own Worker feature (`features/ukrainian.ts`, API only) —
+`uk` is **not** in `LANGS`: own tables (`uk_*`, migrations 0014–0015), own Worker feature (`features/ukrainian.ts`, API only) —
 never write to `card_state` / `activity_day` from it.
 
 ## Conventions that matter
@@ -45,7 +45,7 @@ never write to `card_state` / `activity_day` from it.
 - `packages/llm` — provider router (Groq main, Gemini fallback, Anthropic off), adapters, prompts rendering; tests in `packages/llm/test`.
 - `apps/worker` — Cloudflare Worker (Hono + D1). **Features plug in** via `src/features/<name>.ts` (`Feature`: commands, onMessage,
   onPollAnswer, api, onTick) and one line in `src/features/index.ts` (**`tutor` must stay last**: it takes plain text). Migrations in
-  `migrations/` (next: **0015**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
+  `migrations/` (next: **0016**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
 - `apps/miniapp` — React 19 + Vite. Features in `src/features/*.tsx` (`HomeEntry` + `Screen`), listed in `src/features.tsx`;
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
 - `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.

@@ -105,4 +105,47 @@ export function isMastered(count: number, answered: number, recent: readonly boo
 /** Diagnostic: two exercises per block, the first and the one in the middle. */
 export const diagnosticPicks = (count: number): number[] => (count < 2 ? [0] : [0, Math.floor(count / 2)]);
 
+/** Part test («Контрольная части»): 20 mixed exercises from all blocks of a part; ≥ 85 % passes the part. */
+export const PART_TEST_SIZE = 20;
+export const PART_TEST_PASS = 0.85;
+
+/**
+ * Exercises for a part test: blocks take turns (so every block is represented), each turn a random exercise not
+ * picked yet. `counts[b]` = number of exercises of block b; returns [block, exercise] index pairs.
+ */
+export function pickPartTest(counts: readonly number[], random: () => number = Math.random, size = PART_TEST_SIZE): [number, number][] {
+  const left = counts.map((n) => Array.from({ length: n }, (_, i) => i));
+  const picked: [number, number][] = [];
+  const total = counts.reduce((a, b) => a + b, 0);
+  for (let turn = 0; picked.length < Math.min(size, total); turn++) {
+    const b = turn % counts.length;
+    const pool = left[b]!;
+    if (!pool.length) continue;
+    const [i] = pool.splice(Math.floor(random() * pool.length), 1);
+    picked.push([b, i!]);
+  }
+  return picked;
+}
+
+/** A part test result in per cent and whether it passes. */
+export function partTestScore(correct: number, total: number): { score: number; passed: boolean } {
+  const score = total > 0 ? Math.round((correct / total) * 100) : 0;
+  return { score, passed: total > 0 && correct / total >= PART_TEST_PASS };
+}
+
+/** Mastered blocks come back now and then so the rule isn't forgotten: after this many days without answers… */
+export const REFRESH_AFTER_DAYS = 21;
+/** …this many of their exercises (answered longest ago) join «Повторить ошибки». */
+export const REFRESH_PER_BLOCK = 2;
+
+export const needsRefresh = (mastered: boolean, lastAnswerAt: number | null, now: number) =>
+  mastered && lastAnswerAt !== null && now - lastAnswerAt >= REFRESH_AFTER_DAYS * 86_400_000;
+
+/** Search over blocks: case, stress marks and apostrophe form don't matter. */
+export function matchesQuery(haystack: string, query: string): boolean {
+  const norm = (s: string) => s.normalize("NFD").replace(/́/g, "").normalize("NFC").toLowerCase().replace(/['’ʼ‘`]/g, "’");
+  const q = norm(query.trim());
+  return q.length > 0 && norm(haystack).includes(q);
+}
+
 export type UkBlockStatus = "closed" | "known" | "open" | "mastered";

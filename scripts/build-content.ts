@@ -5,7 +5,7 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, relative as relativePath } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { Course, Exam, ItemFile, Lesson, ListeningFile, Milestones, ReadingText, Schedule, Sources, TaskFile, UkBlock, type Exam as ExamT, type Item, type Listening, type Task } from "../packages/core/src/index.ts";
+import { Course, Exam, ItemFile, Lesson, ListeningFile, Milestones, ReadingText, Schedule, Sources, TaskFile, UkBlock, UkCheatSheet, type Exam as ExamT, type Item, type Listening, type Task, type UkCheatSheet as UkCheatSheetT } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
@@ -257,9 +257,10 @@ try {
 
 // Ukrainian grammar blocks: content/uk/blocks/<part>/<id>-<slug>.yaml, one block per file (docs/UK-GRAMMAR-PLAN.md §5).
 const ukBlocks: UkBlock[] = [];
+const UK_CHEATSHEET_FILE = "content/uk/cheatsheet.yaml";
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (!isUk(rel)) continue;
+  if (!isUk(rel) || rel === UK_CHEATSHEET_FILE) continue;
   if (!/^content\/uk\/blocks\/\d{2}\/uk-b-\d{4}-[a-z0-9-]+\.yaml$/.test(rel)) {
     errors.push(`${rel}: Ukrainian blocks live in content/uk/blocks/<part>/<id>-<slug>.yaml`);
     continue;
@@ -277,6 +278,21 @@ for (const file of yamlFiles(join(root, "content")).sort()) {
   ukBlocks.push(b);
 }
 ukBlocks.sort((a, b) => a.id.localeCompare(b.id));
+
+// Cheat sheet (Appendix A of the course): every linked block must exist.
+let ukCheatSheet: UkCheatSheetT = [];
+try {
+  const result = UkCheatSheet.safeParse(parse(readFileSync(join(root, UK_CHEATSHEET_FILE), "utf8")));
+  if (!result.success) {
+    for (const issue of result.error.issues) errors.push(`${UK_CHEATSHEET_FILE}: [${issue.path.join(".")}] ${issue.message}`);
+  } else {
+    ukCheatSheet = result.data;
+    const ids = new Set(ukBlocks.map((b) => b.id));
+    for (const r of ukCheatSheet) for (const id of r.blocks) if (!ids.has(id)) errors.push(`${UK_CHEATSHEET_FILE}: unknown block ${id}`);
+  }
+} catch (e) {
+  if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
+}
 
 const schedule = Schedule.safeParse(parse(readFileSync(join(root, "config/schedule.yaml"), "utf8")));
 if (!schedule.success) {
@@ -325,5 +341,6 @@ if (!checkOnly) {
   writeFileSync(join(out, "listening.json"), JSON.stringify(listening));
   writeFileSync(join(out, "exams.json"), JSON.stringify(exams));
   writeFileSync(join(out, "uk.json"), JSON.stringify(ukBlocks));
-  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course,tasks,listening,exams,uk}.json`);
+  writeFileSync(join(out, "uk-cheatsheet.json"), JSON.stringify(ukCheatSheet));
+  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course,tasks,listening,exams,uk,uk-cheatsheet}.json`);
 }

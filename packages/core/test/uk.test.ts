@@ -1,5 +1,22 @@
 import { describe, expect, it } from "vitest";
-import { checkUk, diagnosticPicks, isMastered, parseUkExerciseId, pickSession, tokens, UkBlock, ukExerciseId, ukPartOf, vowelPositions, type ExerciseStat } from "../src";
+import {
+  checkUk,
+  diagnosticPicks,
+  isMastered,
+  matchesQuery,
+  needsRefresh,
+  PART_TEST_SIZE,
+  parseUkExerciseId,
+  partTestScore,
+  pickPartTest,
+  pickSession,
+  tokens,
+  UkBlock,
+  ukExerciseId,
+  ukPartOf,
+  vowelPositions,
+  type ExerciseStat,
+} from "../src";
 
 const judge = (i: number) => ({ type: "judge", text: `Речення ${i}.`, correct: true, explain: "пояснення" });
 const block = (over: object = {}) => ({
@@ -123,5 +140,37 @@ describe("practice sessions and mastery", () => {
   it("diagnostic: the first and the middle exercise", () => {
     expect(diagnosticPicks(24)).toEqual([0, 12]);
     expect(diagnosticPicks(1)).toEqual([0]);
+  });
+});
+
+describe("part tests, refresh, search", () => {
+  it("part test: blocks take turns, no exercise twice, at most the size", () => {
+    const picks = pickPartTest([25, 30, 22], () => 0.5);
+    expect(picks).toHaveLength(PART_TEST_SIZE);
+    expect(picks.slice(0, 3).map(([b]) => b)).toEqual([0, 1, 2]);
+    expect(new Set(picks.map(([b, i]) => `${b}:${i}`)).size).toBe(picks.length);
+    expect(picks.filter(([b]) => b === 0)).toHaveLength(7);
+    expect(pickPartTest([2, 3], Math.random)).toHaveLength(5); // fewer exercises than the size
+  });
+
+  it("part test score: ≥ 85 % passes", () => {
+    expect(partTestScore(17, 20)).toEqual({ score: 85, passed: true });
+    expect(partTestScore(16, 20)).toEqual({ score: 80, passed: false });
+    expect(partTestScore(0, 0)).toEqual({ score: 0, passed: false });
+  });
+
+  it("mastered blocks come back after 21 days without answers", () => {
+    const day = 86_400_000;
+    expect(needsRefresh(true, 0, 21 * day)).toBe(true);
+    expect(needsRefresh(true, 0, 20 * day)).toBe(false);
+    expect(needsRefresh(false, 0, 30 * day)).toBe(false);
+    expect(needsRefresh(true, null, 30 * day)).toBe(false);
+  });
+
+  it("search ignores case, stress marks and apostrophe form", () => {
+    expect(matchesQuery("Звательный падеж (кличний відмінок)", "КЛИЧНИЙ")).toBe(true);
+    expect(matchesQuery("кропива́", "кропива")).toBe(true);
+    expect(matchesQuery("п’ять", "п'ять")).toBe(true);
+    expect(matchesQuery("будь-хто", " ")).toBe(false);
   });
 });

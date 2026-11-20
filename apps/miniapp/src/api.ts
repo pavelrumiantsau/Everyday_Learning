@@ -340,11 +340,19 @@ export const getWords = (lang: Lang) => call<{ words: MyWord[] }>(`/words?lang=$
 export type UkStatus = "closed" | "known" | "open" | "mastered";
 export interface UkProgress { status: UkStatus; answered: number; recent: number | null; diag: number | null }
 export interface UkBlockSummary extends UkProgress { id: string; title: string; level: string; source: string; exercises: number }
-export interface UkMap { parts: { part: number; title: string; blocks: UkBlockSummary[] }[]; due: number; mistakes: number; diagnostic: { tested: number; total: number } }
+/** `test`: best part-test score (per cent) and whether the part is passed; null = not taken. `due` includes `refresh`
+ * (exercises of mastered blocks coming back after a long pause). */
+export interface UkMap {
+  parts: { part: number; title: string; test: { best: number; passed: boolean } | null; blocks: UkBlockSummary[] }[];
+  due: number;
+  mistakes: number;
+  refresh: number;
+  diagnostic: { tested: number; total: number };
+}
 export interface UkBlockDetail { block: UkBlock; progress: UkProgress; session: number[]; wrong: number[] }
 /** One exercise to show: `id` = uk-b-0410:x3. */
 export interface UkItem { id: string; exercise: UkExercise; blockTitle?: string }
-export type UkMode = "learn" | "review" | "diag";
+export type UkMode = "learn" | "review" | "diag" | "test";
 export interface UkDiagnostic { part: number; title: string; blocks: { id: string; title: string; diag: number | null; exercises: UkItem[] }[] }
 /** null = the section isn't on this deployment (a personal copy). */
 export const getUkMap = () =>
@@ -362,6 +370,13 @@ export const getUkReview = (limit = 20) =>
 export const getUkDiagnostic = (part: number) => call<UkDiagnostic>(`/uk/diagnostic?part=${part}`);
 export const saveUkDiagnostic = (results: { block: string; correct: number }[]) =>
   call<{ saved: number }>("/uk/diagnostic", { method: "POST", body: JSON.stringify({ results }) });
+export const getUkPartTest = (part: number) => call<{ part: number; title: string; items: UkItem[] }>(`/uk/parts/${part}/test`);
+export const saveUkPartTest = (part: number, correct: number, total: number) =>
+  call<{ score: number; passed: boolean; best: number; partPassed: boolean }>(`/uk/parts/${part}/test`, { method: "POST", body: JSON.stringify({ correct, total }) });
+export interface UkCheatRule { rule: string; example: string; blocks: { id: string; title: string; status: UkStatus }[] }
+export const getUkCheatsheet = () => call<{ rules: UkCheatRule[] }>("/uk/cheatsheet").then((r) => r.rules);
+export const searchUk = (q: string) =>
+  call<{ blocks: { id: string; title: string; part: number; source: string }[] }>(`/uk/search?q=${encodeURIComponent(q)}`).then((r) => r.blocks);
 
 // Answers are kept on the device until the server confirms them (like review answers).
 interface UkAnswer { id: string; exercise: string; correct: boolean; mode: UkMode; at: number }

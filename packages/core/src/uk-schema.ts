@@ -89,3 +89,18 @@ export const UkBlock = z
     });
   });
 export type UkBlock = z.infer<typeof UkBlock>;
+
+/** The course's Appendix A, «15 правил, которые дают больше всего» (content/uk/cheatsheet.yaml), each linked to its blocks. */
+export const UkCheatSheet = z
+  .array(
+    z.object({
+      /** Russian, short. */
+      rule: z.string().trim().min(5).max(120),
+      /** Ukrainian, e.g. «на нозі, в руці». */
+      example: UkRight,
+      blocks: z.array(z.string().regex(/^uk-b-\d{4}$/)).min(1),
+    }),
+  )
+  .min(1)
+  .max(30);
+export type UkCheatSheet = z.infer<typeof UkCheatSheet>;

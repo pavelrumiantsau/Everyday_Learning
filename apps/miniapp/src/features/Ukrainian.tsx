@@ -3,7 +3,7 @@
 // Answers go to /api/uk/answers only — never to the normal reviews.
 import type { UkBlock, UkExercise } from "@el/core";
 import { BLANK, clozeParts } from "@el/core/grammar";
-import { checkUk, tokens, vowelPositions } from "@el/core/uk";
+import { checkUk, PART_TEST_PASS, PART_TEST_SIZE, tokens, vowelPositions } from "@el/core/uk";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   flushUkAnswers,
@@ -15,8 +15,13 @@ import {
   openUkBlock,
   recordUkAnswer,
   saveUkDiagnostic,
+  getUkCheatsheet,
+  getUkPartTest,
+  saveUkPartTest,
+  searchUk,
   type UkBlockDetail,
   type UkBlockSummary,
+  type UkCheatRule,
   type UkDiagnostic,
   type UkItem,
   type UkMap,
@@ -465,7 +470,124 @@ function Failure({ error, onBack }: { error: string; onBack: () => void }) {
   );
 }
 
-function MapView({ map, onBlock, onReview, onDiagnostic, onClose }: { map: UkMap; onBlock: (id: string) => void; onReview: () => void; onDiagnostic: () => void; onClose: () => void }) {
+// --- part test ---
+
+function PartTest({ part, onDone }: { part: number; onDone: () => void }) {
+  const [test, setTest] = useState<{ title: string; items: UkItem[] } | null>(null);
+  const [result, setResult] = useState<{ correct: number; total: number; score: number; passed: boolean; best: number } | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  useEffect(() => {
+    getUkPartTest(part).then(setTest, (e) => setError(String(e)));
+  }, [part]);
+  if (error) return <Failure error={error} onBack={onDone} />;
+  if (!test) return <main className="screen center hint">Загрузка…</main>;
+  if (result) {
+    return (
+      <main className="screen center">
+        <h1>{result.score} %</h1>
+        <p>{result.correct} из {result.total}</p>
+        <p className="hint">
+          {result.passed ? `✓ Часть ${part} пройдена 🎉` : `Нужно ${Math.round(PART_TEST_PASS * 100)} % — ошибки вернутся в «Повторить ошибки».`}
+          {result.best > result.score ? ` Лучший результат: ${result.best} %.` : ""}
+        </p>
+        <button className="button big" onClick={onDone}>К карте курса</button>
+      </main>
+    );
+  }
+  const finish = async (results: { id: string; correct: boolean }[]) => {
+    const correct = results.filter((r) => r.correct).length;
+    await flushUkAnswers();
+    try {
+      const r = await saveUkPartTest(part, correct, results.length);
+      setResult({ correct, total: results.length, ...r });
+    } catch (e) {
+      setError(String(e));
+    }
+  };
+  return <Run items={test.items} mode="test" title={`Контрольная: ${test.title}`} retry={false} onFinish={(r) => void finish(r)} />;
+}
+
+// --- cheat sheet ---
+
+function CheatSheet({ onBlock, onBack }: { onBlock: (id: string) => void; onBack: () => void }) {
+  const [rules, setRules] = useState<UkCheatRule[] | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  useEffect(() => {
+    getUkCheatsheet().then(setRules, (e) => setError(String(e)));
+  }, []);
+  if (error) return <Failure error={error} onBack={onBack} />;
+  if (!rules) return <main className="screen center hint">Загрузка…</main>;
+  return (
+    <main className="screen">
+      <h1>📋 Шпаргалка</h1>
+      <p className="hint small">15 правил, которые дают больше всего (приложение А курса). Нажмите на блок, чтобы открыть правило.</p>
+      <ol className="summary-list">
+        {rules.map((r, i) => (
+          <li key={i}>
+            <b>{r.rule}</b>
+            <br />
+            <i>{r.example}</i>
+            <div className="chips">
+              {r.blocks.map((b) => (
+                <button key={b.id} className="chip" onClick={() => { haptic("tap"); onBlock(b.id); }}>
+                  {b.title}
+                  {b.status === "mastered" || b.status === "known" ? " ✓" : ""}
+                </button>
+              ))}
+            </div>
+          </li>
+        ))}
+      </ol>
+      <div className="spacer" />
+      <button className="secondary center-text" onClick={onBack}>← К карте курса</button>
+    </main>
+  );
+}
+
+// --- search ---
+
+function Search({ onBlock }: { onBlock: (id: string) => void }) {
+  const [query, setQuery] = useState("");
+  const [found, setFound] = useState<{ id: string; title: string; part: number; source: string }[] | null>(null);
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 2) return setFound(null);
+    const timer = setTimeout(() => {
+      searchUk(q).then(setFound, () => setFound([]));
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [query]);
+  return (
+    <>
+      <input className="text-input" placeholder="Поиск по правилам: -ові, пів, чи, кличний…" value={query} onChange={(e) => setQuery(e.target.value)} />
+      {found && found.length === 0 && <p className="hint small">Ничего не найдено.</p>}
+      {found?.map((b) => (
+        <button key={b.id} className="secondary" onClick={() => { haptic("tap"); onBlock(b.id); }}>
+          {b.title}
+          <span className="hint small">часть {b.part} · {b.source}</span>
+        </button>
+      ))}
+    </>
+  );
+}
+
+function MapView({
+  map,
+  onBlock,
+  onReview,
+  onDiagnostic,
+  onTest,
+  onCheatSheet,
+  onClose,
+}: {
+  map: UkMap;
+  onBlock: (id: string) => void;
+  onReview: () => void;
+  onDiagnostic: () => void;
+  onTest: (part: number) => void;
+  onCheatSheet: () => void;
+  onClose: () => void;
+}) {
   const blocks = map.parts.flatMap((p) => p.blocks);
   const done = blocks.filter((b) => b.status === "mastered" || b.status === "known").length;
   return (
@@ -490,15 +612,21 @@ function MapView({ map, onBlock, onReview, onDiagnostic, onClose }: { map: UkMap
           Повторить ошибки ({map.due})
         </button>
       )}
+      {map.refresh > 0 && <p className="hint small center-text">в том числе {map.refresh} из освоенных блоков, давно не повторявшихся</p>}
       {map.diagnostic.tested < map.diagnostic.total && (
         <button className="secondary" onClick={onDiagnostic}>
           🧭 Пройти диагностику
           <span className="hint small">проверено блоков: {map.diagnostic.tested} из {map.diagnostic.total} — покажет, что можно пропустить</span>
         </button>
       )}
+      <button className="secondary" onClick={onCheatSheet}>
+        📋 Шпаргалка
+        <span className="hint small">15 правил, которые дают больше всего</span>
+      </button>
+      <Search onBlock={onBlock} />
       {map.parts.map((p) => (
         <section key={p.part} className="settings-block">
-          <h2>{p.part}. {p.title}</h2>
+          <h2>{p.part}. {p.title}{p.test?.passed ? " ✓" : ""}</h2>
           {p.blocks.length === 0 ? (
             <p className="hint small">Блоки этой части ещё готовятся.</p>
           ) : (
@@ -511,6 +639,15 @@ function MapView({ map, onBlock, onReview, onDiagnostic, onClose }: { map: UkMap
                 </span>
               </button>
             ))
+          )}
+          {p.blocks.length > 0 && (
+            <button className="secondary center-text" onClick={() => { haptic("tap"); onTest(p.part); }}>
+              📝 Контрольная части
+              <span className="hint small">
+                {PART_TEST_SIZE} заданий из всех блоков
+                {p.test ? ` · лучший результат ${p.test.best} %${p.test.passed ? " ✓" : ""}` : ` · нужно ${Math.round(PART_TEST_PASS * 100)} %`}
+              </span>
+            </button>
           )}
         </section>
       ))}
@@ -528,7 +665,9 @@ type View =
   | { kind: "run"; items: UkItem[]; mode: UkMode; title: string; back: View }
   | { kind: "done"; correct: number; total: number; back: View }
   | { kind: "diag-pick" }
-  | { kind: "diag"; part: number };
+  | { kind: "diag"; part: number }
+  | { kind: "test"; part: number }
+  | { kind: "cheatsheet" };
 
 function Screen({ close }: { close: () => void }) {
   const [map, setMap] = useState<UkMap | null>(null);
@@ -578,11 +717,17 @@ function Screen({ close }: { close: () => void }) {
       return <DiagnosticPicker map={map} onPick={(part) => go({ kind: "diag", part })} onBack={() => go({ kind: "map" })} />;
     case "diag":
       return <DiagnosticRun key={view.part} part={view.part} onDone={() => go({ kind: "map" })} />;
+    case "test":
+      return <PartTest key={view.part} part={view.part} onDone={() => go({ kind: "map" })} />;
+    case "cheatsheet":
+      return <CheatSheet onBlock={(id) => go({ kind: "block", id })} onBack={() => go({ kind: "map" })} />;
     case "map":
       return (
         <MapView
           map={map}
           onBlock={(id) => go({ kind: "block", id })}
+          onTest={(part) => go({ kind: "test", part })}
+          onCheatSheet={() => go({ kind: "cheatsheet" })}
           onDiagnostic={() => go({ kind: "diag-pick" })}
           onClose={close}
           onReview={() => {
