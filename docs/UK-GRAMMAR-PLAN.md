@@ -12,7 +12,7 @@
 | 0 Fact-check, recipe, tools | ✅ `UK-GRAMMAR-ERRATA.md` (first pass; 🔎 rows are checked when their block is written), `prompts/content/uk-grammar.md`, `scripts/uk-check.py` (LanguageTool, cached in `.cache/uk-check/`). ⏳ VESUM check (word forms exist) not built yet |
 | 1 Engine + pilot | ✅ `packages/core/src/uk.ts` + `uk-schema.ts` (+ tests), `build-content.ts` → `generated/uk.json`, migration **0014**, Worker `features/ukrainian.ts` (API only, 404 in copies), Mini App `features/Ukrainian.tsx` (map, block: rule / tables / mistakes, practice with a retry of wrong ones, all 6 exercise types), smoke **21**. Pilot blocks: `uk-b-0106` stress, `0206` у/в, `0410` vocative, `1201` calques ① (112 exercises) |
 | 2 Diagnostic, review, part tests, cheat sheet | ✅ diagnostic per part, ✅ own FSRS mistakes queue («Повторить ошибки»); ⏳ part tests, cheat sheet (Appendix A), search; ⏳ mastered blocks coming back now and then |
-| 3 Content | ⏳ 4 of 95 blocks. Next: Part 1 in PDF order — `uk-b-0101…0105`, then Part 2 (`0201…0205`, `0207…0209`) |
+| 3 Content | ⏳ 9 of 95 blocks (234 exercises): **Part 1 complete** (`0101…0106`), `0206`, `0410`, `1201`. Next: Part 2 (`0201…0205`, `0207…0209`) |
 
 Also in this branch: `build-content.ts` normalises paths to "/" so `content:validate` works on Windows too.
 

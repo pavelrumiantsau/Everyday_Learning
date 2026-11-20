@@ -29,17 +29,24 @@ BLANK = "___"
 IGNORED = {"UPPERCASE_SENTENCE_START", "WHITESPACE_RULE", "PUNCTUATION_PARAGRAPH_END"}
 
 
+def is_meta(text):
+    """A transcription ([хл’іб]) — not Ukrainian text to check."""
+    return text.strip().startswith("[")
+
+
 def sentences(block):
-    """(sentence, should_be_right, where) for every Ukrainian sentence of a block."""
+    """(sentence, should_be_right, where) for every Ukrainian sentence of a block. Questions about the language itself
+    («Як читається «щастя»?», a choice without a blank) and transcriptions are skipped: they aren't sentences to check."""
     out = [(e["text"], True, "example") for e in block.get("examples", [])]
     for p in block.get("pairs", []):
-        out += [(p["right"], True, "pair right"), (p["wrong"], False, "pair wrong")]
+        if not is_meta(p["right"]):
+            out += [(p["right"], True, "pair right"), (p["wrong"], False, "pair wrong")]
     for i, ex in enumerate(block.get("exercises", [])):
         where = f"x{i + 1} {ex['type']}"
         t = ex["type"]
         if t == "cloze":
             out += [(ex["text"].replace(BLANK, a), True, where) for a in [ex["answer"], *ex.get("also", [])]]
-        elif t == "choice":
+        elif t == "choice" and BLANK in ex["text"]:
             out.append((ex["text"].replace(BLANK, ex["options"][ex["answer"]]), True, where))
         elif t == "fix":
             out += [(a, True, where) for a in [ex["answer"], *ex.get("also", [])]]
