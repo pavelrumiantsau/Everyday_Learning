@@ -2,13 +2,15 @@
 // Usage: pnpm build:content        (validate + write)
 //        pnpm content:validate     (validate only; used in CI)
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join, relative } from "node:path";
+import { join, relative as relativePath } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { Course, Exam, ItemFile, Lesson, ListeningFile, Milestones, ReadingText, Schedule, Sources, TaskFile, type Exam as ExamT, type Item, type Listening, type Task } from "../packages/core/src/index.ts";
+import { Course, Exam, ItemFile, Lesson, ListeningFile, Milestones, ReadingText, Schedule, Sources, TaskFile, UkBlock, UkCheatSheet, type Exam as ExamT, type Item, type Listening, type Task, type UkCheatSheet as UkCheatSheetT } from "../packages/core/src/index.ts";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const checkOnly = process.argv.includes("--check");
+// Always "/" (the folder checks below match content/<lang>/<kind>/), also on Windows.
+const relative = (from: string, to: string) => relativePath(from, to).replaceAll("\\", "/");
 
 function yamlFiles(dir: string): string[] {
   return readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
@@ -39,11 +41,13 @@ const isCourse = (rel: string) => /^content\/[a-z]{2}\/course\//.test(rel);
 const isTasks = (rel: string) => /^content\/[a-z]{2}\/tasks\//.test(rel);
 const isListening = (rel: string) => /^content\/[a-z]{2}\/listening\//.test(rel);
 const isExam = (rel: string) => /^content\/[a-z]{2}\/exams\//.test(rel);
+/** Ukrainian grammar section (docs/UK-GRAMMAR-PLAN.md): its own format, never part of the vocabulary or lessons. */
+const isUk = (rel: string) => rel.startsWith("content/uk/");
 const STRESS_FILE = "content/lt/stress.yaml";
 
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (isGrammar(rel) || isReading(rel) || isCourse(rel) || isTasks(rel) || isListening(rel) || isExam(rel) || rel === STRESS_FILE) continue; // see below
+  if (isGrammar(rel) || isReading(rel) || isCourse(rel) || isTasks(rel) || isListening(rel) || isExam(rel) || isUk(rel) || rel === STRESS_FILE) continue; // see below
   const result = ItemFile.safeParse(parse(readFileSync(file, "utf8")));
   if (!result.success) {
     for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
@@ -85,7 +89,7 @@ const lessons: Lesson[] = [];
 const lessonOrder = new Map<string, string>();
 for (const file of yamlFiles(join(root, "content")).sort()) {
   const rel = relative(root, file);
-  if (!isGrammar(rel)) continue;
+  if (!isGrammar(rel) || isUk(rel)) continue;
   const result = Lesson.safeParse(parse(readFileSync(file, "utf8")));
   if (!result.success) {
     for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
@@ -251,6 +255,47 @@ try {
   if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
 }
 
+// Ukrainian grammar blocks: content/uk/blocks/<part>/<id>-<slug>.yaml, one block per file (docs/UK-GRAMMAR-PLAN.md §5).
+const ukBlocks: UkBlock[] = [];
+const UK_CHEATSHEET_FILE = "content/uk/cheatsheet.yaml";
+/** Checked exceptions for scripts/uk-vesum.py (not bundled). */
+const UK_VESUM_ALLOW_FILE = "content/uk/vesum-allow.yaml";
+for (const file of yamlFiles(join(root, "content")).sort()) {
+  const rel = relative(root, file);
+  if (!isUk(rel) || rel === UK_CHEATSHEET_FILE || rel === UK_VESUM_ALLOW_FILE) continue;
+  if (!/^content\/uk\/blocks\/\d{2}\/uk-b-\d{4}-[a-z0-9-]+\.yaml$/.test(rel)) {
+    errors.push(`${rel}: Ukrainian blocks live in content/uk/blocks/<part>/<id>-<slug>.yaml`);
+    continue;
+  }
+  const result = UkBlock.safeParse(parse(readFileSync(file, "utf8")));
+  if (!result.success) {
+    for (const issue of result.error.issues) errors.push(`${rel}: [${issue.path.join(".")}] ${issue.message}`);
+    continue;
+  }
+  const b = result.data;
+  if (!rel.startsWith(`content/uk/blocks/${b.id.slice(5, 7)}/${b.id}-`)) errors.push(`${rel}: file name and folder must match ${b.id}`);
+  const dup = seen.get(b.id);
+  if (dup) errors.push(`${rel}: duplicate id ${b.id} (also in ${dup})`);
+  seen.set(b.id, rel);
+  ukBlocks.push(b);
+}
+ukBlocks.sort((a, b) => a.id.localeCompare(b.id));
+
+// Cheat sheet (Appendix A of the course): every linked block must exist.
+let ukCheatSheet: UkCheatSheetT = [];
+try {
+  const result = UkCheatSheet.safeParse(parse(readFileSync(join(root, UK_CHEATSHEET_FILE), "utf8")));
+  if (!result.success) {
+    for (const issue of result.error.issues) errors.push(`${UK_CHEATSHEET_FILE}: [${issue.path.join(".")}] ${issue.message}`);
+  } else {
+    ukCheatSheet = result.data;
+    const ids = new Set(ukBlocks.map((b) => b.id));
+    for (const r of ukCheatSheet) for (const id of r.blocks) if (!ids.has(id)) errors.push(`${UK_CHEATSHEET_FILE}: unknown block ${id}`);
+  }
+} catch (e) {
+  if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
+}
+
 const schedule = Schedule.safeParse(parse(readFileSync(join(root, "config/schedule.yaml"), "utf8")));
 if (!schedule.success) {
   for (const issue of schedule.error.issues) errors.push(`config/schedule.yaml: [${issue.path.join(".")}] ${issue.message}`);
@@ -282,7 +327,7 @@ const counts = Object.entries(
 )
   .map(([l, n]) => `${l}: ${n}`)
   .join(", ");
-console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, ${texts.length} reading texts, ${tasks.length} tasks, ${listening.length} listening, ${exams.length} mock exams${courseNote}, schedule OK`);
+console.log(`✓ ${items.length} items (${counts}), ${lessons.length} grammar lessons, ${texts.length} reading texts, ${tasks.length} tasks, ${listening.length} listening, ${exams.length} mock exams${courseNote}, ${ukBlocks.length} Ukrainian blocks (${ukBlocks.reduce((n, b) => n + b.exercises.length, 0)} exercises), schedule OK`);
 
 if (!checkOnly) {
   const out = join(root, "apps/worker/src/generated");
@@ -297,5 +342,7 @@ if (!checkOnly) {
   writeFileSync(join(out, "tasks.json"), JSON.stringify(tasks));
   writeFileSync(join(out, "listening.json"), JSON.stringify(listening));
   writeFileSync(join(out, "exams.json"), JSON.stringify(exams));
-  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course,tasks,listening,exams}.json`);
+  writeFileSync(join(out, "uk.json"), JSON.stringify(ukBlocks));
+  writeFileSync(join(out, "uk-cheatsheet.json"), JSON.stringify(ukCheatSheet));
+  console.log(`→ ${relative(root, out)}/{content,schedule,milestones,grammar,reading,sources,course,tasks,listening,exams,uk,uk-cheatsheet}.json`);
 }

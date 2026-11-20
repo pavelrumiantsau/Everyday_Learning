@@ -254,3 +254,13 @@ textarea.own-text { min-height: 40vh; resize: vertical; line-height: 1.4; }
 /* «Источники и лицензии» (features/Profile.tsx) */
 .sources ul { margin: 6px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; }
 .sources a { color: inherit; }
+
+/* 🇺🇦 Ukrainian grammar section (features/Ukrainian.tsx) */
+.uk-table-wrap { overflow-x: auto; margin: 0 0 12px; }
+.uk-table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.uk-table th, .uk-table td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid color-mix(in srgb, var(--hint) 25%, transparent); }
+.uk-table th { font-weight: 600; background: var(--bg2); }
+.uk-stress { font-size: 34px; font-weight: 700; letter-spacing: 0.02em; display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; margin: 8px 0; }
+.uk-vowel { font: inherit; color: var(--accent); background: var(--bg2); border-radius: 8px; padding: 0 4px; margin: 0 1px; }
+.uk-vowel.right { background: var(--good); color: #fff; }
+.uk-vowel:disabled { opacity: 1; }

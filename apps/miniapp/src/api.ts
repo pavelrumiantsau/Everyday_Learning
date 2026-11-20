@@ -1,4 +1,4 @@
-import type { Exercise, Item, Lesson } from "@el/core";
+import type { Exercise, Item, Lesson, UkBlock, UkExercise } from "@el/core";
 import { tg } from "./telegram";
 
 export type Lang = "lt" | "es" | "fr";
@@ -335,3 +335,92 @@ export const markUnitKnown = (id: string) => call<{ progress: UnitProgress }>(`/
 /** `due`: next review (epoch ms), null = moved out of reviews; `fromReading`: added from a text. */
 export interface MyWord { id: string; text: string; stress: string | null; meaning: string; learned: boolean; due: number | null; fromReading: boolean }
 export const getWords = (lang: Lang) => call<{ words: MyWord[] }>(`/words?lang=${lang}`).then((r) => r.words);
+
+// --- Ukrainian grammar section (docs/UK-GRAMMAR-PLAN.md; owner's bot only: 404 in personal copies) ---
+export type UkStatus = "closed" | "known" | "open" | "mastered";
+export interface UkProgress { status: UkStatus; answered: number; recent: number | null; diag: number | null }
+export interface UkBlockSummary extends UkProgress { id: string; title: string; level: string; source: string; exercises: number }
+/** `test`: best part-test score (per cent) and whether the part is passed; null = not taken. `due` includes `refresh`
+ * (exercises of mastered blocks coming back after a long pause). */
+export interface UkMap {
+  parts: { part: number; title: string; test: { best: number; passed: boolean } | null; blocks: UkBlockSummary[] }[];
+  due: number;
+  mistakes: number;
+  refresh: number;
+  diagnostic: { tested: number; total: number };
+}
+export interface UkBlockDetail { block: UkBlock; progress: UkProgress; session: number[]; wrong: number[] }
+/** One exercise to show: `id` = uk-b-0410:x3. */
+export interface UkItem { id: string; exercise: UkExercise; blockTitle?: string }
+export type UkMode = "learn" | "review" | "diag" | "test";
+export interface UkDiagnostic { part: number; title: string; blocks: { id: string; title: string; diag: number | null; exercises: UkItem[] }[] }
+/** null = the section isn't on this deployment (a personal copy). */
+export const getUkMap = () =>
+  call<UkMap>("/uk").catch((e: unknown) => {
+    if (e instanceof ApiError && e.status === 404) return null;
+    throw e;
+  });
+export const getUkBlock = (id: string, size = 10) => call<UkBlockDetail>(`/uk/blocks/${encodeURIComponent(id)}?size=${size}`);
+export const openUkBlock = (id: string) => call<{ ok: true }>(`/uk/blocks/${encodeURIComponent(id)}/open`, { method: "POST" });
+export const markUkBlockKnown = (id: string) => call<{ ok: true }>(`/uk/blocks/${encodeURIComponent(id)}/known`, { method: "POST" });
+export const getUkReview = (limit = 20) =>
+  call<{ cards: { id: string; blockId: string; blockTitle: string; exercise: UkExercise }[] }>(`/uk/review?limit=${limit}`).then((r) =>
+    r.cards.map((c): UkItem => ({ id: c.id, exercise: c.exercise, blockTitle: c.blockTitle })),
+  );
+export const getUkDiagnostic = (part: number) => call<UkDiagnostic>(`/uk/diagnostic?part=${part}`);
+export const saveUkDiagnostic = (results: { block: string; correct: number }[]) =>
+  call<{ saved: number }>("/uk/diagnostic", { method: "POST", body: JSON.stringify({ results }) });
+export const getUkPartTest = (part: number) => call<{ part: number; title: string; items: UkItem[] }>(`/uk/parts/${part}/test`);
+export const saveUkPartTest = (part: number, correct: number, total: number) =>
+  call<{ score: number; passed: boolean; best: number; partPassed: boolean }>(`/uk/parts/${part}/test`, { method: "POST", body: JSON.stringify({ correct, total }) });
+export interface UkCheatRule { rule: string; example: string; blocks: { id: string; title: string; status: UkStatus }[] }
+export const getUkCheatsheet = () => call<{ rules: UkCheatRule[] }>("/uk/cheatsheet").then((r) => r.rules);
+export const searchUk = (q: string) =>
+  call<{ blocks: { id: string; title: string; part: number; source: string }[] }>(`/uk/search?q=${encodeURIComponent(q)}`).then((r) => r.blocks);
+
+// Answers are kept on the device until the server confirms them (like review answers).
+interface UkAnswer { id: string; exercise: string; correct: boolean; mode: UkMode; at: number }
+const UK_PENDING_KEY = "el.uk-pending.v1";
+const readUkPending = (): UkAnswer[] => {
+  try {
+    return JSON.parse(localStorage.getItem(UK_PENDING_KEY) ?? "[]") as UkAnswer[];
+  } catch {
+    return [];
+  }
+};
+let ukPending: UkAnswer[] = readUkPending();
+const writeUkPending = () => {
+  try {
+    localStorage.setItem(UK_PENDING_KEY, JSON.stringify(ukPending));
+  } catch {
+    // storage unavailable: answers are still sent right away
+  }
+};
+let ukFlushing: Promise<void> | null = null;
+export function recordUkAnswer(exercise: string, correct: boolean, mode: UkMode) {
+  ukPending.push({ id: crypto.randomUUID(), exercise, correct, mode, at: Date.now() });
+  writeUkPending();
+  void flushUkAnswers();
+}
+/** Sends the answers waiting on the device; a failure keeps them for the next try. */
+export function flushUkAnswers(): Promise<void> {
+  if (ukFlushing) return ukFlushing;
+  if (!ukPending.length) return Promise.resolve();
+  const run = (async () => {
+    try {
+      while (ukPending.length) {
+        const batch = ukPending.slice(0, 100);
+        await call("/uk/answers", { method: "POST", body: JSON.stringify({ answers: batch }) });
+        const sent = new Set(batch.map((a) => a.id));
+        ukPending = ukPending.filter((a) => !sent.has(a.id));
+        writeUkPending();
+      }
+    } catch {
+      // offline or server error: keep them
+    }
+  })();
+  ukFlushing = run.finally(() => {
+    ukFlushing = null;
+  });
+  return ukFlushing;
+}

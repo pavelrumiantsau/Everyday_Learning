@@ -1,0 +1,12 @@
+# Words the dictionary of scripts/uk-vesum.py (pymorphy3-dicts-uk) doesn't know, checked by a person as correct.
+# Add a word only after checking it in goroh.pp.ua or slovnyk.ua, with a short note.
+- { word: "вже", note: "частица «уже»; uninflected, missing from the dictionary" }
+- { word: "ще", note: "частица «ещё»" }
+- { word: "немає", note: "«нет» (предикатив)" }
+- { word: "нема", note: "«нет» (разг.); нема за що" }
+- { word: "агов", note: "междометие «эй!» (курс §9.5)" }
+- { word: "ого", note: "междометие удивления" }
+- { word: "ой", note: "междометие" }
+- { word: "цить", note: "междометие «тихо!»" }
+- { word: "добраніч", note: "«спокойной ночи» (на добраніч)" }
+- { word: "вул", note: "сокращение «вулиця» (вул.)" }

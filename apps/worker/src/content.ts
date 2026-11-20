@@ -35,3 +35,12 @@ import type { Exam } from "@el/core";
 /** Mock exams of the foundation course (content/lt/exams). */
 export const EXAMS = examsJson as unknown as Exam[];
 export const EXAM_BY_ID = new Map(EXAMS.map((e) => [e.id, e]));
+import ukJson from "./generated/uk.json";
+import type { UkBlock } from "@el/core";
+/** Ukrainian grammar blocks (content/uk/blocks, docs/UK-GRAMMAR-PLAN.md), in id order. Only features/ukrainian.ts uses them. */
+export const UK_BLOCKS = ukJson as unknown as UkBlock[];
+export const UK_BLOCK_BY_ID = new Map(UK_BLOCKS.map((b) => [b.id, b]));
+import ukCheatSheetJson from "./generated/uk-cheatsheet.json";
+import type { UkCheatSheet } from "@el/core";
+/** «Шпаргалка»: Appendix A of the course, 15 rules linked to blocks (content/uk/cheatsheet.yaml). */
+export const UK_CHEATSHEET = ukCheatSheetJson as unknown as UkCheatSheet;

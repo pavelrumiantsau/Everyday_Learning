@@ -18,3 +18,5 @@ export * from "./course";
 export * from "./tasks";
 export * from "./listening";
 export * from "./exam";
+export * from "./uk";
+export * from "./uk-schema";

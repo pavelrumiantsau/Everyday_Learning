@@ -47,6 +47,9 @@
 **Colleagues extension (2026-10-08):** personal copies for colleagues and a Lithuanian A0 → A2-exam course are planned in
 [EXTENSION-PLAN.md](EXTENSION-PLAN.md). This bot keeps its current behaviour; its A-level material is separate (`track: foundation`).
 
+**Ukrainian grammar section (2026-11-20):** a separate Mini App section (owner only) with blocks from the learner's course
+«Грамматика украинского языка до C1»: [UK-GRAMMAR-PLAN.md](UK-GRAMMAR-PLAN.md). Own tables and API; the flow above is unchanged.
+
 **Real-use fixes (done 2026-10-19, branch `feat/owner-fixes-2026-10`; smoke `20-words.ts`, no migration):**
 1. **Reading result not saved** — Mini App `Reading.tsx` `Quiz.finish` awaits `markTextRead` with no timeout, no «Сохраняю…»
    state and `.catch(() => undefined)`, so a hung or failed request (e.g. initData older than 24 h after the app stayed open in

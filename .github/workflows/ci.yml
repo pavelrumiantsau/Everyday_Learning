@@ -21,6 +21,10 @@ jobs:
         if: github.event_name == 'pull_request'
         run: git fetch --no-tags --unshallow origin && bash scripts/ci/untouched.sh
       - run: pnpm content:validate
+      - name: Ukrainian blocks — every answer word is in the dictionary (scripts/uk-vesum.py)
+        run: |
+          python3 -m pip install --quiet --target .cache/pylib pymorphy3==2.0.6 pymorphy3-dicts-uk==2.4.1.1.1663094765 pyyaml
+          python3 scripts/uk-vesum.py
       - run: pnpm build
       - run: pnpm typecheck
       - run: pnpm test

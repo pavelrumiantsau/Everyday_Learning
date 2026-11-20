@@ -21,6 +21,15 @@ Smoke runs a second Worker in copy mode (`COPY_CHECKS`). Learner profile (copies
 `learnerItems()` / `learnerLessons()` instead of `ITEMS` / `LESSONS` when picking what to teach). Course map:
 `content/lt/course/foundation.yaml` (`packages/core/src/course.ts`), Mini App «Курс».
 
+## Ukrainian grammar section (since Nov 2026)
+A separate Mini App section for the owner only (copies get 404): blocks from the learner's course PDF, opened on demand.
+**`docs/UK-GRAMMAR-PLAN.md`** (status, block map, decisions), recipe `prompts/content/uk-grammar.md`, errata
+`docs/UK-GRAMMAR-ERRATA.md`. Content `content/uk/blocks/<part>/uk-b-PPNN-*.yaml` (`UkBlock` in `packages/core/src/uk-schema.ts`);
+sentences are written, not from Tatoeba (exception for `content/uk/` only); check with `python3 scripts/uk-check.py`
+(LanguageTool) and `python3 scripts/uk-vesum.py` (dictionary; also in CI).
+`uk` is **not** in `LANGS`: own tables (`uk_*`, migrations 0014–0015), own Worker feature (`features/ukrainian.ts`, API only) —
+never write to `card_state` / `activity_day` from it.
+
 ## Conventions that matter
 - **Explanation language:** Lithuanian → **Russian**; Spanish/French → **English**. **Bot and Mini App UI strings: Russian.**
 - **Accuracy over volume** for all learning content. Every form, translation and rule is learned as correct by a real person.
@@ -37,12 +46,12 @@ Smoke runs a second Worker in copy mode (`COPY_CHECKS`). Learner profile (copies
 - `packages/llm` — provider router (Groq main, Gemini fallback, Anthropic off), adapters, prompts rendering; tests in `packages/llm/test`.
 - `apps/worker` — Cloudflare Worker (Hono + D1). **Features plug in** via `src/features/<name>.ts` (`Feature`: commands, onMessage,
   onPollAnswer, api, onTick) and one line in `src/features/index.ts` (**`tutor` must stay last**: it takes plain text). Migrations in
-  `migrations/` (next: **0014**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
+  `migrations/` (next: **0016**). Settings at runtime: `src/prefs.ts` (config/schedule.yaml defaults + D1 overrides).
 - `apps/miniapp` — React 19 + Vite. Features in `src/features/*.tsx` (`HomeEntry` + `Screen`), listed in `src/features.tsx`;
   review screen `src/screens/Review.tsx` (card kinds: recog, forms, prod, cloze, fix). Telegram theme CSS variables in `styles.css`.
 - `content/<lang>/{vocab,phrasebook,grammar,reading}/*.yaml`, `config/*.yaml` (schedule, llm, milestones, sources), `prompts/**`.
 - `scripts/` — content build/validate, sources, candidates, batches (`scripts/batches/*.py`), audio (`tts.py`), smoke test
-  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **21**), setup scripts.
+  (`scripts/smoke.ts` + `scripts/smoke/NN-*.ts`, next: **22**), setup scripts.
 
 ## Commands
 ```bash

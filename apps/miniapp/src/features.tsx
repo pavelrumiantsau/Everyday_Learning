@@ -8,6 +8,7 @@ import { placementFeature } from "./features/Placement";
 import { profileFeature } from "./features/Profile";
 import { readingFeature } from "./features/Reading";
 import { setupFeature } from "./features/Setup";
+import { ukrainianFeature } from "./features/Ukrainian";
 import { wordsFeature } from "./features/Words";
 
 export interface MiniFeature {
@@ -16,4 +17,4 @@ export interface MiniFeature {
   Screen?: FC<{ close: () => void }>;
 }
 
-export const FEATURES: MiniFeature[] = [setupFeature, courseFeature, profileFeature, grammarFeature, grammarHistoryFeature, readingFeature, wordsFeature, placementFeature, inputFeature];
+export const FEATURES: MiniFeature[] = [setupFeature, courseFeature, profileFeature, grammarFeature, grammarHistoryFeature, readingFeature, wordsFeature, placementFeature, inputFeature, ukrainianFeature];
