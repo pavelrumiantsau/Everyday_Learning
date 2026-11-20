@@ -42,6 +42,12 @@ def is_meta(text):
     return text.strip().startswith("[")
 
 
+def is_sentence(text):
+    """A whole sentence (starts with a capital, quote or dash; ends with . ! ? or a closing quote)."""
+    t = text.strip()
+    return " " in t and t[0] in "«—" + "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЮЯ" and t[-1] in ".!?»“"
+
+
 def sentences(block):
     """(sentence, should_be_right, where) for every Ukrainian sentence of a block. Questions about the language itself
     («Як читається «щастя»?», a choice without a blank) and transcriptions are skipped: they aren't sentences to check."""
@@ -56,6 +62,9 @@ def sentences(block):
             out += [(ex["text"].replace(BLANK, a), True, where) for a in [ex["answer"], *ex.get("also", [])]]
         elif t == "choice" and BLANK in ex["text"]:
             out.append((ex["text"].replace(BLANK, ex["options"][ex["answer"]]), True, where))
+        elif t == "choice" and all(is_sentence(o) for o in ex["options"]):
+            # «Как правильно?» with whole sentences as options (punctuation tasks): the right one must be clean.
+            out += [(o, i == ex["answer"], where) for i, o in enumerate(ex["options"])]
         elif t == "fix":
             out += [(a, True, where) for a in [ex["answer"], *ex.get("also", [])]]
             out.append((ex["text"], False, where))
