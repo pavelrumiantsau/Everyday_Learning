@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { addMoreWords, flushReadTexts, flushReviews, getQueue, getSession, type QueueCard, type Session } from "./api";
+import { addMoreWords, flushReadTexts, flushReviews, getQueue, getSession, REVIEW_BATCH, type QueueCard, type Session } from "./api";
 import { FEATURES } from "./features";
 import { FLAG } from "./flags";
 import { LearnNew } from "./screens/Learn";
@@ -122,13 +122,83 @@ function Learn() {
       )}
       {session.due > 0 ? (
         <button className="button big" onClick={() => void start()}>
-          Повторить ({session.due})
+          {session.due > REVIEW_BATCH ? `Повторить ${REVIEW_BATCH} из ${session.due}` : `Повторить (${session.due})`}
         </button>
       ) : (
         session.learning === 0 && <p className="done-note">Всё повторено 🎉 Новые слова придут утром — или возьми их сейчас.</p>
       )}
       <MoreWords onAdded={() => setOpenFeature("learn")} />
+      <HomeScreenIcon />
     </main>
+  );
+}
+
+const ICON_HIDDEN_KEY = "el.homeIcon.hidden";
+
+/**
+ * «📲 Иконка на телефоне»: Telegram's own shortcut where the client supports it (Android, Bot API 8.0+); otherwise how to
+ * make one by hand from a t.me link (iOS: Safari → «На экран Домой»). Gone once added or hidden.
+ */
+function HomeScreenIcon() {
+  const app = tg;
+  const [status, setStatus] = useState<"checking" | "native" | "manual" | "hidden">(() => {
+    try {
+      if (localStorage.getItem(ICON_HIDDEN_KEY)) return "hidden";
+    } catch {
+      // no storage: just show it
+    }
+    return "checking";
+  });
+  const [help, setHelp] = useState(false);
+
+  useEffect(() => {
+    if (status !== "checking" || !app) return;
+    const native = !!app.addToHomeScreen && !!app.checkHomeScreenStatus && (app.isVersionAtLeast?.("8.0") ?? false);
+    if (!native) return setStatus("manual");
+    app.checkHomeScreenStatus!((s) => setStatus(s === "added" ? "hidden" : s === "unsupported" ? "manual" : "native"));
+  }, [status, app]);
+
+  const hide = () => {
+    try {
+      localStorage.setItem(ICON_HIDDEN_KEY, "1");
+    } catch {
+      // nothing to remember it in
+    }
+    setStatus("hidden");
+  };
+
+  if (status === "hidden" || status === "checking" || !app) return null;
+  if (status === "native") {
+    return (
+      <button className="secondary center-text" onClick={() => { haptic("tap"); app.addToHomeScreen!(); }}>
+        📲 Иконка на экране телефона
+        <span className="hint small">открывать приложение сразу, без чата</span>
+      </button>
+    );
+  }
+  const link = BOT ? `https://t.me/${BOT}?startapp` : null;
+  return (
+    <div className="center-text">
+      <button className="secondary center-text" onClick={() => setHelp((v) => !v)}>
+        📲 Иконка на экране телефона
+        <span className="hint small">как открыть приложение сразу, без чата</span>
+      </button>
+      {help && (
+        <div className="hint small">
+          {link ? (
+            <>
+              <p>Этот Telegram не умеет сам добавить иконку. Можно так:</p>
+              <p>1. Открой в Safari (на Android — в Chrome) ссылку <b>{link}</b></p>
+              <p>2. Safari: «Поделиться» → «На экран Домой». Chrome: ⋮ → «Добавить на главный экран».</p>
+              <p>Иконка откроет Telegram сразу в приложении.</p>
+            </>
+          ) : (
+            <p>Этот Telegram не умеет сам добавить иконку — обнови Telegram или открывай приложение из чата с ботом.</p>
+          )}
+          <button className="chip" onClick={hide}>Скрыть</button>
+        </div>
+      )}
+    </div>
   );
 }
 
