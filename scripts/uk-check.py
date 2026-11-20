@@ -26,7 +26,13 @@ LT_URL = os.environ.get("LT_URL", "https://api.languagetool.org/v2/check")
 PUBLIC = "api.languagetool.org" in LT_URL
 BLANK = "___"
 # Rules that only complain about style of isolated sentences, not about Ukrainian norms.
-IGNORED = {"UPPERCASE_SENTENCE_START", "WHITESPACE_RULE", "PUNCTUATION_PARAGRAPH_END"}
+IGNORED = {
+    "UPPERCASE_SENTENCE_START",
+    "WHITESPACE_RULE",
+    "PUNCTUATION_PARAGRAPH_END",
+    # «дві третіх» is the current Правопис form; this rule only argues it should be «треті».
+    "consistency_numeric_fractional",
+}
 
 
 def is_meta(text):
@@ -75,7 +81,7 @@ def check_many(texts):
         starts.append(pos)
         pos += len(t) + len(SEP)
     out = [[] for _ in texts]
-    for m in matches:
+    for m in (m for m in matches if m["rule"] not in IGNORED):  # also for results cached before a rule was ignored
         i = max(j for j, s in enumerate(starts) if s <= m["offset"])
         out[i].append(m)
     return out
